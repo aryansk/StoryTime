@@ -852,7 +852,7 @@ struct Story: Identifiable, Equatable {
     )
     
     static let samples = [
-        Story(title: "The Lost City", description: "Explore ancient ruins"),
+        Story(title: "The Lost City ", description: "Explore ancient ruins"),
         Story(title: "Space Pioneer", description: "Adventure in deep space"),
         Story(title: "Mystery Manor", description: "Solve the haunted mystery"),
         Story(title: "Dragon's Quest", description: "Epic fantasy journey"),
