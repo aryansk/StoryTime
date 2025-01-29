@@ -1,4 +1,4 @@
-# 📚 StoryTime 2.0
+# 📚 StoryTime
 
 An immersive iOS story creation and reading app powered by AI, offering interactive storytelling experiences through advanced natural language processing and dynamic narrative generation.
 
