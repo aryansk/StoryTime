@@ -8,7 +8,7 @@ An immersive iOS story creation and reading app powered by AI, offering interact
 ![SwiftUI](https://img.shields.io/badge/SwiftUI-4.0-purple.svg)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Active-brightgreen.svg)
 
-![Uploading Untitled design.png…]()
+![Untitled design](https://github.com/user-attachments/assets/8798a19f-f5fe-442b-9a72-acbe9be4836a)
 
 
 ## 📖 Table of Contents
