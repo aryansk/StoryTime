@@ -359,14 +359,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 - [Swift Package Manager](https://swift.org/package-manager/) for dependency management
 - Our amazing contributors and beta testers
 
-## 📬 Contact & Support
 
-- Email: support@storytime.app
-- Twitter: [@StorytimeApp](https://twitter.com/StorytimeApp)
-- Discord: [Join our community](https://discord.gg/storytime)
-
-Project Link: [https://github.com/yourusername/storytime-2.0](https://github.com/yourusername/storytime-2.0)
-
----
-
-Made with ❤️ by the StoryTime Team
