@@ -107,6 +107,7 @@ enum StoryCategory: String, CaseIterable {
     case mystery = "Mystery"
     case fantasy = "Fantasy"
     case sciFi = "Sci-Fi"
+    case game = "Game"
     
     var icon: String {
         switch self {
@@ -115,6 +116,7 @@ enum StoryCategory: String, CaseIterable {
         case .mystery: return "magnifyingglass"
         case .fantasy: return "wand.and.stars"
         case .sciFi: return "star"
+        case .game: return "gamecontroller"
         }
     }
 }

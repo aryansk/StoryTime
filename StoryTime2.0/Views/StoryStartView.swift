@@ -132,7 +132,7 @@ struct StoryStartView: View {
                         )
                         
                         // Start Button with improved animation
-                        NavigationLink(destination: StoryView(story: story, settings: settings)) {
+                        NavigationLink(destination: destinationView()) {
                             HStack {
                                 Text("Begin Story")
                                     .font(.headline.weight(.semibold))
@@ -216,6 +216,16 @@ struct StoryStartView: View {
             withAnimation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.3)) {
                 isAnimating = true
             }
+        }
+    }
+    
+    @ViewBuilder
+    private func destinationView() -> some View {
+        // Assuming that the game category is represented as .game
+        if story.category == .game {
+            SpacePioneerStoryView(settings: settings)
+        } else {
+            StoryView(story: story, settings: settings)
         }
     }
 }
