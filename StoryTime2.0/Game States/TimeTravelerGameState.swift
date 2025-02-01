@@ -7,6 +7,7 @@ enum TimeTravelerScenario: String {
     case paradox = "Time Paradox"
     case timeWar = "Time War"
     case convergence = "Temporal Convergence"
+    case end = "End"
 }
 
 struct TimeTravelerChoice {
@@ -170,11 +171,10 @@ class TimeTravelerGameState: ObservableObject {
                 )
             ]
             
-        default:
+        case .end:
             storyText = """
-            Your journey through time has transformed not just your own story, but the \
-            very nature of reality. Whether through unity, creation, or transcendence, \
-            your choices echo through the infinite corridors of time.
+            Your journey through time has forever altered the course of history. The ripples \
+            of your choices will echo through the ages, shaping countless lives and destinies.
             """
             choices = []
         }

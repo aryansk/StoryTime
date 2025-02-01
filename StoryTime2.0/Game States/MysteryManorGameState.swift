@@ -7,6 +7,7 @@ enum MysteryManorScenario: String {
     case ghostlyEncounter = "Ghostly Encounter"
     case ancientRitual = "Ancient Ritual"
     case finalTruth = "The Final Truth"
+    case end = "End"
 }
 
 struct MysteryManorChoice {
@@ -169,7 +170,7 @@ class MysteryManorGameState: ObservableObject {
                 )
             ]
             
-        default:
+        case .end:
             storyText = """
             The Mystery Manor's secrets have changed you forever. Whether as its guardian, \
             its destroyer, or something in between, your choices have written a new \

@@ -129,6 +129,14 @@ struct StoryEditorView: View {
         } message: {
             Text("Are you sure you want to delete this story? This action cannot be undone.")
         }
+
+        // Add navigation destination for the first scenario
+        if let firstScenario = story.scenarios.first {
+            EmptyView()
+                .navigationDestination(isPresented: $navigateToFirstScenario) {
+                    ScenarioEditorView(scenario: firstScenario, settings: settings)
+                }
+        }
     }
     
     private func shareStory() {
@@ -703,16 +711,6 @@ struct StoryBeginView: View {
             withAnimation(.spring(response: 0.6, dampingFraction: 0.8)) {
                 isAnimating = true
             }
-        }
-
-        // Add a hidden NavigationLink to trigger navigation to the first scenario's view
-        if let firstScenario = story.scenarios.first {
-            NavigationLink(
-                destination: ScenarioEditorView(scenario: firstScenario, settings: settings),
-                isActive: $navigateToFirstScenario,
-                label: { EmptyView() }
-            )
-            .hidden()
         }
     }
 }

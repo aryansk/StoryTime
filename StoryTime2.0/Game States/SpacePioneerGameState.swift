@@ -7,6 +7,7 @@ enum SpacePioneerScenario: String {
     case diplomaticCrisis = "Diplomatic Crisis"
     case cosmicThreat = "Cosmic Threat"
     case timeParadox = "Time Paradox"
+    case end = "End"
 }
 
 struct SpacePioneerChoice {
@@ -170,7 +171,7 @@ class SpacePioneerGameState: ObservableObject {
                 )
             ]
             
-        default:
+        case .end:
             storyText = """
             Your journey through the cosmos has changed not just humanity, but the very \
             fabric of reality. The choices you made will echo through eternity, shaping \

@@ -333,9 +333,11 @@ struct MyStoriesView: View {
                                         }
                                     )
                                     .buttonStyle(ScaledButtonStyle())
+                                    .transition(.opacity.combined(with: .move(edge: .bottom)))
                                 }
                             }
                             .padding(.horizontal)
+                            .animation(.interactiveSpring(response: 0.45, dampingFraction: 0.7), value: filteredStories)
                         }
                         .padding(.vertical)
                     }
@@ -642,10 +644,11 @@ struct StatItem: View {
 struct FilterPill: View {
     let filter: StoryFilter
     @Binding var selectedFilter: StoryFilter
+    @State private var isHovered = false
     
     var body: some View {
-        Button(action: { 
-            withAnimation(.spring(response: 0.3)) {
+        Button(action: {
+            withAnimation(.interactiveSpring(response: 0.45, dampingFraction: 0.7)) {
                 selectedFilter = filter
             }
         }) {
@@ -658,10 +661,22 @@ struct FilterPill: View {
             .padding(.horizontal, 16)
             .padding(.vertical, 12)
             .background(
-                RoundedRectangle(cornerRadius: 12)
+                RoundedRectangle(cornerRadius: 16)
                     .fill(selectedFilter == filter ? Color.blue : Color.blue.opacity(0.1))
+                    .shadow(color: selectedFilter == filter ? Color.blue.opacity(0.3) : .clear,
+                            radius: 8, y: 4)
             )
             .foregroundColor(selectedFilter == filter ? .white : .blue)
+            .scaleEffect(isHovered ? 0.98 : 1)
+            .animation(.interactiveSpring(response: 0.45, dampingFraction: 0.7), value: selectedFilter)
+            .animation(.interactiveSpring(response: 0.45, dampingFraction: 0.7), value: isHovered)
+            .transition(.opacity)
+        }
+        .buttonStyle(.plain)
+        .onHover { hovering in
+            withAnimation(.interactiveSpring(response: 0.45, dampingFraction: 0.7)) {
+                isHovered = hovering
+            }
         }
     }
     
