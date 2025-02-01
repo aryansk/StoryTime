@@ -151,7 +151,6 @@ struct ModernStoryCard: View {
 }
 
 struct FeaturedStoryCard: View {
-    let story: Story
     @ObservedObject var settings: SettingsModel
     @State private var isHovered = false
     
@@ -188,11 +187,11 @@ struct FeaturedStoryCard: View {
             }
             
             VStack(alignment: .leading, spacing: 8) {
-                Text(story.title)
+                Text(Story.featured.title)
                     .font(.title2.bold())
                     .foregroundColor(.primary)
                 
-                Text(story.description)
+                Text(Story.featured.description)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .lineLimit(2)
@@ -331,17 +330,7 @@ struct MyStoriesView: View {
                                             story: story,
                                             onPlayTapped: {
                                                 selectedStoryForReading = story
-                                            },
-                                            onDuplicate: {
-                                                // Create a duplicate story by copying properties and appending " Copy" to the title.
-                                                let duplicate = UserStory(
-                                                    title: story.title + " Copy",
-                                                    description: story.description,
-                                                    scenarios: story.scenarios
-                                                )
-                                                viewModel.addStory(duplicate)
-                                            },
-                                            settings: settings
+                                            }
                                         )
                                         .contentShape(Rectangle())
                                     }
@@ -398,10 +387,7 @@ struct MyStoriesView: View {
 struct MyStoryCard: View {
     let story: UserStory
     let onPlayTapped: () -> Void
-    let onDuplicate: () -> Void
-    @ObservedObject var settings: SettingsModel
     @Environment(\.colorScheme) var colorScheme
-    
     @State private var isHovered = false
     
     var body: some View {
@@ -485,41 +471,45 @@ struct MyStoryCard: View {
                 .padding(20)
             }
             
-            // Action Button Section
-            HStack {
-                Button(action: onPlayTapped) {
-                    HStack {
-                        Image(systemName: "play.fill")
-                        Text("Play Story")
-                    }
-                    .font(.headline)
-                    .padding()
-                    .frame(maxWidth: .infinity)
+            // Action Buttons
+            HStack(spacing: 20) {
+                ActionButton(
+                    icon: "pencil",
+                    color: .blue
+                ) {
+                    // Add edit action
                 }
-                .background(Color.blue)
-                .foregroundColor(.white)
-                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
-                .shadow(color: Color.blue.opacity(0.3), radius: 5, x: 0, y: 3)
+                
+                ActionButton(
+                    icon: "eye",
+                    color: .purple
+                ) {
+                    // Add preview action
+                }
+                
+                ActionButton(
+                    icon: "play.fill",
+                    color: .green,
+                    action: onPlayTapped
+                )
                 
                 Spacer()
                 
-                // The Menu with duplicate (and additional actions)
                 Menu {
                     Button(role: .destructive) {
-                        // Delete action, add your deletion logic here
+                        // Delete action
                     } label: {
                         Label("Delete Story", systemImage: "trash")
                     }
                     
                     Button {
-                        // Trigger duplication using the new onDuplicate closure
-                        onDuplicate()
+                        // Duplicate action
                     } label: {
                         Label("Duplicate Story", systemImage: "doc.on.doc")
                     }
                     
                     Button {
-                        // Share action, add sharing logic here
+                        // Share action
                     } label: {
                         Label("Share Story", systemImage: "square.and.arrow.up")
                     }
@@ -577,7 +567,7 @@ struct MyStoryCard: View {
     }
     
     private func timeAgoString(from date: Date) -> String {
-        // Replace with a proper time-ago calculation if needed
+        // Implement proper time ago calculation
         return "2 days ago"
     }
 }
@@ -628,27 +618,18 @@ struct ActionButton: View {
     var body: some View {
         Button(action: action) {
             Image(systemName: icon)
-                .font(.system(size: 20, weight: .medium))
+                .font(.system(size: 18, weight: .medium))
                 .foregroundColor(color)
-                .frame(width: 44, height: 44)
+                .frame(width: 40, height: 40)
                 .background(
-                    // Using a gradient background for a more modern look
                     Circle()
-                        .fill(
-                            LinearGradient(
-                                gradient: Gradient(colors: [color.opacity(0.2), color.opacity(0.1)]),
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            )
+                        .fill(color.opacity(0.1))
+                        .overlay(
+                            Circle()
+                                .strokeBorder(color.opacity(0.2), lineWidth: 1)
                         )
                 )
-                .overlay(
-                    Circle()
-                        .stroke(color.opacity(0.3), lineWidth: 1)
-                )
-                .shadow(color: color.opacity(0.2), radius: 3, x: 0, y: 2)
         }
-        .buttonStyle(PlainButtonStyle())
     }
 }
 

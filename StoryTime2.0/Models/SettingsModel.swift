@@ -8,7 +8,7 @@ class SettingsModel: ObservableObject {
         }
     }
     @AppStorage("selectedFontName") var selectedFontName: String = "New York"
-    @AppStorage("selectedTheme") var selectedTheme: Int = 0 // 0: Light Yellow, 1: Light Grey, 2: Custom
+    @AppStorage("selectedTheme") var selectedTheme: Int = 0 // 0: Light Yellow, 1: Light Grey, 2: Sepia, 3: Mint, 4: Lavender, 5: Custom
     @AppStorage("customThemeColor") var customThemeColor: String = "FFFFFF" // Stored as hex
     
     let minTextSize: Double = 12
@@ -30,6 +30,23 @@ class SettingsModel: ObservableObject {
     var themeColor: Color {
         currentThemeColor
     }
+    
+    // Add additional settings
+    @AppStorage("areNotificationsEnabled") var areNotificationsEnabled: Bool = true
+    @AppStorage("isHapticFeedbackEnabled") var isHapticFeedbackEnabled: Bool = true
+    
+    // Accessibility settings
+    @AppStorage("isReduceMotionEnabled") var isReduceMotionEnabled: Bool = false
+    @AppStorage("isHighContrastEnabled") var isHighContrastEnabled: Bool = false
+    
+    // Theme color constants
+    let themeColors: [(name: String, color: String)] = [
+        ("Light Yellow", "FFFBE6"),
+        ("Light Grey", "F5F5F5"),
+        ("Sepia", "F4ECD8"),
+        ("Mint", "F1F7ED"),
+        ("Lavender", "F3E5F5"),
+    ]
     
     init() {
         // Initialize with default theme color
@@ -62,15 +79,11 @@ class SettingsModel: ObservableObject {
     }
     
     private func updateThemeColor() {
-        switch selectedTheme {
-        case 0:
-            currentThemeColor = Color(hex: "FFFBE6") // Light Yellow
-        case 1:
-            currentThemeColor = Color(hex: "F5F5F5") // Light Grey
-        case 2:
+        if selectedTheme < themeColors.count {
+            currentThemeColor = Color(hex: themeColors[selectedTheme].color)
+        } else {
+            // Custom theme
             currentThemeColor = Color(hex: customThemeColor)
-        default:
-            currentThemeColor = Color(hex: "FFFBE6")
         }
     }
 }

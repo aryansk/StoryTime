@@ -40,8 +40,43 @@ struct SettingsView: View {
                         subtitle: "Adjust app appearance"
                     )
                 }
+                Toggle(isOn: $settings.areNotificationsEnabled) {
+                    SettingRow(
+                        icon: "bell.fill",
+                        title: "Notifications",
+                        subtitle: "Enable or disable notifications"
+                    )
+                }
+                Toggle(isOn: $settings.isHapticFeedbackEnabled) {
+                    SettingRow(
+                        icon: "wave.3.right.circle.fill",
+                        title: "Haptic Feedback",
+                        subtitle: "Enable or disable haptic feedback"
+                    )
+                }
             } header: {
                 Text("Display")
+                    .padding(.bottom, 8)
+            }
+
+            // Accessibility
+            Section {
+                Toggle(isOn: $settings.isReduceMotionEnabled) {
+                    SettingRow(
+                        icon: "tortoise.fill",
+                        title: "Reduce Motion",
+                        subtitle: "Minimize animations across the app"
+                    )
+                }
+                Toggle(isOn: $settings.isHighContrastEnabled) {
+                    SettingRow(
+                        icon: "eye.fill",
+                        title: "High Contrast",
+                        subtitle: "Enhance contrast for readability"
+                    )
+                }
+            } header: {
+                Text("Accessibility")
                     .padding(.bottom, 8)
             }
             
@@ -84,12 +119,10 @@ struct SettingsView: View {
     }
     
     private var themeDescription: String {
-        switch settings.selectedTheme {
-        case 0: return "Light Yellow"
-        case 1: return "Light Grey"
-        case 2: return "Custom Color"
-        default: return "Light Yellow"
+        if settings.selectedTheme < settings.themeColors.count {
+            return settings.themeColors[settings.selectedTheme].name
         }
+        return "Custom Color"
     }
 }
 
@@ -182,14 +215,21 @@ struct ThemeSettingsView: View {
     var body: some View {
         List {
             Section {
-                themeButton("Light Yellow", color: Color(hex: "FFFBE6"), tag: 0)
-                themeButton("Light Grey", color: Color(hex: "F5F5F5"), tag: 1)
+                // Predefined themes
+                ForEach(0..<settings.themeColors.count, id: \.self) { index in
+                    themeButton(
+                        settings.themeColors[index].name,
+                        color: Color(hex: settings.themeColors[index].color),
+                        tag: index
+                    )
+                }
                 
+                // Custom color option
                 Button(action: { showingColorPicker = true }) {
                     HStack {
                         Text("Custom Color")
                         Spacer()
-                        if settings.selectedTheme == 2 {
+                        if settings.selectedTheme == settings.themeColors.count {
                             Circle()
                                 .fill(Color(hex: settings.customThemeColor))
                                 .frame(width: 24, height: 24)
@@ -197,25 +237,52 @@ struct ThemeSettingsView: View {
                                     Circle()
                                         .stroke(Color.gray, lineWidth: 1)
                                 )
-                                .transition(.scale.combined(with: .opacity))
                         }
-                        if settings.selectedTheme == 2 {
+                        if settings.selectedTheme == settings.themeColors.count {
                             Image(systemName: "checkmark")
                                 .foregroundColor(.blue)
-                                .transition(.scale.combined(with: .opacity))
                         }
                     }
                 }
             } header: {
                 Text("Background Theme")
+            } footer: {
+                Text("Choose a theme color that makes reading comfortable for your eyes. The preview below shows how your selection will look.")
+            }
+            
+            // Theme Preview Section
+            Section {
+                VStack(alignment: .leading, spacing: 16) {
+                    Text("Theme Preview")
+                        .font(.headline)
+                    
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Once upon a time...")
+                            .font(.custom(settings.selectedFontName, size: 20))
+                            .foregroundColor(.primary)
+                        
+                        Text("This is how your story will appear with the selected theme. Make sure the contrast and colors are comfortable for extended reading sessions.")
+                            .font(.custom(settings.selectedFontName, size: 16))
+                            .foregroundColor(.secondary)
+                    }
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                    .background(
+                        RoundedRectangle(cornerRadius: 12)
+                            .fill(selectedThemeTag < settings.themeColors.count 
+                                ? Color(hex: settings.themeColors[selectedThemeTag].color)
+                                : Color(hex: settings.customThemeColor))
+                    )
+                    .cornerRadius(12)
+                }
+                .padding(.vertical, 8)
+            } header: {
+                Text("Preview")
             }
         }
         .navigationTitle("Theme")
         .onChange(of: selectedThemeTag) { oldValue, newValue in
             settings.transitionToTheme(newValue)
-        }
-        .sheet(isPresented: $showingColorPicker) {
-            ColorPickerView(selectedColor: $selectedColor, settings: settings)
         }
     }
     
@@ -223,22 +290,27 @@ struct ThemeSettingsView: View {
         Button(action: { selectedThemeTag = tag }) {
             HStack {
                 Text(title)
+                    .foregroundColor(.primary)
                 Spacer()
-                Circle()
-                    .fill(color)
-                    .frame(width: 24, height: 24)
-                    .overlay(
+                ZStack {
+                    Circle()
+                        .fill(color)
+                        .frame(width: 24, height: 24)
+                        .overlay(
+                            Circle()
+                                .stroke(Color.gray.opacity(0.3), lineWidth: 1)
+                        )
+                    
+                    if settings.selectedTheme == tag {
                         Circle()
-                            .stroke(Color.gray, lineWidth: 1)
-                    )
-                if settings.selectedTheme == tag {
-                    Image(systemName: "checkmark")
-                        .foregroundColor(.blue)
-                        .transition(.scale.combined(with: .opacity))
+                            .stroke(Color.blue, lineWidth: 2)
+                            .frame(width: 30, height: 30)
+                    }
                 }
             }
+            .contentShape(Rectangle())
+            .padding(.vertical, 4)
         }
-        .contentTransition(.opacity)
     }
 }
 
@@ -275,7 +347,7 @@ struct ColorPickerView: View {
                 ToolbarItem(placement: .confirmationAction) {
                     Button("Done") {
                         settings.customThemeColor = selectedColor.toHex()
-                        settings.selectedTheme = 2
+                        settings.selectedTheme = settings.themeColors.count
                         dismiss()
                     }
                 }

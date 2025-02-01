@@ -25,7 +25,7 @@ struct CuratedStoriesView: View {
                 VStack(alignment: .leading, spacing: 16) {
                     // Featured Story
                     NavigationLink(destination: StoryStartView(story: Story.featured, settings: settings)) {
-                        FeaturedStoryCard(story: Story.featured, settings: settings)
+                        FeaturedStoryCard(settings: settings)
                             .padding(.horizontal)
                     }
                     .buttonStyle(ScaledButtonStyle())
