@@ -325,15 +325,13 @@ struct MyStoriesView: View {
                                 GridItem(.flexible())
                             ], spacing: 20) {
                                 ForEach(filteredStories) { story in
-                                    NavigationLink(destination: StoryEditorView(story: story, settings: settings)) {
-                                        MyStoryCard(
-                                            story: story,
-                                            onPlayTapped: {
-                                                selectedStoryForReading = story
-                                            }
-                                        )
-                                        .contentShape(Rectangle())
-                                    }
+                                    MyStoryCard(
+                                        story: story,
+                                        onPlayTapped: {
+                                            selectedStoryForReading = story
+                                            print("Selected story: \(story.title)")
+                                        }
+                                    )
                                     .buttonStyle(ScaledButtonStyle())
                                 }
                             }
@@ -370,11 +368,11 @@ struct MyStoriesView: View {
             .sheet(isPresented: $showingNewStorySheet) {
                 CreateStoryView(viewModel: viewModel, settings: settings)
             }
-            .navigationDestination(item: $selectedStoryForReading) { story in
+            .navigationDestination(item: $selectedStoryForReading) { userStory in
                 StoryStartView(
                     story: Story(
-                        title: story.title,
-                        description: story.description
+                        title: userStory.title,
+                        description: userStory.description
                     ),
                     settings: settings
                 )
@@ -394,10 +392,10 @@ struct MyStoryCard: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             // Header Section
-            VStack(alignment: .leading, spacing: 16) {
-                HStack(alignment: .top) {
-                    // Title and Status
-                    VStack(alignment: .leading, spacing: 8) {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack(alignment: .center) {
+                    // Title and Description
+                    VStack(alignment: .leading, spacing: 4) {
                         Text(story.title)
                             .font(.title3.bold())
                             .foregroundColor(.primary)
@@ -417,14 +415,15 @@ struct MyStoryCard: View {
             
             // Story Preview
             StoryPreviewSection(story: story)
+                .clipShape(RoundedRectangle(cornerRadius: 16))
             
             // Action Buttons
             HStack(spacing: 16) {
-                // Write Story Button
+                // Play Button
                 ActionButton(
-                    title: story.scenarios.isEmpty ? "Start Writing" : "Continue Writing",
-                    icon: "pencil.line",
-                    color: .blue,
+                    title: "Play",
+                    icon: "play.fill",
+                    color: .green,
                     action: onPlayTapped
                 )
                 
@@ -460,19 +459,27 @@ struct MyStoryCard: View {
         }
         .padding(20)
         .background(
+            // New gradient background with ultra-thin material overlay
             RoundedRectangle(cornerRadius: 24)
-                .fill(Color(UIColor.secondarySystemGroupedBackground))
+                .fill(
+                    LinearGradient(
+                        gradient: Gradient(colors: [Color(UIColor.systemBackground), Color(UIColor.secondarySystemBackground)]),
+                        startPoint: .topLeading,
+                        endPoint: .bottomTrailing
+                    )
+                )
+                .background(.ultraThinMaterial)
                 .shadow(
-                    color: .black.opacity(isHovered ? 0.12 : 0.08),
+                    color: .black.opacity(isHovered ? 0.15 : 0.08),
                     radius: isHovered ? 15 : 10,
                     y: isHovered ? 8 : 4
                 )
         )
         .overlay(
             RoundedRectangle(cornerRadius: 24)
-                .strokeBorder(
+                .stroke(
                     LinearGradient(
-                        colors: [.blue.opacity(0.5), .purple.opacity(0.5)],
+                        colors: [Color.blue.opacity(0.5), Color.purple.opacity(0.5)],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
                     ),

@@ -94,7 +94,7 @@ struct SettingsView: View {
                         
                         Text("This is how your story will appear while reading. The text size, font, and colors reflect your current settings.")
                             .font(.custom(settings.selectedFontName, size: max(settings.textSize - 2, settings.minTextSize)))
-                            .foregroundColor(.secondary)
+                            .foregroundColor(settings.isHighContrastEnabled ? .primary : .secondary)
                     }
                     .padding()
                     .frame(maxWidth: .infinity, alignment: .leading)
@@ -115,6 +115,15 @@ struct SettingsView: View {
         .scrollContentBackground(.hidden)
         .sheet(isPresented: $showingColorPicker) {
             ColorPickerView(selectedColor: $selectedColor, settings: settings)
+        }
+        // When Reduce Motion is enabled, disable animations globally for smoother accessibility experience.
+        .onChange(of: settings.isReduceMotionEnabled) { newValue in
+            UIView.setAnimationsEnabled(!newValue)
+        }
+        // You can add additional code here for high contrast adjustments as needed.
+        .onChange(of: settings.isHighContrastEnabled) { newValue in
+            // For demonstration, we rely on SwiftUI's dynamic appearance;
+            // further customizations can be applied here if required.
         }
     }
     

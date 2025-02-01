@@ -46,6 +46,10 @@ struct StoryStartView: View {
                         category: story.category,
                         scrollOffset: $scrollOffset
                     )
+                    .overlay(
+                        Rectangle()
+                            .fill(Color.black.opacity(0.2))
+                    )
                     
                     // Story Content with improved layout
                     VStack(alignment: .leading, spacing: 28) {
@@ -133,24 +137,30 @@ struct StoryStartView: View {
                         
                         // Start Button with improved animation
                         NavigationLink(destination: destinationView()) {
-                            HStack {
+                            HStack(spacing: 10) {
                                 Text("Begin Story")
-                                    .font(.headline.weight(.semibold))
-                                Image(systemName: "arrow.right")
-                                    .font(.system(size: 16, weight: .bold))
+                                    .font(.title2.bold())
+                                    .foregroundColor(.white)
+                                Image(systemName: "arrow.right.circle.fill")
+                                    .font(.title2)
+                                    .foregroundColor(.white)
+                                    .padding(.leading, 4)
                             }
-                            .foregroundColor(.white)
-                            .padding()
+                            .padding(.vertical, 16)
+                            .padding(.horizontal, 32)
                             .frame(maxWidth: .infinity)
                             .background(
                                 LinearGradient(
-                                    colors: [.blue, .blue.opacity(0.8)],
+                                    gradient: Gradient(colors: [Color.blue, Color.blue.opacity(0.8)]),
                                     startPoint: .leading,
                                     endPoint: .trailing
                                 )
                             )
                             .clipShape(Capsule())
-                            .shadow(color: .blue.opacity(0.3), radius: 8, y: 4)
+                            .shadow(color: Color.blue.opacity(0.5), radius: 12, x: 0, y: 6)
+                            .scaleEffect(isAnimating ? 0.98 : 1)
+                            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: isAnimating)
+                            .accessibilityLabel("Begin Story")
                         }
                         .buttonStyle(ScaleButtonStyle())
                         .padding(.horizontal)
@@ -176,28 +186,6 @@ struct StoryStartView: View {
                     Image(systemName: "chevron.left")
                         .font(.system(size: 16, weight: .semibold))
                         .foregroundColor(.primary)
-                }
-            }
-            
-            ToolbarItem(placement: .navigationBarTrailing) {
-                HStack(spacing: 16) {
-                    Button(action: { showSettings = true }) {
-                        Image(systemName: "gearshape")
-                            .font(.system(size: 18))
-                            .foregroundColor(.primary)
-                    }
-                    
-                    Button(action: { isBookmarked.toggle() }) {
-                        Image(systemName: isBookmarked ? "bookmark.fill" : "bookmark")
-                            .font(.system(size: 18))
-                            .foregroundColor(isBookmarked ? .blue : .primary)
-                    }
-                    
-                    Button(action: { showShareSheet = true }) {
-                        Image(systemName: "square.and.arrow.up")
-                            .font(.system(size: 18))
-                            .foregroundColor(.primary)
-                    }
                 }
             }
         }
