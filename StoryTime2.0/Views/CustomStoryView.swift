@@ -34,7 +34,7 @@ struct CustomStoryView: View {
     
     var body: some View {
         ZStack {
-            // Dynamic Background
+            // Dynamic Background with smooth transition
             LinearGradient(
                 colors: [
                     settings.themeColor.opacity(0.1),
@@ -43,7 +43,8 @@ struct CustomStoryView: View {
                 startPoint: .top,
                 endPoint: .bottom
             )
-                .ignoresSafeArea()
+            .ignoresSafeArea()
+            .animation(.spring(response: 0.6, dampingFraction: 0.8), value: settings.themeColor)
             
             VStack(spacing: 0) {
                 // Story Content
@@ -182,6 +183,11 @@ struct CustomStoryView: View {
         .navigationBarTitleDisplayMode(.large)
         .onAppear {
             isAnimating = true
+        }
+        .onChange(of: settings.selectedTheme) { oldValue, newValue in
+            // Add haptic feedback for theme changes
+            let generator = UIImpactFeedbackGenerator(style: .light)
+            generator.impactOccurred()
         }
     }
 }

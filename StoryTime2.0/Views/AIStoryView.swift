@@ -37,6 +37,9 @@ struct AIStoryView: View {
                             }
                         }
                         .padding()
+                        .background(Color(UIColor.systemBackground).opacity(0.9))
+                        .cornerRadius(12)
+                        .shadow(color: Color.black.opacity(0.1), radius: 10, y: 5)
                     }
                 }
                 
@@ -47,6 +50,7 @@ struct AIStoryView: View {
                     showingPromptSheet: $showingPromptSheet,
                     showingSaveSheet: $showingSaveSheet
                 )
+                .padding(.bottom, 20)
             }
         }
         .alert("Error", isPresented: .constant(viewModel.error != nil)) {

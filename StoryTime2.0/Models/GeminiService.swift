@@ -1,7 +1,9 @@
+import SwiftUI
+
 import Foundation
 
 class GeminiService {
-    private let apiKey = "AIzaSyDyJhbMVyHXwkhQycdDQ4Ka0WJKRrEgSnI"
+    private let apiKey = "AIzaSyDKO-FNODyLj078wIBwAgXzeTBBE58LOpc"
     private let baseURL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent"
     
     func generateStoryContent(prompt: String) async throws -> StoryResponse {

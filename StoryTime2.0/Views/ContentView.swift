@@ -151,6 +151,7 @@ struct ModernStoryCard: View {
 }
 
 struct FeaturedStoryCard: View {
+    let story: Story
     @ObservedObject var settings: SettingsModel
     @State private var isHovered = false
     
@@ -187,11 +188,11 @@ struct FeaturedStoryCard: View {
             }
             
             VStack(alignment: .leading, spacing: 8) {
-                Text(Story.featured.title)
+                Text(story.title)
                     .font(.title2.bold())
                     .foregroundColor(.primary)
                 
-                Text(Story.featured.description)
+                Text(story.description)
                     .font(.subheadline)
                     .foregroundColor(.secondary)
                     .lineLimit(2)
@@ -330,7 +331,17 @@ struct MyStoriesView: View {
                                             story: story,
                                             onPlayTapped: {
                                                 selectedStoryForReading = story
-                                            }
+                                            },
+                                            onDuplicate: {
+                                                // Create a duplicate story by copying properties and appending " Copy" to the title.
+                                                let duplicate = UserStory(
+                                                    title: story.title + " Copy",
+                                                    description: story.description,
+                                                    scenarios: story.scenarios
+                                                )
+                                                viewModel.addStory(duplicate)
+                                            },
+                                            settings: settings
                                         )
                                         .contentShape(Rectangle())
                                     }
@@ -387,82 +398,44 @@ struct MyStoriesView: View {
 struct MyStoryCard: View {
     let story: UserStory
     let onPlayTapped: () -> Void
+    let onDuplicate: () -> Void
+    @ObservedObject var settings: SettingsModel
     @Environment(\.colorScheme) var colorScheme
+    
     @State private var isHovered = false
-    @State private var showingOptions = false
     
     var body: some View {
         VStack(alignment: .leading, spacing: 24) {
-            // Header Row
-            HStack(alignment: .top, spacing: 20) {
-                // Progress Ring with Animation
-                ZStack {
-                    Circle()
-                        .stroke(
-                            LinearGradient(
-                                colors: [.gray.opacity(0.2), .gray.opacity(0.1)],
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            ),
-                            lineWidth: 6
-                        )
-                        .frame(width: 70, height: 70)
+            // Header
+            VStack(alignment: .leading, spacing: 12) {
+                // Title and Status Badge
+                HStack {
+                    Text(story.title)
+                        .font(.title3.bold())
+                        .foregroundColor(.primary)
                     
-                    Circle()
-                        .trim(from: 0, to: min(Double(story.scenarios.count) / 5.0, 1.0))
-                        .stroke(
-                            LinearGradient(
-                                gradient: Gradient(colors: [.yellow, .orange]),
-                                startPoint: .topLeading,
-                                endPoint: .bottomTrailing
-                            ),
-                            style: StrokeStyle(lineWidth: 6, lineCap: .round)
-                        )
-                        .frame(width: 70, height: 70)
-                        .rotationEffect(.degrees(-90))
-                        .animation(.spring(response: 1, dampingFraction: 0.8), value: story.scenarios.count)
+                    Spacer()
                     
-                    VStack(spacing: 2) {
-                        Text("\(Int((Double(story.scenarios.count) / 5.0) * 100))%")
-                            .font(.system(size: 18, weight: .bold))
-                        Text("Complete")
-                            .font(.system(size: 11))
-                            .foregroundColor(.secondary)
-                    }
+                    // Enhanced Status Badge
+                    Text(storyStatus)
+                        .font(.system(size: 12, weight: .semibold))
+                        .padding(.horizontal, 12)
+                        .padding(.vertical, 6)
+                        .background(
+                            Capsule()
+                                .fill(statusColor.opacity(0.15))
+                                .overlay(
+                                    Capsule()
+                                        .strokeBorder(statusColor.opacity(0.3), lineWidth: 1)
+                                )
+                        )
+                        .foregroundColor(statusColor)
                 }
-                .padding(4)
                 
-                VStack(alignment: .leading, spacing: 12) {
-                    // Title and Status
-                    HStack {
-                        Text(story.title)
-                            .font(.title3.bold())
-                            .foregroundColor(.primary)
-                        
-                        Spacer()
-                        
-                        // Status Badge
-                        Text(storyStatus)
-                            .font(.system(size: 12, weight: .semibold))
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 6)
-                            .background(
-                                Capsule()
-                                    .fill(statusColor.opacity(0.15))
-                                    .overlay(
-                                        Capsule()
-                                            .strokeBorder(statusColor.opacity(0.3), lineWidth: 1)
-                                    )
-                            )
-                            .foregroundColor(statusColor)
-                    }
-                    
-                    Text(story.description)
-                        .font(.subheadline)
-                        .foregroundColor(.secondary)
-                        .lineLimit(2)
-                        .padding(.trailing, 8)
-                }
+                Text(story.description)
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    .lineLimit(2)
             }
             
             // Story Banner
@@ -470,19 +443,16 @@ struct MyStoryCard: View {
                 RoundedRectangle(cornerRadius: 20)
                     .fill(
                         LinearGradient(
-                            gradient: Gradient(colors: [
-                                Color.yellow.opacity(0.8),
-                                Color.orange.opacity(0.8)
-                            ]),
+                            colors: [.yellow.opacity(0.8), .orange.opacity(0.8)],
                             startPoint: .topLeading,
                             endPoint: .bottomTrailing
                         )
                     )
+                    .frame(height: 120)
                     .overlay(
                         RoundedRectangle(cornerRadius: 20)
                             .strokeBorder(.white.opacity(0.1), lineWidth: 1)
                     )
-                    .frame(height: 130)
                 
                 // Decorative elements
                 Circle()
@@ -515,116 +485,41 @@ struct MyStoryCard: View {
                 .padding(20)
             }
             
-            // Stats Row
-            HStack(spacing: 32) {
-                // Scenes Stats
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("SCENES")
-                        .font(.system(size: 11, weight: .medium))
-                        .foregroundColor(.secondary)
-                    
-                    HStack(alignment: .firstTextBaseline, spacing: 4) {
-                        Text("\(story.scenarios.count)")
-                            .font(.system(size: 24, weight: .bold))
-                        Text("/5")
-                            .font(.system(size: 16))
-                            .foregroundColor(.secondary)
-                    }
-                }
-                
-                // Word Count
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("WORDS")
-                        .font(.system(size: 11, weight: .medium))
-                        .foregroundColor(.secondary)
-                    
-                    Text("\(wordCount)")
-                        .font(.system(size: 24, weight: .bold))
-                }
-                
-                // Read Time
-                VStack(alignment: .leading, spacing: 6) {
-                    Text("READ TIME")
-                        .font(.system(size: 11, weight: .medium))
-                        .foregroundColor(.secondary)
-                    
-                    Text("\(estimatedReadTime) min")
-                        .font(.system(size: 24, weight: .bold))
-                }
-            }
-            .padding(.top, 4)
-            
-            // Action Buttons
-            HStack(spacing: 16) {
-                Button(action: {
-                    // Add edit action
-                }) {
-                    Label("Edit", systemImage: "pencil")
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundColor(.blue)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(
-                            Capsule()
-                                .fill(Color.blue.opacity(0.1))
-                                .overlay(
-                                    Capsule()
-                                        .strokeBorder(Color.blue.opacity(0.2), lineWidth: 1)
-                                )
-                        )
-                }
-                
-                Button(action: {
-                    // Add preview action
-                }) {
-                    Label("Preview", systemImage: "eye")
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundColor(.purple)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(
-                            Capsule()
-                                .fill(Color.purple.opacity(0.1))
-                                .overlay(
-                                    Capsule()
-                                        .strokeBorder(Color.purple.opacity(0.2), lineWidth: 1)
-                                )
-                        )
-                }
-                
+            // Action Button Section
+            HStack {
                 Button(action: onPlayTapped) {
-                    Label("Play", systemImage: "play.fill")
-                        .font(.system(size: 14, weight: .medium))
-                        .foregroundColor(.green)
-                        .padding(.horizontal, 16)
-                        .padding(.vertical, 8)
-                        .background(
-                            Capsule()
-                                .fill(Color.green.opacity(0.1))
-                                .overlay(
-                                    Capsule()
-                                        .strokeBorder(Color.green.opacity(0.2), lineWidth: 1)
-                                )
-                        )
+                    HStack {
+                        Image(systemName: "play.fill")
+                        Text("Play Story")
+                    }
+                    .font(.headline)
+                    .padding()
+                    .frame(maxWidth: .infinity)
                 }
+                .background(Color.blue)
+                .foregroundColor(.white)
+                .clipShape(RoundedRectangle(cornerRadius: 12, style: .continuous))
+                .shadow(color: Color.blue.opacity(0.3), radius: 5, x: 0, y: 3)
                 
                 Spacer()
                 
+                // The Menu with duplicate (and additional actions)
                 Menu {
                     Button(role: .destructive) {
-                        // Delete action
+                        // Delete action, add your deletion logic here
                     } label: {
                         Label("Delete Story", systemImage: "trash")
                     }
                     
                     Button {
-                        // Duplicate action
+                        // Trigger duplication using the new onDuplicate closure
+                        onDuplicate()
                     } label: {
                         Label("Duplicate Story", systemImage: "doc.on.doc")
                     }
                     
                     Button {
-                        // Share action
+                        // Share action, add sharing logic here
                     } label: {
                         Label("Share Story", systemImage: "square.and.arrow.up")
                     }
@@ -649,7 +544,7 @@ struct MyStoryCard: View {
             RoundedRectangle(cornerRadius: 24)
                 .strokeBorder(
                     LinearGradient(
-                        gradient: Gradient(colors: [.blue.opacity(0.3), .purple.opacity(0.3)]),
+                        colors: [.blue.opacity(0.3), .purple.opacity(0.3)],
                         startPoint: .topLeading,
                         endPoint: .bottomTrailing
                     ),
@@ -663,6 +558,14 @@ struct MyStoryCard: View {
         }
     }
     
+    private var statusColor: Color {
+        switch storyStatus {
+        case "Draft": return .orange
+        case "Complete": return .green
+        default: return .blue
+        }
+    }
+    
     private var storyStatus: String {
         if story.scenarios.isEmpty {
             return "Draft"
@@ -673,29 +576,79 @@ struct MyStoryCard: View {
         }
     }
     
-    private var statusColor: Color {
-        switch storyStatus {
-        case "Draft": return .orange
-        case "Complete": return .green
-        default: return .blue
-        }
-    }
-    
-    private var wordCount: Int {
-        story.scenarios.reduce(0) { count, scenario in
-            count + scenario.storyText.split(separator: " ").count
-        }
-    }
-    
-    private var estimatedReadTime: String {
-        let wordsPerMinute = 200
-        let minutes = max(1, wordCount / wordsPerMinute)
-        return "\(minutes)"
-    }
-    
-    // Helper function for time ago string
     private func timeAgoString(from date: Date) -> String {
-        "2 days ago" // Replace with actual time calculation
+        // Replace with a proper time-ago calculation if needed
+        return "2 days ago"
+    }
+}
+
+// Supporting Views
+struct StatItem: View {
+    let title: String
+    let value: String
+    var total: String? = nil
+    var unit: String? = nil
+    let icon: String
+    
+    var body: some View {
+        VStack(alignment: .leading, spacing: 6) {
+            Text(title)
+                .font(.system(size: 11, weight: .medium))
+                .foregroundColor(.secondary)
+            
+            HStack(alignment: .firstTextBaseline, spacing: 4) {
+                Image(systemName: icon)
+                    .font(.system(size: 14))
+                    .foregroundColor(.secondary)
+                
+                Text(value)
+                    .font(.system(size: 24, weight: .bold))
+                
+                if let total = total {
+                    Text(total)
+                        .font(.system(size: 16))
+                        .foregroundColor(.secondary)
+                }
+                
+                if let unit = unit {
+                    Text(unit)
+                        .font(.system(size: 16))
+                        .foregroundColor(.secondary)
+                }
+            }
+        }
+    }
+}
+
+struct ActionButton: View {
+    let icon: String
+    let color: Color
+    let action: () -> Void
+    
+    var body: some View {
+        Button(action: action) {
+            Image(systemName: icon)
+                .font(.system(size: 20, weight: .medium))
+                .foregroundColor(color)
+                .frame(width: 44, height: 44)
+                .background(
+                    // Using a gradient background for a more modern look
+                    Circle()
+                        .fill(
+                            LinearGradient(
+                                gradient: Gradient(colors: [color.opacity(0.2), color.opacity(0.1)]),
+                                startPoint: .topLeading,
+                                endPoint: .bottomTrailing
+                            )
+                        )
+                )
+                .overlay(
+                    Circle()
+                        .stroke(color.opacity(0.3), lineWidth: 1)
+                )
+                .shadow(color: color.opacity(0.2), radius: 3, x: 0, y: 2)
+        }
+        .buttonStyle(PlainButtonStyle())
     }
 }
 

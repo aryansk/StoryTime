@@ -2,7 +2,6 @@ import SwiftUI
 
 class SettingsModel: ObservableObject {
     @AppStorage("textSize") var textSize: Double = 16
-    @AppStorage("typingSpeed") var typingSpeed: Double = 0.05
     @AppStorage("isDarkMode") var isDarkMode: Bool = false {
         didSet {
             applyTheme()
@@ -14,8 +13,6 @@ class SettingsModel: ObservableObject {
     
     let minTextSize: Double = 12
     let maxTextSize: Double = 24
-    let minTypingSpeed: Double = 0.01
-    let maxTypingSpeed: Double = 0.1
     
     let availableFonts = [
         "New York",
@@ -25,20 +22,18 @@ class SettingsModel: ObservableObject {
         "Baskerville"
     ]
     
+    @Published var isTransitioning: Bool = false
+    private var themeTransitionTimer: Timer?
+    
+    @Published private var currentThemeColor: Color
+    
     var themeColor: Color {
-        switch selectedTheme {
-        case 0:
-            return Color(hex: "FFFBE6") // Light Yellow
-        case 1:
-            return Color(hex: "F5F5F5") // Light Grey
-        case 2:
-            return Color(hex: customThemeColor)
-        default:
-            return Color(hex: "FFFBE6")
-        }
+        currentThemeColor
     }
     
     init() {
+        // Initialize with default theme color
+        self.currentThemeColor = Color(hex: "FFFBE6") // Light Yellow
         applyTheme()
     }
     
@@ -48,6 +43,34 @@ class SettingsModel: ObservableObject {
             windowScene.windows.forEach { window in
                 window.overrideUserInterfaceStyle = isDarkMode ? .dark : .light
             }
+        }
+    }
+    
+    func transitionToTheme(_ newTheme: Int) {
+        isTransitioning = true
+        
+        withAnimation(.spring(response: 0.6, dampingFraction: 0.8)) {
+            selectedTheme = newTheme
+            updateThemeColor()
+        }
+        
+        // Reset transition flag after animation completes
+        themeTransitionTimer?.invalidate()
+        themeTransitionTimer = Timer.scheduledTimer(withTimeInterval: 0.6, repeats: false) { [weak self] _ in
+            self?.isTransitioning = false
+        }
+    }
+    
+    private func updateThemeColor() {
+        switch selectedTheme {
+        case 0:
+            currentThemeColor = Color(hex: "FFFBE6") // Light Yellow
+        case 1:
+            currentThemeColor = Color(hex: "F5F5F5") // Light Grey
+        case 2:
+            currentThemeColor = Color(hex: customThemeColor)
+        default:
+            currentThemeColor = Color(hex: "FFFBE6")
         }
     }
 }
