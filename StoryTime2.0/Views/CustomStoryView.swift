@@ -30,6 +30,7 @@ struct CustomStoryView: View {
     @State private var prompt: String = ""
     @State private var storyHistory: [(text: String, choices: [StoryChoice])] = []
     @State private var showingPromptSheet = false
+    @State private var showingAllPrompts = false
     @State private var isAnimating = false
     
     var body: some View {
@@ -81,13 +82,27 @@ struct CustomStoryView: View {
                                 
                                 // Quick Prompts
                                 VStack(alignment: .leading, spacing: 16) {
-                                    Text("Quick Prompts")
-                                        .font(.headline)
-                                        .foregroundColor(.primary)
+                                    HStack {
+                                        Text("Quick Prompts")
+                                            .font(.headline)
+                                            .foregroundColor(.primary)
+                                        
+                                        Spacer()
+                                        
+                                        Button(action: { showingAllPrompts = true }) {
+                                            HStack(spacing: 4) {
+                                                Text("View All")
+                                                    .font(.subheadline)
+                                                Image(systemName: "chevron.right")
+                                                    .font(.system(size: 12))
+                                            }
+                                            .foregroundColor(.purple)
+                                        }
+                                    }
                                     
                                     ScrollView(.horizontal, showsIndicators: false) {
                                         HStack(spacing: 12) {
-                                            ForEach(QuickPrompt.samples, id: \.title) { prompt in
+                                            ForEach(QuickPrompt.samples.prefix(5), id: \.title) { prompt in
                                                 QuickPromptCard(
                                                     prompt: prompt,
                                                     action: {
@@ -178,6 +193,13 @@ struct CustomStoryView: View {
                     }
                 }
             )
+        }
+        .sheet(isPresented: $showingAllPrompts) {
+            AllPromptsView(settings: settings) { selectedPrompt in
+                self.prompt = selectedPrompt.prompt
+                showingPromptSheet = true
+                showingAllPrompts = false
+            }
         }
         .navigationTitle("AI Story Creator")
         .navigationBarTitleDisplayMode(.large)
@@ -452,30 +474,84 @@ struct PromptInputView: View {
 
 // MARK: - Models
 
-struct QuickPrompt {
+struct QuickPrompt: Identifiable {
+    let id = UUID()
     let title: String
     let description: String
     let prompt: String
     let icon: String
+    let category: PromptCategory
     
     static let samples = [
         QuickPrompt(
             title: "Fantasy Adventure",
             description: "Embark on a magical journey",
             prompt: "Create a fantasy story about a young wizard discovering their powers",
-            icon: "wand.and.stars"
+            icon: "wand.and.stars",
+            category: .fantasy
         ),
         QuickPrompt(
             title: "Mystery",
             description: "Solve an intriguing case",
             prompt: "Write a detective story set in a small town with a mysterious disappearance",
-            icon: "magnifyingglass"
+            icon: "magnifyingglass",
+            category: .mystery
         ),
         QuickPrompt(
             title: "Sci-Fi",
             description: "Explore the unknown",
             prompt: "Tell a story about first contact with an alien civilization",
-            icon: "star"
+            icon: "star",
+            category: .sciFi
+        ),
+        QuickPrompt(
+            title: "Time Travel",
+            description: "Change history's course",
+            prompt: "Write a story about a historian who discovers a way to visit any moment in time",
+            icon: "clock.fill",
+            category: .sciFi
+        ),
+        QuickPrompt(
+            title: "Cyberpunk",
+            description: "High tech, low life",
+            prompt: "Create a story in a neon-lit future where AI and humans coexist",
+            icon: "cpu.fill",
+            category: .sciFi
+        ),
+        QuickPrompt(
+            title: "Horror",
+            description: "Face your fears",
+            prompt: "Tell a suspenseful story about strange occurrences in an abandoned mansion",
+            icon: "moon.stars.fill",
+            category: .horror
+        ),
+        QuickPrompt(
+            title: "Adventure",
+            description: "Discover hidden treasures",
+            prompt: "Write about an archaeologist uncovering an ancient civilization's secrets",
+            icon: "map.fill",
+            category: .adventure
+        ),
+        QuickPrompt(
+            title: "Superhero",
+            description: "Become extraordinary",
+            prompt: "Create a story about an ordinary person who suddenly develops unique abilities",
+            icon: "bolt.fill",
+            category: .action
+        ),
+        QuickPrompt(
+            title: "Fairy Tale",
+            description: "Once upon a time...",
+            prompt: "Write a modern twist on a classic fairy tale with unexpected turns",
+            icon: "sparkles",
+            category: .fantasy
+        ),
+        QuickPrompt(
+            title: "Post-Apocalyptic",
+            description: "Survive the aftermath",
+            prompt: "Tell a story about rebuilding society after a global catastrophe",
+            icon: "sunrise.fill",
+            category: .sciFi
         )
     ]
 }
@@ -521,5 +597,439 @@ extension View {
                     onRelease()
                 }
         )
+    }
+}
+
+// Add AllPromptsView
+struct AllPromptsView: View {
+    @Environment(\.dismiss) private var dismiss
+    @Environment(\.colorScheme) private var colorScheme
+    let settings: SettingsModel
+    let onPromptSelected: (QuickPrompt) -> Void
+    @State private var searchText = ""
+    @State private var selectedCategory: PromptCategory = .all
+    @State private var showingPromptDetail: QuickPrompt?
+    
+    var filteredPrompts: [QuickPrompt] {
+        let filtered = QuickPrompt.samples.filter { prompt in
+            if searchText.isEmpty { return true }
+            return prompt.title.localizedCaseInsensitiveContains(searchText) ||
+                   prompt.description.localizedCaseInsensitiveContains(searchText)
+        }
+        
+        if selectedCategory == .all {
+            return filtered
+        }
+        return filtered.filter { $0.category == selectedCategory }
+    }
+    
+    var featuredPrompts: [QuickPrompt] {
+        QuickPrompt.samples.prefix(3).map { $0 }
+    }
+    
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 24) {
+                    if searchText.isEmpty && selectedCategory == .all {
+                        // Featured Section
+                        VStack(alignment: .leading, spacing: 16) {
+                            Text("Featured Prompts")
+                                .font(.title2.bold())
+                                .padding(.horizontal)
+                            
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 16) {
+                                    ForEach(featuredPrompts, id: \.title) { prompt in
+                                        FeaturedPromptCard(prompt: prompt) {
+                                            showingPromptDetail = prompt
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal)
+                            }
+                        }
+                    }
+                    
+                    // Categories
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Categories")
+                            .font(.title3.bold())
+                            .padding(.horizontal)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 12) {
+                                ForEach(PromptCategory.allCases, id: \.self) { category in
+                                    EnhancedCategoryPill(
+                                        category: category,
+                                        isSelected: selectedCategory == category,
+                                        action: { selectedCategory = category }
+                                    )
+                                }
+                            }
+                            .padding(.horizontal)
+                        }
+                    }
+                    
+                    // All Prompts Grid
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text(selectedCategory == .all ? "All Prompts" : selectedCategory.name)
+                            .font(.title3.bold())
+                            .padding(.horizontal)
+                        
+                        if filteredPrompts.isEmpty {
+                            EmptyPromptView(searchText: searchText)
+                        } else {
+                            LazyVGrid(
+                                columns: [
+                                    GridItem(.adaptive(minimum: 160), spacing: 16)
+                                ],
+                                spacing: 16
+                            ) {
+                                ForEach(filteredPrompts, id: \.title) { prompt in
+                                    EnhancedPromptCard(prompt: prompt) {
+                                        showingPromptDetail = prompt
+                                    }
+                                }
+                            }
+                            .padding(.horizontal)
+                        }
+                    }
+                }
+                .padding(.vertical)
+            }
+            .navigationTitle("Story Prompts")
+            .navigationBarTitleDisplayMode(.large)
+            .searchable(
+                text: $searchText,
+                placement: .navigationBarDrawer,
+                prompt: "Search prompts"
+            )
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") { dismiss() }
+                }
+            }
+        }
+        .sheet(item: $showingPromptDetail, content: { prompt in
+            PromptDetailView(
+                prompt: prompt,
+                settings: settings,
+                onSelect: { selectedPrompt in
+                    onPromptSelected(selectedPrompt)
+                }
+            )
+        })
+    }
+}
+
+struct EnhancedCategoryPill: View {
+    let category: PromptCategory
+    let isSelected: Bool
+    let action: () -> Void
+    @State private var isHovered = false
+    
+    var body: some View {
+        Button(action: action) {
+            HStack(spacing: 8) {
+                Image(systemName: category.icon)
+                    .font(.system(size: 14))
+                Text(category.name)
+                    .font(.subheadline.weight(.medium))
+            }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 10)
+            .background(
+                Capsule()
+                    .fill(isSelected ? Color.purple : Color.purple.opacity(0.1))
+                    .shadow(color: isSelected ? .purple.opacity(0.3) : .clear, radius: 4, y: 2)
+            )
+            .foregroundColor(isSelected ? .white : .purple)
+            .scaleEffect(isHovered ? 0.95 : 1)
+        }
+        .buttonStyle(.plain)
+        .onHover { hovering in
+            withAnimation(.spring(response: 0.3)) {
+                isHovered = hovering
+            }
+        }
+    }
+}
+
+struct FeaturedPromptCard: View {
+    let prompt: QuickPrompt
+    let action: () -> Void
+    @State private var isHovered = false
+    
+    var body: some View {
+        Button(action: action) {
+            VStack(alignment: .leading, spacing: 12) {
+                // Icon
+                ZStack {
+                    Circle()
+                        .fill(LinearGradient(
+                            colors: [.purple.opacity(0.2), .blue.opacity(0.2)],
+                            startPoint: .topLeading,
+                            endPoint: .bottomTrailing
+                        ))
+                        .frame(width: 50, height: 50)
+                    
+                    Image(systemName: prompt.icon)
+                        .font(.system(size: 24))
+                        .foregroundColor(.purple)
+                }
+                
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(prompt.title)
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    
+                    Text(prompt.description)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .lineLimit(2)
+                    
+                    Text("Featured")
+                        .font(.caption.weight(.medium))
+                        .padding(.horizontal, 8)
+                        .padding(.vertical, 4)
+                        .background(
+                            Capsule()
+                                .fill(.purple.opacity(0.1))
+                        )
+                        .foregroundColor(.purple)
+                }
+            }
+            .frame(width: 200)
+            .padding()
+            .background(
+                RoundedRectangle(cornerRadius: 20)
+                    .fill(Color(UIColor.secondarySystemBackground))
+                    .shadow(color: .black.opacity(0.1), radius: isHovered ? 10 : 5, y: isHovered ? 5 : 2)
+            )
+            .scaleEffect(isHovered ? 0.98 : 1)
+        }
+        .buttonStyle(.plain)
+        .onHover { hovering in
+            withAnimation(.spring(response: 0.3)) {
+                isHovered = hovering
+            }
+        }
+    }
+}
+
+struct EnhancedPromptCard: View {
+    let prompt: QuickPrompt
+    let action: () -> Void
+    @State private var isHovered = false
+    
+    var body: some View {
+        Button(action: action) {
+            VStack(alignment: .leading, spacing: 12) {
+                HStack {
+                    Image(systemName: prompt.icon)
+                        .font(.system(size: 20))
+                        .foregroundColor(.purple)
+                    
+                    Spacer()
+                    
+                    Image(systemName: "chevron.right.circle.fill")
+                        .font(.system(size: 20))
+                        .foregroundColor(.purple.opacity(0.3))
+                        .opacity(isHovered ? 1 : 0)
+                }
+                
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(prompt.title)
+                        .font(.headline)
+                        .foregroundColor(.primary)
+                    
+                    Text(prompt.description)
+                        .font(.subheadline)
+                        .foregroundColor(.secondary)
+                        .lineLimit(2)
+                }
+            }
+            .padding()
+            .frame(height: 140)
+            .frame(maxWidth: .infinity)
+            .background(
+                RoundedRectangle(cornerRadius: 16)
+                    .fill(Color(UIColor.secondarySystemBackground))
+                    .shadow(color: .black.opacity(isHovered ? 0.1 : 0.05), radius: isHovered ? 8 : 4, y: isHovered ? 4 : 2)
+            )
+            .overlay(
+                RoundedRectangle(cornerRadius: 16)
+                    .strokeBorder(Color.purple.opacity(isHovered ? 0.3 : 0.1), lineWidth: 1)
+            )
+            .scaleEffect(isHovered ? 0.98 : 1)
+        }
+        .buttonStyle(.plain)
+        .onHover { hovering in
+            withAnimation(.spring(response: 0.3)) {
+                isHovered = hovering
+            }
+        }
+    }
+}
+
+struct PromptDetailView: View {
+    let prompt: QuickPrompt
+    let settings: SettingsModel
+    let onSelect: (QuickPrompt) -> Void
+    @Environment(\.dismiss) private var dismiss
+    
+    var body: some View {
+        NavigationView {
+            ScrollView {
+                VStack(spacing: 24) {
+                    // Header
+                    VStack(spacing: 16) {
+                        ZStack {
+                            Circle()
+                                .fill(LinearGradient(
+                                    colors: [.purple.opacity(0.2), .blue.opacity(0.2)],
+                                    startPoint: .topLeading,
+                                    endPoint: .bottomTrailing
+                                ))
+                                .frame(width: 80, height: 80)
+                            
+                            Image(systemName: prompt.icon)
+                                .font(.system(size: 40))
+                                .foregroundColor(.purple)
+                        }
+                        
+                        Text(prompt.title)
+                            .font(.title.bold())
+                        
+                        Text(prompt.description)
+                            .font(.title3)
+                            .foregroundColor(.secondary)
+                            .multilineTextAlignment(.center)
+                    }
+                    .padding(.top)
+                    
+                    // Category Badge
+                    HStack {
+                        Image(systemName: prompt.category.icon)
+                        Text(prompt.category.name)
+                    }
+                    .font(.subheadline.weight(.medium))
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 8)
+                    .background(
+                        Capsule()
+                            .fill(.purple.opacity(0.1))
+                    )
+                    .foregroundColor(.purple)
+                    
+                    // Prompt Preview
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("Story Prompt")
+                            .font(.headline)
+                            .foregroundColor(.secondary)
+                        
+                        Text(prompt.prompt)
+                            .font(.body)
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(Color(UIColor.tertiarySystemBackground))
+                            )
+                    }
+                    .padding(.horizontal)
+                    
+                    // Start Button
+                    Button(action: {
+                        onSelect(prompt)
+                        dismiss()
+                    }) {
+                        Text("Start Story")
+                            .font(.headline)
+                            .foregroundColor(.white)
+                            .frame(maxWidth: .infinity)
+                            .padding()
+                            .background(
+                                LinearGradient(
+                                    colors: [.purple, .purple.opacity(0.8)],
+                                    startPoint: .leading,
+                                    endPoint: .trailing
+                                )
+                            )
+                            .clipShape(Capsule())
+                            .shadow(color: .purple.opacity(0.3), radius: 8, y: 4)
+                    }
+                    .padding(.horizontal)
+                }
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button("Done") { dismiss() }
+                }
+            }
+        }
+    }
+}
+
+struct EmptyPromptView: View {
+    let searchText: String
+    
+    var body: some View {
+        VStack(spacing: 16) {
+            Image(systemName: "magnifyingglass")
+                .font(.system(size: 40))
+                .foregroundColor(.purple.opacity(0.5))
+            
+            Text(searchText.isEmpty ? "No prompts in this category" : "No matching prompts")
+                .font(.headline)
+            
+            Text(searchText.isEmpty ? "Try selecting a different category" : "Try a different search term")
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+        }
+        .frame(maxWidth: .infinity)
+        .padding(.vertical, 40)
+    }
+}
+
+// Add category icons
+extension PromptCategory {
+    var icon: String {
+        switch self {
+        case .all: return "square.stack.3d.up"
+        case .fantasy: return "wand.and.stars"
+        case .mystery: return "magnifyingglass"
+        case .sciFi: return "cpu"
+        case .horror: return "moon.stars"
+        case .adventure: return "map"
+        case .action: return "bolt"
+        case .other: return "sparkles"
+        }
+    }
+}
+
+enum PromptCategory: CaseIterable {
+    case all
+    case fantasy
+    case mystery
+    case sciFi
+    case horror
+    case adventure
+    case action
+    case other
+    
+    var name: String {
+        switch self {
+        case .all: return "All"
+        case .fantasy: return "Fantasy"
+        case .mystery: return "Mystery"
+        case .sciFi: return "Sci-Fi"
+        case .horror: return "Horror"
+        case .adventure: return "Adventure"
+        case .action: return "Action"
+        case .other: return "Other"
+        }
     }
 } 
