@@ -1,5 +1,13 @@
+//
+//  StoryStartView.swift
+//  StoryTime2.0
+//
+//  Created by Aryan Signh on 27/01/25.
+//
+
 import SwiftUI
 
+// MARK: - StoryStartView
 struct StoryStartView: View {
     let story: Story
     @ObservedObject var settings: SettingsModel
@@ -22,198 +30,92 @@ struct StoryStartView: View {
     }
     
     var body: some View {
-        ZStack {
-            // Background with dynamic color based on scroll
-            Color(UIColor.systemBackground)
-                .overlay(
-                    LinearGradient(
-                        colors: [
-                            .blue.opacity(max(0, 0.3 - scrollOffset/400)),
-                            .clear
-                        ],
-                        startPoint: .top,
-                        endPoint: .bottom
-                    )
-                )
-                .ignoresSafeArea()
-            
-            ScrollView {
-                VStack(spacing: 0) {
-                    // Hero Section with improved parallax
-                    ParallaxHeader(
-                        title: story.title,
-                        description: story.description,
-                        category: story.category,
-                        scrollOffset: $scrollOffset
-                    )
-                    .overlay(
-                        Rectangle()
-                            .fill(Color.black.opacity(0.2))
-                    )
-                    
-                    // Story Content with improved layout
-                    VStack(alignment: .leading, spacing: 28) {
-                        // Story Title and Metadata
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text(story.title)
-                                .font(.system(size: 34, weight: .bold))
-                                .foregroundColor(.primary)
-                                .padding(.horizontal)
-                                .padding(.top)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .background(
-                                    LinearGradient(
-                                        colors: [.blue.opacity(0.1), .clear],
-                                        startPoint: .top,
-                                        endPoint: .bottom
-                                    )
-                                )
-                            
-                            // Story Metadata
-                            HStack(spacing: 20) {
-                                Label(story.category.rawValue, systemImage: story.category.icon)
-                                    .font(.subheadline)
-                                    .foregroundColor(.blue)
-                                
-                                Divider()
-                                    .frame(height: 20)
-                                
-                                Label("\(estimatedReadTime) min", systemImage: "clock")
-                                    .font(.subheadline)
-                                    .foregroundColor(.secondary)
-                                
-                                Divider()
-                                    .frame(height: 20)
-                                
-                                Label("4.8 ★", systemImage: "star.fill")
-                                    .font(.subheadline)
-                                    .foregroundColor(.orange)
-                            }
-                            .padding(.horizontal)
-                        }
-                        
-                        // Story Preview with improved typography
-                        VStack(alignment: .leading, spacing: 16) {
-                            HStack {
-                                Text("Preview")
-                                    .font(.title3.bold())
-                                    .foregroundColor(.primary)
-                                
-                                Spacer()
-                                
-                                // Updated category badge
-                                HStack(spacing: 6) {
-                                    Image(systemName: story.category.icon)
-                                        .font(.system(size: 12))
-                                    Text(story.category.rawValue)
-                                        .font(.system(size: 12, weight: .medium))
-                                }
-                                .padding(.horizontal, 12)
-                                .padding(.vertical, 6)
-                                .background(
-                                    Capsule()
-                                        .fill(Color.blue.opacity(0.1))
-                                        .shadow(color: .blue.opacity(0.1), radius: 2, y: 2)
-                                )
-                                .foregroundColor(.blue)
-                            }
-                            
-                            Text(story.description)
-                                .font(.custom(settings.selectedFontName, size: settings.textSize))
-                                .foregroundColor(.primary)
-                                .lineSpacing(6)
-                                .padding()
-                                .background(
-                                    RoundedRectangle(cornerRadius: 16)
-                                        .fill(Color(.secondarySystemBackground))
-                                )
-                        }
-                        .padding()
-                        .background(
-                            RoundedRectangle(cornerRadius: 16)
-                                .fill(Color(UIColor.secondarySystemBackground))
-                                .shadow(color: .black.opacity(0.05), radius: 8, y: 4)
-                        )
-                        
-                        // Start Button with improved animation
-                        NavigationLink(destination: destinationView()) {
-                            HStack(spacing: 10) {
-                                Text("Begin Story")
-                                    .font(.title2.bold())
-                                    .foregroundColor(.white)
-                                Image(systemName: "arrow.right.circle.fill")
-                                    .font(.title2)
-                                    .foregroundColor(.white)
-                                    .padding(.leading, 4)
-                            }
-                            .padding(.vertical, 16)
-                            .padding(.horizontal, 32)
-                            .frame(maxWidth: .infinity)
-                            .background(
-                                LinearGradient(
-                                    gradient: Gradient(colors: [Color.blue, Color.blue.opacity(0.8)]),
-                                    startPoint: .leading,
-                                    endPoint: .trailing
-                                )
-                            )
-                            .clipShape(Capsule())
-                            .shadow(color: Color.blue.opacity(0.5), radius: 12, x: 0, y: 6)
-                            .scaleEffect(isAnimating ? 0.98 : 1)
-                            .animation(.spring(response: 0.3, dampingFraction: 0.7), value: isAnimating)
-                            .accessibilityLabel("Begin Story")
-                        }
-                        .buttonStyle(ScaleButtonStyle())
-                        .padding(.horizontal)
-                        .padding(.top, 8)
-                    }
-                    .background(Color(UIColor.systemBackground))
-                    .cornerRadius(32, corners: [.topLeft, .topRight])
-                    .offset(y: -30)
-                }
-            }
-            .ignoresSafeArea()
-            .coordinateSpace(name: "scroll")
-            .onPreferenceChange(OffsetPreferenceKey.self) { offset in
-                scrollOffset = offset
-            }
-            .preferredColorScheme(settings.isDarkMode ? .dark : .light)
-        }
-        .navigationBarTitleDisplayMode(.inline)
-        .navigationBarBackButtonHidden(true)
-        .toolbar {
-            ToolbarItem(placement: .navigationBarLeading) {
-                Button(action: { dismiss() }) {
-                    Image(systemName: "chevron.left")
-                        .font(.system(size: 16, weight: .semibold))
+        ScrollView {
+            VStack(alignment: .leading, spacing: 32) {
+                // Story Title & Description Section
+                VStack(alignment: .leading, spacing: 8) {
+                    Text(story.title)
+                        .font(.system(.largeTitle, design: .rounded))
+                        .fontWeight(.bold)
                         .foregroundColor(.primary)
+                        .accessibilityAddTraits(.isHeader)
+                    
+                    Text(story.description)
+                        .font(.system(.body, design: .rounded))
+                        .foregroundColor(.secondary)
                 }
+                .padding([.horizontal, .top])
+                
+                // Optional Illustrative Image
+                Image(systemName: "book.fill")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(maxWidth: 200)
+                    .foregroundColor(.accentColor)
+                    .padding()
+                    .frame(maxWidth: .infinity)
+                
+                // Story Summary
+                VStack(alignment: .leading, spacing: 12) {
+                    Text("Story Summary")
+                        .font(.headline)
+                        .padding(.horizontal)
+                    
+                    Text(story.summary)
+                        .font(.body)
+                        .foregroundColor(.secondary)
+                        .padding(.horizontal)
+                }
+                
+                // Call-to-Action Navigation Link with enhanced animation
+                NavigationLink(destination: destinationView()) {
+                    Text("Start Story")
+                        .font(.headline)
+                        .frame(maxWidth: .infinity)
+                        .padding()
+                        .background(Color.accentColor)
+                        .foregroundColor(.white)
+                        .cornerRadius(12)
+                        .padding(.horizontal)
+                }
+                .buttonStyle(AnimatedButtonStyle())
+                .padding(.bottom, 40)
             }
         }
-        .sheet(isPresented: $showSettings) {
-            NavigationView {
-                ReadingSettingsView(settings: settings)
-                    .preferredColorScheme(settings.isDarkMode ? .dark : .light)
-            }
-        }
-        .sheet(isPresented: $showShareSheet) {
-            ShareSheet(activityItems: [
-                "Check out this story: \(story.title)\n\n\(story.description)"
-            ])
-        }
-        .onAppear {
-            withAnimation(.spring(response: 0.6, dampingFraction: 0.7).delay(0.3)) {
-                isAnimating = true
-            }
-        }
+        .background(Color(UIColor.systemBackground))
+        .navigationTitle("Story")
+        .navigationBarTitleDisplayMode(.inline)
     }
     
     @ViewBuilder
     private func destinationView() -> some View {
-        // Assuming that the game category is represented as .game
-        if story.category == .game {
-            SpacePioneerStoryView(settings: settings)
-        } else {
+        switch story.title.trimmingCharacters(in: .whitespacesAndNewlines) {
+        case "Dragon's Quest":
+            // Navigates to the Dragons Quest game view.
+            DragonsQuestGameView(settings: settings)
+        case "Mystery Manor":
+            // Navigates to the Mystery Manor game view.
+            MysteryManorGameView(settings: settings)
+        case "Space Pioneer":
+            // Navigates to the Space Pioneer game view.
+            SpaceGameView()
+        case "Time Traveler":
+            // Navigates to the Time Traveler game view.
+            TimeTravelerGameView(settings: settings)
+        case "The Lost City":
+            // Navigates to the Lost City game view.
+            LostCityGameView()
+        default:
+            // Fallback view if none of the specific game views is matched.
             StoryView(story: story, settings: settings)
+        }
+    }
+}
+
+struct StoryStartView_Previews: PreviewProvider {
+    static var previews: some View {
+        NavigationStack {
+            StoryStartView(story: Story.featured, settings: SettingsModel())
         }
     }
 }
@@ -224,6 +126,28 @@ extension Story {
         // Return the actual number of chapters if available
         // For now returning a default value
         return 5
+    }
+}
+
+// MARK: - Story Summary Extension
+extension Story {
+    var summary: String {
+        switch title.trimmingCharacters(in: .whitespacesAndNewlines) {
+        case "The Lost City":
+            return "Journey through ancient ruins as you unravel the mystery of a lost civilization, uncover hidden artifacts, and rediscover forgotten lore."
+        case "Space Pioneer":
+            return "Embark on an interstellar adventure where the cosmos is your playground, and deep space reveals secrets beyond imagination."
+        case "Mystery Manor":
+            return "Step into a haunted mansion full of secrets and unexpected twists, where every door may lead you closer to the truth."
+        case "Dragon's Quest":
+            return "Enter a realm of magic and myth where fierce dragons roam and ancient prophecies come alive in epic battles."
+        case "Time Traveler":
+            return "Experience a thrilling journey through time where every decision reshapes the past, present, and future in extraordinary ways."
+        case "The Buried Haven":
+            return "Survive the perils of an underground facility where hidden truths and unspoken challenges test your resolve."
+        default:
+            return "Embark on an unforgettable adventure filled with challenges, mystery, and intrigue."
+        }
     }
 }
 
@@ -410,5 +334,20 @@ struct ReadingSettingsView: View {
                 }
             }
         }
+    }
+}
+
+// MARK: - AnimatedButtonStyle
+struct AnimatedButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .scaleEffect(configuration.isPressed ? 0.95 : 1)
+            .shadow(
+                color: configuration.isPressed ? Color.accentColor.opacity(0.6) : Color.clear,
+                radius: configuration.isPressed ? 10 : 0,
+                x: 0,
+                y: configuration.isPressed ? 5 : 0
+            )
+            .animation(.easeInOut(duration: 0.2), value: configuration.isPressed)
     }
 } 

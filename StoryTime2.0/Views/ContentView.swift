@@ -3,14 +3,15 @@
 //  StoryTime2.0
 //
 //  Created by Aryan Signh on 27/01/25.
-// version
+//
 
 import SwiftUI
 
+// MARK: - Main ContentView
 struct ContentView: View {
     @StateObject private var userModel = UserModel()
     @StateObject private var settings = SettingsModel()
-    @State private var showingSignUp = true
+    @State private var showingSignUp: Bool = true
     @State private var selectedTab = 0
     
     var body: some View {
@@ -49,12 +50,13 @@ struct ContentView: View {
                 .tag(3)
                 .tint(.blue)
         }
-        .sheet(isPresented: .constant(userModel.isFirstLaunch)) {
+        .sheet(isPresented: $showingSignUp) {
             SignUpView(userModel: userModel, isPresented: $showingSignUp)
         }
         .preferredColorScheme(settings.isDarkMode ? .dark : .light)
         .tint(tabColor(for: selectedTab))
         .onAppear {
+            showingSignUp = userModel.isFirstLaunch
             let appearance = UITabBarAppearance()
             appearance.shadowColor = .clear
             appearance.backgroundColor = .systemBackground
@@ -74,7 +76,7 @@ struct ContentView: View {
     }
 }
 
-
+// MARK: - CategoryButton
 struct CategoryButton: View {
     let title: String
     let icon: String
@@ -96,7 +98,7 @@ struct CategoryButton: View {
                 RoundedRectangle(cornerRadius: 16)
                     .fill(isSelected ? Color.blue : Color.blue.opacity(0.1))
                     .shadow(
-                        color: isSelected ? .blue.opacity(0.3) : .clear,
+                        color: isSelected ? Color.blue.opacity(0.3) : .clear,
                         radius: 8,
                         y: 4
                     )
@@ -105,10 +107,10 @@ struct CategoryButton: View {
             .scaleEffect(isHovered ? 0.98 : 1)
         }
         .buttonStyle(.plain)
-        .animation(.spring(response: 0.3), value: isSelected)
-        .animation(.spring(response: 0.3), value: isHovered)
         .onHover { hovering in
-            isHovered = hovering
+            withAnimation(.spring(response: 0.3)) {
+                isHovered = hovering
+            }
         }
     }
 }
@@ -273,6 +275,7 @@ struct MyStoriesView: View {
     @State private var showingSortMenu = false
     @State private var sortOrder = SortOrder.newest
     @State private var selectedStoryForReading: UserStory?
+    @State private var selectedStoryForEditing: UserStory?
     
     var filteredStories: [UserStory] {
         let filtered = viewModel.userStories.filter { story in
@@ -329,7 +332,9 @@ struct MyStoriesView: View {
                                         story: story,
                                         onPlayTapped: {
                                             selectedStoryForReading = story
-                                            print("Selected story: \(story.title)")
+                                        },
+                                        onEditTapped: {
+                                            selectedStoryForEditing = story
                                         }
                                     )
                                     .buttonStyle(ScaledButtonStyle())
@@ -379,6 +384,12 @@ struct MyStoriesView: View {
                     settings: settings
                 )
             }
+            .navigationDestination(item: $selectedStoryForEditing) { userStory in
+                StoryEditorView(
+                    story: userStory,
+                    settings: settings
+                )
+            }
         }
         .tint(.yellow)
     }
@@ -387,6 +398,7 @@ struct MyStoriesView: View {
 struct MyStoryCard: View {
     let story: UserStory
     let onPlayTapped: () -> Void
+    let onEditTapped: () -> Void
     @Environment(\.colorScheme) var colorScheme
     @State private var isHovered = false
     @State private var showingContextMenu = false
@@ -427,6 +439,14 @@ struct MyStoryCard: View {
                     icon: "play.fill",
                     color: .green,
                     action: onPlayTapped
+                )
+                
+                // Edit Button (new)
+                ActionButton(
+                    title: "Edit",
+                    icon: "pencil",
+                    color: .blue,
+                    action: onEditTapped
                 )
                 
                 Spacer()
@@ -668,8 +688,6 @@ struct FilterPill: View {
             )
             .foregroundColor(selectedFilter == filter ? .white : .blue)
             .scaleEffect(isHovered ? 0.98 : 1)
-            .animation(.interactiveSpring(response: 0.45, dampingFraction: 0.7), value: selectedFilter)
-            .animation(.interactiveSpring(response: 0.45, dampingFraction: 0.7), value: isHovered)
             .transition(.opacity)
         }
         .buttonStyle(.plain)
@@ -749,16 +767,11 @@ struct SettingsTabView: View {
     ContentView()
 }
 
-// Update the Story struct to conform to Equatable
+// Update the Story struct to rely on synthesized Equatable conformance
 struct Story: Identifiable, Equatable {
     let id = UUID()
     let title: String
     let description: String
-    
-    // Add static func == for Equatable conformance
-    static func == (lhs: Story, rhs: Story) -> Bool {
-        lhs.id == rhs.id
-    }
     
     static let featured = Story(
         title: "The Buried Haven",
@@ -774,8 +787,6 @@ struct Story: Identifiable, Equatable {
     ]
     
     var category: StoryCategory {
-        // In a real app, this would be stored in the model
-        // For now, randomly assign categories to sample stories
         switch title {
         case "The Lost City": return .adventure
         case "Space Pioneer": return .sciFi

@@ -631,23 +631,21 @@ struct AllPromptsView: View {
         NavigationView {
             ScrollView {
                 VStack(spacing: 24) {
-                    if searchText.isEmpty && selectedCategory == .all {
-                        // Featured Section
-                        VStack(alignment: .leading, spacing: 16) {
-                            Text("Featured Prompts")
-                                .font(.title2.bold())
-                                .padding(.horizontal)
-                            
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack(spacing: 16) {
-                                    ForEach(featuredPrompts, id: \.title) { prompt in
-                                        FeaturedPromptCard(prompt: prompt) {
-                                            showingPromptDetail = prompt
-                                        }
+                    // Featured Section - Now always visible
+                    VStack(alignment: .leading, spacing: 16) {
+                        Text("Featured Prompts")
+                            .font(.title2.bold())
+                            .padding(.horizontal)
+                        
+                        ScrollView(.horizontal, showsIndicators: false) {
+                            HStack(spacing: 16) {
+                                ForEach(featuredPrompts, id: \.title) { prompt in
+                                    FeaturedPromptCard(prompt: prompt) {
+                                        showingPromptDetail = prompt
                                     }
                                 }
-                                .padding(.horizontal)
                             }
+                            .padding(.horizontal)
                         }
                     }
                     
@@ -733,19 +731,23 @@ struct EnhancedCategoryPill: View {
         Button(action: action) {
             HStack(spacing: 8) {
                 Image(systemName: category.icon)
-                    .font(.system(size: 14))
+                    .font(.system(size: 16, weight: .medium))
                 Text(category.name)
-                    .font(.subheadline.weight(.medium))
+                    .font(.system(size: 16, weight: .medium))
             }
             .padding(.horizontal, 16)
-            .padding(.vertical, 10)
+            .padding(.vertical, 12)
             .background(
-                Capsule()
+                RoundedRectangle(cornerRadius: 16)
                     .fill(isSelected ? Color.purple : Color.purple.opacity(0.1))
-                    .shadow(color: isSelected ? .purple.opacity(0.3) : .clear, radius: 4, y: 2)
+                    .shadow(
+                        color: isSelected ? Color.purple.opacity(0.3) : .clear,
+                        radius: 8,
+                        y: 4
+                    )
             )
             .foregroundColor(isSelected ? .white : .purple)
-            .scaleEffect(isHovered ? 0.95 : 1)
+            .scaleEffect(isHovered ? 0.98 : 1)
         }
         .buttonStyle(.plain)
         .onHover { hovering in

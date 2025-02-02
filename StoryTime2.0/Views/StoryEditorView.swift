@@ -12,113 +12,118 @@ struct StoryEditorView: View {
     @Environment(\.dismiss) var dismiss
     @StateObject private var viewModel = StoryCreatorViewModel()
     @State private var navigateToFirstScenario = false
+    @State private var selectedSegment: EditSegment = .details
+    @State private var editMode: EditMode = .inactive
     
     var body: some View {
-        ScrollView {
-            VStack(spacing: 24) {
-                // Story Header
-                StoryHeaderSection(
-                    story: story,
-                    showingEditDetailsSheet: $showingEditDetailsSheet,
-                    onDelete: { showingDeleteStoryAlert = true }
-                )
-                
-                // Chapters Section
-                VStack(alignment: .leading, spacing: 16) {
-                    HStack {
-                        Text("Chapters (\(story.scenarios.count))")
-                            .font(.title2.bold())
-                        
-                        Spacer()
-                        
-                        Button(action: { showingNewScenarioSheet = true }) {
-                            Label("Add Chapter", systemImage: "plus.circle.fill")
-                                .font(.subheadline.bold())
-                                .foregroundColor(.blue)
-                        }
-                    }
-                    .padding(.horizontal)
-                    
-                    if story.scenarios.isEmpty {
-                        EmptyChaptersView(
-                            showingNewScenarioSheet: $showingNewScenarioSheet
+        VStack {
+            // Segmented Control for switching between Story Details and Chapters
+            Picker("", selection: $selectedSegment) {
+                Text("Details").tag(EditSegment.details)
+                Text("Chapters").tag(EditSegment.chapters)
+            }
+            .pickerStyle(SegmentedPickerStyle())
+            .padding()
+
+            if selectedSegment == .details {
+                // Details Segment: shows the story header section with edit details functionality
+                ScrollView {
+                    VStack(spacing: 24) {
+                        StoryHeaderSection(
+                            story: story,
+                            showingEditDetailsSheet: $showingEditDetailsSheet,
+                            onDelete: { showingDeleteStoryAlert = true }
                         )
-                    } else {
-                        LazyVStack(spacing: 16) {
-                            ForEach(Array(story.scenarios.enumerated()), id: \.element.id) { index, scenario in
-                                ChapterCard(
-                                    scenario: scenario,
-                                    chapterNumber: index + 1,
-                                    settings: settings,
-                                    onDelete: {
-                                        scenarioToDelete = scenario
-                                        showingDeleteAlert = true
-                                    }
-                                )
+                        // You can add more detailed info or actions here if needed.
+                    }
+                    .padding(.vertical)
+                }
+            } else {
+                // Chapters Segment: uses a List to allow swipe-to-delete and reordering.
+                List {
+                    ForEach(Array(story.scenarios.enumerated()), id: \.element.id) { index, scenario in
+                        ChapterCard(
+                            scenario: scenario,
+                            chapterNumber: index + 1,
+                            settings: settings,
+                            onDelete: {
+                                // Optional: you can keep per‑cell delete if desired.
+                                _ = withAnimation {
+                                    story.scenarios.remove(at: index)
+                                }
+                                viewModel.saveStories()
                             }
+                        )
+                        .listRowBackground(Color.clear)
+                        .listRowSeparator(.hidden)
+                    }
+                    .onMove(perform: moveChapters)
+                    .onDelete(perform: deleteChapters)
+                    
+                    // If no chapters exist, show a button to add one.
+                    if story.scenarios.isEmpty {
+                        Button(action: { showingNewScenarioSheet = true }) {
+                            HStack {
+                                Image(systemName: "plus.circle.fill")
+                                Text("Add Chapter")
+                            }
+                            .frame(maxWidth: .infinity, alignment: .center)
                         }
-                        .padding(.horizontal)
                     }
                 }
+                .listStyle(PlainListStyle())
             }
-            .padding(.vertical)
         }
         .background(Color(UIColor.systemGroupedBackground))
         .navigationTitle("Edit Story")
         .navigationBarTitleDisplayMode(.large)
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                Menu {
-                    Button {
-                        showingEditDetailsSheet = true
+                if selectedSegment == .chapters {
+                    // When viewing chapters, show the built‑in EditButton to enable reordering/deletion.
+                    EditButton()
+                } else {
+                    // For details, keep the menu with other actions.
+                    Menu {
+                        Button {
+                            showingEditDetailsSheet = true
+                        } label: {
+                            Label("Edit Details", systemImage: "pencil")
+                        }
+
+                        Button {
+                            shareStory()
+                        } label: {
+                            Label("Share Story", systemImage: "square.and.arrow.up")
+                        }
+
+                        Button {
+                            exportStory()
+                        } label: {
+                            Label("Export Story", systemImage: "arrow.down.doc")
+                        }
+
+                        Divider()
+
+                        Button(role: .destructive) {
+                            showingDeleteStoryAlert = true
+                        } label: {
+                            Label("Delete Story", systemImage: "trash")
+                        }
                     } label: {
-                        Label("Edit Details", systemImage: "pencil")
+                        Image(systemName: "ellipsis.circle")
+                            .font(.system(size: 20))
                     }
-                    
-                    Button {
-                        // Share functionality
-                        shareStory()
-                    } label: {
-                        Label("Share Story", systemImage: "square.and.arrow.up")
-                    }
-                    
-                    Button {
-                        // Export functionality
-                        exportStory()
-                    } label: {
-                        Label("Export Story", systemImage: "arrow.down.doc")
-                    }
-                    
-                    Divider()
-                    
-                    Button(role: .destructive) {
-                        showingDeleteStoryAlert = true
-                    } label: {
-                        Label("Delete Story", systemImage: "trash")
-                    }
-                } label: {
-                    Image(systemName: "ellipsis.circle")
-                        .font(.system(size: 20))
                 }
             }
         }
+        // Bind the built‑in edit mode for the chapters list.
+        .environment(\.editMode, $editMode)
         .sheet(isPresented: $showingNewScenarioSheet) {
             NewScenarioView(story: $story, settings: settings)
         }
         .sheet(isPresented: $showingEditDetailsSheet) {
             EditStoryDetailsView(story: $story, settings: settings)
-        }
-        .alert("Delete Chapter", isPresented: $showingDeleteAlert) {
-            Button("Cancel", role: .cancel) {}
-            Button("Delete", role: .destructive) {
-                if let scenario = scenarioToDelete,
-                   let index = story.scenarios.firstIndex(where: { $0.id == scenario.id }) {
-                    story.scenarios.remove(at: index)
-                    viewModel.saveStories()
-                }
-            }
-        } message: {
-            Text("Are you sure you want to delete this chapter? This action cannot be undone.")
         }
         .alert("Delete Story", isPresented: $showingDeleteStoryAlert) {
             Button("Cancel", role: .cancel) {}
@@ -129,16 +134,28 @@ struct StoryEditorView: View {
         } message: {
             Text("Are you sure you want to delete this story? This action cannot be undone.")
         }
-
-        // Add navigation destination for the first scenario
+        
+        // Navigation destination for the first scenario (unchanged)
         if let firstScenario = story.scenarios.first {
             EmptyView()
-                .navigationDestination(isPresented: $navigateToFirstScenario) {
+                .navigationDestination(isPresented: .constant(false)) {
                     ScenarioEditorView(scenario: firstScenario, settings: settings)
                 }
         }
     }
     
+    // MARK: - Chapter reordering and deletion functions
+
+    private func moveChapters(from source: IndexSet, to destination: Int) {
+        story.scenarios.move(fromOffsets: source, toOffset: destination)
+        viewModel.saveStories()
+    }
+
+    private func deleteChapters(at offsets: IndexSet) {
+        story.scenarios.remove(atOffsets: offsets)
+        viewModel.saveStories()
+    }
+
     private func shareStory() {
         // Implement share functionality
         let storyText = """
@@ -740,4 +757,12 @@ struct StoryStatItem: View {
                 .fill(Color(UIColor.secondarySystemGroupedBackground))
         )
     }
+}
+
+// NEW: Enum for segmented control selection
+enum EditSegment: String, CaseIterable, Identifiable {
+    case details = "Details"
+    case chapters = "Chapters"
+    
+    var id: Self { self }
 } 

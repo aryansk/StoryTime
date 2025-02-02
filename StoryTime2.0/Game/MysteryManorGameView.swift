@@ -1,79 +1,189 @@
 import SwiftUI
 
 struct MysteryManorGameView: View {
+    @ObservedObject var settings: SettingsModel
     @StateObject private var gameState = MysteryManorGameState()
-    @StateObject private var settings = SettingsModel()
     @Environment(\.dismiss) var dismiss
     
+    @State private var selectedChoice: Int? = nil
+    @State private var currentText: String = ""
+    @State private var showingConsequence = false
+    @State private var previousScenarios: [MysteryManorScenario] = []
+    @State private var storyHistory: [(text: String, isConsequence: Bool)] = []
+    
     var body: some View {
-        ScrollView {
-            VStack(spacing: 24) {
-                // Game Title
-                Text(gameState.currentScenario.rawValue)
-                    .font(.title.bold())
-                    .padding(.top)
-                
-                // Story Text with typewriter effect
-                TypewriterText(text: gameState.storyText)
-                    .padding(.horizontal)
-                
-                // Choices
-                VStack(spacing: 16) {
-                    ForEach(gameState.choices, id: \ .text) { choice in
-                        Button(action: {
+        ZStack {
+            Color(white: 0.98)
+                .ignoresSafeArea()
+            
+            VStack(spacing: 0) {
+                HStack {
+                    Button(action: {
+                        if let previousScenario = previousScenarios.popLast() {
                             withAnimation {
-                                gameState.showingConsequence = true
-                                gameState.consequenceText = choice.consequence
-                                
-                                // Delay the scenario transition
-                                DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
-                                    if let nextScenario = choice.nextScenario {
-                                        withAnimation {
-                                            gameState.loadScenario(nextScenario)
-                                            gameState.showingConsequence = false
-                                        }
+                                gameState.loadScenario(previousScenario)
+                                currentText = gameState.storyText
+                                showingConsequence = false
+                                selectedChoice = nil
+                                if !storyHistory.isEmpty {
+                                    storyHistory.removeLast()
+                                    if !storyHistory.isEmpty && storyHistory.last?.isConsequence == true {
+                                        storyHistory.removeLast()
                                     }
                                 }
                             }
+                        } else {
+                            dismiss()
+                        }
+                    }) {
+                        HStack {
+                            Image(systemName: "chevron.left")
+                            Text("Back")
+                        }
+                        .foregroundColor(.blue)
+                    }
+                    .padding()
+                    
+                    Spacer()
+                }
+                .background(Color.white.opacity(0.95))
+                .shadow(color: Color.black.opacity(0.05), radius: 2, y: 1)
+                
+                ScrollView {
+                    VStack(alignment: .leading, spacing: 24) {
+                        VStack(alignment: .leading, spacing: 24) {
+                            if gameState.isFirstScene && storyHistory.isEmpty {
+                                Text("Let us begin.")
+                                    .font(.custom(settings.selectedFontName, size: 24))
+                                    .padding(.bottom, 8)
+                            }
+                            
+                            ForEach(Array(storyHistory.enumerated()), id: \.offset) { _, entry in
+                                VStack(alignment: .leading, spacing: 8) {
+                                    if entry.isConsequence {
+                                        Text("→")
+                                            .font(.title2)
+                                            .foregroundColor(.gray)
+                                    }
+                                    TypewriterText(text: entry.text)
+                                        .font(.custom(settings.selectedFontName, size: settings.textSize))
+                                        .lineSpacing(8)
+                                }
+                            }
+                            
+                            if !showingConsequence {
+                                TypewriterText(text: gameState.storyText)
+                                    .font(.custom(settings.selectedFontName, size: settings.textSize))
+                                    .lineSpacing(8)
+                            }
+                        }
+                        .foregroundColor(.black)
+                        .padding(.horizontal)
+                        .padding(.top, 24)
+                        
+                        Spacer(minLength: 100)
+                    }
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .background(settings.themeColor)
+                
+                VStack(spacing: 12) {
+                    ForEach(Array(gameState.choices.enumerated()), id: \.element.text) { index, choice in
+                        Button(action: {
+                            withAnimation {
+                                selectedChoice = index
+                                showingConsequence = true
+                                currentText = choice.consequence
+                                previousScenarios.append(gameState.currentScenario)
+                                if !showingConsequence {
+                                    storyHistory.append((gameState.storyText, false))
+                                }
+                                storyHistory.append((choice.consequence, true))
+                            }
                         }) {
-                            Text(choice.text)
-                                .font(.system(size: settings.textSize))
-                                .foregroundColor(settings.isDarkMode ? .black : .white)
+                            HStack {
+                                ZStack {
+                                    Circle()
+                                        .strokeBorder(Color.gray.opacity(0.3), lineWidth: 1)
+                                        .frame(width: 24, height: 24)
+                                    
+                                    if selectedChoice == index {
+                                        Circle()
+                                            .fill(Color.gray)
+                                            .frame(width: 16, height: 16)
+                                    }
+                                }
+                                
+                                Text(choice.text)
+                                    .font(.custom(settings.selectedFontName, size: settings.textSize - 2))
+                                    .foregroundColor(.black)
+                                    .multilineTextAlignment(.leading)
+                                    .padding(.leading, 8)
+                            }
+                            .padding()
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .background(
+                                RoundedRectangle(cornerRadius: 12)
+                                    .fill(Color.white)
+                                    .shadow(color: Color.black.opacity(0.05), radius: 2, x: 0, y: 1)
+                            )
+                        }
+                        .disabled(showingConsequence && selectedChoice != index)
+                        .opacity(showingConsequence && selectedChoice != index ? 0.5 : 1)
+                    }
+                    
+                    if selectedChoice != nil {
+                        Button(action: {
+                            if let choice = selectedChoice {
+                                navigateToNext(choice: gameState.choices[choice])
+                            }
+                        }) {
+                            Text("Next")
+                                .font(.headline)
+                                .foregroundColor(.white)
                                 .frame(maxWidth: .infinity)
                                 .padding()
                                 .background(
                                     RoundedRectangle(cornerRadius: 12)
-                                        .fill(settings.isDarkMode ? .white : .black)
+                                        .fill(Color.gray)
                                 )
                         }
                     }
                 }
                 .padding()
-                
-                // Consequence Text
-                if gameState.showingConsequence {
-                    Text(gameState.consequenceText)
-                        .font(.title3)
-                        .multilineTextAlignment(.center)
-                        .padding()
-                        .frame(maxWidth: .infinity)
-                        .background(Color.black.opacity(0.8))
-                        .foregroundColor(.white)
-                        .cornerRadius(12)
-                        .padding()
-                        .transition(.opacity)
-                }
+                .background(
+                    Color.white.opacity(0.95)
+                        .shadow(color: Color.black.opacity(0.05), radius: 4, y: -2)
+                )
             }
         }
+        .navigationBarHidden(true)
         .onAppear {
-            // Placeholder: load initial scenario for Mystery Manor game
             gameState.loadScenario(.arrival)
+            currentText = gameState.storyText
         }
+    }
+    
+    private func navigateToNext(choice: MysteryManorChoice) {
+        if let nextScenario = choice.nextScenario {
+            withAnimation {
+                showingConsequence = false
+                gameState.loadScenario(nextScenario)
+                selectedChoice = nil
+                currentText = gameState.storyText
+            }
+        }
+    }
+}
+
+extension MysteryManorGameState {
+    var isFirstScene: Bool {
+        currentScenario == .arrival
     }
 }
 
 struct MysteryManorGameView_Previews: PreviewProvider {
     static var previews: some View {
-        MysteryManorGameView()
+        MysteryManorGameView(settings: SettingsModel())
     }
 } 
