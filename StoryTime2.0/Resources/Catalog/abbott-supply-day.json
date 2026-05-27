@@ -1,0 +1,91 @@
+{
+  "id": "abbott-supply-day",
+  "title": "Supply Day",
+  "sourceTitle": "Abbott Elementary",
+  "kind": "show",
+  "synopsis": "There are eleven glue sticks for forty kids and someone unplugged the laminator. It's only Tuesday.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-26T00:00:00Z",
+  "genre": "Comedy",
+  "tags": ["school", "documentary", "patience"],
+  "startNodeId": "morning",
+  "nodes": [
+    {
+      "id": "morning",
+      "sceneTitle": "7:42 a.m.",
+      "text": "The supply closet, when you finally pry it open, contains: one ream of pink paper, a stapler with no staples, and a single dehydrated googly eye. The documentary crew is filming you over your shoulder. The fluorescent in the hallway is doing that thing again where it sounds like a bee dying.",
+      "choices": [
+        { "text": "Email Ava. Be polite.", "consequence": "She replies in fourteen seconds with three emojis and zero supplies.", "nextNodeId": "ava" },
+        { "text": "Raid Mr. Howard's classroom.", "consequence": "He's not in yet. The crew follows you in, lenses humming.", "nextNodeId": "howard" },
+        { "text": "Improvise. Pink paper week is on.", "consequence": "Necessity, as your aunt would say, is a mother.", "nextNodeId": "pink" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "ava",
+      "sceneTitle": "The Principal's Office",
+      "text": "Ava looks up from her phone like you've just walked into her wedding to announce an objection. \"Supplies are a vibes-based system,\" she says, which is, you suspect, a thing she just made up. Behind her, a brand-new espresso machine purrs like a contented cat. Discretionary fund. You can feel your blood pressure picking a side.",
+      "choices": [
+        { "text": "Quietly note the espresso machine to the crew.", "consequence": "You make eye contact with the camera. The crew gets very busy with the focus ring.", "nextNodeId": "doc" },
+        { "text": "Ask for the budget code anyway.", "consequence": "Ava sighs in the specific way that means she'll do something, but not the thing you asked.", "nextNodeId": "compromise" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "howard",
+      "sceneTitle": "Mr. Howard's Room",
+      "text": "His desk is a museum diorama labeled \"things teachers should not have\": a pet rock with a face drawn on it, a coffee mug that says BEST UNCLE, and — bingo — a brick of construction paper still in shrink wrap. You hear footsteps in the hall. The crew leans in. This is, your aunt's voice tells you, a teachable moment about karma.",
+      "choices": [
+        { "text": "Take exactly one pack. Leave a note.", "consequence": "You write \"borrowed — Janine\" on a sticky. The sticky immediately falls off.", "nextNodeId": "compromise" },
+        { "text": "Take all of it. He won't notice till Friday.", "consequence": "He'll notice. Mr. Howard always notices.", "nextNodeId": "petty" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "pink",
+      "sceneTitle": "The Color Pink",
+      "text": "By 8:15 your bulletin board reads PINK FACTS WEEK in glittery letters you traced with the dehydrated googly eye for inspiration. The kids file in. One of them, Marcus, asks if pink is a real color. You say yes. He asks why. You discover, in real time, that you do not know why pink is a real color.",
+      "choices": [
+        { "text": "Make it a class research project.", "consequence": "Marcus is now writing in his notebook with terrifying seriousness.", "nextNodeId": "win" },
+        { "text": "Admit you don't know. Move on.", "consequence": "Marcus's respect for you increases by an amount the budget cannot purchase.", "nextNodeId": "win" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "compromise",
+      "sceneTitle": "Eleven Glue Sticks",
+      "text": "By morning recess you have, through pure social engineering, accumulated: 22 markers (from Barbara, who pretended not to give them to you), one box of bandages (from Melissa, who insisted you may need them), and Mr. Howard's grudging promise to share construction paper provided you stop talking about it. You have run a small functioning country before lunch.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Functioning Country"
+    },
+    {
+      "id": "petty",
+      "sceneTitle": "Friday",
+      "text": "Mr. Howard finds you in the staff room. He does not say anything. He simply makes himself a single cup of decaf and stares at you for the entire duration of its brewing. You age, you suspect, four years.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Mr. Howard Knows"
+    },
+    {
+      "id": "doc",
+      "sceneTitle": "B-Roll",
+      "text": "The crew, who have for one full school year pretended to be objective observers, now linger on the espresso machine for an unnecessarily long time. You feel, briefly, what powerful people must feel. Then a kindergartener bursts in to report a glue stick situation and the feeling is gone.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "B-Roll, Forever"
+    },
+    {
+      "id": "win",
+      "sceneTitle": "3:08 p.m.",
+      "text": "Bell rings. Marcus shows you a page of notes about pink that he has illustrated with surprising sophistication. You tell him it's beautiful. You mean it. The dehydrated googly eye watches benevolently from the corkboard. Tomorrow there will be a new crisis. Today: pink.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pink Facts Week"
+    }
+  ]
+}

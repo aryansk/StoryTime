@@ -1,0 +1,83 @@
+{
+  "id": "severance-the-elevator",
+  "title": "The Elevator",
+  "sourceTitle": "Severance",
+  "kind": "show",
+  "synopsis": "The doors close. The procedure begins. Who do you become when the floor ticks down?",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-22T00:00:00Z",
+  "genre": "Thriller",
+  "tags": ["office", "memory", "split"],
+  "startNodeId": "lobby",
+  "nodes": [
+    {
+      "id": "lobby",
+      "sceneTitle": "Lobby, 8:47 a.m.",
+      "text": "The Lumon lobby smells like lemon cleaner and old paper. Milchick is waiting at the elevator with that careful, helpful smile. \"Big day,\" he says. \"We've made a few process improvements.\" The badge in your pocket weighs more than it should. You can step in. Or you can do something — anything — before the doors close.",
+      "choices": [
+        { "text": "Step in. Press 4.", "consequence": "The doors close with that small, patient sigh.", "nextNodeId": "descent" },
+        { "text": "Pretend you forgot something at security.", "consequence": "Milchick's smile does not move.", "nextNodeId": "stalling" },
+        { "text": "Slip a note into your own pocket.", "consequence": "Six words, in your own handwriting, for someone who will not remember writing them.", "nextNodeId": "note" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "descent",
+      "sceneTitle": "Floor 4",
+      "text": "The threshold flickers. For a second you are two people standing very close together. Then one of them is gone, and the other is at her desk, and there is a refinement file open that she does not remember requesting. Numbers swim. One cluster feels wrong — frightened, almost.",
+      "choices": [
+        { "text": "Refine the scary numbers anyway.", "consequence": "You do your job. That is what you are.", "nextNodeId": "compliant" },
+        { "text": "Save them in a hidden folder.", "consequence": "You don't know why you do it. You only know your hand moves.", "nextNodeId": "rebel" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "stalling",
+      "sceneTitle": "The Other Door",
+      "text": "You walk briskly past the guards. There is a fire door that staff don't use. It is, you have always assumed, locked. Today it is not.",
+      "choices": [
+        { "text": "Go through it.", "consequence": "Cold air. A stairwell. A choice you cannot un-make.", "nextNodeId": "escape" },
+        { "text": "Turn back. You aren't ready.", "consequence": "Milchick is waiting. He doesn't say anything about it.", "nextNodeId": "descent" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "note",
+      "sceneTitle": "Six Words",
+      "text": "When she reads it at her desk her hand stops moving. She does not look up. She reads it three more times. Then she folds it very precisely and tucks it under the keyboard, where she will find it tomorrow.",
+      "choices": [
+        { "text": "Trust her to act on it.", "consequence": "Belief is a small, sturdy thing.", "nextNodeId": "rebel" },
+        { "text": "Tell Milchick before she does.", "consequence": "Some doors only open one way.", "nextNodeId": "compliant" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "compliant",
+      "sceneTitle": "Pay Day",
+      "text": "Five o'clock. The threshold flickers. You step into the lobby with no memory of the day, only a faint impression of having been useful. The elevator hums. Outside it is raining. You buy soup on the way home and tell yourself the soup is good.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Good Day's Work"
+    },
+    {
+      "id": "rebel",
+      "sceneTitle": "The Long Hallway",
+      "text": "By the time the alarm sounds you are already three corridors deep. The fluorescent lights have changed color twice. Somewhere behind you, Milchick is jogging in that strangely cheerful way of his, and somewhere ahead of you a door is unlocked that has never been unlocked before.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Hallway"
+    },
+    {
+      "id": "escape",
+      "sceneTitle": "Above Ground",
+      "text": "The stairwell ends at a loading dock. A man in a Lumon parka is smoking. He looks up, surprised — then resigned. \"You're early,\" he says. He does not seem to mean today.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Smoking Man"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "bear-friday-rush",
+  "title": "Friday Rush",
+  "sourceTitle": "The Bear",
+  "kind": "show",
+  "synopsis": "Forty covers. Three line cooks. One temperamental pilot light. Don't burn it.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": ["kitchen", "family", "pressure"],
+  "startNodeId": "fourpm",
+  "nodes": [
+    {
+      "id": "fourpm",
+      "sceneTitle": "4:02 p.m.",
+      "text": "Tina is crying in the walk-in again, not loudly, just steadily, like she's running a faucet. The pilot on the salamander is out — third time this week. Sydney is staring at the prep list with the special on it and not saying anything, which is worse than if she yelled. The first reservation walks in at five.",
+      "choices": [
+        { "text": "Go talk to Tina. Now.", "consequence": "The walk-in door wheezes shut behind you.", "nextNodeId": "tina" },
+        { "text": "Relight the salamander yourself.", "consequence": "You crouch with a match. The gas hisses politely.", "nextNodeId": "fire" },
+        { "text": "Pull Sydney aside about the special.", "consequence": "She doesn't look up at first. Then she does. It costs her something.", "nextNodeId": "syd" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "tina",
+      "sceneTitle": "Walk-In",
+      "text": "She doesn't turn around. \"He'd've handled this,\" she says. She means your brother. You don't know if she means the salamander, or the rush, or her, or all of it. The cold pulls at your fingers.",
+      "choices": [
+        { "text": "Tell her you're not your brother.", "consequence": "The honest thing. The hard thing.", "nextNodeId": "honest" },
+        { "text": "Tell her you've got it. Get back out there.", "consequence": "Sometimes the kitchen needs a lie that holds for one service.", "nextNodeId": "service" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "fire",
+      "sceneTitle": "Pilot Light",
+      "text": "The flame catches. You feel a small, completely irrational surge of pride, which the kitchen immediately punishes — Sydney calls your name from the pass in the specific voice that means a vendor has shown up with the wrong order.",
+      "choices": [
+        { "text": "Send the vendor back. We work with what we have.", "consequence": "Sydney exhales. So does the kitchen.", "nextNodeId": "service" },
+        { "text": "Drive across town for the right delivery.", "consequence": "You take the truck. You leave the kitchen to Sydney. That, too, is a choice.", "nextNodeId": "trust" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "syd",
+      "sceneTitle": "The Special",
+      "text": "\"I think it's good,\" she says, very fast, like she's trying to get it out before she stops believing it. The dish is risky — a cold component on a plate that lives or dies on temperature. You can taste, in your head, exactly how it should land.",
+      "choices": [
+        { "text": "Run it.", "consequence": "You hand her the pass. You watch her grow two inches.", "nextNodeId": "trust" },
+        { "text": "Cut it. Tonight isn't the night.", "consequence": "She doesn't argue. That is, in its own way, worse.", "nextNodeId": "service" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "honest",
+      "sceneTitle": "The Long Pass",
+      "text": "Tina turns around eventually. Her eyes are red. She nods once, like she's signing a contract you didn't know you were offering. Then she ties her apron and walks past you to her station. By eight o'clock the line is moving like one organism.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family Meal"
+    },
+    {
+      "id": "service",
+      "sceneTitle": "Service",
+      "text": "The first ticket prints at 5:04. By 7:30 the rail is a forest. You don't think; you just call. The salamander holds. The walk-in stays closed. At 10:14 you flip the last ticket and there is, for one entire second, only the hum of the hood fans.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Held the Line"
+    },
+    {
+      "id": "trust",
+      "sceneTitle": "The Special, Plated",
+      "text": "Table six sends back nothing. Table eleven asks who made it. Sydney pretends she hasn't heard, which means she heard. At close she leans against the prep table next to you and says, very quietly, \"Thank you.\"",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Promotion"
+    }
+  ]
+}

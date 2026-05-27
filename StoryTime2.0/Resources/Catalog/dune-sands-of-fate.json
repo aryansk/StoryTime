@@ -1,0 +1,105 @@
+{
+  "id": "dune-sands-of-fate",
+  "title": "Sands of Fate",
+  "sourceTitle": "Dune: Part Two",
+  "kind": "movie",
+  "synopsis": "A desert prophet. A vendetta. A choice that will boil the sand.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-25T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": ["epic", "desert", "prophecy"],
+  "startNodeId": "open",
+  "nodes": [
+    {
+      "id": "open",
+      "sceneTitle": "First Light",
+      "text": "Wind grinds through the basin. Below you, a Harkonnen patrol moves between dune crests, oblivious. Stilgar drops to a crouch beside you. \"They came for water. They will not leave with it.\" The thumper in your pack vibrates in your hand. You can call the great worm and break the line in a single, terrible motion — or trust your knife, your sietch, your patience.",
+      "choices": [
+        { "text": "Plant the thumper and call a maker", "consequence": "The sand itself begins to lift, as if it had been holding its breath.", "nextNodeId": "worm" },
+        { "text": "Order a quiet ambush on foot", "consequence": "Stilgar nods once. The Fedaykin spread like ink in water.", "nextNodeId": "ambush" },
+        { "text": "Pull back. Let them dehydrate themselves.", "consequence": "Patience is a weapon you were taught to wield.", "nextNodeId": "withdraw" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "worm",
+      "sceneTitle": "Shai-Hulud",
+      "text": "It comes from the south. A wall of teeth, taller than a city block, eating the dune as it goes. The patrol breaks formation. Some fire into the wave. They might as well shoot a thunderstorm. When the wall passes, the silence is so complete you can hear your own pulse in your ears — and a single Harkonnen, still alive, kneeling in the trough.",
+      "choices": [
+        { "text": "Spare him. Send him back with a message.", "consequence": "Mercy as a weapon. The Baron will not understand it. That is the point.", "nextNodeId": "messenger" },
+        { "text": "Kill him cleanly.", "consequence": "Your blade is quick. The desert keeps the rest.", "nextNodeId": "prophet" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "ambush",
+      "sceneTitle": "Knife Work",
+      "text": "It is over in less time than it took to plan. Six bodies, no shouts. Chani crouches beside the last one and frowns at his collar. \"This is not a patrol. This is a search party.\" She holds up a tag. Your face is on it. Someone in the sietch is selling names.",
+      "choices": [
+        { "text": "Hunt the traitor immediately.", "consequence": "Trust shatters faster than any glass.", "nextNodeId": "traitor" },
+        { "text": "Say nothing. Wait. Watch.", "consequence": "The desert teaches patience. So do its prophets.", "nextNodeId": "prophet" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "withdraw",
+      "sceneTitle": "The Long Wait",
+      "text": "By second moonrise the patrol is staggering. By third, their leader has cut his own stillsuit open in heat-madness. You watch from a ridge and feel nothing — which is its own kind of warning.",
+      "choices": [
+        { "text": "Take the survivors as captives.", "consequence": "A prophet who shows mercy is harder to kill.", "nextNodeId": "messenger" },
+        { "text": "Leave them to the sand.", "consequence": "The desert keeps what it is given.", "nextNodeId": "prophet" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "messenger",
+      "sceneTitle": "A Message Goes North",
+      "text": "The man rides north on a stolen ornithopter, half-dead, whispering your name like a fever. By the time he reaches Arrakeen, two more sietches have risen. They have heard, they say, of a Lisan al-Gaib who does not need to kill to make the powerful afraid.",
+      "choices": [
+        { "text": "Refuse the title. You are not a prophet.", "consequence": "Some refusals only fan the flame.", "nextNodeId": "refusal_end" },
+        { "text": "Accept it. The desert needs a story.", "consequence": "You step into the shape they have already cut for you.", "nextNodeId": "accept_end" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "traitor",
+      "sceneTitle": "Inside Wounds",
+      "text": "You find him before dawn. He is older than you, and he weeps when he sees your face. \"I have grandchildren in Arrakeen,\" he says. \"They would have killed them.\" The crysknife is heavy in your hand.",
+      "choices": [
+        { "text": "Lower the knife.", "consequence": "A prophet who can be wounded is a prophet who can be loved.", "nextNodeId": "refusal_end" },
+        { "text": "Do what is required.", "consequence": "The desert does not bargain.", "nextNodeId": "prophet" }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "prophet",
+      "sceneTitle": "Becoming",
+      "text": "You walk back into the sietch without speaking. The Fedaykin part for you as if you were already memory. Chani watches your back the way one watches a coming storm. You taste copper. Somewhere far north, an Emperor sleeps and does not yet know his name has been used in the past tense.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Lisan al-Gaib"
+    },
+    {
+      "id": "refusal_end",
+      "sceneTitle": "The Quiet Path",
+      "text": "You go south, alone, into the deep desert. The legend keeps moving without you. Some say that is the only ending in which the desert is allowed to keep its own god.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Quiet Path"
+    },
+    {
+      "id": "accept_end",
+      "sceneTitle": "Holy War",
+      "text": "From the high balcony of Arrakeen you watch the green banners spread to every horizon. You have seen this future a hundred times in your dreams. It is no easier to look at while awake.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Holy War"
+    }
+  ]
+}
