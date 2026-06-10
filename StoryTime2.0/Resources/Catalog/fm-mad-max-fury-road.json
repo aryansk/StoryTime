@@ -1,0 +1,450 @@
+{
+  "id": "fm-mad-max-fury-road",
+  "title": "Mad Max: Fury Road",
+  "sourceTitle": "Mad Max: Fury Road",
+  "kind": "movie",
+  "synopsis": "A war rig, five wives, and a long road across a desert that goes both ways.",
+  "releaseYear": 2015,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "wasteland",
+    "chase",
+    "survival",
+    "feminist"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Hooks pull you down into a place that calls itself the Citadel.",
+      "sceneTitle": "Caught at the Rocks",
+      "choices": [
+        {
+          "text": "Fight the chains",
+          "consequence": "Wild.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go limp",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Hose in your arm, a mask on your face, a War Boy painted white above you.",
+      "sceneTitle": "Blood Bag",
+      "choices": [
+        {
+          "text": "Bide",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Bite",
+          "consequence": "Wild.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The war rig veers off the spice road into the open dust.",
+      "sceneTitle": "Furiosa Turns East",
+      "choices": [
+        {
+          "text": "Trust her plan",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ride straight",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Joe's whole convoy turns at once, a hundred wheels in a war drum's beat.",
+      "sceneTitle": "Pursuit",
+      "choices": [
+        {
+          "text": "Push the throttle",
+          "consequence": "Wild.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Conserve fuel",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Five women in white linen and chain bolt cutters in the bed of the rig.",
+      "sceneTitle": "The Wives",
+      "choices": [
+        {
+          "text": "Help them",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Use them as leverage",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A young War Boy with a steering wheel in his fist and chrome in his teeth.",
+      "sceneTitle": "Nux on the Hood",
+      "choices": [
+        {
+          "text": "Pull him in",
+          "consequence": "Mercy.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Let him fall",
+          "consequence": "Hard.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The Buzzards in spiked cars and a tunnel through living rock.",
+      "sceneTitle": "Canyon Pass",
+      "choices": [
+        {
+          "text": "Blow the cliffs",
+          "consequence": "Final.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Outrun them",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A dust devil the size of a city walks at you in slow motion.",
+      "sceneTitle": "Storm of Sand",
+      "choices": [
+        {
+          "text": "Drive in",
+          "consequence": "Wild.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Go around",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The pregnant wife stands in the door to shield Furiosa from her husband's bullet.",
+      "sceneTitle": "Splendid's Belly",
+      "choices": [
+        {
+          "text": "Pull her in",
+          "consequence": "Care.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold the line",
+          "consequence": "Hard.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Stuck axle, dead lights, distant engines.",
+      "sceneTitle": "Night in the Mud",
+      "choices": [
+        {
+          "text": "Push together",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Push alone",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The mechanical arm is jammed and she will not say it hurts.",
+      "sceneTitle": "Furiosa's Stump",
+      "choices": [
+        {
+          "text": "Help her unscrew it",
+          "consequence": "Care.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Leave her alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A blind man on a tractor turret shooting by the sound of your tires.",
+      "sceneTitle": "Bullet Farmer",
+      "choices": [
+        {
+          "text": "Decoy",
+          "consequence": "Cunning.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Charge",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Old women in motorcycles with bags of seeds and stories.",
+      "sceneTitle": "The Vuvalini",
+      "choices": [
+        {
+          "text": "Trust them",
+          "consequence": "Hope.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Travel alone",
+          "consequence": "Wary.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Crows. Mud. A sky that has not had a green place in it for forty years.",
+      "sceneTitle": "The Green Place",
+      "choices": [
+        {
+          "text": "Go on",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Sit down",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Furiosa decides to drive back through the war party to the Citadel itself.",
+      "sceneTitle": "Turn Around",
+      "choices": [
+        {
+          "text": "Ride",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay behind",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A horizon with no edges, and a hundred engines closing.",
+      "sceneTitle": "Salt Flats",
+      "choices": [
+        {
+          "text": "Pour the speed",
+          "consequence": "Wild.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay tight",
+          "consequence": "Discipline.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Witness me, he whispers, and grips a steering wheel one-handed.",
+      "sceneTitle": "Nux's Choice",
+      "choices": [
+        {
+          "text": "Let him go",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Pull him back",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "His silver mask, your hooked fingers, a moment that does not last.",
+      "sceneTitle": "Joe at the Window",
+      "choices": [
+        {
+          "text": "Tear it off",
+          "consequence": "Wild.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Push him under",
+          "consequence": "Final.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A blade through her side and the rig still running on fumes.",
+      "sceneTitle": "Furiosa Bleeding",
+      "choices": [
+        {
+          "text": "Field dress",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Drive faster",
+          "consequence": "Hard.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Joe's body on the hood, the dust people staring up at the rig.",
+      "sceneTitle": "The Gates of the Citadel",
+      "choices": [
+        {
+          "text": "Open the water",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Drive past",
+          "consequence": "Cold.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Furiosa rises on the platform with the wives, breathing through a tube of your blood.",
+      "sceneTitle": "Lift Up",
+      "choices": [
+        {
+          "text": "Step back into the crowd",
+          "consequence": "Honest.",
+          "nextNodeId": "end_water"
+        },
+        {
+          "text": "Ride up with her",
+          "consequence": "Loyal.",
+          "nextNodeId": "end_road"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_witness"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_water",
+      "text": "The wheels lock, the gates open, and the Citadel learns it was always two days from kindness.",
+      "sceneTitle": "Water for All",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Water for All"
+    },
+    {
+      "id": "end_road",
+      "text": "You slip down through the crowd before anyone can name you. The road goes both ways and you are not done being driven.",
+      "sceneTitle": "Back to the Road",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back to the Road"
+    },
+    {
+      "id": "end_witness",
+      "text": "Nux's grin in the rearview, half a second before chrome. You will see it for the rest of your long, accidental life.",
+      "sceneTitle": "Witnessed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Witnessed"
+    }
+  ]
+}

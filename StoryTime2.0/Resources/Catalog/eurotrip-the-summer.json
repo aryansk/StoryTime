@@ -1,0 +1,449 @@
+{
+  "id": "eurotrip-the-summer",
+  "title": "EuroTrip",
+  "sourceTitle": "EuroTrip",
+  "kind": "movie",
+  "synopsis": "Graduation week. A penpal in Berlin. Three friends, one rail pass, and an unwise budget. The plane lands in London at 6 a.m. Go.",
+  "releaseYear": 2004,
+  "addedAt": "2026-04-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "travel",
+    "friendship",
+    "europe"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You land in London with two backpacks too many and one good plan. The plan involves Mieke.",
+      "sceneTitle": "Heathrow",
+      "choices": [
+        {
+          "text": "Start with London",
+          "consequence": "Sights.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Skip to Paris",
+          "consequence": "Train.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The hostel manager is a man named Vinnie. Vinnie has a very specific energy.",
+      "sceneTitle": "The Hostel",
+      "choices": [
+        {
+          "text": "Trust Vinnie",
+          "consequence": "Friend.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Sleep with one eye open",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your friend Scott offends a Manchester United fan in a pub. The pub becomes a chase. The chase becomes a story.",
+      "sceneTitle": "Hooligans",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Outrun them",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The ferry is bouncy. Cooper is seasick. You realize travel friendship requires more grace than you expected.",
+      "sceneTitle": "Channel Crossing",
+      "choices": [
+        {
+          "text": "Take care of Cooper",
+          "consequence": "Friend.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Read on deck",
+          "consequence": "Self.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Paris is, against all the cliches, exactly what they said. You are, somehow, both nineteen and exactly the right age.",
+      "sceneTitle": "Paris",
+      "choices": [
+        {
+          "text": "Climb the Eiffel Tower",
+          "consequence": "Touristy.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit in a cafe",
+          "consequence": "Vibey.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You and your friend Jenny adopt a street mime. The mime has, somehow, a phone number.",
+      "sceneTitle": "Mime",
+      "choices": [
+        {
+          "text": "Keep the mime",
+          "consequence": "Whimsy.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Tip the mime, move on",
+          "consequence": "Practical.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Bicycles. Canals. A man named Hennie selling, technically, tours.",
+      "sceneTitle": "Amsterdam",
+      "choices": [
+        {
+          "text": "Take the tour",
+          "consequence": "Trust.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Wander on your own",
+          "consequence": "Independent.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Rome on a Saturday is, in fact, a kind of carnival. The Trevi Fountain has a coin policy.",
+      "sceneTitle": "Rome",
+      "choices": [
+        {
+          "text": "Throw the coin",
+          "consequence": "Tradition.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Save the coin",
+          "consequence": "Cheap.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A pickpocket lifts Scott's wallet. Scott, in a moment of clarity, lifts it back.",
+      "sceneTitle": "The Train Station Pickpocket",
+      "choices": [
+        {
+          "text": "Celebrate",
+          "consequence": "Win.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Even.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Scott is mistaken for a tourist who is, separately, evading a debt. The Vatican guard is gentle but firm.",
+      "sceneTitle": "Vatican Robbed",
+      "choices": [
+        {
+          "text": "Explain",
+          "consequence": "Process.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Run",
+          "consequence": "Comedy.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Berlin is colder than expected. Mieke's address is, technically, valid.",
+      "sceneTitle": "Berlin",
+      "choices": [
+        {
+          "text": "Knock",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Wait at the bar",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Mieke opens the door. She is taller than you imagined and exactly as wonderful.",
+      "sceneTitle": "Mieke",
+      "choices": [
+        {
+          "text": "Apologize for the misunderstanding",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Try to charm her",
+          "consequence": "Funny.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You and Scott and Cooper and Jenny end up at a club whose doorman judges you with great efficiency. Jenny, somehow, gets in.",
+      "sceneTitle": "Berghain (parody version)",
+      "choices": [
+        {
+          "text": "Wait outside for Jenny",
+          "consequence": "Friend.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Find another club",
+          "consequence": "Adventure.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Overnight train to Bratislava. Cheap. The bunk is, technically, a shelf. Cooper sleeps anyway.",
+      "sceneTitle": "Train, Overnight",
+      "choices": [
+        {
+          "text": "Sleep on the floor",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay up all night",
+          "consequence": "Story.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Bratislava is, of course, much cheaper than your guidebook promised. You and the boys eat very well.",
+      "sceneTitle": "Bratislava",
+      "choices": [
+        {
+          "text": "Stay an extra day",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Schedule.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A bar with a robot bartender. The robot bartender is, you realize, just a man in a costume. The man is friendly.",
+      "sceneTitle": "Robot Club",
+      "choices": [
+        {
+          "text": "Befriend the man",
+          "consequence": "Vibe.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Pretend you didn't notice",
+          "consequence": "Style.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Italian train strike. You and the gang sleep in a station with a stray dog. The dog likes Cooper best.",
+      "sceneTitle": "Italian Train Chaos",
+      "choices": [
+        {
+          "text": "Adopt the dog",
+          "consequence": "Hilarious.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Find a hotel",
+          "consequence": "Adult.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "By accident you end up at a small Pope audience. The Pope, somehow, blesses Cooper specifically.",
+      "sceneTitle": "Pope Audience",
+      "choices": [
+        {
+          "text": "Take a photo",
+          "consequence": "Story.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Just be there",
+          "consequence": "Holy.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Mieke catches up with you in Venice. She is, against all odds, also into Scott. He realizes, late, that he likes her too.",
+      "sceneTitle": "Mieke, Again",
+      "choices": [
+        {
+          "text": "Step back graciously",
+          "consequence": "Friend.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Joke about it forever",
+          "consequence": "Tone.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Last night before flights home. You sit at a hostel bar in Lisbon. You realize the summer is, finally, ending.",
+      "sceneTitle": "Last Night",
+      "choices": [
+        {
+          "text": "Toast everyone",
+          "consequence": "Sentiment.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Just enjoy",
+          "consequence": "Quiet.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You land in London again on the way back. You are, technically, the same person. You are, technically, not.",
+      "sceneTitle": "Heathrow Again",
+      "choices": [
+        {
+          "text": "Go home",
+          "consequence": "Practical.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Stay one more week",
+          "consequence": "Brave.",
+          "nextNodeId": "end_extra_week"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_mieke"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You go home. You start senior year a slightly different person. The trip becomes the reference point. Your friends, ten years from now, will quote it at parties.",
+      "sceneTitle": "Senior Year",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Senior Year"
+    },
+    {
+      "id": "end_extra_week",
+      "text": "You stay an extra week. The week, somehow, becomes a month. You almost don't come home. You realize, in the end, you can come back. You will.",
+      "sceneTitle": "One More Week",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "One More Week"
+    },
+    {
+      "id": "end_mieke",
+      "text": "Scott marries Mieke. You are the best man. The wedding is in Berlin. The toast is the longest of your life. You realize the trip was, somehow, a love story you didn't know you were in.",
+      "sceneTitle": "Berlin, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Berlin, Forever"
+    }
+  ]
+}

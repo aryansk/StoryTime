@@ -1,0 +1,449 @@
+{
+  "id": "fm-citizen-kane",
+  "title": "Citizen Kane",
+  "sourceTitle": "Citizen Kane",
+  "kind": "movie",
+  "synopsis": "You're a reporter. Charles Foster Kane has died saying one word. Rosebud. Find out what it means before the deadline.",
+  "releaseYear": 1941,
+  "addedAt": "2026-03-10T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "newspaper",
+    "mystery",
+    "classic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Editor Rawlston wants a hook for the obituary. Rosebud, he says, is it.",
+      "sceneTitle": "The Newsroom",
+      "choices": [
+        {
+          "text": "Take the assignment",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Object",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A vault. The banker's memoirs. A child sled in the snow.",
+      "sceneTitle": "Thatcher Memorial",
+      "choices": [
+        {
+          "text": "Read them",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Skim them",
+          "consequence": "Speed.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Old, kind, loyal. He talks about Kane on the wharf.",
+      "sceneTitle": "Bernstein",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Listen.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Press him",
+          "consequence": "Job.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Kane buys the Inquirer. He writes a Declaration of Principles.",
+      "sceneTitle": "The First Paper",
+      "choices": [
+        {
+          "text": "Note the document",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Note the timing",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Kane buys the rival paper's whole staff. He throws a party.",
+      "sceneTitle": "Newsroom Party",
+      "choices": [
+        {
+          "text": "Mark the loyalty",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Mark the ego",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "His old friend Leland talks honestly about love. He says Kane loved no one but himself.",
+      "sceneTitle": "Leland",
+      "choices": [
+        {
+          "text": "Note the contradiction",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Take it as truth",
+          "consequence": "Naive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Emily Norton. The President's niece. Their marriage decays over breakfasts.",
+      "sceneTitle": "First Wife",
+      "choices": [
+        {
+          "text": "Notice the marriage in the meals",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take it from her words",
+          "consequence": "Direct.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He meets Susan Alexander on a street. She has a toothache. She sings, badly.",
+      "sceneTitle": "Susan",
+      "choices": [
+        {
+          "text": "Investigate the encounter",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Job.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Kane runs for governor. He is, briefly, beloved.",
+      "sceneTitle": "Political Run",
+      "choices": [
+        {
+          "text": "Track the campaign",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Track the scandal",
+          "consequence": "Job.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Boss Jim Gettys finds Kane and Susan. The newspapers will run a story.",
+      "sceneTitle": "The Hotel Room",
+      "choices": [
+        {
+          "text": "Note Kane's defiance",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Note his stupidity",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Kane loses the election. He loses Emily and Junior.",
+      "sceneTitle": "The Scandal",
+      "choices": [
+        {
+          "text": "Note the cost",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell yourself it was fate",
+          "consequence": "Story.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Kane builds her an opera house. She does not, in fact, sing well.",
+      "sceneTitle": "Susan's Career",
+      "choices": [
+        {
+          "text": "Talk to Susan now",
+          "consequence": "Direct.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Talk to the music critic",
+          "consequence": "Layered.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Susan, decades later, in a club. She drinks. She talks.",
+      "sceneTitle": "Atlantic City",
+      "choices": [
+        {
+          "text": "Be gentle with her",
+          "consequence": "Care.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Push for the story",
+          "consequence": "Job.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Kane's house. Crates. Statues. Echoes.",
+      "sceneTitle": "Xanadu",
+      "choices": [
+        {
+          "text": "Walk the halls slowly",
+          "consequence": "Witness.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Walk fast",
+          "consequence": "Job.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "She leaves him in a marble room. He destroys her bedroom.",
+      "sceneTitle": "Susan's Departure",
+      "choices": [
+        {
+          "text": "Notice the snowglobe",
+          "consequence": "Path.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Notice his face",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He dies alone, the snowglobe falling.",
+      "sceneTitle": "Rosebud, Whispered",
+      "choices": [
+        {
+          "text": "Hold the image",
+          "consequence": "Witness.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Cut away",
+          "consequence": "Job.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He says Rosebud was nothing. He doesn't know.",
+      "sceneTitle": "Raymond, the Butler",
+      "choices": [
+        {
+          "text": "Believe him partly",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Suspect more",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Workers burn old junk in the basement. A sled.",
+      "sceneTitle": "Crates Burning",
+      "choices": [
+        {
+          "text": "Watch the fire",
+          "consequence": "Witness.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "On the sled the word ROSEBUD chars and curls.",
+      "sceneTitle": "Rosebud Burns",
+      "choices": [
+        {
+          "text": "Notice it as audience",
+          "consequence": "Witness.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Don't notice",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You file the story without Rosebud's meaning.",
+      "sceneTitle": "Back at the Office",
+      "choices": [
+        {
+          "text": "Write it well",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Write it fast",
+          "consequence": "Job.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You decide what kind of reporter to be next.",
+      "sceneTitle": "Quitting",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Career.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Pivot to books",
+          "consequence": "New.",
+          "nextNodeId": "end_paper"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_book",
+      "text": "You write a long book about Kane. It outlives the newspaper. People read it in college for decades.",
+      "sceneTitle": "The Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book"
+    },
+    {
+      "id": "end_paper",
+      "text": "You stay at the paper. You become managing editor. You think about Rosebud every Christmas, for some reason.",
+      "sceneTitle": "The Daily",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Daily"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You leave reporting. You take a job at a small magazine that does, mostly, longer pieces. You marry, eventually. You name nothing Rosebud.",
+      "sceneTitle": "Quietly Done",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly Done"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "id": "fm-titanic",
+  "title": "Titanic",
+  "sourceTitle": "Titanic",
+  "kind": "movie",
+  "synopsis": "Southampton, April 1912. You're first class, engaged to a man who keeps a safe of secrets. The man you'll actually fall for is three decks below playing cards for a ticket.",
+  "releaseYear": 1997,
+  "addedAt": "2026-03-19T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "ship",
+    "romance",
+    "disaster"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The biggest ship ever built. White Star flags. You don't look at it the way the steerage does.",
+      "sceneTitle": "Boarding",
+      "choices": [
+        {
+          "text": "Try to feel the wonder",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay composed",
+          "consequence": "Class.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your fiancé's smile is, on closer reading, ownership.",
+      "sceneTitle": "Cal",
+      "choices": [
+        {
+          "text": "Tolerate",
+          "consequence": "Survive.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Push back",
+          "consequence": "Spirit.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The first-class dining room is a circus of forks.",
+      "sceneTitle": "Dinner",
+      "choices": [
+        {
+          "text": "Be charming",
+          "consequence": "Strategy.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Truth.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You walk to the back at night, considering the water.",
+      "sceneTitle": "The Stern",
+      "choices": [
+        {
+          "text": "Climb the rail",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Caution.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A man named Jack talks you back from the rail. He sketches.",
+      "sceneTitle": "Jack",
+      "choices": [
+        {
+          "text": "Talk to him",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Class.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Beer, music, dancing without shoes.",
+      "sceneTitle": "Steerage Party",
+      "choices": [
+        {
+          "text": "Dance",
+          "consequence": "Joy.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Sit and watch",
+          "consequence": "Quiet.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Cal flips the table. He hits you, almost. You realize you cannot marry him.",
+      "sceneTitle": "Cal's Anger",
+      "choices": [
+        {
+          "text": "Decide now",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Decide later",
+          "consequence": "Strategic.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Jack draws you wearing only the Heart of the Ocean. Cal will find the sketch.",
+      "sceneTitle": "The Sketch",
+      "choices": [
+        {
+          "text": "Hide it",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Leave it for him",
+          "consequence": "Defiant.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Cars in the hold. A handprint on a window.",
+      "sceneTitle": "Cargo Hold",
+      "choices": [
+        {
+          "text": "Just be here",
+          "consequence": "Present.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Run for the deck",
+          "consequence": "Plan.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "11:40 p.m. Bell. Frantic turn. The scrape is small. The water is fast.",
+      "sceneTitle": "Iceberg Spotted",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Real.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Disbelieve it",
+          "consequence": "Hope.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The architect knows the ship will sink. He tells you to put on your lifebelt.",
+      "sceneTitle": "Mr. Andrews",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Women and children first. Cal forces you in. Jack is on the deck.",
+      "sceneTitle": "Lifeboat",
+      "choices": [
+        {
+          "text": "Step in",
+          "consequence": "Live.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Step out",
+          "consequence": "Choice.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You leap from the lifeboat back onto the ship. Jack runs to you.",
+      "sceneTitle": "The Jump",
+      "choices": [
+        {
+          "text": "Hold his hand",
+          "consequence": "Vow.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Look at the ship",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Cal, with a pistol. The corridors are flooding.",
+      "sceneTitle": "Cal Chases",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Trick him",
+          "consequence": "Cunning.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Water roars up the staircase. A clock chimes 2:00.",
+      "sceneTitle": "Stairwell",
+      "choices": [
+        {
+          "text": "Climb high",
+          "consequence": "Survive.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Help others as you go",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Steerage is locked below. You and Jack break a bench from the floor.",
+      "sceneTitle": "Locked Gates",
+      "choices": [
+        {
+          "text": "Break the gate",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Find another route",
+          "consequence": "Strategic.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The stern rises out of the water. You hold the rail.",
+      "sceneTitle": "Stern Rising",
+      "choices": [
+        {
+          "text": "Climb the rail",
+          "consequence": "Plan.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait it out",
+          "consequence": "Faith.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The ship splits. The stern drops. Cold takes everything.",
+      "sceneTitle": "The Plunge",
+      "choices": [
+        {
+          "text": "Hold Jack's hand",
+          "consequence": "Vow.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Swim to a door",
+          "consequence": "Survive.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A wooden door in the water. Jack pushes you onto it. He stays in.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Hold his hand till he goes",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Promise to live",
+          "consequence": "Vow.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Carpathia is hours away. You take the whistle from a frozen officer.",
+      "sceneTitle": "Whistle",
+      "choices": [
+        {
+          "text": "Blow it long",
+          "consequence": "Survive.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Blow it short",
+          "consequence": "Conserve.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You give your name as Rose Dawson. The reporters never find you.",
+      "sceneTitle": "Carpathia",
+      "choices": [
+        {
+          "text": "Hide",
+          "consequence": "Vow.",
+          "nextNodeId": "end_dawson"
+        },
+        {
+          "text": "Step into the light",
+          "consequence": "Honest.",
+          "nextNodeId": "end_calvin"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_jack"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_dawson",
+      "text": "You live as Rose Dawson for the rest of your life. You travel. You ride horses. You learn to fly. At eighty-something, you sail to the wreck site and drop the diamond in.",
+      "sceneTitle": "Rose Dawson",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Rose Dawson"
+    },
+    {
+      "id": "end_calvin",
+      "text": "Cal loses everything in 1929 and shoots himself. You read about it in the paper at breakfast. You finish the toast. You go on with your day.",
+      "sceneTitle": "Cal, Eventually",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cal, Eventually"
+    },
+    {
+      "id": "end_jack",
+      "text": "You keep a small sketch in a tin. You speak to him sometimes, by water. You marry, eventually, a kind man. He does not, you tell him, replace Jack. He understands.",
+      "sceneTitle": "Jack, Always",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Jack, Always"
+    }
+  ]
+}

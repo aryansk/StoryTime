@@ -1,0 +1,450 @@
+{
+  "id": "fm-blade-runner",
+  "title": "Blade Runner",
+  "sourceTitle": "Blade Runner",
+  "kind": "movie",
+  "synopsis": "A retired blade runner, four replicants in Los Angeles, and a question about a dove on a rooftop.",
+  "releaseYear": 1982,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "noir",
+    "android",
+    "dystopia",
+    "neon"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A list of names, four photos, a forced contract.",
+      "sceneTitle": "Bryant's Office",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Practical.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "An owl on a perch and a woman with a green gaze.",
+      "sceneTitle": "Tyrell Corp",
+      "choices": [
+        {
+          "text": "Test her",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Skip the test",
+          "consequence": "Hard.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "She does not know that she is one of them.",
+      "sceneTitle": "Rachael",
+      "choices": [
+        {
+          "text": "Tell her",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Conceal it",
+          "consequence": "Cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An aquarium in Chinatown, a clue under a microscope.",
+      "sceneTitle": "Snake Scale",
+      "choices": [
+        {
+          "text": "Press the shopkeeper",
+          "consequence": "Hard.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A snake artist named Abdul Ben Hassan.",
+      "sceneTitle": "Animoid Row",
+      "choices": [
+        {
+          "text": "Threaten him",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Bribe him",
+          "consequence": "Practical.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Zhora dancing with a transparent python.",
+      "sceneTitle": "Taffey Lewis Club",
+      "choices": [
+        {
+          "text": "Confront her",
+          "consequence": "Bold.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Glass on glass on glass, a coat in a hundred panes.",
+      "sceneTitle": "Chase",
+      "choices": [
+        {
+          "text": "Shoot",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pursue further",
+          "consequence": "Discipline.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A big man with a bigger grief in an alley.",
+      "sceneTitle": "Leon's Anger",
+      "choices": [
+        {
+          "text": "Shoot him",
+          "consequence": "Final.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Photographs, memories, a piano cover at home.",
+      "sceneTitle": "Rachael in the Doorway",
+      "choices": [
+        {
+          "text": "Hold her",
+          "consequence": "Heart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Send her away",
+          "consequence": "Hard.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A toymaker with sped-up genes and a roomful of friends.",
+      "sceneTitle": "Sebastian",
+      "choices": [
+        {
+          "text": "Use him",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Be kind",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "An audience with the maker of all this trouble.",
+      "sceneTitle": "Tyrell at the Top",
+      "choices": [
+        {
+          "text": "Stand back",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Step forward",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Roy presses his thumbs into a god's eyes.",
+      "sceneTitle": "Eyes",
+      "choices": [
+        {
+          "text": "Look away",
+          "consequence": "Mercy.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Sebastian's keepsakes, a long staircase up to the rooftop.",
+      "sceneTitle": "Bradbury Apartment",
+      "choices": [
+        {
+          "text": "Climb",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Wait for backup",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A doll with a smile and a leap from a doorway.",
+      "sceneTitle": "Pris",
+      "choices": [
+        {
+          "text": "Fight her",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He has a nail through his palm to keep his hand from dying.",
+      "sceneTitle": "Roy on the Stair",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A long fall over the city.",
+      "sceneTitle": "Rooftop Edge",
+      "choices": [
+        {
+          "text": "Jump for the next building",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hang",
+          "consequence": "Desperate.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He pulls you up over the edge by your wrist.",
+      "sceneTitle": "Roy's Hand",
+      "choices": [
+        {
+          "text": "Thank him",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A small white bird in his palm in the rain.",
+      "sceneTitle": "Dove",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Move",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "All those moments will be lost.",
+      "sceneTitle": "Tears in Rain",
+      "choices": [
+        {
+          "text": "Be still",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Reply",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A small folded thing on the threshold of your apartment.",
+      "sceneTitle": "Origami Unicorn",
+      "choices": [
+        {
+          "text": "Pocket it",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Leave it",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Rachael in the corner, a long road ahead, an unanswered question.",
+      "sceneTitle": "Elevator Down",
+      "choices": [
+        {
+          "text": "Take her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "end_north"
+        },
+        {
+          "text": "Go alone",
+          "consequence": "Cold.",
+          "nextNodeId": "end_quit"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_dove"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_north",
+      "text": "You drive Rachael out of the city through wet streets and the long road opens past the neon, into something colder and cleaner.",
+      "sceneTitle": "North to the Snow",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "North to the Snow"
+    },
+    {
+      "id": "end_quit",
+      "text": "You return the badge and you find a small noodle bar where the owner does not ask questions, and you teach yourself to fold paper birds.",
+      "sceneTitle": "Hang Up the Gun",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hang Up the Gun"
+    },
+    {
+      "id": "end_dove",
+      "text": "You stand in the rain for a long time after Roy's hand opens, and the bird takes off, and the city keeps not noticing.",
+      "sceneTitle": "The Dove on the Roof",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Dove on the Roof"
+    }
+  ]
+}

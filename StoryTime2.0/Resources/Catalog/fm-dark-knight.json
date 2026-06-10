@@ -1,0 +1,449 @@
+{
+  "id": "fm-dark-knight",
+  "title": "The Dark Knight",
+  "sourceTitle": "The Dark Knight",
+  "kind": "movie",
+  "synopsis": "Gotham is, by night, mostly yours. A man in face paint has burned a mountain of money. He doesn't want money. You don't know yet what he wants.",
+  "releaseYear": 2008,
+  "addedAt": "2026-03-23T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "batman",
+    "crime",
+    "morality"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You stand on a rooftop. Gordon, below, signals. The bat-light is, in fact, a habit.",
+      "sceneTitle": "Rooftop",
+      "choices": [
+        {
+          "text": "Answer",
+          "consequence": "Duty.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait one more night",
+          "consequence": "Patience.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A robbery: six clowns, killing each other. The vault is full. The boss is a man named the Joker.",
+      "sceneTitle": "The Bank Job",
+      "choices": [
+        {
+          "text": "Track the trail",
+          "consequence": "Investigate.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Confront Joker directly",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Gotham's white knight. He wants to clean up the city. He is, you realize, who you wish you were.",
+      "sceneTitle": "Harvey Dent",
+      "choices": [
+        {
+          "text": "Support him publicly",
+          "consequence": "Strategic.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stay distant",
+          "consequence": "Caution.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Rachel is dating Harvey. You are, in the suit, no good for her. You decide what to do with that knowledge.",
+      "sceneTitle": "Rachel",
+      "choices": [
+        {
+          "text": "Step back fully",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Be her friend",
+          "consequence": "Hopeful.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The mob bosses meet by video. The Joker, uninvited, joins. He offers them his services. He scares them.",
+      "sceneTitle": "Mob Bosses",
+      "choices": [
+        {
+          "text": "Identify the mob's allies",
+          "consequence": "Investigate.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Identify the Joker first",
+          "consequence": "Priority.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "An accountant named Lau has fled to Hong Kong with mob money. You bring him back.",
+      "sceneTitle": "Lau",
+      "choices": [
+        {
+          "text": "Quietly",
+          "consequence": "Stealth.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Loudly",
+          "consequence": "Statement.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Dent announces he is Batman to draw Joker out. He isn't. You realize Dent is, in his way, you in a suit.",
+      "sceneTitle": "Dent's Press Conference",
+      "choices": [
+        {
+          "text": "Let it happen",
+          "consequence": "Trust.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stop him",
+          "consequence": "Protect.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A trap. Dent in transit. The Joker attacks the convoy.",
+      "sceneTitle": "Joker Captures",
+      "choices": [
+        {
+          "text": "Save Dent",
+          "consequence": "Mission.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Capture Joker",
+          "consequence": "Goal.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Joker in a chair. You hit him. He laughs. You realize hitting him is, in fact, the thing he wants.",
+      "sceneTitle": "Interrogation",
+      "choices": [
+        {
+          "text": "Stop hitting",
+          "consequence": "Discipline.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Keep going",
+          "consequence": "Anger.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Rachel and Dent are each held in a building rigged to explode. You can save one.",
+      "sceneTitle": "Two Locations",
+      "choices": [
+        {
+          "text": "Choose Rachel",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Choose Dent",
+          "consequence": "Mission.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The Joker lied about the addresses. You arrive at the one with Dent. Rachel dies.",
+      "sceneTitle": "The Wrong Door",
+      "choices": [
+        {
+          "text": "Tell Dent it was an accident",
+          "consequence": "Lie.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell him the truth",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Dent burns. Dent breaks. Dent becomes Two-Face. The white knight is gone.",
+      "sceneTitle": "Two-Face",
+      "choices": [
+        {
+          "text": "Save what you can of him",
+          "consequence": "Save.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Mourn him",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "An accountant threatens to reveal your identity. Joker says, if Reese isn't killed in an hour, a hospital explodes.",
+      "sceneTitle": "Coleman Reese",
+      "choices": [
+        {
+          "text": "Protect Reese",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Let him reveal you",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Joker, in a nurse's uniform, walks the wards. He finds Dent. He turns him.",
+      "sceneTitle": "Hospital",
+      "choices": [
+        {
+          "text": "Get there first",
+          "consequence": "Speed.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Catch Joker at the door",
+          "consequence": "Trap.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Two ferries, one of civilians, one of prisoners. Each has the other's detonator.",
+      "sceneTitle": "Two Ferries",
+      "choices": [
+        {
+          "text": "Wait for them to decide",
+          "consequence": "Trust.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Disable the bombs yourself",
+          "consequence": "Action.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Neither boat presses the button. Joker is, briefly, surprised. He decides to do it himself.",
+      "sceneTitle": "They Choose",
+      "choices": [
+        {
+          "text": "Stop him fast",
+          "consequence": "Race.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stop him slow",
+          "consequence": "Style.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You use Lucius' city-wide phone sonar to find Joker. The technology is, in its way, monstrous.",
+      "sceneTitle": "Sonar",
+      "choices": [
+        {
+          "text": "Use it once",
+          "consequence": "Compromise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Principle.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Top of a building. SWAT and Joker. You save the SWAT, you take the Joker.",
+      "sceneTitle": "Final Fight",
+      "choices": [
+        {
+          "text": "Don't kill him",
+          "consequence": "Vow.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Disable him brutally",
+          "consequence": "Anger.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Two-Face has, in his last hours, killed five men. He has hostage Gordon's family on a rooftop.",
+      "sceneTitle": "Dent's Body Count",
+      "choices": [
+        {
+          "text": "Take the fall for Dent's crimes",
+          "consequence": "Hero.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Tell the truth",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Dent dies. Gordon's son lives. You tell Gordon to call you a villain. He does.",
+      "sceneTitle": "The Rooftop",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Sacrifice.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Pride.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The bat-signal is, by morning, broken. You ride into the dawn. You are, in this story, the villain Gotham needs.",
+      "sceneTitle": "Sunrise",
+      "choices": [
+        {
+          "text": "Stay the villain",
+          "consequence": "Vow.",
+          "nextNodeId": "end_villain"
+        },
+        {
+          "text": "Plan to come back",
+          "consequence": "Hope.",
+          "nextNodeId": "end_clean"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_silence"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_villain",
+      "text": "You ride alone for years. The myth grows. Eventually, when the city needs you again, you return. The signal, restored, finds you on the same rooftop.",
+      "sceneTitle": "The Dark Knight",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Dark Knight"
+    },
+    {
+      "id": "end_clean",
+      "text": "Years later, when Gotham is stronger, you reveal what Dent did. Gotham survives the revelation. You retire. Wayne Manor, restored, becomes a children's home.",
+      "sceneTitle": "The Truth, Eventually",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Truth, Eventually"
+    },
+    {
+      "id": "end_silence",
+      "text": "You disappear. The signal is dismantled. You let the city heal without you. Lucius, alone in the bunker, archives the suit. You build, instead, a foundation.",
+      "sceneTitle": "Silent Bat",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Silent Bat"
+    }
+  ]
+}

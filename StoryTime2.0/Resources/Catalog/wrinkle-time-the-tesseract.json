@@ -1,0 +1,449 @@
+{
+  "id": "wrinkle-time-the-tesseract",
+  "title": "A Wrinkle in Time",
+  "sourceTitle": "A Wrinkle in Time",
+  "kind": "movie",
+  "synopsis": "Your dad disappeared into space-time. Three strange Mrs Ws are at the door. The tesseract is, apparently, a verb. Go find him.",
+  "releaseYear": 2018,
+  "addedAt": "2026-03-27T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "children",
+    "physics",
+    "love"
+  ],
+  "rating": 1,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Mrs Whatsit is at the door in a thunderstorm. She mentions a tesseract. You realize you are, technically, in a novel.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay polite",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your tiny brother Charles Wallace, somehow, has been corresponding with all three Mrs Ws by name.",
+      "sceneTitle": "Charles Wallace",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Family.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Question him",
+          "consequence": "Cautious.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A schoolmate named Calvin shows up because, the Mrs Ws say, he's part of it. He is, surprisingly, nice.",
+      "sceneTitle": "Calvin",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Friend.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Be suspicious",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Mrs Who speaks only in quotations. The quotations are, in places, useful.",
+      "sceneTitle": "Mrs Who's Quote",
+      "choices": [
+        {
+          "text": "Note them",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Just listen",
+          "consequence": "Style.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You tesseract. The sensation is unpleasant. You arrive on a planet with too many flowers.",
+      "sceneTitle": "First Tesseract",
+      "choices": [
+        {
+          "text": "Smell a flower",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't touch anything",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Uriel is, apparently, the good place. You meet a centaur who explains evil as a darkness across the universe.",
+      "sceneTitle": "Uriel",
+      "choices": [
+        {
+          "text": "Look at the darkness",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Don't look",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You glimpse Camazotz, the dark planet. Your dad is on it. The darkness, you realize, eats things slowly.",
+      "sceneTitle": "Camazotz Glimpse",
+      "choices": [
+        {
+          "text": "Vow to go",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Demand a plan first",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Mrs Whatsit transforms into a creature with wings. Charles Wallace, on her back, is, you realize, exactly his happiest.",
+      "sceneTitle": "Mrs Whatsit's Form",
+      "choices": [
+        {
+          "text": "Ride her",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The Happy Medium has, in his cave, a crystal ball that shows your father. He is alive. He is also a long way away.",
+      "sceneTitle": "Happy Medium",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Hope.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Verify it",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You and Charles Wallace and Calvin approach Camazotz. The planet looks, ominously, like a suburb.",
+      "sceneTitle": "Camazotz Approach",
+      "choices": [
+        {
+          "text": "Walk in",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Sneak in",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Children bouncing identical balls in identical rhythms. Charles Wallace, you realize, is in danger of being absorbed.",
+      "sceneTitle": "Identical Children",
+      "choices": [
+        {
+          "text": "Hold his hand tight",
+          "consequence": "Family.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Distract him",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The CENTRAL Intelligence building is, on the map, the center of evil. You go in.",
+      "sceneTitle": "Central Intelligence",
+      "choices": [
+        {
+          "text": "Take the front door",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Find another way",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Charles Wallace is taken by IT. He talks in a flat voice. He is, technically, still your brother.",
+      "sceneTitle": "Charles Wallace, Taken",
+      "choices": [
+        {
+          "text": "Fight to bring him back",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Negotiate with IT",
+          "consequence": "Strategic.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You find your father in a clear column. He is older, gaunter, alive. He doesn't, for a second, recognize you.",
+      "sceneTitle": "Your Father",
+      "choices": [
+        {
+          "text": "Speak his name",
+          "consequence": "Family.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hug him",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The way out, as ever, is the way you came in. The way out is also, this time, harder.",
+      "sceneTitle": "The Way Out",
+      "choices": [
+        {
+          "text": "Carry Charles Wallace",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Coax him out",
+          "consequence": "Patient.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Mrs Which, the oldest of the three, finally speaks. Her voice is slow and heavy. The advice, by now, is one word: love.",
+      "sceneTitle": "Mrs Which's Voice",
+      "choices": [
+        {
+          "text": "Use love",
+          "consequence": "Yes.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Use love and a plan",
+          "consequence": "Both.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Your love, plainly and embarrassingly out loud, reaches him. He blinks. The flatness retreats.",
+      "sceneTitle": "Charles Wallace, Returning",
+      "choices": [
+        {
+          "text": "Hold him",
+          "consequence": "Family.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Get him moving",
+          "consequence": "Smart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You run. The corridors of CENTRAL fold and unfold. The Mrs Ws are, in the corner of your eye, helping.",
+      "sceneTitle": "The Run",
+      "choices": [
+        {
+          "text": "Trust them",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Trust your feet",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You arrive back on Uriel briefly. The Mrs Ws thank you. Charles Wallace, weirdly, asks for a sandwich.",
+      "sceneTitle": "Back on Uriel",
+      "choices": [
+        {
+          "text": "Make the sandwich",
+          "consequence": "Family.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Promise one at home",
+          "consequence": "Practical.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You land in your front yard. Mom comes out screaming. Dad is, this time, in the picture in a way he hasn't been in years.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Hug everyone",
+          "consequence": "Family.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Sit on the porch and breathe",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You go back to school Monday. People don't believe what you tell them. You decide what you'll tell them now.",
+      "sceneTitle": "School, Monday",
+      "choices": [
+        {
+          "text": "Tell the truth",
+          "consequence": "Brave.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Smart.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_family"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_quiet",
+      "text": "You become, in your school, the slightly strange kid. Calvin, mercifully, becomes the slightly strange kid too. You are, at fourteen, a small good resistance to whatever darkness is closest.",
+      "sceneTitle": "Quietly Strange",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly Strange"
+    },
+    {
+      "id": "end_writer",
+      "text": "You write, decades later, a book about it. The book is, in fact, the one you read as a kid. The cycle closes.",
+      "sceneTitle": "The Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book"
+    },
+    {
+      "id": "end_family",
+      "text": "Your dad stays. Charles Wallace, less weird than he was, grows up. Calvin marries you, in a long-running joke that becomes a real thing. The Mrs Ws send Christmas cards. Mrs Who's are in three languages.",
+      "sceneTitle": "Family, Finally",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family, Finally"
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "id": "sebastian-the-research",
+  "title": "Sebastian",
+  "sourceTitle": "Sebastian",
+  "kind": "movie",
+  "synopsis": "You're a young writer in London with a novel that won't sell. To finish it, you start escorting under a name that isn't yours. You promise yourself you can write your way back out.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-19T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "sex work",
+    "writing",
+    "London"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You set up the profile under 'Sebastian.' Mostly truthful. Mostly flattering. You write your novel's protagonist into the bio. Within an hour, three messages.",
+      "sceneTitle": "The Profile",
+      "choices": [
+        {
+          "text": "Reply to the first carefully",
+          "consequence": "Curiosity, careful.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Reply to a safer-seeming one",
+          "consequence": "Risk management.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A man in his fifties, polite, nervous. He talks about his ex-wife. You take, mentally, the smallest possible notes. He pays in cash. He thanks you. You walk home with seventy pounds and a stomach that has not decided how it feels.",
+      "sceneTitle": "The First Client",
+      "choices": [
+        {
+          "text": "Write the scene tonight",
+          "consequence": "Capitalize on the rawness.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait a week before writing",
+          "consequence": "Distance.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your literary agent, Helen, calls. She wants to know what you're working on. You tell her the truth in a careful sentence. She is silent. Then she says, 'Be careful. Be specific. Don't lie to yourself about it.'",
+      "sceneTitle": "Helen, the Editor",
+      "choices": [
+        {
+          "text": "Send Helen a chapter immediately",
+          "consequence": "Make her your sounding board.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Keep Helen in the dark for the first draft",
+          "consequence": "Protect the work.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You are also, technically, a junior writer at a magazine. Your colleague Amna notices you have been very tired. She asks if you are okay. You say yes. You say it slightly too quickly.",
+      "sceneTitle": "Your Day Job",
+      "choices": [
+        {
+          "text": "Tell Amna the truth",
+          "consequence": "Friend.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Tell her you're just sleep-deprived",
+          "consequence": "Cover.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A regular — an academic in his sixties — recognizes your debut short story collection. 'You're him,' he says, gently. 'I thought so.' He pays anyway. He recommends a book on Foucault. You read it. You don't know what to do with the information.",
+      "sceneTitle": "The Client Who Reads",
+      "choices": [
+        {
+          "text": "Use him as a long, careful conversation partner",
+          "consequence": "Make him a character.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stop seeing him; the line is too thin",
+          "consequence": "Boundary.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Helen, after reading two chapters, calls late. 'Two questions,' she says. 'One: is the work good? Yes. Two: are you?' You realize you don't have a different answer for each.",
+      "sceneTitle": "Helen's Concern",
+      "choices": [
+        {
+          "text": "Tell her the answer is the same and you don't know",
+          "consequence": "Honesty.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell her you're fine — finish the book first",
+          "consequence": "Bet on the work.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A booking goes slightly wrong — nothing dangerous, just unsettling. You go home with a feeling you don't want in your notes. You sit on the kitchen floor with the lights off for an hour.",
+      "sceneTitle": "The Borderline Night",
+      "choices": [
+        {
+          "text": "Take a week off",
+          "consequence": "Replenish.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Write the unsettling scene with full honesty",
+          "consequence": "Use it.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You go home to Brighton for a weekend. Your mother makes Sunday roast. You realize you have not lied to her about the specifics, only the substance. You realize you'd prefer not to lie at all.",
+      "sceneTitle": "Your Family",
+      "choices": [
+        {
+          "text": "Tell her the truth gently",
+          "consequence": "Family honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait until the book is out",
+          "consequence": "Plan the disclosure.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You finish the first draft on a Wednesday at 3 a.m. You realize, reading it, that the novel is good and is also a kind of exposure. The book is, you slowly understand, going to make you a public person whether or not you choose to be.",
+      "sceneTitle": "The First Draft",
+      "choices": [
+        {
+          "text": "Send the draft to Helen the next morning",
+          "consequence": "Commit.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Sit on the draft for a month first",
+          "consequence": "Decompress.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Helen sends the manuscript. Three publishers want it. The advance is, by a wide margin, the most money you have ever been offered for anything.",
+      "sceneTitle": "The Bidding War",
+      "choices": [
+        {
+          "text": "Accept the biggest offer",
+          "consequence": "Take the money.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Accept the editor you think believes in the book most",
+          "consequence": "Take the right partner.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You sit with the question of whether to keep working as 'Sebastian' once the book is sold. You realize the answer is, finally, no. You realize you've been hoping the book would let you stop.",
+      "sceneTitle": "The Decision",
+      "choices": [
+        {
+          "text": "Stop the day after sale",
+          "consequence": "Clean break.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Taper off for a month",
+          "consequence": "Soft landing.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Pubs ask you the same questions — autobiographical, ethics, exploitation. You answer the same answer with growing patience: the book is a novel. It is also, you admit, a kind of field notes.",
+      "sceneTitle": "The Publicity Tour",
+      "choices": [
+        {
+          "text": "Be plain about the field notes",
+          "consequence": "Own it.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Lean into the novelist's distance",
+          "consequence": "Protect.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your father reads the book in three days. He calls you. He says, 'Did you have to write the bath scene?' You laugh, because the laugh is also relief. He says, 'I'm proud of you.' He hangs up before you can answer.",
+      "sceneTitle": "Your Family, Reading",
+      "choices": [
+        {
+          "text": "Call him back",
+          "consequence": "Talk.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Write him a letter the next morning",
+          "consequence": "Letter.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A long magazine profile is, you decide, your chance to be honest in your own words. You spend three days with a reporter you trust. The profile, when it lands, is fair, generous, and slightly more vulnerable than you planned.",
+      "sceneTitle": "The Long Profile",
+      "choices": [
+        {
+          "text": "Trust the profile and be done with the press",
+          "consequence": "Closure.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Use it as a platform for sex worker rights advocacy",
+          "consequence": "Politicize.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Amna, who has read the book, asks if you want to teach a workshop she runs for young writers from working-class backgrounds. You realize you can be useful in a way the book by itself doesn't manage.",
+      "sceneTitle": "Amna's Question",
+      "choices": [
+        {
+          "text": "Take the workshop",
+          "consequence": "Teach.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take a sabbatical first",
+          "consequence": "Rest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Your second book is, mercifully, about something completely else. Helen jokes, kindly, that you have ten years to write any kind of book you want now. You realize that, more than the money, that is the gift.",
+      "sceneTitle": "Second Book",
+      "choices": [
+        {
+          "text": "Write the book you've always quietly wanted to",
+          "consequence": "Indulge.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Write the book that helps the next 'Sebastian'",
+          "consequence": "Pass forward.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You go home more often. Your mother makes Sunday roast. Your father reads everything you publish, eventually, in his armchair. You realize, late, that your job was never the secret — it was just the symptom of being twenty-six and lonely. You are, slowly, less lonely.",
+      "sceneTitle": "Brighton, Visiting",
+      "choices": [
+        {
+          "text": "Move back near them",
+          "consequence": "Closer.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay in London, visit often",
+          "consequence": "Balanced.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A bookshop in Bloomsbury asks you to read. The room is small and full. A young person in the second row, embarrassed, asks if they can speak to you after. You realize the reading is, also, an office hour.",
+      "sceneTitle": "The Reading",
+      "choices": [
+        {
+          "text": "Stay an hour for the second-row reader",
+          "consequence": "Mentor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Be gracious and brief",
+          "consequence": "Boundaries.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Helen takes you to lunch and asks, plainly, what kind of writer you want to be in five years. You realize the answer has, finally, come into focus. The answer is, as Helen suspected it would be, both.",
+      "sceneTitle": "The Honest Lunch",
+      "choices": [
+        {
+          "text": "Tell her the plan",
+          "consequence": "Plan.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Tell her you'll send it on paper",
+          "consequence": "Letter.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You sit at your desk and write the next sentence. The sentence is yours. The pen is yours. The years ahead, surprisingly, are also yours. You choose which kind of writer you're going to be.",
+      "sceneTitle": "The Shape of It",
+      "choices": [
+        {
+          "text": "The career writer",
+          "consequence": "Long shelf.",
+          "nextNodeId": "end_books"
+        },
+        {
+          "text": "The writer-teacher",
+          "consequence": "Shorter shelf, more readers helped.",
+          "nextNodeId": "end_help"
+        },
+        {
+          "text": "The Brighton writer",
+          "consequence": "Home shelf.",
+          "nextNodeId": "end_home"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_books",
+      "text": "You write books for the next thirty years. Some are good. Some are very good. Your first is the one that everyone asks about, still, even after the others have outsold it. You answer the same way: it was a beginning. You have learned to mean that.",
+      "sceneTitle": "A Long Career",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Long Career"
+    },
+    {
+      "id": "end_help",
+      "text": "Your second book is a quiet, careful guide to writing through difficult life material. It is recommended in three different MFA programs. You teach two workshops a year. You realize, surprised, that you are good at it.",
+      "sceneTitle": "The Workshop",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Workshop"
+    },
+    {
+      "id": "end_home",
+      "text": "You move back. You buy a small flat with a view of the sea. You write, you visit your parents, you walk the pier in the rain. The novel becomes, in time, a thing you wrote — not a thing you are. That distinction, you realize, is the whole project.",
+      "sceneTitle": "Brighton, Eventually",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Brighton, Eventually"
+    }
+  ]
+}

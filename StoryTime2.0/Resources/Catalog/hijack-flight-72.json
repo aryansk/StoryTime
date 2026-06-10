@@ -1,0 +1,449 @@
+{
+  "id": "hijack-flight-72",
+  "title": "Hijack",
+  "sourceTitle": "Hijack",
+  "kind": "show",
+  "synopsis": "Seven hours from Singapore to London. Row 18. Aisle. You're a corporate negotiator on holiday. They picked the wrong plane.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-08T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "airplane",
+    "negotiation",
+    "real-time"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Wheels up. You order tomato juice. The man in 18B is, you notice, sweating.",
+      "sceneTitle": "Hour One",
+      "choices": [
+        {
+          "text": "Engage him",
+          "consequence": "Test.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Watch him",
+          "consequence": "Read.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A flight attendant goes pale at the galley curtain. You realize something has shifted at the front.",
+      "sceneTitle": "Hour Two",
+      "choices": [
+        {
+          "text": "Move forward",
+          "consequence": "Act.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay seated",
+          "consequence": "Wait.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The lead flight attendant is competent. She uses careful eye contact. You realize she is already negotiating.",
+      "sceneTitle": "Cabin Crew",
+      "choices": [
+        {
+          "text": "Join her quietly",
+          "consequence": "Pair up.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Support from your seat",
+          "consequence": "Don't crowd.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An announcement: 'Stay seated.' Two men in business class are armed. The demand is, unusually, specific. They want a name in Singapore released.",
+      "sceneTitle": "The Demand",
+      "choices": [
+        {
+          "text": "Note the name",
+          "consequence": "Information.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Note the men",
+          "consequence": "People.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "An off-duty doctor in 18C catches your eye. She has, you can tell, training you don't.",
+      "sceneTitle": "Row 18C",
+      "choices": [
+        {
+          "text": "Coordinate with her",
+          "consequence": "Allies.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't expose her",
+          "consequence": "Protect.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You have a satellite phone in your bag. You can, with one text, reach your firm's security desk.",
+      "sceneTitle": "The Phone",
+      "choices": [
+        {
+          "text": "Send one careful text",
+          "consequence": "Use it.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Save the phone for later",
+          "consequence": "Hold.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The pilots are, by the schedule, still in there. The door is, by the schedule, still closed.",
+      "sceneTitle": "Cockpit",
+      "choices": [
+        {
+          "text": "Talk to the FA about the door",
+          "consequence": "Strategy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Trust the protocol",
+          "consequence": "Don't push.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The men in business class let you, eventually, speak with them. You are, in their words, 'the calm one.'",
+      "sceneTitle": "The Negotiator",
+      "choices": [
+        {
+          "text": "Lower their adrenaline",
+          "consequence": "Defuse.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Stall for the ground",
+          "consequence": "Time.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The name they want is, you realize, a man your firm has briefed you on. The story is, in places, more complicated than the demand suggests.",
+      "sceneTitle": "The Singapore Name",
+      "choices": [
+        {
+          "text": "Use that knowledge",
+          "consequence": "Leverage.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Don't reveal what you know",
+          "consequence": "Hide.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A child cries. The doctor calms him. A businessman across the aisle has, against your judgement, decided he can take the smaller man.",
+      "sceneTitle": "Hour Three",
+      "choices": [
+        {
+          "text": "Talk him down",
+          "consequence": "Prevent.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Coordinate his timing",
+          "consequence": "Use.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Ground control, finally, is on the line. The negotiator on the other end is in their forties and exhausted.",
+      "sceneTitle": "The Ground",
+      "choices": [
+        {
+          "text": "Build rapport with them too",
+          "consequence": "Two fronts.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay focused on the cabin",
+          "consequence": "One front.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The men are tiring. They have, you notice, planned for this hour. They have not, you notice, planned for hour five.",
+      "sceneTitle": "Hour Four",
+      "choices": [
+        {
+          "text": "Wait them out",
+          "consequence": "Patience.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Force a small concession",
+          "consequence": "Pressure.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "An older passenger needs the bathroom. The smaller man refuses. The older passenger, eventually, doesn't ask twice.",
+      "sceneTitle": "The Bathroom Run",
+      "choices": [
+        {
+          "text": "Negotiate a compromise",
+          "consequence": "Mercy.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Let the moment pass",
+          "consequence": "Don't escalate.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The doctor whispers: one of the men is, by her medical eye, in a hypoglycemic spiral. She suggests, casually, food.",
+      "sceneTitle": "The Doctor's Read",
+      "choices": [
+        {
+          "text": "Use the suggestion",
+          "consequence": "Soften him.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Save it for later",
+          "consequence": "Hold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The plan, you realize, was always to land somewhere — not London. They need to know they can land. You realize you can offer that.",
+      "sceneTitle": "Hour Five",
+      "choices": [
+        {
+          "text": "Offer the landing",
+          "consequence": "Trade.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Don't trade until you have to",
+          "consequence": "Hold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The captain's voice, through the door, is steady. He asks, professionally, for guidance. You give it.",
+      "sceneTitle": "The Pilots",
+      "choices": [
+        {
+          "text": "Tell him the truth about the cabin",
+          "consequence": "Trust him.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Keep it minimal",
+          "consequence": "Compartmentalize.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The plane diverts to a smaller airport. The men, on the ground, are no longer airborne — which is itself a kind of defeat.",
+      "sceneTitle": "Diverted",
+      "choices": [
+        {
+          "text": "Push for the door to open peacefully",
+          "consequence": "Quiet.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait for tactical",
+          "consequence": "Patience.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The cockpit door opens, finally, with the men's permission. The pilots, professional, do not, in the cockpit, react.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Help the pilots regain composure",
+          "consequence": "Care.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step back and let them work",
+          "consequence": "Trust.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The negotiator on the ground signals you. The men set down their weapons. Nobody fires.",
+      "sceneTitle": "Tactical",
+      "choices": [
+        {
+          "text": "Bring the cabin to its feet quietly",
+          "consequence": "Order.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay in your seat as instructed",
+          "consequence": "Comply.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The doors open onto a tarmac that smells of jet fuel and rain. The passengers, in a long line, walk out. You and the doctor and the flight attendant are last.",
+      "sceneTitle": "Tarmac",
+      "choices": [
+        {
+          "text": "Hug the FA",
+          "consequence": "Friendship of seven hours.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk out alone",
+          "consequence": "Process privately.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You stand in a small airport's corridor with foil blankets and bad coffee. You realize you can choose, right now, what kind of person this flight made you.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Stay in the business",
+          "consequence": "Use the skill.",
+          "nextNodeId": "end_negotiator"
+        },
+        {
+          "text": "Take a different job",
+          "consequence": "Get off the road.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_friend"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_negotiator",
+      "text": "You leave corporate and join an international crisis-response team. You log many more hours like flight 72. You sleep well in the after, but you never quite love a plane again.",
+      "sceneTitle": "Negotiator, Higher Stakes",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Negotiator, Higher Stakes"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You take a quieter job. You write a memo about cabin tactics that gets distributed to every flight attendant in Europe. Nobody knows your name. Many people are alive because of you.",
+      "sceneTitle": "Quieter Work",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quieter Work"
+    },
+    {
+      "id": "end_friend",
+      "text": "You stay in touch with the doctor and the flight attendant for the rest of your life. You become, in a real sense, family. You have, you realize, met your people.",
+      "sceneTitle": "The Doctor and the FA",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Doctor and the FA"
+    }
+  ]
+}

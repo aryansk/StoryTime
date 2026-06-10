@@ -1,0 +1,449 @@
+{
+  "id": "fb-don-quixote",
+  "title": "Don Quixote",
+  "sourceTitle": "Don Quixote",
+  "kind": "book",
+  "synopsis": "La Mancha. You read too many books and got the wrong ideas. Today you put on a rusted helmet and call your old horse Rocinante. You will be, you have decided, a knight.",
+  "releaseYear": 1605,
+  "addedAt": "2026-02-10T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "spain",
+    "knight",
+    "absurd"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Romances stacked to the ceiling.",
+      "sceneTitle": "Library",
+      "choices": [
+        {
+          "text": "Burn them later",
+          "consequence": "Pride.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Carry them",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Cardboard reinforced with a basin.",
+      "sceneTitle": "Helmet",
+      "choices": [
+        {
+          "text": "Wear it proudly",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Wear it humbly",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Old, thin, willing.",
+      "sceneTitle": "Rocinante",
+      "choices": [
+        {
+          "text": "Pat his neck",
+          "consequence": "Care.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Spur him",
+          "consequence": "Foolish.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A neighbor agrees to be your squire for the promise of an island.",
+      "sceneTitle": "Sancho",
+      "choices": [
+        {
+          "text": "Promise",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Confess no island exists",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Giants on the plain. Wave their arms.",
+      "sceneTitle": "Windmills",
+      "choices": [
+        {
+          "text": "Charge",
+          "consequence": "Path.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stop",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You fall. Sancho lifts you.",
+      "sceneTitle": "Bruise",
+      "choices": [
+        {
+          "text": "Insist they were giants",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Admit windmills",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You request to be knighted by the innkeeper.",
+      "sceneTitle": "Inn as Castle",
+      "choices": [
+        {
+          "text": "Kneel",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pay him first",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You read them poetry. They are, mostly, polite.",
+      "sceneTitle": "Goatherds",
+      "choices": [
+        {
+          "text": "Continue",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Stop",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You free them. They beat you and run.",
+      "sceneTitle": "Galley Slaves",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Insist it was right",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A madman in the mountains. He has a sad story.",
+      "sceneTitle": "Cardenio",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Care.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Lecture",
+          "consequence": "Foolish.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She is, you decide, a princess. She is, in fact, a farm girl named Aldonza.",
+      "sceneTitle": "Dulcinea",
+      "choices": [
+        {
+          "text": "Believe she's a princess",
+          "consequence": "Path.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Send her a letter signed your knight",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A barber's basin. You insist.",
+      "sceneTitle": "Helmet of Mambrino",
+      "choices": [
+        {
+          "text": "Wear it",
+          "consequence": "Path.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Return it",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He asks. You owe.",
+      "sceneTitle": "Sancho's Wages",
+      "choices": [
+        {
+          "text": "Pay him in promises",
+          "consequence": "Path.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Pay him real",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "They host you to mock you. You don't notice.",
+      "sceneTitle": "The Duke and Duchess",
+      "choices": [
+        {
+          "text": "Be a good guest",
+          "consequence": "Civil.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Suspect",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "They give him a town to govern. He governs surprisingly well.",
+      "sceneTitle": "Sancho's Island",
+      "choices": [
+        {
+          "text": "Be proud",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Be jealous",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You go down. You report dreams.",
+      "sceneTitle": "Cave of Montesinos",
+      "choices": [
+        {
+          "text": "Tell them honestly",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Embellish",
+          "consequence": "Pride.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A neighbor in armor challenges you. If he wins, you go home.",
+      "sceneTitle": "Knight of the White Moon",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You lose. You ride home in your borrowed dignity.",
+      "sceneTitle": "Defeat",
+      "choices": [
+        {
+          "text": "Be silent",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Plan revenge",
+          "consequence": "Foolish.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Bed. The priest. The barber. Sancho weeps.",
+      "sceneTitle": "Fever",
+      "choices": [
+        {
+          "text": "Accept death",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Plan a shepherd's life",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You renounce the books.",
+      "sceneTitle": "Confession",
+      "choices": [
+        {
+          "text": "Mean it",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Half-mean it",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You die. The village is quieter.",
+      "sceneTitle": "Death",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Honest.",
+          "nextNodeId": "end_books"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "end_sancho"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quixote"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_books",
+      "text": "Your library is burned, with the priest's careful selection. Some are saved. The village reads them, occasionally, with skepticism.",
+      "sceneTitle": "The Books, Burned",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Books, Burned"
+    },
+    {
+      "id": "end_sancho",
+      "text": "Sancho tells your story to whoever stops at the inn. The story grows kinder as it travels. By a generation it is, in many ways, a kind of scripture.",
+      "sceneTitle": "Sancho's Telling",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sancho's Telling"
+    },
+    {
+      "id": "end_quixote",
+      "text": "An author named Cervantes hears the story. He writes it down. It outlives every kingdom you would have conquered. You become, against your will, a saint of imperfect courage.",
+      "sceneTitle": "Quixote, Eternal",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quixote, Eternal"
+    }
+  ]
+}

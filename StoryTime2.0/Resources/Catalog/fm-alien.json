@@ -1,0 +1,450 @@
+{
+  "id": "fm-alien",
+  "title": "Alien",
+  "sourceTitle": "Alien",
+  "kind": "movie",
+  "synopsis": "A space tug, a distress beacon, an egg, and a chest cavity that does not appreciate visitors.",
+  "releaseYear": 1979,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "space",
+    "creature",
+    "ripley",
+    "claustrophobic"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A signal at the edge of charted space.",
+      "sceneTitle": "Mother",
+      "choices": [
+        {
+          "text": "Wake the crew",
+          "consequence": "Discipline.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Sleep through",
+          "consequence": "Lazy.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A rocky moon under a yellow sky and a horseshoe ship in the dust.",
+      "sceneTitle": "LV-426",
+      "choices": [
+        {
+          "text": "Land",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Wait in orbit",
+          "consequence": "Cautious.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Leathery shapes in fog with a thing twitching beneath each lid.",
+      "sceneTitle": "Field of Eggs",
+      "choices": [
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Lean in",
+          "consequence": "Reckless.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A spider with a tail wraps a man's helmet.",
+      "sceneTitle": "Facehugger",
+      "choices": [
+        {
+          "text": "Stay outside",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Open the door",
+          "consequence": "Mercy.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Ripley at the door. Ash at the latch.",
+      "sceneTitle": "Quarantine",
+      "choices": [
+        {
+          "text": "Side with Ripley",
+          "consequence": "Discipline.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Override the lock",
+          "consequence": "Mercy.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A facehugger drops off and walks itself into a corner.",
+      "sceneTitle": "Medbay",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Hard.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Cage it",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Kane laughs at the table about a long sleep ahead.",
+      "sceneTitle": "Dinner",
+      "choices": [
+        {
+          "text": "Sit close",
+          "consequence": "Friend.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wary.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A small wet thing on the table running for a vent.",
+      "sceneTitle": "Chestburst",
+      "choices": [
+        {
+          "text": "Pursue",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Brace",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Air ducts and a tracker that pings irregularly.",
+      "sceneTitle": "Vent Map",
+      "choices": [
+        {
+          "text": "Use the tracker",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hunt by ear",
+          "consequence": "Reckless.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Jonesy hisses at a door that should not be unlocked.",
+      "sceneTitle": "Brett's Cat",
+      "choices": [
+        {
+          "text": "Follow Jonesy",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Ignore the cat",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A wet sound up in the chains.",
+      "sceneTitle": "Brett Gone",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Look up",
+          "consequence": "Reckless.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Captain in coveralls with a flame thrower.",
+      "sceneTitle": "Dallas in the Vents",
+      "choices": [
+        {
+          "text": "Talk to him on comms",
+          "consequence": "Friend.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Mother's screen reveals the crew is expendable.",
+      "sceneTitle": "Special Order 937",
+      "choices": [
+        {
+          "text": "Confront Ash",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Hide your knowledge",
+          "consequence": "Cunning.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A magazine rolled in his hand, white fluid on his collar.",
+      "sceneTitle": "Ash, Synthetic",
+      "choices": [
+        {
+          "text": "Decapitate him",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Talk first",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He laughs at your odds.",
+      "sceneTitle": "Reactivate Ash's Head",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Burn him",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A countdown, a long corridor, a thing in the way.",
+      "sceneTitle": "Self-Destruct",
+      "choices": [
+        {
+          "text": "Set it",
+          "consequence": "Final.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Jonesy under a chair in a service bay.",
+      "sceneTitle": "Cat Carrier",
+      "choices": [
+        {
+          "text": "Grab him",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Leave him",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A scream, an impact, a corridor that goes quiet too fast.",
+      "sceneTitle": "Lambert and Parker",
+      "choices": [
+        {
+          "text": "Push past",
+          "consequence": "Smart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Try to help",
+          "consequence": "Loyal.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A small bay, a small ship, an escape that fits two if one is a cat.",
+      "sceneTitle": "Narcissus Lifeboat",
+      "choices": [
+        {
+          "text": "Buckle in",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The alien folded into a wall plate behind the seats.",
+      "sceneTitle": "Bridge",
+      "choices": [
+        {
+          "text": "Vent the cabin",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A log entry to a Company recorder no one will check for fifty-seven years.",
+      "sceneTitle": "Final Report",
+      "choices": [
+        {
+          "text": "Tell the truth",
+          "consequence": "Honest.",
+          "nextNodeId": "end_log"
+        },
+        {
+          "text": "Lie a little",
+          "consequence": "Wise.",
+          "nextNodeId": "end_hold"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_log",
+      "text": "Ripley, Nostromo, signing off. The cat curls against your boot and the cryo bay hums and you sleep without dreams for the first time in months.",
+      "sceneTitle": "Final Log",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Final Log"
+    },
+    {
+      "id": "end_hold",
+      "text": "You and Jonesy drift through space toward a frontier station, half a century out, a small lifeboat and a clean ledger of survival.",
+      "sceneTitle": "Hyper Sleep",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hyper Sleep"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You wake up to find Jonesy purring against the glass of his cryo tube and you both look at each other for a long calm second before you go back under.",
+      "sceneTitle": "Cat in the Tube",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cat in the Tube"
+    }
+  ]
+}

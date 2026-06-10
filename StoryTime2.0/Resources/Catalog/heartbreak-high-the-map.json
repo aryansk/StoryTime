@@ -1,0 +1,430 @@
+{
+  "id": "heartbreak-high-the-map",
+  "title": "Heartbreak High",
+  "sourceTitle": "Heartbreak High",
+  "kind": "show",
+  "synopsis": "You made a map of every romantic and sexual connection at your Sydney high school. It got out. Now the school wants you in 'sexual literacy' — and several relationships, including yours, want a word.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-21T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "teen",
+    "queer",
+    "Sydney"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The map, drawn in marker, occupies an entire toilet wall. Lines connect names you barely thought about and names you most certainly did. The principal's heels click down the hallway. You have three minutes.",
+      "sceneTitle": "Monday, Pre-Assembly",
+      "choices": [
+        {
+          "text": "Take photos of the map first",
+          "consequence": "Document the chaos you made.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Try to scrub it before assembly",
+          "consequence": "Damage control.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Quinni sees you with the camera. She doesn't judge. She does, helpfully, point out that you spelled three names wrong. Friendship like Quinni's is rare and you do not deserve it.",
+      "sceneTitle": "Your Best Friend Quinni",
+      "choices": [
+        {
+          "text": "Apologize to Quinni for involving her",
+          "consequence": "Friendship over scoops.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Recruit Quinni to help you fix it",
+          "consequence": "Practical first.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Principal Stacy stares at the map for a long minute. Then she looks at you. 'My office,' she says, evenly. 'And bring whichever friend convinced you the marker was washable.'",
+      "sceneTitle": "Principal Stacy",
+      "choices": [
+        {
+          "text": "Take Quinni with you",
+          "consequence": "Backup.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Go alone — own it",
+          "consequence": "Solo.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The new mandatory class is called 'SLT' by the school and 'SLuTs' by everyone else. The teacher is well-intentioned and overwhelmed. The class is, of course, the exact people you mapped.",
+      "sceneTitle": "Sexual Literacy Tutorial",
+      "choices": [
+        {
+          "text": "Participate honestly",
+          "consequence": "Lean in.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit at the back with Quinni and Darren",
+          "consequence": "Survive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Malakai, your maybe-boyfriend, finds you at lunch. 'I'm on the map twice,' he says. 'Did you not notice or not care?' You realize you didn't actually know about the second line until you re-read it.",
+      "sceneTitle": "Malakai, Hurt",
+      "choices": [
+        {
+          "text": "Apologize fully",
+          "consequence": "Own the harm.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Explain the map's intent",
+          "consequence": "Context as defense.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Darren, equal parts dramatic and wise, says, 'You made the map because you wanted everyone to admit they're connected. The school doesn't want them to.' Darren is right, as usual.",
+      "sceneTitle": "Darren's Take",
+      "choices": [
+        {
+          "text": "Lean into Darren's framing",
+          "consequence": "Politicize it.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Lean away — you didn't mean it to be political",
+          "consequence": "De-escalate.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You and Quinni share a detention with three people you mapped. The conversation, surprisingly, gets honest. You discover the map left out a connection that, in person, is obvious.",
+      "sceneTitle": "Amerie's Detention",
+      "choices": [
+        {
+          "text": "Add the connection to a mental version",
+          "consequence": "Stay curious.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Decide the map was a bad idea entirely",
+          "consequence": "Reconsider.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Students stage a walkout — not, technically, because of you. Then it kind of becomes because of you. The local news has a microphone in your face. Principal Stacy has a vein in her forehead.",
+      "sceneTitle": "The Walkout",
+      "choices": [
+        {
+          "text": "Speak to the news, briefly",
+          "consequence": "Take responsibility publicly.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Walk past the news in solidarity",
+          "consequence": "Action over interview.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Spider — boy, dumb, mostly — apologizes for the comment that started a fight last week. He is, briefly, a person. You realize the map, accidentally, gave him a way to think about himself.",
+      "sceneTitle": "Spider's Apology",
+      "choices": [
+        {
+          "text": "Accept his apology",
+          "consequence": "Allow change.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell him to apologize to the actual people he hurt",
+          "consequence": "Redirect.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Malakai, on a bench by the courts, tells you he doesn't want to be a project. He wants to be a boyfriend. You realize the two are not separable for you yet, and that this is a problem.",
+      "sceneTitle": "Malakai's Choice",
+      "choices": [
+        {
+          "text": "Choose the boyfriend part for now",
+          "consequence": "Commit.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Be honest that you can't yet",
+          "consequence": "Honesty hurts cleaner.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Quinni, who hates loud places and loud weeks, has had enough. She skips school. You find her at the planetarium. You sit beside her in the dark while a recorded voice describes Saturn.",
+      "sceneTitle": "Quinni's Burnout",
+      "choices": [
+        {
+          "text": "Skip the rest of the week with her",
+          "consequence": "Friendship over school.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Promise to take fewer of her spoons",
+          "consequence": "Mindful.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Sasha, who lives on righteous causes, organizes a 'Connection Festival' to claim the map's energy for queer joy. You realize, with a complicated feeling, that the work you started has gotten away from you and become better.",
+      "sceneTitle": "Sasha's Counter-Project",
+      "choices": [
+        {
+          "text": "Help organize the festival",
+          "consequence": "Lean into the better version.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Step back and let it be theirs",
+          "consequence": "Generosity.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your mom — too cool, too tired — knocks on your door at 11. She heard about the map from another mum. She doesn't yell. She makes tea. She asks if you've been okay, actually, lately.",
+      "sceneTitle": "Your Mom Knocks",
+      "choices": [
+        {
+          "text": "Tell her the truth about the year",
+          "consequence": "Adult conversation.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Promise her a longer talk on Saturday",
+          "consequence": "Schedule the honesty.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Lights strung between the basketball hoops. Music from someone's brother's DJ rig. The map, redrawn by Sasha, is now a giant mural and includes everyone's pronouns and a few jokes only your year understands.",
+      "sceneTitle": "The Festival Night",
+      "choices": [
+        {
+          "text": "Dance, fully, without your phone",
+          "consequence": "Be present.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Sit on the bleachers with Quinni and Darren",
+          "consequence": "Quieter joy.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Reports come out. The school will not, after all, expel you. Principal Stacy writes a note in pencil: 'You have a knack for systems. Use it.' You will, you think, take her advice.",
+      "sceneTitle": "End of Term",
+      "choices": [
+        {
+          "text": "Apply for the school newspaper editor role next term",
+          "consequence": "Use the knack.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take a term off everything official",
+          "consequence": "Recover.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Year twelve begins. Quinni runs for SRC. Darren auditions for a play that is, secretly, also a coming-out. Malakai sends you a letter that is, in handwriting, a real letter. You are, against the odds, hopeful.",
+      "sceneTitle": "Year Twelve",
+      "choices": [
+        {
+          "text": "Throw yourself into year twelve fully",
+          "consequence": "Commit.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take it one term at a time",
+          "consequence": "Pace yourself.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "On the last day of term you and Quinni and Darren and Sasha and Malakai end up at Bondi at sunset for no good reason. Someone has chips. Someone has a bluetooth speaker that only plays one song.",
+      "sceneTitle": "Beach Day",
+      "choices": [
+        {
+          "text": "Take a group photo for the year",
+          "consequence": "Preserve the moment.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Just live the moment, no photo",
+          "consequence": "Be there.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The night your mum and you go to the parent-teacher evening you both pretend to be normal. Mr. Pavlovic says, quietly, that you have a gift for writing. Your mum holds your shoulder. You realize the year is starting in earnest.",
+      "sceneTitle": "Parent-Teacher Night",
+      "choices": [
+        {
+          "text": "Take the writing track seriously",
+          "consequence": "Aim.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Keep it just as a hobby",
+          "consequence": "Quiet.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Sasha announces a second Connection Festival. You all help. The school, having learned, gives them the gym this time. The night is louder, kinder, and full of someone's bluetooth speaker playing exactly one song.",
+      "sceneTitle": "Sasha's Festival, Round Two",
+      "choices": [
+        {
+          "text": "Dance for the whole festival",
+          "consequence": "Joy.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sit and watch your people be happy",
+          "consequence": "Witness.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The final bell of year twelve. The whole map of who-knew-who tilts into the future. You stand in the courtyard one last time and choose what kind of leaving you'll have.",
+      "sceneTitle": "Last Bell",
+      "choices": [
+        {
+          "text": "Throw yourself into the next year",
+          "consequence": "Loud goodbye.",
+          "nextNodeId": "end_year12"
+        },
+        {
+          "text": "Take the slow walk out",
+          "consequence": "Quiet goodbye.",
+          "nextNodeId": "end_pace"
+        },
+        {
+          "text": "Take one last photo of the gang",
+          "consequence": "Save it.",
+          "nextNodeId": "end_photo"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_year12",
+      "text": "You become the editor of the school paper. You write a column called 'Connections.' You graduate with a portfolio that gets you into a journalism program. Years later you make a podcast that is, in a real sense, the map grown up.",
+      "sceneTitle": "Year Twelve, Loud",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Year Twelve, Loud"
+    },
+    {
+      "id": "end_pace",
+      "text": "You take it term by term and survive year twelve without being a story about year twelve. Quinni helps. Darren makes you laugh. Malakai, eventually, becomes the friend he was supposed to be. You graduate quietly, fully, ready.",
+      "sceneTitle": "Slow Year, Real Year",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Slow Year, Real Year"
+    },
+    {
+      "id": "end_photo",
+      "text": "The photo lives on your fridge for a decade. Different versions of you pass it. None of them know yet how good a year that was. You do.",
+      "sceneTitle": "The Photo on the Fridge",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Photo on the Fridge"
+    }
+  ]
+}

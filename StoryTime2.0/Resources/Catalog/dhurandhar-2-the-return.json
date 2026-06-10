@@ -1,0 +1,430 @@
+{
+  "id": "dhurandhar-2-the-return",
+  "title": "Dhurandhar: Part 2",
+  "sourceTitle": "Dhurandhar: Part 2",
+  "kind": "movie",
+  "synopsis": "Three years after Karachi, you live in Lonavala under a name that isn't yours. A man you killed once is, apparently, alive. The agency needs you back. Your wife of paper says no.",
+  "releaseYear": 2026,
+  "addedAt": "2026-04-23T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "spy",
+    "sequel",
+    "return"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Mist over the hills. Chai from a kettle you bought three years ago. Rabia, who finally stayed, reading on the porch. Your phone, which is supposed to be cold, rings.",
+      "sceneTitle": "Lonavala, Morning",
+      "choices": [
+        {
+          "text": "Answer",
+          "consequence": "Old habits.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Let it ring",
+          "consequence": "New life.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A handler you've never met. 'Karachi never closed,' she says. 'We need you in Dubai by Thursday.' You realize you have, perhaps, been chosen because you're the only one left who saw the original handler's face.",
+      "sceneTitle": "The Voice",
+      "choices": [
+        {
+          "text": "Agree to a meeting in Mumbai",
+          "consequence": "Hear them out.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Refuse and hang up",
+          "consequence": "Boundaries.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Rabia sees the phone, sees your face, knows. She sets her book down. 'You promised me,' she says, gently. 'I know,' you say, equally gently. The morning has, somehow, gotten older.",
+      "sceneTitle": "Rabia, Watching",
+      "choices": [
+        {
+          "text": "Tell her you'll refuse",
+          "consequence": "Honor the promise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her you need to hear them out",
+          "consequence": "Honesty, however hard.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your new handler is in her forties, sharp, kind, terrified. The dossier she slides across the table includes your old cover wife's name on the wrong side of a ledger.",
+      "sceneTitle": "Mumbai Cafe",
+      "choices": [
+        {
+          "text": "Refuse and walk out",
+          "consequence": "Some triggers aren't yours.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Demand the full operation brief",
+          "consequence": "Information before refusal.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Khala Bhabhi, your old Karachi asset, somehow has your number. 'He's alive,' she says. 'And he has your wife's name.' Your wife, your real one, by paper.",
+      "sceneTitle": "The Old Asset",
+      "choices": [
+        {
+          "text": "Move Rabia tonight",
+          "consequence": "Family first.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Investigate the threat before moving",
+          "consequence": "Verify, then act.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You land in Dubai on a passport that has been very lightly used. The hotel room has good locks. The mission, briefly outlined, is to identify the man who survived the Karachi op three years ago.",
+      "sceneTitle": "Dubai, Forty-Eight Hours",
+      "choices": [
+        {
+          "text": "Take the mission and run it carefully",
+          "consequence": "Old skills.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Run a counter-op of your own",
+          "consequence": "Trust nobody but yourself.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You move Rabia to a safe house two hills over. She is angry and competent. She does, in fact, know exactly how to disappear — she did it before.",
+      "sceneTitle": "The Safe House, Lonavala",
+      "choices": [
+        {
+          "text": "Take her with you to Dubai",
+          "consequence": "Asset and family.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Leave her safe; go alone",
+          "consequence": "Compartmentalize.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Tariq — the man you were sure you killed — is in a Dubai gym at noon. He sees you. He smiles, sadly. He approaches you in the parking lot with empty hands and says, 'I wanted to apologize.'",
+      "sceneTitle": "Tariq, Alive",
+      "choices": [
+        {
+          "text": "Hear him out",
+          "consequence": "Even ghosts speak.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take him into custody",
+          "consequence": "Process first.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You set up your own circle — Khala Bhabhi in Karachi, a stringer in Dubai, your old handler (the one who survived, secretly), and Rabia as your operational mind. Suddenly you have a team that does not, on paper, exist.",
+      "sceneTitle": "The Counter-Op",
+      "choices": [
+        {
+          "text": "Run it as a private circle",
+          "consequence": "Private justice.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Use it to clean your name with the agency",
+          "consequence": "Negotiate after.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Tariq tells you that he was, for a year, the asset of a third country you didn't know was in this game. He has been wanting to defect ever since. He has documents.",
+      "sceneTitle": "The Apology",
+      "choices": [
+        {
+          "text": "Believe him and exfil him",
+          "consequence": "Asset acquisition.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Verify his documents first",
+          "consequence": "Trust verifies.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your stringer flips a server log: the third country running the original Karachi op was a 'friendly' power. The betrayal is, professionally, more interesting than personal. The agency has, you realize, been lied to too.",
+      "sceneTitle": "The Third Country",
+      "choices": [
+        {
+          "text": "Take the evidence to the agency",
+          "consequence": "Inside fix.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take it to a journalist for outside pressure",
+          "consequence": "Outside fix.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Rabia, somehow, becomes the operational steady. She is faster than you in places you were too tired to be fast in. You realize she has been, all along, more than your cover. She is good at this.",
+      "sceneTitle": "Rabia in the Field",
+      "choices": [
+        {
+          "text": "Make her your official partner",
+          "consequence": "Honest team.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Keep her work informal — protect her record",
+          "consequence": "Compartmental.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Khala Bhabhi outlines a long con — six months, in three cities, to make the third country's network publicly visible. She has been waiting, she says, for a man like you to do it with.",
+      "sceneTitle": "Khala Bhabhi's Plan",
+      "choices": [
+        {
+          "text": "Commit to the six-month con",
+          "consequence": "Long game.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Commit only to phase one",
+          "consequence": "Stage it.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Six months later the network is, by every careful measurement, exposed — across three countries, two intelligence services, and one very embarrassing newspaper. You and Rabia did most of it from a kitchen in Lonavala.",
+      "sceneTitle": "The Exposure",
+      "choices": [
+        {
+          "text": "Stay in the work, on your terms",
+          "consequence": "Continue.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Cash out fully and disappear",
+          "consequence": "Done.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You and Rabia retreat to the original house. The cat next door has, in your absence, adopted you. Tariq, exfiltrated, sends a postcard from Lisbon. He's painting, badly. You both laugh.",
+      "sceneTitle": "The Lonavala House",
+      "choices": [
+        {
+          "text": "Take Tariq's offer to visit Lisbon",
+          "consequence": "Friendship across borders.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay in Lonavala for the season",
+          "consequence": "Settle.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Lisbon in spring. Tariq's paintings are, you confirm, very bad. He cooks for you. You realize, in his kitchen, that you have not been a guest in a friend's home in twenty years.",
+      "sceneTitle": "The Lisbon Visit",
+      "choices": [
+        {
+          "text": "Stay in Europe a while",
+          "consequence": "Take the air.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Return home enriched but unchanged",
+          "consequence": "Take the memory.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You and Rabia plant a small garden behind the Lonavala house. It is not symbolism. It is just a garden. The neighbors don't know your real name. They love you anyway.",
+      "sceneTitle": "The Garden",
+      "choices": [
+        {
+          "text": "Keep the garden small and yours",
+          "consequence": "Boundaries.",
+          "nextNodeId": "end_garden"
+        },
+        {
+          "text": "Invite a young handler to learn",
+          "consequence": "Pass it on.",
+          "nextNodeId": "end_mentor"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You and Rabia spend a year between Lisbon, Istanbul, and Lonavala. You learn to be tourists. You realize, late, that it's possible to live in countries you previously only entered.",
+      "sceneTitle": "Three Languages",
+      "choices": [
+        {
+          "text": "Make Lisbon a real home half the year",
+          "consequence": "Build the dual life.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Come fully home",
+          "consequence": "Choose one.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You write a memoir nobody will read. It is, for you, the closing argument of a career. Rabia edits. Tariq sends a chapter from his own attempt at one in Portuguese. Your memoir is, in the end, mostly an act of paying attention.",
+      "sceneTitle": "The Memoir, Unpublished",
+      "choices": [
+        {
+          "text": "Burn the manuscript",
+          "consequence": "Some closings are private.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Lock it in a vault for fifty years",
+          "consequence": "Some closings are for grandchildren.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Rabia and you sit on the porch in Lonavala with two cups going cold. You weigh the shape of the rest of it — garden, two homes, or a quiet mentor's chair for the next handler the agency sends.",
+      "sceneTitle": "The Last Decision",
+      "choices": [
+        {
+          "text": "Keep the porch and nothing else",
+          "consequence": "Smallest life.",
+          "nextNodeId": "end_garden"
+        },
+        {
+          "text": "Teach the next handler",
+          "consequence": "Pass the craft.",
+          "nextNodeId": "end_mentor"
+        },
+        {
+          "text": "Live the half-year in Lisbon",
+          "consequence": "Two kitchens.",
+          "nextNodeId": "end_two_homes"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_garden",
+      "text": "You live in Lonavala, full time, with Rabia and a cat. You learn the names of every neighbor. You walk the same loop every morning. You sleep well. You have, against every odd in your file, retired.",
+      "sceneTitle": "Lonavala, Year Round",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lonavala, Year Round"
+    },
+    {
+      "id": "end_mentor",
+      "text": "A young woman from the agency, sent reluctantly, comes for tea. You teach her what you can. She comes back the next month. And the one after that. You become, in your sixties, what your old handler was supposed to be — patient, kind, devastatingly useful.",
+      "sceneTitle": "The Young Handler",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Young Handler"
+    },
+    {
+      "id": "end_two_homes",
+      "text": "Half the year Lisbon. Half the year Lonavala. You and Rabia get to know two sets of bakers, two sets of postmen, two ways of being. You realize the spy life trained you for, of all things, the present tense.",
+      "sceneTitle": "Two Kitchens",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Two Kitchens"
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "id": "smile-2-the-tour",
+  "title": "Smile 2",
+  "sourceTitle": "Smile 2",
+  "kind": "movie",
+  "synopsis": "You're on stadium tour. Tonight in Boston a fan smiled at you in a way you can't unsee. The curse is here. The cameras are here. The next show is tomorrow.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-15T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "pop star",
+    "curse",
+    "spectacle"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Boston, third encore. A face in the front row. The smile is wrong in a way that does not photograph. You finish the song. Your dancers don't notice. You do.",
+      "sceneTitle": "The Smile",
+      "choices": [
+        {
+          "text": "Finish the show clean",
+          "consequence": "Hold the line.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Skip the second encore",
+          "consequence": "Trust your instincts.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your manager Joel is happy. The review will be glowing. You ask security to flag the face from the front-row camera. They look at you like you've asked for a unicorn.",
+      "sceneTitle": "Backstage",
+      "choices": [
+        {
+          "text": "Push harder for the footage",
+          "consequence": "Information first.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Let it go for tonight",
+          "consequence": "Recover first.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Late. You can't sleep. You FaceTime your sister, who knows your old life better than anyone in the room you're in now. She doesn't pick up.",
+      "sceneTitle": "The Hotel Room",
+      "choices": [
+        {
+          "text": "Try her again in the morning",
+          "consequence": "Trust the day.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Get on a plane to her tonight",
+          "consequence": "Trust the gut.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Security pulls the front-row clip. The face is not, on the video, smiling. The face is, on the video, expressionless. You realize the curse may not be in the camera's bandwidth.",
+      "sceneTitle": "The Footage",
+      "choices": [
+        {
+          "text": "Tell Joel about the curse",
+          "consequence": "Bring in management.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Tell your therapist over the phone",
+          "consequence": "Bring in care.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "On her porch at 5 a.m. she opens the door without asking why. She makes tea. You tell her the truth. She does not say you're crazy. She says, 'I believe you. What do we do?'",
+      "sceneTitle": "Your Sister's House",
+      "choices": [
+        {
+          "text": "Stay with her through the next show",
+          "consequence": "Allies.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Go back; the tour can't stop",
+          "consequence": "Duty.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Joel does not, of course, believe in curses. He believes in cancellation insurance and TMZ. He tells you, gently, that 'tour stress' is a thing and that he can move two cities.",
+      "sceneTitle": "Joel's Reaction",
+      "choices": [
+        {
+          "text": "Accept the moved cities",
+          "consequence": "Compromise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Demand a full pause",
+          "consequence": "Stand firm.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You find — through a private channel — a doctor who has, allegedly, treated this curse before. He is in Chicago. He has a flight in two hours. You can be on it.",
+      "sceneTitle": "The Doctor in Chicago",
+      "choices": [
+        {
+          "text": "Take the flight",
+          "consequence": "Risk the chase.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Have him come to you",
+          "consequence": "Power.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your tour is being documented for streaming. The crew, kindly, asks if you'd like them to give you a day off camera. You realize that 'off camera' is, possibly, the only safe place left.",
+      "sceneTitle": "The Documentary Crew",
+      "choices": [
+        {
+          "text": "Take the day",
+          "consequence": "Privacy.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay on camera; daylight as protection",
+          "consequence": "Visibility.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You go back through every photograph from every meet-and-greet of the tour. You find the same face three times — three different cities, three different smiles. You realize the curse has been with you longer than you knew.",
+      "sceneTitle": "The Last Person Who Smiled at You",
+      "choices": [
+        {
+          "text": "Trace the face's identity",
+          "consequence": "Hunt.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Burn every meet-and-greet photo of yourself in your possession",
+          "consequence": "Ritual.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The doctor explains: the entity feeds on visibility. The bigger your platform, the bigger its meal. The cure is, embarrassingly, to be less visible — for as long as it takes to starve it.",
+      "sceneTitle": "The Doctor",
+      "choices": [
+        {
+          "text": "Cancel the rest of the tour",
+          "consequence": "Starve it.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Cancel only the next month",
+          "consequence": "Compromise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Madison Square Garden. You walk out and the crowd is, against expectation, smaller than expected. The face is, against expectation, not in the front row. The face is in the lighting rig.",
+      "sceneTitle": "The Stadium, Half-Full",
+      "choices": [
+        {
+          "text": "Stop the show mid-song",
+          "consequence": "Public refusal.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Sing through it; perform until it fades",
+          "consequence": "Performer's defiance.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Joel and you write a press statement together. It says, in essence, 'I am taking a year off.' It does not mention curses. It mentions burnout. It is, in its own way, the truth.",
+      "sceneTitle": "The Press Statement",
+      "choices": [
+        {
+          "text": "Take the year off in a cabin",
+          "consequence": "Disappear.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take the year off touring small underground shows",
+          "consequence": "Low visibility.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You finish the tour. The face appears in three more cities. You survive each show. You realize you have, through sheer stamina and your own anger, gained something like control of the curse.",
+      "sceneTitle": "The Defiance Tour",
+      "choices": [
+        {
+          "text": "Use the control to research and end it",
+          "consequence": "Active.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Use the control to live with it",
+          "consequence": "Coexistence.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Six months in. No phone. No camera. The face appears once, faintly, in a fogged-up bathroom mirror. You laugh at it. It does not, surprisingly, laugh back. It also, after a long second, fades.",
+      "sceneTitle": "The Cabin",
+      "choices": [
+        {
+          "text": "Stay in the cabin another six months",
+          "consequence": "Heal.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go home to make small art",
+          "consequence": "Quiet life.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You play 200-capacity venues under a pseudonym for a year. The shows are honest. You write a new record that is, by any measure, the best of your career.",
+      "sceneTitle": "The Small Tour",
+      "choices": [
+        {
+          "text": "Release the record under your real name",
+          "consequence": "Reclaim.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Release it pseudonymously",
+          "consequence": "Stay small.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The streaming documentary, two years later, lands. It is honest. It uses your words. It does not, you realize gratefully, exploit your worst nights. It also does not say the word 'curse.' You read the reviews exactly once.",
+      "sceneTitle": "The Documentary Cut",
+      "choices": [
+        {
+          "text": "Take the doc's success and rest",
+          "consequence": "Pace.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Use the moment to push a real reform of the industry",
+          "consequence": "Action.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Your sister is in the front row when you finally play a real venue again. She does not, of course, smile in a way that frightens you. You smile back. The room, for once, does not need to be larger than it is.",
+      "sceneTitle": "Your Sister, Always",
+      "choices": [
+        {
+          "text": "Tour gently from now on",
+          "consequence": "Pace forever.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Open a small school for young performers",
+          "consequence": "Pass it forward.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Before the first proper return show you sit in front of a green-room mirror for a long time. The mirror is just a mirror. You promise yourself, out loud, what you will and won't do for this career.",
+      "sceneTitle": "The Backstage Mirror",
+      "choices": [
+        {
+          "text": "Make the promise the rule",
+          "consequence": "Vow.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Make the promise the working draft",
+          "consequence": "Flexible.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "On a bench in Boston between soundcheck and show, your sister and you split a sandwich. You tell her you're scared and also okay. She nods. She takes the half you don't finish.",
+      "sceneTitle": "Boston Bench",
+      "choices": [
+        {
+          "text": "Carry the bench feeling onstage",
+          "consequence": "Calm.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Step onstage as a different person",
+          "consequence": "Performer.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The final song of the comeback show. Stadium lights, the band, your sister in the wings. You realize you can choose what this whole next decade looks like — and the choice arrives, gratefully, as your own.",
+      "sceneTitle": "The Encore",
+      "choices": [
+        {
+          "text": "Quiet, paced career from here",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Industry-reform megaphone",
+          "consequence": "Megaphone.",
+          "nextNodeId": "end_reform"
+        },
+        {
+          "text": "Open the small school",
+          "consequence": "Pass forward.",
+          "nextNodeId": "end_school"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_quiet",
+      "text": "You make records every three years. You tour gently. You teach a class at Berklee twice a year. The curse, when you look for it now, is not there. You suspect it is feeding on someone else. You hope, in a complicated way, that they are okay.",
+      "sceneTitle": "Quietly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly"
+    },
+    {
+      "id": "end_reform",
+      "text": "You become, against your will, a quiet leader on touring conditions, on artist mental health, on the predatory contracts you barely survived. Three policies change because you talked about them. That is, you realize, the best version of fame.",
+      "sceneTitle": "Industry Reform",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Industry Reform"
+    },
+    {
+      "id": "end_school",
+      "text": "You open a small school in Boston for young performers. It teaches voice, business, and how to set a boundary. The face never returns. The mirror in the green room remains, blessedly, just a mirror.",
+      "sceneTitle": "The Small School",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Small School"
+    }
+  ]
+}

@@ -1,0 +1,417 @@
+{
+  "id": "roommates-the-spreadsheet",
+  "title": "Roommates",
+  "sourceTitle": "Roommates",
+  "kind": "show",
+  "synopsis": "Four people, one apartment in Brooklyn, one chore wheel that has, over six months, become a graph theory problem. Tonight's house meeting is about, ostensibly, the dishwasher.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-13T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "roommates",
+    "Brooklyn",
+    "domestic"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Sunday, 7 p.m. The agenda has been emailed. Item one: dishwasher. Item two: 'something we need to discuss as a group.' Item three: snacks. Marcus has brought, at his own expense, snacks.",
+      "sceneTitle": "The Meeting",
+      "choices": [
+        {
+          "text": "Open with item three",
+          "consequence": "Defuse with snacks.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Open with item one",
+          "consequence": "Discipline.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Lola lays out two bags of chips and a cheese plate. The cheese plate has, you realize, four different cheeses for four different roommates. Lola, as always, is the heart of the apartment.",
+      "sceneTitle": "Item Three First",
+      "choices": [
+        {
+          "text": "Compliment Lola publicly",
+          "consequence": "Lift.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Eat cheese; save the gratitude",
+          "consequence": "Implicit.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The dishwasher has been stacked badly, every day, for three weeks. Specifically, Bento (who is normally great) has been doing the abominable thing with the small plates.",
+      "sceneTitle": "The Dishwasher",
+      "choices": [
+        {
+          "text": "Call Bento out kindly",
+          "consequence": "Direct.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Show the group a five-minute YouTube video",
+          "consequence": "Outsourced.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Bento admits, looking at the floor, that his dad has been sick and he has been distracted. The room rearranges. The dishwasher, suddenly, is the smallest item on the night's true agenda.",
+      "sceneTitle": "Bento's Reveal",
+      "choices": [
+        {
+          "text": "Reorganize the agenda for Bento",
+          "consequence": "Pivot.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Keep the agenda; offer Bento support after",
+          "consequence": "Hybrid.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Lola announces, with rehearsed calm, that her girlfriend Priya might move in. The lease is up in March. The math, suddenly, is different.",
+      "sceneTitle": "Lola's Item",
+      "choices": [
+        {
+          "text": "Engage with the math honestly",
+          "consequence": "Cost.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Engage with Priya as a person first",
+          "consequence": "Person before lease.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Marcus, who has been quietly considering a move to Berlin, says — out loud, for the first time — 'I might leave in May.' The room, again, shifts. Three big things on the agenda. None of them is, anymore, the dishwasher.",
+      "sceneTitle": "Marcus's Pivot",
+      "choices": [
+        {
+          "text": "Address all three at once",
+          "consequence": "Comprehensive.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take them one by one",
+          "consequence": "Sequential.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Bento brings up, gently, that the apartment cat (Phyllis) is going to need new accommodations if anyone moves. Phyllis is, technically, all of yours. Phyllis is, emotionally, Bento's.",
+      "sceneTitle": "The Cat",
+      "choices": [
+        {
+          "text": "Promise Bento that Phyllis stays with him",
+          "consequence": "Easy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Set up shared visitation if anyone moves",
+          "consequence": "Custody.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The shared chore spreadsheet has, over six months, mutated into a mood tracker, a snack inventory, and a grudge log. You all look at it together for the first time in a year. It is, terrifyingly, accurate.",
+      "sceneTitle": "The Spreadsheet Wars",
+      "choices": [
+        {
+          "text": "Archive it and start fresh",
+          "consequence": "Reset.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Audit it column by column",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lola proposes Tuesday dinners — a guaranteed time you're all in the same room weekly. Marcus, who has a yoga class, hesitates. Bento, who needs this, says 'please.'",
+      "sceneTitle": "Tuesday Dinners",
+      "choices": [
+        {
+          "text": "Make Tuesday a permanent rule",
+          "consequence": "Routine.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Try it for a month first",
+          "consequence": "Trial.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Priya arrives with a roast chicken she has, somehow, cooked at her own apartment and transported. She is, immediately, the fifth member of the room in a way nobody quite predicted.",
+      "sceneTitle": "Priya's First Dinner",
+      "choices": [
+        {
+          "text": "Vote her in early",
+          "consequence": "Welcome.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take six months to vote",
+          "consequence": "Pace.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Bento's dad gets a better doctor. The treatment plan is, slowly, working. The room celebrates one Friday with a takeout dinner that costs more than any of you should spend. Nobody minds.",
+      "sceneTitle": "Bento's Dad",
+      "choices": [
+        {
+          "text": "Make a tradition of small celebrations",
+          "consequence": "Mark joy.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Keep it casual; don't formalize joy",
+          "consequence": "Light.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Marcus's Berlin plan firms up. He cries at a Tuesday dinner. The cry is, in its own way, the whole apartment saying 'we are about to change.'",
+      "sceneTitle": "Marcus and Berlin",
+      "choices": [
+        {
+          "text": "Plan the goodbye thoughtfully",
+          "consequence": "Honor it.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Plan a visit to Berlin together for the fall",
+          "consequence": "Future-focused.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Phyllis, ten years old, has a small scare at the vet. She turns out to be fine. The fact that all four of you went to the vet together makes the receptionist laugh.",
+      "sceneTitle": "Phyllis at the Vet",
+      "choices": [
+        {
+          "text": "Confirm Phyllis's primary parent is Bento",
+          "consequence": "Clarify.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Decide Phyllis is, in the end, a shared family member",
+          "consequence": "Shared.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "On Marcus's last night you cook the meals he loves and bring out the bottle of wine he saved. Lola makes him a small album of photos. Bento writes him a letter. You hand him a small box.",
+      "sceneTitle": "Marcus's Goodbye",
+      "choices": [
+        {
+          "text": "Tell Marcus what he meant to you",
+          "consequence": "Out loud.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Let the small box speak",
+          "consequence": "Quiet.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Five months later, three of you visit Marcus in Berlin. He shows you his bakery, his park, his new dumb mustache. You realize the apartment was never just walls. It was the people.",
+      "sceneTitle": "Berlin Trip",
+      "choices": [
+        {
+          "text": "Make annual trips a thing",
+          "consequence": "Tradition.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take this trip and let the future be the future",
+          "consequence": "Present-only.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Priya's stuff arrives in a U-Haul Lola has, somehow, driven in Brooklyn without weeping. The apartment fits her quickly. The new chore wheel includes her in handwriting that is, finally, less aggressive.",
+      "sceneTitle": "Priya Officially Moves In",
+      "choices": [
+        {
+          "text": "Move in together permanently as a chosen family",
+          "consequence": "Build.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay flexible; let people come and go",
+          "consequence": "Open.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You and Bento, late one night, redesign the spreadsheet with a single sheet titled 'Joy' that just tracks small good moments. The sheet has, by year's end, several hundred entries. You realize the apartment has gotten richer in the kind of math that counts.",
+      "sceneTitle": "The Spreadsheet, Reborn",
+      "choices": [
+        {
+          "text": "Show the sheet at New Year's",
+          "consequence": "Share.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Keep the sheet private to the two of you",
+          "consequence": "Quiet.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You float the idea of an annual roommate trip — three nights, somewhere small. The chat blows up with location ideas. Marcus, in Berlin, requests Sicily. Nobody can afford Sicily. Everyone agrees to a cabin in the Catskills.",
+      "sceneTitle": "The Annual Trip",
+      "choices": [
+        {
+          "text": "Plan it now",
+          "consequence": "Build the tradition.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Plan it when energy is higher",
+          "consequence": "Later.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Phyllis, sixteen, slows down. You take turns sleeping on the couch with her. The apartment becomes a hospice and a celebration at once. You realize the joy sheet has, in this last year, never been more full.",
+      "sceneTitle": "Phyllis's Last Year",
+      "choices": [
+        {
+          "text": "Stay in this apartment through the loss",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Let it be the place that held her, then move",
+          "consequence": "Move on.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "December 31. You and Bento, Lola, Priya, and a FaceTime'd Marcus stand on the roof at 11:58. You decide together what kind of family you'll be next year — the long-haul chosen kind, or the open-door kind that lets people grow.",
+      "sceneTitle": "New Year's, on the Roof",
+      "choices": [
+        {
+          "text": "Chosen family, locked in",
+          "consequence": "Family.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Open door, evolving family",
+          "consequence": "Open.",
+          "nextNodeId": "end_open"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "Years later, two of you are at the others' weddings. Three of you co-own a small bakery in Brooklyn. Phyllis lives a long, full cat life. The apartment, when the lease finally ends, is replaced — by all of you, deliberately — with a series of apartments that, in the end, become a network of homes.",
+      "sceneTitle": "Chosen Family",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Chosen Family"
+    },
+    {
+      "id": "end_open",
+      "text": "Some of you move. Some of you stay. Some of you, years later, drift apart in the ordinary way friends drift. You realize the apartment was a kind of beginning, not a permanent address. You are okay with that. You are, in fact, grateful for it.",
+      "sceneTitle": "Open House",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Open House"
+    }
+  ]
+}

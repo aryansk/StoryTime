@@ -1,0 +1,444 @@
+{
+  "id": "wayward-tall-pines",
+  "title": "Wayward",
+  "sourceTitle": "Wayward",
+  "kind": "show",
+  "synopsis": "Your daughter is enrolled at Tall Pines Academy, the troubled-teen 'school' on the edge of a town where every adult smiles the same way. By morning you'll wish you'd never read the brochure.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-16T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "cult",
+    "small-town",
+    "missing"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The 'Welcome to Wayward' sign is hand-painted and the smile of the diner waitress is hand-painted too. Your daughter pretends to sleep in the passenger seat. Tall Pines Academy is two miles uphill.",
+      "sceneTitle": "Welcome to Town",
+      "choices": [
+        {
+          "text": "Stop at the diner first",
+          "consequence": "Eavesdrop before you enroll.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Drive straight to the academy",
+          "consequence": "Delay is doubt's open door.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Three locals stop talking when you walk in. The waitress is friendly in a way that feels rehearsed. A boy in his early twenties keeps glancing at your bumper sticker.",
+      "sceneTitle": "The Diner",
+      "choices": [
+        {
+          "text": "Try to make conversation about the academy",
+          "consequence": "Information lives in small talk.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Eat quickly and leave",
+          "consequence": "Some rooms tighten if you stay.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Wrought iron, freshly painted. A counselor named Evelyn meets you with a clipboard and a hug she has practiced. Your daughter's hand is suddenly very cold in yours.",
+      "sceneTitle": "The Gates",
+      "choices": [
+        {
+          "text": "Sign the intake forms quickly",
+          "consequence": "You came here to do this.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask to see the dorm first",
+          "consequence": "Trust earned beats trust assumed.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The grounds are beautiful in a sterilized way — every flower planted, every kid smiling the moment a counselor passes. A girl walks the path with her eyes carefully forward, like she is being graded on it.",
+      "sceneTitle": "The Tour",
+      "choices": [
+        {
+          "text": "Stop and speak to one of the students",
+          "consequence": "A real face will tell you more than the tour.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay on the script of the tour",
+          "consequence": "Don't tip your suspicion yet.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The sheriff happens to be at the gate, friendly, broad. He compliments your car. He mentions that 'parents who second-guess' tend to make things harder for their kids.",
+      "sceneTitle": "The Sheriff",
+      "choices": [
+        {
+          "text": "Smile and play along for now",
+          "consequence": "Don't show your hand to the law.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask him bluntly what he meant",
+          "consequence": "Some bluffs collapse if you call them.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "She kneels by the tomatoes and whispers without looking at you: 'They listen at the dorms after lights out.' Then, louder: 'These are the cherry kind.'",
+      "sceneTitle": "The Girl in the Garden",
+      "choices": [
+        {
+          "text": "Take her warning seriously",
+          "consequence": "Truth from a child here is gold.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Wonder if she's manipulating you",
+          "consequence": "Suspicion can also be useful here.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Evelyn explains the nightly schedule with a calm that does not match the words: 'Devices collected at 7:45. Personal items reviewed weekly. Privileges earned through Trust.' She capitalizes Trust audibly.",
+      "sceneTitle": "Lights Out Tour",
+      "choices": [
+        {
+          "text": "Refuse the device collection rule",
+          "consequence": "Set one boundary they can't dissolve.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Accept it for tonight only",
+          "consequence": "Pick the hill another day.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Posters near the laundry room: a boy who 'graduated' six months ago, missing since the weekend. Evelyn whisks you past, talking too brightly about the dining hall.",
+      "sceneTitle": "The Missing Kid",
+      "choices": [
+        {
+          "text": "Take a photo of the poster",
+          "consequence": "Evidence is portable.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Pretend not to notice and keep watching",
+          "consequence": "Cameras work both ways here.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "She holds your sleeve at the dorm door and says, very quietly, 'Don't leave me here.' It is the first thing she has said to you with feeling in six months.",
+      "sceneTitle": "Your Daughter Whispers",
+      "choices": [
+        {
+          "text": "Walk her back to the car right now",
+          "consequence": "Trust the kid you came to save.",
+          "nextNodeId": "end_leave_early"
+        },
+        {
+          "text": "Stay one night to see what they do",
+          "consequence": "Knowledge is its own kind of rescue.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Helen Caplan — the founder — sits with you in a sunroom of plants you can't name. She is graceful, persuasive, terrifying in the way only kind voices can be. She knows your daughter's case file by heart.",
+      "sceneTitle": "The Headmistress",
+      "choices": [
+        {
+          "text": "Match her calm and listen",
+          "consequence": "Underestimate her and you lose your daughter.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Push her for specifics about the missing kid",
+          "consequence": "Make her speak in particulars.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "From a window of the guest cabin you watch a small line of students walk in silence toward the woods at 1 a.m., escorted by counselors carrying flashlights. They return three hours later. The walk has a name. The walk does not have a permission slip.",
+      "sceneTitle": "After Lights Out",
+      "choices": [
+        {
+          "text": "Follow them tomorrow night",
+          "consequence": "See it before you accuse it.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Photograph what you can right now",
+          "consequence": "Document while it's strange to you.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A junior counselor named Abel meets your eye in a hallway and, on the way past, slides a folded napkin into your hand. 'Bridge. 11 p.m.,' it says. Either it's a trap or a lifeline. Maybe both.",
+      "sceneTitle": "The Ally",
+      "choices": [
+        {
+          "text": "Meet him at the bridge",
+          "consequence": "Risk is sometimes the rescue.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Burn the napkin and stay alert",
+          "consequence": "Strangers in cults are rarely free agents.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You slip into the records office on a long shot. Half the files are real, half are paper-thin theatre. You photograph three before voices come down the hall, and the door, when you try it, is locked.",
+      "sceneTitle": "The Office",
+      "choices": [
+        {
+          "text": "Hide in the closet",
+          "consequence": "Buy time at the cost of nerve.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Climb out the window onto the lawn",
+          "consequence": "Commit to escape before you're caught.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Abel is younger than you thought, scared, and angry. He's been here since he was sixteen. 'They keep the ones who can't be sold back to families,' he says. 'Some of us are staff because there's nowhere else to go.'",
+      "sceneTitle": "Bridge at Eleven",
+      "choices": [
+        {
+          "text": "Promise to get him out too",
+          "consequence": "Save who you can, when you can.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take the information and run",
+          "consequence": "Heroics multiply risk.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You sprint across the lit lawn with photos on a phone Helen will absolutely take in the morning if you let her. The guest cabin door is suddenly twenty miles away. A dog starts somewhere.",
+      "sceneTitle": "Across the Lawn",
+      "choices": [
+        {
+          "text": "Upload the photos to the cloud now",
+          "consequence": "Get it off you before it can be erased.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wipe the phone clean and rely on memory",
+          "consequence": "If they search you, find nothing.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You creep into the dorm and find her awake, alert, dressed. 'I knew you were coming back,' she says. She has been ready every night.",
+      "sceneTitle": "Your Daughter's Door",
+      "choices": [
+        {
+          "text": "Take her and as many girls as will come",
+          "consequence": "Rescue is contagious if you let it be.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take only her — keep this simple",
+          "consequence": "A clean escape is its own miracle.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Helen is in the foyer in a robe like she's been waiting for you. She offers tea. She tells you, gently, that there is no version of this story where you are the hero.",
+      "sceneTitle": "Helen, Awake",
+      "choices": [
+        {
+          "text": "Refuse the tea and walk through her",
+          "consequence": "Confidence is a passport.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Sit and let her speak — buy minutes",
+          "consequence": "Sometimes the door opens behind you while she talks.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Down a gravel drive at 3 a.m. with your daughter and, somehow, four other girls in the back seat. Two trucks come up behind you, headlights on. The road is dark and long and yours.",
+      "sceneTitle": "The Run",
+      "choices": [
+        {
+          "text": "Outrun the trucks to the county line",
+          "consequence": "Cross a border, change the law you're under.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Cut off the road and use the back trails",
+          "consequence": "Wayward, weirdly, taught you these.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Helen smiles. 'You can leave tonight,' she says, 'or your daughter can graduate next year. Choose.' The trick is that she means both versions.",
+      "sceneTitle": "The Hostage Calm",
+      "choices": [
+        {
+          "text": "Pretend to choose 'leave' and improvise",
+          "consequence": "Buy the exit you need.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Refuse her terms loudly enough to be heard outside",
+          "consequence": "Witnesses are the cult's only allergen.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You make it. The sun is coming up. Your daughter is asleep on the other girls' shoulders. The county sheriff's car flashes its lights and pulls you over — and the deputy at the window, blessedly, has never heard of Tall Pines.",
+      "sceneTitle": "The County Line",
+      "choices": [
+        {
+          "text": "Tell him everything, now",
+          "consequence": "Truth told fast is a fence Helen can't climb.",
+          "nextNodeId": "end_safe"
+        },
+        {
+          "text": "Drive on with a story and seek a journalist",
+          "consequence": "Court of public opinion is faster than court of law.",
+          "nextNodeId": "end_expose"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A reporter you cold-called from a gas-station pay phone agrees to meet at noon. She has been trying to crack Wayward for three years. You have, by accident, given her the headline.",
+      "sceneTitle": "The Press",
+      "choices": [
+        {
+          "text": "Go on the record with everything",
+          "consequence": "Burn it down with paper and ink.",
+          "nextNodeId": "end_expose"
+        },
+        {
+          "text": "Stay anonymous and trade documents only",
+          "consequence": "Some safety is a smaller name.",
+          "nextNodeId": "end_safe"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_leave_early",
+      "text": "You don't enroll her. You drive eight more hours that night, with the brochure on the passenger seat, and start over the next morning at a different kind of help. Years later she tells you the only thing she's ever thanked you for is the night you turned around.",
+      "sceneTitle": "The Brochure",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Brochure"
+    },
+    {
+      "id": "end_safe",
+      "text": "You and your daughter, and four girls you didn't know two days ago, end up in a small city far from Wayward. The investigation grinds slowly. You testify when asked. You sleep with the porch light on. You sleep.",
+      "sceneTitle": "Quietly Free",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly Free"
+    },
+    {
+      "id": "end_expose",
+      "text": "The story breaks. Tall Pines closes inside a month. Helen Caplan is on three magazine covers and one indictment. Your daughter, who once would not look at you, sits beside you on a couch and squeezes your hand during the press conference.",
+      "sceneTitle": "The Headline",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Headline"
+    }
+  ]
+}

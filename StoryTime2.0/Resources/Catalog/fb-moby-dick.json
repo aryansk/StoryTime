@@ -1,0 +1,449 @@
+{
+  "id": "fb-moby-dick",
+  "title": "Moby-Dick",
+  "sourceTitle": "Moby-Dick",
+  "kind": "book",
+  "synopsis": "Call me Ishmael. New Bedford. Nantucket. The Pequod. A captain with a leg of bone and a grudge as big as the ocean.",
+  "releaseYear": 1851,
+  "addedAt": "2026-02-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "whaling",
+    "sea",
+    "obsession"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You share a bed with Queequeg, harpooner.",
+      "sceneTitle": "Spouter-Inn",
+      "choices": [
+        {
+          "text": "Befriend him",
+          "consequence": "Friend.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Be wary",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Father Mapple in the pulpit. Jonah.",
+      "sceneTitle": "Sermon",
+      "choices": [
+        {
+          "text": "Note it",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The Pequod. Captain Peleg pays you in lays.",
+      "sceneTitle": "Sign On",
+      "choices": [
+        {
+          "text": "Negotiate",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Take what's offered",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He appears on deck. Bone leg. Scar from forehead to coat.",
+      "sceneTitle": "Ahab",
+      "choices": [
+        {
+          "text": "Read the room",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Approach him",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A coin nailed to the mast. To whoever sights the white whale.",
+      "sceneTitle": "Doubloon",
+      "choices": [
+        {
+          "text": "Look up often",
+          "consequence": "Path.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Forget it",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "First mate. He warns Ahab in private.",
+      "sceneTitle": "Starbuck",
+      "choices": [
+        {
+          "text": "Side with Starbuck",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A great squid surfaces. Bad omen.",
+      "sceneTitle": "Squid",
+      "choices": [
+        {
+          "text": "Note it",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Don't speak it",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Queequeg in the bow. The boat hauls.",
+      "sceneTitle": "First Lower",
+      "choices": [
+        {
+          "text": "Hold tight",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Steady your nerves",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A small school. You take one.",
+      "sceneTitle": "Whales",
+      "choices": [
+        {
+          "text": "Trust the technique",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Boiling blubber, midnight, fire.",
+      "sceneTitle": "Try-Works",
+      "choices": [
+        {
+          "text": "Tend the fire",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Watch the sea",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The cabin boy is left in the sea. They retrieve him changed.",
+      "sceneTitle": "Pip Lost",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Care.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Avoid him",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He plots whale migrations on a chart.",
+      "sceneTitle": "Ahab's Map",
+      "choices": [
+        {
+          "text": "Note his certainty",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Be impressed",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He forges a harpoon, tempered in blood.",
+      "sceneTitle": "Forge",
+      "choices": [
+        {
+          "text": "Watch silently",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Object",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Another ship asks for help finding a captain's son. Ahab refuses.",
+      "sceneTitle": "Rachel",
+      "choices": [
+        {
+          "text": "Argue",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Lightning down the masts. St. Elmo's fire.",
+      "sceneTitle": "Storm",
+      "choices": [
+        {
+          "text": "Trust the spar",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Pray",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He nails his quadrant. He throws away time.",
+      "sceneTitle": "Ahab's Vow",
+      "choices": [
+        {
+          "text": "Note it",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A spout on the horizon. White.",
+      "sceneTitle": "First Sight",
+      "choices": [
+        {
+          "text": "Lower boats",
+          "consequence": "Path.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Plead",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Ahab's boat is smashed.",
+      "sceneTitle": "Day One",
+      "choices": [
+        {
+          "text": "Pull Ahab from the water",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Save your boat",
+          "consequence": "Survive.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Fedallah is dragged under. The harpoons miss.",
+      "sceneTitle": "Day Two",
+      "choices": [
+        {
+          "text": "Persuade Ahab to turn",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The Pequod is rammed. The whale rolls.",
+      "sceneTitle": "Day Three",
+      "choices": [
+        {
+          "text": "Cling to the coffin",
+          "consequence": "Save.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Help others",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Queequeg's coffin floats up. You climb on. Days pass.",
+      "sceneTitle": "Sea, Alone",
+      "choices": [
+        {
+          "text": "Wait",
+          "consequence": "Save.",
+          "nextNodeId": "end_rachel"
+        },
+        {
+          "text": "Pray",
+          "consequence": "Honest.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_shore"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_rachel",
+      "text": "The Rachel finds you, searching for her own lost. You ride home with her crew. You write the book down, in time, in a small room in Brooklyn.",
+      "sceneTitle": "The Rachel",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Rachel"
+    },
+    {
+      "id": "end_writer",
+      "text": "You become a sailor and a teacher of sailors. You write a book that nobody reads in your lifetime. A century later they read it everywhere.",
+      "sceneTitle": "Call Me Ishmael",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Call Me Ishmael"
+    },
+    {
+      "id": "end_shore",
+      "text": "You stay on land. You learn a trade. You marry a woman who has never been to sea. Every July you walk to a pier and stand for an hour. You do not, by then, fully know why.",
+      "sceneTitle": "Quiet Shore",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Shore"
+    }
+  ]
+}

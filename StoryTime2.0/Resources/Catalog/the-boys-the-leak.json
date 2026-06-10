@@ -1,0 +1,460 @@
+{
+  "id": "the-boys-the-leak",
+  "title": "The Boys",
+  "sourceTitle": "The Boys",
+  "kind": "show",
+  "synopsis": "You're a junior PR assistant at Vought when an internal video lands in your inbox that could topple Homelander. You have until end of day. Nobody you trust is who you thought.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-10T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "corporate",
+    "satire",
+    "whistleblower"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "An unsigned email contains a 12-minute video of Homelander, off-camera, doing what Vought has spent millions making sure nobody sees. The timestamp is two days old. The phrase 'do not share' is in the subject line.",
+      "sceneTitle": "Inbox, Monday",
+      "choices": [
+        {
+          "text": "Watch the whole thing now, in the bathroom",
+          "consequence": "Privacy is the only currency here.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Forward it to your personal email immediately",
+          "consequence": "Lifeboats first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You sit on the toilet with your phone and watch 12 minutes of horror with your hand over your mouth. Your colleague Mira knocks. You'll have to walk back to your desk and act normal in 90 seconds.",
+      "sceneTitle": "The Stall",
+      "choices": [
+        {
+          "text": "Show Mira; you need an ally",
+          "consequence": "Don't carry this alone.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Lie about a stomach bug",
+          "consequence": "Trust no one yet.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You forward it and immediately remember Vought monitors outbound traffic on 'Compliance Tuesdays,' which is, terrifyingly, every day. A box appears in the lower right: 'Routine compliance review scheduled.'",
+      "sceneTitle": "Personal Email",
+      "choices": [
+        {
+          "text": "Delete and pretend nothing happened",
+          "consequence": "Wipe the trail you accidentally made.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stand up and walk out of the building now",
+          "consequence": "Don't be in the room when they come for you.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Mira watches 10 seconds and goes pale. 'Whoever sent you this,' she whispers, 'is testing you. Vought does this. They're hunting a leaker.' She might be right. She might also be the test.",
+      "sceneTitle": "Mira",
+      "choices": [
+        {
+          "text": "Trust Mira and plan together",
+          "consequence": "Two heads are also two targets.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Smile and act like you don't believe her",
+          "consequence": "Stay alone, stay alive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "On the street you walk three blocks before someone matches your stride. Tall, hoodie, soft voice. 'You watched it,' he says. 'I'm Hughie. We can keep you alive if you trust us.'",
+      "sceneTitle": "Outside",
+      "choices": [
+        {
+          "text": "Go with him, carefully",
+          "consequence": "Choose your strangers.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse — this could be Vought too",
+          "consequence": "Stay independent.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Butcher offers you a beer at noon. Mother's Milk looks tired. Kimiko writes you a single word on a notepad: 'CAREFUL.' Hughie looks like a man who has aged in dog years. They want the video. They also want you alive.",
+      "sceneTitle": "The Boys' Safe House",
+      "choices": [
+        {
+          "text": "Hand them the video",
+          "consequence": "Allies need leverage.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hold it until you have terms",
+          "consequence": "A copy is also a contract.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Madelyn — sorry, your boss this season — calls you up. She compliments your shoes. She asks, conversationally, if you've seen anything 'unusual' today. Her eyes do not blink.",
+      "sceneTitle": "Vought Tower, Floor 47",
+      "choices": [
+        {
+          "text": "Lie smoothly",
+          "consequence": "Practice as if she can hear your heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Almost tell the truth, then redirect",
+          "consequence": "Confessions can be camouflage.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The original sender reveals themselves through a clue only Vought-internal could decode — a Sup named Echo, low-tier, mostly forgotten, who has been collecting incidents for two years and finally chose to mail one.",
+      "sceneTitle": "The Source",
+      "choices": [
+        {
+          "text": "Meet Echo in person",
+          "consequence": "Source meetings change everything.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell Echo to go to ground",
+          "consequence": "Protect the source first.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Starlight pings your work phone with an emoji that means 'meet at the cafe.' She's been planning her own exit for months. She wants the video. She wants you to live. She wants both because she still believes in something.",
+      "sceneTitle": "Starlight, Quietly",
+      "choices": [
+        {
+          "text": "Trust Starlight",
+          "consequence": "Bet on the believer.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay polite but distant",
+          "consequence": "Trust costs more this week.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Across the cafe, Homelander stands at the window pretending to read the menu. He is six inches from your shoulder. He says, 'You have something of mine.' Smiles like a children's TV show.",
+      "sceneTitle": "Homelander's Smile",
+      "choices": [
+        {
+          "text": "Bluff entirely",
+          "consequence": "Lie like your nervous system depends on it.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell him a half-truth and offer terms",
+          "consequence": "Negotiation with monsters is a skill.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Frenchie meets you in an alley with a small device that scrambles audio recording within a five-meter radius. 'For meetings,' he shrugs. 'Or for first dates if you are paranoid. Like me.'",
+      "sceneTitle": "Frenchie, Useful",
+      "choices": [
+        {
+          "text": "Use the device for the next meeting",
+          "consequence": "Privacy is power.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Use the device for your own apartment first",
+          "consequence": "Sweep your nest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "An investigative journalist — too brave, too underpaid — agrees to publish in 48 hours if you can verify the video's authenticity. Verification means more leaks. More leaks means more enemies.",
+      "sceneTitle": "The Reporter",
+      "choices": [
+        {
+          "text": "Get verification at any cost",
+          "consequence": "Truth's deadline is also a debt.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Get the journalist to publish without you named",
+          "consequence": "Stay invisible; the story does the work.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Butcher wants you to leak the video the way Vought leaks things — through three different outlets at once, with a fake counter-leak from Vought timed to expose itself. It is brutal, clever, and probably illegal.",
+      "sceneTitle": "Butcher's Plan",
+      "choices": [
+        {
+          "text": "Approve the plan",
+          "consequence": "Use their weapons against them.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Argue for a cleaner play",
+          "consequence": "Stay ethical; you'll need to in a year.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Mira admits she was, indeed, partly a test — but she's done now. She wants out. She gives you a folder of corroborating documents that turn the video from a clip into a case.",
+      "sceneTitle": "Mira, Wired",
+      "choices": [
+        {
+          "text": "Get her out tonight",
+          "consequence": "Protect the people who flip.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take the folder and leave her to her own plan",
+          "consequence": "Carry only what you can.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Stan Edgar — out of Vought, in a townhouse, with very expensive tea — invites you to talk. He wants the video. He says he wants Homelander out. He is the most dangerous ally on the board.",
+      "sceneTitle": "Stan Edgar, Quietly",
+      "choices": [
+        {
+          "text": "Accept his help with conditions",
+          "consequence": "Use the king to depose the king.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Decline; he'll just install another monster",
+          "consequence": "Some help is its own trap.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The leak goes live at 8:00 a.m. Eastern. Within four minutes Homelander is trending in 14 languages. Within seven, Vought stock is in freefall. Within twelve, helicopters are over your apartment.",
+      "sceneTitle": "The Drop",
+      "choices": [
+        {
+          "text": "Run with The Boys",
+          "consequence": "Allies you have, take.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Surrender to the FBI publicly",
+          "consequence": "Daylight as protection.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Homelander goes live on Vought's official feed in a calm voice that scares the country more than any rant could. He admits to nothing. He hints at everything. He looks straight at the camera and seems to know your name.",
+      "sceneTitle": "Homelander Live",
+      "choices": [
+        {
+          "text": "Counter with a live response",
+          "consequence": "Defang the moment with truth.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Go silent for 24 hours",
+          "consequence": "Don't compete with him on his stage.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A Senate hearing — convened on emergency grounds — wants you to testify. Vought's counsel sits behind a stack of NDAs the size of a phone book. Cameras everywhere. Your hands, weirdly, calm.",
+      "sceneTitle": "The Hearing",
+      "choices": [
+        {
+          "text": "Testify with every detail",
+          "consequence": "Truth, public, repeated.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Testify only on what you witnessed",
+          "consequence": "Stay defensible; let evidence carry the rest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Instead of going public, you become a source — careful, slow, sustained. Over a year you and Starlight and Mira drip-feed a coalition of reporters until Vought's brand is dust without a single moment of you on camera.",
+      "sceneTitle": "The Long Game",
+      "choices": [
+        {
+          "text": "Stay anonymous forever",
+          "consequence": "Some heroes do not autograph.",
+          "nextNodeId": "end_anon"
+        },
+        {
+          "text": "Eventually take credit when it's safe",
+          "consequence": "Let history know who turned the lights on.",
+          "nextNodeId": "end_credit"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Homelander is not, in the end, taken down by a punch. He is taken down by a paper trail and a public's slow, terrifying decision to stop being amused. Vought rebrands. The CEO is indicted. The country doesn't entirely heal. It just gets to keep going.",
+      "sceneTitle": "Verdict",
+      "choices": [
+        {
+          "text": "Take a quiet government job in oversight",
+          "consequence": "Build the fence so this can't happen again.",
+          "nextNodeId": "end_oversight"
+        },
+        {
+          "text": "Walk away from supes forever",
+          "consequence": "Some weeks are enough.",
+          "nextNodeId": "end_done"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The Boys disband, mostly. Butcher disappears. Hughie marries Starlight. M.M. takes his daughter to school every day for the rest of his life. Kimiko opens a noodle shop in Queens that is, unironically, perfect.",
+      "sceneTitle": "The Boys, After",
+      "choices": [
+        {
+          "text": "Keep in touch with all of them",
+          "consequence": "Found-family is also work.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Send postcards and otherwise vanish",
+          "consequence": "Closure can be a stamp.",
+          "nextNodeId": "end_done"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_anon",
+      "text": "Your name never appears. Vought collapses. A new, slightly better company rises in its place. You take a quiet job in pharma compliance and watch documentaries about yourself, anonymously, on a Tuesday.",
+      "sceneTitle": "Unsigned",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Unsigned"
+    },
+    {
+      "id": "end_credit",
+      "text": "Years later you write a careful, well-lawyered memoir. It debuts at number two. The book at number one is by Starlight. You text her congratulations and she sends you a heart emoji and a photo of her dog.",
+      "sceneTitle": "The Memoir",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Memoir"
+    },
+    {
+      "id": "end_oversight",
+      "text": "You join the new Bureau of Superhuman Affairs. The work is paperwork; the work is hard; the work is necessary. Some weeks you miss adrenaline. Most weeks you don't.",
+      "sceneTitle": "Building the Fence",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Building the Fence"
+    },
+    {
+      "id": "end_done",
+      "text": "You leave. You take a job you do not list on LinkedIn. You take a long, ordinary walk every evening and feel, finally, like a person, not a leak.",
+      "sceneTitle": "Out",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Out"
+    },
+    {
+      "id": "end_family",
+      "text": "Every Sunday The Boys eat at Kimiko's. Hughie is not allowed near the kitchen. M.M. argues with Butcher even though Butcher is half a ghost now. You sit at the end of the table where the light is best. You are happy. You are surprised by it.",
+      "sceneTitle": "Sundays at Kimiko's",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sundays at Kimiko's"
+    }
+  ]
+}

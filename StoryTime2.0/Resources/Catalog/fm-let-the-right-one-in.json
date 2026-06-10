@@ -1,0 +1,450 @@
+{
+  "id": "fm-let-the-right-one-in",
+  "title": "Let the Right One In",
+  "sourceTitle": "Let the Right One In",
+  "kind": "movie",
+  "synopsis": "A bullied boy in a Stockholm suburb, a girl who only comes out at night, a pool, and an invitation that has to be spoken aloud.",
+  "releaseYear": 2008,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "vampire",
+    "swedish",
+    "snow",
+    "first-love"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Practice stabbing a tree at midnight in your underwear.",
+      "sceneTitle": "Snow on a Knife",
+      "choices": [
+        {
+          "text": "Practice",
+          "consequence": "Lonely.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go inside",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A pale girl, barefoot in the snow, who tells you she cannot be your friend.",
+      "sceneTitle": "Eli on the Jungle Gym",
+      "choices": [
+        {
+          "text": "Speak to her",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Conny grabs your ear at the edge of the pool with a switch.",
+      "sceneTitle": "Pool",
+      "choices": [
+        {
+          "text": "Fight back",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Endure",
+          "consequence": "Tired.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An old man hangs a child upside down in a forest with a funnel.",
+      "sceneTitle": "Hakan's Errand",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Eli solves a Rubik's cube overnight under your window.",
+      "sceneTitle": "Cube Game",
+      "choices": [
+        {
+          "text": "Be impressed",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be wary",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Come in, you say. She steps inside, and she begins to bleed.",
+      "sceneTitle": "Invitation Test",
+      "choices": [
+        {
+          "text": "Pull her in",
+          "consequence": "Heart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Say it",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "She is cold, you are warm, the door is locked.",
+      "sceneTitle": "Sleeping in Your Bed",
+      "choices": [
+        {
+          "text": "Hold her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Sleep apart",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He goes to the window for her at dawn, with a smile.",
+      "sceneTitle": "Hakan's Hospital",
+      "choices": [
+        {
+          "text": "Stay with him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A drained corpse and a town that is starting to notice.",
+      "sceneTitle": "Lake Body",
+      "choices": [
+        {
+          "text": "Tell the police",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Loyal.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A cat-laden apartment with a friend who is now afraid of sunlight.",
+      "sceneTitle": "Virginia at the Window",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She asks for the curtains.",
+      "sceneTitle": "Curtains Open",
+      "choices": [
+        {
+          "text": "Open them",
+          "consequence": "Mercy.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A whisper, an invitation already spoken, a kiss on the cheek.",
+      "sceneTitle": "Eli at Your Door",
+      "choices": [
+        {
+          "text": "Hold her",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A bigger boy with a bigger grudge.",
+      "sceneTitle": "Conny's Brother",
+      "choices": [
+        {
+          "text": "Stand up",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Conny holds your head under water and counts.",
+      "sceneTitle": "Pool, Again",
+      "choices": [
+        {
+          "text": "Hold your breath",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Surrender",
+          "consequence": "Tired.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A head and a hand fall on the pool deck above you.",
+      "sceneTitle": "Splash",
+      "choices": [
+        {
+          "text": "Open your eyes",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay closed",
+          "consequence": "Tired.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "She lifts you out of the water with a small, kind smile.",
+      "sceneTitle": "Eli on the Edge",
+      "choices": [
+        {
+          "text": "Take her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A small box on the seat across from you on a long train south.",
+      "sceneTitle": "Train Station",
+      "choices": [
+        {
+          "text": "Tap",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Look out the window",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A small reply from the box.",
+      "sceneTitle": "Morse Tap",
+      "choices": [
+        {
+          "text": "Tap back",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Polite.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Sun across a pine forest as the train rocks.",
+      "sceneTitle": "Dawn Outside",
+      "choices": [
+        {
+          "text": "Cover the box",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Open the window",
+          "consequence": "Reckless.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Tickets and small change.",
+      "sceneTitle": "Conductor Walks Past",
+      "choices": [
+        {
+          "text": "Stay still",
+          "consequence": "Cunning.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold the box tight",
+          "consequence": "Care.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Just the two of you and the morse going.",
+      "sceneTitle": "Empty Carriage",
+      "choices": [
+        {
+          "text": "Sleep",
+          "consequence": "Heart.",
+          "nextNodeId": "end_train"
+        },
+        {
+          "text": "Watch the snow",
+          "consequence": "Honest.",
+          "nextNodeId": "end_pool"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_letter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_train",
+      "text": "You and the box ride south for days, and the small tapping never stops, and the snow goes from white to gray to slush as the train carries you somewhere kinder.",
+      "sceneTitle": "Puss, Puss",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Puss, Puss"
+    },
+    {
+      "id": "end_pool",
+      "text": "You climb out of the pool and Eli pulls a towel around you, and the two of you walk past a half-dozen severed surprises with an even smaller smile.",
+      "sceneTitle": "On the Tile",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "On the Tile"
+    },
+    {
+      "id": "end_letter",
+      "text": "Decades later you write your mother a postcard from a city she cannot name, and you sign it with a small symbol Eli taught you that means thank you for the invitation.",
+      "sceneTitle": "A Letter Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Letter Home"
+    }
+  ]
+}

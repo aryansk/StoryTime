@@ -9,7 +9,7 @@ import math
 from pathlib import Path
 from PIL import Image, ImageDraw
 
-BUTTER = (246, 239, 212, 255)   # #F6EFD4
+BUTTER = (250, 247, 232, 255)   # #FAF7E8
 MIST   = (216, 222, 232, 255)   # #D8DEE8
 INK    = (26, 39, 68, 255)      # #1A2744
 

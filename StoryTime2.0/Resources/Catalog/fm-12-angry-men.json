@@ -1,0 +1,450 @@
+{
+  "id": "fm-12-angry-men",
+  "title": "12 Angry Men",
+  "sourceTitle": "12 Angry Men",
+  "kind": "movie",
+  "synopsis": "A jury room, a stalled fan, a knife on a table, and one juror asking whether reasonable doubt has been considered.",
+  "releaseYear": 1957,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "jury",
+    "doubt",
+    "single-room",
+    "ethics"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Eleven hands up for guilty, fast, in a hot room.",
+      "sceneTitle": "First Vote",
+      "choices": [
+        {
+          "text": "Raise your hand",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Hold it down",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Foreman asks for a reason and the room stares.",
+      "sceneTitle": "Why Not",
+      "choices": [
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Pass",
+          "consequence": "Cautious.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Juror Eight pulls an identical knife from his pocket.",
+      "sceneTitle": "Switchblade",
+      "choices": [
+        {
+          "text": "Lay it on the table",
+          "consequence": "Bold.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Pocket it again",
+          "consequence": "Quiet.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He testified he ran to his door in fifteen seconds.",
+      "sceneTitle": "Old Man's Limp",
+      "choices": [
+        {
+          "text": "Time it on the floor",
+          "consequence": "Practical.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Trust him",
+          "consequence": "Loyal.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Train under the window during the scream.",
+      "sceneTitle": "El",
+      "choices": [
+        {
+          "text": "Time the rumble",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Move past",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The marks on a woman's nose at the trial.",
+      "sceneTitle": "Glasses",
+      "choices": [
+        {
+          "text": "Speak the detail",
+          "consequence": "Sharp.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hold it",
+          "consequence": "Patient.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A second vote, secret ballot. Nine to three.",
+      "sceneTitle": "Switch",
+      "choices": [
+        {
+          "text": "Take the credit",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Listen for who switched",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He says he never even gets emotional about anything.",
+      "sceneTitle": "Garage Owner",
+      "choices": [
+        {
+          "text": "Press him",
+          "consequence": "Hard.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Soften him",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A floorplan in chalk on a table cloth.",
+      "sceneTitle": "Architect's Diagram",
+      "choices": [
+        {
+          "text": "Walk it",
+          "consequence": "Patient.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Argue it",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Cold facts, cold tone, a deep certainty.",
+      "sceneTitle": "Stockbroker",
+      "choices": [
+        {
+          "text": "Engage",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He has tickets to a game and he wants the room to vote.",
+      "sceneTitle": "Salesman",
+      "choices": [
+        {
+          "text": "Shame him",
+          "consequence": "Hard.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Persuade him",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A juror says these people, they're all like that.",
+      "sceneTitle": "Prejudice",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Sit silent",
+          "consequence": "Cold.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The eldest finds words for what the youngest just felt.",
+      "sceneTitle": "Old Juror Speaks",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Interrupt",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The defense was sleepy and you are not.",
+      "sceneTitle": "Tired Lawyer",
+      "choices": [
+        {
+          "text": "Note it for the room",
+          "consequence": "Sharp.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hold it",
+          "consequence": "Cautious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Ask Juror Four what movie he saw last week.",
+      "sceneTitle": "Memory Test",
+      "choices": [
+        {
+          "text": "Press for detail",
+          "consequence": "Cunning.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Polite.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Rain on the windows finally and the fan starts at the right second.",
+      "sceneTitle": "Hot Day Cooling",
+      "choices": [
+        {
+          "text": "Open the window",
+          "consequence": "Calm.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay seated",
+          "consequence": "Patient.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Eight stabs the table to argue an unlikely angle.",
+      "sceneTitle": "Knife in the Door",
+      "choices": [
+        {
+          "text": "Approve the demonstration",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Object",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The room has flipped under you and you are still standing.",
+      "sceneTitle": "Three to Acquit",
+      "choices": [
+        {
+          "text": "Concede gracefully",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Hold out",
+          "consequence": "Pride.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Juror Three with a wallet photo and a son he hasn't spoken to.",
+      "sceneTitle": "One Holdout",
+      "choices": [
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Hard.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A son's face on the floor and a father's face in his hands.",
+      "sceneTitle": "Photograph Torn",
+      "choices": [
+        {
+          "text": "Help him up",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Twelve hands raised slowly, no triumph in any of them.",
+      "sceneTitle": "Not Guilty",
+      "choices": [
+        {
+          "text": "File out quietly",
+          "consequence": "Honest.",
+          "nextNodeId": "end_rain"
+        },
+        {
+          "text": "Shake hands",
+          "consequence": "Honest.",
+          "nextNodeId": "end_doubt"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_three"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_rain",
+      "text": "You walk down the courthouse steps with a stranger whose first name you finally learn. You do not exchange numbers. You do not need to.",
+      "sceneTitle": "Rain on the Steps",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Rain on the Steps"
+    },
+    {
+      "id": "end_doubt",
+      "text": "The boy walks. He is innocent or guilty and the room never found out. You learn to live with that distinction, which is the entire point.",
+      "sceneTitle": "Reasonable",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Reasonable"
+    },
+    {
+      "id": "end_three",
+      "text": "Juror Three calls his son that night from a payphone, and the line is busy. He calls again at six in the morning. He calls every day until it is not.",
+      "sceneTitle": "The Photograph",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Photograph"
+    }
+  ]
+}

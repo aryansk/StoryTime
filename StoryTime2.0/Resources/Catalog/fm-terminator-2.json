@@ -1,0 +1,450 @@
+{
+  "id": "fm-terminator-2",
+  "title": "Terminator 2: Judgment Day",
+  "sourceTitle": "Terminator 2: Judgment Day",
+  "kind": "movie",
+  "synopsis": "A boy, a mother in a hospital, an old enemy with a new mission, and a polymorphic cop who will not stop.",
+  "releaseYear": 1991,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "time",
+    "robots",
+    "mother",
+    "future"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "She is on the floor doing pull-ups while a doctor watches her on closed-circuit.",
+      "sceneTitle": "Sarah in the Cell",
+      "choices": [
+        {
+          "text": "Keep training",
+          "consequence": "Hard.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Bide time",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "John, scamming an ATM with a card reader of his own making.",
+      "sceneTitle": "Arcade",
+      "choices": [
+        {
+          "text": "Take the cash",
+          "consequence": "Reckless.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A truck driver in a leather jacket and a cop with no expression.",
+      "sceneTitle": "First Encounter",
+      "choices": [
+        {
+          "text": "Run with the leather jacket",
+          "consequence": "Trust.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Run with the cop",
+          "consequence": "Doomed.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Get down. A pump shotgun in slow motion under a fluorescent buzz.",
+      "sceneTitle": "Mall Hallway",
+      "choices": [
+        {
+          "text": "Duck",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Swear, says the boy, you will not kill anyone.",
+      "sceneTitle": "Promise",
+      "choices": [
+        {
+          "text": "Swear it",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Sarah is calm in a way that scares the nurses more than the screaming did.",
+      "sceneTitle": "Pescadero",
+      "choices": [
+        {
+          "text": "Break her out",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "An engineer at a kitchen table with a baby asleep upstairs.",
+      "sceneTitle": "Dyson",
+      "choices": [
+        {
+          "text": "Speak first",
+          "consequence": "Mercy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Aim first",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Plans on the table for a chip that ends the world.",
+      "sceneTitle": "The Garage",
+      "choices": [
+        {
+          "text": "Persuade him",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Demand he comply",
+          "consequence": "Hard.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lobby, security, helicopter inbound, the whole building one wrong shot from a fire.",
+      "sceneTitle": "Cyberdyne",
+      "choices": [
+        {
+          "text": "Go up the stairs",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take the elevator",
+          "consequence": "Direct.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Sarah on the radio: no killing.",
+      "sceneTitle": "Knee Cap Tactics",
+      "choices": [
+        {
+          "text": "Knees only",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Center mass",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The chips spread on a table like a confession.",
+      "sceneTitle": "Vault",
+      "choices": [
+        {
+          "text": "Burn it all",
+          "consequence": "Final.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Salvage one",
+          "consequence": "Practical.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Police helicopter, then a SWAT van, then a helicopter again.",
+      "sceneTitle": "On the Roof",
+      "choices": [
+        {
+          "text": "Drop down the wall",
+          "consequence": "Wild.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A tow truck, a liquid nitrogen tanker, an officer in mirrored shades.",
+      "sceneTitle": "Freeway Chase",
+      "choices": [
+        {
+          "text": "Ram the tanker",
+          "consequence": "Bold.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Outrun",
+          "consequence": "Cautious.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Catwalks and forging cradles and rivers of orange.",
+      "sceneTitle": "Steel Mill",
+      "choices": [
+        {
+          "text": "Set the trap",
+          "consequence": "Cunning.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Run",
+          "consequence": "Cautious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The T-1000 in a hundred pieces of fog on the floor.",
+      "sceneTitle": "Frozen",
+      "choices": [
+        {
+          "text": "Shatter it",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Run past",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "It walks back together from a puddle and laughs without lungs.",
+      "sceneTitle": "Reassembly",
+      "choices": [
+        {
+          "text": "Switch weapons",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stand ground",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Arm pinned, gear wheel turning, the wrong man down for a beat.",
+      "sceneTitle": "Bayonet",
+      "choices": [
+        {
+          "text": "Pull free",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait for him",
+          "consequence": "Calm.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Molten steel under your boots and a hand reaching out of the bath.",
+      "sceneTitle": "Crucible",
+      "choices": [
+        {
+          "text": "Push it in",
+          "consequence": "Final.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The CPU still in his neck. He thinks Sarah cannot do it.",
+      "sceneTitle": "The Last Chip",
+      "choices": [
+        {
+          "text": "Lower him",
+          "consequence": "Final.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Heart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The pulley wheel. A salute the boy will remember for as long as a person can remember.",
+      "sceneTitle": "Sarah's Thumb",
+      "choices": [
+        {
+          "text": "Press it",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Pause",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Headlights, road stripes, and an unwritten road ahead.",
+      "sceneTitle": "Highway, Night",
+      "choices": [
+        {
+          "text": "Drive on",
+          "consequence": "Hope.",
+          "nextNodeId": "end_no_fate"
+        },
+        {
+          "text": "Pull over",
+          "consequence": "Honest.",
+          "nextNodeId": "end_judge"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_thumbs"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_no_fate",
+      "text": "Skynet does not boot in 1997. You spend a long quiet decade waiting to see if it boots anyway.",
+      "sceneTitle": "No Fate But What We Make",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "No Fate But What We Make"
+    },
+    {
+      "id": "end_judge",
+      "text": "The chips are gone, the engineers persuaded, the date a rumor. A child sleeps. So do you, eventually.",
+      "sceneTitle": "Judgment, Deferred",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Judgment, Deferred"
+    },
+    {
+      "id": "end_thumbs",
+      "text": "You will hear the cradle in your dreams for the rest of your life. So will the boy. You will be grateful for both.",
+      "sceneTitle": "Thumbs Up",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Thumbs Up"
+    }
+  ]
+}

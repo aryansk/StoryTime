@@ -77,6 +77,11 @@ def validate(catalog_dir: Path) -> int:
             fail(f"id mismatch: index has '{sid}', file has '{story.get('id')}'")
             errors += 1
 
+        rating = story.get("rating")
+        if rating is not None and not (isinstance(rating, int) and 1 <= rating <= 5):
+            fail(f"rating must be an int 1..5, got {rating!r}")
+            errors += 1
+
         nodes = story.get("nodes", [])
         node_ids = {n["id"] for n in nodes if "id" in n}
 
@@ -104,7 +109,13 @@ def validate(catalog_dir: Path) -> int:
                 if nxt:
                     unreachable.discard(nxt)
 
-        ok(f"{len(nodes)} nodes, {endings} ending(s)")
+        decision_nodes = sum(1 for n in nodes if n.get("choices"))
+        ok(f"{len(nodes)} nodes, {decision_nodes} decision node(s), {endings} ending(s)")
+        # Mini-tagged stories deliberately ship with ~6 decision nodes;
+        # they have their own length contract, so don't cry wolf on them.
+        is_mini = "mini" in (story.get("tags") or [])
+        if decision_nodes < 20 and not is_mini:
+            ok(f"only {decision_nodes} decision nodes (target is 20+) — warning")
         if unreachable:
             ok(f"{len(unreachable)} unreachable nodes (warning): "
                f"{sorted(unreachable)[:5]}")

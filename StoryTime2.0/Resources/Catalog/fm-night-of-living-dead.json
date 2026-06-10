@@ -1,0 +1,450 @@
+{
+  "id": "fm-night-of-living-dead",
+  "title": "Night of the Living Dead",
+  "sourceTitle": "Night of the Living Dead",
+  "kind": "movie",
+  "synopsis": "A cemetery, a farmhouse, a basement argument, and a country radio voice that is finally telling the truth.",
+  "releaseYear": 1968,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "romero",
+    "zombie",
+    "siege",
+    "blackandwhite"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A brother teases his sister at a headstone.",
+      "sceneTitle": "Cemetery",
+      "choices": [
+        {
+          "text": "Tease back",
+          "consequence": "Light.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A pale figure stumbles between the stones.",
+      "sceneTitle": "First Walker",
+      "choices": [
+        {
+          "text": "Approach",
+          "consequence": "Reckless.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A head hits a marker with a sound that does not stop.",
+      "sceneTitle": "Brother Falls",
+      "choices": [
+        {
+          "text": "Drive away",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait for him",
+          "consequence": "Loyal.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A house at the end of a dirt road with a porch screen torn.",
+      "sceneTitle": "Farmhouse",
+      "choices": [
+        {
+          "text": "Inside",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hide outside",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A man with a tire iron and a calm voice.",
+      "sceneTitle": "Ben Arrives",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay cautious",
+          "consequence": "Wary.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Hammer, nails, a kitchen drawer of supplies.",
+      "sceneTitle": "Boards on Windows",
+      "choices": [
+        {
+          "text": "Help him",
+          "consequence": "Discipline.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hide upstairs",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A man named Cooper shouts up from the basement.",
+      "sceneTitle": "Cellar Door",
+      "choices": [
+        {
+          "text": "Speak through it",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Lock it from above",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A bulletin about reanimated corpses in three states.",
+      "sceneTitle": "Radio",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Switch it off",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A small girl in a corner, hurt, fevered, quiet.",
+      "sceneTitle": "Karen",
+      "choices": [
+        {
+          "text": "Tend her",
+          "consequence": "Heart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Lock everyone in the cellar and ride it out.",
+      "sceneTitle": "Cooper's Strategy",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Compromise",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A young couple keen on the pickup truck out front.",
+      "sceneTitle": "Tom and Judy",
+      "choices": [
+        {
+          "text": "Plan it together",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Plan alone",
+          "consequence": "Pride.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A long run with cans to a gas pump at the side of the yard.",
+      "sceneTitle": "Pump",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Send Tom",
+          "consequence": "Practical.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Flame in the wrong direction.",
+      "sceneTitle": "Spilled Gasoline",
+      "choices": [
+        {
+          "text": "Throw the torch",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Drop it",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A truck on fire and a body inside.",
+      "sceneTitle": "Tom Burning",
+      "choices": [
+        {
+          "text": "Look away",
+          "consequence": "Mercy.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A pile of hands on the screen.",
+      "sceneTitle": "Walkers at the Door",
+      "choices": [
+        {
+          "text": "Light the curtains",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Brace",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A small figure with a trowel and an appetite.",
+      "sceneTitle": "Karen on the Stairs",
+      "choices": [
+        {
+          "text": "Stop her",
+          "consequence": "Mercy.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A mother on a basement floor and a daughter with a tool.",
+      "sceneTitle": "Helen's Last Word",
+      "choices": [
+        {
+          "text": "Try to save Helen",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Bar the door",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A wrong moment, a wild round.",
+      "sceneTitle": "Cooper Shoots",
+      "choices": [
+        {
+          "text": "Disarm him",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Voices in the field, men with dogs and rifles.",
+      "sceneTitle": "Dawn at the Window",
+      "choices": [
+        {
+          "text": "Wave",
+          "consequence": "Hope.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A sweep through the yard with a clear order to fire on anything moving.",
+      "sceneTitle": "Sheriff at the Treeline",
+      "choices": [
+        {
+          "text": "Call out",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A shadow at the curtain and a rifleman with a steady aim.",
+      "sceneTitle": "Bedroom Window",
+      "choices": [
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "end_dawn"
+        },
+        {
+          "text": "Step forward",
+          "consequence": "Honest.",
+          "nextNodeId": "end_basement"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_road"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_dawn",
+      "text": "You walk down the porch with both hands up and the sheriff's man, suspicious of nothing in particular, lowers his rifle and lets you live.",
+      "sceneTitle": "Posse on the Porch",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Posse on the Porch"
+    },
+    {
+      "id": "end_basement",
+      "text": "You spend the night with Cooper after all, and the radio announces the all clear at noon and a small girl on a stair never quite stops being your nightmare.",
+      "sceneTitle": "Cellar Door Holds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cellar Door Holds"
+    },
+    {
+      "id": "end_road",
+      "text": "You take the only working truck out at dawn and you do not look back, and the radio crackles and the road dust hangs and the country is, briefly, quiet.",
+      "sceneTitle": "Truck on Dirt Road",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Truck on Dirt Road"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "id": "fb-lotr",
+  "title": "The Lord of the Rings",
+  "sourceTitle": "The Lord of the Rings",
+  "kind": "book",
+  "synopsis": "Bag End, again. Bilbo's gift is, you'll learn, a curse. The road goes ever on, and you are walking it on small hairy feet.",
+  "releaseYear": 1954,
+  "addedAt": "2026-02-22T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "tolkien",
+    "ring",
+    "epic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Eleventy-first. Fireworks. Bilbo vanishes.",
+      "sceneTitle": "The Party",
+      "choices": [
+        {
+          "text": "Notice",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wave",
+          "consequence": "Joy.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Gandalf returns with a fireplace and runes.",
+      "sceneTitle": "The Letter",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Sam, Pippin, Merry.",
+      "sceneTitle": "Leaving",
+      "choices": [
+        {
+          "text": "Take the Old Forest path",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "The road",
+          "consequence": "Direct.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Strider in a corner.",
+      "sceneTitle": "Bree",
+      "choices": [
+        {
+          "text": "Trust",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Five blades in the dark.",
+      "sceneTitle": "Weathertop",
+      "choices": [
+        {
+          "text": "Resist the ring",
+          "consequence": "Discipline.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Put it on",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Council. Volunteers. The Fellowship.",
+      "sceneTitle": "Rivendell",
+      "choices": [
+        {
+          "text": "Volunteer",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Drums. The bridge. Gandalf falls.",
+      "sceneTitle": "Moria",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Try to help",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Galadriel. Lembas. Gifts.",
+      "sceneTitle": "Lorien",
+      "choices": [
+        {
+          "text": "Refuse her ring",
+          "consequence": "Vow.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Almost take it",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Boromir's hand reaches.",
+      "sceneTitle": "Amon Hen",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Save the ring.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold him off",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "He swims. You pull him in.",
+      "sceneTitle": "Sam in the Water",
+      "choices": [
+        {
+          "text": "Take him",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Vow.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He swears on the precious.",
+      "sceneTitle": "Gollum",
+      "choices": [
+        {
+          "text": "Trust slowly",
+          "consequence": "Path.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Don't trust",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He could take the ring. He doesn't.",
+      "sceneTitle": "Faramir",
+      "choices": [
+        {
+          "text": "Honor him",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Note his restraint",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A spider in a cave.",
+      "sceneTitle": "Shelob",
+      "choices": [
+        {
+          "text": "Sting her",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You are limp. Sam shoulders the load.",
+      "sceneTitle": "Sam Carries You",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Friend.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Mumble",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The stairs. The heat. The crack.",
+      "sceneTitle": "Mount Doom",
+      "choices": [
+        {
+          "text": "Refuse to drop it",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Drop it",
+          "consequence": "Lie.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He takes the ring and falls in.",
+      "sceneTitle": "Gollum Bites",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Witness.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold Sam",
+          "consequence": "Friend.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You wake on a soft thing. Light. Gandalf.",
+      "sceneTitle": "Eagles",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Aragorn is king. He kneels to the hobbits.",
+      "sceneTitle": "Gondor's Crown",
+      "choices": [
+        {
+          "text": "Stand tall",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Be embarrassed",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Home is troubled. You fix it.",
+      "sceneTitle": "Scouring the Shire",
+      "choices": [
+        {
+          "text": "Lead quietly",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Let others lead",
+          "consequence": "Modest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Sam at the door. A daughter on his knee.",
+      "sceneTitle": "Bag End, Again",
+      "choices": [
+        {
+          "text": "Be content",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Be restless",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A ship. Bilbo, Gandalf, the Elves.",
+      "sceneTitle": "Grey Havens",
+      "choices": [
+        {
+          "text": "Sail",
+          "consequence": "Path.",
+          "nextNodeId": "end_havens"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Heart.",
+          "nextNodeId": "end_shire"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_legacy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_havens",
+      "text": "You sail. The light is kind. Sam, on the dock, raises a hand. You wave back. The sea is, finally, soft.",
+      "sceneTitle": "The Grey Havens",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Grey Havens"
+    },
+    {
+      "id": "end_shire",
+      "text": "Sam returns and is, for many years, the mayor. You write the book. The book becomes, eventually, a kind of national story.",
+      "sceneTitle": "Master of Bag End",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Master of Bag End"
+    },
+    {
+      "id": "end_legacy",
+      "text": "Generations read the Red Book of Westmarch. Your handwriting is, in places, smudged. Children copy the smudges, lovingly.",
+      "sceneTitle": "The Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book"
+    }
+  ]
+}

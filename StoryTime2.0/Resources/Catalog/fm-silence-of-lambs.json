@@ -1,0 +1,449 @@
+{
+  "id": "fm-silence-of-lambs",
+  "title": "The Silence of the Lambs",
+  "sourceTitle": "The Silence of the Lambs",
+  "kind": "movie",
+  "synopsis": "FBI Academy. A senator's daughter is missing. Hannibal Lecter has a profile to share, but only for a song.",
+  "releaseYear": 1991,
+  "addedAt": "2026-03-08T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "fbi",
+    "serial",
+    "psychological"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Quantico woods. Crawford pulls you off the course.",
+      "sceneTitle": "The Run",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask why",
+          "consequence": "Curious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He flirts grossly. He hands you the case file.",
+      "sceneTitle": "Chilton's Office",
+      "choices": [
+        {
+          "text": "Decline gracefully",
+          "consequence": "Discipline.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be cold",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Multiple Miggs spits. Lecter is upright behind glass.",
+      "sceneTitle": "The Cell",
+      "choices": [
+        {
+          "text": "Stand still",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Step closer",
+          "consequence": "Direct.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He wants something for every answer.",
+      "sceneTitle": "Quid Pro Quo",
+      "choices": [
+        {
+          "text": "Trade carefully",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Trade fully",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Lecter's old patient's storage. A head in a jar.",
+      "sceneTitle": "Storage Unit",
+      "choices": [
+        {
+          "text": "Document",
+          "consequence": "Discipline.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Photograph",
+          "consequence": "Quick.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Catherine Martin is abducted from a parking lot.",
+      "sceneTitle": "Senator's Daughter",
+      "choices": [
+        {
+          "text": "Time pressure",
+          "consequence": "Real.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Pace",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A pupa in the throat. A death's-head moth.",
+      "sceneTitle": "Bug, Genus",
+      "choices": [
+        {
+          "text": "Pull on it",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Show Crawford",
+          "consequence": "Process.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Lecter is moved to Memphis. Senator wants a deal.",
+      "sceneTitle": "Lecter Moves",
+      "choices": [
+        {
+          "text": "Visit him there",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lecter, in a hockey mask, in a cage in a ballroom.",
+      "sceneTitle": "Cage in the Hall",
+      "choices": [
+        {
+          "text": "Talk",
+          "consequence": "Direct.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "He asks about your father. You tell him about the lambs.",
+      "sceneTitle": "Your Mother, Late",
+      "choices": [
+        {
+          "text": "Tell honestly",
+          "consequence": "Trust.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Lie",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Lecter slips you a name. Or a clue toward one. Geographic.",
+      "sceneTitle": "Buffalo Bill",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Path.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Verify it",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "House to house in a small town. The names from the seamstress.",
+      "sceneTitle": "Belvedere",
+      "choices": [
+        {
+          "text": "Door by door",
+          "consequence": "Discipline.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Skip the easy ones",
+          "consequence": "Speed.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A man at a door. A moth in the hallway.",
+      "sceneTitle": "Mr. Gumb",
+      "choices": [
+        {
+          "text": "Identify yourself",
+          "consequence": "Civil.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Push past",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Stairs. Skin. Goggles in the dark.",
+      "sceneTitle": "Basement",
+      "choices": [
+        {
+          "text": "Don't shoot the dog",
+          "consequence": "Discipline.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Look at the well",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "She is in a pit, screaming.",
+      "sceneTitle": "Catherine",
+      "choices": [
+        {
+          "text": "Get to her after",
+          "consequence": "Mission.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Try to free her now",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He sees you. You don't see him.",
+      "sceneTitle": "Night Vision",
+      "choices": [
+        {
+          "text": "Hold the gun out",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You hear the click. You turn. You fire.",
+      "sceneTitle": "Shot",
+      "choices": [
+        {
+          "text": "Fire",
+          "consequence": "Path.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hold",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The basement floods with backup. Catherine breathes.",
+      "sceneTitle": "Light",
+      "choices": [
+        {
+          "text": "Carry her up",
+          "consequence": "Care.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Treat the scene",
+          "consequence": "Discipline.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You graduate. Crawford shakes your hand.",
+      "sceneTitle": "Graduation",
+      "choices": [
+        {
+          "text": "Take the moment",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay focused",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A phone in your room. 'I do wish we could chat longer.'",
+      "sceneTitle": "Lecter Calls",
+      "choices": [
+        {
+          "text": "Hang up",
+          "consequence": "Discipline.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay on",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The lambs, when you try to sleep, are quieter.",
+      "sceneTitle": "Sleep",
+      "choices": [
+        {
+          "text": "Try to sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "end_agent"
+        },
+        {
+          "text": "Stay awake reading",
+          "consequence": "Survive.",
+          "nextNodeId": "end_teacher"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_lecter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_agent",
+      "text": "You serve, decades, with distinction. Lecter does not come for you. The lambs, eventually, do quiet. You sleep.",
+      "sceneTitle": "Agent Starling",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Agent Starling"
+    },
+    {
+      "id": "end_teacher",
+      "text": "You move to Quantico as an instructor. You shape a generation. You meet your own students at lunch sometimes, twenty years on, and they call you ma'am.",
+      "sceneTitle": "Teaching",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Teaching"
+    },
+    {
+      "id": "end_lecter",
+      "text": "A phone rings, decades on. You let it. You realize, late, that some shadows are also, in their way, witnesses to who you became.",
+      "sceneTitle": "The Phone, Sometimes",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Phone, Sometimes"
+    }
+  ]
+}

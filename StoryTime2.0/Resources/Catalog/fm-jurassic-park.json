@@ -1,0 +1,449 @@
+{
+  "id": "fm-jurassic-park",
+  "title": "Jurassic Park",
+  "sourceTitle": "Jurassic Park",
+  "kind": "movie",
+  "synopsis": "Isla Nublar. A theme park, soft-opening. The fences are electric and the dinosaurs are alive. The power, in two hours, will go off.",
+  "releaseYear": 1993,
+  "addedAt": "2026-03-16T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "dinosaurs",
+    "park",
+    "chaos"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You and Ellie arrive. Hammond grins. A brachiosaurus stands beyond the trees.",
+      "sceneTitle": "Helicopter",
+      "choices": [
+        {
+          "text": "Marvel",
+          "consequence": "Joy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask how",
+          "consequence": "Scientist.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Vials, amber, frogs filling gaps in DNA.",
+      "sceneTitle": "The Lab",
+      "choices": [
+        {
+          "text": "Object on principle",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Reserve judgement",
+          "consequence": "Civil.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Self-driving Jeeps. Lex and Tim in the back.",
+      "sceneTitle": "Tour Cars",
+      "choices": [
+        {
+          "text": "Make conversation",
+          "consequence": "Care.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Watch the road",
+          "consequence": "Cautious.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The sky opens. A goat is offered. The T. rex does not appear.",
+      "sceneTitle": "Rain",
+      "choices": [
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Volunteer to look",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The fences go dark. The T. rex notices. The car splits in half.",
+      "sceneTitle": "Power Off",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Up a tree, with Tim, with the broken car above you.",
+      "sceneTitle": "Tree",
+      "choices": [
+        {
+          "text": "Climb down",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay up",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Search and rescue. Muldoon has a gun. Ellie has a flashlight.",
+      "sceneTitle": "Ellie and Muldoon",
+      "choices": [
+        {
+          "text": "Help them search",
+          "consequence": "Right.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Find the kids",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Ellie crouches by it, hand on the hide.",
+      "sceneTitle": "Sick Triceratops",
+      "choices": [
+        {
+          "text": "Help her diagnose",
+          "consequence": "Science.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Watch the trees",
+          "consequence": "Cautious.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Ice cream melts on the table. Hammond, smaller.",
+      "sceneTitle": "Visitor Center",
+      "choices": [
+        {
+          "text": "Comfort him briefly",
+          "consequence": "Care.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Find the kids",
+          "consequence": "Mission.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Velociraptors. Lex hides in cabinets. Tim freezes.",
+      "sceneTitle": "Kitchen",
+      "choices": [
+        {
+          "text": "Distract them",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Trap them in the freezer",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He says he should have been there for them. He sounds, briefly, like a grandfather and not a CEO.",
+      "sceneTitle": "Hammond's Confession",
+      "choices": [
+        {
+          "text": "Forgive him later",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hold the line now",
+          "consequence": "Mission.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Lex types on the Unix system. The lights come on.",
+      "sceneTitle": "Power Restoration",
+      "choices": [
+        {
+          "text": "Praise her",
+          "consequence": "Care.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay alert",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "They are at the door. The door is glass.",
+      "sceneTitle": "Raptors Outside",
+      "choices": [
+        {
+          "text": "Move the kids up",
+          "consequence": "Save.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Distract the raptors",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The big skeleton in the rotunda. You climb. The raptors follow.",
+      "sceneTitle": "Climb the Bones",
+      "choices": [
+        {
+          "text": "Climb fast",
+          "consequence": "Speed.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Climb carefully",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The T. rex bursts in, takes one raptor, then another. The banner falls.",
+      "sceneTitle": "T. Rex Returns",
+      "choices": [
+        {
+          "text": "Run for the helicopter",
+          "consequence": "Speed.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay till the dust settles",
+          "consequence": "Witness.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Hammond, mute. Ellie. The kids in your arms.",
+      "sceneTitle": "Helicopter Pad",
+      "choices": [
+        {
+          "text": "Hold them",
+          "consequence": "Care.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Look at the island a last time",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He, finally, agrees not to endorse the park. He looks small. He looks human.",
+      "sceneTitle": "Hammond",
+      "choices": [
+        {
+          "text": "Be kind",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Truth.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The birds, you realize, are dinosaurs. The window is full of pelicans.",
+      "sceneTitle": "Flight Out",
+      "choices": [
+        {
+          "text": "Notice it",
+          "consequence": "Joy.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Press, cameras, no statement.",
+      "sceneTitle": "Mainland",
+      "choices": [
+        {
+          "text": "No statement",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "A short statement",
+          "consequence": "Public.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Years later you visit a different lab. The science is, again, ahead of the ethics. You decide what to do.",
+      "sceneTitle": "The Lab Visit",
+      "choices": [
+        {
+          "text": "Speak publicly",
+          "consequence": "Voice.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Step away",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Years on, coffee with Ellie. You both still wake at 4 a.m. sometimes.",
+      "sceneTitle": "Coffee with Ellie",
+      "choices": [
+        {
+          "text": "Plan an article",
+          "consequence": "Action.",
+          "nextNodeId": "end_paper"
+        },
+        {
+          "text": "Just enjoy the coffee",
+          "consequence": "Heal.",
+          "nextNodeId": "end_field"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_kids"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_paper",
+      "text": "You and Ellie publish a long paper on de-extinction ethics. It becomes the standard syllabus. You don't, you decide, need to be the regulator. You just need to be the alarm.",
+      "sceneTitle": "The Paper",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Paper"
+    },
+    {
+      "id": "end_field",
+      "text": "You return to paleontology. You discover, in a Montana dig, a fossil that, briefly, shakes the field. You realize the living dinosaurs were, for you, a detour.",
+      "sceneTitle": "Back to the Field",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back to the Field"
+    },
+    {
+      "id": "end_kids",
+      "text": "Lex becomes a programmer. Tim becomes a paleontologist. They both, separately, send you Christmas cards. The cards are, always, slightly nicer than yours.",
+      "sceneTitle": "The Kids Grew Up",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Kids Grew Up"
+    }
+  ]
+}

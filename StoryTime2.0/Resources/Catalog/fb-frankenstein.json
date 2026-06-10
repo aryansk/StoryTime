@@ -1,0 +1,449 @@
+{
+  "id": "fb-frankenstein",
+  "title": "Frankenstein",
+  "sourceTitle": "Frankenstein",
+  "kind": "book",
+  "synopsis": "Ingolstadt. You are a brilliant student. You have figured out, alone in a garret, how to give life. You have not figured out what to do with what you make.",
+  "releaseYear": 1818,
+  "addedAt": "2026-02-15T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "shelley",
+    "creation",
+    "guilt"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Hands sewn, bones aligned. The kit before the storm.",
+      "sceneTitle": "Garret",
+      "choices": [
+        {
+          "text": "Continue",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stop",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He opens his eyes.",
+      "sceneTitle": "Spark",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Honor.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Flee",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You collapse. Henry Clerval nurses you for weeks.",
+      "sceneTitle": "Fever",
+      "choices": [
+        {
+          "text": "Tell him",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't tell him",
+          "consequence": "Pride.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "William, your little brother, is dead. Justine is accused.",
+      "sceneTitle": "Letter from Home",
+      "choices": [
+        {
+          "text": "Defend Justine",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Be silent",
+          "consequence": "Pride.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You watch her hang for what you made.",
+      "sceneTitle": "Justine Hangs",
+      "choices": [
+        {
+          "text": "Confess after",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Cowardice.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You meet him on a glacier. He talks.",
+      "sceneTitle": "Mer de Glace",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He tells you how he learned language from a cottage.",
+      "sceneTitle": "De Lacey Family",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He asks for a mate. A she-creature.",
+      "sceneTitle": "Demand",
+      "choices": [
+        {
+          "text": "Promise",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "An island. A second body, half-made.",
+      "sceneTitle": "Scotland",
+      "choices": [
+        {
+          "text": "Finish",
+          "consequence": "Vow.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Destroy it",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "He watches from a window. He vows revenge.",
+      "sceneTitle": "Destroy It",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Clerval, your dearest friend, on a beach.",
+      "sceneTitle": "Henry, Murdered",
+      "choices": [
+        {
+          "text": "Confess to the magistrate",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Pride.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You marry Elizabeth. You sleep, foolishly, in another room.",
+      "sceneTitle": "Wedding Night",
+      "choices": [
+        {
+          "text": "Watch her",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Trust the night",
+          "consequence": "Foolish.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He has taken her too.",
+      "sceneTitle": "Scream",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Path.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Your father dies of grief.",
+      "sceneTitle": "Father, Broken",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Set out",
+          "consequence": "Vow.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Sleds, dogs, ice forever.",
+      "sceneTitle": "Arctic",
+      "choices": [
+        {
+          "text": "Pursue",
+          "consequence": "Vow.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Turn back",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Captain Walton finds you on the ice.",
+      "sceneTitle": "Walton's Ship",
+      "choices": [
+        {
+          "text": "Tell him your story",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You ask Walton to finish what you started.",
+      "sceneTitle": "Dying",
+      "choices": [
+        {
+          "text": "Ask him to spare himself",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Ask him to kill the creature",
+          "consequence": "Anger.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You die.",
+      "sceneTitle": "Bed",
+      "choices": [
+        {
+          "text": "Hold his hand",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Look at the window",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He weeps over your body. He tells Walton his side.",
+      "sceneTitle": "The Creature Arrives",
+      "choices": [
+        {
+          "text": "Hear him through Walton",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He says he will burn himself. He leaves on a raft of ice.",
+      "sceneTitle": "The Pyre",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Doubt him",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Walton writes home. The ship turns south.",
+      "sceneTitle": "Walton's Letter",
+      "choices": [
+        {
+          "text": "Approve his turning",
+          "consequence": "Honor.",
+          "nextNodeId": "end_pyre"
+        },
+        {
+          "text": "Wish him on",
+          "consequence": "Foolish.",
+          "nextNodeId": "end_walton"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_creature"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_pyre",
+      "text": "He burns himself in the dark. Walton's ship turns home. You are buried at sea, or in ice, or in a story that gets told.",
+      "sceneTitle": "The Pyre",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Pyre"
+    },
+    {
+      "id": "end_walton",
+      "text": "Walton writes the story honestly. The letter, eventually, becomes the book. Sisters read it by lamps. Generations read it after.",
+      "sceneTitle": "Walton's Letter",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Walton's Letter"
+    },
+    {
+      "id": "end_creature",
+      "text": "Some say he lives still, on a far island, with cold seas around him. He writes, slowly, on stones, with charcoal. He is, in his way, also an author.",
+      "sceneTitle": "The Creature, Lost",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Creature, Lost"
+    }
+  ]
+}

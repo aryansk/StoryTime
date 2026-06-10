@@ -1,0 +1,452 @@
+{
+  "id": "invincible-cape-of-the-week",
+  "title": "Invincible",
+  "sourceTitle": "Invincible",
+  "kind": "show",
+  "synopsis": "You're the strongest person on Earth this week. The Viltrumites are watching, your father is back in your inbox, and you have an econ midterm at 9 a.m. Try not to bleed on the textbook.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-11T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "superhero",
+    "family",
+    "consequences"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your phone explodes — a literal explosion, in the next county; figuratively, your phone — and your professor reminds you the midterm is at nine. You're wearing flannel pants and have a black eye from yesterday.",
+      "sceneTitle": "Tuesday, 8:14 a.m.",
+      "choices": [
+        {
+          "text": "Take the call and skip the test",
+          "consequence": "Earth first, GPA later.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Try to do both somehow",
+          "consequence": "Optimism is a kind of strategy.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "It's a familiar villain — Titan, who hates his name — robbing a federal vault for what he insists are honest reasons. A man yells at him about labor rights. The vault yells back electronically.",
+      "sceneTitle": "The Explosion",
+      "choices": [
+        {
+          "text": "Knock Titan out fast and clean",
+          "consequence": "Speed reduces collateral.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Talk to Titan first",
+          "consequence": "Some villains are also problems.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You're a hundred feet up reading econ notes off your phone. A pigeon hits you in the face. The notes get worse from here.",
+      "sceneTitle": "Mid-Air Studying",
+      "choices": [
+        {
+          "text": "Fly to campus first",
+          "consequence": "Take the test, then save the city.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tutor yourself by saving someone who knows econ",
+          "consequence": "Multi-task heroically.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your girlfriend Eve is on the line, in her own crisis — a refugee camp under threat from a warlord whose helicopters her energy fields can't politely stop forever. She wants backup, not advice.",
+      "sceneTitle": "Eve, Calling",
+      "choices": [
+        {
+          "text": "Promise her you'll be there in twenty minutes",
+          "consequence": "Honor the relationship first.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Send the Guardians instead",
+          "consequence": "Triage is a love language.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Mom: 'Dinner Sunday. Please. Your sister is asking. PS your Dad emailed me again.' The Dad in question is Nolan, who once tried to kill you, who lives, when he lives, off-planet.",
+      "sceneTitle": "Mom, Texting",
+      "choices": [
+        {
+          "text": "Reply 'I'll be there'",
+          "consequence": "Family first, family always.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Delete the email-about-Dad screenshot before reading",
+          "consequence": "Some emotional triage is preemptive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You arrive with Eve as four helicopters lift off. She is exhausted and brilliant. The warlord is shouting demands; the camp's elder is, somehow, also shouting demands at the warlord. You have ninety seconds.",
+      "sceneTitle": "The Refugee Camp",
+      "choices": [
+        {
+          "text": "Disable the helicopters non-lethally",
+          "consequence": "Restraint is a discipline.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take the warlord directly and remove him",
+          "consequence": "Solve the problem, not the helicopters.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Robot, ever-tense, calls back. Two of the Guardians are out on Mars-related business. The team is thin. He suggests you 'prioritize ruthlessly.' He always says that. You always hate it.",
+      "sceneTitle": "The Guardians",
+      "choices": [
+        {
+          "text": "Send Robot to Eve, you take the vault",
+          "consequence": "Trade routes that fit each strength.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Send Robot to the vault, you take Eve",
+          "consequence": "Personal over professional.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Cecil from the GDA grabs your comm. 'Viltrumite ship just blinked into orbit,' he says. 'It hasn't done anything yet.' He pauses, in the way Cecil pauses. 'Mark, your father may be on it.'",
+      "sceneTitle": "Cecil's Call",
+      "choices": [
+        {
+          "text": "Fly to orbit immediately",
+          "consequence": "Find out who's coming.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay grounded until you know more",
+          "consequence": "Don't pop the bubble until you have to.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your ex Amber appears outside the lecture hall with two coffees and a small kind smile. 'I heard about Tuesday,' she says. 'I just wanted to make sure you're still here.' It's the kindest sentence anyone has said this week.",
+      "sceneTitle": "Amber, Coffee",
+      "choices": [
+        {
+          "text": "Take the coffee and be honest about everything",
+          "consequence": "Decency to your past selves.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Smile, thank her, and keep moving",
+          "consequence": "Boundaries are also love.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The Viltrumite ship hangs over Earth like a quiet threat. The hatch opens. It is not your father. It is Lucan, a Viltrumite governor with the smile of a person who has never been told no on a planetary scale.",
+      "sceneTitle": "Orbit",
+      "choices": [
+        {
+          "text": "Pretend to negotiate",
+          "consequence": "Buy minutes.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hit him first",
+          "consequence": "Speed is sometimes courtesy.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You make it to Sunday dinner late, bruised, in time for dessert. Your little sister hugs your leg and refuses to let go. Mom, calmly, asks if you ate. Family is a planet with its own gravity.",
+      "sceneTitle": "Mom and the Sister",
+      "choices": [
+        {
+          "text": "Tell Mom everything about Nolan",
+          "consequence": "Don't carry her in the dark.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Eat the pie and say nothing",
+          "consequence": "Some weeks, dinner is the win.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Nolan finally drops you an encrypted note: he's hiding from Viltrum on a backwater world. He needs you to come retrieve a device he stole from Lucan. The device might save Earth. It might also be a test. With Nolan, it's always both.",
+      "sceneTitle": "Nolan, Probably",
+      "choices": [
+        {
+          "text": "Go fetch the device",
+          "consequence": "Risk one trip for a planet.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Refuse and force him to come to you",
+          "consequence": "Set your own terms.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A villain you haven't seen in two seasons rampages through midtown for reasons he refuses to explain. He is, frankly, having a bad mental-health day. You can tell.",
+      "sceneTitle": "Damien, Anvil-Brained",
+      "choices": [
+        {
+          "text": "Talk him down",
+          "consequence": "Even punching has limits.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take him to Dr. Singh — the doctor, not the experiment",
+          "consequence": "Better tools than fists.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Allen the Alien drops in for tacos and bad news. The Coalition of Planets is, again, asking Earth to take a side. Eve, beside you, is too tired to roll her eyes. Allen has, somehow, brought salsa.",
+      "sceneTitle": "Allen",
+      "choices": [
+        {
+          "text": "Say yes to the Coalition formally",
+          "consequence": "Pick a side before sides pick you.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hold out for a better deal",
+          "consequence": "Diplomacy is also leverage.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Eve sits down on the curb and admits, quietly, that she doesn't know if she wants to be Atom Eve anymore. The world is loud, the work doesn't end, and her energy doesn't recharge as fast as it used to.",
+      "sceneTitle": "Atom Eve, Tired",
+      "choices": [
+        {
+          "text": "Tell her you'll take her shift",
+          "consequence": "Carry her for a beat.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Tell her she should rest as long as she needs",
+          "consequence": "Real care includes time off.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Lucan comes back with a fleet. He does not, in the conventional sense, ask permission. He addresses the planet through every TV and phone at once and announces a 'transition.' Cecil curses fluently for thirty seconds.",
+      "sceneTitle": "Lucan, Returning",
+      "choices": [
+        {
+          "text": "Take the fight to him in orbit",
+          "consequence": "Where his power is loudest, his ego is loudest too.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Trap him on the ground with friends",
+          "consequence": "Numbers level the strength gap.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Late at night you write, in a notebook nobody else will read, a list of who you owe an apology to, an explanation to, a sandwich to. The list is long. You go to bed planning to start at the top in the morning.",
+      "sceneTitle": "Mark, Honest",
+      "choices": [
+        {
+          "text": "Start with Eve in the morning",
+          "consequence": "Love first.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Start with Amber in the morning",
+          "consequence": "Tie up the past gently.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A skyscraper folds slowly under your back. Lucan smiles even as you punch him. He does not, you realize, want to win this fight. He wants to teach you what 'losing' costs.",
+      "sceneTitle": "The Big Fight",
+      "choices": [
+        {
+          "text": "Refuse to play that lesson",
+          "consequence": "Defy the curriculum.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take the hit so he overextends",
+          "consequence": "Old technique, new villain.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You and Robot and Eve and three reformed-ish villains pin Lucan in a containment field of Robot's design while Cecil's people negotiate. Nobody dies today. It is, almost, anticlimactic. It is, almost, a miracle.",
+      "sceneTitle": "The Quiet Win",
+      "choices": [
+        {
+          "text": "Bask in the quiet for a beat",
+          "consequence": "Quiet is allowed.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Pivot immediately to the next problem",
+          "consequence": "There is always a next problem.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Mid-fight or mid-quiet, depending, your father lands. He is older. He is, apparently, on your side this time. He doesn't apologize. He never does. He helps, and that, this time, is enough.",
+      "sceneTitle": "Nolan, Showing Up",
+      "choices": [
+        {
+          "text": "Let him stay for dinner with Mom",
+          "consequence": "Healing happens at tables.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Tell him to go after the fight",
+          "consequence": "Forgiveness is not amnesia.",
+          "nextNodeId": "end_boundary"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Months later, somehow, you graduate college. Your mom cries. Eve is in the audience. Cecil is in the audience and pretending he isn't. Your name is read off a list. The list does not say Invincible.",
+      "sceneTitle": "Graduation",
+      "choices": [
+        {
+          "text": "Take the photo as Mark",
+          "consequence": "Be a person for a day.",
+          "nextNodeId": "end_human"
+        },
+        {
+          "text": "Skip the photo and patrol",
+          "consequence": "There's always something to do.",
+          "nextNodeId": "end_duty"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "Nolan, terribly, attends Sunday dinner. Your sister stares. Mom is courteous. You learn that 'family' is a verb you do under fluorescents with too many plates. It is messy. It is yours. You like it.",
+      "sceneTitle": "Sunday Dinner",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sunday Dinner"
+    },
+    {
+      "id": "end_boundary",
+      "text": "You tell Nolan he can help the world and stay out of your house. He nods, almost proud. You sleep, for the first time in weeks, without dreaming of him. Some boundaries are kindnesses to yourself.",
+      "sceneTitle": "The Line You Draw",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Line You Draw"
+    },
+    {
+      "id": "end_human",
+      "text": "You become someone the news doesn't always know about. You take Eve to brunch on Saturdays. You teach your sister to ride a bike. You still save the world. You also live in it.",
+      "sceneTitle": "Mark",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Mark"
+    },
+    {
+      "id": "end_duty",
+      "text": "You patrol, you train, you keep watch. It is who you are. It costs you some birthdays. You are okay with that, mostly. Eve is, mostly, okay with that. 'Mostly' is, in this line of work, a long marriage.",
+      "sceneTitle": "Invincible, Always",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Invincible, Always"
+    }
+  ]
+}

@@ -1,0 +1,430 @@
+{
+  "id": "off-campus-the-fall",
+  "title": "Off Campus",
+  "sourceTitle": "Off Campus",
+  "kind": "show",
+  "synopsis": "Junior year. A hockey scholarship. A part-time job. A roommate situation that is, depending on the day, a romance. You have eighteen credits and one heart. Choose what to spend them on.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-14T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "college",
+    "romance",
+    "sport"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The off-campus house is bigger and dustier than the brochure suggested. Your three teammates haul a couch. Your maybe-girlfriend Hannah arrives, surprising everyone but you, with a houseplant.",
+      "sceneTitle": "Move-In",
+      "choices": [
+        {
+          "text": "Help her find a spot for the plant",
+          "consequence": "Small choice.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Keep helping with the couch",
+          "consequence": "Big choice.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Hannah and you wander the bookstore together. She buys a course pack. You buy a coffee. She holds your hand on the walk back like you've been together for a year. You haven't.",
+      "sceneTitle": "Bookstore",
+      "choices": [
+        {
+          "text": "Talk about what 'this' is",
+          "consequence": "Define.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't talk about it; let it be",
+          "consequence": "Float.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Coach picks the captain on Friday. You are runner-up. Garrett, who deserves it, gets it. You realize you are equal parts relieved and disappointed, which is the most honest you've felt about hockey in a year.",
+      "sceneTitle": "The Captain",
+      "choices": [
+        {
+          "text": "Be visibly happy for Garrett",
+          "consequence": "Sportsmanship.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Let yourself feel disappointed privately",
+          "consequence": "Honesty.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your part-time job at the campus bar starts. Tips are okay. The shift is until 2. Hockey practice is at 6 a.m. You realize you've signed up for, in the old phrase, the eighteen-hour day.",
+      "sceneTitle": "The Job",
+      "choices": [
+        {
+          "text": "Drop a class to balance",
+          "consequence": "Triage.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Push through; you can sleep in December",
+          "consequence": "Grit.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Hannah's parents visit campus for a weekend. They invite you to dinner. You realize you are now, suddenly, in 'meet the parents' territory. They are nice. Her dad asks you about hockey statistics.",
+      "sceneTitle": "Hannah's Parents",
+      "choices": [
+        {
+          "text": "Be honest about your stats",
+          "consequence": "Plain.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be honest about your major",
+          "consequence": "Pivot.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Three exams in a week. Your professor sees you fall asleep in lecture. He, kindly, does not call you out. He, kindly, also schedules you for office hours.",
+      "sceneTitle": "Midterms",
+      "choices": [
+        {
+          "text": "Go to office hours",
+          "consequence": "Receive help.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Skip; sleep instead",
+          "consequence": "Body first.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A weekend tournament in Maine. You play well. Hannah cannot come. You text her between games. She is, you can tell, slightly bored of being texted between games.",
+      "sceneTitle": "The Tournament",
+      "choices": [
+        {
+          "text": "Call her after the late game",
+          "consequence": "Make the effort.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Sleep; she'll understand",
+          "consequence": "Trust the relationship.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Garrett, the captain, is in a slump. Coach is on him. He, off-ice, doesn't talk to anyone. You realize captain isn't, mostly, a prize. It is a weight.",
+      "sceneTitle": "Garrett's Bad Stretch",
+      "choices": [
+        {
+          "text": "Talk to Garrett one-on-one",
+          "consequence": "Be the teammate.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Let him have his space",
+          "consequence": "Respect.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Hannah's friend Maya tells you, gently and without saying so directly, that Hannah is tired of being the one who initiates. You realize this is true. You realize you are also, possibly, the one who is tired.",
+      "sceneTitle": "Hannah's Friend",
+      "choices": [
+        {
+          "text": "Initiate something thoughtful this week",
+          "consequence": "Repair.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Have a real conversation about it",
+          "consequence": "Address.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Coach calls you in. He wants to talk about whether you want hockey to be your life after graduation. He is honest about your ceiling. You realize you are honest with yourself for the first time about it too.",
+      "sceneTitle": "Coach's Office",
+      "choices": [
+        {
+          "text": "Decide hockey is for college and beyond",
+          "consequence": "Bet on it.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Decide hockey is for college, period",
+          "consequence": "Plan for after.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You sit on the porch with Hannah. The conversation is not perfect. The conversation is real. By the end you both know what the next month will be — and it is, surprisingly, more 'us' than you'd been managing.",
+      "sceneTitle": "The Conversation",
+      "choices": [
+        {
+          "text": "Reset the relationship on purpose",
+          "consequence": "Refresh.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take it week by week",
+          "consequence": "Trial.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Three finals. Two late shifts at the bar. One playoff game. You sleep, total, twelve hours. You survive the week and your roommate hands you a beer at midnight on Friday. It is, briefly, the best beer of your life.",
+      "sceneTitle": "Finals",
+      "choices": [
+        {
+          "text": "Go home for the break",
+          "consequence": "Family.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay in town with Hannah",
+          "consequence": "Stay.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You go to the career fair in a borrowed blazer. You hand out résumés. You realize the future is, against expectations, available. You also realize most of the recruiters at this fair are looking at hockey players for, of all things, sales.",
+      "sceneTitle": "Career Fair",
+      "choices": [
+        {
+          "text": "Talk to a tech company that interests you",
+          "consequence": "Aim.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Talk to the kind sales recruiter",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Spring is gentler. You drop a class. You take a writing class instead. The writing class is, embarrassingly, the best class you have taken in college.",
+      "sceneTitle": "Spring Semester",
+      "choices": [
+        {
+          "text": "Pivot toward writing",
+          "consequence": "Discover.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay your major",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "End of the year. Captains for next season are voted on. Your name is on the list. So is Garrett's, again. You realize you might, this time, want it.",
+      "sceneTitle": "Senior Captain Vote",
+      "choices": [
+        {
+          "text": "Accept the nomination",
+          "consequence": "Lead.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Decline and support Garrett",
+          "consequence": "Servant leader.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Senior year arrives. You are captain or you aren't. You and Hannah are still, somehow, together. Your professor invites you to TA the intro writing course. The houseplant is huge.",
+      "sceneTitle": "Senior Year",
+      "choices": [
+        {
+          "text": "Take the TA job",
+          "consequence": "Build the after.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Focus only on hockey and Hannah",
+          "consequence": "Live the season.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Cap and gown. Your family in the bleachers. Hannah ahead of you in line. Garrett behind you. Coach watching from the side. You realize, for one second, that this is the moment you'll think about when life is hard later.",
+      "sceneTitle": "Graduation Day",
+      "choices": [
+        {
+          "text": "Take a mental photo to keep forever",
+          "consequence": "Save it.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Plan a road trip with Hannah for the summer",
+          "consequence": "Forward.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Senior night. The rink lights, the parents standing, your name read over the PA. You realize this might be the last time you skate in front of people who came because of you.",
+      "sceneTitle": "The Last Home Game",
+      "choices": [
+        {
+          "text": "Take it in fully",
+          "consequence": "Be present.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Play it like every other game",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "After graduation Hannah and you walk through a small apartment near the city. The kitchen tiles are ugly. The window has good light. You decide together what the year after college looks like.",
+      "sceneTitle": "The Apartment Lease",
+      "choices": [
+        {
+          "text": "Sign the lease",
+          "consequence": "Commit.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Wait six months and travel first",
+          "consequence": "Open.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "First real Monday after college. The world is, finally, not a syllabus. You sit on a porch and look at it. You decide which version of your life starts now.",
+      "sceneTitle": "First Real Monday",
+      "choices": [
+        {
+          "text": "Build the after",
+          "consequence": "Career on.",
+          "nextNodeId": "end_after"
+        },
+        {
+          "text": "Stay present for now",
+          "consequence": "Lean in.",
+          "nextNodeId": "end_present"
+        },
+        {
+          "text": "Take the road trip first",
+          "consequence": "Drive west.",
+          "nextNodeId": "end_road"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_after",
+      "text": "You finish college with options. You take a job that lets you write. Hockey becomes a Saturday morning thing. Hannah, who matured into being your favorite person, ends up at the same magazine for a year. You build the after on purpose.",
+      "sceneTitle": "After College",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "After College"
+    },
+    {
+      "id": "end_present",
+      "text": "Years later, on a long Saturday, you'll remember this day clearly — the bleachers, the lake, the friends. You'll be sitting on a porch with kids running around. You'll feel, briefly, the way you felt at twenty-one. You'll be grateful.",
+      "sceneTitle": "The Long Saturday",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Saturday"
+    },
+    {
+      "id": "end_road",
+      "text": "Hannah and you drive across the country in a beat-up car. You stop in towns you can't pronounce. You eat at diners. You take a photo at every state border. The photos live in a shoebox you never quite organize. You don't need to.",
+      "sceneTitle": "Summer Road Trip",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Summer Road Trip"
+    }
+  ]
+}

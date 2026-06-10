@@ -1,0 +1,449 @@
+{
+  "id": "fb-mockingbird",
+  "title": "To Kill a Mockingbird",
+  "sourceTitle": "To Kill a Mockingbird",
+  "kind": "book",
+  "synopsis": "Maycomb, Alabama, summer. You are Scout. Your father, Atticus, will be defending a Black man no Maycomb jury wants acquitted. Don't shoot a mockingbird.",
+  "releaseYear": 1960,
+  "addedAt": "2026-02-27T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "south",
+    "justice",
+    "childhood"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Jem, Dill, the tire swing. You run barefoot.",
+      "sceneTitle": "Summer",
+      "choices": [
+        {
+          "text": "Play",
+          "consequence": "Joy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Watch the street",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Dare him out, Jem says. The house is closed up.",
+      "sceneTitle": "Boo Radley",
+      "choices": [
+        {
+          "text": "Touch the door",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay on the sidewalk",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "She corrects you. She loves you. She is, you realize, the household's spine.",
+      "sceneTitle": "Calpurnia",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Push back",
+          "consequence": "Spirit.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Miss Caroline tells you not to read. You stop.",
+      "sceneTitle": "First Day",
+      "choices": [
+        {
+          "text": "Comply",
+          "consequence": "Survive.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Spirit.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He stands up. He sits down. He tells you to climb into someone's skin.",
+      "sceneTitle": "Atticus",
+      "choices": [
+        {
+          "text": "Climb in",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A man accused. Atticus accepts the case.",
+      "sceneTitle": "Tom Robinson",
+      "choices": [
+        {
+          "text": "Be proud",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Be scared",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A crowd. Atticus reads under a lamp. You step out.",
+      "sceneTitle": "Jail at Night",
+      "choices": [
+        {
+          "text": "Talk to Mr. Cunningham",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay hidden",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The colored balcony. Reverend Sykes makes room.",
+      "sceneTitle": "Trial Day",
+      "choices": [
+        {
+          "text": "Sit there",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Sit on the lawn",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Atticus, gentle, takes apart Mayella's story.",
+      "sceneTitle": "Cross-Examination",
+      "choices": [
+        {
+          "text": "Watch carefully",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "He says he felt sorry for her. The courtroom shifts.",
+      "sceneTitle": "Tom's Testimony",
+      "choices": [
+        {
+          "text": "Note the moment",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hold breath",
+          "consequence": "Witness.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Atticus speaks of equality. The room is silent.",
+      "sceneTitle": "Closing",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Sit",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Guilty.",
+      "sceneTitle": "Verdict",
+      "choices": [
+        {
+          "text": "Don't cry in the balcony",
+          "consequence": "Discipline.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "She tells you a lady doesn't act like that.",
+      "sceneTitle": "Aunt Alexandra",
+      "choices": [
+        {
+          "text": "Hold the line",
+          "consequence": "Spirit.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Concede",
+          "consequence": "Civil.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Tom is shot. The town is, for a moment, ashamed.",
+      "sceneTitle": "Tom Tries to Run",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hate",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You are a ham. The school is dark.",
+      "sceneTitle": "Halloween Pageant",
+      "choices": [
+        {
+          "text": "Wear it",
+          "consequence": "Joy.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Refuse it",
+          "consequence": "Pride.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Footsteps behind. Bob Ewell.",
+      "sceneTitle": "Walking Home",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Freeze",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A man you don't see carries Jem home.",
+      "sceneTitle": "Saved",
+      "choices": [
+        {
+          "text": "Sit with Jem",
+          "consequence": "Care.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Find the man",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Boo Radley, finally, in your house. White skin, soft voice.",
+      "sceneTitle": "Behind the Door",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stare",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You walk Boo home. You stand on his porch and look at the street through his eyes.",
+      "sceneTitle": "The Porch",
+      "choices": [
+        {
+          "text": "Look long",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Look briefly",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He reads to Jem. He stays.",
+      "sceneTitle": "Atticus, Tucking In",
+      "choices": [
+        {
+          "text": "Sleep",
+          "consequence": "Safe.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You grow up. Maycomb does, slowly, change. The county school, eventually, is a different building.",
+      "sceneTitle": "Years On",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Roots.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Forward.",
+          "nextNodeId": "end_law"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_porch"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_writer",
+      "text": "You become a writer. You publish a small careful book about a town you loved and didn't. The book becomes the way many people learn what you learned.",
+      "sceneTitle": "Writer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Writer"
+    },
+    {
+      "id": "end_law",
+      "text": "You become a lawyer. You take, eventually, your father's office. The desk is the same. The work is harder than he made it look.",
+      "sceneTitle": "Law",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Law"
+    },
+    {
+      "id": "end_porch",
+      "text": "You stay in Maycomb. You teach school. You sit, sometimes, on Boo's old porch. The town heals slowly. So do you.",
+      "sceneTitle": "Porch",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Porch"
+    }
+  ]
+}

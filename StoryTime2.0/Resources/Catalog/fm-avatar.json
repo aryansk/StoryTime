@@ -1,0 +1,449 @@
+{
+  "id": "fm-avatar",
+  "title": "Avatar",
+  "sourceTitle": "Avatar",
+  "kind": "movie",
+  "synopsis": "Pandora. Floating mountains, glowing forests, a tree as old as your grandmother. You're a marine in a Na'vi body. You're supposed to be spying. You're starting to fall in love.",
+  "releaseYear": 2009,
+  "addedAt": "2026-03-14T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "pandora",
+    "ecology",
+    "war"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your brother is dead. You are in his body's contract.",
+      "sceneTitle": "Cryosleep",
+      "choices": [
+        {
+          "text": "Take the job",
+          "consequence": "Brother.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Negotiate",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Mining base, mechs, AMP suits. Selfridge wants ore.",
+      "sceneTitle": "Hell's Gate",
+      "choices": [
+        {
+          "text": "Listen to Selfridge",
+          "consequence": "Job.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Listen to Grace",
+          "consequence": "Science.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You wake in a Na'vi body. You run on grass.",
+      "sceneTitle": "First Link",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Joy.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Things glow. Things growl. Then a creature attacks.",
+      "sceneTitle": "Lost in the Forest",
+      "choices": [
+        {
+          "text": "Climb",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "She saves you. She is, briefly, angry.",
+      "sceneTitle": "Neytiri",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Humble.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Apologize fast",
+          "consequence": "Civil.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Branches the size of streets. Eytukan. Mo'at.",
+      "sceneTitle": "Hometree",
+      "choices": [
+        {
+          "text": "Be respectful",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Ask many questions",
+          "consequence": "Curious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Neytiri teaches. You ride a banshee. You make a bond.",
+      "sceneTitle": "Initiation",
+      "choices": [
+        {
+          "text": "Trust the bond",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Quaritch wants intel on the tree. He wants a way in.",
+      "sceneTitle": "Reporting In",
+      "choices": [
+        {
+          "text": "Stall",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Cooperate",
+          "consequence": "Job.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You see the tree of voices. The wind speaks ancestors.",
+      "sceneTitle": "Eywa",
+      "choices": [
+        {
+          "text": "Believe",
+          "consequence": "Path.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You take a mate. Neytiri chooses you.",
+      "sceneTitle": "Becoming",
+      "choices": [
+        {
+          "text": "Choose her back",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay torn",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Earthmovers tear up sacred ground.",
+      "sceneTitle": "Bulldozers",
+      "choices": [
+        {
+          "text": "Stop them",
+          "consequence": "Vow.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Report it",
+          "consequence": "Process.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Quaritch shows your video log. The Na'vi see you for the spy you were.",
+      "sceneTitle": "Exposure",
+      "choices": [
+        {
+          "text": "Confess",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Defend",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The tree, ancient, comes down.",
+      "sceneTitle": "Hometree Falls",
+      "choices": [
+        {
+          "text": "Carry survivors",
+          "consequence": "Save.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Fight back now",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Neytiri turns away. Eytukan dies. You stand in the smoke.",
+      "sceneTitle": "Disowned",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Path.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You climb. You bond with the biggest banshee. You return as legend.",
+      "sceneTitle": "Toruk",
+      "choices": [
+        {
+          "text": "Use the legend",
+          "consequence": "Strategy.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Earn it slowly",
+          "consequence": "Humble.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You ride to all the clans. They come.",
+      "sceneTitle": "Tribes Unite",
+      "choices": [
+        {
+          "text": "Lead",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Follow Neytiri",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Sky people, missiles, mechs. Animals you didn't know about charge.",
+      "sceneTitle": "Battle",
+      "choices": [
+        {
+          "text": "Trust Eywa",
+          "consequence": "Faith.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Trust strategy",
+          "consequence": "Brain.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Mech vs. avatar. Neytiri saves you.",
+      "sceneTitle": "Quaritch",
+      "choices": [
+        {
+          "text": "Save her back",
+          "consequence": "Vow.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Pursue Quaritch",
+          "consequence": "Vow.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Your human body is starving in the chamber. You have minutes.",
+      "sceneTitle": "Your Body",
+      "choices": [
+        {
+          "text": "Make the transfer",
+          "consequence": "Path.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Mo'at and the tribe gather. You pass through the eye of Eywa.",
+      "sceneTitle": "Ceremony",
+      "choices": [
+        {
+          "text": "Open your eyes Na'vi",
+          "consequence": "New.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold on to the old self",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You wake as Na'vi for good. Neytiri's hand finds yours.",
+      "sceneTitle": "New Life",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Path.",
+          "nextNodeId": "end_navi"
+        },
+        {
+          "text": "Build the bridge to humans",
+          "consequence": "Hope.",
+          "nextNodeId": "end_bridge"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_eywa"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_navi",
+      "text": "You and Neytiri lead a generation. You hold the sky people back. You teach your children both languages. They prefer the older one.",
+      "sceneTitle": "Olo'eyktan",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Olo'eyktan"
+    },
+    {
+      "id": "end_bridge",
+      "text": "You broker, slowly, a peace between Pandora and a chastened RDA. The mining shrinks. The science stays. Grace, before she died, would have laughed.",
+      "sceneTitle": "Bridge Between Worlds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Bridge Between Worlds"
+    },
+    {
+      "id": "end_eywa",
+      "text": "Eventually you die. Your consciousness joins the network of the tree. Children, walking the forest, hear your voice in the wind. They take it for granted, the way you would have, once.",
+      "sceneTitle": "Inside Eywa",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Inside Eywa"
+    }
+  ]
+}

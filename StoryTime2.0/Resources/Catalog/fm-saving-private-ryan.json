@@ -1,0 +1,449 @@
+{
+  "id": "fm-saving-private-ryan",
+  "title": "Saving Private Ryan",
+  "sourceTitle": "Saving Private Ryan",
+  "kind": "movie",
+  "synopsis": "Omaha Beach, June 6, 1944. The ramp goes down. By the next week you're crossing France for one man whose brothers all died. Earn this.",
+  "releaseYear": 1998,
+  "addedAt": "2026-03-07T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "war",
+    "rescue",
+    "WWII"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Spray, vomit, prayer. The ramp goes down.",
+      "sceneTitle": "The Boat",
+      "choices": [
+        {
+          "text": "Lead off",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go side",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Water, blood, sand. The seawall ahead.",
+      "sceneTitle": "Beach",
+      "choices": [
+        {
+          "text": "Crawl up",
+          "consequence": "Survive.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stand and run",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Captain Miller's hand shakes. Orders are quiet.",
+      "sceneTitle": "Seawall",
+      "choices": [
+        {
+          "text": "Steady the men",
+          "consequence": "Lead.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Bangalore. The wall breaches. The pillbox falls.",
+      "sceneTitle": "Pillbox",
+      "choices": [
+        {
+          "text": "Take prisoners",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Take none",
+          "consequence": "Cold.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Find Ryan. One of four brothers. Three are dead.",
+      "sceneTitle": "Orders",
+      "choices": [
+        {
+          "text": "Argue the order",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take it",
+          "consequence": "Soldier.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Reiben, Mellish, Caparzo, Wade, Jackson, Upham, Horvath.",
+      "sceneTitle": "Squad",
+      "choices": [
+        {
+          "text": "Brief them",
+          "consequence": "Lead.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Let Miller",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Sniper. A child handed across rubble.",
+      "sceneTitle": "French Town",
+      "choices": [
+        {
+          "text": "Save the child",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Press on",
+          "consequence": "Mission.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Sniper takes Caparzo. Jackson takes the sniper.",
+      "sceneTitle": "Caparzo",
+      "choices": [
+        {
+          "text": "Mourn briefly",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hate the sniper",
+          "consequence": "Anger.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A pinned squadron. A choice to engage or skirt.",
+      "sceneTitle": "Radio Tower",
+      "choices": [
+        {
+          "text": "Engage",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Skirt",
+          "consequence": "Mission.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You take it. Wade is killed in the assault.",
+      "sceneTitle": "Machine Gun Nest",
+      "choices": [
+        {
+          "text": "Spare the German",
+          "consequence": "Mercy.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Anger.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Wade is dead. The German shovels. Reiben wants him shot.",
+      "sceneTitle": "Steamboat Willie",
+      "choices": [
+        {
+          "text": "Release him",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Shoot him",
+          "consequence": "Anger.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Reiben refuses to march. The squad almost shatters.",
+      "sceneTitle": "Reiben",
+      "choices": [
+        {
+          "text": "Hold them together",
+          "consequence": "Lead.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let Reiben go",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Miller's hand shakes. He cries. The squad doesn't see.",
+      "sceneTitle": "Captain's Hand",
+      "choices": [
+        {
+          "text": "See him",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Discipline.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Ryan, alive, won't leave his men. The bridge must be held.",
+      "sceneTitle": "Ryan Found",
+      "choices": [
+        {
+          "text": "Help hold it",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Carry him out",
+          "consequence": "Mission.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Cover, sticky bombs, ambush, fallback to alamo.",
+      "sceneTitle": "Plan",
+      "choices": [
+        {
+          "text": "Run the plan",
+          "consequence": "Discipline.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Improvise",
+          "consequence": "Speed.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "They arrive. The bombs work imperfectly.",
+      "sceneTitle": "Tiger Tanks",
+      "choices": [
+        {
+          "text": "Hold",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Fall back",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "House by house. Mellish dies in a knife fight upstairs.",
+      "sceneTitle": "Mellish",
+      "choices": [
+        {
+          "text": "Push to him",
+          "consequence": "Brother.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Cover",
+          "consequence": "Mission.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Upham freezes on the stairs. He does nothing.",
+      "sceneTitle": "Upham",
+      "choices": [
+        {
+          "text": "Forgive him later",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Hate him later",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Captain Miller is hit at the bridge. He shoots a tank with a pistol. The P-51s arrive.",
+      "sceneTitle": "Miller",
+      "choices": [
+        {
+          "text": "Hold his hand",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Press on",
+          "consequence": "Mission.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Earn this, he says. He dies.",
+      "sceneTitle": "Last Words",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Be silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Years later you stand at the cross. Your family behind you.",
+      "sceneTitle": "Old Man at the Grave",
+      "choices": [
+        {
+          "text": "Ask your wife if you've been a good man",
+          "consequence": "Honor.",
+          "nextNodeId": "end_earned"
+        },
+        {
+          "text": "Salute and walk",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_teacher"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_silence"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_earned",
+      "text": "You live a life worth earning. You marry kindly, work hard, raise children who do good. You never say much about the war. They know anyway.",
+      "sceneTitle": "Earn This",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Earn This"
+    },
+    {
+      "id": "end_teacher",
+      "text": "You teach high school history for decades. You don't bring up Normandy. The kids find it in books. They come to your desk after class. You answer carefully.",
+      "sceneTitle": "Teaching",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Teaching"
+    },
+    {
+      "id": "end_silence",
+      "text": "You don't talk about it. Your wife knows. Your children, eventually, know. Your grandchildren learn the soft version. The truth is, somehow, both.",
+      "sceneTitle": "The Silence",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Silence"
+    }
+  ]
+}

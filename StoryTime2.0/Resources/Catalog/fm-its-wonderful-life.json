@@ -1,0 +1,450 @@
+{
+  "id": "fm-its-wonderful-life",
+  "title": "It's a Wonderful Life",
+  "sourceTitle": "It's a Wonderful Life",
+  "kind": "movie",
+  "synopsis": "A small-town banker on a bridge, an angel earning his wings, and a Christmas Eve that becomes a ledger of every kindness you forgot doing.",
+  "releaseYear": 1946,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "holiday",
+    "angel",
+    "small-town",
+    "second-chance"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Mr. Gower has a telegram in one hand and gin on his breath.",
+      "sceneTitle": "Drug Store, 1919",
+      "choices": [
+        {
+          "text": "Hold the capsules",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Deliver them",
+          "consequence": "Loyal.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A waxed gym floor that opens onto a pool.",
+      "sceneTitle": "Charleston at the Dance Floor",
+      "choices": [
+        {
+          "text": "Lean back",
+          "consequence": "Reckless.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Catch the falling girl",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "She would, if you would, lasso it.",
+      "sceneTitle": "Moon for Mary",
+      "choices": [
+        {
+          "text": "Lasso",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Laugh it off",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A father on the floor of an office that is not yours, yet.",
+      "sceneTitle": "Pop's Stroke",
+      "choices": [
+        {
+          "text": "Take the desk",
+          "consequence": "Duty.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your brother home from college with a bride and a new job.",
+      "sceneTitle": "Harry's Wedding",
+      "choices": [
+        {
+          "text": "Hold the news",
+          "consequence": "Care.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Tell him",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A line at the counter and four thousand dollars total in the drawer.",
+      "sceneTitle": "Building and Loan Run",
+      "choices": [
+        {
+          "text": "Speak to them",
+          "consequence": "Hope.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Close the doors",
+          "consequence": "Cold.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Two thousand dollars for the company instead of a train.",
+      "sceneTitle": "Honeymoon Money",
+      "choices": [
+        {
+          "text": "Spend it",
+          "consequence": "Care.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Keep it",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Plain houses on plain streets, owned by people who lived in slums.",
+      "sceneTitle": "Bailey Park",
+      "choices": [
+        {
+          "text": "Tour them through",
+          "consequence": "Pride.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Stay at the desk",
+          "consequence": "Tired.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Twenty thousand a year and a cigar.",
+      "sceneTitle": "Potter's Office",
+      "choices": [
+        {
+          "text": "Refuse the cigar",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take the offer",
+          "consequence": "Tempted.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Old Mr. Gower in a Christmas line, embracing you in front of strangers.",
+      "sceneTitle": "Pharmacy Return",
+      "choices": [
+        {
+          "text": "Embrace him",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Brush past",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She gives you her flower; you tuck the petals into your watch pocket.",
+      "sceneTitle": "Zuzu's Petals",
+      "choices": [
+        {
+          "text": "Promise to fix it",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Tired.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The eight thousand dollars in a newspaper a banker leaves on a counter.",
+      "sceneTitle": "Uncle Billy's Bundle",
+      "choices": [
+        {
+          "text": "Search the streets",
+          "consequence": "Frantic.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Calm yourself",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He smells the panic and offers a noose.",
+      "sceneTitle": "Potter Across the Desk",
+      "choices": [
+        {
+          "text": "Beg",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Snapping at the children for being children.",
+      "sceneTitle": "Bedroom, Late",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Storm out",
+          "consequence": "Cold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Snow on the rail, a long dark river below.",
+      "sceneTitle": "Bridge",
+      "choices": [
+        {
+          "text": "Climb up",
+          "consequence": "Lost.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Hope.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "An old man in dripping clothes, a book under his arm.",
+      "sceneTitle": "Clarence",
+      "choices": [
+        {
+          "text": "Help him",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wish yourself away",
+          "consequence": "Lost.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Neon and dance halls and a wife who does not know you.",
+      "sceneTitle": "Pottersville",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Frightened.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Look closer",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Twenty years for the capsules you did not hold back.",
+      "sceneTitle": "Mr. Gower in the Gutter",
+      "choices": [
+        {
+          "text": "Lift him up",
+          "consequence": "Mercy.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Nine men on a transport who died because nobody was there to save Harry from the ice.",
+      "sceneTitle": "Harry's Grave",
+      "choices": [
+        {
+          "text": "Pray",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Run home",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Snow back where it belongs, your prayer answered.",
+      "sceneTitle": "Bridge Again",
+      "choices": [
+        {
+          "text": "Want to live",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Tired.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A basket of cash and a town in your living room and a bell on the tree.",
+      "sceneTitle": "Living Room",
+      "choices": [
+        {
+          "text": "Hold Mary",
+          "consequence": "Heart.",
+          "nextNodeId": "end_friends"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Honest.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_potter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friends",
+      "text": "The whole town files past with what they can spare. Harry toasts you. A bell rings. Zuzu says it means an angel got his wings.",
+      "sceneTitle": "No Man Is a Failure",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "No Man Is a Failure"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You sit on the floor with the children and you do not look at the basket of money for a long time. You just look at them.",
+      "sceneTitle": "Quiet Christmas",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Christmas"
+    },
+    {
+      "id": "end_potter",
+      "text": "Across town, an old man in a wheelchair sits with a stolen bundle on his desk and does not, for the first time, count it.",
+      "sceneTitle": "Potter, Alone",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Potter, Alone"
+    }
+  ]
+}

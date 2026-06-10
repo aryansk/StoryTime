@@ -1,0 +1,433 @@
+{
+  "id": "speak-no-evil-the-weekend",
+  "title": "Speak No Evil",
+  "sourceTitle": "Speak No Evil",
+  "kind": "movie",
+  "synopsis": "You spent one charming evening with another couple on vacation. They invited you to their country house for the weekend. Every awkward thing you've already overlooked was a warning.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-28T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "politeness",
+    "guest",
+    "discomfort"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Paddy and Ciara wave from the porch with the warmth you remember. Their house is bigger than they implied. Your wife squeezes your hand once — a code that means 'I am being polite for both of us already.'",
+      "sceneTitle": "The Driveway",
+      "choices": [
+        {
+          "text": "Be open and grateful",
+          "consequence": "Trust the invitation.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Be polite and observant",
+          "consequence": "Watch first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Paddy pours something amber. The toast is too long. Your daughter Agnes, nine, drinks her juice carefully and watches their boy Ant, who sits very still on a couch.",
+      "sceneTitle": "The Welcome Drink",
+      "choices": [
+        {
+          "text": "Ask kindly about Ant",
+          "consequence": "Curiosity is care.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Move past the silence with a joke",
+          "consequence": "Smooth the room.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your guest cottage is across a courtyard. It locks from the outside. Paddy laughs. 'Old farmhouse,' he says. 'Lots of weird quirks.' He shows you a tiny knob to override the latch from inside.",
+      "sceneTitle": "The Cottage",
+      "choices": [
+        {
+          "text": "Use the knob; reset the lock",
+          "consequence": "Test the trap.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't show you noticed",
+          "consequence": "Hide your noticing.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Ciara serves rabbit. Your wife is vegetarian. Ciara has been told — twice. Ciara, smiling, says, 'You'll try a little, won't you.'",
+      "sceneTitle": "Dinner, Course One",
+      "choices": [
+        {
+          "text": "Let your wife refuse politely",
+          "consequence": "Boundaries are also love.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Cover for her with a joke",
+          "consequence": "Smooth, but smaller.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Ant doesn't speak. Paddy says he was born without a tongue. He says it like he's offering tea. You notice Ant's mouth opens. You notice the cut is too clean to be congenital.",
+      "sceneTitle": "Ant's Quiet",
+      "choices": [
+        {
+          "text": "Quietly text your friend who's a pediatrician",
+          "consequence": "Verify medically.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Try to communicate with Ant directly",
+          "consequence": "Person before protocol.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "After dinner Paddy puts on music too loud. He wants your wife to dance. He grabs her hand. She glances at you. The whole room has, suddenly, the wrong temperature.",
+      "sceneTitle": "Dance Floor",
+      "choices": [
+        {
+          "text": "Cut in and dance with your wife",
+          "consequence": "Intervene physically without escalating.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Politely end the night with a yawn",
+          "consequence": "End the social event.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "From the guest cottage you hear, distinctly, Ant crying in the main house. The crying is not normal nine-year-old crying. The crying is muffled because there is a hand over a mouth.",
+      "sceneTitle": "The Bedroom Walls",
+      "choices": [
+        {
+          "text": "Go to the main house immediately",
+          "consequence": "Act on what you hear.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Call the local police first",
+          "consequence": "Authority before action.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Agnes, in the guest cottage, is awake and afraid. She says, in the calm voice children sometimes use when they're trying to help adults focus, 'I want to go home.'",
+      "sceneTitle": "Agnes, Awake",
+      "choices": [
+        {
+          "text": "Get the keys and leave tonight",
+          "consequence": "Trust your child.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Promise her you'll all leave at first light",
+          "consequence": "Don't drive a back road in the dark.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Ciara catches you in the hallway. She is trembling. 'You don't understand,' she whispers. 'We need to leave too. Tonight. Take us with you.' She is, you realize, a victim in this house.",
+      "sceneTitle": "Ciara, Pleading",
+      "choices": [
+        {
+          "text": "Believe Ciara and plan a joint exit",
+          "consequence": "Save who you can.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Trust nothing yet — get your family out first",
+          "consequence": "Family first.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Three a.m. The car is loaded. Paddy is at the gate, in the headlights, holding a clipboard like a friendly farmer. He smiles. 'Just a quick question,' he says.",
+      "sceneTitle": "Back Roads",
+      "choices": [
+        {
+          "text": "Drive past him",
+          "consequence": "Don't roll the window down.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Roll the window an inch and stall",
+          "consequence": "Buy a second.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Six a.m. The car packed casually. You make it to the gate. Paddy is, somehow, already there, brewing coffee from a thermos. He hands you one through the window. The smell is wrong.",
+      "sceneTitle": "First Light",
+      "choices": [
+        {
+          "text": "Refuse the coffee",
+          "consequence": "Don't drink at the line.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take it, pour it out of sight later",
+          "consequence": "Performative gratitude.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You drive an hour to the nearest town. The constable is, blessedly, alert and skeptical of country charm. You hand over photos, names, and a child — Ant, or Ciara, or both — that you brought with you.",
+      "sceneTitle": "The Police Station",
+      "choices": [
+        {
+          "text": "Stay to give a full statement",
+          "consequence": "Be the witness.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Get on the ferry home with your family",
+          "consequence": "Survival first.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You drive home with your wife and daughter and, if you took her, Ciara and Ant in the backseat. The morning is, against all odds, blue. Your daughter falls asleep on Ant's shoulder.",
+      "sceneTitle": "The Drive Home",
+      "choices": [
+        {
+          "text": "Stop at every petrol station to put miles between",
+          "consequence": "Buy distance.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Drive home in one long stretch",
+          "consequence": "Get there fast.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The local police call colleagues in other countries. Paddy and Ciara have used this trick four times. There are missing families. There are partial confessions. There is finally, finally, a case.",
+      "sceneTitle": "The Investigation",
+      "choices": [
+        {
+          "text": "Cooperate fully through the trial",
+          "consequence": "See it through.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Give a statement and protect your family's privacy after",
+          "consequence": "Witness, then withdraw.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your daughter starts seeing a therapist who is good with kids. Your wife starts seeing one too. You start, after some resistance, going yourself. The trip becomes, in time, a thing you survived together.",
+      "sceneTitle": "Therapy",
+      "choices": [
+        {
+          "text": "Tell the story when she asks",
+          "consequence": "Honesty in doses.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Don't volunteer until she's older",
+          "consequence": "Protect her now.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Ant is in foster care now, with a family that signs. He's twelve. He writes you a letter you frame in a drawer. He says, in clean handwriting, that he is okay. He thanks you for the car ride.",
+      "sceneTitle": "Ant's Life",
+      "choices": [
+        {
+          "text": "Stay in touch as a friend of the family",
+          "consequence": "Adopt a small role.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let him have his new life without yours in it",
+          "consequence": "Step back.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Your daughter, fourteen, asks about it for the first time. You tell her the truth, with edges. She thanks you for taking her seriously that night. You realize that what saved you all was, partly, that you listened to a nine-year-old.",
+      "sceneTitle": "Five Years Later",
+      "choices": [
+        {
+          "text": "Make 'listen to her' a household rule",
+          "consequence": "The lesson, on the wall.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Just keep doing what you've been doing",
+          "consequence": "Habits are also vows.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Ant's foster parents invite your family for lunch. The house is small and bright and full of signs. Your daughter learns three words on the drive over. The lunch is shy and slow and very, very good.",
+      "sceneTitle": "The First Visit",
+      "choices": [
+        {
+          "text": "Make this a regular part of your year",
+          "consequence": "Become the slow yes.",
+          "nextNodeId": "end_friend"
+        },
+        {
+          "text": "Send a card next month and see what feels right",
+          "consequence": "Let the relationship grow at its pace.",
+          "nextNodeId": "end_step"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You decide what 'stepping back' means in practice — not absence, just not crowding. A card at Yule. A donation to the school he attends, anonymous. You write your role smaller than your heart wants. That, too, is love.",
+      "sceneTitle": "The Quiet Decision",
+      "choices": [
+        {
+          "text": "Hold to the quiet plan",
+          "consequence": "Restraint as care.",
+          "nextNodeId": "end_step"
+        },
+        {
+          "text": "Make one visit, then decide again",
+          "consequence": "Try the door once.",
+          "nextNodeId": "end_friend"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "On the kitchen whiteboard you write, half a joke, 'LISTEN TO HER.' Your daughter laughs. Your wife laughs. Then nobody erases it. Six months later it is still there, faded.",
+      "sceneTitle": "The Whiteboard",
+      "choices": [
+        {
+          "text": "Make it the official family rule",
+          "consequence": "Some jokes are also laws.",
+          "nextNodeId": "end_rule"
+        },
+        {
+          "text": "Let it stay faded — habits, not posters",
+          "consequence": "Some rules are kept by living them.",
+          "nextNodeId": "end_habit"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friend",
+      "text": "Ant calls you on his birthday. He uses a phone with a relay service. You learn enough sign to embarrass yourself. His foster parents become your friends. The story has, somehow, a third family in it that is happy.",
+      "sceneTitle": "Ant's Aunt",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Ant's Aunt"
+    },
+    {
+      "id": "end_step",
+      "text": "You let him build his life without your shadow. You hear, through the lawyers, that he's well. You send a card once a year and hope it lands gently. Sometimes the right amount of help is small.",
+      "sceneTitle": "Stepping Back",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Stepping Back"
+    },
+    {
+      "id": "end_rule",
+      "text": "It becomes the family policy. Agnes uses it on you, the teenager edition. You learn, more than once, that she's right. You raise a daughter who doesn't talk herself out of her own discomfort. That is a quiet revolution.",
+      "sceneTitle": "Listen To Her",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Listen To Her"
+    },
+    {
+      "id": "end_habit",
+      "text": "Your family doesn't make a manifesto out of the weekend. You just live carefully, kindly, with a slightly lower bar for politeness. You hold your wife's hand more often. You take your daughter's instincts more seriously. That, year over year, is the better life.",
+      "sceneTitle": "Quiet Habits",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Habits"
+    }
+  ]
+}

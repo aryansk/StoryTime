@@ -1,0 +1,433 @@
+{
+  "id": "superstore-closing-shift",
+  "title": "Superstore",
+  "sourceTitle": "Superstore",
+  "kind": "show",
+  "synopsis": "It's 9:43 p.m. at Cloud 9. The corporate inspector is hiding in Aisle 7, a man has fallen asleep in a kayak, and somebody — possibly Jonah — set off the indoor sprinklers in Pets. You have seventeen minutes to close. Good luck.",
+  "releaseYear": 2021,
+  "addedAt": "2026-05-19T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "retail",
+    "found-family",
+    "chaos"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Glenn announces over the PA that the store will close in seventeen minutes. He then thanks the customers for their patience by name, which slows everyone down. Amy gives you the closer's look — equal parts faith and warning.",
+      "sceneTitle": "9:43 p.m.",
+      "choices": [
+        {
+          "text": "Start the closing checklist top-down",
+          "consequence": "Order is a kind of prayer.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Just start chasing customers out, gently",
+          "consequence": "Aim at the exits, not the aisles.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You grab the laminated checklist. Step one: cash counts. Step two: zone the front. Step three: locate Marcus, who is somewhere in the store, possibly asleep in outdoor furnishings.",
+      "sceneTitle": "The Checklist",
+      "choices": [
+        {
+          "text": "Cash count first, by the book",
+          "consequence": "Cash trouble is the worst trouble.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Locate Marcus first, by the smell",
+          "consequence": "Lose a coworker, lose your night.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "There's a man in the kayak, two teenagers using the patio set as a movie theater, and a woman who has been comparing two identical jars of pickles for forty-one minutes. You have, at most, three minutes of polite-voice.",
+      "sceneTitle": "The Stragglers",
+      "choices": [
+        {
+          "text": "Use polite-voice on the kayak guy",
+          "consequence": "He looks the most receptive — and the most tired.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Use polite-voice on the pickle lady",
+          "consequence": "Engaging the indecisive is a customer-service skill.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Sandra's drawer is short eleven dollars. Sandra is approximately one held breath away from a kind, sincere meltdown. Garrett, on the floor, is pretending to be busy in the most Garrett way possible.",
+      "sceneTitle": "Cash Drawer Trouble",
+      "choices": [
+        {
+          "text": "Cover the eleven dollars yourself",
+          "consequence": "Some kindnesses cost less than they're worth.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Help Sandra recount calmly",
+          "consequence": "Numbers solve themselves with company.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Marcus is awake, sort of, behind a wall of bargain DVDs. He swears he was 'organizing.' His apron is on backwards. He says he has 'a great idea about the sprinklers.' This sentence cannot be allowed to develop.",
+      "sceneTitle": "Marcus Found",
+      "choices": [
+        {
+          "text": "Send Marcus to break room jail",
+          "consequence": "Containment is also management.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Put Marcus on a small, safe task",
+          "consequence": "Idle hands plus Marcus equals fire department.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Aisle 7. Crouching behind the bulk paper towels with a clipboard. You make eye contact with the corporate inspector. He pretends to be a customer. You both know.",
+      "sceneTitle": "Corporate, Hiding",
+      "choices": [
+        {
+          "text": "Greet him cheerfully like he isn't a threat",
+          "consequence": "Sunlight is the best defense.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Ignore him and run a clean close on principle",
+          "consequence": "Don't audition. Just be good.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Jonah is leaning on the customer service counter mid-monologue — something about late-stage capitalism and shrink rates. Amy is nodding politely while clearly thinking about three other problems.",
+      "sceneTitle": "Jonah, Existential",
+      "choices": [
+        {
+          "text": "Cut him off kindly so Amy can breathe",
+          "consequence": "Friendship is sometimes interruption.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Let him finish — he has a point and a clipboard",
+          "consequence": "Half his ideas are good. The hard part is which.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The sprinklers go off in Pets. There is a hamster trying to swim. Dina, somewhere far away, is already running this way at top speed.",
+      "sceneTitle": "The Sprinkler Incident",
+      "choices": [
+        {
+          "text": "Save the hamster first",
+          "consequence": "Some priorities transcend hierarchy.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Cut the sprinklers at the panel",
+          "consequence": "Stopping the cause beats handling the effects.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Glenn is in the break room, gently crying about a viral video of a dog rescuing a duck. He apologizes, twice. He offers you a Werther's. You can hear, faintly, distant sprinklers.",
+      "sceneTitle": "Glenn, Crying",
+      "choices": [
+        {
+          "text": "Sit with Glenn for thirty seconds",
+          "consequence": "Management means moments like this.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Get him back on the floor — gently",
+          "consequence": "Even Glenn has a closing shift to finish.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Dina has appeared with a clipboard, a whistle, and her unstoppable certainty that she should be running things. Half the team obeys her on reflex. The other half disappears into shelving.",
+      "sceneTitle": "Dina Takes Command",
+      "choices": [
+        {
+          "text": "Let Dina run the rescue effort",
+          "consequence": "Dina + crisis = strange efficiency.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Politely take command back",
+          "consequence": "Leadership is sometimes a quiet veto.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mateo is pitching you — quietly, urgently — on covering up a thing you don't yet know about. 'It's basically not even a problem if no one looks at the security footage,' he whispers. This sentence has been said before. By Mateo.",
+      "sceneTitle": "Mateo's Schemes",
+      "choices": [
+        {
+          "text": "Refuse and tell him to fix it properly",
+          "consequence": "Friends don't let friends commit retail fraud.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Listen for one minute, then decide",
+          "consequence": "Curiosity costs nothing. Yet.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Cheyenne's stroller wheel just broke in the parking lot. She's holding the baby and a forty-pack of paper towels and 'fine, I'm fine.' Bo is twenty minutes away.",
+      "sceneTitle": "Cheyenne's Baby Stroller Emergency",
+      "choices": [
+        {
+          "text": "Send Garrett out to help with the stroller",
+          "consequence": "Garrett is secretly the most useful person in this store.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Go yourself; the floor can wait three minutes",
+          "consequence": "Closing the store starts with closing on your people.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "An older man in Electronics says he's waiting for his nephew. He has been waiting for ninety minutes. He has, you suspect, no nephew.",
+      "sceneTitle": "The Customer Who Won't Leave",
+      "choices": [
+        {
+          "text": "Sit with him and ask about his day",
+          "consequence": "Loneliness is the slowest checkout line.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Call him a cab and walk him to the door",
+          "consequence": "Kindness can be efficient.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Amy pulls you aside and apologizes for being short with you earlier. She didn't mean it; her morning was hell; she's running on three hours of sleep. You realize, again, why this is your favorite person at this job.",
+      "sceneTitle": "Amy's Quiet Apology",
+      "choices": [
+        {
+          "text": "Tell her it's fine; sit on the bench a minute",
+          "consequence": "Friendship is also a closing-shift task.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Offer to handle the last items so she can go",
+          "consequence": "Cover someone tonight; be covered next week.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Glenn, recovered, gathers the team near the front and gives a speech that is too long, too sincere, and somehow, by the end, makes you almost cry into your apron about a $9 dollar T-shirt store you all share.",
+      "sceneTitle": "Glenn's Speech",
+      "choices": [
+        {
+          "text": "Let him finish; nod along",
+          "consequence": "Earnestness is the secret religion of this place.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wrap him up — there's a corporate man watching",
+          "consequence": "Mercy on the schedule.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The inspector approaches you, expressionless. 'You ran a strange store tonight,' he says. He pauses. 'You ran a good one.' He leaves through the wrong door and sets off an alarm. He pretends he meant to.",
+      "sceneTitle": "The Corporate Verdict",
+      "choices": [
+        {
+          "text": "Bask in the win, quietly",
+          "consequence": "Compliments at Cloud 9 are like rain — rare and remembered.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Pretend you knew it was fine all along",
+          "consequence": "Confidence is a uniform too.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The pickle lady, finally, walks out — with both jars. The kayak guy waves like he just had a really good time. Marcus, miraculously, is in uniform and roughly conscious.",
+      "sceneTitle": "Last Customer Out",
+      "choices": [
+        {
+          "text": "Lock the front doors with ceremony",
+          "consequence": "Endings deserve a tiny ritual.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Lock them mid-sentence so nobody comes back",
+          "consequence": "Speed has its own dignity.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Eleven of you spill out into the parking lot under the buzzing Cloud 9 sign. Somebody suggests the diner. Somebody else suggests sleeping. Jonah has Opinions about both options.",
+      "sceneTitle": "The Parking Lot",
+      "choices": [
+        {
+          "text": "Go to the diner — these people are your people",
+          "consequence": "Workplace family is real family with name tags.",
+          "nextNodeId": "end_diner"
+        },
+        {
+          "text": "Go home — you've earned a quiet hour",
+          "consequence": "Some nights you cash in solitude.",
+          "nextNodeId": "end_home"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You'll do it again tomorrow. The sprinklers, the inspector, the kayak guy, Glenn crying about animals. You don't love every minute. You love most of them, in the strange retail way that you can never quite explain to people who don't work here.",
+      "sceneTitle": "Tomorrow",
+      "choices": [
+        {
+          "text": "Embrace the chaos — this is your life",
+          "consequence": "There are worse places to be loved.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Promise yourself you'll leave by Christmas",
+          "consequence": "Plans are how you survive the unplanned.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You hang your apron on its hook in the break room and look at the line of identical aprons — your shift, your team, your weird little ecosystem. Whatever you do tomorrow, you did this. The store, against most odds, made it through tonight.",
+      "sceneTitle": "The Apron, Hung Up",
+      "choices": [
+        {
+          "text": "Commit to the lifer's pride in the work",
+          "consequence": "There is dignity in keeping the lights on for someone's dad.",
+          "nextNodeId": "end_career"
+        },
+        {
+          "text": "Commit to the leaver's plan, gently",
+          "consequence": "Saying goodbye well is its own kind of love.",
+          "nextNodeId": "end_plans"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_diner",
+      "text": "At the diner you fit eleven people into a booth designed for six. Jonah pays. Mateo doesn't. Amy laughs so hard she snorts, and Glenn says grace and means it. You're tired and shiny-eyed and home — in the strangest possible way.",
+      "sceneTitle": "Booth in the Back",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Booth in the Back"
+    },
+    {
+      "id": "end_home",
+      "text": "At home you sit on the floor with the lights off and eat cereal out of the box. Your phone fills with group-chat chaos that you don't open until morning. Tonight you let Cloud 9 be a place you got to leave.",
+      "sceneTitle": "Quiet Hour",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Hour"
+    },
+    {
+      "id": "end_career",
+      "text": "Years later you'll be a regional something or a manager or a customer — and you'll walk past a Cloud 9 and stop for a second, just to listen to the PA and the carts and the laugh of someone you once closed with. It is, somehow, the soundtrack of your twenties.",
+      "sceneTitle": "Cloud 9 Lifer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cloud 9 Lifer"
+    },
+    {
+      "id": "end_plans",
+      "text": "You make the plan and you almost stick to it. By the time the holiday displays go up you're applying to other things. You'll leave. You'll come back to visit. You'll be the person who tells the new closer 'it's not that bad' and means it.",
+      "sceneTitle": "By Christmas",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "By Christmas"
+    }
+  ]
+}

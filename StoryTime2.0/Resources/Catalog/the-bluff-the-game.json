@@ -1,0 +1,449 @@
+{
+  "id": "the-bluff-the-game",
+  "title": "The Bluff",
+  "sourceTitle": "The Bluff",
+  "kind": "movie",
+  "synopsis": "You're a retired pirate captain living quietly in the Caribbean. The British Navy has docked. So has your old daughter. So has your old life.",
+  "releaseYear": 2025,
+  "addedAt": "2026-03-31T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "pirate",
+    "family",
+    "retirement"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The cove is quiet. You sit on a porch with a leg up. The harbor, on the horizon, has more sails than it had yesterday.",
+      "sceneTitle": "The Cove",
+      "choices": [
+        {
+          "text": "Watch them",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Get the gun",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "She walks up your beach in trousers and a cutlass. She is taller. She is also, you can tell, angry.",
+      "sceneTitle": "The Daughter",
+      "choices": [
+        {
+          "text": "Welcome her",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Brace yourself",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Captain Hayes of the British Navy has, with his crew, taken your old port. He has a writ in his pocket and a small smile.",
+      "sceneTitle": "The Navy",
+      "choices": [
+        {
+          "text": "Read the writ",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Refuse to read it",
+          "consequence": "Pride.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The town bar is owned by an old shipmate of yours, Maria. She is, in this scene, the only honest person you know.",
+      "sceneTitle": "The Bar",
+      "choices": [
+        {
+          "text": "Tell Maria everything",
+          "consequence": "Trust.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Tell her half",
+          "consequence": "Save half.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your daughter, drunk, finally tells you why she came. The reason is a ship, a mission, and a name from your past.",
+      "sceneTitle": "The Daughter, Honest",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Patient.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Push back",
+          "consequence": "Pride.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Five of your old crew are alive. Two are in Havana. Two are in Tortuga. One is, embarrassingly, also retired three coves down.",
+      "sceneTitle": "Old Crew",
+      "choices": [
+        {
+          "text": "Call them",
+          "consequence": "Reunion.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Plan without them",
+          "consequence": "Solo.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Hayes offers you a deal. The deal is, by the standards of the navy, generous. The deal is, by the standards of your daughter, an insult.",
+      "sceneTitle": "Hayes' Move",
+      "choices": [
+        {
+          "text": "Take the deal",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Maria has, in her back-room, a schooner you didn't know she had. She has, you realize, been retired in the loud sense — actively.",
+      "sceneTitle": "Maria's Schooner",
+      "choices": [
+        {
+          "text": "Use the schooner",
+          "consequence": "Asset.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Decline the schooner",
+          "consequence": "Don't drag her in.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your daughter's mission, finally explained: a stolen something, a hostage, a ledger that, if released, would end Hayes' career.",
+      "sceneTitle": "The Mission",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Family.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Negotiate first",
+          "consequence": "Practical.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You sail. The first hours feel old. By the second day you are, weirdly, twenty again, in a body that is fifty.",
+      "sceneTitle": "Sail",
+      "choices": [
+        {
+          "text": "Push hard",
+          "consequence": "Memory.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Pace yourself",
+          "consequence": "Wisdom.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Hayes, on a larger ship, follows. He is faster on open water. You know smaller channels.",
+      "sceneTitle": "Hayes' Pursuit",
+      "choices": [
+        {
+          "text": "Take the channels",
+          "consequence": "Local.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Outrun on open water",
+          "consequence": "Confidence.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A storm finds you. The schooner, by Maria's calm, survives. So do you.",
+      "sceneTitle": "Storm",
+      "choices": [
+        {
+          "text": "Push through",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Wait it out",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your old crew in Tortuga joins. They are older, slower, more dangerous. The reunion is, briefly, the best night of your decade.",
+      "sceneTitle": "Tortuga Friends",
+      "choices": [
+        {
+          "text": "Tell them the plan",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Let them think it's bigger",
+          "consequence": "Recruit.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The ledger is hidden, by your daughter's intelligence, in a chapel. The chapel is also, you realize, where you were married.",
+      "sceneTitle": "The Ledger Hide",
+      "choices": [
+        {
+          "text": "Go in",
+          "consequence": "Memory.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Have her go in",
+          "consequence": "Strategy.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Hayes finds you mid-sea. The two ships, briefly, are within hailing distance.",
+      "sceneTitle": "Confrontation, Mid-Sea",
+      "choices": [
+        {
+          "text": "Hail him",
+          "consequence": "Words.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Maneuver away",
+          "consequence": "Action.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The hostage, recovered, turns out to be the wife of a man you once wronged. She forgives you immediately. You realize forgiveness travels strangely.",
+      "sceneTitle": "The Hostage",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Just nod",
+          "consequence": "Quiet.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Hayes' ship runs aground in your channels. He is alive. He is also, in this corner of the world, not safe.",
+      "sceneTitle": "Hayes, Cornered",
+      "choices": [
+        {
+          "text": "Spare him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take him prisoner",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The town watches from the dock as you sail back in. The crowd is, somehow, applauding.",
+      "sceneTitle": "The Town, Looking",
+      "choices": [
+        {
+          "text": "Bow",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Pretend not to notice",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Maria pours rum. The crew, your daughter, and you sit at the long table. You realize you have a family you did not, last week, know you had.",
+      "sceneTitle": "Maria's Bar",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Family.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Promise to come back",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A formal letter from the Navy. It is, against expectation, a pardon. You realize Hayes wrote it himself.",
+      "sceneTitle": "Hayes' Letter",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Frame it but stay private",
+          "consequence": "Smart.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "She tells you, on the porch, that she will visit again. You tell her you will let her go without making a scene about it. You make a small scene anyway.",
+      "sceneTitle": "Your Daughter",
+      "choices": [
+        {
+          "text": "Make the scene short",
+          "consequence": "Mercy.",
+          "nextNodeId": "end_retired"
+        },
+        {
+          "text": "Make the scene plain",
+          "consequence": "Honest.",
+          "nextNodeId": "end_crew"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_chapel"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_retired",
+      "text": "You stay in your cove. The bar keeps you in rum. Maria keeps you in stories. Your daughter visits twice a year. The waves do, in fact, ignore you mostly. You like that.",
+      "sceneTitle": "Truly Retired",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Truly Retired"
+    },
+    {
+      "id": "end_crew",
+      "text": "You sail occasionally — small jobs, smaller crews — and become, in time, a kind of grandfather to a new generation of sailors. The Navy, by treaty and convenience, leaves you alone.",
+      "sceneTitle": "The Old Crew",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Old Crew"
+    },
+    {
+      "id": "end_chapel",
+      "text": "You marry, late, a woman you should have married decades earlier. Maria officiates because nobody else is left. The chapel — same one — laughs at you, kindly, when the kiss takes too long.",
+      "sceneTitle": "The Chapel, Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Chapel, Again"
+    }
+  ]
+}

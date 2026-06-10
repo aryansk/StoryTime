@@ -1,0 +1,450 @@
+{
+  "id": "fm-jaws",
+  "title": "Jaws",
+  "sourceTitle": "Jaws",
+  "kind": "movie",
+  "synopsis": "A beach town, a Fourth of July, a chief who hates water, and a great white shark with a long memory.",
+  "releaseYear": 1975,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "spielberg",
+    "creature",
+    "summer",
+    "boat"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A girl swims out from a bonfire on a beach.",
+      "sceneTitle": "First Swim",
+      "choices": [
+        {
+          "text": "Track her flashlight",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait at the fire",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Vaughn wants the beaches open for the Fourth.",
+      "sceneTitle": "Mayor's Office",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Compromise",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Probable shark, edited later to boat accident.",
+      "sceneTitle": "Coroner's Report",
+      "choices": [
+        {
+          "text": "Document the original",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Sign the edit",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A scream, a yellow line dragged under, a mother on the sand.",
+      "sceneTitle": "Boy on a Raft",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Heart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Clear the beach",
+          "consequence": "Discipline.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Quint scratches a fingernail across a chalkboard.",
+      "sceneTitle": "Town Hall",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Brush him off",
+          "consequence": "Polite.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "An oceanographer with a long beard and a checklist.",
+      "sceneTitle": "Hooper Arrives",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Cautious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The mayor wants the photograph.",
+      "sceneTitle": "Tiger Shark Tied to the Dock",
+      "choices": [
+        {
+          "text": "Cut it open",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Skip the autopsy",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A wrecked boat, a tooth in the hull, a dead fisherman's head.",
+      "sceneTitle": "Night Dive",
+      "choices": [
+        {
+          "text": "Surface fast",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hold the tooth",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Beach packed, kid in a black wetsuit pranking, a real fin in the pond.",
+      "sceneTitle": "Fourth of July",
+      "choices": [
+        {
+          "text": "Clear the water",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Trust the patrol",
+          "consequence": "Cautious.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Michael in a sailboat with a shark below it.",
+      "sceneTitle": "Estuary",
+      "choices": [
+        {
+          "text": "Pull him in",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Yell",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The Orca at the dock, smaller than you remembered.",
+      "sceneTitle": "Quint's Boat",
+      "choices": [
+        {
+          "text": "Step on",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A bucket of guts on a slow trawl.",
+      "sceneTitle": "Chum Line",
+      "choices": [
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Tired.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A snout, a row of teeth, a deck that suddenly feels small.",
+      "sceneTitle": "First Sight",
+      "choices": [
+        {
+          "text": "Tag the barrel",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Reach for the M1",
+          "consequence": "Reckless.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Quint and Hooper compare wounds and laugh.",
+      "sceneTitle": "Scars",
+      "choices": [
+        {
+          "text": "Show yours",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Tell yours",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Quint with whiskey, a story about a sinking ship.",
+      "sceneTitle": "Indianapolis Speech",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Pour another",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "It pulls the boat backward by its barrels.",
+      "sceneTitle": "Shark Tested",
+      "choices": [
+        {
+          "text": "Cut the line",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold on",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Pistons screaming and a captain laughing too loud.",
+      "sceneTitle": "Engine Trouble",
+      "choices": [
+        {
+          "text": "Slow down",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Push harder",
+          "consequence": "Reckless.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Hooper in a steel box and a shark with a snout it can fit anywhere.",
+      "sceneTitle": "Cage",
+      "choices": [
+        {
+          "text": "Lower him",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A jaw on the transom and a man sliding down the deck.",
+      "sceneTitle": "Stern Crashing",
+      "choices": [
+        {
+          "text": "Grab Quint's leg",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hold the rail",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A yellow tank rolling around the deck.",
+      "sceneTitle": "Compressed Air Tank",
+      "choices": [
+        {
+          "text": "Throw it in",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Shoot at it now",
+          "consequence": "Reckless.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A man with a rifle and a sentence about a smile.",
+      "sceneTitle": "Mast Top",
+      "choices": [
+        {
+          "text": "Aim true",
+          "consequence": "Brave.",
+          "nextNodeId": "end_smile"
+        },
+        {
+          "text": "Pull the trigger now",
+          "consequence": "Reckless.",
+          "nextNodeId": "end_quint"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_swim"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_smile",
+      "text": "The tank explodes and the shark goes red and the chief, who hates the water, paddles back to shore on debris with a friend at his side.",
+      "sceneTitle": "Smile You",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Smile You"
+    },
+    {
+      "id": "end_quint",
+      "text": "You bury Quint at sea and you do not, in your old age, talk about him to anyone, because the right words do not exist for a man who liked sharks more than he liked people.",
+      "sceneTitle": "Quint's Wake",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quint's Wake"
+    },
+    {
+      "id": "end_swim",
+      "text": "Vaughn loses his job and the beach is closed for a season and the town rebuilds, this time with a new sign at the dock that says read the water.",
+      "sceneTitle": "The Mayor Resigns",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Mayor Resigns"
+    }
+  ]
+}

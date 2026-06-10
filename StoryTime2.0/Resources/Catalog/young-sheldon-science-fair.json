@@ -1,0 +1,430 @@
+{
+  "id": "young-sheldon-science-fair",
+  "title": "Young Sheldon",
+  "sourceTitle": "Young Sheldon",
+  "kind": "show",
+  "synopsis": "You're nine, Texan, and smarter than your physics teacher. The county science fair is in two weeks. So is your sister's volleyball game. You have to be in two places. Use your brain.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-22T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "family",
+    "prodigy",
+    "small-town"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Meemaw makes pancakes. Mary makes coffee. Georgie eats his weight in bacon. Missy reminds everyone — twice — about her championship game. You are, as usual, calculating something at the table.",
+      "sceneTitle": "Monday Breakfast",
+      "choices": [
+        {
+          "text": "Announce your science fair project at breakfast",
+          "consequence": "Set the room's stakes.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait until Dad is in the room",
+          "consequence": "Strategy in audiences.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You propose a low-cost neutrino-detection experiment in the family garage. Mary blinks. Meemaw says, 'Oh, sweetie.' Georgie asks if it has anything to do with bowling.",
+      "sceneTitle": "The Project Idea",
+      "choices": [
+        {
+          "text": "Pivot to something doable in a garage",
+          "consequence": "Constraints are also creativity.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Insist on the original idea",
+          "consequence": "Vision.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "George Sr. is at football practice. You walk down with a thermos. He asks how school is. You tell him about Newton's third law. He says, 'Sounds good, buddy.' You feel, briefly, that he listens harder than he lets on.",
+      "sceneTitle": "Dad's Practice",
+      "choices": [
+        {
+          "text": "Pitch the science fair project to him",
+          "consequence": "Dad first.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask him about the volleyball schedule first",
+          "consequence": "Sister first.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Tam, your best friend, sees your project sketch at lunch and immediately offers to help. He has, he claims, 'a guy at the radio shack.' He always has a guy.",
+      "sceneTitle": "Tam's Plan",
+      "choices": [
+        {
+          "text": "Form a two-person team",
+          "consequence": "Allies.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Keep it solo for purity",
+          "consequence": "Independent work.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Missy, sharper than anyone gives her credit for, asks if you're scheduling your fair around her game. You consider lying. You consider not lying. You consider the third option, which is silence.",
+      "sceneTitle": "Missy's Suspicion",
+      "choices": [
+        {
+          "text": "Tell her the truth",
+          "consequence": "Sister code.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Promise to be at her game no matter what",
+          "consequence": "Promise first, plan after.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Mr. Lundy — your physics teacher — needs to sign off on your project. He is, sweetly, intimidated by you. You realize you can either smooth this with kindness or steamroll him.",
+      "sceneTitle": "Mr. Lundy's Permission",
+      "choices": [
+        {
+          "text": "Compliment a real strength of his",
+          "consequence": "Kindness as strategy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Present the project as if you're the teacher",
+          "consequence": "Authority.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Meemaw lets you set up in her garage with two conditions: no fires, and you have to take a snack break every two hours. The snacks include a Dr Pepper she will share, even though she always says she won't.",
+      "sceneTitle": "Meemaw's Garage",
+      "choices": [
+        {
+          "text": "Negotiate longer work blocks",
+          "consequence": "Optimize.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Accept her conditions exactly",
+          "consequence": "Respect.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Saturday morning. The detector's preamp keeps oscillating. You consider the problem. The problem considers you. Georgie offers to 'hit it.'",
+      "sceneTitle": "The Wiring Problem",
+      "choices": [
+        {
+          "text": "Methodically debug",
+          "consequence": "Discipline.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Let Georgie hit it",
+          "consequence": "Sometimes pets are right.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You draw a Gantt chart on the kitchen wall. Mary makes you take it down. You redraw it on a poster board and prop it against the wall. She accepts the compromise. You add Missy's volleyball as a critical milestone.",
+      "sceneTitle": "The Family Schedule",
+      "choices": [
+        {
+          "text": "Show Missy the chart with her name first",
+          "consequence": "Respect her.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Show the chart to Dad for buy-in",
+          "consequence": "Build authority.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Pastor Jeff drops by for tea and to subtly check whether your project is, technically, blasphemous. You explain particle physics with charm. He leaves with a flyer for your fair and a slightly worried expression.",
+      "sceneTitle": "Pastor Jeff Visits",
+      "choices": [
+        {
+          "text": "Invite him as a judge",
+          "consequence": "Diplomacy.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Keep the church gently at arm's length",
+          "consequence": "Boundaries.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You stay up too late three nights in a row. Meemaw catches you. She sits in the garage with you anyway and reads the newspaper while you solder. She says nothing, except, 'You're like your daddy when he had something to prove.'",
+      "sceneTitle": "The Sleepless Tuesday",
+      "choices": [
+        {
+          "text": "Sleep at a reasonable hour from now on",
+          "consequence": "Take the lesson.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Keep pushing — fair is in three days",
+          "consequence": "Sprint.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The volleyball game is Friday at 7. The fair is Saturday at 9. The schedule, miraculously, allows for both. You make it to the game with a notebook in your hand. Missy spots you in the stands.",
+      "sceneTitle": "Missy's Game, Friday",
+      "choices": [
+        {
+          "text": "Close the notebook for the whole game",
+          "consequence": "Be present.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Keep glancing at notes between sets",
+          "consequence": "Compromise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "George Sr., who you didn't know noticed, shows up at the garage at 9 p.m. with a roll of duct tape and zero physics. He holds the wire steady while you solder. He says, 'I'm here. That's all I got.' It is, oddly, all you needed.",
+      "sceneTitle": "Dad's Quiet Help",
+      "choices": [
+        {
+          "text": "Thank him directly",
+          "consequence": "Tell him.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Nod and keep working",
+          "consequence": "Some thanks are silent.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The fair. Folding tables. Other kids' baking-soda volcanoes. Your detector hums politely. The county judge, who has a Ph.D. in something else but knows physics when she sees it, leans in.",
+      "sceneTitle": "Saturday Morning",
+      "choices": [
+        {
+          "text": "Demo the detector with no shortcuts",
+          "consequence": "Be honest about your data.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Demo with the dramatic flourish you've practiced",
+          "consequence": "Showmanship.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A different judge — an older man — asks you a question you suspect is meant to trip you up. You realize, mid-answer, that he is testing for confidence as much as content.",
+      "sceneTitle": "The Awkward Question",
+      "choices": [
+        {
+          "text": "Answer plainly and concisely",
+          "consequence": "Don't show off.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Answer with proof and humor",
+          "consequence": "Be your full self.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You win the county. The ribbon is blue and cheap and you put it on your refrigerator next to Missy's championship pennant from last night. The fridge, you decide, is a kind of family altar.",
+      "sceneTitle": "The Ribbon",
+      "choices": [
+        {
+          "text": "Aim for the state fair next month",
+          "consequence": "Keep going.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take a week off before the next thing",
+          "consequence": "Rest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Tam, at lunch on Monday, gives a small speech about how you didn't ditch him for credit. You blink. You hadn't realized the choice was a choice. Friendship, you discover, has options you didn't see.",
+      "sceneTitle": "Tam's Speech",
+      "choices": [
+        {
+          "text": "Tell him you'll always include him",
+          "consequence": "Vow.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Promise to choose better, on purpose",
+          "consequence": "Specific vow.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "An envelope arrives — the state fair, with a small stipend. Mary cries a little. Meemaw cries a lot. Dad pretends not to. Missy says, 'Cool,' which is, from her, the highest honor.",
+      "sceneTitle": "The State Fair Letter",
+      "choices": [
+        {
+          "text": "Take the family with you to state",
+          "consequence": "Bring them along.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take just Tam",
+          "consequence": "Honor the partner.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Sunday after the fair, Meemaw makes pancakes that are, somehow, even better than usual. You eat three. You watch your family argue about a Cowboys game. You realize, with a feeling you can't yet name, that you are happy.",
+      "sceneTitle": "Sunday Pancakes",
+      "choices": [
+        {
+          "text": "Stay at the table an extra hour",
+          "consequence": "Be present.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Go work on the next project before noon",
+          "consequence": "Curiosity, called.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "After the fair, after the pancakes, you stand in the hallway with the ribbon in your hand and decide whose company state will be. The decision is, you realize, also a decision about who you want next to you when the next door opens.",
+      "sceneTitle": "The Hallway, Quiet",
+      "choices": [
+        {
+          "text": "Pile in the station wagon together",
+          "consequence": "Family.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Just you and Tam, partners",
+          "consequence": "Friendship.",
+          "nextNodeId": "end_tam"
+        },
+        {
+          "text": "Already plan tomorrow's experiment",
+          "consequence": "Science calls.",
+          "nextNodeId": "end_science"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "You go to state with Mom and Dad and Meemaw and Missy and Georgie. The trip is loud, chaotic, and one of the best weekends of your childhood. You realize, again, that science is a profession but family is a country.",
+      "sceneTitle": "Cooper, the Family",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cooper, the Family"
+    },
+    {
+      "id": "end_tam",
+      "text": "You and Tam go to state, sharing a hotel room and a stipend. You stay up late watching TV that isn't on at your house. You win second. You don't mind. Tam tells the story for years.",
+      "sceneTitle": "Cooper & Tam",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cooper & Tam"
+    },
+    {
+      "id": "end_science",
+      "text": "Years later, in graduate school, you'll think back to this Saturday. You'll remember the ribbon and the fridge and the volleyball game. You'll realize, with a small ache, that the science was always going to happen — the choice was who you would be while it did.",
+      "sceneTitle": "The Long Road",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Road"
+    }
+  ]
+}

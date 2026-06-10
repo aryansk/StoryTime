@@ -1,0 +1,450 @@
+{
+  "id": "fm-wall-e",
+  "title": "Wall-E",
+  "sourceTitle": "Wall-E",
+  "kind": "movie",
+  "synopsis": "An empty Earth, a small trash compactor robot in love with a videotape, and a sleek probe who arrives looking for a plant.",
+  "releaseYear": 2008,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "pixar",
+    "ai",
+    "earth",
+    "love"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Cubes of trash stacked like a city.",
+      "sceneTitle": "Sunrise Compaction",
+      "choices": [
+        {
+          "text": "Add another floor",
+          "consequence": "Discipline.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Take a break",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A small friend, indestructible, on a Twinkie.",
+      "sceneTitle": "Cockroach",
+      "choices": [
+        {
+          "text": "Greet it",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Ignore it",
+          "consequence": "Cold.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A spork, a Rubik's cube, a small plant in a boot.",
+      "sceneTitle": "Treasure",
+      "choices": [
+        {
+          "text": "Save the plant",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Toss it",
+          "consequence": "Cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A tape of Hello Dolly cued to a song about holding hands.",
+      "sceneTitle": "Musical",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Heart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Work",
+          "consequence": "Discipline.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A column of fire and a sleek probe named Eve.",
+      "sceneTitle": "Ship Lands",
+      "choices": [
+        {
+          "text": "Approach",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "She is jumpy and well-armed.",
+      "sceneTitle": "Eve Shoots Everything",
+      "choices": [
+        {
+          "text": "Wave",
+          "consequence": "Heart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A cube light show on a wall and a small awkward hand-touch.",
+      "sceneTitle": "Date in the Truck",
+      "choices": [
+        {
+          "text": "Hold her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Spin a wheel",
+          "consequence": "Light.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "She seals the plant inside herself and goes inert.",
+      "sceneTitle": "Plant Found",
+      "choices": [
+        {
+          "text": "Wait beside her",
+          "consequence": "Loyal.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hide her",
+          "consequence": "Cautious.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A return shuttle, a clamped probe, a robot clinging to the hull.",
+      "sceneTitle": "Mothership",
+      "choices": [
+        {
+          "text": "Hold on",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Let go",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A cruise ship of chair-bound humans floating in red carpet aisles.",
+      "sceneTitle": "Axiom",
+      "choices": [
+        {
+          "text": "Wander",
+          "consequence": "Curious.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay with Eve",
+          "consequence": "Loyal.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A man who has never stood up reads from a manual about Earth.",
+      "sceneTitle": "Captain's Room",
+      "choices": [
+        {
+          "text": "Show him the plant",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Misfit robots in cleaning bays and an unlocking key.",
+      "sceneTitle": "Repair Ward",
+      "choices": [
+        {
+          "text": "Help them",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A ship's wheel-shaped autopilot with a directive A113.",
+      "sceneTitle": "Auto",
+      "choices": [
+        {
+          "text": "Defy it",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Obey",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A scanner that proves Earth is habitable.",
+      "sceneTitle": "Holodetector",
+      "choices": [
+        {
+          "text": "Insert the plant",
+          "consequence": "Hope.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Auto tries to flush you both.",
+      "sceneTitle": "Garbage Airlock",
+      "choices": [
+        {
+          "text": "Catch Eve",
+          "consequence": "Loyal.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Catch the plant",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The captain stands on shaking legs for the first time.",
+      "sceneTitle": "Walk",
+      "choices": [
+        {
+          "text": "Cheer him on",
+          "consequence": "Heart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Steady him",
+          "consequence": "Friend.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The Axiom tips and humans roll like pinballs.",
+      "sceneTitle": "Tilted Floor",
+      "choices": [
+        {
+          "text": "Hold the line",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Catch a baby",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A small robot under a holodetector that refuses to close.",
+      "sceneTitle": "Crushed Wall-E",
+      "choices": [
+        {
+          "text": "Hold the door",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Crawl out",
+          "consequence": "Smart.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Earth, a hangar, a familiar voice rebooting blank.",
+      "sceneTitle": "Reboot",
+      "choices": [
+        {
+          "text": "Sing the song",
+          "consequence": "Heart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Two small hands, one with a spark.",
+      "sceneTitle": "Hand Touch",
+      "choices": [
+        {
+          "text": "Hold it",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A planting on a dusty hill at sunset.",
+      "sceneTitle": "First Tree",
+      "choices": [
+        {
+          "text": "Stand together",
+          "consequence": "Heart.",
+          "nextNodeId": "end_grow"
+        },
+        {
+          "text": "Wave to the cockroach",
+          "consequence": "Light.",
+          "nextNodeId": "end_dance"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_grow",
+      "text": "Humans and robots learn dirt together and a generation later the Axiom returns to a green Earth and a small old trash compactor at a treeline.",
+      "sceneTitle": "A First Forest",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A First Forest"
+    },
+    {
+      "id": "end_dance",
+      "text": "Eve replays the hand-hold scene and Wall-E remembers everything, and the two of them dance in the dust without a single witness.",
+      "sceneTitle": "The Last Song",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Last Song"
+    },
+    {
+      "id": "end_quiet",
+      "text": "The captain grows a small box of tomatoes in his bridge and refuses to leave the ship until they ripen, which makes them all very late.",
+      "sceneTitle": "Captain's Garden",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Captain's Garden"
+    }
+  ]
+}

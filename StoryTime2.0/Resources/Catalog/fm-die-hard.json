@@ -1,0 +1,450 @@
+{
+  "id": "fm-die-hard",
+  "title": "Die Hard",
+  "sourceTitle": "Die Hard",
+  "kind": "movie",
+  "synopsis": "A cop, a tower, a thief in a sweater, and a vault that nobody is supposed to be able to open on Christmas Eve.",
+  "releaseYear": 1988,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "holiday",
+    "siege",
+    "everyman",
+    "vent"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Argyle asks about the wife and puts on a Christmas tape.",
+      "sceneTitle": "LAX Limo",
+      "choices": [
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Sit silent",
+          "consequence": "Tired.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Holly. A Rolex. A husband who will not bend.",
+      "sceneTitle": "Party on the 30th",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Mercy.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Pick a fight",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A wise pilot once said, make fists with your toes.",
+      "sceneTitle": "Shoes Off",
+      "choices": [
+        {
+          "text": "Do it",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Skip it",
+          "consequence": "Cool.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Engines outside, gunfire downstairs, elevator chime.",
+      "sceneTitle": "Lobby Goes Loud",
+      "choices": [
+        {
+          "text": "Move up",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Move down",
+          "consequence": "Reckless.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Crawl on your back over Christmas lights.",
+      "sceneTitle": "Vent Shafts",
+      "choices": [
+        {
+          "text": "Crawl",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A radio in a dead man's belt and a name you should not give.",
+      "sceneTitle": "Yippee",
+      "choices": [
+        {
+          "text": "Call for help",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Bait Hans",
+          "consequence": "Cunning.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A desk cop with a Twinkie and a steady voice.",
+      "sceneTitle": "Powell at the Curb",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Friend.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wary.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "C4 above the elevators, fuses in your fist.",
+      "sceneTitle": "Detonators",
+      "choices": [
+        {
+          "text": "Drop them down the shaft",
+          "consequence": "Wild.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Plant them at the door",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Six locks, five dropped, one electromagnetic.",
+      "sceneTitle": "Theo at the Keyboard",
+      "choices": [
+        {
+          "text": "Sabotage the power grid",
+          "consequence": "Bold.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait for the FBI",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A boy you killed had a brother who is now hunting you barefoot too.",
+      "sceneTitle": "Karl's Brother",
+      "choices": [
+        {
+          "text": "Set a trap",
+          "consequence": "Cunning.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Hans drives the partygoers up to the helipad with the C4 still in the elevator shafts.",
+      "sceneTitle": "Roof Hostages",
+      "choices": [
+        {
+          "text": "Warn them off",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Detonate first",
+          "consequence": "Final.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A long hose, a heavier you, a window that won't break easy.",
+      "sceneTitle": "Firehose Dive",
+      "choices": [
+        {
+          "text": "Jump",
+          "consequence": "Wild.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Climb down",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The cokehead negotiator names you on TV.",
+      "sceneTitle": "Ellis",
+      "choices": [
+        {
+          "text": "Disavow",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Try to save him",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Suit, glasses, a polite voice over a stranger's body.",
+      "sceneTitle": "Hans on the Roof",
+      "choices": [
+        {
+          "text": "Play the dumb cop",
+          "consequence": "Cunning.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Confront him",
+          "consequence": "Bold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A roll of holiday tape across your back and a service pistol against your spine.",
+      "sceneTitle": "Two Bullets in the Tape",
+      "choices": [
+        {
+          "text": "Hide them",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Reckless.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Which was the plan all along. The vault clicks open.",
+      "sceneTitle": "FBI Cuts the Power",
+      "choices": [
+        {
+          "text": "Steal a detonator",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Hans's hand on her wrist, your gun in your other hand, taped low.",
+      "sceneTitle": "Holly at the Edge",
+      "choices": [
+        {
+          "text": "Tip him off the side",
+          "consequence": "Hard.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Talk him down",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Outside, dust on his shoulders, an assault rifle aimed at you and the cop.",
+      "sceneTitle": "Karl Lives",
+      "choices": [
+        {
+          "text": "Trust Powell",
+          "consequence": "Friend.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Charge",
+          "consequence": "Wild.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Bearer bonds drifting down on the Christmas lights like ash.",
+      "sceneTitle": "Bonds",
+      "choices": [
+        {
+          "text": "Watch them fall",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Grab them",
+          "consequence": "Greedy.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Theo at the wheel of a stolen rig, smiling at a window.",
+      "sceneTitle": "Ambulance",
+      "choices": [
+        {
+          "text": "Let Argyle handle it",
+          "consequence": "Trust.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Run after him",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Argyle pulls up smiling, and Holly says your name like you forgot it was hers.",
+      "sceneTitle": "Holly in the Snow",
+      "choices": [
+        {
+          "text": "Take her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Apologize first",
+          "consequence": "Honest.",
+          "nextNodeId": "end_back"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_powell"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "The limo pulls away. Argyle hums something. Holly leans on you and the radio plays a song you both already know.",
+      "sceneTitle": "Christmas Eve, Late",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Christmas Eve, Late"
+    },
+    {
+      "id": "end_back",
+      "text": "You wake at the party in a sweat with shoes on. The Rolex on Hans's wrist on a man falling in slow motion.",
+      "sceneTitle": "Back at the 30th",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back at the 30th"
+    },
+    {
+      "id": "end_powell",
+      "text": "Powell mails you Twinkies every Christmas for ten years. You keep eating them. You keep being okay.",
+      "sceneTitle": "Twinkies on Powell's Desk",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Twinkies on Powell's Desk"
+    }
+  ]
+}

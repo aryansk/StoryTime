@@ -1,0 +1,450 @@
+{
+  "id": "fm-shining",
+  "title": "The Shining",
+  "sourceTitle": "The Shining",
+  "kind": "movie",
+  "synopsis": "A winter caretaker, an empty hotel, a boy on a tricycle, and a corridor that has been waiting for the right family.",
+  "releaseYear": 1980,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "kubrick",
+    "haunting",
+    "snow",
+    "family"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Mr. Ullman across a desk and a story about a previous caretaker.",
+      "sceneTitle": "The Interview",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Long carpets, a maze made of hedges, twin girls watching from a hallway.",
+      "sceneTitle": "Tour",
+      "choices": [
+        {
+          "text": "Smile politely",
+          "consequence": "Polite.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stare back",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A cook with a kind grin and a word for a boy who shines.",
+      "sceneTitle": "Hallorann",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Brush past",
+          "consequence": "Polite.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Danny on plastic wheels over carpet and linoleum.",
+      "sceneTitle": "Tricycle",
+      "choices": [
+        {
+          "text": "Let him ride",
+          "consequence": "Mercy.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Send him to bed",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Danny's lips form the word that lives in mirrors.",
+      "sceneTitle": "Bathroom Mirror",
+      "choices": [
+        {
+          "text": "Hold him",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Soup, a quiet smile, a husband upstairs typing nothing for hours.",
+      "sceneTitle": "Wendy in the Kitchen",
+      "choices": [
+        {
+          "text": "Talk to her",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cold.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A bartender named Lloyd at an empty bar.",
+      "sceneTitle": "Lounge Bar",
+      "choices": [
+        {
+          "text": "Order",
+          "consequence": "Tempted.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A door at the end of a hall and a hand on the knob.",
+      "sceneTitle": "Room 237",
+      "choices": [
+        {
+          "text": "Open it",
+          "consequence": "Reckless.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "End of a corridor, hand in hand, a quiet invitation.",
+      "sceneTitle": "Twin Girls",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Approach",
+          "consequence": "Reckless.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A novel of one sentence repeated to the bottom of every page.",
+      "sceneTitle": "Typewriter Page",
+      "choices": [
+        {
+          "text": "Hide the manuscript",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Read it aloud",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A wife on a staircase with a Louisville and a tear.",
+      "sceneTitle": "Wendy's Bat",
+      "choices": [
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Step forward",
+          "consequence": "Hard.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A latch, a dark room, the smell of canned peaches.",
+      "sceneTitle": "Storage Room",
+      "choices": [
+        {
+          "text": "Plead through the door",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Curse her",
+          "consequence": "Cold.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A snowcat from Florida headed for trouble.",
+      "sceneTitle": "Hallorann Drives",
+      "choices": [
+        {
+          "text": "Wait for him",
+          "consequence": "Hope.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Pre-empt",
+          "consequence": "Hard.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A word on a door in lipstick.",
+      "sceneTitle": "Danny's REDRUM",
+      "choices": [
+        {
+          "text": "Read it in the mirror",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Wipe it off",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He calls Danny's name and a fire axe answers.",
+      "sceneTitle": "Hallorann at the Lobby",
+      "choices": [
+        {
+          "text": "Help him",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Snow up to your knees, prints in front of you that are your own.",
+      "sceneTitle": "Hedge Maze",
+      "choices": [
+        {
+          "text": "Backtrack",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Press on",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A keyhole, a stalling engine, a son in her arms.",
+      "sceneTitle": "Wendy on the Snowcat",
+      "choices": [
+        {
+          "text": "Help her start it",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Smash a window",
+          "consequence": "Hard.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A grand staircase, music, a waiter who has been here longer than the carpet.",
+      "sceneTitle": "Ghost Ball",
+      "choices": [
+        {
+          "text": "Dance",
+          "consequence": "Tempted.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "1921, a man at the front of a New Year's crowd, your own face.",
+      "sceneTitle": "Photograph in the Lobby",
+      "choices": [
+        {
+          "text": "Walk past",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stand and stare",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A snow-shut window, a wife banging at a door, a small voice calling Daddy.",
+      "sceneTitle": "Lock-In",
+      "choices": [
+        {
+          "text": "Open the door",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Two sets of footprints in, one set out, a heartbeat slowing in the dark.",
+      "sceneTitle": "Maze, Center",
+      "choices": [
+        {
+          "text": "Sit down",
+          "consequence": "Tired.",
+          "nextNodeId": "end_thaw"
+        },
+        {
+          "text": "Get up",
+          "consequence": "Brave.",
+          "nextNodeId": "end_drive"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_thaw",
+      "text": "Tradesmen find an axe by the boiler and a manuscript in a typewriter and a photograph in the lobby that nobody can quite explain.",
+      "sceneTitle": "Spring at the Overlook",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Spring at the Overlook"
+    },
+    {
+      "id": "end_drive",
+      "text": "Wendy at the wheel and Danny in the passenger seat. They roll out of the gates and never come back, not even for the manuscript.",
+      "sceneTitle": "Snowcat South",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Snowcat South"
+    },
+    {
+      "id": "end_quiet",
+      "text": "He drives away from the Overlook with a small boy and a half-broken wife and he teaches the boy to read recipes, and the shine, slowly, becomes a small private gift.",
+      "sceneTitle": "Hallorann Hires a Cook",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hallorann Hires a Cook"
+    }
+  ]
+}

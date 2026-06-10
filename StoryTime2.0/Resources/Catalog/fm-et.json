@@ -1,0 +1,449 @@
+{
+  "id": "fm-et",
+  "title": "E.T. the Extra-Terrestrial",
+  "sourceTitle": "E.T. the Extra-Terrestrial",
+  "kind": "movie",
+  "synopsis": "California suburb. Your parents split. A creature with a glowing finger is in your shed. He wants to go home.",
+  "releaseYear": 1982,
+  "addedAt": "2026-03-11T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "alien",
+    "childhood",
+    "friendship"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Something rustles. Reese's Pieces lead it to your room.",
+      "sceneTitle": "Shed",
+      "choices": [
+        {
+          "text": "Lure with candy",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He hides among stuffed animals. He blinks.",
+      "sceneTitle": "Closet",
+      "choices": [
+        {
+          "text": "Don't tell Mom",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Tell Mom",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your little sister sees him. He, somehow, is okay with this.",
+      "sceneTitle": "Gertie",
+      "choices": [
+        {
+          "text": "Trust her",
+          "consequence": "Friend.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Swear her to secrecy",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You feel what he feels. Sometimes drunk, sometimes sad.",
+      "sceneTitle": "Elliott's Bond",
+      "choices": [
+        {
+          "text": "Trust the bond",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Resist it",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You release the frogs in science class. You kiss Erika.",
+      "sceneTitle": "Frog Day",
+      "choices": [
+        {
+          "text": "Just go with it",
+          "consequence": "Joy.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Apologize after",
+          "consequence": "Civil.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "He builds a radio out of an umbrella and a saw blade.",
+      "sceneTitle": "Phone Home",
+      "choices": [
+        {
+          "text": "Help him",
+          "consequence": "Friend.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Slow him down",
+          "consequence": "Selfish.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He needs to broadcast from a hill.",
+      "sceneTitle": "Forest Trip",
+      "choices": [
+        {
+          "text": "Carry the radio in your bike",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Drive there with Mike",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He turns gray. You turn gray.",
+      "sceneTitle": "Sick",
+      "choices": [
+        {
+          "text": "Stay close",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Tell Mom now",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Mom finds him. Government men in suits arrive.",
+      "sceneTitle": "Discovery",
+      "choices": [
+        {
+          "text": "Hide him",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Cooperate",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The house becomes a hospital.",
+      "sceneTitle": "Plastic Tent",
+      "choices": [
+        {
+          "text": "Stay by his side",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay out of the way",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "His heart flickers. So does yours.",
+      "sceneTitle": "Heart Light",
+      "choices": [
+        {
+          "text": "Hold his hand",
+          "consequence": "Vow.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He stops glowing. You break.",
+      "sceneTitle": "Dead",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Refuse to mourn",
+          "consequence": "Hope.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The flower blooms. He whispers your name.",
+      "sceneTitle": "Awake",
+      "choices": [
+        {
+          "text": "Don't tell the adults",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Tell the doctor",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Mike and his friends. Bikes. A van.",
+      "sceneTitle": "Escape Plan",
+      "choices": [
+        {
+          "text": "Steal the van",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Run on foot",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Police behind. You pedal. He, in the basket, lifts the bikes.",
+      "sceneTitle": "Chase",
+      "choices": [
+        {
+          "text": "Trust it",
+          "consequence": "Path.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Be terrified",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Spaceship lands. Lights through trees.",
+      "sceneTitle": "Forest, Again",
+      "choices": [
+        {
+          "text": "Walk him up",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wait at the edge",
+          "consequence": "Quiet.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "They arrive. Gertie hands him a flower.",
+      "sceneTitle": "Mom and Gertie",
+      "choices": [
+        {
+          "text": "Hug them",
+          "consequence": "Love.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stand alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He touches his finger to your forehead. He'll be right here.",
+      "sceneTitle": "The Touch",
+      "choices": [
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Smile",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He climbs aboard. The ship rises. The rainbow stripes are in the sky.",
+      "sceneTitle": "Departing",
+      "choices": [
+        {
+          "text": "Wave",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Mom's hand on your shoulder. The house is small. The world is bigger.",
+      "sceneTitle": "Home, Now Quieter",
+      "choices": [
+        {
+          "text": "Eat dinner",
+          "consequence": "Routine.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Sit on the porch",
+          "consequence": "Quiet.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Years later you keep the dead flower in a book.",
+      "sceneTitle": "Later",
+      "choices": [
+        {
+          "text": "Open the book sometimes",
+          "consequence": "Sentiment.",
+          "nextNodeId": "end_grown"
+        },
+        {
+          "text": "Keep it closed",
+          "consequence": "Memory.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_storyteller"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_grown",
+      "text": "You become an astronaut. You don't, in the end, meet him again. The stars are, you find, enough.",
+      "sceneTitle": "Elliott, Grown",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Elliott, Grown"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You become a teacher in the same town. Gertie becomes a doctor. Mom remarries kindly. The flower is, still, in the book.",
+      "sceneTitle": "Quiet Life",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Life"
+    },
+    {
+      "id": "end_storyteller",
+      "text": "You write the story down for kids who don't believe in much anymore. They believe. Some of them, after, build radios out of unlikely parts.",
+      "sceneTitle": "The Storyteller",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Storyteller"
+    }
+  ]
+}

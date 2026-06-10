@@ -1,0 +1,433 @@
+{
+  "id": "beast-games-the-final-round",
+  "title": "Beast Games",
+  "sourceTitle": "Beast Games",
+  "kind": "show",
+  "synopsis": "A thousand contestants. Millions in prize money. Cameras everywhere. You are contestant #482 and you have made it to the final ten. Don't look at the drones. Or do.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-01T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "competition",
+    "endurance",
+    "spectacle"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The arena is half-football-stadium, half-airport. Nine other contestants stand on circles taped to the ground. A producer in a polo shirt explains the next round with the calm of a man who has watched many people cry.",
+      "sceneTitle": "Top Ten",
+      "choices": [
+        {
+          "text": "Listen carefully — strategy starts at the rules",
+          "consequence": "Rules are the first weapon.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Scan the other nine",
+          "consequence": "People before plans.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Each round eliminates two. The eliminated are paid a sum. The remaining split the bigger pot. The producers smile when they say 'except this round.'",
+      "sceneTitle": "The Rules",
+      "choices": [
+        {
+          "text": "Ask what 'except this round' means",
+          "consequence": "Always ask.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't react — pretend you expected it",
+          "consequence": "Don't tip your nerves.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You spot two reliable players — Marisol, who plans, and Devon, who reads people. You also spot one chaos agent named Brad who you suspect was cast for exactly this.",
+      "sceneTitle": "Allies",
+      "choices": [
+        {
+          "text": "Form a quiet pact with Marisol and Devon",
+          "consequence": "Allies thrive in small groups.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Befriend Brad first; use his chaos",
+          "consequence": "Sometimes the wild card is your best play.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Stack soda crates higher than anyone. The producers have, you notice, given two contestants crates that wobble. Your stack is, mercifully, square.",
+      "sceneTitle": "The Stack Round",
+      "choices": [
+        {
+          "text": "Win the round cleanly",
+          "consequence": "Don't draw heat by sabotaging.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Help Marisol's stack secretly while building yours",
+          "consequence": "Win as a pair.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A producer, off-camera, leans in and offers you 'a small advantage' for a brief on-camera tantrum at Brad. You realize the show is, in part, a writers' room.",
+      "sceneTitle": "Producer's Whisper",
+      "choices": [
+        {
+          "text": "Refuse the producer's offer",
+          "consequence": "Stay clean.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take the advantage and overact mildly",
+          "consequence": "Use them back.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A two-story plywood maze with cameras at every turn. The cameras click in a way that suggests they're tracking you in particular. Devon nudges you toward an unmarked door.",
+      "sceneTitle": "The Maze",
+      "choices": [
+        {
+          "text": "Take the unmarked door",
+          "consequence": "Bet on Devon's instincts.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take the marked path and stay legible",
+          "consequence": "Don't trust shortcuts on TV.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Round break. A sponsor wants you on Instagram doing a thirty-second clip with their energy drink. You realize your visibility has, accidentally, become an asset.",
+      "sceneTitle": "The Sponsor",
+      "choices": [
+        {
+          "text": "Do the clip authentically",
+          "consequence": "Money is also strategy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Politely decline; protect your image",
+          "consequence": "Don't dilute your story.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Six players left. The producers have, terrifyingly, started using everyone's full name. The next round involves trust.",
+      "sceneTitle": "Final Six",
+      "choices": [
+        {
+          "text": "Trust Marisol publicly",
+          "consequence": "Make the pact visible.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Trust nobody, smile at everyone",
+          "consequence": "Solo posture.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Brad pulls a stunt — slips a sleeping pill into someone's water bottle. He thinks it's funny. You realize the producers are not stopping him. They are recording his face.",
+      "sceneTitle": "Brad's Move",
+      "choices": [
+        {
+          "text": "Pour the bottle out before someone drinks it",
+          "consequence": "Conscience is a budget you spend.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell production and let them handle it",
+          "consequence": "Don't be the hero on camera.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Producers reveal a side quest: each remaining contestant nominates a charity, and a portion of their final winnings will go to it. Suddenly your strategy has a public face.",
+      "sceneTitle": "The Charity Twist",
+      "choices": [
+        {
+          "text": "Pick a charity you actually care about",
+          "consequence": "Lead with truth.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pick a charity that polls well",
+          "consequence": "Optimize the narrative.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Brad, off-camera, breaks down and admits he's broke. The 'chaos' was him trying to be memorable for a sponsorship. He's, suddenly, a person.",
+      "sceneTitle": "The Reality of Brad",
+      "choices": [
+        {
+          "text": "Help Brad through it",
+          "consequence": "Even competitors are people.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Be polite but stay focused",
+          "consequence": "Compassion has limits in a million-dollar game.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Marisol, you, Devon, and — Brad. The producers love it. The pot has, you realize, become genuinely life-changing.",
+      "sceneTitle": "Final Four",
+      "choices": [
+        {
+          "text": "Honor the pact with Marisol and Devon",
+          "consequence": "Allies through the ending.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Break the pact at the right moment",
+          "consequence": "It is, after all, a game.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A reporter — between rounds — wants a comment about a video clip the show might 'leak.' You realize, again, the show is making its own news cycle.",
+      "sceneTitle": "The Press",
+      "choices": [
+        {
+          "text": "Give a careful, kind quote",
+          "consequence": "Maintain your shape.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Decline entirely",
+          "consequence": "Power is also silence.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Stand on a beam. Hold a bag of sand. The first to drop loses. Devon's hands shake first. You can wait him out, or you can give him a graceful exit.",
+      "sceneTitle": "Endurance",
+      "choices": [
+        {
+          "text": "Wait him out",
+          "consequence": "Game theory.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take the dive for him",
+          "consequence": "Pact theory.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "If you split with Marisol you get less per person. If you break and win solo you get the most. If you break and lose you get the appearance fee. You have one more round to decide.",
+      "sceneTitle": "The Math",
+      "choices": [
+        {
+          "text": "Stick with the pact",
+          "consequence": "Reputation outlives prize money.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Break and run for solo win",
+          "consequence": "Bet on yourself.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You and Marisol. The producers have built the moment perfectly. The lights, the music, the audience. She squeezes your hand. The host smiles.",
+      "sceneTitle": "Final Two",
+      "choices": [
+        {
+          "text": "Propose splitting the pot live on air",
+          "consequence": "Subvert the show.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Play the final game for the win",
+          "consequence": "Honor the format.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You go solo. Marisol is gracious on camera and, you realize, won't be next time. You win the final game. The check is enormous. The flight home is silent.",
+      "sceneTitle": "The Solo Path",
+      "choices": [
+        {
+          "text": "Pay Marisol something off the books",
+          "consequence": "Some debts are voluntary.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Move on — it's a game",
+          "consequence": "Compartmentalize.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "On air, you propose a split. The host hesitates. Marisol accepts. The audience goes wild. The producers — eventually — agree because the moment is gold.",
+      "sceneTitle": "Live Split",
+      "choices": [
+        {
+          "text": "Use your platform after the show for the charity",
+          "consequence": "Honor the bigger thing.",
+          "nextNodeId": "end_charity"
+        },
+        {
+          "text": "Use your platform for your own next thing",
+          "consequence": "Honor the smaller thing — yourself.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You win. The check is six feet tall. There is confetti. Your knees, suddenly, are jelly. Marisol hugs you because she is, somehow, a better person than the game asked her to be.",
+      "sceneTitle": "The Win",
+      "choices": [
+        {
+          "text": "Share the win with the people who got you there",
+          "consequence": "Be generous publicly.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take the win quietly and disappear for a year",
+          "consequence": "Recover.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The lawyers walk you through wiring instructions in a beige office. The cursor blinks. You decide, with a finger above the trackpad, what kind of person the money is going to make you.",
+      "sceneTitle": "The Wire Transfer",
+      "choices": [
+        {
+          "text": "Cut checks to the people who got you here",
+          "consequence": "Public generosity.",
+          "nextNodeId": "end_share"
+        },
+        {
+          "text": "Send one to your mother and disappear for a year",
+          "consequence": "Private decompression.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_charity",
+      "text": "You spend the year touring with the charity. The money goes where you said it would. The follower count drops back down. You are, oddly, happier without the metrics. You write the producers a thank-you that is also goodbye.",
+      "sceneTitle": "The Charity Year",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Charity Year"
+    },
+    {
+      "id": "end_self",
+      "text": "You launch a small show of your own — kinder, weirder, less zero-sum. It does fine. It does, in time, very well. The Beast producers, surprisingly, recommend you to a network.",
+      "sceneTitle": "Your Own Show",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Your Own Show"
+    },
+    {
+      "id": "end_share",
+      "text": "You write checks — to Marisol, to Devon, even to Brad. You pay your mother's house off. You set up a small fund for kids who applied to be on the show and didn't make it. It feels, you realize, like winning twice.",
+      "sceneTitle": "Sharing the Win",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sharing the Win"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You disappear for a year. You hike, you sleep, you read books that are not self-help. When you come back you are a person who happened to win a thing once. You are, finally, not the contestant. You are you.",
+      "sceneTitle": "The Quiet Year",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Quiet Year"
+    }
+  ]
+}

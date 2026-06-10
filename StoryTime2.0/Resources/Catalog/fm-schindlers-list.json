@@ -1,0 +1,449 @@
+{
+  "id": "fm-schindlers-list",
+  "title": "Schindler's List",
+  "sourceTitle": "Schindler's List",
+  "kind": "movie",
+  "synopsis": "Kraków, 1939. You're a German businessman with a gift for getting on the right side of every officer at every party. The Jews of this city are about to need a list with your name on it.",
+  "releaseYear": 1993,
+  "addedAt": "2026-03-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "holocaust",
+    "rescue",
+    "historical"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Officers, cognac, jazz. You buy every round.",
+      "sceneTitle": "The Club",
+      "choices": [
+        {
+          "text": "Make a connection",
+          "consequence": "Strategy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Buy more rounds",
+          "consequence": "Patient.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "An enamelware factory, abandoned. A man named Stern keeps the books.",
+      "sceneTitle": "The Factory",
+      "choices": [
+        {
+          "text": "Hire Stern",
+          "consequence": "Trust.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Hire a German",
+          "consequence": "Safe.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Cheap labor, the regime says. People, you see, when you look at them.",
+      "sceneTitle": "Jewish Workers",
+      "choices": [
+        {
+          "text": "Hire many",
+          "consequence": "Right.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hire few",
+          "consequence": "Cover.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Camp commandant. Cruel. Charming when useful.",
+      "sceneTitle": "Goeth",
+      "choices": [
+        {
+          "text": "Befriend him",
+          "consequence": "Strategy.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Avoid him",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Goeth's maid. He beats her. You bring her medicine quietly.",
+      "sceneTitle": "Helen Hirsch",
+      "choices": [
+        {
+          "text": "Help quietly",
+          "consequence": "Care.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Confront Goeth",
+          "consequence": "Foolish.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Liquidation day. The streets fill with bodies and shoes. A girl in a red coat.",
+      "sceneTitle": "The Ghetto",
+      "choices": [
+        {
+          "text": "Watch from the hill",
+          "consequence": "Witness.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Stern brings names. Each name is a person. Each person is a deduction from your factory's price.",
+      "sceneTitle": "Stern's Lists",
+      "choices": [
+        {
+          "text": "Approve every name",
+          "consequence": "Right.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Cap the list",
+          "consequence": "Practical.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You buy people one bribe at a time. The price changes weekly.",
+      "sceneTitle": "Payoffs",
+      "choices": [
+        {
+          "text": "Pay it",
+          "consequence": "Vow.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Negotiate",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You convince Goeth to grant pardons for sport. He likes the idea of being god.",
+      "sceneTitle": "Goeth's Pardons",
+      "choices": [
+        {
+          "text": "Encourage it",
+          "consequence": "Cynical use.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Disgust him",
+          "consequence": "Foolish.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A Jewish wedding in the camp. You attend secretly.",
+      "sceneTitle": "The Wedding",
+      "choices": [
+        {
+          "text": "Drink",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stand far back",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A train of your women workers is misrouted to Auschwitz.",
+      "sceneTitle": "Auschwitz Train",
+      "choices": [
+        {
+          "text": "Buy them back",
+          "consequence": "Now.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Send a telegram first",
+          "consequence": "Cautious.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You enter the office with a diamond brooch and a smile.",
+      "sceneTitle": "Auschwitz Office",
+      "choices": [
+        {
+          "text": "Smile larger",
+          "consequence": "Strategy.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Show the diamond first",
+          "consequence": "Direct.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The women come back. The relief is private.",
+      "sceneTitle": "Women Returned",
+      "choices": [
+        {
+          "text": "Hide the relief",
+          "consequence": "Discipline.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Show some warmth",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Stern, at the typewriter. Names. More names. Eleven hundred names.",
+      "sceneTitle": "The List",
+      "choices": [
+        {
+          "text": "Add every Stern suggests",
+          "consequence": "Right.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Add a few you've thought of",
+          "consequence": "Memory.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your fortune is, by now, mostly gone. Each name has cost a price.",
+      "sceneTitle": "Final Bribes",
+      "choices": [
+        {
+          "text": "Spend the rest",
+          "consequence": "Vow.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Save a little",
+          "consequence": "Survive.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The eleven hundred arrive at Brünnlitz. They are, for now, alive.",
+      "sceneTitle": "The Workers Arrive",
+      "choices": [
+        {
+          "text": "Be at the gate",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay in the office",
+          "consequence": "Discipline.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You make worthless ammunition on purpose. The war ends in slow degrees.",
+      "sceneTitle": "The Last Months",
+      "choices": [
+        {
+          "text": "Keep faking",
+          "consequence": "Sabotage.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Risk less",
+          "consequence": "Safe.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A Russian officer rides in. The workers are no longer prisoners.",
+      "sceneTitle": "Liberation",
+      "choices": [
+        {
+          "text": "Speak to them",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stand to the side",
+          "consequence": "Quiet.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The workers melt down their gold to make you a ring. He who saves one life.",
+      "sceneTitle": "The Ring",
+      "choices": [
+        {
+          "text": "Take the ring",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You break, in front of Stern, over the car you could have sold, the pin you could have sold.",
+      "sceneTitle": "Could Have Saved More",
+      "choices": [
+        {
+          "text": "Let it out",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Bury it",
+          "consequence": "Survival.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You die a poor man, honored. The workers and their children visit your grave for decades.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Be remembered",
+          "consequence": "Honor.",
+          "nextNodeId": "end_ring"
+        },
+        {
+          "text": "Be forgotten quietly",
+          "consequence": "Modest.",
+          "nextNodeId": "end_stern"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_helen"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_ring",
+      "text": "The ring is, in the end, the only inheritance you wanted to leave. The descendants of the eleven hundred number, by the time you are remembered, more than the population of Kraków.",
+      "sceneTitle": "He Who Saves One Life",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "He Who Saves One Life"
+    },
+    {
+      "id": "end_stern",
+      "text": "Stern survives you. He writes the list down again, properly, with photographs. The list, in libraries, becomes a kind of scripture.",
+      "sceneTitle": "Stern's Friendship",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Stern's Friendship"
+    },
+    {
+      "id": "end_helen",
+      "text": "Helen survives. She emigrates. Years later she sits at a kitchen table with your widow, drinking coffee, talking about a man neither of them could have predicted.",
+      "sceneTitle": "Helen, Free",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Helen, Free"
+    }
+  ]
+}

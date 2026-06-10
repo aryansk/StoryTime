@@ -1,0 +1,449 @@
+{
+  "id": "scary-movie-5-the-cabin",
+  "title": "Scary Movie 5",
+  "sourceTitle": "Scary Movie 5",
+  "kind": "movie",
+  "synopsis": "A cabin in the woods, three found children, and a possessed Roomba. You and your spouse just wanted a vacation.",
+  "releaseYear": 2013,
+  "addedAt": "2026-03-29T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "parody",
+    "absurd",
+    "cabin"
+  ],
+  "rating": 2,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You adopt three found children. They are feral. The Department of Adoptions is, mostly, a sign.",
+      "sceneTitle": "Adopting Children",
+      "choices": [
+        {
+          "text": "Adopt them all",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Adopt one",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The Airbnb description includes 'minor haunting.' The reviews are, on balance, kind.",
+      "sceneTitle": "Cabin Reservation",
+      "choices": [
+        {
+          "text": "Book it",
+          "consequence": "Plot.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Read the reviews carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The Roomba turns itself on at 3 a.m. and chases you. The Roomba is, technically, possessed.",
+      "sceneTitle": "Roomba",
+      "choices": [
+        {
+          "text": "Sit on the couch",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Run",
+          "consequence": "Plot.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Cameras everywhere. The cabin records you constantly. You realize, eventually, this is for a streaming show.",
+      "sceneTitle": "Found Footage",
+      "choices": [
+        {
+          "text": "Talk to camera",
+          "consequence": "Style.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Cover the cameras",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A princess shows up. She does, technically, sing. She also, technically, is in a sex scene with a deer.",
+      "sceneTitle": "Snow White Princess",
+      "choices": [
+        {
+          "text": "Be polite",
+          "consequence": "Civil.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Decline the dance",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The children eat your shoes and a cake. The cake was the dog's.",
+      "sceneTitle": "The Children, Feral",
+      "choices": [
+        {
+          "text": "Discipline gently",
+          "consequence": "Parental.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The ghost is named Mama. Mama is, on balance, supportive. She would like, ideally, the cabin returned to her by the weekend.",
+      "sceneTitle": "Mama Ghost",
+      "choices": [
+        {
+          "text": "Negotiate with Mama",
+          "consequence": "Plot.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Move out",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A spoof of Black Swan in the bathroom mirror. You realize, briefly, that you are also a spoof of yourself.",
+      "sceneTitle": "Black Swan Bit",
+      "choices": [
+        {
+          "text": "Dance",
+          "consequence": "Style.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Just brush your teeth",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A dream-within-a-dream sequence. You wake up six times. The sixth time you actually wake up, you are unsure.",
+      "sceneTitle": "Inception Spoof",
+      "choices": [
+        {
+          "text": "Pinch yourself",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Spin a top",
+          "consequence": "Plot.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A camera in the bedroom records you sleeping. It is, somehow, judging you.",
+      "sceneTitle": "Paranormal Activity",
+      "choices": [
+        {
+          "text": "Cover the camera",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Ignore it",
+          "consequence": "Style.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A ghost in the closet wants to know your password. Your password is, embarrassingly, 'password123.'",
+      "sceneTitle": "Insidious Spoof",
+      "choices": [
+        {
+          "text": "Change it",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Give it to the ghost",
+          "consequence": "Generous.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A series of home movies you don't remember filming. They are all of the dog. The dog has, somehow, a secret life.",
+      "sceneTitle": "Sinister",
+      "choices": [
+        {
+          "text": "Question the dog",
+          "consequence": "Plot.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Just let the dog live",
+          "consequence": "Trust.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Mama and you, over tea, reach an understanding. She gets the cabin Tuesdays. You get Wednesdays. The children, somehow, are on board.",
+      "sceneTitle": "Mama, Reconciled",
+      "choices": [
+        {
+          "text": "Sign the agreement",
+          "consequence": "Practical.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Send Mama away",
+          "consequence": "Plot.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The children, over time, become children. The cake-eating becomes pie-baking. The shoe-eating becomes, mostly, shoe-tying.",
+      "sceneTitle": "Children, Less Feral",
+      "choices": [
+        {
+          "text": "Take pride",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Take credit",
+          "consequence": "Style.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The streaming show airs. You are, on balance, the funny one. The dog is the breakout star.",
+      "sceneTitle": "The Streaming Show",
+      "choices": [
+        {
+          "text": "Sign for season two",
+          "consequence": "Style.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "An unnecessary musical dance number. The children participate. The Roomba does a solo.",
+      "sceneTitle": "Dance Number",
+      "choices": [
+        {
+          "text": "Cherish it",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Pretend it didn't happen",
+          "consequence": "Style.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Mama, the Roomba, the deer, and the dog all stand in the kitchen at the same time. Family photo.",
+      "sceneTitle": "Final Confrontation",
+      "choices": [
+        {
+          "text": "Take the photo",
+          "consequence": "Style.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Just be there",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A bizarre dream-hospital sequence in which nothing means anything and everything is, somehow, funny.",
+      "sceneTitle": "Hospital Sequence",
+      "choices": [
+        {
+          "text": "Laugh",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Be confused",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You and your spouse, somewhere in the third act, re-marry on a beach. Mama officiates. The Roomba carries the rings.",
+      "sceneTitle": "Wedding",
+      "choices": [
+        {
+          "text": "Cry",
+          "consequence": "Civil.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Laugh",
+          "consequence": "Style.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Bloopers roll. The Roomba refuses to perform. The deer falls asleep on set.",
+      "sceneTitle": "Bloopers",
+      "choices": [
+        {
+          "text": "Stay for bloopers",
+          "consequence": "Loyal.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Practical.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A title card promises another sequel. The dog winks. The Roomba sighs.",
+      "sceneTitle": "Sequel Hook",
+      "choices": [
+        {
+          "text": "Wink back",
+          "consequence": "Style.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Civil.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_deer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "You keep the cabin. Mama and the dog and the Roomba and the children become, in a real sense, a family. The streaming show runs for six seasons.",
+      "sceneTitle": "Cabin Family",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cabin Family"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You move back to the suburbs. The children, settled, become weirdly normal. You take up gardening. Mama, sometimes, visits.",
+      "sceneTitle": "Suburbs Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Suburbs Again"
+    },
+    {
+      "id": "end_deer",
+      "text": "The deer, against all reason, gets a spinoff. You serve as executive producer. It is the highest-rated show of the year. Nobody at the Emmys asks you any questions you can answer.",
+      "sceneTitle": "The Deer's Spinoff",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Deer's Spinoff"
+    }
+  ]
+}

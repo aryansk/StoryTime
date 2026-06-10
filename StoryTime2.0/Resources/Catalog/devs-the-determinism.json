@@ -1,0 +1,433 @@
+{
+  "id": "devs-the-determinism",
+  "title": "Devs",
+  "sourceTitle": "Devs",
+  "kind": "show",
+  "synopsis": "You took the job because the salary made no sense. The lab is in a sealed building only six people enter. Today they handed you a project and a non-disclosure agreement and a small key.",
+  "releaseYear": 2020,
+  "addedAt": "2026-04-26T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "quantum",
+    "cult",
+    "free will"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Forest, the CEO, hands you the key and a smile that has no joke behind it. 'Devs is the future,' he says. 'You'll either love it or you'll quietly leave.' Nobody, he doesn't add, has quietly left.",
+      "sceneTitle": "The Hire",
+      "choices": [
+        {
+          "text": "Accept and ask no further questions",
+          "consequence": "Curiosity is sometimes deferred.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask one clarifying question",
+          "consequence": "A measured probe.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Floating cubes, ambient hum, six engineers working in absolute silence on a problem you can't yet see. Katie greets you with a half-smile. The air itself feels like it's been thinking for years.",
+      "sceneTitle": "Inside the Lab",
+      "choices": [
+        {
+          "text": "Watch what they're doing",
+          "consequence": "Read the room.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask Katie what 'Devs' actually does",
+          "consequence": "Ask the question.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "'Why six?' you ask. Forest considers. 'Because six is the maximum that can keep a secret,' he says, 'and the minimum that can run determinism at the scale we need.'",
+      "sceneTitle": "The Question",
+      "choices": [
+        {
+          "text": "Press for what 'determinism' means here",
+          "consequence": "Definitions matter.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "File the answer away and start tomorrow",
+          "consequence": "Don't ask twice.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Lyndon shows you the screen — a grainy, jittery, but undeniable reconstruction of Joan of Arc, ten seconds of motion, voice reconstructed from physics alone. The machine, you realize, is reading backwards through the universe.",
+      "sceneTitle": "The Reconstruction",
+      "choices": [
+        {
+          "text": "Believe it and ask how far forward it can read",
+          "consequence": "The terrifying question.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Look for the trick",
+          "consequence": "Skepticism as a posture.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The person you replaced — Sergei — supposedly resigned and moved home to Russia. Katie says it twice in two different sentences. The redundancy is the tell.",
+      "sceneTitle": "Sergei, Missing",
+      "choices": [
+        {
+          "text": "Quietly look for Sergei online",
+          "consequence": "Investigate.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't look; you want to keep the job",
+          "consequence": "Survive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A woman named Lily — Sergei's girlfriend — finds you at a coffee shop. She has questions about him. She has, you realize, more reason to be afraid than you do.",
+      "sceneTitle": "Lily, Outside",
+      "choices": [
+        {
+          "text": "Help her, carefully",
+          "consequence": "Solidarity is a verb.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Plead ignorance and stay safe",
+          "consequence": "Protect yourself.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You watch Devs run a forward projection — ten minutes ahead. A coffee cup falls in the cafeteria at 12:34. At 12:34 the coffee cup falls. Nobody in the lab even blinks.",
+      "sceneTitle": "The Forecast",
+      "choices": [
+        {
+          "text": "Ask if free will exists in this lab",
+          "consequence": "The honest question.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Ask if it can predict tomorrow",
+          "consequence": "The dangerous question.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Forest's office has a single photograph of a small girl. You learn, by accident, that his daughter died in a car accident years ago. Devs, you start to suspect, is grief wearing the clothes of engineering.",
+      "sceneTitle": "Forest's Daughter",
+      "choices": [
+        {
+          "text": "Try to understand Forest's grief",
+          "consequence": "Compassion as analysis.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Decide grief is making him reckless",
+          "consequence": "Identify the risk.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Katie pulls you aside. 'Forest's interpretation is wrong,' she whispers. 'It's not a single line. It's many. We can pick which one we render.' This sentence will keep you awake for years.",
+      "sceneTitle": "The Tunnel Vision",
+      "choices": [
+        {
+          "text": "Help Katie argue the many-worlds case",
+          "consequence": "Pick the right physics.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Believe Forest's single-line view",
+          "consequence": "Pick the kinder physics.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You discover Sergei wasn't a Russian asset — he was a sloppy security guy who got too curious. He was killed in this building. You realize the lab has a body count.",
+      "sceneTitle": "Sergei's Truth",
+      "choices": [
+        {
+          "text": "Take the evidence to the press",
+          "consequence": "Daylight beats determinism.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take it to a federal agency",
+          "consequence": "Process over publicity.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You stand in the center of the rendering cube alone. The visualizations of past and future swarm you. You see — for two terrible seconds — yourself, dead, on the steps outside. The timestamp is in three days.",
+      "sceneTitle": "The Cube",
+      "choices": [
+        {
+          "text": "Choose to defy the prediction",
+          "consequence": "Reach for many-worlds.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Surrender to the determinism",
+          "consequence": "Sometimes acceptance is its own freedom.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You and Lily and Katie meet in a parking garage. Forest's security chief Kenton is hunting both of you. The plan is messy and brave and contingent on one thing — that the machine cannot, in fact, predict everything.",
+      "sceneTitle": "The Plan",
+      "choices": [
+        {
+          "text": "Execute the plan as written",
+          "consequence": "Trust the team.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Improvise around it",
+          "consequence": "Trust your instincts.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You walk into Forest's office alone. You ask him to let you see the rendering of his daughter — the moment of her death. He nods. You watch it. You realize the lab's whole purpose, and you weep for both of you.",
+      "sceneTitle": "The Confession",
+      "choices": [
+        {
+          "text": "Stay and help him let it go",
+          "consequence": "Healing as engineering.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay and help him keep it on",
+          "consequence": "Mercy as architecture.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Kenton comes for you. The lab's predictions said this would happen. You and Lily run for the elevator. The doors close on his hand. The cube hums above you.",
+      "sceneTitle": "Kenton at the Door",
+      "choices": [
+        {
+          "text": "Reach the top and confront Forest",
+          "consequence": "Confront.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go to the basement and pull the plug",
+          "consequence": "Confront the machine.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Katie hands you the shutdown code. 'It will take 47 seconds,' she says. 'Devs will know what you're doing in the first second.' The cube already, you realize, knows.",
+      "sceneTitle": "The Shutdown Sequence",
+      "choices": [
+        {
+          "text": "Begin the sequence anyway",
+          "consequence": "Even the predictable can surprise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hesitate for a second of free will",
+          "consequence": "Pause is a vote too.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Forest, calm, waits at the top. He is not, you realize, going to fight. He is going to ask you to choose — to render his daughter alive in the simulation, or to let him die in this one.",
+      "sceneTitle": "The Top of the Building",
+      "choices": [
+        {
+          "text": "Render his daughter",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Refuse and walk him out",
+          "consequence": "Reality first.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The quantum hardware hums in a vacuum chamber the size of a chapel. You stand with your hand near a kill switch designed by a person who clearly hoped it would never be used.",
+      "sceneTitle": "The Basement",
+      "choices": [
+        {
+          "text": "Pull the switch and end it",
+          "consequence": "Some doors should close.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Walk away without pulling it",
+          "consequence": "Leave the future to itself.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The cube glows. A small girl, perfectly rendered, runs into a perfectly rendered house. Forest, on the floor, watching, smiles for the first time you have ever seen. You feel the universe split.",
+      "sceneTitle": "The Render",
+      "choices": [
+        {
+          "text": "Stay in the rendered universe with Lily",
+          "consequence": "Choose the kinder fork.",
+          "nextNodeId": "end_render"
+        },
+        {
+          "text": "Stay in the unrendered universe and live",
+          "consequence": "Choose the real fork.",
+          "nextNodeId": "end_real"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The lab is shut. Forest dies. Lily, somehow, doesn't. You go home with a security guard's coat over your shoulders. The street outside is unrendered and dry and yours.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Testify in the federal inquiry",
+          "consequence": "Witness.",
+          "nextNodeId": "end_inquiry"
+        },
+        {
+          "text": "Disappear and rebuild",
+          "consequence": "Some endings are private.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Years later, in a coffee shop, you flip a coin twenty times in a row to remind yourself that the future is not yet written. It comes up heads thirteen times. You laugh. You did not, after all, become the prediction.",
+      "sceneTitle": "Many Worlds, One Coffee",
+      "choices": [
+        {
+          "text": "Live the rest of your life unmeasured",
+          "consequence": "Embrace indeterminism.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Write a memoir about Devs, carefully",
+          "consequence": "Document for the record.",
+          "nextNodeId": "end_inquiry"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_render",
+      "text": "You and Lily live, in some sense, in a render. The coffee is real to you. The sunset is rendered to atomic precision. Forest's daughter has, somewhere, a long good life. You don't know what counts as 'real' anymore. You decide it doesn't matter, and the decision lets you breathe.",
+      "sceneTitle": "Inside the Cube",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Inside the Cube"
+    },
+    {
+      "id": "end_real",
+      "text": "You walk out of the building into a morning the machine never quite finished predicting. Lily takes your hand. Forest's death is not, in the end, your fault. The street, unrendered, is enough.",
+      "sceneTitle": "The Unrendered Day",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Unrendered Day"
+    },
+    {
+      "id": "end_inquiry",
+      "text": "You testify for weeks. The lab is dismantled. Three engineers are charged. The technology is, you discover, more or less inevitable — someone else will build it. You write a long, careful memoir that becomes required reading in ethics classes at three universities.",
+      "sceneTitle": "Federal Testimony",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Federal Testimony"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You move to a small city, take a small job, and disappear into a life nobody renders. Years later a documentary about Devs airs and you don't watch it. You walk to the corner store and buy oranges. They are exactly as orange as oranges.",
+      "sceneTitle": "Unmeasured",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Unmeasured"
+    }
+  ]
+}

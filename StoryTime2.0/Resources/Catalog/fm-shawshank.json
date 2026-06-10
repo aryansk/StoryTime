@@ -1,0 +1,449 @@
+{
+  "id": "fm-shawshank",
+  "title": "The Shawshank Redemption",
+  "sourceTitle": "The Shawshank Redemption",
+  "kind": "movie",
+  "synopsis": "You're convicted of a murder you didn't commit. Twenty years in Shawshank Prison. Hope is the most dangerous thing they let you carry.",
+  "releaseYear": 1994,
+  "addedAt": "2026-03-25T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "prison",
+    "hope",
+    "friendship"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Two life terms. The judge does not look at you. Your wife is dead. You did not kill her.",
+      "sceneTitle": "The Sentence",
+      "choices": [
+        {
+          "text": "Plead innocent",
+          "consequence": "Honor.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Pride.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The lights go out. Someone is sobbing. The fat man does not survive.",
+      "sceneTitle": "First Night",
+      "choices": [
+        {
+          "text": "Don't sob",
+          "consequence": "Survive.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Sob inside",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A man named Red runs the contraband. He sells you a rock hammer.",
+      "sceneTitle": "Red",
+      "choices": [
+        {
+          "text": "Trust him quietly",
+          "consequence": "Read.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Test him first",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Bogs and his crew corner you. You learn what the showers cost.",
+      "sceneTitle": "The Sisters",
+      "choices": [
+        {
+          "text": "Fight every time",
+          "consequence": "Refuse.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Survive the first attack",
+          "consequence": "Endure.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A tar-roof detail. You overhear the head guard fretting about an inheritance tax.",
+      "sceneTitle": "The Roof",
+      "choices": [
+        {
+          "text": "Offer help",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You get the men three beers each. You don't drink. You watch them remember what it is to be men.",
+      "sceneTitle": "Beers on the Roof",
+      "choices": [
+        {
+          "text": "Sip nothing",
+          "consequence": "Detached.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Sip one",
+          "consequence": "Indulge.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You ask the warden for funding for the library. He says no. You write letters anyway. Once a week, for years.",
+      "sceneTitle": "The Library",
+      "choices": [
+        {
+          "text": "Keep writing",
+          "consequence": "Patient.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Write twice a week",
+          "consequence": "Pressure.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A new young inmate named Tommy says he knew the man who really killed your wife.",
+      "sceneTitle": "Tommy",
+      "choices": [
+        {
+          "text": "Tell the warden",
+          "consequence": "Naive.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Tell Red first",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The warden listens. He does not believe you. He does not, you realize, want to believe you.",
+      "sceneTitle": "The Warden",
+      "choices": [
+        {
+          "text": "Push",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Safe.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Tommy is killed by the guards in the yard. The official story is escape.",
+      "sceneTitle": "Tommy, Gone",
+      "choices": [
+        {
+          "text": "Mourn him quietly",
+          "consequence": "Survive.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Vow",
+          "consequence": "Plan.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Two months in solitary. You leave with a plan.",
+      "sceneTitle": "Solitary",
+      "choices": [
+        {
+          "text": "Make peace with the plan",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Make peace with the cell",
+          "consequence": "Calm.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You play Mozart over the prison loudspeakers. For two minutes the yard goes silent.",
+      "sceneTitle": "Mozart",
+      "choices": [
+        {
+          "text": "Take the punishment",
+          "consequence": "Worth it.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stop early",
+          "consequence": "Strategic.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Red tells you hope is dangerous. You tell him hope is everything.",
+      "sceneTitle": "Hope",
+      "choices": [
+        {
+          "text": "Disagree gently",
+          "consequence": "Mean it.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Agree out loud and not inside",
+          "consequence": "Strategy.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The library funding arrives, larger than asked. You build a small empire of books.",
+      "sceneTitle": "The Letters Pay",
+      "choices": [
+        {
+          "text": "Use it",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hide nothing",
+          "consequence": "Open.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The warden has, by now, made you his accountant. You launder money for him. You also, slowly, build a man named Stevens.",
+      "sceneTitle": "Money Laundering",
+      "choices": [
+        {
+          "text": "Build Stevens carefully",
+          "consequence": "Patient.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Build him fast",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Each night, after lockdown, you scrape. The hole is, by year nineteen, a tunnel.",
+      "sceneTitle": "The Tunnel",
+      "choices": [
+        {
+          "text": "Be patient",
+          "consequence": "Years.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Be precise",
+          "consequence": "Years.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A thunderstorm. The night. You crawl through five hundred yards of pipe. You come out on the far side of the wall, on your knees, in the rain.",
+      "sceneTitle": "The Storm",
+      "choices": [
+        {
+          "text": "Stand up",
+          "consequence": "Free.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay on knees a moment",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You walk into a bank as Stevens and walk out with thirty-seven thousand dollars and a folder of evidence on the warden.",
+      "sceneTitle": "The Bank",
+      "choices": [
+        {
+          "text": "Mail the evidence",
+          "consequence": "Right.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Burn it",
+          "consequence": "Petty.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A field in Buxton, Maine. Under a stone wall. A tin box. A note for Red.",
+      "sceneTitle": "Buxton",
+      "choices": [
+        {
+          "text": "Leave it where you said you would",
+          "consequence": "Vow.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take the tin and run",
+          "consequence": "Survival.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Pacific. Mexico. A boat to fix. You wait.",
+      "sceneTitle": "Zihuatanejo",
+      "choices": [
+        {
+          "text": "Wait honestly",
+          "consequence": "Patient.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Plan a small business",
+          "consequence": "Forward.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Years later, Red arrives on a bus. He walks the beach. He sees you. You raise a hand.",
+      "sceneTitle": "Red's Bus",
+      "choices": [
+        {
+          "text": "Walk to him",
+          "consequence": "Friend.",
+          "nextNodeId": "end_pacific"
+        },
+        {
+          "text": "Wait for him to come to you",
+          "consequence": "Honor.",
+          "nextNodeId": "end_letter"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_pacific",
+      "text": "You and Red fix the boat. You take tourists out. The Pacific is impossibly blue. You don't think about Shawshank often. When you do, you smile.",
+      "sceneTitle": "Pacific Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pacific Forever"
+    },
+    {
+      "id": "end_letter",
+      "text": "You write letters back to a literacy program at Shawshank. Books, in your name, fill that library for decades. Hope, you decide, is contagious.",
+      "sceneTitle": "The Letters Continue",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Letters Continue"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You live small, on purpose. You and Red die old men by the sea. The tomato garden behind the cottage is, you tell tourists, the most important room in the house.",
+      "sceneTitle": "Quiet Life",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet Life"
+    }
+  ]
+}

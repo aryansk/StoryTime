@@ -1,0 +1,150 @@
+{
+  "id": "mn-lost-dog",
+  "title": "The Lost Dog",
+  "sourceTitle": "The Lost Dog",
+  "kind": "movie",
+  "synopsis": "Saturday morning. A small wet dog on your porch with no tags. The rain isn't stopping.",
+  "releaseYear": 2026,
+  "addedAt": "2026-02-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "small",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "He shivers at the door. He doesn't try to come in.",
+      "sceneTitle": "Porch",
+      "choices": [
+        {
+          "text": "Open the door",
+          "consequence": "Heart.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Bring a towel out",
+          "consequence": "Wise.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "He sleeps on your old hoodie within twelve minutes.",
+      "sceneTitle": "Inside",
+      "choices": [
+        {
+          "text": "Post photos online",
+          "consequence": "Right.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Knock door to door",
+          "consequence": "Honest.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "Nobody recognizes him. A woman crosses herself. A kid hugs his neck.",
+      "sceneTitle": "The Walk",
+      "choices": [
+        {
+          "text": "Try the vet",
+          "consequence": "Smart.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Try the shelter",
+          "consequence": "Smart.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "The vet finds a chip. The owner moved out of state last year and didn't update.",
+      "sceneTitle": "Chip",
+      "choices": [
+        {
+          "text": "Try to reach her anyway",
+          "consequence": "Honor.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Foster him for now",
+          "consequence": "Care.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "She is on the phone crying. He has been missing for fourteen months.",
+      "sceneTitle": "She Calls Back",
+      "choices": [
+        {
+          "text": "Offer to drive",
+          "consequence": "Care.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Offer to ship him properly",
+          "consequence": "Practical.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "She kneels on her driveway. He runs in a straight line.",
+      "sceneTitle": "Reunion",
+      "choices": [
+        {
+          "text": "Stay for tea",
+          "consequence": "Friend.",
+          "nextNodeId": "end_gift"
+        },
+        {
+          "text": "Drive home content",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_own"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_gift",
+      "text": "She sends you postcards forever. You frame the first one.",
+      "sceneTitle": "A Postcard, Every Month",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Postcard, Every Month"
+    },
+    {
+      "id": "end_own",
+      "text": "You almost gave him up. You almost did. The almost was a long second.",
+      "sceneTitle": "Foster Fail",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Foster Fail"
+    }
+  ]
+}

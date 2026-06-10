@@ -1,0 +1,450 @@
+{
+  "id": "fm-modern-times",
+  "title": "Modern Times",
+  "sourceTitle": "Modern Times",
+  "kind": "movie",
+  "synopsis": "A factory, a paddy wagon, a department store, and a tramp who keeps walking up the road toward the next horizon.",
+  "releaseYear": 1936,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "silent",
+    "chaplin",
+    "depression",
+    "tramp"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A feeding machine your boss bought from a salesman.",
+      "sceneTitle": "Lunchtime Test",
+      "choices": [
+        {
+          "text": "Volunteer",
+          "consequence": "Reckless.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Bolts and spinners and a foreman's whistle.",
+      "sceneTitle": "Conveyor Belt",
+      "choices": [
+        {
+          "text": "Keep up",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Slow down",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your body sucked into a wheel like a small leaf.",
+      "sceneTitle": "Gears",
+      "choices": [
+        {
+          "text": "Wave on the way",
+          "consequence": "Calm.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Scream",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A doctor with a tongue depressor and a long lecture.",
+      "sceneTitle": "Hospital",
+      "choices": [
+        {
+          "text": "Smile and leave",
+          "consequence": "Cunning.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Reckless.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A truck loses a red flag and a parade forms behind you.",
+      "sceneTitle": "Flag",
+      "choices": [
+        {
+          "text": "Wave it gently",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Drop it",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A bunk, a man, a stash of cocaine in a salt shaker.",
+      "sceneTitle": "Cell",
+      "choices": [
+        {
+          "text": "Salt your soup",
+          "consequence": "Reckless.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The warden offers a recommendation letter to the outside.",
+      "sceneTitle": "Pardon",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay in the cell",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A bare-footed girl with a stolen banana and a flashing grin.",
+      "sceneTitle": "Gamin",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Heart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Walk on",
+          "consequence": "Cold.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Mother's watch on the counter, a few coins back.",
+      "sceneTitle": "Pawnbroker",
+      "choices": [
+        {
+          "text": "Pawn it",
+          "consequence": "Practical.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A wedge pulled, a hull launched a year early into the harbor.",
+      "sceneTitle": "Shipyard",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Polite.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A night watchman job and a roller-skating rink for two.",
+      "sceneTitle": "Department Store",
+      "choices": [
+        {
+          "text": "Skate blindfolded",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Skate carefully",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Old factory mates turned hungry burglars.",
+      "sceneTitle": "Thieves",
+      "choices": [
+        {
+          "text": "Share the food",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Call the police",
+          "consequence": "Cold.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A door that falls off in your hand. A roof made of pluck.",
+      "sceneTitle": "Shack on the Lake",
+      "choices": [
+        {
+          "text": "Move in",
+          "consequence": "Hope.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Find better",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A factory reopens for a single day.",
+      "sceneTitle": "Newspaper Help-Wanted",
+      "choices": [
+        {
+          "text": "Apply",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Sleep in",
+          "consequence": "Tired.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A brick on the cobbles, your shoe on the brick, a passing parade.",
+      "sceneTitle": "Strike",
+      "choices": [
+        {
+          "text": "Wave again",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A waiter on roller skates with a tray.",
+      "sceneTitle": "Cafe Job",
+      "choices": [
+        {
+          "text": "Take the floor",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Quit",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A singing waiter has lost his cuffs with his lyrics on them.",
+      "sceneTitle": "Performer",
+      "choices": [
+        {
+          "text": "Mime the song",
+          "consequence": "Brilliant.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Sing nonsense",
+          "consequence": "Wild.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Social services for Gamin, paperwork in hand.",
+      "sceneTitle": "Authorities at the Door",
+      "choices": [
+        {
+          "text": "Run with her",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Submit",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A flatbed, a kindness, two passengers in coats.",
+      "sceneTitle": "Truck on the Highway",
+      "choices": [
+        {
+          "text": "Catch it",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A road that bends out of frame, sun behind.",
+      "sceneTitle": "Open Country",
+      "choices": [
+        {
+          "text": "Sing to her",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Just walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A line of dialogue you write on her face with one finger.",
+      "sceneTitle": "Smile, She Cries",
+      "choices": [
+        {
+          "text": "Make her smile",
+          "consequence": "Heart.",
+          "nextNodeId": "end_road"
+        },
+        {
+          "text": "Hold her hand",
+          "consequence": "Honest.",
+          "nextNodeId": "end_cafe"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_factory"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_road",
+      "text": "Two figures on a dusty road and a future that has not been built yet. You whistle. She catches up. The two of you take it from there.",
+      "sceneTitle": "Up the Road",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Up the Road"
+    },
+    {
+      "id": "end_cafe",
+      "text": "The cafe owner gives you a permanent shift and Gamin a dressing room. The customers wait for the song you have not written yet.",
+      "sceneTitle": "Waiter on Wheels",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Waiter on Wheels"
+    },
+    {
+      "id": "end_factory",
+      "text": "The factory reopens at dawn and you, against your better self, are first in the line. The whistle blows. You smile despite yourself, just barely.",
+      "sceneTitle": "The Wheel Goes On",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Wheel Goes On"
+    }
+  ]
+}

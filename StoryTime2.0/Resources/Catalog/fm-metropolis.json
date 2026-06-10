@@ -1,0 +1,450 @@
+{
+  "id": "fm-metropolis",
+  "title": "Metropolis",
+  "sourceTitle": "Metropolis",
+  "kind": "movie",
+  "synopsis": "A city of towers, a workers' city below, a robot of a woman in a chair, and a flood about to rise into the children's lobby.",
+  "releaseYear": 1927,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "silent",
+    "lang",
+    "class",
+    "robot"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A peacock fountain and a girl from below at the elevator.",
+      "sceneTitle": "Pleasure Gardens",
+      "choices": [
+        {
+          "text": "Follow her",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A whistle, a clock, a worker on a dial-board.",
+      "sceneTitle": "Machine M",
+      "choices": [
+        {
+          "text": "Take his place",
+          "consequence": "Mercy.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A woman in the catacombs preaching patience to the workers.",
+      "sceneTitle": "Mary Speaks",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Question",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A door with a five-pointed star, a metal woman on a chair.",
+      "sceneTitle": "Rotwang's House",
+      "choices": [
+        {
+          "text": "Knock",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Watch from the lane",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Joh Fredersen wants to know what was on the dead man's hand.",
+      "sceneTitle": "Father at the Desk",
+      "choices": [
+        {
+          "text": "Tell him",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Hide it",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A foreman with a notebook and your name in it.",
+      "sceneTitle": "Slim",
+      "choices": [
+        {
+          "text": "Avoid him",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A crucifix lit by candles, a story about Babel, a hand raised.",
+      "sceneTitle": "Catacombs Sermon",
+      "choices": [
+        {
+          "text": "Step forward",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Listen quietly",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Rays of light wrap around Mary's body and step into the metal woman.",
+      "sceneTitle": "Rotwang's Lab",
+      "choices": [
+        {
+          "text": "Try to stop him",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A robot in a flesh face dancing at a club for the sons of the rich.",
+      "sceneTitle": "False Maria",
+      "choices": [
+        {
+          "text": "Warn the workers",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Confront her",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A duel almost over a doll on a stage.",
+      "sceneTitle": "Sons in Spats",
+      "choices": [
+        {
+          "text": "Stop it",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Let them fight",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Hammers up, dial-boards smashed, a city's water mains opening below.",
+      "sceneTitle": "Worker Riot",
+      "choices": [
+        {
+          "text": "Run to the children's lobby",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Argue with Maria",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Sea green up the steps, children clinging to a column.",
+      "sceneTitle": "Rising Water",
+      "choices": [
+        {
+          "text": "Carry them",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Find a boat",
+          "consequence": "Practical.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "She is in the upper city alone in a courtyard with a torch and a crowd hunting her.",
+      "sceneTitle": "Maria, Real",
+      "choices": [
+        {
+          "text": "Stand with her",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Hide her",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A robot tied to a stake and a hundred workers cheering before they realize who is in the metal.",
+      "sceneTitle": "Pyre",
+      "choices": [
+        {
+          "text": "Pull the cloth",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A bell tower, Rotwang at your back, Maria over the city.",
+      "sceneTitle": "Cathedral Roof",
+      "choices": [
+        {
+          "text": "Climb",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The owner of Metropolis on the cobbles with a crowd that is not his.",
+      "sceneTitle": "Joh in the Square",
+      "choices": [
+        {
+          "text": "Speak to him",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold the foreman",
+          "consequence": "Practical.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He wants a culprit. He has names in mind.",
+      "sceneTitle": "Grot the Foreman",
+      "choices": [
+        {
+          "text": "Calm him",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hand him names",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He has been ill in bed and he steps forward in white linen.",
+      "sceneTitle": "Joh's Son, Freder",
+      "choices": [
+        {
+          "text": "Stand with him",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Bow",
+          "consequence": "Polite.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Mediator between head and hands must be the heart.",
+      "sceneTitle": "Mary's Words",
+      "choices": [
+        {
+          "text": "Repeat them",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Translate them",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A handshake at the cathedral steps that the camera holds for a long time.",
+      "sceneTitle": "Foreman and Owner",
+      "choices": [
+        {
+          "text": "Place Freder's hand between",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Sun on the towers, a city that has stopped flooding, a small calm.",
+      "sceneTitle": "Dawn",
+      "choices": [
+        {
+          "text": "Breathe",
+          "consequence": "Honest.",
+          "nextNodeId": "end_handshake"
+        },
+        {
+          "text": "Get to work",
+          "consequence": "Discipline.",
+          "nextNodeId": "end_children"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_handshake",
+      "text": "The owner and the foreman take each other's hands with a son between them and the city, briefly, learns a new manner of being a city.",
+      "sceneTitle": "Hand on Hand on Hand",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hand on Hand on Hand"
+    },
+    {
+      "id": "end_children",
+      "text": "You stand in a soaked lobby with children at your knees and a woman across the room who is also you, somehow, and you all breathe.",
+      "sceneTitle": "Lobby of the Saved",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lobby of the Saved"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You return to the candles and the crucifix alone and you sit there a long time, and you do not preach to anyone, and that is also a kind of answer.",
+      "sceneTitle": "Catacombs Empty",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Catacombs Empty"
+    }
+  ]
+}

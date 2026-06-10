@@ -1,0 +1,450 @@
+{
+  "id": "fm-fight-club",
+  "title": "Fight Club",
+  "sourceTitle": "Fight Club",
+  "kind": "movie",
+  "synopsis": "Insomnia, soap, a basement, and a man in the mirror who has finally caught up to you.",
+  "releaseYear": 1999,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "identity",
+    "consumer",
+    "split",
+    "subversion"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Cancer rooms full of hugs and a real grief that is not yours.",
+      "sceneTitle": "Support Group",
+      "choices": [
+        {
+          "text": "Cry honestly",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Fake it",
+          "consequence": "Cold.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "She is a tourist too, and she sees you the way you see her.",
+      "sceneTitle": "Marla",
+      "choices": [
+        {
+          "text": "Confront her",
+          "consequence": "Bold.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Avoid her",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A man with a briefcase and a perfect smile and a card you keep.",
+      "sceneTitle": "Plane Aisle Conversation",
+      "choices": [
+        {
+          "text": "Take the card",
+          "consequence": "Curious.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your IKEA life sublimated into smoke.",
+      "sceneTitle": "Condo on Fire",
+      "choices": [
+        {
+          "text": "Call Tyler",
+          "consequence": "Lost.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Call Marla",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Outside a bar, on a curb, his request.",
+      "sceneTitle": "First Hit",
+      "choices": [
+        {
+          "text": "Hit him",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Eight of them, the first two the same.",
+      "sceneTitle": "Basement Rules",
+      "choices": [
+        {
+          "text": "Recite them",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Lye and water and a moan that is not pain.",
+      "sceneTitle": "Marla in the Bathtub",
+      "choices": [
+        {
+          "text": "Listen at the door",
+          "consequence": "Curious.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Liposuction fat boiled into bars sold back to the people it came from.",
+      "sceneTitle": "Soap",
+      "choices": [
+        {
+          "text": "Sell it",
+          "consequence": "Strategic.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lou comes downstairs with a bat and you smile through teeth.",
+      "sceneTitle": "Lou's Tavern",
+      "choices": [
+        {
+          "text": "Bleed on him",
+          "consequence": "Wild.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold up your hands",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A handle of vinegar, a credit company, a parking lot in the rain.",
+      "sceneTitle": "Homework",
+      "choices": [
+        {
+          "text": "Carry it out",
+          "consequence": "Loyal.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Refuse the task",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Big arms, soft chest, a hug like a wall.",
+      "sceneTitle": "Bob",
+      "choices": [
+        {
+          "text": "Hug back",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Push him off",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The name you give at the support groups, a second skin.",
+      "sceneTitle": "Cornelius",
+      "choices": [
+        {
+          "text": "Keep it",
+          "consequence": "Cunning.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Drop it",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Men in black shirts at attention on a porch.",
+      "sceneTitle": "Space Monkeys",
+      "choices": [
+        {
+          "text": "Lead them",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stop them",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A van under a tower, a fuse in a basement, a timer running.",
+      "sceneTitle": "The Bomb in the Building",
+      "choices": [
+        {
+          "text": "Confront Tyler",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Help set it",
+          "consequence": "Lost.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Except Tyler is not in the chair.",
+      "sceneTitle": "Tyler Tied to a Chair",
+      "choices": [
+        {
+          "text": "Look in the mirror",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Run",
+          "consequence": "Frightened.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He has set her up too, somehow.",
+      "sceneTitle": "Marla, Endangered",
+      "choices": [
+        {
+          "text": "Warn her",
+          "consequence": "Mercy.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Go on",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Bruises blooming on your own face from a fight you are losing to yourself.",
+      "sceneTitle": "Garage Brawl, Alone",
+      "choices": [
+        {
+          "text": "Take the hits",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Surrender",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Tyler at the wheel, you in the passenger seat, hands off the wheel.",
+      "sceneTitle": "Parking Garage",
+      "choices": [
+        {
+          "text": "Grab the wheel",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Let go",
+          "consequence": "Lost.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A view of the city through your own eye and his hand on your gun in your mouth.",
+      "sceneTitle": "Skyscraper",
+      "choices": [
+        {
+          "text": "Pull the trigger",
+          "consequence": "Final.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Eleven buildings around you starting to lean.",
+      "sceneTitle": "Detonators on Schedule",
+      "choices": [
+        {
+          "text": "Cover Marla's eyes",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Make her look",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You meet me at a very strange time in my life.",
+      "sceneTitle": "Hand in Hand",
+      "choices": [
+        {
+          "text": "Hold on",
+          "consequence": "Honest.",
+          "nextNodeId": "end_collapse"
+        },
+        {
+          "text": "Let go",
+          "consequence": "Lost.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_marla"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_collapse",
+      "text": "You stand at a window with Marla's small fingers in yours and watch your debt erase itself in dust. Tomorrow has not been invented yet.",
+      "sceneTitle": "The Buildings Fall",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Buildings Fall"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You go to a meeting and talk, finally, about the second man in your mirror. The room listens. The room has heard this before.",
+      "sceneTitle": "First Rule, Reversed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "First Rule, Reversed"
+    },
+    {
+      "id": "end_marla",
+      "text": "She takes you home. She asks your real name. You give it. It is the first thing you have said out loud in months that you actually meant.",
+      "sceneTitle": "Pillow Talk",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pillow Talk"
+    }
+  ]
+}

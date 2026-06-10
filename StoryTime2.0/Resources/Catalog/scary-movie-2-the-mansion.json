@@ -1,0 +1,449 @@
+{
+  "id": "scary-movie-2-the-mansion",
+  "title": "Scary Movie 2",
+  "sourceTitle": "Scary Movie 2",
+  "kind": "movie",
+  "synopsis": "You're invited to a haunted mansion 'for a college study.' The professor has one arm. The cat is talking. The chandelier is, somehow, judging you.",
+  "releaseYear": 2001,
+  "addedAt": "2026-04-04T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "parody",
+    "horror",
+    "haunted-house"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The mansion. The professor. The one arm that does, technically, work in mysterious ways.",
+      "sceneTitle": "The Driveway",
+      "choices": [
+        {
+          "text": "Shake the arm",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse politely",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Hannibal the butler hands you a drink that is, in fact, alive.",
+      "sceneTitle": "Welcome Drink",
+      "choices": [
+        {
+          "text": "Drink it",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Pour it in a plant",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your room contains a bed, a closet, and one ghost who is mostly into critique.",
+      "sceneTitle": "Your Room",
+      "choices": [
+        {
+          "text": "Engage the ghost",
+          "consequence": "Friend.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ignore",
+          "consequence": "Survival.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Dinner is roast something. The vegetables are screaming. Hannibal pretends not to notice.",
+      "sceneTitle": "Dinner",
+      "choices": [
+        {
+          "text": "Eat it",
+          "consequence": "Manners.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Pretend to eat it",
+          "consequence": "Style.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The cat, named Mr. Kittles, knows everything. Mr. Kittles will tell you, for treats.",
+      "sceneTitle": "The Talking Cat",
+      "choices": [
+        {
+          "text": "Bribe Mr. Kittles",
+          "consequence": "Strategy.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't trust the cat",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A floating sheet. A chandelier that judges. A long hallway that's longer when you walk back.",
+      "sceneTitle": "First Scare",
+      "choices": [
+        {
+          "text": "Walk fast",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Walk slow",
+          "consequence": "Style.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Buddy, the wheelchair-bound friend from college, arrives. He has, mysteriously, gained the ability to levitate.",
+      "sceneTitle": "Buddy",
+      "choices": [
+        {
+          "text": "Befriend Buddy",
+          "consequence": "Loyal.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Get out of Buddy's way",
+          "consequence": "Practical.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The basement has, against all reason, a clown room. Nobody likes the clown room.",
+      "sceneTitle": "The Basement",
+      "choices": [
+        {
+          "text": "Skip the clown room",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Enter the clown room",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Theo, the goth, has an opinion about every painting in the house. Her opinions are, occasionally, prophetic.",
+      "sceneTitle": "Theo",
+      "choices": [
+        {
+          "text": "Listen to Theo",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Mock Theo gently",
+          "consequence": "Tone.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The chandelier delivers a sermon about your choices. The chandelier is, in fact, correct.",
+      "sceneTitle": "Chandelier Sentience",
+      "choices": [
+        {
+          "text": "Apologize to the chandelier",
+          "consequence": "Humor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Argue with the chandelier",
+          "consequence": "Style.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Hedge maze. The hedge maze is also alive. It is, however, polite.",
+      "sceneTitle": "The Maze",
+      "choices": [
+        {
+          "text": "Be polite back",
+          "consequence": "Tone.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Run",
+          "consequence": "Survival.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "There is a sex ghost. He is, somehow, the most polite character in the movie. He offers tea.",
+      "sceneTitle": "Sex Ghost",
+      "choices": [
+        {
+          "text": "Accept the tea",
+          "consequence": "Civil.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Decline politely",
+          "consequence": "Civil.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The library has a single book. The book is full of cookie recipes. The recipes are good.",
+      "sceneTitle": "The Library",
+      "choices": [
+        {
+          "text": "Bake cookies",
+          "consequence": "Joy.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Read the book aloud",
+          "consequence": "Use.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A footman with a chainsaw. He is, alarmingly, also a member of HR.",
+      "sceneTitle": "The Footman",
+      "choices": [
+        {
+          "text": "Comply with HR",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "File a complaint",
+          "consequence": "Style.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Buddy can't get out of bed. The bed has, apparently, gained sentience and is filing a counter-claim.",
+      "sceneTitle": "Buddy's Crisis",
+      "choices": [
+        {
+          "text": "Negotiate with the bed",
+          "consequence": "Diplomacy.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Get Buddy out anyway",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Theo proposes, with great seriousness, a séance. Everyone agrees. The professor brings extra crackers.",
+      "sceneTitle": "Theo's Plan",
+      "choices": [
+        {
+          "text": "Hold the séance",
+          "consequence": "Plot.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold the séance but eat the crackers first",
+          "consequence": "Snacks.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The spirits arrive. They are mostly there for the crackers. One of them files a noise complaint.",
+      "sceneTitle": "Séance",
+      "choices": [
+        {
+          "text": "Sort out the noise complaint",
+          "consequence": "Civic.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Pivot to actual exorcism",
+          "consequence": "Plot.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The professor reveals his one-arm origin story. It involves a wedding, a tractor, and his cousin. Nobody is brave enough to ask follow-up questions.",
+      "sceneTitle": "Professor's Reveal",
+      "choices": [
+        {
+          "text": "Ask follow-ups",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Let the story breathe",
+          "consequence": "Mercy.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "All the ghosts in one room. The chandelier presides. Mr. Kittles moderates. Buddy is, against all odds, the swing vote.",
+      "sceneTitle": "Final Showdown",
+      "choices": [
+        {
+          "text": "Side with the chandelier",
+          "consequence": "Style.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Side with Mr. Kittles",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You walk out of the mansion alive, with cookies and a fairly comprehensive HR file.",
+      "sceneTitle": "Exit",
+      "choices": [
+        {
+          "text": "Take the cookies home",
+          "consequence": "Practical.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Leave the cookies for the ghosts",
+          "consequence": "Civil.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A title card promises, somewhere down the road, another sequel. Mr. Kittles winks at the camera. The chandelier sighs.",
+      "sceneTitle": "Sequel Hook",
+      "choices": [
+        {
+          "text": "Wink back",
+          "consequence": "Style.",
+          "nextNodeId": "end_house"
+        },
+        {
+          "text": "Pretend not to notice",
+          "consequence": "Civil.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_cookies"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_house",
+      "text": "The mansion adopts you. You move in. You become, by year's end, an honorary haunting. It is the best apartment you have ever had.",
+      "sceneTitle": "Welcome to the Family",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Welcome to the Family"
+    },
+    {
+      "id": "end_book",
+      "text": "You write a memoir of the weekend. It outsells your other books combined. You retire on the proceeds. You are interviewed, exactly once, on morning TV.",
+      "sceneTitle": "The Memoir",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Memoir"
+    },
+    {
+      "id": "end_cookies",
+      "text": "You take the recipe book. You open a small bakery. Mr. Kittles, in a strange way, becomes the bakery's mascot. The chandelier writes you a glowing online review.",
+      "sceneTitle": "Cookies, Indefinitely",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cookies, Indefinitely"
+    }
+  ]
+}

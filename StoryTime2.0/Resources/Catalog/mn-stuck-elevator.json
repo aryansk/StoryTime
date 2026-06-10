@@ -1,0 +1,150 @@
+{
+  "id": "mn-stuck-elevator",
+  "title": "Stuck in the Elevator",
+  "sourceTitle": "Stuck in the Elevator",
+  "kind": "movie",
+  "synopsis": "Floor 23. The lights flicker. Three strangers. The fire alarm just went off.",
+  "releaseYear": 2026,
+  "addedAt": "2026-02-04T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "one-room",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "The car jerks and stills. The display says 23. The smell is wrong.",
+      "sceneTitle": "The Stop",
+      "choices": [
+        {
+          "text": "Hit the call button",
+          "consequence": "Tactical.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Pry the doors",
+          "consequence": "Brave.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "A nurse, a teenager, a man with a briefcase. Each takes you in.",
+      "sceneTitle": "The Strangers",
+      "choices": [
+        {
+          "text": "Take charge",
+          "consequence": "Lead.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "Two have no signal. The nurse's does.",
+      "sceneTitle": "Phones",
+      "choices": [
+        {
+          "text": "Coordinate",
+          "consequence": "Smart.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "A thin line of smoke under the door. The boy starts coughing.",
+      "sceneTitle": "Smoke",
+      "choices": [
+        {
+          "text": "Wet your shirts",
+          "consequence": "Smart.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Lift the ceiling panel",
+          "consequence": "Brave.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "Above the panel, an old maintenance ladder runs to the roof.",
+      "sceneTitle": "Ladder Up",
+      "choices": [
+        {
+          "text": "Send the boy first",
+          "consequence": "Care.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Send the strongest first",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "Roof. Helicopters far off. The nurse hugs you in a way that is years of hugging compressed.",
+      "sceneTitle": "Daylight",
+      "choices": [
+        {
+          "text": "Hug back",
+          "consequence": "Honor.",
+          "nextNodeId": "end_safe"
+        },
+        {
+          "text": "Help the others up first",
+          "consequence": "Honor.",
+          "nextNodeId": "end_friend"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_safe",
+      "text": "Everyone gets out. The man in the suit, weeping in his SUV, tells you it was his first day.",
+      "sceneTitle": "Safe",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Safe"
+    },
+    {
+      "id": "end_friend",
+      "text": "You stay friends with the nurse. You get drinks every February 4th.",
+      "sceneTitle": "Friend in a Stairwell",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Friend in a Stairwell"
+    }
+  ]
+}

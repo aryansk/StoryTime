@@ -1,0 +1,449 @@
+{
+  "id": "scary-movie-3-the-cycle",
+  "title": "Scary Movie 3",
+  "sourceTitle": "Scary Movie 3",
+  "kind": "movie",
+  "synopsis": "There's a tape that kills you a week after you watch it. There are crop circles in your uncle's field. There is a rapper named George. Solve all three.",
+  "releaseYear": 2003,
+  "addedAt": "2026-03-30T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "parody",
+    "absurd",
+    "the-ring"
+  ],
+  "rating": 2,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your friend Brenda hands you the cursed tape. The cursed tape is, technically, a VHS. You haven't owned a VCR in years.",
+      "sceneTitle": "The Tape",
+      "choices": [
+        {
+          "text": "Find a VCR",
+          "consequence": "Plot.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse the tape",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A pawn shop has a VCR. The pawn shop owner is also a rapper.",
+      "sceneTitle": "The VCR",
+      "choices": [
+        {
+          "text": "Buy the VCR",
+          "consequence": "Plot.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Take the rapper's number",
+          "consequence": "Style.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You watch the tape. It is grainy. It is also, you realize, a karaoke video for a song you don't know.",
+      "sceneTitle": "The Watch",
+      "choices": [
+        {
+          "text": "Try to identify the song",
+          "consequence": "Investigate.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Just turn it off",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Cindy, the protagonist of every Scary Movie, calls. She has been trying to call you for two films.",
+      "sceneTitle": "Cindy",
+      "choices": [
+        {
+          "text": "Pick up",
+          "consequence": "Plot.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Let it go to voicemail",
+          "consequence": "Style.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your uncle's cornfield has new crop circles. The circles, drawn by aliens, are also a math joke.",
+      "sceneTitle": "The Field",
+      "choices": [
+        {
+          "text": "Solve the math",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take a photo",
+          "consequence": "Tourist.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Father Muldoon has, in his rectory, both an exorcism kit and a karaoke machine. They are, surprisingly, related.",
+      "sceneTitle": "The Priest",
+      "choices": [
+        {
+          "text": "Use the karaoke",
+          "consequence": "Plot.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Use the kit",
+          "consequence": "Plot.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The aliens, polite, show up at the cornfield. They have a complaint. The complaint is, technically, valid.",
+      "sceneTitle": "The Aliens",
+      "choices": [
+        {
+          "text": "Hear them out",
+          "consequence": "Civil.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Apologize on behalf of humanity",
+          "consequence": "Generous.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The girl from the tape, Tabitha, climbs out of a TV. She is, off-camera, exhausted.",
+      "sceneTitle": "Tabitha",
+      "choices": [
+        {
+          "text": "Make her tea",
+          "consequence": "Civil.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Polite.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You end up in a rap battle. You don't know how. The rules are, somehow, clear.",
+      "sceneTitle": "Sue's Rap Battle",
+      "choices": [
+        {
+          "text": "Battle",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Forfeit",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Brenda has been killed by the tape. She is, however, alive in this scene. The continuity is, again, doing its best.",
+      "sceneTitle": "Brenda",
+      "choices": [
+        {
+          "text": "Just go with it",
+          "consequence": "Style.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Question it",
+          "consequence": "Comedy.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The President — also the protagonist of the parody — is, today, addressing the nation. He has, on his desk, a chicken.",
+      "sceneTitle": "The President",
+      "choices": [
+        {
+          "text": "Brief him",
+          "consequence": "Plot.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take the chicken",
+          "consequence": "Plot.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The press briefing involves, accidentally, the President saying the cursed tape song out loud. The press laughs. The aliens cry.",
+      "sceneTitle": "Press Briefing",
+      "choices": [
+        {
+          "text": "Stop the briefing",
+          "consequence": "Civic.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let it finish",
+          "consequence": "Comedy.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Cindy proposes a plan. The plan involves Tabitha and the karaoke machine and the rap battle.",
+      "sceneTitle": "Cindy's Plan",
+      "choices": [
+        {
+          "text": "Adopt the plan",
+          "consequence": "Trust.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Modify the plan",
+          "consequence": "Improve.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Tabitha's mother, somewhere, wants to be apologized to. Tabitha is, technically, the saddest character in the movie.",
+      "sceneTitle": "Mac and Tabitha",
+      "choices": [
+        {
+          "text": "Apologize to Tabitha's mother",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Apologize to Tabitha",
+          "consequence": "Direct.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The final showdown is a karaoke night at the local bar. The aliens are surprisingly good at backup.",
+      "sceneTitle": "Karaoke Showdown",
+      "choices": [
+        {
+          "text": "Sing",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Lip sync",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The tape, finally, plays its full original recording. The recording is, in fact, a 1976 wedding video.",
+      "sceneTitle": "The Tape's Origin",
+      "choices": [
+        {
+          "text": "Reunite the wedding party",
+          "consequence": "Plot.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Just delete the file",
+          "consequence": "Modern.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The aliens, satisfied, leave. They take with them, oddly, the chicken.",
+      "sceneTitle": "Aliens Negotiate",
+      "choices": [
+        {
+          "text": "Wave goodbye",
+          "consequence": "Civil.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Run for the cornfield",
+          "consequence": "Comedy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Sue ends the movie with a freestyle rap about closure, family, and cursed VHS tapes.",
+      "sceneTitle": "Sue, Rapping",
+      "choices": [
+        {
+          "text": "Drop the mic",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Bow",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Credits roll. Bloopers. A cameo by an alien who clearly didn't sign the release.",
+      "sceneTitle": "Roll Credits",
+      "choices": [
+        {
+          "text": "Stay for bloopers",
+          "consequence": "Loyal.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Leave the theater",
+          "consequence": "Practical.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Tabitha's mother, played by a famous comedian, hugs you. The hug, on screen, is the best joke of the movie.",
+      "sceneTitle": "Tabitha's Mother",
+      "choices": [
+        {
+          "text": "Hug back",
+          "consequence": "Civil.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Just smile",
+          "consequence": "Style.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A title card promises Scary Movie 4. Everyone, including the chicken, is back next year.",
+      "sceneTitle": "Sequel Tease",
+      "choices": [
+        {
+          "text": "Plan to attend",
+          "consequence": "Loyal.",
+          "nextNodeId": "end_sing"
+        },
+        {
+          "text": "Skip the sequel",
+          "consequence": "Wise.",
+          "nextNodeId": "end_aliens"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_wedding"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_sing",
+      "text": "You become the karaoke champion of the county. The cursed tape, in fact, is the song that keeps winning.",
+      "sceneTitle": "Karaoke Champion",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Karaoke Champion"
+    },
+    {
+      "id": "end_aliens",
+      "text": "The aliens decide to move in with you. They are, in fact, polite tenants. They pay rent in interstellar shrimp.",
+      "sceneTitle": "The Aliens Move In",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Aliens Move In"
+    },
+    {
+      "id": "end_wedding",
+      "text": "You attend the actual 1976 wedding via a time-travel sequence you can't quite explain. You realize the cursed tape was, all along, family content.",
+      "sceneTitle": "The 1976 Wedding",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The 1976 Wedding"
+    }
+  ]
+}

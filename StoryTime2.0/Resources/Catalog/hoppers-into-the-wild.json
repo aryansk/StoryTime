@@ -1,0 +1,425 @@
+{
+  "id": "hoppers-into-the-wild",
+  "title": "Hoppers",
+  "sourceTitle": "Hoppers",
+  "kind": "movie",
+  "synopsis": "A new gadget lets you beam your mind into a lifelike robot animal and join the creatures of the marsh. You wanted to save the wetland. You didn't expect the animals to have a vote — or to change yours.",
+  "releaseYear": 2026,
+  "addedAt": "2026-05-22T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "animals",
+    "nature",
+    "adventure"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The lab's prototype hums: beam your consciousness into a robotic beaver and walk among real animals undetected. The wetland behind your town is about to be paved for a mall. You think the animals deserve a warning. You volunteer to go first.",
+      "sceneTitle": "The Hopper",
+      "choices": [
+        {
+          "text": "Jump in immediately",
+          "consequence": "Some leaps you take before you can think better of them.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Run one more safety check",
+          "consequence": "Caution is a kindness you do your future self.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The world rushes up close and enormous. You're a beaver now — whiskers, flat tail, teeth like chisels. Sound and smell flood in. A real beaver eyes your robot body, unconvinced.",
+      "sceneTitle": "Four Paws",
+      "choices": [
+        {
+          "text": "Greet the real beaver as a friend",
+          "consequence": "First contact, paw to paw.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Observe quietly and learn the rules",
+          "consequence": "Watch before you wade in.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The safety check finds a flaw: if your robot body is destroyed while you're inside, the jolt back could hurt — or strand you. The clock to the bulldozers is ticking. You decide the risk is worth the wetland.",
+      "sceneTitle": "The Glitch",
+      "choices": [
+        {
+          "text": "Go anyway, carefully",
+          "consequence": "Brave and reckless are cousins, not twins.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Bring a remote escape switch",
+          "consequence": "Always know where the door is.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The marsh has a leader — a grumpy old beaver the others call King George, who built the great dam and trusts no two-legger, robot or otherwise. To save the wetland you'll need him, and he'd happily gnaw you in half.",
+      "sceneTitle": "King George",
+      "choices": [
+        {
+          "text": "Try to win his trust honestly",
+          "consequence": "Respect is a current you swim with, not against.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Try to impress him with human cleverness",
+          "consequence": "Cleverness without humility just makes noise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You discover the marsh has a whole society — herons with opinions, otters with grudges, a wise old turtle who remembers the last time humans came with machines. They've survived people before. Barely.",
+      "sceneTitle": "The Council of Critters",
+      "choices": [
+        {
+          "text": "Listen to the turtle's history first",
+          "consequence": "The old remember what the young must learn.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Rally the young animals to act now",
+          "consequence": "Urgency is honest but it can be clumsy.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Bit by bit you learn it — not words, but warnings, rhythms, the tail-slap that means danger and the splash that means come. For the first time the marsh stops treating you as a stranger and starts treating you as a neighbor.",
+      "sceneTitle": "Speaking Their Language",
+      "choices": [
+        {
+          "text": "Tell them the truth about the mall",
+          "consequence": "Hard news given with respect is still a gift.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Soften the news so they don't panic",
+          "consequence": "A protective lie is still a lie.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You try to lead and it goes sideways — a clever plan that ignores how the marsh actually works, a dam nearly broken, a duckling nearly lost. The animals pull you out of trouble you made. Humbling doesn't cover it.",
+      "sceneTitle": "Out of Your Depth",
+      "choices": [
+        {
+          "text": "Apologize and ask to learn their way",
+          "consequence": "The bravest word is sometimes 'sorry.'",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Insist your way will still work",
+          "consequence": "Pride is heavy to swim with.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You gather the marsh and tell them everything: the surveyors, the machines, the date. King George's old eyes go hard. 'We have run before,' he says. 'There is nowhere left to run to.' The choice of what to do next is suddenly very real.",
+      "sceneTitle": "The Warning",
+      "choices": [
+        {
+          "text": "Plan to fight the development",
+          "consequence": "Some homes are worth standing in front of.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Plan to help them relocate safely",
+          "consequence": "Survival sometimes wears the face of retreat.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Before any plan is ready, the trucks come early — orange vests, spray paint, a clipboard deciding the fate of a thousand lives that don't fit in its columns. The marsh erupts in panic. You have minutes, not days.",
+      "sceneTitle": "The Surveyors Arrive",
+      "choices": [
+        {
+          "text": "Lead an emergency evacuation",
+          "consequence": "Save who you can, right now.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Try to stall the humans yourself",
+          "consequence": "One small beaver against a clipboard. Why not.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You and the animals do the impossible — chewed-down survey stakes, a beaver-built flood overnight, a colony of creatures that simply, gloriously, will not move. The footage of it (somehow) ends up online. The town starts to pay attention.",
+      "sceneTitle": "The Stand",
+      "choices": [
+        {
+          "text": "Reveal yourself and tell the human story",
+          "consequence": "Sometimes the bridge has to walk on two legs.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay hidden and let the marsh speak",
+          "consequence": "Let the wild make its own case.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You guide the marsh's families across roads and culverts toward a wilder, safer water upstream — a heron flying scout, otters herding stragglers, you and King George at the front. Not everyone is sure they should follow a robot. They follow anyway.",
+      "sceneTitle": "The Long Walk",
+      "choices": [
+        {
+          "text": "Get them all there, no one left behind",
+          "consequence": "A leader counts heads at the back of the line.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Go back for the ones who refused to leave",
+          "consequence": "Home is the hardest thing to ask anyone to abandon.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You pull yourself out of the hopper, gasping, human again — and you're different. You've felt the marsh from the inside now. You take what you saw to the town council, to the news, to anyone who'll listen, and you do not let them look away.",
+      "sceneTitle": "Back in Your Body",
+      "choices": [
+        {
+          "text": "Make the town fall in love with the marsh",
+          "consequence": "People protect what they've learned to love.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take the developers to court with the evidence",
+          "consequence": "Sometimes you fight paper with paper.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your robot body is caught in the machinery's path, and the glitch you were warned about flares — if you don't jump out now, you could be stranded as a beaver forever. But leaving now means abandoning the marsh at the worst moment.",
+      "sceneTitle": "The Danger",
+      "choices": [
+        {
+          "text": "Stay in to finish saving them",
+          "consequence": "Some causes are worth the risk of yourself.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Jump out before it's too late",
+          "consequence": "You can do more good with a body to come back to.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You bring the town to the water — kids, grandparents, the mayor in unwise shoes. They see the otters play, the herons fish, King George patrol his dam. You watch a developer's daughter laugh at a duckling, and you know you've won something.",
+      "sceneTitle": "Hearts and Minds",
+      "choices": [
+        {
+          "text": "Push for the wetland to become a sanctuary",
+          "consequence": "Aim past survival, toward flourishing.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Settle for a compromise that saves the core",
+          "consequence": "Half a marsh saved is a thousand lives saved.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "In a beige room with bad coffee, the future of the marsh comes down to permits and clauses and the footage of a beaver society refusing to die quietly. You speak. The animals can't be in the room, but somehow the whole marsh is.",
+      "sceneTitle": "The Hearing",
+      "choices": [
+        {
+          "text": "Win the case outright",
+          "consequence": "Justice, slow and beige, occasionally arrives.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Lose the case but spark a movement",
+          "consequence": "Some defeats plant longer victories.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You stay in, and you save them — you break the machine's path, you hold the line, you get every last family to safe water. The cost is real: the hopper fails, and for a long, frightening while, you are only a beaver, fully, in the wild you fought for.",
+      "sceneTitle": "One With the Marsh",
+      "choices": [
+        {
+          "text": "Find a way back to your human life",
+          "consequence": "Two worlds, and a bridge you have to rebuild.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Choose to stay wild a while longer",
+          "consequence": "Some homes choose you back.",
+          "nextNodeId": "end_wild"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The wetland is saved — not as a leftover scrap, but as a protected wild heart with the town wrapped proudly around it. King George, ancient and unimpressed, slaps his tail once in what is almost, almost approval.",
+      "sceneTitle": "The Sanctuary",
+      "choices": [
+        {
+          "text": "Dedicate your life to the wild",
+          "consequence": "Some callings arrive with whiskers.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Share the hopper so others can understand animals too",
+          "consequence": "Empathy is the only technology that scales.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "It isn't everything. The mall shrinks, the marsh keeps its core, and a fragile peace is drawn in spray paint and signatures. It's imperfect, like all real victories. The animals, who never expected to win at all, are cautiously, splashily delighted.",
+      "sceneTitle": "The Compromise",
+      "choices": [
+        {
+          "text": "Vow to keep fighting for the rest",
+          "consequence": "A line held is a line you can advance from.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Celebrate what you saved with the whole marsh",
+          "consequence": "Joy is allowed, even in an unfinished win.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You spend the next summer in muck boots and a clipboard, learning every inch of the marsh that the marsh hasn't already taught you in fur. The town hires you full-time. King George tolerates your presence with what is, for him, real affection.",
+      "sceneTitle": "The Ranger's Path",
+      "choices": [
+        {
+          "text": "Commit to the marsh for the long haul",
+          "consequence": "Some jobs are vocations in waders.",
+          "nextNodeId": "end_ranger"
+        },
+        {
+          "text": "Branch out to protect other wild places too",
+          "consequence": "Lessons from one marsh fit many.",
+          "nextNodeId": "end_bridge"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You teach the next group of kids to use the device — gentle rules, short visits, and a vow to leave the marsh better than you found it. Watching a ten-year-old return from being a heron and announce, tearfully, 'I get it now,' is the best paycheck you'll ever earn.",
+      "sceneTitle": "Opening the Hoppers",
+      "choices": [
+        {
+          "text": "Build a whole program around it",
+          "consequence": "Scale the empathy, save the wild.",
+          "nextNodeId": "end_bridge"
+        },
+        {
+          "text": "Keep it small and sacred, on purpose",
+          "consequence": "Some magic only works at human scale.",
+          "nextNodeId": "end_ranger"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_wild",
+      "text": "For one whole season you live as a beaver, and it is the truest you've ever felt — cold mornings, warm lodges, a family of creatures who don't care that you started as a girl. When you finally go home, you bring the marsh's heartbeat back with you, and you never lose it.",
+      "sceneTitle": "Home in the Water",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Home in the Water"
+    },
+    {
+      "id": "end_ranger",
+      "text": "You grow up and become the marsh's fiercest human friend — ranger, scientist, troublemaker, voice for the voiceless. Every fight you pick, you pick for the small wet kingdom that once let a robot beaver join its council. King George would approve. He'd never admit it.",
+      "sceneTitle": "Keeper of the Marsh",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Keeper of the Marsh"
+    },
+    {
+      "id": "end_bridge",
+      "text": "You open the hopper to everyone — kids spend afternoons as herons and otters and turtles, and a generation grows up unable to imagine paving a place they've lived inside. The wild stops being 'out there.' It becomes us. That, it turns out, is how you really save a marsh.",
+      "sceneTitle": "A Bridge Between Worlds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Bridge Between Worlds"
+    }
+  ]
+}

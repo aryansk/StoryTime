@@ -1,0 +1,450 @@
+{
+  "id": "fm-thing",
+  "title": "The Thing",
+  "sourceTitle": "The Thing",
+  "kind": "movie",
+  "synopsis": "An Antarctic research station, a Norwegian helicopter, and a thing that imitates anything it touches.",
+  "releaseYear": 1982,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "carpenter",
+    "ice",
+    "paranoia",
+    "shapeshift"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A helicopter hunts a dog across white tundra with a rifle.",
+      "sceneTitle": "Norwegian Pursuit",
+      "choices": [
+        {
+          "text": "Take cover",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Shoot back",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The husky comes in calm, eyes too bright.",
+      "sceneTitle": "Camp Dog",
+      "choices": [
+        {
+          "text": "Cage it",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Pet it",
+          "consequence": "Reckless.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A burned man in a chair, a wall of melted instruments.",
+      "sceneTitle": "Norwegian Camp",
+      "choices": [
+        {
+          "text": "Photograph",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Search the labs",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A negative of a body cut from the floor.",
+      "sceneTitle": "Block of Ice",
+      "choices": [
+        {
+          "text": "Bring it back",
+          "consequence": "Curious.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Leave it",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A dog splitting open in the middle of the night.",
+      "sceneTitle": "Kennel",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Cage it",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Probability of infection: high.",
+      "sceneTitle": "Blair's Computer",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Doubt him",
+          "consequence": "Pride.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Garry hands over command to a thinking man.",
+      "sceneTitle": "Lockdown",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Defer",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A doppelganger caught mid-replication on a snowy slope.",
+      "sceneTitle": "Bennings",
+      "choices": [
+        {
+          "text": "Burn him",
+          "consequence": "Hard.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He smashes the radio and the dogs.",
+      "sceneTitle": "Blair's Cabin",
+      "choices": [
+        {
+          "text": "Sedate him",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Lock him outside",
+          "consequence": "Cold.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Vials in a fridge, all slashed open in the night.",
+      "sceneTitle": "Blood Cabinet",
+      "choices": [
+        {
+          "text": "Trust no one",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Trust someone",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A defibrillator and a chest that opens like a mouth.",
+      "sceneTitle": "Norris's Heart",
+      "choices": [
+        {
+          "text": "Drop the paddles",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Burn him",
+          "consequence": "Final.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A severed head growing legs across the floor.",
+      "sceneTitle": "Head Walks",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Final.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stamp it",
+          "consequence": "Reckless.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "If I don't make it, nobody listen to anybody but the people you've seen with me in this room.",
+      "sceneTitle": "MacReady on Tape",
+      "choices": [
+        {
+          "text": "Record it",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Skip the tape",
+          "consequence": "Cautious.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Hot wire from a flame in a Petri dish.",
+      "sceneTitle": "Blood Test",
+      "choices": [
+        {
+          "text": "Test everyone",
+          "consequence": "Discipline.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Test only suspects",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A scream of skin, a flame burst, a window broken.",
+      "sceneTitle": "Palmer Jumps",
+      "choices": [
+        {
+          "text": "Cover the door",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Heating units dropping, frostbite climbing.",
+      "sceneTitle": "Generator Out",
+      "choices": [
+        {
+          "text": "Restart it",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Burn the rest of the camp",
+          "consequence": "Final.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "An excavation, ice melted, a craft beneath the snow.",
+      "sceneTitle": "Underground Saucer",
+      "choices": [
+        {
+          "text": "Wire the explosives",
+          "consequence": "Final.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Climb in",
+          "consequence": "Reckless.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He has been changing, has been digging, has been building.",
+      "sceneTitle": "Blair Returns",
+      "choices": [
+        {
+          "text": "Confront him",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait for him to come out",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Charges in the ice over the saucer.",
+      "sceneTitle": "Dynamite Down",
+      "choices": [
+        {
+          "text": "Set the timer",
+          "consequence": "Final.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Walls of snow and ice rising and falling.",
+      "sceneTitle": "Explosions",
+      "choices": [
+        {
+          "text": "Crawl out",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold the line",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A bottle of scotch, a fire, a long silence in the wind.",
+      "sceneTitle": "Two Men in the Snow",
+      "choices": [
+        {
+          "text": "Drink",
+          "consequence": "Honest.",
+          "nextNodeId": "end_fire"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "end_blood"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_chase"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_fire",
+      "text": "You sit across from Childs with a flask between you and you watch each other for tells while the fire dies, and you wait for the dawn or the end.",
+      "sceneTitle": "Wait for the Cold",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Wait for the Cold"
+    },
+    {
+      "id": "end_blood",
+      "text": "You both come up clean. The next research team finds you sleeping back-to-back in the wreckage.",
+      "sceneTitle": "Test Passed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Test Passed"
+    },
+    {
+      "id": "end_chase",
+      "text": "One of you is wrong. The other one doesn't know it yet. The wind takes the bottle. The story does not end.",
+      "sceneTitle": "The Thing Walks",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Thing Walks"
+    }
+  ]
+}

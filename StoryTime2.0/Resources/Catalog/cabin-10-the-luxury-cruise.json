@@ -1,0 +1,433 @@
+{
+  "id": "cabin-10-the-luxury-cruise",
+  "title": "The Woman in Cabin 10",
+  "sourceTitle": "The Woman in Cabin 10",
+  "kind": "movie",
+  "synopsis": "A luxury cruise. A woman in the next cabin. A splash at two a.m. By morning, the cabin doesn't exist and neither does she. You're a journalist, mid-breakdown, expected to write a glossy travel piece. Try not to.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-27T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "closed-ship",
+    "witness",
+    "unreliable"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Eight cabins, eleven passengers, the Aurora Borealis as backdrop, and a press kit that has misspelled your name. You're meant to write four thousand words about the canapés. Your hands shake from last week, not last drink.",
+      "sceneTitle": "Boarding",
+      "choices": [
+        {
+          "text": "Network at the welcome dinner",
+          "consequence": "Money introduces itself.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay quiet and observe",
+          "consequence": "Watch first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You borrow mascara from your neighbor in Cabin 10. She is thin, mid-thirties, smiling like a person who has been told to smile recently. You make a small joke about ship Wi-Fi. She laughs too sharply.",
+      "sceneTitle": "Cabin 10",
+      "choices": [
+        {
+          "text": "Take note of her name and accent",
+          "consequence": "Catalog the encounter.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Move on; she's just a stranger",
+          "consequence": "Don't make stories yet.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Richard Bullmer, the billionaire owner, charms a room the way a man does who has trained on rooms. His wife Anne, glamorous and quiet, sips champagne and watches her husband perform.",
+      "sceneTitle": "The Owner",
+      "choices": [
+        {
+          "text": "Try to interview Anne",
+          "consequence": "The quietest person is often the story.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Try to interview Richard",
+          "consequence": "Aim at the loudest one.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A splash. Loud, wrong, distinctly a body's weight. You scramble up. From your veranda you see, briefly, a smear of something on the rail next door.",
+      "sceneTitle": "Two A.M.",
+      "choices": [
+        {
+          "text": "Run to Cabin 10",
+          "consequence": "First responder.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Call security from your room",
+          "consequence": "Official channel.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You ask after your neighbor at breakfast. The crew is, charmingly, baffled. There is no Cabin 10 manifest entry for last night. There is no neighbor. The room, when you check, has been cleaned to within an inch of its life.",
+      "sceneTitle": "Cabin 10, Morning",
+      "choices": [
+        {
+          "text": "Investigate quietly",
+          "consequence": "Don't tip them yet.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Push the captain immediately",
+          "consequence": "Force the issue.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The young cleaner, Eva, is anxious in a way that exceeds the job. She drops a tray. She apologizes too long. She has, you suspect, seen the same smear you did.",
+      "sceneTitle": "The Cleaner",
+      "choices": [
+        {
+          "text": "Win Eva's trust slowly",
+          "consequence": "Source craft.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Press Eva quickly while she's rattled",
+          "consequence": "Strike while warm.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Captain Larsen is steady, polite, and, in a way that's hard to name, exhausted. 'There is no Cabin 10 occupant,' he says. 'But thank you for raising it.' He looks at you in a way that says 'be careful.'",
+      "sceneTitle": "The Captain",
+      "choices": [
+        {
+          "text": "Push for the security footage",
+          "consequence": "Demand evidence.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Back down to keep his trust",
+          "consequence": "Slow the chase.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You see Anne on a deck you weren't supposed to be on. She is, weirdly, not the Anne you saw at dinner. The build is wrong. The walk is wrong. Then she turns and you're not sure anymore.",
+      "sceneTitle": "Anne, Glimpsed",
+      "choices": [
+        {
+          "text": "Photograph from a distance",
+          "consequence": "Document doubt.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Approach her openly",
+          "consequence": "Direct.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your editor in London replies to your safety-check email: 'Got it. Write the canapés.' You realize, again, that you are alone on the ship. The Wi-Fi cuts as a courtesy.",
+      "sceneTitle": "Your Editor",
+      "choices": [
+        {
+          "text": "Schedule a sat-phone call with your friend",
+          "consequence": "Build a witness off-ship.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Keep notes locally in a paper notebook",
+          "consequence": "Old solutions.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Richard, all warmth, asks if you'd like a private tour. He has, charmingly, also asked about your previous reporting. He has read it. He has, you realize, briefed himself on you specifically.",
+      "sceneTitle": "Richard's Charm",
+      "choices": [
+        {
+          "text": "Take the tour, alert and unflattering",
+          "consequence": "Inside the rooms.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse politely with a cover",
+          "consequence": "Don't go alone.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Eva slips you a note in a towel: 'She was hidden in the laundry corridor for a day. I think she got out before I cleaned the cabin.' The handwriting is small and careful.",
+      "sceneTitle": "Eva's Tip",
+      "choices": [
+        {
+          "text": "Check the laundry corridor at night",
+          "consequence": "Verify.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Try to find any port-of-call sighting",
+          "consequence": "Trace the escape.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A North Atlantic storm. The ship pitches. You and Eva find the woman from Cabin 10 in a crew galley, hiding behind a stack of crates. She has, somehow, kept herself fed.",
+      "sceneTitle": "Storm Night",
+      "choices": [
+        {
+          "text": "Hide her in your cabin until port",
+          "consequence": "Take responsibility.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Help her radio for help externally",
+          "consequence": "Use comms.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A body washes onto the rocks near a Norwegian fishing village two days later. The crew is told it's a 'cleaner who went missing.' You realize, sickeningly, that the body is meant to be the Cabin 10 woman.",
+      "sceneTitle": "The Body",
+      "choices": [
+        {
+          "text": "Investigate the body's identity privately",
+          "consequence": "Truth in graveyards.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Get to a journalist friend in Oslo",
+          "consequence": "Multiply yourself.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The Cabin 10 woman is, you discover, an investigator hired by Anne's first family to investigate Richard. Anne is missing. The woman on the ship pretending to be Anne is — terrifyingly — herself a paid double.",
+      "sceneTitle": "The Identity",
+      "choices": [
+        {
+          "text": "Find the real Anne",
+          "consequence": "Save the missing.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Expose the double publicly",
+          "consequence": "Daylight.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You step off in Tromsø with the woman from Cabin 10 wrapped in your coat. Norwegian police, blessedly, take it seriously. The lead detective is a woman who has, you can tell, dealt with cruise nonsense before.",
+      "sceneTitle": "Port of Tromsø",
+      "choices": [
+        {
+          "text": "Stay in Norway through the investigation",
+          "consequence": "Be the witness.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Get on a plane to London to make noise",
+          "consequence": "Use the platform.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Anne is found alive in a small clinic in a fjord village where she was being kept under sedation. Her recovery is slow. Her hand reaches out, eventually, to take yours and squeeze. She remembers your name.",
+      "sceneTitle": "Anne's Cabin",
+      "choices": [
+        {
+          "text": "Stay with her family in the recovery",
+          "consequence": "Be present.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Begin writing the piece carefully",
+          "consequence": "Document.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You write it the right way — sourced, careful, devastating. Your editor calls you. He has, this once, read the piece carefully. He prints it. It is the piece that ends Richard's empire and your problem with the canapés.",
+      "sceneTitle": "The Piece",
+      "choices": [
+        {
+          "text": "Push for criminal charges in the wake of the piece",
+          "consequence": "Don't let the media moment substitute for justice.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take the publication and rest",
+          "consequence": "You earned it.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Richard goes to trial. Several of his employees roll on him. Anne, recovering, testifies on video. The cleaner, Eva, becomes the surprise witness who details a year of the staff's quiet observations.",
+      "sceneTitle": "The Trial",
+      "choices": [
+        {
+          "text": "Stay involved for the verdict",
+          "consequence": "See it through.",
+          "nextNodeId": "end_justice"
+        },
+        {
+          "text": "Decline further coverage; protect your nerves",
+          "consequence": "Survive the after.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Your editor, weeks later, apologizes — sincerely — for not taking you seriously when you said you heard a splash. He offers you a column. You take it.",
+      "sceneTitle": "Your Editor's Apology",
+      "choices": [
+        {
+          "text": "Use the column for investigations like this one",
+          "consequence": "Become the work.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Use the column for something you actually love",
+          "consequence": "Reclaim joy.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Your editor wants a column-launch pitch by Friday. You sit at the desk with two outlines — one with bodies, one with coastlines. You decide which version of yourself goes onto the masthead.",
+      "sceneTitle": "First Column Pitch",
+      "choices": [
+        {
+          "text": "Pitch the investigative beat",
+          "consequence": "Become the journalist who hears splashes.",
+          "nextNodeId": "end_column"
+        },
+        {
+          "text": "Pitch the travel column, properly",
+          "consequence": "Become the journalist who hears tides.",
+          "nextNodeId": "end_joy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_justice",
+      "text": "Richard is convicted. Anne keeps the company and turns it into a foundation. Eva is paid back wages and a real promotion. You are at the verdict in the gallery with a notepad and dry hands.",
+      "sceneTitle": "The Verdict",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Verdict"
+    },
+    {
+      "id": "end_self",
+      "text": "You take six months off and learn to sleep again. Your therapist suggests a hobby. You take up pottery, badly. You make a single, lopsided cup that you use every morning as evidence that you exist on dry land.",
+      "sceneTitle": "Off The Boat",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Off The Boat"
+    },
+    {
+      "id": "end_column",
+      "text": "The column becomes important. You break two more cases in five years. The byline you got back is, finally, spelled correctly. You are, against every part of your earlier breakdown, working.",
+      "sceneTitle": "The Column",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Column"
+    },
+    {
+      "id": "end_joy",
+      "text": "You take the column and write travel pieces that mostly aren't about murder. They are about coastlines, about old hotel kitchens, about the smell of small ports at dawn. You realize, late, that you were always a good travel writer.",
+      "sceneTitle": "Travel Writer, Properly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Travel Writer, Properly"
+    }
+  ]
+}

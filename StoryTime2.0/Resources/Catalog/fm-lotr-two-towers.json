@@ -1,0 +1,450 @@
+{
+  "id": "fm-lotr-two-towers",
+  "title": "The Lord of the Rings: The Two Towers",
+  "sourceTitle": "The Lord of the Rings: The Two Towers",
+  "kind": "movie",
+  "synopsis": "A broken fellowship, a creature in the marshes, and ten thousand Uruks at the gate of an old fortress.",
+  "releaseYear": 2002,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "epic",
+    "fantasy",
+    "siege",
+    "rohan"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A wet, gray maze of stones, and footsteps not your own behind you.",
+      "sceneTitle": "Emyn Muil",
+      "choices": [
+        {
+          "text": "Set a trap",
+          "consequence": "Wary.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Press on",
+          "consequence": "Trust.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He swears on the precious to be your guide.",
+      "sceneTitle": "Smeagol's Bargain",
+      "choices": [
+        {
+          "text": "Bind him",
+          "consequence": "Stern.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Believe him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Aragorn presses his ear to the ground. Two days ahead, maybe more.",
+      "sceneTitle": "The Three Hunters",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Fierce.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Rest first",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A line of horsemen breaks over the ridge with spears down.",
+      "sceneTitle": "Riders of Rohan",
+      "choices": [
+        {
+          "text": "Stand and speak",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hide in the grass",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A forest that watches you back, breathing slowly.",
+      "sceneTitle": "Fangorn's Edge",
+      "choices": [
+        {
+          "text": "Enter",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Skirt it",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "An entmoot, in a voice that takes hours per word.",
+      "sceneTitle": "Treebeard",
+      "choices": [
+        {
+          "text": "Plead urgently",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Speak slow",
+          "consequence": "Patient.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The hall is dim and the king is small inside a borrowed body.",
+      "sceneTitle": "Edoras",
+      "choices": [
+        {
+          "text": "Confront Wormtongue",
+          "consequence": "Bold.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Win Theoden first",
+          "consequence": "Strategic.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "She offers a cup of water and a steady look.",
+      "sceneTitle": "Eowyn at the Door",
+      "choices": [
+        {
+          "text": "Drink",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse the courtesy",
+          "consequence": "Cold.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Refugees on the road, smoke on the horizon.",
+      "sceneTitle": "Westfold Burning",
+      "choices": [
+        {
+          "text": "Go to Helm's Deep",
+          "consequence": "Shelter.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Ride to meet the foe",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Ambush on the plain, and Aragorn over the cliff.",
+      "sceneTitle": "Warg Riders",
+      "choices": [
+        {
+          "text": "Chase the wargs",
+          "consequence": "Fierce.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Get the people inside",
+          "consequence": "Duty.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The women and children file into stone that has not seen war.",
+      "sceneTitle": "Glittering Caves",
+      "choices": [
+        {
+          "text": "Stay with them",
+          "consequence": "Care.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take the wall",
+          "consequence": "Soldier.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Haldir's company arrives, cloaked, silent, in the rain.",
+      "sceneTitle": "Elven Reinforcements",
+      "choices": [
+        {
+          "text": "Place them at the wall",
+          "consequence": "Trust.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Hold them as reserve",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A weak point in the old stone, and a torch running for it.",
+      "sceneTitle": "Berm at the Culvert",
+      "choices": [
+        {
+          "text": "Loose every arrow",
+          "consequence": "Fierce.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Save the shot",
+          "consequence": "Disciplined.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A blast, a hole, and ladders already on the lip.",
+      "sceneTitle": "The Wall Breaks",
+      "choices": [
+        {
+          "text": "Hold the breach",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Fall back to the keep",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A narrow neck of stone packed with Uruks like a fist.",
+      "sceneTitle": "Causeway",
+      "choices": [
+        {
+          "text": "Charge them",
+          "consequence": "Glory.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Cut the bridge",
+          "consequence": "Hard.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He proposes to ride out at dawn for one last charge.",
+      "sceneTitle": "Aragorn at the Gate",
+      "choices": [
+        {
+          "text": "Ride with him",
+          "consequence": "Friend.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold the hall",
+          "consequence": "Loyal.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "White rider, east edge, sun behind.",
+      "sceneTitle": "Gandalf on the Hill",
+      "choices": [
+        {
+          "text": "Cheer",
+          "consequence": "Hope.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Brace ranks",
+          "consequence": "Steady.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Faces in the water that you must not look at.",
+      "sceneTitle": "Dead Marshes",
+      "choices": [
+        {
+          "text": "Follow Smeagol",
+          "consequence": "Trust.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Find your own path",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He has the ring and a long road back to his father.",
+      "sceneTitle": "Faramir's Choice",
+      "choices": [
+        {
+          "text": "Speak to him plainly",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Try to escape",
+          "consequence": "Desperate.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A Nazgul circling and Frodo at the edge of the broken bridge.",
+      "sceneTitle": "Osgiliath",
+      "choices": [
+        {
+          "text": "Pull him back",
+          "consequence": "Loyal.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Let the ring decide",
+          "consequence": "Fated.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "There's some good in this world, and it's worth fighting for.",
+      "sceneTitle": "Sam's Speech",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Heart.",
+          "nextNodeId": "end_hold"
+        },
+        {
+          "text": "Walk on quietly",
+          "consequence": "Honest.",
+          "nextNodeId": "end_ride"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_carry"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_hold",
+      "text": "The hornblast at dawn is yours. You hold the keep until white riders break the line, and you sleep that night in a cold corner that feels like home.",
+      "sceneTitle": "The Hall Holds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Hall Holds"
+    },
+    {
+      "id": "end_ride",
+      "text": "You ride with Aragorn out of the gate and into a song the Mark will sing for a thousand years. Half of you comes back. All of it matters.",
+      "sceneTitle": "Dawn Charge",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Dawn Charge"
+    },
+    {
+      "id": "end_carry",
+      "text": "Frodo cannot, so you do. Up a long road that has no name yet, you carry the man who carries the ring, and nobody writes that part down for centuries.",
+      "sceneTitle": "Carrying the Carrier",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Carrying the Carrier"
+    }
+  ]
+}

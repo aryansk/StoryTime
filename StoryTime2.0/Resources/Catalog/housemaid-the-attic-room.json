@@ -1,0 +1,436 @@
+{
+  "id": "housemaid-the-attic-room",
+  "title": "The Housemaid",
+  "sourceTitle": "The Housemaid",
+  "kind": "movie",
+  "synopsis": "You took the live-in housekeeping job because nobody else would hire someone with your record. The Winchesters' attic locks from the outside. You'll find out why.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-06T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "domestic",
+    "secrets",
+    "captivity"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The house is bigger than the brochure suggested. Mrs. Winchester smiles from the doorway like a woman who has practiced. Her husband Andrew loads your duffel into the foyer himself.",
+      "sceneTitle": "The Driveway",
+      "choices": [
+        {
+          "text": "Be cheerful and grateful",
+          "consequence": "First impressions are the wages.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Be polite and observant",
+          "consequence": "Watch before you smile.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Nina Winchester guides you through twelve rooms she does not appear to know. Andrew lingers a step behind. The attic stairs are at the end of the upstairs hall. She does not turn that light on.",
+      "sceneTitle": "The Tour",
+      "choices": [
+        {
+          "text": "Ask about the attic directly",
+          "consequence": "Curiosity gets you fired or hired.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Note it silently and move on",
+          "consequence": "Some doors open later.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Nina hands you a typed list of rules. Twenty-three of them. Rule eleven: 'Do not enter the attic for any reason.' Rule twelve: 'You will sleep in the attic.'",
+      "sceneTitle": "House Rules",
+      "choices": [
+        {
+          "text": "Sign and ask no questions",
+          "consequence": "Money first; sense later.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask gentle, clarifying questions",
+          "consequence": "Probe softly.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The attic is hot and small and the door locks from the outside. The lock looks new. You hear, downstairs, a marriage that is not whispered enough.",
+      "sceneTitle": "The First Night",
+      "choices": [
+        {
+          "text": "Try the door to see if it really locks",
+          "consequence": "Test the trap before it tests you.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit very still and listen",
+          "consequence": "Eavesdrop is also reconnaissance.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Cecelia, nine, is the only person in this house who acts like she sees you. She is, you sense immediately, both clever and afraid. She slides you a folded paper at breakfast.",
+      "sceneTitle": "Cecelia, the Daughter",
+      "choices": [
+        {
+          "text": "Read the note when alone",
+          "consequence": "Children's warnings deserve respect.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Burn the note and never speak of it",
+          "consequence": "Some kindnesses must be turned down for safety.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Andrew finds reasons to be in your kitchen. He compliments your coffee, your hair, your record. He has read your file. He makes 'I know what you did' sound like a love note.",
+      "sceneTitle": "Andrew's Charm",
+      "choices": [
+        {
+          "text": "Hold a hard line on professional distance",
+          "consequence": "Distance is a vow you keep with both hands.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pretend to laugh along while building a plan",
+          "consequence": "Camouflage is also strategy.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Nina cries in the pantry over a broken jar. It is not about the jar. She wants to tell you something and then visibly decides not to. The decision costs her.",
+      "sceneTitle": "Nina, Cracking",
+      "choices": [
+        {
+          "text": "Gently invite her to talk",
+          "consequence": "Allies arrive odd.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Bring her tea and listen",
+          "consequence": "Silence can be more useful than questions.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You find an old payroll stub jammed behind a drawer — the name of the maid before you. You search her online. She, you discover, has been missing for fourteen months.",
+      "sceneTitle": "The Last Maid",
+      "choices": [
+        {
+          "text": "Photograph the stub and hide the photo",
+          "consequence": "Document before they realize.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Reach out to the missing maid's family",
+          "consequence": "Bridge two wounds.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "There is a room on the second floor neither Winchester ever enters. The door is locked, but not securely. A key hangs in plain sight on a hook in the kitchen.",
+      "sceneTitle": "The Locked Room",
+      "choices": [
+        {
+          "text": "Take the key and look inside",
+          "consequence": "Information is freedom.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait until you understand the house better",
+          "consequence": "Patience is its own key.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Nina pulls you into the laundry room and whispers: 'He's done it before. He's done it to me. I need you to help me. I need you not to think I'm crazy.' Her wrist has finger marks shaped like a man's hand.",
+      "sceneTitle": "Nina's Confession",
+      "choices": [
+        {
+          "text": "Trust her and plan together",
+          "consequence": "Believe women.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Trust her and contact a lawyer for her first",
+          "consequence": "Help her professionalize the escape.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The locked room turns out to be ordinary. The interesting room is the cellar. Boxes labeled with women's names. The dates on them are spread over a decade.",
+      "sceneTitle": "The Cellar",
+      "choices": [
+        {
+          "text": "Photograph everything quickly",
+          "consequence": "Build a case without being seen.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take one box upstairs and confront",
+          "consequence": "Some confrontations are also evidence.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You go to the local sheriff at lunch. He listens. He nods. He calls Andrew Winchester 'Andy' and tells you 'we'll handle it.' You realize you may have just announced yourself to the wrong room.",
+      "sceneTitle": "The Police Officer",
+      "choices": [
+        {
+          "text": "Skip town with Nina tonight",
+          "consequence": "Some plans accelerate.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Find a different jurisdiction",
+          "consequence": "Go higher and farther.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Cecelia's room has a nanny cam pointed at the door. You realize the cam is wired through Andrew's office. You also realize the cam can be turned around.",
+      "sceneTitle": "The Babysitter Cam",
+      "choices": [
+        {
+          "text": "Turn it on the master bedroom",
+          "consequence": "Use his own weapons.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Smash it and pretend it broke",
+          "consequence": "Eliminate his window.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The power goes out in a thunderstorm. Andrew, on the stairs, voice changed, says, 'You have nowhere to go.' He is wrong but you have minutes to prove it.",
+      "sceneTitle": "Night of the Storm",
+      "choices": [
+        {
+          "text": "Get Nina and Cecelia to the car",
+          "consequence": "Save who you can.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Lure Andrew to the attic and lock him in",
+          "consequence": "Use his own trap.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Nina's college friend — a divorce attorney with a particular reputation — meets you both in a hotel lobby. She has, she says, been waiting six years for Nina to call. She has been ready for six years.",
+      "sceneTitle": "Lawyer",
+      "choices": [
+        {
+          "text": "Sign the paperwork; start the protective orders",
+          "consequence": "Paper wins long wars.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Push for criminal charges immediately",
+          "consequence": "Use both fronts.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Three of you in a car at 2 a.m. Cecelia asleep in the back. Nina holding a list of motels with cash. You driving like a person who has been preparing to leave somewhere her entire life.",
+      "sceneTitle": "Highway",
+      "choices": [
+        {
+          "text": "Drive across state lines tonight",
+          "consequence": "Distance buys days.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stop at a women's shelter you trust",
+          "consequence": "Allies are also armor.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Andrew, in the attic, banging on the door he installed for someone else. You stand in the hall with Cecelia's hand in yours. You realize the lock has, in fact, always been on his side. He just hadn't tested it.",
+      "sceneTitle": "The Attic, Reversed",
+      "choices": [
+        {
+          "text": "Call 911 from the bottom of the stairs",
+          "consequence": "Document the moment.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Walk out the front door with the women",
+          "consequence": "The trap is now his alone.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The county prosecutor in the next state takes your file and your photos seriously. She has been looking for a Winchester case for years. The boxes in the cellar matter. So does your testimony.",
+      "sceneTitle": "The Witness",
+      "choices": [
+        {
+          "text": "Agree to testify fully",
+          "consequence": "Truth is its own resume.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Negotiate witness protection first",
+          "consequence": "Stay safe to tell it.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "By morning Cecelia has her own bed, Nina has her own door, and you are sitting at a table with bad coffee and three other women who have, in different houses, been you. Nobody has to explain anything.",
+      "sceneTitle": "Shelter, Sunrise",
+      "choices": [
+        {
+          "text": "Help Nina start over",
+          "consequence": "Be the friend the last maid didn't have.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Decide you need to start over too",
+          "consequence": "Survivors are allowed their own road.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "It takes a year. Andrew is convicted. Nina sells the house. Cecelia gets a therapist she likes. The boxes in the cellar each become a charge.",
+      "sceneTitle": "The Trial",
+      "choices": [
+        {
+          "text": "Stay close to the family",
+          "consequence": "Family is sometimes the people who carried each other.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Move on with what you learned",
+          "consequence": "Survivor as profession.",
+          "nextNodeId": "end_advocate"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Cecelia, eighteen, finds you at a college fair. She is okay. She wants to study law. She has, in her hand, a small framed photo of the three of you on that morning at the shelter. She wanted you to have it.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Take the photo and the goodbye",
+          "consequence": "Some children's gifts are also closure.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Take her to dinner and stay in her life",
+          "consequence": "Some endings don't end.",
+          "nextNodeId": "end_advocate"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "You don't become her mother. You become something close to an aunt, a witness, a steady person on speed dial. Nina remarries kindly. Cecelia grows up. The attic door is on the wrong side of the country and you sleep, finally, with both ears.",
+      "sceneTitle": "The Three of You",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Three of You"
+    },
+    {
+      "id": "end_advocate",
+      "text": "You start a small nonprofit — domestic workers' rights, an emergency line, a network. The next time a house like that hires someone like you, that someone has somewhere to call. The Winchesters became, accidentally, the seed of a much better thing.",
+      "sceneTitle": "The Next Maid",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Next Maid"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "id": "fm-gone-with-wind",
+  "title": "Gone with the Wind",
+  "sourceTitle": "Gone with the Wind",
+  "kind": "movie",
+  "synopsis": "Tara, Georgia, 1861. War is coming. You are Scarlett, sharp and impossible. The man you want isn't the man who wants you.",
+  "releaseYear": 1939,
+  "addedAt": "2026-03-12T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "civil-war",
+    "south",
+    "epic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Barbecue. Ashley announces his engagement to Melanie.",
+      "sceneTitle": "Twelve Oaks",
+      "choices": [
+        {
+          "text": "Confront Ashley",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Smile through it",
+          "consequence": "Strategy.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You tell Ashley you love him. Rhett, behind the couch, hears.",
+      "sceneTitle": "The Library",
+      "choices": [
+        {
+          "text": "Slap him",
+          "consequence": "Spirit.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Storm out",
+          "consequence": "Pride.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He bows. He says you're not a lady. He has noticed you.",
+      "sceneTitle": "Rhett",
+      "choices": [
+        {
+          "text": "Snap back",
+          "consequence": "Spirit.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Pride.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You marry Charles to spite Ashley. Charles dies of pneumonia.",
+      "sceneTitle": "Charles",
+      "choices": [
+        {
+          "text": "Mourn correctly",
+          "consequence": "Society.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Skip mourning",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You move to Atlanta. The hospitals fill. Rhett finds you again.",
+      "sceneTitle": "Atlanta",
+      "choices": [
+        {
+          "text": "Dance with him at the bazaar",
+          "consequence": "Spirit.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Yankees near. Atlanta burns. You deliver Melanie's baby.",
+      "sceneTitle": "Melanie, in Labor",
+      "choices": [
+        {
+          "text": "Stay with her",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Try to flee",
+          "consequence": "Survive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Rhett finds a wagon. He drives you out of the city.",
+      "sceneTitle": "The Burning",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Spirit.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He leaves you to join the army. You drive on alone.",
+      "sceneTitle": "The Road",
+      "choices": [
+        {
+          "text": "Be furious",
+          "consequence": "Spirit.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Be grateful",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Mother dead. Father broken. The fields untended.",
+      "sceneTitle": "Tara, Ruined",
+      "choices": [
+        {
+          "text": "Rebuild",
+          "consequence": "Vow.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You eat a radish in the field. As God is your witness.",
+      "sceneTitle": "Tomorrow",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Iron.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Promise yourself smaller things",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You marry your sister's fiancé to save Tara.",
+      "sceneTitle": "Frank Kennedy",
+      "choices": [
+        {
+          "text": "Run the lumber business",
+          "consequence": "Iron.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pretend to be a wife",
+          "consequence": "Cover.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You are attacked on the road. Frank rides to avenge you.",
+      "sceneTitle": "Shantytown",
+      "choices": [
+        {
+          "text": "Warn him not to",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let him go",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Frank dies in the raid. You wear black again.",
+      "sceneTitle": "Frank Dead",
+      "choices": [
+        {
+          "text": "Be honest with yourself",
+          "consequence": "Truth.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay numb",
+          "consequence": "Survival.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He proposes. You accept for security.",
+      "sceneTitle": "Rhett, Returning",
+      "choices": [
+        {
+          "text": "Marry him",
+          "consequence": "Practical.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "New Orleans. Lavish. He is, briefly, tender.",
+      "sceneTitle": "Honeymoon",
+      "choices": [
+        {
+          "text": "Notice",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take it for granted",
+          "consequence": "Spoiled.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Your daughter. He adores her.",
+      "sceneTitle": "Bonnie",
+      "choices": [
+        {
+          "text": "Love her",
+          "consequence": "Heart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Love her at distance",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You almost kiss him. Melanie defends you publicly to the town.",
+      "sceneTitle": "Ashley, Again",
+      "choices": [
+        {
+          "text": "Apologize to Melanie",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Pride.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "She falls from her pony. Rhett breaks.",
+      "sceneTitle": "Bonnie's Death",
+      "choices": [
+        {
+          "text": "Comfort him",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Sit with your grief",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "She makes you promise to care for Ashley.",
+      "sceneTitle": "Melanie, Dying",
+      "choices": [
+        {
+          "text": "Promise",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Don't promise",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Ashley, holding Melanie's hand, weeps for Melanie, not you.",
+      "sceneTitle": "Ashley's Truth",
+      "choices": [
+        {
+          "text": "See clearly",
+          "consequence": "Truth.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Frankly, my dear, he does not give a damn.",
+      "sceneTitle": "Rhett Leaving",
+      "choices": [
+        {
+          "text": "Beg him",
+          "consequence": "Spirit.",
+          "nextNodeId": "end_tara"
+        },
+        {
+          "text": "Let him go",
+          "consequence": "Pride.",
+          "nextNodeId": "end_rhett"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_tara",
+      "text": "You return to Tara. You rebuild. You become, in time, the woman the town respects more than likes. You die at Tara, ancient, in a field full of tomorrows.",
+      "sceneTitle": "Tara, Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Tara, Again"
+    },
+    {
+      "id": "end_rhett",
+      "text": "You find Rhett, eventually. You apologize properly. He, slowly, comes around. You live, in the end, what you should have been living all along.",
+      "sceneTitle": "Bringing Him Back",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Bringing Him Back"
+    },
+    {
+      "id": "end_self",
+      "text": "You build a business. You travel. You marry, late, a man who is, finally, not a project. You realize at sixty you were trying to win an argument with a younger version of yourself. You forgive her. You forgive everyone.",
+      "sceneTitle": "Yourself, Finally",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Yourself, Finally"
+    }
+  ]
+}

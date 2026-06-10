@@ -1,0 +1,462 @@
+{
+  "id": "palm-royale-beach-ball",
+  "title": "Palm Royale",
+  "sourceTitle": "Palm Royale",
+  "kind": "show",
+  "synopsis": "Palm Beach, 1969. The most exclusive ball of the season has one empty seat and you intend to fill it. Smile. Lie beautifully.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-29T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "socialites",
+    "ambition",
+    "disguise"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The Palm Royale's brass doors have turned away duchesses. You have a borrowed Pucci dress, forty-one dollars, and a smile you have practiced in three mirrors. The doorman lifts an eyebrow.",
+      "sceneTitle": "The Front Door",
+      "choices": [
+        {
+          "text": "Sweep past as if you own the place",
+          "consequence": "Confidence is a kind of credential.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Slip in through the cabana service path",
+          "consequence": "Servants' doors are never watched the way front ones are.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Produce a forged sponsor's letter",
+          "consequence": "Ink and audacity. A dangerous pairing.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Evelyn Rollins materializes like weather. \"I don't know you,\" she says, which is the worst thing a person can be here. Her eyes catalog your shoes.",
+      "sceneTitle": "The Doyenne",
+      "choices": [
+        {
+          "text": "Drop a name she can't check",
+          "consequence": "A dead countess is a wonderful alibi.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Compliment her late husband's foundation",
+          "consequence": "Flattery aimed at the dead rarely misses.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The cabanas smell of coconut oil and money. A pool boy named Robert watches you not belong. He could shout. He doesn't.",
+      "sceneTitle": "Cabana Row",
+      "choices": [
+        {
+          "text": "Tip him your last bill for silence",
+          "consequence": "Loyalty bought is loyalty, for an hour.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Ask him who really runs this place",
+          "consequence": "The staff always knows where the bodies tan.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The membership secretary reads your letter twice. The signature is good. The letterhead is better. \"Mrs. Donahue vouches for you?\" she asks.",
+      "sceneTitle": "The Letter",
+      "choices": [
+        {
+          "text": "Insist, warmly, that you're old friends",
+          "consequence": "The bigger the lie, the straighter the back.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Pivot to a different sponsor entirely",
+          "consequence": "Never defend a lie you can simply replace.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "By the bar you become someone with a yacht and a tragedy. People lean in. A widow named Norma watches you from her wheelchair, unblinking.",
+      "sceneTitle": "A Borrowed Name",
+      "choices": [
+        {
+          "text": "Charm Norma directly",
+          "consequence": "She is the gate behind the gate.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Avoid her and work the younger set",
+          "consequence": "The young are easier and poorer.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Evelyn, softened, lets slip that Norma keeps a card file of everyone's secrets. Whoever holds it holds the season. The file is upstairs.",
+      "sceneTitle": "Norma's Rolodex",
+      "choices": [
+        {
+          "text": "Plan to reach the file tonight",
+          "consequence": "Knowledge here is the only true currency.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Decide the file is too dangerous to want",
+          "consequence": "Some doors are walls in disguise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The bartender mixes a grasshopper and a warning. \"They'll let you in,\" he says. \"They just won't ever let you leave clean.\" He slides you a key. Cabana 9.",
+      "sceneTitle": "The Bartender Knows",
+      "choices": [
+        {
+          "text": "Pocket the key",
+          "consequence": "Every key is a question you'll have to answer later.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse it and stay visible",
+          "consequence": "Suspicion loves the person who hides.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You are seated, somehow, at the good table. The conversation is a minefield of maiden names. Someone asks where you summered as a girl.",
+      "sceneTitle": "The Luncheon",
+      "choices": [
+        {
+          "text": "Invent a lake nobody dares not to know",
+          "consequence": "Geography is forgiving to the bold.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Turn the question back as a joke",
+          "consequence": "Deflection is its own elegance.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Robert finds you again. \"Norma's nurse takes a smoke break at four,\" he says, and walks off whistling. He has decided you are interesting, which is its own danger.",
+      "sceneTitle": "The Pool Boy's Tip",
+      "choices": [
+        {
+          "text": "Time your move to four o'clock",
+          "consequence": "Schedules are the soft spots of fortresses.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Win Norma over honestly instead",
+          "consequence": "The long way is sometimes the only safe way.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Models drift down a poolside runway in next year's clothes. Evelyn places a hand on your arm — friendly, or a leash, you can't tell. A photographer circles.",
+      "sceneTitle": "The Fashion Show",
+      "choices": [
+        {
+          "text": "Pose for the photographer",
+          "consequence": "A picture is proof, and proof cuts both ways.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Slip out of frame",
+          "consequence": "The uncaptured are the uncatchable.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A woman named Dinah corners you with a smile like a paper cut. \"I looked you up,\" she says. \"Funny — you don't exist.\" She hasn't told anyone. Yet.",
+      "sceneTitle": "The Rival",
+      "choices": [
+        {
+          "text": "Offer her something she wants",
+          "consequence": "Every rival is an ally who hasn't been paid.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Threaten her with a bluff",
+          "consequence": "Show teeth and pray she doesn't count them.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Norma's grip is iron despite the chair. \"You're a fraud,\" she says, almost fondly. \"I was one too, once. It's exhausting, isn't it.\" She studies you like a daughter she might invent.",
+      "sceneTitle": "Norma, Awake",
+      "choices": [
+        {
+          "text": "Confess everything to her",
+          "consequence": "The truth, told to the right enemy, becomes armor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Deny it and hold your shape",
+          "consequence": "Never blink first at the queen.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Paddles rise for a diamond nobody needs. To bid is to be seen as somebody. To not bid is to be seen as nobody. You have forty-one dollars.",
+      "sceneTitle": "The Charity Auction",
+      "choices": [
+        {
+          "text": "Bid wildly on credit you don't have",
+          "consequence": "The chasm between seeming and being is one signature wide.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Win the room without spending a cent",
+          "consequence": "The cleverest never open their purse.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Someone slips a card under your door. They know your real name, your real address, your real nothing. Meet under the banyan at midnight, it says, or be announced.",
+      "sceneTitle": "The Blackmail Note",
+      "choices": [
+        {
+          "text": "Go to the banyan tree",
+          "consequence": "Blackmail is a conversation you're allowed to win.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Burn the note and run the ball anyway",
+          "consequence": "Sometimes nerve is the only reply.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Evelyn's husband Skeet, half-asleep on Demerol and old money, takes a shine to you. His signature could open every account in Palm Beach. He offers you a pen.",
+      "sceneTitle": "The Husband",
+      "choices": [
+        {
+          "text": "Take the pen and the access",
+          "consequence": "Power borrowed is power, until the lender wakes.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Decline, gently, and keep his trust",
+          "consequence": "Restraint, here, looks almost like virtue.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Your story is fraying at the cuffs. Two women whisper behind their fans. The season can smell blood, and it is patient about dinner.",
+      "sceneTitle": "Cracks Show",
+      "choices": [
+        {
+          "text": "Get ahead of the rumor with a bigger one",
+          "consequence": "Drown a small fire in a flood.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Find an exit and an alibi",
+          "consequence": "Know the back stairs before you need them.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The ballroom is being strung with ten thousand lights for tomorrow's Beach Ball. You will be in this room. The only question left is as what.",
+      "sceneTitle": "Ballroom Rehearsal",
+      "choices": [
+        {
+          "text": "Plan to be crowned the season's hostess",
+          "consequence": "Aim at the throne or don't aim at all.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Plan a quieter, safer triumph",
+          "consequence": "Survival can be its own kind of victory.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The press man has a photo of you slipping through the cabana door on day one. \"Page six,\" he says, \"or page nobody. Your choice, and your favor.\"",
+      "sceneTitle": "The Photographer Returns",
+      "choices": [
+        {
+          "text": "Trade him a juicier secret",
+          "consequence": "Feed the wolf someone else's hand.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Charm him into burying it",
+          "consequence": "Charm is cheaper than secrets and twice as fast.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The ballroom blazes. Every name you have borrowed and broken is here under one roof. Evelyn taps a glass. Norma watches from the dark edge, smiling at no one.",
+      "sceneTitle": "Night of the Ball",
+      "choices": [
+        {
+          "text": "Step into the light and take the floor",
+          "consequence": "The center of the room is where masks come off — or weld on.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Work the margins and stay legible",
+          "consequence": "Let the spotlight find someone hungrier.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A glass is pressed into your hand and the room turns to you, expecting words. Whatever you say next becomes the truth about who you are here.",
+      "sceneTitle": "The Toast",
+      "choices": [
+        {
+          "text": "Toast to the season and your new life",
+          "consequence": "Claim the lie out loud and watch it set like cement.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Toast to Norma — and tell the truth",
+          "consequence": "Honesty, in a room of liars, is the loudest sound there is.",
+          "nextNodeId": "end_truth"
+        },
+        {
+          "text": "Use the toast to expose the whole rotten club",
+          "consequence": "Burn it down and see who runs for the doors.",
+          "nextNodeId": "end_expose"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "They are applauding. You did it. The orchestra swells and Robert, by the doors, gives you a small, sad nod — he, at least, remembers who walked in.",
+      "sceneTitle": "Crowned",
+      "choices": [
+        {
+          "text": "Accept the crown and become Mrs. Palm Beach",
+          "consequence": "Some prisons have wonderful views.",
+          "nextNodeId": "end_queen"
+        },
+        {
+          "text": "Walk out the front door, free and forty-one dollars richer",
+          "consequence": "The only way to win the game is to leave the table.",
+          "nextNodeId": "end_exit"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_queen",
+      "text": "You marry the right name and bury the wrong one. For thirty years you reign over the Palm Royale, terrified every single morning that someone will remember the cabana door. Nobody ever does. That is the cruelest part.",
+      "sceneTitle": "Queen of the Season",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Queen of the Season"
+    },
+    {
+      "id": "end_truth",
+      "text": "Norma laughs until she coughs, then has them set you a permanent place at her table. \"A fraud who admits it,\" she wheezes, \"is just an honest woman with ambition.\" You are in. You are also, finally, yourself.",
+      "sceneTitle": "The Honest Fraud",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Honest Fraud"
+    },
+    {
+      "id": "end_expose",
+      "text": "By dawn the columns are full of it — the affairs, the ledgers, the borrowed everything. The Palm Royale never recovers its shine. Neither do you, exactly, but you taught a roomful of queens that their crowns were rented too.",
+      "sceneTitle": "Scorched Earth",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Scorched Earth"
+    },
+    {
+      "id": "end_exit",
+      "text": "You leave the way they never expected — through the brass doors, into the salt night, owing no one a name. Behind you the lights blaze on for people who can never leave. Ahead of you, the dark is wide open.",
+      "sceneTitle": "The Front Door, Going Out",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Front Door, Going Out"
+    }
+  ]
+}

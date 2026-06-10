@@ -1,0 +1,449 @@
+{
+  "id": "stranger-things-the-rift",
+  "title": "Stranger Things",
+  "sourceTitle": "Stranger Things",
+  "kind": "show",
+  "synopsis": "Hawkins. One more rift. The party is older, the stakes are bigger, and the math homework is, somehow, still due Monday.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-09T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "upside-down",
+    "party",
+    "small-town"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The pool drains weirdly. The lifeguard, who is also Steve, notices first. Robin, beside him, is already calling Dustin.",
+      "sceneTitle": "Hawkins Pool, Closing Time",
+      "choices": [
+        {
+          "text": "Call the whole party in",
+          "consequence": "Strength in numbers.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Investigate quietly first",
+          "consequence": "Don't spook the town.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "El is two states away at school. The call drops twice. The third time she just says, 'I'm coming.' She is.",
+      "sceneTitle": "Eleven, On the Phone",
+      "choices": [
+        {
+          "text": "Wait for her",
+          "consequence": "Trust the heavy hitter.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Start without her",
+          "consequence": "Don't wait.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The party reassembles around a kitchen table that has, somehow, more spreadsheets than the FBI.",
+      "sceneTitle": "The Wheeler Basement",
+      "choices": [
+        {
+          "text": "Plan first",
+          "consequence": "Discipline.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Move first",
+          "consequence": "Adrenaline.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A transfer student named Vera knows more about the Upside Down than she should. She also runs cross-country.",
+      "sceneTitle": "The New Kid",
+      "choices": [
+        {
+          "text": "Recruit Vera",
+          "consequence": "Allies.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Watch Vera carefully",
+          "consequence": "Trust verifies.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Hopper has a cabin, a beer, and a tired face. He wants to help. He also wants you to be careful.",
+      "sceneTitle": "Hopper's House",
+      "choices": [
+        {
+          "text": "Ask for the gun",
+          "consequence": "Older solutions.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask for his old files",
+          "consequence": "Newer solutions.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Max walks now. She is, against her own will, the quietest of the group. She has, you realize, opinions about the rift you have not yet asked for.",
+      "sceneTitle": "Max, Recovering",
+      "choices": [
+        {
+          "text": "Make her tactical lead",
+          "consequence": "Promote.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Let her opt in",
+          "consequence": "Respect.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Will starts feeling it again. He hates feeling it again. He does not, however, hide.",
+      "sceneTitle": "Will's Headache",
+      "choices": [
+        {
+          "text": "Use Will's connection",
+          "consequence": "Old talent.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Protect Will first",
+          "consequence": "Family first.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A 1960s newspaper has a rift story buried in the obituaries section. The pattern, you realize, is generational.",
+      "sceneTitle": "The Library Microfiche",
+      "choices": [
+        {
+          "text": "Photograph the article",
+          "consequence": "Document.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Find the old witnesses",
+          "consequence": "Sources.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Vera admits she's been tracking the rifts since her family lost a brother in 1989. She is, you realize, also a survivor.",
+      "sceneTitle": "Vera's Confession",
+      "choices": [
+        {
+          "text": "Make her co-lead",
+          "consequence": "Honor it.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Make sure she's okay first",
+          "consequence": "Care first.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "There are tunnels. There are always tunnels. The town's pipes have been a map for years and nobody noticed.",
+      "sceneTitle": "Tunnels Under Town",
+      "choices": [
+        {
+          "text": "Map the tunnels",
+          "consequence": "Cartography.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Go in tonight",
+          "consequence": "Speed.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "They bicker. They are best friends. They are working. The team is, in their own way, held together by them.",
+      "sceneTitle": "Steve and Robin's Bicker",
+      "choices": [
+        {
+          "text": "Send them as a pair",
+          "consequence": "Don't split.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Send them separately",
+          "consequence": "Coverage.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A new monster — smaller, faster, somehow politer about doors. You hate that you noticed the politeness.",
+      "sceneTitle": "The Demogorgon's Cousin",
+      "choices": [
+        {
+          "text": "Engage cautiously",
+          "consequence": "Test it.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Hit it hard",
+          "consequence": "Don't give it time.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Hopper's old files contain the names of researchers still alive. One is, you discover, in Indianapolis. He will, on the phone, say one sentence and hang up.",
+      "sceneTitle": "Lab Records",
+      "choices": [
+        {
+          "text": "Drive to Indianapolis",
+          "consequence": "Pursue.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Send Steve in your stead",
+          "consequence": "Triangulate.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "El, in the rain, in a denim jacket. The room exhales. You realize you have, despite the spreadsheets, been waiting for her exactly this long.",
+      "sceneTitle": "Eleven Arrives",
+      "choices": [
+        {
+          "text": "Lead with her",
+          "consequence": "Use the gift.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Center the team, with her",
+          "consequence": "Distributed.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A skirmish at the pool. Nobody dies. Two get hurt. The monster retreats. You understand its pattern.",
+      "sceneTitle": "The First Skirmish",
+      "choices": [
+        {
+          "text": "Press the advantage",
+          "consequence": "Move.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Plan the second",
+          "consequence": "Discipline.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He says, in his apartment, 'You'll have to close it from inside.' He is, you can tell, telling you the truth he has been afraid to tell for thirty years.",
+      "sceneTitle": "The Indianapolis Researcher",
+      "choices": [
+        {
+          "text": "Accept the cost",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Look for another way",
+          "consequence": "Hope.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Max draws, on a napkin, a plan that involves all of you, no martyr. The plan is, you suspect, the one El has been quietly thinking too.",
+      "sceneTitle": "Max's Plan",
+      "choices": [
+        {
+          "text": "Approve Max's plan",
+          "consequence": "Trust her.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Refine it with the group",
+          "consequence": "Together.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The mall, again. It is, somehow, always the mall. The rift glows above the food court. You realize you have grown up in this building.",
+      "sceneTitle": "The Mall, Empty",
+      "choices": [
+        {
+          "text": "Step in",
+          "consequence": "Lead.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Anchor outside",
+          "consequence": "Hold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Vera offers to be the inside-person. So does Will. So, in his way, does Steve. You decide who.",
+      "sceneTitle": "Vera's Choice",
+      "choices": [
+        {
+          "text": "Send Vera",
+          "consequence": "She's the runner.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Send Will",
+          "consequence": "He's the connection.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The rift, with the team's coordinated push, closes for the last time. The fluorescents flicker. The town does not, this time, lose a kid.",
+      "sceneTitle": "The Close",
+      "choices": [
+        {
+          "text": "Stand in the empty mall together",
+          "consequence": "Be there.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk out into the parking lot",
+          "consequence": "Step into the after.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Cars, summer, the team. You realize you will all, eventually, leave this town. Tonight, though, you are right where you should be.",
+      "sceneTitle": "The Parking Lot",
+      "choices": [
+        {
+          "text": "Throw a party at the Wheelers'",
+          "consequence": "Joy.",
+          "nextNodeId": "end_party"
+        },
+        {
+          "text": "Just go to Steve's job for ice cream",
+          "consequence": "Simple.",
+          "nextNodeId": "end_town"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_world"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_party",
+      "text": "You stay close — through college, through breakups, through one wedding and one funeral. The party never breaks up. You realize, late, that the rift was never the point. The friendships were.",
+      "sceneTitle": "Party Together",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Party Together"
+    },
+    {
+      "id": "end_town",
+      "text": "You stay in Hawkins. You become a person who watches the town for next time. Next time, mercifully, does not come.",
+      "sceneTitle": "Hawkins, After",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hawkins, After"
+    },
+    {
+      "id": "end_world",
+      "text": "You leave Hawkins and never quite leave it. Wherever you go, a part of you is in that basement around that table. You take the lesson — that a small group of kids can save a town — into every other room of your life.",
+      "sceneTitle": "Out Into the World",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Out Into the World"
+    }
+  ]
+}

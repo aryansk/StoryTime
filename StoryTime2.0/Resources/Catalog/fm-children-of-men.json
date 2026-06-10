@@ -1,0 +1,450 @@
+{
+  "id": "fm-children-of-men",
+  "title": "Children of Men",
+  "sourceTitle": "Children of Men",
+  "kind": "movie",
+  "synopsis": "Eighteen years of infertility, a London under refugee crackdown, and a woman in a barn who is the first impossible mother.",
+  "releaseYear": 2006,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "dystopia",
+    "refugees",
+    "hope",
+    "long-take"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A TV announces the death of the youngest person on Earth. A bomb takes the cafe's front.",
+      "sceneTitle": "Cafe Bomb",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Help the wounded",
+          "consequence": "Heart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A friend with a battered car, two joints, a wife who does not move.",
+      "sceneTitle": "Jasper's Cottage",
+      "choices": [
+        {
+          "text": "Stay the night",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Leave at dawn",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your ex from the old protest days, with a small ask in a kidnapped van.",
+      "sceneTitle": "Julian",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Hard.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "She needs them for a refugee. You are at a desk that signs them.",
+      "sceneTitle": "Transit Papers",
+      "choices": [
+        {
+          "text": "Sign",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A burning car, a girl behind a back seat, a quiet that becomes a scream.",
+      "sceneTitle": "Ambush",
+      "choices": [
+        {
+          "text": "Stay calm",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Panic",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Bullet through the throat in a country lane.",
+      "sceneTitle": "Julian Dies",
+      "choices": [
+        {
+          "text": "Pull her out of the car",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Drive past",
+          "consequence": "Cold.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A girl in a barn with a small belly she lifts her dress to show you.",
+      "sceneTitle": "Kee",
+      "choices": [
+        {
+          "text": "Promise to help",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A boat called Tomorrow, the Human Project, a man with a gun he is too eager to use.",
+      "sceneTitle": "Luke's Plan",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Practical.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A choice to run before Luke decides for you.",
+      "sceneTitle": "Theo's Decision",
+      "choices": [
+        {
+          "text": "Take Kee",
+          "consequence": "Loyal.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A safe house, a herbal tea, a Strawberry Cough joke.",
+      "sceneTitle": "Jasper Again",
+      "choices": [
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Headlights, dogs, a kindly old hand on a window with a wave.",
+      "sceneTitle": "Raid on the Cottage",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Go back for him",
+          "consequence": "Loyal.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A train of cages, a friendly thug named Syd, a smuggler at a coffee.",
+      "sceneTitle": "Bexhill Refugee Camp",
+      "choices": [
+        {
+          "text": "Pay Syd",
+          "consequence": "Practical.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Find another route",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Mud, gunfire, a row of buses, a midwife on a wet street.",
+      "sceneTitle": "Inside the Camp",
+      "choices": [
+        {
+          "text": "Follow the midwife",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Find shelter",
+          "consequence": "Cautious.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A small wet cry that you have not heard in eighteen years.",
+      "sceneTitle": "Birth in a Room",
+      "choices": [
+        {
+          "text": "Hold the door",
+          "consequence": "Mercy.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Catch the baby",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Soldiers on every floor and a baby's cry that stops everything for one impossible minute.",
+      "sceneTitle": "Down the Stairs",
+      "choices": [
+        {
+          "text": "Walk slowly",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Bolt",
+          "consequence": "Reckless.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A turret stops. A line of soldiers makes way.",
+      "sceneTitle": "Tank in the Square",
+      "choices": [
+        {
+          "text": "Walk through",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Run",
+          "consequence": "Reckless.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A small craft on a gray sea, a fog with a ship in it.",
+      "sceneTitle": "Boat in the Mist",
+      "choices": [
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Row",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Oars in a chop with a wound at your side.",
+      "sceneTitle": "Engine Out",
+      "choices": [
+        {
+          "text": "Pull",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Rest",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "An old needle in a tin box, points east.",
+      "sceneTitle": "Compass",
+      "choices": [
+        {
+          "text": "Trust it",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wary.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A ship's prow looms out of the fog.",
+      "sceneTitle": "Tomorrow",
+      "choices": [
+        {
+          "text": "Wave",
+          "consequence": "Hope.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Brace",
+          "consequence": "Tired.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Small, perfect, half asleep.",
+      "sceneTitle": "Baby's Face",
+      "choices": [
+        {
+          "text": "Look once more",
+          "consequence": "Heart.",
+          "nextNodeId": "end_ship"
+        },
+        {
+          "text": "Lie back",
+          "consequence": "Tired.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_jasper"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_ship",
+      "text": "A doctor takes Kee and the baby up the gangway and a sailor wraps your wound and the gray sea keeps doing what it does, indifferent, and saving.",
+      "sceneTitle": "Aboard the Tomorrow",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Aboard the Tomorrow"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You lie back in the boat and the fog goes pink at the edges and the world is, for one breath, a thing that has been started over.",
+      "sceneTitle": "Sleep on the Water",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sleep on the Water"
+    },
+    {
+      "id": "end_jasper",
+      "text": "You wake up in the cottage and Jasper is at the door with a teapot and the war is over and the baby in your arms grins at the ceiling.",
+      "sceneTitle": "Jasper's Joke",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Jasper's Joke"
+    }
+  ]
+}

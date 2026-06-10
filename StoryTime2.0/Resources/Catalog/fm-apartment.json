@@ -1,0 +1,450 @@
+{
+  "id": "fm-apartment",
+  "title": "The Apartment",
+  "sourceTitle": "The Apartment",
+  "kind": "movie",
+  "synopsis": "An office worker, a key lent to bosses, a sad elevator girl, and a New Year's Eve that finally chooses a person.",
+  "releaseYear": 1960,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "wilder",
+    "office",
+    "lonely",
+    "newyear"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Locked out of your own apartment by Mr. Kirkeby and a date.",
+      "sceneTitle": "Cold Hallway",
+      "choices": [
+        {
+          "text": "Wait under the awning",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Knock",
+          "consequence": "Bold.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Four executives have put in a word with Mr. Sheldrake.",
+      "sceneTitle": "Promotion Memo",
+      "choices": [
+        {
+          "text": "Smile and accept",
+          "consequence": "Strategic.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Fran Kubelik says hello in a voice that takes a small piece of your day with it.",
+      "sceneTitle": "Elevator",
+      "choices": [
+        {
+          "text": "Speak",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stay polite",
+          "consequence": "Shy.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A small crack in the lid that you have seen before in a key drawer.",
+      "sceneTitle": "Compact Mirror",
+      "choices": [
+        {
+          "text": "Recognize it",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Pretend not to",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A glass-walled office and a sentence about your key.",
+      "sceneTitle": "Sheldrake's Office",
+      "choices": [
+        {
+          "text": "Negotiate",
+          "consequence": "Practical.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Fran in a borrowed coat over a hat with a feather.",
+      "sceneTitle": "Chinese Restaurant",
+      "choices": [
+        {
+          "text": "Be patient",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Be witty",
+          "consequence": "Light.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Office party, paper cups, a quiet cubicle with a tear in it.",
+      "sceneTitle": "Christmas Eve",
+      "choices": [
+        {
+          "text": "Sit with her",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Make a joke",
+          "consequence": "Light.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Sleeping pills, an unfinished glass, a body that is breathing too slow.",
+      "sceneTitle": "Apartment, Night",
+      "choices": [
+        {
+          "text": "Call a doctor",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A neighbor who has seen too many of your parties and one more.",
+      "sceneTitle": "Dr. Dreyfuss",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Cold.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A makeshift colander, a long night of soup and small talk.",
+      "sceneTitle": "Spaghetti Strainer",
+      "choices": [
+        {
+          "text": "Tell jokes",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Be quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He will leave his wife by spring, he says, with a hand on his tie.",
+      "sceneTitle": "Sheldrake's Promise",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Hopeful.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Gin rummy on the coffee table with a girl in your bathrobe.",
+      "sceneTitle": "Cards",
+      "choices": [
+        {
+          "text": "Let her win",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Play to win",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Stomach pumped on a Christmas Eve. The neighbors are watching.",
+      "sceneTitle": "Doctor's Note",
+      "choices": [
+        {
+          "text": "Take a stand",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A key to the executive washroom and a corner desk.",
+      "sceneTitle": "New Promotion",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Strategic.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He brings Miss Olsen, his secretary, to the office party.",
+      "sceneTitle": "Sheldrake's Date",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Patient.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Years of his promises, in a sentence she shares with Mrs. Sheldrake.",
+      "sceneTitle": "Olsen on the Phone",
+      "choices": [
+        {
+          "text": "Sympathize",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay out",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Sheldrake at your office door asking for the key one more night.",
+      "sceneTitle": "Hat in Hand",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Give it up",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A small object that you slide back across his blotter.",
+      "sceneTitle": "Key on the Desk",
+      "choices": [
+        {
+          "text": "Walk out",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Pause",
+          "consequence": "Tired.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Suitcase open, lamp still on, a knock on the door.",
+      "sceneTitle": "Apartment, Packing",
+      "choices": [
+        {
+          "text": "Open it",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Pretend not to be in",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A coat, a hat, a small smile at the bottom of a step.",
+      "sceneTitle": "Fran on the Stairs",
+      "choices": [
+        {
+          "text": "Step aside",
+          "consequence": "Polite.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold the door",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Cards on the rug, a glass on the table, a wordless promise.",
+      "sceneTitle": "Shut Up and Deal",
+      "choices": [
+        {
+          "text": "Deal",
+          "consequence": "Heart.",
+          "nextNodeId": "end_deal"
+        },
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "end_quit"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_fran"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_deal",
+      "text": "Cards keep falling. Neither of you says it for a year. By then you don't need to. The neighbors approve. The neighbors had a betting pool.",
+      "sceneTitle": "Shut Up and Deal",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Shut Up and Deal"
+    },
+    {
+      "id": "end_quit",
+      "text": "You walk into an office across town with a small reference letter and a lighter shoulder, and you build a life that doesn't require a key to anyone else's place.",
+      "sceneTitle": "New Year, New Job",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "New Year, New Job"
+    },
+    {
+      "id": "end_fran",
+      "text": "She opens a small place on a side street. You bus the tables on weekends. The strainer hangs above the counter like a chandelier.",
+      "sceneTitle": "Fran's Bakery",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Fran's Bakery"
+    }
+  ]
+}

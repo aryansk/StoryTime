@@ -1,0 +1,433 @@
+{
+  "id": "house-of-dynamite-eighteen",
+  "title": "A House of Dynamite",
+  "sourceTitle": "A House of Dynamite",
+  "kind": "movie",
+  "synopsis": "An ICBM has been launched from somewhere — they don't know where yet — at the United States. You are the Deputy National Security Adviser. You have eighteen minutes before you have to advise.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-30T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "nuclear",
+    "war room",
+    "minutes"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The Watch Officer's voice goes flat: 'Single SBIRS detection, ballistic, transpacific.' Your coffee, half-raised, goes back to the desk. You have eighteen minutes.",
+      "sceneTitle": "T-18:00",
+      "choices": [
+        {
+          "text": "Call STRATCOM first",
+          "consequence": "Verify before you wake the President.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wake the President first",
+          "consequence": "Time is the thing you can't make.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "STRATCOM confirms: it's real, on a depressed trajectory, single warhead estimate. Origin: somewhere in the Sea of Okhotsk box. Not enough to assign blame yet.",
+      "sceneTitle": "T-16:30",
+      "choices": [
+        {
+          "text": "Demand a confidence interval",
+          "consequence": "Math now matters most.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Order a second sensor handoff",
+          "consequence": "Verification stacks.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The President is on the line in 90 seconds. He sounds awake in the way only certain men sound awake at 4 a.m. 'Talk to me,' he says.",
+      "sceneTitle": "T-16:30",
+      "choices": [
+        {
+          "text": "Brief plainly with what you know",
+          "consequence": "Honesty cuts decision time.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Brief carefully with caveats",
+          "consequence": "Discipline against overreaction.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Confidence is up to 87% real. Origin narrowed but not assigned. Three candidate countries. Two of them are nuclear states. One of them is not.",
+      "sceneTitle": "T-13:00",
+      "choices": [
+        {
+          "text": "Insist on confirmed attribution before recommendation",
+          "consequence": "Don't fire blind.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Begin contingency planning for all three",
+          "consequence": "Be ready for whatever the attribution says.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your Chinese counterpart — your hard-earned channel — answers your secure line. He is, audibly, also at 4 a.m. He says, 'Not us. Verify.'",
+      "sceneTitle": "T-13:00",
+      "choices": [
+        {
+          "text": "Trust the channel and move on",
+          "consequence": "Allies of necessity.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Press him for one piece of corroborating data",
+          "consequence": "Verification stacks.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "GBI — ground-based interceptors — are ready. The Pacific intercept window is narrowing. You can fire to attempt intercept now or hold for better track confidence.",
+      "sceneTitle": "T-10:00",
+      "choices": [
+        {
+          "text": "Authorize the interceptor shot now",
+          "consequence": "Try to break it before the math is done.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hold for better track",
+          "consequence": "Don't waste the few shots you have.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "An Air Force colonel reminds the room that the President has authorized 'consultative' — not full launch — until he formally elects. The distinction is paper-thin in eighteen minutes.",
+      "sceneTitle": "T-10:00",
+      "choices": [
+        {
+          "text": "Get the President on with the war cabinet now",
+          "consequence": "Convene formally.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hold the war cabinet — let him think one more minute",
+          "consequence": "Sometimes a quiet minute saves a city.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "GBI fires. The room watches a screen that updates every two seconds. The hit is a possible. The hit is, after a long pause, a miss. The room becomes very quiet.",
+      "sceneTitle": "T-7:00",
+      "choices": [
+        {
+          "text": "Authorize second shot",
+          "consequence": "Three shots in the magazine; spend.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold for the final shot",
+          "consequence": "Save the last one for terminal phase.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Attribution lands. NSA and a second source converge: a rogue North Korean unit. Not state-sanctioned. The North Korean leadership themselves are, allegedly, asking on a back channel what's happening.",
+      "sceneTitle": "T-7:00",
+      "choices": [
+        {
+          "text": "Open the back channel directly",
+          "consequence": "Trust nothing, talk anyway.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Treat the launch as state action until proven otherwise",
+          "consequence": "Operate from worst-case.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Second GBI: miss. The room is now praying without saying so. The President is on the line and quietly asking for one piece of advice he can take into the next sentence of his life.",
+      "sceneTitle": "T-4:00",
+      "choices": [
+        {
+          "text": "Tell him: no retaliatory launch, no matter what",
+          "consequence": "De-escalate first.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell him: hold response posture, but reassure allies",
+          "consequence": "Hold the door open.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Back channel runs cold for ninety seconds and then a North Korean general — terrified — confirms the rogue unit, says they've moved to shut them down, asks for the U.S. not to escalate. He sounds like he means it.",
+      "sceneTitle": "T-4:00",
+      "choices": [
+        {
+          "text": "Trust him on the call alone",
+          "consequence": "Take the breath.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Demand a verifiable action in 60 seconds",
+          "consequence": "Trust verifies.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Third GBI: hit. The warhead is destroyed over the Pacific. The room exhales. Then it goes cold again — there is debris, and there is the question of what happens next.",
+      "sceneTitle": "T-2:00",
+      "choices": [
+        {
+          "text": "Order a public, calm statement immediately",
+          "consequence": "Manage the second wave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Hold all statements for the next hour",
+          "consequence": "Don't speak before you understand.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Third GBI: miss. The warhead is in terminal phase. The trajectory is — by some appalling stroke — into open ocean three hundred miles west of the coast. Detonation is in twenty seconds.",
+      "sceneTitle": "T-2:00",
+      "choices": [
+        {
+          "text": "Brace the rooms for the message",
+          "consequence": "Be the calm in the room.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Order DEFCON 2 immediately",
+          "consequence": "Worst case, prepared.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Either the world stays the same or it doesn't. Either way, the next sentence the President says will matter forever. He looks at you. He has, all night, been looking at you when he didn't know who else to look at.",
+      "sceneTitle": "T+0:00",
+      "choices": [
+        {
+          "text": "Recommend public reassurance and quiet diplomacy",
+          "consequence": "Lead with calm.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Recommend a measured demonstration of resolve",
+          "consequence": "Lead with strength.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Whatever happens, you have done what is, perhaps, the most consequential job in the country tonight. Your hands have started shaking only now. You hide them under the table.",
+      "sceneTitle": "T+0:00",
+      "choices": [
+        {
+          "text": "Stay in the room for the next twelve hours",
+          "consequence": "Lead through the aftermath.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hand off to the senior team and rest",
+          "consequence": "Sustainability is a discipline.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The President addresses the nation. The wording — yours — is, against all instinct, calm and exact. The country, somehow, listens. The night becomes a memory the country tells slightly wrong for the rest of its life.",
+      "sceneTitle": "The Address",
+      "choices": [
+        {
+          "text": "Stay in office for the rebuild",
+          "consequence": "Use the moment for policy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Resign in a year, on your own terms",
+          "consequence": "Spend the political capital and leave.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The country survives. The agencies don't all behave well in the after. You testify, you correct, you fight institutional fights you didn't think you'd have to. It is, in its own way, a second long night.",
+      "sceneTitle": "The Debrief",
+      "choices": [
+        {
+          "text": "Push for non-proliferation reforms",
+          "consequence": "Make the night mean something.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Speak at the memorial when the year turns",
+          "consequence": "First the dead, then the doctrine.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Sun on the lawn, coffee that's cold. The President asks you to draft a paragraph he can build a year on. You realize the next move decides which legacy you carry — the one that stayed or the one that left.",
+      "sceneTitle": "The Morning After",
+      "choices": [
+        {
+          "text": "Draft the paragraph for a long policy season",
+          "consequence": "Build, slow and steady.",
+          "nextNodeId": "end_policy"
+        },
+        {
+          "text": "Draft the paragraph for a clean handoff",
+          "consequence": "Plant the legacy and go.",
+          "nextNodeId": "end_legacy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Under the cameras you make the case that the system that worked tonight should be the system that's never tested again. The committee leans in. You decide which reform to spend your credibility on.",
+      "sceneTitle": "The Hearing Room",
+      "choices": [
+        {
+          "text": "Spend it on weapons",
+          "consequence": "Non-proliferation, hard.",
+          "nextNodeId": "end_reform"
+        },
+        {
+          "text": "Spend it on the warning architecture",
+          "consequence": "Warnings, gentler.",
+          "nextNodeId": "end_warning"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A year on, a small memorial at the Navy Yard for the analysts who held the line that night. You speak for two minutes. You realize, after, that one of those minutes is what the next decade of your work should sound like.",
+      "sceneTitle": "The Memorial",
+      "choices": [
+        {
+          "text": "Turn the speech into a policy push",
+          "consequence": "Words become law.",
+          "nextNodeId": "end_policy"
+        },
+        {
+          "text": "Turn the speech into your private vow",
+          "consequence": "Words become discipline.",
+          "nextNodeId": "end_legacy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_policy",
+      "text": "Two years later you stand in a room signing a treaty that, in part, exists because of that night. It is incomplete and necessary. You are old now. You sleep, mostly. The nightmares come less.",
+      "sceneTitle": "The Long Treaty",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Treaty"
+    },
+    {
+      "id": "end_legacy",
+      "text": "You leave on your own terms and teach at a school you can pronounce. Your students do not know what you did that night. You tell them the lessons without the story. The lessons survive. So do you.",
+      "sceneTitle": "Out",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Out"
+    },
+    {
+      "id": "end_reform",
+      "text": "The reforms slow the next escalation. Slow is not the same as stopped. You are, after a decade, both more cynical and more hopeful — a strange pair that, you realize, has always been the truth about your job.",
+      "sceneTitle": "Non-Proliferation",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Non-Proliferation"
+    },
+    {
+      "id": "end_warning",
+      "text": "You spend the rest of your career making sure the system that woke you that night will, one day, wake fewer people. You will not be the one to use it. That is, you decide, the right kind of legacy.",
+      "sceneTitle": "The Better Warning",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Better Warning"
+    }
+  ]
+}

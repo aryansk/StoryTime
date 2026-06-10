@@ -1,0 +1,449 @@
+{
+  "id": "fm-godfather",
+  "title": "The Godfather",
+  "sourceTitle": "The Godfather",
+  "kind": "movie",
+  "synopsis": "A wedding. A horse's head. A war between five families. You're the youngest son. The family business is, finally, calling you.",
+  "releaseYear": 1972,
+  "addedAt": "2026-03-26T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "mafia",
+    "family",
+    "classic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Connie's wedding. Sicilians believe no Sicilian can refuse a request on a wedding day. Your father takes meetings in a dark study.",
+      "sceneTitle": "The Wedding",
+      "choices": [
+        {
+          "text": "Stay outside with Kay",
+          "consequence": "Distance.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Watch from the doorway",
+          "consequence": "Observe.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Kay asks who that man is. You tell her. You tell her, then, that this isn't your life.",
+      "sceneTitle": "Kay's Question",
+      "choices": [
+        {
+          "text": "Mean it",
+          "consequence": "Naive.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Half-mean it",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A man named Solozzo wants the family in the heroin business. Your father says no. You realize the word 'no' has a price.",
+      "sceneTitle": "Solozzo's Offer",
+      "choices": [
+        {
+          "text": "Trust your father's reading",
+          "consequence": "Respect.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Argue for caution",
+          "consequence": "Modern.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your father has been shot. The hospital is empty of guards. You stand in his room alone.",
+      "sceneTitle": "The Hospital",
+      "choices": [
+        {
+          "text": "Improvise protection",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Call Sonny first",
+          "consequence": "Process.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "McCluskey breaks your jaw. The family is, suddenly, at war with a captain of police.",
+      "sceneTitle": "Police Captain",
+      "choices": [
+        {
+          "text": "Plan revenge cold",
+          "consequence": "Strategic.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Burn with anger",
+          "consequence": "Hot.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Solozzo and McCluskey. Italian restaurant. Gun taped behind the toilet. The walls hum.",
+      "sceneTitle": "The Restaurant",
+      "choices": [
+        {
+          "text": "Do it",
+          "consequence": "Cross.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Refuse.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You hide in Sicily. The hills are beautiful. You meet Apollonia. You realize you can almost have a different life.",
+      "sceneTitle": "Sicily",
+      "choices": [
+        {
+          "text": "Marry her",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay alone",
+          "consequence": "Mind.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Apollonia is killed by a bomb meant for you. You stand by the wreckage. Something inside closes for good.",
+      "sceneTitle": "The Bomb",
+      "choices": [
+        {
+          "text": "Vow vengeance",
+          "consequence": "Sicilian.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Vow only to return strong",
+          "consequence": "Strategic.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Back in New York. Kay waits. You ask her to trust you. She does, with conditions.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Promise the family will go legitimate",
+          "consequence": "Lie kindly.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Promise nothing",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Sonny is killed on a tollbooth highway, riddled. Your father, broken, sits with you in the garden.",
+      "sceneTitle": "Sonny's Death",
+      "choices": [
+        {
+          "text": "Take charge of the family",
+          "consequence": "Heir.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay in the shadows",
+          "consequence": "Power.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your father, old, asks for a meeting of the five families. He brokers peace. He gets to live, briefly.",
+      "sceneTitle": "Don Corleone's Peace",
+      "choices": [
+        {
+          "text": "Watch him lead",
+          "consequence": "Learn.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Lead beside him",
+          "consequence": "Equal.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Tom, consigliere, briefs you. You realize Tessio has betrayed the family.",
+      "sceneTitle": "Tom Hagen",
+      "choices": [
+        {
+          "text": "Confirm it carefully",
+          "consequence": "Patient.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Move now",
+          "consequence": "Speed.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You marry Kay. The ceremony is in English. Your father, at the reception, dances with her.",
+      "sceneTitle": "Wedding, Yours",
+      "choices": [
+        {
+          "text": "Honor him",
+          "consequence": "Son.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Plan",
+          "consequence": "Don.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Your father, retired, plays with your son in the tomato garden. He dies there, peacefully. You hold his hand last.",
+      "sceneTitle": "The Garden",
+      "choices": [
+        {
+          "text": "Promise him to honor the family",
+          "consequence": "Vow.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Promise yourself to be different",
+          "consequence": "Modern.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Tom and you, in the kitchen, plan the strike. Every head of every family. One day. The same day Connie's son is baptized.",
+      "sceneTitle": "Plan",
+      "choices": [
+        {
+          "text": "Approve every name",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Spare one",
+          "consequence": "Mercy.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You renounce Satan in the church. At the same moment, across the city, your enemies fall.",
+      "sceneTitle": "Baptism",
+      "choices": [
+        {
+          "text": "Mean the renunciation",
+          "consequence": "Self-deceit.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't mean it",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Carlo, who betrayed Sonny, sits in your car. He weeps. He admits it. You let him die.",
+      "sceneTitle": "Carlo",
+      "choices": [
+        {
+          "text": "Tell yourself it was justice",
+          "consequence": "Story.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Tell yourself nothing",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Kay asks if you killed Connie's husband. You look her in the eye and lie.",
+      "sceneTitle": "Kay's Question, Again",
+      "choices": [
+        {
+          "text": "Tell the kindest lie",
+          "consequence": "Marriage.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Tell a clean lie",
+          "consequence": "Don.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The family men kiss your hand. They call you Don. Kay sees through a doorway. The door closes.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Notice the door closing",
+          "consequence": "Witness.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Don't notice",
+          "consequence": "Power.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You have built an empire. You have buried friends. Your son will not know what you have done. You have, you tell yourself, done it for him.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Story.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't believe it",
+          "consequence": "Truth.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You sit in your father's chair. The chair fits, now. You decide what kind of Don you are going to be.",
+      "sceneTitle": "Alone in the Study",
+      "choices": [
+        {
+          "text": "The cold one",
+          "consequence": "Power.",
+          "nextNodeId": "end_don"
+        },
+        {
+          "text": "The fair one",
+          "consequence": "Honor.",
+          "nextNodeId": "end_legitimate"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_father"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_don",
+      "text": "You rule for thirty years. The family is feared and quiet. Kay leaves, eventually. Your children grow up American, ignorant. You are alone with the work.",
+      "sceneTitle": "The Don",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Don"
+    },
+    {
+      "id": "end_legitimate",
+      "text": "Over twenty years you move the family into Vegas, real estate, banks. Your grandchildren are senators. The history is, by then, forgivable.",
+      "sceneTitle": "Legitimate, Eventually",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Legitimate, Eventually"
+    },
+    {
+      "id": "end_father",
+      "text": "You die in a tomato garden, old, with a grandchild on your knee. The Don you became, in the end, was kinder than the one you intended. You take that as a small, final victory.",
+      "sceneTitle": "Like My Father",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Like My Father"
+    }
+  ]
+}

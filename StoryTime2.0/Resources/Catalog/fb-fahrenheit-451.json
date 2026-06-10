@@ -1,0 +1,449 @@
+{
+  "id": "fb-fahrenheit-451",
+  "title": "Fahrenheit 451",
+  "sourceTitle": "Fahrenheit 451",
+  "kind": "book",
+  "synopsis": "Your job is to burn books. You wear a salamander and a number. Tonight, you'll meet a girl named Clarisse who asks if you're happy.",
+  "releaseYear": 1953,
+  "addedAt": "2026-02-06T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "censorship",
+    "bradbury",
+    "fire"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Clarisse walks beside you. She asks questions.",
+      "sceneTitle": "Sidewalk",
+      "choices": [
+        {
+          "text": "Answer",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Be brief",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Mildred has the seashells in her ears.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Speak to her",
+          "consequence": "Care.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stop",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "An old woman's house. Books in the attic.",
+      "sceneTitle": "Alarm",
+      "choices": [
+        {
+          "text": "Try to save them",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Burn",
+          "consequence": "Job.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "She stays with her books.",
+      "sceneTitle": "She Strikes the Match",
+      "choices": [
+        {
+          "text": "Carry one home in your pocket",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your captain. He quotes more than he should. He warns you.",
+      "sceneTitle": "Beatty",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Pumps, technicians, fluorescent dawn.",
+      "sceneTitle": "Mildred Dosed",
+      "choices": [
+        {
+          "text": "Hold her hand",
+          "consequence": "Care.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Step out",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Run over, they say. The street is the suspect.",
+      "sceneTitle": "Clarisse Gone",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Survive.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "An old English professor in a quiet apartment.",
+      "sceneTitle": "Faber",
+      "choices": [
+        {
+          "text": "Recruit him",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He gives you a small radio. He'll be in your ear.",
+      "sceneTitle": "The Earpiece",
+      "choices": [
+        {
+          "text": "Wear it",
+          "consequence": "Path.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Mildred's friends. You read them poetry.",
+      "sceneTitle": "Dinner Party",
+      "choices": [
+        {
+          "text": "Read it gently",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Read it loud",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mildred has called it in.",
+      "sceneTitle": "Alarm at Your House",
+      "choices": [
+        {
+          "text": "Burn the parlor walls first",
+          "consequence": "Anger.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Burn the books only",
+          "consequence": "Discipline.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He, almost, asks you to kill him.",
+      "sceneTitle": "Beatty's Hint",
+      "choices": [
+        {
+          "text": "Pause",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Strike",
+          "consequence": "Anger.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He falls.",
+      "sceneTitle": "Beatty Burned",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The mechanical hound on your trail.",
+      "sceneTitle": "Hound",
+      "choices": [
+        {
+          "text": "River",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Subway",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You float downriver. Stars.",
+      "sceneTitle": "River",
+      "choices": [
+        {
+          "text": "Sleep on the bank",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Old men around a fire. Each is a book.",
+      "sceneTitle": "The Camp",
+      "choices": [
+        {
+          "text": "Become one",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Just listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He recites Plato. He laughs.",
+      "sceneTitle": "Granger",
+      "choices": [
+        {
+          "text": "Become Ecclesiastes",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Become Job",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The city, behind you, is in light. Then it is dust.",
+      "sceneTitle": "Bombs",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Walk on",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You realize she likely was watching the parlor when it ended.",
+      "sceneTitle": "Mildred, Probably",
+      "choices": [
+        {
+          "text": "Forgive her",
+          "consequence": "Heart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Granger talks of the bird that burns and returns.",
+      "sceneTitle": "Phoenix",
+      "choices": [
+        {
+          "text": "Hope",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You walk back toward the ash. People will need words.",
+      "sceneTitle": "The Road",
+      "choices": [
+        {
+          "text": "Walk",
+          "consequence": "Path.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Stay another night",
+          "consequence": "Patient.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_river"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_book",
+      "text": "You become the book inside you. You recite it, slowly, to children. They learn it. They will, in time, recite it to other children.",
+      "sceneTitle": "Becoming Ecclesiastes",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Becoming Ecclesiastes"
+    },
+    {
+      "id": "end_writer",
+      "text": "You and Granger, eventually, write a new book together. It is, mostly, a list of the books that were lost. It becomes the seed of a recovered library.",
+      "sceneTitle": "Writer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Writer"
+    },
+    {
+      "id": "end_river",
+      "text": "You stay by the river. You teach the people who pass. You light no fires you don't need. You die very old, with a small book in your hands that nobody burned.",
+      "sceneTitle": "The River Bank",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The River Bank"
+    }
+  ]
+}

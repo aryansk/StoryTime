@@ -1,0 +1,452 @@
+{
+  "id": "pursuit-happiness-the-internship",
+  "title": "The Pursuit of Happyness",
+  "sourceTitle": "The Pursuit of Happyness",
+  "kind": "movie",
+  "synopsis": "Twenty unpaid weeks, one son, and exactly nineteen other interns competing for the single job at the end. You can't afford to lose. You also can't afford to win.",
+  "releaseYear": 2006,
+  "addedAt": "2026-05-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "fatherhood",
+    "ambition",
+    "second chances"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You stand in a borrowed suit on a floor of men in real ones. Your son is in daycare you can't afford. The internship is unpaid. The job, if you win it, will change everything.",
+      "sceneTitle": "Day One",
+      "choices": [
+        {
+          "text": "Speak up early to be noticed",
+          "consequence": "Visibility is half the game.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay quiet and observe everything",
+          "consequence": "Knowing the room beats announcing yourself.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You ask a sharp question in the morning meeting. A senior broker raises an eyebrow — could be 'impressed,' could be 'put him on my list.' You will, for the next nineteen weeks, never know which.",
+      "sceneTitle": "First Impression",
+      "choices": [
+        {
+          "text": "Lean into the bold version of yourself",
+          "consequence": "Brave is a strategy, not a feeling.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Dial it back and prove yourself in numbers",
+          "consequence": "Quiet excellence is harder to dismiss.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "By afternoon you're on the phones, dialing strangers. Most hang up. One curses you out. You take notes on what worked. You realize you are very, very good at this.",
+      "sceneTitle": "The Cold Calls",
+      "choices": [
+        {
+          "text": "Burn through the call list at speed",
+          "consequence": "Volume is its own kind of magic.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Pick fewer calls, go deeper with each",
+          "consequence": "Quality is a slow weapon.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You come home to a piece of paper taped to your door. Fourteen days. Your son shows you a drawing he made. He has not eaten anything green this week. You smile at the drawing.",
+      "sceneTitle": "The Eviction Notice",
+      "choices": [
+        {
+          "text": "Tell him the truth in kid-sized pieces",
+          "consequence": "Honesty he can carry is a gift.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Protect him from it for one more night",
+          "consequence": "Some weights you carry alone, by choice.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A name you cold-called actually calls back — a big one, distracted, but listening. He'll meet you in person if you can be at his office across the city tomorrow at 7 a.m.",
+      "sceneTitle": "A Lead",
+      "choices": [
+        {
+          "text": "Commit to the meeting at any cost",
+          "consequence": "Doors open once, and not by appointment.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Try to reschedule to a day you can manage",
+          "consequence": "Sometimes the door reopens; usually not.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You and your son stand in line for the church shelter. It rains. He holds a toy rocket. He asks if you have a plan. You say yes — quietly, because the people behind you are too close, and because saying it out loud is also how you start to believe it.",
+      "sceneTitle": "The Shelter Line",
+      "choices": [
+        {
+          "text": "Make sure he sees you stay calm",
+          "consequence": "Calm in a parent is its own kind of meal.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Let him see you're scared, too",
+          "consequence": "Some lessons require an honest face.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You make it across the city at 7 a.m. — somehow — and the prospect actually shakes your hand. Twenty minutes of his time. You can hear your own heartbeat. Begin.",
+      "sceneTitle": "The Big Meeting",
+      "choices": [
+        {
+          "text": "Pitch hard with everything you know",
+          "consequence": "When the door opens you do not knock politely.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Listen first, then offer what fits him",
+          "consequence": "The best pitch is sometimes a question.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "There's a night when the shelter is full and you and your son sleep in a subway-station bathroom with the door wedged shut. You sing to him. You promise yourself you will never tell anyone about tonight. You will. Eventually.",
+      "sceneTitle": "Subway Bathroom",
+      "choices": [
+        {
+          "text": "Sing him through to sleep",
+          "consequence": "Voice is a kind of roof.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold him in silence so he hears your heart",
+          "consequence": "Some lullabies don't have words.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your manager hands you a rolodex of names and a target. The other interns are richer, better-educated, sharper-suited. You stare at the cards. You realize you have one advantage they don't — desperation.",
+      "sceneTitle": "The Rolodex",
+      "choices": [
+        {
+          "text": "Turn desperation into discipline",
+          "consequence": "Hunger is a tool only if you sharpen it.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Try to make a friend among the interns first",
+          "consequence": "Allies inside the wall are also currency.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "One of the interns — Naomi, whose father is also her boss somewhere — surprises you. She doesn't pity you. She just sits beside you in the cafeteria like it's normal. You'd forgotten how that felt.",
+      "sceneTitle": "The Friend",
+      "choices": [
+        {
+          "text": "Accept the friendship at face value",
+          "consequence": "Not everyone with money is the enemy.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay polite but keep your distance",
+          "consequence": "Friendship in a competition is a soft target.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You're still trying to sell the medical scanners you bought before the internship. One left. If you sell it this week the rent is no longer a problem this week.",
+      "sceneTitle": "The Bone Scanner Sale",
+      "choices": [
+        {
+          "text": "Hustle the scanner with everything you've got",
+          "consequence": "Old debts don't care about new dreams.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Drop it and focus only on the internship",
+          "consequence": "Bet on the bigger long game.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He turns six. You scrape together a small cake and a story and a promise you can't quite keep. He blows out the candles like it's the easiest day of his life. You realize, watching him, that he thinks it is.",
+      "sceneTitle": "Your Son's Birthday",
+      "choices": [
+        {
+          "text": "Tell him about the dream you're chasing",
+          "consequence": "Children deserve to know the story they're inside.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Just be present for the day",
+          "consequence": "Some birthdays don't need a speech.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your supervisor pulls you aside and tells you you're in the top two. He pauses. 'You're also,' he says, 'a year behind everyone in the network.' He is, as senior brokers go, kind.",
+      "sceneTitle": "Midterm Review",
+      "choices": [
+        {
+          "text": "Ask him for one piece of honest advice",
+          "consequence": "Mentorship is the only shortcut that's safe.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Thank him and double your efforts",
+          "consequence": "Recognition is fuel.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Another intern — sharper-suited, sharper-tongued — has started taking credit for your accounts. The senior partners can't quite tell. You can.",
+      "sceneTitle": "The Rival",
+      "choices": [
+        {
+          "text": "Call it out in the next meeting",
+          "consequence": "Truth aimed cleanly is allowed at work too.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Beat him on results so loud nobody can mistake them",
+          "consequence": "Numbers don't lie in this building.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your son spikes a fever and the daycare can't keep him. You have a 9 a.m. meeting that cannot be missed. The world has, again, asked you for two whole lives.",
+      "sceneTitle": "Sick Day",
+      "choices": [
+        {
+          "text": "Bring him to the office, hide him under your desk",
+          "consequence": "Improvise; apologize; survive.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Skip the meeting and explain truthfully later",
+          "consequence": "Honesty is also a strategy.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You've been here long enough that the marble lobby looks ordinary. You look down at your hands and they're a little steadier. So is your son's. Your suit fits, finally.",
+      "sceneTitle": "Week Nineteen",
+      "choices": [
+        {
+          "text": "Walk in tomorrow like you already work here",
+          "consequence": "Belonging is a posture you adopt before they grant it.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay humble; the decision isn't yours",
+          "consequence": "Pride is the last thing to lose, and the easiest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "On the second-to-last day you land an account so improbable a senior partner stares at you for a long moment, then quietly hands you his card. 'Whatever happens Friday,' he says, 'call me.' That sentence is worth more than the job.",
+      "sceneTitle": "The Final Call",
+      "choices": [
+        {
+          "text": "Be ready to take Friday's news either way",
+          "consequence": "A door, opened, is an option.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Resolve to take only the offered job, on principle",
+          "consequence": "Loyalty has its costs and its rewards.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Your supervisor calls you into his office. There is a single white envelope on the desk. He smiles, just slightly. You realize you have not breathed in approximately a minute.",
+      "sceneTitle": "Friday Morning",
+      "choices": [
+        {
+          "text": "Open the envelope yourself",
+          "consequence": "Take the news in your own hands.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Let him tell you out loud",
+          "consequence": "Some sentences are meant to be spoken.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Whatever the envelope says, the truth is already known by the people who've watched you do this — and by your son, who looked at you this morning and said, 'You did it, Dad,' as if it were obvious.",
+      "sceneTitle": "Whatever Friday Says",
+      "choices": [
+        {
+          "text": "Believe him before the envelope speaks",
+          "consequence": "Some verdicts beat the official ones.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Wait for the room to call it official",
+          "consequence": "Hope and proof both have their seats.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "It's yes. It's the job. There are tears you didn't plan and a handshake you'll remember and a phone call to your sister that you make in a stairwell so nobody sees you cry. None of it feels real. All of it is.",
+      "sceneTitle": "The Offer",
+      "choices": [
+        {
+          "text": "Take the job and build the life",
+          "consequence": "Doors open. Walk through.",
+          "nextNodeId": "end_job"
+        },
+        {
+          "text": "Take the job — and remember everyone who helped",
+          "consequence": "Success is not a solo act.",
+          "nextNodeId": "end_grateful"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Whether the envelope says yes or no, you walk out of the building taller than you walked in. You learned what you came to learn — that you can take a punch and stand up. The senior partner's card is warm in your pocket.",
+      "sceneTitle": "Whatever Comes Next",
+      "choices": [
+        {
+          "text": "Call the senior partner Monday no matter what",
+          "consequence": "When the front door closes, knock on a window.",
+          "nextNodeId": "end_door"
+        },
+        {
+          "text": "Take your son out for something silly",
+          "consequence": "Today is for him. Tomorrow is for everything else.",
+          "nextNodeId": "end_son"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_job",
+      "text": "Years later, in a corner office, you find a small plastic rocket in the bottom drawer and laugh and almost cry. The boy who once asked if you had a plan is in college now. You had a plan. You just had to learn it as you went.",
+      "sceneTitle": "Stockbroker",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Stockbroker"
+    },
+    {
+      "id": "end_grateful",
+      "text": "You learn fast to send the elevator back down. You hire from shelters, from night classes, from places you knew. The job becomes a door you hold open for someone else. That, you realize, is what pursuit actually means.",
+      "sceneTitle": "The People Who Carried You",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The People Who Carried You"
+    },
+    {
+      "id": "end_door",
+      "text": "You don't get the internship's job. You make the call. The other door opens — smaller, slower, but yours. Some pursuits are not a straight line. Yours is more interesting for the detour.",
+      "sceneTitle": "The Other Door",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Other Door"
+    },
+    {
+      "id": "end_son",
+      "text": "Whatever the job becomes, you become a father who is present, who showed up, who proved a man can be broke and not broken. He grows up steady because you decided to. That is, by any honest measure, the better fortune.",
+      "sceneTitle": "Your Son's Father",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Your Son's Father"
+    }
+  ]
+}

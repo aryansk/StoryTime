@@ -1,0 +1,449 @@
+{
+  "id": "fm-psycho",
+  "title": "Psycho",
+  "sourceTitle": "Psycho",
+  "kind": "movie",
+  "synopsis": "Phoenix. A motel. A bathroom. A boy and his mother. You took forty thousand dollars on impulse. You'll wish you hadn't, soon.",
+  "releaseYear": 1960,
+  "addedAt": "2026-03-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "classic",
+    "motel",
+    "twist"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Sam in a hotel room. The cash from the office is heavy.",
+      "sceneTitle": "Friday Lunch",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Decision.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You stop at a dealer. You change cars.",
+      "sceneTitle": "On the Road",
+      "choices": [
+        {
+          "text": "Sleep at a motel",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Drive all night",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Vacancy. A boy at the office. His mother shouts upstairs.",
+      "sceneTitle": "Bates Motel",
+      "choices": [
+        {
+          "text": "Check in",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Sandwiches and milk. Stuffed birds.",
+      "sceneTitle": "Parlor",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Eat fast",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Shower. The curtain. The shadow.",
+      "sceneTitle": "Bathroom",
+      "choices": [
+        {
+          "text": "Hear the steps",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Norman finds the room. He cleans, carefully, with bleach.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Notice the car",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Notice the swamp",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He asks Norman questions. The hallway creaks.",
+      "sceneTitle": "Detective Arbogast",
+      "choices": [
+        {
+          "text": "Push",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The detective climbs. The door opens.",
+      "sceneTitle": "Stairs",
+      "choices": [
+        {
+          "text": "Survive",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Press on",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Marion's sister and the boyfriend come to find her.",
+      "sceneTitle": "Sam and Lila",
+      "choices": [
+        {
+          "text": "Visit Norman",
+          "consequence": "Path.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Visit the sheriff first",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Mother has been dead for ten years.",
+      "sceneTitle": "Sheriff",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't believe it",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She goes to the house. Sam keeps Norman talking.",
+      "sceneTitle": "Lila Investigates",
+      "choices": [
+        {
+          "text": "Search every room",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Search only downstairs",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Lila descends. A figure in a chair. A wig.",
+      "sceneTitle": "Cellar",
+      "choices": [
+        {
+          "text": "Don't scream",
+          "consequence": "Survive.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Scream",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Norman enters with a knife. Sam stops him.",
+      "sceneTitle": "Norman",
+      "choices": [
+        {
+          "text": "Hold him",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Knock him out",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A psychiatrist explains, calmly, what happened.",
+      "sceneTitle": "Hospital Interview",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Norman, smiling. A fly.",
+      "sceneTitle": "Cell",
+      "choices": [
+        {
+          "text": "Look away",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Witness.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Marion is buried. Sam holds Lila's hand.",
+      "sceneTitle": "Funeral",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Sam, after, drinks too much. He's, in a way, ashamed.",
+      "sceneTitle": "Sam, Quiet",
+      "choices": [
+        {
+          "text": "Forgive him",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Move on without him",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Lila will not let it go. She presses the DA.",
+      "sceneTitle": "Lila, Sharp",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Right.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Healing.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The motel, in foreclosure, is sold to a couple who don't know.",
+      "sceneTitle": "The Property",
+      "choices": [
+        {
+          "text": "Tell them",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You read a paper. Norman is still there. Still smiling, still inside.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Visit him",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You move on. You marry quietly. You don't tell most people about Phoenix.",
+      "sceneTitle": "Your Life",
+      "choices": [
+        {
+          "text": "Tell your spouse",
+          "consequence": "Honest.",
+          "nextNodeId": "end_sam"
+        },
+        {
+          "text": "Bury it",
+          "consequence": "Honest.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_press"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_sam",
+      "text": "You and Lila, after years, end up married. The marriage is, against all odds, kind. You buy a small business in Fairvale. You sleep poorly some nights.",
+      "sceneTitle": "Sam and Lila",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sam and Lila"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You move to California. You become a teacher. You don't, in the end, talk about the motel. The story, you decide, was never yours.",
+      "sceneTitle": "Quietly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly"
+    },
+    {
+      "id": "end_press",
+      "text": "You write a long piece for a magazine. It becomes a book. The book becomes a movie, twice. You are paid. You give half away.",
+      "sceneTitle": "The Press",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Press"
+    }
+  ]
+}

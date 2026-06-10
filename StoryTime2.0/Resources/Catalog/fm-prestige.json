@@ -1,0 +1,450 @@
+{
+  "id": "fm-prestige",
+  "title": "The Prestige",
+  "sourceTitle": "The Prestige",
+  "kind": "movie",
+  "synopsis": "Two magicians, a transported man, a tank of water, and a notebook that may be telling the truth or the better lie.",
+  "releaseYear": 2006,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "magic",
+    "rivalry",
+    "secrets",
+    "twist"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A trick gone wrong on a stage in front of strangers.",
+      "sceneTitle": "Sarah's Tank",
+      "choices": [
+        {
+          "text": "Tie a slipknot",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Use a true knot",
+          "consequence": "Reckless.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A coffin, a brother, a hard look across an open grave.",
+      "sceneTitle": "Funeral",
+      "choices": [
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cold.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A notebook in cipher with a single mocking word.",
+      "sceneTitle": "Borden's Code Book",
+      "choices": [
+        {
+          "text": "Steal it",
+          "consequence": "Wild.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Colorado Springs. A current. A demonstration in a barn.",
+      "sceneTitle": "Tesla's Telegram",
+      "choices": [
+        {
+          "text": "Travel",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A new assistant who is too clever and too kind by half.",
+      "sceneTitle": "Olivia",
+      "choices": [
+        {
+          "text": "Trust her",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Use her",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A bird in a cage, a smashing trick, a feather on a sleeve.",
+      "sceneTitle": "Catch and Release",
+      "choices": [
+        {
+          "text": "Show it whole",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Burn the cage",
+          "consequence": "Hard.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A volunteer with a smug grin loads a real round.",
+      "sceneTitle": "Bullet Catch",
+      "choices": [
+        {
+          "text": "Step closer",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Refuse the trick",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A cost to a trick written into your own hand.",
+      "sceneTitle": "Two Fingers Gone",
+      "choices": [
+        {
+          "text": "Hide it",
+          "consequence": "Pride.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Show the audience",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A copper coil and a hat that arrives twice.",
+      "sceneTitle": "Tesla's Machine",
+      "choices": [
+        {
+          "text": "Take it home",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Leave it",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A trick where the magician disappears below stage every night.",
+      "sceneTitle": "Drowned in a Tank",
+      "choices": [
+        {
+          "text": "Investigate",
+          "consequence": "Curious.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stop performing",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A small daughter who must be home before bedtime.",
+      "sceneTitle": "Sally",
+      "choices": [
+        {
+          "text": "Make time",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Skip the lullaby",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A bearded engineer who never leaves the workshop.",
+      "sceneTitle": "Fallon",
+      "choices": [
+        {
+          "text": "Question him",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Hire him",
+          "consequence": "Practical.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Doubles in mirrors and a man dripping in a hidden bath.",
+      "sceneTitle": "Show Beneath the Stage",
+      "choices": [
+        {
+          "text": "Climb down",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A poster announcing one hundred nights of the new transported man.",
+      "sceneTitle": "Trick Gone Public",
+      "choices": [
+        {
+          "text": "Sabotage the show",
+          "consequence": "Wild.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Steal the gimmick",
+          "consequence": "Cunning.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "She has been Borden's all along and she is sorry.",
+      "sceneTitle": "Olivia's Reveal",
+      "choices": [
+        {
+          "text": "Forgive",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hate",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A small dead twin in the workshop drawer.",
+      "sceneTitle": "The Cat in the Box",
+      "choices": [
+        {
+          "text": "Bury it",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stage it",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A judge, a courtroom, a verdict already written.",
+      "sceneTitle": "Trial",
+      "choices": [
+        {
+          "text": "Confess",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Lie",
+          "consequence": "Cunning.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A baronet with a daughter and a checkbook and a polite cruelty.",
+      "sceneTitle": "Lord Caldlow",
+      "choices": [
+        {
+          "text": "Refuse him",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Accept",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A row of drowned magicians like a museum.",
+      "sceneTitle": "Tanks Below Stage",
+      "choices": [
+        {
+          "text": "Smash the tanks",
+          "consequence": "Final.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A trapdoor, a hood, a small word said into the canvas.",
+      "sceneTitle": "Gallows",
+      "choices": [
+        {
+          "text": "Forgive",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Curse",
+          "consequence": "Cold.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A bullet, a brother, a daughter handed back across a counter.",
+      "sceneTitle": "Workshop in Flames",
+      "choices": [
+        {
+          "text": "Take her home",
+          "consequence": "Heart.",
+          "nextNodeId": "end_prestige"
+        },
+        {
+          "text": "Stay to burn",
+          "consequence": "Cold.",
+          "nextNodeId": "end_lie"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_truth"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_prestige",
+      "text": "You sit at last in front of a small girl who calls you Daddy and does not know which of you that is. You hold her hand. You agree, both of you, that it is.",
+      "sceneTitle": "The Prestige",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Prestige"
+    },
+    {
+      "id": "end_lie",
+      "text": "Audiences fill the theater for a year. They want to be fooled. You give them their money's worth, again and again, until the lie wears thin and you sleep.",
+      "sceneTitle": "The Beautiful Lie",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Beautiful Lie"
+    },
+    {
+      "id": "end_truth",
+      "text": "You publish the notebook. Magic, in your city, dies a little. So do you. So does Angier, in his way. The next century will reinvent both.",
+      "sceneTitle": "The Cost",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Cost"
+    }
+  ]
+}

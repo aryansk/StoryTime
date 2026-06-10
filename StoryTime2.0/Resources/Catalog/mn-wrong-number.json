@@ -1,0 +1,150 @@
+{
+  "id": "mn-wrong-number",
+  "title": "Wrong Number",
+  "sourceTitle": "Wrong Number",
+  "kind": "movie",
+  "synopsis": "A voice on the line says, 'You weren't supposed to pick up.'",
+  "releaseYear": 2026,
+  "addedAt": "2026-02-01T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "one-call",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "Unknown number. 11:47 p.m.",
+      "sceneTitle": "Ring",
+      "choices": [
+        {
+          "text": "Answer",
+          "consequence": "Brave.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Wise.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "Calm, female, careful. She asks if you can keep a secret.",
+      "sceneTitle": "Voice",
+      "choices": [
+        {
+          "text": "Yes",
+          "consequence": "Honest.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Hang up",
+          "consequence": "Wise.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "She gives you an address. A bus station. Locker 47.",
+      "sceneTitle": "Address",
+      "choices": [
+        {
+          "text": "Write it down",
+          "consequence": "Path.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Repeat it back skeptically",
+          "consequence": "Smart.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "You go in the morning. There's a phone in the locker. It rings.",
+      "sceneTitle": "Locker",
+      "choices": [
+        {
+          "text": "Pick up",
+          "consequence": "Brave.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "She is in danger. She needs you to mail an envelope.",
+      "sceneTitle": "She Explains",
+      "choices": [
+        {
+          "text": "Mail it",
+          "consequence": "Honor.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Open it first",
+          "consequence": "Foolish.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "You drop it in the box. A week later, a news story. A man indicted.",
+      "sceneTitle": "Done",
+      "choices": [
+        {
+          "text": "Note the story",
+          "consequence": "Witness.",
+          "nextNodeId": "end_safe"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "end_meeting"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_safe",
+      "text": "Your envelope was, the story implies, the key piece. Nobody ever knows it was you.",
+      "sceneTitle": "Anonymous Donor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Anonymous Donor"
+    },
+    {
+      "id": "end_meeting",
+      "text": "She finds you. She buys you coffee. She does not, you notice, tell you her real name. You don't mind.",
+      "sceneTitle": "Coffee, Months Later",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Coffee, Months Later"
+    }
+  ]
+}

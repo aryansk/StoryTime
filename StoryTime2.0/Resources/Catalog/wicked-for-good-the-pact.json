@@ -1,0 +1,441 @@
+{
+  "id": "wicked-for-good-the-pact",
+  "title": "Wicked: For Good",
+  "sourceTitle": "Wicked: For Good",
+  "kind": "movie",
+  "synopsis": "Glinda has the crown. Elphaba has the price on her head. You're a school friend from Shiz who knows both of them. You can save one. Maybe.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-04T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "friendship",
+    "rebellion",
+    "Oz"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A poster on every wall: 'Bring her in, alive or otherwise.' Elphaba's face is on it. So is your old roommate's. Glinda's broadcast plays softly from a megaphone — kind voice, terrible message.",
+      "sceneTitle": "The Decree",
+      "choices": [
+        {
+          "text": "Go to Glinda first",
+          "consequence": "Begin where you can still walk in.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go to Elphaba first",
+          "consequence": "Begin where it's dangerous.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Glinda is, somehow, both glittering and tired. She lights up at you the way she always did. 'You're here,' she says. 'Don't tell me I shouldn't be doing this. Please don't.'",
+      "sceneTitle": "The Emerald Palace",
+      "choices": [
+        {
+          "text": "Listen first before you advise",
+          "consequence": "Hear her version of why.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her this is wrong",
+          "consequence": "Honest friendship.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You find Elphaba by following a trail no map shows — a kindness her broom leaves for those who knew her. She is thinner. The broom hovers beside her, mildly protective.",
+      "sceneTitle": "The Forest",
+      "choices": [
+        {
+          "text": "Ask if she still trusts Glinda",
+          "consequence": "Test the seam.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her you came to help",
+          "consequence": "Be plain.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A council of Animals — Goats, Bears, a wise old Cat — meets in a cave. They are organized in a way Oz has not seen in years. They want a public ally. Elphaba thinks that ally should be Glinda.",
+      "sceneTitle": "The Animal Rebellion",
+      "choices": [
+        {
+          "text": "Carry the message to Glinda",
+          "consequence": "Be the bridge.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Press Elphaba to lead them publicly herself",
+          "consequence": "Stop hiding her name.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You sneak into the Wizard's private quarters. He is older than the poster art, smaller, drinking. 'I'm not the villain,' he says. 'I'm just a man who scaled badly.' He may be telling the truth. He may be drunk.",
+      "sceneTitle": "The Wizard, Old",
+      "choices": [
+        {
+          "text": "Press him on the Animal cages",
+          "consequence": "Truth from the throne first.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Get him to confess on a phonograph",
+          "consequence": "Evidence is the new sword.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Glinda's chief adviser was your favorite teacher and is, you now see, the actual villain. She compliments your hair. She drops, casually, that she knows where your parents live.",
+      "sceneTitle": "Madame Morrible",
+      "choices": [
+        {
+          "text": "Refuse to be intimidated",
+          "consequence": "Stand even if your knees shake.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Play dumb and gather information",
+          "consequence": "Survive to fight later.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Fiyero is alive — disguised, scarred, in the rebellion. He thought he'd never see you. He hugs you with both arms still working. He is, somehow, less of a prince now and more of a person.",
+      "sceneTitle": "Fiyero",
+      "choices": [
+        {
+          "text": "Ask after Elphaba's plan",
+          "consequence": "Get the strategy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Ask after Fiyero's heart",
+          "consequence": "Ask the human first.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The Wizard's regime holds public 'trials' of Animals every Tuesday. You and Fiyero, in the crowd, watch a Goat be sentenced for the crime of speaking. The crowd is mostly silent. A few cry. None move.",
+      "sceneTitle": "The Trial in the Square",
+      "choices": [
+        {
+          "text": "Move first to disrupt",
+          "consequence": "Be the spark.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Document and leak it broadly instead",
+          "consequence": "Make the silent crowd reachable.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Glinda, alone, lets the act drop in front of you. She knows what she's enabled. She does not know how to undo it without dismantling herself.",
+      "sceneTitle": "Glinda's Private Doubt",
+      "choices": [
+        {
+          "text": "Help her plan a public reversal",
+          "consequence": "Strategy beats grand gesture.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Help her plan a quiet abdication",
+          "consequence": "Sometimes the right exit is small.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Three nights: an Animals' march, a Glinda statement, a Wizard ambush. You and Fiyero and Elphaba and (terrifyingly) Glinda map it out on a stolen schoolroom blackboard. The chalk feels like Shiz.",
+      "sceneTitle": "The Plan",
+      "choices": [
+        {
+          "text": "Run the plan as drafted",
+          "consequence": "Trust the room.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Insert a contingency for Glinda's safety",
+          "consequence": "Plan for the worst person you love.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Elphaba pulls out the Grimmerie. There is a spell for unwriting the most powerful enchantment in Oz — but the cost is paid in something the caster loves. She looks at you for a long moment.",
+      "sceneTitle": "The Spell Book",
+      "choices": [
+        {
+          "text": "Refuse to let her pay",
+          "consequence": "Find another way.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Ask the Grimmerie if you can pay instead",
+          "consequence": "Carry it for her.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Animals fill the Yellow Brick Road with a quiet roar. Glinda steps forward, in pink, and reads a statement that detonates the regime's narrative in one paragraph. Madame Morrible's smile drops for the first time in your life.",
+      "sceneTitle": "The March",
+      "choices": [
+        {
+          "text": "Stand visibly beside Glinda",
+          "consequence": "Witness is a weapon.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay close to Elphaba and her broom",
+          "consequence": "Protect the most hunted.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "An assassin's water bucket — actually a clever propagandist's prop — is meant to look like Elphaba melted. The plan: faked death, real escape. Elphaba, exhausted, considers it.",
+      "sceneTitle": "The Bucket",
+      "choices": [
+        {
+          "text": "Run the bucket plan",
+          "consequence": "Let her die to her enemies and live to her friends.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Convince her to stay and fight publicly",
+          "consequence": "No more hiding.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Morrible calls a hurricane. You realize she has always been the one driving the weather. The sky goes the wrong color. The plan begins to come apart in front of you.",
+      "sceneTitle": "Madame Morrible's Storm",
+      "choices": [
+        {
+          "text": "Use the Grimmerie to break her hold on the sky",
+          "consequence": "Cost-paid magic.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Get Glinda to publicly fire her in the storm",
+          "consequence": "Snap her authority in real time.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The Wizard, watching from a balcony, sees the crowd and the plan and the storm and, almost gratefully, takes off the great hat. 'I'm done,' he says into the mic. 'I'm just a man.' Glinda looks at you. So does Elphaba. The plan, suddenly, has a new ending.",
+      "sceneTitle": "The Wizard's Surrender",
+      "choices": [
+        {
+          "text": "Replace him with a council, not a queen",
+          "consequence": "Distribute the power.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Crown Glinda formally, with limits",
+          "consequence": "Build the constitutional kind.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Elphaba steps onto the palace balcony for the first time in years. The crowd, knowing the truth now, does not throw water. They throw flowers. Glinda is beside her holding her hand like they're in school again.",
+      "sceneTitle": "Elphaba, Public",
+      "choices": [
+        {
+          "text": "Let Elphaba speak first",
+          "consequence": "Honor the woman who carried the hate.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let Glinda speak first",
+          "consequence": "Honor the woman who carried the deception.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Elphaba and Fiyero marry under a tree in the woods, the Animals as witnesses, Glinda in pink she's clearly made herself. You catch the bouquet by accident. Everyone laughs.",
+      "sceneTitle": "The Forest Wedding",
+      "choices": [
+        {
+          "text": "Stay for a long, quiet year",
+          "consequence": "Some weddings deserve a celebration that lasts.",
+          "nextNodeId": "end_friends"
+        },
+        {
+          "text": "Go home to your village to teach",
+          "consequence": "Be the future, in small.",
+          "nextNodeId": "end_teach"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Glinda and Elphaba, you realize, never stopped being who they were at Shiz. The world bent them in opposite directions and yet — somehow — they still finish each other's harmonies. You smile from the wings.",
+      "sceneTitle": "Two Friends",
+      "choices": [
+        {
+          "text": "Take the post they offer you in the new council",
+          "consequence": "Put your shoulder to the work.",
+          "nextNodeId": "end_council"
+        },
+        {
+          "text": "Take the smaller post in a province they trust to you",
+          "consequence": "Govern a corner well.",
+          "nextNodeId": "end_province"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A council forms — Animals and humans, witches and ordinary citizens. It is imperfect. It is real. Glinda holds the gavel. Elphaba flies between provinces, an emissary nobody calls a fugitive anymore.",
+      "sceneTitle": "The Future of Oz",
+      "choices": [
+        {
+          "text": "Help draft Oz's first constitution",
+          "consequence": "Words can also save countries.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take a long, quiet sabbatical",
+          "consequence": "You earned it.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Crews lay new brick over a road that once led to a fraud. Children skip beside the workers. You stand at a window and decide whether your next year is a desk in the capital or a long walk through provinces you've never seen.",
+      "sceneTitle": "Yellow Brick, Repaved",
+      "choices": [
+        {
+          "text": "Take the desk and write the words",
+          "consequence": "The pen, the long way.",
+          "nextNodeId": "end_council"
+        },
+        {
+          "text": "Take the walk and let others write",
+          "consequence": "The road, the longer way.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friends",
+      "text": "Years later you watch Elphaba and Glinda fly between provinces on the same broom, both laughing, both lecturing each other about leadership. Some friendships outlast the worst chapters of a country.",
+      "sceneTitle": "Defying Gravity, Together",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Defying Gravity, Together"
+    },
+    {
+      "id": "end_teach",
+      "text": "You teach in the village school. You tell the children a version of events that is mostly true and entirely useful. They draw Glinda in pink and Elphaba in green and both of them as friends. They learn that's allowed.",
+      "sceneTitle": "Schoolroom",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Schoolroom"
+    },
+    {
+      "id": "end_council",
+      "text": "The constitution you helped draft outlives all of you. The Wicked Witch, in history class, becomes a hero. Madame Morrible becomes a villain. Glinda becomes a complicated figure — which is exactly what she always wanted.",
+      "sceneTitle": "The New Oz",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The New Oz"
+    },
+    {
+      "id": "end_province",
+      "text": "You become a quiet, beloved governor of a small province. You set up an Animals' school and a council of elders that meets weekly for tea. Elphaba and Glinda visit every Yule. The province survives them both. You sleep well.",
+      "sceneTitle": "Munchkin County",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Munchkin County"
+    },
+    {
+      "id": "end_self",
+      "text": "You take a year and walk Oz on foot. You meet people who only know the story as gossip. You realize history is in the hands of whoever writes the songs. You write a few. They survive. So do you.",
+      "sceneTitle": "Sabbatical",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sabbatical"
+    }
+  ]
+}

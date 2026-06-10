@@ -1,0 +1,417 @@
+{
+  "id": "monarch-the-grandfather",
+  "title": "Monarch: Legacy of Monsters",
+  "sourceTitle": "Monarch: Legacy of Monsters",
+  "kind": "show",
+  "synopsis": "Your grandfather's basement contains seventeen file cabinets, a key to a Tokyo apartment, and a black-and-white photograph of him with a Titan. You inherit it all. Try to stay alive.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-24T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "kaiju",
+    "inheritance",
+    "monarch"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You inherit, alongside a paid-off mortgage and a sad fish, a box of files marked MONARCH — TOP SECRET. Your half-brother you didn't know existed sits across the church.",
+      "sceneTitle": "The Funeral",
+      "choices": [
+        {
+          "text": "Introduce yourself to him",
+          "consequence": "Family arrives unexpectedly.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Walk past and read the files first",
+          "consequence": "Information first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Kentaro is your age, raised in Tokyo, equally surprised. He has half the photographs you have. The puzzle, you realize, was always meant to be two-handed.",
+      "sceneTitle": "Half-Brother, Half-Stranger",
+      "choices": [
+        {
+          "text": "Compare files together immediately",
+          "consequence": "Trust before you've earned it.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Buy him a drink first",
+          "consequence": "Person before project.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The first file is a map with a red circle around an island in the Pacific. The second is a casualty list — civilian, military, both. The third is a photograph of a creature that should not, by current physics, exist.",
+      "sceneTitle": "Page One",
+      "choices": [
+        {
+          "text": "Read every file before you act",
+          "consequence": "Discipline.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Take the most actionable file and move",
+          "consequence": "Speed.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A man in his thirties, polite, badly dressed, finds you at a coffee shop. 'Monarch wants to help,' he says. 'But you should be careful about who answers their phone right now.'",
+      "sceneTitle": "Tim, the Recruiter",
+      "choices": [
+        {
+          "text": "Go with Tim to a Monarch safehouse",
+          "consequence": "Trust the org.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse and run with the files",
+          "consequence": "Trust no org.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Inside the apartment is a phone that still works, a kettle, and a wall covered in photographs of the same family — yours, at different decades. Your grandfather kept two lives.",
+      "sceneTitle": "The Apartment in Tokyo",
+      "choices": [
+        {
+          "text": "Photograph the wall for the record",
+          "consequence": "Document.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit on the floor and let it hit you",
+          "consequence": "Feel it.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Lee Shaw — your grandfather's old partner, supposedly dead, very alive — walks out of a back room in a leather coat. He looks at you, then Kentaro, then back. He says, 'You found me before they did.'",
+      "sceneTitle": "Lee Shaw, Old",
+      "choices": [
+        {
+          "text": "Trust Shaw",
+          "consequence": "Old hands.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Verify Shaw first",
+          "consequence": "Even old hands lie.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "On the wall there is a single new pin in a place that wasn't there in any other file — a pin in Kansas. Your grandfather was, somehow, tracking a Titan in Kansas. You don't know why.",
+      "sceneTitle": "The Map Pin",
+      "choices": [
+        {
+          "text": "Go to Kansas",
+          "consequence": "Chase the new lead.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Triangulate from Tokyo first",
+          "consequence": "Build the picture.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A small Monarch outpost outside a town that doesn't appear on highway maps. The team here is friendly and scared. They show you a tunnel that goes very, very far down.",
+      "sceneTitle": "The Outpost",
+      "choices": [
+        {
+          "text": "Descend with them",
+          "consequence": "Inside the world.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Send Kentaro down; stay with the data",
+          "consequence": "Divide labor.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Shaw shows you a recording — Titan calls layered on top of each other. The pattern, he claims, is a language. Your grandfather had translated it partially. The files have the rest.",
+      "sceneTitle": "The Frequency",
+      "choices": [
+        {
+          "text": "Translate it together",
+          "consequence": "Tackle the hard problem.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take the recording to a linguist friend",
+          "consequence": "Outside expert.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Through a Hollow Earth tunnel: a Titan. Real. Large. Calm. It looks at you the way a dog looks at someone it has decided is not a threat. Its eye is the size of a small car.",
+      "sceneTitle": "First Encounter",
+      "choices": [
+        {
+          "text": "Sit still and let it pass",
+          "consequence": "Don't be a threat.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Try to record its call",
+          "consequence": "Document.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Apex Cybernetics has, you discover, infiltrated Monarch's leadership. The company that wants to weaponize Titans is the company that just hired half your grandfather's old friends. The betrayal is, briefly, more painful than the kaiju.",
+      "sceneTitle": "The Apex Cinemas",
+      "choices": [
+        {
+          "text": "Plan to expose Apex",
+          "consequence": "Counter the corporation.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Plan to undermine them from inside",
+          "consequence": "Subversion.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You upload your grandfather's files to a trusted journalist with a 48-hour fuse. If you're not heard from in 48, the files publish. It is the only insurance you have that isn't a Titan.",
+      "sceneTitle": "The Files Online",
+      "choices": [
+        {
+          "text": "Keep moving and rely on the fuse",
+          "consequence": "Bet on the press.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Confront the saboteur in Monarch leadership",
+          "consequence": "Strike at the top.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "In a containment lab you find a small Titan — newborn, blue-eyed, frightened. Apex was going to weaponize it. The hatchling, you realize, has been responding to its mother's calls in the recordings Shaw played.",
+      "sceneTitle": "The Hatchling",
+      "choices": [
+        {
+          "text": "Release the hatchling to its mother",
+          "consequence": "The right thing.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Move it to a Monarch sanctuary",
+          "consequence": "The safe thing.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Monarch's old families convene a council vote — keep the files secret, or release them. Your grandfather was the swing vote a generation ago. You are, terrifyingly, the swing vote now.",
+      "sceneTitle": "The Council Vote",
+      "choices": [
+        {
+          "text": "Vote for release",
+          "consequence": "Daylight.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Vote for limited disclosure",
+          "consequence": "Compromise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You and Kentaro stand at the mouth of a tunnel and watch the hatchling find its mother. The sound the mother Titan makes shakes the air. It is, somehow, joy.",
+      "sceneTitle": "Reunion",
+      "choices": [
+        {
+          "text": "Stay in the work",
+          "consequence": "This is your inheritance.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hand the work to others and go home",
+          "consequence": "You did your part.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A press conference releases redacted but real information about Monarch, Titans, and Apex. The world panics for a week and then, weirdly, adjusts. Humans are good at adjusting to the impossible. They always have been.",
+      "sceneTitle": "The Press Conference",
+      "choices": [
+        {
+          "text": "Take a leadership role in the new public Monarch",
+          "consequence": "Build it openly.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Step back to advisor",
+          "consequence": "Don't be the face.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Kentaro and his mother visit your home. Your own mother, baffled, sets six places. The dinner is — given the day — startlingly ordinary. You realize the inheritance was, partly, also a family.",
+      "sceneTitle": "The Family Dinner",
+      "choices": [
+        {
+          "text": "Make this a regular thing",
+          "consequence": "Build the family slowly.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take it one dinner at a time",
+          "consequence": "Don't force it.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Monarch is, in the new public era, oversight more than secrecy. Titans are policy. You have testified before three legislatures. You sleep with the fish your grandfather kept — actually his great-grandfish — on the dresser.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Stay in the public role",
+          "consequence": "Keep going.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hand off and write the family book",
+          "consequence": "Document.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You spend a year visiting every red pin on the original map. Some are empty. Some have new villages. Some have new Titans. You take photographs your grandfather would have wanted.",
+      "sceneTitle": "The Map, Closing",
+      "choices": [
+        {
+          "text": "Compile them into an archive",
+          "consequence": "Finish his work.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Donate the originals to a museum",
+          "consequence": "Public memory.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You and Kentaro spend a week in the old Tokyo apartment going through the last drawers. You find the photograph he was holding the day he died — your grandmother, in a doorway, laughing. You decide which life to live next from this room.",
+      "sceneTitle": "Tokyo Apartment, Returned",
+      "choices": [
+        {
+          "text": "Stay public; the work calls",
+          "consequence": "Director's chair.",
+          "nextNodeId": "end_public"
+        },
+        {
+          "text": "Go home and write the book together",
+          "consequence": "Authors.",
+          "nextNodeId": "end_book"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_public",
+      "text": "You become a director of public Monarch and, in a strange way, your grandfather's apprentice fifty years late. You preside over a small office full of files that no longer have to be hidden. You like that.",
+      "sceneTitle": "Director",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Director"
+    },
+    {
+      "id": "end_book",
+      "text": "You and Kentaro write a book together about the two lives of your grandfather. It is a strange book — half family memoir, half kaiju field guide. It sells, mysteriously, on every continent. Some readers cry. Some readers leave you weird voicemails. You answer most of them.",
+      "sceneTitle": "The Family Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Family Book"
+    }
+  ]
+}

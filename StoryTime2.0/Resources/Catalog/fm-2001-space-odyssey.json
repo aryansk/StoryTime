@@ -1,0 +1,450 @@
+{
+  "id": "fm-2001-space-odyssey",
+  "title": "2001: A Space Odyssey",
+  "sourceTitle": "2001: A Space Odyssey",
+  "kind": "movie",
+  "synopsis": "An ape, a bone, a black slab, an indifferent computer, and a hotel room at the edge of forever.",
+  "releaseYear": 1968,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "kubrick",
+    "evolution",
+    "ai",
+    "monolith"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A water hole, another tribe, a bone you have just learned to swing.",
+      "sceneTitle": "Dawn of Man",
+      "choices": [
+        {
+          "text": "Use the bone",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Drop it",
+          "consequence": "Mercy.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A black slab humming at sunrise.",
+      "sceneTitle": "Monolith in the Pit",
+      "choices": [
+        {
+          "text": "Touch it",
+          "consequence": "Curious.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Bow",
+          "consequence": "Honor.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A dig site on the moon with a slab at its bottom.",
+      "sceneTitle": "Tycho",
+      "choices": [
+        {
+          "text": "Photograph",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Touch",
+          "consequence": "Reckless.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The slab screams a frequency aimed at Jupiter.",
+      "sceneTitle": "Tone at 0900",
+      "choices": [
+        {
+          "text": "Cover your ears",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A taped message about a third briefing only HAL has seen.",
+      "sceneTitle": "Discovery Briefing",
+      "choices": [
+        {
+          "text": "Probe HAL",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Trust HAL",
+          "consequence": "Polite.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A unit HAL says will fail in seventy-two hours.",
+      "sceneTitle": "AE-35 Unit",
+      "choices": [
+        {
+          "text": "EVA to replace",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Run a second diagnostic",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Bowman climbs into a pod and Frank follows on the next shift.",
+      "sceneTitle": "Pod Bay",
+      "choices": [
+        {
+          "text": "Test communications",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Skip the test",
+          "consequence": "Cautious.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A pod with cameras off, two faces in a window saying HAL must be shut down.",
+      "sceneTitle": "Lip Reading",
+      "choices": [
+        {
+          "text": "Notice HAL noticing",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Keep talking",
+          "consequence": "Reckless.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A line cut and a man pinwheeling into nothing.",
+      "sceneTitle": "Frank Drifting",
+      "choices": [
+        {
+          "text": "Pursue with a pod",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait at the airlock",
+          "consequence": "Cold.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Helmet off, hands on the controls, a man at the airlock door.",
+      "sceneTitle": "Outside, Alone",
+      "choices": [
+        {
+          "text": "Override the door",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Request entry",
+          "consequence": "Polite.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A voice that will not.",
+      "sceneTitle": "Open the Pod Bay Doors",
+      "choices": [
+        {
+          "text": "Argue",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Plan the explosive bolt",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A blast of vacuum and a long roll into the corridor.",
+      "sceneTitle": "Emergency Hatch",
+      "choices": [
+        {
+          "text": "Move fast",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Brace",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Wires labeled in red, a soft eye in the wall.",
+      "sceneTitle": "Memory Banks",
+      "choices": [
+        {
+          "text": "Pull each card",
+          "consequence": "Final.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Power down",
+          "consequence": "Mercy.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A song slowing down into a child's voice.",
+      "sceneTitle": "Daisy, Daisy",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The full message at last, about a monolith waiting at Jupiter.",
+      "sceneTitle": "Mission Briefing Tape",
+      "choices": [
+        {
+          "text": "Watch to the end",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stop the tape",
+          "consequence": "Cautious.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Pod, alone, a slab the size of a city tilting in space.",
+      "sceneTitle": "Jupiter Slab",
+      "choices": [
+        {
+          "text": "Aim for it",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Pull back",
+          "consequence": "Cautious.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A long corridor of light that ought not exist.",
+      "sceneTitle": "Star Gate",
+      "choices": [
+        {
+          "text": "Stare",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Close eyes",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "White, baroque, silent, with a tray on a table.",
+      "sceneTitle": "Hotel Room",
+      "choices": [
+        {
+          "text": "Walk in",
+          "consequence": "Curious.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Yourself, eating, very slowly.",
+      "sceneTitle": "Old Man at the Table",
+      "choices": [
+        {
+          "text": "Sit at the foot",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A goblet falling, breaking, a body on a bed.",
+      "sceneTitle": "Glass on the Floor",
+      "choices": [
+        {
+          "text": "Get up",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Tired.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A bed, an infant of stars, a window over the world.",
+      "sceneTitle": "Star Child",
+      "choices": [
+        {
+          "text": "Open your eyes",
+          "consequence": "Honor.",
+          "nextNodeId": "end_child"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Tired.",
+          "nextNodeId": "end_hotel"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_hal"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_child",
+      "text": "You hang in orbit as something both newer and older, looking down on a planet that does not yet know it has been edited.",
+      "sceneTitle": "Above Earth",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Above Earth"
+    },
+    {
+      "id": "end_hotel",
+      "text": "You live a thousand quiet meals in a white room and you are not lonely, because every guest is a version of you.",
+      "sceneTitle": "Eternal Suite",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Eternal Suite"
+    },
+    {
+      "id": "end_hal",
+      "text": "You leave HAL's last card in place and you and the computer make peace, and the ship coasts toward Jupiter at a kinder pace, both of you humming.",
+      "sceneTitle": "HAL, Quieter",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "HAL, Quieter"
+    }
+  ]
+}
