@@ -1,0 +1,449 @@
+{
+  "id": "scream-7-the-podcast",
+  "title": "Scream",
+  "sourceTitle": "Scream",
+  "kind": "movie",
+  "synopsis": "Woodsboro's grown up. You host a true-crime podcast about the original killings. A new ghostface debuts on your live stream. Don't pick up the phone.",
+  "releaseYear": 2026,
+  "addedAt": "2026-04-01T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "meta",
+    "slasher",
+    "podcast"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Episode 102 goes live. The new ghostface enters the chat. Your moderators ban them. They come back.",
+      "sceneTitle": "Live Stream Drop",
+      "choices": [
+        {
+          "text": "Continue the show",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "End the stream",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your co-host Kira is, against your judgement, into it. She thinks it's an in-character troll.",
+      "sceneTitle": "Your Co-Host",
+      "choices": [
+        {
+          "text": "Trust your gut",
+          "consequence": "Skeptical.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Trust Kira",
+          "consequence": "Friend.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Detective Bailey, who appeared in three earlier Screams, is now a Lieutenant. She calls. She is, professionally, tired.",
+      "sceneTitle": "Detective Bailey",
+      "choices": [
+        {
+          "text": "Cooperate",
+          "consequence": "Right.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Get a lawyer first",
+          "consequence": "Cautious.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A landline rings at 11 p.m. The number is from your old neighborhood.",
+      "sceneTitle": "The Call",
+      "choices": [
+        {
+          "text": "Pick up",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Let it ring",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Kira's apartment is, suddenly, the scene of a thing. She is okay. The thing happened just before she arrived.",
+      "sceneTitle": "Kira's Apartment",
+      "choices": [
+        {
+          "text": "Go to Kira",
+          "consequence": "Friend.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay home",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Sidney Prescott, retired, calls you. She has, she says, seen this pattern. She is, professionally, the expert.",
+      "sceneTitle": "Sidney",
+      "choices": [
+        {
+          "text": "Take her advice",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Politely thank her",
+          "consequence": "Independence.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your podcast numbers triple. Your sponsor wants you to lean in. You realize you are, accidentally, fueling the killer's brand.",
+      "sceneTitle": "The Podcast Numbers",
+      "choices": [
+        {
+          "text": "Tone it down",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Lean in with a disclaimer",
+          "consequence": "Hybrid.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Ghostface starts a Twitter account. The bio is a single emoji. Six hundred thousand followers in three hours.",
+      "sceneTitle": "Ghostface, Online",
+      "choices": [
+        {
+          "text": "Don't engage online",
+          "consequence": "Discipline.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Engage carefully",
+          "consequence": "Strategic.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your ex-boyfriend's brother is in town. He hates you, for unrelated reasons. He is, in a way you don't want to be true, also charming.",
+      "sceneTitle": "The Suspect",
+      "choices": [
+        {
+          "text": "Watch him",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Confront him",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Bailey hands you a forensic report. The pattern of the killings matches not Ghostface 1 but Ghostface 3. Someone is, in fact, doing their homework.",
+      "sceneTitle": "Knife Pattern",
+      "choices": [
+        {
+          "text": "Use that publicly",
+          "consequence": "Bait them.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hold it back",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your studio has invited a live audience for tonight's special. Bailey wants to cancel. Your producer wants to scale it up.",
+      "sceneTitle": "The Live Show",
+      "choices": [
+        {
+          "text": "Cancel",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Scale up with security",
+          "consequence": "Strategic.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Backstage you see, in the hallway, a glimpse of a face you recognize from the chat. You don't, at first, know from where.",
+      "sceneTitle": "Backstage",
+      "choices": [
+        {
+          "text": "Investigate quietly",
+          "consequence": "Tactical.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Tell security immediately",
+          "consequence": "Right.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Sidney shows up. The audience gasps. She is gracious. She is also armed.",
+      "sceneTitle": "Sidney, on Set",
+      "choices": [
+        {
+          "text": "Defer to her",
+          "consequence": "Sense.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Co-host with her",
+          "consequence": "Equal.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The phone, on the live stream, rings. The producer, after a beat, puts it through. Ghostface, on the line, has questions.",
+      "sceneTitle": "The Phone, on Air",
+      "choices": [
+        {
+          "text": "Answer carefully",
+          "consequence": "Strategy.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Refuse to engage",
+          "consequence": "Power.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The killer, on air, reveals they have your co-host's mother. The audience is in the studio. The clock is ticking.",
+      "sceneTitle": "The Hostage",
+      "choices": [
+        {
+          "text": "Negotiate",
+          "consequence": "Buy time.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Have security move",
+          "consequence": "Action.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Bailey has, mercifully, set a trap. The trap requires you to keep talking. The trap requires you to do exactly the thing you're terrified to do.",
+      "sceneTitle": "The Trap",
+      "choices": [
+        {
+          "text": "Keep talking",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Tap out",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Lights out. The room is, briefly, a maze. You learn that everyone you trust is alive. You learn that one person you didn't trust is, in fact, the killer.",
+      "sceneTitle": "Studio Lights Out",
+      "choices": [
+        {
+          "text": "Confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Smart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Two killers. The pattern, again. Ghostface motives are, this time, more banal than usual. The reveal is, by Sidney's calm voice, almost anti-climactic.",
+      "sceneTitle": "Final Reveal",
+      "choices": [
+        {
+          "text": "Confront calmly",
+          "consequence": "Trust Sidney.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Improvise",
+          "consequence": "Adrenaline.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The show is over. The bodies are off. The cameras are still rolling. You realize the entire night was, somehow, a podcast episode.",
+      "sceneTitle": "After the Show",
+      "choices": [
+        {
+          "text": "End the podcast forever",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take a long break",
+          "consequence": "Pace.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Sidney, on the way out, hugs you. She says, simply, 'Don't make a sequel.' You know what she means.",
+      "sceneTitle": "Sidney's Hug",
+      "choices": [
+        {
+          "text": "Listen to her",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Make something different",
+          "consequence": "Pivot.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You find a good therapist. The therapist has, mercifully, no idea who you are. You like that.",
+      "sceneTitle": "Therapy",
+      "choices": [
+        {
+          "text": "Stay in therapy",
+          "consequence": "Smart.",
+          "nextNodeId": "end_quit"
+        },
+        {
+          "text": "Process privately",
+          "consequence": "Personal.",
+          "nextNodeId": "end_pivot"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_sidney"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_quit",
+      "text": "You retire from podcasting. You move out of Woodsboro. You become, weirdly, a person who teaches yoga. Sidney, of all people, comes to a class. She is, somehow, terrible at it. You laugh.",
+      "sceneTitle": "Off the Mic",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Off the Mic"
+    },
+    {
+      "id": "end_pivot",
+      "text": "You start a new podcast about people who survived horrible things. The show is, in its quiet way, hopeful. It outperforms your old one. You are, mercifully, less of a brand.",
+      "sceneTitle": "A Different Show",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Different Show"
+    },
+    {
+      "id": "end_sidney",
+      "text": "Sidney becomes, in a strange way, your mentor. You meet for coffee twice a year. She gives you advice you do not, at the time, want to take but, in the end, always do.",
+      "sceneTitle": "Sidney, Mentor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sidney, Mentor"
+    }
+  ]
+}

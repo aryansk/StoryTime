@@ -1,0 +1,449 @@
+{
+  "id": "fm-inception",
+  "title": "Inception",
+  "sourceTitle": "Inception",
+  "kind": "movie",
+  "synopsis": "You're a thief who steals secrets from dreams. Tonight's job: plant an idea instead. Your wife is dead. Or she's downstairs.",
+  "releaseYear": 2010,
+  "addedAt": "2026-03-13T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "dreams",
+    "heist",
+    "memory"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Saito wants an idea planted in his rival's heir. He offers you a way home.",
+      "sceneTitle": "The Pitch",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Negotiate",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Arthur, Eames, Yusuf. You need an architect.",
+      "sceneTitle": "Build a Team",
+      "choices": [
+        {
+          "text": "Recruit Ariadne",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Bring back Nash",
+          "consequence": "Familiar.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Ariadne folds Paris in half. You smile.",
+      "sceneTitle": "Mall Test",
+      "choices": [
+        {
+          "text": "Hire her",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Make her think",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Yusuf's chemist shop. The basement of sleepers.",
+      "sceneTitle": "Mombasa",
+      "choices": [
+        {
+          "text": "Ask why they sleep",
+          "consequence": "Curious.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Get the compound",
+          "consequence": "Direct.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He invests himself in the job. Literally.",
+      "sceneTitle": "Saito Joins",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Strategy.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse him",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your projection of your dead wife visits the rooms.",
+      "sceneTitle": "Mal",
+      "choices": [
+        {
+          "text": "Tell Ariadne",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hide her",
+          "consequence": "Pride.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Three dream levels: van, hotel, snow.",
+      "sceneTitle": "Layers",
+      "choices": [
+        {
+          "text": "Approve the plan",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Add a kick",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Sydney flight. Fischer is on board. The job begins on takeoff.",
+      "sceneTitle": "Boarding",
+      "choices": [
+        {
+          "text": "Sit close",
+          "consequence": "Tactical.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Sit far",
+          "consequence": "Cover.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Rain, gunfire, Yusuf at the wheel.",
+      "sceneTitle": "Van",
+      "choices": [
+        {
+          "text": "Drive aggressive",
+          "consequence": "Speed.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Drive defensive",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Zero-G fight. Arthur in the hallway.",
+      "sceneTitle": "Hotel",
+      "choices": [
+        {
+          "text": "Trust Arthur",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Coordinate",
+          "consequence": "Plan.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Bunker, snowmobiles, Eames in disguise.",
+      "sceneTitle": "Snow Fortress",
+      "choices": [
+        {
+          "text": "Take the front",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Take the back",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Mal pulls Fischer down. The whole thing nearly fails.",
+      "sceneTitle": "Limbo",
+      "choices": [
+        {
+          "text": "Go after them",
+          "consequence": "Path.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Send Ariadne",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You and Cobb walked here as a young couple. The buildings are your memory.",
+      "sceneTitle": "Old City",
+      "choices": [
+        {
+          "text": "Walk it",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Skip past",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "She wants you to stay. Forever, here, with her.",
+      "sceneTitle": "Mal Confronts",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Almost agree",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You tell her, finally, that her shade is not her. You let her go.",
+      "sceneTitle": "Confession",
+      "choices": [
+        {
+          "text": "Speak gently",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Speak firmly",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Fischer's father's last word. The idea plants.",
+      "sceneTitle": "Catharsis",
+      "choices": [
+        {
+          "text": "Trust the work",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Add a flourish",
+          "consequence": "Pride.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Wake on the van's splash. Wake on the elevator. Wake on the plane.",
+      "sceneTitle": "Kick",
+      "choices": [
+        {
+          "text": "Stay awake",
+          "consequence": "Faith.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Sleep again",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Customs. Family. You're home.",
+      "sceneTitle": "LAX",
+      "choices": [
+        {
+          "text": "Spin the top",
+          "consequence": "Test.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Don't spin",
+          "consequence": "Faith.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You walk to your children. The top wobbles, maybe.",
+      "sceneTitle": "Top Spinning",
+      "choices": [
+        {
+          "text": "Don't look back",
+          "consequence": "Faith.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Look back",
+          "consequence": "Doubt.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Your children turn. You hold them.",
+      "sceneTitle": "Yard",
+      "choices": [
+        {
+          "text": "Stay present",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Plan one more job",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You sit at the table. The food is real. You decide it's real.",
+      "sceneTitle": "Dinner",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Faith.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Test again tomorrow",
+          "consequence": "Honest.",
+          "nextNodeId": "end_dream"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_extraction"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You stay. You raise the kids. You teach, eventually, a small class at a university about the mind. You spin the top sometimes. It always falls.",
+      "sceneTitle": "Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Home"
+    },
+    {
+      "id": "end_dream",
+      "text": "You learn, slowly, that you may be inside a dream. You decide it doesn't matter. The kids are real to you. The home is real to you. You choose this, knowingly.",
+      "sceneTitle": "Dream",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Dream"
+    },
+    {
+      "id": "end_extraction",
+      "text": "You can't quite stay out. You take one more job. The team comes back. Ariadne is, by then, in charge. You learn to be, finally, a colleague.",
+      "sceneTitle": "Back to the Work",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back to the Work"
+    }
+  ]
+}

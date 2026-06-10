@@ -1,0 +1,433 @@
+{
+  "id": "wuthering-heights-the-moor",
+  "title": "Wuthering Heights",
+  "sourceTitle": "Wuthering Heights",
+  "kind": "movie",
+  "synopsis": "Two souls, one wild stretch of moorland, and a love that refuses to behave. Choose between the heart and the world — and learn that the moor keeps every choice you make on it.",
+  "releaseYear": 2026,
+  "addedAt": "2026-05-24T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "gothic",
+    "romance",
+    "revenge"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You and Heathcliff run wild across the moor as children, the wind in your teeth, the world below not yet able to touch you. Up here there are no names, no fathers, no class. Down at the Grange, the lights are coming on.",
+      "sceneTitle": "The Wind on the Heath",
+      "choices": [
+        {
+          "text": "Stay out on the moor till dark",
+          "consequence": "The wild hours are the only honest ones.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go down toward the Grange's warm windows",
+          "consequence": "Comfort has a gravity all its own.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "\"I am Heathcliff,\" you tell yourself, half a prayer. He's not your brother and not your servant and not allowed to be your love, and so of course he is all the air there is. The household already disapproves.",
+      "sceneTitle": "Two Halves",
+      "choices": [
+        {
+          "text": "Swear nothing will ever part you",
+          "consequence": "Vows on the moor are heard by the wind alone.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Keep the bond a guarded secret",
+          "consequence": "What's hidden grows teeth.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The Lintons' house is everything the Heights is not — soft carpets, soft voices, Edgar Linton's soft hopeful eyes on you. A part of you, the part that gets cold and tired, leans toward it.",
+      "sceneTitle": "The Grange",
+      "choices": [
+        {
+          "text": "Let Edgar court you",
+          "consequence": "The warm road is also a road away.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse the Grange and run back uphill",
+          "consequence": "Some warmth costs more than the cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "After the old master dies, Hindley reigns at the Heights and grinds Heathcliff down to a stable hand, beaten and brilliant and burning. You watch the boy you love turned to a servant before your eyes.",
+      "sceneTitle": "The Master's Cruelty",
+      "choices": [
+        {
+          "text": "Defy Hindley openly for Heathcliff",
+          "consequence": "Open defiance is brave and brittle.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Protect Heathcliff in secret",
+          "consequence": "Quiet shields hold longer than loud ones.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Edgar Linton asks for your hand and a future of ease and respectability. You confess to the housekeeper that you love Heathcliff to your bones — but that marrying him now would 'degrade you.' Heathcliff hears only the first half before he flees into the storm.",
+      "sceneTitle": "The Proposal",
+      "choices": [
+        {
+          "text": "Run after him into the storm",
+          "consequence": "Chase the truth before pride buries it.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Let him go and accept Edgar",
+          "consequence": "The world is heavy and you are tired of fighting it.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The moor in a storm is a living thing, and you cannot find him in it. By dawn Heathcliff is gone — vanished entirely, swallowed by the rain and his own wounded pride. The silence he leaves is louder than any wind.",
+      "sceneTitle": "The Storm",
+      "choices": [
+        {
+          "text": "Wait years for his return",
+          "consequence": "Hope is a long and ruinous tenant.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Marry Edgar to forget the ache",
+          "consequence": "Forgetting is a house you can never quite furnish.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Time passes thin and grey. You become someone's wife or someone's ghost, you're no longer sure which. Then a stranger arrives at the gate — gentlemanly, wealthy, and unmistakably him. Heathcliff has come back rich, and changed.",
+      "sceneTitle": "The Years Between",
+      "choices": [
+        {
+          "text": "Greet him with open joy",
+          "consequence": "Joy is honest and dangerous.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Greet him with careful distance",
+          "consequence": "Caution comes too late to save you.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You are mistress of Thrushcross Grange now, fine and admired and slowly starving in a way no meal can fix. Edgar is gentle and good and not enough, and you've begun to fade like a flower kept indoors.",
+      "sceneTitle": "Lady of the Grange",
+      "choices": [
+        {
+          "text": "Confess your unhappiness to Edgar",
+          "consequence": "Honesty is a knife you turn on yourself.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hide the sickness of your heart",
+          "consequence": "What you swallow does not digest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Heathcliff is back and he has not forgiven — not you, not Hindley, not the world that ranked him below it. He looks at you with love and ruin in the same glance, and you understand he intends to collect on every old debt.",
+      "sceneTitle": "He Returns",
+      "choices": [
+        {
+          "text": "Beg him to choose love over revenge",
+          "consequence": "Plead with a storm and see what it answers.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Match his cold and play the game",
+          "consequence": "Two proud people make a long winter.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "He marries Edgar's sister Isabella purely to wound — courting her cruelty by cruelty, ruining a girl who never harmed him, all to put a blade in your peace. The moor watches and keeps its counsel.",
+      "sceneTitle": "The Revenge Begins",
+      "choices": [
+        {
+          "text": "Try to save Isabella from him",
+          "consequence": "Mercy aimed at the innocent is never wasted.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Let him have his terrible victory",
+          "consequence": "Looking away is its own kind of cruelty.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You meet once more, in a room that feels like the edge of a cliff. He holds you and rages at you in the same breath: 'Why did you betray your own heart?' There's no answer that doesn't break something.",
+      "sceneTitle": "The Last Meeting",
+      "choices": [
+        {
+          "text": "Tell him the whole, ruinous truth",
+          "consequence": "Truth, this late, is a wound and a gift.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Tell him to live, even without you",
+          "consequence": "Releasing him is the cruelest love.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Grief makes you ill — a fever of the body that is really a fever of the soul, refusing to choose between two impossible lives. You stand at the window calling for the moor, for the wind, for the wild girl you used to be.",
+      "sceneTitle": "The Fever",
+      "choices": [
+        {
+          "text": "Reach for the window and the moor",
+          "consequence": "The heath calls its own home.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Sink back and let the warm room win",
+          "consequence": "Sometimes the body decides for you.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Whatever passes between you, it does not end at death — it cannot. You become a presence on the moor, a knock at a window, a name the wind keeps saying. Heathcliff, alive, becomes the truly haunted one.",
+      "sceneTitle": "Haunting",
+      "choices": [
+        {
+          "text": "Haunt him until he follows you",
+          "consequence": "Love that won't die becomes a summons.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Watch over the next generation instead",
+          "consequence": "Even ghosts can choose tenderness.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Years roll on and Heathcliff, joyless and rich, ruins everyone you both once knew — Hindley's son, Edgar's daughter, his own boy. Revenge has eaten everything, including the parts of him you loved. He is master of two houses and prisoner of one grave.",
+      "sceneTitle": "The Long Revenge",
+      "choices": [
+        {
+          "text": "Let the next generation break the curse",
+          "consequence": "The young are the only escape from the old.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Let the cruelty run to its bitter end",
+          "consequence": "Some fires must burn down to the stone.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Near the end, Heathcliff sees you everywhere — in doorways, on the heath, at the foot of his bed. He stops eating, stops sleeping, walks the moor at night calling a name. He is not afraid of his ghost. He is running toward it.",
+      "sceneTitle": "He Stops Eating",
+      "choices": [
+        {
+          "text": "Lead him gently to the moor at last",
+          "consequence": "Death, for some, is the only reunion left.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Make him pay for every cruelty first",
+          "consequence": "Even love can curdle into justice.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Cathy's daughter and Hindley's son — raised in the wreckage you and Heathcliff left behind — begin, impossibly, to teach each other to read, to be gentle, to love without ruin. The moor, for once, is kind.",
+      "sceneTitle": "The Young Ones",
+      "choices": [
+        {
+          "text": "Bless the young lovers from the wind",
+          "consequence": "The best revenge on the past is a better future.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Watch over the heath itself, eternal",
+          "consequence": "Some loves become the land itself.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You guide him out one final dawn, across the heather you ran on as children. The path narrows. He stops calling your name aloud because he no longer has to — you are walking beside him at last.",
+      "sceneTitle": "The Last Walk",
+      "choices": [
+        {
+          "text": "Take his hand as the light comes up",
+          "consequence": "After a lifetime apart, the simplest gesture.",
+          "nextNodeId": "end_together"
+        },
+        {
+          "text": "Step ahead and let him follow at his own pace",
+          "consequence": "Even reunion can be a thing you walk gently into.",
+          "nextNodeId": "end_together"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You refuse him. The window stays shut. He paces the moor for nights and finds no door home, no rest, no you. Justice and love look the same from a distance, and yours is being measured from a distance now.",
+      "sceneTitle": "A Cruel Calm",
+      "choices": [
+        {
+          "text": "Hold the cold a little longer",
+          "consequence": "Hardness can be its own grief.",
+          "nextNodeId": "end_curse"
+        },
+        {
+          "text": "Soften at the very last moment",
+          "consequence": "A cracked door is still mercy.",
+          "nextNodeId": "end_together"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The young lovers leave small offerings on the heath without quite knowing why — a ribbon, a stone, a sprig of heather. You feel each one. The wind, gentler now, carries your approval back in directions only the bees take seriously.",
+      "sceneTitle": "Letters Across the Moor",
+      "choices": [
+        {
+          "text": "Let them feel watched over, kindly",
+          "consequence": "Some hauntings are blessings in disguise.",
+          "nextNodeId": "end_renewal"
+        },
+        {
+          "text": "Step back so they can write their own story",
+          "consequence": "The greatest love is the one that gets out of the way.",
+          "nextNodeId": "end_renewal"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Time wears down the houses, the wrongs, the names. What remains is wind, water, heather, and the long memory of a girl and a boy who ran wild here. Travelers say they can hear you laughing on storm-nights. They are right.",
+      "sceneTitle": "The Wind Speaks",
+      "choices": [
+        {
+          "text": "Settle fully into the moor",
+          "consequence": "Some homes choose to keep you.",
+          "nextNodeId": "end_moor"
+        },
+        {
+          "text": "Move on at last, satisfied",
+          "consequence": "Even ghosts can finish their story.",
+          "nextNodeId": "end_renewal"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_together",
+      "text": "They bury him beside you, and the villagers swear that on wild nights two figures walk the moor, finally at peace because they are finally past the world that kept them apart. You are not in heaven or hell. You are home, in the wind, together.",
+      "sceneTitle": "Two Graves, One Heath",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Two Graves, One Heath"
+    },
+    {
+      "id": "end_curse",
+      "text": "He dies reaching for a window you will not open, and even death grants him no rest. The two of you haunt the heath separately, two storms that can never quite touch. It is the love you chose and the punishment you earned, indistinguishable at last.",
+      "sceneTitle": "The Unquiet",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Unquiet"
+    },
+    {
+      "id": "end_renewal",
+      "text": "The young lovers marry and quiet the old houses with ordinary happiness — the very thing you and Heathcliff could never manage. You let the moor have your story and the children have their peace. The wind, for once, just blows.",
+      "sceneTitle": "A Gentler Heath",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Gentler Heath"
+    },
+    {
+      "id": "end_moor",
+      "text": "You never quite leave. You become the heath itself — the wind, the heather, the line where the storm meets the hill. People who walk there feel watched and loved and a little afraid, and they are right on all three counts.",
+      "sceneTitle": "I Am the Moor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "I Am the Moor"
+    }
+  ]
+}

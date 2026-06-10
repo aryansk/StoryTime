@@ -1,0 +1,449 @@
+{
+  "id": "fb-beloved",
+  "title": "Beloved",
+  "sourceTitle": "Beloved",
+  "kind": "book",
+  "synopsis": "Ohio, after the war. 124 is haunted. Your past walks up the road one day and sits on the porch and asks for water.",
+  "releaseYear": 1987,
+  "addedAt": "2026-02-13T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "morrison",
+    "memory",
+    "freedom"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The house is, as the town says, spiteful.",
+      "sceneTitle": "124",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Vow.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Move",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "An old friend from Sweet Home. He carries a tin tobacco box for a heart.",
+      "sceneTitle": "Paul D Arrives",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be wary",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He drives the ghost out for an evening.",
+      "sceneTitle": "Stove",
+      "choices": [
+        {
+          "text": "Be grateful",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Be careful",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The three of you walk back from the fair. A young woman is on the steps.",
+      "sceneTitle": "Carnival",
+      "choices": [
+        {
+          "text": "Take her in",
+          "consequence": "Heart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Send her on",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Her name. The name on a stone.",
+      "sceneTitle": "Beloved",
+      "choices": [
+        {
+          "text": "Recognize it",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Pretend not to",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Paul D remembers the milk and the men.",
+      "sceneTitle": "Memory of Halle",
+      "choices": [
+        {
+          "text": "Tell him you remember too",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Don't say it",
+          "consequence": "Survive.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He came to take Sethe back. She made her choice.",
+      "sceneTitle": "Schoolteacher",
+      "choices": [
+        {
+          "text": "Speak it aloud",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hide it",
+          "consequence": "Survive.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your daughter, eighteen, watches everything.",
+      "sceneTitle": "Denver",
+      "choices": [
+        {
+          "text": "Listen to her",
+          "consequence": "Care.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Push her aside",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He cannot stay after he knows.",
+      "sceneTitle": "Paul D Leaves",
+      "choices": [
+        {
+          "text": "Let him go",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Beg",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "She wants more than you can give.",
+      "sceneTitle": "Beloved, Greedy",
+      "choices": [
+        {
+          "text": "Set a limit",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Give more",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He brings food. He watches the porch.",
+      "sceneTitle": "Stamp Paid",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Friend.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "She leaves the porch for the first time in years.",
+      "sceneTitle": "Denver Walks Out",
+      "choices": [
+        {
+          "text": "Notice",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Don't notice",
+          "consequence": "Survive.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Denver studies again. She is, slowly, a woman.",
+      "sceneTitle": "Lady Jones",
+      "choices": [
+        {
+          "text": "Be proud",
+          "consequence": "Mother.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Be jealous",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "They begin to bring food to the porch.",
+      "sceneTitle": "The Town's Women",
+      "choices": [
+        {
+          "text": "Open the door",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Pride.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Thirty women sing the spirit out.",
+      "sceneTitle": "Singing",
+      "choices": [
+        {
+          "text": "Step out with them",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay in",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He arrives in a wagon. You see, briefly, Schoolteacher.",
+      "sceneTitle": "Mr. Bodwin",
+      "choices": [
+        {
+          "text": "Move toward him with the ice pick",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stop yourself",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Denver and the women stop you. Beloved vanishes.",
+      "sceneTitle": "Stopped",
+      "choices": [
+        {
+          "text": "Sit down",
+          "consequence": "Heal.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stand again",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He sits with you. He says you are your own best thing.",
+      "sceneTitle": "Paul D Returns",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Heal.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Almost",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "She has a job. She walks home in the evening.",
+      "sceneTitle": "Denver, Working",
+      "choices": [
+        {
+          "text": "Eat together",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sit on the porch",
+          "consequence": "Quiet.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The town sends letters of half-apology and half-curiosity.",
+      "sceneTitle": "Letters",
+      "choices": [
+        {
+          "text": "Read them",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Burn them",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "And yet, you decide to set it down.",
+      "sceneTitle": "The Story Will Not Pass On",
+      "choices": [
+        {
+          "text": "Tell it carefully",
+          "consequence": "Honor.",
+          "nextNodeId": "end_best"
+        },
+        {
+          "text": "Tell it once and stop",
+          "consequence": "Wise.",
+          "nextNodeId": "end_denver"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_memory"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_best",
+      "text": "You and Paul D, slowly, learn each other again. The porch is, by spring, full of bread and visitors.",
+      "sceneTitle": "Your Own Best Thing",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Your Own Best Thing"
+    },
+    {
+      "id": "end_denver",
+      "text": "Denver becomes, in time, a teacher. She moves into town. You visit. You watch her speak to children and feel, finally, a kind of pride that doesn't ache.",
+      "sceneTitle": "Denver's Years",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Denver's Years"
+    },
+    {
+      "id": "end_memory",
+      "text": "Beloved's name fades from the town's stories. Yours does not. The book gets written. The book gets read. A century later it is, by some readers, a kind of altar.",
+      "sceneTitle": "Disremembered",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Disremembered"
+    }
+  ]
+}

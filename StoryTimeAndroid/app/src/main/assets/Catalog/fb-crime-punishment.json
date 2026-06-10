@@ -1,0 +1,449 @@
+{
+  "id": "fb-crime-punishment",
+  "title": "Crime and Punishment",
+  "sourceTitle": "Crime and Punishment",
+  "kind": "book",
+  "synopsis": "St. Petersburg, summer. You are a starving student. You think, very seriously, that some men are above the law. You decide to test the theory on a pawnbroker.",
+  "releaseYear": 1866,
+  "addedAt": "2026-02-21T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "dostoevsky",
+    "guilt",
+    "russia"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A coffin of a room. Heat. Debts. You write a strange article on theory.",
+      "sceneTitle": "The Garret",
+      "choices": [
+        {
+          "text": "Re-read your article",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Burn it",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Alyona, mean, alone. You pawn a watch.",
+      "sceneTitle": "The Pawnbroker",
+      "choices": [
+        {
+          "text": "Note her routine",
+          "consequence": "Cold.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A drunk in a tavern. Sonia, his daughter, doing what she has to.",
+      "sceneTitle": "Marmeladov",
+      "choices": [
+        {
+          "text": "Drink with him",
+          "consequence": "Compassion.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Dunya, your sister, is engaged to a man who is, plainly, a creditor.",
+      "sceneTitle": "Letter from Mother",
+      "choices": [
+        {
+          "text": "Refuse the help",
+          "consequence": "Pride.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Accept",
+          "consequence": "Practical.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You bring the axe under your coat.",
+      "sceneTitle": "Decision",
+      "choices": [
+        {
+          "text": "Go",
+          "consequence": "Path.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "She opens it. The room is small. You strike.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Strike",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Run",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Her sister returns. You strike again.",
+      "sceneTitle": "Lizaveta",
+      "choices": [
+        {
+          "text": "Mourn instantly",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Don't think",
+          "consequence": "Survive.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The hallway. Footsteps. You hide behind an empty door.",
+      "sceneTitle": "Escape",
+      "choices": [
+        {
+          "text": "Hide",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You sleep for days, fevered. The blood on your sock.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Burn the sock",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hide it",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Your friend. He nurses you.",
+      "sceneTitle": "Razumikhin",
+      "choices": [
+        {
+          "text": "Tell him part",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Tell him nothing",
+          "consequence": "Pride.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The investigator. He smiles. He talks of theory.",
+      "sceneTitle": "Porfiry",
+      "choices": [
+        {
+          "text": "Speak carefully",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Confess",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You meet her. You read Lazarus together.",
+      "sceneTitle": "Sonia's Room",
+      "choices": [
+        {
+          "text": "Confess to her",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Don't yet",
+          "consequence": "Pride.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "She tells you to kiss the earth at the crossroads and confess.",
+      "sceneTitle": "Sonia's Words",
+      "choices": [
+        {
+          "text": "Promise",
+          "consequence": "Path.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He arrives. He has, you fear, your worst self in him.",
+      "sceneTitle": "Svidrigailov",
+      "choices": [
+        {
+          "text": "Avoid him",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Talk to him",
+          "consequence": "Curious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He corners your sister. She holds a pistol.",
+      "sceneTitle": "Dunya's Visit",
+      "choices": [
+        {
+          "text": "Trust she'll do what's needed",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Intervene",
+          "consequence": "Brother.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He shoots himself in the morning.",
+      "sceneTitle": "Svidrigailov's End",
+      "choices": [
+        {
+          "text": "Note it",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Survive.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You hold her face. You don't tell her.",
+      "sceneTitle": "Goodbye to Mother",
+      "choices": [
+        {
+          "text": "Be gentle",
+          "consequence": "Care.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Be cold",
+          "consequence": "Pride.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You kiss the earth. People stare.",
+      "sceneTitle": "Crossroads",
+      "choices": [
+        {
+          "text": "Kneel",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Pretend it was drunken",
+          "consequence": "Pride.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You confess.",
+      "sceneTitle": "Police Station",
+      "choices": [
+        {
+          "text": "Tell it clean",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Tell it half",
+          "consequence": "Pride.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Eight years. A wide river. Sonia, who came with you, lives in a hut nearby.",
+      "sceneTitle": "Siberia",
+      "choices": [
+        {
+          "text": "Read the New Testament she gave you",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold out",
+          "consequence": "Pride.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Spring on the riverbank. You realize you love her.",
+      "sceneTitle": "Resurrection",
+      "choices": [
+        {
+          "text": "Take her hand",
+          "consequence": "Path.",
+          "nextNodeId": "end_resurrection"
+        },
+        {
+          "text": "Sit alone",
+          "consequence": "Pride.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_silence"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_resurrection",
+      "text": "You serve your sentence. You return, eventually, with Sonia. You become, the rest of your life, a quiet man who teaches mathematics in a small town and means it when he says 'good morning.'",
+      "sceneTitle": "Resurrection",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Resurrection"
+    },
+    {
+      "id": "end_writer",
+      "text": "You write a different article in the prison, on conscience instead of theory. It is, when smuggled out, debated for a century.",
+      "sceneTitle": "A Different Article",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Different Article"
+    },
+    {
+      "id": "end_silence",
+      "text": "You serve your time and disappear into a Siberian village. You die there old. Sonia is buried beside you. The villagers, who never knew, called you a kind man.",
+      "sceneTitle": "Silence",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Silence"
+    }
+  ]
+}

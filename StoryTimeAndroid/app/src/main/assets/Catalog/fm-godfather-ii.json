@@ -1,0 +1,450 @@
+{
+  "id": "fm-godfather-ii",
+  "title": "The Godfather Part II",
+  "sourceTitle": "The Godfather Part II",
+  "kind": "movie",
+  "synopsis": "A young Vito in New York, a cold Michael in Nevada, and a family that does not survive its own success.",
+  "releaseYear": 1974,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "family",
+    "crime",
+    "parallel",
+    "betrayal"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A senator in your study with a hand on his price.",
+      "sceneTitle": "Communion Party",
+      "choices": [
+        {
+          "text": "Refuse him",
+          "consequence": "Stern.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Buy him",
+          "consequence": "Calm.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Glass on the rug and Kay alive by an inch.",
+      "sceneTitle": "Shot Through the Bedroom Window",
+      "choices": [
+        {
+          "text": "Hunt the shooter",
+          "consequence": "Cold.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Send the family away",
+          "consequence": "Care.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Frankie at the Vegas hotel asks for a meeting and a name.",
+      "sceneTitle": "Pentangelo",
+      "choices": [
+        {
+          "text": "Promise help",
+          "consequence": "Cunning.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Promise nothing",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Cake on a card table, a number written on a candle.",
+      "sceneTitle": "Hyman Roth in Miami",
+      "choices": [
+        {
+          "text": "Smile and listen",
+          "consequence": "Patient.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Object",
+          "consequence": "Pride.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Fireworks, a kiss on a brother's mouth, the click of a regime.",
+      "sceneTitle": "Havana New Year",
+      "choices": [
+        {
+          "text": "Move the deal",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "I knew it was you, Fredo. I knew it was you.",
+      "sceneTitle": "Fredo, on the Balcony",
+      "choices": [
+        {
+          "text": "Embrace him",
+          "consequence": "Cold.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Spare him today",
+          "consequence": "Calm.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "An olive press in a Little Italy basement and a Black Hand who wants a tax.",
+      "sceneTitle": "Young Vito's Crate",
+      "choices": [
+        {
+          "text": "Refuse him",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pay him",
+          "consequence": "Patient.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Festa night, a white suit, a stairwell that knows you are coming.",
+      "sceneTitle": "Fanucci",
+      "choices": [
+        {
+          "text": "Three shots",
+          "consequence": "Final.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Two and a knife",
+          "consequence": "Quiet.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Cameras, a microphone, a lawyer at your shoulder.",
+      "sceneTitle": "Senate Subcommittee",
+      "choices": [
+        {
+          "text": "Plead the Fifth",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Speak",
+          "consequence": "Pride.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A man from Sicily in the gallery in a black hat.",
+      "sceneTitle": "Pentangelo's Brother",
+      "choices": [
+        {
+          "text": "Let him be seen",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hide him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "An abortion, not a miscarriage. Said to your face in a quiet kitchen.",
+      "sceneTitle": "Kay's Confession",
+      "choices": [
+        {
+          "text": "Strike her",
+          "consequence": "Hard.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He brings the news that Pentangelo will fall on his sword.",
+      "sceneTitle": "Tom Hagen, On the Lake",
+      "choices": [
+        {
+          "text": "Allow it",
+          "consequence": "Cold.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A young Vito with an orange and a switchblade and a promise to a mother.",
+      "sceneTitle": "Don Ciccio in Sicily",
+      "choices": [
+        {
+          "text": "Speak the names",
+          "consequence": "Final.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Strike quiet",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The casket carried by hands that have killed for the family.",
+      "sceneTitle": "Mother's Funeral",
+      "choices": [
+        {
+          "text": "Spare Fredo here",
+          "consequence": "Mercy.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A sister broken and useful and sober for the first time in years.",
+      "sceneTitle": "Connie Returns Home",
+      "choices": [
+        {
+          "text": "Take her in",
+          "consequence": "Family.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Hard.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Cancer in him, marshals on him, a single shot needed before he steps onto Israeli soil.",
+      "sceneTitle": "Roth at the Airport",
+      "choices": [
+        {
+          "text": "Order it",
+          "consequence": "Final.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Withdraw",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Hail Mary by a boat on the lake at dusk.",
+      "sceneTitle": "Fredo Praying",
+      "choices": [
+        {
+          "text": "Order Neri now",
+          "consequence": "Final.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "She has come back for the children and not for you.",
+      "sceneTitle": "Kay at the Door",
+      "choices": [
+        {
+          "text": "Slam it",
+          "consequence": "Final.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Let her see them",
+          "consequence": "Mercy.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Sonny, Tessio, Fredo, the table set, an empty chair for a father late from work.",
+      "sceneTitle": "A Flashback to a Birthday",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Get up alone",
+          "consequence": "Cold.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A small craft drifting and a brother gone under and a silence that is your inheritance.",
+      "sceneTitle": "Lake at Dawn",
+      "choices": [
+        {
+          "text": "Sit",
+          "consequence": "Final.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk back",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A leather chair, an open door, your father's photograph small on a side table.",
+      "sceneTitle": "Empty Study",
+      "choices": [
+        {
+          "text": "Sit in the chair",
+          "consequence": "Cold.",
+          "nextNodeId": "end_throne"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Honest.",
+          "nextNodeId": "end_walk"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_kay"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_throne",
+      "text": "You own everything you can see from the lake. There is no one left to share it with. You sit anyway, like a king.",
+      "sceneTitle": "King of Nothing",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "King of Nothing"
+    },
+    {
+      "id": "end_walk",
+      "text": "You go to Sicily under the orange trees and you read the same psalm every morning. You are still cold. The trees do not mind.",
+      "sceneTitle": "Walking the Vineyard",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Walking the Vineyard"
+    },
+    {
+      "id": "end_kay",
+      "text": "Kay's eyes through the closing door for forty years. You will see them when you die. You already see them now.",
+      "sceneTitle": "The Door Stays Open",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Door Stays Open"
+    }
+  ]
+}

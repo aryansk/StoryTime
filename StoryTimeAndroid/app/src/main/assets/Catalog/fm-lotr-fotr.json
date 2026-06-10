@@ -1,0 +1,449 @@
+{
+  "id": "fm-lotr-fotr",
+  "title": "The Lord of the Rings: The Fellowship of the Ring",
+  "sourceTitle": "The Lord of the Rings: The Fellowship of the Ring",
+  "kind": "movie",
+  "synopsis": "A ring you didn't ask for. A road that goes ever on. Nine companions. One dark lord. You're a hobbit, mostly. You have one job.",
+  "releaseYear": 2001,
+  "addedAt": "2026-03-20T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "epic",
+    "ring",
+    "fellowship"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Bilbo's 111th birthday. Fireworks. You are quietly happy.",
+      "sceneTitle": "The Party Field",
+      "choices": [
+        {
+          "text": "Enjoy the party",
+          "consequence": "Joy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Help Bilbo pack",
+          "consequence": "Care.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Gandalf comes by night. The ring tests fire. The runes appear.",
+      "sceneTitle": "Gandalf's Return",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be afraid",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Sam at your side. Pippin and Merry crash through corn.",
+      "sceneTitle": "Leaving the Shire",
+      "choices": [
+        {
+          "text": "Take the Old Forest path",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Take the road",
+          "consequence": "Direct.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The Prancing Pony. A stranger named Strider. Wet stones.",
+      "sceneTitle": "Bree",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hold off",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The Nazgûl find you. You are stabbed by a Morgul blade.",
+      "sceneTitle": "Weathertop",
+      "choices": [
+        {
+          "text": "Hide the ring",
+          "consequence": "Discipline.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Try to fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Elrond's house. Council. Voices argue. The ring sits on a plinth.",
+      "sceneTitle": "Rivendell",
+      "choices": [
+        {
+          "text": "Volunteer",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Nine. Aragorn, Boromir, Gimli, Legolas, Gandalf, the four hobbits.",
+      "sceneTitle": "The Fellowship",
+      "choices": [
+        {
+          "text": "Trust each one",
+          "consequence": "Open.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Watch Boromir",
+          "consequence": "Cautious.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The mountain pass. Snow. Saruman's voice in the wind.",
+      "sceneTitle": "Caradhras",
+      "choices": [
+        {
+          "text": "Push through",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Go under via Moria",
+          "consequence": "Reluctant.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The Doors of Durin. Speak friend and enter.",
+      "sceneTitle": "Moria",
+      "choices": [
+        {
+          "text": "Trust Gandalf",
+          "consequence": "Faith.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Argue the riddle",
+          "consequence": "Mind.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Dwarves long dead. A drum in the deep.",
+      "sceneTitle": "The Hall",
+      "choices": [
+        {
+          "text": "Stand by the door",
+          "consequence": "Strategic.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Read the records",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The Balrog. Gandalf, you fly fools.",
+      "sceneTitle": "Bridge of Khazad-dûm",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Survive.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Try to help",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Galadriel. The mirror. The temptation.",
+      "sceneTitle": "Lothlorien",
+      "choices": [
+        {
+          "text": "Refuse the ring",
+          "consequence": "Vow.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Almost take it",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Boats on the Anduin. Tall stone kings.",
+      "sceneTitle": "River",
+      "choices": [
+        {
+          "text": "Watch the riverbanks",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Talk with Aragorn",
+          "consequence": "Friend.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Boromir asks for the ring. You refuse. He grabs.",
+      "sceneTitle": "Amon Hen",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Save the ring.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Try to talk him down",
+          "consequence": "Mercy.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You sit by the river. Sam finds you. You decide the only way forward is alone.",
+      "sceneTitle": "The Choice",
+      "choices": [
+        {
+          "text": "Take Sam",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go alone",
+          "consequence": "Vow.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Sam swims after you. You pull him in. You realize you are not alone after all.",
+      "sceneTitle": "Sam in the Water",
+      "choices": [
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Smile",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Boromir, redeemed, dies defending Merry and Pippin. Aragorn cradles him.",
+      "sceneTitle": "Boromir, Falling",
+      "choices": [
+        {
+          "text": "Honor him from afar",
+          "consequence": "Quiet.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Go back briefly",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Aragorn vows to hunt the Uruks. You and Sam vow to take the road east.",
+      "sceneTitle": "Aragorn's Vow",
+      "choices": [
+        {
+          "text": "Trust the company splits well",
+          "consequence": "Faith.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wish for the company whole",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Stones, mist, no path. Gollum follows.",
+      "sceneTitle": "Emyn Muil",
+      "choices": [
+        {
+          "text": "Set a trap",
+          "consequence": "Cunning.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Confront Gollum",
+          "consequence": "Direct.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He bargains. He swears on the precious.",
+      "sceneTitle": "Gollum",
+      "choices": [
+        {
+          "text": "Trust slowly",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't trust",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The Black Gate. Closed. The land smokes. The road, somehow, continues.",
+      "sceneTitle": "Mordor's Border",
+      "choices": [
+        {
+          "text": "Find the secret way",
+          "consequence": "Path.",
+          "nextNodeId": "end_ring"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patience.",
+          "nextNodeId": "end_sam"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_shire"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_ring",
+      "text": "The road goes on for two more books. You and Sam, at the end, throw it into the fire. The Shire heals. You sail west, eventually, with Bilbo.",
+      "sceneTitle": "The Ring Cast Down",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Ring Cast Down"
+    },
+    {
+      "id": "end_sam",
+      "text": "Sam is, in the end, the hero of the story. He marries Rosie. He has many children. You write a book about it. The book becomes, in time, scripture.",
+      "sceneTitle": "Sam, Always",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sam, Always"
+    },
+    {
+      "id": "end_shire",
+      "text": "You return changed. Most don't notice. Sam notices. The Gaffer notices. You sit by the river and write, in a small careful hand, the whole tale.",
+      "sceneTitle": "Back in the Shire",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back in the Shire"
+    }
+  ]
+}

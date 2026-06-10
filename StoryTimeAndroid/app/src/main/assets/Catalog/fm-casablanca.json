@@ -1,0 +1,449 @@
+{
+  "id": "fm-casablanca",
+  "title": "Casablanca",
+  "sourceTitle": "Casablanca",
+  "kind": "movie",
+  "synopsis": "Casablanca, 1941. You run a small nightclub. Of all the gin joints in all the world, she walks into yours. With her husband. With letters of transit in your safe.",
+  "releaseYear": 1942,
+  "addedAt": "2026-03-02T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "wartime",
+    "love",
+    "classic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Smoke, piano, refugees in the corners. You don't drink with customers.",
+      "sceneTitle": "Rick's Cafe",
+      "choices": [
+        {
+          "text": "Walk the room",
+          "consequence": "Owner.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay at the bar",
+          "consequence": "Distance.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He hands you the letters of transit. He is, by sunrise, dead.",
+      "sceneTitle": "Ugarte",
+      "choices": [
+        {
+          "text": "Hide them",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Refuse them",
+          "consequence": "Honor.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He shrugs. He plays both sides. He is, mostly, a friend.",
+      "sceneTitle": "Captain Renault",
+      "choices": [
+        {
+          "text": "Trust him partly",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Trust him fully",
+          "consequence": "Naive.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "German command. He has a list. Your name is, perhaps, on it.",
+      "sceneTitle": "Major Strasser",
+      "choices": [
+        {
+          "text": "Stay polite",
+          "consequence": "Survive.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay cold",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He plays only what you say.",
+      "sceneTitle": "Sam at the Piano",
+      "choices": [
+        {
+          "text": "Let him play whatever",
+          "consequence": "Friend.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Tell him no",
+          "consequence": "Discipline.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "She walks in. Sam sees her. He doesn't play it. She asks.",
+      "sceneTitle": "Ilsa",
+      "choices": [
+        {
+          "text": "Stay in the back",
+          "consequence": "Pride.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Greet her",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Sam plays it. You walk out. She looks up.",
+      "sceneTitle": "As Time Goes By",
+      "choices": [
+        {
+          "text": "Be cold",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Truth.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Her husband. Czech resistance. Hunted.",
+      "sceneTitle": "Victor Laszlo",
+      "choices": [
+        {
+          "text": "Be civil",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Be cold",
+          "consequence": "Pride.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You alone, in the world, have them. Two exits to Lisbon.",
+      "sceneTitle": "Letters of Transit",
+      "choices": [
+        {
+          "text": "Tell no one",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hint to Renault",
+          "consequence": "Strategic.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A train station, a letter, rain on the platform.",
+      "sceneTitle": "Paris Flashback",
+      "choices": [
+        {
+          "text": "Remember fully",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Bury it",
+          "consequence": "Survive.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Late, she comes to your office. She tells you her side.",
+      "sceneTitle": "Ilsa's Visit",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Laszlo leads the band. The room rises. Strasser's face goes hard.",
+      "sceneTitle": "The Marseillaise",
+      "choices": [
+        {
+          "text": "Nod to Sam to play",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Don't intervene",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Late. A gun. Tears. She tells you she loves you.",
+      "sceneTitle": "Ilsa Returns",
+      "choices": [
+        {
+          "text": "Believe her",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Doubt her",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You decide which two get the letters.",
+      "sceneTitle": "Decision Forming",
+      "choices": [
+        {
+          "text": "You and Ilsa",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Ilsa and Laszlo",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You set up the captain. You set the plan.",
+      "sceneTitle": "Briefing Renault",
+      "choices": [
+        {
+          "text": "Brief him false",
+          "consequence": "Strategy.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Brief him true",
+          "consequence": "Naive.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You tell Laszlo he must take Ilsa. You don't tell him you and she nearly stayed.",
+      "sceneTitle": "Laszlo, Talked To",
+      "choices": [
+        {
+          "text": "Be plain",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Be careful",
+          "consequence": "Tone.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Fog. A plane. Strasser arriving.",
+      "sceneTitle": "Airport",
+      "choices": [
+        {
+          "text": "Move fast",
+          "consequence": "Action.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stall",
+          "consequence": "Patience.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Ilsa, you say, the problems of three little people don't amount to a hill of beans.",
+      "sceneTitle": "Hill of Beans",
+      "choices": [
+        {
+          "text": "Speak the speech",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Speak only the gist",
+          "consequence": "Style.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He arrives. He calls headquarters. You raise the pistol.",
+      "sceneTitle": "Strasser",
+      "choices": [
+        {
+          "text": "Shoot",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Talk",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He says round up the usual suspects. He is, finally, choosing.",
+      "sceneTitle": "Renault",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Friend.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Suspect him",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You and Renault, in the fog, talk about a Free French garrison.",
+      "sceneTitle": "Walk Off",
+      "choices": [
+        {
+          "text": "Beautiful friendship",
+          "consequence": "Honor.",
+          "nextNodeId": "end_friendship"
+        },
+        {
+          "text": "Quiet farewell",
+          "consequence": "Honest.",
+          "nextNodeId": "end_paris"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friendship",
+      "text": "You and Renault join the resistance. The war ends, eventually. You return to Casablanca after, an older man. The cafe, somehow, is still there.",
+      "sceneTitle": "Beautiful Friendship",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Beautiful Friendship"
+    },
+    {
+      "id": "end_paris",
+      "text": "Years after the war, Ilsa, widowed, finds you in Paris. You sit at a cafe. The world has changed. You haven't, much.",
+      "sceneTitle": "Paris, Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Paris, Again"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You die during the war, in a small action that doesn't make the papers. Sam, eventually, plays the song again, somewhere, to no one in particular. He smiles.",
+      "sceneTitle": "Quiet",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet"
+    }
+  ]
+}

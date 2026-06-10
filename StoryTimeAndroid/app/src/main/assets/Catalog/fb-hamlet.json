@@ -1,0 +1,449 @@
+{
+  "id": "fb-hamlet",
+  "title": "Hamlet",
+  "sourceTitle": "Hamlet",
+  "kind": "book",
+  "synopsis": "Elsinore, winter. Your father is dead. Your uncle is on the throne and in your mother's bed. A ghost is on the battlement and wants a word.",
+  "releaseYear": 1603,
+  "addedAt": "2026-02-16T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "shakespeare",
+    "revenge",
+    "tragedy"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Horatio brings you to see the ghost.",
+      "sceneTitle": "Battlement",
+      "choices": [
+        {
+          "text": "Speak to it",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Murdered by Claudius. Revenge me.",
+      "sceneTitle": "Father's Charge",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You play mad to buy time.",
+      "sceneTitle": "Antic Disposition",
+      "choices": [
+        {
+          "text": "Play it well",
+          "consequence": "Cunning.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Play it badly",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You are cruel to her in the gallery.",
+      "sceneTitle": "Ophelia",
+      "choices": [
+        {
+          "text": "Apologize later",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Don't apologize",
+          "consequence": "Cold.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He hides behind tapestries to spy.",
+      "sceneTitle": "Polonius",
+      "choices": [
+        {
+          "text": "Sense him there",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A troupe arrives. You write them new lines.",
+      "sceneTitle": "Players",
+      "choices": [
+        {
+          "text": "Test the king",
+          "consequence": "Cunning.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Don't test",
+          "consequence": "Foolish.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Claudius rises and walks out, pale.",
+      "sceneTitle": "The Play",
+      "choices": [
+        {
+          "text": "Mark his guilt",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell only Horatio",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You find Claudius praying.",
+      "sceneTitle": "Prayer",
+      "choices": [
+        {
+          "text": "Strike",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Pride.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You confront Gertrude. A noise behind the arras.",
+      "sceneTitle": "Mother's Room",
+      "choices": [
+        {
+          "text": "Stab",
+          "consequence": "Anger.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Reveal",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "It was Polonius. Ophelia's father.",
+      "sceneTitle": "Polonius Dead",
+      "choices": [
+        {
+          "text": "Mourn",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hide him",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Rosencrantz and Guildenstern carry sealed orders.",
+      "sceneTitle": "Sent to England",
+      "choices": [
+        {
+          "text": "Switch the letter",
+          "consequence": "Cunning.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Trust the friends",
+          "consequence": "Naive.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A skirmish. You return alone.",
+      "sceneTitle": "Pirates",
+      "choices": [
+        {
+          "text": "Send word ahead",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Surprise the court",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A gravedigger holds a skull.",
+      "sceneTitle": "Yorick",
+      "choices": [
+        {
+          "text": "Remember Yorick",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "She is in the ground. Laertes leaps in.",
+      "sceneTitle": "Ophelia's Funeral",
+      "choices": [
+        {
+          "text": "Leap in too",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stand back",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He sharpens a foil. He dips it in poison.",
+      "sceneTitle": "Laertes's Plot",
+      "choices": [
+        {
+          "text": "Suspect",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Trust the duel",
+          "consequence": "Naive.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A foolish courtier brings the challenge.",
+      "sceneTitle": "Osric",
+      "choices": [
+        {
+          "text": "Mock him",
+          "consequence": "Wit.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Accept",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Touch. Touch. A scratch with the wrong foil.",
+      "sceneTitle": "Duel",
+      "choices": [
+        {
+          "text": "Switch",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Your mother drinks from the poisoned cup.",
+      "sceneTitle": "Cup",
+      "choices": [
+        {
+          "text": "Stop her",
+          "consequence": "Mother.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You finally do it.",
+      "sceneTitle": "Stab the King",
+      "choices": [
+        {
+          "text": "Pour the cup down his throat",
+          "consequence": "Path.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Just the blade",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Horatio raises the cup. You stop him.",
+      "sceneTitle": "The Rest is Silence",
+      "choices": [
+        {
+          "text": "Hold him",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Let him go",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "He arrives. He takes the kingdom. Horatio begins to speak.",
+      "sceneTitle": "Fortinbras",
+      "choices": [
+        {
+          "text": "Have Horatio tell the truth",
+          "consequence": "Honor.",
+          "nextNodeId": "end_silence"
+        },
+        {
+          "text": "Have him spare the worst",
+          "consequence": "Civil.",
+          "nextNodeId": "end_words"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_horatio"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_silence",
+      "text": "You die, peacefully enough, with Horatio's hand on your shoulder. The kingdom passes to a foreigner. The story passes to a friend.",
+      "sceneTitle": "The Rest is Silence",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Rest is Silence"
+    },
+    {
+      "id": "end_words",
+      "text": "You survive, somehow, the scratch. You abdicate. You go to Wittenberg as a tutor. You write down, with Horatio, the play exactly. It survives every revision.",
+      "sceneTitle": "Words, Words, Words",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Words, Words, Words"
+    },
+    {
+      "id": "end_horatio",
+      "text": "Horatio tells the story. He tells it carefully. He tells it for as long as he lives. The court that came after, slowly, hears it true.",
+      "sceneTitle": "Horatio's Witness",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Horatio's Witness"
+    }
+  ]
+}

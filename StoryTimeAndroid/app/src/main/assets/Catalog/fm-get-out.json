@@ -1,0 +1,450 @@
+{
+  "id": "fm-get-out",
+  "title": "Get Out",
+  "sourceTitle": "Get Out",
+  "kind": "movie",
+  "synopsis": "A photographer meets his girlfriend's family, a kitchen full of help, a teacup that puts him through the floor, and a basement with a slide projector.",
+  "releaseYear": 2017,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "peele",
+    "social",
+    "hypnosis",
+    "twist"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A small bag, a kiss, a question about whether her parents know you are Black.",
+      "sceneTitle": "Packing",
+      "choices": [
+        {
+          "text": "Ask",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Skip it",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "An impact, a state trooper at the window.",
+      "sceneTitle": "Deer on the Road",
+      "choices": [
+        {
+          "text": "Show your license",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Refuse politely",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A long drive, white columns, two staff members who do not blink right.",
+      "sceneTitle": "Armitage House",
+      "choices": [
+        {
+          "text": "Be friendly",
+          "consequence": "Polite.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Be wary",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Photos of grandparents, a fencing trophy, a knowing wink.",
+      "sceneTitle": "Dad's Tour",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Polite.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Probe",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The housekeeper pours sweet tea with a smile pinned on.",
+      "sceneTitle": "Georgina",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Polite.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The groundskeeper runs full speed at you in the dark.",
+      "sceneTitle": "Walter",
+      "choices": [
+        {
+          "text": "Greet him",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Step aside",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A teaspoon against porcelain in a small dark room.",
+      "sceneTitle": "Missy's Stir",
+      "choices": [
+        {
+          "text": "Resist",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A long fall into a dark with your own crying face in the corner.",
+      "sceneTitle": "The Sunken Place",
+      "choices": [
+        {
+          "text": "Climb",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Sink",
+          "consequence": "Tired.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A cigarette forgotten by you for years.",
+      "sceneTitle": "Morning",
+      "choices": [
+        {
+          "text": "Confront Missy",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Pretend nothing happened",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A lawn full of bidders pretending to be friends.",
+      "sceneTitle": "The Party",
+      "choices": [
+        {
+          "text": "Mingle",
+          "consequence": "Polite.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay close to Rose",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A familiar face, much older inside.",
+      "sceneTitle": "Logan",
+      "choices": [
+        {
+          "text": "Ask about Brooklyn",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Polite.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Logan's nose bleeds, his eyes snap, his mouth opens.",
+      "sceneTitle": "Flash Photo",
+      "choices": [
+        {
+          "text": "Get out",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Reassure him",
+          "consequence": "Polite.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "TSA. He believes you immediately.",
+      "sceneTitle": "Rod on the Phone",
+      "choices": [
+        {
+          "text": "Tell him everything",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Be vague",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Photographs of past Black partners she pretended you were the first.",
+      "sceneTitle": "Rose's Box",
+      "choices": [
+        {
+          "text": "Bolt",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Confront her",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Missy on the couch tapping ceramic.",
+      "sceneTitle": "Teacup",
+      "choices": [
+        {
+          "text": "Pocket cotton",
+          "consequence": "Cunning.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A patient strapped in a chair and a doctor with a smile.",
+      "sceneTitle": "Basement Operation",
+      "choices": [
+        {
+          "text": "Wait for the moment",
+          "consequence": "Patient.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Burst out",
+          "consequence": "Reckless.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Earbuds of fluff stop the trance.",
+      "sceneTitle": "Petrified Cotton",
+      "choices": [
+        {
+          "text": "Stay limp",
+          "consequence": "Cunning.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Snap up",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Lacrosse stick and a leer.",
+      "sceneTitle": "Jeremy at the Door",
+      "choices": [
+        {
+          "text": "Drop the boule",
+          "consequence": "Smart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "She is on the porch with grandma's body knocking on a window.",
+      "sceneTitle": "Rose with a Rifle",
+      "choices": [
+        {
+          "text": "Take her keys",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Get past her",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A flash, a sentence in his real voice, a gun handed back.",
+      "sceneTitle": "Walter Wakes",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Sirens. A friend in a TSA jacket at the wheel.",
+      "sceneTitle": "Headlights",
+      "choices": [
+        {
+          "text": "Get in",
+          "consequence": "Brave.",
+          "nextNodeId": "end_rod"
+        },
+        {
+          "text": "Wave",
+          "consequence": "Tired.",
+          "nextNodeId": "end_burn"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_walter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_rod",
+      "text": "Rod pulls up in a white SUV and you get in and the gates close behind you and the house goes silent for the first time in a hundred years.",
+      "sceneTitle": "TSA on the Scene",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "TSA on the Scene"
+    },
+    {
+      "id": "end_burn",
+      "text": "You drag a candle through the parlor and the photographs flutter and the house lights up against a cold sky, and the lawn fills with confused neighbors.",
+      "sceneTitle": "Burn It Down",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Burn It Down"
+    },
+    {
+      "id": "end_walter",
+      "text": "Walter, with the gun, salutes you once and turns it on the patriarch in the doorway. You drive away from a porch that has, finally, stopped smiling.",
+      "sceneTitle": "Walter Salutes",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Walter Salutes"
+    }
+  ]
+}

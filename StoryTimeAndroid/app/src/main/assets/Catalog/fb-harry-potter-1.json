@@ -1,0 +1,449 @@
+{
+  "id": "fb-harry-potter-1",
+  "title": "Harry Potter and the Philosopher's Stone",
+  "sourceTitle": "Harry Potter and the Philosopher's Stone",
+  "kind": "book",
+  "synopsis": "A cupboard under the stairs. A letter brought by owl. A platform between nines and tens. You're a wizard, Harry.",
+  "releaseYear": 1997,
+  "addedAt": "2026-02-24T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "magic",
+    "school",
+    "friendship"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Hundreds, in the chimney, in the kitchen, under the door.",
+      "sceneTitle": "Letters",
+      "choices": [
+        {
+          "text": "Read one",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He breaks the door. He brings cake.",
+      "sceneTitle": "Hagrid",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Wands, owls, gold. A vault, yours.",
+      "sceneTitle": "Diagon Alley",
+      "choices": [
+        {
+          "text": "Choose the snowy owl",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Browse longer",
+          "consequence": "Curious.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The wand chooses you. Phoenix feather core.",
+      "sceneTitle": "Wand",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Try another",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "9 3/4. Ron in a compartment. Hermione asks if you've seen a toad.",
+      "sceneTitle": "Train",
+      "choices": [
+        {
+          "text": "Befriend Ron",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Befriend Hermione",
+          "consequence": "Mind.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Not Slytherin, you whisper. Gryffindor, the hat says.",
+      "sceneTitle": "Sorting Hat",
+      "choices": [
+        {
+          "text": "Whisper firmly",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Don't whisper",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Madame Hooch, brooms. You catch a remembrall mid-air.",
+      "sceneTitle": "Quidditch",
+      "choices": [
+        {
+          "text": "Show off",
+          "consequence": "Joy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay calm",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Halloween. A troll. You and Ron save Hermione.",
+      "sceneTitle": "Troll",
+      "choices": [
+        {
+          "text": "Be brave",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Get a teacher",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Parents in the mirror. Your hand on the glass.",
+      "sceneTitle": "Mirror of Erised",
+      "choices": [
+        {
+          "text": "Sit a moment",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Hermione finds the name. The stone is real.",
+      "sceneTitle": "Nicolas Flamel",
+      "choices": [
+        {
+          "text": "Plan",
+          "consequence": "Path.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Tell McGonagall",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Hagrid's dragon. You sneak it out.",
+      "sceneTitle": "Norbert",
+      "choices": [
+        {
+          "text": "Take the risk",
+          "consequence": "Friend.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Convince him to send it on his own",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Centaurs. A unicorn killed. A cloaked figure drinking.",
+      "sceneTitle": "Forbidden Forest",
+      "choices": [
+        {
+          "text": "Stay close to the centaur",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Quidditch. Your broom shakes. Hermione sets a fire.",
+      "sceneTitle": "Snape's Curse",
+      "choices": [
+        {
+          "text": "Trust the team",
+          "consequence": "Friend.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Solo",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Fluffy. Sing. Devil's snare. Keys.",
+      "sceneTitle": "Through the Trapdoor",
+      "choices": [
+        {
+          "text": "Take the lead",
+          "consequence": "Path.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Trust Ron with the keys",
+          "consequence": "Friend.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Ron's sacrifice on the board.",
+      "sceneTitle": "Chess",
+      "choices": [
+        {
+          "text": "Honor him",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Refuse to let him sacrifice",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Hermione's logic. The right vial.",
+      "sceneTitle": "The Potions",
+      "choices": [
+        {
+          "text": "Drink and go on",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Turn back",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Quirrell with the turban. Voldemort under it.",
+      "sceneTitle": "Mirror Again",
+      "choices": [
+        {
+          "text": "Refuse the stone",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Lie",
+          "consequence": "Smart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Your skin burns him.",
+      "sceneTitle": "Touch",
+      "choices": [
+        {
+          "text": "Hold",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Recoil",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Dumbledore at your bed. Cards.",
+      "sceneTitle": "Hospital Wing",
+      "choices": [
+        {
+          "text": "Ask questions",
+          "consequence": "Curious.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Last-minute points for bravery and friendship. Gryffindor wins.",
+      "sceneTitle": "House Cup",
+      "choices": [
+        {
+          "text": "Cheer",
+          "consequence": "Joy.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Be quiet",
+          "consequence": "Modest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Hedwig, trunk, Uncle Vernon's pinched face.",
+      "sceneTitle": "Platform",
+      "choices": [
+        {
+          "text": "Walk to him with confidence",
+          "consequence": "New.",
+          "nextNodeId": "end_year2"
+        },
+        {
+          "text": "Be small",
+          "consequence": "Wise.",
+          "nextNodeId": "end_friends"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_dumbledore"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_year2",
+      "text": "You return next year for more. The lessons get harder. Hermione, somehow, also gets sharper. Ron, somehow, also.",
+      "sceneTitle": "Year Two",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Year Two"
+    },
+    {
+      "id": "end_friends",
+      "text": "You and Ron and Hermione, for seven years, are inseparable. The friendship outlasts the school.",
+      "sceneTitle": "The Three",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Three"
+    },
+    {
+      "id": "end_dumbledore",
+      "text": "You realize, over years, that Dumbledore was setting you up to learn slowly. Some of it was kind. Some of it was, less so. You forgive him, mostly, late.",
+      "sceneTitle": "Dumbledore's Lessons",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Dumbledore's Lessons"
+    }
+  ]
+}

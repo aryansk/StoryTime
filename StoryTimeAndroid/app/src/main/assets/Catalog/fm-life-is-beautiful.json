@@ -1,0 +1,450 @@
+{
+  "id": "fm-life-is-beautiful",
+  "title": "Life Is Beautiful",
+  "sourceTitle": "Life Is Beautiful",
+  "kind": "movie",
+  "synopsis": "A waiter in Arezzo, a librarian he calls Principessa, and a game in a camp that he invents to keep a small boy alive.",
+  "releaseYear": 1997,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "war",
+    "father",
+    "italy",
+    "bittersweet"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A borrowed car, a salute, a stranger waving a crowd off the road.",
+      "sceneTitle": "Brakes on the Hill",
+      "choices": [
+        {
+          "text": "Wave back",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Buongiorno, Principessa, into her arms.",
+      "sceneTitle": "Falling from a Window",
+      "choices": [
+        {
+          "text": "Ask her name",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Run",
+          "consequence": "Shy.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "She is promised to a fascist clerk in a stiff collar.",
+      "sceneTitle": "Theater of the Engagement",
+      "choices": [
+        {
+          "text": "Crash the dinner",
+          "consequence": "Bold.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait outside",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A racehorse painted by night with a slur on its flank.",
+      "sceneTitle": "Pink Horse",
+      "choices": [
+        {
+          "text": "Wash it off",
+          "consequence": "Care.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Ride it past the dinner",
+          "consequence": "Wild.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A library job that lets you smell her hair as you reshelve.",
+      "sceneTitle": "Books on Shelves",
+      "choices": [
+        {
+          "text": "Linger",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Work fast",
+          "consequence": "Polite.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A small boy on a kitchen floor with a wooden tank.",
+      "sceneTitle": "Joshua Born",
+      "choices": [
+        {
+          "text": "Build a city for him",
+          "consequence": "Heart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Read a paper",
+          "consequence": "Tired.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Words on the window of the bookshop you opened.",
+      "sceneTitle": "Storefront Painted",
+      "choices": [
+        {
+          "text": "Wash them",
+          "consequence": "Calm.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A platform, a list, a uniform's calm hand.",
+      "sceneTitle": "Train",
+      "choices": [
+        {
+          "text": "Get on",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Doomed.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A thousand points for the first prize, you tell the boy. A real tank.",
+      "sceneTitle": "Game",
+      "choices": [
+        {
+          "text": "Sell it",
+          "consequence": "Heart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell him the truth",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A guard speaks rules and you invent them all again for Joshua.",
+      "sceneTitle": "German Translation",
+      "choices": [
+        {
+          "text": "Translate playfully",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Translate honestly",
+          "consequence": "Hard.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "An old riddler from your waiter days, now at the camp in a uniform.",
+      "sceneTitle": "Doctor Lessing",
+      "choices": [
+        {
+          "text": "Ask for help",
+          "consequence": "Hope.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A scrap of bread saved in a sleeve for a boy under a bunk.",
+      "sceneTitle": "Soup Line",
+      "choices": [
+        {
+          "text": "Hide it",
+          "consequence": "Care.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Eat it",
+          "consequence": "Hungry.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A microphone in an office and a message you send across the camp.",
+      "sceneTitle": "Loudspeaker Trick",
+      "choices": [
+        {
+          "text": "Speak loud",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Another boy, a German child, on the wrong side of a window.",
+      "sceneTitle": "Joshua's Friend",
+      "choices": [
+        {
+          "text": "Encourage friendship",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Discourage it",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Dora across the wire and a song carried on a record over a courtyard.",
+      "sceneTitle": "Mother's Side",
+      "choices": [
+        {
+          "text": "Play their song",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A door marked DOCCIA and a line of small hands.",
+      "sceneTitle": "Bath Sign",
+      "choices": [
+        {
+          "text": "Hide Joshua",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Walk in",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Trucks pulling away in the night and a sound like a country leaving.",
+      "sceneTitle": "Liberation Rumor",
+      "choices": [
+        {
+          "text": "Move now",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A cabinet of supplies and a place for Joshua to wait while the camp dies.",
+      "sceneTitle": "Lockup Box",
+      "choices": [
+        {
+          "text": "Hide him",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Take him",
+          "consequence": "Reckless.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A women's barracks and a coat too small.",
+      "sceneTitle": "Search for Dora",
+      "choices": [
+        {
+          "text": "Search",
+          "consequence": "Loyal.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Boots on cobbles and a goose-step you turn into a clown's step for the boy in the box.",
+      "sceneTitle": "Past a Sentry",
+      "choices": [
+        {
+          "text": "Wink at him",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Look straight ahead",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Dawn, dust, an American crewman with a friendly hand offered down.",
+      "sceneTitle": "Tank in the Yard",
+      "choices": [
+        {
+          "text": "Climb up",
+          "consequence": "Heart.",
+          "nextNodeId": "end_won"
+        },
+        {
+          "text": "Look for mother first",
+          "consequence": "Loyal.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_paint"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_won",
+      "text": "Joshua wins his prize, a real tank, an American boy lifting him up. Dora finds him in a market three days later and they go home.",
+      "sceneTitle": "A Thousand Points",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Thousand Points"
+    },
+    {
+      "id": "end_quiet",
+      "text": "A waiter, a bookseller, a father turning a hard year into a game his son will tell his own children about, hand on a kitchen table.",
+      "sceneTitle": "Buongiorno, Principessa",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Buongiorno, Principessa"
+    },
+    {
+      "id": "end_paint",
+      "text": "Joshua paints the pink horse the same color his father did, and rides it through Arezzo at a parade, and people cry without knowing why.",
+      "sceneTitle": "Pink Horse, Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pink Horse, Again"
+    }
+  ]
+}

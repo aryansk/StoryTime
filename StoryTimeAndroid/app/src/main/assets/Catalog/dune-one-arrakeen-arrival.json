@@ -1,0 +1,444 @@
+{
+  "id": "dune-one-arrakeen-arrival",
+  "title": "Dune: Part One",
+  "sourceTitle": "Dune: Part One",
+  "kind": "movie",
+  "synopsis": "The Atreides have just landed on Arrakis. Within a week the trap will close. You can see it coming. Your father can't, or won't, in time. Find the thread that lets even one of you survive the betrayal.",
+  "releaseYear": 2021,
+  "addedAt": "2026-05-07T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "epic",
+    "noble",
+    "betrayal"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": "dune-sands-of-fate",
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your home of nine generations is being packed into crates. Your mother has been silent for two days. The Emperor has 'gifted' your house the most dangerous planet in the universe and called it an honor.",
+      "sceneTitle": "Caladan, Last Hours",
+      "choices": [
+        {
+          "text": "Walk the grounds one last time",
+          "consequence": "Memory is also a weapon.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Study the Atreides intelligence file on Arrakis",
+          "consequence": "Prepare while you can.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Duncan Idaho, who taught you knife work and patience, hugs you fiercely. He's leaving ahead with the advance team. He says, 'I'll see you on Arrakis,' and you both know there is a non-trivial chance he won't.",
+      "sceneTitle": "Duncan's Goodbye",
+      "choices": [
+        {
+          "text": "Ask him to take your message to the Fremen",
+          "consequence": "Use his audience.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Send him with only goodwill",
+          "consequence": "Trust him to read the room.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Spice production. Worm activity. Fremen population estimates that are wildly off. A note in your mother's hand: 'Do not trust the Harkonnen surrender. Do not trust anyone who calls it a surrender.'",
+      "sceneTitle": "The Intelligence File",
+      "choices": [
+        {
+          "text": "Bring the note to your father directly",
+          "consequence": "Truth into the right hand.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Save the note for an emergency moment",
+          "consequence": "Some truths land better in fire.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The ramp lowers and the heat takes the breath from your lungs. Stilgar's men watch from the dunes you can't quite see. Dr. Yueh greets you with a smile he should not be wearing.",
+      "sceneTitle": "Arrakeen Landing",
+      "choices": [
+        {
+          "text": "Greet the locals personally and quickly",
+          "consequence": "Be seen as a man of Arrakis.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stand by your father in the receiving line",
+          "consequence": "Be heir before everything.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A Fremen messenger leaves a strange gift at your door — a crysknife in a folded cloth. Your mother goes pale. 'They are testing,' she says. 'And they are offering.'",
+      "sceneTitle": "The Maker's Tooth",
+      "choices": [
+        {
+          "text": "Wear the crysknife visibly to the council",
+          "consequence": "Accept the offer publicly.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Keep it hidden until you understand it",
+          "consequence": "Receive the gift quietly.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Stilgar arrives in your father's hall with the formality of a man who has never been the first to bow. Your father, to his credit, listens. Stilgar spits on the floor — a gift of water — and you realize the Fremen are reading every face in the room.",
+      "sceneTitle": "Stilgar's First Audience",
+      "choices": [
+        {
+          "text": "Spit back as a gesture of respect",
+          "consequence": "Speak the language.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Watch your father's response and follow his lead",
+          "consequence": "Stay coordinated.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The Reverend Mother — old, terrifying — corners you in a quiet room. The box, the needle, the choice. Pain is a hand at your throat. You hold. You hold. You hold.",
+      "sceneTitle": "The Bene Gesserit Test",
+      "choices": [
+        {
+          "text": "Trust your mother's training",
+          "consequence": "Discipline kept secret is still discipline.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Resist the test as an insult",
+          "consequence": "Honor a price the Bene Gesserit don't bargain.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You see Dr. Yueh in a corridor at midnight, his hands shaking. He has a wife held by Harkonnens. He is the kindest man in this house, and he will, in two days, betray your family unless you read this exact face.",
+      "sceneTitle": "Yueh, Suffering",
+      "choices": [
+        {
+          "text": "Press him on what's wrong, carefully",
+          "consequence": "Read the man, save the wife if you can.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Quietly inform Hawat and Mother",
+          "consequence": "Channels exist for a reason.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Thufir Hawat, your old Mentat, reports a worry — Lady Jessica may be the traitor. He is, brilliantly, exactly wrong. The Harkonnens have planted the seed and watered it.",
+      "sceneTitle": "Thufir's Suspicion",
+      "choices": [
+        {
+          "text": "Defend your mother without exposing your knowledge",
+          "consequence": "Move pieces without showing them.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell Hawat openly that Yueh is the danger",
+          "consequence": "Risk that he believes you.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Your father takes you out into the desert on a spice crawler. A worm comes. The crew is brave; your father is braver. He saves the workers. You see what kind of duke he is. You also see why he will lose.",
+      "sceneTitle": "Spice Crawler",
+      "choices": [
+        {
+          "text": "Tell him your fears about the trap",
+          "consequence": "Try one more time.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell him you understand his choices",
+          "consequence": "Honor him while he's here.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The Imperial planetologist, secretly the leader of the Fremen, watches your house with the patience of a person who has waited a generation. He could be friend, or witness, or both.",
+      "sceneTitle": "Liet-Kynes",
+      "choices": [
+        {
+          "text": "Offer him a private alliance with the Atreides",
+          "consequence": "Bridge the worlds.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Ask him only what he needs from you",
+          "consequence": "Listen first.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Shields down. Sardaukar in the corridors. Yueh's signal already given. Your father is somewhere being chained to a chair. Your mother, somewhere, fighting with a voice that breaks bones.",
+      "sceneTitle": "The Trap Springs",
+      "choices": [
+        {
+          "text": "Find your mother first",
+          "consequence": "Family is also strategy.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Find Hawat and rally a counter-attack",
+          "consequence": "Defense before flight.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Duncan finds you with a cut over his eye and a smile that means he intends to die today. 'I'll buy you the door, Paul,' he says. 'Take your mother and go.'",
+      "sceneTitle": "Duncan, Last Stand",
+      "choices": [
+        {
+          "text": "Take the door he buys you",
+          "consequence": "Honor his last gift.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay and fight beside him",
+          "consequence": "Refuse the price.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "An ornithopter, a sandstorm, a hard landing. Then the open desert, by foot, your mother at your side, the crysknife in your hand. You are, at fifteen, learning to walk without rhythm so the worms don't come.",
+      "sceneTitle": "The Desert",
+      "choices": [
+        {
+          "text": "Head for the rock outcroppings",
+          "consequence": "Cover is the desert's only mercy.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Head deep into the deep desert",
+          "consequence": "Find the Fremen before they find you.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Hawat, captured, slips you a final intel — the Emperor's role in this, the Harkonnen plan for the spice. He tells you to live. He tells you to come back for him.",
+      "sceneTitle": "Hawat's Last Order",
+      "choices": [
+        {
+          "text": "Promise to come back for Hawat",
+          "consequence": "Honor old loyalties.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Promise to remember the Emperor's name",
+          "consequence": "Direct the rage at the right hand.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Stilgar appears at the lip of a canyon with twenty Fremen behind him. They are not, in any sense, smiling. They have come, you realize, to decide whether to take you or to kill you.",
+      "sceneTitle": "The Sietch's Gate",
+      "choices": [
+        {
+          "text": "Offer them your service and the crysknife",
+          "consequence": "Be a man of the desert as quickly as you can.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Speak the Bene Gesserit half-language to win the women's eyes",
+          "consequence": "Use the mythology that already exists about you.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Spice in the air; spice in your blood. You see possible futures pour through your head — every version of yourself, including the ones where you become exactly the monster the Bene Gesserit warned of. You vow to choose carefully.",
+      "sceneTitle": "The Vision",
+      "choices": [
+        {
+          "text": "Choose the path with the smallest jihad",
+          "consequence": "Counted bodies are also numbers.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Choose the path with the fastest justice",
+          "consequence": "Speed of vengeance is its own currency.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You take a Fremen name. You learn to walk the dunes without thinking. You meet a young woman named Chani who watches you the way one watches a storm form. You feel the prophecy fitting on you like a suit you didn't ask for.",
+      "sceneTitle": "Becoming Muad'Dib",
+      "choices": [
+        {
+          "text": "Lean into the prophecy strategically",
+          "consequence": "Become the legend on purpose.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Resist the prophecy and be just a man",
+          "consequence": "Stay yourself; survive.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You find Rabban's outposts and burn the spice in ways that hurt the Harkonnens specifically. You become a name they whisper. You also become a name the universe will not forget — for better and absolutely for worse.",
+      "sceneTitle": "Justice for the House",
+      "choices": [
+        {
+          "text": "Press the war on every front",
+          "consequence": "Force the Emperor's hand.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Pull back and rebuild a coalition",
+          "consequence": "Patience is a Fremen virtue.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "From a ridge you watch banners on the horizon — yours, now — pouring down toward Arrakeen. You feel the future you tried to avoid arriving like weather. You take a breath. You walk down to meet it.",
+      "sceneTitle": "The Edge of the Holy War",
+      "choices": [
+        {
+          "text": "Lead the war and accept its cost",
+          "consequence": "Some destinies you walk into.",
+          "nextNodeId": "end_lisan"
+        },
+        {
+          "text": "Try one last time to steer the war to a smaller end",
+          "consequence": "Even prophets can edit.",
+          "nextNodeId": "end_quieter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You and Chani and Stilgar agree to a slower, deeper plan — one that does not write your name in every star system. You give up some fame for some sanity. The desert, for one summer, is peaceful enough to hear.",
+      "sceneTitle": "The Quieter Road",
+      "choices": [
+        {
+          "text": "Build a Fremen-led future with you as a steward, not a god",
+          "consequence": "Decentralize the legend.",
+          "nextNodeId": "end_steward"
+        },
+        {
+          "text": "Disappear south for a year of training and patience",
+          "consequence": "Wait for the right shape of war.",
+          "nextNodeId": "end_quieter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_lisan",
+      "text": "The banners spread. The Sardaukar fall. Shaddam is forced to abdicate on the sand. You sit on a stone that is not a throne and feel, very clearly, the cost of every life that wasn't necessary. You will carry it. You have no other choice.",
+      "sceneTitle": "Lisan al-Gaib",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lisan al-Gaib"
+    },
+    {
+      "id": "end_quieter",
+      "text": "The war comes anyway, but smaller — you take Arrakis without taking the universe. The Atreides flag flies over Arrakeen and a thousand fewer worlds burn. History will call it a half-victory. Chani will call it a marriage.",
+      "sceneTitle": "Smaller Storms",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Smaller Storms"
+    },
+    {
+      "id": "end_steward",
+      "text": "You refuse the title of god and accept the title of partner. Stilgar runs the council. You handle the off-world. The Fremen, for the first time in a thousand years, run their own planet. You sleep at night. Mostly.",
+      "sceneTitle": "The Steward of the Sand",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Steward of the Sand"
+    }
+  ]
+}

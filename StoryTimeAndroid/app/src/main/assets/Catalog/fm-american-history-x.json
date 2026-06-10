@@ -1,0 +1,450 @@
+{
+  "id": "fm-american-history-x",
+  "title": "American History X",
+  "sourceTitle": "American History X",
+  "kind": "movie",
+  "synopsis": "A skinhead, a brother who idolizes him, three years inside, and a return to a city that hasn't waited.",
+  "releaseYear": 1998,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "redemption",
+    "racism",
+    "brothers",
+    "prison"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A teacher who asks for a paper on a book you would not have chosen.",
+      "sceneTitle": "Murray's Class",
+      "choices": [
+        {
+          "text": "Write the paper",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A monologue in the kitchen that becomes an inheritance.",
+      "sceneTitle": "Dad's Dinner Table",
+      "choices": [
+        {
+          "text": "Listen quietly",
+          "consequence": "Doubt.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Agree loudly",
+          "consequence": "Lost.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A father in a uniform shot at a call in a neighborhood he did not respect.",
+      "sceneTitle": "Fire House",
+      "choices": [
+        {
+          "text": "Grieve",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Blame",
+          "consequence": "Lost.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Three men, a window broken, a boot at the curb.",
+      "sceneTitle": "Truck on the Curb",
+      "choices": [
+        {
+          "text": "Walk away",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Press the foot down",
+          "consequence": "Final.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Three years, a wife crying, a brother in the back row.",
+      "sceneTitle": "Sentencing",
+      "choices": [
+        {
+          "text": "Look at him",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Lamont with a half-grin and a sock joke.",
+      "sceneTitle": "Laundry",
+      "choices": [
+        {
+          "text": "Laugh",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay cold",
+          "consequence": "Pride.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Two men in the steam with a smile that is not a smile.",
+      "sceneTitle": "Shower",
+      "choices": [
+        {
+          "text": "Fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "An Aryan brotherhood that wants you to nod.",
+      "sceneTitle": "Yard",
+      "choices": [
+        {
+          "text": "Sit alone",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Sit with them",
+          "consequence": "Tempted.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He covered for you in the laundry without a reason.",
+      "sceneTitle": "Lamont in the Hallway",
+      "choices": [
+        {
+          "text": "Thank him",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Pretend it didn't happen",
+          "consequence": "Cold.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Murray writes weekly. The handwriting is patient.",
+      "sceneTitle": "Letters",
+      "choices": [
+        {
+          "text": "Write back",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Burn them",
+          "consequence": "Pride.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mother in a coat that doesn't fit, sister in heels too high.",
+      "sceneTitle": "Visit from Doris",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Bristle",
+          "consequence": "Cold.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Frederick Douglass left on a cot in a stack.",
+      "sceneTitle": "Library Books",
+      "choices": [
+        {
+          "text": "Read",
+          "consequence": "Curious.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Push aside",
+          "consequence": "Pride.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A bus from upstate, a bag with a notebook, a brother on a curb.",
+      "sceneTitle": "Release",
+      "choices": [
+        {
+          "text": "Embrace him",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Lecture him",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "An old mentor with the same speech and a softer chair.",
+      "sceneTitle": "Cameron in the Living Room",
+      "choices": [
+        {
+          "text": "Walk out",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Sit down",
+          "consequence": "Tempted.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A draft on a kitchen table about his big brother as a hero.",
+      "sceneTitle": "Danny's Paper",
+      "choices": [
+        {
+          "text": "Read it",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Rip it",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Tattoos, lights, the truth said into a small room at midnight.",
+      "sceneTitle": "Bedroom Confession",
+      "choices": [
+        {
+          "text": "Tell him everything",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Tell him part",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The teacher with a long, polite memory.",
+      "sceneTitle": "Murray at the Door",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Slam the door",
+          "consequence": "Pride.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A summer game whose score did not matter and a friend who is gone.",
+      "sceneTitle": "Basketball Court Memory",
+      "choices": [
+        {
+          "text": "Hold the loss",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Cameron's lookouts watching for a new soldier.",
+      "sceneTitle": "Crew Outside the Store",
+      "choices": [
+        {
+          "text": "Cross the street",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Confront them",
+          "consequence": "Pride.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A kid from a school you once owned with a small pistol.",
+      "sceneTitle": "Bathroom Stall",
+      "choices": [
+        {
+          "text": "Don't fight",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Reach for it",
+          "consequence": "Reckless.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Sirens far off, a brother in your arms, a quiet street that has finally arrived.",
+      "sceneTitle": "Steps",
+      "choices": [
+        {
+          "text": "Hold him",
+          "consequence": "Honest.",
+          "nextNodeId": "end_paper"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Lost.",
+          "nextNodeId": "end_school"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_paper",
+      "text": "Murray reads the rewritten paper at a funeral. The room is full and the words are about a brother and a smile and a curb that should not have happened.",
+      "sceneTitle": "The Last Page",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Last Page"
+    },
+    {
+      "id": "end_school",
+      "text": "You sit in the seat your brother used. You raise your hand a lot. The class learns to listen to you because you have, finally, listened back.",
+      "sceneTitle": "Murray's Class, Front Row",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Murray's Class, Front Row"
+    },
+    {
+      "id": "end_quiet",
+      "text": "Your mother holds your hand on a sagging step at sunset. Neither of you speaks. The neighbors do not yet trust you. You do not blame them.",
+      "sceneTitle": "Doris on the Porch",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Doris on the Porch"
+    }
+  ]
+}

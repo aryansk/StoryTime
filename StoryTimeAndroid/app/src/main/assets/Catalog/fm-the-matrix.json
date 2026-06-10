@@ -1,0 +1,449 @@
+{
+  "id": "fm-the-matrix",
+  "title": "The Matrix",
+  "sourceTitle": "The Matrix",
+  "kind": "movie",
+  "synopsis": "Wake up, Neo. The white rabbit, the office, the call. Red pill, blue pill. Choose what kind of life you were going to have anyway.",
+  "releaseYear": 1999,
+  "addedAt": "2026-03-15T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "cyberpunk",
+    "philosophy",
+    "chosen-one"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A green prompt. Wake up, Neo. A knock at the door.",
+      "sceneTitle": "The Apartment",
+      "choices": [
+        {
+          "text": "Open",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Pretend not to be home",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Two grand for the disk. Follow the white rabbit, he says.",
+      "sceneTitle": "Choi",
+      "choices": [
+        {
+          "text": "Go with them",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay home",
+          "consequence": "Safe.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A woman in leather at a club. She tells you the question is what drives you.",
+      "sceneTitle": "Trinity",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stay alert",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Agents at your desk. Smith. Phone in a parcel.",
+      "sceneTitle": "The Office",
+      "choices": [
+        {
+          "text": "Take the phone",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Go with the agents",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Morpheus says go to the ledge. You can't. They take you.",
+      "sceneTitle": "Window Ledge",
+      "choices": [
+        {
+          "text": "Try anyway",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Cooperate",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A bug crawls under your skin. Trinity removes it.",
+      "sceneTitle": "Bug",
+      "choices": [
+        {
+          "text": "Trust her",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Run",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Red or blue. Morpheus, sincere.",
+      "sceneTitle": "Pills",
+      "choices": [
+        {
+          "text": "Red",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Blue",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You are pulled out of a pod. You are weak. You are real.",
+      "sceneTitle": "Out",
+      "choices": [
+        {
+          "text": "Stay still",
+          "consequence": "Heal.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Look around",
+          "consequence": "Curious.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Hovercraft, crew, a captain. Real food is gruel.",
+      "sceneTitle": "Nebuchadnezzar",
+      "choices": [
+        {
+          "text": "Eat it",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Spoiled.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Jiu-jitsu uploaded. You wake fluent.",
+      "sceneTitle": "Training",
+      "choices": [
+        {
+          "text": "Spar with Morpheus",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Spar carefully",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Black emptiness. Morpheus shows you the system.",
+      "sceneTitle": "The Construct",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Spirit.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A man named Tank brings you tea. He was born free.",
+      "sceneTitle": "Tank",
+      "choices": [
+        {
+          "text": "Befriend him",
+          "consequence": "Friend.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Cookies. A small woman. She tells you what you needed to hear, not what you wanted.",
+      "sceneTitle": "Oracle",
+      "choices": [
+        {
+          "text": "Believe her",
+          "consequence": "Path.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Doubt her",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Cypher misses steak. He misses being unconscious. He betrays.",
+      "sceneTitle": "Cypher",
+      "choices": [
+        {
+          "text": "Spot it earlier",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Catch it late",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Agents pursue. Morpheus, captured, is taken to a building.",
+      "sceneTitle": "Subway",
+      "choices": [
+        {
+          "text": "Save him",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Marble. Guards. Sunglasses. Many rounds expended.",
+      "sceneTitle": "Lobby",
+      "choices": [
+        {
+          "text": "Run the lobby",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Plan a quieter route",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A helicopter. Morpheus on a chair.",
+      "sceneTitle": "Rooftop",
+      "choices": [
+        {
+          "text": "Pilot",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Cover",
+          "consequence": "Smart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Smith on a platform. You face him.",
+      "sceneTitle": "Subway Two",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Run",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Smith corners you in a hallway. Bullets stop.",
+      "sceneTitle": "Hotel",
+      "choices": [
+        {
+          "text": "See them",
+          "consequence": "Path.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Dodge them",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You break Smith apart from the inside.",
+      "sceneTitle": "The One",
+      "choices": [
+        {
+          "text": "Step out of his shape",
+          "consequence": "Final.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hold him a moment",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Call ended. You step out of the booth. You can fly.",
+      "sceneTitle": "Phone Booth",
+      "choices": [
+        {
+          "text": "Fly",
+          "consequence": "Path.",
+          "nextNodeId": "end_one"
+        },
+        {
+          "text": "Walk a block first",
+          "consequence": "Style.",
+          "nextNodeId": "end_zion"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_peace"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_one",
+      "text": "You become a teacher and a target. You fly often. You also, occasionally, take the bus, because the bus passes a place that used to be your apartment.",
+      "sceneTitle": "The One",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The One"
+    },
+    {
+      "id": "end_zion",
+      "text": "You spend a decade rebuilding Zion's defenses. You marry Trinity. You retire, eventually, to teach kids how to fly. The kids, mostly, prefer running.",
+      "sceneTitle": "Zion's Builder",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Zion's Builder"
+    },
+    {
+      "id": "end_peace",
+      "text": "You broker, eventually, a peace between humans and machines. The truce holds for a generation. After that, you don't know. You are, for now, content with a generation.",
+      "sceneTitle": "Peace with the Machines",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Peace with the Machines"
+    }
+  ]
+}

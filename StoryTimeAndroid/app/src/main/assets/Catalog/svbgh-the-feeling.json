@@ -1,0 +1,444 @@
+{
+  "id": "svbgh-the-feeling",
+  "title": "Something Very Bad Is Gonna Happen",
+  "sourceTitle": "Something Very Bad Is Gonna Happen",
+  "kind": "show",
+  "synopsis": "You woke up at 4:11 a.m. with the deep, unshakable certainty that something very bad is about to happen — today, here, to someone you love. You have until the end of the day to figure out what, and whether you can stop it.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-20T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "dread",
+    "premonition",
+    "family"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The feeling arrives before you're fully awake — heavy and certain, like furniture in a dark room. Something very bad is going to happen. You don't know what, only that it's today.",
+      "sceneTitle": "4:11 a.m.",
+      "choices": [
+        {
+          "text": "Get up and write down everything you sense",
+          "consequence": "List the dread before it scatters.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Try to go back to sleep — it's just a dream",
+          "consequence": "Denial is a curtain, not a door.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "On a notepad you write: kitchen, car, your sister, the stairs at work, the bridge. Even reading it back, your hand shakes. Some of these mean nothing. One of them is the thing.",
+      "sceneTitle": "The List",
+      "choices": [
+        {
+          "text": "Take the list seriously, item by item",
+          "consequence": "Superstition is sometimes pattern recognition.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Burn the list and shake it off",
+          "consequence": "Naming a fear gives it shape.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "By 7 a.m. you are pretending it's a normal day, with normal coffee. Your partner asks why you keep glancing at the door. You don't have a good answer. The feeling, in daylight, has not gotten smaller.",
+      "sceneTitle": "Coffee",
+      "choices": [
+        {
+          "text": "Tell your partner the truth",
+          "consequence": "Saying it aloud is a kind of test.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Keep it to yourself — they'll think you're spiraling",
+          "consequence": "Some weights are quieter alone.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "She calls at 7:42 about nothing — running late, the car making a sound, did you call Mom. You hear, very clearly, the thing on your list. The car. The sound. Today.",
+      "sceneTitle": "Your Sister Calls",
+      "choices": [
+        {
+          "text": "Tell her not to drive, no matter what",
+          "consequence": "Sometimes love sounds like a command.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask careful questions without alarming her",
+          "consequence": "A net cast wider may catch more.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "At work the stairwell looks longer than usual. The fluorescents tick. Your boss tells a story about a near-miss on the way in and you actually flinch — and notice that nobody else does.",
+      "sceneTitle": "The Office",
+      "choices": [
+        {
+          "text": "Take the stairs anyway",
+          "consequence": "Confront what your gut accuses.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take the elevator and feel ridiculous",
+          "consequence": "Some battles are not today's.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your sister laughs — kindly. 'You're being weird,' she says. 'I love you. Bye.' She hangs up and you stand in your kitchen with the phone still warm, and the feeling thickens like fog.",
+      "sceneTitle": "She Won't Listen",
+      "choices": [
+        {
+          "text": "Drive to her right now",
+          "consequence": "Your body knows what your reasons don't.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Trust her and turn your attention elsewhere",
+          "consequence": "You can't be in every room.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "On the second floor you notice things — a damp patch on the ceiling near the server room, a colleague rubbing her chest, your phone buzzing with an unknown caller. The feeling is sharpening into specifics, but slowly, and not in time.",
+      "sceneTitle": "The Pattern",
+      "choices": [
+        {
+          "text": "Pull the fire alarm to clear the building",
+          "consequence": "Disruption now beats catastrophe later.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Quietly tell your supervisor what you sense",
+          "consequence": "Authority lends courage to weird truths.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You're in your car heading to your sister's office or your own, depending — and you realize you're going too fast, and your hands are very cold. The feeling now includes you. Maybe the thing is you.",
+      "sceneTitle": "The Drive",
+      "choices": [
+        {
+          "text": "Pull over and breathe before continuing",
+          "consequence": "You can't save anyone from a wreck you caused.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Keep going — the urgency is the message",
+          "consequence": "Hesitation has a body count too.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your supervisor frowns and humors you — but she also calls maintenance and tells the floor to stay clear of the stairwell. Small actions ripple. Maybe that's all it takes.",
+      "sceneTitle": "The Quiet Warning",
+      "choices": [
+        {
+          "text": "Trust that small actions are enough",
+          "consequence": "Big disasters often arrive on small hinges.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Push for a bigger response anyway",
+          "consequence": "Better foolish and safe than reasonable and sorry.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "There is a sound — not big, not yet — somewhere across the city. A pop. A drop in air pressure. A siren two blocks over. The feeling now is a needle in your chest.",
+      "sceneTitle": "10:47 a.m.",
+      "choices": [
+        {
+          "text": "Run toward the sound to help",
+          "consequence": "Compassion outruns dread, when it can.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Find your people first",
+          "consequence": "You can't save the world without your own.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mom: 'I had the strangest dream about you.' She is not psychic. She is, today, exactly as scared as you are. Until this moment you were maybe two thirds sure you weren't losing your mind.",
+      "sceneTitle": "Your Mother Calls",
+      "choices": [
+        {
+          "text": "Tell her everything you've sensed",
+          "consequence": "Two witnesses make a fact.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Lie to keep her calm",
+          "consequence": "Love and lying share a border.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Someone you love is here — your sister, your colleague, a stranger you couldn't reach — and the corridor smells like coffee and fear. The feeling has narrowed to one door and one held breath.",
+      "sceneTitle": "Hospital Hallway",
+      "choices": [
+        {
+          "text": "Sit and wait for news",
+          "consequence": "Some battles are about endurance.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Demand information from someone in scrubs",
+          "consequence": "Polite has a cost; impolite has a different one.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your phone fills with alerts and your office goes on lockdown for a reason nobody upstairs has named yet. People text 'are you ok' and you can only answer 'I think so.' The feeling shrinks slightly — and gets darker.",
+      "sceneTitle": "Lockdown",
+      "choices": [
+        {
+          "text": "Help organize the people around you",
+          "consequence": "Action is the antidote to dread.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Call everyone you love, in order",
+          "consequence": "Make sure they hear your voice today.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A nurse, a stranger, a child holds your hand for a moment. Whatever the catastrophe was or wasn't, the day is still full of small good people. The feeling does not lift. It just becomes survivable.",
+      "sceneTitle": "The Small Good",
+      "choices": [
+        {
+          "text": "Notice the goodness and let it steady you",
+          "consequence": "Beauty doesn't cancel dread; it carries it.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Keep scanning for the next danger",
+          "consequence": "Vigilance is hard to switch off.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The first reports are wrong, like they always are. Then the second reports are wrong differently. Eventually a true sentence arrives, and it is both better and worse than what your body told you at 4:11.",
+      "sceneTitle": "The News",
+      "choices": [
+        {
+          "text": "Sit with the true sentence",
+          "consequence": "Truth is a posture you have to settle into.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Try to make sense of why you felt it",
+          "consequence": "Meaning is a balm and sometimes a trap.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The day is winding down without ending you. Your sister is alive, or recovering, or grieving someone else; either way, she is on the other end of a phone call, breathing. You sit by a window and watch the city's lights come on.",
+      "sceneTitle": "Evening",
+      "choices": [
+        {
+          "text": "Decide the feeling was real and useful",
+          "consequence": "Believe your body next time, too.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Decide it was coincidence with bad timing",
+          "consequence": "Skepticism is a kind of mercy on yourself.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A second wave hits — a smaller thing, a near-miss, a phone call about a different cousin. The feeling is now a familiar weight, no longer a stranger. You will, you realize, live the rest of your life with this voice.",
+      "sceneTitle": "Aftershock",
+      "choices": [
+        {
+          "text": "Make peace with the voice and listen carefully",
+          "consequence": "A reliable warning is a strange gift.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Decide to fight the voice with therapy and routine",
+          "consequence": "You don't have to inherit your own dread forever.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "An ordinary hour again. You light a candle for no reason and notice you didn't get killed today, and neither did the people you love most. That is not a small thing. That is, in fact, the only thing.",
+      "sceneTitle": "11:11 p.m.",
+      "choices": [
+        {
+          "text": "Call your mother before bed",
+          "consequence": "The bad things will or won't come. Love now.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Write down what you learned today",
+          "consequence": "Memory is the only seatbelt against forgetting.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You won't tell most people about this day. You'll carry it like a small smooth stone in a pocket — a reminder that catastrophe was once close, and the city kept going, and so did you. It is, somehow, comforting.",
+      "sceneTitle": "What You'll Carry",
+      "choices": [
+        {
+          "text": "Keep the stone and the lesson",
+          "consequence": "Some weights are also anchors.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Put the stone down and walk lighter",
+          "consequence": "You're allowed to forget on purpose.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You call them — sister, partner, mother, the friend you've been meaning to. Not big speeches. Just 'I love you, I'm glad you're here.' Some of them cry a little. Most of them say 'are you okay?' You are. You are.",
+      "sceneTitle": "The Calls",
+      "choices": [
+        {
+          "text": "Make this your new ordinary",
+          "consequence": "Call the people now, before the next 4:11.",
+          "nextNodeId": "end_grace"
+        },
+        {
+          "text": "Drift back to your old habits in a week",
+          "consequence": "Even good lessons need re-learning.",
+          "nextNodeId": "end_human"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Sleep doesn't come fast. The feeling, just before you drift off, returns gently — but this time it's not a warning. It's the simple bedrock fact that you are mortal, and so is everyone you love, and tonight, again, nobody is gone.",
+      "sceneTitle": "Going to Bed",
+      "choices": [
+        {
+          "text": "Sleep with the knowledge as a comfort",
+          "consequence": "Mortality is also permission to love now.",
+          "nextNodeId": "end_grace"
+        },
+        {
+          "text": "Sleep with one eye open from now on",
+          "consequence": "Vigilance can be a vow, not a curse.",
+          "nextNodeId": "end_watch"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_grace",
+      "text": "You don't get more days than you got. You get to do something with the ones you have. The feeling becomes a quiet companion — not a fortune teller, not a curse — just the part of you that has noticed how lucky you are, and how briefly.",
+      "sceneTitle": "Until the Next 4:11",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Until the Next 4:11"
+    },
+    {
+      "id": "end_human",
+      "text": "Time blunts the day. You forget some of the details and remember the rest wrong. That is okay. Most of being human is forgetting what almost killed you and showing up to dinner anyway.",
+      "sceneTitle": "Ordinary, Mostly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Ordinary, Mostly"
+    },
+    {
+      "id": "end_watch",
+      "text": "You become someone who picks up the phone fast, who locks the door, who checks the smoke detector twice. People tease you for it. People also, on the worst day of their lives, call you first. You are, in a way nobody planned, useful.",
+      "sceneTitle": "The Watchful Heart",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Watchful Heart"
+    }
+  ]
+}

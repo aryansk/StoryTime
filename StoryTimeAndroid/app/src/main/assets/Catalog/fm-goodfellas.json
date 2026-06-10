@@ -1,0 +1,449 @@
+{
+  "id": "fm-goodfellas",
+  "title": "Goodfellas",
+  "sourceTitle": "Goodfellas",
+  "kind": "movie",
+  "synopsis": "As far back as you can remember, you wanted to be a gangster. You got it. Now the day starts at 6 a.m. and ends at 6 a.m. and the helicopter is, again, overhead.",
+  "releaseYear": 1990,
+  "addedAt": "2026-03-09T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "mafia",
+    "rise",
+    "fall"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Paulie's cabstand. Errands. The first time you watch a car burn.",
+      "sceneTitle": "Brooklyn",
+      "choices": [
+        {
+          "text": "Be useful",
+          "consequence": "In.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Walk home",
+          "consequence": "Out.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The men dress like the men. You imitate, you belong.",
+      "sceneTitle": "Pinky Ring",
+      "choices": [
+        {
+          "text": "Imitate",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay yourself",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Tommy is funny. Tommy is dangerous.",
+      "sceneTitle": "Tommy",
+      "choices": [
+        {
+          "text": "Laugh",
+          "consequence": "Survive.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't laugh",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Jimmy hands out hundred-dollar bills like a god.",
+      "sceneTitle": "Jimmy",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "In.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse it",
+          "consequence": "Out.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You meet her at a wedding. She is, briefly, terrified.",
+      "sceneTitle": "Karen",
+      "choices": [
+        {
+          "text": "Be charming",
+          "consequence": "Heart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Truth.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You marry. Her mother does not know what to make of you.",
+      "sceneTitle": "Engagement",
+      "choices": [
+        {
+          "text": "Win her mother",
+          "consequence": "Strategy.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Win Karen",
+          "consequence": "Direct.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Trucks at JFK. The first big score.",
+      "sceneTitle": "Hijacking",
+      "choices": [
+        {
+          "text": "Plan small",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Plan big",
+          "consequence": "Greedy.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Tommy shoots Spider in the foot. Then in the chest.",
+      "sceneTitle": "Spider",
+      "choices": [
+        {
+          "text": "Be silent",
+          "consequence": "Survive.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Vomit out back",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Six million in cash and gold. Jimmy gets paranoid.",
+      "sceneTitle": "Lufthansa",
+      "choices": [
+        {
+          "text": "Take the smallest cut",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take the biggest",
+          "consequence": "Greedy.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Florida. Pittsburgh. You start using.",
+      "sceneTitle": "Cocaine",
+      "choices": [
+        {
+          "text": "Stop",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't stop",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She finds your stash. She flushes it. She is furious.",
+      "sceneTitle": "Karen, Loaded",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Yell back",
+          "consequence": "Stress.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Tommy is told he'll be made. He goes to a basement.",
+      "sceneTitle": "Tommy Made",
+      "choices": [
+        {
+          "text": "Note the suspicion",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Trust it",
+          "consequence": "Naive.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "It was for Billy Batts. The whole street goes quiet.",
+      "sceneTitle": "Tommy Dead",
+      "choices": [
+        {
+          "text": "Drink",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Don't drink",
+          "consequence": "Discipline.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The helicopter. The sauce. The phone calls. Cocaine.",
+      "sceneTitle": "Helicopter Day",
+      "choices": [
+        {
+          "text": "Stop and breathe",
+          "consequence": "Try.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Push through",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "DEA at the airport. The phone calls were tapped.",
+      "sceneTitle": "Arrested",
+      "choices": [
+        {
+          "text": "Don't say anything",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Try to explain",
+          "consequence": "Foolish.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Karen sells what she can. You're out.",
+      "sceneTitle": "Bail",
+      "choices": [
+        {
+          "text": "Sit at home",
+          "consequence": "Survive.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "See Jimmy",
+          "consequence": "Familiar.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Jimmy offers you a trip to Florida. You realize, late, it's a hit.",
+      "sceneTitle": "Jimmy's Diner",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Survive.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Almost go",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Federal agents in a kitchen. A long list to sign.",
+      "sceneTitle": "Witness Protection",
+      "choices": [
+        {
+          "text": "Sign",
+          "consequence": "Survive.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stall",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You point at Jimmy. You point at Paulie. The room is, briefly, silent.",
+      "sceneTitle": "Testimony",
+      "choices": [
+        {
+          "text": "Tell it all",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Tell it carefully",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A house. A driveway. A grocery store. Spaghetti with ketchup.",
+      "sceneTitle": "Nowhere, USA",
+      "choices": [
+        {
+          "text": "Try to like it",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Hate it openly",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You order eggs in a bathrobe. You wave at the camera. You realize you're an average nobody.",
+      "sceneTitle": "The End",
+      "choices": [
+        {
+          "text": "Hate it",
+          "consequence": "Honest.",
+          "nextNodeId": "end_anonymous"
+        },
+        {
+          "text": "Make peace",
+          "consequence": "Survive.",
+          "nextNodeId": "end_relapse"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_amends"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_anonymous",
+      "text": "You spend the rest of your life as Henry Hill, by another name. You write a book in your fifties. You die in 2012 of a heart attack.",
+      "sceneTitle": "Schnook",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Schnook"
+    },
+    {
+      "id": "end_relapse",
+      "text": "You break protection. You return to New York anyway. You die in a parking lot in a year. Karen survives. The children are okay.",
+      "sceneTitle": "Out",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Out"
+    },
+    {
+      "id": "end_amends",
+      "text": "You make amends with Karen, with the kids, with yourself. The amends do not pay back what you took. They pay forward, modestly, to children who were not yours.",
+      "sceneTitle": "Amends, Eventually",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Amends, Eventually"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "id": "loot-the-giveaway",
+  "title": "Loot",
+  "sourceTitle": "Loot",
+  "kind": "show",
+  "synopsis": "Your husband cheated. The divorce settlement gave you eighty-seven billion dollars. Your foundation has a staff of six and a board of one — you — and you don't know what an audit is. Start there.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-05T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "billionaire",
+    "philanthropy",
+    "second act"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You arrive at the Wells Foundation at noon in three-day-old yacht clothes. Sofia, your director, hands you a coffee that you don't recognize as coffee. The whiteboard has goals on it.",
+      "sceneTitle": "Yacht to Office",
+      "choices": [
+        {
+          "text": "Pretend you already know everything",
+          "consequence": "Confidence is a kind of competence.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask Sofia to walk you through everything",
+          "consequence": "Humility is the cheaper teacher.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Sofia has booked you on three morning shows. You will be asked how it feels to give away a fortune. You realize on the limo ride that you have no answer that isn't 'great?'",
+      "sceneTitle": "The Press Tour",
+      "choices": [
+        {
+          "text": "Wing it and hope you sound human",
+          "consequence": "Charm has carried smaller jets.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Pre-write three honest sentences",
+          "consequence": "Discipline saves dignity.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Howard is the foundation's accountant and is, you discover, extremely fun once he stops being terrified of you. He shows you the line items. You ask, sincerely, what 'overhead' is.",
+      "sceneTitle": "Howard's Spreadsheets",
+      "choices": [
+        {
+          "text": "Make Howard your real guide",
+          "consequence": "Numbers people are also feelings people.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Buy Howard a better office chair first",
+          "consequence": "Win staff with small kindnesses.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Sofia takes you to a shelter the foundation funds. The director recognizes the foundation but not you. She gives you the same tour she gives any donor. You realize you have been invisible to the shelter your money built.",
+      "sceneTitle": "The Homeless Shelter Visit",
+      "choices": [
+        {
+          "text": "Tell her who you are",
+          "consequence": "Take ownership.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay anonymous, observe",
+          "consequence": "Power is also restraint.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "An old yacht photo of you holding a glass of champagne with caption 'rough day' goes viral the morning after a flood in Mississippi. Sofia's phone is making a sound she has never heard it make.",
+      "sceneTitle": "Twitter Disaster",
+      "choices": [
+        {
+          "text": "Apologize in your own words on camera",
+          "consequence": "Take the punch on purpose.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Donate aggressively to the flood relief",
+          "consequence": "Action over words.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your driver Nicholas is also your son-from-a-first-marriage's age and an aspiring actor and the only person who tells you the truth this week. You realize you've been treating him as scenery.",
+      "sceneTitle": "Nicholas, the Driver",
+      "choices": [
+        {
+          "text": "Promote Nicholas to assistant",
+          "consequence": "Take talent where it stands.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pay for his class and keep him driving",
+          "consequence": "Don't trap him in your gratitude.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Arthur, fifty, divorced, runs operations and treats you with the patient kindness of a man who has, you sense, seen many billionaires miss the point. You like him. He scares you a little. You decide to listen.",
+      "sceneTitle": "Arthur, the Foundation Vet",
+      "choices": [
+        {
+          "text": "Ask Arthur to be your sponsor at the foundation",
+          "consequence": "Pair with the steadiest person.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Date Arthur for one bad month",
+          "consequence": "Confuse mentorship and chemistry.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your ex-husband John, the tech billionaire who detonated your marriage, calls. He's been to therapy. He wants to apologize. He may also want, very gently, to know what you're doing with the money.",
+      "sceneTitle": "The Ex's Apology",
+      "choices": [
+        {
+          "text": "Take the apology, refuse the conversation",
+          "consequence": "Boundaries are also healing.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hear him out — over the phone, not in person",
+          "consequence": "Curiosity is allowed; proximity, less so.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You and your assistant Rhonda go to Vegas for the weekend and spend ninety thousand dollars on a slot machine and a hat. Sofia calls. You answer in a casino bathroom. You realize, slowly, that you might be self-sabotaging.",
+      "sceneTitle": "The Vegas Slip",
+      "choices": [
+        {
+          "text": "Call your therapist on the way home",
+          "consequence": "Pay attention to the pattern.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Donate ten million the next morning to compensate",
+          "consequence": "Performative penance.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You finally ask to be added to the actual decision-making board. Sofia is surprised. Arthur is, secretly, delighted. You sit through your first vote on a hundred-million-dollar housing initiative. You actually understand most of it.",
+      "sceneTitle": "The Board Member Pitch",
+      "choices": [
+        {
+          "text": "Vote yes and learn from the consequences",
+          "consequence": "Engaged is also accountable.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Vote present and ask better questions",
+          "consequence": "Don't be the loudest person in your own building.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You realize that Sofia, terrifyingly, has become your closest friend — and that you have not been a great friend back. You ask her to dinner that is not work. You ask about her sister, who you've never met but somehow know about.",
+      "sceneTitle": "Molly's Real Friend",
+      "choices": [
+        {
+          "text": "Show up at Sofia's family event this weekend",
+          "consequence": "Friends are also work, gently.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Send a thoughtful thing instead",
+          "consequence": "Don't impose your money on her life.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "After six months you realize the foundation's mission, on paper, is too vague. You propose a sharper one: end family homelessness in two states inside ten years. Sofia stares at you. Arthur smiles.",
+      "sceneTitle": "The Mission Pivot",
+      "choices": [
+        {
+          "text": "Push the new mission to the board",
+          "consequence": "Aim, big.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Pilot it in one city first",
+          "consequence": "Prove before scale.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You promote Howard out of accounting and into program strategy. He is briefly stunned. He brings you a binder the next morning with twenty-eight slides he made over the weekend. The first one is titled 'Where the Money Could Actually Go.'",
+      "sceneTitle": "Howard's Promotion",
+      "choices": [
+        {
+          "text": "Adopt half his slides immediately",
+          "consequence": "Hire smart and listen.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Make him present to the board next Tuesday",
+          "consequence": "Move him into the rooms.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "John shows up unannounced at your gate at midnight. He's drunk. He wants to talk. He is, on close inspection, the man you married and not the man you became with him.",
+      "sceneTitle": "John Returns",
+      "choices": [
+        {
+          "text": "Send him home in his own car",
+          "consequence": "Goodbye sometimes is the kindest verb.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Talk to him for one hour, then send him home",
+          "consequence": "Mercy with a clock.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The foundation's first annual gala under the new mission. You are giving the speech. You have written and unwritten it eleven times. Arthur is in the second row trying to look professional.",
+      "sceneTitle": "The Anniversary Gala",
+      "choices": [
+        {
+          "text": "Throw out the speech and speak honestly",
+          "consequence": "Truth in a tux.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stick to the script and let the room cry",
+          "consequence": "Discipline is also love.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The mission is, in the first two cities, working — slowly, imperfectly, more than anyone expected. The foundation has hired sharper than it ever did under any director. You have learned to read a 10-K. You hate it less than you thought.",
+      "sceneTitle": "Two Years In",
+      "choices": [
+        {
+          "text": "Stay engaged for another decade",
+          "consequence": "This is the life you got, late.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Bring on a President so you can step back",
+          "consequence": "Lead by handing off.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Arthur, over a pizza in your absurd kitchen, tells you he likes you. He also tells you he doesn't want to date you. He wants to be a real friend for a long time. You discover, surprisingly, that this is exactly the right offer.",
+      "sceneTitle": "Arthur, Honestly",
+      "choices": [
+        {
+          "text": "Accept it as the gift it is",
+          "consequence": "Some loves wear cardigans.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hold out for romance and lose the friendship",
+          "consequence": "Sometimes wanting more loses what you have.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You write John a letter you never send. It thanks him, in a strange way, for leaving you. The money was the engine of an entire life you had been postponing. Forgiveness is the strangest dividend.",
+      "sceneTitle": "The Letter to John",
+      "choices": [
+        {
+          "text": "Burn the letter; keep the lesson",
+          "consequence": "Some closure is for you alone.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Donate ten million in his name to spite him",
+          "consequence": "Petty as a power move.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Sunday. Sofia stops by with coffee and the paper. You sit on a porch you built with foundation money and decide, slowly, whether the next chapter is interior or public. Both, you realize, are real options now.",
+      "sceneTitle": "Sunday Morning",
+      "choices": [
+        {
+          "text": "Keep the next chapter inward",
+          "consequence": "Self-work is also work.",
+          "nextNodeId": "end_self"
+        },
+        {
+          "text": "Channel the energy outward, even pettily",
+          "consequence": "Spite can fund schools.",
+          "nextNodeId": "end_spite"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Family homelessness is down 38% in your two pilot states. The data is real. The headlines are mostly accurate. Sofia is on the cover of a magazine you never read. You are, finally, very proud of something that is not your hair.",
+      "sceneTitle": "Decade One Closeout",
+      "choices": [
+        {
+          "text": "Take the second decade — scale the mission",
+          "consequence": "Don't stop because you finished one chapter.",
+          "nextNodeId": "end_scale"
+        },
+        {
+          "text": "Hand off and become a private donor with opinions",
+          "consequence": "Step back; trust the team.",
+          "nextNodeId": "end_step"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_self",
+      "text": "You find, in your fifties, the version of you that John didn't get to ruin. You like her. She buys good wine. She also funds, quietly, a scholarship called 'For the Late Bloomers.' You laugh every time you sign the check.",
+      "sceneTitle": "Yourself, At Last",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Yourself, At Last"
+    },
+    {
+      "id": "end_spite",
+      "text": "The donation in John's name funds, accidentally, the program that ends up beating his own foundation's outcomes by every metric. He calls to congratulate you. You let it go to voicemail. You smile.",
+      "sceneTitle": "Pettily, Productively",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pettily, Productively"
+    },
+    {
+      "id": "end_scale",
+      "text": "You sign on for another decade. The mission scales to nine states. Sofia opens a London office. You buy Arthur a really good chair. Howard goes back to overhead accounting because he missed it. Everyone, you realize, is good at exactly the thing they fled and returned to.",
+      "sceneTitle": "The Next Ten Years",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Next Ten Years"
+    },
+    {
+      "id": "end_step",
+      "text": "You step back. Sofia becomes President. You become the eccentric who shows up to galas in a hat and writes one careful editorial a year. The foundation outgrows you. That, you realize, is what foundations are for.",
+      "sceneTitle": "Donor, Quiet",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Donor, Quiet"
+    }
+  ]
+}

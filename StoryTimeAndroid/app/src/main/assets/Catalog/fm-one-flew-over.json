@@ -1,0 +1,450 @@
+{
+  "id": "fm-one-flew-over",
+  "title": "One Flew Over the Cuckoo's Nest",
+  "sourceTitle": "One Flew Over the Cuckoo's Nest",
+  "kind": "movie",
+  "synopsis": "A work-farm transfer, a card table, a fishing trip, and a quiet Indian by a window who has been listening the whole time.",
+  "releaseYear": 1975,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "asylum",
+    "rebellion",
+    "freedom",
+    "ratched"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A nurse in starched white at a glass window with a clipboard.",
+      "sceneTitle": "Intake",
+      "choices": [
+        {
+          "text": "Smile big",
+          "consequence": "Cunning.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wary.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A small paper cup with three pills and a name on the side.",
+      "sceneTitle": "Med Cart",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Swallow",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Cheswick antes a cigarette and Billy stutters a bet.",
+      "sceneTitle": "Cards",
+      "choices": [
+        {
+          "text": "Teach them",
+          "consequence": "Friend.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hustle them",
+          "consequence": "Hard.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He is six and a half feet tall and pretends he can't hear anything.",
+      "sceneTitle": "Chief",
+      "choices": [
+        {
+          "text": "Speak to him",
+          "consequence": "Curious.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Leave him be",
+          "consequence": "Polite.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Hands up against a fixed schedule and a clock at 4.",
+      "sceneTitle": "World Series Vote",
+      "choices": [
+        {
+          "text": "Mime the game",
+          "consequence": "Wild.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit silent",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Ratched asks Billy about his mother in front of everyone.",
+      "sceneTitle": "Group",
+      "choices": [
+        {
+          "text": "Interrupt",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He blocks a shot and the smile is brief and bright.",
+      "sceneTitle": "Basketball with Chief",
+      "choices": [
+        {
+          "text": "Pass to him",
+          "consequence": "Friend.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take the shot",
+          "consequence": "Pride.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A field trip, then a sudden left turn and a stolen vessel.",
+      "sceneTitle": "Bus Hijack",
+      "choices": [
+        {
+          "text": "Take the wheel",
+          "consequence": "Wild.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Hold the door",
+          "consequence": "Loyal.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Twelve patients in life jackets, line out, sun on the water.",
+      "sceneTitle": "Fishing Boat",
+      "choices": [
+        {
+          "text": "Let Cheswick captain",
+          "consequence": "Friend.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Helm yourself",
+          "consequence": "Pride.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Confiscated. A small loss that is not small.",
+      "sceneTitle": "Cheswick's Cigarettes",
+      "choices": [
+        {
+          "text": "Riot for them",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Speak slowly",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A bite block and a hand on your wrist and the smell of ozone.",
+      "sceneTitle": "Electroshock",
+      "choices": [
+        {
+          "text": "Brace",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A whisper at night that he was not deaf, not really.",
+      "sceneTitle": "Chief Speaks",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Friend.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wary.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A window, a key, a Christmas Eve nurse asleep at her desk.",
+      "sceneTitle": "Plan",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Loyal.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Run alone",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Two women in a station wagon at midnight, a bottle of liquor.",
+      "sceneTitle": "Candy",
+      "choices": [
+        {
+          "text": "Let them in",
+          "consequence": "Reckless.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Wave them off",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A bedroom door, a girl with kindness, a stutter that disappears for a few hours.",
+      "sceneTitle": "Billy's Night",
+      "choices": [
+        {
+          "text": "Stand guard",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wake the ward",
+          "consequence": "Reckless.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Ratched in the doorway with a face like ice.",
+      "sceneTitle": "Morning",
+      "choices": [
+        {
+          "text": "Confront her",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hide Billy",
+          "consequence": "Care.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "She will be told, she says. The word breaks him on the floor.",
+      "sceneTitle": "Billy's Mother",
+      "choices": [
+        {
+          "text": "Step between",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Plead",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A doctor's office, a body on the desk, an answer not heard until too late.",
+      "sceneTitle": "Glass Broken",
+      "choices": [
+        {
+          "text": "Lift Billy",
+          "consequence": "Care.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Run",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A neck under your thumbs, a window over a quiet lawn.",
+      "sceneTitle": "Hands on Her Throat",
+      "choices": [
+        {
+          "text": "Squeeze",
+          "consequence": "Wild.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Release",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A bed, a strap, a smile that doesn't reach the eyes.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Wait for Chief",
+          "consequence": "Trust.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Wait alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Chief lifts the pillow with both hands.",
+      "sceneTitle": "Pillow",
+      "choices": [
+        {
+          "text": "Look him in the eye",
+          "consequence": "Honor.",
+          "nextNodeId": "end_window"
+        },
+        {
+          "text": "Close your eyes",
+          "consequence": "Mercy.",
+          "nextNodeId": "end_card"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_chief"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_window",
+      "text": "Chief lifts the sink and walks out into a morning that smells of cut grass. Somewhere, you are running with him. Somewhere else, you are at rest.",
+      "sceneTitle": "Through the Window",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Through the Window"
+    },
+    {
+      "id": "end_card",
+      "text": "The men learn poker. They learn it well. They lose a thousand games to each other and not one to the house, ever again.",
+      "sceneTitle": "The Card Table",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Card Table"
+    },
+    {
+      "id": "end_chief",
+      "text": "He goes back to Canada through fields nobody owns. He talks now. Mostly to a stranger he keeps in his head, in a leather jacket, smiling like a mouth full of cards.",
+      "sceneTitle": "Chief's Voice",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Chief's Voice"
+    }
+  ]
+}

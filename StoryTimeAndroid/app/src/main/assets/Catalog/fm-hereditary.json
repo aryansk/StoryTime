@@ -1,0 +1,450 @@
+{
+  "id": "fm-hereditary",
+  "title": "Hereditary",
+  "sourceTitle": "Hereditary",
+  "kind": "movie",
+  "synopsis": "A funeral, a treehouse, a model maker's studio, and a family that finally finds out what grandmother actually believed.",
+  "releaseYear": 2018,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "a24",
+    "family",
+    "cult",
+    "grief"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A microphone, a sister in a coffin, a son who refuses to come down.",
+      "sceneTitle": "Eulogy",
+      "choices": [
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Cold.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A miniature of your own house with a small version of you in it.",
+      "sceneTitle": "Studio",
+      "choices": [
+        {
+          "text": "Work",
+          "consequence": "Discipline.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stop",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A small girl with a tongue-click and a chocolate bar.",
+      "sceneTitle": "Charlie's Room",
+      "choices": [
+        {
+          "text": "Hold her",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A teen invitation, a sister tagging along because mother insists.",
+      "sceneTitle": "Party",
+      "choices": [
+        {
+          "text": "Send Peter",
+          "consequence": "Practical.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A nut in a cake, a swelling throat, a long drive.",
+      "sceneTitle": "Allergic Reaction",
+      "choices": [
+        {
+          "text": "Window down",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Speed",
+          "consequence": "Reckless.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "An impact in the back seat that takes a daughter and a head.",
+      "sceneTitle": "Tree on the Road",
+      "choices": [
+        {
+          "text": "Drive home",
+          "consequence": "Cold.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Call the police",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A scream that does not stop for a day.",
+      "sceneTitle": "Kitchen Morning",
+      "choices": [
+        {
+          "text": "Hold your son",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Lock the door",
+          "consequence": "Cold.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A folding chair, a confession to strangers, a woman named Joan who knows.",
+      "sceneTitle": "Annie at the Group",
+      "choices": [
+        {
+          "text": "Confide more",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A séance, a pencil, a name said into a candle.",
+      "sceneTitle": "Joan's Apartment",
+      "choices": [
+        {
+          "text": "Speak Charlie's name",
+          "consequence": "Reckless.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A figure with a smile that is not a smile.",
+      "sceneTitle": "Drawings on the Wall",
+      "choices": [
+        {
+          "text": "Take them down",
+          "consequence": "Care.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Photograph them",
+          "consequence": "Curious.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Annie's open notebook with a strange figure in every page.",
+      "sceneTitle": "Sketchbook",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tear out pages",
+          "consequence": "Compromise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A vision of his mother on the ceiling.",
+      "sceneTitle": "Peter's Dream",
+      "choices": [
+        {
+          "text": "Wake him",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let him sleep",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Books bound in leather and a circle of names.",
+      "sceneTitle": "Grandma's Trunk",
+      "choices": [
+        {
+          "text": "Read",
+          "consequence": "Curious.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Lock the lid",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Grandma at a meeting of robed strangers.",
+      "sceneTitle": "Photograph in the Album",
+      "choices": [
+        {
+          "text": "Show Steve",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hide it",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A small parcel, a Praise Paimon, a smile.",
+      "sceneTitle": "Joan in the Driveway",
+      "choices": [
+        {
+          "text": "Refuse it",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Accept",
+          "consequence": "Tempted.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A page in the fire, a wrist in flames at the same moment on another hand.",
+      "sceneTitle": "Burning the Sketchbook",
+      "choices": [
+        {
+          "text": "Drop it",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Burn it all",
+          "consequence": "Final.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A husband on a couch with a teacup of coffee.",
+      "sceneTitle": "Steve in the Living Room",
+      "choices": [
+        {
+          "text": "Beg him to listen",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stop the fire",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Steve catches fire in his chair as the sketchbook does.",
+      "sceneTitle": "Father's Door",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Try to help",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A trapdoor open at the top of the stairs and a humming above.",
+      "sceneTitle": "Attic Light",
+      "choices": [
+        {
+          "text": "Climb",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Lock it from below",
+          "consequence": "Wise.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Headless figures in a circle and a head on a pedestal in candlelight.",
+      "sceneTitle": "Bodies in the Attic",
+      "choices": [
+        {
+          "text": "Smash the lamps",
+          "consequence": "Brave.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A whisper through the casement.",
+      "sceneTitle": "Peter, At the Window",
+      "choices": [
+        {
+          "text": "Jump",
+          "consequence": "Tired.",
+          "nextNodeId": "end_treehouse"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Brave.",
+          "nextNodeId": "end_burn"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_run"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_treehouse",
+      "text": "A crown is set on Peter's head by hands that are not human. The cult bows. The lights of the treehouse glow yellow against a dark hill.",
+      "sceneTitle": "The Treehouse Lit",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Treehouse Lit"
+    },
+    {
+      "id": "end_burn",
+      "text": "You set the studio alight at the right second and the figures inside dissolve into the photographs you spent your career building.",
+      "sceneTitle": "Burn the House",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Burn the House"
+    },
+    {
+      "id": "end_run",
+      "text": "You take Peter in the truck and you do not stop driving. The country opens. The treehouse light recedes. The dread does not leave the rearview.",
+      "sceneTitle": "A Long Drive",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Long Drive"
+    }
+  ]
+}

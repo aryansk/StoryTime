@@ -1,0 +1,444 @@
+{
+  "id": "bodkin-the-podcast",
+  "title": "Bodkin",
+  "sourceTitle": "Bodkin",
+  "kind": "show",
+  "synopsis": "A podcast crew, a sleepy Irish town, and a Samhain festival twenty years ago where three people vanished without a trace. You came for a true-crime story. You'll get a bigger one.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-15T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "podcast",
+    "small-town",
+    "secrets"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Bodkin is wetter and smaller than the brochure suggested. Your microphone hisses in the rain. Sister Mary at the B&B watches your producer Dove like she has seen her before, in a dream she didn't like.",
+      "sceneTitle": "Arrival",
+      "choices": [
+        {
+          "text": "Start with the publican, Seamus",
+          "consequence": "Pubs hold towns together and apart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Start with the missing kids' families",
+          "consequence": "Begin where the wound is.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Seamus pours your Guinness in a long slow ritual and answers everything sideways. He smiles at jokes you didn't make. He tells you to ask anyone about Samhain '99 and nobody will answer the same way twice.",
+      "sceneTitle": "The Pub",
+      "choices": [
+        {
+          "text": "Buy the next round and listen",
+          "consequence": "Patience pours information.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Push him about specific names",
+          "consequence": "Pressure can crack a smile.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Maeve's mother has aged thirty years in twenty. She speaks of her missing daughter in the present tense. She makes you tea you don't deserve and, finally, asks if you really believe a podcast will bring her home.",
+      "sceneTitle": "The Mother",
+      "choices": [
+        {
+          "text": "Tell her the truth: probably not",
+          "consequence": "Honesty is the only respect.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Promise to try anyway",
+          "consequence": "Hope misused is still hope.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Dove finds a box of cassette tapes in the back of a community-center cupboard — interviews recorded by a local journalist in 1999 who, you discover, also disappeared the same week.",
+      "sceneTitle": "The Tapes",
+      "choices": [
+        {
+          "text": "Listen straight through, no skipping",
+          "consequence": "Patterns live in tedious places.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Skim for names and dates first",
+          "consequence": "Triangulate before you immerse.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Sergeant O'Shea is helpful and not. He gives you photocopies that have been photocopied a hundred times. The names of three of the original investigators are inked out. He smiles when you notice.",
+      "sceneTitle": "The Garda",
+      "choices": [
+        {
+          "text": "Ask why those names are missing",
+          "consequence": "Curiosity is your only weapon.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Smile back and steal a peek at his notes",
+          "consequence": "Sometimes a notebook tells a story a man won't.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Samhain is in three days and the town is dragging out the same costumes they wore in 1999. Children with goat masks. Adults pretending it's all in good fun. Dove is taking notes on her hand.",
+      "sceneTitle": "The Festival Returns",
+      "choices": [
+        {
+          "text": "Plan to attend Samhain in person",
+          "consequence": "Endings often start where beginnings did.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Investigate the costume committee",
+          "consequence": "Same masks, same hands.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your American host Gilbert is sweating. He wanted a charming story. He is getting one and dreading it. He pulls you aside: 'What if we got these people killed by digging?' He has, you suspect, a point.",
+      "sceneTitle": "Gilbert's Doubts",
+      "choices": [
+        {
+          "text": "Reassure him and keep going",
+          "consequence": "Pressing on is the only way through.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Agree to slow down and verify more",
+          "consequence": "Doubt is sometimes data.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A small boat once owned by Seamus's late father is half-buried in a tidal cove. The man on the cliff above you watches you find it. By the time you climb back up, he is gone.",
+      "sceneTitle": "The Boat Wreck",
+      "choices": [
+        {
+          "text": "Dig up the boat properly",
+          "consequence": "Some graves are made of wood.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Mark the spot and report it later",
+          "consequence": "Don't get caught alone with a discovery.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Sister Mary's convent has, you learn, been a Magdalene-style laundry once — a place where unwanted girls were 'reformed.' The town's official history says it closed in 1972. The water bill says different.",
+      "sceneTitle": "The Convent",
+      "choices": [
+        {
+          "text": "Get inside the convent grounds",
+          "consequence": "The truth is often architectural.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Approach Sister Mary directly",
+          "consequence": "Stories told by their keepers are still stories.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You wake to find your car's tires flat and a goat mask on the bonnet. A note, in town-meeting handwriting: 'Go home. Bodkin doesn't want this story.' The town's want is debatable.",
+      "sceneTitle": "The Threat",
+      "choices": [
+        {
+          "text": "Stay and publicize the threat",
+          "consequence": "Visibility is armor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pretend to leave and circle back quietly",
+          "consequence": "Decoy is also strategy.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "An anonymous email: a photograph of a woman in her late thirties on a street in Cork, with a thin scar above her eyebrow. The subject line is the name of the missing girl. Either it's her, or it's bait.",
+      "sceneTitle": "Maeve, Maybe",
+      "choices": [
+        {
+          "text": "Drive to Cork and find her",
+          "consequence": "Some questions only answer in person.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Trace the email's metadata first",
+          "consequence": "Digital footprints last.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Seamus sits on his porch with a shotgun across his lap and a pot of tea. He is not threatening you. He is, surprisingly, ready to talk. 'I made a wrong choice when I was twenty-two,' he says, 'and I've been paying since.'",
+      "sceneTitle": "Seamus's Cottage",
+      "choices": [
+        {
+          "text": "Press record gently",
+          "consequence": "Let the confession breathe.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Put the recorder down and just listen",
+          "consequence": "Some truths shrink under microphones.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You finally understand: only one person actually disappeared on Samhain 1999. The other two left voluntarily. The crime everyone has been blaming for twenty years was, in fact, a much smaller, sadder crime — and a much bigger ongoing one.",
+      "sceneTitle": "The Real Disappearances",
+      "choices": [
+        {
+          "text": "Tell the families before the podcast",
+          "consequence": "Decency before downloads.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Plan the reveal as the season finale",
+          "consequence": "Story has its own gravity.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Fires on the hill, masks in the lane, a town pretending it is the same town it has always been. Dove disappears into the crowd and reappears with a stranger pulling at her arm. You move.",
+      "sceneTitle": "Samhain Night",
+      "choices": [
+        {
+          "text": "Intervene physically",
+          "consequence": "Some moments demand a body.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Get it all on tape from a safe distance",
+          "consequence": "Witness is also a verb.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The original journalist's tapes contain a single sentence buried in casual chat: a man with a senior council position assaulting a teenager. The teenager is now a grown woman who runs the cafe. She has been waiting twenty years for someone to listen.",
+      "sceneTitle": "The Smaller Crime",
+      "choices": [
+        {
+          "text": "Center her story, not the mystery",
+          "consequence": "Make the right thing the loudest thing.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Both stories at once, carefully",
+          "consequence": "Truth is rarely tidy.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "On a windswept dock at dawn, the man who has run Bodkin's council for thirty years tells you most of what he did, in the cracked voice of someone who has been waiting to be caught. The recorder is on. He knows.",
+      "sceneTitle": "The Confession",
+      "choices": [
+        {
+          "text": "Take the confession to the Garda",
+          "consequence": "Law is slower than podcast but harder to delete.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Take it to the cafe owner first",
+          "consequence": "Survivors lead the response.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Bodkin gathers — by accident or by design — in the town hall on the morning after Samhain. The truth, half-aired already, hangs in the room. People are deciding, in real time, which version they will live with.",
+      "sceneTitle": "The Town Hall",
+      "choices": [
+        {
+          "text": "Speak first and frame the truth",
+          "consequence": "Authorship matters.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let a local voice speak first",
+          "consequence": "Belonging carries credibility.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Back in Dublin, in a small flat smelling of takeout, you sit with Dove and Gilbert and a timeline. The choices you make in this edit decide what 'Bodkin' means for the next decade.",
+      "sceneTitle": "The Edit",
+      "choices": [
+        {
+          "text": "Cut the sensational version",
+          "consequence": "The download numbers will be brutal — and necessary.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Cut the careful, accurate version",
+          "consequence": "Tell it slow; tell it true.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "She listens to the rough cut twice. Then she asks, very quietly, if you can use her name. You tell her yes, but only if she's sure. She is.",
+      "sceneTitle": "The Cafe Owner's Choice",
+      "choices": [
+        {
+          "text": "Honor her name on the cover",
+          "consequence": "Survivors choose their visibility.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Anonymize but tell the truth fully",
+          "consequence": "Privacy and truth can share a sentence.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The episode drops at midnight. By morning the comments are a wall. By afternoon RTÉ wants you on the news. By evening Sergeant O'Shea calls — politely furious, professionally grateful.",
+      "sceneTitle": "Release Day",
+      "choices": [
+        {
+          "text": "Take the wins and go home",
+          "consequence": "Some stories are done with you.",
+          "nextNodeId": "end_done"
+        },
+        {
+          "text": "Stay involved through the trial",
+          "consequence": "Some stories aren't.",
+          "nextNodeId": "end_stay"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Bodkin doesn't recover the way you imagined. It changes, slowly, like a tide changing the shape of a cove. Some people leave. Some people, finally, come home. The podcast becomes part of the town's mythology, like the festival once was.",
+      "sceneTitle": "The Town After",
+      "choices": [
+        {
+          "text": "Visit Bodkin every year on Samhain",
+          "consequence": "Bear witness as a ritual.",
+          "nextNodeId": "end_return"
+        },
+        {
+          "text": "Move on; the work was the work",
+          "consequence": "Some places have to be allowed to heal without you.",
+          "nextNodeId": "end_done"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_done",
+      "text": "You finish the season, swear off true crime, and start a podcast about coastlines. It does fine. Sometimes, late, you put on the Bodkin episodes and listen the way you listen to a person who survived something with you.",
+      "sceneTitle": "End of Season",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "End of Season"
+    },
+    {
+      "id": "end_stay",
+      "text": "The trial takes two years. You're there for the verdict, in the back row. The cafe owner finds you afterward and hugs you with a fierceness you'll remember when other stories test your courage.",
+      "sceneTitle": "Through the Trial",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Through the Trial"
+    },
+    {
+      "id": "end_return",
+      "text": "You go back every year. The masks come out. The fires light. The town is wary, then warm, then itself. You walk along the cliffs with Sister Mary one autumn and she says, almost smiling, 'You're one of ours now.' You take that more seriously than any award.",
+      "sceneTitle": "Every Samhain",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Every Samhain"
+    }
+  ]
+}

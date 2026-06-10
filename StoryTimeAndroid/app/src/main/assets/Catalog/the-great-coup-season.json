@@ -1,0 +1,436 @@
+{
+  "id": "the-great-coup-season",
+  "title": "The Great",
+  "sourceTitle": "The Great",
+  "kind": "show",
+  "synopsis": "You arrived in Russia at fifteen, married a man-child emperor at sixteen, and by autumn you have decided, politely, to take the throne for yourself. Huzzah.",
+  "releaseYear": 2023,
+  "addedAt": "2026-05-17T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "court",
+    "coup",
+    "wit"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Peter is asleep, snoring like a stabbed bear, with one foot on your pillow. The candles are guttering. You stare at the ceiling and decide, in the politest possible terms, to overthrow him by spring.",
+      "sceneTitle": "The Wedding Bed",
+      "choices": [
+        {
+          "text": "Plan it carefully — alone, for now",
+          "consequence": "Conspiracies of one are the only safe kind.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Find one ally tomorrow morning",
+          "consequence": "Even queens need a witness.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You sneak into the imperial library and read every book Peter has banned. Most are merely better than him. A few are dangerous. You take notes in a tiny hand and hide them in a hollowed prayer book. Huzzah.",
+      "sceneTitle": "The Library",
+      "choices": [
+        {
+          "text": "Lean into the danger of new ideas",
+          "consequence": "Reading is the first regicide.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Choose which ideas to share, and with whom",
+          "consequence": "Strategy in the margins.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Marial, who was a lady before Peter's father exiled her family to scrubbing floors, eyes you sideways and says, 'You're not as dim as you look.' This is the warmest thing anyone has said to you in Russia.",
+      "sceneTitle": "Marial, Maid and Mind",
+      "choices": [
+        {
+          "text": "Recruit her openly into your plan",
+          "consequence": "An enemy of the same enemy is an ally.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Test her loyalty with smaller secrets first",
+          "consequence": "Friendship is also a vetting process.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Orlo, an advisor with very small spectacles and very large fears, has been writing pamphlets nobody reads. He thinks Russia could be reformed. He also, you suspect, thinks he is about to faint.",
+      "sceneTitle": "Orlo's Eyes",
+      "choices": [
+        {
+          "text": "Promise him reform in exchange for help",
+          "consequence": "Marry his ideas to your appetite.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Recruit him by terrifying him politely",
+          "consequence": "Fear is an underrated motivator.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Peter shoots a bear that lived in a garden because it was 'in his sun.' Then he weeps about it, kindly, for an hour. He is awful in nine ways at once, including charming. You write it all down.",
+      "sceneTitle": "Peter's Cruelty",
+      "choices": [
+        {
+          "text": "Use his contradictions against him",
+          "consequence": "A man who cries and shoots is a man with seams.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Pity him just enough to stay safe",
+          "consequence": "Tenderness can be camouflage.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Archbishop Archie — perfumed, sly, dangerous — invites you to chapel. Faith in Russia is a sword pretending to be a candle. He smiles. He wants to know whose side God will be on this winter.",
+      "sceneTitle": "The Patriarch",
+      "choices": [
+        {
+          "text": "Promise the church it will keep its lands",
+          "consequence": "Faith is the largest landlord.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Promise the church one reform at a time",
+          "consequence": "Compromise as a velvet glove.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "General Velementov, drunk by lunch and brilliant by accident, is the closest thing the army has to a brain. He has stopped believing in Peter. He has not, yet, started believing in you.",
+      "sceneTitle": "The Army",
+      "choices": [
+        {
+          "text": "Charm Velementov into your circle",
+          "consequence": "Soldiers follow conviction, not titles.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Threaten Velementov into your circle",
+          "consequence": "Pride wounded can be useful.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You start a salon — books, ideas, women allowed to speak. The court calls it a scandal. The women, quietly and quickly, call it church. Half your future ministers are taking notes in the corner.",
+      "sceneTitle": "The Salon",
+      "choices": [
+        {
+          "text": "Use the salon to seed your reforms",
+          "consequence": "Ideas pour out of rooms that are too small to hold them.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Use the salon to spot your loyalists",
+          "consequence": "Talent reveals itself when it feels welcome.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Peter takes you hunting and tells you, drunk, that he 'sometimes' worries you might be cleverer than him. He laughs. He waits. You realize you are choosing your own life with the next sentence.",
+      "sceneTitle": "The Hunt",
+      "choices": [
+        {
+          "text": "Flatter him brilliantly and live",
+          "consequence": "A clever woman in this room is a dead woman without a smile.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell him a smaller version of the truth",
+          "consequence": "Honesty in homeopathic doses.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "An outbreak. The court panics. You have read about a procedure — inoculation — that everyone considers heresy. You could save thousands. You could also be torn apart in the street for it.",
+      "sceneTitle": "Smallpox",
+      "choices": [
+        {
+          "text": "Inoculate yourself first, publicly",
+          "consequence": "Lead with your own veins.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Quietly inoculate the children of allies",
+          "consequence": "Save who you can; survive to save more.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Peter speaks to a portrait of his mother as if she could answer. He is, terribly, a small boy in a large hat. You find that tonight, against your better judgement, you don't want to kill him. You want to fix him.",
+      "sceneTitle": "Peter's Mother's Portrait",
+      "choices": [
+        {
+          "text": "Resolve to depose him without killing him",
+          "consequence": "Mercy is also a strategy.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Resolve to depose him fully; sentiment is fatal",
+          "consequence": "Soft hearts make short reigns.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "In the deep cold of a December night you and Marial and Orlo and Velementov bend over a map of the Winter Palace. You count guards. You count corridors. You count, mostly, the people you have to ask to risk their lives.",
+      "sceneTitle": "The Coup, Planned",
+      "choices": [
+        {
+          "text": "Strike at the Christmas ball",
+          "consequence": "Spectacle covers footsteps.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Strike at dawn after a long quiet day",
+          "consequence": "Boredom is the best disguise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "One of your circle has wavered — Archbishop Archie, maybe, or someone smaller. A letter has reached Peter that mentions your name with a verb he won't like. You have hours, not days.",
+      "sceneTitle": "Betrayal",
+      "choices": [
+        {
+          "text": "Move the coup forward to tonight",
+          "consequence": "Improvise or die polite.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Bluff your way through it and buy time",
+          "consequence": "Charm has saved smaller empires.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Candles, mirrors, three orchestras, the whole court turning like a slow gilded wheel. Peter is dancing badly. Velementov is at the doors. You smile. You step toward the center of the floor.",
+      "sceneTitle": "The Ballroom",
+      "choices": [
+        {
+          "text": "Make a public speech declaring the new order",
+          "consequence": "Theater is power's first language.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Strike quietly first, speak after",
+          "consequence": "Surgery before the announcement.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Before sunrise your loyalists move through the palace's nervous corridors. There are surprisingly few deaths and surprisingly many men changing sides on the spot. Russia loves a winner more than a tsar.",
+      "sceneTitle": "Dawn Move",
+      "choices": [
+        {
+          "text": "Spare every life you can",
+          "consequence": "Reigns founded on mercy hold longer.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Spare only the necessary ones",
+          "consequence": "A wise queen knows arithmetic.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He sits on the floor of his own bedroom looking up at you like a child who has lost a game whose rules he made up. 'You really did it,' he says. He sounds almost proud.",
+      "sceneTitle": "Peter, Cornered",
+      "choices": [
+        {
+          "text": "Send him into gilded exile",
+          "consequence": "Keep your enemy alive and decorative.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Force him to abdicate publicly",
+          "consequence": "Paperwork is the truest crown.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Archbishop Archie, who almost betrayed you, kneels on instinct because Russia has shown him whose side God is now on. The crown is heavier than it looks. The mirror behind him reflects a woman you barely recognize.",
+      "sceneTitle": "The Crown",
+      "choices": [
+        {
+          "text": "Wear it with steel",
+          "consequence": "The future is shaped by women who do not flinch.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wear it with care",
+          "consequence": "Power held lightly is held longest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "In your first hundred days you free the serfs of three provinces, build two schools, and survive four attempts on your life. Russia, baffled and delighted, calls it a beginning. You call it Tuesday.",
+      "sceneTitle": "The Reforms",
+      "choices": [
+        {
+          "text": "Push the reforms harder, faster",
+          "consequence": "Momentum is itself protection.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Slow down to build the institutions that will outlast you",
+          "consequence": "A reform that depends on a queen dies with one.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You are pregnant, possibly by Peter, possibly not. The court bets discreetly. You decide, alone in a snowed-in garden, that the child will be raised to know more languages than thrones and more books than crowns.",
+      "sceneTitle": "A Child",
+      "choices": [
+        {
+          "text": "Raise an heir for the new Russia",
+          "consequence": "Continuity is a kind of revolution.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Decline the dynasty game entirely",
+          "consequence": "Some empires should not be inherited.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Years pass. The empire grows wider, kinder, stranger. Your enemies write books about you that are mostly lies and partly accurate. Marial has her own salon now. Orlo has stopped fainting. Velementov has, on most days, sobered up.",
+      "sceneTitle": "The Long Reign",
+      "choices": [
+        {
+          "text": "Reign for as long as you live",
+          "consequence": "Empires are stories you keep telling.",
+          "nextNodeId": "end_great"
+        },
+        {
+          "text": "Abdicate to a successor on your own terms",
+          "consequence": "The bravest crown is the one you put down.",
+          "nextNodeId": "end_legacy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Years later you visit Peter in his comfortable exile — fat, sad, gardening, occasionally good. He laughs about old times. You realize, walking away, that the strangest thing about ruling Russia is that you both, somehow, won.",
+      "sceneTitle": "Peter, Late",
+      "choices": [
+        {
+          "text": "Forgive him on the carriage ride home",
+          "consequence": "Forgiveness is the last revolution.",
+          "nextNodeId": "end_legacy"
+        },
+        {
+          "text": "Keep him in his comfortable exile forever",
+          "consequence": "Some mercies have walls.",
+          "nextNodeId": "end_great"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_great",
+      "text": "They will call you Great. You will call you tired. The salons you started outlive you. The reforms you broke yourself on become ordinary. Somewhere in Europe a girl reads your name and decides, secretly, that she will rule too. Huzzah.",
+      "sceneTitle": "Catherine the Great",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Catherine the Great"
+    },
+    {
+      "id": "end_legacy",
+      "text": "You step down on a day of your choosing, into a quiet life of books and chosen company. The crown goes onto a head that has read more books than its predecessors combined. The empire, for now, does not collapse. You take that as a win.",
+      "sceneTitle": "Huzzah, And Then",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Huzzah, And Then"
+    }
+  ]
+}

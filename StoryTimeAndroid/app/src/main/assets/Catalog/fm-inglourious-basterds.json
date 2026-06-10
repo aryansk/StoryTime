@@ -1,0 +1,450 @@
+{
+  "id": "fm-inglourious-basterds",
+  "title": "Inglourious Basterds",
+  "sourceTitle": "Inglourious Basterds",
+  "kind": "movie",
+  "synopsis": "A Jewish theater owner, a squad of avenging soldiers, and a Nazi premiere with a very flammable nitrate reel.",
+  "releaseYear": 2009,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "war",
+    "revenge",
+    "cinema",
+    "tarantino"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Landa drinks a glass of milk and asks polite questions in four languages.",
+      "sceneTitle": "LaPadite's Farm",
+      "choices": [
+        {
+          "text": "Lie",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Tell the truth",
+          "consequence": "Doomed.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Floorboards above and a girl in the dark holding her breath.",
+      "sceneTitle": "Under the Floor",
+      "choices": [
+        {
+          "text": "Run for the woods",
+          "consequence": "Reckless.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Patient.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Years later, a cinema marquee with your new name above the door.",
+      "sceneTitle": "Shosanna in Paris",
+      "choices": [
+        {
+          "text": "Burn it down",
+          "consequence": "Vengeance.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Keep it open",
+          "consequence": "Hope.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Each man, one hundred Nazi scalps.",
+      "sceneTitle": "Aldo's Speech",
+      "choices": [
+        {
+          "text": "Take the oath",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A German sergeant in a cell with a list of dead officers.",
+      "sceneTitle": "Stiglitz Joins",
+      "choices": [
+        {
+          "text": "Recruit him",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Leave him",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A young hero won't stop asking about your cinema.",
+      "sceneTitle": "Zoller",
+      "choices": [
+        {
+          "text": "Be cold",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Play along",
+          "consequence": "Strategic.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Lunch with the Reich's propaganda minister and a strudel and cream.",
+      "sceneTitle": "Goebbels' Invitation",
+      "choices": [
+        {
+          "text": "Eat the strudel",
+          "consequence": "Cool.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Refuse politely",
+          "consequence": "Wary.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A basement tavern, the wrong dialect, and an SS officer with a kind smile.",
+      "sceneTitle": "La Louisiane",
+      "choices": [
+        {
+          "text": "Walk out slow",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Bluff it",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He orders three glasses with the wrong hand. The room goes still.",
+      "sceneTitle": "Three Fingers",
+      "choices": [
+        {
+          "text": "Draw",
+          "consequence": "Quick.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Talk",
+          "consequence": "Doomed.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A wounded English spy among dead Germans and a smell of gunpowder.",
+      "sceneTitle": "Bridget Beneath the Table",
+      "choices": [
+        {
+          "text": "Get her out",
+          "consequence": "Loyal.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Leave her",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Marcel hands you cans of nitrate film, a hundred years of flammable history.",
+      "sceneTitle": "Splice Room",
+      "choices": [
+        {
+          "text": "Stack them by the screen",
+          "consequence": "Hard.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Spread them in the aisles",
+          "consequence": "Vengeful.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Limousines, flashbulbs, the high boots of the Reich, the wrong shoe size.",
+      "sceneTitle": "Premiere Arrivals",
+      "choices": [
+        {
+          "text": "Smile big",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Limp inside",
+          "consequence": "Doomed.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He orders for you and watches the cream sink into the pastry.",
+      "sceneTitle": "Landa's Strudel",
+      "choices": [
+        {
+          "text": "Eat",
+          "consequence": "Cool.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Push it away",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A waiter you trained yourself, and a tray with a small folded note under the glass.",
+      "sceneTitle": "Champagne in the Lobby",
+      "choices": [
+        {
+          "text": "Pass the note",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hold it",
+          "consequence": "Cautious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Hitler laughing at his own image on a screen you control.",
+      "sceneTitle": "Box Seat",
+      "choices": [
+        {
+          "text": "Lock the doors",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Wait for the reel",
+          "consequence": "Patient.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Cigarette. Match. The whole back wall of the auditorium drenched in cellulose.",
+      "sceneTitle": "Marcel at the Curtain",
+      "choices": [
+        {
+          "text": "Light it",
+          "consequence": "Vengeance.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wait one more minute",
+          "consequence": "Final.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A baseball bat and a long-cherished list of names.",
+      "sceneTitle": "Donny Behind the Box",
+      "choices": [
+        {
+          "text": "Open fire",
+          "consequence": "Direct.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let the fire do it",
+          "consequence": "Patient.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He has followed you up and he is bleeding and he is not done.",
+      "sceneTitle": "Zoller in the Booth",
+      "choices": [
+        {
+          "text": "Shoot first",
+          "consequence": "Hard.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Landa offers a deal: a Medal of Honor and a house on Nantucket.",
+      "sceneTitle": "Aldo Captured",
+      "choices": [
+        {
+          "text": "Sign",
+          "consequence": "Cunning.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Landa's wrists in cuffs, his driver dead, your knife in your hand.",
+      "sceneTitle": "On the Forest Road",
+      "choices": [
+        {
+          "text": "Carve the swastika",
+          "consequence": "Permanent.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Let him walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Twenty meters tall on smoke and flame, laughing in a language nobody in the cinema lives to translate.",
+      "sceneTitle": "Shosanna's Face",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Final.",
+          "nextNodeId": "end_burn"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Free.",
+          "nextNodeId": "end_mark"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_burn",
+      "text": "The premier audience does not survive the screening. History tilts. A face in smoke says her own name and means it.",
+      "sceneTitle": "Cinema On Fire",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cinema On Fire"
+    },
+    {
+      "id": "end_mark",
+      "text": "Landa goes to Washington in a clean uniform with a fresh red swastika on his forehead that no surgeon will ever quite remove.",
+      "sceneTitle": "The Mark",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Mark"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You sit in a dark theater with no Nazis in it and you eat strudel without cream and you weep without being seen.",
+      "sceneTitle": "After the War",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "After the War"
+    }
+  ]
+}

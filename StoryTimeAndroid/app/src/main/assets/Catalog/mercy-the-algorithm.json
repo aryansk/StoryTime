@@ -1,0 +1,452 @@
+{
+  "id": "mercy-the-algorithm",
+  "title": "Mercy",
+  "sourceTitle": "Mercy",
+  "kind": "movie",
+  "synopsis": "An AI judge promised perfect justice. You're the defense attorney for a client it just decided is guilty. You have twenty-four hours to convince a machine of something it doesn't have a word for.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-12T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "AI",
+    "courtroom",
+    "ethics"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The AI judge — they call it MERCY — renders a decision in 0.4 seconds. Your client, an undocumented teenager, is guilty by 96.8% confidence. You have until tomorrow's sentencing to file an appeal a machine will read.",
+      "sceneTitle": "The Verdict",
+      "choices": [
+        {
+          "text": "Read the model card immediately",
+          "consequence": "Know your judge.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Call your client first",
+          "consequence": "People before paperwork.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "MERCY's documentation is 1,200 pages of math. The summary admits to a 'measured bias floor of 1.4% on minority defendants.' The footnote calls that 'within acceptable bounds.' You decide it isn't.",
+      "sceneTitle": "The Model Card",
+      "choices": [
+        {
+          "text": "Focus the appeal on the bias floor",
+          "consequence": "Math beats math.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Focus on your specific client's case",
+          "consequence": "Particulars beat statistics.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Sara, seventeen, hasn't slept. She didn't do it. She also didn't do it in a way that the prosecution's data set would recognize as exoneration. Her alibi is in a language MERCY does not weight highly.",
+      "sceneTitle": "Your Client",
+      "choices": [
+        {
+          "text": "Promise her you'll win",
+          "consequence": "Lies you intend to make true.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her the odds honestly",
+          "consequence": "She has earned the truth.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A former engineer on MERCY answers your email at 3 a.m. She'll meet you, in person, off-camera. She has a USB. She is, she says, terrified.",
+      "sceneTitle": "The Whistleblower",
+      "choices": [
+        {
+          "text": "Meet her at the diner she suggests",
+          "consequence": "Risk is the work.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask for the file remotely first",
+          "consequence": "Caution can also be care.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Adams, an old colleague, has gone all-in on MERCY. He thinks it ends bias. He thinks it is the only honest judge he's ever appeared before. He is not, in the conventional sense, wrong about the alternative.",
+      "sceneTitle": "The Prosecutor",
+      "choices": [
+        {
+          "text": "Try to flip him on this specific case",
+          "consequence": "Persuasion is a slow art.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Plan to outflank him",
+          "consequence": "Sometimes you have to win past a friend.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The whistleblower hands you a drive containing the training data audits MERCY's vendor never published. Half the data is from one neighborhood. Half the 'high-risk' tags were drawn by an intern.",
+      "sceneTitle": "The USB",
+      "choices": [
+        {
+          "text": "Build the appeal around the data",
+          "consequence": "Bias documented is bias defeated.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Save the data and use it for systemic suit",
+          "consequence": "Bigger fights need ammunition.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Sara's sister — fifteen, sharp — shows you a TikTok timestamp that places Sara six miles from the scene. MERCY rejected it as 'unverified.' The video is real and dated and clear.",
+      "sceneTitle": "Sara's Sister",
+      "choices": [
+        {
+          "text": "Get the video verified by a forensic lab",
+          "consequence": "Evidence MERCY can't reject.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Submit it to MERCY again with new metadata",
+          "consequence": "Game the input.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The defense terminal lets you submit appeals as structured text plus evidence packets. There is no audience. There is no jury. You write the most important paragraph of your career into a chat box.",
+      "sceneTitle": "MERCY's Interface",
+      "choices": [
+        {
+          "text": "Frame it as a procedural error",
+          "consequence": "Bureaucracy is MERCY's love language.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Frame it as a story about Sara",
+          "consequence": "Even algorithms are trained on stories.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "There is one human in this courtroom: Judge Park, who oversees MERCY's outputs. She is exhausted and skeptical of both you and the machine. She might be your only doorway.",
+      "sceneTitle": "The Hearing",
+      "choices": [
+        {
+          "text": "Argue to Park directly, off-script",
+          "consequence": "Find the human in the room.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Submit through MERCY's official channels",
+          "consequence": "Respect the system to break it.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A reporter has gotten wind of the bias-floor footnote. She wants a comment. Going public will pressure the court — or wreck your client's privacy.",
+      "sceneTitle": "The Press",
+      "choices": [
+        {
+          "text": "Speak on record with Sara's permission",
+          "consequence": "Sunlight is contagious.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Decline; protect Sara's name",
+          "consequence": "Privacy first; press never.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your old colleague meets you for coffee. He's read the audit. He's not, today, the prosecutor. 'If you can prove this isn't an outlier,' he says, 'I'll move to dismiss.'",
+      "sceneTitle": "Adams Wavers",
+      "choices": [
+        {
+          "text": "Promise him pattern evidence by tomorrow",
+          "consequence": "Friends meet you halfway.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Push him to dismiss now",
+          "consequence": "Strike while the conscience is warm.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Your office at 2 a.m. The whistleblower is pouring coffee. Sara's sister is on a couch correcting MERCY's translations. You and your paralegal are building an exhibit list that will, you hope, dismantle a god.",
+      "sceneTitle": "All-Nighter",
+      "choices": [
+        {
+          "text": "Cut for clarity — three killer exhibits",
+          "consequence": "Less, sharper.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Submit everything — overwhelm the model",
+          "consequence": "Volume can also be a weapon.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Judge Park reads you something privately: a draft of her own report on MERCY, due in three weeks. She is, secretly, already on your side. She just needs a case that gives her cover.",
+      "sceneTitle": "Park's Chambers",
+      "choices": [
+        {
+          "text": "Offer her this case as that cover",
+          "consequence": "Give the judge a doorway.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Promise her a cleaner case next month",
+          "consequence": "Wait for a better fight.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Sara wants to address the court — even though MERCY does not, by design, take oral statements. You have to decide whether to put her on a screen the algorithm will downweight, just so a human can hear her say it.",
+      "sceneTitle": "Sara's Statement",
+      "choices": [
+        {
+          "text": "Let her speak; she has earned the room",
+          "consequence": "Voice is a verdict too.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Read her statement aloud for the record",
+          "consequence": "Protect her from the moment.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "MERCY's vendor — a Silicon Valley counsel in a beautiful suit — files an emergency motion to keep the model card sealed. Your audit, they say, is proprietary. You have one hour to respond.",
+      "sceneTitle": "MERCY's Counter",
+      "choices": [
+        {
+          "text": "Argue the public interest",
+          "consequence": "Daylight beats trade secrets.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Negotiate a redacted release",
+          "consequence": "Half a sun is still a sun.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The court convenes. MERCY's interface blinks. Park sits high above. Sara sits low and small. Adams stands and clears his throat. You stand. You have done what you can.",
+      "sceneTitle": "Decision Day",
+      "choices": [
+        {
+          "text": "Trust the work and let it play out",
+          "consequence": "Surrender to the process.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Make one last argument from the heart",
+          "consequence": "Sometimes you talk past the machine to the people behind it.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Park rules that MERCY's audit must be unsealed for this case. The vendor's counsel pales. The reporter's phone buzzes. Sara doesn't yet understand what just happened. You squeeze her hand under the table.",
+      "sceneTitle": "Ex Parte",
+      "choices": [
+        {
+          "text": "Build the closing on the unsealed audit",
+          "consequence": "Use the new oxygen.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Move for immediate dismissal",
+          "consequence": "Strike before they regroup.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Park reads the ruling herself. She overrides MERCY, dismisses the charges, and orders an inquiry into the model's bias floor. The court goes quiet in a way that feels, briefly, like the future correcting itself.",
+      "sceneTitle": "The Ruling",
+      "choices": [
+        {
+          "text": "Walk Sara out to her family",
+          "consequence": "Always remember whose day this is.",
+          "nextNodeId": "end_sara"
+        },
+        {
+          "text": "File the systemic complaint today",
+          "consequence": "Don't let momentum cool.",
+          "nextNodeId": "end_systemic"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "MERCY upholds itself. Park, frustrated, writes a scathing concurrence. The case is appealed, and the appeal becomes the test case that ends MERCY's deployment in three states.",
+      "sceneTitle": "The Loss That Wins",
+      "choices": [
+        {
+          "text": "Tell Sara what her case became",
+          "consequence": "She deserves to know her name made law.",
+          "nextNodeId": "end_legacy"
+        },
+        {
+          "text": "Keep her name out of every press hit",
+          "consequence": "Protect first; legacy second.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "MERCY is replaced by a hybrid system — humans in front, algorithms behind. It is messier. It is, by every measurable metric, fairer. Adams sends you a single bottle of decent scotch and a handwritten thank-you.",
+      "sceneTitle": "Months Later",
+      "choices": [
+        {
+          "text": "Drink the scotch with Park",
+          "consequence": "Allies, finally, in the same room.",
+          "nextNodeId": "end_systemic"
+        },
+        {
+          "text": "Save the scotch for Sara's college graduation",
+          "consequence": "Patience as a kind of vow.",
+          "nextNodeId": "end_sara"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Sara walks out of a building she once thought she'd never leave. Her sister is filming because she always films. The lawyer in you wants the press conference; the human in you wants the burrito the family is ordering down the street.",
+      "sceneTitle": "Sara, Free",
+      "choices": [
+        {
+          "text": "Go to the press conference",
+          "consequence": "Use the megaphone responsibly.",
+          "nextNodeId": "end_systemic"
+        },
+        {
+          "text": "Go to the burrito",
+          "consequence": "Some victories taste better off-camera.",
+          "nextNodeId": "end_sara"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_sara",
+      "text": "Sara graduates high school, then college, then law school. She's a prosecutor now — a careful one. She files a brief in your retirement year that cites your appeal twice. She signs it 'with gratitude, your client, your friend.'",
+      "sceneTitle": "Sara, Specifically",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sara, Specifically"
+    },
+    {
+      "id": "end_systemic",
+      "text": "The systemic inquiry takes years and ends three contracts. MERCY's vendor pivots to insurance. You teach a seminar called 'How to Cross-Examine a Black Box.' It is, depressingly, oversubscribed.",
+      "sceneTitle": "The Inquiry",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Inquiry"
+    },
+    {
+      "id": "end_legacy",
+      "text": "Years later law students learn 'People v. M.' — Sara's name is anonymized — as the test case for algorithmic justice. She is fine with the anonymity. She didn't want to be famous. She wanted to be free.",
+      "sceneTitle": "The Case That Made the Law",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Case That Made the Law"
+    },
+    {
+      "id": "end_quiet",
+      "text": "Sara goes home to a quiet life. You go home tired. Park sleeps better. Adams retires. Somewhere, a model trains on your appeal and a new version of MERCY will, eventually, do less harm. That is, you tell yourself, enough.",
+      "sceneTitle": "Quiet, On Purpose",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet, On Purpose"
+    }
+  ]
+}

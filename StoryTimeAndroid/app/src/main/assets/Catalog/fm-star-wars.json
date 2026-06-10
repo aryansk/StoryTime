@@ -1,0 +1,449 @@
+{
+  "id": "fm-star-wars",
+  "title": "Star Wars: A New Hope",
+  "sourceTitle": "Star Wars: A New Hope",
+  "kind": "movie",
+  "synopsis": "Tatooine. Two suns. Aunt Beru's blue milk. A droid you bought yesterday is, apparently, carrying the plans to a planet-killing weapon. Buckle up.",
+  "releaseYear": 1977,
+  "addedAt": "2026-03-21T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "space",
+    "hero",
+    "rebellion"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You stand watching them set. You want to be anywhere else.",
+      "sceneTitle": "Two Suns",
+      "choices": [
+        {
+          "text": "Stay loyal to the farm",
+          "consequence": "Family.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Plan to leave",
+          "consequence": "Hope.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "R2 has a message for an Obi-Wan Kenobi. Uncle Owen says forget it.",
+      "sceneTitle": "The Droids",
+      "choices": [
+        {
+          "text": "Chase R2 at dawn",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Tell Uncle",
+          "consequence": "Honor.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Stormtroopers killed the Jawas. The droids, you realize, are wanted.",
+      "sceneTitle": "Sandcrawler Wreck",
+      "choices": [
+        {
+          "text": "Run home",
+          "consequence": "Family.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hide the droids",
+          "consequence": "Strategic.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "They are dead, the homestead burning. You stand in the smoke.",
+      "sceneTitle": "Aunt and Uncle",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Anger.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Mourn",
+          "consequence": "Grief.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Obi-Wan tells you the truth about your father. He hands you a lightsaber.",
+      "sceneTitle": "Ben",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Path.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Pause",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Mos Eisley. Aliens. A pilot with a Wookiee.",
+      "sceneTitle": "Cantina",
+      "choices": [
+        {
+          "text": "Hire Han",
+          "consequence": "Speed.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Look for another captain",
+          "consequence": "Cautious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Hyperspace. The galaxy stretches. You realize the universe is huge.",
+      "sceneTitle": "The Falcon",
+      "choices": [
+        {
+          "text": "Practice with the saber",
+          "consequence": "Discipline.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Look out the window",
+          "consequence": "Wonder.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Captured by the Death Star. You hide in smuggling holds.",
+      "sceneTitle": "Tractor Beam",
+      "choices": [
+        {
+          "text": "Disguise as stormtroopers",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Wait it out",
+          "consequence": "Cautious.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Leia is in a cell. You rescue her in a trash compactor.",
+      "sceneTitle": "The Princess",
+      "choices": [
+        {
+          "text": "Save her quickly",
+          "consequence": "Hero.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Save her carefully",
+          "consequence": "Plan.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Eyes in the water. Walls closing in. The droids save you.",
+      "sceneTitle": "Garbage",
+      "choices": [
+        {
+          "text": "Trust the droids",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Push the walls",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You watch Ben let Vader strike him down. You feel him afterward, in your head.",
+      "sceneTitle": "Obi-Wan, Falling",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Anger.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The Rebel base. Briefing. The Death Star approaches.",
+      "sceneTitle": "Yavin",
+      "choices": [
+        {
+          "text": "Volunteer for X-wing",
+          "consequence": "Hero.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You climb in. Biggs nods. R2 chirps.",
+      "sceneTitle": "Cockpit",
+      "choices": [
+        {
+          "text": "Trust R2",
+          "consequence": "Friend.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Trust your training",
+          "consequence": "Solo.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Lasers. Towers. Wedge falls back. Biggs goes down.",
+      "sceneTitle": "Trench Run",
+      "choices": [
+        {
+          "text": "Stay on target",
+          "consequence": "Discipline.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Veer to avoid",
+          "consequence": "Survival.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Vader is on your tail. Han, you'd swear, is not coming.",
+      "sceneTitle": "Vader Behind",
+      "choices": [
+        {
+          "text": "Trust the Force",
+          "consequence": "Faith.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Trust the computer",
+          "consequence": "Reason.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The Falcon comes screaming in. Vader spins off.",
+      "sceneTitle": "Han, Arriving",
+      "choices": [
+        {
+          "text": "Take the shot",
+          "consequence": "Now.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wait one beat",
+          "consequence": "Patient.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Two-meter exhaust port. You feel Ben's voice. You let go.",
+      "sceneTitle": "The Shot",
+      "choices": [
+        {
+          "text": "Fire",
+          "consequence": "Hope.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Adjust",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The whole moon-sized weapon comes apart. You fly out of the cloud.",
+      "sceneTitle": "The Death Star Goes",
+      "choices": [
+        {
+          "text": "Whoop",
+          "consequence": "Joy.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay quiet, focused",
+          "consequence": "Pilot.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Leia gives you and Han medals. Chewie is, briefly, snubbed.",
+      "sceneTitle": "Medals",
+      "choices": [
+        {
+          "text": "Notice the Chewie thing publicly",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Be polite",
+          "consequence": "Style.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The Rebellion has many fights ahead. The galaxy is still mostly the Empire.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Stay with the Rebellion",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Take a season off",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You hold it in your hand. The weight is real. The path, you realize, is yours.",
+      "sceneTitle": "Your Father's Saber",
+      "choices": [
+        {
+          "text": "Train",
+          "consequence": "Jedi.",
+          "nextNodeId": "end_jedi"
+        },
+        {
+          "text": "Train slowly",
+          "consequence": "Patient.",
+          "nextNodeId": "end_pilot"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_balance"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_jedi",
+      "text": "You find Yoda. You train. You meet your father. You become, in time, the Jedi the galaxy needed. The Force, you decide, is family.",
+      "sceneTitle": "Becoming a Jedi",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Becoming a Jedi"
+    },
+    {
+      "id": "end_pilot",
+      "text": "You stay with Rogue Squadron. You fly forever. Han calls you kid for the rest of your life. You never quite mind it.",
+      "sceneTitle": "The Best Pilot",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Best Pilot"
+    },
+    {
+      "id": "end_balance",
+      "text": "Years later you start a new Jedi Order. The first new students are not all young. The Force, you teach them, is older than any of them.",
+      "sceneTitle": "Bringing Balance",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Bringing Balance"
+    }
+  ]
+}

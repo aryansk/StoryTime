@@ -1,0 +1,449 @@
+{
+  "id": "more-the-merrier-thanksgiving",
+  "title": "More the Merrier",
+  "sourceTitle": "More the Merrier",
+  "kind": "movie",
+  "synopsis": "Your in-laws, three exes, a missionary cousin, and an estranged sibling all confirm for Thanksgiving. You have one oven and one nerve left. Cook.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-02T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "holiday",
+    "family",
+    "kitchen"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You finalize the guest list. Twenty. The oven is, by spec, sufficient for fifteen.",
+      "sceneTitle": "Tuesday Morning",
+      "choices": [
+        {
+          "text": "Cut the list",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Borrow an oven",
+          "consequence": "Hospitable.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your estranged sister Anita confirms. She has not been to a family event in seven years. Your stomach drops.",
+      "sceneTitle": "The Sibling",
+      "choices": [
+        {
+          "text": "Call her",
+          "consequence": "Reach.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Just plan for her",
+          "consequence": "Quiet.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your spouse's ex confirms because their kids' custody schedule landed here. You agree, reluctantly, because the kids are great.",
+      "sceneTitle": "The Ex",
+      "choices": [
+        {
+          "text": "Set the seating",
+          "consequence": "Strategic.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Let it be casual",
+          "consequence": "Trust.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your cousin Joel has flown in from Cambodia and would like to give a 'short prayer.' Short, for Joel, is twenty minutes.",
+      "sceneTitle": "Missionary Cousin",
+      "choices": [
+        {
+          "text": "Pre-negotiate the prayer",
+          "consequence": "Strategic.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Let Joel be Joel",
+          "consequence": "Mercy.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Mom would like, again, the green bean casserole. She would also like it on her plate. She has opinions.",
+      "sceneTitle": "Mom's Plate",
+      "choices": [
+        {
+          "text": "Make the casserole",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Substitute it",
+          "consequence": "Risk.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You go to the grocery store and discover that 3 p.m. on the Tuesday before Thanksgiving is, somehow, both apocalypse and prom.",
+      "sceneTitle": "Grocery Run",
+      "choices": [
+        {
+          "text": "Make a list",
+          "consequence": "Discipline.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wing it",
+          "consequence": "Speed.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Anita leaves a voicemail. 'I'm bringing Steve,' she says. Steve is, as far as you know, the man she was supposed to marry seven years ago.",
+      "sceneTitle": "Anita's Voicemail",
+      "choices": [
+        {
+          "text": "Welcome Steve",
+          "consequence": "Grace.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Ask if you're sure",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your spouse is, professionally, fine. Personally, your spouse is melting. You realize you have been only managing logistics.",
+      "sceneTitle": "Spouse, Stressing",
+      "choices": [
+        {
+          "text": "Pause for them",
+          "consequence": "Care.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Power through",
+          "consequence": "Sched.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The math, finally done, is: two ovens. One toaster oven. One spatchcock turkey. Two hours and forty minutes start to finish.",
+      "sceneTitle": "The Oven Math",
+      "choices": [
+        {
+          "text": "Spatchcock it",
+          "consequence": "Aggressive.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Buy a second small turkey",
+          "consequence": "Easier.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You make pies on Tuesday night because Wednesday is going to be hellish. The crust is, mercifully, good.",
+      "sceneTitle": "Tuesday Night Pie",
+      "choices": [
+        {
+          "text": "Make four pies",
+          "consequence": "Generous.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Make three",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Anita arrives Wednesday with Steve, a houseplant, and a kind smile. She hugs you in the driveway. You realize you have been wrong about seven years of something.",
+      "sceneTitle": "Wednesday Arrivals",
+      "choices": [
+        {
+          "text": "Hug her back fully",
+          "consequence": "Repair.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Welcome her warmly but cautiously",
+          "consequence": "Pace.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Your in-laws arrive. They have brought, again, the wrong wine. The wrong wine is, technically, very nice.",
+      "sceneTitle": "In-Laws",
+      "choices": [
+        {
+          "text": "Open the wine",
+          "consequence": "Generous.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Save it for Christmas",
+          "consequence": "Strategic.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Five children, ages 3-12, are now in the house. The 12-year-old has decided, today, to be a vegetarian.",
+      "sceneTitle": "Kids",
+      "choices": [
+        {
+          "text": "Pivot a side dish",
+          "consequence": "Easy.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Add a vegetarian main",
+          "consequence": "Hospitable.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "5:30 a.m. The turkey goes in. You make coffee. The kitchen window goes gold.",
+      "sceneTitle": "Thanksgiving Morning",
+      "choices": [
+        {
+          "text": "Sit at the window for ten minutes",
+          "consequence": "Calm.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Start the next thing",
+          "consequence": "Move.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Mom and your spouse have a brief, vicious exchange about the green bean casserole. Anita is the one who, somehow, fixes it.",
+      "sceneTitle": "The Spat",
+      "choices": [
+        {
+          "text": "Thank Anita publicly later",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Just be grateful",
+          "consequence": "Quiet.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You give the toast. You decide, in the moment, what kind of family you'd like this to be.",
+      "sceneTitle": "The Toast",
+      "choices": [
+        {
+          "text": "Be honest and warm",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Be sweet and short",
+          "consequence": "Mercy.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Joel's prayer is, mercifully, only six minutes. He blesses Anita and Steve specifically. Anita cries.",
+      "sceneTitle": "Joel's Prayer",
+      "choices": [
+        {
+          "text": "Hold her hand",
+          "consequence": "Family.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Pretend not to notice the tear",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The meal is, somehow, on time. The turkey is, somehow, juicy. The casserole, finally, is on Mom's plate. She does not, however, say thank you. She doesn't have to.",
+      "sceneTitle": "The Meal",
+      "choices": [
+        {
+          "text": "Sit down",
+          "consequence": "Win.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Refill the wine",
+          "consequence": "Hospitable.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Your spouse's ex tells a small joke. Everyone laughs. The kids, for one beautiful minute, treat their two-household family as a one-table family.",
+      "sceneTitle": "The Ex, At the Table",
+      "choices": [
+        {
+          "text": "Notice it",
+          "consequence": "Witness.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Just let it be",
+          "consequence": "Trust.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Anita does dishes with you. You and she talk for an hour about nothing important and everything important. Seven years closes.",
+      "sceneTitle": "After-Dinner Cleanup",
+      "choices": [
+        {
+          "text": "Invite her for Christmas",
+          "consequence": "Continue.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Take it one holiday at a time",
+          "consequence": "Slow.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Late. House half-asleep. You and your spouse cut the last pie at midnight at the kitchen island.",
+      "sceneTitle": "The Last Pie",
+      "choices": [
+        {
+          "text": "Eat the pie together",
+          "consequence": "Marriage.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Save it for tomorrow",
+          "consequence": "Discipline.",
+          "nextNodeId": "end_smaller"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_recipes"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "Anita comes for Christmas. Then Easter. Then everything. The family is, somehow, both bigger and easier. Mom, eventually, asks for Anita's casserole recipe.",
+      "sceneTitle": "Family Re-Made",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family Re-Made"
+    },
+    {
+      "id": "end_smaller",
+      "text": "Next year you do a smaller Thanksgiving on purpose — just the immediate house and Anita and Steve. It is, by every measurement, more fun and less hot.",
+      "sceneTitle": "Smaller Next Year",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Smaller Next Year"
+    },
+    {
+      "id": "end_recipes",
+      "text": "Years later you compile a small family recipe book. Mom's casserole is on page two. Joel's overlong prayer is, somehow, a chapter. Anita writes the introduction. You all laugh at it on Thanksgivings to come.",
+      "sceneTitle": "The Recipe Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Recipe Book"
+    }
+  ]
+}

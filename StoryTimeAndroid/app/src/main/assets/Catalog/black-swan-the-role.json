@@ -1,0 +1,433 @@
+{
+  "id": "black-swan-the-role",
+  "title": "Black Swan",
+  "sourceTitle": "Black Swan",
+  "kind": "movie",
+  "synopsis": "You've earned the lead in Swan Lake — the pure White Swan you were born to dance, and the dark Black Swan you'll have to become. The mirror is starting to disagree with you. How far will you go to be perfect?",
+  "releaseYear": 2010,
+  "addedAt": "2026-05-23T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "psychological",
+    "ballet",
+    "transformation"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The director, Thomas, paces the studio. 'I need a Swan Queen who can be both — innocence and seduction, light and dark.' The other dancers watch you like wolves in legwarmers. The part should be yours. It almost is.",
+      "sceneTitle": "The Casting",
+      "choices": [
+        {
+          "text": "Dance only the pure, perfect White Swan",
+          "consequence": "Control is your gift and your prison.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Try to find the wild Black Swan in yourself",
+          "consequence": "You can't fake what you've never let yourself feel.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "At home your mother has already laid out your dinner, your nightgown, your future. 'My sweet girl,' she says, smoothing your hair, locking the door behind her smile. The room is pink and small and yours and not yours.",
+      "sceneTitle": "The Mother",
+      "choices": [
+        {
+          "text": "Thank her and stay the good daughter",
+          "consequence": "Obedience is a soft cage with a key you can't find.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Push back, just a little",
+          "consequence": "The first crack lets in light and rot both.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Thomas corners you after rehearsal. 'Perfection is not just control,' he murmurs, too close. 'It's also letting go.' His method blurs the line between teaching and trespass, and he knows exactly how off-balance he's put you.",
+      "sceneTitle": "Thomas's Test",
+      "choices": [
+        {
+          "text": "Let him provoke the dark in you",
+          "consequence": "The role demands a door you're afraid to open.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hold your boundary and your control",
+          "consequence": "Saying no costs you the part — maybe.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A new dancer, Lily, moves like she was born without fear — sloppy, alive, magnetic. She could be your friend. She could be your understudy. She could be after your role. With her, you can never quite tell.",
+      "sceneTitle": "Lily",
+      "choices": [
+        {
+          "text": "Befriend Lily and learn her looseness",
+          "consequence": "Open your guard and see what walks in.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Watch Lily as a rival to be beaten",
+          "consequence": "Suspicion sharpens you and isolates you.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You find marks on your shoulder you don't remember making. A rash, your mother says. A sign, the mirror seems to whisper. You begin checking your reflection for a face that isn't quite doing what you're doing.",
+      "sceneTitle": "The First Scratch",
+      "choices": [
+        {
+          "text": "Tell yourself it's just exhaustion",
+          "consequence": "Denial is a stage you can dance on for a while.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Start watching the mirror back",
+          "consequence": "What you look for, you find.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Lily drags you out — drinks, music, a pill she promises will 'help you let go.' For one night you are loose and laughing and free, dancing in a dark club instead of a bright studio. You wake unsure what was real.",
+      "sceneTitle": "The Night Out",
+      "choices": [
+        {
+          "text": "Embrace the wildness it unlocked",
+          "consequence": "The Black Swan stirs and stretches her wings.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Recoil in shame the next morning",
+          "consequence": "The good girl claws her way back to the surface.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "In the long studio mirrors your reflection turns its head a half-beat late. It smiles when you don't. Once, you'd swear it kept dancing after you stopped. You tell no one. Telling someone would make it true.",
+      "sceneTitle": "The Reflection Lies",
+      "choices": [
+        {
+          "text": "Confront the mirror directly",
+          "consequence": "Stare into it and it stares back, smiling.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Avoid mirrors and push through",
+          "consequence": "You can't dance ballet without mirrors. You'll learn that.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "In rehearsal, finally, it happens — you stop counting, stop controlling, and let something hungry take the floor. Thomas weeps. The company stares. You have never felt so powerful or so unlike yourself.",
+      "sceneTitle": "Becoming the Black Swan",
+      "choices": [
+        {
+          "text": "Chase that feeling no matter the cost",
+          "consequence": "Power like this is a debt you'll be billed for.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Be frightened by what came out of you",
+          "consequence": "Fear is the last sane voice in the room.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your toenails, your skin, your sleep — your body is keeping a tally your mind won't. You hide the worst of it under makeup and tights. Your mother hovers; Thomas pushes; the mirror waits. Something has to give, and it's you.",
+      "sceneTitle": "Cracking",
+      "choices": [
+        {
+          "text": "Hide it all and dance anyway",
+          "consequence": "The show is a god that eats its dancers.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Reach out for help, once",
+          "consequence": "A hand extended, even shaking, is still a hand.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Lily is made your alternate — your safety net, or your replacement, depending on how you look at her. You find her in your dressing room, or you imagine you do. You can no longer tell the difference, and it's starting to feel like a knife.",
+      "sceneTitle": "The Rival, Closer",
+      "choices": [
+        {
+          "text": "Accuse Lily of trying to steal the role",
+          "consequence": "Paranoia and truth have begun to share a face.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Decide you must simply be better than her",
+          "consequence": "Turn the fear into fuel and burn yourself for warmth.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Maybe a doctor, maybe a friend, maybe just one honest sentence to your mother. The help is real and the relief is real — but opening night is in three days, and the part is your whole identity. Can you be saved and still be the Swan Queen?",
+      "sceneTitle": "The Help You Reach For",
+      "choices": [
+        {
+          "text": "Take the help and risk losing the role",
+          "consequence": "Your life is worth more than a curtain call. Probably.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Refuse the lifeline to protect the part",
+          "consequence": "The role has its hooks in deep now.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The hallucinations sharpen — feathers under your skin, your legs bending the wrong way, your reflection living its own life. You are dancing better than ever and unraveling faster than ever, on the exact same thread.",
+      "sceneTitle": "Opening Night Approaches",
+      "choices": [
+        {
+          "text": "Lean fully into the transformation",
+          "consequence": "Maybe madness and perfection are the same place.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Fight to hold onto yourself",
+          "consequence": "There may still be a 'you' left to save.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Backstage on opening night, the confrontation comes — with Lily, with your reflection, with the dark thing wearing your face. Glass breaks. You feel a sharp, terrible relief, and a spreading warmth you don't look at.",
+      "sceneTitle": "The Mirror Shatters",
+      "choices": [
+        {
+          "text": "Believe you've defeated your rival",
+          "consequence": "The mind protects itself with terrible stories.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Begin to suspect there was no rival at all",
+          "consequence": "The most dangerous person in the room was always the one in the mirror.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You walk out of the theater the night before the premiere. It feels like dying and like being born. Your understudy goes on; the reviews are fine; the world does not end. You are not the Swan Queen. You are, perhaps, alive.",
+      "sceneTitle": "Stepping Back",
+      "choices": [
+        {
+          "text": "Grieve the role but keep your life",
+          "consequence": "Some losses are the shape of survival.",
+          "nextNodeId": "end_alive"
+        },
+        {
+          "text": "Wonder forever if you could have been perfect",
+          "consequence": "The road not danced haunts the longest.",
+          "nextNodeId": "end_whatif"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You take the stage and you are no longer dancing the Black Swan — you are her. The audience disappears. You spin and spin and feel wings, real wings, and the most exquisite freedom of your life. Nothing has ever been this perfect.",
+      "sceneTitle": "The Black Swan's Dance",
+      "choices": [
+        {
+          "text": "Finish the dance no matter what",
+          "consequence": "Perfection has a price and you've already paid it.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Come back to yourself before the final act",
+          "consequence": "The fall toward earth is the most human thing.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "In the wings, between acts, the fog clears for one terrible lucid moment. You understand what you've done to your body, your mind, your reflection. The wound is yours. The rival was yours. The choice, now, is also yours.",
+      "sceneTitle": "The White Swan's Truth",
+      "choices": [
+        {
+          "text": "Go back out and dance the ending anyway",
+          "consequence": "Finish beautifully and let go of everything.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Call for help and step out of the story",
+          "consequence": "Choosing to live is the bravest exit there is.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The bows. The roses. Thomas climbing onto the stage to kiss the back of your hand. You smile through everything because smiling is the next step, and the next step is the only step that matters. Something warm is spreading at your side and you do not look down.",
+      "sceneTitle": "Curtain Call",
+      "choices": [
+        {
+          "text": "Let the applause carry you",
+          "consequence": "Joy and dying can rhyme, briefly.",
+          "nextNodeId": "end_perfect"
+        },
+        {
+          "text": "Finally, finally, look down",
+          "consequence": "Reality is the last person to arrive at the party.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You go back out and finish — and somewhere in the second-to-last lift you feel your body decide it is done bargaining with you. The audience does not know. They will not, for one more aria.",
+      "sceneTitle": "Between the Acts",
+      "choices": [
+        {
+          "text": "Dance the last act with everything left",
+          "consequence": "Some final notes are the best ones.",
+          "nextNodeId": "end_perfect"
+        },
+        {
+          "text": "Drop the role mid-leap and walk off",
+          "consequence": "Refusing the script is its own kind of grace.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Backstage is suddenly louder than the stage — Thomas raging, Lily wide-eyed, your mother crying without sound. You make the smallest, hardest gesture of your career: you sit down and ask for an ambulance.",
+      "sceneTitle": "The Quiet Wings",
+      "choices": [
+        {
+          "text": "Tell them the whole truth about everything",
+          "consequence": "Honesty in the wings is the harder choreography.",
+          "nextNodeId": "end_survive"
+        },
+        {
+          "text": "Just hold your knees and breathe",
+          "consequence": "Sometimes survival is wordless.",
+          "nextNodeId": "end_alive"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Red on white. Of course. You laugh, almost — at yourself, at the cost of perfection, at how obvious it was. There is one more breath in which you can decide what this night meant.",
+      "sceneTitle": "Looking Down",
+      "choices": [
+        {
+          "text": "Decide it meant perfection",
+          "consequence": "Some stories end on a high note, on purpose.",
+          "nextNodeId": "end_perfect"
+        },
+        {
+          "text": "Decide it meant a warning, in time",
+          "consequence": "Even at the curtain you can rewrite an ending.",
+          "nextNodeId": "end_survive"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_perfect",
+      "text": "The final note. The white feathers. The leap. The audience erupts and Thomas calls your name and you smile, because you felt it — you were, for one impossible night, perfect. The warmth at your side spreads. 'I was perfect,' you whisper, and mean it, as the lights go soft.",
+      "sceneTitle": "Perfect",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Perfect"
+    },
+    {
+      "id": "end_survive",
+      "text": "You stop the show. There are gasps and then ambulances and then, weeks later, a quiet room and a real recovery. You will dance again or you won't, but you will be there to choose. Perfection nearly killed you. Imperfection, it turns out, is where you get to live.",
+      "sceneTitle": "Imperfect, Alive",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Imperfect, Alive"
+    },
+    {
+      "id": "end_alive",
+      "text": "You left ballet, or ballet left you, and for a long time it felt like amputation. Then one ordinary morning you dance in your kitchen for no audience at all and feel, faintly, joy — the kind that doesn't bleed. You are nobody's Swan Queen. You are nobody's victim either.",
+      "sceneTitle": "The Dancer Who Walked Away",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Dancer Who Walked Away"
+    },
+    {
+      "id": "end_whatif",
+      "text": "Lily dances the Swan Queen and the reviews call her a revelation. You watch from the back of the house, healthy and hollow, applauding a perfection that might have been yours. You'll never know. That not-knowing is the role you dance for the rest of your life.",
+      "sceneTitle": "The Understudy's Triumph",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Understudy's Triumph"
+    }
+  ]
+}

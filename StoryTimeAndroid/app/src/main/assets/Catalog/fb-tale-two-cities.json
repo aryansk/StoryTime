@@ -1,0 +1,449 @@
+{
+  "id": "fb-tale-two-cities",
+  "title": "A Tale of Two Cities",
+  "sourceTitle": "A Tale of Two Cities",
+  "kind": "book",
+  "synopsis": "It was the best of times, it was the worst of times. London and Paris. A doctor recalled from the dead. A daughter. A revolution. A man who looks too much like another.",
+  "releaseYear": 1859,
+  "addedAt": "2026-02-09T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "dickens",
+    "revolution",
+    "sacrifice"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A messenger meets a stranger. Recalled to life.",
+      "sceneTitle": "Mail Coach",
+      "choices": [
+        {
+          "text": "Carry the message",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse it",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A pale man at a cobbler's bench.",
+      "sceneTitle": "Paris Garret",
+      "choices": [
+        {
+          "text": "Speak softly",
+          "consequence": "Care.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Speak loud",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Lucie. Dr. Manette. The house under the plane tree.",
+      "sceneTitle": "London",
+      "choices": [
+        {
+          "text": "Settle them",
+          "consequence": "Care.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Move them",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A man accused of treason. A barrister yawns.",
+      "sceneTitle": "Darnay's Trial",
+      "choices": [
+        {
+          "text": "Watch carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Doubt the witnesses",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The man at the table looks like Darnay.",
+      "sceneTitle": "Carton",
+      "choices": [
+        {
+          "text": "Notice",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't notice",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Tea at the Manettes'. Lorry of Tellson's. Pross with her brother.",
+      "sceneTitle": "Soho Saturdays",
+      "choices": [
+        {
+          "text": "Be a regular",
+          "consequence": "Friend.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Be a stranger",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He is, in fact, of the Evrémonde family.",
+      "sceneTitle": "Darnay's Confession",
+      "choices": [
+        {
+          "text": "Keep his secret",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell Lucie",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Lucie marries Darnay. Dr. Manette holds.",
+      "sceneTitle": "Marriage",
+      "choices": [
+        {
+          "text": "Stand with the doctor",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Stay home",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He works at the cobbler's bench again, briefly.",
+      "sceneTitle": "Manette's Relapse",
+      "choices": [
+        {
+          "text": "Be patient",
+          "consequence": "Care.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hide the bench",
+          "consequence": "Practical.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The Bastille falls. The Defarges are at the front.",
+      "sceneTitle": "Paris, Storming",
+      "choices": [
+        {
+          "text": "Track the names knitted in",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Darnay must come to Paris. He goes.",
+      "sceneTitle": "Gabelle's Letter",
+      "choices": [
+        {
+          "text": "Follow him",
+          "consequence": "Friend.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay with Lucie",
+          "consequence": "Care.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Darnay is in La Force. Dr. Manette tries to help.",
+      "sceneTitle": "Arrest",
+      "choices": [
+        {
+          "text": "Use his name",
+          "consequence": "Strategy.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He is acquitted, briefly. A second indictment.",
+      "sceneTitle": "Trial",
+      "choices": [
+        {
+          "text": "Brace",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Hope",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Dr. Manette's old letter from prison surfaces. It condemns Darnay's family.",
+      "sceneTitle": "The Manuscript",
+      "choices": [
+        {
+          "text": "Confront Darnay's identity",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Plead",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Darnay is condemned. Lucie collapses.",
+      "sceneTitle": "Death Sentence",
+      "choices": [
+        {
+          "text": "Find Carton",
+          "consequence": "Path.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Plan an escape with Pross",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He has, somehow, become a different man. He has, somehow, planned everything.",
+      "sceneTitle": "Carton's Plan",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Doubt him",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Carton drugs Darnay, exchanges clothes, hides him in a carriage.",
+      "sceneTitle": "La Force, Visit",
+      "choices": [
+        {
+          "text": "Hold Lucie steady",
+          "consequence": "Care.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hold Manette steady",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Pross, blocking Madame Defarge, holds the door.",
+      "sceneTitle": "Carriage Out",
+      "choices": [
+        {
+          "text": "Stand with Pross",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Drive on",
+          "consequence": "Path.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "London, after. Lorry counts what was saved.",
+      "sceneTitle": "Tellson's",
+      "choices": [
+        {
+          "text": "Visit them",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A small letter, in Carton's hand. He has gone for them all.",
+      "sceneTitle": "Letter",
+      "choices": [
+        {
+          "text": "Read it aloud",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Read it quietly",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "It is, he says, a far, far better thing.",
+      "sceneTitle": "Scaffold",
+      "choices": [
+        {
+          "text": "Honor him forever",
+          "consequence": "Honor.",
+          "nextNodeId": "end_carton"
+        },
+        {
+          "text": "Don't speak of it",
+          "consequence": "Heart.",
+          "nextNodeId": "end_lucie"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_carton",
+      "text": "Carton's name lives, quietly, in your family. Your son, eventually, is named Sydney. He grows up kind. He never quite knows why he is allowed to be.",
+      "sceneTitle": "Far, Far Better Thing",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Far, Far Better Thing"
+    },
+    {
+      "id": "end_lucie",
+      "text": "Lucie lives long. She tells the story to grandchildren by a small fire. The grandchildren, in turn, tell their own.",
+      "sceneTitle": "Lucie's Years",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lucie's Years"
+    },
+    {
+      "id": "end_quiet",
+      "text": "Dr. Manette returns to medicine. His patients are gentle with him. He sees, for the rest of his days, the shape of a tower no longer there.",
+      "sceneTitle": "A Quieter Practice",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Quieter Practice"
+    }
+  ]
+}

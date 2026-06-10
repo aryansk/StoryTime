@@ -1,0 +1,417 @@
+{
+  "id": "prada-2-the-comeback",
+  "title": "The Devil Wears Prada 2",
+  "sourceTitle": "The Devil Wears Prada 2",
+  "kind": "movie",
+  "synopsis": "Print is dead. Miranda Priestly is not. She has summoned you back to Runway — fifteen years older, a real career later, and with a daughter you can't be late to pick up. The September issue is a relaunch. Try not to fall apart.",
+  "releaseYear": 2026,
+  "addedAt": "2026-04-16T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "fashion",
+    "work",
+    "second act"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "An assistant's email — 'Miranda would like to see you Tuesday.' Two sentences. No subject. You read it three times in your kitchen with a child's lunchbox in your other hand.",
+      "sceneTitle": "The Summons",
+      "choices": [
+        {
+          "text": "Reply immediately to confirm",
+          "consequence": "Don't hesitate; she'll notice.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait a day; you have a life now",
+          "consequence": "Set the tone.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The lobby smells the same. Your heart, embarrassingly, knows the elevator buttons. Miranda's office is unchanged except for an iPad where the magazines used to be.",
+      "sceneTitle": "Tuesday at Runway",
+      "choices": [
+        {
+          "text": "Compliment the iPad",
+          "consequence": "Disarm with charm.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait until she speaks",
+          "consequence": "Old skill.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "School drop-off Wednesday. Your daughter Beatrix asks, casually, if you're going back to that 'shouty job.' You realize she has been listening more carefully than you thought.",
+      "sceneTitle": "Your Daughter's Drop-Off",
+      "choices": [
+        {
+          "text": "Tell her about the meeting",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her it's just lunch",
+          "consequence": "Soften.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Miranda offers you Editor at Large for the relaunch — print plus, a quarterly object that is also a digital ecosystem. The salary is, embarrassingly, real. She does not, of course, mention the work-life balance.",
+      "sceneTitle": "The Offer",
+      "choices": [
+        {
+          "text": "Negotiate for hours that fit your life",
+          "consequence": "Set the terms.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take the job and figure it out",
+          "consequence": "Old instinct.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "An old colleague at a serious magazine offers you a steadier, less prestigious gig at half the salary. The two offers arrive in the same week, which is funny because life is funny.",
+      "sceneTitle": "Andy's Newsroom Friend Calls",
+      "choices": [
+        {
+          "text": "Take the steadier job",
+          "consequence": "Family-shaped career.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take Miranda's job; you can survive her now",
+          "consequence": "Risk.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Emily Charlton — now a major brand executive — walks into Miranda's office to consult on the relaunch. She sees you. She, unusually, smiles for a second before correcting.",
+      "sceneTitle": "Emily, Returning",
+      "choices": [
+        {
+          "text": "Approach Emily like an old friend",
+          "consequence": "Try.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Approach Emily as a future colleague",
+          "consequence": "Professional.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Beatrix, ten, asks, 'Did you have a fun day at work?' You realize she has been told that adults should have fun at work. You think about how to answer. You think for too long.",
+      "sceneTitle": "Beatrix's Question",
+      "choices": [
+        {
+          "text": "Tell her some days are fun and some aren't",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell her you'll have more fun days now",
+          "consequence": "Reassure.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The plan is ambitious, expensive, and unlikely. Miranda wants a quarterly print object that costs a hundred dollars and sells out. She wants you to make the lead feature feel like a manifesto and a fashion shoot at once.",
+      "sceneTitle": "The Relaunch Plan",
+      "choices": [
+        {
+          "text": "Pitch a story about the daughters of fashion editors",
+          "consequence": "Make it personal.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Pitch a story about climate-positive supply chains",
+          "consequence": "Make it political.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your husband — who has, mercifully, stayed kind — looks at the calendar with you. The math is tight. The math is, with adjustments, possible.",
+      "sceneTitle": "Your Husband",
+      "choices": [
+        {
+          "text": "Adjust the math together",
+          "consequence": "Co-build.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take a month to test the new schedule before committing",
+          "consequence": "Trial.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You hire a photographer Miranda hates. The photographer is brilliant. The shoot goes long. Miranda comes onto set in the last hour and is, for thirty seconds, silent. Then she says, 'Continue.' That is, in her language, applause.",
+      "sceneTitle": "The Photographer",
+      "choices": [
+        {
+          "text": "Send the photographer a handwritten note",
+          "consequence": "Mentor up.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Move on to the next shoot with confidence",
+          "consequence": "Compound.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The supply-chain feature is going to be the first piece many of your old fashion friends actually read. It will also, you realize, anger several advertisers. You decide that's okay.",
+      "sceneTitle": "The Climate Feature",
+      "choices": [
+        {
+          "text": "Run it on the cover",
+          "consequence": "Bold.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Run it as the lead of the inside well",
+          "consequence": "Strategic.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "On a school holiday Beatrix comes to the office. Miranda meets her. They shake hands gravely. Miranda compliments Beatrix's shoes. Beatrix asks Miranda, with terrifying calm, what the office is for.",
+      "sceneTitle": "Beatrix at the Office",
+      "choices": [
+        {
+          "text": "Let Miranda answer",
+          "consequence": "Let it land.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Answer for both of you",
+          "consequence": "Bridge.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Nigel — now in a corner office somewhere else — has started a chat with Emily and you. It is, weirdly, the place you tell your worst day to people who already understand. You realize this support network is part of what makes the work survivable now.",
+      "sceneTitle": "The Old Assistants Group Chat",
+      "choices": [
+        {
+          "text": "Use the chat as a daily lifeline",
+          "consequence": "Lean.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Use it sparingly; don't drain it",
+          "consequence": "Steward it.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The relaunch sells out in eleven days. Three of the climate features get picked up by serious newspapers. Miranda smiles, once, on the way to the elevator. It is, for you, the proof.",
+      "sceneTitle": "The Issue Lands",
+      "choices": [
+        {
+          "text": "Stay on for the next issue",
+          "consequence": "Continue.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Make a longer-term commitment",
+          "consequence": "Lock in.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You leave the launch party at 11. Your husband and Beatrix are still up — they ordered pizza. You sit on the floor with them and eat cold slices in your dress. It is the best thirty minutes of the month.",
+      "sceneTitle": "The After Party",
+      "choices": [
+        {
+          "text": "Make this the routine — leave early on purpose",
+          "consequence": "Build.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take Beatrix to the next launch",
+          "consequence": "Bring her in.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Year two of the new Runway is harder. The novelty fades. The advertisers ebb and return. You and Emily and Nigel form, accidentally, a kind of cabinet around Miranda. She does not, of course, acknowledge it. She also doesn't fire any of you.",
+      "sceneTitle": "Year Two",
+      "choices": [
+        {
+          "text": "Take the editor-in-chief role when offered",
+          "consequence": "Step up.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay as Editor at Large and write more",
+          "consequence": "Stay in the work you love.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Beatrix, at twelve, decides she wants to write — not for fashion, for science. You help her get an internship at a nature magazine. You realize, gratefully, that the magazine industry has, for the next generation, gotten a little more interesting because of people like Beatrix.",
+      "sceneTitle": "Beatrix at Twelve",
+      "choices": [
+        {
+          "text": "Mentor a new generation through her",
+          "consequence": "Pay forward.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay focused on your own work",
+          "consequence": "Your lane.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Miranda announces her retirement at a private lunch. She looks at you when she says it. Emily looks at you when she says it. Nigel looks, sweetly, at his salad.",
+      "sceneTitle": "Miranda's Retirement Lunch",
+      "choices": [
+        {
+          "text": "Volunteer for the role",
+          "consequence": "Take it.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Volunteer Emily",
+          "consequence": "Generous.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You drop Beatrix at the nature magazine. She is, somehow, less nervous than you. The editor shakes her hand and yours and says, 'We've heard.' You realize, on the walk back, that you have raised a person.",
+      "sceneTitle": "Beatrix's Internship Day One",
+      "choices": [
+        {
+          "text": "Take the afternoon off to mark it",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Go back to work changed",
+          "consequence": "Carry it.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The next September cover is being built. The decisions about it sit on your desk. You realize the cover is, in effect, a vote about who you want to be for the next decade.",
+      "sceneTitle": "The Next Cover",
+      "choices": [
+        {
+          "text": "Take the EIC role and build the next decade",
+          "consequence": "Lead.",
+          "nextNodeId": "end_eic"
+        },
+        {
+          "text": "Stay Editor at Large and write the better book",
+          "consequence": "Write.",
+          "nextNodeId": "end_writer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_eic",
+      "text": "You become the next editor-in-chief. Miranda, in retirement, sends you a single handwritten note: 'Don't be me. Be better.' You frame it. You try.",
+      "sceneTitle": "Editor-in-Chief",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Editor-in-Chief"
+    },
+    {
+      "id": "end_writer",
+      "text": "You stay in the role that lets you write and live. You publish, in your fifties, a collection of essays about fashion and labor that gets a quiet, deserved prize. Beatrix sits in the front row at the ceremony.",
+      "sceneTitle": "Editor at Large, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Editor at Large, Forever"
+    }
+  ]
+}

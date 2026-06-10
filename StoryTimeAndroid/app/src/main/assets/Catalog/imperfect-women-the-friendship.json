@@ -1,0 +1,417 @@
+{
+  "id": "imperfect-women-the-friendship",
+  "title": "Imperfect Women",
+  "sourceTitle": "Imperfect Women",
+  "kind": "show",
+  "synopsis": "Eleanor was your best friend for twenty years. She's been murdered. You and Mary, the third friend, each know exactly half of the secret that killed her. You have to decide whether to tell each other.",
+  "releaseYear": 2024,
+  "addedAt": "2026-04-20T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "friendship",
+    "grief",
+    "secrets"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Mary calls at 6:14 a.m. crying. You sit on the edge of the bed and hear the sentence 'Eleanor is dead' and your husband, beside you, does not yet know. The clock keeps moving.",
+      "sceneTitle": "The Call",
+      "choices": [
+        {
+          "text": "Wake your husband",
+          "consequence": "Family first.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Get dressed and go to Mary immediately",
+          "consequence": "Friend first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your husband Robert reacts in a way that is one ratchet off from what you expected. He is sad. He is also, in a way you can't name, alert.",
+      "sceneTitle": "His Reaction",
+      "choices": [
+        {
+          "text": "Notice the alertness",
+          "consequence": "Trust the gut.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ignore it; he loved Eleanor",
+          "consequence": "Don't make stories yet.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Mary, at her counter, hands you a coffee with the same chip in the mug she's had since college. She says, before you can speak, 'I knew about Eleanor and someone. I just didn't know who.'",
+      "sceneTitle": "Mary's Kitchen",
+      "choices": [
+        {
+          "text": "Ask her who she suspected",
+          "consequence": "Demand the half-secret.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell her your half first",
+          "consequence": "Trade truths.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Eleanor had been having an affair for the last year. You knew because she told you. You don't know with whom. Mary, you suspect, knew the man's name but didn't know it was Eleanor.",
+      "sceneTitle": "The Affair Half",
+      "choices": [
+        {
+          "text": "Tell Mary the affair half now",
+          "consequence": "Symmetrical truth.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Wait to see what Mary volunteers",
+          "consequence": "Information is power.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Eleanor had been managing money — yours, Mary's, hers — and you'd noticed a discrepancy two months ago. You'd been planning to ask her about it the day she died. The half-secret is, somehow, becoming whole.",
+      "sceneTitle": "The Money Half",
+      "choices": [
+        {
+          "text": "Tell Mary about the money",
+          "consequence": "Honesty.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Hold the money for now; the affair feels closer to motive",
+          "consequence": "Triage.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Detective Kapoor is kind, careful, slow. She asks you both about Eleanor's life in the past year. She has noticed, you can tell, the small inconsistency between your accounts.",
+      "sceneTitle": "The Detective",
+      "choices": [
+        {
+          "text": "Trust her with the affair half",
+          "consequence": "Truth.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Trust her with the money half",
+          "consequence": "Truth.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Eleanor's husband Nathan sits in his kitchen looking smaller than you remember. He says he didn't know about the affair. He says it twice. He looks at you the second time.",
+      "sceneTitle": "The Husband, Nathan",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "He's grieving.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Watch him more closely",
+          "consequence": "Doubt has its own work.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Eleanor's seventeen-year-old, Sophie, asks you, in the back garden, if you knew her mother was unhappy. You realize, again, that 'mother' and 'friend' are different people you each knew.",
+      "sceneTitle": "The Daughter",
+      "choices": [
+        {
+          "text": "Tell Sophie what you knew",
+          "consequence": "Honor the daughter.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell Sophie that her mother loved her",
+          "consequence": "Lead with the kindest truth.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your husband Robert is, conveniently, out late three nights running. He says it's work. The shoes by the door, when he comes home, are wet. It hasn't rained.",
+      "sceneTitle": "Robert, Out",
+      "choices": [
+        {
+          "text": "Follow Robert one night",
+          "consequence": "Investigate at home.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Ask Mary if she's noticed the same about her husband",
+          "consequence": "Compare.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "On Eleanor's phone, recovered after a week, is a photo of a hotel-room ceiling. The angle is innocuous to anyone who doesn't know the ceiling. You know the ceiling.",
+      "sceneTitle": "The Photo",
+      "choices": [
+        {
+          "text": "Tell Mary you recognize the ceiling",
+          "consequence": "Truth to friend.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell Detective Kapoor",
+          "consequence": "Truth to law.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mary, slowly, admits that her husband Tom has been distant for months. Tom and Robert and Nathan all go to the same gym. The gym is, you realize, three suburbs away from any of their homes.",
+      "sceneTitle": "Mary's Husband",
+      "choices": [
+        {
+          "text": "Plan to confront the husbands together",
+          "consequence": "United front.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Each speak to your own first",
+          "consequence": "Personal first.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You and Mary corner Robert and Tom in Robert's garage on a Saturday morning. The truth comes out in stages — yes, an affair, no, with one of them, no, neither knew Eleanor would be killed.",
+      "sceneTitle": "The Garage Conversation",
+      "choices": [
+        {
+          "text": "Believe the parts that exonerate them",
+          "consequence": "Friend is also wife.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Disbelieve until proven",
+          "consequence": "Marriage is also evidence.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Kapoor calls you in for a quiet meeting. She has, she says, narrowed it. She tells you a name. The name is on neither half of your secret. The room moves.",
+      "sceneTitle": "Detective Kapoor's Case",
+      "choices": [
+        {
+          "text": "Help her gather what she needs",
+          "consequence": "Cooperate fully.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take a breath before responding",
+          "consequence": "Don't speak fast.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "An arrest is made. The killer is, almost mundanely, a stranger Eleanor had been planning to leave the marriage for — and who had been planning, in his own ugly way, to leave her too. The motive is small and the loss is enormous.",
+      "sceneTitle": "The Arrest",
+      "choices": [
+        {
+          "text": "Attend the trial through to verdict",
+          "consequence": "Stand for Eleanor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Step back; protect your own family",
+          "consequence": "Personal first.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You and Robert sit with a therapist for the first time in your marriage. The truth about his Tuesdays comes out. It is not an affair. It is a less interesting and more painful answer: he has been visiting a sponsor at AA.",
+      "sceneTitle": "The Marriage Counseling",
+      "choices": [
+        {
+          "text": "Apologize fully",
+          "consequence": "Marriage as repair.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Ask why he kept it secret",
+          "consequence": "Repair requires questions.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Mary and you, after, walk every Sunday for a year. You don't talk about Eleanor every walk. You talk about her enough. The friendship that was three is, slowly, two. The two is, sometimes, enough.",
+      "sceneTitle": "Mary and You",
+      "choices": [
+        {
+          "text": "Make Sundays a permanent ritual",
+          "consequence": "Vows of two.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Bring Sophie sometimes",
+          "consequence": "Three again, differently.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Your own daughter, fifteen, asks you to teach her how to be a friend like you are friends. You sit on the porch and try to think of an answer that isn't a Hallmark card. You tell her, eventually, 'Tell each other things first.'",
+      "sceneTitle": "Your Daughter, Listening",
+      "choices": [
+        {
+          "text": "Model that for her with your own friends",
+          "consequence": "Show.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Send her to call her best friend now",
+          "consequence": "Direct.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Sophie's university acceptance arrives on a Tuesday. You and Mary throw her a party. She gives a small speech and thanks you both. You realize, with a feeling that is both grief and gratitude, that Eleanor is in this room.",
+      "sceneTitle": "Sophie's University",
+      "choices": [
+        {
+          "text": "Tell Sophie about her mother's good qualities",
+          "consequence": "Memory as gift.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sit beside Mary and just let it be",
+          "consequence": "Presence.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "One year after Eleanor died you and Mary and Nathan and Sophie all eat dinner at the same restaurant Eleanor loved. The food is fine. The night is full of stories you'd forgotten. You laugh more than you cry. Eleanor would, you realize, approve.",
+      "sceneTitle": "The Anniversary",
+      "choices": [
+        {
+          "text": "Make this the new tradition",
+          "consequence": "Build the ritual.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Let it be a one-time thing",
+          "consequence": "Some moments belong to once.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Years on, you stop at a photograph of the three of you from a college trip. You realize you don't flinch anymore. You realize you can hold both sadness and gratitude in the same hand. You choose what to do with that hand next.",
+      "sceneTitle": "The Photograph on the Wall",
+      "choices": [
+        {
+          "text": "Hand it to Sophie",
+          "consequence": "Pass it on.",
+          "nextNodeId": "end_sophie"
+        },
+        {
+          "text": "Keep it on your own wall and call Mary",
+          "consequence": "Pair of twos.",
+          "nextNodeId": "end_two"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_sophie",
+      "text": "You and Mary become Sophie's aunts in a real, unofficial way. You attend her graduation. You attend her wedding. At her wedding she names a child after Eleanor. You both cry without performing it.",
+      "sceneTitle": "Sophie's Aunts",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sophie's Aunts"
+    },
+    {
+      "id": "end_two",
+      "text": "You and Mary walk for the next thirty years. You bury parents and welcome grandchildren. You speak of Eleanor often, then less often, then often again in the way grief loops. The friendship, in the end, is the answer to the question her death almost asked.",
+      "sceneTitle": "Sunday Walks",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sunday Walks"
+    }
+  ]
+}

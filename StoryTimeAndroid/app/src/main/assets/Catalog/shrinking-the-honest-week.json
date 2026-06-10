@@ -1,0 +1,433 @@
+{
+  "id": "shrinking-the-honest-week",
+  "title": "Shrinking",
+  "sourceTitle": "Shrinking",
+  "kind": "show",
+  "synopsis": "You're a grieving therapist who has started saying the unsayable thing out loud to your patients. It keeps working. It also keeps blowing up your life. One week. No filter.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-25T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "grief",
+    "therapy",
+    "friendship"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your first patient has spent two years circling the same problem and you, running on bad sleep and worse grief, are about to do the thing they tell you in school never to do: tell him exactly what you think.",
+      "sceneTitle": "Monday, 9 a.m.",
+      "choices": [
+        {
+          "text": "Tell him to leave his terrible job today",
+          "consequence": "Some advice is malpractice that happens to work.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay professional and let him circle",
+          "consequence": "The textbook is boring for a reason.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He quits by lunch and calls you crying with joy. You feel like a genius and a fraud at once. Your mentor Paul appears in your doorway with the face of a man who has heard things.",
+      "sceneTitle": "It Worked. Uh Oh.",
+      "choices": [
+        {
+          "text": "Tell Paul your new method is brilliant",
+          "consequence": "Confidence is easy until someone wiser frowns.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Downplay it and promise to be careful",
+          "consequence": "A small lie to a mentor is a tax you'll repay.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You do it right and it's agony — forty-five minutes of careful nudging while the answer sits in the room like a piano nobody will play. He leaves no better. You wonder who the caution is really protecting.",
+      "sceneTitle": "The Slow Way",
+      "choices": [
+        {
+          "text": "Resolve to try the honest way next time",
+          "consequence": "Patience has limits, and so do you.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Recommit to doing the job properly",
+          "consequence": "There's wisdom in the boring path too.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Paul, leaning on his cane and his decades, says, \"You're not healing them, you're using them.\" It stings because it's at least partly true. His Parkinson's tremor is worse today; he hates that you noticed.",
+      "sceneTitle": "Paul's Warning",
+      "choices": [
+        {
+          "text": "Ask Paul how he's really doing",
+          "consequence": "Care him back; he's a patient who refuses to be one.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Defend your methods to him",
+          "consequence": "Pride is loudest right before a fall.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your daughter Alice is seventeen and grieving her mom in the next room with the door closed. You've been so busy fixing strangers that the most important patient in your life keeps her own counsel.",
+      "sceneTitle": "Home, Sort Of",
+      "choices": [
+        {
+          "text": "Knock and just listen, no fixing",
+          "consequence": "Sometimes love is a closed mouth and an open ear.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Try to fix her grief like a session",
+          "consequence": "The cobbler's kid has the worst shoes.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Sean, the young veteran with the rage he can't land anywhere safe, has been living in your guest house and your head. He's better and angrier in turns. Today he punched a wall — and almost a person.",
+      "sceneTitle": "The Patient You Dread",
+      "choices": [
+        {
+          "text": "Push him hard, therapist to friend",
+          "consequence": "The line between the two is where the work lives.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Give him room and time",
+          "consequence": "Pressure and patience are both medicines, dosed wrong they're poison.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your colleague Gaby calls you out over coffee: you've been hiding inside everyone else's problems to avoid your own. She's right, she's kind, and she's a little in love with you, which complicates the rightness.",
+      "sceneTitle": "Gaby and the Truth",
+      "choices": [
+        {
+          "text": "Admit she's right about the hiding",
+          "consequence": "The first honest word is the heaviest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Deflect with a joke",
+          "consequence": "Humor is a beautiful place to bury things alive.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Alice finally comes out and says the thing: she's furious you got to keep working, keep talking, keep moving, while she had to sit with it. \"You help everyone but me,\" she says, and it lands like a verdict.",
+      "sceneTitle": "Alice's Door Opens",
+      "choices": [
+        {
+          "text": "Apologize without defending yourself",
+          "consequence": "An apology with a 'but' isn't one.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Explain how grief made you useless at home",
+          "consequence": "The truth, badly timed, can sound like an excuse.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The patient you told to quit his job calls back — he also told off his wife, his brother, and his landlord, using your name as permission. Your honesty has become a virus with your fingerprints on it.",
+      "sceneTitle": "Wednesday Falls Apart",
+      "choices": [
+        {
+          "text": "Take responsibility and help him clean up",
+          "consequence": "You broke it; you don't get to walk away.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Tell him he made his own choices",
+          "consequence": "Half true, fully cowardly.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "At the worst possible moment you crack wise and it doesn't land — it wounds. The person you love most looks at you like you're a stranger doing an impression of their dad. The silence after is a long hallway.",
+      "sceneTitle": "The Joke That Lands Wrong",
+      "choices": [
+        {
+          "text": "Drop the act entirely",
+          "consequence": "Take off the mask before it grows roots.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Double down because stopping feels like dying",
+          "consequence": "Sometimes we defend the very thing that's hurting us.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Paul has a fall. In the fluorescent quiet of the ER he holds your wrist and says the unsayable back to you for once: that he's scared, that he's proud of you, that you have to stop running before grief catches you sitting down.",
+      "sceneTitle": "Paul, In the Hospital",
+      "choices": [
+        {
+          "text": "Promise him you'll actually grieve",
+          "consequence": "A promise to a mentor is a rope you tie to yourself.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Tell him to focus on getting better",
+          "consequence": "Deflection, even now, even here.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "It all arrives at once — Alice, Sean, Gaby, the patient, Paul — every relationship you've been steering with one hand while not looking. Something has to give, and for once it isn't going to be someone else.",
+      "sceneTitle": "The Reckoning",
+      "choices": [
+        {
+          "text": "Call everyone together and come clean",
+          "consequence": "Radical honesty, finally aimed at the right target: you.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Disappear for a day to breathe",
+          "consequence": "Sometimes retreat is the first step of return.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You finally say her name — your wife's — out loud, in the present tense and then the past, and the room you've kept locked for a year cracks open. It is the worst and most necessary sentence of the week.",
+      "sceneTitle": "The Thing You Don't Say",
+      "choices": [
+        {
+          "text": "Let yourself fall apart in front of them",
+          "consequence": "Strength and collapse are the same door.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hold it together for everyone else",
+          "consequence": "Old habits guard the gate even now.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You drive nowhere for hours, the way you used to with her. The honesty you've been spraying at everyone turns inward and it's a far harder client to crack. The radio plays her song. You don't change it.",
+      "sceneTitle": "The Drive",
+      "choices": [
+        {
+          "text": "Turn the car around and go home",
+          "consequence": "Home is the one appointment you keep canceling.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Keep driving until you understand something",
+          "consequence": "Some answers only come at sixty miles an hour.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Alice finds you at the kitchen table at dawn, both of you wrecked and awake. For the first time you don't try to therapize her. You just say, 'I miss her too, and I'm so sorry I left you alone in it.' She sits down.",
+      "sceneTitle": "Friday, With Alice",
+      "choices": [
+        {
+          "text": "Grieve with her, no fixing",
+          "consequence": "Two people in the same wreckage is not nothing.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Make her breakfast and let the food talk",
+          "consequence": "Care is sometimes a verb that smells like toast.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Sean tells you he's moving out — not in anger, but because he's ready. \"You fixed me by treating me like family,\" he says, \"which is the one thing they tell you not to do.\" He's right, and you'd do it again.",
+      "sceneTitle": "Sean's Choice",
+      "choices": [
+        {
+          "text": "Let him go with your blessing",
+          "consequence": "The work is done when they don't need you.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Ask him to stay one more week",
+          "consequence": "Love and self-interest can wear the same coat.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You sit with Gaby and Paul and admit the honest-therapy experiment was half breakthrough, half breakdown. \"Maybe,\" Paul says, \"the trick isn't saying everything. It's saying the true thing, kindly, at the right time.\"",
+      "sceneTitle": "The Method, Reconsidered",
+      "choices": [
+        {
+          "text": "Adopt Paul's wiser version",
+          "consequence": "Wisdom is honesty that learned some manners.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Insist you'll find your own way",
+          "consequence": "Even the student's mistakes are part of the curriculum.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The week ends quieter than it started. Nobody's cured — that's not how this works — but the people you love are a little less alone, and so are you. The grief is still there. It just isn't driving anymore.",
+      "sceneTitle": "Sunday Light",
+      "choices": [
+        {
+          "text": "Make peace with being a work in progress",
+          "consequence": "Healing isn't a finish line; it's a practice.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Plan how to do better Monday",
+          "consequence": "Hope is the homework you assign yourself.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Monday returns, as Mondays do. Your first patient sits down and circles the old problem. This time you wait for the right moment and say the true thing gently — and watch it land like medicine instead of a slap.",
+      "sceneTitle": "The Right Thing, Kindly",
+      "choices": [
+        {
+          "text": "Trust the kinder honesty",
+          "consequence": "You finally learned the difference.",
+          "nextNodeId": "end_method"
+        },
+        {
+          "text": "Check in with Paul afterward, just because",
+          "consequence": "Gratitude is a session you give for free.",
+          "nextNodeId": "end_paul"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Dinner at your place: Alice, Sean, Gaby, Paul, all the broken beautiful people you accidentally collected. It's loud and imperfect and exactly the kind of mess that means you're alive. Her chair is empty, and that's okay tonight.",
+      "sceneTitle": "Family, Chosen and Otherwise",
+      "choices": [
+        {
+          "text": "Raise a glass to the people still here",
+          "consequence": "Grief and gratitude at the same table.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Slip away to talk to her, one last time this week",
+          "consequence": "Some conversations don't need a reply.",
+          "nextNodeId": "end_grief"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_method",
+      "text": "You keep the honesty and lose the recklessness, and somehow that's harder and better. Your patients get the truth at a dose they can hold. It isn't a method anymore. It's just you, finally being a good doctor and a worse martyr.",
+      "sceneTitle": "Saying the True Thing, Kindly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Saying the True Thing, Kindly"
+    },
+    {
+      "id": "end_paul",
+      "text": "Paul gets better, then worse, then better again, the way bodies do near the end of long good lives. You spend the time. You say the things. When you finally lose him, you've left nothing unsaid — the only kind of goodbye that doesn't haunt you.",
+      "sceneTitle": "For Paul",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "For Paul"
+    },
+    {
+      "id": "end_family",
+      "text": "The house is full, the wine is cheap, and your daughter is laughing for the first time in months. You built a family out of patients and friends and stubborn love. It's not the family you had. It's the one that saved you.",
+      "sceneTitle": "The People Still Here",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The People Still Here"
+    },
+    {
+      "id": "end_grief",
+      "text": "You talk to her in the dark like you used to, except now you can say her name without flinching. You're not over it. You're through the worst of it, which is the only honest thing grief ever promises. Tomorrow you go to work and help someone else find the door.",
+      "sceneTitle": "Present Tense",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Present Tense"
+    }
+  ]
+}

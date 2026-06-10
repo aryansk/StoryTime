@@ -1,0 +1,433 @@
+{
+  "id": "dont-look-up-the-press-tour",
+  "title": "Don't Look Up",
+  "sourceTitle": "Don't Look Up",
+  "kind": "movie",
+  "synopsis": "You found the comet. You also have to do a morning show. The comet does not care about ratings. Neither, soon, will you.",
+  "releaseYear": 2021,
+  "addedAt": "2026-04-29T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "satire",
+    "apocalypse",
+    "media"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your grad student's calculation matches yours. The math is not subtle. A six-mile-wide comet will, in 188 days, end most of the species. You sit very still.",
+      "sceneTitle": "Confirmation",
+      "choices": [
+        {
+          "text": "Call NASA before anyone else",
+          "consequence": "Channels first.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Call your sister, just to say it out loud",
+          "consequence": "Humans first.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Three days later you are in a beige conference room in Washington. The Chief of Staff eats a power bar while you brief. The President's daughter, in passing, asks if you've seen her hair.",
+      "sceneTitle": "The White House",
+      "choices": [
+        {
+          "text": "Demand a direct meeting with the President",
+          "consequence": "Up the chain.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Brief the science adviser thoroughly first",
+          "consequence": "Build the case.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your university PR has booked you on a morning show. The host wants you to be 'fun.' You bring three slides. He shows you two of them upside down.",
+      "sceneTitle": "Morning TV",
+      "choices": [
+        {
+          "text": "Be respectful and try to be heard",
+          "consequence": "Play the format.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Lose your composure on air",
+          "consequence": "Sometimes anger is the only signal.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A tech billionaire named Peter offers a plan: rare metals on the comet, deflection by his company's untested rockets. He has a song. He has a TED Talk on the song. He has lawyers.",
+      "sceneTitle": "The Tech Billionaire",
+      "choices": [
+        {
+          "text": "Refuse and demand a public mission",
+          "consequence": "Don't sell the planet.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Engage him cautiously to slow the deal",
+          "consequence": "Inside the room can be subversion.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your on-air anger goes viral. Within twelve hours you are a meme, a political target, and, briefly, a sex symbol. None of it solves the comet.",
+      "sceneTitle": "The Viral Clip",
+      "choices": [
+        {
+          "text": "Use the platform for science",
+          "consequence": "Spend the moment.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Disappear from media and focus on the work",
+          "consequence": "Save energy for the work.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your grad student starts taking a sedative. Your colleague at the university quietly resigns to go to a cabin. The dean asks, with a smile, whether you've considered 'softening' your tone.",
+      "sceneTitle": "The Doctor's Office",
+      "choices": [
+        {
+          "text": "Refuse to soften",
+          "consequence": "Soften and the comet doesn't.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Soften enough to stay employed",
+          "consequence": "You can't do the work if you can't pay rent.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A NASA engineer whose name you've been told to forget mails you internal data showing the deflection mission has been quietly delayed for Peter's mining plan.",
+      "sceneTitle": "The Whistle",
+      "choices": [
+        {
+          "text": "Leak it to the press",
+          "consequence": "Sunlight is the work.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take it to a senator who will hold a hearing",
+          "consequence": "Use channels still.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You go on the road — town halls in red states, blue states, places that are mostly highway. The questions are good. The exhaustion is worse than the comet. You sleep on planes.",
+      "sceneTitle": "The Tour",
+      "choices": [
+        {
+          "text": "Keep touring until the deflection date",
+          "consequence": "Be present everywhere.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Pause to rest with your family",
+          "consequence": "Carry yourself too.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Two networks carry it. Three news anchors call it 'partisan.' The senator who held the hearing is, you discover, fundraising off your testimony before it ends.",
+      "sceneTitle": "The Senate Hearing",
+      "choices": [
+        {
+          "text": "Confront the senator on her tactics",
+          "consequence": "Even allies need calling out.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take the win — congressional record matters",
+          "consequence": "Don't fight every fight.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A movement forms — students, scientists, retirees who remember Apollo. They wear plain shirts with one word: 'Look.' You meet them and feel, briefly, that this can still be won.",
+      "sceneTitle": "The Movement",
+      "choices": [
+        {
+          "text": "Join the movement as a public face",
+          "consequence": "Lead from the front.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Support quietly from the lab",
+          "consequence": "Lead from the bench.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your daughter, twelve, asks if you'd like to go skating with her on Saturday. You realize you have not been skating with her in two years. The comet, somehow, has made Saturday more important, not less.",
+      "sceneTitle": "Your Family",
+      "choices": [
+        {
+          "text": "Go skating",
+          "consequence": "Be present at the home you have.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Reschedule for after the deflection date",
+          "consequence": "Bet on the future.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Eight rockets, mostly American, some European, one Japanese. The viewing party in the desert is the saddest party you have ever attended. The launch is, by all measurements, successful.",
+      "sceneTitle": "The Deflection Mission Launches",
+      "choices": [
+        {
+          "text": "Trust the math you signed off on",
+          "consequence": "Believe the work.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay on alert for the abort signal",
+          "consequence": "Trust, verify.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Peter's rockets, late and underperforming, fail to deflect adequately. He blames the math, the comet, the woke. The public, in a startling moment of clarity, blames Peter.",
+      "sceneTitle": "Peter's Plan Fails",
+      "choices": [
+        {
+          "text": "Push for the backup public mission, faster",
+          "consequence": "Salvage with urgency.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Begin preparing the public for impact in 60 days",
+          "consequence": "Pivot to honest grief.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The deflection looks like it worked. Then a second measurement shows a smaller fragment still on intercept — city-killer, not planet-killer. The whole math gets done again, in public.",
+      "sceneTitle": "Three Months Out",
+      "choices": [
+        {
+          "text": "Push for evacuation of the projected zone",
+          "consequence": "Pragmatism saves lives.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Push for a second, smaller deflection",
+          "consequence": "Solve it again.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Three weeks out, every dinner table in the country is, in a strange way, the same dinner table. Your family eats together. You hold your daughter's hand. You realize you have, in this terrible chapter, become a better parent.",
+      "sceneTitle": "The Dinner Table",
+      "choices": [
+        {
+          "text": "Stay home for the last weeks",
+          "consequence": "Be where you love.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go on the road for one last week of public service",
+          "consequence": "Help one more.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The zone is evacuated — imperfectly, raggedly, but mostly. The fragment hits the ocean, not a city. The wave is bad. The wave is not what it could have been.",
+      "sceneTitle": "The Evacuation",
+      "choices": [
+        {
+          "text": "Help with the long recovery",
+          "consequence": "The work doesn't end with the impact.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Step back and write a book about the politics of it",
+          "consequence": "Document so it can't happen again.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Whatever the math says, you and your family sit down together for the dinner that night. The wine is bad. The food is good. The conversation, briefly, is about a memory from a beach trip nobody had thought about in ten years. You laugh.",
+      "sceneTitle": "Dinner Together",
+      "choices": [
+        {
+          "text": "Make this the meal",
+          "consequence": "Presence is the only honest verb.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Make the morning a phone call to anyone you still owe one",
+          "consequence": "Closures, all at once.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You stand in a parking lot with a clipboard and a clipboard-grade coffee, walking a displaced family through their paperwork. You realize most of what you know about the universe is, today, less useful than this.",
+      "sceneTitle": "FEMA Trailer Coffee",
+      "choices": [
+        {
+          "text": "Stay in the field for the long recovery",
+          "consequence": "Hands-on.",
+          "nextNodeId": "end_recovery"
+        },
+        {
+          "text": "Move to the policy side after a year",
+          "consequence": "Pen-on.",
+          "nextNodeId": "end_book"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Late at night in your office you write the chapter on Peter. It is, you discover, the chapter you needed to write for yourself. You decide whether to lead the book with it or bury it in an appendix.",
+      "sceneTitle": "The Chapter on Peter",
+      "choices": [
+        {
+          "text": "Lead with it; name the cost",
+          "consequence": "Be brave on page one.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Bury it; let the science breathe first",
+          "consequence": "Let the work speak.",
+          "nextNodeId": "end_recovery"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Everyone else is asleep. You boil water you don't really need. The kettle whines. You decide whether tomorrow morning is a long meal at this table or a long list of voicemails.",
+      "sceneTitle": "Tea, Three A.M.",
+      "choices": [
+        {
+          "text": "Make breakfast for whoever wakes first",
+          "consequence": "Stay home; stay close.",
+          "nextNodeId": "end_dinner"
+        },
+        {
+          "text": "Start the list of calls before sunrise",
+          "consequence": "Closures, alphabetical.",
+          "nextNodeId": "end_closures"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_recovery",
+      "text": "You spend the next decade on the politics of recovery, on the science of preparedness. You become a person who answers congressional phone calls. You age. You are tired. You are useful. That, in the end, is enough.",
+      "sceneTitle": "After",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "After"
+    },
+    {
+      "id": "end_book",
+      "text": "Your book is required reading in three different graduate programs ten years later. The next near-miss is handled with more sense, more speed, less Peter. You sign copies for students who were born after the night you stood on national TV and named the math.",
+      "sceneTitle": "The Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book"
+    },
+    {
+      "id": "end_dinner",
+      "text": "Whatever the world does, you ate together. You held hands. You said the truth quietly. You realized, finally, that the meaningful answer to a comet is, has always been, presence with the people you love. The credits roll on a kitchen.",
+      "sceneTitle": "Dinner, Together",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Dinner, Together"
+    },
+    {
+      "id": "end_closures",
+      "text": "By morning you have called everyone you owed an apology to and everyone you owed a thank-you. The list is long. The voicemails are kind. Whatever happens next, you go into it as the person you tried, all your life, to become.",
+      "sceneTitle": "The Phone Calls",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Phone Calls"
+    }
+  ]
+}

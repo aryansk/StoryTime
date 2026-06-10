@@ -1,0 +1,450 @@
+{
+  "id": "fm-interstellar",
+  "title": "Interstellar",
+  "sourceTitle": "Interstellar",
+  "kind": "movie",
+  "synopsis": "A dying Earth, a wormhole, a daughter you leave behind, and a love that turns out to be a coordinate.",
+  "releaseYear": 2014,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "space",
+    "time",
+    "father",
+    "wormhole"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A harvest is failing and a bookshelf is dropping books in patterns.",
+      "sceneTitle": "Dust",
+      "choices": [
+        {
+          "text": "Investigate",
+          "consequence": "Curious.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Brush it off",
+          "consequence": "Practical.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Murph's pattern points to a base nobody knew existed.",
+      "sceneTitle": "Coordinates",
+      "choices": [
+        {
+          "text": "Drive there",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Cautious.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Brand offers a seat on a mission to find humanity a home.",
+      "sceneTitle": "NASA Underground",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Father.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Murph throws a watch and screams from a doorway.",
+      "sceneTitle": "Saying Goodbye",
+      "choices": [
+        {
+          "text": "Promise to come back",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Lie a little",
+          "consequence": "Mercy.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Spin gravity, a long sleep, a comet of saturn outside.",
+      "sceneTitle": "Endurance",
+      "choices": [
+        {
+          "text": "Wake first",
+          "consequence": "Soldier.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sleep through",
+          "consequence": "Tired.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A globe of marbled light, a hand on yours from the other side.",
+      "sceneTitle": "Wormhole",
+      "choices": [
+        {
+          "text": "Push through",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Ocean, knee-deep, a wave like a moving mountain.",
+      "sceneTitle": "Miller's Planet",
+      "choices": [
+        {
+          "text": "Save Doyle first",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take the data",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Romilly aged twenty-three years in orbit.",
+      "sceneTitle": "Years Lost",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Cold.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Ice, a beacon, a man who has been alone too long.",
+      "sceneTitle": "Mann's Planet",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Mann smashes your helmet against a rock and runs for the Endurance.",
+      "sceneTitle": "Betrayal",
+      "choices": [
+        {
+          "text": "Fight him",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Crawl back",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Endurance is tumbling and the airlock is on fire.",
+      "sceneTitle": "Docking Spin",
+      "choices": [
+        {
+          "text": "Match the spin",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Eject and chase",
+          "consequence": "Reckless.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Earth or fresh embryos, both impossible.",
+      "sceneTitle": "Plan A vs Plan B",
+      "choices": [
+        {
+          "text": "Choose A for Murph",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Choose B for humanity",
+          "consequence": "Hard.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A black hole the size of a memory.",
+      "sceneTitle": "Gargantua",
+      "choices": [
+        {
+          "text": "Slingshot the Endurance",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Abort",
+          "consequence": "Tired.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Ranger and Lander uncouple to lose mass.",
+      "sceneTitle": "Detach",
+      "choices": [
+        {
+          "text": "Push Brand forward",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay close",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A long stretch of every clock you have ever owned.",
+      "sceneTitle": "Event Horizon",
+      "choices": [
+        {
+          "text": "Fall through",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Brace",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A library on every face of a cube, Murph's room, every minute of it.",
+      "sceneTitle": "Tesseract",
+      "choices": [
+        {
+          "text": "Push the books",
+          "consequence": "Heart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Sit",
+          "consequence": "Tired.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A second hand ticking quantum data into a child's bedroom.",
+      "sceneTitle": "Morse on the Watch",
+      "choices": [
+        {
+          "text": "Tap it",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Tap a goodbye",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A grown woman saying his name through a window of dust.",
+      "sceneTitle": "Murph at the Window",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step away",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A wheel in orbit and a chairlift to a hospital wing.",
+      "sceneTitle": "Cooper Station",
+      "choices": [
+        {
+          "text": "Visit her",
+          "consequence": "Heart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sit a moment",
+          "consequence": "Tired.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A small old hand in yours and an entire life lived without you.",
+      "sceneTitle": "Old Murph",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Brand is alone on Edmunds' planet and nobody else is coming.",
+      "sceneTitle": "Steal a Ranger",
+      "choices": [
+        {
+          "text": "Go",
+          "consequence": "Brave.",
+          "nextNodeId": "end_brand"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Wise.",
+          "nextNodeId": "end_murph"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_brand",
+      "text": "You land beside a small camp at the edge of a quiet sea. Brand walks out of the airlock with the dirt of a new world on her boots.",
+      "sceneTitle": "Edmunds' Planet",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Edmunds' Planet"
+    },
+    {
+      "id": "end_murph",
+      "text": "You sit with Murph until she sleeps and you hold her grandchild on your knee and you do not get up for a long time.",
+      "sceneTitle": "By Her Bed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "By Her Bed"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You take a janitor's job on Cooper Station and look up at the slow rotation of the wheel at night and you call yourself, finally, retired.",
+      "sceneTitle": "Stars in the Dorm",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Stars in the Dorm"
+    }
+  ]
+}

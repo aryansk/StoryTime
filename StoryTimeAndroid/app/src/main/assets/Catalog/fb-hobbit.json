@@ -1,0 +1,449 @@
+{
+  "id": "fb-hobbit",
+  "title": "The Hobbit",
+  "sourceTitle": "The Hobbit",
+  "kind": "book",
+  "synopsis": "Bag End. A round door. Thirteen dwarves on your doorstep singing about gold. There and back again, the wizard says, like that's a small thing.",
+  "releaseYear": 1937,
+  "addedAt": "2026-02-23T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "tolkien",
+    "quest",
+    "dwarves"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": "fb-lotr",
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A cake of plenty. Doors knocking. Maps unrolled.",
+      "sceneTitle": "Bag End",
+      "choices": [
+        {
+          "text": "Sign the contract",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Quiet.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Ponies. Songs. Rain.",
+      "sceneTitle": "On the Road",
+      "choices": [
+        {
+          "text": "Hum",
+          "consequence": "Joy.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Sulk",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Bert, Tom, William. A fire, a quarrel.",
+      "sceneTitle": "Trolls",
+      "choices": [
+        {
+          "text": "Steal Bilbo's plan",
+          "consequence": "Cunning.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stand tall",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Elves. Sweet bread. Elrond reads the map.",
+      "sceneTitle": "Rivendell",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Sleep first",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Misty Mountains. A trapdoor. A song nobody asked for.",
+      "sceneTitle": "Goblin Tunnels",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A cave. A pool. Gollum.",
+      "sceneTitle": "Riddles",
+      "choices": [
+        {
+          "text": "Riddle",
+          "consequence": "Wit.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stall",
+          "consequence": "Cunning.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You pick up a ring. You don't tell anyone yet.",
+      "sceneTitle": "Ring",
+      "choices": [
+        {
+          "text": "Pocket it",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Show Gandalf",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Trees on fire. Wargs and goblins below.",
+      "sceneTitle": "Eagles",
+      "choices": [
+        {
+          "text": "Wait for the eagles",
+          "consequence": "Faith.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Climb higher",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A bear-man's hall. Cake. Bees the size of swallows.",
+      "sceneTitle": "Beorn",
+      "choices": [
+        {
+          "text": "Be polite",
+          "consequence": "Civil.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Be quiet",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Don't leave the path. The river will make you sleep.",
+      "sceneTitle": "Mirkwood",
+      "choices": [
+        {
+          "text": "Stay on path",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Drink the water",
+          "consequence": "Foolish.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Webs. You name your sword Sting.",
+      "sceneTitle": "Spiders",
+      "choices": [
+        {
+          "text": "Sing to lure them",
+          "consequence": "Cunning.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Charge",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Cells. Wine. A barrel in the river.",
+      "sceneTitle": "Elf King's Dungeon",
+      "choices": [
+        {
+          "text": "Hide in the barrels",
+          "consequence": "Cunning.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Talk to the king",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The Master, the bowman Bard, the dragon under the mountain.",
+      "sceneTitle": "Lake-town",
+      "choices": [
+        {
+          "text": "Trust Bard",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Trust the Master",
+          "consequence": "Foolish.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Map. Moon-letters. A keyhole.",
+      "sceneTitle": "The Secret Door",
+      "choices": [
+        {
+          "text": "Wait for the day",
+          "consequence": "Patient.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Force it",
+          "consequence": "Foolish.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Conversation, polite, with a dragon.",
+      "sceneTitle": "Smaug",
+      "choices": [
+        {
+          "text": "Flatter him",
+          "consequence": "Cunning.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Insult him",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The black arrow. A missing scale.",
+      "sceneTitle": "Bard's Arrow",
+      "choices": [
+        {
+          "text": "Send word to Bard",
+          "consequence": "Right.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You find it. You keep it.",
+      "sceneTitle": "Arkenstone",
+      "choices": [
+        {
+          "text": "Hide it",
+          "consequence": "Strategy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Give it to Thorin",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Gold-sickness. The hall is too full of treasure to be a home.",
+      "sceneTitle": "Thorin's Madness",
+      "choices": [
+        {
+          "text": "Try to talk him down",
+          "consequence": "Friend.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Goblins, wolves, men, elves, eagles. A hobbit hides behind a rock.",
+      "sceneTitle": "Battle of Five Armies",
+      "choices": [
+        {
+          "text": "Run a message",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A handshake. A goodbye. A small forgiveness.",
+      "sceneTitle": "Thorin Dying",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stand by Gandalf",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The auction is canceled. Your spoons are mostly accounted for.",
+      "sceneTitle": "Bag End, Again",
+      "choices": [
+        {
+          "text": "Settle back in",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Plan another trip",
+          "consequence": "Spirit.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_ring"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_quiet",
+      "text": "You stay home. You write down the journey. Years later your nephew Frodo, reading the book, asks if it's all true. You say, mostly.",
+      "sceneTitle": "Quiet at Bag End",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quiet at Bag End"
+    },
+    {
+      "id": "end_writer",
+      "text": "You become, in Hobbiton, a quiet author. Children come and ask about the ring. You smile and change the subject.",
+      "sceneTitle": "Writer of Tales",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Writer of Tales"
+    },
+    {
+      "id": "end_ring",
+      "text": "You keep the ring in your waistcoat. You don't, for many years, look at it. You forget, mostly. It does not, you'll learn later, forget you.",
+      "sceneTitle": "The Ring, Pocketed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Ring, Pocketed"
+    }
+  ]
+}

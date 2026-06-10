@@ -1,0 +1,449 @@
+{
+  "id": "fm-lion-king",
+  "title": "The Lion King",
+  "sourceTitle": "The Lion King",
+  "kind": "movie",
+  "synopsis": "Pride Rock. Your father is king. Your uncle has a plan. The savanna stretches forever, until it doesn't.",
+  "releaseYear": 1994,
+  "addedAt": "2026-03-05T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "animated",
+    "kingdom",
+    "hakuna"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Sun, savanna, Rafiki lifting you above.",
+      "sceneTitle": "Pride Rock",
+      "choices": [
+        {
+          "text": "Stay close to Mufasa",
+          "consequence": "Heart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wander early",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Scar tells you about it. You and Nala explore.",
+      "sceneTitle": "Elephant Graveyard",
+      "choices": [
+        {
+          "text": "Go anyway",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay near home",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "They corner you. Mufasa arrives.",
+      "sceneTitle": "Hyenas",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Stars and ancestors. The kings of the past watch.",
+      "sceneTitle": "Father's Lesson",
+      "choices": [
+        {
+          "text": "Believe",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Scar's plan. Wildebeests in the gorge.",
+      "sceneTitle": "Stampede",
+      "choices": [
+        {
+          "text": "Climb the tree",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Run with them",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Mufasa pulls you up. Scar drops him.",
+      "sceneTitle": "Mufasa Saves",
+      "choices": [
+        {
+          "text": "See it",
+          "consequence": "Witness.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Spare.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Scar tells you to run. You believe him.",
+      "sceneTitle": "Run",
+      "choices": [
+        {
+          "text": "Run far",
+          "consequence": "Survive.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Run nearby",
+          "consequence": "Loyal.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Timon and Pumbaa. Bugs for dinner.",
+      "sceneTitle": "Hakuna Matata",
+      "choices": [
+        {
+          "text": "Try the bugs",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Years pass. You forget the rock. You almost forget yourself.",
+      "sceneTitle": "Growing Up",
+      "choices": [
+        {
+          "text": "Sing",
+          "consequence": "Joy.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "She finds you. The pride is starving.",
+      "sceneTitle": "Nala Returns",
+      "choices": [
+        {
+          "text": "Argue",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He appears with a stick. He says your father lives in you.",
+      "sceneTitle": "Rafiki",
+      "choices": [
+        {
+          "text": "Look in the water",
+          "consequence": "Path.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Remember who you are.",
+      "sceneTitle": "Mufasa in the Sky",
+      "choices": [
+        {
+          "text": "Vow",
+          "consequence": "Path.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Pride Rock is a wasteland. Hyenas everywhere.",
+      "sceneTitle": "Run Home",
+      "choices": [
+        {
+          "text": "Climb quietly",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Roar",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Your mother sees you. Briefly, she sees Mufasa.",
+      "sceneTitle": "Sarabi",
+      "choices": [
+        {
+          "text": "Embrace her",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stand back",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He admits to killing your father.",
+      "sceneTitle": "Scar's Confession",
+      "choices": [
+        {
+          "text": "Lunge",
+          "consequence": "Anger.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hold",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Lightning. The rock burns.",
+      "sceneTitle": "Fire",
+      "choices": [
+        {
+          "text": "Climb high",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Fight low",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "He lies one more time.",
+      "sceneTitle": "Scar at the Edge",
+      "choices": [
+        {
+          "text": "Spare him",
+          "consequence": "Mercy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Throw him",
+          "consequence": "Justice.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "They turn on Scar. The rock is yours.",
+      "sceneTitle": "Hyenas Decide",
+      "choices": [
+        {
+          "text": "Rain comes",
+          "consequence": "Renewal.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Mourn the dead",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Rain on the rock. Sun after.",
+      "sceneTitle": "Rain",
+      "choices": [
+        {
+          "text": "Roar",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stand quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Years later. Rafiki lifts your child.",
+      "sceneTitle": "Cub",
+      "choices": [
+        {
+          "text": "Hold Nala's hand",
+          "consequence": "Family.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stand alone",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You teach your child the stars. The cycle is, again, a circle.",
+      "sceneTitle": "Kings of the Past",
+      "choices": [
+        {
+          "text": "Pass it on",
+          "consequence": "Honor.",
+          "nextNodeId": "end_king"
+        },
+        {
+          "text": "Keep it private",
+          "consequence": "Honest.",
+          "nextNodeId": "end_council"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_legacy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_king",
+      "text": "You rule for decades. The savanna heals. Songs are sung about you. Some of them, sweetly, are about Pumbaa.",
+      "sceneTitle": "King",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "King"
+    },
+    {
+      "id": "end_council",
+      "text": "You build a council with hyenas at the table. The pride disagrees. The pride is, in the end, stronger for it.",
+      "sceneTitle": "The Council",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Council"
+    },
+    {
+      "id": "end_legacy",
+      "text": "You die old. Your cub becomes the next ruler. They, in turn, raise their own. The circle, you decide, is exactly as small as it ever was. And exactly as wide.",
+      "sceneTitle": "Circle",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Circle"
+    }
+  ]
+}

@@ -1,0 +1,450 @@
+{
+  "id": "fm-toy-story",
+  "title": "Toy Story",
+  "sourceTitle": "Toy Story",
+  "kind": "movie",
+  "synopsis": "A cowboy doll, a new space ranger, a kid named Andy, and a road trip across a backyard fence that ends at a pizza place.",
+  "releaseYear": 1995,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "pixar",
+    "toys",
+    "friendship",
+    "kids"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Andy's mother carries cake into a living room while you organize a recon.",
+      "sceneTitle": "Birthday Plans",
+      "choices": [
+        {
+          "text": "Send the soldiers",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A space ranger with retracting plastic wings is the surprise gift.",
+      "sceneTitle": "Box Sees Wings",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Polite.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Resent him",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He pins a new poster on the ceiling above where you used to sleep.",
+      "sceneTitle": "Andy's Bed",
+      "choices": [
+        {
+          "text": "Stay friendly",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Be petty",
+          "consequence": "Pride.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An accidental shove that becomes a real fall.",
+      "sceneTitle": "Window Push",
+      "choices": [
+        {
+          "text": "Confess",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hide the deed",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A space ranger thinks the gas pump is a planet.",
+      "sceneTitle": "Lost in the Yard",
+      "choices": [
+        {
+          "text": "Play along",
+          "consequence": "Mercy.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Correct him",
+          "consequence": "Hard.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A rocket-shaped truck, a chance to get back into the house.",
+      "sceneTitle": "Pizza Planet",
+      "choices": [
+        {
+          "text": "Hide in the back",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wait at the curb",
+          "consequence": "Cautious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Squeaky aliens worship a mechanical claw.",
+      "sceneTitle": "Claw Machine",
+      "choices": [
+        {
+          "text": "Climb in",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Wait outside",
+          "consequence": "Cautious.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A boy with a magnifying glass and a love of explosives.",
+      "sceneTitle": "Sid's Bedroom",
+      "choices": [
+        {
+          "text": "Be still",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Make a plan",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A spider with a doll head and a fishing pole with a baby leg.",
+      "sceneTitle": "Mutant Toys",
+      "choices": [
+        {
+          "text": "Don't be afraid",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Run",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Sid plans to strap a rocket to a new space ranger.",
+      "sceneTitle": "Backpack",
+      "choices": [
+        {
+          "text": "Tell Buzz",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "An organized swarm in the yard tells a small boy a hard lesson.",
+      "sceneTitle": "Toy Roar",
+      "choices": [
+        {
+          "text": "Lead them",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hold back",
+          "consequence": "Cautious.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Andy's family rolls out and the rest of the toys are already aboard.",
+      "sceneTitle": "Moving Truck",
+      "choices": [
+        {
+          "text": "Run for it",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Give up",
+          "consequence": "Tired.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A remote control speedster, a chase down a suburban street.",
+      "sceneTitle": "RC Car",
+      "choices": [
+        {
+          "text": "Cheer Buzz on",
+          "consequence": "Friend.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Sabotage him",
+          "consequence": "Cold.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "RC's lights dim halfway up the block.",
+      "sceneTitle": "Out of Batteries",
+      "choices": [
+        {
+          "text": "Stop",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Push harder",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A toy soldier's helmet, a rocket fuse, an idea about altitude.",
+      "sceneTitle": "Match Strike",
+      "choices": [
+        {
+          "text": "Light it",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Save the match",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Wings open. A whoosh. A backyard receding.",
+      "sceneTitle": "Up",
+      "choices": [
+        {
+          "text": "Glide",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Falter",
+          "consequence": "Frightened.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Bo Peep and the slinky dog cheering through cardboard.",
+      "sceneTitle": "Into the Box",
+      "choices": [
+        {
+          "text": "Land",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hover",
+          "consequence": "Pride.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A new round of presents, a hush of anticipation.",
+      "sceneTitle": "Christmas Morning",
+      "choices": [
+        {
+          "text": "Stand together",
+          "consequence": "Friend.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Brace alone",
+          "consequence": "Cold.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A puppy named Buster downstairs.",
+      "sceneTitle": "Andy's Bedroom Again",
+      "choices": [
+        {
+          "text": "Welcome him",
+          "consequence": "Heart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A toy you don't recognize on the floor.",
+      "sceneTitle": "First Wave",
+      "choices": [
+        {
+          "text": "Introduce yourself",
+          "consequence": "Polite.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Buzz at your shoulder. The new toys at your other. A whole bedroom of allies.",
+      "sceneTitle": "Old Friends",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Heart.",
+          "nextNodeId": "end_friend"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "end_yard"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friend",
+      "text": "You and Buzz watch a new toy meet Andy and you remember what it felt like, and you decide to be the welcoming committee from now on, forever.",
+      "sceneTitle": "Friend in Me",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Friend in Me"
+    },
+    {
+      "id": "end_yard",
+      "text": "You and Buzz become the team that handles backyard rescues, and the toys talk about you both like a small fire department.",
+      "sceneTitle": "The Yard Adventure",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Yard Adventure"
+    },
+    {
+      "id": "end_quiet",
+      "text": "The kid is dreaming. Buzz hums the theme from the commercial. You sit on the edge of the bed and you do not, for once, plan anything.",
+      "sceneTitle": "Andy Asleep",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Andy Asleep"
+    }
+  ]
+}

@@ -1,0 +1,468 @@
+{
+  "id": "outcome-the-final-down",
+  "title": "Outcome",
+  "sourceTitle": "Outcome",
+  "kind": "movie",
+  "synopsis": "A career-ending injury. A small-town team that needs you to coach them out of last place. A scout in the stands who could change everything — for a kid who is not your son but might as well be.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-09T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "sports",
+    "mentor",
+    "second chances"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The orthopedist hands you the scan and says the sentence that ends your playing career in twelve syllables. You drive home thinking about how to tell your wife. She is already on the porch with two beers.",
+      "sceneTitle": "The Diagnosis",
+      "choices": [
+        {
+          "text": "Tell her right away",
+          "consequence": "Honesty is the only shock-absorber.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Sit on the porch a while first",
+          "consequence": "Some news needs a quiet runway.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Mira mentions that the high school's head-coaching job is open. She says it like she's been thinking about it. She has.",
+      "sceneTitle": "Mira's Idea",
+      "choices": [
+        {
+          "text": "Apply on Monday",
+          "consequence": "Coaching is the next room over.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Resist; you wanted ten more years",
+          "consequence": "Grief has a right to a few days.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Down at Lou's the high-school coach has just announced his retirement. The booster club president buys you a drink and floats the idea like it's a joke. He is not joking.",
+      "sceneTitle": "The Bar",
+      "choices": [
+        {
+          "text": "Take the joke seriously",
+          "consequence": "Some doors knock back.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Laugh it off and order water",
+          "consequence": "Self-preservation is also a play.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Twenty-six boys in too-big jerseys stare at you like you're the league. You are, by their standards. By the standards of your old self, you are not yet anything new.",
+      "sceneTitle": "The First Practice",
+      "choices": [
+        {
+          "text": "Start with conditioning",
+          "consequence": "Build the body first.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Start with film",
+          "consequence": "Build the brain first.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The town hasn't won district in twenty-one years and has, somehow, an extremely organized booster club. Their goals for the season are unreasonable. Their casseroles are excellent.",
+      "sceneTitle": "The Town",
+      "choices": [
+        {
+          "text": "Promise them realistic improvement",
+          "consequence": "Honesty in the press box.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Promise them a winning season",
+          "consequence": "Sometimes belief is the play.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Junior — seventeen, six-foot-three, the arm of a man five years older — is your quarterback. He's also raising two sisters because his mother works two jobs. He has not slept enough since 2019.",
+      "sceneTitle": "The Kid",
+      "choices": [
+        {
+          "text": "Build the offense around him",
+          "consequence": "Trust the kid's gift.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take some weight off him",
+          "consequence": "Don't burn him out before college.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A college scout shows up to a Tuesday practice 'just to watch.' He is, distinctly, not just watching. He drinks coffee like a man on a clock.",
+      "sceneTitle": "The Scout",
+      "choices": [
+        {
+          "text": "Have a conversation with him",
+          "consequence": "Build the relationship for Junior.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Pretend you didn't notice him",
+          "consequence": "Don't let the kid feel the pressure yet.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You drive Junior home after practice. His mom invites you in for cornbread. His sisters do their homework on the floor. The roof leaks. The trophies on the shelf are his alone.",
+      "sceneTitle": "Junior's House",
+      "choices": [
+        {
+          "text": "Offer to help with college applications",
+          "consequence": "Mentorship widens the playbook.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay neutral — don't overpromise",
+          "consequence": "Keep the line professional.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Mira asks if you've slept. You haven't. She suggests hiring a coordinator so you can sleep occasionally. The candidate she's found used to coach a rival in the 90s and is, controversially, fluent in your old playbook.",
+      "sceneTitle": "The Offensive Coordinator",
+      "choices": [
+        {
+          "text": "Hire her",
+          "consequence": "Strong coordinators win seasons.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait until midseason to decide",
+          "consequence": "Trust your own eyes first.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You lose to a team you should have beaten by ten. Junior throws two picks in the fourth. The booster club president writes a long email that says 'with respect' six times.",
+      "sceneTitle": "Week 4 Loss",
+      "choices": [
+        {
+          "text": "Hold a film session, no chewing out",
+          "consequence": "Teach over yell.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Air it out in the locker room",
+          "consequence": "Sometimes a season needs a thunder.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Mira sits you down. 'You're already coaching like he's your son,' she says. 'Make sure he wants that — and make sure his mother is okay with it.' She is, as always, the smartest person in any room.",
+      "sceneTitle": "Your Wife, Honest",
+      "choices": [
+        {
+          "text": "Talk to Junior's mom honestly",
+          "consequence": "Get her permission, not just consent.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Talk to Junior first",
+          "consequence": "Ask the player.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You beat the third-best team in the district on Homecoming. Junior throws three touchdowns and runs in a fourth. The booster club sends three casseroles. The scout sends an email.",
+      "sceneTitle": "Homecoming",
+      "choices": [
+        {
+          "text": "Show Junior the email",
+          "consequence": "Knowledge is fuel.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Sit on the email for a week",
+          "consequence": "Don't change his head mid-season.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Junior's mother says, sitting at her kitchen table, 'If he goes to a school I can't drive to, he won't go.' She loves him. She also has the right to be afraid. Both are true.",
+      "sceneTitle": "Mom, Worried",
+      "choices": [
+        {
+          "text": "Promise her you'll find a school within driving distance",
+          "consequence": "Recruit colleges, not just for talent.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Promise her you'll help her travel to wherever he goes",
+          "consequence": "Carry the cost yourself.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Junior takes a clean hit and goes down. The team holds its breath. The trainer's two words — 'he's fine' — are the loudest thing you've heard in your life.",
+      "sceneTitle": "The Injury Scare",
+      "choices": [
+        {
+          "text": "Pull him for the rest of the half",
+          "consequence": "Cheap not to risk it.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Trust him back in after a series off",
+          "consequence": "Players need to play.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The booster club president corners you in the parking lot and 'recommends' a senior who's been sitting all season — his cousin's son. He smiles. He has a check in his pocket. He doesn't show it.",
+      "sceneTitle": "The Booster, Pressuring",
+      "choices": [
+        {
+          "text": "Refuse — politely, publicly",
+          "consequence": "Drawing the line is also coaching.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Find that senior a real role on merit",
+          "consequence": "Compromise without selling out.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "First playoff game in twelve years. The school bus is half painted by parents. Junior reads from a notebook in the locker room — a list of names, mostly teachers and his sisters. He looks up. 'For them,' he says.",
+      "sceneTitle": "Playoffs",
+      "choices": [
+        {
+          "text": "Let the speech be the speech",
+          "consequence": "Don't add anything.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Add one sentence to the team",
+          "consequence": "Lead with him, not over him.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The scout returns with two friends. Junior plays the game of his life and they walk over after, businesslike, and shake his hand. They want him at camp in June.",
+      "sceneTitle": "The Scout, Again",
+      "choices": [
+        {
+          "text": "Coach him through the offer",
+          "consequence": "He's never had a contract before.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Get him a real adviser",
+          "consequence": "Refer up; protect him.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Final play. Down four. Fourth and long. Junior takes the snap and the season — the whole strange year, the leak in the roof, the casseroles, the diagnosis — narrows to one throw.",
+      "sceneTitle": "The Championship Game",
+      "choices": [
+        {
+          "text": "Trust Junior with the play he picked",
+          "consequence": "Coach the human, not just the call.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Send in your call",
+          "consequence": "Sometimes the coach has to coach.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Whatever the scoreboard says, Junior finds you on the sideline and hugs you the way a son hugs a father. His mother is in the bleachers shouting his name in two languages. The season, you realize, was never about district.",
+      "sceneTitle": "After the Buzzer",
+      "choices": [
+        {
+          "text": "Cry where the team can see",
+          "consequence": "Let them see what care looks like.",
+          "nextNodeId": "end_legacy"
+        },
+        {
+          "text": "Save the cry for the truck ride home",
+          "consequence": "Keep one private piece.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The throw hangs in the air for a year. A small receiver who has been overlooked all season catches it with one hand, like it was always going to be him. The town becomes a single sound for thirty seconds.",
+      "sceneTitle": "The Catch",
+      "choices": [
+        {
+          "text": "Celebrate with the team first",
+          "consequence": "Let them have it before you have it.",
+          "nextNodeId": "end_win"
+        },
+        {
+          "text": "Find Junior's mother in the stands first",
+          "consequence": "Honor the woman who made the player.",
+          "nextNodeId": "end_family"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The throw hangs in the air for a year. It is caught and then dropped. The game ends. The team kneels in a circle that looks, almost, like a prayer.",
+      "sceneTitle": "The Drop",
+      "choices": [
+        {
+          "text": "Tell them what they built was bigger than the score",
+          "consequence": "Coach for the rest of their lives.",
+          "nextNodeId": "end_lesson"
+        },
+        {
+          "text": "Be quiet and let them grieve",
+          "consequence": "Give them the silence first.",
+          "nextNodeId": "end_lesson_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_win",
+      "text": "The trophy is small and ugly and beautiful. The booster club throws a parade with two fire trucks. Junior goes to a school within driving distance on a full ride. You wake up the day after district and feel, for the first time in a year, fully here.",
+      "sceneTitle": "Champions",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Champions"
+    },
+    {
+      "id": "end_family",
+      "text": "She wraps you both up — Junior and you — in a hug that says everything she does not have time to put into words. You have not been hugged like that since your own mother. You stand there holding the hug until it lets you go.",
+      "sceneTitle": "His Mother's Hug",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "His Mother's Hug"
+    },
+    {
+      "id": "end_lesson",
+      "text": "You lose the game and win the boys. Most of them graduate. Some go on to schools nobody in this town has been to. Junior, two years later, brings you a college playbook with a Post-it note that says 'thanks for the runway.'",
+      "sceneTitle": "What They Built",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "What They Built"
+    },
+    {
+      "id": "end_lesson_quiet",
+      "text": "The bus ride home is quiet. Junior leans against the window. You sit across from him without speaking. You both already know what you'll do tomorrow — the same thing you did today, only better, until it works.",
+      "sceneTitle": "The Bus Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Bus Home"
+    },
+    {
+      "id": "end_legacy",
+      "text": "Years later a man in his thirties knocks on your door — Junior, with his own kid on his hip, named after you. You did not have a son. You had, somehow, more than one. That is the outcome you didn't see coming.",
+      "sceneTitle": "Coach",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Coach"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You drive home in the dark and cry, finally, alone in the cab. Then you go inside and eat the lasagna Mira left out and watch a tape of the playoff game and notice three plays you would do differently. You sleep. You will, again, tomorrow.",
+      "sceneTitle": "Truck Ride",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Truck Ride"
+    }
+  ]
+}

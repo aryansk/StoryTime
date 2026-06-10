@@ -1,0 +1,150 @@
+{
+  "id": "mn-locksmith-2am",
+  "title": "Locksmith at 2 a.m.",
+  "sourceTitle": "Locksmith at 2 a.m.",
+  "kind": "movie",
+  "synopsis": "You answer the after-hours line. The voice is small and far away.",
+  "releaseYear": 2026,
+  "addedAt": "2026-01-30T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "work",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "An older woman locked out. She is on her front porch. It is freezing.",
+      "sceneTitle": "Phone",
+      "choices": [
+        {
+          "text": "Drive over",
+          "consequence": "Care.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Try to walk her through it",
+          "consequence": "Wise.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "She is wearing slippers. Her cat is, somehow, in the bushes.",
+      "sceneTitle": "Driveway",
+      "choices": [
+        {
+          "text": "Cat first",
+          "consequence": "Heart.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Door first",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "Old. Cantankerous. Two minutes of patience.",
+      "sceneTitle": "The Lock",
+      "choices": [
+        {
+          "text": "Take your time",
+          "consequence": "Discipline.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Force it",
+          "consequence": "Foolish.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "She turns on a kettle. Apologizes ten times. You wave her off.",
+      "sceneTitle": "Inside",
+      "choices": [
+        {
+          "text": "Stay for tea",
+          "consequence": "Honor.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Decline, gentle",
+          "consequence": "Civil.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "On the mantel, a young woman in uniform. She tells you about her daughter.",
+      "sceneTitle": "Photo",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Note the time, leave",
+          "consequence": "Wise.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "Dawn over the highway. You decide what kind of next month you want.",
+      "sceneTitle": "Drive Home",
+      "choices": [
+        {
+          "text": "Bring more presence to it",
+          "consequence": "Vow.",
+          "nextNodeId": "end_route"
+        },
+        {
+          "text": "Take a different shift",
+          "consequence": "Honest.",
+          "nextNodeId": "end_morning"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_route",
+      "text": "You become her once-a-month phone friend. You change a lightbulb for her sometimes. She bakes.",
+      "sceneTitle": "Your Route",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Your Route"
+    },
+    {
+      "id": "end_morning",
+      "text": "You go home, sleep four hours, eat pancakes. You feel, for an unrelated reason, hopeful.",
+      "sceneTitle": "Morning, On",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Morning, On"
+    }
+  ]
+}

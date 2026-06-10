@@ -1,0 +1,449 @@
+{
+  "id": "fb-great-gatsby",
+  "title": "The Great Gatsby",
+  "sourceTitle": "The Great Gatsby",
+  "kind": "book",
+  "synopsis": "West Egg, 1922. A mansion next door throws parties without inviting anyone. The owner — Gatsby — has, you'll find, planned this evening for five years.",
+  "releaseYear": 1925,
+  "addedAt": "2026-02-26T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "jazz",
+    "money",
+    "tragic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You rent next to Gatsby's mansion. The lawn glows.",
+      "sceneTitle": "The Bungalow",
+      "choices": [
+        {
+          "text": "Settle in",
+          "consequence": "Quiet.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Walk the property line",
+          "consequence": "Curious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "East Egg, across the bay. Daisy, your cousin. Tom, her husband.",
+      "sceneTitle": "Daisy's House",
+      "choices": [
+        {
+          "text": "Visit",
+          "consequence": "Family.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Tom takes you to the city. He keeps Myrtle.",
+      "sceneTitle": "Myrtle",
+      "choices": [
+        {
+          "text": "Notice",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Pretend not to notice",
+          "consequence": "Civil.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Gatsby's lawn. Champagne. Strangers. You haven't met the host.",
+      "sceneTitle": "First Party",
+      "choices": [
+        {
+          "text": "Wander",
+          "consequence": "Curious.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay near the bar",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A man with a careful smile. Old sport.",
+      "sceneTitle": "Meeting Gatsby",
+      "choices": [
+        {
+          "text": "Be polite",
+          "consequence": "Civil.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be skeptical",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Gatsby asks if you'd invite Daisy for tea.",
+      "sceneTitle": "The Plan",
+      "choices": [
+        {
+          "text": "Agree",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Rain. Roses delivered. Gatsby pacing. Daisy arrives.",
+      "sceneTitle": "Tea",
+      "choices": [
+        {
+          "text": "Step out for them",
+          "consequence": "Care.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Daisy weeps over the shirts. The image is, in a way, the whole novel.",
+      "sceneTitle": "Pool House",
+      "choices": [
+        {
+          "text": "Witness",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Tom is, finally, aware. He goes hunting.",
+      "sceneTitle": "Tom Notices",
+      "choices": [
+        {
+          "text": "Brace",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Don't tip Gatsby",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Heat, gin, accusations.",
+      "sceneTitle": "Plaza Hotel",
+      "choices": [
+        {
+          "text": "Stay calm",
+          "consequence": "Civil.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He produces evidence about Gatsby's money.",
+      "sceneTitle": "Tom's Hammer",
+      "choices": [
+        {
+          "text": "Watch Daisy's face",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Watch Gatsby's",
+          "consequence": "Witness.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Gatsby insists on letting Daisy drive.",
+      "sceneTitle": "Drive Back",
+      "choices": [
+        {
+          "text": "Sit in the back",
+          "consequence": "Witness.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The car strikes Myrtle. Daisy does not stop.",
+      "sceneTitle": "Valley of Ashes",
+      "choices": [
+        {
+          "text": "Witness",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Beg her to stop",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Gatsby tells you he'll take the blame.",
+      "sceneTitle": "Long Island, Late",
+      "choices": [
+        {
+          "text": "Tell him no",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Let him",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He waits for a call that won't come. He floats in the pool.",
+      "sceneTitle": "Pool",
+      "choices": [
+        {
+          "text": "Visit him",
+          "consequence": "Friend.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay home",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "George Wilson finds the house. The shot is small.",
+      "sceneTitle": "Wilson",
+      "choices": [
+        {
+          "text": "Hear it",
+          "consequence": "Witness.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't hear it",
+          "consequence": "Survive.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Three mourners. You. Owl Eyes. Gatsby's father.",
+      "sceneTitle": "Funeral",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Leave early",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He says, the poor son of a bitch. He means it kindly.",
+      "sceneTitle": "Owl Eyes",
+      "choices": [
+        {
+          "text": "Agree",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Be quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "They leave town with no forwarding address.",
+      "sceneTitle": "Daisy and Tom",
+      "choices": [
+        {
+          "text": "Note the careless",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Forgive them",
+          "consequence": "Mercy.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You stand at the end of the dock. The light is, again, just a light.",
+      "sceneTitle": "The Green Light",
+      "choices": [
+        {
+          "text": "Stay a moment",
+          "consequence": "Witness.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk back",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You move home to the Midwest. You write the story down.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Begin to write",
+          "consequence": "Path.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Burn the draft",
+          "consequence": "Honest.",
+          "nextNodeId": "end_midwest"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_lawyer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_book",
+      "text": "You write the book. It is, in the end, kind to Gatsby. The book outlives you. So do the parties, in their way.",
+      "sceneTitle": "The Book",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book"
+    },
+    {
+      "id": "end_midwest",
+      "text": "You go home. You marry quietly. The Eggs become a long ago. You are, sometimes, in dreams, on the lawn again.",
+      "sceneTitle": "Midwest",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Midwest"
+    },
+    {
+      "id": "end_lawyer",
+      "text": "You stay in New York and become, against your better judgement, a bond salesman. You retire early. You buy a small green-lit dock somewhere upstate, just for the joke.",
+      "sceneTitle": "Bonds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Bonds"
+    }
+  ]
+}

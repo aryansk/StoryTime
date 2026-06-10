@@ -1,0 +1,450 @@
+{
+  "id": "fm-eternal-sunshine",
+  "title": "Eternal Sunshine of the Spotless Mind",
+  "sourceTitle": "Eternal Sunshine of the Spotless Mind",
+  "kind": "movie",
+  "synopsis": "A clinic that erases people, a man who would rather keep the wound, and a beach in winter where someone said meet me.",
+  "releaseYear": 2004,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "memory",
+    "love",
+    "kaufman",
+    "beach"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A morning that doesn't make sense, a train you take instead of the office.",
+      "sceneTitle": "Skip Work",
+      "choices": [
+        {
+          "text": "Go to Montauk",
+          "consequence": "Heart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Go home",
+          "consequence": "Tired.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A blue coat, a stranger who feels like a memory.",
+      "sceneTitle": "Beach in Winter",
+      "choices": [
+        {
+          "text": "Talk to her",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Shy.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Snow on a windshield wiper, a hum that's almost a song.",
+      "sceneTitle": "Car Ride",
+      "choices": [
+        {
+          "text": "Drive her home",
+          "consequence": "Heart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Drop her off downtown",
+          "consequence": "Polite.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Footprints across the river ice.",
+      "sceneTitle": "Frozen Charles",
+      "choices": [
+        {
+          "text": "Lie down on the ice",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay upright",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A friend hands you a do-not-discuss card from a clinic.",
+      "sceneTitle": "Lacuna Card",
+      "choices": [
+        {
+          "text": "Investigate",
+          "consequence": "Curious.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ignore",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A small doctor, a couch, a hard offer.",
+      "sceneTitle": "Mierzwiak's Office",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Hard.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Walk out",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A shoebox of objects to be wiped from your head.",
+      "sceneTitle": "Box of Things",
+      "choices": [
+        {
+          "text": "Hand it over",
+          "consequence": "Final.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Keep one",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Stan and Patrick at your apartment with a machine and pizza.",
+      "sceneTitle": "Sleep",
+      "choices": [
+        {
+          "text": "Surrender",
+          "consequence": "Tired.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Open your eyes",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Clementine in orange hair laughing at a dust jacket.",
+      "sceneTitle": "Memory: Bookstore",
+      "choices": [
+        {
+          "text": "Hold the memory",
+          "consequence": "Heart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Erase it",
+          "consequence": "Tired.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A pasta she ruined and a sentence you regret.",
+      "sceneTitle": "Memory: Dinner Argument",
+      "choices": [
+        {
+          "text": "Apologize inside the memory",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Let it go",
+          "consequence": "Cold.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She tells you to hide her inside a memory she does not own.",
+      "sceneTitle": "Memory: Hide Me",
+      "choices": [
+        {
+          "text": "Hide her",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Cautious.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A small boy under a kitchen table with Clementine grown beside him.",
+      "sceneTitle": "Childhood Kitchen",
+      "choices": [
+        {
+          "text": "Hold her hand",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let her be erased",
+          "consequence": "Tired.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A receptionist at the clinic who has been erased herself.",
+      "sceneTitle": "Mary's Confession",
+      "choices": [
+        {
+          "text": "Tell her",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A technician who has been using your old love letters on his new girlfriend.",
+      "sceneTitle": "Patrick at the Door",
+      "choices": [
+        {
+          "text": "Confront him",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A woman in a doorway who knows exactly what he does to women.",
+      "sceneTitle": "Mierzwiak's Wife",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He drinks while you sleep and the machine hiccups.",
+      "sceneTitle": "Stan's Beer",
+      "choices": [
+        {
+          "text": "Forgive him later",
+          "consequence": "Mercy.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Cold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A beach, a house, a long goodbye.",
+      "sceneTitle": "Last Memory",
+      "choices": [
+        {
+          "text": "Cling to her",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let her fade",
+          "consequence": "Tired.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Sun on a ceiling, a phone with a Montauk recording playing.",
+      "sceneTitle": "Wake Up",
+      "choices": [
+        {
+          "text": "Listen all the way through",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Turn it off",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A tape of her saying things about you in detail.",
+      "sceneTitle": "Clementine on the Stairs",
+      "choices": [
+        {
+          "text": "Wait for her",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Run",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Both tapes played, both of you out on a porch with a frozen pond.",
+      "sceneTitle": "Snow on the Porch",
+      "choices": [
+        {
+          "text": "Try anyway",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A small word, a smaller laugh, a do-over with eyes open.",
+      "sceneTitle": "Okay",
+      "choices": [
+        {
+          "text": "Say it back",
+          "consequence": "Heart.",
+          "nextNodeId": "end_okay"
+        },
+        {
+          "text": "Be silent",
+          "consequence": "Honest.",
+          "nextNodeId": "end_walk"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_beach"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_okay",
+      "text": "You take her hand on the porch and you both go inside and you do not promise to do better, only to keep going at all.",
+      "sceneTitle": "Okay, Okay",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Okay, Okay"
+    },
+    {
+      "id": "end_walk",
+      "text": "You take the train back to the city and you do not call her, and on the way home you write everything down and you save it, this time, on paper.",
+      "sceneTitle": "Long Sidewalk",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Long Sidewalk"
+    },
+    {
+      "id": "end_beach",
+      "text": "A summer at Montauk a year later, both of you tan, both of you forgetting in better ways, both of you remembering, finally, who you are.",
+      "sceneTitle": "Beach Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Beach Again"
+    }
+  ]
+}

@@ -1,0 +1,449 @@
+{
+  "id": "fm-wizard-of-oz",
+  "title": "The Wizard of Oz",
+  "sourceTitle": "The Wizard of Oz",
+  "kind": "movie",
+  "synopsis": "Kansas, then not Kansas. A cyclone. A pair of shoes. A road of yellow brick. The lion needs courage. The wizard, you'll find, needs you.",
+  "releaseYear": 1939,
+  "addedAt": "2026-03-17T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "classic",
+    "journey",
+    "musical"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Auntie Em. Uncle Henry. Miss Gulch with a bicycle. Toto in your arms.",
+      "sceneTitle": "The Farm",
+      "choices": [
+        {
+          "text": "Stay with Auntie",
+          "consequence": "Family.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Run away",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You meet Professor Marvel. He reads your future kindly.",
+      "sceneTitle": "Run Away",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Spirit.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Storm cellar locked. You run for the house. The window comes loose.",
+      "sceneTitle": "Cyclone",
+      "choices": [
+        {
+          "text": "Hold on",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Lie low",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Color. Tiny people. A witch crushed by your house.",
+      "sceneTitle": "Munchkinland",
+      "choices": [
+        {
+          "text": "Sing along",
+          "consequence": "Joy.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Look for an exit",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "She arrives in a bubble. She gives you the shoes. She says follow the road.",
+      "sceneTitle": "Glinda",
+      "choices": [
+        {
+          "text": "Trust her",
+          "consequence": "Faith.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask many questions",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "He has no brain. He says so cheerfully.",
+      "sceneTitle": "Scarecrow",
+      "choices": [
+        {
+          "text": "Invite him along",
+          "consequence": "Friend.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Help him down only",
+          "consequence": "Modest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "The trees throw apples. The scarecrow improvises.",
+      "sceneTitle": "Apples",
+      "choices": [
+        {
+          "text": "Steal the apples",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Apologize and leave",
+          "consequence": "Polite.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Rust. Oilcan. A heart, missing.",
+      "sceneTitle": "Tin Man",
+      "choices": [
+        {
+          "text": "Oil him",
+          "consequence": "Care.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Oil him slowly",
+          "consequence": "Patient.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lions, tigers, bears.",
+      "sceneTitle": "Forest",
+      "choices": [
+        {
+          "text": "Hum a song",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Quiet steps",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A lion who roars and weeps in the same breath.",
+      "sceneTitle": "Lion",
+      "choices": [
+        {
+          "text": "Invite him",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Be brave for him",
+          "consequence": "Care.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Sleep. Glinda sends snow.",
+      "sceneTitle": "Poppies",
+      "choices": [
+        {
+          "text": "Wake",
+          "consequence": "Now.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Sleep through",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Green walls, green tea. A door without a handle.",
+      "sceneTitle": "Emerald City",
+      "choices": [
+        {
+          "text": "Knock politely",
+          "consequence": "Civil.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Yell",
+          "consequence": "Spirit.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Fire, smoke, a big head. He gives you a task.",
+      "sceneTitle": "Audience with the Wizard",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Negotiate",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You are captured. The witch wants the shoes.",
+      "sceneTitle": "Witch's Castle",
+      "choices": [
+        {
+          "text": "Refuse her",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Bargain for time",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your friends arrive in stolen uniforms.",
+      "sceneTitle": "Rescue",
+      "choices": [
+        {
+          "text": "Run for the door",
+          "consequence": "Speed.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Fight your way out",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The witch corners you. You throw a bucket. She melts.",
+      "sceneTitle": "Water",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Take her broom",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Toto pulls back the curtain. The wizard is a man.",
+      "sceneTitle": "Behind the Curtain",
+      "choices": [
+        {
+          "text": "Be angry",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Be gentle",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Diploma, medal, heart-shaped clock.",
+      "sceneTitle": "Gifts",
+      "choices": [
+        {
+          "text": "Accept them gratefully",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Refuse the gimmicks",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The balloon ride home. Toto runs after a cat. The balloon leaves without you.",
+      "sceneTitle": "Balloon",
+      "choices": [
+        {
+          "text": "Sit down crying",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Plan again",
+          "consequence": "Spirit.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "She tells you you've had the power all along.",
+      "sceneTitle": "Glinda Again",
+      "choices": [
+        {
+          "text": "Click the heels",
+          "consequence": "Faith.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Question it",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You wake in your bed. Aunt Em. Toto. The farm.",
+      "sceneTitle": "Kansas",
+      "choices": [
+        {
+          "text": "Tell them everything",
+          "consequence": "Honest.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Just be grateful",
+          "consequence": "Honor.",
+          "nextNodeId": "end_oz"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_storyteller"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You stay in Kansas. You marry, eventually. Your children grow up listening to a story their teachers don't quite believe. The shoes, you keep in a drawer.",
+      "sceneTitle": "There's No Place Like Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "There's No Place Like Home"
+    },
+    {
+      "id": "end_oz",
+      "text": "Years later you find a way back. You become, eventually, the steward of Emerald City. The scarecrow and tin man are, by then, regents. The lion is, mostly, a sleepy mayor.",
+      "sceneTitle": "Back to Oz",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back to Oz"
+    },
+    {
+      "id": "end_storyteller",
+      "text": "You write the book down. The book becomes a movie. The movie becomes part of every Sunday afternoon for decades. You die quietly. Toto is, by then, a small grand-pup.",
+      "sceneTitle": "The Storyteller",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Storyteller"
+    }
+  ]
+}

@@ -1,0 +1,486 @@
+{
+  "id": "eternity-choose-forever",
+  "title": "Eternity",
+  "sourceTitle": "Eternity",
+  "kind": "movie",
+  "synopsis": "You died, gently, on a Tuesday. The afterlife is a tasteful hotel with seven days to decide who you want to spend eternity with — your husband of fifty years, or the love you lost at twenty-three.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-13T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "afterlife",
+    "romance",
+    "choice"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Soft music. A clerk in a cream blazer hands you a folder titled 'Your Eternity.' You're forty years younger and your shoes feel new. He clears his throat: 'You have seven days to choose.'",
+      "sceneTitle": "The Lobby",
+      "choices": [
+        {
+          "text": "Ask for the rules in plain English",
+          "consequence": "Always read the contract.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask who's waiting for you",
+          "consequence": "The heart wants names.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The clerk smiles, professional. 'One person to share forever. Anyone who loved you and waited. Most pick a spouse. Some pick a parent. Some go alone.' He blinks. 'Two are waiting for you.'",
+      "sceneTitle": "The Rules",
+      "choices": [
+        {
+          "text": "Decide to meet both of them",
+          "consequence": "Owe everyone a hearing.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Decide quickly — your husband, of course",
+          "consequence": "Loyalty as an instinct.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He shows you the folder. Two names. Your husband Henry, who buried you yesterday with shaking hands. And David — the boy who promised you forever before he was killed in a car accident at twenty-three.",
+      "sceneTitle": "Two Names",
+      "choices": [
+        {
+          "text": "See Henry first",
+          "consequence": "Begin where you ended.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "See David first",
+          "consequence": "Begin where you began.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He is the Henry of your twenties — straight-backed, smiling, the laugh you fell for. But the rest of him is fifty years old at once: the patience, the in-jokes, the way he still finishes your sentences badly.",
+      "sceneTitle": "Henry in the Garden",
+      "choices": [
+        {
+          "text": "Embrace him without speaking",
+          "consequence": "Some loves don't need preamble.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask him if he knows about David",
+          "consequence": "Honesty in heaven, at least.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He's still twenty-three. He's reading the book he never got to finish. He looks up and the smile is the smile that made you choose, in your senior year, to keep going after he was gone.",
+      "sceneTitle": "David at the Bar",
+      "choices": [
+        {
+          "text": "Hug him and weep",
+          "consequence": "Some grief comes due fifty years late.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit across from him and ask the question",
+          "consequence": "Information is also affection.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The clerk schedules everything. Coffee with Henry at 9. Lunch with David at 12. Afternoon free, journaling encouraged. It is the strangest competitive interview of your life.",
+      "sceneTitle": "Day Two: Coffee",
+      "choices": [
+        {
+          "text": "Take the journaling seriously",
+          "consequence": "Slow thinking is the only honest kind here.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Skip the journal — trust your gut",
+          "consequence": "Your gut got you fifty years.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You walk between the hotel and a manicured cliff. Both men, separately, ask you about the parts of your life they missed. David asks about your children. Henry asks about the year you almost left him.",
+      "sceneTitle": "Day Two: Walk",
+      "choices": [
+        {
+          "text": "Tell Henry the truth about that year",
+          "consequence": "Heaven is the wrong place to lie.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell David about your children gently",
+          "consequence": "He never got to be a father.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The hotel offers a 'memory room.' You can replay any day of your life in any company. You step in alone first, just to see, and find yourself nineteen and laughing with David and Henry's best friend Walter both, all three of you in a college diner.",
+      "sceneTitle": "Day Three: Memory",
+      "choices": [
+        {
+          "text": "Replay your wedding to Henry",
+          "consequence": "Audit the vow.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Replay the night before David died",
+          "consequence": "Audit the wound.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The clerk mentions, casually, that you can also choose to share eternity with someone alive — they will not know until they arrive. Your daughter, perhaps. Your best friend.",
+      "sceneTitle": "Day Three: The Other Choice",
+      "choices": [
+        {
+          "text": "Consider waiting for your daughter",
+          "consequence": "Some loves outweigh romance.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Discard the option as too sad for them",
+          "consequence": "They have lives to finish.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You can also visit your children — not in person, but as bystander, invisible. You see your daughter eat a sandwich over the sink and cry into it. Your son finally calls his sister, for the first time in a year.",
+      "sceneTitle": "Day Four: The Children",
+      "choices": [
+        {
+          "text": "Stay and watch them for hours",
+          "consequence": "Even invisible love is love.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Step back — they deserve privacy",
+          "consequence": "Let them grieve unwatched.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You ask the clerk what David's been doing for fifty years. 'Waiting,' he says simply. 'Reading. Painting badly. Waiting.' The waiting room of eternity, it turns out, is also a real place.",
+      "sceneTitle": "Day Four: David's Side",
+      "choices": [
+        {
+          "text": "Sit with David in his waiting room",
+          "consequence": "Time owed is sometimes paid.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Ask Henry how he'd feel about you choosing David",
+          "consequence": "Generosity asks aloud.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You sit between them — separately, in different rooms — and tell each the truth. With Henry: that fifty years was a country, and you are not sure how to leave it. With David: that you have lived and changed and he has, terribly, not.",
+      "sceneTitle": "Day Five: The Honest Talk",
+      "choices": [
+        {
+          "text": "Notice how Henry hears 'leaving'",
+          "consequence": "He has been waiting to be chosen too.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Notice how David hears 'changed'",
+          "consequence": "Forever, for him, is the only thing left.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You feel, briefly, an awful clarity: you want both. You want to be twenty-three again with David and seventy with Henry and you want a clerk to bring you an option that does not exist.",
+      "sceneTitle": "Day Five: The Selfish Wish",
+      "choices": [
+        {
+          "text": "Tell the clerk you want a third option",
+          "consequence": "Always ask for what does not exist.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Resign yourself to choosing",
+          "consequence": "Even in eternity, no is the price of yes.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Off the record, the clerk admits there is a 'shared eternity' for souls in your specific bind. It is rare. It is not advertised. It requires the consent of all three, and a willingness to share what most people cannot.",
+      "sceneTitle": "Day Six: The Clerk's Confession",
+      "choices": [
+        {
+          "text": "Propose the shared eternity",
+          "consequence": "Ask both men if they could bear it.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Refuse — fairness is not a banquet",
+          "consequence": "Some honesty rules out novelty.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You sit down to write your daughter a letter she will never read on Earth. It is the longest letter of your life and it begins with the words 'I chose well.' You are not sure, yet, which 'well.'",
+      "sceneTitle": "Day Six: The Letter",
+      "choices": [
+        {
+          "text": "Address it to whoever you choose",
+          "consequence": "Let the choice author the letter.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Address it to both Henry and David",
+          "consequence": "Acknowledge them both, on paper.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "It is morning. The clerk meets you in the lobby with the folder open and a pen. He is, you realize, also somehow rooting for you.",
+      "sceneTitle": "Day Seven: The Decision",
+      "choices": [
+        {
+          "text": "Choose Henry — for the life you finished",
+          "consequence": "Honor what you built.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Choose David — for the life you didn't get",
+          "consequence": "Honor what you lost.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Choose the shared eternity, if both agree",
+          "consequence": "Risk a new shape of love.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Choose to wait for your daughter",
+          "consequence": "Honor what is still here.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Whatever you choose, there is one room where you must say goodbye to the person — or persons — you are leaving. The room is small. The lighting is kind. The clerk waits outside.",
+      "sceneTitle": "The Goodbye Room",
+      "choices": [
+        {
+          "text": "Tell each of them everything you'd want them to keep",
+          "consequence": "Goodbye is the last gift.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Keep it brief — feeling is enough",
+          "consequence": "Some farewells aren't speeches.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You walk out into a garden that is fifty years of mornings stitched together. He is making coffee. He looks up and grins. 'You took your time,' he says. 'I forgive you,' he says. 'I always forgive you,' he says. It is enough.",
+      "sceneTitle": "Henry's Forever",
+      "choices": [
+        {
+          "text": "Stay in the morning, forever",
+          "consequence": "Forever is the right size for ordinary.",
+          "nextNodeId": "end_henry"
+        },
+        {
+          "text": "Send a thought back to David, in mercy",
+          "consequence": "Even chosen love can be generous.",
+          "nextNodeId": "end_henry_kind"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He puts the book down at last. The two of you walk out of the hotel into a year you never finished — the spring you were going to spend together. The grief of fifty unlived years sits behind you like the door of a house finally locked.",
+      "sceneTitle": "David's Forever",
+      "choices": [
+        {
+          "text": "Live the spring forever",
+          "consequence": "Some forevers are a single season.",
+          "nextNodeId": "end_david"
+        },
+        {
+          "text": "Send your love back to Henry, in thanks",
+          "consequence": "Honor the man who held the world while you were gone.",
+          "nextNodeId": "end_david_kind"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The clerk leads you into a strange, gentle room where Henry and David sit on opposite couches, both holding mugs the clerk handed them ten minutes ago. They look at each other for a long time. Then, almost in unison, they look at you.",
+      "sceneTitle": "The Three of You",
+      "choices": [
+        {
+          "text": "Walk into the new shape of forever",
+          "consequence": "Some loves are not pies; they are weather.",
+          "nextNodeId": "end_shared"
+        },
+        {
+          "text": "Walk back to your own room and reconsider",
+          "consequence": "Even now, you're allowed to choose again.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You choose to wait. You sit by a window in the hotel's tower and watch the years pass. Henry, in time, joins David, somewhere. You are alone in the best sense — keeping a seat warm for the person you love most.",
+      "sceneTitle": "Your Daughter's Forever",
+      "choices": [
+        {
+          "text": "Wait for her, however long it takes",
+          "consequence": "Some loves are vigil.",
+          "nextNodeId": "end_daughter"
+        },
+        {
+          "text": "Visit her each anniversary in dreams",
+          "consequence": "Bring her small messages.",
+          "nextNodeId": "end_dream"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_henry",
+      "text": "You and Henry live the morning over and over and somehow it never gets old, because it is the morning you chose. Eternity, for you, smells like burnt toast and his bad coffee. You would, you realize, choose this a thousand times.",
+      "sceneTitle": "Fifty Years, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Fifty Years, Forever"
+    },
+    {
+      "id": "end_henry_kind",
+      "text": "You chose Henry, but you make sure David is not alone. The clerk arranges company for him — a soul who loved him too, in a life you'd never know. Forever, you decide, should be a place where nobody is forgotten.",
+      "sceneTitle": "Mercy, Both Ways",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Mercy, Both Ways"
+    },
+    {
+      "id": "end_david",
+      "text": "You live the spring you never got, and the surprise is that fifty unlived years do not weigh nothing — but they weigh less than the joy of an afternoon in the rented apartment on Sycamore, with David reading aloud while you cook. Forever turns out to be small. That is its kindness.",
+      "sceneTitle": "The Unfinished Spring",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Unfinished Spring"
+    },
+    {
+      "id": "end_david_kind",
+      "text": "You make sure your gratitude reaches Henry — a feeling, a dream, a sentence in a song he hears in the car. He cries in a grocery store parking lot and doesn't know why. You do.",
+      "sceneTitle": "Henry's Letter, Delivered",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Henry's Letter, Delivered"
+    },
+    {
+      "id": "end_shared",
+      "text": "It is strange and gentle and entirely yours. Henry and David do not become friends, exactly. They become a kind of family. The clerk visits sometimes. Eternity, you decide, is more flexible than the brochures suggest.",
+      "sceneTitle": "Three Mugs",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Three Mugs"
+    },
+    {
+      "id": "end_daughter",
+      "text": "Decades later, your daughter — old now, grey-haired — walks through the lobby with the folder. She sees you in the tower window and laughs the laugh she got from you. The clerk smiles. You go down the stairs without hurrying. You have all the time in the world.",
+      "sceneTitle": "The Seat Warmed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Seat Warmed"
+    },
+    {
+      "id": "end_dream",
+      "text": "You visit her in dreams the way her grandmother visited you. She wakes calmer, kinder, ready for another year. You will be here when she's ready. Forever, you've learned, is patient.",
+      "sceneTitle": "On Anniversaries",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "On Anniversaries"
+    }
+  ]
+}

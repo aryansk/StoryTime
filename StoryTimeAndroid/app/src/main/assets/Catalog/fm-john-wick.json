@@ -1,0 +1,450 @@
+{
+  "id": "fm-john-wick",
+  "title": "John Wick",
+  "sourceTitle": "John Wick",
+  "kind": "movie",
+  "synopsis": "A widower, a puppy, a car, and the very specific organization that did not understand who they had just woken up.",
+  "releaseYear": 2014,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "assassins",
+    "revenge",
+    "code",
+    "neon"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A package on the doorstep two days after the funeral.",
+      "sceneTitle": "Helen",
+      "choices": [
+        {
+          "text": "Open it",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Leave it",
+          "consequence": "Numb.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A small dog with a bow and a letter from your dead wife.",
+      "sceneTitle": "Daisy",
+      "choices": [
+        {
+          "text": "Take her in",
+          "consequence": "Mercy.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Send her to a shelter",
+          "consequence": "Hard.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A boy in a tracksuit wants the Mustang.",
+      "sceneTitle": "Gas Station",
+      "choices": [
+        {
+          "text": "Decline",
+          "consequence": "Calm.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Threaten",
+          "consequence": "Hard.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Three men in the house at 3 a.m. with a bat and a tire iron.",
+      "sceneTitle": "Home Invasion",
+      "choices": [
+        {
+          "text": "Fight",
+          "consequence": "Wild.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Hide and call",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A dog without breath and a car gone and a face in the floorboards you have not worn in years.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Dig up the cellar",
+          "consequence": "Final.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Lost.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A chop shop with a code about exactly which dogs you do not steal.",
+      "sceneTitle": "Aurelio",
+      "choices": [
+        {
+          "text": "Ask politely",
+          "consequence": "Patient.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Apply pressure",
+          "consequence": "Hard.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "An old client, an old debt, an old name said into a phone.",
+      "sceneTitle": "Viggo's Call",
+      "choices": [
+        {
+          "text": "Let him beg",
+          "consequence": "Cold.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Hang up",
+          "consequence": "Cold.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A hotel with marble floors and a strict rule about no business on the grounds.",
+      "sceneTitle": "The Continental",
+      "choices": [
+        {
+          "text": "Check in",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Skip it",
+          "consequence": "Reckless.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Bourbon and rules and a man who has seen you do this before.",
+      "sceneTitle": "Winston at the Bar",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Decline the drink",
+          "consequence": "Cold.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "An old friend with a rifle and orders from Viggo for double pay.",
+      "sceneTitle": "Marcus on the Roof",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't trust him",
+          "consequence": "Wary.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Neon, water, glass, and a hundred men in suits trying very hard to die.",
+      "sceneTitle": "Red Circle Stairs",
+      "choices": [
+        {
+          "text": "Move through",
+          "consequence": "Final.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Move around",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A contract violator in a hotel room with a knife and a smile.",
+      "sceneTitle": "Ms. Perkins",
+      "choices": [
+        {
+          "text": "Subdue her",
+          "consequence": "Discipline.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Kill her",
+          "consequence": "Hard.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Tasting notes for guns delivered with a wine pour.",
+      "sceneTitle": "The Sommelier",
+      "choices": [
+        {
+          "text": "Choose loud",
+          "consequence": "Direct.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Choose dependable",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Bratva, hangers-on, a kid who still thinks he is untouchable.",
+      "sceneTitle": "Iosef in the Garage",
+      "choices": [
+        {
+          "text": "Make it slow",
+          "consequence": "Hard.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Make it quick",
+          "consequence": "Mercy.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Viggo's slush fund in golden bricks under the altar.",
+      "sceneTitle": "The Church",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take it",
+          "consequence": "Practical.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Two shots that should have killed you both, neither of them his.",
+      "sceneTitle": "Marcus on the Roof, Again",
+      "choices": [
+        {
+          "text": "Forgive",
+          "consequence": "Friend.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Walk away",
+          "consequence": "Hard.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A small chain found in a drawer, a memory that fills your hands.",
+      "sceneTitle": "Helen's Necklace",
+      "choices": [
+        {
+          "text": "Wear it",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Put it back",
+          "consequence": "Hard.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Viggo, a rocket launcher, an icon of a saint, and a fire spreading.",
+      "sceneTitle": "Tarasov Hall",
+      "choices": [
+        {
+          "text": "End it cleanly",
+          "consequence": "Discipline.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Make him beg",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A long pier, two men past forty, knives that have done this before.",
+      "sceneTitle": "Docks at Dawn",
+      "choices": [
+        {
+          "text": "Use the knee",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Take the cut",
+          "consequence": "Hard.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He goes for the gun on the ground he already dropped.",
+      "sceneTitle": "Viggo on the Tarmac",
+      "choices": [
+        {
+          "text": "Wait",
+          "consequence": "Final.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Shoot first",
+          "consequence": "Quick.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Locked door, an alarm, a kennel of dogs and one small unclaimed pit bull.",
+      "sceneTitle": "Animal Hospital",
+      "choices": [
+        {
+          "text": "Take a dog",
+          "consequence": "Mercy.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Walk out alone",
+          "consequence": "Hard.",
+          "nextNodeId": "end_table"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_rule"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "Rain on the asphalt. A new dog at your hip. Helen's bench. You sit down and you do not get up for a while.",
+      "sceneTitle": "Walk Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Walk Home"
+    },
+    {
+      "id": "end_table",
+      "text": "Word travels. The next courier knocks at the kitchen door inside of a week. Daisy growls at the right times.",
+      "sceneTitle": "Back on the Table",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Back on the Table"
+    },
+    {
+      "id": "end_rule",
+      "text": "Winston pours one more bourbon. You drink it slow. The Continental has rules; you and it have always agreed about that.",
+      "sceneTitle": "No Business on Continental Grounds",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "No Business on Continental Grounds"
+    }
+  ]
+}

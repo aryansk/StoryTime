@@ -1,0 +1,449 @@
+{
+  "id": "fb-and-then-none",
+  "title": "And Then There Were None",
+  "sourceTitle": "And Then There Were None",
+  "kind": "book",
+  "synopsis": "Soldier Island. Ten guests. Each has, by the host's letter, an unconfessed crime. One by one a nursery rhyme is being acted out.",
+  "releaseYear": 1939,
+  "addedAt": "2026-02-08T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "christie",
+    "island",
+    "rhyme"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Wind, salt, the island ahead.",
+      "sceneTitle": "The Boat",
+      "choices": [
+        {
+          "text": "Make conversation",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Servants who don't know the host either.",
+      "sceneTitle": "The House",
+      "choices": [
+        {
+          "text": "Note the figurines",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Ten places. Ten people. A record begins to play.",
+      "sceneTitle": "Dinner",
+      "choices": [
+        {
+          "text": "Listen carefully",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't listen",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The recording names each of you and an old death.",
+      "sceneTitle": "Accusations",
+      "choices": [
+        {
+          "text": "Object",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He laughs, drinks, falls dead. Cyanide.",
+      "sceneTitle": "Anthony Marston",
+      "choices": [
+        {
+          "text": "Note the cyanide source",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Mourn",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Found dead in her bed.",
+      "sceneTitle": "Mrs. Rogers",
+      "choices": [
+        {
+          "text": "Note the figurines have lost two",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You search the island. No one else here.",
+      "sceneTitle": "Search",
+      "choices": [
+        {
+          "text": "Search again",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Settle in",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "He sits by the sea waiting for it.",
+      "sceneTitle": "General Macarthur",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Care.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Leave him",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Found chopped, in the woodshed.",
+      "sceneTitle": "Rogers",
+      "choices": [
+        {
+          "text": "Suspect Vera",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Suspect Blore",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "She sits in a chair, a wasp behind her.",
+      "sceneTitle": "Emily Brent",
+      "choices": [
+        {
+          "text": "Examine the syringe",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Bury her",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He proposes search procedure. He is, you note, in charge.",
+      "sceneTitle": "Wargrave",
+      "choices": [
+        {
+          "text": "Follow",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Question",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He has a revolver. Vera asks for it.",
+      "sceneTitle": "Lombard",
+      "choices": [
+        {
+          "text": "Hold it yourself",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Let him keep it",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Apparently. A wig and a robe. A staged death.",
+      "sceneTitle": "Wargrave Shot",
+      "choices": [
+        {
+          "text": "Inspect the body",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Trust Armstrong",
+          "consequence": "Naive.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He disappears in the night.",
+      "sceneTitle": "Armstrong, Missing",
+      "choices": [
+        {
+          "text": "Don't trust the seas",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Search the cliffs",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A statue dropped from above.",
+      "sceneTitle": "Blore Killed",
+      "choices": [
+        {
+          "text": "Suspect Lombard",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Suspect Vera",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "On the rocks. Wet. Dead before he was wet.",
+      "sceneTitle": "Armstrong Found",
+      "choices": [
+        {
+          "text": "Trust nobody",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Trust Lombard",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "She shoots Lombard. She walks back to the house.",
+      "sceneTitle": "Vera's Shot",
+      "choices": [
+        {
+          "text": "Climb the stairs",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Step out",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A chair, a hook. Wargrave has prepared the room.",
+      "sceneTitle": "The Noose",
+      "choices": [
+        {
+          "text": "Resist",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Step on the chair",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A note in a bottle. The judge has, on principle, judged.",
+      "sceneTitle": "Wargrave's Confession",
+      "choices": [
+        {
+          "text": "Read it slowly",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stop reading",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A storm passes. Boats arrive.",
+      "sceneTitle": "Sea Police",
+      "choices": [
+        {
+          "text": "Tell the truth",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Withhold",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Wargrave's confession surfaces. The case, eventually, is closed.",
+      "sceneTitle": "The Bottle, Found",
+      "choices": [
+        {
+          "text": "Note the artifice",
+          "consequence": "Wise.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Forget it",
+          "consequence": "Honest.",
+          "nextNodeId": "end_island"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_inspector"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_book",
+      "text": "The case is, in time, closed. The book is, in time, opened by readers in every country. The rhyme outlives every culprit.",
+      "sceneTitle": "The Bottle Surfaces",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Bottle Surfaces"
+    },
+    {
+      "id": "end_island",
+      "text": "Soldier Island becomes a small ruin. Boats pass. Tourists come, sometimes, with a camera and a copy of the book.",
+      "sceneTitle": "The Island, Empty",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Island, Empty"
+    },
+    {
+      "id": "end_inspector",
+      "text": "Maine, who finds the bottle, becomes mildly famous. He retires with a small pension. He tells the story exactly twice in his life, both at funerals.",
+      "sceneTitle": "Inspector Maine",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Inspector Maine"
+    }
+  ]
+}

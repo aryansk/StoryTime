@@ -1,0 +1,450 @@
+{
+  "id": "fm-gladiator",
+  "title": "Gladiator",
+  "sourceTitle": "Gladiator",
+  "kind": "movie",
+  "synopsis": "A general becomes a slave, becomes a gladiator, becomes the thing that an emperor cannot kill quietly.",
+  "releaseYear": 2000,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "rome",
+    "revenge",
+    "arena",
+    "loyalty"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Wheat in your fingers, and a German emissary's head in the snow.",
+      "sceneTitle": "Germania, Dawn",
+      "choices": [
+        {
+          "text": "Send a final offer",
+          "consequence": "Mercy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Order the catapults",
+          "consequence": "Soldier.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The old emperor offers you Rome until his son returns.",
+      "sceneTitle": "Aurelius' Tent",
+      "choices": [
+        {
+          "text": "Accept the burden",
+          "consequence": "Duty.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Ask to go home",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "He embraces his father a little too long. His father does not breathe again.",
+      "sceneTitle": "Commodus",
+      "choices": [
+        {
+          "text": "Confront him",
+          "consequence": "Bold.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Bide your time",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Soldiers loyal to a name you do not say. Your wife and son already two days ahead.",
+      "sceneTitle": "Praetorians at Dawn",
+      "choices": [
+        {
+          "text": "Fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Ride",
+          "consequence": "Desperate.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You arrive too late and the world ends in a doorway.",
+      "sceneTitle": "The Farmhouse Burning",
+      "choices": [
+        {
+          "text": "Bury them",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ride after the killers",
+          "consequence": "Reckless.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A trader in Zucchabar buys you cheap and feeds you better.",
+      "sceneTitle": "Proximo's Yard",
+      "choices": [
+        {
+          "text": "Train hard",
+          "consequence": "Discipline.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Refuse to perform",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A circle of dirt and a man with a curved sword who wants your life.",
+      "sceneTitle": "First Sand",
+      "choices": [
+        {
+          "text": "End it quickly",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Show the crowd",
+          "consequence": "Cunning.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A Numidian asleep with a wooden carving of his daughter on his chest.",
+      "sceneTitle": "Juba",
+      "choices": [
+        {
+          "text": "Speak",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Quiet.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Proximo says the only way to the emperor is the Colosseum.",
+      "sceneTitle": "To Rome",
+      "choices": [
+        {
+          "text": "Go willingly",
+          "consequence": "Strategic.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Chariots, archers, and a script that wants you dead in act one.",
+      "sceneTitle": "Carthage Reenactment",
+      "choices": [
+        {
+          "text": "Stand alone",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Form a wall",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Crowd silent. Sword raised. Eyes on the emperor's box.",
+      "sceneTitle": "Are You Not Entertained",
+      "choices": [
+        {
+          "text": "Throw the sword",
+          "consequence": "Defiant.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Bow",
+          "consequence": "Strategic.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Helm off. Names listed. An emperor learns whose face he has been watching.",
+      "sceneTitle": "My Name Is Maximus",
+      "choices": [
+        {
+          "text": "Speak the names",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Refuse to bow",
+          "consequence": "Pride.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "She slips into your cell with a plan and a small hand on yours.",
+      "sceneTitle": "Lucilla",
+      "choices": [
+        {
+          "text": "Trust her",
+          "consequence": "Hope.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Refuse the plot",
+          "consequence": "Cautious.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Gracchus would have you slip from Rome to your army at Ostia.",
+      "sceneTitle": "The Senator's Plan",
+      "choices": [
+        {
+          "text": "Agree",
+          "consequence": "Hope.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay for the boy",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The little prince calls you Maximus the Hero. Commodus watches from a doorway.",
+      "sceneTitle": "Lucius",
+      "choices": [
+        {
+          "text": "Be kind",
+          "consequence": "Heart.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Be cold",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Tigers from trapdoors. A retired champion across the sand.",
+      "sceneTitle": "Tigris of Gaul",
+      "choices": [
+        {
+          "text": "Spare him",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Finish him",
+          "consequence": "Hard.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A long tunnel under the city, and someone has betrayed it already.",
+      "sceneTitle": "The Escape",
+      "choices": [
+        {
+          "text": "Press on",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Turn back to the others",
+          "consequence": "Loyal.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He buys you a minute with his own life and a Spanish sword.",
+      "sceneTitle": "Proximo at the Gate",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay with him",
+          "consequence": "Loyal.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Commodus has the boy at the end of a knife on her shoulder.",
+      "sceneTitle": "Lucilla Caught",
+      "choices": [
+        {
+          "text": "Surrender",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Refuse and fight",
+          "consequence": "Hard.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Commodus slips the wound under your armor before the duel begins.",
+      "sceneTitle": "Knife in the Side",
+      "choices": [
+        {
+          "text": "Hide it",
+          "consequence": "Stoic.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Let the crowd see",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A hundred thousand silent Romans, and a brother who does not understand he has lost.",
+      "sceneTitle": "The Last Sand",
+      "choices": [
+        {
+          "text": "Strike clean",
+          "consequence": "Justice.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Drop the sword",
+          "consequence": "Mercy.",
+          "nextNodeId": "end_rome"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_name"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You walk through the long grass toward a door you remember. The latch lifts. Someone calls your name in the voice that was always home.",
+      "sceneTitle": "Wheat in the Sun",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Wheat in the Sun"
+    },
+    {
+      "id": "end_rome",
+      "text": "Gracchus carries your body out and the people carry the rest. The Republic, for a season, almost works.",
+      "sceneTitle": "A Senator's Rome",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Senator's Rome"
+    },
+    {
+      "id": "end_name",
+      "text": "Juba buries the small wooden figures in the sand and stands. We will see you again, he says. But not yet. Not yet.",
+      "sceneTitle": "Strength and Honor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Strength and Honor"
+    }
+  ]
+}

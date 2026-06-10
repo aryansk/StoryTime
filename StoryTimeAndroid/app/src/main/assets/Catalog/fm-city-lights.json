@@ -1,0 +1,450 @@
+{
+  "id": "fm-city-lights",
+  "title": "City Lights",
+  "sourceTitle": "City Lights",
+  "kind": "movie",
+  "synopsis": "A tramp, a blind flower girl, a drunken millionaire who only remembers you at night, and a small coin that decides everything.",
+  "releaseYear": 1931,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "silent",
+    "chaplin",
+    "love",
+    "kindness"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A bronze hand on which you have been sleeping.",
+      "sceneTitle": "Statue Unveiled",
+      "choices": [
+        {
+          "text": "Salute",
+          "consequence": "Polite.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Climb down",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A girl, blind, who mistakes you for a fine gentleman.",
+      "sceneTitle": "Flower Stand",
+      "choices": [
+        {
+          "text": "Buy a flower",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A man with a rope and a brick around his neck.",
+      "sceneTitle": "Embankment",
+      "choices": [
+        {
+          "text": "Stop him",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hand him a flower",
+          "consequence": "Polite.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He insists you stay, drives like a maniac, calls you brother.",
+      "sceneTitle": "Mansion",
+      "choices": [
+        {
+          "text": "Stay the night",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Slip away",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Sober, he does not know you and a butler shows you the door.",
+      "sceneTitle": "Morning",
+      "choices": [
+        {
+          "text": "Bow politely",
+          "consequence": "Polite.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Argue",
+          "consequence": "Pride.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Rent overdue, a landlord at the door, soup on the stove.",
+      "sceneTitle": "Flower Girl's Window",
+      "choices": [
+        {
+          "text": "Pay it",
+          "consequence": "Heart.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A fixed match becomes an unfixed match.",
+      "sceneTitle": "Boxing Ring",
+      "choices": [
+        {
+          "text": "Take the dive",
+          "consequence": "Practical.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Fight honestly",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Three rounds, knees that won't, a referee in the way.",
+      "sceneTitle": "Bell",
+      "choices": [
+        {
+          "text": "Hide behind the ref",
+          "consequence": "Cunning.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Throw punches",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Lights and noise and a coin you do not have.",
+      "sceneTitle": "Streetcar Home",
+      "choices": [
+        {
+          "text": "Walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Steal a ride",
+          "consequence": "Reckless.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A car at the curb with a familiar grin and a wad of cash.",
+      "sceneTitle": "Millionaire Drunk Again",
+      "choices": [
+        {
+          "text": "Accept the gift",
+          "consequence": "Practical.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Thieves at the mansion and a thousand dollars on the rug.",
+      "sceneTitle": "Burglary",
+      "choices": [
+        {
+          "text": "Tackle them",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Save the cash for the girl",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Sirens, a thrown bill, a face at the window.",
+      "sceneTitle": "Police",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Explain",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A doctor in Vienna who can give her sight.",
+      "sceneTitle": "Girl's Operation",
+      "choices": [
+        {
+          "text": "Pay him",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Pay the rent first",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Love and a note about a long trip.",
+      "sceneTitle": "Letter Slipped Under",
+      "choices": [
+        {
+          "text": "Sign it",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Cautious.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Months for a theft you did not quite commit.",
+      "sceneTitle": "Cell",
+      "choices": [
+        {
+          "text": "Endure",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Snitch",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A shabby coat, a long shadow, a street that has moved on without you.",
+      "sceneTitle": "Release",
+      "choices": [
+        {
+          "text": "Find her shop",
+          "consequence": "Heart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "She has a real storefront now and a kind smile for poor strangers.",
+      "sceneTitle": "Flower Shop",
+      "choices": [
+        {
+          "text": "Approach",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Watch from the curb",
+          "consequence": "Shy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A small coin she presses into your hand at the door.",
+      "sceneTitle": "Quarter",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Pride.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "She touches your hand and a recognition stirs in her face.",
+      "sceneTitle": "Her Fingers",
+      "choices": [
+        {
+          "text": "Stay still",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Withdraw",
+          "consequence": "Frightened.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "She asks, almost laughing, almost not.",
+      "sceneTitle": "Question",
+      "choices": [
+        {
+          "text": "Nod",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Bow your head",
+          "consequence": "Shy.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The smallest possible smile, and the last shot of a movie that does not need to say more.",
+      "sceneTitle": "Smile",
+      "choices": [
+        {
+          "text": "Smile back",
+          "consequence": "Heart.",
+          "nextNodeId": "end_yes"
+        },
+        {
+          "text": "Look down",
+          "consequence": "Honest.",
+          "nextNodeId": "end_walk"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_friend"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_yes",
+      "text": "She closes her fingers around yours and laughs and laughs, and you both stand in the doorway of a flower shop that smells of gardenia and the future.",
+      "sceneTitle": "You Can See Now",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "You Can See Now"
+    },
+    {
+      "id": "end_walk",
+      "text": "You go before she can be ashamed and the bell on her door rings behind you and the street takes you back. The film ends on a frame of empty pavement.",
+      "sceneTitle": "The Long Walk",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Walk"
+    },
+    {
+      "id": "end_friend",
+      "text": "You become her quiet best customer, never said for what you are. She finds out, decades later, from a letter in a drawer.",
+      "sceneTitle": "Friend of the Shop",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Friend of the Shop"
+    }
+  ]
+}

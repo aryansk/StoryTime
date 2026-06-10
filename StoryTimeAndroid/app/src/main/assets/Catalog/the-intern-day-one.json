@@ -1,0 +1,433 @@
+{
+  "id": "the-intern-day-one",
+  "title": "The Intern",
+  "sourceTitle": "The Intern",
+  "kind": "movie",
+  "synopsis": "You're seventy and a senior intern at a fashion startup run by a woman who is brilliant and bone-tired. You have one job: be useful. You are the only one in the office who has done this work for forty years longer than the founder has been alive.",
+  "releaseYear": 2015,
+  "addedAt": "2026-05-08T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "mentor",
+    "workplace",
+    "warmth"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your badge says 'Senior Intern' and your desk faces an open-plan office of people on standing-desk treadmills. The CEO, Jules, has, on paper, eight minutes a day. You set your watch.",
+      "sceneTitle": "Orientation",
+      "choices": [
+        {
+          "text": "Wait to be assigned a task",
+          "consequence": "Patience is a skill they haven't seen.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Find something useful immediately",
+          "consequence": "Initiative is your superpower.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Nobody knows what to do with you. You read the company's website twice. You watch Jules walk past your desk three times without seeing you. At 5:01 you go home and tell your daughter it was 'great.'",
+      "sceneTitle": "The Useless Day",
+      "choices": [
+        {
+          "text": "Come back tomorrow with a plan",
+          "consequence": "Plan B.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Tell Jules's COO you want a project",
+          "consequence": "Apply directly.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Jules's desk is a small civilization of receipts, samples, and three coffee cups. You ask her assistant if you can tidy it for an hour. The assistant looks at you like you offered to climb Everest barefoot.",
+      "sceneTitle": "The Cluttered Desk",
+      "choices": [
+        {
+          "text": "Tidy with respect — touch only what's clearly trash",
+          "consequence": "Boundaries are also kindness.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Color-code the supply closet first",
+          "consequence": "Win small before big.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Jules's chauffeur quits — Uber wars, a scheduling issue, life. You, who once drove for a living, casually offer. She refuses politely. Then she gets in.",
+      "sceneTitle": "The Drive Home",
+      "choices": [
+        {
+          "text": "Be a calm professional driver",
+          "consequence": "Let her work in the back.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be a calm presence and a sounding board",
+          "consequence": "Listen when she breathes.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A young coworker named Cameron shyly asks you how to write a 'business email that doesn't sound like Slack.' This is, you realize, your real job.",
+      "sceneTitle": "Cameron, Hungry to Learn",
+      "choices": [
+        {
+          "text": "Teach him over coffee",
+          "consequence": "Mentorship is the actual product.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Send him a one-pager",
+          "consequence": "Documentation lasts longer than coffee.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "She invites you in to meet her husband Matt and her daughter Paige. Matt is a stay-at-home dad who is, you sense immediately, drowning quietly. Paige drops a pancake on your shoe and hugs your leg.",
+      "sceneTitle": "Jules's Home",
+      "choices": [
+        {
+          "text": "Be helpful without overstepping",
+          "consequence": "Be a guest, not a fixer.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Notice Matt's loneliness gently",
+          "consequence": "See people fully.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Cameron is up for a small promotion and is too humble to fight for it. You suggest a quiet sentence to say to his manager. He says it. He gets the title. He brings you a muffin.",
+      "sceneTitle": "Cameron's Promotion",
+      "choices": [
+        {
+          "text": "Refuse the muffin with a smile",
+          "consequence": "Decline currency for kindness.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Accept the muffin and ask him to mentor someone next",
+          "consequence": "Pay forward.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The investors suggest Jules step aside and hire a 'professional CEO.' Jules forwards you the email at midnight by accident. The forward is — you suspect — not entirely an accident.",
+      "sceneTitle": "The Board's Suggestion",
+      "choices": [
+        {
+          "text": "Listen the next morning, no advice",
+          "consequence": "Hold space first.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Offer one careful sentence of perspective",
+          "consequence": "Mentor without prescribing.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Matt asks if you have time for a coffee. He has, you realize, no one in his life he can talk to about being the only stay-at-home dad in this zip code. You have, in your forty-year career, met many men who needed this conversation.",
+      "sceneTitle": "Matt's Coffee",
+      "choices": [
+        {
+          "text": "Have the coffee and listen",
+          "consequence": "Care travels strange roads.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Suggest he join the dads' group at the school",
+          "consequence": "Plug him into community.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A small operational disaster — a vendor shipped two thousand wrong-colored boxes — threatens a launch. You quietly know three vendors who can pivot in 24 hours. You make four calls in fifteen minutes.",
+      "sceneTitle": "The Office Crisis",
+      "choices": [
+        {
+          "text": "Solve it quietly and never mention it",
+          "consequence": "Power is a verb.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Solve it and brief Jules cleanly",
+          "consequence": "Give credit; build trust.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Becky, Jules's overworked assistant, hits a wall and cries in the supply closet. She is also, you find out, a brilliant manager who has been hiding it. You see her clearly.",
+      "sceneTitle": "Becky's Confession",
+      "choices": [
+        {
+          "text": "Recommend Becky for a promotion",
+          "consequence": "Promote what you see.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Build a 90-day plan with her quietly",
+          "consequence": "Coach where you can.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Matt confides, ashamed, that he's done something wrong in his marriage. He's not asking advice. He's asking what to do. The mentor in you knows there is no shortcut.",
+      "sceneTitle": "Matt's Mistake",
+      "choices": [
+        {
+          "text": "Tell him the truth gently",
+          "consequence": "Be a friend with a spine.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Ask him what he wants for his marriage in a year",
+          "consequence": "Coach the future, not the moment.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Jules cries in a hotel room in San Francisco at 1 a.m. and you sit on the second bed at a respectful distance and say nothing for a long time. Then you hand her a tissue.",
+      "sceneTitle": "Jules's Cry",
+      "choices": [
+        {
+          "text": "Be quietly present",
+          "consequence": "Care is sometimes a tissue.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Say one perfect sentence",
+          "consequence": "When you do speak, it counts.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Jules's pitch to the board about staying as CEO is the most important hour of her year. She rehearses in front of you. You correct two slides. You leave the third alone because she's right about it and doesn't know it yet.",
+      "sceneTitle": "The Pitch Meeting",
+      "choices": [
+        {
+          "text": "Tell her she's right about slide three",
+          "consequence": "Make her see what you see.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Let her discover it on her own",
+          "consequence": "Trust is also a slide.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "An office party. Jules dances with her assistant. Cameron dances badly with a girl from accounting. You dance with a colleague named Fiona, who is, somehow, very pleasant company.",
+      "sceneTitle": "The Office Dance Floor",
+      "choices": [
+        {
+          "text": "Ask Fiona to dinner",
+          "consequence": "Companionship at any age.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay friendly, no more",
+          "consequence": "Take care of your own pace.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Jules emerges from the boardroom slightly windswept. 'I'm staying,' she says. 'Also, the new chairwoman wants to hire you full-time. I told her no. You're mine.'",
+      "sceneTitle": "The Board Decision",
+      "choices": [
+        {
+          "text": "Accept Jules's offer",
+          "consequence": "Stay in the room you helped build.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Negotiate for a fractional schedule",
+          "consequence": "Make space for life.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Jules can't make it. You go in her place with Matt and Paige's homemade sign. Paige sees you in the audience and her face lights up like a small city.",
+      "sceneTitle": "Paige's School Play",
+      "choices": [
+        {
+          "text": "Take a hundred terrible photos to send to Jules",
+          "consequence": "Bridge the room she's not in.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Just be there, fully present",
+          "consequence": "Sometimes you're the photo.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The company is stable. Cameron runs a team. Becky runs operations. Matt and Jules are, somehow, more married than ever. You make a list every Sunday night called 'people I owe a call this week.' The list is long. You like it long.",
+      "sceneTitle": "One Year Later",
+      "choices": [
+        {
+          "text": "Keep working as long as it's useful",
+          "consequence": "Usefulness is a kind of youth.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Plan a slow retirement again, on your terms",
+          "consequence": "Slow exit, full heart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Cameron leaves a handwritten letter on your desk on a Friday afternoon. It is two pages, slightly smudged, and it begins with 'You taught me how to be a colleague.' You read it twice and put it in the drawer where you keep important things.",
+      "sceneTitle": "Cameron's Letter",
+      "choices": [
+        {
+          "text": "Stay because letters like this exist",
+          "consequence": "Mentorship is the only career that pays in letters.",
+          "nextNodeId": "end_useful"
+        },
+        {
+          "text": "Plan the slow goodbye, with letters of your own to write",
+          "consequence": "Pay it forward in ink.",
+          "nextNodeId": "end_slow"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You still do tai chi in the park at 6:30. Fiona occasionally joins you, occasionally rolls her eyes. You read the paper and walk to the office. You greet the security guard by name. He greets you by name. This is, on most days, enough.",
+      "sceneTitle": "Tai Chi at Dawn",
+      "choices": [
+        {
+          "text": "Take Fiona on a weekend trip",
+          "consequence": "Companionship is a verb.",
+          "nextNodeId": "end_companion"
+        },
+        {
+          "text": "Keep tai chi alone, mostly",
+          "consequence": "Solitude is also fine.",
+          "nextNodeId": "end_serene"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_useful",
+      "text": "They keep updating your title to dodge HR. You don't care. The cards on your desk are from kids you mentored two years ago, grown now, sending wedding photos. You are the office's secret asset, and it is, by some odd math, the best decade of your life.",
+      "sceneTitle": "Senior Intern, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Senior Intern, Forever"
+    },
+    {
+      "id": "end_slow",
+      "text": "You ramp down to two days a week and then to one a month and then to occasional cameos. The company throws you a party with a cake shaped like a briefcase. You cry. So does Cameron. So does Jules.",
+      "sceneTitle": "The Slow Exit",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Slow Exit"
+    },
+    {
+      "id": "end_companion",
+      "text": "You and Fiona drive to a small inn upstate. There is leaf-peeping. There is bad wine. There is a fire in the lobby. You laugh at the same joke at the same time. You are, you realize, dating, at seventy. Strange. Good.",
+      "sceneTitle": "A Weekend in Vermont",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Weekend in Vermont"
+    },
+    {
+      "id": "end_serene",
+      "text": "Some mornings the park is just you and three other tai chi regulars and a fat dog. The sun comes up. You move slowly. You have, at last, a life that fits you. You did not expect, this late, to be quite this content.",
+      "sceneTitle": "The Park at Dawn",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Park at Dawn"
+    }
+  ]
+}

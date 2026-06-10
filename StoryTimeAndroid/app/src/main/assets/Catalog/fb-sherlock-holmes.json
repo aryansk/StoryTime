@@ -1,0 +1,449 @@
+{
+  "id": "fb-sherlock-holmes",
+  "title": "The Adventures of Sherlock Holmes",
+  "sourceTitle": "The Adventures of Sherlock Holmes",
+  "kind": "book",
+  "synopsis": "221B Baker Street. A cab in the rain. A client with a peculiar problem. You are, today, Holmes. The game, as he often says, is afoot.",
+  "releaseYear": 1892,
+  "addedAt": "2026-02-11T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "mystery",
+    "victorian",
+    "deduction"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "She brings tea. Watson is at the window.",
+      "sceneTitle": "Mrs. Hudson",
+      "choices": [
+        {
+          "text": "Read the paper",
+          "consequence": "Practice.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait for a knock",
+          "consequence": "Patient.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A young woman with a half-burned letter.",
+      "sceneTitle": "Client at the Door",
+      "choices": [
+        {
+          "text": "Read the letter",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Read her hands",
+          "consequence": "Method.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Outside, mud, two horses, fresh from the south road.",
+      "sceneTitle": "The Carriage Tracks",
+      "choices": [
+        {
+          "text": "Pursue",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Wait for more clues",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Scotland Yard's most enthusiastic mistake. He invites you to a scene.",
+      "sceneTitle": "Lestrade",
+      "choices": [
+        {
+          "text": "Go",
+          "consequence": "Path.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Send Watson",
+          "consequence": "Strategy.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A locked study. Powder on the curtain. A faint scent of cigar.",
+      "sceneTitle": "The Scene",
+      "choices": [
+        {
+          "text": "Smell carefully",
+          "consequence": "Method.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Look for fingerprints",
+          "consequence": "Modern.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The butler. The nephew. The maid. The dog who didn't bark.",
+      "sceneTitle": "Suspicion",
+      "choices": [
+        {
+          "text": "The dog",
+          "consequence": "Method.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "The nephew",
+          "consequence": "Obvious.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You become an unemployed groom. Watson is, briefly, scandalized.",
+      "sceneTitle": "Disguise",
+      "choices": [
+        {
+          "text": "Visit the stables",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Visit the gentleman's club",
+          "consequence": "Society.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your brother knows things you don't. He weighs an opinion like a kingdom.",
+      "sceneTitle": "Mycroft",
+      "choices": [
+        {
+          "text": "Visit the Diogenes Club",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Don't bother him",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "From the south coast. Inquire about the schooner Friesland.",
+      "sceneTitle": "Telegram",
+      "choices": [
+        {
+          "text": "Catch the next train",
+          "consequence": "Path.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Telegraph back",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A figure in a top hat does not, in fact, want to be followed.",
+      "sceneTitle": "Brighton",
+      "choices": [
+        {
+          "text": "Follow on the pier",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Set a trap",
+          "consequence": "Cunning.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He talks. Money is, sometimes, fluent.",
+      "sceneTitle": "The Boatman",
+      "choices": [
+        {
+          "text": "Pay him generously",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pay him modestly",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You decode it in five minutes by counting letters.",
+      "sceneTitle": "The Coded Letter",
+      "choices": [
+        {
+          "text": "Note it",
+          "consequence": "Method.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Don't show off",
+          "consequence": "Modesty.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He is, in fact, the missing heir. He has been hiding for years.",
+      "sceneTitle": "Honoria's Brother",
+      "choices": [
+        {
+          "text": "Find him kindly",
+          "consequence": "Care.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He is well-bred, well-dressed, and willing to murder. The worst kind.",
+      "sceneTitle": "The Villain",
+      "choices": [
+        {
+          "text": "Don't underestimate him",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Take him alone",
+          "consequence": "Pride.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A different case, a different waterfall. He proposes single combat.",
+      "sceneTitle": "Reichenbach",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Brave.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Plan a trick",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You and he go over. Watson finds the note.",
+      "sceneTitle": "Drop",
+      "choices": [
+        {
+          "text": "Survive",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You return to Baker Street disguised as a bookseller.",
+      "sceneTitle": "Three Years Gone",
+      "choices": [
+        {
+          "text": "Reveal slowly",
+          "consequence": "Style.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Reveal quickly",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "She faints once and recovers twice.",
+      "sceneTitle": "Hudson's Reaction",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Civil.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Move past",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He punches the table. He hugs you.",
+      "sceneTitle": "Watson's Hands",
+      "choices": [
+        {
+          "text": "Apologize properly",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Joke",
+          "consequence": "Style.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A new client. A small problem. You smile.",
+      "sceneTitle": "The Letter from Mary",
+      "choices": [
+        {
+          "text": "Take the case",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Recommend a colleague",
+          "consequence": "Patient.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Mrs. Hudson brings tea. You and Watson sip in companionable silence.",
+      "sceneTitle": "Tea",
+      "choices": [
+        {
+          "text": "Sip",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_retire"
+        },
+        {
+          "text": "Begin the next thing",
+          "consequence": "Path.",
+          "nextNodeId": "end_lestrade"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_book"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_retire",
+      "text": "You retire to Sussex to keep bees. You write a small book on apiology that is, mercifully, better than the police think.",
+      "sceneTitle": "Sussex Downs",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sussex Downs"
+    },
+    {
+      "id": "end_lestrade",
+      "text": "Lestrade, decades on, gives a speech in your honor. He calls you, with feeling, the best and wisest man he ever knew. Watson cries discreetly.",
+      "sceneTitle": "Lestrade's Tribute",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lestrade's Tribute"
+    },
+    {
+      "id": "end_book",
+      "text": "Watson publishes. The Strand prints. The world reads. You are, against your will, a literary figure for two centuries.",
+      "sceneTitle": "The Adventures",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Adventures"
+    }
+  ]
+}

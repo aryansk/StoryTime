@@ -1,0 +1,449 @@
+{
+  "id": "fb-pride-prejudice",
+  "title": "Pride and Prejudice",
+  "sourceTitle": "Pride and Prejudice",
+  "kind": "book",
+  "synopsis": "Longbourn, regency England. A single man in possession of a good fortune is in want of a wife. Your mother is, somehow, aware of every such man in the county.",
+  "releaseYear": 1813,
+  "addedAt": "2026-03-01T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "austen",
+    "marriage",
+    "wit"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Bingley has taken Netherfield. Mama is, immediately, planning.",
+      "sceneTitle": "Netherfield Lets",
+      "choices": [
+        {
+          "text": "Indulge her",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Tease her",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Bingley is amiable. His friend Darcy is, instantly, insufferable.",
+      "sceneTitle": "Meryton Assembly",
+      "choices": [
+        {
+          "text": "Be amused by him",
+          "consequence": "Wit.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be wounded",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Darcy says you are tolerable but not handsome enough to tempt him. Charlotte overhears.",
+      "sceneTitle": "Tolerable",
+      "choices": [
+        {
+          "text": "Laugh it off",
+          "consequence": "Pride.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "File it away",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Jane is sent to Netherfield in the rain. She catches cold.",
+      "sceneTitle": "Jane and Bingley",
+      "choices": [
+        {
+          "text": "Walk to nurse her",
+          "consequence": "Sister.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Modesty.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "You arrive at Netherfield, muddy. The Bingley sisters notice.",
+      "sceneTitle": "Muddy Petticoats",
+      "choices": [
+        {
+          "text": "Ignore them",
+          "consequence": "Spirit.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Civil.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "He watches you across rooms. You assume the worst of him.",
+      "sceneTitle": "Darcy in the Library",
+      "choices": [
+        {
+          "text": "Stay sharp with him",
+          "consequence": "Spirit.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Be curious",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A cousin, awful, proposes. He will inherit Longbourn.",
+      "sceneTitle": "Mr. Collins",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Self.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Marry him",
+          "consequence": "Family.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your friend marries him. You are, at first, hurt.",
+      "sceneTitle": "Charlotte",
+      "choices": [
+        {
+          "text": "Understand her",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Judge her",
+          "consequence": "Pride.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A charming officer. He tells you Darcy ruined him.",
+      "sceneTitle": "Wickham",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Sympathetic.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Doubt him",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You visit Charlotte. Lady Catherine de Bourgh is, somehow, much.",
+      "sceneTitle": "Hunsford",
+      "choices": [
+        {
+          "text": "Endure",
+          "consequence": "Civil.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Spar",
+          "consequence": "Spirit.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "He proposes, against his will. He is, in proposing, awful.",
+      "sceneTitle": "Darcy's Proposal",
+      "choices": [
+        {
+          "text": "Refuse him",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He writes you a letter. Wickham is, in fact, a scoundrel.",
+      "sceneTitle": "The Letter",
+      "choices": [
+        {
+          "text": "Reread it",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Burn it",
+          "consequence": "Pride.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You tour, by chance. The house is, mortifyingly, lovely.",
+      "sceneTitle": "Pemberley",
+      "choices": [
+        {
+          "text": "Admire it",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Mock it",
+          "consequence": "Pride.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He returns early. He is, against expectation, kind.",
+      "sceneTitle": "Darcy, Surprised",
+      "choices": [
+        {
+          "text": "Be civil",
+          "consequence": "Civil.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Be flustered",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your youngest sister has run off with Wickham.",
+      "sceneTitle": "Lydia's Elopement",
+      "choices": [
+        {
+          "text": "Hurry home",
+          "consequence": "Family.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay calm",
+          "consequence": "Civil.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He, secretly, arranges the marriage and pays Wickham's debts.",
+      "sceneTitle": "Mr. Darcy Acts",
+      "choices": [
+        {
+          "text": "Suspect him gratefully",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Suspect uncle",
+          "consequence": "Naive.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "She demands you promise not to marry her nephew.",
+      "sceneTitle": "Lady Catherine Visits",
+      "choices": [
+        {
+          "text": "Refuse to promise",
+          "consequence": "Spirit.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Pretend",
+          "consequence": "Strategy.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Darcy proposes again. Differently.",
+      "sceneTitle": "Walk Out",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Confess your error first",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Mama, hearing, almost faints with joy.",
+      "sceneTitle": "Mother",
+      "choices": [
+        {
+          "text": "Tolerate",
+          "consequence": "Family.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Calm her",
+          "consequence": "Patient.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A double wedding for Jane and you. Darcy stands tall. Bingley smiles.",
+      "sceneTitle": "Wedding",
+      "choices": [
+        {
+          "text": "Take Darcy's hand",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Take Jane's hand first",
+          "consequence": "Sister.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You walk the library with the master of it. The shelves are higher than the house in Hertfordshire.",
+      "sceneTitle": "Pemberley, Yours",
+      "choices": [
+        {
+          "text": "Read often",
+          "consequence": "Joy.",
+          "nextNodeId": "end_pemberley"
+        },
+        {
+          "text": "Manage the estate",
+          "consequence": "Duty.",
+          "nextNodeId": "end_sister"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_writer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_pemberley",
+      "text": "You manage Pemberley with grace. The Darcy heirs are, mercifully, more like their father than your mother. Lady Catherine, eventually, visits.",
+      "sceneTitle": "Mistress of Pemberley",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Mistress of Pemberley"
+    },
+    {
+      "id": "end_sister",
+      "text": "Jane and you live within a day's ride. Your children grow up together. You are, in middle age, sometimes silly with her in the way of girls in a sitting room.",
+      "sceneTitle": "Both Sisters",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Both Sisters"
+    },
+    {
+      "id": "end_writer",
+      "text": "You write, late in life, a quiet anonymous novel about a country family with too many daughters. It does, surprisingly, well.",
+      "sceneTitle": "Writer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Writer"
+    }
+  ]
+}

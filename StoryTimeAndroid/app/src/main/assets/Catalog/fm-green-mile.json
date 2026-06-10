@@ -1,0 +1,450 @@
+{
+  "id": "fm-green-mile",
+  "title": "The Green Mile",
+  "sourceTitle": "The Green Mile",
+  "kind": "movie",
+  "synopsis": "A death row in 1935, a giant inmate who heals what he touches, and a guard who has to decide what mercy means in a green corridor.",
+  "releaseYear": 1999,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "prison",
+    "miracle",
+    "execution",
+    "kindness"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A mouse on the green linoleum that everyone pretends not to see.",
+      "sceneTitle": "Mr. Jingles",
+      "choices": [
+        {
+          "text": "Leave a crumb",
+          "consequence": "Mercy.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Set the trap",
+          "consequence": "Cold.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Six feet eight, hands the size of dinner plates, weeping.",
+      "sceneTitle": "New Inmate",
+      "choices": [
+        {
+          "text": "Lead him gently",
+          "consequence": "Care.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Cuff him hard",
+          "consequence": "Hard.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A nephew of a governor with a baton and a small cruelty.",
+      "sceneTitle": "Percy",
+      "choices": [
+        {
+          "text": "Stand up to him",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Manage him",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A urinary infection that will kill you slowly.",
+      "sceneTitle": "Bladder, Burning",
+      "choices": [
+        {
+          "text": "See a doctor",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Push through",
+          "consequence": "Stubborn.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He asks for your face, palms up.",
+      "sceneTitle": "Coffey's Hands",
+      "choices": [
+        {
+          "text": "Let him",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Cautious.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A pain that was a wall is suddenly a door.",
+      "sceneTitle": "Healed",
+      "choices": [
+        {
+          "text": "Tell the warden",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Tell no one",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A new inmate, a yellow grin, a habit of spitting.",
+      "sceneTitle": "Wild Bill",
+      "choices": [
+        {
+          "text": "Keep him chained",
+          "consequence": "Hard.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Try kindness",
+          "consequence": "Hope.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A miracle in cupped hands, a tail in fingers like a thread.",
+      "sceneTitle": "Del's Mouse",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Smile",
+          "consequence": "Heart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A spool, a song, a trick learned in a quiet cell.",
+      "sceneTitle": "Mr. Jingles Performs",
+      "choices": [
+        {
+          "text": "Applaud",
+          "consequence": "Heart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay neutral",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Percy forgets the wet sponge for the chair on purpose.",
+      "sceneTitle": "Sponge Dry",
+      "choices": [
+        {
+          "text": "Hit Percy",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Hold the line",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The smell, the screaming, a thing nobody who was there ever forgets.",
+      "sceneTitle": "Del at the Chair",
+      "choices": [
+        {
+          "text": "Look",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Look away",
+          "consequence": "Mercy.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Melinda is dying of a brain tumor and a smile that is no longer hers.",
+      "sceneTitle": "Visit to the Warden's Wife",
+      "choices": [
+        {
+          "text": "Take Coffey",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "He sucks the sickness into his mouth like flies.",
+      "sceneTitle": "Touch",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Pray",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He spits the bugs into the air over a kitchen sink.",
+      "sceneTitle": "Sick Black Cloud",
+      "choices": [
+        {
+          "text": "Lock the doors",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Open the window",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A man cured of nothing has Coffey's mouth on his and inherits the curse.",
+      "sceneTitle": "Percy",
+      "choices": [
+        {
+          "text": "Let it happen",
+          "consequence": "Hard.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Pull him off",
+          "consequence": "Mercy.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He grins through bars and brags about two little girls in a barn.",
+      "sceneTitle": "Wild Bill, Crowed",
+      "choices": [
+        {
+          "text": "Restrain Percy",
+          "consequence": "Discipline.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Step back",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Six rounds emptied into a cell by a man who has been spelled.",
+      "sceneTitle": "Two Shots",
+      "choices": [
+        {
+          "text": "Take the gun",
+          "consequence": "Calm.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "He says he saw what Wild Bill did and he is tired, boss.",
+      "sceneTitle": "Coffey's Truth",
+      "choices": [
+        {
+          "text": "Believe him",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Doubt",
+          "consequence": "Cautious.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Cornbread, okra, sweet potato pie, the kindness of a cook.",
+      "sceneTitle": "Last Meal",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stand",
+          "consequence": "Cold.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He asks if he can go without it. The room is full of strangers.",
+      "sceneTitle": "Hood",
+      "choices": [
+        {
+          "text": "Refuse, gently",
+          "consequence": "Discipline.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Allow it",
+          "consequence": "Mercy.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Your hand on a lever, his eyes on yours, his last words a small request.",
+      "sceneTitle": "Switch",
+      "choices": [
+        {
+          "text": "Throw it",
+          "consequence": "Final.",
+          "nextNodeId": "end_long"
+        },
+        {
+          "text": "Stop the execution",
+          "consequence": "Brave.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_pray"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_long",
+      "text": "Mr. Jingles is alive in a small wooden cage forty years later, and so are you, both of you tired of staying.",
+      "sceneTitle": "The Long Goodbye",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Goodbye"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You leave the prison. You marry a kind woman. You wake up at night with green linoleum in your dreams. It does not let you go.",
+      "sceneTitle": "A Quiet Pension",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Quiet Pension"
+    },
+    {
+      "id": "end_pray",
+      "text": "On a hill behind the prison you bury a man with hands like dinner plates. You pray for a mercy you do not believe in, and it comes anyway.",
+      "sceneTitle": "Coffey's Prayer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Coffey's Prayer"
+    }
+  ]
+}

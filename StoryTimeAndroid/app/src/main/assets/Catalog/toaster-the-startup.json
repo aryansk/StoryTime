@@ -1,0 +1,417 @@
+{
+  "id": "toaster-the-startup",
+  "title": "Toaster",
+  "sourceTitle": "Toaster",
+  "kind": "show",
+  "synopsis": "Your dumb startup makes one product: a smart toaster nobody asked for. You have eight months of runway, a co-founder who's lost the plot, and a pivot meeting on Monday.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-10T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "startup",
+    "hardware",
+    "tech"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your co-founder Aman comes in twenty minutes late carrying a different toaster, smiling. 'I have a new idea,' he says. Your CFO Priya, also a friend, has her eyes closed in a long, suffering breath.",
+      "sceneTitle": "Monday, 9 a.m.",
+      "choices": [
+        {
+          "text": "Hear Aman out",
+          "consequence": "Respect the bond.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Postpone Aman until after the pivot meeting",
+          "consequence": "Discipline.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The new idea is, predictably, not a toaster. It is a 'smart cutting board.' You sit with this for three seconds. You realize the toaster is, at minimum, our toaster. The cutting board would, again, be nobody's.",
+      "sceneTitle": "Aman's New Idea",
+      "choices": [
+        {
+          "text": "Push back firmly",
+          "consequence": "Stand for the product.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Validate the impulse, then push back",
+          "consequence": "Soft.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Priya hands you the eight-month runway sheet. Three months in we have to either cut burn, raise, or sell. The toaster has, on the chart, three small green dots. The dots are, you suspect, you, Aman, and Priya's mom.",
+      "sceneTitle": "Priya's Numbers",
+      "choices": [
+        {
+          "text": "Cut burn first",
+          "consequence": "Survive.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Plan a raise first",
+          "consequence": "Bet.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An actual customer, a woman in her sixties named Janine, calls in. She bought the toaster for her husband, who has memory issues. The toaster's reminder feature has, she says, kept him eating breakfast on the right schedule.",
+      "sceneTitle": "The User Interview",
+      "choices": [
+        {
+          "text": "Pivot the marketing toward elder care",
+          "consequence": "Find the real customer.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Add Janine's story to the deck",
+          "consequence": "Investor candy.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your lead engineer Sam is, you realize, our only hope. He has been quietly fixing the toaster's firmware in his off-hours. He has, in his desk drawer, a prototype of a screenless version that sells for half the price.",
+      "sceneTitle": "The Lead Engineer",
+      "choices": [
+        {
+          "text": "Greenlight the cheap version",
+          "consequence": "Pivot the product.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Promote Sam to CTO before anyone steals him",
+          "consequence": "Reward.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Walking into the VC office you decide, in the elevator, what story you are about to tell. Aman has a different story queued up. You have to align fast.",
+      "sceneTitle": "The Investor Meeting",
+      "choices": [
+        {
+          "text": "Tell the elder-care story",
+          "consequence": "Real customer.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell the tech story",
+          "consequence": "Familiar music.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Aman, after the meeting, breaks down in the conference room. He says he's been lying for months — to investors, to his wife, to you. He's not, he says, a CEO. He never was. He wants to be CTO.",
+      "sceneTitle": "Aman's Crisis",
+      "choices": [
+        {
+          "text": "Accept the role swap immediately",
+          "consequence": "Honor the truth.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Negotiate a slower transition",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A surprise: a national magazine wants to profile Janine and the toaster. They will be at the office Thursday. You realize the story has, accidentally, gotten ahead of the strategy.",
+      "sceneTitle": "Press Day",
+      "choices": [
+        {
+          "text": "Embrace the story",
+          "consequence": "Ride the wave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Delay the press for a tighter pivot",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You let three people go. The way you do it matters. You write the references personally. You give two weeks of severance you can't afford. You realize this is the hardest thing you have done at this company so far.",
+      "sceneTitle": "The Layoffs",
+      "choices": [
+        {
+          "text": "Tell the remaining team the truth about the runway",
+          "consequence": "Trust.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Hold the worst details until you have a plan",
+          "consequence": "Triage.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The profile is, mercifully, generous. The toaster sells out in seven days. The investors who passed last month start emailing again. Aman, somehow, gets a Wired feature out of being the 'humble CTO who saw the truth.'",
+      "sceneTitle": "The Profile Lands",
+      "choices": [
+        {
+          "text": "Raise the bridge round on momentum",
+          "consequence": "Take it.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay lean and grow off revenue",
+          "consequence": "Discipline.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Sam's cheap prototype is ready for a pilot. You ship a small batch to fifty elder-care facilities at cost. The feedback is, against all expectation, immediate and positive.",
+      "sceneTitle": "Sam's Prototype",
+      "choices": [
+        {
+          "text": "Productize for elder-care directly",
+          "consequence": "Vertical.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay consumer; price up the cheap version",
+          "consequence": "Brand.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The Series A comes in. The lead investor is a woman who, herself, had a parent the toaster could have helped. The conversation in the conference room is, somehow, both about a SaaS multiple and her father.",
+      "sceneTitle": "The Series A",
+      "choices": [
+        {
+          "text": "Accept her term sheet",
+          "consequence": "Right partner.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take a smaller round with terms you love",
+          "consequence": "Discipline.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Three months pass. Revenue, slowly, climbs. You stop watching Twitter. You start sleeping. You realize, weirdly, that running a business at human scale is actually possible. It is just unfashionable.",
+      "sceneTitle": "The Quiet Quarter",
+      "choices": [
+        {
+          "text": "Commit to human-scale forever",
+          "consequence": "Vow.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay open to bigger if the right opportunity comes",
+          "consequence": "Flexible.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Three years in. Forty employees. Revenue real. The toaster has a small but devoted following and a real elder-care line. You go to Janine's husband's funeral. She hugs you for a long time.",
+      "sceneTitle": "Year Three",
+      "choices": [
+        {
+          "text": "Stay CEO for another decade",
+          "consequence": "Continue.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hand off to a more operational CEO and become chair",
+          "consequence": "Cede.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A larger appliance company offers to buy you. The number is, professionally, life-changing. You have to decide what 'enough' is.",
+      "sceneTitle": "The Acquisition Offer",
+      "choices": [
+        {
+          "text": "Sell and use the money to build the next thing",
+          "consequence": "Take it.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay independent for the customers' sake",
+          "consequence": "Hold.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Aman, post-CTO, opens, of course, a bakery. The bread is fine. The bakery has, perfectly, a smart toaster on the counter. You and Priya laugh until you cry the first time you visit.",
+      "sceneTitle": "Aman's Bakery",
+      "choices": [
+        {
+          "text": "Make the bakery your weekend office",
+          "consequence": "Joy.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Visit often but stay focused on the company",
+          "consequence": "Discipline.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Janine sends a handwritten letter. It says, mostly, thank you. It says, in the middle of the second page, that she has started a small support group for caregivers and uses the toaster as the shared metaphor. You frame the letter.",
+      "sceneTitle": "The Letter from Janine",
+      "choices": [
+        {
+          "text": "Fund the support group",
+          "consequence": "Pay forward.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Build a feature directly for caregivers based on her group",
+          "consequence": "Productize the love.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A quarterly board meeting that, for once, is boring in the good way. Revenue is up. Burn is sane. The lead investor asks, casually, what you want the next ten years to look like.",
+      "sceneTitle": "Board Meeting, Quiet",
+      "choices": [
+        {
+          "text": "Answer with a small ten-year plan",
+          "consequence": "Small, on purpose.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Answer with a big ten-year plan",
+          "consequence": "Build for scale.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You give an all-hands that is, for the first time, less a sales pitch than a thank-you. You read parts of Janine's letter aloud. Sam, the engineer, blinks twice and turns away. You realize most of the people in this room have been waiting for permission to care this openly about the work.",
+      "sceneTitle": "The All-Hands",
+      "choices": [
+        {
+          "text": "Make the caregiver feature the next quarter's focus",
+          "consequence": "Commit.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Make small, kind operational changes first",
+          "consequence": "Internal.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Late at night you open the bottom drawer of your desk. The first toaster prototype is there, dented. You hold it. You decide the shape of the next chapter, in your hands, holding the thing that started it all.",
+      "sceneTitle": "The Toaster Box, in a Drawer",
+      "choices": [
+        {
+          "text": "Stay small forever",
+          "consequence": "Smallness as principle.",
+          "nextNodeId": "end_keep"
+        },
+        {
+          "text": "Scale it for caregivers everywhere",
+          "consequence": "Scale the care.",
+          "nextNodeId": "end_grow"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_keep",
+      "text": "You keep the company small. It stays profitable. You take real vacations. You hire kindly. You realize, late, that the toaster was never the point. The team was. The customers were. The company is, by every measure that matters, a success.",
+      "sceneTitle": "Small, On Purpose",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Small, On Purpose"
+    },
+    {
+      "id": "end_grow",
+      "text": "The company grows into a real elder-care platform. The toaster is, eventually, one of nine devices. You IPO. You retire at fifty. You sit in your garden with a toaster you built yourself and think, with surprising gentleness, of how far that one stupid idea took you.",
+      "sceneTitle": "The Elder-Care Platform",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Elder-Care Platform"
+    }
+  ]
+}

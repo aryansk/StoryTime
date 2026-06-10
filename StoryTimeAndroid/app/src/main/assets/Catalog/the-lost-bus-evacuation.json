@@ -1,0 +1,430 @@
+{
+  "id": "the-lost-bus-evacuation",
+  "title": "The Lost Bus",
+  "sourceTitle": "The Lost Bus",
+  "kind": "movie",
+  "synopsis": "A school bus, twenty-two children, and a wildfire that has already eaten the only road home. You are driving. Don't look in the mirror.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-27T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "wildfire",
+    "rescue",
+    "courage"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The sky over the school is the wrong color — a brown-orange you've only seen at sunset, and it's noon. The dispatcher's voice cracks: \"Get them out, now.\" Twenty-two kids file onto your bus, too quiet.",
+      "sceneTitle": "Last Bell",
+      "choices": [
+        {
+          "text": "Take the highway, the fast way",
+          "consequence": "Speed is safety until it isn't.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Take the ridge road, the long way",
+          "consequence": "The longer road is sometimes the only road.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Wait for the convoy to form up",
+          "consequence": "There is strength in numbers and danger in delay.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The on-ramp is a parking lot of brake lights and ash. Embers the size of fists drift across the windshield. A boy named Marcus asks if his house is okay. You don't know how to lie to a child.",
+      "sceneTitle": "The Highway",
+      "choices": [
+        {
+          "text": "Tell him the truth, gently",
+          "consequence": "Children survive honesty better than we think.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Tell him everyone's going to be fine",
+          "consequence": "A kind lie can be a kind of bridge.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The ridge gives you a view you'll never unsee: the whole valley below is a sheet of moving fire, and it is climbing. But up here the road is clear. For now.",
+      "sceneTitle": "The Ridge Road",
+      "choices": [
+        {
+          "text": "Push the bus faster on the gravel",
+          "consequence": "Trade traction for time and pray.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Slow down for the blind curves",
+          "consequence": "A controlled bus is a living bus.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Three other buses and a fire crew gather in the lot. The captain shouts orders, but there's no time and no consensus — and the smoke is already thickening at the fence line.",
+      "sceneTitle": "The Convoy",
+      "choices": [
+        {
+          "text": "Break from the convoy and go alone",
+          "consequence": "Sometimes the group is just a slower target.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Follow the fire crew's lead vehicle",
+          "consequence": "Trust the people who run toward this.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The road vanishes into a gray nothing. Your headlights die against it. A girl in the front seat takes your sleeve. \"I can't see,\" she says, and neither can you.",
+      "sceneTitle": "The Wall of Smoke",
+      "choices": [
+        {
+          "text": "Crawl forward at walking pace",
+          "consequence": "Faith in a road you can't see is the whole job.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stop and wait for the smoke to shift",
+          "consequence": "Stillness in a fire is a terrible gamble.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Marcus looks out the window at his street going by, the flames already in it, and stops asking questions. His silence is louder than any scream. The other kids feel it spread.",
+      "sceneTitle": "Marcus Knows",
+      "choices": [
+        {
+          "text": "Get them singing to break the fear",
+          "consequence": "Noise is a rope thrown to the drowning.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Give Marcus a job to do",
+          "consequence": "Purpose is the antidote to panic.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "A deer stands frozen in your high beams, flanks heaving, a refugee like the rest of you. Behind it the brush is already glowing. The kids press to the windows.",
+      "sceneTitle": "The Animal on the Road",
+      "choices": [
+        {
+          "text": "Edge around it and keep moving",
+          "consequence": "Mercy is a luxury the fire doesn't grant.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Lean on the horn to send it running",
+          "consequence": "Save what you can, even what isn't yours to save.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You follow the fire truck's taillights like a prayer. Then it turns down a side road and is gone, and a downed power line writhes across the path ahead, throwing sparks.",
+      "sceneTitle": "The Lead Vehicle",
+      "choices": [
+        {
+          "text": "Drive over the line fast",
+          "consequence": "Rubber tires, steady nerves, no brakes.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Find another way around",
+          "consequence": "Respect the things that can kill you sideways.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Through the smoke: a bridge, the only crossing for miles, and it's already burning at the far end. The fire hasn't reached the deck yet. You have maybe ninety seconds.",
+      "sceneTitle": "The Bridge",
+      "choices": [
+        {
+          "text": "Floor it across the bridge",
+          "consequence": "Hesitation is the only thing that can't survive here.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Reverse and find the old ford downstream",
+          "consequence": "Water is a road too, if you're brave enough.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The fire flanks you — there's flame on both shoulders now and the heat is warping the air. A child is crying without sound. The radio is just static and someone, somewhere, screaming a road name.",
+      "sceneTitle": "Trapped",
+      "choices": [
+        {
+          "text": "Shelter in place and seal the bus",
+          "consequence": "When you can't outrun it, you outlast it.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Make a run for the reservoir clearing",
+          "consequence": "One gap in the wall is all you need.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The side road is barely a road — washboard dirt narrowing into trees that are starting to torch one by one, like matches in a row. But it bends away from the worst of it.",
+      "sceneTitle": "The Detour",
+      "choices": [
+        {
+          "text": "Commit to the detour fully",
+          "consequence": "The road less burning.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Turn back toward the highway after all",
+          "consequence": "Sometimes retreat is the only advance.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Smoke is seeping through the old door seals now, and a small voice in the back starts to cough, then another. The air inside the bus is becoming the thing you were driving away from.",
+      "sceneTitle": "Smoke in the Cabin",
+      "choices": [
+        {
+          "text": "Seal the vents and ride it out",
+          "consequence": "Trap the good air and hoard it like gold.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Make a hard run for clearer air",
+          "consequence": "Outrun the cloud or become it.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "There's a seam in the fire — a corridor of merely terrible heat between two walls of worse. It's closing. The bus groans up to speed. The kids have stopped making any sound at all.",
+      "sceneTitle": "Through the Gap",
+      "choices": [
+        {
+          "text": "Drive straight through the corridor",
+          "consequence": "Aim at the gap and refuse to blink.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Use the reservoir to wet the bus first",
+          "consequence": "A soaked machine buys a few precious degrees.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "The old crossing is low water over smooth stone. The far bank is dark — unburned. But the current is faster than it looks and the bus is heavy with frightened cargo.",
+      "sceneTitle": "The River Ford",
+      "choices": [
+        {
+          "text": "Ease across the ford slowly",
+          "consequence": "Read the water like a road.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Power across before the engine drowns",
+          "consequence": "Momentum is a kind of buoyancy.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You park in the reservoir clearing, kill the engine, tape the vents, and have the kids lie on the floor under coats. The fire arrives like a freight train made of weather. Then it passes, roaring, over and around.",
+      "sceneTitle": "Shelter in Place",
+      "choices": [
+        {
+          "text": "Wait until the heat truly breaks",
+          "consequence": "Patience is the bravest thing in a furnace.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Move the moment the front passes",
+          "consequence": "The window after the wave is narrow and real.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "The bus bursts out of the smoke into clear gray air. Behind you the world is ending; ahead, impossibly, a road sign, intact, pointing toward town. A few kids start to cry — the good kind.",
+      "sceneTitle": "The Far Side",
+      "choices": [
+        {
+          "text": "Radio your survivors' count to dispatch",
+          "consequence": "Every name said aloud is a name saved.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Push on without stopping",
+          "consequence": "Don't trust safety until you're standing in it.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The bus coughs, sputters, and the temperature needle pins red. You're almost clear — almost. Steam rolls from under the hood. Twenty-two kids, one dying engine, and not quite enough road.",
+      "sceneTitle": "Engine Trouble",
+      "choices": [
+        {
+          "text": "Nurse it forward in low gear",
+          "consequence": "Coax the machine like a frightened animal.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stop and lead the kids out on foot",
+          "consequence": "When the metal fails, the legs decide.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You make them line up and count off the way you've practiced a hundred bored mornings. The numbers climb — eighteen, nineteen, twenty — and then a pause that stops your heart before someone small says \"twenty-one\" and another, \"twenty-two.\"",
+      "sceneTitle": "The Count",
+      "choices": [
+        {
+          "text": "Drive the last miles to the shelter",
+          "consequence": "The end of the road is the start of the rest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stop to help another stranded vehicle",
+          "consequence": "There's always one more name to save.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "The shelter parking lot is full of flashing lights and reaching arms. Parents run at the bus before it's fully stopped. You open the door and a wall of crying, hugging, breathing humanity pours in.",
+      "sceneTitle": "Town Lights",
+      "choices": [
+        {
+          "text": "Hand each child to someone who loves them",
+          "consequence": "This is the only paperwork that matters.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Go back out for the ones still on the mountain",
+          "consequence": "Heroes are just people who can't sit still.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Empty now, the bus feels enormous. The fire's glow still pulses to the east, and the radio is full of names of roads, of children, of people not yet counted. Your hands are shaking. The engine is still warm.",
+      "sceneTitle": "One More Run",
+      "choices": [
+        {
+          "text": "Turn around and drive back in",
+          "consequence": "The bravest tank is the one that's nearly empty.",
+          "nextNodeId": "end_again"
+        },
+        {
+          "text": "Stay, rest, let the crews take it",
+          "consequence": "You can't pour from a tank that's run dry.",
+          "nextNodeId": "end_rest"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "Twenty-two children, twenty-two reunions. You don't remember driving back to the depot. Months later a kid you don't recognize hugs your knees in a grocery store and won't let go, and you finally, quietly, fall apart in the cereal aisle.",
+      "sceneTitle": "Everyone Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Everyone Home"
+    },
+    {
+      "id": "end_again",
+      "text": "You go back in. Of course you do. The mountain is a cathedral of fire and you drive into it because somewhere up there is someone's whole world, waiting on a roadside. They never give medals for the trips that count. You don't want one.",
+      "sceneTitle": "The Second Trip",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Second Trip"
+    },
+    {
+      "id": "end_rest",
+      "text": "You let the crews take the next run, and for the rest of your life you wonder about it — not with guilt exactly, but with the quiet arithmetic of a person who did enough and will never quite believe it. The kids you saved grow up. That has to be the answer. It is.",
+      "sceneTitle": "The Weight You Carry",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Weight You Carry"
+    }
+  ]
+}

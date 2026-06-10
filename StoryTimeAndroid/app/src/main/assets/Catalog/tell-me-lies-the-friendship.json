@@ -1,0 +1,449 @@
+{
+  "id": "tell-me-lies-the-friendship",
+  "title": "Tell Me Lies",
+  "sourceTitle": "Tell Me Lies",
+  "kind": "show",
+  "synopsis": "Eight years out of college. Your best friend is engaged to the man who ruined your twenties. The bachelorette weekend is in three weeks.",
+  "releaseYear": 2024,
+  "addedAt": "2026-03-28T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "college",
+    "drama",
+    "friendship"
+  ],
+  "rating": 1,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The bachelorette invite arrives by email. The names on the list include yours, and his sister's, and people you have not spoken to since graduation.",
+      "sceneTitle": "The Invite",
+      "choices": [
+        {
+          "text": "Reply yes",
+          "consequence": "Friend.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stall",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your therapist is, today, professionally curious. She asks whether you have ever, fully, told your best friend about him.",
+      "sceneTitle": "Your Therapist",
+      "choices": [
+        {
+          "text": "No",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Mostly",
+          "consequence": "Half.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "The group chat is, against all instincts, friendly. People you stopped talking to in 2018 are, again, on a thread.",
+      "sceneTitle": "The Group Chat",
+      "choices": [
+        {
+          "text": "Engage",
+          "consequence": "Friend.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Mute",
+          "consequence": "Self.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "His sister, who never liked you, writes you a private DM. The DM is, surprisingly, kind.",
+      "sceneTitle": "The Sister",
+      "choices": [
+        {
+          "text": "Reply warmly",
+          "consequence": "Risk.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Reply minimally",
+          "consequence": "Caution.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your spouse is supportive in the way only a spouse can be. They also, gently, want to know what you actually want.",
+      "sceneTitle": "Your Spouse",
+      "choices": [
+        {
+          "text": "Tell them honestly",
+          "consequence": "Marriage.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Promise to figure it out",
+          "consequence": "Process.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The plan is a winery weekend. The plan includes, at the explicit request of the bride, no boyfriends/husbands.",
+      "sceneTitle": "The Bachelorette Plan",
+      "choices": [
+        {
+          "text": "Commit to going",
+          "consequence": "Friend.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Hold off",
+          "consequence": "Wait.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your best friend calls. She has, she says, been afraid to ask you. She wants to know if you'll be okay.",
+      "sceneTitle": "The Bride, Calling",
+      "choices": [
+        {
+          "text": "Tell her yes",
+          "consequence": "Cover.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell her you need to talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You meet for coffee. You decide whether to tell her everything you never told her about her fiancé.",
+      "sceneTitle": "Coffee with Her",
+      "choices": [
+        {
+          "text": "Tell her",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Tell her part",
+          "consequence": "Half.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He emails you, unprompted. The email is, in a way you don't want to be true, charming.",
+      "sceneTitle": "His Email",
+      "choices": [
+        {
+          "text": "Don't reply",
+          "consequence": "Discipline.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Reply with a single sentence",
+          "consequence": "Closure.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You find your old college notebook. It is, in a real way, evidence. You read it.",
+      "sceneTitle": "Your Old Notebook",
+      "choices": [
+        {
+          "text": "Burn it",
+          "consequence": "Closure.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Keep it",
+          "consequence": "Memory.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Two friends from the group chat — Pippa and Bree — invite you to dinner separately. They want, in different ways, to support you.",
+      "sceneTitle": "Other Friends, Listening",
+      "choices": [
+        {
+          "text": "Lean on both",
+          "consequence": "Allies.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pick the safer one",
+          "consequence": "Triage.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Pre-bachelorette drinks in the city. The bride is, you realize, happy. You decide what to do with that.",
+      "sceneTitle": "Pre-Bachelorette Drinks",
+      "choices": [
+        {
+          "text": "Be glad for her",
+          "consequence": "Generous.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Watch for the signs",
+          "consequence": "Cautious.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You arrive at the winery. He is not there. The weekend, briefly, is just women you love.",
+      "sceneTitle": "Winery Weekend, Friday",
+      "choices": [
+        {
+          "text": "Enjoy the day",
+          "consequence": "Present.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay vigilant",
+          "consequence": "Strategic.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Late on Friday night, the bride and you sit on a balcony and talk. You decide what to tell her now.",
+      "sceneTitle": "Late Night Talk",
+      "choices": [
+        {
+          "text": "Tell her",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Hold off",
+          "consequence": "Strategic.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Saturday is a hike. You realize, on the trail, that the weekend is also a kind of healing for you.",
+      "sceneTitle": "Saturday Hike",
+      "choices": [
+        {
+          "text": "Receive it",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stay guarded",
+          "consequence": "Smart.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Dinner. Toasts. People give speeches. You realize what kind of speech you'd give if asked.",
+      "sceneTitle": "Dinner, Saturday Night",
+      "choices": [
+        {
+          "text": "Volunteer to speak",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Pippa, drunk, tells you what she always thought of him. You realize, with a strange relief, you weren't alone.",
+      "sceneTitle": "Pippa's Honesty",
+      "choices": [
+        {
+          "text": "Compare notes",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Just listen",
+          "consequence": "Care.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Sunday morning. Coffee. Hangover. Bride beside you on the porch. You decide what kind of friend you're going to be for the next year.",
+      "sceneTitle": "Sunday Morning",
+      "choices": [
+        {
+          "text": "Be fully honest now",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Be present and patient",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The wedding date is in five months. You decide whether you'll be there.",
+      "sceneTitle": "The Wedding Date",
+      "choices": [
+        {
+          "text": "Be there",
+          "consequence": "Friend.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Self.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He emails again. The email is, this time, an apology. You read it twice. You decide what it deserves.",
+      "sceneTitle": "His Last Email",
+      "choices": [
+        {
+          "text": "Forgive privately",
+          "consequence": "Closure.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't reply",
+          "consequence": "Discipline.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You come home Sunday night. Your spouse hugs you. You realize you have, finally, the family you wanted in college.",
+      "sceneTitle": "Your Spouse, Returning Home",
+      "choices": [
+        {
+          "text": "Tell them everything about the weekend",
+          "consequence": "Marriage.",
+          "nextNodeId": "end_friend"
+        },
+        {
+          "text": "Just be home",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_self"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_honest"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friend",
+      "text": "You stay her best friend. You attend the wedding. The marriage, predictably, does not last. She moves to your city when it ends. You walk her dog the first month.",
+      "sceneTitle": "Best Friend, Still",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Best Friend, Still"
+    },
+    {
+      "id": "end_self",
+      "text": "You let the friendship dim. You realize, slowly, that some friendships don't survive twenties' damage. Your spouse, and the small life you built, becomes the center.",
+      "sceneTitle": "Quietly Yours",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly Yours"
+    },
+    {
+      "id": "end_honest",
+      "text": "You tell her, fully, what happened in college. The friendship survives, barely, then heals. The wedding is, in the end, not what it would have been. You realize, late, that you protected her by being honest.",
+      "sceneTitle": "Honest, At Last",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Honest, At Last"
+    }
+  ]
+}

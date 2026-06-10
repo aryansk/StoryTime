@@ -1,0 +1,150 @@
+{
+  "id": "mn-doorstep-baby",
+  "title": "The Bundle on the Doorstep",
+  "sourceTitle": "The Bundle on the Doorstep",
+  "kind": "movie",
+  "synopsis": "A basket. A baby. A note: 'I trust you.' You don't know who 'I' is.",
+  "releaseYear": 2026,
+  "addedAt": "2026-01-31T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "tender",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "She is sleeping. A tiny hat. No tags.",
+      "sceneTitle": "Step",
+      "choices": [
+        {
+          "text": "Bring her in",
+          "consequence": "Heart.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Call police",
+          "consequence": "Wise.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "You don't own a crib. The laundry basket has just been emptied.",
+      "sceneTitle": "Crib",
+      "choices": [
+        {
+          "text": "Improvise",
+          "consequence": "Practical.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Drive to the 24-hour store",
+          "consequence": "Forward.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "Handwritten. 'I trust you. I'll come back. Be kind.'",
+      "sceneTitle": "The Note",
+      "choices": [
+        {
+          "text": "Believe it",
+          "consequence": "Heart.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Doubt it",
+          "consequence": "Wise.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "She fusses, then sleeps, then fusses. You learn fast.",
+      "sceneTitle": "Hours",
+      "choices": [
+        {
+          "text": "Stay calm",
+          "consequence": "Care.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Cry quietly",
+          "consequence": "Honest.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "A woman, exhausted, at the door at sunrise. She is, you understand instantly, the mother.",
+      "sceneTitle": "Knock",
+      "choices": [
+        {
+          "text": "Welcome her in",
+          "consequence": "Honor.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Stand at the door",
+          "consequence": "Wise.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "She drinks two cups. She tells you, slowly, the year she has had.",
+      "sceneTitle": "Coffee",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Honor.",
+          "nextNodeId": "end_aunt"
+        },
+        {
+          "text": "Offer help",
+          "consequence": "Care.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_aunt",
+      "text": "You become an aunt-figure to the baby. You help out for a year. The mother gets back on her feet.",
+      "sceneTitle": "Aunt, Unofficially",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Aunt, Unofficially"
+    },
+    {
+      "id": "end_self",
+      "text": "You don't tell most people. The week is yours. The baby grows up. You keep a small photo in a drawer.",
+      "sceneTitle": "Quietly Yours",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Quietly Yours"
+    }
+  ]
+}

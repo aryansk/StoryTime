@@ -1,0 +1,417 @@
+{
+  "id": "euphoria-the-meeting",
+  "title": "Euphoria",
+  "sourceTitle": "Euphoria",
+  "kind": "show",
+  "synopsis": "You're 20 in East Highland, two years into recovery, working a coffee shop with a sponsor on speed dial. Tonight's meeting is the first you've gone to alone. The town has not gotten quieter.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-17T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "recovery",
+    "youth",
+    "town"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Church basement. Cheap coffee. You sit on a folding chair early, headphones in. People begin filing in. You see a face you do not want to see: Cassie.",
+      "sceneTitle": "Before the Meeting",
+      "choices": [
+        {
+          "text": "Stay; recovery is bigger than your discomfort",
+          "consequence": "Hold the line.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Step outside for one minute",
+          "consequence": "Reset.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "She approaches. She is sober too, surprisingly, and she looks like she has cried already today. She says, 'Can we talk after?' You haven't spoken in two years.",
+      "sceneTitle": "Cassie, Hovering",
+      "choices": [
+        {
+          "text": "Agree to talk",
+          "consequence": "Practice.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Say 'maybe' and see how the hour goes",
+          "consequence": "Triage.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "On the sidewalk you call your sponsor — Ali, who picks up on the second ring even on Tuesdays. He listens. He says, 'You're already doing the work by calling. Go back inside.'",
+      "sceneTitle": "The Sidewalk",
+      "choices": [
+        {
+          "text": "Go back inside steadily",
+          "consequence": "Trust him.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stay outside for the meeting",
+          "consequence": "Slow.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You share, briefly, that this is your first meeting alone. The room is warm. An older woman named Marsha says 'glad you're here' in the exact way you needed.",
+      "sceneTitle": "Share Time",
+      "choices": [
+        {
+          "text": "Stay for fellowship after",
+          "consequence": "Build the room.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Slip out quickly",
+          "consequence": "Save energy.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Cassie's sister Lexi is at the meeting too, in the back, surprising you both. She catches your eye and gives a small, kind nod. The Howard sisters have, somehow, both ended up in this room.",
+      "sceneTitle": "Lexi, the Sister",
+      "choices": [
+        {
+          "text": "Talk to Lexi first",
+          "consequence": "Easier first.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Talk to both sisters at once",
+          "consequence": "Be brave.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You, Lexi, Cassie, and Marsha sit at a diner counter at 10 p.m. and order pancakes. Cassie cries quietly into hers. Nobody comments. Lexi reaches over and squeezes her hand.",
+      "sceneTitle": "Coffee After",
+      "choices": [
+        {
+          "text": "Tell Cassie you're glad she's sober",
+          "consequence": "Generous.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Tell Lexi you're glad she's here too",
+          "consequence": "Equal.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Wednesday morning. The coffee shop. Your manager Fez is, somehow, kind of a manager now. He gives you the morning shift on purpose so the rest of the day is yours.",
+      "sceneTitle": "The Job",
+      "choices": [
+        {
+          "text": "Tell Fez about the meeting",
+          "consequence": "Trust him.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay quiet at work and write later",
+          "consequence": "Compartmentalize.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You keep a notebook. You write the sentence: 'I went to a meeting alone and I came home alone and I did not use.' You read it three times. You realize you have started, slowly, to believe in yourself.",
+      "sceneTitle": "Rue's Notebook",
+      "choices": [
+        {
+          "text": "Buy a second notebook for the year",
+          "consequence": "Build the practice.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Start texting one line a day to Ali",
+          "consequence": "Accountability.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Jules is in town for the week. The first phone call is tentative. The second is honest. The third is, in some way you can't yet name, possible.",
+      "sceneTitle": "Jules' Visit",
+      "choices": [
+        {
+          "text": "See her",
+          "consequence": "Try.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait to see her until you've talked to Ali",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Your mom watches you make her coffee in the morning. She does not say much. She doesn't have to. She has, you realize, been working as hard as you, for longer.",
+      "sceneTitle": "The Mother",
+      "choices": [
+        {
+          "text": "Tell her you love her plainly",
+          "consequence": "Plain.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Cook her breakfast in return",
+          "consequence": "Action.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your sister Gia is in high school now. She watches you the way she used to watch the front door at 3 a.m. You realize she is not yet sure you will not relapse. You realize her patience is also love.",
+      "sceneTitle": "Gia, Watching",
+      "choices": [
+        {
+          "text": "Take Gia somewhere fun on Saturday",
+          "consequence": "Show up.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Apologize directly for the years",
+          "consequence": "Speak.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Two years. Marsha hands you a chip. You almost don't take it because chips have, in the past, felt like jinxes. You take it. You squeeze it in your hand the whole drive home.",
+      "sceneTitle": "The Anniversary",
+      "choices": [
+        {
+          "text": "Pin it on your fridge",
+          "consequence": "Visible.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Carry it in your pocket every day",
+          "consequence": "Private.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Fez tells you he's opening a small bakery. He wants you as the manager. The hours are hard. The job is real. You realize you have been offered, of all things, a future.",
+      "sceneTitle": "Fez's Bakery",
+      "choices": [
+        {
+          "text": "Accept the job",
+          "consequence": "Build.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Negotiate fewer hours so you can keep writing",
+          "consequence": "Balance.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Six months later the bakery opens. You and Fez and Marsha and Lexi and your mom and Gia are there. There is a small cake. Marsha gives a small speech. Fez almost cries. You almost cry.",
+      "sceneTitle": "The Bakery Opening",
+      "choices": [
+        {
+          "text": "Take a photo for the year",
+          "consequence": "Mark it.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Just be there",
+          "consequence": "Be there.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You write — not a book, exactly, but a small collection of essays. You publish one in a magazine. The piece, more than the bakery or the job, makes you feel like a person with a project.",
+      "sceneTitle": "The Year of Writing",
+      "choices": [
+        {
+          "text": "Send the essay to Jules",
+          "consequence": "Share.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Send it to your sponsor",
+          "consequence": "Share.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Jules replies in a long email. She says she's proud of you. She says she's not in a place to come home. She says she'd like to keep writing. You realize, slowly, that not all loves are reunions. Some are just letters.",
+      "sceneTitle": "Jules' Reply",
+      "choices": [
+        {
+          "text": "Accept the letters as enough",
+          "consequence": "Mature.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Plan to visit her in a year, no pressure",
+          "consequence": "Patient.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Ali, who is dying — you don't know it yet, you'll find out next month — sends you back a one-line text: 'You're writing the version of yourself the rest of us can read.' You frame it.",
+      "sceneTitle": "Ali's Reply",
+      "choices": [
+        {
+          "text": "Visit Ali in person next weekend",
+          "consequence": "Show up.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Send him a long thank-you letter",
+          "consequence": "Letter.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Five years. You give the chip back at a meeting you sponsor a teenager from. You realize you are now Marsha. You realize this is, finally, a story without an exit.",
+      "sceneTitle": "Five Years",
+      "choices": [
+        {
+          "text": "Stay in East Highland",
+          "consequence": "Place.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Move; keep the meetings the same",
+          "consequence": "Travel.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Gia graduates high school. You give the speech at the family dinner. You say plain things. Your mom cries. Gia hugs you longer than usual. You go to bed sober and full and tired in the right way.",
+      "sceneTitle": "Gia's Graduation",
+      "choices": [
+        {
+          "text": "Keep building the small life",
+          "consequence": "Maintain.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Travel for the first time in your life",
+          "consequence": "Reward yourself.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Ali is gone. You sit in the meeting in the chair he used to sit in. The room is the same. You are the same and very different. You decide what to do with the rest of the year.",
+      "sceneTitle": "Ali's Chair",
+      "choices": [
+        {
+          "text": "Hold the chair in East Highland",
+          "consequence": "Steady.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Take meetings on the road",
+          "consequence": "Mobile.",
+          "nextNodeId": "end_road"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You stay. The town gets a little kinder, year over year. You sponsor four people over a decade. Two of them stay sober. Two of them don't. You learn that the score isn't the point. The room is the point.",
+      "sceneTitle": "Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Home"
+    },
+    {
+      "id": "end_road",
+      "text": "You travel. Meetings everywhere, surprisingly, work the same way. You write essays from cafés in cities you used to dream about as a teenager. You realize that recovery is portable. So, finally, are you.",
+      "sceneTitle": "Out",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Out"
+    }
+  ]
+}

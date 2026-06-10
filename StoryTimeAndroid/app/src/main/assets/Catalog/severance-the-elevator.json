@@ -1,0 +1,449 @@
+{
+  "id": "severance-the-elevator",
+  "title": "Severance",
+  "sourceTitle": "Severance",
+  "kind": "show",
+  "synopsis": "The doors close. The procedure begins. Who do you become when the floor ticks down?",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-22T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "office",
+    "memory",
+    "split"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Lumon's hush. Milchick's smile. The elevator opens.",
+      "sceneTitle": "Lobby, 8:47",
+      "choices": [
+        {
+          "text": "Step in",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Slip a note into your own pocket",
+          "consequence": "Cunning.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Threshold flickers. You are at your desk, refining numbers you don't remember asking for.",
+      "sceneTitle": "Floor 4",
+      "choices": [
+        {
+          "text": "Refine the scary cluster",
+          "consequence": "Compliant.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Hide them in a folder",
+          "consequence": "Spirit.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your colleague Mark says hello like he doesn't remember either.",
+      "sceneTitle": "Mark",
+      "choices": [
+        {
+          "text": "Whisper a question",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Pretend everything is fine",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "New severed. She tries the door.",
+      "sceneTitle": "Helly",
+      "choices": [
+        {
+          "text": "Tell her the rules",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Help her test the door",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Milchick brings the cart. The song is the same as last time.",
+      "sceneTitle": "Music Dance Experience",
+      "choices": [
+        {
+          "text": "Dance",
+          "consequence": "Survive.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Sit it out",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Wax Eagan looms. The exhibit smells of new carpet.",
+      "sceneTitle": "Perpetuity Wing",
+      "choices": [
+        {
+          "text": "Walk it slowly",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Skip the rest",
+          "consequence": "Spirit.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He paints corridors he can't access.",
+      "sceneTitle": "Irving",
+      "choices": [
+        {
+          "text": "Ask why",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Don't ask",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Optics & Design. He hands Irving a cup of tea.",
+      "sceneTitle": "Burt",
+      "choices": [
+        {
+          "text": "Visit O&D with Irving",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Talk Irving out of it",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Cobel watches through the one-way. You feel her watching.",
+      "sceneTitle": "Conference Room",
+      "choices": [
+        {
+          "text": "Behave",
+          "consequence": "Survive.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Look up at the mirror",
+          "consequence": "Spirit.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Mark, in a flicker, sees his outie's living room. Empty bottles.",
+      "sceneTitle": "Outie Glimpse",
+      "choices": [
+        {
+          "text": "Tell Helly",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Keep it inside",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Milchick announces a Defiant Jazz break. The song plays on a Casio.",
+      "sceneTitle": "Defiant Jazz",
+      "choices": [
+        {
+          "text": "Roll with it",
+          "consequence": "Survive.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Plant your feet",
+          "consequence": "Spirit.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A resignation video. The outie refuses.",
+      "sceneTitle": "Helly's Tape",
+      "choices": [
+        {
+          "text": "Comfort Helly",
+          "consequence": "Care.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Plan harder",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Irving's careful drawings, taped together.",
+      "sceneTitle": "Map of the Floor",
+      "choices": [
+        {
+          "text": "Memorize it",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Burn it after",
+          "consequence": "Discipline.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You find an annotated copy in the records corridor.",
+      "sceneTitle": "Lumon Handbook",
+      "choices": [
+        {
+          "text": "Read passages aloud",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Photograph it via Burt",
+          "consequence": "Cunning.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A small pin in her lapel — your old mother's, you almost remember.",
+      "sceneTitle": "Cobel's Pin",
+      "choices": [
+        {
+          "text": "Notice it",
+          "consequence": "Witness.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stop noticing",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Overtime Contingency: brief activation of inside selves outside.",
+      "sceneTitle": "The Plan",
+      "choices": [
+        {
+          "text": "Approve the plan",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A child's birthday party. A husband you don't know. Your own face in a mirror.",
+      "sceneTitle": "Wake on the Outside",
+      "choices": [
+        {
+          "text": "Announce who you are",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Find a phone first",
+          "consequence": "Smart.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You call an enemy of Lumon's. The line clicks.",
+      "sceneTitle": "Phone Booth",
+      "choices": [
+        {
+          "text": "Speak fast",
+          "consequence": "Path.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay vague",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Across the room, smiling. She knows.",
+      "sceneTitle": "Cobel at the Party",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Save.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Walk evenly",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The chip flips. You return to Floor 4 mid-sentence.",
+      "sceneTitle": "They Switch You Back",
+      "choices": [
+        {
+          "text": "Tell Mark immediately",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Write it down for next time",
+          "consequence": "Discipline.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "End of shift. The doors close. Whoever you've been today, dissolves.",
+      "sceneTitle": "Elevator Down",
+      "choices": [
+        {
+          "text": "Believe you'll come back",
+          "consequence": "Hope.",
+          "nextNodeId": "end_break"
+        },
+        {
+          "text": "Hope your other self does too",
+          "consequence": "Honest.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_run"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_break",
+      "text": "The recording leaks. The hearings begin. Floor 4 is dismantled, gently, over months. You meet your outie in a coffee shop and don't know what to say.",
+      "sceneTitle": "Break the Floor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Break the Floor"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You step into the lobby with no memory of the day. Soup on the way home. The soup is good. The soup is, you tell yourself, good.",
+      "sceneTitle": "Pay Day, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pay Day, Forever"
+    },
+    {
+      "id": "end_run",
+      "text": "You make it out before Lumon catches up. A man on a loading dock says, simply, 'You're early.' He does not, you realize, mean today.",
+      "sceneTitle": "Above Ground",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Above Ground"
+    }
+  ]
+}

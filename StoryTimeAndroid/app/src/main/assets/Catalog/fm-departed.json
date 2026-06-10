@@ -1,0 +1,450 @@
+{
+  "id": "fm-departed",
+  "title": "The Departed",
+  "sourceTitle": "The Departed",
+  "kind": "movie",
+  "synopsis": "A South Boston cop undercover in the Mob, a Mob mole undercover in the cops, and a question of who calls whose phone first.",
+  "releaseYear": 2006,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "undercover",
+    "boston",
+    "scorsese",
+    "double"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "He sees you as a boy in a deli and he sees what he can use.",
+      "sceneTitle": "Costello at the Counter",
+      "choices": [
+        {
+          "text": "Take the envelope",
+          "consequence": "Tempted.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A class of cadets, a sergeant with a file with your name on it.",
+      "sceneTitle": "State Police Academy",
+      "choices": [
+        {
+          "text": "Volunteer to go deep",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Take the badge",
+          "consequence": "Safe.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Old neighborhood, old contempt, an opening across the bar.",
+      "sceneTitle": "Cousin Sean",
+      "choices": [
+        {
+          "text": "Talk to him",
+          "consequence": "Smart.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A psychiatrist with a sharp pen and a softer voice.",
+      "sceneTitle": "Madolyn",
+      "choices": [
+        {
+          "text": "Open up",
+          "consequence": "Heart.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Lie",
+          "consequence": "Cold.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A bar, a smashed glass, an audition.",
+      "sceneTitle": "First Fight",
+      "choices": [
+        {
+          "text": "Hit first",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Take the hit",
+          "consequence": "Smart.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "French, Fitzy, a Chinese deal at a Quincy warehouse.",
+      "sceneTitle": "Costello's Inner Ring",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Patient.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Act",
+          "consequence": "Reckless.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Servers in crates trundled across a wet warehouse floor.",
+      "sceneTitle": "Microprocessors",
+      "choices": [
+        {
+          "text": "Tip the cops",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A wire under a folder in the captain's drawer.",
+      "sceneTitle": "Tap",
+      "choices": [
+        {
+          "text": "Plant it",
+          "consequence": "Cold.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Pull back",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Captain Queenan in a coat, your name in your mouth.",
+      "sceneTitle": "Queenan on the Roof",
+      "choices": [
+        {
+          "text": "Meet him",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Cancel",
+          "consequence": "Cautious.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Falling glass, a body on the pavement, a phone in pieces on a roof.",
+      "sceneTitle": "Stairs",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Reckless.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Toothbrush left on a counter that is not yours.",
+      "sceneTitle": "Madolyn's Apartment",
+      "choices": [
+        {
+          "text": "Stay",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Costello has been an FBI asset for years.",
+      "sceneTitle": "Rat on the Tape",
+      "choices": [
+        {
+          "text": "Tell Dignam",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Use it",
+          "consequence": "Cunning.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Manila, blank face, a name in pencil.",
+      "sceneTitle": "Envelope to the Captain",
+      "choices": [
+        {
+          "text": "Hand it over",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A folded flag, a son who looks like the father.",
+      "sceneTitle": "Funeral for Queenan",
+      "choices": [
+        {
+          "text": "Speak to the widow",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Cold.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "An audit that wants to know exactly what your unit has been doing.",
+      "sceneTitle": "Citizens' Affairs",
+      "choices": [
+        {
+          "text": "Open the books",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Stall",
+          "consequence": "Cunning.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A friendly word, a clap on the shoulder, a phone that has been calling Costello.",
+      "sceneTitle": "Sullivan in the Locker Room",
+      "choices": [
+        {
+          "text": "Watch him",
+          "consequence": "Patient.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Confront him",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "An alley by the Charles, a phone clutched to his ear, the cops at both ends.",
+      "sceneTitle": "Costello Cornered",
+      "choices": [
+        {
+          "text": "Pull the trigger",
+          "consequence": "Final.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Arrest him",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Madolyn opens it on a kitchen table you used to share.",
+      "sceneTitle": "Envelope Delivered",
+      "choices": [
+        {
+          "text": "Don't be there",
+          "consequence": "Mercy.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait outside",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Doors open on a familiar face you used to drink with.",
+      "sceneTitle": "Elevator",
+      "choices": [
+        {
+          "text": "Draw",
+          "consequence": "Quick.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Speak",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A second cop with a quieter gun than yours.",
+      "sceneTitle": "Roof",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Wary.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A clean uniform, a key in a lock, a long ride down to the floor.",
+      "sceneTitle": "Apartment Door",
+      "choices": [
+        {
+          "text": "Look him in the eye",
+          "consequence": "Final.",
+          "nextNodeId": "end_rat"
+        },
+        {
+          "text": "Close your eyes",
+          "consequence": "Tired.",
+          "nextNodeId": "end_card"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_rat",
+      "text": "A rodent runs across the railing in the dawn. The city is gray. Justice has not arrived; arithmetic has.",
+      "sceneTitle": "The Rat in the Window",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Rat in the Window"
+    },
+    {
+      "id": "end_card",
+      "text": "A medal in a frame on a wall in a room nobody goes into. A widow throws the envelope away unopened, then digs it back out.",
+      "sceneTitle": "Citizens' Award",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Citizens' Award"
+    },
+    {
+      "id": "end_quiet",
+      "text": "She raises the boy in a town her family does not know. A photograph on the dresser. She does not say which father he looks like.",
+      "sceneTitle": "Madolyn, Alone",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Madolyn, Alone"
+    }
+  ]
+}

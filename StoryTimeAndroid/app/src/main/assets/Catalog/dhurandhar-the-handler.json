@@ -1,0 +1,425 @@
+{
+  "id": "dhurandhar-the-handler",
+  "title": "Dhurandhar",
+  "sourceTitle": "Dhurandhar",
+  "kind": "movie",
+  "synopsis": "Karachi. You're an asset of the agency, deeper undercover than your own family. Your handler in Delhi has gone silent. There's a wedding tomorrow you cannot miss.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-02T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "spy",
+    "subcontinent",
+    "cover"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Your dead-drop in Saddar is empty for the third week. The signal mark on the wall by Burns Road has been painted over. Your handler in Delhi has, somewhere, gone quiet.",
+      "sceneTitle": "Silence on the Line",
+      "choices": [
+        {
+          "text": "Trigger the emergency protocol",
+          "consequence": "Assume the worst.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait one more cycle",
+          "consequence": "Patience is also tradecraft.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Your cover wife reminds you of the wedding tomorrow at the general's compound. Your in-laws, by cover, are deep into the regime. You must attend smiling.",
+      "sceneTitle": "The Cousin's Wedding",
+      "choices": [
+        {
+          "text": "Use the wedding for one drop",
+          "consequence": "Cover is also an opportunity.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Use the wedding only as cover, not for ops",
+          "consequence": "Don't burn a wedding.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Lt. Asad, junior ISI, has been polite to you for two years and you suspect, mildly, that he likes your cover wife. Today he asks you for a private cigarette on the balcony.",
+      "sceneTitle": "The Lieutenant",
+      "choices": [
+        {
+          "text": "Take the cigarette",
+          "consequence": "Hear him out.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Politely decline",
+          "consequence": "Buy time.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "An asset older than you — a woman who runs a pharmacy in Korangi — leaves you a message inside a strip of antacids. Translation: 'Delhi compromised. Run silent. Trust nobody outside our chain.'",
+      "sceneTitle": "The Old Asset",
+      "choices": [
+        {
+          "text": "Run silent immediately",
+          "consequence": "Trust the old hand.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Verify her message first",
+          "consequence": "Trust, but check.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Rabia, your cover wife of four years, is not — you have always believed — an asset herself. Tonight, over dinner, she says quietly, 'I think you should tell me what you do.'",
+      "sceneTitle": "Your Cover Wife",
+      "choices": [
+        {
+          "text": "Tell her",
+          "consequence": "Honesty is also a vow.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Deny, then evaluate her",
+          "consequence": "Trust takes longer.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Three brigadiers, two ministers, fourteen waiters who report somewhere. You smile, eat the lamb, embrace cousins who don't exist. The cake has, inexplicably, fireworks.",
+      "sceneTitle": "The Wedding Day",
+      "choices": [
+        {
+          "text": "Approach Brigadier Khan for intel",
+          "consequence": "Risk, target up.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay invisible and read the room",
+          "consequence": "Watch first.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Asad pulls you aside. He says, in a quiet way, that ISI knows about a 'Delhi joint' — they don't have your name, but they have a list of forty husbands fitting your profile. Yours is one of them.",
+      "sceneTitle": "Asad's Confession",
+      "choices": [
+        {
+          "text": "Use Asad — he likes you for some reason",
+          "consequence": "Friendly enemy is the rarest asset.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Plan immediate exfil",
+          "consequence": "Forty is a small number to be in.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Khan's daughter, twenty-two, is openly cynical about her father in a way only daughters of generals can be. She also, you discover, has access to a laptop the agency would burn for.",
+      "sceneTitle": "The Brigadier's Daughter",
+      "choices": [
+        {
+          "text": "Pitch her on a slow recruitment",
+          "consequence": "Long game.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Steal one file and walk away",
+          "consequence": "Short game.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "On the drive home you spot the same dark Vigo twice. You change routes. It changes routes. Rabia, beside you, sees it before you do.",
+      "sceneTitle": "Karachi Traffic",
+      "choices": [
+        {
+          "text": "Confront the tail at a chowk you control",
+          "consequence": "Bait them.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Lose them through Saddar's alleys",
+          "consequence": "Disappear.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You go back to the Korangi pharmacy. The old asset — Khala Bhabhi — is not surprised. She pulls out a samosa, a USB, and a 9mm with one round in the chamber. She is, you realize, the only person in your chain who is calm.",
+      "sceneTitle": "The Pharmacy",
+      "choices": [
+        {
+          "text": "Take the USB and run",
+          "consequence": "Information first.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay an hour and learn her plan",
+          "consequence": "She has one.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Rabia, back at the apartment, opens a drawer you didn't know existed. Documents. A passport with her photo and another name. 'I was placed here by someone too,' she says. 'My handler is dead. I think we should leave together.'",
+      "sceneTitle": "Rabia's Plan",
+      "choices": [
+        {
+          "text": "Believe her and run together",
+          "consequence": "Allies in the cold.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Verify her story for an hour",
+          "consequence": "Even now.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You and Rabia (or you alone) drive through the night toward the border. The Pakistani desert at 3 a.m. is a particular kind of empty. There is one checkpoint left.",
+      "sceneTitle": "Tharparkar",
+      "choices": [
+        {
+          "text": "Bribe the checkpoint guard",
+          "consequence": "Cash is fluent.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Take a smuggler's route around it",
+          "consequence": "Maps you memorized.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Three Vigos converge on a Saddar street. You take a side door into a tea shop. The owner, who has seen too many movies, recognizes the look on your face and says, in Sindhi, 'Back room. Now.'",
+      "sceneTitle": "The Ambush",
+      "choices": [
+        {
+          "text": "Trust the tea shop owner",
+          "consequence": "Sometimes strangers save you.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Climb to the roof",
+          "consequence": "Old solutions.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You make it to a safe-house run by a different handler than yours — Delhi's left hand, who didn't know what the right hand was doing. They are appalled, professional, in motion.",
+      "sceneTitle": "The Joint Office",
+      "choices": [
+        {
+          "text": "Trust them to extract you cleanly",
+          "consequence": "Bureaucracy at its best.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Demand independent extraction by an ally service",
+          "consequence": "Don't put all eggs in one Delhi.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A small boat — Kemari, dawn — bound for an island you cannot put on a map. The fisherman has been paid in advance. He nods at Rabia. He nods at you. The water, briefly, is yours.",
+      "sceneTitle": "The Beach",
+      "choices": [
+        {
+          "text": "Take the boat",
+          "consequence": "Leave by the sea.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Decide to stay and finish the work",
+          "consequence": "Some assets cannot be exfiltrated.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Back home, in a debrief room with one-way glass, you trade silence for a pension and a promise. Your case officer, alive, blinks at you across a table. You realize forgiveness is, in this profession, also paperwork.",
+      "sceneTitle": "Delhi, Quietly",
+      "choices": [
+        {
+          "text": "Take the pension and disappear into civilian life",
+          "consequence": "Earn the boredom.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Check the mail one more time before deciding",
+          "consequence": "An old asset always checks the mail.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You stay. With a new cover, a new neighborhood, a new wife on paper. You spend three years rebuilding what was burned. You uncover, eventually, the leak in Delhi. Your name will never be in a paper. You're okay with that.",
+      "sceneTitle": "The Long Game",
+      "choices": [
+        {
+          "text": "Take the leak's head",
+          "consequence": "Internal justice.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Hand the leak to the agency and walk",
+          "consequence": "Let process do it.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You wake at 5:30 because you always have. The street vendor calls his price. You buy two oranges. Nobody is following you. You learn, slowly, to trust that.",
+      "sceneTitle": "The First Civilian Morning",
+      "choices": [
+        {
+          "text": "Choose the civilian life fully",
+          "consequence": "Let the rhythm reset you.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Pick up the phone when it rings, just once",
+          "consequence": "Old loyalties tug.",
+          "nextNodeId": "end_again"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You walk Lodhi at dawn and weigh whether the leak deserves the personal touch or the procedural one. The trees do not, in the end, advise you. They never have.",
+      "sceneTitle": "The Decision in Lodhi Gardens",
+      "choices": [
+        {
+          "text": "Settle it yourself, quietly",
+          "consequence": "Justice with your own hands.",
+          "nextNodeId": "end_leak"
+        },
+        {
+          "text": "Let the agency settle it on paper",
+          "consequence": "Justice with letterhead.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A letter arrives from a country Rabia is not supposed to be alive in. It is two pages. It says only what one survivor says to another. You read it twice and put it in a drawer with the other things you cannot keep on a shelf.",
+      "sceneTitle": "Rabia's Letter",
+      "choices": [
+        {
+          "text": "Write back, carefully",
+          "consequence": "Some lines stay open.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Burn the letter and let her live free",
+          "consequence": "Some kindnesses are silences.",
+          "nextNodeId": "end_leak"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_quiet",
+      "text": "You become a man with a small business in Pune that nobody asks about. You learn to garden. You read history. You sleep with the door unlocked once a month, then twice, then nightly. It is a strange peace, and it is yours.",
+      "sceneTitle": "Civilian",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Civilian"
+    },
+    {
+      "id": "end_again",
+      "text": "You take a posting in Colombo, then Singapore. You age inside a profession that does not allow you to remember birthdays. You see your cover children grow up in photographs. You will, in your sixties, write a memoir nobody will publish. It will be excellent.",
+      "sceneTitle": "The Next Assignment",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Next Assignment"
+    },
+    {
+      "id": "end_leak",
+      "text": "You find the man in Delhi who burned a generation of assets. You do not kill him. You ensure, instead, that every transaction of his life is daylight. He resigns within a month, in disgrace, and survives. That, you decide, is the right severity.",
+      "sceneTitle": "The Internal Justice",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Internal Justice"
+    }
+  ]
+}

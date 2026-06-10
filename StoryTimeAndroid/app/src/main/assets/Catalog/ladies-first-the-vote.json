@@ -1,0 +1,417 @@
+{
+  "id": "ladies-first-the-vote",
+  "title": "Ladies First",
+  "sourceTitle": "Ladies First",
+  "kind": "show",
+  "synopsis": "Your small-town women's coalition has won a council seat. The seat is yours. The town is split. The first session is Monday and the agenda includes a budget you've been fighting for two years.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-11T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "politics",
+    "women",
+    "small-town"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You win by 41 votes. Your mom cries. Your kid, eleven, is asleep on the couch. The coalition is in your living room making absurdly bad coffee.",
+      "sceneTitle": "Election Night",
+      "choices": [
+        {
+          "text": "Thank the coalition publicly tonight",
+          "consequence": "Recognize.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Save the thank-yous for Monday",
+          "consequence": "Be presentable.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "The mayor, who endorsed your opponent, calls to congratulate you. He uses your first name without permission. He invites you to coffee. You realize he is, professionally, already negotiating.",
+      "sceneTitle": "The Mayor's Call",
+      "choices": [
+        {
+          "text": "Accept the coffee",
+          "consequence": "Politics is also rooms.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Decline politely",
+          "consequence": "Set the boundary.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your mother, who once ran for the same seat and lost twice, makes you sit on the porch with her. 'They will try to make you a kind of woman they can manage,' she says. 'Don't let them.'",
+      "sceneTitle": "Your Mother",
+      "choices": [
+        {
+          "text": "Ask her how she avoided that",
+          "consequence": "Listen.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask her what she thought she should have done differently",
+          "consequence": "Different question.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You sit at the council table for the first time. There are six of you. You are the only woman. The first item is, unbelievably, the budget you've been pushing for two years. The mayor calls you 'councilwoman' the way some men say 'ma'am.'",
+      "sceneTitle": "Monday Session",
+      "choices": [
+        {
+          "text": "Lead with the budget",
+          "consequence": "Strike while warm.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Read the room first",
+          "consequence": "Read.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Wednesday night meeting at the church basement. Three new members. Two are nervous. One is, you can tell, already angling to be the next candidate. You realize you have to be a leader the coalition wants to follow.",
+      "sceneTitle": "The Coalition",
+      "choices": [
+        {
+          "text": "Make space for the ambitious one",
+          "consequence": "Generosity.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Set firm expectations for the coalition",
+          "consequence": "Discipline.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The vote is three to three. You sit with it for a long second. The deciding vote is, of course, an unexpected councilman who, you realize, is voting his conscience for the first time.",
+      "sceneTitle": "The Budget Vote",
+      "choices": [
+        {
+          "text": "Thank him publicly after",
+          "consequence": "Make him your ally.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Thank him privately and protect him",
+          "consequence": "Strategic.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your kid, eleven, asks you, with great seriousness, what your job is now. You think for a long minute. You realize the answer is, technically, 'I argue with men about how the town should work.'",
+      "sceneTitle": "Your Kid's Questions",
+      "choices": [
+        {
+          "text": "Tell her exactly that",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Give her the kid-version",
+          "consequence": "Gentle.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The local paper writes an editorial about your first vote. It is, mostly, generous. It is, in one paragraph, condescending. You realize the editor is, separately, going to be your neighbor for a long time.",
+      "sceneTitle": "The Editorial",
+      "choices": [
+        {
+          "text": "Respond to the editorial in a letter",
+          "consequence": "On record.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Don't respond; let the work speak",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Your first town hall as a councilmember. The room is louder than the council chamber. A man in the back yells about your funding decision. A woman near the front cries because of it.",
+      "sceneTitle": "The Town Hall",
+      "choices": [
+        {
+          "text": "Address the man first",
+          "consequence": "Calm the loudest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Address the woman first",
+          "consequence": "Honor the quieter.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Three months in. A vote on whether to fund a new library or repair the old highway bridge. The county will subsidize either, not both. You can guess which option the men will pick.",
+      "sceneTitle": "The Difficult Vote",
+      "choices": [
+        {
+          "text": "Push for the library",
+          "consequence": "Vision.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Push for the bridge",
+          "consequence": "Pragmatism.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You and the unexpected councilman start meeting for breakfast. You don't agree on much. You agree on the budget for the food pantry. The breakfasts become, in their way, the actual government.",
+      "sceneTitle": "The Quiet Win",
+      "choices": [
+        {
+          "text": "Codify the alliance",
+          "consequence": "Build.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Keep it informal",
+          "consequence": "Light.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Two years pass. Your re-election campaign is, mercifully, less of a fight than the first. You win by 312 votes. The coalition has, in your absence, doubled.",
+      "sceneTitle": "The Re-Election Year",
+      "choices": [
+        {
+          "text": "Run for mayor next cycle",
+          "consequence": "Aim up.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay on the council and build",
+          "consequence": "Stay in your strength.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Your daughter, thirteen now, sits in on a council meeting and watches you for two hours. Afterward she says, 'I want to do that.' You realize you have, accidentally, started a small generational thing.",
+      "sceneTitle": "The Daughter Watching",
+      "choices": [
+        {
+          "text": "Mentor her properly",
+          "consequence": "Pass the skill.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Let her find her own version",
+          "consequence": "Independence.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "You run for mayor. The town is, again, split. You win, again, narrowly. Your mother is in the audience at the swearing-in, in a dress she's owned since 1987. She doesn't cry. Her dress, she says, is too good.",
+      "sceneTitle": "Mayor",
+      "choices": [
+        {
+          "text": "Make 'small town, big work' your platform",
+          "consequence": "Frame.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Just do the work quietly",
+          "consequence": "Substance.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "The library opens, eventually. There is a small plaque with your name and three other names. Your daughter cuts the ribbon because you insisted. The whole coalition is in the front row. So is your mother.",
+      "sceneTitle": "Your Library Wins",
+      "choices": [
+        {
+          "text": "Use the library opening for the next campaign",
+          "consequence": "Build.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Just celebrate the library",
+          "consequence": "Honor the win.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The first hundred days are paperwork, parking, ordinances. Glamorous it is not. You realize, slowly, that being mayor is mostly the work of returning calls. You return them.",
+      "sceneTitle": "First Hundred Days",
+      "choices": [
+        {
+          "text": "Keep returning every call personally",
+          "consequence": "Old school.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Hire a chief of staff",
+          "consequence": "Scale yourself.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You attend a county-wide conference of small-town officials. Half of them are women now. Five years ago, two of them were. You realize you have, accidentally, been part of a shift.",
+      "sceneTitle": "The County Conference",
+      "choices": [
+        {
+          "text": "Take the lead on a regional coalition",
+          "consequence": "Bigger frame.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay focused on your own town",
+          "consequence": "Local.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Your first veto. The bill is, on balance, bad. The council member who proposed it is, separately, a friend's husband. You veto it. You call the friend the same night. The friendship survives. The friendship is, briefly, the work.",
+      "sceneTitle": "The Veto",
+      "choices": [
+        {
+          "text": "Be principled and friendly always",
+          "consequence": "Both at once.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Accept some friendships will fray",
+          "consequence": "Honest about cost.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "You convene a coalition of nine towns. The first meeting is awkward. The second is, surprisingly, productive. By the third you are voted, against your wishes, the chair.",
+      "sceneTitle": "The Regional Coalition Meeting",
+      "choices": [
+        {
+          "text": "Accept the chair",
+          "consequence": "Take it.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Decline; nominate someone better suited",
+          "consequence": "Pass.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Eve of the re-election. The kitchen table, again, late. Your mother, in town for it, has made tea. Your daughter, fifteen, is writing your closing remarks for you. You realize the politics has, finally, become a family practice.",
+      "sceneTitle": "Re-Election Eve",
+      "choices": [
+        {
+          "text": "Run again with the bigger 'small town' frame",
+          "consequence": "Mayor again.",
+          "nextNodeId": "end_mayor"
+        },
+        {
+          "text": "Run again on quiet, careful substance",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_mayor",
+      "text": "You serve two terms as mayor and shape, slowly, a town that looks like the town you wanted to grow up in. Your daughter, fifteen, runs for student council and wins. Your mother, in her late seventies, retires into proudly criticizing the new mayor.",
+      "sceneTitle": "Mayor for Two Terms",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Mayor for Two Terms"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You stay on the council. You build, quietly, slowly, decisively. People stop being surprised that a woman has the seat. Your kid grows up in a town that is, in small ways, kinder. That, you realize, was always the point.",
+      "sceneTitle": "Councilwoman, Quietly",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Councilwoman, Quietly"
+    }
+  ]
+}

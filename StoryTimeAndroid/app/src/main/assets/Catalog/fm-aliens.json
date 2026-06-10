@@ -1,0 +1,450 @@
+{
+  "id": "fm-aliens",
+  "title": "Aliens",
+  "sourceTitle": "Aliens",
+  "kind": "movie",
+  "synopsis": "Marines, a colony gone silent, a little girl in the vents, and a queen who has a very strong opinion about her eggs.",
+  "releaseYear": 1986,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Action",
+  "tags": [
+    "space",
+    "marines",
+    "queen",
+    "ripley"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Fifty-seven years of sleep and a hearing about a lifeboat full of nothing.",
+      "sceneTitle": "Wake Up",
+      "choices": [
+        {
+          "text": "Plead for the colony",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Quit and walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Drop pod and Hudson loud and Vasquez quiet and a Smartgun checklist on a screen.",
+      "sceneTitle": "Express Elevator to Hell",
+      "choices": [
+        {
+          "text": "Brief them",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Tired.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Wind. Acid rain. Atmosphere processor humming a wrong chord.",
+      "sceneTitle": "LV-426 Surface",
+      "choices": [
+        {
+          "text": "Sweep the comm tower",
+          "consequence": "Strategic.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Sweep the medlab",
+          "consequence": "Hunch.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Colonists in the walls of medlab, two still warm enough to scream.",
+      "sceneTitle": "Cocoons",
+      "choices": [
+        {
+          "text": "Burn them",
+          "consequence": "Mercy.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Try to save",
+          "consequence": "Heart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A girl in a vent who has not been hugged in weeks.",
+      "sceneTitle": "Newt",
+      "choices": [
+        {
+          "text": "Coax her out",
+          "consequence": "Care.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Leave her",
+          "consequence": "Cold.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The reactor under your boots and a sergeant who fires anyway.",
+      "sceneTitle": "Atmosphere Processor",
+      "choices": [
+        {
+          "text": "Override the rifle order",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Obey orders",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Eggs in the dark. Drones from the ceiling. Apone, Dietrich, Frost, Crowe — gone.",
+      "sceneTitle": "Ambush",
+      "choices": [
+        {
+          "text": "Take the wheel of the APC",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Wait for orders",
+          "consequence": "Doomed.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Dropship pilot is foam on a wall. The other ship is gone.",
+      "sceneTitle": "Wreck",
+      "choices": [
+        {
+          "text": "Improvise the orbit drop",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Fortify and wait",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "He hopes the Company keeps a specimen alive. He suggests the smuggling routine.",
+      "sceneTitle": "Burke",
+      "choices": [
+        {
+          "text": "Confront him",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Watch him quietly",
+          "consequence": "Cunning.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Tracers in the corridor and a counter ticking down ammo per second.",
+      "sceneTitle": "Sentry Guns",
+      "choices": [
+        {
+          "text": "Reposition them",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stand the line",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Two in a cage that is unlocked.",
+      "sceneTitle": "Medlab Facehuggers",
+      "choices": [
+        {
+          "text": "Lock it again",
+          "consequence": "Smart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Burn them",
+          "consequence": "Final.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "He hands you a tracker bracelet for Newt and a careful first name.",
+      "sceneTitle": "Hicks at the Door",
+      "choices": [
+        {
+          "text": "Wear it",
+          "consequence": "Care.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Hard.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Sound of a wet thing moving past a grille.",
+      "sceneTitle": "Vents Above",
+      "choices": [
+        {
+          "text": "Drop a flare",
+          "consequence": "Cunning.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Patient.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A vent slips and pulls her down a chute toward a darkness with eyes in it.",
+      "sceneTitle": "Newt in the Wall",
+      "choices": [
+        {
+          "text": "Crawl after her",
+          "consequence": "Loyal.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Cut through the floor",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "It is going critical and the windows are starting to flex.",
+      "sceneTitle": "Power to the Reactor",
+      "choices": [
+        {
+          "text": "Set the timer",
+          "consequence": "Final.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Cut the cooling now",
+          "consequence": "Reckless.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He has locked you out and run for the dropship.",
+      "sceneTitle": "Burke at the Lock",
+      "choices": [
+        {
+          "text": "Track him with the bracelet",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Calm.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Eggs in long rows, and at the center, a swaying mother with new breath.",
+      "sceneTitle": "Hive",
+      "choices": [
+        {
+          "text": "Burn the eggs",
+          "consequence": "Final.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Sneak past",
+          "consequence": "Cautious.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "She lifts her ovipositor and gestures: leave, and we leave.",
+      "sceneTitle": "Queen's Bargain",
+      "choices": [
+        {
+          "text": "Burn anyway",
+          "consequence": "Hard.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Walk slowly back",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Bishop at the controls, half a man, all the way arrived.",
+      "sceneTitle": "Dropship Pad",
+      "choices": [
+        {
+          "text": "Hand him Newt first",
+          "consequence": "Care.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Cover the rear",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Queen on the underside of the ship, eggs in her teeth.",
+      "sceneTitle": "Cargo Bay",
+      "choices": [
+        {
+          "text": "Power loader",
+          "consequence": "Bold.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Vent the bay",
+          "consequence": "Final.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Loader arms, claws, the cold of space waiting just past the door.",
+      "sceneTitle": "Get Away From Her",
+      "choices": [
+        {
+          "text": "Open the airlock",
+          "consequence": "Final.",
+          "nextNodeId": "end_sleep"
+        },
+        {
+          "text": "Spin her into the lift",
+          "consequence": "Cunning.",
+          "nextNodeId": "end_hold"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_sleep",
+      "text": "Bishop's torso in a cot, Newt's small hand in yours, a fifty-year ride home with better dreams this time.",
+      "sceneTitle": "Sleep Easy",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Sleep Easy"
+    },
+    {
+      "id": "end_hold",
+      "text": "You come back to the surface anyway, with five hundred Colonial Marines and a plan that the Queen has not yet predicted.",
+      "sceneTitle": "Hold the Line",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hold the Line"
+    },
+    {
+      "id": "end_quiet",
+      "text": "She asks if she can dream now. You say yes. She does. So do you. Both of you for the first time in weeks.",
+      "sceneTitle": "Newt Asleep",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Newt Asleep"
+    }
+  ]
+}

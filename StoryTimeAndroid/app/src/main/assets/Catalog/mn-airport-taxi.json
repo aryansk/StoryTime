@@ -1,0 +1,150 @@
+{
+  "id": "mn-airport-taxi",
+  "title": "Airport at 5 a.m.",
+  "sourceTitle": "Airport at 5 a.m.",
+  "kind": "movie",
+  "synopsis": "Your flight is in ninety minutes. The taxi smells like coffee and bad news.",
+  "releaseYear": 2026,
+  "addedAt": "2026-02-02T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "commute",
+    "mini"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "m1",
+  "nodes": [
+    {
+      "id": "m1",
+      "text": "Driver: chatty. Radio: jazz. Traffic: ominous.",
+      "sceneTitle": "Backseat",
+      "choices": [
+        {
+          "text": "Engage him",
+          "consequence": "Friend.",
+          "nextNodeId": "m2"
+        },
+        {
+          "text": "Pretend to nap",
+          "consequence": "Wise.",
+          "nextNodeId": "m2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m2",
+      "text": "He knows a shortcut through old downtown.",
+      "sceneTitle": "Detour",
+      "choices": [
+        {
+          "text": "Trust him",
+          "consequence": "Brave.",
+          "nextNodeId": "m3"
+        },
+        {
+          "text": "Insist on the highway",
+          "consequence": "Smart.",
+          "nextNodeId": "m3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m3",
+      "text": "A crane blocks the shortcut. He sighs theatrically.",
+      "sceneTitle": "Construction",
+      "choices": [
+        {
+          "text": "Tip him anyway",
+          "consequence": "Civil.",
+          "nextNodeId": "m4"
+        },
+        {
+          "text": "Get out and run",
+          "consequence": "Brave.",
+          "nextNodeId": "m4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m4",
+      "text": "Forty minutes to gate. The TSA line wraps the building.",
+      "sceneTitle": "Curbside",
+      "choices": [
+        {
+          "text": "TSA Pre-line",
+          "consequence": "Smart.",
+          "nextNodeId": "m5"
+        },
+        {
+          "text": "Charm the gate agent",
+          "consequence": "Spirit.",
+          "nextNodeId": "m5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m5",
+      "text": "Final boarding. You and your laptop bag, panting.",
+      "sceneTitle": "Gate",
+      "choices": [
+        {
+          "text": "Apologize to the row",
+          "consequence": "Civil.",
+          "nextNodeId": "m6"
+        },
+        {
+          "text": "Sit and immediately read",
+          "consequence": "Honest.",
+          "nextNodeId": "m6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "m6",
+      "text": "Sun comes up over the wing. The bag's safe. Nobody died.",
+      "sceneTitle": "In the Air",
+      "choices": [
+        {
+          "text": "Order coffee",
+          "consequence": "Joy.",
+          "nextNodeId": "end_friend"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_friend",
+      "text": "You and the driver text occasionally. He's a writer in his free time. His pieces are, against all odds, good.",
+      "sceneTitle": "Cab Friend",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Cab Friend"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You land. You forget the cab in three days. You remember the jazz for years.",
+      "sceneTitle": "Just a Morning",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Just a Morning"
+    }
+  ]
+}

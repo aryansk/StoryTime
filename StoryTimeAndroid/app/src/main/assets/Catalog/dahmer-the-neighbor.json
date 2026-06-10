@@ -1,0 +1,417 @@
+{
+  "id": "dahmer-the-neighbor",
+  "title": "Monster: The Jeffrey Dahmer Story",
+  "sourceTitle": "Monster: The Jeffrey Dahmer Story",
+  "kind": "show",
+  "synopsis": "Apartment 213 smells wrong again. You live in 212. The police don't listen to women who look like you in this neighborhood. You will have to be the one who is right.",
+  "releaseYear": 2022,
+  "addedAt": "2026-04-25T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "true-crime",
+    "witness",
+    "neighbor"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The hallway smells like meat gone wrong. The super has, four times this year, called it 'a refrigerator problem.' Your son holds his nose at his school bag.",
+      "sceneTitle": "The Smell",
+      "choices": [
+        {
+          "text": "Knock on 213 yourself",
+          "consequence": "Confront politely.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Document every incident in a notebook",
+          "consequence": "Build the case quietly.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "He answers in glasses, polite, vaguely apologetic. 'It's the freezer, ma'am,' he says. 'I'll get it fixed.' He smiles. The smell, in the open doorway, gets briefly worse before he shuts it.",
+      "sceneTitle": "The Door",
+      "choices": [
+        {
+          "text": "Tell the super again, firmly",
+          "consequence": "Use the chain of command.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Call the police non-emergency line",
+          "consequence": "Escalate.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "You start a black notebook. Dates, times, smells, sounds. The list grows faster than you wanted it to. You realize, terrifyingly, you may need this notebook in a courtroom one day.",
+      "sceneTitle": "The Notebook",
+      "choices": [
+        {
+          "text": "Share the notebook with your sister",
+          "consequence": "Witnesses.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Keep it to yourself for safety",
+          "consequence": "Protect first.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "The officer is polite and bored. He tells you 'lots of single men live like this.' He does not write anything down. You realize his department's procedures are stacked against you.",
+      "sceneTitle": "The Police, First Call",
+      "choices": [
+        {
+          "text": "File a formal complaint",
+          "consequence": "Paperwork forces process.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Wait for a worse incident, prepared",
+          "consequence": "Patience as a tactic.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Your sister works at the city desk of the local paper. She listens, nods, asks if she can take notes for a future story. You feel, briefly, like someone is finally on your side.",
+      "sceneTitle": "Your Sister, Listening",
+      "choices": [
+        {
+          "text": "Let her start a quiet file",
+          "consequence": "Build parallel pressure.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Ask her to wait until you have proof",
+          "consequence": "Don't move too soon.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A young man, dazed, wanders out of 213 into the hallway, naked, bleeding. You shield him with your own coat. Police arrive. They speak to your neighbor. They walk the boy back inside.",
+      "sceneTitle": "The Boy on the Stairs",
+      "choices": [
+        {
+          "text": "Refuse to leave the hallway until they re-examine",
+          "consequence": "Stand your ground.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Call your sister immediately for the story",
+          "consequence": "Use the press as a witness.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "An older neighbor, Glenda, has been calling the city for months. You compare notes. She's been ignored too. Together you make a list of names and numbers and times every department has hung up on you.",
+      "sceneTitle": "Glenda Cleveland's Call",
+      "choices": [
+        {
+          "text": "Take the list to a city council member",
+          "consequence": "Politicize the silence.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Take it directly to the FBI tip line",
+          "consequence": "Bypass local.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your sister and another reporter show up at the precinct with a list of incidents in a folder. The desk officer becomes, very quickly, much more polite.",
+      "sceneTitle": "The Reporter's Visit",
+      "choices": [
+        {
+          "text": "Stay for the interview",
+          "consequence": "Be the named source.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay anonymous; let the file speak",
+          "consequence": "Protect your family.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "The FBI agent who returns your call is, surprisingly, alert. She has, she says, been collecting reports from this area for a year. You hear her flip a page. You hear her say, 'Tell me everything.'",
+      "sceneTitle": "The Tip Line",
+      "choices": [
+        {
+          "text": "Tell her everything you have",
+          "consequence": "Pour out the file.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Tell her enough to get her on a plane",
+          "consequence": "Hook the case.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Another man escapes 213, this time onto the street, this time louder. Officers come. This time, with your file already known to a reporter, they cuff your neighbor without re-litigating it.",
+      "sceneTitle": "The Night It Breaks",
+      "choices": [
+        {
+          "text": "Watch from the hallway, calmly",
+          "consequence": "Witness the arrest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Hold Glenda's hand",
+          "consequence": "Care for the women who saw it first.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A press conference happens three days later. The mayor uses words like 'oversight' and 'review.' He does not say your name. You and Glenda watch from a bar across the street. You order one beer between you because that's all your budget allows.",
+      "sceneTitle": "The Press Conference",
+      "choices": [
+        {
+          "text": "Speak to a reporter outside",
+          "consequence": "Make the public statement.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Drink the beer in silence",
+          "consequence": "Some moments are for survivors only.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Charges multiply over weeks — body parts in the apartment, families coming forward, photographs no human should have to look at. You realize you lived next door to it for two years. You realize you tried to stop it for half of those.",
+      "sceneTitle": "The Charges",
+      "choices": [
+        {
+          "text": "Read every news report obsessively",
+          "consequence": "Bear witness.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stop reading; protect your sleep",
+          "consequence": "Survival.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Mothers and brothers and aunts of the victims come to the courthouse. You meet them, by accident, in a hallway. They thank you. You realize, painfully, that gratitude here is a form of grief.",
+      "sceneTitle": "Families",
+      "choices": [
+        {
+          "text": "Stay close to the families through the trial",
+          "consequence": "Be present.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Help them organize a memorial",
+          "consequence": "Action.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Months later, a city council hearing on the police failures. You testify. Glenda testifies. The officers who walked the dazed boy back into 213 lose their jobs but, somehow, keep their pensions.",
+      "sceneTitle": "The Council Hearing",
+      "choices": [
+        {
+          "text": "Push for systemic reforms",
+          "consequence": "The dead deserve a system that listens.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Push for individual prosecution of those officers",
+          "consequence": "Accountability is also a reform.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your son, eight, asks if it was your fault you lived next door to him. You sit on the floor and tell him the truth — that grown-ups should have listened to you sooner, and that you did everything you could.",
+      "sceneTitle": "Your Son",
+      "choices": [
+        {
+          "text": "Promise him you'll make sure people listen next time",
+          "consequence": "Turn grief into a vow.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Promise him you'll move somewhere else",
+          "consequence": "Choose his peace.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You and Glenda and three of the victims' mothers form an informal coalition — calls, hearings, a small fund for families. The work is slow. The work is real.",
+      "sceneTitle": "The Mothers' Coalition",
+      "choices": [
+        {
+          "text": "Make this your life's work",
+          "consequence": "Keep going.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Do it for a year, then step back",
+          "consequence": "Sustainable.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You pack two suitcases and your son's bike. You leave 212 with the notebook still in your purse. The new apartment is smaller and farther away and, by every measure that matters, better.",
+      "sceneTitle": "Moving Day",
+      "choices": [
+        {
+          "text": "Take a year before deciding what's next",
+          "consequence": "Rest first.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Throw yourself into a new job",
+          "consequence": "Forward.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Ten years on. A different neighborhood. A new young officer is being trained on the policies that have your name in the footnotes. You will never meet her. She will, one day, listen to a woman like you. That is, you decide, enough.",
+      "sceneTitle": "Years Later",
+      "choices": [
+        {
+          "text": "Make peace with the legacy",
+          "consequence": "Forgiveness as posture.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay vigilant; the work is never done",
+          "consequence": "Vigilance as vow.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Glenda dies, years later, of ordinary things. You give a short eulogy. Half the room has been in a hallway with her. You say, in the eulogy, what she always said: 'They will listen to you. They have to learn that.'",
+      "sceneTitle": "Glenda's Funeral",
+      "choices": [
+        {
+          "text": "Continue Glenda's calls and complaints",
+          "consequence": "Take the baton.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Step back; let younger neighbors take it on",
+          "consequence": "Pass it forward.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You open the bottom drawer of your dresser. The black notebook is still there, edges soft. You weigh whether to keep it close or pass it on. Either way, you've already done the harder thing — you were there.",
+      "sceneTitle": "The Drawer",
+      "choices": [
+        {
+          "text": "Keep the notebook in the drawer",
+          "consequence": "Memory.",
+          "nextNodeId": "end_legacy"
+        },
+        {
+          "text": "Give it to a neighbor who is starting hers",
+          "consequence": "Pass it on.",
+          "nextNodeId": "end_vigil"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_legacy",
+      "text": "Your name lands in three policy footnotes and one foundation's annual report. You don't read them often. Your son grows up and becomes, against his own initial plan, a social worker. The notebook lives in a box in your closet. You sleep with the door unlocked, mostly.",
+      "sceneTitle": "Footnote, Foundation",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Footnote, Foundation"
+    },
+    {
+      "id": "end_vigil",
+      "text": "You keep the phone numbers in a binder. When a neighbor asks for advice, you give it. When a new officer comes to the precinct, you go in and shake his hand and remember his face. Vigilance, you discover, is mostly just refusing to forget.",
+      "sceneTitle": "Still Calling",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Still Calling"
+    }
+  ]
+}

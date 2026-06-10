@@ -1,0 +1,449 @@
+{
+  "id": "fm-forrest-gump",
+  "title": "Forrest Gump",
+  "sourceTitle": "Forrest Gump",
+  "kind": "movie",
+  "synopsis": "Alabama. A bench. A box of chocolates. You don't know what you're going to get. The century, for some reason, keeps happening to you.",
+  "releaseYear": 1994,
+  "addedAt": "2026-03-22T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "history",
+    "innocence",
+    "running"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Doctor says you'll wear it forever. Mama disagrees.",
+      "sceneTitle": "The Brace",
+      "choices": [
+        {
+          "text": "Trust Mama",
+          "consequence": "Heart.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Trust the doctor",
+          "consequence": "Reason.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "First day of school. Nobody will let you sit. A girl named Jenny does.",
+      "sceneTitle": "The Bus",
+      "choices": [
+        {
+          "text": "Sit by Jenny",
+          "consequence": "Friend.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Sit alone",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Bullies. Stones. Jenny yells run. The brace shatters off your legs.",
+      "sceneTitle": "Run, Forrest",
+      "choices": [
+        {
+          "text": "Keep running",
+          "consequence": "Joy.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Stop and confront",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Alabama recruits you. Bear Bryant nods. You return kicks for touchdowns.",
+      "sceneTitle": "College Football",
+      "choices": [
+        {
+          "text": "Just keep running",
+          "consequence": "Forward.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Try a fake",
+          "consequence": "Style.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Army drafts you. You meet Bubba. Bubba talks about shrimp.",
+      "sceneTitle": "Vietnam",
+      "choices": [
+        {
+          "text": "Listen",
+          "consequence": "Friend.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Plan together",
+          "consequence": "Plan.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Rain. Fire. Bubba is down. You carry him.",
+      "sceneTitle": "Ambush",
+      "choices": [
+        {
+          "text": "Go back for the others",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay with Bubba",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You meet Lieutenant Dan. He is, angry, alive, missing legs.",
+      "sceneTitle": "Hospital",
+      "choices": [
+        {
+          "text": "Play ping-pong",
+          "consequence": "Therapy.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Sit with Dan",
+          "consequence": "Friend.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You meet a President. You show another your bullet wound.",
+      "sceneTitle": "White House",
+      "choices": [
+        {
+          "text": "Be polite",
+          "consequence": "Style.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Be honest",
+          "consequence": "Forrest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "You speak at a Vietnam protest. The mic cuts out. The crowd listens anyway.",
+      "sceneTitle": "Lincoln Memorial",
+      "choices": [
+        {
+          "text": "Just stand there",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Walk down",
+          "consequence": "Modest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Jenny is on a stage in San Francisco. The crowd is, you don't know what kind, the crowd.",
+      "sceneTitle": "Jenny, Found",
+      "choices": [
+        {
+          "text": "Run to her",
+          "consequence": "Heart.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You play ping-pong in China. You meet a different President. He, also, gets a wound shown to him.",
+      "sceneTitle": "Ping-Pong Diplomacy",
+      "choices": [
+        {
+          "text": "Win the cup",
+          "consequence": "Skill.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Lose graciously",
+          "consequence": "Style.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Lieutenant Dan invests your shrimp boat money in some fruit company. The fruit company is, it turns out, fine.",
+      "sceneTitle": "Apple Computer",
+      "choices": [
+        {
+          "text": "Don't think about it much",
+          "consequence": "Forrest.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Be excited",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You and Dan start a shrimp company in Bubba's name. The hurricane spares your boat. You make a lot of money.",
+      "sceneTitle": "Bubba Gump",
+      "choices": [
+        {
+          "text": "Give half to Bubba's mama",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Save it all for Mama",
+          "consequence": "Family.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Mama is dying. You sit with her. She tells you life is a box of chocolates.",
+      "sceneTitle": "Mama",
+      "choices": [
+        {
+          "text": "Sit till the end",
+          "consequence": "Son.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Promise her you'll be okay",
+          "consequence": "Vow.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You start running. You don't stop for years. People follow you. You start a movement by accident.",
+      "sceneTitle": "Running",
+      "choices": [
+        {
+          "text": "Just keep running",
+          "consequence": "Path.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Make a speech",
+          "consequence": "Style.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Jenny finds you. There is a child. The child is, in fact, yours.",
+      "sceneTitle": "Jenny's Apartment",
+      "choices": [
+        {
+          "text": "Be a father",
+          "consequence": "Forward.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Be scared",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You marry Jenny. She is sick. You know she is sick. You marry her anyway.",
+      "sceneTitle": "Marriage",
+      "choices": [
+        {
+          "text": "Love every day",
+          "consequence": "Now.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Don't think about tomorrow",
+          "consequence": "Present.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Jenny dies under the tree by the church. You sit with her grave a long time.",
+      "sceneTitle": "Jenny, Sick",
+      "choices": [
+        {
+          "text": "Talk to her",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stand quietly",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Your son is small and smart. He asks if you're his dad. You tell him yes.",
+      "sceneTitle": "Little Forrest",
+      "choices": [
+        {
+          "text": "Read to him every night",
+          "consequence": "Father.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Drive him to school every morning",
+          "consequence": "Father.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "On the bench, telling a stranger your story. The stranger leaves. The bus arrives.",
+      "sceneTitle": "The Bench, Now",
+      "choices": [
+        {
+          "text": "Stand up",
+          "consequence": "Forward.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Sit a moment more",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You walk him to the bus. You stand by the road. The feather drifts past your shoe.",
+      "sceneTitle": "Little Forrest's First Day",
+      "choices": [
+        {
+          "text": "Pick up the feather",
+          "consequence": "Sentiment.",
+          "nextNodeId": "end_feather"
+        },
+        {
+          "text": "Let it go",
+          "consequence": "Forward.",
+          "nextNodeId": "end_father"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_chocolates"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_feather",
+      "text": "You go home, put Jenny's feather in your old book, and start running again the next morning. Just because. Some things don't need a reason.",
+      "sceneTitle": "The Feather",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Feather"
+    },
+    {
+      "id": "end_father",
+      "text": "You raise Little Forrest into a kind, smart man. He becomes a teacher. You watch him from a back row at his graduation and cry exactly once, in a Forrest way, big and honest.",
+      "sceneTitle": "Little Forrest's Years",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Little Forrest's Years"
+    },
+    {
+      "id": "end_chocolates",
+      "text": "Mama was right. You never know what you're going to get. You eat the chocolates as they come. The bench, in town, is still there. Some days you sit on it.",
+      "sceneTitle": "Box of Chocolates",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Box of Chocolates"
+    }
+  ]
+}

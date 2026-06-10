@@ -1,0 +1,449 @@
+{
+  "id": "fb-one-hundred-years",
+  "title": "One Hundred Years of Solitude",
+  "sourceTitle": "One Hundred Years of Solitude",
+  "kind": "book",
+  "synopsis": "Macondo. A town founded between a river and a swamp. Your family is the Buendía family. The world will come for you, slowly, in seven generations.",
+  "releaseYear": 1967,
+  "addedAt": "2026-02-12T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "magical-realism",
+    "marquez",
+    "family"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "José Arcadio Buendía draws Macondo on a map.",
+      "sceneTitle": "Founding",
+      "choices": [
+        {
+          "text": "Plant the trees",
+          "consequence": "Path.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Plant the streets",
+          "consequence": "Practical.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Melquíades brings ice. Magnets. Flying carpets.",
+      "sceneTitle": "Gypsies",
+      "choices": [
+        {
+          "text": "Buy them all",
+          "consequence": "Wonder.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Save your money",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Mauricio Babilonia, mechanic, follows your aunt.",
+      "sceneTitle": "Yellow Butterflies",
+      "choices": [
+        {
+          "text": "Note them",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't note",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "He starts thirty-two civil wars and loses all of them.",
+      "sceneTitle": "Colonel Aureliano",
+      "choices": [
+        {
+          "text": "Visit him",
+          "consequence": "Family.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay home",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He makes little gold fishes and melts them down.",
+      "sceneTitle": "Workshop",
+      "choices": [
+        {
+          "text": "Buy a fish",
+          "consequence": "Care.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Don't buy",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your great-grandmother is, in her hundreds, holding it together.",
+      "sceneTitle": "Ursula",
+      "choices": [
+        {
+          "text": "Help her",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Watch her",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Foreigners arrive. The town fattens. Then they leave.",
+      "sceneTitle": "The Banana Company",
+      "choices": [
+        {
+          "text": "Speak against them",
+          "consequence": "Brave.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Three thousand workers killed at the station. The town forgets.",
+      "sceneTitle": "The Massacre",
+      "choices": [
+        {
+          "text": "Insist on memory",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Survive.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "It rains for nearly five years.",
+      "sceneTitle": "Rain",
+      "choices": [
+        {
+          "text": "Build",
+          "consequence": "Patient.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "She ascends to heaven hanging the sheets.",
+      "sceneTitle": "Remedios the Beauty",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Wonder.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "She dies the day she finishes.",
+      "sceneTitle": "Amaranta Embroiders Her Shroud",
+      "choices": [
+        {
+          "text": "Bury her with the shroud",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Use it for someone else",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A young Buendía rediscovers Melquíades' room.",
+      "sceneTitle": "Aureliano José",
+      "choices": [
+        {
+          "text": "Read with him",
+          "consequence": "Path.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay out",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Sanskrit. Translated. The whole future of the family is, in fact, the past.",
+      "sceneTitle": "The Parchments",
+      "choices": [
+        {
+          "text": "Translate carefully",
+          "consequence": "Path.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Stop reading",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A Buendía marries a Buendía. Pigs' tails are said to follow.",
+      "sceneTitle": "Forbidden Love",
+      "choices": [
+        {
+          "text": "Marry anyway",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "She lives long enough to know everyone twice. She reads cards.",
+      "sceneTitle": "Pilar Ternera",
+      "choices": [
+        {
+          "text": "Visit her",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "The house is, finally, full of ants and dust.",
+      "sceneTitle": "Ants",
+      "choices": [
+        {
+          "text": "Sweep",
+          "consequence": "Resist.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't sweep",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A child with a pig's tail is born.",
+      "sceneTitle": "The Last Child",
+      "choices": [
+        {
+          "text": "Take him in your arms",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "The next morning, ants carry him to their nest.",
+      "sceneTitle": "Ants Carry Him",
+      "choices": [
+        {
+          "text": "Read the last parchment now",
+          "consequence": "Path.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The parchments describe this moment, exactly.",
+      "sceneTitle": "Reading the End",
+      "choices": [
+        {
+          "text": "Read your name",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Look up",
+          "consequence": "Brave.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A wind begins to take the town.",
+      "sceneTitle": "Wind",
+      "choices": [
+        {
+          "text": "Step into it",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay inside",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The town is, at last, a place that has been.",
+      "sceneTitle": "Macondo, Disappearing",
+      "choices": [
+        {
+          "text": "Smile",
+          "consequence": "Honor.",
+          "nextNodeId": "end_wind"
+        },
+        {
+          "text": "Cry",
+          "consequence": "Honest.",
+          "nextNodeId": "end_parchment"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_family"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_wind",
+      "text": "The town is taken. The book ends. Generations after, in other cities, the book is read by people who do not know they are reading their own future.",
+      "sceneTitle": "Macondo, Wind",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Macondo, Wind"
+    },
+    {
+      "id": "end_parchment",
+      "text": "A scholar in a quiet library, decades later, decodes the parchments fully. She publishes. The world reads. Macondo, against its own ending, persists.",
+      "sceneTitle": "The Parchments, Translated",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Parchments, Translated"
+    },
+    {
+      "id": "end_family",
+      "text": "Far from Macondo, descendants you didn't know about live ordinary lives. They name children, by chance, after you. They do not know why these names felt familiar.",
+      "sceneTitle": "Family, Always",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family, Always"
+    }
+  ]
+}

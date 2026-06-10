@@ -1,0 +1,449 @@
+{
+  "id": "bear-friday-rush",
+  "title": "The Bear",
+  "sourceTitle": "The Bear",
+  "kind": "show",
+  "synopsis": "Forty covers. Three line cooks. One temperamental pilot light. Don't burn it.",
+  "releaseYear": 2024,
+  "addedAt": "2026-05-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "kitchen",
+    "family",
+    "pressure"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Sydney pulls a list. The walk-in is colder than yesterday. Richie is late.",
+      "sceneTitle": "Open",
+      "choices": [
+        {
+          "text": "Start prep",
+          "consequence": "Discipline.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Wait for Richie",
+          "consequence": "Mercy.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Two cases of tomatoes. The herbs are good. The pilot light isn't.",
+      "sceneTitle": "Mise",
+      "choices": [
+        {
+          "text": "Light it manually",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Call the gas guy",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A delivery short by a case. The driver is sorry.",
+      "sceneTitle": "Sysco Truck",
+      "choices": [
+        {
+          "text": "Adapt the menu",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Demand a re-run",
+          "consequence": "Spirit.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Marcus made bread. The bread is, by any measure, perfect.",
+      "sceneTitle": "Family Meal",
+      "choices": [
+        {
+          "text": "Praise him loudly",
+          "consequence": "Friend.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Praise him quietly",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A four-top at 5:45. The dad has questions about gluten.",
+      "sceneTitle": "First Reservation",
+      "choices": [
+        {
+          "text": "Send Richie",
+          "consequence": "Strategic.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Go yourself",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Tickets start. Sydney calls them clean.",
+      "sceneTitle": "Five-thirty",
+      "choices": [
+        {
+          "text": "Hands across",
+          "consequence": "Discipline.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Yes, chef",
+          "consequence": "Honor.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A roux blackens. You smell it across the line.",
+      "sceneTitle": "Burned Roux",
+      "choices": [
+        {
+          "text": "Restart",
+          "consequence": "Discipline.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Push through",
+          "consequence": "Foolish.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Tina has been on the line for thirty years. She steadies the pass.",
+      "sceneTitle": "Tina",
+      "choices": [
+        {
+          "text": "Promote her tonight",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Promote her on payday",
+          "consequence": "Wise.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A bin of stock has tipped. The floor is a flood.",
+      "sceneTitle": "Walk-In Drama",
+      "choices": [
+        {
+          "text": "Stop service two minutes",
+          "consequence": "Smart.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Push through",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You catch it before a fall. The stock isn't lost.",
+      "sceneTitle": "Saved",
+      "choices": [
+        {
+          "text": "Thank Marcus",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Don't break flow",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Richie remembers a regular's name. Their face lights up.",
+      "sceneTitle": "Front of House",
+      "choices": [
+        {
+          "text": "Compliment him",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Note it for later",
+          "consequence": "Discipline.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A two-top at the corner: notebook out.",
+      "sceneTitle": "Critic, Maybe",
+      "choices": [
+        {
+          "text": "Send the off-menu special",
+          "consequence": "Strategy.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Don't show off",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A memory of your brother flashes during a quiet moment.",
+      "sceneTitle": "Cousin Mike",
+      "choices": [
+        {
+          "text": "Let it pass",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Speak his name aloud",
+          "consequence": "Heart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Seven o'clock. Tickets stacked. Hands across.",
+      "sceneTitle": "Push",
+      "choices": [
+        {
+          "text": "Call ahead by ten",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay live",
+          "consequence": "Brave.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Carmy burns his wrist. Sydney moves him off.",
+      "sceneTitle": "Saute Burn",
+      "choices": [
+        {
+          "text": "Sub in yourself",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Send him out front",
+          "consequence": "Care.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Marcus needs an extra minute on plating. The window is hot.",
+      "sceneTitle": "Pastry",
+      "choices": [
+        {
+          "text": "Hold a beat",
+          "consequence": "Discipline.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Send what's ready",
+          "consequence": "Smart.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A dish goes back wrong. The table is gracious.",
+      "sceneTitle": "Comp",
+      "choices": [
+        {
+          "text": "Comp the table",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Comp and visit",
+          "consequence": "Friend.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "9:42 p.m. The kitchen is, briefly, almost quiet.",
+      "sceneTitle": "Last Cover",
+      "choices": [
+        {
+          "text": "Walk the dining room",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Sit on a crate",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Sweep, wipe, rotate, prep. Marcus hums something.",
+      "sceneTitle": "Close",
+      "choices": [
+        {
+          "text": "Sing along",
+          "consequence": "Joy.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Just clean",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Beer crates outside. Eleven people in love with one bad pilot light.",
+      "sceneTitle": "After",
+      "choices": [
+        {
+          "text": "Share the night",
+          "consequence": "Family.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Walk home alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You write tomorrow's prep at the cold pass.",
+      "sceneTitle": "Tomorrow's List",
+      "choices": [
+        {
+          "text": "Aim higher",
+          "consequence": "Spirit.",
+          "nextNodeId": "end_star"
+        },
+        {
+          "text": "Aim steady",
+          "consequence": "Wise.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_carmy"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_star",
+      "text": "Months later the inspector arrives. Star, half. The kitchen, for a beat, cries together. Then Sydney calls service.",
+      "sceneTitle": "A Star",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Star"
+    },
+    {
+      "id": "end_family",
+      "text": "You don't get the star. You get something almost as rare: a kitchen full of people who like coming back tomorrow.",
+      "sceneTitle": "Family Meal",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family Meal"
+    },
+    {
+      "id": "end_carmy",
+      "text": "Carmy takes a step back. You and Sydney run the line cleaner without him. He drops in on Thursdays to taste.",
+      "sceneTitle": "Carmy, Quieter",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Carmy, Quieter"
+    }
+  ]
+}

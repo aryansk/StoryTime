@@ -1,0 +1,417 @@
+{
+  "id": "the-boroughs-the-listening",
+  "title": "The Boroughs",
+  "sourceTitle": "The Boroughs",
+  "kind": "show",
+  "synopsis": "Your retirement community is, unfortunately, haunted by something. You and your bridge club — none of you under seventy-three — have agreed to investigate. Your hearing aids have new uses.",
+  "releaseYear": 2025,
+  "addedAt": "2026-04-12T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "seniors",
+    "mystery",
+    "supernatural"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Lila finishes a hand and announces, calmly, that she heard the spirit again last night at 2:14 a.m. The other three of you put down your cards because Lila is never wrong about times.",
+      "sceneTitle": "The Bridge Table",
+      "choices": [
+        {
+          "text": "Take her seriously immediately",
+          "consequence": "Trust Lila.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Ask kind, clarifying questions first",
+          "consequence": "Verify.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Marvin produces, from his apartment, a 1962 map of the original property — a sanatorium before it was the retirement village. Three rooms on the map no longer exist on the current floor plan.",
+      "sceneTitle": "The Old Map",
+      "choices": [
+        {
+          "text": "Find the rooms",
+          "consequence": "Investigate.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Research what happened in them first",
+          "consequence": "Library.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Beverly's new hearing aids pick up frequencies the rest of yours don't. She agrees to wear them tonight at 2:14. The four of you have, accidentally, become an investigative unit.",
+      "sceneTitle": "The Hearing Aids",
+      "choices": [
+        {
+          "text": "Set up an overnight stakeout",
+          "consequence": "Active.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Set up a microphone array instead",
+          "consequence": "Hands-off.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Two of the three rooms are inside the current basement wall. One of them, you realize after a long Saturday morning, is behind the laundry room. Behind the dryer is a door that is, distinctly, painted over.",
+      "sceneTitle": "The Three Rooms",
+      "choices": [
+        {
+          "text": "Open the door",
+          "consequence": "Curiosity.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Photograph the door and call the property manager",
+          "consequence": "Process.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The local librarian — a friend of Marvin's late wife — finds, in the regional archive, three newspaper stories from 1958 about a missing nurse who was 'last seen at the sanatorium.'",
+      "sceneTitle": "The Librarian",
+      "choices": [
+        {
+          "text": "Bring this to the property manager",
+          "consequence": "Authority.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Bring it to the police as a cold case",
+          "consequence": "Bigger authority.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "The hidden room contains an old hospital bed, two chairs, and a small brass key. The room is cold in a way the basement is not. You realize, sweetly, that you are not scared. You are interested.",
+      "sceneTitle": "Inside the Door",
+      "choices": [
+        {
+          "text": "Take the key out and try other locks",
+          "consequence": "Investigative.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Leave the key; document the room",
+          "consequence": "Preserve.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A young detective named Petrillo agrees to take this seriously — partly because his grandmother lives in your building, mostly because Marvin is, unbelievably, his father's old high school teacher.",
+      "sceneTitle": "Detective Petrillo",
+      "choices": [
+        {
+          "text": "Work with him formally",
+          "consequence": "Coalition.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Share what you've found and step back",
+          "consequence": "Hand off.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "The key fits a cabinet in the basement laundry. Inside is a small box of letters from a nurse named Eleanor. The letters describe a 'patient' the hospital was treating off the books in 1958.",
+      "sceneTitle": "The Brass Key",
+      "choices": [
+        {
+          "text": "Read every letter aloud over tea",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Take them to the historical society",
+          "consequence": "Public memory.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "At 2:14 a.m. Beverly's hearing aids pick up, clear as day, a woman's voice saying 'tell them about me.' Lila, sitting beside her, hears it too. You hear, faintly, something. Marvin is, blessedly, recording.",
+      "sceneTitle": "The Microphone Pickup",
+      "choices": [
+        {
+          "text": "Identify whose voice it is",
+          "consequence": "Hunt.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Sit with the request and decide who to tell",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You piece together, over three weeks of bridge nights, that Nurse Eleanor was protecting a patient — a young woman placed by her family in the sanatorium for 'hysteria' that was, more likely, queerness — and that Eleanor disappeared after smuggling her out.",
+      "sceneTitle": "Eleanor's Story",
+      "choices": [
+        {
+          "text": "Find descendants of the patient",
+          "consequence": "Continue the rescue.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Find Eleanor's descendants",
+          "consequence": "Honor the helper.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The voice is Eleanor's. You find a 1962 recording of her at a community meeting and confirm by tone. Eleanor, even in death, would like the record to include her sacrifice.",
+      "sceneTitle": "The Voice, Identified",
+      "choices": [
+        {
+          "text": "Hold a small memorial",
+          "consequence": "Honor.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Get Eleanor's name on a plaque at the property",
+          "consequence": "Make it official.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Eleanor's granddaughter, in her sixties, lives in Cleveland. She comes to visit. She has never been told what her grandmother did. You sit her at a bridge table and tell her, slowly, all of it.",
+      "sceneTitle": "The Granddaughter",
+      "choices": [
+        {
+          "text": "Help her write a family history book",
+          "consequence": "Document.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Just let her sit with it for the weekend",
+          "consequence": "Presence.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The retirement village board, mostly seventy-year-olds, votes seven to two to put up a small plaque honoring Eleanor in the front lobby. The two no votes are, you suspect, motivated by laziness rather than principle.",
+      "sceneTitle": "The Plaque Committee",
+      "choices": [
+        {
+          "text": "Write the plaque text yourself",
+          "consequence": "Author.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Get the historical society to write it",
+          "consequence": "Credentials.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Eleanor's granddaughter unveils the plaque on a Saturday in spring. The four of you wear your best clothes. The voice, at 2:14 a.m. that night, does not return. You realize, gently, that it doesn't need to.",
+      "sceneTitle": "The Plaque Unveiling",
+      "choices": [
+        {
+          "text": "Form a permanent local history committee",
+          "consequence": "Continue.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go back to bridge",
+          "consequence": "Rest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You and Marvin and Lila and Beverly help Eleanor's granddaughter write a small book. It is published by a regional press. It outsells the local cookbook. It is, by your measurements, a real success.",
+      "sceneTitle": "The Book",
+      "choices": [
+        {
+          "text": "Tour the book at three libraries",
+          "consequence": "Public.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Donate the proceeds to a queer youth center",
+          "consequence": "Continue Eleanor's work.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Petrillo, the detective, drops by with another cold case. Lila and Marvin and Beverly look at each other. You realize, with delight, that the bridge club has accidentally become an institution.",
+      "sceneTitle": "The Next Mystery",
+      "choices": [
+        {
+          "text": "Take the next case",
+          "consequence": "Continue.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Tell Petrillo this was the case",
+          "consequence": "Choose your battles.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You go back to bridge. The cards are familiar. The laughs come more easily. Eleanor, you realize, has done something good for the building — not by haunting it, but by being remembered.",
+      "sceneTitle": "The Quiet Year",
+      "choices": [
+        {
+          "text": "Keep her photo on the wall above the bridge table",
+          "consequence": "Hold the memory.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Move on; she's at peace",
+          "consequence": "Release.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Beverly has surgery. She comes back to bridge with sharper eyes and the same hearing aids. She makes a joke about being able to read your bids now. You realize how lucky you are to keep getting to play.",
+      "sceneTitle": "Beverly's Cataract Surgery",
+      "choices": [
+        {
+          "text": "Celebrate with cake",
+          "consequence": "Joy.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Just deal the next hand",
+          "consequence": "Routine.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Marvin's granddaughter, eight, comes to play a hand. She is too young for bridge so you teach her gin. She is, in two hands, beating you. The room fills with a sound you have not heard often — a child's laugh.",
+      "sceneTitle": "Marvin's Granddaughter Visits",
+      "choices": [
+        {
+          "text": "Invite her to a recurring family-day Sunday",
+          "consequence": "Tradition.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Send her home full of cookies and let it be one day",
+          "consequence": "Light.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "It is your deal. You shuffle. You look at three friends who are still here. You decide what kind of year is next — more cases, or more cake.",
+      "sceneTitle": "The Next Hand",
+      "choices": [
+        {
+          "text": "Take the next case from Petrillo",
+          "consequence": "Society on.",
+          "nextNodeId": "end_society"
+        },
+        {
+          "text": "Cake. Just cake.",
+          "consequence": "Bridge Tuesdays forever.",
+          "nextNodeId": "end_rest"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_society",
+      "text": "The four of you (eventually three, then two, then memory) become a small local legend. Other retirement villages start their own listening societies. You leave behind a quiet, devoted, weird little legacy.",
+      "sceneTitle": "The Listening Society",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Listening Society"
+    },
+    {
+      "id": "end_rest",
+      "text": "You play bridge on Tuesdays for the rest of your life. The voice doesn't come back. You and your friends grow old together, slowly. You realize the haunting was, partly, an invitation. You took it. You're grateful you did.",
+      "sceneTitle": "Bridge, Tuesdays",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Bridge, Tuesdays"
+    }
+  ]
+}

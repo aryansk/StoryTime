@@ -1,0 +1,449 @@
+{
+  "id": "fb-catcher-rye",
+  "title": "The Catcher in the Rye",
+  "sourceTitle": "The Catcher in the Rye",
+  "kind": "book",
+  "synopsis": "Pencey Prep, December. You've been expelled. You take the train to New York. You have three days before your parents find out.",
+  "releaseYear": 1951,
+  "addedAt": "2026-02-25T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "adolescence",
+    "salinger",
+    "NYC"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Stradlater is, you think, a phony. You leave with a hat.",
+      "sceneTitle": "Dorm Goodbye",
+      "choices": [
+        {
+          "text": "Punch him",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Mothers across the aisle. You lie about her son.",
+      "sceneTitle": "Train",
+      "choices": [
+        {
+          "text": "Lie kindly",
+          "consequence": "Care.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Tell the truth",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Cab. Phoenix wanted, hotel suggested.",
+      "sceneTitle": "Penn Station",
+      "choices": [
+        {
+          "text": "The Edmont",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Three women from Seattle. Dancing.",
+      "sceneTitle": "Lavender Room",
+      "choices": [
+        {
+          "text": "Buy them drinks",
+          "consequence": "Lonely.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "An elevator boy sends up a girl. You decide not to.",
+      "sceneTitle": "Sunny",
+      "choices": [
+        {
+          "text": "Send her away",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Lonely.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Maurice takes more money. Your nose bleeds.",
+      "sceneTitle": "Beat Up",
+      "choices": [
+        {
+          "text": "Cry quietly",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Plan revenge",
+          "consequence": "Foolish.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "You take her ice skating. You ask her to run away.",
+      "sceneTitle": "Sally Hayes",
+      "choices": [
+        {
+          "text": "Stop yourself",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Press",
+          "consequence": "Foolish.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Old schoolmate. He is, charitably, a snob.",
+      "sceneTitle": "Carl Luce",
+      "choices": [
+        {
+          "text": "Endure him",
+          "consequence": "Civil.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Late night, you call Sally. You apologize, sort of.",
+      "sceneTitle": "Drunk",
+      "choices": [
+        {
+          "text": "Get home",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Wander",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "The ducks. You ask cabbies where they go in winter.",
+      "sceneTitle": "Park Lake",
+      "choices": [
+        {
+          "text": "Wonder",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Move on",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You sneak home. Your sister is, against everything, a real person.",
+      "sceneTitle": "Phoebe",
+      "choices": [
+        {
+          "text": "Tell her you're going west",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Tell her you came to see her",
+          "consequence": "Care.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Your old English teacher. He pats your head while you sleep.",
+      "sceneTitle": "Mr. Antolini",
+      "choices": [
+        {
+          "text": "Leave politely",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Stay angry",
+          "consequence": "Misread.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "The mummies. The display cases. You always loved that things stayed the same.",
+      "sceneTitle": "Museum",
+      "choices": [
+        {
+          "text": "Sit",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Walk",
+          "consequence": "Survive.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "She comes with a suitcase. She wants to go west with you.",
+      "sceneTitle": "Phoebe's Suitcase",
+      "choices": [
+        {
+          "text": "Tell her no",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Take her",
+          "consequence": "Foolish.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Central Park. She rides. It rains.",
+      "sceneTitle": "Carousel",
+      "choices": [
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Worry",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You realize you're not running away. You're just tired.",
+      "sceneTitle": "Sit in the Rain",
+      "choices": [
+        {
+          "text": "Cry honestly",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Smile",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You go home. The sick part of you sleeps a long time.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Stay up reading",
+          "consequence": "Survive.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Out west, technically. A doctor. You talk about things.",
+      "sceneTitle": "Hospital",
+      "choices": [
+        {
+          "text": "Talk",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Don't talk",
+          "consequence": "Survive.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Your brother visits. He drives a fancy car. He is, in his way, kind.",
+      "sceneTitle": "D.B.",
+      "choices": [
+        {
+          "text": "Forgive him",
+          "consequence": "Brother.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay distant",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You're going to a new school in the fall.",
+      "sceneTitle": "Coming Back",
+      "choices": [
+        {
+          "text": "Try",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Don't try",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You realize you miss everyone. Even Stradlater.",
+      "sceneTitle": "Missing People",
+      "choices": [
+        {
+          "text": "Admit it",
+          "consequence": "Honest.",
+          "nextNodeId": "end_school"
+        },
+        {
+          "text": "Don't admit it",
+          "consequence": "Pride.",
+          "nextNodeId": "end_writer"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_phoebe"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_school",
+      "text": "You go to the new school. You do, eventually, finish. You also, slowly, stop hating most people. You realize the phonies were, often, just scared like you.",
+      "sceneTitle": "New School",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "New School"
+    },
+    {
+      "id": "end_writer",
+      "text": "You become a writer in your twenties. You write a long careful book about a few days in December when you almost ran away. The book becomes a kind of mirror for decades of teenagers.",
+      "sceneTitle": "Writer",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Writer"
+    },
+    {
+      "id": "end_phoebe",
+      "text": "You stay close to Phoebe for the rest of your life. She becomes a teacher. You become her brother in the way that matters. You are, in middle age, happy.",
+      "sceneTitle": "Phoebe",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Phoebe"
+    }
+  ]
+}

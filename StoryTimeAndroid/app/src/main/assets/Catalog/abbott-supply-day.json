@@ -1,0 +1,449 @@
+{
+  "id": "abbott-supply-day",
+  "title": "Abbott Elementary",
+  "sourceTitle": "Abbott Elementary",
+  "kind": "show",
+  "synopsis": "There are eleven glue sticks for forty kids and someone unplugged the laminator. It's only Tuesday.",
+  "releaseYear": 2025,
+  "addedAt": "2026-05-26T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "school",
+    "documentary",
+    "patience"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Supply closet: one ream of pink paper, a stapler with no staples, a dehydrated googly eye. The crew films your face.",
+      "sceneTitle": "7:42 a.m.",
+      "choices": [
+        {
+          "text": "Email Ava politely",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Improvise pink-paper week",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Three emojis, zero supplies. The espresso machine in her office hums.",
+      "sceneTitle": "Ava's Reply",
+      "choices": [
+        {
+          "text": "Note the espresso",
+          "consequence": "Witness.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Ask for the budget code anyway",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A pristine pack of construction paper. He's not in yet.",
+      "sceneTitle": "Mr. Howard's Room",
+      "choices": [
+        {
+          "text": "Take one pack, leave a note",
+          "consequence": "Honor.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Take it all",
+          "consequence": "Petty.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "She pretends not to give you 22 markers.",
+      "sceneTitle": "Barbara",
+      "choices": [
+        {
+          "text": "Thank her quietly",
+          "consequence": "Honor.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Tease her",
+          "consequence": "Friend.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Wait — you ARE Janine. Your reflection in the laminator glass says: 'You got this.'",
+      "sceneTitle": "Janine, You",
+      "choices": [
+        {
+          "text": "Believe yourself",
+          "consequence": "Spirit.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Roll your eyes",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "He volunteers to make a TikTok asking parents to donate.",
+      "sceneTitle": "Jacob",
+      "choices": [
+        {
+          "text": "Approve carefully",
+          "consequence": "Trust.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Edit the script first",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "He fixes the laminator without saying anything.",
+      "sceneTitle": "Gregory",
+      "choices": [
+        {
+          "text": "Tell him you noticed",
+          "consequence": "Care.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Don't make it weird",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Marcus, in class, asks why pink is a real color. You discover, live, you don't know.",
+      "sceneTitle": "Pink Facts Week",
+      "choices": [
+        {
+          "text": "Make it a project",
+          "consequence": "Joy.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Admit you don't know",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "She slides a box of bandages your way. 'Just in case,' she says.",
+      "sceneTitle": "Melissa",
+      "choices": [
+        {
+          "text": "Take it",
+          "consequence": "Civil.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Joke about which kid",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "You eat at your desk. The crew, mercifully, films the cafeteria instead.",
+      "sceneTitle": "Lunch",
+      "choices": [
+        {
+          "text": "Read tomorrow's plan",
+          "consequence": "Discipline.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Just breathe",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "The janitor says, calmly, that someone took the laminator power cord on purpose.",
+      "sceneTitle": "Mr. Johnson",
+      "choices": [
+        {
+          "text": "Investigate",
+          "consequence": "Civic.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Let it go",
+          "consequence": "Mercy.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "She tells you she has a 'plan' for supplies. The plan involves a raffle.",
+      "sceneTitle": "Ava, Again",
+      "choices": [
+        {
+          "text": "Indulge her",
+          "consequence": "Strategic.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Push back kindly",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Marcus's mom calls. She loved Pink Facts.",
+      "sceneTitle": "Mom Call",
+      "choices": [
+        {
+          "text": "Invite her in",
+          "consequence": "Welcome.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Promise next week's theme",
+          "consequence": "Forward.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A glue stick situation in K-2. You are summoned by a tearful aide.",
+      "sceneTitle": "Crisis",
+      "choices": [
+        {
+          "text": "Resolve it sweetly",
+          "consequence": "Care.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Recruit Mr. Howard",
+          "consequence": "Smart.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He brings a fresh ream of paper to your room.",
+      "sceneTitle": "Howard's Quiet Apology",
+      "choices": [
+        {
+          "text": "Thank him",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Smile and move on",
+          "consequence": "Civil.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Coffee is terrible. The conversation is good.",
+      "sceneTitle": "Faculty Lounge",
+      "choices": [
+        {
+          "text": "Vent",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Pivot to a plan for next week",
+          "consequence": "Forward.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Marcus shows you a notebook with eighteen perfectly drawn shades of pink.",
+      "sceneTitle": "After School",
+      "choices": [
+        {
+          "text": "Frame it",
+          "consequence": "Heart.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Keep it on the corkboard",
+          "consequence": "Sweet.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "On camera: 'How was today?'",
+      "sceneTitle": "Crew Interview",
+      "choices": [
+        {
+          "text": "Honestly",
+          "consequence": "Honor.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Bravely",
+          "consequence": "Spirit.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Bell. Hallways thunder. You sit, briefly, in the empty classroom.",
+      "sceneTitle": "3:08 p.m.",
+      "choices": [
+        {
+          "text": "Plan tomorrow",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Sit a little longer",
+          "consequence": "Quiet.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Pasta. Wine. A bath. Then you fall asleep with the laptop open to a curriculum doc.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "One more email",
+          "consequence": "Spirit.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Same closet. Slightly more glue. The googly eye is somehow watching back.",
+      "sceneTitle": "Wednesday",
+      "choices": [
+        {
+          "text": "Pink, again",
+          "consequence": "Joy.",
+          "nextNodeId": "end_pink"
+        },
+        {
+          "text": "New color",
+          "consequence": "Spirit.",
+          "nextNodeId": "end_funded"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_yourself"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_pink",
+      "text": "Pink Facts Week becomes a yearly tradition. Marcus, in middle school, still tells people about it.",
+      "sceneTitle": "Pink Facts Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pink Facts Forever"
+    },
+    {
+      "id": "end_funded",
+      "text": "Ava's raffle, against all odds, raises enough for a year of supplies. You take the credit, then quietly give it to her.",
+      "sceneTitle": "Funded, Finally",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Funded, Finally"
+    },
+    {
+      "id": "end_yourself",
+      "text": "The documentary airs. People recognize you in CVS. You teach. You teach. You teach.",
+      "sceneTitle": "Janine, on Tape",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Janine, on Tape"
+    }
+  ]
+}

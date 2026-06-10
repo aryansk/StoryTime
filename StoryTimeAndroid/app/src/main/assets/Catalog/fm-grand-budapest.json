@@ -1,0 +1,450 @@
+{
+  "id": "fm-grand-budapest",
+  "title": "The Grand Budapest Hotel",
+  "sourceTitle": "The Grand Budapest Hotel",
+  "kind": "movie",
+  "synopsis": "A concierge, a lobby boy, an inheritance scandal, a painting of a boy with an apple, and a long sled ride down an alpine slope.",
+  "releaseYear": 2014,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Comedy",
+  "tags": [
+    "wes-anderson",
+    "hotel",
+    "caper",
+    "europe"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A small lobby boy named Zero asks for a job from a desk.",
+      "sceneTitle": "Reception",
+      "choices": [
+        {
+          "text": "Hire him",
+          "consequence": "Cunning.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Defer",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A dowager with a long fur, a tearful goodbye, a key to a safe.",
+      "sceneTitle": "Madame D.",
+      "choices": [
+        {
+          "text": "Reassure her",
+          "consequence": "Heart.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be cold",
+          "consequence": "Polite.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A family of vultures and a clause that names you.",
+      "sceneTitle": "Will Reading",
+      "choices": [
+        {
+          "text": "Accept it",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A small panel painting that everyone wants to keep nailed to the wall.",
+      "sceneTitle": "Boy With Apple",
+      "choices": [
+        {
+          "text": "Steal it",
+          "consequence": "Cunning.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A son with a leather coat and a man named Jopling who carries a knife.",
+      "sceneTitle": "Dmitri",
+      "choices": [
+        {
+          "text": "Antagonize him",
+          "consequence": "Brave.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Placate him",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A papers check and a uniform with a scar from the Old War.",
+      "sceneTitle": "Train",
+      "choices": [
+        {
+          "text": "Speak up for Zero",
+          "consequence": "Loyal.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Stay still",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A telegram arrests you for the murder of Madame D.",
+      "sceneTitle": "Police Order",
+      "choices": [
+        {
+          "text": "Surrender quietly",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Bolt",
+          "consequence": "Reckless.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A roommate named Ludwig with a tattoo of a map of the world.",
+      "sceneTitle": "Prison Cell",
+      "choices": [
+        {
+          "text": "Trade pastries for tools",
+          "consequence": "Cunning.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Agatha bakes you out a hammer in a tarte aux mille feuilles.",
+      "sceneTitle": "Mendl's Box",
+      "choices": [
+        {
+          "text": "Use it",
+          "consequence": "Brave.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Save it",
+          "consequence": "Cautious.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A long stinking pipe under a cobbled square.",
+      "sceneTitle": "Sewer Run",
+      "choices": [
+        {
+          "text": "Run",
+          "consequence": "Brave.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Crawl",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A network of concierges with a passcode and an emergency line.",
+      "sceneTitle": "Society of the Crossed Keys",
+      "choices": [
+        {
+          "text": "Call them",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A chamber with monks and a man named Serge holding a confession in his hand.",
+      "sceneTitle": "Monastery",
+      "choices": [
+        {
+          "text": "Reassure him",
+          "consequence": "Heart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Threaten him",
+          "consequence": "Cold.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Wood runners, a downhill, a man with a knife on the next track.",
+      "sceneTitle": "Sled Chase",
+      "choices": [
+        {
+          "text": "Cut a corner",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Hold the line",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Hidden behind a much worse painting in your suite.",
+      "sceneTitle": "Boy With Apple, Again",
+      "choices": [
+        {
+          "text": "Reveal it",
+          "consequence": "Bold.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Sell it",
+          "consequence": "Practical.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Soldiers in the lobby, a checkpoint at the desk.",
+      "sceneTitle": "Lobby Coup",
+      "choices": [
+        {
+          "text": "Bluff",
+          "consequence": "Cunning.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Cautious.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Papers, lobby boy, a familiar scar in a higher rank.",
+      "sceneTitle": "Train, Again",
+      "choices": [
+        {
+          "text": "Speak the password",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Stay quiet",
+          "consequence": "Cowardly.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A second testament in the back of the painting.",
+      "sceneTitle": "Will Hidden",
+      "choices": [
+        {
+          "text": "Read it aloud",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Burn it",
+          "consequence": "Cold.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Agatha at the counter, flour on her brow, a small kiss on the back of your wrist.",
+      "sceneTitle": "Pastry Shop",
+      "choices": [
+        {
+          "text": "Hold the moment",
+          "consequence": "Heart.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Jopling at the parapet, a bell tower, a tilt forward.",
+      "sceneTitle": "Roof",
+      "choices": [
+        {
+          "text": "Push",
+          "consequence": "Final.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Hold him",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "The will read, the painting returned, the hotel inherited, Dmitri sputtering.",
+      "sceneTitle": "Council Room",
+      "choices": [
+        {
+          "text": "Toast",
+          "consequence": "Joyful.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Stay solemn",
+          "consequence": "Polite.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A border, a uniform, a smaller scar.",
+      "sceneTitle": "Last Train",
+      "choices": [
+        {
+          "text": "Stand",
+          "consequence": "Honor.",
+          "nextNodeId": "end_pink"
+        },
+        {
+          "text": "Sit down",
+          "consequence": "Wise.",
+          "nextNodeId": "end_zero"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_paint"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_pink",
+      "text": "You manage the Grand Budapest into a small renaissance and Zero takes over after you, and Agatha bakes things that make people cry on the lobby steps.",
+      "sceneTitle": "Pink Hotel, Glorious Dawn",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Pink Hotel, Glorious Dawn"
+    },
+    {
+      "id": "end_zero",
+      "text": "Decades later a lobby boy who once was small tells a young writer about a concierge with cologne and a pencil mustache, and a country he no longer recognizes.",
+      "sceneTitle": "Zero Tells the Story",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Zero Tells the Story"
+    },
+    {
+      "id": "end_paint",
+      "text": "The painting hangs in your suite forever and Dmitri spends his last years in a small angry apartment with a postcard of it on the mantel.",
+      "sceneTitle": "Boy With Apple on the Wall",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Boy With Apple on the Wall"
+    }
+  ]
+}

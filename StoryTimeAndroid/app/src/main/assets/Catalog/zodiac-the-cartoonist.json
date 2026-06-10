@@ -1,0 +1,449 @@
+{
+  "id": "zodiac-the-cartoonist",
+  "title": "Zodiac",
+  "sourceTitle": "Zodiac",
+  "kind": "movie",
+  "synopsis": "San Francisco, late seventies. You're the kid in the newsroom who can't stop staring at the killer's ciphers. Your boss doesn't think it's your job. He's wrong.",
+  "releaseYear": 2007,
+  "addedAt": "2026-04-05T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "cipher",
+    "newsroom",
+    "obsession"
+  ],
+  "rating": 3,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "It arrives at the paper in a manila envelope. The cipher is in three colors. You are, technically, the political cartoonist.",
+      "sceneTitle": "The Letter",
+      "choices": [
+        {
+          "text": "Look at it anyway",
+          "consequence": "Curious.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Walk past",
+          "consequence": "Discipline.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Inspector Toschi, on the phone, is polite and brittle. He has many cases. This is one.",
+      "sceneTitle": "The Detective",
+      "choices": [
+        {
+          "text": "Offer to help informally",
+          "consequence": "Volunteer.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Stay out of his way",
+          "consequence": "Respect.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Your editor laughs. He tells you to stick to cartoons. You realize, slowly, that he is also curious.",
+      "sceneTitle": "Your Editor",
+      "choices": [
+        {
+          "text": "Pitch the story",
+          "consequence": "Push.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Work on it after hours",
+          "consequence": "Stealth.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "On weekends you visit, on your own dime, every public crime scene. None of them tell you anything you didn't already read.",
+      "sceneTitle": "The Crime Scenes",
+      "choices": [
+        {
+          "text": "Take notes anyway",
+          "consequence": "Discipline.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stop visiting",
+          "consequence": "Pragmatic.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The reporter assigned to the case, Avery, is at the bar. He is, by 8 p.m., drunker than you are. He is also smarter.",
+      "sceneTitle": "The Bar",
+      "choices": [
+        {
+          "text": "Drink with him",
+          "consequence": "Source.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Get him home",
+          "consequence": "Friend.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A teacher and his wife crack one of the ciphers in their kitchen. The cipher is, on cracking, mostly Christian theology and ego.",
+      "sceneTitle": "Codebreakers",
+      "choices": [
+        {
+          "text": "Use the cipher's tells",
+          "consequence": "Read.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Pass it up the chain",
+          "consequence": "Process.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Your wife wants to know why you're not home. You realize you don't have a good answer that isn't, slowly, ruining you.",
+      "sceneTitle": "Your Wife",
+      "choices": [
+        {
+          "text": "Tell her the obsession is the thing",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Promise to come home earlier",
+          "consequence": "Promise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Avery hands you a manila folder. He is, he says, done with it. He is leaving the paper.",
+      "sceneTitle": "Avery's Tip",
+      "choices": [
+        {
+          "text": "Take the folder",
+          "consequence": "Pick up.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Refuse it",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A man named Allen, school employee, lake area, the right kind of wrong. You read his file three nights in a row.",
+      "sceneTitle": "The Long Suspect",
+      "choices": [
+        {
+          "text": "Stay on Allen",
+          "consequence": "Long.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Look at other suspects",
+          "consequence": "Open.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Toschi has been re-investigated by his own department after a forged letter. He is, professionally, dying.",
+      "sceneTitle": "Toschi, Frustrated",
+      "choices": [
+        {
+          "text": "Offer to back him publicly",
+          "consequence": "Friend.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Stay neutral",
+          "consequence": "Reporter.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Your editor finally lets you write. The article is, by his hand, half its original length. It is still, in places, accurate.",
+      "sceneTitle": "Your Editor, Again",
+      "choices": [
+        {
+          "text": "Run the article",
+          "consequence": "Print.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Pull the article",
+          "consequence": "Patient.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You notice, one night, that you are being followed. You don't know by whom. The follower, you suspect, is your own paranoia.",
+      "sceneTitle": "Stalking",
+      "choices": [
+        {
+          "text": "Vary your route",
+          "consequence": "Discipline.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Confront",
+          "consequence": "Stupid.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "You visit Allen's trailer with your editor's permission. He is mostly silent. He stares at you for a long minute. You leave with nothing and everything.",
+      "sceneTitle": "Allen's Trailer",
+      "choices": [
+        {
+          "text": "Trust your gut",
+          "consequence": "Instinct.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Trust the evidence",
+          "consequence": "Process.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Allen takes a polygraph. The polygraph says, ambiguously, no. You realize polygraphs say ambiguously, no.",
+      "sceneTitle": "The Polygraph",
+      "choices": [
+        {
+          "text": "Use the result anyway",
+          "consequence": "Selective.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Drop the angle",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "Your daughter, six, asks why you are not at her recital. You sit her on your knee that night and tell her, almost, the truth.",
+      "sceneTitle": "Your Daughter",
+      "choices": [
+        {
+          "text": "Promise to be at the next one",
+          "consequence": "Vow.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Promise to step back from the case",
+          "consequence": "Bigger vow.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "You get, by way of a sympathetic clerk, copies of files you should not, technically, have. They contain, finally, the thing nobody has named.",
+      "sceneTitle": "The Case Files",
+      "choices": [
+        {
+          "text": "Use them carefully",
+          "consequence": "Discreet.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't use them",
+          "consequence": "Honor.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Toschi retires. He invites you to his backyard party. You go. He thanks you for the company more than the help.",
+      "sceneTitle": "Toschi's Retirement",
+      "choices": [
+        {
+          "text": "Stay in touch",
+          "consequence": "Friend.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Let him have his retirement",
+          "consequence": "Boundary.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You decide to write a book. The book is a years-long project. The book is, you realize, your only path to closure.",
+      "sceneTitle": "The Book",
+      "choices": [
+        {
+          "text": "Commit to the book",
+          "consequence": "Years.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Write a smaller version first",
+          "consequence": "Pilot.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "The manuscript is, in the end, careful and damning. It accuses Allen by implication. Your lawyer goes through every page twice.",
+      "sceneTitle": "The Manuscript",
+      "choices": [
+        {
+          "text": "Publish",
+          "consequence": "Risk.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Publish a less specific version",
+          "consequence": "Discipline.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "A letter from a woman who survived a Zodiac attack, decades ago. She thanks you. She also, in passing, names the man you suspected.",
+      "sceneTitle": "The Letter from a Reader",
+      "choices": [
+        {
+          "text": "Take her letter at face value",
+          "consequence": "Trust.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Verify with her police report",
+          "consequence": "Verify.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You are old now. The case is, technically, unsolved. You are, technically, retired. You realize 'unsolved' is not the same as 'unknown.'",
+      "sceneTitle": "Old Age",
+      "choices": [
+        {
+          "text": "Stay quietly satisfied",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_book"
+        },
+        {
+          "text": "Take one last lap",
+          "consequence": "Loud.",
+          "nextNodeId": "end_quiet"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_one_more"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_book",
+      "text": "The book becomes the definitive account. Other writers use it. A film is, eventually, made from it. You are credited as a consultant. You attend the premiere. You are bored. You are, also, grateful.",
+      "sceneTitle": "The Book Endures",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Book Endures"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You go back to cartoons. You discover, late, that you are good at them. You publish a small collection of newsroom-life cartoons that does, surprisingly, well. Your daughter laughs at every one.",
+      "sceneTitle": "The Cartoon Desk, Again",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Cartoon Desk, Again"
+    },
+    {
+      "id": "end_one_more",
+      "text": "In your eighties you receive, in your mail, an envelope with a cipher in three colors. You do not, this time, open it for the paper. You open it for yourself.",
+      "sceneTitle": "One More Letter",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "One More Letter"
+    }
+  ]
+}

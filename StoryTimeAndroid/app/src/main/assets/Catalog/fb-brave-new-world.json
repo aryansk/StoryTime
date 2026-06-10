@@ -1,0 +1,449 @@
+{
+  "id": "fb-brave-new-world",
+  "title": "Brave New World",
+  "sourceTitle": "Brave New World",
+  "kind": "book",
+  "synopsis": "World State, six hundred years on. Ford bless us. The soma is free. The conditioning is finished by age six. You're an Alpha-Plus, slightly maladjusted, slightly too much.",
+  "releaseYear": 1932,
+  "addedAt": "2026-02-07T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "dystopia",
+    "huxley",
+    "happiness"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Decanting. Bokanovsky. The tourists nod.",
+      "sceneTitle": "Hatchery Tour",
+      "choices": [
+        {
+          "text": "Be a polite tourist",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Note inconsistencies",
+          "consequence": "Wise.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Sleep teachers murmur. Babies learn to hate flowers.",
+      "sceneTitle": "Conditioning",
+      "choices": [
+        {
+          "text": "Be uncomfortable",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Be amused",
+          "consequence": "Path.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "She invites you to feely-night.",
+      "sceneTitle": "Lenina",
+      "choices": [
+        {
+          "text": "Go",
+          "consequence": "Civil.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Decline",
+          "consequence": "Honest.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A poet without a subject. He envies you, sort of.",
+      "sceneTitle": "Helmholtz",
+      "choices": [
+        {
+          "text": "Befriend him",
+          "consequence": "Friend.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Be wary",
+          "consequence": "Wise.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "He bristles at orgy porgy. He smiles wrong.",
+      "sceneTitle": "Bernard",
+      "choices": [
+        {
+          "text": "Travel with him",
+          "consequence": "Path.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Avoid him",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Savage land. Whips. A blue-eyed boy named John.",
+      "sceneTitle": "Reservation",
+      "choices": [
+        {
+          "text": "Bring John back",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Leave him",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "His mother, fat, soma-mad, ashamed.",
+      "sceneTitle": "Linda",
+      "choices": [
+        {
+          "text": "Bring her too",
+          "consequence": "Care.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Leave her",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "John is, briefly, the celebrity.",
+      "sceneTitle": "London Sensation",
+      "choices": [
+        {
+          "text": "Defend him",
+          "consequence": "Friend.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Don't intervene",
+          "consequence": "Honest.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "She tries to kiss him. He recoils.",
+      "sceneTitle": "Lenina's Move",
+      "choices": [
+        {
+          "text": "Mediate",
+          "consequence": "Care.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Stay out",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "She dies of soma overdose at the hospital.",
+      "sceneTitle": "Linda's Death",
+      "choices": [
+        {
+          "text": "Stay with John",
+          "consequence": "Honor.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Step away",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "John throws soma rations out a window.",
+      "sceneTitle": "Soma Riot",
+      "choices": [
+        {
+          "text": "Stand with him",
+          "consequence": "Brave.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stand back",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Riot police arrive with synthetic music.",
+      "sceneTitle": "Police, Singing",
+      "choices": [
+        {
+          "text": "Try to be heard",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Hide",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "World Controller, kind, terrifying.",
+      "sceneTitle": "Mond's Office",
+      "choices": [
+        {
+          "text": "Argue freedom",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Listen",
+          "consequence": "Wise.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He weeps. He goes to Iceland.",
+      "sceneTitle": "Bernard Exiled",
+      "choices": [
+        {
+          "text": "Comfort him",
+          "consequence": "Friend.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Cut him off",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "He smiles. He wants the Falklands.",
+      "sceneTitle": "Helmholtz Exiled",
+      "choices": [
+        {
+          "text": "Envy him",
+          "consequence": "Honest.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Worry for him",
+          "consequence": "Care.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "He moves to a lighthouse. He prays.",
+      "sceneTitle": "John's Lighthouse",
+      "choices": [
+        {
+          "text": "Visit him",
+          "consequence": "Friend.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Don't visit",
+          "consequence": "Honest.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "Tourists come to watch the savage. He flogs himself for them.",
+      "sceneTitle": "The Crowd",
+      "choices": [
+        {
+          "text": "Disperse them",
+          "consequence": "Brave.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Watch",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A frenzy. He, in despair, joins.",
+      "sceneTitle": "Orgy at the Lighthouse",
+      "choices": [
+        {
+          "text": "Pull him out",
+          "consequence": "Friend.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "He hangs himself in the doorway.",
+      "sceneTitle": "Morning After",
+      "choices": [
+        {
+          "text": "Cut him down",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "He asks if you'd like to be exiled too.",
+      "sceneTitle": "Mond's Office, Again",
+      "choices": [
+        {
+          "text": "Yes",
+          "consequence": "Honor.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "No",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A small town, free of soma, cold.",
+      "sceneTitle": "Iceland",
+      "choices": [
+        {
+          "text": "Walk it slowly",
+          "consequence": "Path.",
+          "nextNodeId": "end_iceland"
+        },
+        {
+          "text": "Plan to write",
+          "consequence": "New.",
+          "nextNodeId": "end_helmholtz"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_quiet"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_iceland",
+      "text": "You write a kind of pamphlet about feeling. It is, against all reason, smuggled to the cities. Some Alphas, late at night, read it.",
+      "sceneTitle": "Iceland",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Iceland"
+    },
+    {
+      "id": "end_helmholtz",
+      "text": "You join Helmholtz in the Falklands. He writes, for the rest of his life, poems no one needed but you. You read them aloud to a cold sea.",
+      "sceneTitle": "Helmholtz's Poems",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Helmholtz's Poems"
+    },
+    {
+      "id": "end_quiet",
+      "text": "You take over John's lighthouse. You burn the tourist coins. You read, alone, the books he kept. You decide, slowly, what to do next.",
+      "sceneTitle": "The Lighthouse, Inherited",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Lighthouse, Inherited"
+    }
+  ]
+}

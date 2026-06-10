@@ -1,0 +1,449 @@
+{
+  "id": "fb-war-peace",
+  "title": "War and Peace",
+  "sourceTitle": "War and Peace",
+  "kind": "book",
+  "synopsis": "Russia, 1805. Drawing rooms and battlefields, both crowded. You are Pierre, an awkward heir who has, somehow, just inherited the largest fortune in the empire.",
+  "releaseYear": 1869,
+  "addedAt": "2026-02-20T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "tolstoy",
+    "russia",
+    "epic"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Glittering nonsense. You speak Napoleon's name too warmly.",
+      "sceneTitle": "Anna Pavlovna's Salon",
+      "choices": [
+        {
+          "text": "Be honest",
+          "consequence": "Spirit.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Apologize",
+          "consequence": "Civil.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You inherit everything. Strangers smile at you now.",
+      "sceneTitle": "Father's Death",
+      "choices": [
+        {
+          "text": "Take stock",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Throw a party",
+          "consequence": "Honest.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Helene's family arranges. You drift into it.",
+      "sceneTitle": "Marriage",
+      "choices": [
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Marry her",
+          "consequence": "Path.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Your friend leaves for war. He is, in salons, suffocating.",
+      "sceneTitle": "Andrei",
+      "choices": [
+        {
+          "text": "Toast him",
+          "consequence": "Friend.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Argue with him",
+          "consequence": "Honest.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Andrei watches the sky above the field. The campaign collapses.",
+      "sceneTitle": "Austerlitz",
+      "choices": [
+        {
+          "text": "Receive his letter",
+          "consequence": "Honor.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Wait for him",
+          "consequence": "Patient.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A lodge. A teacher. You begin to read.",
+      "sceneTitle": "Freemasons",
+      "choices": [
+        {
+          "text": "Take it seriously",
+          "consequence": "Path.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Take it lightly",
+          "consequence": "Honest.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "She, sixteen, dances with Andrei. The world tilts for him.",
+      "sceneTitle": "Natasha at the Ball",
+      "choices": [
+        {
+          "text": "Be glad for them",
+          "consequence": "Honor.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Be quiet",
+          "consequence": "Honest.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Helene's brother schemes for Natasha. He is, plainly, a cad.",
+      "sceneTitle": "Anatole",
+      "choices": [
+        {
+          "text": "Warn her",
+          "consequence": "Honor.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Intervene with Anatole directly",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "A field of cannon and smoke. You wander into it as an observer.",
+      "sceneTitle": "Borodino",
+      "choices": [
+        {
+          "text": "Stay calm",
+          "consequence": "Honor.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Run",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Fires across the city. The French enter. You stay.",
+      "sceneTitle": "Moscow",
+      "choices": [
+        {
+          "text": "Try to assassinate Napoleon",
+          "consequence": "Honest.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Help the wounded",
+          "consequence": "Care.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "You are taken. Platon Karataev becomes, oddly, your teacher.",
+      "sceneTitle": "Captured",
+      "choices": [
+        {
+          "text": "Listen to Platon",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Plan escape",
+          "consequence": "Spirit.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Platon dies on the road. The French retreat is slow.",
+      "sceneTitle": "March",
+      "choices": [
+        {
+          "text": "Bury his memory",
+          "consequence": "Honor.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Walk on",
+          "consequence": "Survive.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "Russian cossacks. Soup. Sleep on straw.",
+      "sceneTitle": "Freed",
+      "choices": [
+        {
+          "text": "Eat slowly",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Sleep",
+          "consequence": "Honest.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "He is found. He is, dying, kinder than he was.",
+      "sceneTitle": "Andrei, Wounded",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay back",
+          "consequence": "Honor.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "She dies, probably by her own carelessness with medicine.",
+      "sceneTitle": "Helene Dies",
+      "choices": [
+        {
+          "text": "Mourn correctly",
+          "consequence": "Society.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Be honest with yourself",
+          "consequence": "Truth.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "She nursed Andrei. She is older. You speak as adults.",
+      "sceneTitle": "Natasha, Quiet",
+      "choices": [
+        {
+          "text": "Be honest",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Be careful",
+          "consequence": "Patient.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You write her a letter. The answer comes quickly.",
+      "sceneTitle": "Proposal",
+      "choices": [
+        {
+          "text": "Take her seriously",
+          "consequence": "Honor.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Be flippant",
+          "consequence": "Foolish.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "Nikolai marries Marya. The two estates merge.",
+      "sceneTitle": "Marya",
+      "choices": [
+        {
+          "text": "Be a good brother-in-law",
+          "consequence": "Family.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Stay distant",
+          "consequence": "Honest.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Children. Quiet rooms. A book in your hand at dinner.",
+      "sceneTitle": "Family Life",
+      "choices": [
+        {
+          "text": "Be a present father",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Be a distracted one",
+          "consequence": "Honest.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "You decide, slowly, that history is the work of millions and not Napoleons.",
+      "sceneTitle": "Pierre's Thought",
+      "choices": [
+        {
+          "text": "Write it down",
+          "consequence": "Path.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Live it",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "You stop trying to find one big answer. You find many small ones, with Natasha.",
+      "sceneTitle": "A Smaller Life",
+      "choices": [
+        {
+          "text": "Sit on the porch",
+          "consequence": "Quiet.",
+          "nextNodeId": "end_family"
+        },
+        {
+          "text": "Plan more reforms",
+          "consequence": "Spirit.",
+          "nextNodeId": "end_philosopher"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_war"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_family",
+      "text": "You live forty quiet years with Natasha. The estate is, by your death, generous to its people. Your children write a small book about you. The book is, mostly, recipes.",
+      "sceneTitle": "Family Life",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Family Life"
+    },
+    {
+      "id": "end_philosopher",
+      "text": "You write a long, kind essay on the way history actually happens. It is, by your grandchildren's time, a textbook in one Russian university.",
+      "sceneTitle": "A Quiet Philosopher",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Quiet Philosopher"
+    },
+    {
+      "id": "end_war",
+      "text": "You live to see another war from a chair by a window. You have, by then, learned not to be surprised. You take Natasha's hand and ask her, again, to read to you.",
+      "sceneTitle": "Another War",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Another War"
+    }
+  ]
+}

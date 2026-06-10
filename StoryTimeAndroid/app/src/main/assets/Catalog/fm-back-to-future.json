@@ -1,0 +1,449 @@
+{
+  "id": "fm-back-to-future",
+  "title": "Back to the Future",
+  "sourceTitle": "Back to the Future",
+  "kind": "movie",
+  "synopsis": "Hill Valley, 1985. The DeLorean. The lightning. You end up in 1955, where your mother has a crush on you. Don't break the timeline.",
+  "releaseYear": 1985,
+  "addedAt": "2026-03-06T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "time-travel",
+    "comedy",
+    "family"
+  ],
+  "rating": null,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "1:21 gigawatts. Libyans. The clock starts.",
+      "sceneTitle": "Twin Pines Mall",
+      "choices": [
+        {
+          "text": "Drive",
+          "consequence": "Speed.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "You arrive. Cows. A farmer with a shotgun.",
+      "sceneTitle": "1955",
+      "choices": [
+        {
+          "text": "Apologize",
+          "consequence": "Civil.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Soda fountain. Your dad, George, getting bullied.",
+      "sceneTitle": "Town Square",
+      "choices": [
+        {
+          "text": "Defend him quietly",
+          "consequence": "Right.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Don't intervene",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "You order something. Lou is mean. You meet a boy who would become your dad's enemy.",
+      "sceneTitle": "Lou's",
+      "choices": [
+        {
+          "text": "Buy a Coke",
+          "consequence": "Civil.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Leave",
+          "consequence": "Smart.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "Lorraine sees you. She is, against all expectation, smitten.",
+      "sceneTitle": "Your Mother",
+      "choices": [
+        {
+          "text": "Be polite",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Be a friend",
+          "consequence": "Wise.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "You find young Doc in his garage. You show him the flux capacitor.",
+      "sceneTitle": "Doc, 1955",
+      "choices": [
+        {
+          "text": "Tell him the future",
+          "consequence": "Brave.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Tell him only the basics",
+          "consequence": "Smart.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Hill Valley High. George reads sci-fi in a closet.",
+      "sceneTitle": "School",
+      "choices": [
+        {
+          "text": "Coach George",
+          "consequence": "Path.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Set up an introduction",
+          "consequence": "Smart.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "You convince George to ask Lorraine. He freezes. You volunteer to set it up.",
+      "sceneTitle": "Lou's, Again",
+      "choices": [
+        {
+          "text": "Set the dance plan",
+          "consequence": "Path.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Cancel and replan",
+          "consequence": "Smart.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "She asks you to the dance. You realize the plan requires improvisation.",
+      "sceneTitle": "Lorraine Asks You",
+      "choices": [
+        {
+          "text": "Pretend to fall in love with her",
+          "consequence": "Strategy.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Be direct",
+          "consequence": "Honest.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Biff and his goons threaten George. You bait the car.",
+      "sceneTitle": "Biff",
+      "choices": [
+        {
+          "text": "Get in the trunk",
+          "consequence": "Plan.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Run for it",
+          "consequence": "Smart.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "Lorraine kisses you. She says it feels like kissing her brother.",
+      "sceneTitle": "Mother in the Car",
+      "choices": [
+        {
+          "text": "Note the timeline glitch",
+          "consequence": "Wise.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Be relieved",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "Biff opens the door. Things move fast.",
+      "sceneTitle": "Biff at the Car",
+      "choices": [
+        {
+          "text": "Try to think",
+          "consequence": "Smart.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Fight",
+          "consequence": "Brave.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "George, against his shape, throws a punch.",
+      "sceneTitle": "George Saves Lorraine",
+      "choices": [
+        {
+          "text": "Step back",
+          "consequence": "Honor.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Cheer",
+          "consequence": "Joy.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Earth Angel. They kiss. You start to fade from the photo.",
+      "sceneTitle": "Dance",
+      "choices": [
+        {
+          "text": "Pick up the guitar",
+          "consequence": "Path.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stand still",
+          "consequence": "Honest.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "You play. The band is ahead. The audience is, briefly, not ready.",
+      "sceneTitle": "Johnny B. Goode",
+      "choices": [
+        {
+          "text": "Tone it down",
+          "consequence": "Wise.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Go big",
+          "consequence": "Joy.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Lightning, wire, clocktower. The plan is precise.",
+      "sceneTitle": "Doc on the Roof",
+      "choices": [
+        {
+          "text": "Drive",
+          "consequence": "Path.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Walk Doc through it again",
+          "consequence": "Wise.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "You write Doc a letter about Libyans. You leave it in his coat.",
+      "sceneTitle": "Letter for Doc",
+      "choices": [
+        {
+          "text": "Leave it taped",
+          "consequence": "Right.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Tell him in person",
+          "consequence": "Honest.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "It hits the wire. The car accelerates.",
+      "sceneTitle": "Lightning Strikes",
+      "choices": [
+        {
+          "text": "Hold the wheel",
+          "consequence": "Steady.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Push faster",
+          "consequence": "Speed.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Twin Pines becomes Lone Pine. The Libyans aren't here yet, then they are.",
+      "sceneTitle": "Home",
+      "choices": [
+        {
+          "text": "Save Doc",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Run to safety",
+          "consequence": "Smart.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Your dad is a successful novelist. Lorraine is happy. Biff polishes the car.",
+      "sceneTitle": "Better 1985",
+      "choices": [
+        {
+          "text": "Notice everything",
+          "consequence": "Wise.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Just enjoy",
+          "consequence": "Honest.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "Doc arrives in the DeLorean. The kids, he says.",
+      "sceneTitle": "Doc, Future",
+      "choices": [
+        {
+          "text": "Get in",
+          "consequence": "Path.",
+          "nextNodeId": "end_future"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Honest.",
+          "nextNodeId": "end_stay"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_doc"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_future",
+      "text": "You go to 2015. You return. You marry Jennifer. You become, eventually, a parent yourself, slightly more patient than your own dad.",
+      "sceneTitle": "Roads, Optional",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Roads, Optional"
+    },
+    {
+      "id": "end_stay",
+      "text": "You let Doc go alone. You build a normal life in 1985 with the parents you accidentally made better. You play guitar in a small band on weekends.",
+      "sceneTitle": "Stay in '85",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Stay in '85"
+    },
+    {
+      "id": "end_doc",
+      "text": "You and Doc become lifelong collaborators. You don't, in the end, mass-produce anything. You build, mostly, one-off wonders. People drive across the country to see your garage.",
+      "sceneTitle": "Doc, Forever",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Doc, Forever"
+    }
+  ]
+}

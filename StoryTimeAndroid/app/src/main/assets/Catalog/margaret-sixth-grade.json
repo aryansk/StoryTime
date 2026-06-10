@@ -1,0 +1,449 @@
+{
+  "id": "margaret-sixth-grade",
+  "title": "Are You There God? It's Me, Margaret.",
+  "sourceTitle": "Are You There God? It's Me, Margaret.",
+  "kind": "movie",
+  "synopsis": "New town, new school, new everything. You're eleven, you're waiting for your body and your faith to make up their minds, and you keep talking to a God you're not sure is listening.",
+  "releaseYear": 2023,
+  "addedAt": "2026-05-26T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "coming-of-age",
+    "friendship",
+    "faith"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The boxes smell like the old apartment and the new house echoes. From your window you can see a girl your age doing cartwheels on the next lawn. Are you there, God? It's me. Please don't let me be the weird new kid.",
+      "sceneTitle": "Moving Day",
+      "choices": [
+        {
+          "text": "Go outside and say hi",
+          "consequence": "Brave is just scared with its shoes on.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay in and unpack your room first",
+          "consequence": "Some courage needs a running start.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "Her name is Nancy and she talks fast and decides things. By the end of the driveway you have a friend and, apparently, opinions about boys you've never met. It's dizzying and wonderful.",
+      "sceneTitle": "The Cartwheel Girl",
+      "choices": [
+        {
+          "text": "Agree with everything she says",
+          "consequence": "Fitting in feels like floating.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Quietly keep your own opinions too",
+          "consequence": "You can belong without disappearing.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "Alone in the half-empty room you do the thing you always do — you talk to God, plainly, like a pen pal. No temple, no church, just you and the ceiling and a long list of worries.",
+      "sceneTitle": "The First Prayer",
+      "choices": [
+        {
+          "text": "Ask God to make sixth grade easy",
+          "consequence": "Hope is a kind of homework.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Ask God which religion you're supposed to be",
+          "consequence": "The biggest questions arrive in the smallest rooms.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "Nancy forms a club with three other girls and you. There are rules: you keep a notebook, you rank the boys, and you must tell each other the instant anything happens. Anything.",
+      "sceneTitle": "Nancy's Secret Club",
+      "choices": [
+        {
+          "text": "Join enthusiastically",
+          "consequence": "Four best friends is a fortress.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Join, but feel a little uneasy about the rules",
+          "consequence": "A club can be a cage with cushions.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "The club has an exercise to help you grow up faster, arms pumping, chanting at the ceiling. You laugh until you're breathless. Then someone asks who's gotten their period and the room goes quiet.",
+      "sceneTitle": "We Must, We Must",
+      "choices": [
+        {
+          "text": "Admit you haven't and don't care",
+          "consequence": "Honesty is its own kind of cool.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Pretend you're close, like the others",
+          "consequence": "Small lies grow in the dark.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "Your teacher assigns a year-long project: pick something important to you and study it. You know instantly. You'll study whether you have a religion at all, since nobody ever told you.",
+      "sceneTitle": "The Religion Assignment",
+      "choices": [
+        {
+          "text": "Visit a temple with Grandma Sylvia",
+          "consequence": "Start with the family that claims you loudest.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Visit a church with a new friend",
+          "consequence": "Try on a faith and see if it itches.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "Grandma Sylvia takes you to temple and to lunch and to the edge of feeling like you finally belong somewhere. But she also calls you 'her little Jewish girl,' and that word lands heavier than she means.",
+      "sceneTitle": "Grandma Sylvia",
+      "choices": [
+        {
+          "text": "Tell her you're still deciding",
+          "consequence": "Loving someone and disagreeing are allowed at once.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Let her believe what makes her happy",
+          "consequence": "Kindness sometimes wears a small surrender.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "Your mother's parents, who once disowned her for marrying outside the faith, send a sudden letter. They want to visit. Your parents go pale and polite in that grown-up way.",
+      "sceneTitle": "The Other Grandparents",
+      "choices": [
+        {
+          "text": "Hope the visit fixes everything",
+          "consequence": "Children are the bridges adults won't build.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Worry it'll all blow up",
+          "consequence": "You can feel a storm before it has a name.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "Back in the club, the notebook comes out. You're supposed to write your number-one boy. Philip Leroy is everyone's pick — perfect, mean, and boring, you secretly think. There's also quiet Norman from math.",
+      "sceneTitle": "The List of Boys",
+      "choices": [
+        {
+          "text": "Write Philip to match the group",
+          "consequence": "Sometimes you vote with the room.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Write who you actually like",
+          "consequence": "A true answer in a notebook of lies is a small rebellion.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "Late at night you ask God the real questions — about your body, your friends, your two sets of grandparents pulling you like taffy. The ceiling, as always, doesn't answer in words. But you feel a little less alone for asking.",
+      "sceneTitle": "Are You There, God?",
+      "choices": [
+        {
+          "text": "Decide God is listening",
+          "consequence": "Faith is choosing to leave the line open.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Decide you'll figure it out yourself",
+          "consequence": "Growing up is partly learning to answer your own prayers.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A boy-girl party. There's a closet, a spinning bottle, and a rule called Two Minutes in Heaven that makes your stomach drop. Nancy's already pushing you toward the circle.",
+      "sceneTitle": "The Party",
+      "choices": [
+        {
+          "text": "Take your turn even though you're nervous",
+          "consequence": "Brave is scared with its shoes on, remember.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Sit this one out without apology",
+          "consequence": "No is a complete sentence, even at eleven.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "You end up talking to quiet Norman by the snack table about nothing and everything for an hour. It isn't a movie kiss. It's better — it's easy. Nancy will be horrified, which makes it sweeter.",
+      "sceneTitle": "Norman, Actually",
+      "choices": [
+        {
+          "text": "Tell the club the truth about Norman",
+          "consequence": "Owning your own crush is its own bravery.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Keep this one just for yourself",
+          "consequence": "Some good things shrink when shared.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "It feels like everyone is crossing a finish line you can't even see. Gretchen gets hers. Then Nancy claims she did — loudly, with details. You're starting to suspect she's lying, and you don't know what's worse: that, or still being last.",
+      "sceneTitle": "The Period Panic",
+      "choices": [
+        {
+          "text": "Call out Nancy's lie gently",
+          "consequence": "Truth between friends is risky and necessary.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Say nothing and feel left behind",
+          "consequence": "Waiting is the loneliest verb in sixth grade.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "Everyone whispers cruel things about Laura, the tall girl who developed early, as if her body did something wrong on purpose. One day you're partnered with her and discover she's just... a person. A nice one.",
+      "sceneTitle": "Laura Danker",
+      "choices": [
+        {
+          "text": "Defend Laura to the club",
+          "consequence": "It costs something to be kind out loud.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Stay quiet to keep the peace",
+          "consequence": "Silence can be a small betrayal you carry.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "It happens the way these things do — fast and over something small. Nancy turns the club against you, or you walk away from it; either way the fortress has a wall down the middle now, and you're on the outside.",
+      "sceneTitle": "The Falling Out",
+      "choices": [
+        {
+          "text": "Try to apologize and rebuild",
+          "consequence": "Mending takes more nerve than breaking.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Decide you're better off without the rules",
+          "consequence": "Some friendships fit you, and some you just fit into.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "Both sets of grandparents end up in your living room at once, and decades of hurt come out over the good china. They argue about whose religion you'll be — as if you're not standing right there.",
+      "sceneTitle": "The Visit Goes Wrong",
+      "choices": [
+        {
+          "text": "Stay quiet and let the adults fight",
+          "consequence": "Sometimes the smallest person sees the most.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Speak up about how it makes you feel",
+          "consequence": "Even kids get a vote in their own souls.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "After everything — the friends, the grandparents, the body that won't cooperate — you get angry at God for the first time. You tell Him you stopped hearing back and you're not sure you'll keep calling.",
+      "sceneTitle": "Are You Even There?",
+      "choices": [
+        {
+          "text": "Keep talking to God anyway",
+          "consequence": "Doubt and faith can share a room.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Take a break from praying",
+          "consequence": "Sometimes you put the phone down and grow.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "You realize the religion project was never really about temple or church. It was about who gets to decide what you believe — and the answer, finally, scary and freeing, is you.",
+      "sceneTitle": "Choosing for Yourself",
+      "choices": [
+        {
+          "text": "Write the project about your own searching",
+          "consequence": "The truest answer is that you're still looking.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Decide you don't need a label yet",
+          "consequence": "Some questions get to stay open.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "It comes, the thing you waited for, on an ordinary afternoon with no fanfare at all. You lock the bathroom door and laugh and almost cry, and the very first thing you do is talk to God — not asking for anything this time. Just to share.",
+      "sceneTitle": "Finally",
+      "choices": [
+        {
+          "text": "Thank God, and mean it",
+          "consequence": "Gratitude reopens every line you thought went dead.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Call Nancy first, then God",
+          "consequence": "Some news belongs to your people.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Nothing dramatic happens. You just wake up one day a little surer of yourself — about friends, about faith, about the long strange project of becoming a person. The waiting, it turns out, was part of the growing.",
+      "sceneTitle": "Just You",
+      "choices": [
+        {
+          "text": "Make peace with not having all the answers",
+          "consequence": "Eleven is allowed to be a question mark.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Promise yourself you'll keep asking the big questions",
+          "consequence": "The asking is the faith.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "The year ends. You are taller, braver, and exactly as confused about God as ever — but it's a comfortable confusion now, a conversation rather than a crisis. You did it. You're still you, only more so.",
+      "sceneTitle": "Sixth Grade, Survived",
+      "choices": [
+        {
+          "text": "Choose faith, on your own terms",
+          "consequence": "Belief you pick yourself fits best.",
+          "nextNodeId": "end_faith"
+        },
+        {
+          "text": "Choose your friends, mended and real",
+          "consequence": "The people who stay are the answer to half your prayers.",
+          "nextNodeId": "end_friends"
+        },
+        {
+          "text": "Choose just being eleven, fully",
+          "consequence": "Some years you win by simply living them.",
+          "nextNodeId": "end_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_faith",
+      "text": "You don't end up Jewish or Christian, exactly. You end up something quieter and yours — a person who keeps the line to God open out of choice, not habit. Grandma Sylvia is a little sad. You are, for the first time, sure.",
+      "sceneTitle": "On My Own Terms",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "On My Own Terms"
+    },
+    {
+      "id": "end_friends",
+      "text": "You and Nancy patch things up the imperfect way real friends do, with an apology that's half mumbled and a forgiveness that's mostly just showing up. The club drops its silly rules. What's left is the part that was always worth keeping.",
+      "sceneTitle": "The Fortress, Rebuilt",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Fortress, Rebuilt"
+    },
+    {
+      "id": "end_self",
+      "text": "In the end the biggest thing you grew wasn't your body or your faith — it was you, the part that talks to God at night and means it. You're eleven, almost twelve, and for one perfect summer evening that feels like exactly enough.",
+      "sceneTitle": "Are You There? It's Me.",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Are You There? It's Me."
+    }
+  ]
+}

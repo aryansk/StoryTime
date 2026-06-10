@@ -1,0 +1,450 @@
+{
+  "id": "fm-arrival",
+  "title": "Arrival",
+  "sourceTitle": "Arrival",
+  "kind": "movie",
+  "synopsis": "Twelve ships, a linguist who dreams about a daughter, and a language that rearranges what time means.",
+  "releaseYear": 2016,
+  "addedAt": "2026-06-03T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "language",
+    "time",
+    "contact",
+    "grief"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "A class emptied of students, a phone vibrating in a coat.",
+      "sceneTitle": "News Bulletin",
+      "choices": [
+        {
+          "text": "Go to the door",
+          "consequence": "Brave.",
+          "nextNodeId": "s2"
+        },
+        {
+          "text": "Stay",
+          "consequence": "Cautious.",
+          "nextNodeId": "s2"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s2",
+      "text": "A recording, a recruitment, a long ride in a helicopter.",
+      "sceneTitle": "Colonel Weber",
+      "choices": [
+        {
+          "text": "Accept",
+          "consequence": "Brave.",
+          "nextNodeId": "s3"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Wise.",
+          "nextNodeId": "s3"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s3",
+      "text": "A camp of trucks under a hovering shell.",
+      "sceneTitle": "Montana Site",
+      "choices": [
+        {
+          "text": "Suit up",
+          "consequence": "Brave.",
+          "nextNodeId": "s4"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Wise.",
+          "nextNodeId": "s4"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s4",
+      "text": "A long tunnel up to a horizontal glass and a room that ignores gravity.",
+      "sceneTitle": "First Entry",
+      "choices": [
+        {
+          "text": "Step through",
+          "consequence": "Brave.",
+          "nextNodeId": "s5"
+        },
+        {
+          "text": "Stay outside",
+          "consequence": "Cautious.",
+          "nextNodeId": "s5"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s5",
+      "text": "A circle of ink in midair.",
+      "sceneTitle": "First Word",
+      "choices": [
+        {
+          "text": "Write your name",
+          "consequence": "Honest.",
+          "nextNodeId": "s6"
+        },
+        {
+          "text": "Wait",
+          "consequence": "Patient.",
+          "nextNodeId": "s6"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s6",
+      "text": "A vocabulary of circles and tails.",
+      "sceneTitle": "Logogram",
+      "choices": [
+        {
+          "text": "Map them",
+          "consequence": "Wise.",
+          "nextNodeId": "s7"
+        },
+        {
+          "text": "Decode randomly",
+          "consequence": "Reckless.",
+          "nextNodeId": "s7"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s7",
+      "text": "A memory you have never had of a small girl.",
+      "sceneTitle": "Daughter on a Hill",
+      "choices": [
+        {
+          "text": "Hold it",
+          "consequence": "Heart.",
+          "nextNodeId": "s8"
+        },
+        {
+          "text": "Let it pass",
+          "consequence": "Wise.",
+          "nextNodeId": "s8"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s8",
+      "text": "A military comms blackout in Vladivostok.",
+      "sceneTitle": "Russians Going Dark",
+      "choices": [
+        {
+          "text": "Share notes anyway",
+          "consequence": "Brave.",
+          "nextNodeId": "s9"
+        },
+        {
+          "text": "Comply",
+          "consequence": "Loyal.",
+          "nextNodeId": "s9"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s9",
+      "text": "General Shang teaches the heptapods mahjong.",
+      "sceneTitle": "Chinese Card Game",
+      "choices": [
+        {
+          "text": "Object",
+          "consequence": "Wise.",
+          "nextNodeId": "s10"
+        },
+        {
+          "text": "Suggest a chess game",
+          "consequence": "Practical.",
+          "nextNodeId": "s10"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s10",
+      "text": "A word that can mean either.",
+      "sceneTitle": "Weapon vs Tool",
+      "choices": [
+        {
+          "text": "Argue",
+          "consequence": "Wise.",
+          "nextNodeId": "s11"
+        },
+        {
+          "text": "Translate carefully",
+          "consequence": "Patient.",
+          "nextNodeId": "s11"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s11",
+      "text": "A physicist with kind questions.",
+      "sceneTitle": "Ian",
+      "choices": [
+        {
+          "text": "Sit with him",
+          "consequence": "Heart.",
+          "nextNodeId": "s12"
+        },
+        {
+          "text": "Stay alone",
+          "consequence": "Honest.",
+          "nextNodeId": "s12"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s12",
+      "text": "A radio host calling the ships a hoax.",
+      "sceneTitle": "Donnelly Recordings",
+      "choices": [
+        {
+          "text": "Ignore",
+          "consequence": "Wise.",
+          "nextNodeId": "s13"
+        },
+        {
+          "text": "Address it",
+          "consequence": "Honest.",
+          "nextNodeId": "s13"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s13",
+      "text": "A young man with a bomb in a back pocket and a face full of fear.",
+      "sceneTitle": "Soldier With C4",
+      "choices": [
+        {
+          "text": "Warn the heptapods",
+          "consequence": "Brave.",
+          "nextNodeId": "s14"
+        },
+        {
+          "text": "Run",
+          "consequence": "Smart.",
+          "nextNodeId": "s14"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s14",
+      "text": "A flash, a hum, a body in the air.",
+      "sceneTitle": "Inside the Blast",
+      "choices": [
+        {
+          "text": "Reach for Ian",
+          "consequence": "Heart.",
+          "nextNodeId": "s15"
+        },
+        {
+          "text": "Find Costello",
+          "consequence": "Loyal.",
+          "nextNodeId": "s15"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s15",
+      "text": "A heptapod fades behind the glass.",
+      "sceneTitle": "Abbott Dying",
+      "choices": [
+        {
+          "text": "Sing a small farewell",
+          "consequence": "Honor.",
+          "nextNodeId": "s16"
+        },
+        {
+          "text": "Take a sample",
+          "consequence": "Cold.",
+          "nextNodeId": "s16"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s16",
+      "text": "A long sentence split among twelve nations.",
+      "sceneTitle": "Gift in Sections",
+      "choices": [
+        {
+          "text": "Share fully",
+          "consequence": "Brave.",
+          "nextNodeId": "s17"
+        },
+        {
+          "text": "Hold back",
+          "consequence": "Strategic.",
+          "nextNodeId": "s17"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s17",
+      "text": "A banquet, a Chinese general, a private cell number.",
+      "sceneTitle": "Future Glimpse",
+      "choices": [
+        {
+          "text": "Memorize it",
+          "consequence": "Wise.",
+          "nextNodeId": "s18"
+        },
+        {
+          "text": "Distrust the vision",
+          "consequence": "Cautious.",
+          "nextNodeId": "s18"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s18",
+      "text": "A satellite line, a number that should not work.",
+      "sceneTitle": "Phone in the Tent",
+      "choices": [
+        {
+          "text": "Dial",
+          "consequence": "Brave.",
+          "nextNodeId": "s19"
+        },
+        {
+          "text": "Hesitate",
+          "consequence": "Wise.",
+          "nextNodeId": "s19"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s19",
+      "text": "Her last words, said to a man who will not need them for many years.",
+      "sceneTitle": "Shang's Wife",
+      "choices": [
+        {
+          "text": "Speak them",
+          "consequence": "Honor.",
+          "nextNodeId": "s20"
+        },
+        {
+          "text": "Stay silent",
+          "consequence": "Cold.",
+          "nextNodeId": "s20"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s20",
+      "text": "Stars, a small girl in a memory not yet hers.",
+      "sceneTitle": "Ian on a Hill",
+      "choices": [
+        {
+          "text": "Choose",
+          "consequence": "Heart.",
+          "nextNodeId": "s21"
+        },
+        {
+          "text": "Refuse",
+          "consequence": "Hard.",
+          "nextNodeId": "s21"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s21",
+      "text": "A face in a future you can see, with all of its endings.",
+      "sceneTitle": "Tomorrow's Daughter",
+      "choices": [
+        {
+          "text": "Have her anyway",
+          "consequence": "Heart.",
+          "nextNodeId": "end_daughter"
+        },
+        {
+          "text": "Don't",
+          "consequence": "Honest.",
+          "nextNodeId": "end_unite"
+        },
+        {
+          "text": "Take the third path",
+          "consequence": "Some endings reveal themselves last.",
+          "nextNodeId": "end_alone"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_daughter",
+      "text": "You marry Ian on a quiet day and you have the daughter who will not stay long, and you love her exactly enough.",
+      "sceneTitle": "Hannah's Name, Both Ways",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Hannah's Name, Both Ways"
+    },
+    {
+      "id": "end_unite",
+      "text": "The world's leaders speak to each other through circles of ink and the war that almost started becomes the peace that almost surprised them.",
+      "sceneTitle": "Twelve Pieces",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Twelve Pieces"
+    },
+    {
+      "id": "end_alone",
+      "text": "You teach a course at the university about a language that nobody else can quite read. Students drift in and out. One stays. One always stays.",
+      "sceneTitle": "Alone With the Gift",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Alone With the Gift"
+    }
+  ]
+}
