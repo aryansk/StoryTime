@@ -14,6 +14,10 @@ struct ContentView: View {
     @StateObject private var statsStore = StatsStore()
     @StateObject private var notificationService = NotificationService()
     @StateObject private var catalog = CatalogService()
+    @StateObject private var endingsTracker = EndingsTracker()
+    @StateObject private var choiceDNA = ChoiceDNAStore()
+    @StateObject private var ambience = AmbienceService()
+    @StateObject private var personalStore = PersonalStoriesStore()
     @State private var showingSignUp = true
     @State private var selectedTab: Tab = ContentView.initialTab()
 
@@ -34,6 +38,21 @@ struct ContentView: View {
     }
 
     enum Tab: Hashable { case shows, library, profile, settings }
+
+    /// Recompute and re-install the daily-story notification, picking a
+    /// fresh "tonight's story" using the latest catalog and progress.
+    /// Called on launch and after catalog refresh so the notification
+    /// stays interesting even if the user never re-opens Settings.
+    private func scheduleDailyStoryIfEnabled() {
+        guard settings.dailyStoryEnabled else { return }
+        guard notificationService.authState == .authorized else { return }
+        notificationService.scheduleDailyStory(
+            hour: settings.reminderHour,
+            minute: settings.reminderMinute,
+            from: catalog.stories,
+            startedKeys: statsStore.storiesStarted
+        )
+    }
 
     private var debugShowPrivacy: Binding<Bool> {
         Binding(
@@ -106,9 +125,22 @@ struct ContentView: View {
         .environmentObject(statsStore)
         .environmentObject(notificationService)
         .environmentObject(catalog)
-        .preferredColorScheme(.light)
+        .environmentObject(endingsTracker)
+        .environmentObject(choiceDNA)
+        .environmentObject(ambience)
+        .environmentObject(personalStore)
+        .preferredColorScheme(settings.isDarkMode ? .dark : .light)
         .task {
             await catalog.refresh()
+            // After the catalog is fresh, re-pick "tonight's story" so the
+            // notification body reflects the latest title pool.
+            scheduleDailyStoryIfEnabled()
+        }
+        .onAppear {
+            scheduleDailyStoryIfEnabled()
+        }
+        .onChange(of: catalog.stories.count) { _, _ in
+            scheduleDailyStoryIfEnabled()
         }
         // Debug deep-link: `-deepLinkStoryID <id>` opens straight into the reader.
         .fullScreenCover(item: debugDeepLink) { story in
@@ -120,6 +152,10 @@ struct ContentView: View {
                     .environmentObject(statsStore)
                     .environmentObject(notificationService)
                     .environmentObject(catalog)
+                    .environmentObject(endingsTracker)
+                    .environmentObject(choiceDNA)
+                    .environmentObject(ambience)
+                    .environmentObject(personalStore)
             }
         }
         .fullScreenCover(isPresented: debugShowPrivacy) {

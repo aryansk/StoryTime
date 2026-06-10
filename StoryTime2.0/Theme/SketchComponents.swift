@@ -226,6 +226,28 @@ struct SketchBadge: View {
     }
 }
 
+// MARK: StarRating — hand-drawn stars + optional "loved" glow
+
+struct StarRating: View {
+    let rating: Int          // 0...5 filled stars
+    var loved: Bool = false
+    var size: CGFloat = 14
+
+    var body: some View {
+        HStack(spacing: 3) {
+            ForEach(0..<5, id: \.self) { i in
+                DoodleIcon(i < rating ? .starFill : .star,
+                           size: size,
+                           filled: i < rating)
+            }
+            if loved {
+                DoodleIcon(.sparkle, size: size + 2)
+                    .jitter(amplitude: 0.4)
+            }
+        }
+    }
+}
+
 // MARK: SectionHeader (chunky sans)
 
 struct SketchSectionHeader: View {

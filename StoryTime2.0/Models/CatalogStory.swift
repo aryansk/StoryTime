@@ -9,6 +9,15 @@ import Foundation
 enum StoryKind: String, Codable, CaseIterable {
     case movie
     case show
+    case book
+
+    var displayName: String {
+        switch self {
+        case .movie: return "Movie"
+        case .show:  return "Show"
+        case .book:  return "Book"
+        }
+    }
 }
 
 enum StoryGenre: String, Codable, CaseIterable, Identifiable, Hashable {
@@ -34,11 +43,24 @@ struct CatalogStory: Codable, Identifiable, Hashable {
     let addedAt: Date
     let genre: StoryGenre
     let tags: [String]
+    /// Curator's star rating, 1...5. Optional so older payloads still decode.
+    let rating: Int?
+    /// Curator's "loved" glow (the 🌟 in the source list).
+    let loved: Bool?
+    /// Optional "next story in saga" link, e.g. Dune I → Dune II.
+    let nextStoryId: String?
     let startNodeId: String
     let nodes: [StoryNode]
 
     /// Stable key used for progress + favorites persistence.
     var storageKey: String { id }
+
+    /// Clamped star rating, or nil when unrated.
+    var stars: Int? {
+        guard let rating else { return nil }
+        return min(5, max(0, rating))
+    }
+    var isLoved: Bool { loved ?? false }
 
     func node(id: String) -> StoryNode? {
         nodes.first { $0.id == id }
@@ -86,6 +108,9 @@ struct CatalogIndexEntry: Codable, Identifiable {
     let addedAt: Date
     let genre: StoryGenre
     let tags: [String]
+    let rating: Int?
+    let loved: Bool?
+    let nextStoryId: String?
     /// URL to the per-story JSON (relative or absolute).
     let storyURL: String?
 }

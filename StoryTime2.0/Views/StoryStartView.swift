@@ -10,7 +10,11 @@ struct StoryStartView: View {
     @ObservedObject var settings: SettingsModel
     @EnvironmentObject var progressStore: ReadingProgressStore
     @EnvironmentObject var favoritesStore: FavoritesStore
+    @EnvironmentObject var endingsTracker: EndingsTracker
+    @EnvironmentObject var personalStore: PersonalStoriesStore
     @Environment(\.dismiss) private var dismiss
+
+    @State private var showDeleteConfirm = false
 
     @State private var goReading = false
 
@@ -19,6 +23,12 @@ struct StoryStartView: View {
     }
     private var isFavorite: Bool {
         favoritesStore.isFavorite(story.storageKey)
+    }
+    /// Personal (user-authored or AI-generated) stories carry the `user-`
+    /// id prefix and live in `PersonalStoriesStore` — they can be deleted
+    /// from this screen.
+    private var isPersonalStory: Bool {
+        story.id.hasPrefix("user-")
     }
 
     var body: some View {
@@ -31,6 +41,11 @@ struct StoryStartView: View {
                     HStack {
                         DoodleButton(doodle: .chevronLeft, label: "Back") { dismiss() }
                         Spacer()
+                        if isPersonalStory {
+                            DoodleButton(doodle: .xmark, label: "Delete") {
+                                showDeleteConfirm = true
+                            }
+                        }
                         DoodleButton(doodle: isFavorite ? .heartFill : .heart,
                                      label: isFavorite ? "Unfavorite" : "Favorite") {
                             favoritesStore.toggle(story.storageKey)
@@ -66,7 +81,7 @@ struct StoryStartView: View {
                         Text(story.title)
                             .font(Theme.Fonts.title())
                             .foregroundColor(Theme.Palette.ink)
-                        Text("A choose-your-own-adventure after \(story.sourceTitle)")
+                        Text("What would you have done in \(story.sourceTitle)?")
                             .font(Theme.Fonts.bodyItalic(15))
                             .foregroundColor(Theme.Palette.inkSoft)
                     }
@@ -82,7 +97,7 @@ struct StoryStartView: View {
                             Text(story.synopsis)
                                 .font(Theme.Fonts.body(16))
                                 .foregroundColor(Theme.Palette.ink)
-                                .lineSpacing(5)
+                                .lineSpacing(6)
                         }
                     }
                     .padding(.horizontal, 24)
@@ -90,9 +105,25 @@ struct StoryStartView: View {
                     // Metadata
                     HStack(spacing: 10) {
                         SketchBadge(text: story.genre.rawValue)
-                        SketchBadge(text: story.kind == .show ? "Show" : "Movie")
+                        SketchBadge(text: story.kind.displayName)
                         SketchBadge(text: "\(story.nodes.count) scenes")
                     }
+                    .padding(.horizontal, 24)
+
+                    if let stars = story.stars {
+                        HStack(spacing: 10) {
+                            StarRating(rating: stars, loved: story.isLoved, size: 18)
+                            Text(story.isLoved ? "A favorite" : "Rated")
+                                .font(Theme.Fonts.bodyItalic(13))
+                                .foregroundColor(Theme.Palette.inkSoft)
+                        }
+                        .padding(.horizontal, 24)
+                    }
+
+                    EndingsGridView(
+                        story: story,
+                        discovered: endingsTracker.reached(for: story.storageKey)
+                    )
                     .padding(.horizontal, 24)
 
                     // CTAs
@@ -133,6 +164,24 @@ struct StoryStartView: View {
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $goReading) {
             StoryReaderView(story: story, settings: settings)
+        }
+        .confirmationDialog(
+            "Delete this story?",
+            isPresented: $showDeleteConfirm,
+            titleVisibility: .visible
+        ) {
+            Button("Delete", role: .destructive) {
+                let key = story.storageKey
+                personalStore.remove(id: story.id)
+                progressStore.clear(storyKey: key)
+                if favoritesStore.isFavorite(key) {
+                    favoritesStore.toggle(key)
+                }
+                dismiss()
+            }
+            Button("Cancel", role: .cancel) { }
+        } message: {
+            Text("This will remove “\(story.title)” from your stories. Your progress for it is also cleared.")
         }
     }
 }

@@ -10,6 +10,8 @@ struct ProfileView: View {
     @EnvironmentObject var statsStore: StatsStore
     @EnvironmentObject var progressStore: ReadingProgressStore
     @EnvironmentObject var favoritesStore: FavoritesStore
+    @EnvironmentObject var choiceDNA: ChoiceDNAStore
+    @EnvironmentObject var endingsTracker: EndingsTracker
 
     @State private var editingName: Bool = false
     @State private var nameDraft: String = ""
@@ -48,6 +50,9 @@ struct ProfileView: View {
                             .padding(.horizontal, 24)
 
                         statsBlock
+                            .padding(.horizontal, 24)
+
+                        dnaBlock
                             .padding(.horizontal, 24)
 
                         legalBlock
@@ -149,6 +154,81 @@ struct ProfileView: View {
                                 value: "\(favoritesStore.favoriteTitles.count)",
                                 label: "Favorites")
             }
+        }
+    }
+
+    // MARK: Choice DNA
+
+    private var dnaBlock: some View {
+        VStack(alignment: .leading, spacing: 14) {
+            SketchSectionHeader("Your Choice DNA")
+            SketchCard(seed: 31.0) {
+                if choiceDNA.ranked.isEmpty {
+                    VStack(alignment: .leading, spacing: 8) {
+                        HStack(spacing: 8) {
+                            DoodleIcon(.branch, size: 18)
+                            Text("Make a few choices first")
+                                .font(Theme.Fonts.cardTitle())
+                                .foregroundColor(Theme.Palette.ink)
+                        }
+                        Text("As you play, your choices add up to a quiet personality reading.")
+                            .font(Theme.Fonts.bodyItalic(14))
+                            .foregroundColor(Theme.Palette.inkSoft)
+                            .lineSpacing(3)
+                    }
+                } else {
+                    VStack(alignment: .leading, spacing: 12) {
+                        HStack(spacing: 8) {
+                            DoodleIcon(.branch, size: 18)
+                            Text(dnaHeadline)
+                                .font(Theme.Fonts.cardTitle())
+                                .foregroundColor(Theme.Palette.ink)
+                            Spacer()
+                        }
+                        ForEach(choiceDNA.ranked.prefix(5), id: \.trait) { row in
+                            dnaRow(trait: row.trait,
+                                   percent: choiceDNA.percent(for: row.trait))
+                        }
+                        Text("Based on \(choiceDNA.totalChoices) tracked choices.")
+                            .font(Theme.Fonts.bodyItalic(12))
+                            .foregroundColor(Theme.Palette.inkSoft)
+                            .padding(.top, 2)
+                    }
+                }
+            }
+        }
+    }
+
+    private var dnaHeadline: String {
+        guard let top = choiceDNA.ranked.first else { return "Mostly Quiet" }
+        return "Mostly \(top.trait.rawValue)"
+    }
+
+    private func dnaRow(trait: ChoiceTrait, percent: Int) -> some View {
+        VStack(alignment: .leading, spacing: 4) {
+            HStack {
+                Text(trait.rawValue)
+                    .font(Theme.Fonts.label())
+                    .tracking(0.8)
+                    .foregroundColor(Theme.Palette.ink)
+                Spacer()
+                Text("\(percent)%")
+                    .font(Theme.Fonts.headingMedium(13))
+                    .foregroundColor(Theme.Palette.inkSoft)
+            }
+            ZStack(alignment: .leading) {
+                WobblyRect(jitter: 0.3, corner: 4,
+                            seed: CGFloat(trait.rawValue.hashValue % 30))
+                    .fill(Theme.Palette.mist)
+                    .frame(height: 10)
+                WobblyRect(jitter: 0.3, corner: 4,
+                            seed: CGFloat(trait.rawValue.hashValue % 30))
+                    .fill(Theme.Palette.ink)
+                    .frame(width: max(6, CGFloat(percent) * 2.4), height: 10)
+            }
+            Text(trait.blurb)
+                .font(Theme.Fonts.bodyItalic(12))
+                .foregroundColor(Theme.Palette.inkSoft)
         }
     }
 

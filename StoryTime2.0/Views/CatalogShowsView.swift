@@ -11,12 +11,30 @@ struct CatalogShowsView: View {
     @ObservedObject var settings: SettingsModel
     @EnvironmentObject var progressStore: ReadingProgressStore
     @EnvironmentObject var favoritesStore: FavoritesStore
+    @EnvironmentObject var personalStore: PersonalStoriesStore
 
     @State private var genre: StoryGenre = .all
+    @State private var ratingFilter: RatingFilter = .all
     @State private var searchText: String = ""
+    @State private var activeCollection: StoryCollection? = nil
+    @State private var showCreator: Bool = false
+
+    /// Merged catalog: personal stories first (most recently added on top),
+    /// then bundled/remote.
+    private var allStories: [CatalogStory] {
+        let bundled = catalog.stories
+        let bundledIds = Set(bundled.map(\.id))
+        let personal = personalStore.stories.filter { !bundledIds.contains($0.id) }
+        return personal + bundled
+    }
 
     private var filtered: [CatalogStory] {
-        var list = catalog.stories(matching: genre)
+        var list = allStories
+        if genre != .all { list = list.filter { $0.genre == genre } }
+        list = list.filter { ratingFilter.matches($0) }
+        if let collection = activeCollection {
+            list = list.filter { collection.matches($0) }
+        }
         if !searchText.isEmpty {
             list = list.filter {
                 $0.title.localizedCaseInsensitiveContains(searchText) ||
@@ -46,6 +64,19 @@ struct CatalogShowsView: View {
                                 DoodleIcon(.sparkle, size: 36)
                                     .jitter(amplitude: 0.5)
                                 Spacer()
+                                Button {
+                                    showCreator = true
+                                } label: {
+                                    DoodleIcon(.plus, size: 28)
+                                        .jitter(amplitude: 0.3)
+                                        .padding(8)
+                                        .background(
+                                            WobblyRect(jitter: 0.4, corner: 8, seed: 41)
+                                                .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
+                                        )
+                                }
+                                .buttonStyle(.plain)
+                                .accessibilityLabel("Create a story")
                             }
                             Text("Step inside the stories you've been watching. Pick a path. See what breaks.")
                                 .font(Theme.Fonts.body(15))
@@ -83,6 +114,36 @@ struct CatalogShowsView: View {
                             }
                         }
 
+                        // Collections (mood / curated)
+                        VStack(alignment: .leading, spacing: 12) {
+                            SketchSectionHeader("Collections")
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 10) {
+                                    SketchPill(title: "All",
+                                               selected: activeCollection == nil) {
+                                        withAnimation(.easeOut(duration: 0.15)) {
+                                            activeCollection = nil
+                                        }
+                                    }
+                                    ForEach(StoryCollections.all) { c in
+                                        SketchPill(title: c.title,
+                                                   selected: activeCollection?.id == c.id) {
+                                            withAnimation(.easeOut(duration: 0.15)) {
+                                                activeCollection = (activeCollection?.id == c.id) ? nil : c
+                                            }
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal, 24)
+                            }
+                            if let c = activeCollection {
+                                Text(c.subtitle)
+                                    .font(Theme.Fonts.bodyItalic(13))
+                                    .foregroundColor(Theme.Palette.inkSoft)
+                                    .padding(.horizontal, 24)
+                            }
+                        }
+
                         // Genre pills
                         VStack(alignment: .leading, spacing: 12) {
                             SketchSectionHeader("Browse")
@@ -93,6 +154,23 @@ struct CatalogShowsView: View {
                                                    selected: genre == g) {
                                             withAnimation(.easeOut(duration: 0.15)) {
                                                 genre = g
+                                            }
+                                        }
+                                    }
+                                }
+                                .padding(.horizontal, 24)
+                            }
+
+                            // Rating filter: complements the genre pills so the
+                            // catalog can be narrowed by curator's star rating
+                            // and the "loved" glow.
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 10) {
+                                    ForEach(RatingFilter.allCases) { r in
+                                        SketchPill(title: r.label,
+                                                   selected: ratingFilter == r) {
+                                            withAnimation(.easeOut(duration: 0.15)) {
+                                                ratingFilter = r
                                             }
                                         }
                                     }
@@ -148,6 +226,45 @@ struct CatalogShowsView: View {
             .navigationDestination(for: CatalogStory.self) { story in
                 StoryStartView(story: story, settings: settings)
             }
+            .sheet(isPresented: $showCreator) {
+                CreateStoryView(settings: settings)
+                    .environmentObject(personalStore)
+            }
+        }
+    }
+}
+
+// MARK: - Rating filter
+
+/// Filter pill row that complements the genre pills: narrows the
+/// catalog by curator's star rating, with a dedicated "Loved" bucket
+/// for the 🌟-flagged entries.
+enum RatingFilter: String, CaseIterable, Identifiable, Hashable {
+    case all
+    case loved
+    case fiveStar
+    case fourPlus
+    case threePlus
+
+    var id: String { rawValue }
+
+    var label: String {
+        switch self {
+        case .all:        return "Any Rating"
+        case .loved:      return "Loved"
+        case .fiveStar:   return "5★"
+        case .fourPlus:   return "4★+"
+        case .threePlus:  return "3★+"
+        }
+    }
+
+    func matches(_ story: CatalogStory) -> Bool {
+        switch self {
+        case .all:        return true
+        case .loved:      return story.isLoved
+        case .fiveStar:   return (story.stars ?? 0) >= 5
+        case .fourPlus:   return (story.stars ?? 0) >= 4
+        case .threePlus:  return (story.stars ?? 0) >= 3
         }
     }
 }
@@ -176,10 +293,14 @@ struct NewPosterCard: View {
                         .font(Theme.Fonts.cardTitle())
                         .foregroundColor(Theme.Palette.ink)
                         .lineLimit(1)
-                    Text("After \(story.sourceTitle)")
+                    Text(story.kind.displayName)
                         .font(Theme.Fonts.bodyItalic(13))
                         .foregroundColor(Theme.Palette.inkSoft)
                         .lineLimit(1)
+                    if let stars = story.stars {
+                        StarRating(rating: stars, loved: story.isLoved, size: 13)
+                            .padding(.top, 2)
+                    }
                 }
                 .padding(.horizontal, 14)
                 .padding(.vertical, 12)
@@ -221,13 +342,16 @@ struct CatalogRowCard: View {
                         .font(Theme.Fonts.bodyItalic(13))
                         .foregroundColor(Theme.Palette.inkSoft)
                     Text(story.synopsis)
-                        .font(Theme.Fonts.body(14))
+                        .font(Theme.Fonts.body(15))
                         .foregroundColor(Theme.Palette.ink)
                         .lineLimit(3)
-                        .lineSpacing(2)
+                        .lineSpacing(4)
 
                     HStack(spacing: 8) {
                         SketchBadge(text: story.genre.rawValue)
+                        if let stars = story.stars {
+                            StarRating(rating: stars, loved: story.isLoved)
+                        }
                         if isFavorite {
                             DoodleIcon(.heartFill, size: 16, filled: true)
                         }

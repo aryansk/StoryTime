@@ -9,11 +9,23 @@ struct LibraryView: View {
     @ObservedObject var settings: SettingsModel
     @EnvironmentObject var progressStore: ReadingProgressStore
     @EnvironmentObject var favoritesStore: FavoritesStore
+    @EnvironmentObject var personalStore: PersonalStoriesStore
 
     @State private var favoritesGenre: StoryGenre = .all
 
+    /// Catalog stories + personal stories (personal first), de-duped by id.
+    private var allStories: [CatalogStory] {
+        let bundled = catalog.stories
+        let bundledIds = Set(bundled.map(\.id))
+        let personal = personalStore.stories.filter { !bundledIds.contains($0.id) }
+        return personal + bundled
+    }
+    private func storyById(_ id: String) -> CatalogStory? {
+        allStories.first { $0.id == id }
+    }
+
     private var allFavorites: [CatalogStory] {
-        catalog.stories.filter { favoritesStore.isFavorite($0.storageKey) }
+        allStories.filter { favoritesStore.isFavorite($0.storageKey) }
     }
     private var favoriteStories: [CatalogStory] {
         guard favoritesGenre != .all else { return allFavorites }
@@ -31,7 +43,7 @@ struct LibraryView: View {
 
     private var inProgressStories: [(CatalogStory, ReadingProgress)] {
         progressStore.inProgress.compactMap { progress in
-            guard let story = catalog.story(id: progress.storyKey) else { return nil }
+            guard let story = storyById(progress.storyKey) else { return nil }
             return (story, progress)
         }
     }

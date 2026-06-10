@@ -22,16 +22,35 @@ struct StoryReaderView: View {
     @EnvironmentObject var progressStore: ReadingProgressStore
     @EnvironmentObject var statsStore: StatsStore
     @EnvironmentObject var speechService: SpeechService
+    @EnvironmentObject var endingsTracker: EndingsTracker
+    @EnvironmentObject var choiceDNA: ChoiceDNAStore
+    @EnvironmentObject var ambience: AmbienceService
+    @EnvironmentObject var catalog: CatalogService
     @Environment(\.dismiss) private var dismiss
 
     @State private var selectedChoiceIndex: Int? = nil
     @State private var consequenceVisible: Bool = false
     @State private var pendingNextNodeId: String? = nil
     @State private var pendingConsequence: String? = nil
+    @State private var pendingChoiceText: String? = nil
+    @State private var pendingFromNodeId: String? = nil
     @State private var showShareSheet: Bool = false
+    @State private var shareItems: [Any] = []
+    @State private var sagaDestination: CatalogStory? = nil
 
     private var sceneIndex: Int { max(1, gameState.history.count) }
     private var totalScenes: Int { story.nodes.count }
+
+    private var currentPlayerName: String {
+        gameState.companionTurn == 0 ? settings.companionPlayerA : settings.companionPlayerB
+    }
+
+    private var promptLabel: String {
+        if settings.companionEnabled {
+            return "\(currentPlayerName), what do you do?"
+        }
+        return "What do you do?"
+    }
 
     var body: some View {
         ZStack {
@@ -47,6 +66,7 @@ struct StoryReaderView: View {
 
                             if let node = gameState.currentNode {
                                 bodyText(node.text)
+                                    .id(node.id)
 
                                 if node.isEnding {
                                     endingBlock(title: node.endingTitle ?? "The End")
@@ -79,8 +99,14 @@ struct StoryReaderView: View {
                                 statsStore: statsStore)
             let resume = progressStore.progress(for: story.storageKey)?.nodeId
             gameState.start(at: resume)
+            if settings.ambienceEnabled {
+                ambience.play(genre: story.genre)
+            }
         }
-        .onDisappear { speechService.stop() }
+        .onDisappear {
+            speechService.stop()
+            ambience.stop()
+        }
     }
 
     // MARK: Top bar
@@ -103,7 +129,7 @@ struct StoryReaderView: View {
                     .font(Theme.Fonts.headingMedium(15))
                     .foregroundColor(Theme.Palette.ink)
                     .lineLimit(1)
-                Text("After \(story.sourceTitle)")
+                Text(story.kind.displayName)
                     .font(Theme.Fonts.bodyItalic(11))
                     .foregroundColor(Theme.Palette.inkSoft)
                     .lineLimit(1)
@@ -143,32 +169,46 @@ struct StoryReaderView: View {
         .padding(.top, 8)
     }
 
-    // MARK: Body text with drop cap
+    // MARK: Body text
+    //
+    // Honors the user's Text Size, reading Font, and Typewriter settings.
 
+    @ViewBuilder
     private func bodyText(_ text: String) -> some View {
         let trimmed = text.trimmingCharacters(in: .whitespacesAndNewlines)
+        if settings.typewriterEnabled {
+            TypewriterText(full: trimmed,
+                           font: settings.readerFont(settings.textSize),
+                           lineSpacing: settings.textSize * 0.5,
+                           interval: settings.typingSpeed)
+                .padding(.horizontal, 24)
+        } else {
+            dropCapText(trimmed)
+                .padding(.horizontal, 24)
+        }
+    }
+
+    private func dropCapText(_ trimmed: String) -> some View {
         let first = String(trimmed.prefix(1))
         let rest  = String(trimmed.dropFirst())
+        let capSize = settings.textSize * 3.0
 
         return HStack(alignment: .top, spacing: 0) {
-            // Drop cap (chunky sans)
+            // Oversized drop cap, in the chosen reading font.
             Text(first)
-                .font(Theme.Fonts.heading(54))
+                .font(settings.readerFont(capSize))
                 .foregroundColor(Theme.Palette.ink)
-                .frame(height: 50, alignment: .top)
+                .frame(height: capSize * 0.86, alignment: .top)
                 .padding(.trailing, 8)
-                .baselineOffset(-6)
+                .baselineOffset(-(settings.textSize * 0.32))
                 .accessibilityHidden(true)
 
-            (
-                Text(rest)
-                    .font(Theme.Fonts.body(17))
-                    .foregroundColor(Theme.Palette.ink)
-            )
-            .lineSpacing(7)
-            .accessibilityLabel(trimmed)
+            Text(rest)
+                .font(settings.readerFont(settings.textSize))
+                .foregroundColor(Theme.Palette.ink)
+                .lineSpacing(settings.textSize * 0.5)
+                .accessibilityLabel(trimmed)
         }
-        .padding(.horizontal, 24)
     }
 
     // MARK: Choices
@@ -177,10 +217,14 @@ struct StoryReaderView: View {
         VStack(alignment: .leading, spacing: 14) {
             HStack(spacing: 8) {
                 DoodleIcon(.branch, size: 18)
-                Text("What do you do?")
+                Text(promptLabel)
                     .font(Theme.Fonts.label())
                     .tracking(1.2)
                     .foregroundColor(Theme.Palette.inkSoft)
+                Spacer()
+                if settings.companionEnabled {
+                    SketchBadge(text: "Turn: \(currentPlayerName)")
+                }
             }
 
             VStack(spacing: 10) {
@@ -194,7 +238,12 @@ struct StoryReaderView: View {
                         selectedChoiceIndex = idx
                         pendingConsequence = choice.consequence
                         pendingNextNodeId = choice.nextNodeId
+                        pendingChoiceText = choice.text
+                        pendingFromNodeId = gameState.currentNode?.id
                         statsStore.recordChoice()
+                        // Score this choice against the Choice DNA traits.
+                        choiceDNA.record(consequence: choice.consequence,
+                                         choiceText: choice.text)
                         withAnimation(.easeOut(duration: 0.25)) {
                             consequenceVisible = true
                         }
@@ -261,12 +310,34 @@ struct StoryReaderView: View {
             consequenceVisible = false
         }
         let next = pendingNextNodeId
+        let fromId = pendingFromNodeId
+        let idx = selectedChoiceIndex
+        let choiceText = pendingChoiceText
+        let consequence = pendingConsequence
         // Hand off the scene transition after the overlay finishes dismissing.
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.22) {
-            if let next { gameState.jump(to: next) }
+            if let next {
+                gameState.jump(
+                    to: next,
+                    fromNodeId: fromId,
+                    choiceIndex: idx,
+                    choiceText: choiceText,
+                    consequence: consequence
+                )
+                if settings.companionEnabled {
+                    gameState.advanceCompanionTurn()
+                }
+                // If the next node is itself an ending, mark it discovered.
+                if let endingNode = story.node(id: next), endingNode.isEnding {
+                    endingsTracker.record(storyKey: story.storageKey,
+                                          endingNodeId: endingNode.id)
+                }
+            }
             selectedChoiceIndex = nil
             pendingConsequence = nil
             pendingNextNodeId = nil
+            pendingChoiceText = nil
+            pendingFromNodeId = nil
         }
     }
 
@@ -287,17 +358,35 @@ struct StoryReaderView: View {
                 Text(title)
                     .font(Theme.Fonts.title())
                     .foregroundColor(Theme.Palette.ink)
-                Text("You followed this path to its conclusion. Other roads remain. Want to take one?")
-                    .font(Theme.Fonts.bodyItalic(14))
-                    .foregroundColor(Theme.Palette.inkSoft)
-                    .lineSpacing(4)
+
+                // Discovered / total endings progress.
+                let total = story.nodes.filter { $0.isEnding }.count
+                let discovered = endingsTracker.count(for: story.storageKey)
+                if total > 1 {
+                    Text("You've found \(discovered) of \(total) endings.")
+                        .font(Theme.Fonts.bodyItalic(14))
+                        .foregroundColor(Theme.Palette.inkSoft)
+                }
+
+                // Branch peek — show the choice not taken at the last
+                // decision point, with its consequence flavor.
+                if let peek = branchPeek() {
+                    branchPeekRow(label: peek.label, consequence: peek.consequence)
+                }
 
                 VStack(spacing: 10) {
                     SketchButton(title: "Start Over", doodle: .undo, style: .primary) {
                         withAnimation { gameState.restart(); resetTransientState() }
                     }
-                    SketchButton(title: "Share This Ending", doodle: .share, style: .secondary) {
-                        showShareSheet = true
+                    if let next = sagaNext() {
+                        SketchButton(title: "Continue → \(next.sourceTitle)",
+                                     doodle: .arrowRight,
+                                     style: .secondary) {
+                            sagaDestination = next
+                        }
+                    }
+                    SketchButton(title: "Share Ending Card", doodle: .share, style: .secondary) {
+                        prepareShare(endingTitle: title)
                     }
                     SketchButton(title: "Back to Library", style: .ghost) { dismiss() }
                 }
@@ -307,12 +396,66 @@ struct StoryReaderView: View {
         .padding(.horizontal, 24)
         .padding(.top, 8)
         .sheet(isPresented: $showShareSheet) {
-            ShareSheet(activityItems: [shareText(endingTitle: title)])
+            ShareSheet(activityItems: shareItems)
+        }
+        .navigationDestination(item: $sagaDestination) { story in
+            StoryReaderView(story: story, settings: settings)
         }
     }
 
-    private func shareText(endingTitle: String) -> String {
-        "I got the \"\(endingTitle)\" ending in \(story.title) — a choose-your-own-adventure after \(story.sourceTitle), on StoryTime."
+    private func branchPeek() -> (label: String, consequence: String)? {
+        // Find the last decision (most recent record) and the choice not taken.
+        guard let last = gameState.lastDecisionRecord,
+              let node = story.node(id: last.nodeId) else { return nil }
+        let other = node.choices.enumerated().first { (idx, _) in idx != last.choiceIndex }
+        guard let pair = other else { return nil }
+        return (pair.element.text, pair.element.consequence)
+    }
+
+    private func branchPeekRow(label: String, consequence: String) -> some View {
+        VStack(alignment: .leading, spacing: 6) {
+            HStack(spacing: 6) {
+                DoodleIcon(.branch, size: 14)
+                Text("THE PATH NOT TAKEN")
+                    .font(Theme.Fonts.label())
+                    .tracking(1.2)
+                    .foregroundColor(Theme.Palette.inkSoft)
+            }
+            Text("If you had: \(label)")
+                .font(Theme.Fonts.body(15))
+                .foregroundColor(Theme.Palette.ink)
+            Text(consequence)
+                .font(Theme.Fonts.bodyItalic(14))
+                .foregroundColor(Theme.Palette.inkSoft)
+                .lineSpacing(3)
+        }
+        .padding(12)
+        .background(
+            WobblyRect(jitter: 0.4, corner: 6, seed: 28)
+                .fill(Theme.Palette.butterDeep)
+        )
+        .overlay(
+            WobblyRect(jitter: 0.4, corner: 6, seed: 28)
+                .stroke(Theme.Palette.inkHair, lineWidth: Theme.Stroke.line)
+        )
+    }
+
+    private func sagaNext() -> CatalogStory? {
+        guard let nextId = story.nextStoryId else { return nil }
+        return catalog.story(id: nextId)
+    }
+
+    private func prepareShare(endingTitle: String) {
+        let total = story.nodes.count
+        let label = "\(sceneIndex) of \(total) scenes"
+        let image = ShareEndingCard.render(story: story,
+                                            endingTitle: endingTitle,
+                                            pathLabel: label)
+        let text = "I just played \(story.sourceTitle) on StoryTime — my ending: \(endingTitle)."
+        var items: [Any] = [text]
+        if let image { items.insert(image, at: 0) }
+        shareItems = items
+        showShareSheet = true
     }
 
     private func resetTransientState() {
@@ -371,7 +514,7 @@ private struct NumberedChoiceRow: View {
                     .font(Theme.Fonts.body(16))
                     .foregroundColor(Theme.Palette.ink)
                     .multilineTextAlignment(.leading)
-                    .lineSpacing(3)
+                    .lineSpacing(5)
                     .padding(.top, 6)
                 Spacer(minLength: 0)
                 DoodleIcon(.arrowRight, size: 16, color: Theme.Palette.inkSoft)
@@ -393,6 +536,53 @@ private struct NumberedChoiceRow: View {
             )
         }
         .buttonStyle(.plain)
+    }
+}
+
+// MARK: - Typewriter body text
+//
+// Reveals the scene text one character at a time at the user's chosen
+// typing speed. Tap anywhere on the text to skip straight to the full
+// passage. Restarts whenever the scene changes (the parent applies `.id`).
+
+private struct TypewriterText: View {
+    let full: String
+    let font: Font
+    var lineSpacing: CGFloat = 8
+    let interval: Double
+
+    @State private var shown: Int = 0
+    @State private var timer: Timer?
+
+    var body: some View {
+        Text(String(full.prefix(shown)))
+            .font(font)
+            .foregroundColor(Theme.Palette.ink)
+            .lineSpacing(lineSpacing)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .contentShape(Rectangle())
+            .onAppear { begin() }
+            .onDisappear { timer?.invalidate() }
+            .onTapGesture { revealAll() }
+            .accessibilityLabel(full)
+    }
+
+    private func begin() {
+        shown = 0
+        timer?.invalidate()
+        let count = full.count
+        timer = Timer.scheduledTimer(withTimeInterval: max(0.01, interval), repeats: true) { t in
+            if shown < count {
+                shown += 1
+            } else {
+                t.invalidate()
+            }
+        }
+    }
+
+    private func revealAll() {
+        timer?.invalidate()
+        shown = full.count
     }
 }
 

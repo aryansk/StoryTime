@@ -11,20 +11,52 @@ import SwiftUI
 struct Theme {
 
     // MARK: Palette
+    //
+    // Every palette entry is a *dynamic* color: it resolves to a light or
+    // dark variant based on the active interface style. Because the whole UI
+    // reads these tokens, flipping `preferredColorScheme` (driven by the
+    // user's Dark Mode toggle) re-themes the entire app for free.
+    //
+    // The ink↔butter pair is intentionally inverted in dark mode: ink (text
+    // and linework) becomes a warm cream, and butter (the color drawn *behind*
+    // ink, e.g. primary-button text and selected medallions) becomes the dark
+    // page tone — so every existing contrast pairing keeps working.
 
     struct Palette {
-        /// Pale warm buttery cream — primary page background.
-        static let butter   = Color(red: 0.965, green: 0.937, blue: 0.831) // #F6EFD4
-        /// Soft, slightly grayish muted pastel blue — secondary surfaces.
-        static let mist     = Color(red: 0.847, green: 0.871, blue: 0.910) // #D8DEE8
-        /// Very dark blue / off-black. Used for all text and linework.
-        static let ink      = Color(red: 0.102, green: 0.153, blue: 0.267) // #1A2744
-        /// Muted ink for secondary copy.
-        static let inkSoft  = Color(red: 0.102, green: 0.153, blue: 0.267).opacity(0.55)
+        /// Behind-ink accent: pale butter in light, deep ink-navy in dark.
+        static let butter   = dyn(light: UIColor(r: 0.996, g: 0.973, b: 0.851),
+                                  dark:  UIColor(r: 0.121, g: 0.141, b: 0.200))
+        /// Secondary card surfaces.
+        static let mist     = dyn(light: UIColor(r: 0.847, g: 0.871, b: 0.910),
+                                  dark:  UIColor(r: 0.169, g: 0.200, b: 0.275))
+        /// All text and linework.
+        static let ink      = dyn(light: UIColor(r: 0.102, g: 0.153, b: 0.267),
+                                  dark:  UIColor(r: 0.925, g: 0.906, b: 0.839))
+        /// Muted ink for secondary copy. Kept high enough to clear WCAG-ish
+        /// contrast on butter/dark paper — faint grey-on-cream is the #1
+        /// readability killer, so secondary text stays firmly legible.
+        static let inkSoft  = dyn(light: UIColor(r: 0.102, g: 0.153, b: 0.267, a: 0.68),
+                                  dark:  UIColor(r: 0.925, g: 0.906, b: 0.839, a: 0.74))
         /// Faint ink tint for hairlines and disabled states.
-        static let inkHair  = Color(red: 0.102, green: 0.153, blue: 0.267).opacity(0.18)
-        /// Slightly deeper butter for pressed/selected fills on yellow.
-        static let butterDeep = Color(red: 0.929, green: 0.875, blue: 0.741) // #EDDFBD
+        static let inkHair  = dyn(light: UIColor(r: 0.102, g: 0.153, b: 0.267, a: 0.22),
+                                  dark:  UIColor(r: 0.925, g: 0.906, b: 0.839, a: 0.26))
+        /// Slightly deeper butter for pressed/selected fills.
+        static let butterDeep = dyn(light: UIColor(r: 0.984, g: 0.945, b: 0.776),
+                                    dark:  UIColor(r: 0.180, g: 0.212, b: 0.314))
+
+        // MARK: Page paper presets (used by PageBackground)
+
+        /// Default light "paper" tint (Light Yellow theme).
+        static let paperYellow = Color(red: 0.996, green: 0.973, blue: 0.851) // #FEF8D9
+        /// Light Grey theme paper.
+        static let paperGrey   = Color(red: 0.961, green: 0.961, blue: 0.961) // #F5F5F5
+        /// Dark-mode page paper (independent of the light tint choice).
+        static let paperDark   = Color(red: 0.086, green: 0.102, blue: 0.149) // #161A26
+    }
+
+    /// Build a Color that resolves differently in light vs. dark interface styles.
+    fileprivate static func dyn(light: UIColor, dark: UIColor) -> Color {
+        Color(uiColor: UIColor { $0.userInterfaceStyle == .dark ? dark : light })
     }
 
     // MARK: Typography
@@ -88,6 +120,14 @@ struct Theme {
     }
 }
 
+// MARK: - UIColor shorthand (used by the dynamic palette)
+
+extension UIColor {
+    convenience init(r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat = 1) {
+        self.init(red: r, green: g, blue: b, alpha: a)
+    }
+}
+
 // MARK: - Color hex helper (kept from previous Settings code)
 
 extension Color {
@@ -131,8 +171,25 @@ extension Color {
 // MARK: - Page background
 
 struct PageBackground: View {
-    var color: Color = Theme.Palette.butter
+    @Environment(\.colorScheme) private var scheme
+    // Read the user's paper-tint choice directly so every PageBackground in
+    // the app reacts to Settings changes without threading `settings` through.
+    @AppStorage("selectedTheme") private var selectedTheme: Int = 0
+    @AppStorage("customThemeColor") private var customThemeColor: String = "FFFFFF"
+
+    /// Optional explicit override (rarely needed).
+    var color: Color? = nil
+
+    private var lightPaper: Color {
+        switch selectedTheme {
+        case 1:  return Theme.Palette.paperGrey
+        case 2:  return Color(hex: customThemeColor)
+        default: return Theme.Palette.paperYellow
+        }
+    }
+
     var body: some View {
-        color.ignoresSafeArea()
+        let resolved = color ?? (scheme == .dark ? Theme.Palette.paperDark : lightPaper)
+        resolved.ignoresSafeArea()
     }
 }

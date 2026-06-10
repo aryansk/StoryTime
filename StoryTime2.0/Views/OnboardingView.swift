@@ -98,12 +98,12 @@ private struct WelcomeStep: View {
             }
 
             VStack(spacing: 12) {
-                Text("Step inside the stories you love.")
+                Text("What would you have done in your favorite movie?")
                     .font(Theme.Fonts.title())
                     .foregroundColor(Theme.Palette.ink)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 24)
-                Text("Choose-your-own-adventure tales after the latest movies and shows. A fresh handful, every week.")
+                Text("100+ hand-authored stories from the movies, shows, and books everyone has opinions about. Play alone, pass-and-play with a friend, or write your own.")
                     .font(Theme.Fonts.body(15))
                     .foregroundColor(Theme.Palette.inkSoft)
                     .multilineTextAlignment(.center)
