@@ -92,7 +92,12 @@ struct SketchCard<Content: View>: View {
         self.stroke = stroke
         self.corner = corner
         self.padding = padding
-        self.seed = seed ?? CGFloat.random(in: 0...1000)
+        // A *stable* default seed. Previously this was `CGFloat.random`, so
+        // any card left unseeded re-rolled its wobble on every body
+        // re-evaluation, making borders visibly shimmer when unrelated
+        // state changed (and defeating shape caching). Callers that want
+        // distinct wobble still pass their own content-derived seed.
+        self.seed = seed ?? 7
         self.content = content()
     }
 
@@ -137,6 +142,7 @@ struct SketchButton: View {
             }
             .padding(.horizontal, 22)
             .padding(.vertical, 14)
+            .frame(minHeight: 48)
             .frame(maxWidth: fullWidth ? .infinity : nil)
             .background(
                 WobblyRect(jitter: 0.5, corner: 6, seed: 1.5)
@@ -184,7 +190,10 @@ struct SketchPill: View {
     let action: () -> Void
 
     var body: some View {
-        Button(action: action) {
+        Button(action: {
+            UISelectionFeedbackGenerator().selectionChanged()
+            action()
+        }) {
             HStack(spacing: 6) {
                 if let d = doodle {
                     DoodleIcon(d, size: 14, color: Theme.Palette.ink)
@@ -194,17 +203,20 @@ struct SketchPill: View {
                     .foregroundColor(Theme.Palette.ink)
             }
             .padding(.horizontal, 14)
-            .padding(.vertical, 8)
+            .padding(.vertical, 10)
+            .frame(minHeight: 44)
             .background(
-                WobblyRect(jitter: 0.4, corner: 14, seed: CGFloat(title.hashValue % 100))
+                WobblyRect(jitter: 0.4, corner: 14, seed: CGFloat(title.stableSeed(100)))
                     .fill(selected ? Theme.Palette.butterDeep : Color.clear)
             )
             .overlay(
-                WobblyRect(jitter: 0.4, corner: 14, seed: CGFloat(title.hashValue % 100))
+                WobblyRect(jitter: 0.4, corner: 14, seed: CGFloat(title.stableSeed(100)))
                     .stroke(Theme.Palette.ink, lineWidth: selected ? Theme.Stroke.bold : Theme.Stroke.line)
             )
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(title)
+        .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
     }
 }
 
@@ -220,7 +232,7 @@ struct SketchBadge: View {
             .padding(.horizontal, 8)
             .padding(.vertical, 4)
             .overlay(
-                WobblyRect(jitter: 0.3, corner: 4, seed: CGFloat(text.hashValue % 100))
+                WobblyRect(jitter: 0.3, corner: 4, seed: CGFloat(text.stableSeed(100)))
                     .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.hair)
             )
     }
@@ -245,6 +257,10 @@ struct StarRating: View {
                     .jitter(amplitude: 0.4)
             }
         }
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(loved
+            ? "Rated \(rating) out of 5 stars, loved"
+            : "Rated \(rating) out of 5 stars")
     }
 }
 
@@ -253,10 +269,12 @@ struct StarRating: View {
 struct SketchSectionHeader: View {
     let title: String
     var trailing: AnyView? = nil
+    var horizontalInset: CGFloat = 24
 
-    init(_ title: String, trailing: AnyView? = nil) {
+    init(_ title: String, trailing: AnyView? = nil, horizontalInset: CGFloat = 24) {
         self.title = title
         self.trailing = trailing
+        self.horizontalInset = horizontalInset
     }
 
     var body: some View {
@@ -267,35 +285,54 @@ struct SketchSectionHeader: View {
             Spacer()
             if let trailing { trailing }
         }
-        .padding(.horizontal, 24)
+        .padding(.horizontal, horizontalInset)
     }
 }
 
 // MARK: Jitter modifier — stop-motion micro-animation
+//
+// Driven by TimelineView rather than a raw Timer: the previous version
+// scheduled a repeating Timer in `onAppear` that was never stored and
+// never invalidated, so every jittered view leaked a timer that kept
+// firing (and redrawing) forever — one more per re-appearance. TimelineView
+// ties the cadence to the view's lifetime and pauses automatically when the
+// view is offscreen. Also honors Reduce Motion.
 
 struct JitterModifier: ViewModifier {
     var active: Bool = true
     var amplitude: CGFloat = 0.6
-    @State private var frame: Int = 0
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    // Set on hidden tabs so their (opacity-0 but still live) jitter animations
+    // stop redrawing behind the visible tab. See ContentView.tabContent.
+    @Environment(\.stJitterPaused) private var paused
 
     func body(content: Content) -> some View {
-        content
-            .offset(x: active ? offsetX : 0, y: active ? offsetY : 0)
-            .onAppear {
-                guard active else { return }
-                Timer.scheduledTimer(withTimeInterval: 0.12, repeats: true) { _ in
-                    frame &+= 1
-                }
+        if active && !reduceMotion && !paused {
+            TimelineView(.animation(minimumInterval: 0.12, paused: false)) { context in
+                let frame = context.date.timeIntervalSinceReferenceDate / 0.12
+                content
+                    .offset(x: sin(CGFloat(frame) * 1.3) * amplitude,
+                            y: cos(CGFloat(frame) * 1.7) * amplitude)
             }
+        } else {
+            content
+        }
     }
+}
 
-    private var offsetX: CGFloat {
-        let s = sin(CGFloat(frame) * 1.3) * amplitude
-        return s
-    }
-    private var offsetY: CGFloat {
-        let s = cos(CGFloat(frame) * 1.7) * amplitude
-        return s
+// MARK: Jitter-pause environment
+//
+// A cheap way to freeze every stop-motion animation inside a subtree without
+// threading state through each view. Hidden tabs set this true.
+
+private struct JitterPausedKey: EnvironmentKey {
+    static let defaultValue = false
+}
+
+extension EnvironmentValues {
+    var stJitterPaused: Bool {
+        get { self[JitterPausedKey.self] }
+        set { self[JitterPausedKey.self] = newValue }
     }
 }
 
@@ -321,6 +358,18 @@ struct SketchTextField: View {
                 .font(Theme.Fonts.body(16))
                 .foregroundColor(Theme.Palette.ink)
                 .tint(Theme.Palette.ink)
+            if !text.isEmpty {
+                Button {
+                    text = ""
+                } label: {
+                    DoodleIcon(.xmark, size: 15, color: Theme.Palette.inkSoft)
+                        .padding(4)
+                        .contentShape(Rectangle())
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("Clear text")
+                .transition(.opacity)
+            }
         }
         .padding(.horizontal, 14)
         .padding(.vertical, 14)
@@ -330,6 +379,49 @@ struct SketchTextField: View {
         )
         .overlay(
             WobblyRect(jitter: 0.4, corner: 6, seed: 2.0)
+                .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
+        )
+    }
+}
+
+/// Key/password field that keeps the sketch vocabulary without exposing
+/// sensitive text on screen or in screenshots.
+struct SketchSecureField: View {
+    let placeholder: String
+    @Binding var text: String
+    @State private var revealsText = false
+
+    var body: some View {
+        HStack(spacing: 10) {
+            DoodleIcon(.shield, size: 18, color: Theme.Palette.inkSoft)
+            Group {
+                if revealsText {
+                    TextField(placeholder, text: $text)
+                } else {
+                    SecureField(placeholder, text: $text)
+                }
+            }
+            .font(Theme.Fonts.body(16))
+            .foregroundColor(Theme.Palette.ink)
+            .tint(Theme.Palette.ink)
+
+            Button {
+                revealsText.toggle()
+            } label: {
+                DoodleIcon(.focus,
+                           size: 15,
+                           color: Theme.Palette.inkSoft)
+                    .frame(width: 32, height: 32)
+                    .contentShape(Rectangle())
+            }
+            .buttonStyle(.plain)
+            .accessibilityLabel(revealsText ? "Hide key" : "Reveal key")
+        }
+        .padding(.horizontal, 14)
+        .padding(.vertical, 10)
+        .frame(minHeight: 48)
+        .overlay(
+            WobblyRect(jitter: 0.4, corner: 6, seed: 2.4)
                 .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
         )
     }
@@ -370,12 +462,17 @@ struct DoodleButton: View {
     let action: () -> Void
 
     var body: some View {
-        Button(action: action) {
+        Button(action: {
+            UIImpactFeedbackGenerator(style: .light).impactOccurred()
+            action()
+        }) {
             DoodleIcon(doodle, size: size, color: Theme.Palette.ink)
-                .padding(8)
+                .frame(width: 44, height: 44)
                 .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
-        .accessibilityLabel(label ?? "")
+        // Fall back to a humanized version of the doodle name so an
+        // icon-only button is never unlabeled to VoiceOver.
+        .accessibilityLabel(label ?? doodle.rawValue)
     }
 }

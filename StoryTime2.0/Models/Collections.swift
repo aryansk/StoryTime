@@ -38,6 +38,13 @@ enum StoryCollections {
     /// Master list, displayed left-to-right in the catalog "Collections" row.
     static let all: [StoryCollection] = [
         StoryCollection(
+            id: "night-shelf",
+            title: "The Night Shelf",
+            subtitle: "First-party after-midnight originals",
+            doodle: "sparkle",
+            rule: .predicate { $0.tags.contains("night-shelf") }
+        ),
+        StoryCollection(
             id: "quick",
             title: "Quick Reads",
             subtitle: "Five-minute stories",

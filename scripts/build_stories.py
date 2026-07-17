@@ -26,10 +26,40 @@ An ending scene has no "choices" and an "end" key holding the ending title:
     {"id": "good", "title": "...", "text": "...", "end": "The Ending Title"}
 """
 import json
+import hashlib
 import sys
 from pathlib import Path
 
 CATALOG = Path(__file__).resolve().parent.parent / "StoryTime2.0" / "Resources" / "Catalog"
+
+
+def polished_consequence(raw, choice, story_id, scene_id, choice_index):
+    """Turn terse authoring labels into immersive consequence beats.
+
+    The compact specs intentionally use tags such as ``Brave.`` and
+    ``Honest.`` because those labels also feed Choice DNA. They worked as
+    metadata, but felt abrupt and repetitive in the reader. We retain the
+    exact label for personality matching while wrapping it in varied prose.
+    Longer hand-written consequences pass through untouched.
+    """
+    label = (raw or "").strip().rstrip(".!?")
+    if not label:
+        return raw
+    if len(label.split()) > 2 or len(label) > 36:
+        return raw
+
+    key = f"{story_id}:{scene_id}:{choice_index}:{choice}".encode()
+    variant = int(hashlib.sha256(key).hexdigest()[:8], 16) % 6
+    safe_choice = choice.strip().rstrip(".!?")
+    beats = [
+        f"You commit to “{safe_choice}.” The story records the instinct as “{label}” and carries it forward.",
+        f"“{safe_choice}” closes one possibility and opens another. The moment leaves a clear note behind: {label}.",
+        f"The decision settles the question for now. Its verdict—{label}—follows you into whatever comes next.",
+        f"There is no taking “{safe_choice}” back. {label} shapes the silence before the next moment arrives.",
+        f"You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: {label}.",
+        f"The choice lands, and the scene changes around it. If it has a name, that name is {label}.",
+    ]
+    return beats[variant]
 
 
 def story(meta, scenes):
@@ -38,10 +68,16 @@ def story(meta, scenes):
     nodes = []
     for s in scenes:
         choices = []
-        for label, consequence, target in s.get("choices", []):
+        for choice_index, (label, consequence, target) in enumerate(s.get("choices", [])):
             if target not in node_ids:
                 raise ValueError(f"{meta['id']}: choice in {s['id']} -> missing node {target!r}")
-            choices.append({"text": label, "consequence": consequence, "nextNodeId": target})
+            choices.append({
+                "text": label,
+                "consequence": polished_consequence(
+                    consequence, label, meta["id"], s["id"], choice_index
+                ),
+                "nextNodeId": target,
+            })
         is_ending = "end" in s and not choices
         nodes.append({
             "id": s["id"],
@@ -118,6 +154,10 @@ def build(specs, check=False):
     entries = kept + [index_entry(s) for s in built]
     entries.sort(key=lambda e: e["addedAt"], reverse=True)
     index["stories"] = entries
+    # CatalogService compares this value before downloading remote deltas.
+    # Deriving it from the entries prevents a stale timestamp from hiding
+    # newly authored stories.
+    index["updatedAt"] = max(e["addedAt"] for e in entries)
 
     if check:
         print(f"OK (dry run): {len(built)} stories built, index would hold {len(entries)} entries")

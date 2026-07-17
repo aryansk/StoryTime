@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.dataset.theme = (function(){ try { return localStorage.getItem("st-theme") || "light"; } catch(e) { return "light"; } })();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StoryTime — Every choice writes a new story.</title>
+<meta name="description" content="StoryTime is an immersive reading app with 176 branching stories, 550 endings, focus mode, reading goals, and optional story creation. For iPhone and Android." />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  header.hero {
+    position: relative;
+    min-height: 100vh;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    text-align: center;
+    overflow: hidden;
+  }
+  #hero-canvas { position: absolute; inset: 0; z-index: 0; }
+  .hero-content { position: relative; z-index: 1; padding: 0 24px; pointer-events: none; }
+  .hero-content a { pointer-events: auto; }
+  .hero-eyebrow {
+    font-size: 14px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase;
+    background: linear-gradient(90deg, var(--accent3), var(--accent), var(--accent2));
+    -webkit-background-clip: text; background-clip: text; color: transparent;
+    margin-bottom: 18px;
+  }
+  h1.hero-title {
+    font-size: clamp(48px, 9vw, 104px);
+    font-weight: 700; letter-spacing: -0.035em; line-height: 1.02;
+  }
+  .hero-sub {
+    margin: 26px auto 0;
+    max-width: 580px;
+    font-size: clamp(18px, 2.4vw, 24px);
+    line-height: 1.4; font-weight: 400; color: var(--text-dim);
+  }
+  .hero-ctas { margin-top: 38px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .hero-scroll-hint {
+    position: absolute; bottom: 34px; left: 50%; transform: translateX(-50%);
+    z-index: 1; color: var(--text-dim); font-size: 12px; letter-spacing: .14em; text-transform: uppercase;
+    animation: floaty 2.6s ease-in-out infinite;
+  }
+  @keyframes floaty { 0%,100% { transform: translate(-50%, 0); } 50% { transform: translate(-50%, 8px); } }
+
+  #showcase { padding: 0; height: 160vh; }
+  .showcase-sticky {
+    position: sticky; top: 0; height: 100vh; overflow: hidden;
+    display: flex; align-items: center; justify-content: center;
+  }
+  #showcase-canvas { position: absolute; inset: 0; }
+  .showcase-copy { position: relative; z-index: 1; text-align: center; padding: 0 24px; pointer-events: none; }
+  .showcase-copy h2 { margin: 0 auto; }
+</style>
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">📖 StoryTime</a>
+    <div class="nav-links">
+      <a href="/features">Features</a>
+      <a href="/stories">Stories</a>
+      <a href="/ai">StoryTime AI</a>
+      <a href="/download">Download</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="/download">Get the App</a>
+      <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="/features">Features</a>
+  <a href="/stories">Stories</a>
+  <a href="/ai">StoryTime AI</a>
+  <a href="/download">Download</a>
+</div>
+
+<header class="hero">
+  <div id="hero-canvas" style="display:flex; align-items:center; justify-content:center; opacity:0.15">
+    <img src="/hero_doodle.svg" alt="" style="max-width: 800px; width: 100%;" />
+  </div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Introducing StoryTime</div>
+    <h1 class="hero-title">Every choice<br /><span class="grad-text">writes a new story.</span></h1>
+    <p class="hero-sub">176 interactive stories. 550 endings. A focused, beautifully typeset reading experience designed for iPhone and Android.</p>
+    <div class="hero-ctas">
+      <a class="btn btn-primary" href="/download"> Download for iOS</a>
+      <a class="btn btn-secondary" href="/stories">Browse the stories</a>
+    </div>
+  </div>
+  <div class="hero-scroll-hint">Scroll ↓</div>
+</header>
+
+<section id="features">
+  <div class="section-inner">
+    <div class="section-label reveal">Features</div>
+    <h2 class="reveal">A library that <span class="dim">listens to you.</span></h2>
+    <p class="section-sub reveal">Hand-crafted interactive stories, personalized nightly picks, and thoughtful tools that keep the story—not the interface—at the center.</p>
+
+    <div class="bento">
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🌿</div>
+        <h3>Branching narratives</h3>
+        <p>Stories unfold based on your decisions. Every reader walks a different path through the same world — and no two journeys end the same way.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">✨</div>
+        <h3>Create your own</h3>
+        <p>Write a personal branching story by hand, or optionally generate one with your own securely stored Anthropic API key.</p>
+      </div>
+      <div class="card span-2 reveal tilt"><div class="glow"></div>
+        <div class="icon">🏆</div>
+        <h3>Endings tracker</h3>
+        <p>Collect every ending. See which paths you've conquered and which secrets remain.</p>
+      </div>
+      <div class="card span-2 reveal tilt"><div class="glow"></div>
+        <div class="icon">🎧</div>
+        <h3>Living ambience</h3>
+        <p>Soundscapes that shift with the scene — rain, fire, wind, wonder.</p>
+      </div>
+      <div class="card span-2 reveal tilt"><div class="glow"></div>
+        <div class="icon">🗂️</div>
+        <h3>Smart library</h3>
+        <p>Favorites, curated mood collections, automatic progress, and search across titles, genres, synopses, and tags.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">♿️</div>
+        <h3>Accessible by design</h3>
+        <p>VoiceOver support, Dynamic Type, Reduce Motion, adjustable typography, focus mode, and legible light and dark palettes.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">📱</div>
+        <h3>iPhone and Android</h3>
+        <p>Built natively for both worlds — SwiftUI on iOS, Jetpack Compose on Android. Fast, fluid, and at home on your device.</p>
+      </div>
+    </div>
+
+    <div class="stats reveal">
+      <div class="stat"><div class="num" data-count="176">0</div><div class="lbl">Interactive stories</div></div>
+      <div class="stat"><div class="num" data-count="550">0</div><div class="lbl">Unique endings</div></div>
+      <div class="stat"><div class="num" data-count="7">0</div><div class="lbl">Genres to explore</div></div>
+      <div class="stat"><div class="num" data-count="100" data-suffix="%">0</div><div class="lbl">Choice-driven</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="showcase">
+  <div class="showcase-sticky">
+    <div id="showcase-canvas" style="display:flex; align-items:center; justify-content:center;">
+      <img src="/features_doodle.svg" alt="" style="width: 100%; height: 100%; object-fit: cover;" />
+    </div>
+    <div class="showcase-copy">
+      <div class="section-label">The Experience</div>
+      <h2>Stories with <span class="grad-text">gravity.</span></h2>
+      <p class="section-sub" style="margin-left:auto;margin-right:auto;">Keep scrolling — watch the pages turn.</p>
+    </div>
+  </div>
+</section>
+
+<section id="modes">
+  <div class="section-inner">
+    <div class="section-label reveal">Reading Modes</div>
+    <h2 class="reveal">Read your way. <span class="dim">Day or night.</span></h2>
+    <p class="section-sub reveal">Four beautiful reading themes, custom fonts, and adjustable type — tuned for long sessions and late nights.</p>
+    <div class="modes">
+      <div class="mode mode-night reveal"><h3>Night</h3><p>Deep blacks and soft contrast for reading after dark.</p></div>
+      <div class="mode mode-sepia reveal"><h3>Sepia</h3><p>Warm, paper-like tones that are easy on the eyes.</p></div>
+      <div class="mode mode-paper reveal"><h3>Paper</h3><p>Crisp and bright, like a freshly printed page.</p></div>
+      <div class="mode mode-custom reveal"><h3>Custom</h3><p>Your colors, your fonts, your story.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="explore-pages">
+  <div class="section-inner">
+    <div class="section-label reveal">Go Deeper</div>
+    <h2 class="reveal">Explore <span class="dim">StoryTime.</span></h2>
+    <div class="explore">
+      <a class="reveal" href="/features">
+        <h3>🧭 Features</h3>
+        <p>The full tour — library, reading experience, ambience, endings, and accessibility.</p>
+        <span class="go">See all features →</span>
+      </a>
+      <a class="reveal" href="/stories">
+        <h3>📚 The Stories</h3>
+        <p>Browse the catalog of hand-crafted adventures — and play one right in your browser.</p>
+        <span class="go">Browse stories →</span>
+      </a>
+      <a class="reveal" href="/ai">
+        <h3>✨ StoryTime AI</h3>
+        <p>How an idea becomes a fully branching, validated story in seconds.</p>
+        <span class="go">See how it works →</span>
+      </a>
+      <a class="reveal" href="/download">
+        <h3>⬇️ Download</h3>
+        <p>Get StoryTime for iPhone or Android, and answers to common questions.</p>
+        <span class="go">Get the app →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band" id="download-cta">
+  <div class="section-label reveal">Get StoryTime</div>
+  <h2 class="reveal">Your next adventure<br /><span class="grad-text">is one choice away.</span></h2>
+  <div class="ctas reveal">
+    <a class="btn btn-primary" href="/download"> App Store</a>
+    <a class="btn btn-secondary" href="/download">▶ Google Play</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">📖 StoryTime</div>
+        <p class="footer-tag">An immersive story app where branching narratives, multiple endings, and thoughtful reader tools meet beautiful typography.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="/features">Features</a>
+        <a href="/stories">Stories</a>
+        <a href="/ai">StoryTime AI</a>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <a href="/download">iPhone (iOS 18.2+)</a>
+        <a href="/download">Android</a>
+        <a href="/download">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 StoryTime. Every choice writes a new story.</div>
+      <div>Made with SwiftUI &amp; Jetpack Compose</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+
+</body>
+</html>

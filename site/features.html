@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.dataset.theme = (function(){ try { return localStorage.getItem("st-theme") || "light"; } catch(e) { return "light"; } })();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Features — StoryTime</title>
+<meta name="description" content="Everything inside StoryTime: branching narratives, personalized discovery, focus mode, reading goals, progress, achievements, narration, and accessibility built in." />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  /* Library mock */
+  .lib-mock { width: 100%; max-width: 380px; }
+  .lib-row {
+    display: flex; align-items: center; gap: 14px;
+    background: var(--fill-1);
+    border: 1px solid var(--line);
+    border-radius: 16px; padding: 14px 16px; margin-bottom: 12px;
+    transition: transform .3s, border-color .3s;
+  }
+  .lib-row:hover { transform: translateX(6px); border-color: rgba(160,124,255,.4); }
+  .lib-cover {
+    width: 44px; height: 58px; border-radius: 8px; flex: none;
+    background: linear-gradient(150deg, var(--c1), var(--c2));
+  }
+  .lib-row .t { font-size: 15px; font-weight: 600; }
+  .lib-row .s { font-size: 12px; color: var(--text-dim); margin-top: 3px; }
+  .lib-row .pct { margin-left: auto; font-size: 12px; color: var(--accent); font-weight: 600; }
+
+  /* Branch diagram */
+  .branch-svg .node { fill: var(--svg-node-fill); stroke: var(--svg-node-stroke); }
+  .branch-svg .node.you { fill: url(#bgrad); stroke: none; }
+  .branch-svg .edge { stroke: var(--svg-line); stroke-width: 1.5; fill: none; }
+  .branch-svg .edge.lit { stroke: url(#egrad); stroke-width: 2.5; }
+  .branch-svg text { font-family: inherit; font-size: 11px; fill: var(--text-dim); }
+</style>
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">📖 StoryTime</a>
+    <div class="nav-links">
+      <a href="/features" aria-current="page">Features</a>
+      <a href="/stories">Stories</a>
+      <a href="/ai">StoryTime AI</a>
+      <a href="/download">Download</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="/download">Get the App</a>
+      <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="/features">Features</a>
+  <a href="/stories">Stories</a>
+  <a href="/ai">StoryTime AI</a>
+  <a href="/download">Download</a>
+</div>
+
+<header class="page-hero">
+  <canvas class="dust"></canvas>
+  <img src="/features_doodle.svg" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; pointer-events:none;" alt="" />
+  <div class="inner">
+    <div class="section-label">Features</div>
+    <h1 class="page-title">Built for readers<br /><span class="grad-text">who can't sit still.</span></h1>
+    <p class="section-sub">Every part of StoryTime is designed around one idea: a story should respond to you. Here's the full tour.</p>
+  </div>
+</header>
+
+<section style="padding-top: 30px;">
+  <div class="section-inner">
+
+    <div class="split reveal">
+      <div>
+        <div class="section-label">Interactive Reading</div>
+        <h3>Stories that branch like real decisions.</h3>
+        <p class="body">Every scene ends in a choice, and every choice opens a different door. Paths split, cross back, and split again — some endings take three choices to reach, some take thirteen.</p>
+        <ul>
+          <li><b>Branching narratives</b> — hand-built story graphs, not linear chapters.</li>
+          <li><b>Multiple endings</b> — triumphant, tragic, secret, and everything between.</li>
+          <li><b>Character relationships</b> — who you charm or cross changes what's possible later.</li>
+        </ul>
+      </div>
+      <div class="visual">
+        <svg class="branch-svg" viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg" aria-label="Branching story diagram">
+          <defs>
+            <linearGradient id="bgrad" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#a07cff"/><stop offset="1" stop-color="#ff7ad9"/>
+            </linearGradient>
+            <linearGradient id="egrad" x1="0" y1="0" x2="1" y2="0">
+              <stop offset="0" stop-color="#6ec1ff"/><stop offset="1" stop-color="#a07cff"/>
+            </linearGradient>
+          </defs>
+          <path class="edge lit" d="M180 40 C 120 80, 110 100, 100 130"/>
+          <path class="edge" d="M180 40 C 240 80, 250 100, 260 130"/>
+          <path class="edge lit" d="M100 130 C 90 160, 100 180, 130 210"/>
+          <path class="edge" d="M100 130 C 70 170, 60 190, 60 220"/>
+          <path class="edge" d="M260 130 C 270 170, 280 190, 290 220"/>
+          <path class="edge" d="M260 130 C 230 170, 215 190, 205 215"/>
+          <circle class="node you" cx="180" cy="40" r="16"/>
+          <circle class="node" cx="100" cy="130" r="12"/>
+          <circle class="node" cx="260" cy="130" r="12"/>
+          <circle class="node you" cx="130" cy="210" r="13"/>
+          <circle class="node" cx="60" cy="220" r="10"/>
+          <circle class="node" cx="290" cy="220" r="10"/>
+          <circle class="node" cx="205" cy="215" r="10"/>
+          <text x="206" y="44">You are here</text>
+          <text x="118" y="245">Your path</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="split flip reveal">
+      <div class="visual">
+        <div class="lib-mock">
+          <div class="lib-row"><div class="lib-cover" style="--c1:#6ec1ff;--c2:#a07cff;"></div><div><div class="t">The Recording</div><div class="s">Thriller · 43 min</div></div><div class="pct">72%</div></div>
+          <div class="lib-row"><div class="lib-cover" style="--c1:#ff7ad9;--c2:#ffd97a;"></div><div><div class="t">The Beach Ball</div><div class="s">Comedy · 35 min</div></div><div class="pct">100%</div></div>
+          <div class="lib-row"><div class="lib-cover" style="--c1:#7affc1;--c2:#6ec1ff;"></div><div><div class="t">The Small Lord</div><div class="s">Fantasy · 52 min</div></div><div class="pct">12%</div></div>
+          <div class="lib-row"><div class="lib-cover" style="--c1:#a07cff;--c2:#ff7ad9;"></div><div><div class="t">Perfect</div><div class="s">Thriller · 47 min</div></div><div class="pct">New</div></div>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">Library</div>
+        <h3>A library that organizes itself.</h3>
+        <p class="body">Save favorites, return to automatic checkpoints, and explore curator-built collections by mood, format, length, and genre.</p>
+        <ul>
+          <li><b>Curated collections</b> — quick, cozy, tense, epic, classic, and more.</li>
+          <li><b>Search that finds things</b> — titles, genres, synopses, formats, and tags.</li>
+          <li><b>Reading progress</b> — automatic checkpoints, percentages, stats, goals, and achievements.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="split reveal">
+      <div>
+        <div class="section-label">Ambience</div>
+        <h3>Soundscapes that follow the scene.</h3>
+        <p class="body">Optional genre ambience can sit beneath a scene while built-in narration reads it aloud. Both are easy to pause, tune, or leave completely off.</p>
+        <ul>
+          <li><b>Genre ambience</b> — subtle loops matched to each story's mood.</li>
+          <li><b>Built-in narration</b> — adjustable speech rate with pause and resume.</li>
+          <li><b>One tap off</b> — silence is always an option.</li>
+        </ul>
+      </div>
+      <div class="visual">
+        <div class="amb-bars" aria-hidden="true">
+          <span style="--h:55%;animation-delay:0s"></span>
+          <span style="--h:85%;animation-delay:.15s"></span>
+          <span style="--h:65%;animation-delay:.3s"></span>
+          <span style="--h:95%;animation-delay:.45s"></span>
+          <span style="--h:50%;animation-delay:.6s"></span>
+          <span style="--h:80%;animation-delay:.75s"></span>
+          <span style="--h:60%;animation-delay:.9s"></span>
+          <span style="--h:90%;animation-delay:1.05s"></span>
+          <span style="--h:45%;animation-delay:1.2s"></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="split flip reveal">
+      <div class="visual">
+        <div class="rings">
+          <div class="ring">
+            <svg width="110" height="110" viewBox="0 0 110 110">
+              <circle class="track" cx="55" cy="55" r="46" fill="none" stroke-width="9"/>
+              <circle class="arc" cx="55" cy="55" r="46" fill="none" stroke="#6ec1ff" stroke-width="9"
+                stroke-dasharray="289" stroke-dashoffset="86" data-ring="0.7"/>
+            </svg>
+            <div class="lbl">The Recording<br/>7 / 10 endings</div>
+          </div>
+          <div class="ring">
+            <svg width="110" height="110" viewBox="0 0 110 110">
+              <circle class="track" cx="55" cy="55" r="46" fill="none" stroke-width="9"/>
+              <circle class="arc" cx="55" cy="55" r="46" fill="none" stroke="#a07cff" stroke-width="9"
+                stroke-dasharray="289" stroke-dashoffset="0" data-ring="1"/>
+            </svg>
+            <div class="lbl">The Beach Ball<br/>All 8 found ✦</div>
+          </div>
+          <div class="ring">
+            <svg width="110" height="110" viewBox="0 0 110 110">
+              <circle class="track" cx="55" cy="55" r="46" fill="none" stroke-width="9"/>
+              <circle class="arc" cx="55" cy="55" r="46" fill="none" stroke="#ff7ad9" stroke-width="9"
+                stroke-dasharray="289" stroke-dashoffset="217" data-ring="0.25"/>
+            </svg>
+            <div class="lbl">The Small Lord<br/>3 / 12 endings</div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div class="section-label">Endings Tracker</div>
+        <h3>Collect every way it can end.</h3>
+        <p class="body">Each story shows you how many endings exist — and how many you've found. Finished paths light up; the rest stay teasingly dark until you earn them.</p>
+        <ul>
+          <li><b>Per-story progress rings</b> — see your completion at a glance.</li>
+          <li><b>Secret endings</b> — some only appear after specific chains of choices.</li>
+          <li><b>Achievements</b> — for the completionists who must find them all.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="reading-modes" style="padding-top: 20px;">
+  <div class="section-inner">
+    <div class="section-label reveal">Reading Modes</div>
+    <h2 class="reveal">Try the reading modes <span class="dim">right here.</span></h2>
+    <p class="section-sub reveal">Tap a theme. The app also includes Dynamic Type, adjustable fonts and spacing, focus mode, and Reduce Motion support.</p>
+
+    <div class="mode-demo reveal">
+      <div class="mode-tabs" role="tablist">
+        <button class="mode-tab active" data-mode="night" role="tab">🌙 Night</button>
+        <button class="mode-tab" data-mode="sepia" role="tab">🕯️ Sepia</button>
+        <button class="mode-tab" data-mode="paper" role="tab">📄 Paper</button>
+        <button class="mode-tab" data-mode="custom" role="tab">🎨 Custom</button>
+      </div>
+      <div class="mode-stage" id="mode-stage">
+        <h4>The Letter</h4>
+        <p>The membership secretary reads your letter twice. The signature is good. The letterhead is better. "Mrs. Donahue vouches for you?" she asks, and the ceiling fan ticks off the seconds while she waits.</p>
+        <span class="demo-choice-pill">→ Insist, warmly, that you're old friends</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 0;">
+  <div class="section-inner">
+    <div class="section-label reveal">Accessibility</div>
+    <h2 class="reveal">Great stories <span class="dim">belong to everyone.</span></h2>
+    <div class="bento">
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🗣️</div>
+        <h3>VoiceOver, fully supported</h3>
+        <p>Every scene, choice, and menu is labeled and navigable. The whole story works by ear.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🔠</div>
+        <h3>Dynamic Type &amp; custom fonts</h3>
+        <p>Text scales to your system size, and you can swap typefaces for comfort or dyslexia-friendly reading.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🌗</div>
+        <h3>High contrast modes</h3>
+        <p>Ink and paper colors stay deliberately legible in both light and dark appearances.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🛡️</div>
+        <h3>Age-appropriate filtering</h3>
+        <p>Content controls let families decide which genres and intensity levels are on the shelf.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="section-label reveal">Get StoryTime</div>
+  <h2 class="reveal">See it all <span class="grad-text">in your hands.</span></h2>
+  <div class="ctas reveal">
+    <a class="btn btn-primary" href="/download">Download StoryTime</a>
+    <a class="btn btn-secondary" href="/stories">Browse the stories</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">📖 StoryTime</div>
+        <p class="footer-tag">An immersive story app where branching narratives, multiple endings, and thoughtful reader tools meet beautiful typography.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="/features">Features</a>
+        <a href="/stories">Stories</a>
+        <a href="/ai">StoryTime AI</a>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <a href="/download">iPhone (iOS 18.2+)</a>
+        <a href="/download">Android</a>
+        <a href="/download">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 StoryTime. Every choice writes a new story.</div>
+      <div>Made with SwiftUI &amp; Jetpack Compose</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+<script>
+/* Reading-mode demo */
+document.addEventListener('DOMContentLoaded', () => {
+  const stage = document.getElementById('mode-stage');
+  const themes = {
+    night:  { bg: 'linear-gradient(160deg, #11131c, #1b1e30)', fg: '#dfe4ff', dim: '#9aa3c7' },
+    sepia:  { bg: 'linear-gradient(160deg, #f4e8d4, #e8d5b5)', fg: '#4a3b27', dim: '#7a674c' },
+    paper:  { bg: 'linear-gradient(160deg, #f7f7f9, #e9e9ee)', fg: '#1d1d1f', dim: '#5d5d63' },
+    custom: { bg: 'linear-gradient(160deg, #2a1640, #461d5e)', fg: '#f0e4ff', dim: '#bda3dd' },
+  };
+  function apply(name) {
+    const t = themes[name];
+    stage.style.background = t.bg;
+    stage.querySelector('h4').style.color = t.fg;
+    stage.querySelector('p').style.color = t.fg;
+    stage.querySelector('.demo-choice-pill').style.color = t.dim;
+  }
+  apply('night');
+  document.querySelectorAll('.mode-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.mode-tab').forEach(x => x.classList.remove('active'));
+      tab.classList.add('active');
+      apply(tab.dataset.mode);
+    });
+  });
+
+  /* Endings rings animate in */
+  const ro = new IntersectionObserver((es) => {
+    es.forEach(e => {
+      if (!e.isIntersecting) return;
+      ro.unobserve(e.target);
+      const arc = e.target;
+      const frac = parseFloat(arc.dataset.ring);
+      const C = 289;
+      const final = C * (1 - frac);
+      arc.style.strokeDashoffset = C;
+      requestAnimationFrame(() => requestAnimationFrame(() => { arc.style.strokeDashoffset = final; }));
+    });
+  }, { threshold: 0.5 });
+  document.querySelectorAll('.ring .arc').forEach(a => ro.observe(a));
+});
+</script>
+</body>
+</html>

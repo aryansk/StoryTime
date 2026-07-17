@@ -18,15 +18,17 @@ struct ContentView: View {
     @StateObject private var choiceDNA = ChoiceDNAStore()
     @StateObject private var ambience = AmbienceService()
     @StateObject private var personalStore = PersonalStoriesStore()
-    @State private var showingSignUp = true
     @State private var selectedTab: Tab = ContentView.initialTab()
+    /// Story the user chose from the onboarding payoff screen; presented
+    /// as soon as the onboarding cover has finished dismissing.
+    @State private var onboardingStoryToStart: CatalogStory?
 
     private static func initialTab() -> Tab {
         #if DEBUG
         let args = ProcessInfo.processInfo.arguments
         if let idx = args.firstIndex(of: "-startTab"), idx + 1 < args.count {
             switch args[idx + 1] {
-            case "shows": return .shows
+            case "shows", "discover": return .discover
             case "library": return .library
             case "profile": return .profile
             case "settings": return .settings
@@ -34,10 +36,10 @@ struct ContentView: View {
             }
         }
         #endif
-        return .shows
+        return .discover
     }
 
-    enum Tab: Hashable { case shows, library, profile, settings }
+    enum Tab: Hashable { case discover, library, profile, settings }
 
     /// Recompute and re-install the daily-story notification, picking a
     /// fresh "tonight's story" using the latest catalog and progress.
@@ -95,29 +97,74 @@ struct ContentView: View {
         )
     }
 
+    /// Keeps a tab's view in the hierarchy while hiding the inactive ones,
+    /// so their state survives tab switches.
+    @ViewBuilder
+    private func tabContent<V: View>(_ tab: Tab, @ViewBuilder _ content: () -> V) -> some View {
+        content()
+            .opacity(selectedTab == tab ? 1 : 0)
+            .allowsHitTesting(selectedTab == tab)
+            .zIndex(selectedTab == tab ? 1 : 0)
+            // Freeze stop-motion jitter in the three hidden tabs so they
+            // aren't redrawing their doodle canvases behind the active one.
+            .environment(\.stJitterPaused, selectedTab != tab)
+    }
+
     var body: some View {
-        ZStack(alignment: .bottom) {
+        ZStack {
             PageBackground()
 
-            Group {
-                switch selectedTab {
-                case .shows:
-                    CatalogShowsView(catalog: catalog, settings: settings)
-                case .library:
-                    LibraryView(catalog: catalog, settings: settings)
-                case .profile:
-                    ProfileView(userModel: userModel)
-                case .settings:
-                    SettingsView(settings: settings)
+            // All four tabs stay mounted; we toggle visibility rather than
+            // rebuild. This preserves each tab's NavigationStack, scroll
+            // position, search text and filter selections across switches
+            // (the old `switch` recreated the whole view every time).
+            ZStack {
+                tabContent(.discover) {
+                    CatalogShowsView(catalog: catalog, settings: settings, userModel: userModel)
+                }
+                tabContent(.library) { LibraryView(catalog: catalog, settings: settings) }
+                tabContent(.profile) { ProfileView(userModel: userModel, settings: settings) }
+                tabContent(.settings) { SettingsView(settings: settings) }
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            // Float the tab bar over the content while letting each tab's
+            // ScrollView extend underneath it — content scrolls edge-to-edge
+            // and the last row still clears the bar.
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                SketchTabBar(selected: $selectedTab)
+            }
+        }
+        // First-run onboarding. A full-screen cover (not a sheet) so the
+        // first impression has no grabber and can't be swiped away half-done.
+        .fullScreenCover(isPresented: Binding(
+            get: { !userModel.onboardingCompleted },
+            set: { presented in if !presented { userModel.onboardingCompleted = true } }
+        )) {
+            OnboardingView(userModel: userModel, catalog: catalog) { story in
+                guard let story else { return }
+                // Let the onboarding cover finish dismissing before
+                // presenting the story cover, or the second presentation
+                // is silently dropped.
+                DispatchQueue.main.asyncAfter(deadline: .now() + 0.6) {
+                    onboardingStoryToStart = story
                 }
             }
-            .padding(.bottom, 84)   // leave room for the tab bar
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-
-            SketchTabBar(selected: $selectedTab)
         }
-        .sheet(isPresented: .constant(userModel.isFirstLaunch)) {
-            OnboardingView(userModel: userModel, isPresented: $showingSignUp)
+        // The story chosen on the onboarding payoff screen.
+        .fullScreenCover(item: $onboardingStoryToStart) { story in
+            NavigationStack {
+                StoryStartView(story: story, settings: settings)
+            }
+            .environmentObject(progressStore)
+            .environmentObject(speechService)
+            .environmentObject(favoritesStore)
+            .environmentObject(statsStore)
+            .environmentObject(notificationService)
+            .environmentObject(catalog)
+            .environmentObject(endingsTracker)
+            .environmentObject(choiceDNA)
+            .environmentObject(ambience)
+            .environmentObject(personalStore)
         }
         .environmentObject(progressStore)
         .environmentObject(speechService)
@@ -174,7 +221,7 @@ struct SketchTabBar: View {
 
     var body: some View {
         HStack(spacing: 0) {
-            tab(.shows, label: "Shows", doodle: .clapperboard)
+            tab(.discover, label: "Discover", doodle: .clapperboard)
             tab(.library, label: "Library", doodle: .books)
             tab(.profile, label: "Profile", doodle: .person)
             tab(.settings, label: "Settings", doodle: .gear)
@@ -215,13 +262,15 @@ struct SketchTabBar: View {
                 Group {
                     if active {
                         WobblyRect(jitter: 0.3, corner: 8,
-                                    seed: CGFloat(label.hashValue % 100))
+                                    seed: CGFloat(label.stableSeed(100)))
                             .fill(Theme.Palette.butterDeep)
                     }
                 }
             )
         }
         .buttonStyle(.plain)
+        .accessibilityLabel(label)
+        .accessibilityAddTraits(active ? [.isButton, .isSelected] : .isButton)
     }
 }
 

@@ -71,43 +71,48 @@ struct Theme {
         static let bodyFamily    = "SourceSerif4-Regular"
         static let bodyItalicFamily = "SourceSerif4-Italic"
 
-        static func heading(_ size: CGFloat) -> Font {
+        // Each preset scales with the user's Dynamic Type setting by anchoring
+        // the custom font to a matching system text style via `relativeTo:`.
+        // System fallbacks keep their fixed size, which only applies before
+        // the bundled fonts register.
+
+        static func heading(_ size: CGFloat, relativeTo textStyle: Font.TextStyle = .title2) -> Font {
             if UIFont(name: headingFamily, size: size) != nil {
-                return .custom(headingFamily, size: size)
+                return .custom(headingFamily, size: size, relativeTo: textStyle)
             }
             return .system(size: size, weight: .black, design: .rounded)
         }
 
-        static func headingMedium(_ size: CGFloat) -> Font {
+        static func headingMedium(_ size: CGFloat, relativeTo textStyle: Font.TextStyle = .subheadline) -> Font {
             if UIFont(name: headingMediumFamily, size: size) != nil {
-                return .custom(headingMediumFamily, size: size)
+                return .custom(headingMediumFamily, size: size, relativeTo: textStyle)
             }
             return .system(size: size, weight: .semibold, design: .rounded)
         }
 
-        static func body(_ size: CGFloat) -> Font {
+        static func body(_ size: CGFloat, relativeTo textStyle: Font.TextStyle = .body) -> Font {
             if UIFont(name: bodyFamily, size: size) != nil {
-                return .custom(bodyFamily, size: size)
+                return .custom(bodyFamily, size: size, relativeTo: textStyle)
             }
             return .system(size: size, weight: .regular, design: .serif)
         }
 
-        static func bodyItalic(_ size: CGFloat) -> Font {
+        static func bodyItalic(_ size: CGFloat, relativeTo textStyle: Font.TextStyle = .body) -> Font {
             if UIFont(name: bodyItalicFamily, size: size) != nil {
-                return .custom(bodyItalicFamily, size: size)
+                return .custom(bodyItalicFamily, size: size, relativeTo: textStyle)
             }
             return .system(size: size, weight: .regular, design: .serif).italic()
         }
 
         // Semantic presets
-        static func display() -> Font   { heading(42) }
-        static func title() -> Font     { heading(30) }
-        static func sectionHeader() -> Font { heading(20) }
-        static func cardTitle() -> Font { heading(18) }
-        static func label() -> Font     { headingMedium(13) }
-        static func bodyText() -> Font  { body(17) }
-        static func small() -> Font     { body(14) }
-        static func meta() -> Font      { headingMedium(11) }
+        static func display() -> Font   { heading(42, relativeTo: .largeTitle) }
+        static func title() -> Font     { heading(30, relativeTo: .title) }
+        static func sectionHeader() -> Font { heading(20, relativeTo: .title3) }
+        static func cardTitle() -> Font { heading(18, relativeTo: .headline) }
+        static func label() -> Font     { headingMedium(13, relativeTo: .subheadline) }
+        static func bodyText() -> Font  { body(17, relativeTo: .body) }
+        static func small() -> Font     { body(14, relativeTo: .footnote) }
+        static func meta() -> Font      { headingMedium(11, relativeTo: .caption) }
     }
 
     // MARK: Stroke widths
@@ -125,6 +130,22 @@ struct Theme {
 extension UIColor {
     convenience init(r: CGFloat, g: CGFloat, b: CGFloat, a: CGFloat = 1) {
         self.init(red: r, green: g, blue: b, alpha: a)
+    }
+}
+
+// MARK: - Stable string seed
+//
+// Swift's `String.hashValue` is randomized per process launch, so any
+// wobble seed derived from it re-rolls every cold start — the hand-drawn
+// borders that are meant to be a stable per-item fingerprint would shift
+// each launch. This deterministic FNV-1a-style hash keeps them fixed.
+
+extension String {
+    func stableSeed(_ modulo: Int) -> Int {
+        var h: UInt64 = 5381
+        for byte in utf8 { h = (h &* 33) ^ UInt64(byte) }
+        guard modulo > 0 else { return 0 }
+        return Int(h % UInt64(modulo))
     }
 }
 

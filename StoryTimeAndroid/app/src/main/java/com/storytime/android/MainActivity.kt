@@ -5,17 +5,14 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
-import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Add
-import androidx.compose.material.icons.filled.Book
-import androidx.compose.material.icons.filled.Home
-import androidx.compose.material.icons.filled.Person
-import androidx.compose.material.icons.filled.Settings
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.graphics.ColorFilter
+import androidx.compose.ui.unit.dp
 import androidx.navigation.NavDestination.Companion.hierarchy
 import androidx.navigation.NavGraph.Companion.findStartDestination
 import androidx.navigation.NavType
@@ -37,6 +34,7 @@ import com.storytime.android.ui.StoryReaderScreen
 import com.storytime.android.ui.StoryStartScreen
 import com.storytime.android.ui.theme.LocalStPalette
 import com.storytime.android.ui.theme.StoryTimeTheme
+import com.storytime.android.ui.theme.DoodleIcon
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -48,15 +46,19 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-private data class TabSpec(val route: String, val label: String, val icon: androidx.compose.ui.graphics.vector.ImageVector)
+private data class TabSpec(val route: String, val label: String, val doodle: String)
 
 private val tabs = listOf(
-    TabSpec("catalog", "Stories",  Icons.Filled.Home),
-    TabSpec("library", "Library",  Icons.Filled.Book),
-    TabSpec("create",  "Create",   Icons.Filled.Add),
-    TabSpec("profile", "Profile",  Icons.Filled.Person),
-    TabSpec("settings","Settings", Icons.Filled.Settings),
+    TabSpec("catalog", "Discover", "clapperboard"),
+    TabSpec("library", "Library",  "bookmark"),
+    TabSpec("create",  "Create",   "plus"),
+    TabSpec("profile", "Profile",  "person"),
+    TabSpec("settings","Settings", "gear"),
 )
+
+// Precomputed once so the tab-visibility check isn't allocating a list on
+// every recomposition of Root().
+private val tabRoutes: Set<String> = tabs.map { it.route }.toSet()
 
 @Composable
 private fun Root() {
@@ -73,7 +75,7 @@ private fun Root() {
 
     val backStack by nav.currentBackStackEntryAsState()
     val currentRoute = backStack?.destination?.route
-    val showTabs = currentRoute in tabs.map { it.route }
+    val showTabs = currentRoute in tabRoutes
 
     Scaffold(
         containerColor = palette.paper,
@@ -90,8 +92,21 @@ private fun Root() {
                                 restoreState = true
                             }
                         },
-                        icon = { androidx.compose.material3.Icon(tab.icon, contentDescription = tab.label) },
+                        icon = {
+                            DoodleIcon(
+                                tab.doodle,
+                                modifier = Modifier.size(24.dp),
+                                tint = ColorFilter.tint(if (selected) palette.ink else palette.inkSoft),
+                            )
+                        },
                         label = { Text(tab.label) },
+                        colors = NavigationBarItemDefaults.colors(
+                            selectedIconColor = palette.ink,
+                            unselectedIconColor = palette.inkSoft,
+                            selectedTextColor = palette.ink,
+                            unselectedTextColor = palette.inkSoft,
+                            indicatorColor = Color.Transparent,
+                        ),
                     )
                 }
             }

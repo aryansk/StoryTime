@@ -11,8 +11,6 @@ final class GameState: ObservableObject {
 
     @Published var story: CatalogStory?
     @Published private(set) var currentNode: StoryNode?
-    @Published var showingConsequence: Bool = false
-    @Published var consequenceText: String = ""
     @Published private(set) var history: [String] = []   // node ids visited
 
     /// Per-step record of (decision node id, chosen choice index, choice text,
@@ -67,21 +65,6 @@ final class GameState: ObservableObject {
         companionTurn = (companionTurn + 1) % 2
     }
 
-    func choose(_ choice: StoryChoice) {
-        consequenceText = choice.consequence
-        showingConsequence = true
-        statsStore?.recordChoice()
-
-        // Step to next node after a beat (caller can also drive this).
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1.8) { [weak self] in
-            guard let self else { return }
-            self.showingConsequence = false
-            if let next = choice.nextNodeId {
-                self.load(nodeId: next)
-            }
-        }
-    }
-
     /// Immediate transition without consequence beat. Caller passes the
     /// originating decision data so we can populate the choice log.
     func jump(to nodeId: String,
@@ -117,10 +100,19 @@ final class GameState: ObservableObject {
             history.append(nodeId)
         }
         statsStore?.recordSceneVisit()
-        progressStore?.save(storyKey: story.storageKey,
-                            title: story.title,
-                            description: story.synopsis,
-                            nodeId: nodeId,
-                            sceneTitle: node.sceneTitle)
+        // A finished story shouldn't linger in "Continue Reading" and
+        // shouldn't resume straight onto its ending screen. Clear the saved
+        // position when we reach an ending; otherwise checkpoint here.
+        if node.isEnding {
+            progressStore?.clear(storyKey: story.storageKey)
+            statsStore?.recordStoryCompleted(story.storageKey)
+        } else {
+            progressStore?.save(storyKey: story.storageKey,
+                                title: story.title,
+                                description: story.synopsis,
+                                nodeId: nodeId,
+                                sceneTitle: node.sceneTitle,
+                                fraction: story.progressFraction(at: nodeId))
+        }
     }
 }

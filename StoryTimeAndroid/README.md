@@ -3,7 +3,7 @@
 Kotlin + Jetpack Compose port of the iOS StoryTime 2.0 app — single-module Android project that mirrors the iOS feature set.
 
 ## What works
-- **Catalog** with search, genre filter, curated **collections** row (with hand-drawn doodle icons in the chips), "new this week" badge, star / loved indicators, and a "Continue reading" strip.
+- **Discover catalog** with broad search, genre filters, curated **collections**, a personalized deterministic **Tonight's Pick**, "new this week" badges, and a "Continue reading" strip.
 - **Story reader** with choice graph traversal, history back-stack, typewriter mode, ambience playback (no-op until you drop tracks in `res/raw/`), pass-and-play companion mode, ▶ Listen button (Android TTS), share-this-ending image card, and **saga chain** that offers "Continue the saga →" when the story has a `nextStoryId`.
 - **Persistence**: reading progress, endings tracker, favorites, choice DNA tally, reading stats (streaks / scenes / choices / stories), personal AI-generated stories, narration rate.
 - **Library tab** — In Progress / Favorites / Finished.
@@ -27,10 +27,10 @@ Kotlin + Jetpack Compose port of the iOS StoryTime 2.0 app — single-module And
   - `notify/` — `ReminderReceiver`, `ReminderScheduler`, `BootReceiver`, and a `Permissions.kt` helper for `POST_NOTIFICATIONS` + `SCHEDULE_EXACT_ALARM`.
   - `share/EndingShare.kt` — canvas-rendered ending card + share intent via `FileProvider`.
   - `ui/` — `CatalogScreen`, `StoryStartScreen`, `StoryReaderScreen`, `LibraryScreen`, `SettingsScreen`, `ProfileScreen`, `OnboardingScreen`, `CreateStoryScreen`, `EndingsGridScreen`, `LegalPages`, `theme/`.
-- `app/src/main/assets/Catalog/` — 175 story JSON files + index, shared verbatim with iOS.
+- `app/src/main/assets/Catalog/` — 176 story JSON files + index, shared verbatim with iOS.
 
-## Still skipped (not on the user's roadmap)
-- CI workflow, automated tests, release signing config — out of scope for this port.
+## Release notes
+CI and release signing are repository-owner concerns. Before publishing, configure a private signing key, add the store metadata, and run the debug build below on the supported Android versions.
 
 ## Build
 Requires Android Studio Hedgehog+ (AGP 8.5, Kotlin 1.9.24, JDK 17). The Gradle wrapper jar is **not** committed — open in Android Studio once and it'll generate the wrapper, or run `gradle wrapper` from a local Gradle install.

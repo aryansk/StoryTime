@@ -1,0 +1,188 @@
+{
+  "id": "night-last-ferry",
+  "title": "Last Call at the Ferry",
+  "sourceTitle": "Last Call at the Ferry",
+  "kind": "book",
+  "synopsis": "A night ferry no schedule lists runs only when you've reached a crossroads. For a single crossing, it carries you toward the life you didn't choose — if you're willing to remember it afterward.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "roads-not-taken"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You did not mean to end up at the water. But here is a ferry no timetable lists, lamps lit, ramp down, and a deckhand who nods like she has been expecting you for years. \"One crossing,\" she says. \"It'll show you the life you turned down, the fork you didn't take. You can ride over and look. Or you can ride back.\"",
+      "sceneTitle": "The 11:59 Crossing",
+      "choices": [
+        {
+          "text": "Board and look",
+          "consequence": "There is no taking “Board and look” back. Brave shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_deck"
+        },
+        {
+          "text": "Ask what the crossing costs",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "nextNodeId": "s_cost"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_cost",
+      "text": "The deckhand considers you kindly. \"The fare isn't money. The fare is that you'll remember — clearly, permanently, the whole other life. Most people find that's a heavier thing to carry than the not-knowing was.\" The horn sounds, low and patient, across the black water.",
+      "sceneTitle": "The Fare",
+      "choices": [
+        {
+          "text": "Pay it, and board",
+          "consequence": "You commit to “Pay it, and board.” The story records the instinct as “Brave” and carries it forward.",
+          "nextNodeId": "s_deck"
+        },
+        {
+          "text": "Step back onto the dock",
+          "consequence": "You commit to “Step back onto the dock.” The story records the instinct as “Honest” and carries it forward.",
+          "nextNodeId": "end_dock"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_deck",
+      "text": "The crossing is short and impossibly smooth. On the far bank, lights: a house you never bought, a street you never moved to, and a figure on the porch who is unmistakably you — laughing at something, in the life that branched off the day you chose otherwise.",
+      "sceneTitle": "The Other Shore",
+      "choices": [
+        {
+          "text": "Go ashore and meet them",
+          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "nextNodeId": "s_meet"
+        },
+        {
+          "text": "Watch from the rail without landing",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "nextNodeId": "s_rail"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_meet",
+      "text": "The other you makes tea without asking, the way you would. They are kind, and tired, and entirely real — not happier than you, not sadder, simply other. A whole coherent life stands behind them, load-bearing and lived-in, built out of the single word you did not say all those years ago.",
+      "sceneTitle": "The Life You Didn't Live",
+      "choices": [
+        {
+          "text": "Ask if they regret it",
+          "consequence": "There is no taking “Ask if they regret it” back. Honest shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_regret"
+        },
+        {
+          "text": "Say goodbye and choose your own",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Free.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_rail",
+      "text": "You stay at the rail and let the far shore come only as close as the water allows. It is enough. The figure on the porch lifts a hand — you cannot tell if it is a wave or just the wind — and you find, to your surprise, that not going ashore does not hurt the way you always feared it would.",
+      "sceneTitle": "From the Rail",
+      "choices": [
+        {
+          "text": "Ride on to the ferry's farthest stop",
+          "consequence": "You commit to “Ride on to the ferry's farthest stop.” The story records the instinct as “Curious” and carries it forward.",
+          "nextNodeId": "s_far"
+        },
+        {
+          "text": "Ask the deckhand to turn the boat around",
+          "consequence": "There is no taking “Ask the deckhand to turn the boat around” back. Wise shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_regret",
+      "text": "The other you turns the cup in their hands. \"Some nights,\" they admit. \"Then I make tea and it passes. You?\" And there it is — the question you crossed a whole dark river to ask someone else, handed gently back, the way it was always going to be yours to answer.",
+      "sceneTitle": "The Only Honest Answer",
+      "choices": [
+        {
+          "text": "Trade places, and stay",
+          "consequence": "The decision settles the question for now. Its verdict—Longing—follows you into whatever comes next.",
+          "nextNodeId": "end_swap"
+        },
+        {
+          "text": "Keep your life, and carry the answer home",
+          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_far",
+      "text": "The ferry does not turn back. It carries on past shore after shore — lives you never even imagined choosing, each one lit and full and belonging to some other version of you. At the farthest stop the deckhand steps aside from the wheel and, without a word, offers it to you.",
+      "sceneTitle": "The Farthest Stop",
+      "choices": [
+        {
+          "text": "Take the wheel and ferry others",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Devoted.",
+          "nextNodeId": "end_ferryman"
+        },
+        {
+          "text": "Ask, simply, to be taken home",
+          "consequence": "You commit to “Ask, simply, to be taken home.” The story records the instinct as “Honest” and carries it forward.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_dock",
+      "text": "You do not board. The ferry pulls away without you and the water closes over its wake, and you walk home not-knowing, the way you came. You will always wonder about the other shore. But wondering, you decide, is its own kind of quiet company, and lighter to carry than remembering.",
+      "sceneTitle": "You Stay on the Dock",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "You Stay on the Dock"
+    },
+    {
+      "id": "end_return",
+      "text": "You ride the ferry home to the life that is actually yours — the ordinary, unfinished, load-bearing one — and you step onto your own dock changed only slightly, and only for the better. You will love it a little more deliberately now, having seen, up close, that the other shore was never the point.",
+      "sceneTitle": "The Crossing Back",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Crossing Back"
+    },
+    {
+      "id": "end_swap",
+      "text": "You trade. You take up the house you never bought, the street you never moved to, the answer you finally have. Whether it is better is a question that stops mattering the moment you stop asking it. You make tea in a kitchen that is now, by every measure, yours.",
+      "sceneTitle": "The Life on the Other Shore",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Life on the Other Shore"
+    },
+    {
+      "id": "end_ferryman",
+      "text": "You take the wheel. Now it is you who waits at the water for the ones who wander down to it at midnight, unmoored, standing at a fork they cannot see the far side of. One crossing, you tell them, in your own gentle voice. You can ride over and look. Or you can ride back.",
+      "sceneTitle": "Last Call, Every Night",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Last Call, Every Night"
+    }
+  ]
+}

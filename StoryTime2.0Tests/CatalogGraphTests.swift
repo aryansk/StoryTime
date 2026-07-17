@@ -71,6 +71,40 @@ struct CatalogGraphTests {
         }
     }
 
+    @Test func indexMetadataMatchesStoryPayloads() throws {
+        let index = try Self.loadIndex()
+        for entry in index.stories {
+            let story = try Self.loadStory(entry)
+            #expect(entry.title == story.title, "[\(entry.id)] title differs from index")
+            #expect(entry.sourceTitle == story.sourceTitle, "[\(entry.id)] sourceTitle differs from index")
+            #expect(entry.kind == story.kind, "[\(entry.id)] kind differs from index")
+            #expect(entry.synopsis == story.synopsis, "[\(entry.id)] synopsis differs from index")
+            #expect(entry.releaseYear == story.releaseYear, "[\(entry.id)] releaseYear differs from index")
+            #expect(entry.addedAt == story.addedAt, "[\(entry.id)] addedAt differs from index")
+            #expect(entry.genre == story.genre, "[\(entry.id)] genre differs from index")
+            #expect(entry.tags == story.tags, "[\(entry.id)] tags differ from index")
+            #expect(entry.rating == story.rating, "[\(entry.id)] rating differs from index")
+            #expect(entry.loved == story.loved, "[\(entry.id)] loved differs from index")
+            #expect(entry.nextStoryId == story.nextStoryId, "[\(entry.id)] saga link differs from index")
+        }
+    }
+
+    @Test func consequencesMeetReadabilityFloor() throws {
+        let index = try Self.loadIndex()
+        for entry in index.stories {
+            let story = try Self.loadStory(entry)
+            for node in story.nodes {
+                for choice in node.choices {
+                    let words = choice.consequence.split {
+                        !$0.isLetter && !$0.isNumber && $0 != "'" && $0 != "’"
+                    }
+                    #expect(words.count >= 3,
+                            "[\(story.id)/\(node.id)] consequence is too abrupt: \(choice.consequence)")
+                }
+            }
+        }
+    }
+
     /// One pass of the shared validator over every story. Covers start
     /// node existence, dangling choice targets, endings with choices,
     /// dead-end decision nodes, reachability, and rating range — the same
@@ -103,13 +137,17 @@ struct StoryGraphValidatorTests {
     }
 
     private func decision(_ id: String, to targets: [String]) -> StoryNode {
-        StoryNode(id: id, text: "t", sceneTitle: nil,
-                  choices: targets.map { StoryChoice(text: "c", consequence: "q", nextNodeId: $0) },
+        StoryNode(id: id, text: "A complete scene.", sceneTitle: "Scene \(id)",
+                  choices: targets.enumerated().map { index, target in
+                      StoryChoice(text: "Choice \(index + 1)",
+                                  consequence: "The path changes here.",
+                                  nextNodeId: target)
+                  },
                   isEnding: false, endingTitle: nil)
     }
 
     private func ending(_ id: String, choices: [StoryChoice] = []) -> StoryNode {
-        StoryNode(id: id, text: "t", sceneTitle: nil, choices: choices,
+        StoryNode(id: id, text: "A complete ending.", sceneTitle: "Scene \(id)", choices: choices,
                   isEnding: true, endingTitle: "End")
     }
 

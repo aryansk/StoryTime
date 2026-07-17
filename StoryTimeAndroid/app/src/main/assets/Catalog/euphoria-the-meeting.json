@@ -29,7 +29,7 @@
         },
         {
           "text": "Step outside for one minute",
-          "consequence": "Reset.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reset.",
           "nextNodeId": "s3"
         }
       ],
@@ -43,12 +43,12 @@
       "choices": [
         {
           "text": "Agree to talk",
-          "consequence": "Practice.",
+          "consequence": "You commit to “Agree to talk.” The story records the instinct as “Practice” and carries it forward.",
           "nextNodeId": "s4"
         },
         {
           "text": "Say 'maybe' and see how the hour goes",
-          "consequence": "Triage.",
+          "consequence": "The decision settles the question for now. Its verdict—Triage—follows you into whatever comes next.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Go back inside steadily",
-          "consequence": "Trust him.",
+          "consequence": "The decision settles the question for now. Its verdict—Trust him—follows you into whatever comes next.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stay outside for the meeting",
-          "consequence": "Slow.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Slow.",
           "nextNodeId": "s5"
         }
       ],
@@ -86,7 +86,7 @@
         },
         {
           "text": "Slip out quickly",
-          "consequence": "Save energy.",
+          "consequence": "There is no taking “Slip out quickly” back. Save energy shapes the silence before the next moment arrives.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Talk to Lexi first",
-          "consequence": "Easier first.",
+          "consequence": "You commit to “Talk to Lexi first.” The story records the instinct as “Easier first” and carries it forward.",
           "nextNodeId": "s6"
         },
         {
           "text": "Talk to both sisters at once",
-          "consequence": "Be brave.",
+          "consequence": "You commit to “Talk to both sisters at once.” The story records the instinct as “Be brave” and carries it forward.",
           "nextNodeId": "s7"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Tell Cassie you're glad she's sober",
-          "consequence": "Generous.",
+          "consequence": "You commit to “Tell Cassie you're glad she's sober.” The story records the instinct as “Generous” and carries it forward.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell Lexi you're glad she's here too",
-          "consequence": "Equal.",
+          "consequence": "You commit to “Tell Lexi you're glad she's here too.” The story records the instinct as “Equal” and carries it forward.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Tell Fez about the meeting",
-          "consequence": "Trust him.",
+          "consequence": "“Tell Fez about the meeting” closes one possibility and opens another. The moment leaves a clear note behind: Trust him.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay quiet at work and write later",
-          "consequence": "Compartmentalize.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Compartmentalize.",
           "nextNodeId": "s9"
         }
       ],
@@ -162,7 +162,7 @@
         },
         {
           "text": "Start texting one line a day to Ali",
-          "consequence": "Accountability.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Accountability.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "See her",
-          "consequence": "Try.",
+          "consequence": "There is no taking “See her” back. Try shapes the silence before the next moment arrives.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait to see her until you've talked to Ali",
-          "consequence": "Discipline.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Tell her you love her plainly",
-          "consequence": "Plain.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Plain.",
           "nextNodeId": "s12"
         },
         {
           "text": "Cook her breakfast in return",
-          "consequence": "Action.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Action.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Take Gia somewhere fun on Saturday",
-          "consequence": "Show up.",
+          "consequence": "You commit to “Take Gia somewhere fun on Saturday.” The story records the instinct as “Show up” and carries it forward.",
           "nextNodeId": "s12"
         },
         {
           "text": "Apologize directly for the years",
-          "consequence": "Speak.",
+          "consequence": "“Apologize directly for the years” closes one possibility and opens another. The moment leaves a clear note behind: Speak.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Pin it on your fridge",
-          "consequence": "Visible.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Visible.",
           "nextNodeId": "s14"
         },
         {
           "text": "Carry it in your pocket every day",
-          "consequence": "Private.",
+          "consequence": "There is no taking “Carry it in your pocket every day” back. Private shapes the silence before the next moment arrives.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Accept the job",
-          "consequence": "Build.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Build.",
           "nextNodeId": "s14"
         },
         {
           "text": "Negotiate fewer hours so you can keep writing",
-          "consequence": "Balance.",
+          "consequence": "The decision settles the question for now. Its verdict—Balance—follows you into whatever comes next.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Take a photo for the year",
-          "consequence": "Mark it.",
+          "consequence": "The decision settles the question for now. Its verdict—Mark it—follows you into whatever comes next.",
           "nextNodeId": "s16"
         },
         {
           "text": "Just be there",
-          "consequence": "Be there.",
+          "consequence": "“Just be there” closes one possibility and opens another. The moment leaves a clear note behind: Be there.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Send the essay to Jules",
-          "consequence": "Share.",
+          "consequence": "“Send the essay to Jules” closes one possibility and opens another. The moment leaves a clear note behind: Share.",
           "nextNodeId": "s16"
         },
         {
           "text": "Send it to your sponsor",
-          "consequence": "Share.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Share.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Accept the letters as enough",
-          "consequence": "Mature.",
+          "consequence": "There is no taking “Accept the letters as enough” back. Mature shapes the silence before the next moment arrives.",
           "nextNodeId": "s18"
         },
         {
           "text": "Plan to visit her in a year, no pressure",
-          "consequence": "Patient.",
+          "consequence": "You commit to “Plan to visit her in a year, no pressure.” The story records the instinct as “Patient” and carries it forward.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Visit Ali in person next weekend",
-          "consequence": "Show up.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Show up.",
           "nextNodeId": "s18"
         },
         {
           "text": "Send him a long thank-you letter",
-          "consequence": "Letter.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Letter.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Stay in East Highland",
-          "consequence": "Place.",
+          "consequence": "“Stay in East Highland” closes one possibility and opens another. The moment leaves a clear note behind: Place.",
           "nextNodeId": "s20"
         },
         {
           "text": "Move; keep the meetings the same",
-          "consequence": "Travel.",
+          "consequence": "The decision settles the question for now. Its verdict—Travel—follows you into whatever comes next.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Keep building the small life",
-          "consequence": "Maintain.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Maintain.",
           "nextNodeId": "s20"
         },
         {
           "text": "Travel for the first time in your life",
-          "consequence": "Reward yourself.",
+          "consequence": "You commit to “Travel for the first time in your life.” The story records the instinct as “Reward yourself” and carries it forward.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Hold the chair in East Highland",
-          "consequence": "Steady.",
+          "consequence": "The decision settles the question for now. Its verdict—Steady—follows you into whatever comes next.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Take meetings on the road",
-          "consequence": "Mobile.",
+          "consequence": "“Take meetings on the road” closes one possibility and opens another. The moment leaves a clear note behind: Mobile.",
           "nextNodeId": "end_road"
         }
       ],

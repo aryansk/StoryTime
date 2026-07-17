@@ -23,6 +23,7 @@ enum DoodleName: String, CaseIterable {
     case bookmarkFill
     case heart
     case heartFill
+    case heartSlash
     case plus
     case xmark
     case search
@@ -48,6 +49,7 @@ enum DoodleName: String, CaseIterable {
     case scroll
     case chevronRightSmall
     case link
+    case focus
 }
 
 struct DoodleIcon: View {
@@ -73,20 +75,20 @@ struct DoodleIcon: View {
         Canvas { context, canvasSize in
             let scale = min(canvasSize.width, canvasSize.height) / 24.0
             var transform = CGAffineTransform(scaleX: scale, y: scale)
-            for stroke in DoodlePaths.paths(for: name) {
-                let cg = stroke.path.cgPath
+            for doodle in DoodlePaths.paths(for: name) {
+                let cg = doodle.path.cgPath
                 guard let scaledCG = cg.copy(using: &transform) else { continue }
                 let scaled = Path(scaledCG)
                 context.stroke(
                     scaled,
                     with: .color(color),
                     style: StrokeStyle(
-                        lineWidth: stroke.widthMultiplier * self.stroke,
+                        lineWidth: doodle.widthMultiplier * self.stroke,
                         lineCap: .round,
                         lineJoin: .round
                     )
                 )
-                if filled, stroke.closesShape {
+                if filled, doodle.closesShape {
                     context.fill(scaled, with: .color(color.opacity(0.15)))
                 }
             }
@@ -106,7 +108,24 @@ private struct DoodleStroke {
 
 private enum DoodlePaths {
 
+    /// All doodle geometry is deterministic, so build every icon's strokes
+    /// exactly once and reuse them. Without this, `DoodleIcon`'s Canvas
+    /// rebuilt fresh `UIBezierPath`s on every single draw pass — and, with
+    /// the jitter animation redrawing the whole screen, that was real work
+    /// repeated many times a second.
+    private static let cache: [DoodleName: [DoodleStroke]] = {
+        var dict: [DoodleName: [DoodleStroke]] = [:]
+        for name in DoodleName.allCases {
+            dict[name] = build(for: name)
+        }
+        return dict
+    }()
+
     static func paths(for name: DoodleName) -> [DoodleStroke] {
+        cache[name] ?? []
+    }
+
+    private static func build(for name: DoodleName) -> [DoodleStroke] {
         switch name {
         case .tv:            return tv()
         case .books:         return books()
@@ -120,6 +139,7 @@ private enum DoodlePaths {
         case .bookmarkFill:  return bookmark(filled: true)
         case .heart:         return heart(filled: false)
         case .heartFill:     return heart(filled: true)
+        case .heartSlash:    return heartSlash()
         case .plus:          return plus()
         case .xmark:         return xmark()
         case .search:        return search()
@@ -145,6 +165,7 @@ private enum DoodlePaths {
         case .scroll:        return scroll()
         case .chevronRightSmall: return chevron(left: false)
         case .link:          return link()
+        case .focus:         return focus()
         }
     }
 
@@ -362,6 +383,16 @@ private enum DoodlePaths {
             p.close()
         }
         return [DoodleStroke(path: p, widthMultiplier: 1.1, closesShape: filled)]
+    }
+
+    private static func heartSlash() -> [DoodleStroke] {
+        var strokes = heart(filled: false)
+        let slash = bezier { p in
+            p.move(to: CGPoint(x: 19, y: 5))
+            p.addLine(to: CGPoint(x: 5, y: 19))
+        }
+        strokes.append(DoodleStroke(path: slash, widthMultiplier: 1.1))
+        return strokes
     }
 
     private static func plus() -> [DoodleStroke] {
@@ -818,6 +849,27 @@ private enum DoodlePaths {
             p.addLine(to: CGPoint(x: 15, y: 12))
         }
         return [DoodleStroke(path: a), DoodleStroke(path: b), DoodleStroke(path: mid)]
+    }
+
+    private static func focus() -> [DoodleStroke] {
+        let eye = bezier { p in
+            p.move(to: CGPoint(x: 3.5, y: 12.2))
+            p.addCurve(to: CGPoint(x: 20.5, y: 11.8),
+                       controlPoint1: CGPoint(x: 8, y: 5.8),
+                       controlPoint2: CGPoint(x: 16, y: 5.8))
+            p.addCurve(to: CGPoint(x: 3.5, y: 12.2),
+                       controlPoint1: CGPoint(x: 16, y: 18.3),
+                       controlPoint2: CGPoint(x: 8, y: 18.1))
+            p.close()
+        }
+        let pupil = bezier { p in
+            p.addArc(withCenter: CGPoint(x: 12, y: 12),
+                     radius: 2.7,
+                     startAngle: 0,
+                     endAngle: .pi * 2,
+                     clockwise: true)
+        }
+        return [DoodleStroke(path: eye), DoodleStroke(path: pupil, widthMultiplier: 1.1)]
     }
 
     private static func bell() -> [DoodleStroke] {

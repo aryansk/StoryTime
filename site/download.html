@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.dataset.theme = (function(){ try { return localStorage.getItem("st-theme") || "light"; } catch(e) { return "light"; } })();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Download — StoryTime</title>
+<meta name="description" content="Get StoryTime for iPhone (iOS 18.2+) and Android. System requirements, FAQ, and everything you need to start your first branching story." />
+<link rel="stylesheet" href="/styles.css" />
+<style>
+  .req-grid { margin-top: 56px; display: grid; gap: 18px; grid-template-columns: 1fr 1fr; }
+  .req {
+    background: linear-gradient(180deg, var(--fill-1), var(--fill-2));
+    border: 1px solid var(--line);
+    border-radius: var(--radius); padding: 36px 32px;
+  }
+  .req h3 { font-size: 22px; font-weight: 600; margin-bottom: 18px; display: flex; align-items: center; gap: 10px; }
+  .req table { width: 100%; border-collapse: collapse; }
+  .req td { padding: 10px 0; font-size: 15px; border-bottom: 1px solid var(--line); }
+  .req td:first-child { color: var(--text-dim); width: 45%; }
+  .req tr:last-child td { border-bottom: 0; }
+  @media (max-width: 720px) { .req-grid { grid-template-columns: 1fr; } }
+
+  .store-badges { margin-top: 38px; display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+  .store-badge {
+    display: flex; align-items: center; gap: 12px; text-decoration: none;
+    background: var(--fill-3);
+    border: 1px solid var(--line-strong);
+    border-radius: 16px; padding: 12px 24px;
+    transition: transform .3s, border-color .3s, background .3s;
+  }
+  .store-badge:hover { transform: translateY(-3px); border-color: rgba(160,124,255,.5); background: var(--fill-hover); }
+  .store-badge .logo { font-size: 30px; }
+  .store-badge .small { font-size: 11px; color: var(--text-dim); }
+  .store-badge .big { font-size: 18px; font-weight: 600; letter-spacing: -0.01em; }
+</style>
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">📖 StoryTime</a>
+    <div class="nav-links">
+      <a href="/features">Features</a>
+      <a href="/stories">Stories</a>
+      <a href="/ai">StoryTime AI</a>
+      <a href="/download" aria-current="page">Download</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="/download">Get the App</a>
+      <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="/features">Features</a>
+  <a href="/stories">Stories</a>
+  <a href="/ai">StoryTime AI</a>
+  <a href="/download">Download</a>
+</div>
+
+<header class="page-hero">
+  <canvas class="dust"></canvas>
+  <div class="aurora" style="width:520px;height:520px;left:-140px;top:120px;background:#ff7ad9;"></div>
+  <div class="aurora" style="width:480px;height:480px;right:-120px;top:40px;background:#6ec1ff;"></div>
+  <div class="inner">
+    <div class="section-label">Download</div>
+    <h1 class="page-title">Your first choice:<br /><span class="grad-text">which pocket?</span></h1>
+    <p class="section-sub">StoryTime is built natively for both platforms — SwiftUI on iPhone, Jetpack Compose on Android. Same stories, same magic.</p>
+    <div class="store-badges">
+      <a class="store-badge" href="#" aria-label="Download on the App Store">
+        <span class="logo"></span>
+        <span><span class="small">Download on the</span><br /><span class="big">App Store</span></span>
+      </a>
+      <a class="store-badge" href="#" aria-label="Get it on Google Play">
+        <span class="logo">▶</span>
+        <span><span class="small">Get it on</span><br /><span class="big">Google Play</span></span>
+      </a>
+    </div>
+    <p style="margin-top: 22px; font-size: 13px; color: var(--text-dim);">Coming soon to both stores — links go live at launch.</p>
+  </div>
+</header>
+
+<section style="padding-top: 30px;">
+  <div class="section-inner">
+    <div class="section-label reveal">Requirements</div>
+    <h2 class="reveal">What you'll need.</h2>
+    <div class="req-grid">
+      <div class="req reveal">
+        <h3> iPhone</h3>
+        <table>
+          <tr><td>System</td><td>iOS 18.2 or later</td></tr>
+          <tr><td>Devices</td><td>64-bit, iPhone XS and newer</td></tr>
+          <tr><td>Memory</td><td>2 GB RAM minimum</td></tr>
+          <tr><td>Storage</td><td>100 MB free space</td></tr>
+          <tr><td>Built with</td><td>Swift 5.9 · SwiftUI</td></tr>
+        </table>
+      </div>
+      <div class="req reveal">
+        <h3>🤖 Android</h3>
+        <table>
+          <tr><td>System</td><td>Android 10 or later</td></tr>
+          <tr><td>Devices</td><td>64-bit ARM</td></tr>
+          <tr><td>Memory</td><td>2 GB RAM minimum</td></tr>
+          <tr><td>Storage</td><td>100 MB free space</td></tr>
+          <tr><td>Built with</td><td>Kotlin · Jetpack Compose</td></tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 20px;">
+  <div class="section-inner">
+    <div class="section-label reveal center" style="text-align:center;">Questions</div>
+    <h2 class="reveal" style="text-align:center; margin-left:auto; margin-right:auto;">Before you <span class="grad-text">turn the page.</span></h2>
+
+    <div class="faq reveal">
+      <div class="faq-item">
+        <button class="faq-q">Is StoryTime free?</button>
+        <div class="faq-a"><p>The core library is free to read, with a growing shelf of free stories every month. A StoryTime+ subscription unlocks the full catalog and unlimited AI story generation.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do stories work offline?</button>
+        <div class="faq-a"><p>Yes. Any story in your library is downloaded to your device — planes, trains, and dead zones are excellent places to make difficult choices.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">What are the stories based on?</button>
+        <div class="faq-a"><p>Catalog stories are original "step inside" continuations and what-ifs inspired by films and series — you play a new character in that world, not a retelling of the plot. AI stories are 100% yours, generated from your idea.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Is it suitable for kids?</button>
+        <div class="faq-a"><p>StoryTime has age-appropriate content controls. Parents can filter by genre and intensity, and AI-generated stories respect the same limits.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Does my progress sync between devices?</button>
+        <div class="faq-a"><p>Your reading progress, favorites, endings, and achievements are stored privately on the device you use. Cross-device sync is not currently available.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How long is a story?</button>
+        <div class="faq-a"><p>A single path usually takes 5–20 minutes. Longer stories reward replay, while Quick Reads fit into a short break.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="section-label reveal">Ready?</div>
+  <h2 class="reveal">Stop reading about it.<br /><span class="grad-text">Start choosing.</span></h2>
+  <div class="ctas reveal">
+    <a class="btn btn-primary" href="#"> App Store</a>
+    <a class="btn btn-secondary" href="#">▶ Google Play</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">📖 StoryTime</div>
+        <p class="footer-tag">An immersive story app where branching narratives, multiple endings, and thoughtful reader tools meet beautiful typography.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="/features">Features</a>
+        <a href="/stories">Stories</a>
+        <a href="/ai">StoryTime AI</a>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <a href="/download">iPhone (iOS 18.2+)</a>
+        <a href="/download">Android</a>
+        <a href="/download">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 StoryTime. Every choice writes a new story.</div>
+      <div>Made with SwiftUI &amp; Jetpack Compose</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+</body>
+</html>

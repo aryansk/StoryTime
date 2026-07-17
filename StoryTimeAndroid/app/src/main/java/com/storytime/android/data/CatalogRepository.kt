@@ -18,13 +18,34 @@ object CatalogRepository {
 
     private const val CATALOG_DIR = "Catalog"
 
-    suspend fun loadIndex(context: Context, includePersonal: Boolean = true): List<CatalogIndexEntry> = withContext(Dispatchers.IO) {
-        val text = context.assets.open("$CATALOG_DIR/index.json").bufferedReader().use { it.readText() }
-        val bundled = json.decodeFromString<CatalogIndex>(text).stories
-        if (!includePersonal) return@withContext bundled
+    /// Parsed bundled index, cached after the first read. The asset file
+    /// never changes at runtime, so re-reading and re-parsing it on every
+    /// navigation (each story open went through here) was pure waste.
+    @Volatile private var cachedBundled: List<CatalogIndexEntry>? = null
+
+    /// Parsed bundled stories, cached by asset path. Bundled assets are
+    /// immutable at runtime, so re-reading and re-decoding a story's JSON on
+    /// every open (and every saga-continue) was needless IO + parse work.
+    /// Bounded so we never hold the whole catalog resident. Personal stories
+    /// are never cached here — they change.
+    private val storyCache = android.util.LruCache<String, CatalogStory>(32)
+
+    private suspend fun bundledIndex(context: Context): List<CatalogIndexEntry> {
+        cachedBundled?.let { return it }
+        return withContext(Dispatchers.IO) {
+            val text = context.assets.open("$CATALOG_DIR/index.json").bufferedReader().use { it.readText() }
+            val parsed = json.decodeFromString<CatalogIndex>(text).stories
+            cachedBundled = parsed
+            parsed
+        }
+    }
+
+    suspend fun loadIndex(context: Context, includePersonal: Boolean = true): List<CatalogIndexEntry> {
+        val bundled = bundledIndex(context)
+        if (!includePersonal) return bundled
 
         val personal = runCatching { app.personal.stories.value }.getOrDefault(emptyList())
-        if (personal.isEmpty()) return@withContext bundled
+        if (personal.isEmpty()) return bundled
 
         val personalEntries = personal.map { s ->
             CatalogIndexEntry(
@@ -35,7 +56,7 @@ object CatalogRepository {
                 storyURL = "__personal__/${s.id}.json",
             )
         }
-        personalEntries + bundled
+        return personalEntries + bundled
     }
 
     suspend fun loadStory(context: Context, entry: CatalogIndexEntry): CatalogStory = withContext(Dispatchers.IO) {
@@ -44,8 +65,9 @@ object CatalogRepository {
                 ?: error("Personal story ${entry.id} not found")
         }
         val file = entry.storyURL ?: "${entry.id}.json"
+        storyCache.get(file)?.let { return@withContext it }
         val text = context.assets.open("$CATALOG_DIR/$file").bufferedReader().use { it.readText() }
-        json.decodeFromString<CatalogStory>(text)
+        json.decodeFromString<CatalogStory>(text).also { storyCache.put(file, it) }
     }
 
     suspend fun loadStoryById(context: Context, id: String): CatalogStory? = withContext(Dispatchers.IO) {

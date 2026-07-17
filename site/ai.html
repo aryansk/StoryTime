@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.dataset.theme = (function(){ try { return localStorage.getItem("st-theme") || "light"; } catch(e) { return "light"; } })();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>StoryTime AI — StoryTime</title>
+<meta name="description" content="Describe an idea and StoryTime's AI writes a complete branching story around it — scenes, choices, endings — then validates every path before you read." />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">📖 StoryTime</a>
+    <div class="nav-links">
+      <a href="/features">Features</a>
+      <a href="/stories">Stories</a>
+      <a href="/ai" aria-current="page">StoryTime AI</a>
+      <a href="/download">Download</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="/download">Get the App</a>
+      <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="/features">Features</a>
+  <a href="/stories">Stories</a>
+  <a href="/ai">StoryTime AI</a>
+  <a href="/download">Download</a>
+</div>
+
+<header class="page-hero">
+  <canvas class="dust"></canvas>
+  <div class="aurora" style="width:560px;height:560px;left:50%;top:-120px;transform:translateX(-50%);background:#a07cff;"></div>
+  <div class="inner">
+    <div class="section-label">StoryTime AI</div>
+    <h1 class="page-title">Type an idea.<br /><span class="grad-text">Read an adventure.</span></h1>
+    <p class="section-sub">StoryTime's AI doesn't write a page — it architects a world. Scenes, choices, consequences, and endings, woven into a graph and checked end to end before you take the first step.</p>
+  </div>
+</header>
+
+<section style="padding-top: 10px;">
+  <div class="section-inner">
+    <div class="section-label reveal center" style="text-align:center;">Watch It Think</div>
+    <h2 class="reveal" style="text-align:center; margin-left:auto; margin-right:auto;">From one sentence <span class="grad-text">to a story graph.</span></h2>
+    <p class="section-sub reveal" style="text-align:center; margin-left:auto; margin-right:auto;">Give it an idea — or borrow one — and watch the shape of a branching story appear.</p>
+
+    <div class="gen-shell reveal">
+      <div class="gen-row">
+        <input class="gen-input" id="gen-input" type="text" maxlength="90"
+          placeholder="A lighthouse keeper finds a door at the bottom of the sea…" />
+        <button class="btn btn-primary" id="gen-btn">✨ Generate</button>
+      </div>
+      <div class="gen-suggest">
+        <button data-idea="A detective who can interview the dead — once each.">🕯️ Detective who interviews the dead</button>
+        <button data-idea="The last library on Earth is hiring. You're the only applicant.">📚 The last library on Earth</button>
+        <button data-idea="Your houseplant has started leaving you notes.">🪴 The houseplant writes back</button>
+      </div>
+      <div class="gen-status" id="gen-status"></div>
+      <div class="gen-stage">
+        <svg id="gen-svg" viewBox="0 0 760 340" xmlns="http://www.w3.org/2000/svg" aria-label="Generated story graph"></svg>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 30px;">
+  <div class="section-inner">
+    <div class="section-label reveal">How It Works</div>
+    <h2 class="reveal">Five steps. <span class="dim">A few seconds.</span></h2>
+    <div class="steps">
+      <div class="step reveal"><h3>Understand the idea</h3><p>Your prompt becomes a premise: who you are, what's at stake, and what kind of story this wants to be.</p></div>
+      <div class="step reveal"><h3>Architect the graph</h3><p>The AI plans the skeleton first — scenes as nodes, choices as edges, endings as destinations worth reaching.</p></div>
+      <div class="step reveal"><h3>Write every scene</h3><p>Each node gets prose with a voice that matches the genre, and choices with real consequences attached.</p></div>
+      <div class="step reveal"><h3>Validate every path</h3><p>A story-graph validator walks every branch: no dead ends, no unreachable scenes, no choices that lead nowhere.</p></div>
+      <div class="step reveal"><h3>Hand you the book</h3><p>The story lands in your library like any other — with ambience, endings tracking, and your name on the spine.</p></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top: 20px;">
+  <div class="section-inner">
+    <div class="section-label reveal">Quality</div>
+    <h2 class="reveal">Generated, <span class="dim">not improvised.</span></h2>
+    <div class="bento">
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🧪</div>
+        <h3>Every branch is tested</h3>
+        <p>The same validator that checks our hand-written catalog checks AI stories: every scene reachable, every path ends somewhere on purpose.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🎭</div>
+        <h3>Genre-aware writing</h3>
+        <p>A thriller paces like a thriller. A comedy lands its beats. The AI writes to the genre you picked, not a generic average.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">🔒</div>
+        <h3>Age-appropriate by default</h3>
+        <p>Generated stories respect the same content filters as the catalog. Family devices stay family devices.</p>
+      </div>
+      <div class="card span-3 reveal tilt"><div class="glow"></div>
+        <div class="icon">📥</div>
+        <h3>Yours to keep</h3>
+        <p>Generated stories live in your library forever — re-read them, chase their endings, share the premise with friends.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="section-label reveal">Get StoryTime</div>
+  <h2 class="reveal">The next great story<br /><span class="grad-text">hasn't been written yet.</span></h2>
+  <div class="ctas reveal">
+    <a class="btn btn-primary" href="/download">Download StoryTime</a>
+    <a class="btn btn-secondary" href="/stories">Browse the catalog</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">📖 StoryTime</div>
+        <p class="footer-tag">An immersive story app where branching narratives, multiple endings, and thoughtful reader tools meet beautiful typography.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="/features">Features</a>
+        <a href="/stories">Stories</a>
+        <a href="/ai">StoryTime AI</a>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <a href="/download">iPhone (iOS 18.2+)</a>
+        <a href="/download">Android</a>
+        <a href="/download">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 StoryTime. Every choice writes a new story.</div>
+      <div>Made with SwiftUI &amp; Jetpack Compose</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+<script>
+/* Animated story-graph generation (illustrative front-end demo) */
+const svg = document.getElementById('gen-svg');
+const statusEl = document.getElementById('gen-status');
+const input = document.getElementById('gen-input');
+const btn = document.getElementById('gen-btn');
+const NS = 'http://www.w3.org/2000/svg';
+let running = false;
+
+const LAYERS = [
+  [{ x: 80,  y: 170, end: false }],
+  [{ x: 240, y: 80 }, { x: 240, y: 170 }, { x: 240, y: 260 }],
+  [{ x: 430, y: 50 }, { x: 430, y: 130 }, { x: 430, y: 210 }, { x: 430, y: 290 }],
+  [{ x: 640, y: 60, end: true }, { x: 640, y: 150, end: true }, { x: 640, y: 240, end: true }, { x: 640, y: 300, end: true }],
+];
+const EDGES = [
+  [0,0, 1,0],[0,0, 1,1],[0,0, 1,2],
+  [1,0, 2,0],[1,0, 2,1],[1,1, 2,1],[1,1, 2,2],[1,2, 2,2],[1,2, 2,3],
+  [2,0, 3,0],[2,1, 3,0],[2,1, 3,1],[2,2, 3,1],[2,2, 3,2],[2,3, 3,2],[2,3, 3,3],
+];
+const PHASES = [
+  'Reading your idea…',
+  'Casting characters…',
+  'Architecting the branches…',
+  'Writing scenes…',
+  'Placing the endings…',
+  'Validating every path… ✓ all reachable',
+];
+
+function el(tag, attrs) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  return e;
+}
+function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
+
+function buildGraph() {
+  svg.innerHTML = `
+    <defs>
+      <linearGradient id="ngrad" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#a07cff"/><stop offset="1" stop-color="#ff7ad9"/>
+      </linearGradient>
+      <linearGradient id="eggrad" x1="0" y1="0" x2="1" y2="0">
+        <stop offset="0" stop-color="#6ec1ff"/><stop offset="1" stop-color="#a07cff"/>
+      </linearGradient>
+    </defs>`;
+  const edgeEls = EDGES.map(([la, ia, lb, ib]) => {
+    const a = LAYERS[la][ia], b = LAYERS[lb][ib];
+    const mx = (a.x + b.x) / 2;
+    const p = el('path', {
+      d: `M${a.x} ${a.y} C ${mx} ${a.y}, ${mx} ${b.y}, ${b.x} ${b.y}`,
+      class: 'gen-edge', stroke: 'url(#eggrad)', 'stroke-width': 1.6, fill: 'none', opacity: 0.7,
+    });
+    svg.appendChild(p);
+    return p;
+  });
+  const nodeEls = [];
+  LAYERS.forEach((layer, li) => {
+    layer.forEach((n, ni) => {
+      const g = el('g', { class: 'gen-node' });
+      const accent = li === 0 || n.end;
+      const c = el('circle', {
+        cx: n.x, cy: n.y, r: li === 0 ? 17 : (n.end ? 12 : 13),
+        'stroke-width': 1.2,
+      });
+      if (accent) { c.setAttribute('fill', 'url(#ngrad)'); }
+      else { c.setAttribute('class', 'gn-mid'); }
+      g.appendChild(c);
+      if (n.end) {
+        const t = el('text', { x: n.x + 20, y: n.y + 4, class: 'gn-lbl', 'font-size': 12, 'font-family': 'inherit' });
+        t.textContent = 'ending';
+        g.appendChild(t);
+      }
+      if (li === 0) {
+        const t = el('text', { x: n.x - 14, y: n.y + 36, class: 'gn-lbl', 'font-size': 12, 'font-family': 'inherit' });
+        t.textContent = 'you';
+        g.appendChild(t);
+      }
+      svg.appendChild(g);
+      nodeEls.push({ g, layer: li });
+    });
+  });
+  return { edgeEls, nodeEls };
+}
+
+async function generate() {
+  if (running) return;
+  running = true;
+  btn.disabled = true;
+  btn.style.opacity = 0.6;
+  const idea = input.value.trim() || input.placeholder.replace('…', '');
+  const { edgeEls, nodeEls } = buildGraph();
+
+  statusEl.textContent = PHASES[0];
+  await sleep(650);
+  statusEl.textContent = PHASES[1];
+  await sleep(650);
+
+  statusEl.textContent = PHASES[2];
+  for (let li = 0; li < LAYERS.length; li++) {
+    nodeEls.filter(n => n.layer === li).forEach(n => n.g.classList.add('show'));
+    if (li === 2) statusEl.textContent = PHASES[3];
+    if (li === 3) statusEl.textContent = PHASES[4];
+    const layerEdges = edgeEls.filter((_, i) => {
+      return EDGES[i][0] === li - 1;
+    });
+    layerEdges.forEach(p => p.classList.add('show'));
+    await sleep(750);
+  }
+
+  statusEl.textContent = PHASES[5];
+  await sleep(500);
+  statusEl.innerHTML = `“<em>${idea}</em>” — 12 scenes · 16 branches · 4 endings. <b style="color:var(--text)">In the app, you'd be reading by now.</b>`;
+  btn.disabled = false;
+  btn.style.opacity = 1;
+  running = false;
+}
+
+btn.addEventListener('click', generate);
+input.addEventListener('keydown', (e) => { if (e.key === 'Enter') generate(); });
+document.querySelectorAll('.gen-suggest button').forEach(b => {
+  b.addEventListener('click', () => { input.value = b.dataset.idea; generate(); });
+});
+
+/* Draw the empty graph faintly on load so the stage isn't blank */
+buildGraph();
+statusEl.textContent = 'Press Generate to watch a story take shape.';
+</script>
+</body>
+</html>

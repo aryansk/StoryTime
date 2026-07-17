@@ -72,6 +72,82 @@ struct CatalogStory: Codable, Identifiable, Hashable {
     var isNewThisWeek: Bool {
         addedAt.timeIntervalSinceNow > -60 * 60 * 24 * 7
     }
+
+    /// Reader-facing length estimate. Interactive scenes are intentionally
+    /// short, but choices and consequence beats add thinking time that a
+    /// plain word-count estimate misses.
+    ///
+    /// Memoized: the raw computation word-counts every node, and the
+    /// recommendation scorers call this for the whole catalog on every
+    /// Discover render — uncached, that's megabytes of string splitting per
+    /// keystroke in the search field. `addedAt` doubles as the per-story
+    /// revision, so a remote update naturally misses the stale entry.
+    var estimatedMinutes: Int {
+        let key = "\(id)|\(addedAt.timeIntervalSinceReferenceDate)"
+        if let cached = Self.minutesCache.value(for: key) { return cached }
+        let words = nodes.reduce(0) { total, node in
+            total + node.text.wordCount
+                + node.choices.reduce(0) { $0 + $1.text.wordCount + $1.consequence.wordCount }
+        }
+        let readingMinutes = Double(words) / 190.0
+        let decisionMinutes = Double(decisionCount) * 0.22
+        let minutes = max(2, Int(ceil(readingMinutes + decisionMinutes)))
+        Self.minutesCache.store(minutes, for: key)
+        return minutes
+    }
+
+    /// Lock-protected so nonisolated decode paths and the main actor can
+    /// both read safely.
+    private static let minutesCache = MinutesCache()
+
+    private final class MinutesCache: @unchecked Sendable {
+        private var values: [String: Int] = [:]
+        private let lock = NSLock()
+
+        func value(for key: String) -> Int? {
+            lock.lock(); defer { lock.unlock() }
+            return values[key]
+        }
+
+        func store(_ minutes: Int, for key: String) {
+            lock.lock(); defer { lock.unlock() }
+            values[key] = minutes
+        }
+    }
+
+    var decisionCount: Int { nodes.filter { !$0.isEnding }.count }
+    var endingCount: Int { nodes.filter(\.isEnding).count }
+
+    /// A normalized progress estimate based on graph depth instead of raw
+    /// node count. Branching stories may contain many scenes a single play-
+    /// through never visits, so `current index / nodes.count` understates
+    /// progress badly.
+    func progressFraction(at nodeId: String) -> Double {
+        let byId = Dictionary(nodes.map { ($0.id, $0) }, uniquingKeysWith: { first, _ in first })
+        guard byId[startNodeId] != nil else { return 0 }
+
+        var depth: [String: Int] = [startNodeId: 0]
+        var queue: [String] = [startNodeId]
+        var cursor = 0
+        while cursor < queue.count {
+            let id = queue[cursor]
+            cursor += 1
+            guard let node = byId[id], let currentDepth = depth[id] else { continue }
+            for choice in node.choices {
+                guard let next = choice.nextNodeId, byId[next] != nil else { continue }
+                let candidate = currentDepth + 1
+                if depth[next] == nil || candidate < depth[next]! {
+                    depth[next] = candidate
+                    queue.append(next)
+                }
+            }
+        }
+
+        guard let current = depth[nodeId] else { return 0 }
+        let endingDepths = nodes.filter(\.isEnding).compactMap { depth[$0.id] }
+        let journeyDepth = max(1, endingDepths.max() ?? depth.values.max() ?? 1)
+        return min(1, max(0.04, Double(current + 1) / Double(journeyDepth + 1)))
+    }
 }
 
 struct StoryNode: Codable, Hashable {
@@ -128,5 +204,11 @@ enum CatalogJSON {
         e.dateEncodingStrategy = .iso8601
         e.outputFormatting = [.prettyPrinted, .sortedKeys]
         return e
+    }
+}
+
+private extension String {
+    var wordCount: Int {
+        split { !$0.isLetter && !$0.isNumber && $0 != "'" && $0 != "’" }.count
     }
 }

@@ -19,6 +19,13 @@ class UserModel: ObservableObject {
         }
     }
     
+    /// Genres picked during onboarding; feeds the recommendation scoring.
+    @Published var favoriteGenres: [String] {
+        didSet {
+            UserDefaults.standard.set(favoriteGenres, forKey: "user_favorite_genres")
+        }
+    }
+
     @Published var onboardingCompleted: Bool {
         didSet {
             UserDefaults.standard.set(onboardingCompleted, forKey: "onboarding_completed")
@@ -43,6 +50,7 @@ class UserModel: ObservableObject {
         self.username = UserDefaults.standard.string(forKey: "username") ?? ""
         self.goal = UserDefaults.standard.string(forKey: "user_goal") ?? ""
         self.experienceLevel = UserDefaults.standard.string(forKey: "user_experience_level") ?? ""
+        self.favoriteGenres = UserDefaults.standard.stringArray(forKey: "user_favorite_genres") ?? []
         self.onboardingCompleted = UserDefaults.standard.bool(forKey: "onboarding_completed")
     }
     

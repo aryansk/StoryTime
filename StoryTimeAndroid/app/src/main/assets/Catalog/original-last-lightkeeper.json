@@ -1,0 +1,291 @@
+{
+  "id": "original-last-lightkeeper",
+  "title": "The Last Lightkeeper",
+  "sourceTitle": "The Last Lightkeeper",
+  "kind": "book",
+  "synopsis": "On your final night tending a lighthouse, a second beacon appears where no island has ever been—and it is flashing your name.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-16T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "original",
+    "signature",
+    "sea",
+    "mystery",
+    "mini"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "lantern_room",
+  "nodes": [
+    {
+      "id": "lantern_room",
+      "text": "The storm arrives before sunset, shouldering the horizon into darkness. You are trimming the lighthouse wick for the last time when another beam sweeps across the glass—far out at sea, where your charts show only a trench two miles deep. It flashes once, twice, then spells your childhood name in patient white arcs.",
+      "sceneTitle": "The Impossible Light",
+      "choices": [
+        {
+          "text": "Climb outside and answer with the great lens",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "nextNodeId": "answer_light"
+        },
+        {
+          "text": "Wake the dead radio and listen first",
+          "consequence": "“Wake the dead radio and listen first” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "nextNodeId": "answer_radio"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "answer_light",
+      "text": "Rain needles your face on the gallery walk. You turn the brass wheel by hand, dragging the lighthouse beam across the black water. The distant light pauses, then mirrors every movement exactly. When you stop, it continues alone: a doorway, a wave, and the shape of a small figure waiting on a shore that should not exist.",
+      "sceneTitle": "A Conversation in Beams",
+      "choices": [
+        {
+          "text": "Flash the old distress pattern",
+          "consequence": "You commit to “Flash the old distress pattern.” The story records the instinct as “Duty” and carries it forward.",
+          "nextNodeId": "distress_reply"
+        },
+        {
+          "text": "Cover the lens and break the connection",
+          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "nextNodeId": "covered_lens"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "answer_radio",
+      "text": "The radio has been silent since the mainland decommissioned your post. Tonight its valves warm beneath your fingers. Through the static, a woman says she is the keeper of the other light. Her voice is older than the storm and younger than your memory. “Please,” she says, “before the tide remembers us both.”",
+      "sceneTitle": "Channel Thirteen",
+      "choices": [
+        {
+          "text": "Tell her your name and ask what she needs",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "nextNodeId": "voice_reply"
+        },
+        {
+          "text": "Say nothing and triangulate the signal",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "nextNodeId": "chart_room"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "distress_reply",
+      "text": "Your distress call crosses the waves. The other beacon answers with the same pattern, then adds a final sweep toward the harbor village behind you. Below, every house goes dark at once. In the sudden absence of electric light, pale footprints appear across the sea’s surface, approaching the lighthouse step by step.",
+      "sceneTitle": "Three Short, Three Long",
+      "choices": [
+        {
+          "text": "Open the sea gate before the visitor arrives",
+          "consequence": "There is no taking “Open the sea gate before the visitor arrives” back. Trust shapes the silence before the next moment arrives.",
+          "nextNodeId": "the_arrival"
+        },
+        {
+          "text": "Hold the beam steady on the village",
+          "consequence": "There is no taking “Hold the beam steady on the village” back. Duty shapes the silence before the next moment arrives.",
+          "nextNodeId": "the_bargain"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "covered_lens",
+      "text": "The instant you shutter the lens, something begins climbing the spiral stair below. Not a hurried intruder: a familiar tread, counting each step the way your father did when he taught you the tower. His old oilskin hangs beside the door, dry and empty. The keeper’s journal rattles inside its locked desk.",
+      "sceneTitle": "Footsteps in the Dark",
+      "choices": [
+        {
+          "text": "Unlock the journal before the footsteps arrive",
+          "consequence": "You commit to “Unlock the journal before the footsteps arrive.” The story records the instinct as “Curious” and carries it forward.",
+          "nextNodeId": "the_journal"
+        },
+        {
+          "text": "Meet the footsteps halfway down",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "nextNodeId": "the_bargain"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "voice_reply",
+      "text": "The woman repeats your name with relief. She says every lighthouse has a twin that appears only when its keeper is ready to leave. One guides ships through water; the other guides memories through loss. If neither keeper crosses tonight, the storm will take the village’s past—names first, then faces, then every reason anyone stayed.",
+      "sceneTitle": "The Keeper Across the Water",
+      "choices": [
+        {
+          "text": "Believe her and prepare the sea gate",
+          "consequence": "You commit to “Believe her and prepare the sea gate.” The story records the instinct as “Faith” and carries it forward.",
+          "nextNodeId": "the_arrival"
+        },
+        {
+          "text": "Demand proof only the real keeper could know",
+          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "nextNodeId": "the_journal"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "chart_room",
+      "text": "The signal points nowhere on the official chart. Yet spilled salt creeps across the table and gathers into coastlines. At the center is a tiny lighthouse; beside it, in your own handwriting, are the words RETURN WHAT THE SEA KEPT. The supply boat strains against its ropes below, though the tide is running the other way.",
+      "sceneTitle": "An Island Drawn in Salt",
+      "choices": [
+        {
+          "text": "Take the boat toward the salt-drawn island",
+          "consequence": "You commit to “Take the boat toward the salt-drawn island.” The story records the instinct as “Bold” and carries it forward.",
+          "nextNodeId": "the_arrival"
+        },
+        {
+          "text": "Stay in the tower and protect the village",
+          "consequence": "The decision settles the question for now. Its verdict—Loyal—follows you into whatever comes next.",
+          "nextNodeId": "the_bargain"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "the_arrival",
+      "text": "A narrow boat glides through the sea gate without disturbing the water. Its passenger is you at nine years old, soaked from the day your brother vanished beyond the breakwater. The child holds the red scarf you searched for all that summer. “You can keep the light,” they say, “or you can finally learn what it was hiding.”",
+      "sceneTitle": "The Boat With No Wake",
+      "choices": [
+        {
+          "text": "Take the child's hand and step into the boat",
+          "consequence": "There is no taking “Take the child's hand and step into the boat” back. Heart shapes the silence before the next moment arrives.",
+          "nextNodeId": "between_tides"
+        },
+        {
+          "text": "Close the gate and keep watch until dawn",
+          "consequence": "“Close the gate and keep watch until dawn” closes one possibility and opens another. The moment leaves a clear note behind: Duty.",
+          "nextNodeId": "end_steadfast"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "the_bargain",
+      "text": "The lighthouse speaks through gears, glass, and the iron bones of its stair. It has held every goodbye uttered within sight of its beam, and it is full. To survive the storm it needs a keeper’s promise: name someone who must remain, or extinguish the lamp and release every stored farewell into the night.",
+      "sceneTitle": "What the Tower Wants",
+      "choices": [
+        {
+          "text": "Offer your own name to the tower",
+          "consequence": "“Offer your own name to the tower” closes one possibility and opens another. The moment leaves a clear note behind: Sacrifice.",
+          "nextNodeId": "names_in_glass"
+        },
+        {
+          "text": "Extinguish the lamp and free the farewells",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "nextNodeId": "end_darkness"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "the_journal",
+      "text": "Your father’s journal opens to an entry dated tomorrow. He writes that the other lighthouse is not a place but a choice every keeper postpones. Tucked into the binding is the missing final page and, beneath it, your brother’s red scarf—still smelling faintly of sun-warmed rope and the oranges he stole from the pantry.",
+      "sceneTitle": "The Missing Final Page",
+      "choices": [
+        {
+          "text": "Read the final page aloud",
+          "consequence": "“Read the final page aloud” closes one possibility and opens another. The moment leaves a clear note behind: Truth.",
+          "nextNodeId": "names_in_glass"
+        },
+        {
+          "text": "Wrap the journal in the scarf and carry it outside",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "nextNodeId": "between_tides"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "between_tides",
+      "text": "The boat crosses not distance but years. Around you float mornings the village forgot: weddings, storms survived, children learning the names of birds. Ahead, the second lighthouse burns inside a wave that never breaks. You may turn its beam home and restore every memory, or sail through the light toward the one person the sea never returned.",
+      "sceneTitle": "The Water Between Moments",
+      "choices": [
+        {
+          "text": "Turn the impossible beam toward the village",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "nextNodeId": "end_beacon"
+        },
+        {
+          "text": "Sail through the light and follow the red scarf",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Love.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "names_in_glass",
+      "text": "Names bloom across the great lens in salt-white script. Some belong to the living, others to those the sea carried beyond maps. There is room for one more. The tower waits without judgment, offering permanence but not freedom. Down in the village, porch lights begin returning one by one.",
+      "sceneTitle": "The Lens Remembers",
+      "choices": [
+        {
+          "text": "Write your own name and become the final keeper",
+          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "nextNodeId": "end_guardian"
+        },
+        {
+          "text": "Write your brother's name and let the tower return him",
+          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "nextNodeId": "end_return"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_steadfast",
+      "text": "You keep the gate barred and the beam moving until sunrise. The impossible lighthouse fades with the stars. The village wakes safe, though several elders cannot remember the songs they taught their children. Years later, sailors still swear your final night produced the steadiest light they ever saw—and the saddest.",
+      "sceneTitle": "The Light That Stayed",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Light That Stayed"
+    },
+    {
+      "id": "end_darkness",
+      "text": "You lower the wick. Darkness takes the tower, then erupts with a thousand soft voices crossing the water toward home. By dawn the storm is gone and the lighthouse is only stone. The village remembers everyone it has lost. For one extraordinary morning, grief sounds less like emptiness and more like a harbor answering back.",
+      "sceneTitle": "A Sky Full of Goodbyes",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Sky Full of Goodbyes"
+    },
+    {
+      "id": "end_beacon",
+      "text": "You turn the second beam shoreward. Memory pours across the village: misplaced names, old promises, the exact warmth of hands long gone. Your own past returns too, sharp but survivable. When the sun rises, both lighthouses remain. You tend neither alone; every remembered person keeps a small part of the watch.",
+      "sceneTitle": "Keeper of Returning Things",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Keeper of Returning Things"
+    },
+    {
+      "id": "end_return",
+      "text": "The light opens like a door. On the far side, your brother waits on a summer shore, older by exactly the years you have lived without him. Whether you bring him home or choose to stay is a story the village never learns. They only know two figures stood in the dawn where the sea had always been empty.",
+      "sceneTitle": "Beyond the Breakwater",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Beyond the Breakwater"
+    },
+    {
+      "id": "end_guardian",
+      "text": "Your name sinks into the glass and shines. The storm bends around the tower. You feel every ship seeking harbor and every memory looking for a way home, but the weight no longer frightens you. The mainland may call the post abandoned; still, on difficult nights, two beacons answer each other across the impossible water.",
+      "sceneTitle": "The Name in the Lens",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Name in the Lens"
+    }
+  ]
+}

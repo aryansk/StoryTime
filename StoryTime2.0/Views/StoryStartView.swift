@@ -15,6 +15,7 @@ struct StoryStartView: View {
     @Environment(\.dismiss) private var dismiss
 
     @State private var showDeleteConfirm = false
+    @State private var showRestartConfirm = false
 
     @State private var goReading = false
 
@@ -29,6 +30,12 @@ struct StoryStartView: View {
     /// from this screen.
     private var isPersonalStory: Bool {
         story.id.hasPrefix("user-")
+    }
+
+    private var invitation: String {
+        story.title == story.sourceTitle
+            ? "Your choices decide how this version unfolds."
+            : "What would you have done in \(story.sourceTitle)?"
     }
 
     var body: some View {
@@ -47,7 +54,7 @@ struct StoryStartView: View {
                             }
                         }
                         DoodleButton(doodle: isFavorite ? .heartFill : .heart,
-                                     label: isFavorite ? "Unfavorite" : "Favorite") {
+                                     label: isFavorite ? "Remove from Library" : "Save to Library") {
                             favoritesStore.toggle(story.storageKey)
                         }
                     }
@@ -81,7 +88,7 @@ struct StoryStartView: View {
                         Text(story.title)
                             .font(Theme.Fonts.title())
                             .foregroundColor(Theme.Palette.ink)
-                        Text("What would you have done in \(story.sourceTitle)?")
+                        Text(invitation)
                             .font(Theme.Fonts.bodyItalic(15))
                             .foregroundColor(Theme.Palette.inkSoft)
                     }
@@ -106,7 +113,8 @@ struct StoryStartView: View {
                     HStack(spacing: 10) {
                         SketchBadge(text: story.genre.rawValue)
                         SketchBadge(text: story.kind.displayName)
-                        SketchBadge(text: "\(story.nodes.count) scenes")
+                        SketchBadge(text: "\(story.estimatedMinutes) min")
+                        SketchBadge(text: "\(story.endingCount) endings")
                     }
                     .padding(.horizontal, 24)
 
@@ -129,12 +137,25 @@ struct StoryStartView: View {
                     // CTAs
                     VStack(spacing: 14) {
                         if let progress = savedProgress {
-                            HStack(spacing: 8) {
-                                DoodleIcon(.bookmarkFill, size: 16, filled: true)
-                                Text("Last scene: \(progress.sceneTitle ?? "in progress")")
-                                    .font(Theme.Fonts.bodyItalic(13))
-                                    .foregroundColor(Theme.Palette.inkSoft)
-                                Spacer()
+                            VStack(alignment: .leading, spacing: 8) {
+                                HStack(spacing: 8) {
+                                    DoodleIcon(.bookmarkFill, size: 16, filled: true)
+                                    Text("Continue from \(progress.sceneTitle ?? "your saved place")")
+                                        .font(Theme.Fonts.bodyItalic(13))
+                                        .foregroundColor(Theme.Palette.inkSoft)
+                                    Spacer()
+                                    Text("\(Int(progress.completionFraction * 100))%")
+                                        .font(Theme.Fonts.headingMedium(12))
+                                        .foregroundColor(Theme.Palette.inkSoft)
+                                }
+                                GeometryReader { geometry in
+                                    ZStack(alignment: .leading) {
+                                        Capsule().fill(Theme.Palette.inkHair)
+                                        Capsule().fill(Theme.Palette.ink)
+                                            .frame(width: geometry.size.width * progress.completionFraction)
+                                    }
+                                }
+                                .frame(height: 7)
                             }
                         }
                         SketchButton(
@@ -150,7 +171,7 @@ struct StoryStartView: View {
                                 doodle: .undo,
                                 style: .ghost
                             ) {
-                                progressStore.clear(storyKey: story.storageKey)
+                                showRestartConfirm = true
                             }
                         }
                     }
@@ -182,6 +203,19 @@ struct StoryStartView: View {
             Button("Cancel", role: .cancel) { }
         } message: {
             Text("This will remove “\(story.title)” from your stories. Your progress for it is also cleared.")
+        }
+        .confirmationDialog(
+            "Start from the beginning?",
+            isPresented: $showRestartConfirm,
+            titleVisibility: .visible
+        ) {
+            Button("Start Over", role: .destructive) {
+                progressStore.clear(storyKey: story.storageKey)
+                goReading = true
+            }
+            Button("Keep My Place", role: .cancel) { }
+        } message: {
+            Text("Your current place in “\(story.title)” will be replaced.")
         }
     }
 }

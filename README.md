@@ -1,308 +1,139 @@
-# 📚 StoryTime
+# StoryTime
 
-An immersive iOS story creation and reading app offering interactive storytelling experiences through branching narratives and customizable reading modes.
+StoryTime is a native interactive-reading app for iPhone, iPad, and Android. Its visual language is ink on warm paper: hand-drawn doodles, gently imperfect cards, chunky editorial headings, and a readable serif story face.
 
-![Swift](https://img.shields.io/badge/Swift-5.9-orange.svg)
-![Platform](https://img.shields.io/badge/Platform-iOS%2017.0+-blue.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
-![SwiftUI](https://img.shields.io/badge/SwiftUI-4.0-purple.svg)
-![Maintenance](https://img.shields.io/badge/Maintenance-Active-brightgreen.svg)
+The bundled catalog currently contains 182 validated stories and 572 endings. A growing set of signature originals—**The Last Lightkeeper**, **The Museum of Unsent Letters**, and the six after-midnight tales of **The Night Shelf**—set the quality bar for first-party, genuinely branching stories.
 
-![Untitled design](https://github.com/user-attachments/assets/8798a19f-f5fe-442b-9a72-acbe9be4836a)
+## Product highlights
 
+- Personalized **Tonight's Pick** recommendations based on onboarding intent, reading history, and story length, plus a **Surprise Me** shuffle that leans toward stories you haven't opened.
+- Search across titles, source titles, synopses, genres, formats, and tags, with sort by Featured, Newest, Top Rated, Shortest, or A–Z.
+- Curated mood and format collections (including **The Night Shelf** of first-party originals), ratings, favorites, and saga links.
+- Automatic checkpoints with visible completion estimates, a Continue Reading library, and a **Finished** shelf that tracks endings discovered and nudges replays.
+- Multiple endings, an endings tracker, path-not-taken prompts, and shareable ending cards.
+- Reader typography controls, adjustable line spacing, paper themes, dark mode, typewriter mode, and **Focus Mode**.
+- Optional system narration, genre ambience, and pass-and-play companion mode.
+- Daily scene goals, streaks, reading time, completions, Choice DNA, and achievements.
+- Hand-authored personal stories plus optional bring-your-own-key generation. API keys are stored in Keychain on Apple platforms and encrypted preferences on Android.
+- VoiceOver/content descriptions, Dynamic Type, Reduce Motion support, labeled controls, and 44-point minimum touch targets in shared Apple components.
 
-## 📖 Table of Contents
-- [Core Features](#-core-features)
-- [Technical Overview](#-technical-overview)
-- [Installation](#-installation)
-- [Architecture](#-architecture)
-- [UI Components](#-ui-components)
-- [Performance](#-performance)
-- [Security](#-security)
-- [Contributing](#-contributing)
-- [Documentation](#-documentation)
-- [Testing](#-testing)
-- [Deployment](#-deployment)
-- [License](#-license)
+## Repository layout
 
-## 🌟 Core Features
-
-### 📚 Story Management System
-- **Library Organization**
-  - Custom collections
-  - Smart folders
-  - Tags and categories
-  - Search functionality
-- **Reading Progress**
-  - Bookmarking system
-  - Progress synchronization
-  - Reading statistics
-  - Achievement system
-- **Content Filtering**
-  - Age-appropriate content control
-  - Genre filtering
-  - Length-based sorting
-  - Popularity metrics
-
-### 🎮 Interactive Reading Experience
-- **Dynamic Content**
-  - Branching narratives
-  - Choice-based progression
-  - Multiple endings
-  - Character relationships
-- **Accessibility Features**
-  - VoiceOver support
-  - Dynamic type
-  - Custom font options
-  - High contrast modes
-- **Reading Modes**
-  - Night mode
-  - Sepia mode
-  - Custom themes
-  - Font customization
-
-## 🔧 Technical Overview
-
-### System Requirements
-- **iOS Requirements**
-  - iOS 17.0 or later
-  - 64-bit devices only
-  - Minimum 2GB RAM
-  - 100MB free space
-- **Development Requirements**
-  - Xcode 15.0+
-  - Swift 5.9+
-  - macOS Sonoma 14.0+
-  - Git 2.3.0+
-
-### Dependencies
-```ruby
-# Podfile
-pod 'Alamofire', '~> 5.8.0'
-pod 'SwiftyJSON', '~> 5.0.0'
-pod 'Realm', '~> 10.45.0'
-pod 'Lottie', '~> 4.3.0'
-pod 'SwiftLint', '~> 0.52.0'
+```text
+StoryTime2.0/                 SwiftUI app
+  Models/                     Catalog, persistence, reader state, services
+  Theme/                      Tokens, components, fonts, doodles
+  Views/                      Discovery, reader, library, profile, settings
+  Resources/Catalog/          Bundled story JSON and index
+StoryTime2.0Tests/            Catalog and model tests
+StoryTime2.0UITests/          Launch and navigation smoke tests
+StoryTimeAndroid/             Jetpack Compose app
+site/                         Static product website
+scripts/                      Catalog authoring, validation, and asset tools
 ```
 
-### Environment Variables
+The apps do not use CocoaPods or third-party iOS runtime dependencies.
+
+## Requirements
+
+### Apple
+
+- Xcode 16 or newer
+- iOS/iPadOS 18.2 or newer
+- The `StoryTime2.0` scheme
+
+Open `StoryTime2.0.xcodeproj`, choose an iPhone or iPad simulator, then build and run.
+
+Command-line verification:
+
 ```bash
-ENVIRONMENT=development|staging|production
-DEBUG_LEVEL=verbose|info|warning|error
-FEATURE_FLAGS={"newReader":true}
+xcodebuild \
+  -project StoryTime2.0.xcodeproj \
+  -scheme StoryTime2.0 \
+  -destination 'platform=iOS Simulator,name=iPhone 17' \
+  -derivedDataPath /tmp/StoryTimeDerived \
+  test CODE_SIGNING_ALLOWED=NO
 ```
 
-## 🚀 Installation
+### Android
 
-### Manual Installation
+- Android Studio Hedgehog or newer
+- JDK 17
+- Android SDK 34
+
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/storytime-2.0.git
-
-# Navigate to project directory
-cd storytime-2.0
-
-# Install dependencies
-pod install
-
-# Open workspace
-open StoryTime.xcworkspace
+cd StoryTimeAndroid
+gradle :app:assembleDebug
 ```
 
-### Configuration
-1. Create `Configuration.plist` in the project root
-2. Add required environment variables
-3. Select appropriate build scheme
-4. Build and run the project
+## Architecture
 
-## 🏗️ Architecture
+`ContentView` owns the long-lived app stores and injects them through the SwiftUI environment. Each tab keeps its own `NavigationStack` mounted so tab switches preserve navigation, scroll, search, and filter state.
 
-### MVVM Implementation
-```swift
-// Example ViewModel Structure
-class StoryViewModel: ObservableObject {
-    @Published var stories: [Story] = []
-    @Published var isLoading: Bool = false
-    private let storyService: StoryService
-    
-    init(storyService: StoryService = StoryService()) {
-        self.storyService = storyService
-    }
-    
-    func fetchStories() async {
-        isLoading = true
-        defer { isLoading = false }
-        
-        do {
-            stories = try await storyService.fetchStories()
-        } catch {
-            // Error handling
-        }
-    }
-}
+Stories use a data-driven graph:
+
+```text
+CatalogIndex → CatalogStory → StoryNode → StoryChoice → next StoryNode
 ```
 
-### Data Flow
-```mermaid
-graph TD
-    A[View] --> B[ViewModel]
-    B --> C[Service Layer]
-    C --> D[Local Storage]
-    D --> G[CoreData]
-```
+`GameState` traverses that graph. `ReadingProgressStore`, `StatsStore`, `FavoritesStore`, `EndingsTracker`, and `ChoiceDNAStore` persist local reader state. The same catalog JSON is packaged into both native apps.
 
-## 🎨 UI Components
+Catalog loading is offline-first. The Apple app loads bundled and cached content away from the main actor, then optionally merges a remote catalog when `CatalogBaseURL` is configured.
 
-### Core Components
-- **Story Card**
-  - Adaptive layout
-  - Gesture handling
-  - Animations
-  - State management
-- **Reading View**
-  - Custom page transitions
-  - Progress indicator
-  - Navigation controls
-  - Interactive elements
-- **Editor Interface**
-  - Rich text support
-  - Real-time preview
-  - Formatting tools
-  - Version control
+## Working with stories
 
-### Design System
-```swift
-struct StoryTimeColors {
-    static let primary = Color("PrimaryBlue")
-    static let secondary = Color("SecondaryGreen")
-    static let accent = Color("AccentOrange")
-    static let background = Color("BackgroundGray")
-    static let text = Color("TextColor")
-}
+The compact Python specs are the authoring source of truth. Do not hand-edit generated JSON without also updating the corresponding spec.
 
-struct StoryTimeFonts {
-    static let title = Font.custom("Merriweather-Bold", size: 24)
-    static let body = Font.custom("OpenSans-Regular", size: 16)
-    static let caption = Font.custom("OpenSans-Light", size: 14)
-}
-```
+Build all managed stories and the index:
 
-## ⚡ Performance
-
-### Optimization Techniques
-- **Memory Management**
-  - Image caching
-  - View recycling
-  - Resource pooling
-- **Network Optimization**
-  - Request batching
-  - Response caching
-  - Compression
-- **Storage Efficiency**
-  - Data normalization
-  - Incremental loading
-  - Cache management
-
-### Benchmarks
-| Operation | Target Time | Current Average |
-|-----------|-------------|-----------------|
-| App Launch | < 2s | 1.8s |
-| Story Load | < 1s | 0.7s |
-| Save Story | < 0.5s | 0.3s |
-
-## 🔒 Security
-
-### Data Protection
-- End-to-end encryption for user stories
-- Secure storage of credentials
-- Network security measures
-- Input validation
-
-### Privacy Features
-- Local data processing
-- Anonymous analytics
-- GDPR compliance
-- Data retention policies
-
-## 🤝 Contributing
-
-### Development Workflow
-1. Fork the repository
-2. Create feature branch
-3. Implement changes
-4. Add tests
-5. Submit pull request
-
-### Code Style
-```swift
-// Example style guide
-struct ExampleView: View {
-    // MARK: - Properties
-    @State private var isLoading: Bool = false
-    
-    // MARK: - Body
-    var body: some View {
-        VStack {
-            if isLoading {
-                ProgressView()
-            } else {
-                ContentView()
-            }
-        }
-    }
-    
-    // MARK: - Private Methods
-    private func loadContent() {
-        // Implementation
-    }
-}
-```
-
-## 📚 Documentation
-
-### API Reference
-- [User Management API](/docs/api/user-management.md)
-- [Content Management API](/docs/api/content-management.md)
-
-### Guides
-- [Getting Started](/docs/guides/getting-started.md)
-- [Architecture Overview](/docs/guides/architecture.md)
-- [Contributing Guide](/docs/guides/contributing.md)
-
-## ✅ Testing
-
-### Test Coverage
 ```bash
-# Run tests
-xcodebuild test -workspace StoryTime.xcworkspace -scheme StoryTime -destination 'platform=iOS Simulator,name=iPhone 15 Pro'
+python3 scripts/build_stories.py
 ```
 
-### Testing Strategy
-- Unit Tests
-- Integration Tests
-- UI Tests
-- Performance Tests
+Validate metadata parity, graph reachability, choice integrity, endings, and content fields:
 
-## 📦 Deployment
+```bash
+python3 scripts/validate_catalog.py
+```
 
-### App Store Deployment
-1. Version bump
-2. Update changelog
-3. Build release
-4. Submit to App Store
+After rebuilding, keep Android's bundled catalog in sync:
 
-### Beta Testing
-- TestFlight distribution
-- Beta testing groups
-- Feedback collection
-- Issue tracking
+```bash
+rsync -a --delete \
+  StoryTime2.0/Resources/Catalog/ \
+  StoryTimeAndroid/app/src/main/assets/Catalog/
+```
 
-## 📄 License
+The build pipeline expands compact consequence labels such as `Brave.` into deterministic narrative beats. The original label remains in the prose so Choice DNA can still classify the decision.
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+## Testing
 
-## 🙏 Acknowledgments
+The Swift test target checks every story file and fails on:
 
-- [SwiftUI](https://developer.apple.com/xcode/swiftui/) for UI framework
-- [Swift Package Manager](https://swift.org/package-manager/) for dependency management
-- Our amazing contributors and beta testers
+- duplicate story or node IDs;
+- index/payload metadata drift;
+- missing or unreachable nodes;
+- choices without valid targets;
+- empty text, scene titles, choices, consequences, or ending titles;
+- repeated labels within a decision;
+- endings that still contain choices;
+- malformed generated JSON;
+- consequence beats below the readability floor.
+
+The Python validator mirrors the catalog checks for authoring and CI workflows.
+
+## Privacy and external services
+
+Reading state stays on device. Cross-device sync and analytics are not currently implemented.
+
+AI creation is optional and requires a user-provided Anthropic API key. The key is sent only to Anthropic for generation, is never bundled with the app, and failed requests do not consume the local daily allowance.
+
+Notification permission is requested only when a reader enables reminders. Narration uses the operating system's speech service.
+
+## Website
+
+The static site in `site/` has no build step. Serve it locally with any static server, for example:
+
+```bash
+python3 -m http.server 8080 --directory site
+```

@@ -3,12 +3,11 @@ import SwiftUI
 class SettingsModel: ObservableObject {
     @AppStorage("textSize") var textSize: Double = 17
     @AppStorage("typingSpeed") var typingSpeed: Double = 0.05
-    @AppStorage("isDarkMode") var isDarkMode: Bool = false {
-        didSet {
-            applyTheme()
-        }
-    }
-    @AppStorage("selectedFontName") var selectedFontName: String = "New York"
+    @AppStorage("isDarkMode") var isDarkMode: Bool = false
+    @AppStorage("selectedFontName") var selectedFontName: String = "Story Serif"
+    @AppStorage("readerLineSpacing") var readerLineSpacing: Double = 0.5
+    @AppStorage("focusModeByDefault") var focusModeByDefault: Bool = false
+    @AppStorage("dailySceneGoal") var dailySceneGoal: Int = 5
     @AppStorage("selectedTheme") var selectedTheme: Int = 0 // 0: Light Yellow, 1: Light Grey, 2: Custom
     @AppStorage("customThemeColor") var customThemeColor: String = "FFFFFF" // Stored as hex
     @AppStorage("narrationRate") var narrationRate: Double = 0.5 // 0.0 (slowest) … 1.0 (fastest), mapped to AVSpeechUtterance rates
@@ -34,14 +33,23 @@ class SettingsModel: ObservableObject {
     /// migrate it into the Keychain on first launch, then clear it.
     @AppStorage("anthropicAPIKey") private var legacyAnthropicAPIKey: String = ""
 
+    /// In-memory cache of the Keychain-backed key so reads (which can happen
+    /// per view render) don't hit the Keychain every time. `nil` means "not
+    /// yet loaded"; the getter fills it on first access.
+    private var cachedAPIKey: String?
+
     /// Anthropic API key for the AI generator. Stored in the Keychain,
     /// never sent anywhere except api.anthropic.com.
     var anthropicAPIKey: String {
         get {
+            if let cachedAPIKey { return cachedAPIKey }
             migrateLegacyKeyIfNeeded()
-            return SecretStore.get(SecretKey.anthropicAPIKey) ?? ""
+            let value = SecretStore.get(SecretKey.anthropicAPIKey) ?? ""
+            cachedAPIKey = value
+            return value
         }
         set {
+            cachedAPIKey = newValue
             SecretStore.set(newValue, for: SecretKey.anthropicAPIKey)
             objectWillChange.send()
         }
@@ -73,6 +81,13 @@ class SettingsModel: ObservableObject {
         return true
     }
 
+    /// A failed network or validation attempt should not consume a user's
+    /// daily allowance.
+    func refundAIGeneration() {
+        rolloverAICountIfNeeded()
+        aiGenerationsToday = max(0, aiGenerationsToday - 1)
+    }
+
     /// How many generations the user can still do today.
     var aiGenerationsRemaining: Int {
         rolloverAICountIfNeeded()
@@ -87,12 +102,13 @@ class SettingsModel: ObservableObject {
         }
     }
 
-    let minTextSize: Double = 12
-    let maxTextSize: Double = 24
+    let minTextSize: Double = 14
+    let maxTextSize: Double = 30
     let minTypingSpeed: Double = 0.01
     let maxTypingSpeed: Double = 0.1
     
     let availableFonts = [
+        "Story Serif",
         "New York",
         "Georgia",
         "Palatino",
@@ -117,6 +133,7 @@ class SettingsModel: ObservableObject {
     /// fall back to the bundled body serif so the reader always renders.
     func readerFont(_ size: CGFloat) -> Font {
         switch selectedFontName {
+        case "Story Serif":     return Theme.Fonts.body(size)
         case "New York":        return .system(size: size, design: .serif)
         case "Georgia":         return .custom("Georgia", size: size)
         case "Palatino":        return .custom("Palatino", size: size)
@@ -126,18 +143,7 @@ class SettingsModel: ObservableObject {
         }
     }
 
-    init() {
-        applyTheme()
-    }
-    
-    private func applyTheme() {
-        // Set the system-wide appearance
-        if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
-            windowScene.windows.forEach { window in
-                window.overrideUserInterfaceStyle = isDarkMode ? .dark : .light
-            }
-        }
-    }
+    init() {}
 }
 
 // Color hex helpers now live in Theme.swift.

@@ -52,9 +52,9 @@ struct EndingsGridView: View {
         let isFound = discovered.contains(node.id)
         let label = node.endingTitle ?? "An ending"
         ZStack(alignment: .leading) {
-            WobblyRect(jitter: 0.4, corner: 6, seed: CGFloat(node.id.hashValue % 60))
+            WobblyRect(jitter: 0.4, corner: 6, seed: CGFloat(node.id.stableSeed(60)))
                 .fill(isFound ? Theme.Palette.butterDeep : Theme.Palette.mist)
-            WobblyRect(jitter: 0.4, corner: 6, seed: CGFloat(node.id.hashValue % 60))
+            WobblyRect(jitter: 0.4, corner: 6, seed: CGFloat(node.id.stableSeed(60)))
                 .stroke(Theme.Palette.ink, lineWidth: isFound ? Theme.Stroke.bold : Theme.Stroke.hair)
             HStack(spacing: 8) {
                 DoodleIcon(isFound ? .starFill : .star,

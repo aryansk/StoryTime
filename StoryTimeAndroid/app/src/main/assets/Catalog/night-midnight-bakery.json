@@ -1,0 +1,201 @@
+{
+  "id": "night-midnight-bakery",
+  "title": "The Midnight Bakery",
+  "sourceTitle": "The Midnight Bakery",
+  "kind": "book",
+  "synopsis": "The bakery on your street only lights its windows when you can't sleep. Tonight the door is open, and the price of a warm loaf is a single memory.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "cozy"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "Two in the morning, and every window on the block is dark but one. The little bakery you have passed a thousand times glows amber, its door propped with a flour sack. Warm bread smells drift out to meet you like an old friend who has been waiting up.",
+      "sceneTitle": "The Only Light on the Street",
+      "choices": [
+        {
+          "text": "Push open the door",
+          "consequence": "You commit to “Push open the door.” The story records the instinct as “Curious” and carries it forward.",
+          "nextNodeId": "s_counter"
+        },
+        {
+          "text": "Watch from the cold window first",
+          "consequence": "You commit to “Watch from the cold window first.” The story records the instinct as “Cautious” and carries it forward.",
+          "nextNodeId": "s_window"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_counter",
+      "text": "The baker is old in the way of lighthouses — weathered, patient, still burning. \"We don't take money here,\" she says, sliding a proofing loaf toward you. \"A loaf costs one memory. Any one you like. I keep it warm so it never goes stale.\"",
+      "sceneTitle": "What the Baker Trades",
+      "choices": [
+        {
+          "text": "Offer a bright, easy memory",
+          "consequence": "The decision settles the question for now. Its verdict—Kind—follows you into whatever comes next.",
+          "nextNodeId": "s_bright"
+        },
+        {
+          "text": "Offer the memory that keeps you up",
+          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "nextNodeId": "s_heavy"
+        },
+        {
+          "text": "Ask where the memories go",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "nextNodeId": "s_ovens"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_window",
+      "text": "Your breath fogs the cold pane. Inside, at the corner table, sits someone you lost a long time ago — patient, unhurried, exactly as you remember them. They have not noticed you yet. The baker glances up and holds the door with her eyes, not her hands.",
+      "sceneTitle": "Through the Glass",
+      "choices": [
+        {
+          "text": "Knock on the glass",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "nextNodeId": "s_reunion"
+        },
+        {
+          "text": "Turn quietly toward home",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "nextNodeId": "end_walk"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_bright",
+      "text": "You give her a golden afternoon — nothing precious, just sunlight and a dock and someone laughing. The bread she hands back tastes exactly of it. But when you reach for that summer now, it comes back soft-edged, secondhand, warm but no longer quite yours.",
+      "sceneTitle": "A Loaf Like Summer",
+      "choices": [
+        {
+          "text": "Eat, and stay in the warmth a while",
+          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "nextNodeId": "s_ovens"
+        },
+        {
+          "text": "Take the loaf and go",
+          "consequence": "There is no taking “Take the loaf and go” back. Honest shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_fed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_heavy",
+      "text": "You hand over the memory you have carried alone for years — the one that turns three a.m. into a courtroom. The baker takes it gently, without flinching. The loaf she gives back is impossibly light. So, suddenly, are you. And you are not sure who you are without the weight.",
+      "sceneTitle": "The Loaf That Weighs Nothing",
+      "choices": [
+        {
+          "text": "Ask for it back",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "nextNodeId": "s_reunion"
+        },
+        {
+          "text": "Let it stay gone",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Free.",
+          "nextNodeId": "end_lighter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_ovens",
+      "text": "She lifts a hatch. The ovens beneath the shop are not fired by wood. They are fired by memories — every bright and heavy thing anyone ever traded — and their warmth is what feeds the sleepless all over the city, in loaves left on the right doorsteps. \"Somebody has to tend them,\" she says.",
+      "sceneTitle": "Behind the Ovens",
+      "choices": [
+        {
+          "text": "Offer to keep the ovens",
+          "consequence": "The decision settles the question for now. Its verdict—Devoted—follows you into whatever comes next.",
+          "nextNodeId": "end_keeper"
+        },
+        {
+          "text": "Just buy a roll and leave grateful",
+          "consequence": "The decision settles the question for now. Its verdict—Kind—follows you into whatever comes next.",
+          "nextNodeId": "end_fed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_reunion",
+      "text": "You sit across from the person you lost. They pour you tea and do not ask where the years went, because here the years have not gone anywhere. \"Dawn is a kind of tide,\" they say softly. \"I can't stay past it. But I can stay until it.\"",
+      "sceneTitle": "The Corner Table",
+      "choices": [
+        {
+          "text": "Say the thing you never got to say",
+          "consequence": "You commit to “Say the thing you never got to say.” The story records the instinct as “Heart” and carries it forward.",
+          "nextNodeId": "end_goodbye"
+        },
+        {
+          "text": "Sit in silence and simply be near them",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "nextNodeId": "end_goodbye"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_walk",
+      "text": "You do not knock. Some grief you would rather keep whole than trade away, and some doors are kinder left closed. You walk the long way home under a thinning dark, and you sleep — eventually, and better than you feared.",
+      "sceneTitle": "The Long Way Home",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Long Way Home"
+    },
+    {
+      "id": "end_fed",
+      "text": "You leave with a roll cupped in both hands, and the small ordinary miracle of being fed at an hour when the world is asleep. It is enough. Not every night has to change your life to be worth staying up for.",
+      "sceneTitle": "A Warm Thing to Hold",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Warm Thing to Hold"
+    },
+    {
+      "id": "end_lighter",
+      "text": "You let the heavy memory stay in the warm dark of the ovens, feeding strangers you will never meet. You walk out unburdened and a little unfinished, carrying a loaf that weighs nothing at all — and wondering, already, what it was.",
+      "sceneTitle": "Lighter by One",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Lighter by One"
+    },
+    {
+      "id": "end_keeper",
+      "text": "You tie on the apron. The baker smiles the way people smile when they can finally rest, and steps out into a dawn she has not seen in years. Now it is your hands that keep the memories warm, and your loaves on the right doorsteps, for everyone who cannot sleep.",
+      "sceneTitle": "Keeper of the Night Ovens",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Keeper of the Night Ovens"
+    },
+    {
+      "id": "end_goodbye",
+      "text": "You get the hour you were never given — no clock, no crisis, just tea going cold and everything unspoken finally set down. When dawn arrives like a tide, they go the way the loved go here: gently, and without the sting. You keep the warmth.",
+      "sceneTitle": "One More Quiet Hour",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "One More Quiet Hour"
+    }
+  ]
+}

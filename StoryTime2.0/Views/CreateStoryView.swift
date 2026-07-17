@@ -291,7 +291,7 @@ private struct GenerateStoryForm: View {
                     Text("Anthropic API key")
                         .font(Theme.Fonts.label())
                         .foregroundColor(Theme.Palette.inkSoft)
-                    SketchTextField(placeholder: "sk-ant-…", text: apiKeyBinding)
+                    SketchSecureField(placeholder: "sk-ant-…", text: apiKeyBinding)
                     Text("Stored on this device only. Get a key at console.anthropic.com.")
                         .font(Theme.Fonts.bodyItalic(12))
                         .foregroundColor(Theme.Palette.inkSoft)
@@ -372,6 +372,7 @@ private struct GenerateStoryForm: View {
                 onSaved()
             }
         } catch {
+            settings.refundAIGeneration()
             status = (error as? LocalizedError)?.errorDescription ?? error.localizedDescription
         }
     }

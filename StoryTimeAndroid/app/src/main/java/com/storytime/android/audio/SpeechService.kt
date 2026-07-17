@@ -14,16 +14,25 @@ class SpeechService(context: Context) {
 
     private var rate: Float = 1.0f
     private var ready = false
-    private val tts = TextToSpeech(context.applicationContext) { status ->
-        ready = status == TextToSpeech.SUCCESS
-        if (ready) {
-            tts?.language = Locale.getDefault()
-            tts?.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
-                override fun onStart(utteranceId: String?) { _isSpeaking.value = true }
-                override fun onDone(utteranceId: String?) { _isSpeaking.value = false }
-                @Deprecated("Deprecated in Java")
-                override fun onError(utteranceId: String?) { _isSpeaking.value = false }
-            })
+    // `lateinit` rather than a self-referencing `val`: the previous
+    // `private val tts = TextToSpeech(...) { tts?.language = ... }` referenced
+    // `tts` inside its own initializer, which the Kotlin compiler rejects
+    // ("Variable 'tts' must be initialized"). The OnInit callback fires
+    // asynchronously, after the assignment completes, so a lateinit var is safe.
+    private lateinit var tts: TextToSpeech
+
+    init {
+        tts = TextToSpeech(context.applicationContext) { status ->
+            ready = status == TextToSpeech.SUCCESS
+            if (ready) {
+                tts.language = Locale.getDefault()
+                tts.setOnUtteranceProgressListener(object : UtteranceProgressListener() {
+                    override fun onStart(utteranceId: String?) { _isSpeaking.value = true }
+                    override fun onDone(utteranceId: String?) { _isSpeaking.value = false }
+                    @Deprecated("Deprecated in Java")
+                    override fun onError(utteranceId: String?) { _isSpeaking.value = false }
+                })
+            }
         }
     }
 

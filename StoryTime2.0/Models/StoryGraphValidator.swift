@@ -43,21 +43,50 @@ enum StoryGraphValidator {
         }
 
         for node in story.nodes {
+            if node.id.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                issues.append(Issue(nodeId: nil, message: "node has an empty id"))
+            }
+            if node.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                issues.append(Issue(nodeId: node.id, message: "scene text is empty"))
+            }
+            if (node.sceneTitle ?? "").trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                issues.append(Issue(nodeId: node.id, message: "scene title is empty"))
+            }
+
             // Every choice target must resolve.
             for choice in node.choices {
-                if let target = choice.nextNodeId, !ids.contains(target) {
+                if choice.text.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                    issues.append(Issue(nodeId: node.id, message: "choice text is empty"))
+                }
+                if choice.consequence.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                    issues.append(Issue(nodeId: node.id, message: "choice consequence is empty"))
+                }
+                guard let target = choice.nextNodeId, !target.isEmpty else {
+                    issues.append(Issue(nodeId: node.id, message: "choice has no target"))
+                    continue
+                }
+                if !ids.contains(target) {
                     issues.append(Issue(nodeId: node.id,
                                         message: "choice targets missing node '\(target)'"))
                 }
+            }
+            let normalizedChoices = node.choices.map {
+                $0.text.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
+            }
+            if Set(normalizedChoices).count != normalizedChoices.count {
+                issues.append(Issue(nodeId: node.id, message: "choice labels must be unique"))
             }
             // Endings carry no choices; decision nodes must offer some.
             if node.isEnding && !node.choices.isEmpty {
                 issues.append(Issue(nodeId: node.id,
                                     message: "ending node must not have choices"))
             }
-            if !node.isEnding && node.choices.isEmpty {
+            if node.isEnding && (node.endingTitle ?? "").trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
+                issues.append(Issue(nodeId: node.id, message: "ending title is empty"))
+            }
+            if !node.isEnding && node.choices.count < 2 {
                 issues.append(Issue(nodeId: node.id,
-                                    message: "decision node has no choices (dead end)"))
+                                    message: "decision node has fewer than two choices (dead end)"))
             }
         }
 

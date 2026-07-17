@@ -43,7 +43,7 @@
       "choices": [
         {
           "text": "Ask what 'except this round' means",
-          "consequence": "Always ask.",
+          "consequence": "There is no taking “Ask what 'except this round' means” back. Always ask shapes the silence before the next moment arrives.",
           "nextNodeId": "s4"
         },
         {
@@ -100,7 +100,7 @@
       "choices": [
         {
           "text": "Refuse the producer's offer",
-          "consequence": "Stay clean.",
+          "consequence": "“Refuse the producer's offer” closes one possibility and opens another. The moment leaves a clear note behind: Stay clean.",
           "nextNodeId": "s6"
         },
         {
@@ -162,7 +162,7 @@
         },
         {
           "text": "Trust nobody, smile at everyone",
-          "consequence": "Solo posture.",
+          "consequence": "“Trust nobody, smile at everyone” closes one possibility and opens another. The moment leaves a clear note behind: Solo posture.",
           "nextNodeId": "s11"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Wait him out",
-          "consequence": "Game theory.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Game theory.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take the dive for him",
-          "consequence": "Pact theory.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pact theory.",
           "nextNodeId": "s17"
         }
       ],
@@ -333,7 +333,7 @@
         },
         {
           "text": "Move on — it's a game",
-          "consequence": "Compartmentalize.",
+          "consequence": "There is no taking “Move on — it's a game” back. Compartmentalize shapes the silence before the next moment arrives.",
           "nextNodeId": "s19"
         }
       ],
@@ -371,7 +371,7 @@
         },
         {
           "text": "Take the win quietly and disappear for a year",
-          "consequence": "Recover.",
+          "consequence": "“Take the win quietly and disappear for a year” closes one possibility and opens another. The moment leaves a clear note behind: Recover.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Cut checks to the people who got you here",
-          "consequence": "Public generosity.",
+          "consequence": "There is no taking “Cut checks to the people who got you here” back. Public generosity shapes the silence before the next moment arrives.",
           "nextNodeId": "end_share"
         },
         {
           "text": "Send one to your mother and disappear for a year",
-          "consequence": "Private decompression.",
+          "consequence": "There is no taking “Send one to your mother and disappear for a year” back. Private decompression shapes the silence before the next moment arrives.",
           "nextNodeId": "end_quiet"
         }
       ],

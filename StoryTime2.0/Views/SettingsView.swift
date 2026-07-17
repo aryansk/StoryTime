@@ -106,7 +106,7 @@ struct SettingsView: View {
 
                         // Reading
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Reading")
+                            SketchSectionHeader("Reading", horizontalInset: 0)
                             SketchCard(seed: 11.5) {
                                 VStack(alignment: .leading, spacing: 14) {
                                     Text("Text Size")
@@ -129,6 +129,16 @@ struct SettingsView: View {
                                     Text("The doors close. The procedure begins.")
                                         .font(settings.readerFont(settings.textSize))
                                         .foregroundColor(Theme.Palette.ink)
+                                        .lineSpacing(settings.textSize * settings.readerLineSpacing)
+
+                                    Text("Line Spacing")
+                                        .font(Theme.Fonts.label())
+                                        .foregroundColor(Theme.Palette.inkSoft)
+                                    Slider(value: $settings.readerLineSpacing,
+                                           in: 0.35...0.8,
+                                           step: 0.05)
+                                        .tint(Theme.Palette.ink)
+                                        .accessibilityLabel("Reader line spacing")
 
                                     SketchDivider()
 
@@ -159,6 +169,49 @@ struct SettingsView: View {
                                                 .foregroundColor(Theme.Palette.inkSoft)
                                         }
                                     }
+
+                                    SketchDivider()
+
+                                    Toggle(isOn: $settings.focusModeByDefault) {
+                                        HStack(spacing: 10) {
+                                            DoodleIcon(.focus, size: 18)
+                                            VStack(alignment: .leading, spacing: 2) {
+                                                Text("Start in focus mode")
+                                                    .font(Theme.Fonts.body(15))
+                                                Text("Hide navigation and metadata while reading")
+                                                    .font(Theme.Fonts.bodyItalic(12))
+                                                    .foregroundColor(Theme.Palette.inkSoft)
+                                            }
+                                            .foregroundColor(Theme.Palette.ink)
+                                        }
+                                    }
+                                    .tint(Theme.Palette.ink)
+                                }
+                            }
+                        }
+                        .padding(.horizontal, 24)
+
+                        // Reading goal
+                        VStack(alignment: .leading, spacing: 14) {
+                            SketchSectionHeader("Reading Goal", horizontalInset: 0)
+                            SketchCard(fill: Theme.Palette.butterDeep, seed: 11.7) {
+                                HStack(spacing: 14) {
+                                    DoodleIcon(.flame, size: 28)
+                                    VStack(alignment: .leading, spacing: 4) {
+                                        Text("\(settings.dailySceneGoal) scenes a day")
+                                            .font(Theme.Fonts.cardTitle())
+                                            .foregroundColor(Theme.Palette.ink)
+                                        Text("A small goal that builds a reading rhythm without turning stories into homework.")
+                                            .font(Theme.Fonts.bodyItalic(13))
+                                            .foregroundColor(Theme.Palette.inkSoft)
+                                            .lineSpacing(3)
+                                    }
+                                    Spacer()
+                                    Stepper("Daily scene goal",
+                                            value: $settings.dailySceneGoal,
+                                            in: 1...20)
+                                        .labelsHidden()
+                                        .tint(Theme.Palette.ink)
                                 }
                             }
                         }
@@ -166,7 +219,7 @@ struct SettingsView: View {
 
                         // Appearance
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Appearance")
+                            SketchSectionHeader("Appearance", horizontalInset: 0)
                             SketchCard(seed: 11.9) {
                                 VStack(alignment: .leading, spacing: 16) {
                                     // Dark mode
@@ -242,7 +295,7 @@ struct SettingsView: View {
 
                         // Narration
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Narration")
+                            SketchSectionHeader("Narration", horizontalInset: 0)
                             SketchCard(seed: 12.5) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     Text("Speech Rate")
@@ -262,7 +315,7 @@ struct SettingsView: View {
 
                         // Reminders
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Reminders")
+                            SketchSectionHeader("Reminders", horizontalInset: 0)
                             SketchCard(seed: 13.5) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     Toggle(isOn: Binding(
@@ -337,7 +390,7 @@ struct SettingsView: View {
 
                         // Companion mode
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Companion Mode")
+                            SketchSectionHeader("Companion Mode", horizontalInset: 0)
                             SketchCard(seed: 14.3) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     Toggle(isOn: $settings.companionEnabled) {
@@ -371,7 +424,7 @@ struct SettingsView: View {
 
                         // Ambience
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Ambience")
+                            SketchSectionHeader("Ambience", horizontalInset: 0)
                             SketchCard(seed: 14.7) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     Toggle(isOn: $settings.ambienceEnabled) {
@@ -395,7 +448,7 @@ struct SettingsView: View {
 
                         // Catalog source
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Catalog Source")
+                            SketchSectionHeader("Catalog Source", horizontalInset: 0)
                             SketchCard(seed: 13.9) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     Text("Remote catalog URL")
@@ -437,7 +490,7 @@ struct SettingsView: View {
 
                         // Data
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("Data")
+                            SketchSectionHeader("Data", horizontalInset: 0)
                             SketchCard(seed: 14.85) {
                                 VStack(alignment: .leading, spacing: 12) {
                                     SketchButton(title: "Reset Stats",
@@ -465,7 +518,7 @@ struct SettingsView: View {
 
                         // About
                         VStack(alignment: .leading, spacing: 14) {
-                            SketchSectionHeader("About")
+                            SketchSectionHeader("About", horizontalInset: 0)
                             SketchCard(seed: 14.5) {
                                 VStack(alignment: .leading, spacing: 6) {
                                     HStack(spacing: 8) {
@@ -513,4 +566,3 @@ struct SettingsView: View {
         }
     }
 }
-

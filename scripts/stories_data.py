@@ -2041,17 +2041,17 @@ SCARY_MOVIE_4 = ({
      ]},
     {"id": "s16", "title": "Brenda's Speech", "text": "Brenda gives a Best Original Speech that makes the aliens cry chrome tears. The tripods all sit down in formation. Earth's anthem plays through three different car alarms.",
      "choices": [
-        ("Kiss Brenda for the credits", "Spoof endings demand it.", "end_love"),
+        ("Kiss Brenda for the credits", "Spoof endings demand it.", "s20"),
         ("Crown Brenda president immediately", "Bypass the constitution by applause.", "end_president"),
      ]},
     {"id": "s17", "title": "Tom Ryan, Hero?", "text": "Tom Ryan, despite being absolutely no good at parenting, manages to defeat the lead alien by accident with a beer bong and a leaf blower. His son slow-claps with the propeller hat still spinning.",
      "choices": [
-        ("Let Tom take the credit", "Sometimes the doofus wins.", "end_doofus"),
+        ("Let Tom take the credit", "Sometimes the doofus wins.", "s18"),
         ("Steal the credit on live TV", "Karma takes a sick day in spoofs.", "end_steal"),
      ]},
     {"id": "s18", "title": "End-Credit Scene Setup", "text": "The threat is over. A second tripod ominously rises behind you. Then a third. Then a fourth, which is just a person on stilts who's late to the bit.",
      "choices": [
-        ("Run for a sequel hook", "Studio mandate.", "end_sequel"),
+        ("Run for a sequel hook", "Studio mandate.", "s19"),
         ("Decide not to look back", "Endings are also choices.", "end_walkoff"),
      ]},
     {"id": "s19", "title": "The Cameo", "text": "A famous-but-unnamed celebrity stops the scene to demand a cameo. They've heard the residuals are good. You allow it because they brought their own catering.",
@@ -2061,7 +2061,7 @@ SCARY_MOVIE_4 = ({
      ]},
     {"id": "s20", "title": "Roll Credits", "text": "The credits roll over outtakes of you tripping into a wedding cake. Audiences laugh. Critics will be furious. Studio sets a release date for Scary Movie 5 before the lights come up.",
      "choices": [
-        ("Stand for the bows", "Take the laugh.", "end_love"),
+        ("Stand for the bows", "Take the laugh.", "s21"),
         ("Slip out the back of the cinema", "Quit while you're winning.", "end_walkoff"),
      ]},
     {"id": "s21", "title": "Bonus Scene", "text": "You and Brenda, three years later, are at a kids' birthday party. The clown is, suspiciously, an alien in a hat. Nobody is paying attention. You smile, because that's the joke.",
@@ -2327,8 +2327,8 @@ MERCY = ({
      ]},
     {"id": "s18", "title": "The Ruling", "text": "Park reads the ruling herself. She overrides MERCY, dismisses the charges, and orders an inquiry into the model's bias floor. The court goes quiet in a way that feels, briefly, like the future correcting itself.",
      "choices": [
-        ("Walk Sara out to her family", "Always remember whose day this is.", "end_sara"),
-        ("File the systemic complaint today", "Don't let momentum cool.", "end_systemic"),
+        ("Walk Sara out to her family", "Always remember whose day this is.", "s21"),
+        ("File the systemic complaint today", "Don't let momentum cool.", "s20"),
      ]},
     {"id": "s19", "title": "The Loss That Wins", "text": "MERCY upholds itself. Park, frustrated, writes a scathing concurrence. The case is appealed, and the appeal becomes the test case that ends MERCY's deployment in three states.",
      "choices": [
@@ -4400,7 +4400,7 @@ DEVS = ({
     {"id": "s19", "title": "After", "text": "The lab is shut. Forest dies. Lily, somehow, doesn't. You go home with a security guard's coat over your shoulders. The street outside is unrendered and dry and yours.",
      "choices": [
         ("Testify in the federal inquiry", "Witness.", "end_inquiry"),
-        ("Disappear and rebuild", "Some endings are private.", "end_quiet"),
+        ("Disappear and rebuild", "Some endings are private.", "s20"),
      ]},
     {"id": "s20", "title": "Many Worlds, One Coffee", "text": "Years later, in a coffee shop, you flip a coin twenty times in a row to remind yourself that the future is not yet written. It comes up heads thirteen times. You laugh. You did not, after all, become the prediction.",
      "choices": [
@@ -9140,3 +9140,11 @@ from top_genres_comedy import COMEDY_SPECS
 from top_genres_scifi import SCIFI_SPECS
 from top_genres_horror import HORROR_SPECS
 SPECS += ACTION_SPECS + DRAMA_SPECS + COMEDY_SPECS + SCIFI_SPECS + HORROR_SPECS
+
+# First-party signature stories set the quality bar for future originals.
+from original_stories import ORIGINAL_SPECS
+SPECS += ORIGINAL_SPECS
+
+# "The Night Shelf" — a curated set of after-midnight doorway originals.
+from original_shorts import NIGHT_SHELF_SPECS
+SPECS += NIGHT_SHELF_SPECS

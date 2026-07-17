@@ -1,0 +1,180 @@
+{
+  "id": "night-tenant-below",
+  "title": "The Tenant Below",
+  "sourceTitle": "The Tenant Below",
+  "kind": "book",
+  "synopsis": "Your first night in the new apartment, a note slides under your door: please stop dragging the chair at 3 a.m. You don't own a chair. And it isn't 3 a.m. yet.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Horror",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "uncanny"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You have not unpacked a single box. You have not made a single sound. Still, at 9 p.m. on your first night, a folded note whispers under the door in tidy handwriting: Please stop dragging the chair at 3 a.m. It's every night now. — 3B. You do not own a chair.",
+      "sceneTitle": "The First Note",
+      "choices": [
+        {
+          "text": "Slip a polite note back",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Kind.",
+          "nextNodeId": "s_reply"
+        },
+        {
+          "text": "Go downstairs and knock on 3B",
+          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "nextNodeId": "s_knock"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_reply",
+      "text": "You write: New tenant, no chair, so sorry — must be the pipes. By morning a reply waits: The chair again last night. And now the humming, that low tune you do. Please. You have never hummed in this apartment. You buy a secondhand chair that afternoon without letting yourself ask why.",
+      "sceneTitle": "Correspondence",
+      "choices": [
+        {
+          "text": "Test it — drag the chair at 3 a.m. on purpose",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Curious.",
+          "nextNodeId": "s_test"
+        },
+        {
+          "text": "Keep the apartment silent all night",
+          "consequence": "There is no taking “Keep the apartment silent all night” back. Cautious shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_silent"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_knock",
+      "text": "No one answers the knock, but the door is chained from inside and a voice comes through the gap — thin, kind, exhausted. \"Oh,\" it says, as if you have arrived somewhere it did not expect you yet. \"You're early. You're not supposed to be making the sounds yet.\"",
+      "sceneTitle": "Apartment 3B",
+      "choices": [
+        {
+          "text": "Ask what they mean by early",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "nextNodeId": "s_early"
+        },
+        {
+          "text": "Leave, and never knock again",
+          "consequence": "You commit to “Leave, and never knock again.” The story records the instinct as “Honest” and carries it forward.",
+          "nextNodeId": "s_silent"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_test",
+      "text": "You wait up. At 2:59 you grip the chair, and at 3:00 exactly you drag it hard across the floor. The note is already there. It has been there for hours, timestamped, describing this precise scrape, this precise minute — and one line more, at the bottom, waiting for you to catch up to it.",
+      "sceneTitle": "3:00 A.M.",
+      "choices": [
+        {
+          "text": "Read the next line and follow it",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "nextNodeId": "s_early"
+        },
+        {
+          "text": "Burn the notes and start packing",
+          "consequence": "You commit to “Burn the notes and start packing.” The story records the instinct as “Free” and carries it forward.",
+          "nextNodeId": "end_left"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_silent",
+      "text": "You make no sound at all. You breathe through your mouth. You do not so much as shift your weight. And at 3 a.m. the note comes anyway: Thank you for trying. But you should know — it was never you making the sounds. It's the floor. It practices.",
+      "sceneTitle": "The Silent Night",
+      "choices": [
+        {
+          "text": "Stay awake to catch the real source",
+          "consequence": "There is no taking “Stay awake to catch the real source” back. Brave shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_source"
+        },
+        {
+          "text": "Set a packed bag by the door, just in case",
+          "consequence": "“Set a packed bag by the door, just in case” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "nextNodeId": "end_left"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_early",
+      "text": "\"The building runs a night ahead of the people in it,\" 3B says. \"The notes aren't complaints. They're warnings. I'm you — a night further on than you are now — sliding them back so you'll know what you're about to do before you do it. I've been doing it for a long time.\"",
+      "sceneTitle": "Early",
+      "choices": [
+        {
+          "text": "Start writing notes forward yourself",
+          "consequence": "There is no taking “Start writing notes forward yourself” back. Devoted shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_keeper"
+        },
+        {
+          "text": "Refuse to play along",
+          "consequence": "There is no taking “Refuse to play along” back. Spirit shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_source"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_source",
+      "text": "You find it at last, in the space between the floors: the building rehearsing its tenants — every scrape and hum and footstep of everyone who ever lived here or ever will, all at once, learning to sound lived-in. It notices you noticing. It would like you to be a very good tenant.",
+      "sceneTitle": "What Makes the Sounds",
+      "choices": [
+        {
+          "text": "Join the rehearsal; become part of the house",
+          "consequence": "“Join the rehearsal; become part of the house” closes one possibility and opens another. The moment leaves a clear note behind: Quiet.",
+          "nextNodeId": "end_stay"
+        },
+        {
+          "text": "Break the pattern and run",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "nextNodeId": "end_left"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_left",
+      "text": "You leave before your second night, boxes still taped, deposit forfeited. Weeks later you drive past and see a light in your old window and a new name on the buzzer. You mail them a single note, tidy and unsigned: Please don't drag the chair at 3 a.m. It never stops.",
+      "sceneTitle": "The Lease Breaks You",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Lease Breaks You"
+    },
+    {
+      "id": "end_keeper",
+      "text": "You take up the pen and the chain and the long patient watch. Now you are the voice through the gap in 3B, a night ahead, slipping warnings backward to whoever moves in next — hoping, each time, that this one reads them early enough to leave.",
+      "sceneTitle": "Tomorrow's Neighbor",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Tomorrow's Neighbor"
+    },
+    {
+      "id": "end_stay",
+      "text": "You stop resisting, and the house is so grateful. You are quiet now, wonderfully quiet, folded into its long memory with all the others. Sometimes, when a new tenant lies awake upstairs, you help with the sounds. You are, everyone agrees, a very good tenant.",
+      "sceneTitle": "A Very Good Tenant",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Very Good Tenant"
+    }
+  ]
+}

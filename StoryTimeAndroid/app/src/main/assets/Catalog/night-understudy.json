@@ -1,0 +1,188 @@
+{
+  "id": "night-understudy",
+  "title": "The Understudy",
+  "sourceTitle": "The Understudy",
+  "kind": "book",
+  "synopsis": "Twenty minutes to curtain on opening night, the lead has vanished and the house is full. You are the understudy. You also know exactly where she is — because an hour ago, you turned the key.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Thriller",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "ambition"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "The stage manager is white-knuckled: Vivian is gone, vanished between the half-hour call and now, and the house is sold out to the rafters. You arrange your face into shock. You are very good at faces. You are the only person alive who knows Vivian is in the prop cellar, behind a door you locked \"by accident\" an hour ago.",
+      "sceneTitle": "Twenty Minutes to Curtain",
+      "choices": [
+        {
+          "text": "Say nothing and get into costume",
+          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "nextNodeId": "s_costume"
+        },
+        {
+          "text": "Confess the door before it's too late",
+          "consequence": "“Confess the door before it's too late” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "nextNodeId": "s_confess"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_costume",
+      "text": "The dresser's hands fly. Powder, pins, the wig that turns you into Vivian's shadow. In the mirror you watch yourself become the part you have understudied for two silent, swallowing years. Somewhere far below the stage, faint through the floor, a knocking begins.",
+      "sceneTitle": "The Dresser's Hands",
+      "choices": [
+        {
+          "text": "Go on when they call your name",
+          "consequence": "There is no taking “Go on when they call your name” back. Spirit shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_stage"
+        },
+        {
+          "text": "Change your mind and free her",
+          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "nextNodeId": "s_free"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_confess",
+      "text": "You catch the director in the wings and tell him — the door, the cellar, the hour. He does not shout. He goes very quiet, which is worse, and asks the only question that matters: \"Is she hurt?\" The stage manager is already counting down. Twelve minutes.",
+      "sceneTitle": "In the Wings",
+      "choices": [
+        {
+          "text": "Run to free her yourself",
+          "consequence": "“Run to free her yourself” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "nextNodeId": "s_free"
+        },
+        {
+          "text": "Let them handle it and quietly quit",
+          "consequence": "“Let them handle it and quietly quit” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "nextNodeId": "end_walk"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_stage",
+      "text": "They call the part and you walk into your light, and it is the performance of your life — precise, incandescent, everything you swore you had in you. The knocking beneath the boards swells to a pounding, then to a frenzy the front rows must surely feel. Then, at your biggest line, it stops.",
+      "sceneTitle": "Your Light",
+      "choices": [
+        {
+          "text": "Ride the ovation and never look back",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "nextNodeId": "end_star"
+        },
+        {
+          "text": "Break character at the curtain call and tell the truth",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "nextNodeId": "s_curtain"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_free",
+      "text": "You take the stairs three at a time and turn the key. Vivian is unhurt, furious, and far too clever — she reads the whole thing off your face in a single second: the lock, the hour, the costume you are still wearing. \"Understudy,\" she says, almost admiring. \"You really wanted it.\"",
+      "sceneTitle": "The Cellar Door",
+      "choices": [
+        {
+          "text": "Beg her to go on; take her place tomorrow",
+          "consequence": "“Beg her to go on; take her place tomorrow” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "nextNodeId": "s_pact"
+        },
+        {
+          "text": "Offer to take the fall, publicly, tonight",
+          "consequence": "“Offer to take the fall, publicly, tonight” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "nextNodeId": "end_fall"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_curtain",
+      "text": "At the curtain call, into the roar, you raise a hand and tell the house what you did. The gasp is a physical thing. And then Vivian walks out from the wings — released, alive, radiant with rage — and takes your hand, or your throat; from the balcony no one can quite tell which.",
+      "sceneTitle": "At the Bow",
+      "choices": [
+        {
+          "text": "Let her decide your ending",
+          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "nextNodeId": "s_pact"
+        },
+        {
+          "text": "Walk off into the dark",
+          "consequence": "“Walk off into the dark” closes one possibility and opens another. The moment leaves a clear note behind: Free.",
+          "nextNodeId": "end_walk"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_pact",
+      "text": "Backstage, Vivian is unnervingly calm. \"Every understudy wants the part,\" she says, fixing her lipstick in your mirror. \"Almost none of them are willing to earn it. Split the run with me — alternate nights, top billing shared — and we never, ever speak of the door.\"",
+      "sceneTitle": "The Pact",
+      "choices": [
+        {
+          "text": "Take the pact",
+          "consequence": "“Take the pact” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "nextNodeId": "end_pact"
+        },
+        {
+          "text": "Refuse, and clear your conscience",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "nextNodeId": "end_fall"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_walk",
+      "text": "You leave the theatre and you do not come back — not that night, not ever. You take a job where no one gets locked in cellars and no one gets ovations either. You sleep badly for a while, then better. You are free of it, mostly. Mostly is the best you get.",
+      "sceneTitle": "Exit, Stage Left",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Exit, Stage Left"
+    },
+    {
+      "id": "end_star",
+      "text": "The reviews are rapturous; a star is born, they write, overnight. You keep the clippings and bury what the night actually cost beneath them. On paper you are luminous. In the quiet after the curtain, alone, you are the only audience that knows the truth, and you never applaud.",
+      "sceneTitle": "One Perfect Night",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "One Perfect Night"
+    },
+    {
+      "id": "end_fall",
+      "text": "You take the fall all the way down — the police, the papers, the end of the only career you ever wanted. Unburdened is not the same as unbroken, but it is lighter. Years later Vivian visits you once, unannounced, and thanks you, oddly, for the best night of her life.",
+      "sceneTitle": "The Understudy Confesses",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Understudy Confesses"
+    },
+    {
+      "id": "end_pact",
+      "text": "You take the pact and the shared marquee and the secret that binds you tighter than any contract. You are brilliant together — the critics adore the chemistry — and every night one of you watches the other from the wings, near the cellar door, and neither of you ever mentions the key.",
+      "sceneTitle": "Two Names on the Marquee",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Two Names on the Marquee"
+    }
+  ]
+}

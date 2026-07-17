@@ -60,6 +60,7 @@ final class ChoiceDNAStore: ObservableObject {
     @Published private(set) var totalChoices: Int = 0
 
     private let defaultsKey = "choiceDNA.v1"
+    private lazy var writer = DefaultsWriter<Snapshot>(key: defaultsKey)
 
     init() {
         load()
@@ -98,7 +99,7 @@ final class ChoiceDNAStore: ObservableObject {
     func reset() {
         tally = [:]
         totalChoices = 0
-        persist()
+        persist(immediate: true)
     }
 
     // MARK: Persistence
@@ -108,12 +109,10 @@ final class ChoiceDNAStore: ObservableObject {
         var totalChoices: Int
     }
 
-    private func persist() {
+    private func persist(immediate: Bool = false) {
         let stringTally = Dictionary(uniqueKeysWithValues: tally.map { ($0.key.rawValue, $0.value) })
         let snap = Snapshot(tally: stringTally, totalChoices: totalChoices)
-        if let data = try? JSONEncoder().encode(snap) {
-            UserDefaults.standard.set(data, forKey: defaultsKey)
-        }
+        if immediate { writer.flushNow(snap) } else { writer.schedule(snap) }
     }
 
     private func load() {

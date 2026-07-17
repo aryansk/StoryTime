@@ -1,0 +1,180 @@
+{
+  "id": "night-cartographer",
+  "title": "The Cartographer of Wrong Turns",
+  "sourceTitle": "The Cartographer of Wrong Turns",
+  "kind": "book",
+  "synopsis": "You draw maps of the roads that only appear when someone is truly lost. Past midnight, a soaked courier pounds on your door, begging for the way to a home that no longer has one.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Fantasy",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "roads"
+  ],
+  "rating": 4,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "It is the only trade you know: you map the roads that exist solely for the lost, the ones that vanish the moment a driver knows where they are again. Past midnight a courier hammers your door, rain-soaked and wild-eyed. \"Six hours,\" they gasp. \"I've been driving the same mile for six hours. Draw me the way out.\"",
+      "sceneTitle": "The Lost Courier",
+      "choices": [
+        {
+          "text": "Ask where they were trying to go",
+          "consequence": "You commit to “Ask where they were trying to go.” The story records the instinct as “Wise” and carries it forward.",
+          "nextNodeId": "s_where"
+        },
+        {
+          "text": "Just start drawing what they describe",
+          "consequence": "You commit to “Just start drawing what they describe.” The story records the instinct as “Kind” and carries it forward.",
+          "nextNodeId": "s_draw"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_where",
+      "text": "They give you an address, and your pen stops before it touches the paper. You know that street. That house burned down years ago; the family scattered; the lot is grass now. The courier is driving, at three in the morning, toward a home that is no longer anywhere on the map.",
+      "sceneTitle": "The Address That Moved",
+      "choices": [
+        {
+          "text": "Tell them the truth, gently",
+          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "nextNodeId": "s_truth"
+        },
+        {
+          "text": "Map the road anyway, to the house as it was",
+          "consequence": "There is no taking “Map the road anyway, to the house as it was” back. Heart shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_ghost"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_draw",
+      "text": "You dip the pen and begin. The paper resists — a dry stubbornness, like it does not want to admit the road exists — and then it yields all at once, and a route unspools across it that you have never seen, never surveyed, and somehow recognize the way you recognize a voice from another room.",
+      "sceneTitle": "Ink Finds the Road",
+      "choices": [
+        {
+          "text": "Ride along and follow your own map",
+          "consequence": "You commit to “Ride along and follow your own map.” The story records the instinct as “Brave” and carries it forward.",
+          "nextNodeId": "s_ride"
+        },
+        {
+          "text": "Send them off alone with it",
+          "consequence": "There is no taking “Send them off alone with it” back. Cautious shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_alone"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_truth",
+      "text": "You tell them. They go very still, and then they weep — not surprised, exactly, more like someone finally allowed to. When they can speak again, they ask for something else. \"Then don't map me the place,\" they say. \"Map me the road to the person. They moved. I never got the new address.\"",
+      "sceneTitle": "After the Truth",
+      "choices": [
+        {
+          "text": "Map the road to a person, not a place",
+          "consequence": "There is no taking “Map the road to a person, not a place” back. Heart shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_ghost"
+        },
+        {
+          "text": "Refuse — some roads shouldn't be drawn",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "nextNodeId": "end_closed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_ghost",
+      "text": "You draw it, and this route runs the wrong way down time. It curves back through a lit kitchen window, a year that has already ended, a door that was painted over. It is beautiful and it is a wound. The courier stares at the paper like a drowning person watching the far bank.",
+      "sceneTitle": "The Road That Remembers",
+      "choices": [
+        {
+          "text": "Let them take the road that remembers",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "nextNodeId": "end_home_was"
+        },
+        {
+          "text": "Take the pen back before it's finished",
+          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "nextNodeId": "end_closed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_ride",
+      "text": "You climb into the passenger seat. The road you drew unspools past places lost by other people — a fairground that closed in someone's childhood, a bus stop where a promise was broken, mile after mile of everywhere anyone has ever failed to get to. Your map only shows the next turn, never the whole shape.",
+      "sceneTitle": "Two on a Wrong Turn",
+      "choices": [
+        {
+          "text": "Map every wrong turn you pass",
+          "consequence": "You commit to “Map every wrong turn you pass.” The story records the instinct as “Devoted” and carries it forward.",
+          "nextNodeId": "end_atlas"
+        },
+        {
+          "text": "Get this one courier home and stop",
+          "consequence": "“Get this one courier home and stop” closes one possibility and opens another. The moment leaves a clear note behind: Kind.",
+          "nextNodeId": "s_alone"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_alone",
+      "text": "You press the finished map into their hands and step back into the rain. The taillights pull away, waver at the first impossible junction, choose it, and are gone — swallowed by a road that will erase itself the instant they stop being lost. The street is very quiet without them.",
+      "sceneTitle": "The Courier Drives On",
+      "choices": [
+        {
+          "text": "Keep the copy you traced",
+          "consequence": "There is no taking “Keep the copy you traced” back. Wise shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_atlas"
+        },
+        {
+          "text": "Let it fade from the desk by morning",
+          "consequence": "There is no taking “Let it fade from the desk by morning” back. Free shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_closed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_closed",
+      "text": "You set the pen down and leave the paper blank. Not every lost thing wants finding; some people are driving toward a grief they are not ready to arrive at, and the kindest map is no map at all. You make tea instead, and listen to the rain, and let the road stay unmade.",
+      "sceneTitle": "Some Roads Stay Unmapped",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Some Roads Stay Unmapped"
+    },
+    {
+      "id": "end_home_was",
+      "text": "The courier takes the road that remembers, toward the home that was and the window still burning in a year gone by. Whether they can stay there, whether anyone can stay in a place like that, is not yours to know. But they arrive. For one night, at least, they arrive.",
+      "sceneTitle": "A Window Still Lit",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "A Window Still Lit"
+    },
+    {
+      "id": "end_atlas",
+      "text": "You begin the great book: every road that only the lost can drive, bound in one volume at last. It will never be finished — new wrong turns open faster than you can ink them — but travelers start finding your door on their worst nights, and you are always, always up.",
+      "sceneTitle": "The Atlas of Wrong Turns",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Atlas of Wrong Turns"
+    }
+  ]
+}

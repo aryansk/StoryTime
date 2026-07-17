@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<script>document.documentElement.dataset.theme = (function(){ try { return localStorage.getItem("st-theme") || "light"; } catch(e) { return "light"; } })();</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Stories — StoryTime</title>
+<meta name="description" content="Browse StoryTime's catalog of hand-crafted branching stories — drama, thrillers, comedy, sci-fi, fantasy, and more — and play one right in your browser." />
+<link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+<div id="scroll-progress"></div>
+
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a class="nav-logo" href="/">📖 StoryTime</a>
+    <div class="nav-links">
+      <a href="/features">Features</a>
+      <a href="/stories" aria-current="page">Stories</a>
+      <a href="/ai">StoryTime AI</a>
+      <a href="/download">Download</a>
+    </div>
+    <div class="nav-right">
+      <a class="nav-cta" href="/download">Get the App</a>
+      <button class="theme-toggle" aria-label="Switch theme">🌙</button>
+      <button class="nav-burger" aria-label="Menu" aria-expanded="false">☰</button>
+    </div>
+  </div>
+</nav>
+<div class="mobile-menu">
+  <a href="/features">Features</a>
+  <a href="/stories">Stories</a>
+  <a href="/ai">StoryTime AI</a>
+  <a href="/download">Download</a>
+</div>
+
+<header class="page-hero">
+  <canvas class="dust"></canvas>
+  <div class="aurora" style="width:520px;height:520px;left:-160px;top:40px;background:#6ec1ff;"></div>
+  <div class="aurora" style="width:460px;height:460px;right:-140px;top:220px;background:#a07cff;"></div>
+  <div class="inner">
+    <div class="section-label">The Catalog</div>
+    <h1 class="page-title">176 stories.<br /><span class="grad-text">Zero fixed endings.</span></h1>
+    <p class="section-sub">Original fiction, literary reimaginings, and step-inside what-ifs — each one a hand-built web of choices. Here's a taste of the shelf.</p>
+  </div>
+</header>
+
+<section id="play" style="padding-top: 20px;">
+  <div class="section-inner">
+    <div class="section-label reveal center" style="text-align:center;">Try It Now</div>
+    <h2 class="reveal center" style="text-align:center; margin-left:auto; margin-right:auto;">Play a real story, <span class="grad-text">right here.</span></h2>
+    <p class="section-sub reveal center" style="text-align:center; margin-left:auto; margin-right:auto;">This is the actual opening of <em>The Beach Ball</em>, a Palm Royale story from the app. Your choices are real. So are the consequences.</p>
+
+    <div class="demo-shell reveal">
+      <div class="demo-head">
+        <span class="dot" style="background:#ff5f57"></span>
+        <span class="dot" style="background:#febc2e"></span>
+        <span class="dot" style="background:#28c840"></span>
+        <span class="t">The Beach Ball — Palm Royale · Comedy · ⭐⭐⭐⭐⭐</span>
+      </div>
+      <div class="demo-body" id="demo-body"></div>
+    </div>
+  </div>
+</section>
+
+<section id="catalog" style="padding-top: 40px;">
+  <div class="section-inner">
+    <div class="section-label reveal">Featured Stories</div>
+    <h2 class="reveal">Pick a genre. <span class="dim">Lose an evening.</span></h2>
+
+    <div class="chips reveal" id="genre-chips">
+      <button class="chip active" data-genre="all">All</button>
+      <button class="chip" data-genre="Drama">Drama</button>
+      <button class="chip" data-genre="Thriller">Thriller</button>
+      <button class="chip" data-genre="Comedy">Comedy</button>
+      <button class="chip" data-genre="Fantasy">Fantasy</button>
+    </div>
+
+    <div class="story-grid" id="story-grid"></div>
+
+    <p class="section-sub reveal" style="margin-top: 48px;">…plus over a hundred more across drama, thrillers, comedy, sci-fi, fantasy, action, and horror — with new stories added all the time.</p>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="section-label reveal">Keep Reading</div>
+  <h2 class="reveal">The full shelf is <span class="grad-text">in the app.</span></h2>
+  <div class="ctas reveal">
+    <a class="btn btn-primary" href="/download">Download StoryTime</a>
+    <a class="btn btn-secondary" href="/ai">Or write your own with AI</a>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">📖 StoryTime</div>
+        <p class="footer-tag">An immersive story app where branching narratives, multiple endings, and thoughtful reader tools meet beautiful typography.</p>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <a href="/features">Features</a>
+        <a href="/stories">Stories</a>
+        <a href="/ai">StoryTime AI</a>
+      </div>
+      <div>
+        <h4>Get the app</h4>
+        <a href="/download">iPhone (iOS 18.2+)</a>
+        <a href="/download">Android</a>
+        <a href="/download">FAQ</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2026 StoryTime. Every choice writes a new story.</div>
+      <div>Made with SwiftUI &amp; Jetpack Compose</div>
+    </div>
+  </div>
+</footer>
+
+<script src="/site.js" defer></script>
+<script>
+/* ---------- Featured story data (from the real catalog) ---------- */
+const STORIES = [
+  { title: "The Last Lightkeeper", source: "StoryTime", kind: "original", genre: "Fantasy", loved: true,
+    syn: "On the night your lighthouse is meant to go dark forever, the sea begins answering in a language only you remember." },
+  { title: "The Museum of Unsent Letters", source: "StoryTime", kind: "original", genre: "Drama", loved: true,
+    syn: "A museum where every unsent letter still wants to arrive gives you one night to decide which truths should finally be delivered." },
+  { title: "The Beach Ball", source: "Palm Royale", kind: "show", genre: "Comedy", loved: true,
+    syn: "Palm Beach, 1969. The most exclusive ball of the season has one empty seat and you intend to fill it. Smile. Lie beautifully." },
+  { title: "The Recording", source: "Him and Hers", kind: "show", genre: "Thriller", loved: true,
+    syn: "A couple, a perfect apartment, and a voice memo neither of you meant to leave running. The truth has forty-three minutes and a timestamp." },
+  { title: "Me and Sixth Grade and God", source: "Are You There God? It's Me, Margaret.", kind: "movie", genre: "Drama", loved: true,
+    syn: "New town, new school, new everything. You're eleven, and you keep talking to a God you're not sure is listening." },
+  { title: "The Honest Week", source: "Shrinking", kind: "show", genre: "Comedy", loved: true,
+    syn: "You're a grieving therapist who has started saying the unsayable thing out loud to your patients. It keeps working. It also keeps blowing up your life." },
+  { title: "The Moor Between Us", source: "Wuthering Heights", kind: "movie", genre: "Drama", loved: true,
+    syn: "Two souls, one wild stretch of moorland, and a love that refuses to behave. The moor keeps every choice you make on it." },
+  { title: "Perfect", source: "Black Swan", kind: "movie", genre: "Thriller", loved: true,
+    syn: "You've earned the lead in Swan Lake. The mirror is starting to disagree with you. How far will you go to be perfect?" },
+  { title: "The Small Lord", source: "Game of Thrones", kind: "show", genre: "Fantasy", loved: true,
+    syn: "You inherit a castle the size of a wart, on a road every army wants. Two queens want your sword, three gods want your soul, and your maester is out of wine." },
+  { title: "The Feeling", source: "Something Very Bad Is Gonna Happen", kind: "show", genre: "Thriller", loved: true,
+    syn: "You woke at 4:11 a.m. certain that something very bad is about to happen — today, here, to someone you love. You have until midnight to figure out what." },
+  { title: "Closing Shift", source: "Superstore", kind: "show", genre: "Comedy", loved: true,
+    syn: "It's 9:43 p.m. at Cloud 9. The corporate inspector is hiding in Aisle 7 and somebody set off the sprinklers in Pets. You have seventeen minutes to close." },
+  { title: "The Internship", source: "The Pursuit of Happyness", kind: "movie", genre: "Drama", loved: true,
+    syn: "Twenty unpaid weeks, one son, and nineteen other interns competing for the single job at the end. You can't afford to lose. You also can't afford to win." },
+  { title: "Into the Wild", source: "Hoppers", kind: "movie", genre: "Fantasy", loved: true,
+    syn: "A new gadget lets you beam your mind into a lifelike robot animal. You wanted to save the wetland. You didn't expect the animals to have a vote." },
+  { title: "Coup Season", source: "The Great", kind: "show", genre: "Drama", loved: true,
+    syn: "The court is a chessboard, the empress is watching, and every toast might be a trap. Huzzah — now survive it." },
+];
+
+const grid = document.getElementById('story-grid');
+function stars(s) {
+  return '★★★★★' + (s.loved ? '<span class="loved">♥ Loved</span>' : '');
+}
+grid.innerHTML = STORIES.map(s => `
+  <article class="story-card" data-genre="${s.genre}">
+    <div class="meta">
+      <span class="badge">${s.genre}</span>
+      <span class="badge kind">${s.kind === 'show' ? '📺 Series' : s.kind === 'original' ? '✦ Original' : '🎬 Film'}</span>
+    </div>
+    <h3>${s.title}</h3>
+    <div class="source">${s.kind === 'original' ? 'a StoryTime original' : 'inspired by ' + s.source}</div>
+    <p class="syn">${s.syn}</p>
+    <div class="stars">${stars(s)}</div>
+  </article>
+`).join('');
+
+document.getElementById('genre-chips').addEventListener('click', (e) => {
+  const chip = e.target.closest('.chip');
+  if (!chip) return;
+  document.querySelectorAll('#genre-chips .chip').forEach(c => c.classList.remove('active'));
+  chip.classList.add('active');
+  const g = chip.dataset.genre;
+  document.querySelectorAll('.story-card').forEach(card => {
+    card.classList.toggle('hidden', g !== 'all' && card.dataset.genre !== g);
+  });
+});
+
+/* ---------- Playable demo: real scenes from "The Beach Ball" ---------- */
+const SCENES = {
+  s1: { title: "The Front Door",
+    text: "The Palm Royale's brass doors have turned away duchesses. You have a borrowed Pucci dress, forty-one dollars, and a smile you have practiced in three mirrors. The doorman lifts an eyebrow.",
+    choices: [
+      ["Sweep past as if you own the place", "Confidence is a kind of credential.", "s2"],
+      ["Slip in through the cabana service path", "Servants' doors are never watched the way front ones are.", "s3"],
+      ["Produce a forged sponsor's letter", "Ink and audacity. A dangerous pairing.", "s4"],
+    ]},
+  s2: { title: "The Doyenne",
+    text: "Evelyn Rollins materializes like weather. “I don't know you,” she says, which is the worst thing a person can be here. Her eyes catalog your shoes.",
+    choices: [
+      ["Drop a name she can't check", "A dead countess is a wonderful alibi.", "s5"],
+      ["Compliment her late husband's foundation", "Flattery aimed at the dead rarely misses.", "end"],
+    ]},
+  s3: { title: "Cabana Row",
+    text: "The cabanas smell of coconut oil and money. A pool boy named Robert watches you not belong. He could shout. He doesn't.",
+    choices: [
+      ["Tip him your last bill for silence", "Loyalty bought is loyalty, for an hour.", "s5"],
+      ["Ask him who really runs this place", "The staff always knows where the bodies tan.", "s7"],
+    ]},
+  s4: { title: "The Letter",
+    text: "The membership secretary reads your letter twice. The signature is good. The letterhead is better. “Mrs. Donahue vouches for you?” she asks.",
+    choices: [
+      ["Insist, warmly, that you're old friends", "The bigger the lie, the straighter the back.", "end"],
+      ["Pivot to a different sponsor entirely", "Never defend a lie you can simply replace.", "s7"],
+    ]},
+  s5: { title: "A Borrowed Name",
+    text: "By the bar you become someone with a yacht and a tragedy. People lean in. A widow named Norma watches you from her wheelchair, unblinking.",
+    choices: [
+      ["Charm Norma directly", "She is the gate behind the gate.", "s8"],
+      ["Avoid her and work the younger set", "The young are easier and poorer.", "s9"],
+    ]},
+  s7: { title: "The Bartender Knows",
+    text: "The bartender mixes a grasshopper and a warning. “They'll let you in,” he says. “They just won't ever let you leave clean.” He slides you a key. Cabana 9.",
+    choices: [
+      ["Pocket the key", "Every key is a question you'll have to answer later.", "s9"],
+      ["Refuse it and stay visible", "Suspicion loves the person who hides.", "s8"],
+    ]},
+  s8: { title: "The Luncheon",
+    text: "You are seated, somehow, at the good table. The conversation is a minefield of maiden names. Someone asks where you summered as a girl.",
+    choices: [
+      ["Invent a lake nobody dares not to know", "Geography is forgiving to the bold.", "end"],
+      ["Turn the question back as a joke", "Deflection is its own elegance.", "end"],
+    ]},
+  s9: { title: "The Pool Boy's Tip",
+    text: "Robert finds you again. “Norma's nurse takes a smoke break at four,” he says, and walks off whistling. He has decided you are interesting, which is its own danger.",
+    choices: [
+      ["Time your move to four o'clock", "Schedules are the soft spots of fortresses.", "end"],
+      ["Win Norma over honestly instead", "The long way is sometimes the only safe way.", "end"],
+    ]},
+};
+const MAX_DEPTH = 4;
+const body = document.getElementById('demo-body');
+let depth = 0;
+
+function progressDots() {
+  let html = '<div class="demo-progress">';
+  for (let i = 0; i < MAX_DEPTH; i++) html += `<span class="${i < depth ? 'done' : ''}"></span>`;
+  return html + '</div>';
+}
+
+function renderScene(id) {
+  const sc = SCENES[id];
+  if (!sc || depth >= MAX_DEPTH) { renderEnd(); return; }
+  body.innerHTML = `
+    <div class="demo-fade">
+      ${progressDots()}
+      <div class="demo-scene-title">Scene ${depth + 1} — ${sc.title}</div>
+      <p class="demo-text">${sc.text}</p>
+      <div class="demo-choices">
+        ${sc.choices.map(([label, hint, next]) => `
+          <button class="demo-choice" data-next="${next}">
+            ${label}
+            <span class="hint">${hint}</span>
+          </button>`).join('')}
+      </div>
+    </div>`;
+  body.querySelectorAll('.demo-choice').forEach(btn => {
+    btn.addEventListener('click', () => { depth++; renderScene(btn.dataset.next); });
+  });
+}
+
+function renderEnd() {
+  body.innerHTML = `
+    <div class="demo-fade demo-end">
+      ${progressDots()}
+      <div class="big">The season is just <span class="grad-text">getting started.</span></div>
+      <p>You've made ${depth} choice${depth === 1 ? '' : 's'}. This story has 20 scenes, 8 endings, and a crown with your name on it — maybe.</p>
+      <a class="btn btn-primary" href="/download">Keep reading in the app</a>
+      <div style="margin-top:18px;"><button class="btn btn-secondary btn-sm" id="demo-restart">↻ Start over</button></div>
+    </div>`;
+  document.getElementById('demo-restart').addEventListener('click', () => { depth = 0; renderScene('s1'); });
+}
+
+renderScene('s1');
+</script>
+</body>
+</html>

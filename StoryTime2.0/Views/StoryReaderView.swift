@@ -27,6 +27,7 @@ struct StoryReaderView: View {
     @EnvironmentObject var ambience: AmbienceService
     @EnvironmentObject var catalog: CatalogService
     @Environment(\.dismiss) private var dismiss
+    @Environment(\.scenePhase) private var scenePhase
 
     @State private var selectedChoiceIndex: Int? = nil
     @State private var consequenceVisible: Bool = false
@@ -37,9 +38,21 @@ struct StoryReaderView: View {
     @State private var showShareSheet: Bool = false
     @State private var shareItems: [Any] = []
     @State private var sagaDestination: CatalogStory? = nil
+    @State private var isFocusMode: Bool = false
+    @State private var showReaderControls: Bool = false
 
     private var sceneIndex: Int { max(1, gameState.history.count) }
     private var totalScenes: Int { story.nodes.count }
+    private var totalEndings: Int { story.nodes.filter { $0.isEnding }.count }
+
+    /// Fill for the capped (max 8) progress dots, scaled to overall
+    /// completion so long stories don't fill every dot in the first scenes.
+    private var scaledDotFill: Int {
+        let dots = min(totalScenes, 8)
+        guard totalScenes > 0 else { return 0 }
+        let ratio = Double(min(sceneIndex, totalScenes)) / Double(totalScenes)
+        return min(dots, max(1, Int((ratio * Double(dots)).rounded())))
+    }
 
     private var currentPlayerName: String {
         gameState.companionTurn == 0 ? settings.companionPlayerA : settings.companionPlayerB
@@ -57,7 +70,13 @@ struct StoryReaderView: View {
             PageBackground()
 
             VStack(spacing: 0) {
-                topBar
+                if isFocusMode {
+                    focusBar
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                } else {
+                    topBar
+                        .transition(.move(edge: .top).combined(with: .opacity))
+                }
                 ScrollViewReader { proxy in
                     ScrollView(showsIndicators: false) {
                         VStack(alignment: .leading, spacing: 22) {
@@ -99,6 +118,8 @@ struct StoryReaderView: View {
                                 statsStore: statsStore)
             let resume = progressStore.progress(for: story.storageKey)?.nodeId
             gameState.start(at: resume)
+            isFocusMode = settings.focusModeByDefault
+            statsStore.beginReadingSession()
             if settings.ambienceEnabled {
                 ambience.play(genre: story.genre)
             }
@@ -106,24 +127,32 @@ struct StoryReaderView: View {
         .onDisappear {
             speechService.stop()
             ambience.stop()
+            statsStore.endReadingSession()
+        }
+        .sheet(isPresented: $showShareSheet) {
+            ShareSheet(activityItems: shareItems)
+        }
+        .sheet(isPresented: $showReaderControls) {
+            ReaderControlsSheet(settings: settings, isFocusMode: $isFocusMode)
+                .presentationDetents([.medium, .large])
+                .presentationDragIndicator(.visible)
+        }
+        .onChange(of: scenePhase) { _, phase in
+            if phase == .active {
+                statsStore.beginReadingSession()
+            } else {
+                statsStore.endReadingSession()
+            }
+        }
+        .navigationDestination(item: $sagaDestination) { story in
+            StoryReaderView(story: story, settings: settings)
         }
     }
 
     // MARK: Top bar
 
     private var topBar: some View {
-        HStack(spacing: 4) {
-            DoodleButton(doodle: .chevronLeft, label: "Back") {
-                if gameState.canGoBack {
-                    withAnimation {
-                        gameState.goBack()
-                        resetTransientState()
-                    }
-                } else {
-                    dismiss()
-                }
-            }
-            Spacer()
+        ZStack {
             VStack(spacing: 0) {
                 Text(story.title)
                     .font(Theme.Fonts.headingMedium(15))
@@ -134,9 +163,29 @@ struct StoryReaderView: View {
                     .foregroundColor(Theme.Palette.inkSoft)
                     .lineLimit(1)
             }
-            Spacer()
-            DoodleButton(doodle: speechService.isSpeaking ? .speakerPlaying : .speaker,
-                         label: "Narrate") { toggleNarration() }
+            .padding(.horizontal, 138)
+
+            HStack(spacing: 0) {
+                DoodleButton(doodle: .chevronLeft, label: "Back") {
+                    if gameState.canGoBack {
+                        withAnimation {
+                            gameState.goBack()
+                            resetTransientState()
+                        }
+                    } else {
+                        dismiss()
+                    }
+                }
+                Spacer()
+                DoodleButton(doodle: .gear, label: "Reading controls") {
+                    showReaderControls = true
+                }
+                DoodleButton(doodle: speechService.isSpeaking ? .speakerPlaying : .speaker,
+                             label: "Narrate") { toggleNarration() }
+                DoodleButton(doodle: .focus, label: "Enter focus mode") {
+                    withAnimation(.easeOut(duration: 0.2)) { isFocusMode = true }
+                }
+            }
         }
         .padding(.horizontal, 12)
         .padding(.top, 8)
@@ -146,16 +195,35 @@ struct StoryReaderView: View {
         }
     }
 
+    private var focusBar: some View {
+        HStack(spacing: 8) {
+            Text(story.title)
+                .font(Theme.Fonts.bodyItalic(12))
+                .foregroundColor(Theme.Palette.inkSoft)
+                .lineLimit(1)
+            Spacer()
+            DoodleButton(doodle: .focus, label: "Exit focus mode") {
+                withAnimation(.easeOut(duration: 0.2)) { isFocusMode = false }
+            }
+        }
+        .padding(.leading, 24)
+        .padding(.trailing, 12)
+        .padding(.top, 8)
+    }
+
     // MARK: Scene header
 
     private var sceneHeader: some View {
         VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 8) {
-                SketchBadge(text: "Scene \(sceneIndex)")
-                SketchBadge(text: story.genre.rawValue)
-                Spacer()
-                ProgressDots(count: min(totalScenes, 8),
-                             filled: min(sceneIndex, totalScenes))
+            if !isFocusMode {
+                HStack(spacing: 8) {
+                    SketchBadge(text: "Scene \(sceneIndex)")
+                    SketchBadge(text: story.genre.rawValue)
+                    Spacer()
+                    ProgressDots(count: min(totalScenes, 8),
+                                 filled: scaledDotFill)
+                        .accessibilityLabel("Scene \(min(sceneIndex, totalScenes)) of \(totalScenes)")
+                }
             }
 
             if let scene = gameState.currentNode?.sceneTitle {
@@ -179,7 +247,7 @@ struct StoryReaderView: View {
         if settings.typewriterEnabled {
             TypewriterText(full: trimmed,
                            font: settings.readerFont(settings.textSize),
-                           lineSpacing: settings.textSize * 0.5,
+                           lineSpacing: settings.textSize * settings.readerLineSpacing,
                            interval: settings.typingSpeed)
                 .padding(.horizontal, 24)
         } else {
@@ -191,24 +259,24 @@ struct StoryReaderView: View {
     private func dropCapText(_ trimmed: String) -> some View {
         let first = String(trimmed.prefix(1))
         let rest  = String(trimmed.dropFirst())
-        let capSize = settings.textSize * 3.0
 
-        return HStack(alignment: .top, spacing: 0) {
-            // Oversized drop cap, in the chosen reading font.
-            Text(first)
-                .font(settings.readerFont(capSize))
-                .foregroundColor(Theme.Palette.ink)
-                .frame(height: capSize * 0.86, alignment: .top)
-                .padding(.trailing, 8)
-                .baselineOffset(-(settings.textSize * 0.32))
-                .accessibilityHidden(true)
+        // A raised versal initial rather than a floated drop cap. The old
+        // HStack put the *entire* paragraph beside the cap, so every line was
+        // indented by the cap's width — leaving a tall empty gutter beneath
+        // it. Concatenating the oversized initial into the same Text lets the
+        // body wrap full-width with no gutter, while still opening the passage
+        // with a decorative capital.
+        let cap = Text(first)
+            .font(settings.readerFont(settings.textSize * 2.1))
+            .foregroundColor(Theme.Palette.ink)
+        let body = Text(rest)
+            .font(settings.readerFont(settings.textSize))
+            .foregroundColor(Theme.Palette.ink)
 
-            Text(rest)
-                .font(settings.readerFont(settings.textSize))
-                .foregroundColor(Theme.Palette.ink)
-                .lineSpacing(settings.textSize * 0.5)
-                .accessibilityLabel(trimmed)
-        }
+        return (cap + body)
+            .lineSpacing(settings.textSize * settings.readerLineSpacing)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .accessibilityLabel(trimmed)
     }
 
     // MARK: Choices
@@ -263,6 +331,7 @@ struct StoryReaderView: View {
             Theme.Palette.ink.opacity(0.18)
                 .ignoresSafeArea()
                 .onTapGesture { advanceFromConsequence() }
+                .accessibilityHidden(true)
 
             VStack(spacing: 0) {
                 Spacer()
@@ -301,21 +370,28 @@ struct StoryReaderView: View {
                 .padding(.horizontal, 20)
                 .padding(.bottom, 28)
                 .onTapGesture { advanceFromConsequence() }
+                // VoiceOver: the overlay advanced only via a raw tap gesture,
+                // which VoiceOver can't reach — a user got stuck here. Expose
+                // it as a single button with an explicit activation action.
+                .accessibilityElement(children: .combine)
+                .accessibilityAddTraits(.isButton)
+                .accessibilityHint("Continue to the next scene")
+                .accessibilityAction { advanceFromConsequence() }
             }
         }
     }
 
     private func advanceFromConsequence() {
-        withAnimation(.easeOut(duration: 0.2)) {
-            consequenceVisible = false
-        }
         let next = pendingNextNodeId
         let fromId = pendingFromNodeId
         let idx = selectedChoiceIndex
         let choiceText = pendingChoiceText
         let consequence = pendingConsequence
-        // Hand off the scene transition after the overlay finishes dismissing.
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.22) {
+        // Drive the scene transition off the overlay's dismiss animation
+        // finishing, rather than a hand-tuned asyncAfter delay.
+        withAnimation(.easeOut(duration: 0.2)) {
+            consequenceVisible = false
+        } completion: {
             if let next {
                 gameState.jump(
                     to: next,
@@ -360,10 +436,9 @@ struct StoryReaderView: View {
                     .foregroundColor(Theme.Palette.ink)
 
                 // Discovered / total endings progress.
-                let total = story.nodes.filter { $0.isEnding }.count
                 let discovered = endingsTracker.count(for: story.storageKey)
-                if total > 1 {
-                    Text("You've found \(discovered) of \(total) endings.")
+                if totalEndings > 1 {
+                    Text("You've found \(discovered) of \(totalEndings) endings.")
                         .font(Theme.Fonts.bodyItalic(14))
                         .foregroundColor(Theme.Palette.inkSoft)
                 }
@@ -395,12 +470,6 @@ struct StoryReaderView: View {
         }
         .padding(.horizontal, 24)
         .padding(.top, 8)
-        .sheet(isPresented: $showShareSheet) {
-            ShareSheet(activityItems: shareItems)
-        }
-        .navigationDestination(item: $sagaDestination) { story in
-            StoryReaderView(story: story, settings: settings)
-        }
     }
 
     private func branchPeek() -> (label: String, consequence: String)? {
@@ -480,6 +549,116 @@ struct StoryReaderView: View {
     }
 }
 
+// MARK: - In-reader controls
+
+private struct ReaderControlsSheet: View {
+    @ObservedObject var settings: SettingsModel
+    @Binding var isFocusMode: Bool
+    @Environment(\.dismiss) private var dismiss
+
+    var body: some View {
+        NavigationStack {
+            ZStack {
+                PageBackground()
+                ScrollView(showsIndicators: false) {
+                    VStack(alignment: .leading, spacing: 22) {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("Reading Controls")
+                                .font(Theme.Fonts.title())
+                                .foregroundColor(Theme.Palette.ink)
+                            Text("Tune the page without leaving your story.")
+                                .font(Theme.Fonts.bodyItalic(14))
+                                .foregroundColor(Theme.Palette.inkSoft)
+                        }
+
+                        SketchCard(fill: Theme.Palette.butterDeep, seed: 71) {
+                            Text("The room goes quiet. Somewhere beyond the page, a choice waits.")
+                                .font(settings.readerFont(settings.textSize))
+                                .foregroundColor(Theme.Palette.ink)
+                                .lineSpacing(settings.textSize * settings.readerLineSpacing)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                        }
+
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("TEXT SIZE")
+                                .font(Theme.Fonts.label())
+                                .foregroundColor(Theme.Palette.inkSoft)
+                            HStack(spacing: 12) {
+                                SketchButton(title: "A−", style: .secondary, fullWidth: false) {
+                                    settings.textSize = max(settings.minTextSize, settings.textSize - 1)
+                                }
+                                Spacer()
+                                Text("\(Int(settings.textSize)) pt")
+                                    .font(Theme.Fonts.headingMedium(14))
+                                    .foregroundColor(Theme.Palette.ink)
+                                Spacer()
+                                SketchButton(title: "A+", style: .secondary, fullWidth: false) {
+                                    settings.textSize = min(settings.maxTextSize, settings.textSize + 1)
+                                }
+                            }
+                        }
+
+                        VStack(alignment: .leading, spacing: 12) {
+                            Text("READING FONT")
+                                .font(Theme.Fonts.label())
+                                .foregroundColor(Theme.Palette.inkSoft)
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 10) {
+                                    ForEach(settings.availableFonts, id: \.self) { font in
+                                        SketchPill(title: font,
+                                                   selected: settings.selectedFontName == font) {
+                                            settings.selectedFontName = font
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        VStack(alignment: .leading, spacing: 10) {
+                            Text("LINE SPACING")
+                                .font(Theme.Fonts.label())
+                                .foregroundColor(Theme.Palette.inkSoft)
+                            Slider(value: $settings.readerLineSpacing, in: 0.35...0.8, step: 0.05)
+                                .tint(Theme.Palette.ink)
+                                .accessibilityLabel("Line spacing")
+                        }
+
+                        SketchCard(seed: 73) {
+                            VStack(spacing: 14) {
+                                Toggle("Typewriter effect", isOn: $settings.typewriterEnabled)
+                                    .font(Theme.Fonts.body(15))
+                                    .tint(Theme.Palette.ink)
+                                SketchDivider()
+                                Toggle("Start stories in focus mode", isOn: $settings.focusModeByDefault)
+                                    .font(Theme.Fonts.body(15))
+                                    .tint(Theme.Palette.ink)
+                            }
+                            .foregroundColor(Theme.Palette.ink)
+                        }
+
+                        SketchButton(title: isFocusMode ? "Exit Focus Mode" : "Enter Focus Mode",
+                                     doodle: .focus,
+                                     style: .primary) {
+                            isFocusMode.toggle()
+                            dismiss()
+                        }
+                    }
+                    .padding(.horizontal, 24)
+                    .padding(.top, 20)
+                    .padding(.bottom, 36)
+                }
+            }
+            .toolbar {
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button("Done") { dismiss() }
+                        .font(Theme.Fonts.headingMedium(14))
+                        .foregroundColor(Theme.Palette.ink)
+                }
+            }
+        }
+    }
+}
+
 // MARK: - Numbered choice row
 
 private struct NumberedChoiceRow: View {
@@ -525,12 +704,12 @@ private struct NumberedChoiceRow: View {
             .frame(maxWidth: .infinity, alignment: .leading)
             .background(
                 WobblyRect(jitter: 0.4, corner: 6,
-                            seed: CGFloat(text.hashValue % 100))
+                            seed: CGFloat(text.stableSeed(100)))
                     .fill(selected ? Theme.Palette.butterDeep : Theme.Palette.mist.opacity(0.55))
             )
             .overlay(
                 WobblyRect(jitter: 0.4, corner: 6,
-                            seed: CGFloat(text.hashValue % 100))
+                            seed: CGFloat(text.stableSeed(100)))
                     .stroke(Theme.Palette.ink,
                             lineWidth: selected ? Theme.Stroke.bold : Theme.Stroke.line)
             )
@@ -551,11 +730,16 @@ private struct TypewriterText: View {
     var lineSpacing: CGFloat = 8
     let interval: Double
 
+    // Pre-split into an array of characters once. The old version called
+    // `full.prefix(shown)` every tick, which re-walks the String's grapheme
+    // boundaries from the start each time — O(n) per tick, O(n²) overall.
+    // Array indexing is O(1), so each tick's substring is just O(shown).
+    @State private var chars: [Character] = []
     @State private var shown: Int = 0
     @State private var timer: Timer?
 
     var body: some View {
-        Text(String(full.prefix(shown)))
+        Text(String(chars.prefix(shown)))
             .font(font)
             .foregroundColor(Theme.Palette.ink)
             .lineSpacing(lineSpacing)
@@ -568,12 +752,21 @@ private struct TypewriterText: View {
     }
 
     private func begin() {
+        chars = Array(full)
         shown = 0
         timer?.invalidate()
-        let count = full.count
-        timer = Timer.scheduledTimer(withTimeInterval: max(0.01, interval), repeats: true) { t in
+        let count = chars.count
+        // Cap the redraw rate at ~33 fps. At fast typing speeds the old code
+        // fired up to 100 times/sec, and each tick re-lays-out the whole
+        // visible string — O(n) layouts per scene. Revealing several
+        // characters per tick keeps the same perceived pace with a third of
+        // the work.
+        let minTick = 0.03
+        let tick = max(minTick, interval)
+        let step = max(1, Int((tick / max(interval, 0.001)).rounded()))
+        timer = Timer.scheduledTimer(withTimeInterval: tick, repeats: true) { t in
             if shown < count {
-                shown += 1
+                shown = min(count, shown + step)
             } else {
                 t.invalidate()
             }
@@ -582,7 +775,7 @@ private struct TypewriterText: View {
 
     private func revealAll() {
         timer?.invalidate()
-        shown = full.count
+        shown = chars.count
     }
 }
 

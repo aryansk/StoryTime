@@ -1,0 +1,199 @@
+{
+  "id": "night-signal-hill",
+  "title": "Signal Hill",
+  "sourceTitle": "Signal Hill",
+  "kind": "book",
+  "synopsis": "On the last night before the old radio array is scrapped, a satellite that appears in no registry begins transmitting a countdown — and, patiently, your name.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-18T00:00:00Z",
+  "genre": "Sci-Fi",
+  "tags": [
+    "original",
+    "signature",
+    "mini",
+    "night-shelf",
+    "space"
+  ],
+  "rating": 5,
+  "loved": false,
+  "nextStoryId": null,
+  "startNodeId": "s1",
+  "nodes": [
+    {
+      "id": "s1",
+      "text": "You are the only operator left on the hill the night before they decommission the array. At 00:00 a carrier wave arrives from a satellite that exists in no catalog you can find. It ticks down — twelve, eleven, ten — one number an hour. Between the numbers, in clean Morse, it spells your name.",
+      "sceneTitle": "The Twelfth Beep",
+      "choices": [
+        {
+          "text": "Log it and wake the chain of command",
+          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "nextNodeId": "s_chain"
+        },
+        {
+          "text": "Answer it yourself, off the record",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "nextNodeId": "s_answer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_chain",
+      "text": "The duty supervisor answers on the third ring, unhappy. \"It's a ghost harmonic off the old relay. Stand down, log it, go home.\" You hang up. The count reaches nine. Your name arrives again, tapped out with something that is either patience or affection.",
+      "sceneTitle": "The Chain of Command",
+      "choices": [
+        {
+          "text": "Obey, and go home",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "nextNodeId": "end_home"
+        },
+        {
+          "text": "Stay and keep listening alone",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Spirit.",
+          "nextNodeId": "s_answer"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_answer",
+      "text": "You key the transmitter and say hello into the hiss. A pause of exactly one light-second, and then hello comes back — in your voice, but decades older, sanded down by a life you have not lived yet. It does not sound surprised to hear from you.",
+      "sceneTitle": "Your Own Voice, Returned",
+      "choices": [
+        {
+          "text": "Ask who they are",
+          "consequence": "You commit to “Ask who they are.” The story records the instinct as “Curious” and carries it forward.",
+          "nextNodeId": "s_who"
+        },
+        {
+          "text": "Ask what the countdown is counting to",
+          "consequence": "“Ask what the countdown is counting to” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "nextNodeId": "s_endcount"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_who",
+      "text": "\"I'm you,\" the old voice says, unbothered by how impossible that is. \"Forty years on. This relay is the only thing that still bounces a signal back to a night I can pin down. I've been trying to reach this exact evening for a long time.\"",
+      "sceneTitle": "A Message From Later",
+      "choices": [
+        {
+          "text": "Believe yourself",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Trust.",
+          "nextNodeId": "s_warning"
+        },
+        {
+          "text": "Assume it's a hoax and trace the source",
+          "consequence": "There is no taking “Assume it's a hoax and trace the source” back. Wise shapes the silence before the next moment arrives.",
+          "nextNodeId": "s_trace"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_endcount",
+      "text": "\"Zero is 08:00,\" the voice says. \"When the crew arrives to cut the array down for scrap. After that there's no antenna on Earth aimed the right way to carry me back this far. Zero is simply the last moment we can talk.\"",
+      "sceneTitle": "What Zero Means",
+      "choices": [
+        {
+          "text": "Record everything before zero",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Devoted.",
+          "nextNodeId": "s_warning"
+        },
+        {
+          "text": "Pull the plug now and get some sleep",
+          "consequence": "You commit to “Pull the plug now and get some sleep.” The story records the instinct as “Honest” and carries it forward.",
+          "nextNodeId": "end_home"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_trace",
+      "text": "You run the bearings three times because the answer refuses to be sky. Every fix points down and inward — beneath the operations shed, beneath your own chair. In the corner of the floor, under forty years of linoleum, there is the seam of a hatch you have never once noticed.",
+      "sceneTitle": "Triangulation",
+      "choices": [
+        {
+          "text": "Open the hatch",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "nextNodeId": "s_hatch"
+        },
+        {
+          "text": "Flag it and wait for daylight",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "nextNodeId": "end_home"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_warning",
+      "text": "\"I didn't cross forty years of static to chat,\" the voice says, gentler now. \"Tomorrow you'll be offered the transfer to the coastal station. Everyone will tell you it's the smart move. Don't take it. Stay near the people who are still alive to stay near. That's the whole message.\"",
+      "sceneTitle": "The Warning",
+      "choices": [
+        {
+          "text": "Promise to change tomorrow",
+          "consequence": "You commit to “Promise to change tomorrow.” The story records the instinct as “Heart” and carries it forward.",
+          "nextNodeId": "end_changed"
+        },
+        {
+          "text": "Ask to trade places instead",
+          "consequence": "“Ask to trade places instead” closes one possibility and opens another. The moment leaves a clear note behind: Longing.",
+          "nextNodeId": "s_hatch"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "s_hatch",
+      "text": "The hatch opens onto a small warm room that should not exist — old equipment kept alive, a single chair worn to the shape of a body, and a brass plate on the console engraved with your own initials. The countdown ticks on from a speaker in the wall. Two.",
+      "sceneTitle": "Under Signal Hill",
+      "choices": [
+        {
+          "text": "Sit down and take the watch",
+          "consequence": "You commit to “Sit down and take the watch.” The story records the instinct as “Devoted” and carries it forward.",
+          "nextNodeId": "end_keeper"
+        },
+        {
+          "text": "Climb back out and live forward",
+          "consequence": "You commit to “Climb back out and live forward.” The story records the instinct as “Free” and carries it forward.",
+          "nextNodeId": "end_changed"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_home",
+      "text": "You drive home before dawn. The count reaches zero without you; the crew arrives with cutting torches at eight. In the incident log it goes down as harmonic interference, cause unknown, array retired. You take the coastal transfer that spring, and for years afterward, on quiet nights, you wonder.",
+      "sceneTitle": "Interference, They Called It",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Interference, They Called It"
+    },
+    {
+      "id": "end_changed",
+      "text": "You decline the coastal station without fully knowing why, and stay. You call people you had been letting drift. Nothing dramatic happens — which is, you will slowly understand, the entire point. Somewhere forty years on, a satellite that no longer needs to reach anyone goes quietly dark.",
+      "sceneTitle": "The Transfer You Turned Down",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Transfer You Turned Down"
+    },
+    {
+      "id": "end_keeper",
+      "text": "You take the chair that already fits you. The room hums; the antenna above will be scrapped by morning, but down here the signal has never depended on it. You begin the long, patient work of reaching backward — toward a younger operator, on a hill, on a night you remember perfectly.",
+      "sceneTitle": "Operator, Indefinite",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Operator, Indefinite"
+    }
+  ]
+}

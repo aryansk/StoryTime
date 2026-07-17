@@ -62,7 +62,7 @@
       "choices": [
         {
           "text": "Press for what 'determinism' means here",
-          "consequence": "Definitions matter.",
+          "consequence": "“Press for what 'determinism' means here” closes one possibility and opens another. The moment leaves a clear note behind: Definitions matter.",
           "nextNodeId": "s4"
         },
         {
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Quietly look for Sergei online",
-          "consequence": "Investigate.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Investigate.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't look; you want to keep the job",
-          "consequence": "Survive.",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
           "nextNodeId": "s7"
         }
       ],
@@ -124,7 +124,7 @@
         },
         {
           "text": "Plead ignorance and stay safe",
-          "consequence": "Protect yourself.",
+          "consequence": "“Plead ignorance and stay safe” closes one possibility and opens another. The moment leaves a clear note behind: Protect yourself.",
           "nextNodeId": "s9"
         }
       ],
@@ -271,7 +271,7 @@
       "choices": [
         {
           "text": "Reach the top and confront Forest",
-          "consequence": "Confront.",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Confront.",
           "nextNodeId": "s16"
         },
         {
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Render his daughter",
-          "consequence": "Mercy.",
+          "consequence": "There is no taking “Render his daughter” back. Mercy shapes the silence before the next moment arrives.",
           "nextNodeId": "s18"
         },
         {
           "text": "Refuse and walk him out",
-          "consequence": "Reality first.",
+          "consequence": "There is no taking “Refuse and walk him out” back. Reality first shapes the silence before the next moment arrives.",
           "nextNodeId": "s19"
         }
       ],
@@ -366,13 +366,13 @@
       "choices": [
         {
           "text": "Testify in the federal inquiry",
-          "consequence": "Witness.",
+          "consequence": "The decision settles the question for now. Its verdict—Witness—follows you into whatever comes next.",
           "nextNodeId": "end_inquiry"
         },
         {
           "text": "Disappear and rebuild",
           "consequence": "Some endings are private.",
-          "nextNodeId": "end_quiet"
+          "nextNodeId": "s20"
         }
       ],
       "isEnding": false,
@@ -385,7 +385,7 @@
       "choices": [
         {
           "text": "Live the rest of your life unmeasured",
-          "consequence": "Embrace indeterminism.",
+          "consequence": "There is no taking “Live the rest of your life unmeasured” back. Embrace indeterminism shapes the silence before the next moment arrives.",
           "nextNodeId": "end_quiet"
         },
         {

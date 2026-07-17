@@ -1,0 +1,311 @@
+{
+  "id": "original-museum-unsent-letters",
+  "title": "The Museum of Unsent Letters",
+  "sourceTitle": "The Museum of Unsent Letters",
+  "kind": "book",
+  "synopsis": "A museum that opens for one hour each year offers to deliver a letter you never sent—but every delivery changes two lives.",
+  "releaseYear": 2026,
+  "addedAt": "2026-07-16T00:00:00Z",
+  "genre": "Drama",
+  "tags": [
+    "original",
+    "signature",
+    "magical-realism",
+    "letters",
+    "grief",
+    "mini"
+  ],
+  "rating": 5,
+  "loved": true,
+  "nextStoryId": null,
+  "startNodeId": "invitation",
+  "nodes": [
+    {
+      "id": "invitation",
+      "text": "The invitation arrives in your own handwriting, though you have never seen the black envelope before. It names a museum absent from every map and promises one service: bring the letter you most regret not sending. At 2:07 a.m., a brass door appears between the laundromat and the closed florist downstairs.",
+      "sceneTitle": "Open Between 2:00 and 3:00 A.M.",
+      "choices": [
+        {
+          "text": "Bring the letter you wrote to your mother",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "nextNodeId": "archive_desk"
+        },
+        {
+          "text": "Enter empty-handed and ask who invited you",
+          "consequence": "You commit to “Enter empty-handed and ask who invited you.” The story records the instinct as “Cautious” and carries it forward.",
+          "nextNodeId": "delivery_room"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "archive_desk",
+      "text": "An archivist with ink-stained cuffs weighs your letter on a silver scale. The needle trembles between APOLOGY and EXPLANATION. “We can deliver it to the day it was meant for,” she says, “or to the person your mother became after never receiving it. Those are not the same address.”",
+      "sceneTitle": "The Archivist",
+      "choices": [
+        {
+          "text": "Send it backward to the day you left home",
+          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "nextNodeId": "letter_to_past"
+        },
+        {
+          "text": "Send it to your mother as she is now",
+          "consequence": "You commit to “Send it to your mother as she is now.” The story records the instinct as “Honest” and carries it forward.",
+          "nextNodeId": "letter_to_present"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "delivery_room",
+      "text": "Beyond the desk, millions of sealed letters rise in dark wooden stacks. Some hum with anger; others are almost weightless. The archivist admits your invitation was written by a future visitor using your name. Before she can explain, one envelope falls open at your feet. It is addressed to you from your mother.",
+      "sceneTitle": "Shelves Without End",
+      "choices": [
+        {
+          "text": "Read your mother's unsent letter",
+          "consequence": "“Read your mother's unsent letter” closes one possibility and opens another. The moment leaves a clear note behind: Curious.",
+          "nextNodeId": "letter_to_you"
+        },
+        {
+          "text": "Leave it sealed and search for the future visitor",
+          "consequence": "“Leave it sealed and search for the future visitor” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "nextNodeId": "future_gallery"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "letter_to_past",
+      "text": "The delivery room becomes your childhood kitchen. Your younger self stands in the hall with a packed bag while your mother pretends to wash an already clean cup. The letter can change what happens next, but the archivist warns that you will keep only one version of this memory: the repaired one or the true one.",
+      "sceneTitle": "The Kitchen, Twelve Years Ago",
+      "choices": [
+        {
+          "text": "Place the letter where your mother will find it",
+          "consequence": "“Place the letter where your mother will find it” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "nextNodeId": "changed_home"
+        },
+        {
+          "text": "Give it to your younger self instead",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Truth.",
+          "nextNodeId": "younger_self"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "letter_to_present",
+      "text": "The museum prints a current address beneath your mother’s name. It is three streets from your apartment. She has been living nearby for four years, respecting the silence she believed you requested. A courier waits beside a bicycle made of folded envelopes and asks whether the letter should arrive alone or with you behind it.",
+      "sceneTitle": "The Address She Never Gave You",
+      "choices": [
+        {
+          "text": "Let the courier deliver it first",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "nextNodeId": "waiting_bench"
+        },
+        {
+          "text": "Carry it to her door yourself",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "nextNodeId": "her_door"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "letter_to_you",
+      "text": "Your mother’s letter contains no defense. She writes that love can be sincere and still fail someone, that she mistook providing answers for listening, and that she would accept any boundary except one built from a lie you both kept repeating. At the bottom she asks a single question: What happened from your side?",
+      "sceneTitle": "Dear You, Whenever You Are Ready",
+      "choices": [
+        {
+          "text": "Answer her question in a new letter",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "nextNodeId": "writing_room"
+        },
+        {
+          "text": "Take her letter home without answering",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Boundaries.",
+          "nextNodeId": "end_kept_letter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "future_gallery",
+      "text": "In the final gallery, portraits show everyone who has ever used the museum. Your future self hangs in the last frame, older and calmer, holding two unopened letters. A plaque says you founded this place after learning that closure is not the same thing as an answer. The painted eyes turn toward a small writing room.",
+      "sceneTitle": "Portrait of a Visitor",
+      "choices": [
+        {
+          "text": "Meet the future version of yourself",
+          "consequence": "“Meet the future version of yourself” closes one possibility and opens another. The moment leaves a clear note behind: Curious.",
+          "nextNodeId": "future_self"
+        },
+        {
+          "text": "Refuse the prophecy and enter the writing room",
+          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Spirit.",
+          "nextNodeId": "writing_room"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "changed_home",
+      "text": "Your mother finds the letter before you leave. The argument becomes a conversation—not gentle, not perfect, but honest enough to alter the years ahead. New memories flicker into place: cautious phone calls, a graduation seat filled, ordinary Tuesdays shared. One old truth begins disappearing with them: the person you became while surviving alone.",
+      "sceneTitle": "A Memory Rearranged",
+      "choices": [
+        {
+          "text": "Accept the kinder history",
+          "consequence": "You commit to “Accept the kinder history.” The story records the instinct as “Hope” and carries it forward.",
+          "nextNodeId": "end_rewritten"
+        },
+        {
+          "text": "Restore the life you actually lived",
+          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "nextNodeId": "end_true_memory"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "younger_self",
+      "text": "Your younger self reads the first line and knows exactly who you are. They do not ask whether life improves. They ask whether leaving was cruel. You can offer the comfort you spent years waiting to hear, or tell them the harder truth: protecting yourself may hurt someone and still be necessary.",
+      "sceneTitle": "What You Needed Then",
+      "choices": [
+        {
+          "text": "Tell them they are not cruel",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "nextNodeId": "end_true_memory"
+        },
+        {
+          "text": "Tell them courage can still carry guilt",
+          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "nextNodeId": "end_open_door"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "waiting_bench",
+      "text": "You watch from a museum bench that now faces your mother’s building. The courier leaves the envelope. A lamp comes on upstairs; a silhouette reads without moving. Ten minutes later the front door opens. Your mother steps outside with no coat, looking both directions as if she has remembered how hope works but not where to find it.",
+      "sceneTitle": "Across the Street",
+      "choices": [
+        {
+          "text": "Cross the street",
+          "consequence": "“Cross the street” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "nextNodeId": "end_open_door"
+        },
+        {
+          "text": "Let the letter be enough for tonight",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "nextNodeId": "end_kept_letter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "her_door",
+      "text": "Your mother opens the door before the third knock. For a long moment neither of you performs surprise. You hold out the letter; she asks whether you want tea. The museum clock sounds in the distance, warning that its hour is almost over and any conversation begun inside its magic must be chosen freely to continue.",
+      "sceneTitle": "Three Knocks",
+      "choices": [
+        {
+          "text": "Go in for tea and begin without the letter",
+          "consequence": "“Go in for tea and begin without the letter” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "nextNodeId": "end_open_door"
+        },
+        {
+          "text": "Give her the letter and ask for time",
+          "consequence": "There is no taking “Give her the letter and ask for time” back. Boundaries shapes the silence before the next moment arrives.",
+          "nextNodeId": "end_kept_letter"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "writing_room",
+      "text": "The writing room offers paper but no eraser. You begin with the sentence you avoided for years: I loved you, and I was hurt. The words do not cancel each other. When you finish, the museum offers two envelopes—one addressed to your mother, the other to the person you were when silence felt safest.",
+      "sceneTitle": "A Page That Does Not Judge",
+      "choices": [
+        {
+          "text": "Send the letter to your mother",
+          "consequence": "“Send the letter to your mother” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "nextNodeId": "end_open_door"
+        },
+        {
+          "text": "Send it to your younger self",
+          "consequence": "You commit to “Send it to your younger self.” The story records the instinct as “Care” and carries it forward.",
+          "nextNodeId": "end_true_memory"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "future_self",
+      "text": "Your future self steps out of the portrait and sets two letters on the table. One contains reconciliation; the other, a peaceful goodbye. “I cannot tell you which I chose,” they say. “The museum exists because both can be acts of love.” They offer you the keys, but taking them means remaining after the brass door vanishes.",
+      "sceneTitle": "The Founder",
+      "choices": [
+        {
+          "text": "Take the keys and keep the museum open",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Service.",
+          "nextNodeId": "end_archivist"
+        },
+        {
+          "text": "Leave both futures unwritten and go home",
+          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Free.",
+          "nextNodeId": "end_true_memory"
+        }
+      ],
+      "isEnding": false,
+      "endingTitle": null
+    },
+    {
+      "id": "end_rewritten",
+      "text": "You wake with photographs from years you never lived and a dozen affectionate messages waiting on your phone. The loneliness is gone. So are several fierce, beloved parts of the life it pushed you to build. You grieve them quietly, then call your mother. A kinder history is still a history; now you must learn how to inhabit it.",
+      "sceneTitle": "The Kinder History",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Kinder History"
+    },
+    {
+      "id": "end_true_memory",
+      "text": "You keep the life that happened—the hurt, the distance, and the strength that grew around both. Yet the memory no longer feels like a locked room. When the museum disappears, the florist’s window reflects someone capable of honoring the past without living inside it. In your pocket is a blank page for whatever comes next.",
+      "sceneTitle": "Nothing Erased",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Nothing Erased"
+    },
+    {
+      "id": "end_open_door",
+      "text": "You do not solve twelve years in one night. You make tea. You say what can be said, stop when it becomes too much, and agree on a day to try again. At 3:00 a.m. the museum vanishes, but the ordinary door across from you remains open. For now, ordinary is more than enough.",
+      "sceneTitle": "Tea Before Answers",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Tea Before Answers"
+    },
+    {
+      "id": "end_kept_letter",
+      "text": "Not every unsent letter is unfinished business. Sometimes it is a record of what you survived and what you are not ready to reopen. You leave the museum with both letters in your coat. Months later, you read them without shaking. Whether you ever send one matters less than knowing the choice is finally yours.",
+      "sceneTitle": "The Letter You Keep",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "The Letter You Keep"
+    },
+    {
+      "id": "end_archivist",
+      "text": "The brass keys warm in your hand. Shelves unfold beyond the walls, full of apologies, confessions, boundaries, and goodbyes waiting for honest timing. When the next visitor arrives, you do not promise delivery will fix anything. You promise only a quiet room, a truthful page, and the dignity of choosing what happens to it.",
+      "sceneTitle": "Keeper of the Unsaid",
+      "choices": [],
+      "isEnding": true,
+      "endingTitle": "Keeper of the Unsaid"
+    }
+  ]
+}
