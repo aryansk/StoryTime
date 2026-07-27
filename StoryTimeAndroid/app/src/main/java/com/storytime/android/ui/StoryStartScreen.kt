@@ -65,6 +65,11 @@ fun StoryStartScreen(
                 error != null -> Text("Error: $error")
                 s == null -> CircularProgressIndicator()
                 else -> {
+                    BookSceneView(
+                        story = s,
+                        modifier = Modifier.fillMaxWidth().height(290.dp),
+                    )
+                    Spacer(Modifier.height(18.dp))
                     Text(s.title, fontSize = 32.sp, fontWeight = FontWeight.Black, color = palette.ink)
                     Spacer(Modifier.height(4.dp))
                     Text("${s.kind.displayName} · ${s.genre}" + (s.releaseYear?.let { " · $it" } ?: ""),

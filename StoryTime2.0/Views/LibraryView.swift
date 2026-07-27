@@ -13,7 +13,12 @@ struct LibraryView: View {
     @EnvironmentObject var statsStore: StatsStore
     @EnvironmentObject var endingsTracker: EndingsTracker
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     @State private var favoritesGenre: StoryGenre = .all
+    /// Library rows now participate in the same cover-to-story zoom that
+    /// Discover uses, so opening a book from either shelf feels identical.
+    @Namespace private var storyTransition
 
     /// Catalog stories + personal stories (personal first), de-duped by id.
     private var allStories: [CatalogStory] {
@@ -28,8 +33,18 @@ struct LibraryView: View {
     /// from scratch on every access, and `inProgress` did a linear scan per
     /// progress entry — O(stories × progress). Here we build one id→story
     /// index and reuse it.
+
+    /// One in-progress shelf entry. A named type rather than a tuple so it
+    /// can be `Identifiable` — `ForEach` and `.indexed` both need an id, and
+    /// Swift has no key paths into tuple components.
+    private struct ResumeEntry: Identifiable {
+        let story: CatalogStory
+        let progress: ReadingProgress
+        var id: CatalogStory.ID { story.id }
+    }
+
     private struct Derived {
-        var inProgress: [(CatalogStory, ReadingProgress)]
+        var inProgress: [ResumeEntry]
         var finished: [CatalogStory]
         var allFavorites: [CatalogStory]
         var shownFavorites: [CatalogStory]
@@ -40,16 +55,16 @@ struct LibraryView: View {
         let all = allStories
         let index = Dictionary(all.map { ($0.id, $0) }, uniquingKeysWith: { a, _ in a })
 
-        let inProgress: [(CatalogStory, ReadingProgress)] = progressStore.inProgress.compactMap {
+        let inProgress: [ResumeEntry] = progressStore.inProgress.compactMap {
             guard let story = index[$0.storyKey] else { return nil }
-            return (story, $0)
+            return ResumeEntry(story: story, progress: $0)
         }
 
         // Reaching an ending clears progress and records completion, so a
         // finished story never also sits in Continue Reading — but guard the
         // overlap anyway in case a resume was rebuilt. Sorted A–Z for a
         // stable shelf (completions carry no timestamp).
-        let inProgressKeys = Set(inProgress.map { $0.0.storageKey })
+        let inProgressKeys = Set(inProgress.map { $0.story.storageKey })
         let finished = all
             .filter { statsStore.completedStories.contains($0.storageKey)
                       && !inProgressKeys.contains($0.storageKey) }
@@ -103,17 +118,22 @@ struct LibraryView: View {
                             EmptyLibraryState()
                                 .padding(.horizontal, 24)
                                 .padding(.top, 40)
+                                .stAppear(0, rise: 20)
                         }
 
                         if !derived.inProgress.isEmpty {
                             VStack(alignment: .leading, spacing: 14) {
                                 SketchSectionHeader("Continue Reading")
                                 LazyVStack(spacing: 14) {
-                                    ForEach(derived.inProgress, id: \.0.id) { story, progress in
+                                    ForEach(derived.inProgress.indexed) { item in
+                                        let story = item.value.story
                                         NavigationLink(value: story) {
-                                            ContinueReadingRow(story: story, progress: progress)
+                                            ContinueReadingRow(story: story,
+                                                               progress: item.value.progress)
+                                                .matchedTransitionSource(id: story.id, in: storyTransition)
                                         }
-                                        .buttonStyle(.plain)
+                                        .stPressable()
+                                        .stAppear(item.index, rise: 16, enabled: item.index < 10)
                                     }
                                 }
                                 .padding(.horizontal, 24)
@@ -124,14 +144,17 @@ struct LibraryView: View {
                             VStack(alignment: .leading, spacing: 14) {
                                 SketchSectionHeader("Finished · \(derived.finished.count)")
                                 LazyVStack(spacing: 14) {
-                                    ForEach(derived.finished) { story in
+                                    ForEach(derived.finished.indexed) { item in
+                                        let story = item.value
                                         NavigationLink(value: story) {
                                             FinishedRow(
                                                 story: story,
                                                 endingsFound: endingsTracker.count(for: story.storageKey)
                                             )
+                                            .matchedTransitionSource(id: story.id, in: storyTransition)
                                         }
-                                        .buttonStyle(.plain)
+                                        .stPressable()
+                                        .stAppear(item.index, rise: 16, enabled: item.index < 10)
                                     }
                                 }
                                 .padding(.horizontal, 24)
@@ -147,7 +170,8 @@ struct LibraryView: View {
                                             ForEach(derived.favoriteGenres) { g in
                                                 SketchPill(title: g.rawValue,
                                                            selected: favoritesGenre == g) {
-                                                    withAnimation(.easeOut(duration: 0.15)) {
+                                                    withAnimation(stMotion(Theme.Motion.settle,
+                                                                            reduced: reduceMotion)) {
                                                         favoritesGenre = g
                                                     }
                                                 }
@@ -157,11 +181,14 @@ struct LibraryView: View {
                                     }
                                 }
                                 LazyVStack(spacing: 14) {
-                                    ForEach(derived.shownFavorites) { story in
+                                    ForEach(derived.shownFavorites.indexed) { item in
+                                        let story = item.value
                                         NavigationLink(value: story) {
                                             CatalogRowCard(story: story, isFavorite: true)
+                                                .matchedTransitionSource(id: story.id, in: storyTransition)
                                         }
-                                        .buttonStyle(.plain)
+                                        .stPressable()
+                                        .stAppear(item.index, rise: 16, enabled: item.index < 10)
                                         .contextMenu {
                                             Button(role: .destructive) {
                                                 favoritesStore.toggle(story.storageKey)
@@ -185,7 +212,9 @@ struct LibraryView: View {
             }
             .navigationBarHidden(true)
             .navigationDestination(for: CatalogStory.self) { story in
-                StoryStartView(story: story, settings: settings)
+                StoryStartView(story: story,
+                               settings: settings,
+                               transitionNamespace: storyTransition)
             }
         }
     }
@@ -209,15 +238,8 @@ struct ContinueReadingRow: View {
                         .font(Theme.Fonts.bodyItalic(13))
                         .foregroundColor(Theme.Palette.inkSoft)
                         .lineLimit(2)
-                    GeometryReader { geometry in
-                        ZStack(alignment: .leading) {
-                            Capsule().fill(Theme.Palette.inkHair)
-                            Capsule().fill(Theme.Palette.ink)
-                                .frame(width: geometry.size.width * progress.completionFraction)
-                        }
-                    }
-                    .frame(height: 6)
-                    .accessibilityLabel("\(Int(progress.completionFraction * 100)) percent complete")
+                    AnimatedProgressBar(fraction: progress.completionFraction, height: 6)
+                        .accessibilityLabel("\(Int(progress.completionFraction * 100)) percent complete")
                     HStack(spacing: 6) {
                         Text("Continue")
                             .font(Theme.Fonts.headingMedium(13))

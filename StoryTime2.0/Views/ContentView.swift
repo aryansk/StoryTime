@@ -18,12 +18,12 @@ struct ContentView: View {
     @StateObject private var choiceDNA = ChoiceDNAStore()
     @StateObject private var ambience = AmbienceService()
     @StateObject private var personalStore = PersonalStoriesStore()
-    @State private var selectedTab: Tab = ContentView.initialTab()
+    @State private var selectedTab: AppTab = ContentView.initialTab()
     /// Story the user chose from the onboarding payoff screen; presented
     /// as soon as the onboarding cover has finished dismissing.
     @State private var onboardingStoryToStart: CatalogStory?
 
-    private static func initialTab() -> Tab {
+    private static func initialTab() -> AppTab {
         #if DEBUG
         let args = ProcessInfo.processInfo.arguments
         if let idx = args.firstIndex(of: "-startTab"), idx + 1 < args.count {
@@ -39,7 +39,10 @@ struct ContentView: View {
         return .discover
     }
 
-    enum Tab: Hashable { case discover, library, profile, settings }
+    /// Named `AppTab`, not `Tab`: a nested type called `Tab` would shadow
+    /// SwiftUI's `Tab` inside this view's body, and every tab declaration
+    /// below would resolve to the enum instead.
+    enum AppTab: Hashable { case discover, library, profile, settings }
 
     /// Recompute and re-install the daily-story notification, picking a
     /// fresh "tonight's story" using the latest catalog and progress.
@@ -97,42 +100,43 @@ struct ContentView: View {
         )
     }
 
-    /// Keeps a tab's view in the hierarchy while hiding the inactive ones,
-    /// so their state survives tab switches.
-    @ViewBuilder
-    private func tabContent<V: View>(_ tab: Tab, @ViewBuilder _ content: () -> V) -> some View {
-        content()
-            .opacity(selectedTab == tab ? 1 : 0)
-            .allowsHitTesting(selectedTab == tab)
-            .zIndex(selectedTab == tab ? 1 : 0)
-            // Freeze stop-motion jitter in the three hidden tabs so they
-            // aren't redrawing their doodle canvases behind the active one.
-            .environment(\.stJitterPaused, selectedTab != tab)
-    }
+    /// Freezes stop-motion jitter in the three inactive tabs so they aren't
+    /// redrawing their doodle canvases behind the visible one. `TabView`
+    /// keeps every tab's view alive to preserve scroll position and filter
+    /// state, so without this the hidden tabs keep animating.
+    private func paused(_ tab: AppTab) -> Bool { selectedTab != tab }
 
     var body: some View {
-        ZStack {
-            PageBackground()
-
-            // All four tabs stay mounted; we toggle visibility rather than
-            // rebuild. This preserves each tab's NavigationStack, scroll
-            // position, search text and filter selections across switches
-            // (the old `switch` recreated the whole view every time).
-            ZStack {
-                tabContent(.discover) {
-                    CatalogShowsView(catalog: catalog, settings: settings, userModel: userModel)
-                }
-                tabContent(.library) { LibraryView(catalog: catalog, settings: settings) }
-                tabContent(.profile) { ProfileView(userModel: userModel, settings: settings) }
-                tabContent(.settings) { SettingsView(settings: settings) }
+        // The system tab bar. On iOS 26+ this renders as Liquid Glass: a
+        // floating capsule that refracts the page beneath it, minimizes to a
+        // pill as the reader scrolls down, and expands again on scroll up —
+        // which is why each tab's ScrollView is allowed to run edge to edge
+        // underneath it rather than being inset by a hand-drawn bar.
+        TabView(selection: $selectedTab) {
+            Tab("Discover", systemImage: "sparkles", value: AppTab.discover) {
+                CatalogShowsView(catalog: catalog, settings: settings, userModel: userModel)
+                    .environment(\.stJitterPaused, paused(.discover))
             }
-            .frame(maxWidth: .infinity, maxHeight: .infinity)
-            // Float the tab bar over the content while letting each tab's
-            // ScrollView extend underneath it — content scrolls edge-to-edge
-            // and the last row still clears the bar.
-            .safeAreaInset(edge: .bottom, spacing: 0) {
-                SketchTabBar(selected: $selectedTab)
+            Tab("Library", systemImage: "books.vertical", value: AppTab.library) {
+                LibraryView(catalog: catalog, settings: settings)
+                    .environment(\.stJitterPaused, paused(.library))
             }
+            Tab("Profile", systemImage: "person.crop.circle", value: AppTab.profile) {
+                ProfileView(userModel: userModel, settings: settings)
+                    .environment(\.stJitterPaused, paused(.profile))
+            }
+            Tab("Settings", systemImage: "gearshape", value: AppTab.settings) {
+                SettingsView(settings: settings)
+                    .environment(\.stJitterPaused, paused(.settings))
+            }
+        }
+        // Content-heavy reading app: give the page back its vertical space
+        // as soon as the reader starts scrolling.
+        .tabBarMinimizeBehavior(.onScrollDown)
+        .tint(Theme.Palette.storyBlue)
+        .background(PageBackground())
+        .onChange(of: selectedTab) { _, _ in
+            UISelectionFeedbackGenerator().selectionChanged()
         }
         // First-run onboarding. A full-screen cover (not a sheet) so the
         // first impression has no grabber and can't be swiped away half-done.
@@ -211,66 +215,6 @@ struct ContentView: View {
         .fullScreenCover(isPresented: debugShowTerms) {
             NavigationStack { TermsOfServiceView() }
         }
-    }
-}
-
-// MARK: - Sketchy tab bar
-
-struct SketchTabBar: View {
-    @Binding var selected: ContentView.Tab
-
-    var body: some View {
-        HStack(spacing: 0) {
-            tab(.discover, label: "Discover", doodle: .clapperboard)
-            tab(.library, label: "Library", doodle: .books)
-            tab(.profile, label: "Profile", doodle: .person)
-            tab(.settings, label: "Settings", doodle: .gear)
-        }
-        .padding(.horizontal, 14)
-        .padding(.vertical, 10)
-        .background(
-            WobblyRect(jitter: 0.5, corner: 14, seed: 9.0)
-                .fill(Theme.Palette.butter)
-        )
-        .overlay(
-            WobblyRect(jitter: 0.5, corner: 14, seed: 9.0)
-                .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.bold)
-        )
-        .padding(.horizontal, 18)
-        .padding(.bottom, 14)
-    }
-
-    private func tab(_ tab: ContentView.Tab, label: String, doodle: DoodleName) -> some View {
-        let active = selected == tab
-        return Button {
-            withAnimation(.easeOut(duration: 0.15)) { selected = tab }
-            UIImpactFeedbackGenerator(style: .light).impactOccurred()
-        } label: {
-            VStack(spacing: 4) {
-                DoodleIcon(doodle, size: 22,
-                           color: Theme.Palette.ink,
-                           stroke: active ? Theme.Stroke.bold : Theme.Stroke.line)
-                    .jitter(active, amplitude: 0.4)
-                Text(label)
-                    .font(Theme.Fonts.headingMedium(10))
-                    .foregroundColor(Theme.Palette.ink)
-                    .tracking(0.4)
-            }
-            .padding(.vertical, 4)
-            .frame(maxWidth: .infinity)
-            .background(
-                Group {
-                    if active {
-                        WobblyRect(jitter: 0.3, corner: 8,
-                                    seed: CGFloat(label.stableSeed(100)))
-                            .fill(Theme.Palette.butterDeep)
-                    }
-                }
-            )
-        }
-        .buttonStyle(.plain)
-        .accessibilityLabel(label)
-        .accessibilityAddTraits(active ? [.isButton, .isSelected] : .isButton)
     }
 }
 

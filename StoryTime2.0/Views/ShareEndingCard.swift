@@ -15,7 +15,7 @@ struct ShareEndingCard: View {
 
     var body: some View {
         ZStack {
-            Theme.Palette.paperYellow
+            Theme.Palette.paperSpeckle
             VStack(alignment: .leading, spacing: 14) {
                 HStack {
                     Text("STORYTIME")
@@ -23,10 +23,16 @@ struct ShareEndingCard: View {
                         .tracking(2)
                         .foregroundColor(Theme.Palette.inkSoft)
                     Spacer()
-                    DoodleIcon(.starFill, size: 18, filled: true)
+                    HStack(spacing: 6) {
+                        DoodleIcon(.bookmarkFill, size: 16, filled: true)
+                        Text("ENDING FOUND")
+                            .font(Theme.Fonts.meta())
+                            .tracking(1)
+                    }
+                    .foregroundColor(Theme.Palette.storyCoral)
                 }
 
-                Text("What you did in")
+                Text("WHAT YOU DID IN")
                     .font(Theme.Fonts.bodyItalic(15))
                     .foregroundColor(Theme.Palette.inkSoft)
                 Text(story.sourceTitle)
@@ -39,20 +45,25 @@ struct ShareEndingCard: View {
 
                 ZStack {
                     WobblyRect(jitter: 0.6, corner: 10, seed: 13)
-                        .fill(Theme.Palette.butterDeep)
+                        .fill(coverColor)
                     WobblyRect(jitter: 0.6, corner: 10, seed: 13)
-                        .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.bold)
+                        .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
                     HStack(spacing: 14) {
-                        DoodleIcon(genreDoodle(for: story.genre), size: 48)
-                            .jitter(amplitude: 0.3)
+                        ZStack {
+                            RoundedRectangle(cornerRadius: 5)
+                                .fill(Theme.Palette.butter.opacity(0.92))
+                            DoodleIcon(genreDoodle(for: story.genre), size: 42,
+                                       color: Theme.Palette.ink)
+                        }
+                        .frame(width: 62, height: 82)
                         VStack(alignment: .leading, spacing: 4) {
-                            Text("Your ending")
+                            Text("YOUR ENDING")
                                 .font(Theme.Fonts.label())
                                 .tracking(1)
-                                .foregroundColor(Theme.Palette.inkSoft)
+                                .foregroundColor(Theme.Palette.butter.opacity(0.80))
                             Text(endingTitle)
                                 .font(Theme.Fonts.cardTitle())
-                                .foregroundColor(Theme.Palette.ink)
+                                .foregroundColor(Theme.Palette.butter)
                                 .lineLimit(3)
                                 .minimumScaleFactor(0.6)
                         }
@@ -73,7 +84,7 @@ struct ShareEndingCard: View {
                 }
 
                 Spacer(minLength: 4)
-                Text("storytime — what would you have done?")
+                Text("What would you have done?")
                     .font(Theme.Fonts.bodyItalic(12))
                     .foregroundColor(Theme.Palette.inkSoft)
             }
@@ -90,6 +101,19 @@ struct ShareEndingCard: View {
         case .comedy: return .popcorn
         case .action: return .flame
         case .drama, .all: return .tv
+        }
+    }
+
+    private var coverColor: Color {
+        switch story.genre {
+        case .horror: return Color(red: 0.38, green: 0.16, blue: 0.28)
+        case .thriller: return Color(red: 0.72, green: 0.24, blue: 0.25)
+        case .comedy: return Color(red: 0.88, green: 0.49, blue: 0.18)
+        case .drama: return Color(red: 0.25, green: 0.37, blue: 0.62)
+        case .fantasy: return Color(red: 0.42, green: 0.31, blue: 0.62)
+        case .action: return Color(red: 0.72, green: 0.31, blue: 0.23)
+        case .sciFi: return Color(red: 0.16, green: 0.50, blue: 0.60)
+        case .all: return Theme.Palette.ink
         }
     }
 

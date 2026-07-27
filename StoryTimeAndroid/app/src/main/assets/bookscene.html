@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>StoryTime book scene</title>
+  <style>
+    :root { --ink: #172744; --butter: #fff8d9; --pink: #ef8fa7; --paper: #f6efdf; }
+    * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    html, body, #scene { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+    body { background: radial-gradient(circle at 50% 18%, #293a62 0%, #172744 66%, #101b31 100%); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    canvas { display: block; width: 100%; height: 100%; touch-action: none; }
+    .caption { position: absolute; left: 0; right: 0; bottom: 14px; z-index: 5; text-align: center; color: rgba(255,248,217,.72); font-size: 11px; letter-spacing: .12em; text-transform: uppercase; pointer-events: none; transition: opacity .35s ease; }
+    body.open .caption { opacity: 0; }
+    .status { position: absolute; top: 14px; left: 16px; z-index: 5; color: var(--pink); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; opacity: 0; transform: translateY(-8px); transition: opacity .35s ease, transform .35s ease; pointer-events: none; }
+    body.open .status { opacity: 1; transform: none; }
+  </style>
+</head>
+<body>
+  <div id="scene"></div>
+  <div class="status">Tap the book to close</div>
+  <div class="caption">Tap a book to open it</div>
+  <script src="./three.min.js"></script>
+  <script>
+    (function () {
+      "use strict";
+
+      var W = 1.42, H = 2.14, T = 0.34;
+      var reducedMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      var scene = new THREE.Scene();
+      var camera = new THREE.PerspectiveCamera(30, 1, .1, 100);
+      camera.position.set(0, .08, 8.8);
+      var renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: "high-performance" });
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 1.5));
+      renderer.setClearColor(0x000000, 0);
+      renderer.shadowMap.enabled = true;
+      renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+      document.getElementById("scene").appendChild(renderer.domElement);
+
+      scene.add(new THREE.HemisphereLight(0xfff8e7, 0x172744, 1.05));
+      var key = new THREE.DirectionalLight(0xfff4d9, 1.55);
+      key.position.set(-3, 5, 5); key.castShadow = true; scene.add(key);
+      var fill = new THREE.DirectionalLight(0xa6b9ff, .62);
+      fill.position.set(4, 1, 2); scene.add(fill);
+
+      var floor = new THREE.Mesh(
+        new THREE.CircleGeometry(4.6, 48),
+        new THREE.MeshBasicMaterial({ color: 0x111d34, transparent: true, opacity: .72 })
+      );
+      floor.rotation.x = -Math.PI / 2; floor.position.y = -1.42; floor.position.z = .15; scene.add(floor);
+
+      var ray = new THREE.Raycaster(), pointer = new THREE.Vector2();
+      var books = [], selected = null, mode = "hero", openProgress = 0, openTarget = 0;
+      var sceneParallaxX = new SpringValue(0, 60, 10), sceneParallaxY = new SpringValue(0, 60, 10);
+      var group = new THREE.Group(); scene.add(group);
+
+      function clamp(v, a, b) { return Math.max(a, Math.min(b, v)); }
+      function ease(t) { return t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
+      function damp(v, target, lambda, dt) { return THREE.MathUtils.lerp(v, target, 1 - Math.exp(-lambda * dt)); }
+      function SpringValue(value, stiffness, damping) {
+        this.v = value; this.t = value; this.vel = 0;
+        this.k = stiffness || 120; this.d = damping || 14;
+      }
+      SpringValue.prototype.set = function (value) { this.v = value; this.t = value; this.vel = 0; return this; };
+      SpringValue.prototype.update = function (dt) {
+        var acceleration = this.k * (this.t - this.v) - this.d * this.vel;
+        this.vel += acceleration * dt; this.v += this.vel * dt; return this.v;
+      };
+      function genreColor(genre, index) {
+        var colors = { Horror: 0x753952, Thriller: 0xb34c45, Comedy: 0xe99d47, Drama: 0x5e7ca7, Fantasy: 0x7a66a8, Action: 0xc26955, "Sci-Fi": 0x3b93a0 };
+        return colors[genre] || [0x5379a7, 0xa55d72, 0x7a8c62][index % 3];
+      }
+      function wrap(ctx, text, x, y, max, lineHeight, maxLines) {
+        var words = String(text || "StoryTime").split(/\\s+/), line = "", lines = [];
+        words.forEach(function (word) {
+          var test = line ? line + " " + word : word;
+          if (ctx.measureText(test).width > max && line) { lines.push(line); line = word; } else line = test;
+        });
+        if (line) lines.push(line);
+        lines.slice(0, maxLines || 4).forEach(function (l, i) { ctx.fillText(l, x, y + i * lineHeight); });
+      }
+      function textureFor(book) {
+        var c = document.createElement("canvas"); c.width = 700; c.height = 1000;
+        var ctx = c.getContext("2d"), color = genreColor(book.genre, book.index);
+        ctx.fillStyle = "#" + color.toString(16).padStart(6, "0"); ctx.fillRect(0, 0, c.width, c.height);
+        ctx.fillStyle = "rgba(255,248,217,.10)"; ctx.fillRect(46, 48, 608, 904);
+        ctx.fillStyle = "#fff8d9"; ctx.fillRect(46, 48, 13, 904);
+        ctx.strokeStyle = "rgba(255,248,217,.5)"; ctx.lineWidth = 4; ctx.strokeRect(46, 48, 608, 904);
+        ctx.fillStyle = "#fff8d9"; ctx.font = "700 34px -apple-system, sans-serif"; ctx.letterSpacing = "2px";
+        ctx.fillText("STORYTIME", 96, 132);
+        ctx.font = "800 70px Georgia, serif"; wrap(ctx, book.title, 96, 390, 490, 82, 4);
+        ctx.font = "italic 27px Georgia, serif"; ctx.fillText(book.genre || "Interactive story", 96, 800);
+        ctx.font = "600 19px -apple-system, sans-serif"; ctx.fillText((book.minutes || 10) + " MINUTES · " + (book.endings || 3) + " ENDINGS", 96, 876);
+        var t = new THREE.CanvasTexture(c); t.encoding = THREE.sRGBEncoding; return t;
+      }
+      function pageTexture(book, pageIndex) {
+        var c = document.createElement("canvas"); c.width = 500; c.height = 760;
+        var ctx = c.getContext("2d"); ctx.fillStyle = "#f6efdf"; ctx.fillRect(0, 0, c.width, c.height);
+        ctx.fillStyle = "#172744"; ctx.font = "600 18px Georgia, serif"; ctx.fillText(book.genre || "StoryTime", 42, 54);
+        ctx.strokeStyle = "rgba(23,39,68,.48)"; ctx.lineWidth = 3;
+        for (var i = 0; i < 11; i++) { var yy = 116 + i * 48; ctx.beginPath(); ctx.moveTo(42, yy); ctx.lineTo(458 - (i % 3) * 25, yy); ctx.stroke(); }
+        ctx.fillStyle = "rgba(23,39,68,.48)"; ctx.font = "italic 16px Georgia, serif"; ctx.fillText("page " + (pageIndex + 1), 42, 710);
+        var t = new THREE.CanvasTexture(c); t.encoding = THREE.sRGBEncoding; return t;
+      }
+      function mat(opts) { return new THREE.MeshStandardMaterial(Object.assign({ roughness: .72, metalness: .02 }, opts)); }
+
+      function buildBook(data, index) {
+        var root = new THREE.Group(), float = new THREE.Group(); root.add(float); group.add(root);
+        var frontTex = textureFor(Object.assign({}, data, { index: index }));
+        var front = mat({ map: frontTex, roughness: .52 });
+        var edge = mat({ color: genreColor(data.genre, index), roughness: .82 });
+        var pages = mat({ color: 0xf1eadb, roughness: .94 });
+        var pageBlock = new THREE.Mesh(new THREE.BoxGeometry(W - .06, H - .03, T - .04), pages);
+        pageBlock.position.z = -.01; pageBlock.castShadow = true; pageBlock.receiveShadow = true; float.add(pageBlock);
+        var back = new THREE.Mesh(new THREE.BoxGeometry(W + .08, H + .1, .05), edge);
+        back.position.z = -.21; back.castShadow = true; float.add(back);
+        var spine = new THREE.Mesh(new THREE.BoxGeometry(.045, H + .1, T + .12), edge);
+        spine.position.x = -W / 2; spine.position.z = 0; spine.castShadow = true; float.add(spine);
+        var coverPivot = new THREE.Group(); coverPivot.position.x = -W / 2; coverPivot.position.z = .22;
+        var cover = new THREE.Mesh(new THREE.BoxGeometry(W + .08, H + .1, .055), front);
+        cover.position.x = W / 2; cover.castShadow = true; coverPivot.add(cover); float.add(coverPivot);
+        var pagesGroup = new THREE.Group(); pagesGroup.position.x = -W / 2; pagesGroup.position.z = .18; float.add(pagesGroup);
+        var rightPage = new THREE.Mesh(
+          new THREE.PlaneGeometry(W - .13, H - .15),
+          new THREE.MeshBasicMaterial({ map: pageTexture(data, 8), side: THREE.DoubleSide })
+        );
+        rightPage.position.x = (W - .13) / 2; rightPage.position.z = .004; pagesGroup.add(rightPage);
+        var pagePivots = [];
+        for (var p = 0; p < 8; p++) {
+          var pivot = new THREE.Group(); pivot.position.x = 0; pivot.position.z = .006 + p * .001;
+          var sheet = new THREE.Mesh(new THREE.PlaneGeometry(W - .13, H - .15), new THREE.MeshBasicMaterial({ map: pageTexture(data, p), side: THREE.DoubleSide }));
+          sheet.position.x = (W - .13) / 2; sheet.position.y = 0; sheet.rotation.y = 0; sheet.castShadow = true;
+          pivot.add(sheet); pagesGroup.add(pivot); pagePivots.push(pivot);
+        }
+        var hit = new THREE.Mesh(new THREE.BoxGeometry(W + .4, H + .35, 1.1), new THREE.MeshBasicMaterial({ visible: false }));
+        hit.position.z = .1; root.add(hit);
+        var b = {
+          data: data, root: root, float: float, coverPivot: coverPivot,
+          pagePivots: pagePivots, hit: hit, index: index,
+          heroX: 0, heroY: 0, heroZ: 0, heroRz: 0, heroScale: 1,
+          exit: null, orbitY: 0, orbitYv: 0, orbitTarget: 0, autoSpin: false, orbitX: new SpringValue(0, 60, 12),
+          s: {
+            px: new SpringValue(0, 17, 6.8), py: new SpringValue(0, 17, 6.8), pz: new SpringValue(0, 17, 6.8),
+            rx: new SpringValue(0, 17, 6.8), ry: new SpringValue(0, 17, 6.8), rz: new SpringValue(0, 17, 6.8),
+            scale: new SpringValue(1, 17, 6.8), lift: new SpringValue(0, 120, 13),
+            cover: new SpringValue(0, 90, 12), coverBack: new SpringValue(0, 90, 12),
+          }
+        };
+        hit.userData.book = b; books.push(b); return b;
+      }
+
+      function dispose() {
+        books.forEach(function (b) { group.remove(b.root); }); books = []; selected = null;
+      }
+      function layoutHero() {
+        var portrait = window.innerWidth / Math.max(1, window.innerHeight) < .85;
+        var slots = portrait ? [-1.28, 0, 1.28] : [-1.72, 0, 1.72];
+        books.forEach(function (b, i) {
+          b.heroX = slots[i] || 0;
+          b.heroY = -0.72 - (i === 1 ? .08 : .2);
+          b.heroZ = i === 1 ? .42 : -.18;
+          b.heroRz = i === 0 ? .16 : (i === 2 ? -.16 : -.02);
+          b.heroScale = i === 1 ? 1.02 : .92;
+        });
+      }
+      var exitEase = {
+        hold: function () { return 1; },
+        outQuad: function (t) { return 1 - (1 - t) * (1 - t); },
+        inOutSine: function (t) { return -(Math.cos(Math.PI * t) - 1) / 2; },
+        outQuint: function (t) { return 1 - Math.pow(1 - t, 5); }
+      };
+      function playY(book, segments) { book.exit = { segments: segments, index: 0, elapsed: 0 }; }
+      function stepY(book, dt) {
+        var exit = book.exit, spring = book.s.py;
+        if (!exit) return;
+        exit.elapsed += dt;
+        var segment = exit.segments[exit.index];
+        while (segment && exit.elapsed >= segment.duration) {
+          exit.elapsed -= segment.duration; spring.v = segment.to;
+          segment = exit.segments[++exit.index];
+        }
+        if (segment) spring.v = segment.from + (segment.to - segment.from) * segment.ease(clamp(exit.elapsed / segment.duration, 0, 1));
+        else book.exit = null;
+        spring.t = spring.v; spring.vel = 0;
+      }
+      function pinBook(book) {
+        var s = book.s;
+        s.px.t = s.px.v; s.pz.t = s.pz.v; s.rx.t = s.rx.v; s.ry.t = s.ry.v; s.rz.t = s.rz.v;
+      }
+      function sendBookOut(book, index, delay) {
+        var y0 = book.heroY, here = book.s.py.v, apex = y0 + .38;
+        book.root.visible = true; pinBook(book);
+        playY(book, [
+          { duration: delay, from: here, to: here, ease: exitEase.hold },
+          { duration: .28, from: here, to: apex, ease: exitEase.outQuad },
+          { duration: .9, from: apex, to: y0 - 4.2, ease: exitEase.inOutSine }
+        ]);
+      }
+      function bringBookBack(book, delay) {
+        var here = book.s.py.v; book.root.visible = true; pinBook(book);
+        playY(book, [
+          { duration: delay, from: here, to: here, ease: exitEase.hold },
+          { duration: 1.0, from: here, to: book.heroY, ease: exitEase.outQuint }
+        ]);
+      }
+      function setBookData(payload) {
+        dispose();
+        var incoming = payload && payload.books ? payload.books : [];
+        incoming.slice(0, 3).forEach(function (data, index) { buildBook(data, index); });
+        while (books.length < 3) buildBook({ title: "A new story", genre: "Drama", minutes: 10, endings: 3 }, books.length);
+        layoutHero(); mode = "hero"; selected = null; detailReady = false; camMode = "hero"; openProgress = 0; openTarget = 0; document.body.classList.remove("open");
+        books.forEach(function (b) {
+          b.s.px.set(b.heroX); b.s.py.set(b.heroY); b.s.pz.set(b.heroZ); b.s.rz.set(b.heroRz); b.s.scale.set(b.heroScale);
+          b.s.cover.set(0); b.s.coverBack.set(0); b.root.visible = true;
+        });
+        setTimeout(function () { if (books.length) openBook(Math.min(1, books.length - 1)); }, reducedMotion ? 0 : 520);
+      }
+      function openBook(index) {
+        if (!books[index] || (mode !== "hero" && mode !== "closing")) return;
+        selected = books[index]; mode = "opening"; openTarget = 1; document.body.classList.add("open");
+        var outgoing = 0;
+        books.forEach(function (b, i) { if (b !== selected) sendBookOut(b, i, outgoing++ * .08); });
+        setTimeout(function () {
+          if (mode !== "opening") return;
+          selected.s.px.t = .45; selected.s.py.t = -.42; selected.s.pz.t = .55; selected.s.rz.t = .04; selected.s.scale.t = 1.12;
+          selected.orbitY = reducedMotion ? 0 : -Math.PI * 2; selected.orbitYv = reducedMotion ? 0 : 3; selected.orbitTarget = 0; selected.autoSpin = !reducedMotion;
+          detailReady = true; selected.s.cover.t = Math.PI * .94;
+          camMode = "detail";
+        }, reducedMotion ? 0 : 760);
+        setTimeout(function () {
+          if (mode === "opening") mode = "detail";
+        }, reducedMotion ? 80 : 1400);
+      }
+      function closeBook() {
+        if (!selected || mode !== "detail") return;
+        var closingBook = selected; mode = "closing"; detailReady = false; openTarget = 0; document.body.classList.remove("open");
+        closingBook.s.cover.t = 0; closingBook.s.coverBack.t = 0; closingBook.orbitTarget = Math.round(closingBook.orbitY / (Math.PI * 2)) * Math.PI * 2;
+        setTimeout(function () {
+          if (mode !== "closing") return;
+          camMode = "hero"; closingBook.s.px.t = closingBook.heroX; closingBook.s.py.t = closingBook.heroY; closingBook.s.pz.t = closingBook.heroZ; closingBook.s.rz.t = closingBook.heroRz; closingBook.s.scale.t = closingBook.heroScale;
+          books.forEach(function (b) { if (b !== closingBook) bringBookBack(b, .85); });
+        }, 250);
+        setTimeout(function () { if (mode === "closing") { mode = "hero"; selected = null; } }, 1600);
+      }
+      var camMode = "hero", detailReady = false, pointerDown = false, pointerMoved = false, lastPointerX = 0, lastPointerY = 0;
+      function pointerPoint(e) { var r = renderer.domElement.getBoundingClientRect(); pointer.x = ((e.clientX - r.left) / r.width) * 2 - 1; pointer.y = -((e.clientY - r.top) / r.height) * 2 + 1; }
+      renderer.domElement.addEventListener("pointerdown", function (e) {
+        pointerDown = true; pointerMoved = false; lastPointerX = e.clientX; lastPointerY = e.clientY; renderer.domElement.setPointerCapture(e.pointerId);
+        pointerPoint(e); ray.setFromCamera(pointer, camera);
+        var hit = ray.intersectObjects(books.map(function (b) { return b.hit; }), false)[0];
+        if (hit && mode === "hero") openBook(hit.object.userData.book.index);
+      });
+      renderer.domElement.addEventListener("pointermove", function (e) {
+        if (!pointerDown || !selected || mode !== "detail") return;
+        var dx = e.clientX - lastPointerX, dy = e.clientY - lastPointerY; lastPointerX = e.clientX; lastPointerY = e.clientY;
+        if (Math.abs(dx) + Math.abs(dy) > 2) pointerMoved = true;
+        selected.orbitY += dx * .012; selected.orbitYv = clamp(selected.orbitYv * .5 + dx * .18, -14, 14); selected.orbitX.t = clamp(selected.orbitX.t + dy * .006, -.55, .55);
+      });
+      renderer.domElement.addEventListener("pointerup", function (e) {
+        pointerDown = false; renderer.domElement.releasePointerCapture(e.pointerId);
+        if (selected && mode === "detail") {
+          if (!pointerMoved) closeBook();
+          else selected.orbitTarget = Math.round((selected.orbitY + selected.orbitYv * 1.2) / Math.PI) * Math.PI;
+        }
+      });
+      window.addEventListener("resize", function () { camera.aspect = window.innerWidth / Math.max(1, window.innerHeight); camera.updateProjectionMatrix(); renderer.setSize(window.innerWidth, window.innerHeight, false); layoutHero(); });
+      window.setBookData = setBookData;
+
+      var clock = new THREE.Clock();
+      function render() {
+        requestAnimationFrame(render); var dt = Math.min(clock.getDelta(), .05), t = clock.elapsedTime;
+        openProgress = damp(openProgress, openTarget, reducedMotion ? 30 : 8.5, dt);
+        books.forEach(function (b, i) {
+          var s = b.s, isSelected = b === selected, inDetail = isSelected && detailReady && mode !== "hero" && mode !== "closing";
+          if (b.exit) stepY(b, dt);
+          else {
+            s.px.t = mode === "hero" || mode === "closing" || (isSelected && !detailReady) ? b.heroX : (isSelected ? .45 : s.px.v);
+            s.py.t = mode === "hero" || mode === "closing" || (isSelected && !detailReady) ? b.heroY : (isSelected ? -.42 : s.py.v);
+            s.pz.t = mode === "hero" || mode === "closing" || (isSelected && !detailReady) ? b.heroZ : (isSelected ? .55 : s.pz.v);
+            s.rz.t = mode === "hero" || mode === "closing" || (isSelected && !detailReady) ? b.heroRz : (isSelected ? .04 : s.rz.v);
+            s.scale.t = mode === "hero" || mode === "closing" || (isSelected && !detailReady) ? b.heroScale : (isSelected ? 1.12 : s.scale.v);
+          }
+          s.px.update(dt); if (!b.exit) s.py.update(dt); s.pz.update(dt); s.rz.update(dt); s.scale.update(dt);
+          s.lift.t = reducedMotion ? 0 : (mode === "hero" ? Math.sin(t * .7 + i) * .035 : (inDetail ? Math.sin(t * .45 + i) * .012 : 0)); s.lift.update(dt);
+          if (inDetail && !reducedMotion && !pointerDown) {
+            if (b.autoSpin) {
+              b.orbitYv *= Math.exp(-.9 * dt); b.orbitY += b.orbitYv * dt;
+              b.orbitY += (0 - b.orbitY) * (1 - Math.exp(-5 * dt)) * .28;
+              if (Math.abs(b.orbitY) < .012 && Math.abs(b.orbitYv) < .04) { b.orbitY = 0; b.orbitYv = 0; b.autoSpin = false; }
+            } else {
+              if (Math.abs(b.orbitYv) > .5) { b.orbitYv *= Math.exp(-.9 * dt); b.orbitY += b.orbitYv * dt; }
+              b.orbitTarget = Math.round((b.orbitY + b.orbitYv * 1.2) / Math.PI) * Math.PI;
+              b.orbitY += (b.orbitTarget - b.orbitY) * (1 - Math.exp(-8 * dt)) * .16;
+            }
+          }
+          b.orbitX.t = pointerDown && inDetail ? b.orbitX.t : 0; b.orbitX.update(dt);
+          s.cover.t = inDetail ? Math.PI * .94 : 0; s.cover.update(dt);
+          s.coverBack.t = inDetail ? Math.PI * .08 : 0; s.coverBack.update(dt);
+          b.root.position.set(s.px.v, s.py.v + s.lift.v, s.pz.v);
+          b.root.rotation.set(b.orbitX.v, (inDetail ? -.16 : 0) + b.orbitY, s.rz.v);
+          b.root.scale.setScalar(Math.max(s.scale.v, .001));
+          b.coverPivot.rotation.y = -s.cover.v; b.coverPivot.position.z = .22 + s.cover.v * .022;
+          b.pagePivots.forEach(function (pivot, p) {
+            var fan = Math.pow(1 - p / b.pagePivots.length, 2.6) * .82;
+            var flutter = reducedMotion ? 0 : Math.sin(t * 1.15 + i + p * .6) * .012 * (1 - p / b.pagePivots.length);
+            pivot.rotation.y = inDetail ? -(s.cover.v * fan + Math.max(0, flutter)) : 0;
+          });
+          b.float.position.y = Math.sin(t * 1.4 + i * .8) * .025 * (mode === "hero" ? 1 : .2);
+          b.float.rotation.z = Math.sin(t * .9 + i * 1.7) * .006 * (mode === "hero" ? 1 : .35);
+          b.root.visible = !(b !== selected && mode !== "hero" && b.s.py.v < b.heroY - 3.8);
+        });
+        var detailCamera = camMode === "detail";
+        camera.position.x = damp(camera.position.x, detailCamera ? -.05 : 0, 6.5, dt);
+        camera.position.y = damp(camera.position.y, detailCamera ? .1 : .08, 6.5, dt);
+        camera.position.z = damp(camera.position.z, detailCamera ? 8.45 : 8.8, 6.5, dt);
+        sceneParallaxX.t = reducedMotion ? 0 : pointer.x * .02; sceneParallaxY.t = reducedMotion ? 0 : pointer.y * .012;
+        sceneParallaxX.update(dt); sceneParallaxY.update(dt);
+        group.rotation.y = sceneParallaxX.v; group.rotation.x = sceneParallaxY.v;
+        camera.lookAt(detailCamera ? -.05 : 0, detailCamera ? -.05 : -.25, 0);
+        renderer.render(scene, camera);
+      }
+      renderer.setSize(window.innerWidth, window.innerHeight, false); layoutHero(); render();
+      window.setTimeout(function () { if (window.webkit && window.webkit.messageHandlers && window.webkit.messageHandlers.booksceneReady) window.webkit.messageHandlers.booksceneReady.postMessage("ready"); }, 0);
+      if (window.AndroidBookScene && window.AndroidBookScene.ready) window.AndroidBookScene.ready();
+    })();
+  </script>
+</body>
+</html>

@@ -446,6 +446,28 @@ struct SettingsView: View {
                         }
                         .padding(.horizontal, 24)
 
+                        // Narrative feedback
+                        VStack(alignment: .leading, spacing: 14) {
+                            SketchSectionHeader("Narrative Feedback", horizontalInset: 0)
+                            SketchCard(seed: 14.9) {
+                                Toggle(isOn: $settings.hapticsEnabled) {
+                                    HStack(spacing: 10) {
+                                        DoodleIcon(.sparkle, size: 20)
+                                        VStack(alignment: .leading, spacing: 2) {
+                                            Text("Story moments")
+                                                .font(Theme.Fonts.body(15))
+                                                .foregroundColor(Theme.Palette.ink)
+                                            Text("Feel choices, page turns, bookmarks, and endings")
+                                                .font(Theme.Fonts.bodyItalic(12))
+                                                .foregroundColor(Theme.Palette.inkSoft)
+                                        }
+                                    }
+                                }
+                                .tint(Theme.Palette.ink)
+                            }
+                        }
+                        .padding(.horizontal, 24)
+
                         // Catalog source
                         VStack(alignment: .leading, spacing: 14) {
                             SketchSectionHeader("Catalog Source", horizontalInset: 0)

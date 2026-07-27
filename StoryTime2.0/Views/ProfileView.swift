@@ -14,6 +14,8 @@ struct ProfileView: View {
     @EnvironmentObject var choiceDNA: ChoiceDNAStore
     @EnvironmentObject var endingsTracker: EndingsTracker
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     @State private var editingName: Bool = false
     @State private var nameDraft: String = ""
 
@@ -49,26 +51,34 @@ struct ProfileView: View {
 
                         identityCard
                             .padding(.horizontal, 24)
+                            .stAppear(0)
 
                         tasteBlock
                             .padding(.horizontal, 24)
+                            .stAppear(1)
 
                         readingGoalBlock
                             .padding(.horizontal, 24)
+                            .stAppear(2)
 
                         statsBlock
                             .padding(.horizontal, 24)
+                            .stAppear(3)
 
                         achievementsBlock
+                            .stAppear(4)
 
                         dnaBlock
                             .padding(.horizontal, 24)
+                            .stAppear(5)
 
                         legalBlock
                             .padding(.horizontal, 24)
+                            .stAppear(6)
 
                         aboutBlock
                             .padding(.horizontal, 24)
+                            .stAppear(7)
 
                         Spacer(minLength: 40)
                     }
@@ -101,10 +111,14 @@ struct ProfileView: View {
                             SketchButton(title: "Save", style: .primary, fullWidth: false) {
                                 let trimmed = nameDraft.trimmingCharacters(in: .whitespaces)
                                 if !trimmed.isEmpty { userModel.username = trimmed }
-                                editingName = false
+                                withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                                    editingName = false
+                                }
                             }
                             SketchButton(title: "Cancel", style: .ghost, fullWidth: false) {
-                                editingName = false
+                                withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                                    editingName = false
+                                }
                             }
                         }
                     } else {
@@ -116,7 +130,9 @@ struct ProfileView: View {
                             .foregroundColor(Theme.Palette.inkSoft)
                         Button {
                             nameDraft = userModel.username
-                            editingName = true
+                            withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                                editingName = true
+                            }
                         } label: {
                             HStack(spacing: 4) {
                                 Text("Edit name")
@@ -126,9 +142,10 @@ struct ProfileView: View {
                             .foregroundColor(Theme.Palette.ink)
                             .padding(.top, 2)
                         }
-                        .buttonStyle(.plain)
+                        .stPressable(scale: 0.95)
                     }
                 }
+                .animation(reduceMotion ? nil : Theme.Motion.settle, value: editingName)
                 Spacer()
             }
         }
@@ -209,6 +226,9 @@ struct ProfileView: View {
                         DoodleIcon(fraction >= 1 ? .starFill : .flame,
                                    size: 28,
                                    filled: fraction >= 1)
+                            .scaleEffect(fraction >= 1 && !reduceMotion ? 1.15 : 1)
+                            .animation(reduceMotion ? nil : Theme.Motion.bouncy,
+                                       value: fraction >= 1)
                         VStack(alignment: .leading, spacing: 3) {
                             Text(fraction >= 1 ? "Goal complete" : "Keep the story moving")
                                 .font(Theme.Fonts.cardTitle())
@@ -220,18 +240,18 @@ struct ProfileView: View {
                                 .foregroundColor(Theme.Palette.inkSoft)
                         }
                         Spacer()
-                        Text("\(Int(fraction * 100))%")
-                            .font(Theme.Fonts.heading(22))
-                            .foregroundColor(Theme.Palette.ink)
-                    }
-                    GeometryReader { geometry in
-                        ZStack(alignment: .leading) {
-                            Capsule().fill(Theme.Palette.inkHair)
-                            Capsule().fill(Theme.Palette.ink)
-                                .frame(width: geometry.size.width * fraction)
+                        HStack(spacing: 0) {
+                            CountUpText(value: Int(fraction * 100),
+                                        font: Theme.Fonts.heading(22),
+                                        color: Theme.Palette.ink)
+                            Text("%")
+                                .font(Theme.Fonts.heading(22))
+                                .foregroundColor(Theme.Palette.ink)
                         }
+                        .accessibilityElement(children: .ignore)
+                        .accessibilityLabel("\(Int(fraction * 100)) percent of today's goal")
                     }
-                    .frame(height: 8)
+                    AnimatedProgressBar(fraction: fraction, height: 8)
                 }
             }
         }
@@ -242,26 +262,26 @@ struct ProfileView: View {
             SketchSectionHeader("Your Stats", horizontalInset: 0)
             HStack(spacing: 12) {
                 ProfileStatTile(doodle: .flame,
-                                value: "\(statsStore.currentStreak)",
+                                value: statsStore.currentStreak,
                                 label: "Day streak")
                 ProfileStatTile(doodle: .books,
-                                value: "\(statsStore.completedStories.count)",
+                                value: statsStore.completedStories.count,
                                 label: "Completed")
             }
             HStack(spacing: 12) {
                 ProfileStatTile(doodle: .stack,
-                                value: "\(statsStore.scenesRead)",
+                                value: statsStore.scenesRead,
                                 label: "Scenes read")
                 ProfileStatTile(doodle: .branch,
-                                value: "\(statsStore.choicesMade)",
+                                value: statsStore.choicesMade,
                                 label: "Choices made")
             }
             HStack(spacing: 12) {
                 ProfileStatTile(doodle: .clock,
-                                value: "\(statsStore.readingMinutes)",
+                                value: statsStore.readingMinutes,
                                 label: "Minutes read")
                 ProfileStatTile(doodle: .heartFill,
-                                value: "\(favoritesStore.favoriteTitles.count)",
+                                value: favoritesStore.favoriteTitles.count,
                                 label: "Saved")
             }
         }
@@ -280,6 +300,8 @@ struct ProfileView: View {
     private struct AchievementCard: View {
         let achievement: Achievement
 
+        @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
         var body: some View {
             SketchCard(fill: achievement.unlocked ? Theme.Palette.butterDeep : Theme.Palette.mist,
                        padding: 14,
@@ -292,8 +314,10 @@ struct ProfileView: View {
                         Spacer()
                         if achievement.unlocked {
                             DoodleIcon(.checkmark, size: 15)
+                                .transition(.scale(scale: 0.2).combined(with: .opacity))
                         } else {
                             SketchBadge(text: "Locked")
+                                .transition(.opacity)
                         }
                     }
                     Text(achievement.title)
@@ -307,6 +331,10 @@ struct ProfileView: View {
                 .frame(width: 145, alignment: .leading)
                 .opacity(achievement.unlocked ? 1 : 0.62)
             }
+            // Unlocking is the payoff for a long grind; let it land with a
+            // bounce instead of quietly re-rendering the next time the tab
+            // is opened.
+            .animation(reduceMotion ? nil : Theme.Motion.bouncy, value: achievement.unlocked)
             .accessibilityElement(children: .combine)
             .accessibilityLabel("\(achievement.title), \(achievement.unlocked ? "unlocked" : "locked"). \(achievement.subtitle)")
         }
@@ -335,8 +363,9 @@ struct ProfileView: View {
             SketchSectionHeader("Achievements")
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 12) {
-                    ForEach(achievements) { achievement in
-                        AchievementCard(achievement: achievement)
+                    ForEach(achievements.indexed) { item in
+                        AchievementCard(achievement: item.value)
+                            .stAppear(item.index, rise: 0, scale: 0.92)
                     }
                 }
                 .padding(.horizontal, 24)
@@ -403,6 +432,8 @@ struct ProfileView: View {
                 Text("\(percent)%")
                     .font(Theme.Fonts.headingMedium(13))
                     .foregroundColor(Theme.Palette.inkSoft)
+                    .contentTransition(.numericText(value: Double(percent)))
+                    .animation(reduceMotion ? nil : Theme.Motion.drift, value: percent)
             }
             ZStack(alignment: .leading) {
                 WobblyRect(jitter: 0.3, corner: 4,
@@ -413,6 +444,7 @@ struct ProfileView: View {
                             seed: CGFloat(trait.rawValue.stableSeed(30)))
                     .fill(Theme.Palette.ink)
                     .frame(width: max(6, CGFloat(percent) * 2.4), height: 10)
+                    .animation(reduceMotion ? nil : Theme.Motion.drift, value: percent)
             }
             Text(trait.blurb)
                 .font(Theme.Fonts.bodyItalic(12))
@@ -479,16 +511,18 @@ struct ProfileView: View {
 
 private struct ProfileStatTile: View {
     let doodle: DoodleName
-    let value: String
+    /// Numeric so the tile can roll to its new value rather than swapping
+    /// the glyphs — a streak ticking from 2 to 3 should be visible.
+    let value: Int
     let label: String
 
     var body: some View {
         SketchCard(fill: Theme.Palette.mist, padding: 14, seed: CGFloat(label.stableSeed(100))) {
             VStack(alignment: .leading, spacing: 8) {
                 DoodleIcon(doodle, size: 22)
-                Text(value)
-                    .font(Theme.Fonts.heading(24))
-                    .foregroundColor(Theme.Palette.ink)
+                CountUpText(value: value,
+                            font: Theme.Fonts.heading(24),
+                            color: Theme.Palette.ink)
                 Text(label)
                     .font(Theme.Fonts.body(12))
                     .foregroundColor(Theme.Palette.inkSoft)

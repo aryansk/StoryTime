@@ -22,7 +22,7 @@ The bundled catalog currently contains 182 validated stories and 572 endings. A 
 ```text
 StoryTime2.0/                 SwiftUI app
   Models/                     Catalog, persistence, reader state, services
-  Theme/                      Tokens, components, fonts, doodles
+  Theme/                      Tokens, motion, components, fonts, doodles
   Views/                      Discovery, reader, library, profile, settings
   Resources/Catalog/          Bundled story JSON and index
 StoryTime2.0Tests/            Catalog and model tests
@@ -38,8 +38,8 @@ The apps do not use CocoaPods or third-party iOS runtime dependencies.
 
 ### Apple
 
-- Xcode 16 or newer
-- iOS/iPadOS 18.2 or newer
+- Xcode 26 or newer
+- iOS/iPadOS 26.0 or newer (the app uses the system Liquid Glass tab bar and `tabBarMinimizeBehavior`)
 - The `StoryTime2.0` scheme
 
 Open `StoryTime2.0.xcodeproj`, choose an iPhone or iPad simulator, then build and run.

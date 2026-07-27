@@ -109,10 +109,10 @@ fun CatalogScreen(onPick: (String) -> Unit) {
                         Spacer(Modifier.height(6.dp))
                         SketchCard(modifier = Modifier.fillMaxWidth(), onClick = { onPick(pick.id) }) {
                             Row(verticalAlignment = Alignment.CenterVertically) {
-                                DoodleIcon(
-                                    name = "sparkle",
-                                    modifier = Modifier.size(42.dp),
-                                    tint = ColorFilter.tint(palette.ink),
+                                BookCoverThumbnail(
+                                    title = pick.title,
+                                    genre = pick.genre,
+                                    modifier = Modifier.width(64.dp).height(84.dp),
                                 )
                                 Spacer(Modifier.width(14.dp))
                                 Column(Modifier.weight(1f)) {
@@ -250,40 +250,48 @@ fun CatalogScreen(onPick: (String) -> Unit) {
 private fun StoryRow(entry: CatalogIndexEntry, isNew: Boolean, onClick: () -> Unit) {
     val palette = LocalStPalette.current
     SketchCard(modifier = Modifier.fillMaxWidth(), onClick = onClick) {
-        Column {
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(entry.title, fontWeight = FontWeight.SemiBold, fontSize = 18.sp,
-                    color = palette.ink, modifier = Modifier.weight(1f))
-                if (entry.loved == true) {
-                    DoodleIcon(
-                        name = "starFill",
-                        modifier = Modifier.size(16.dp),
-                        tint = ColorFilter.tint(palette.accent),
-                    )
-                }
-                if (isNew) {
-                    Spacer(Modifier.width(6.dp))
-                    Text("NEW", fontSize = 9.sp, fontWeight = FontWeight.Black, color = palette.accent)
-                }
-            }
-            Spacer(Modifier.height(2.dp))
-            Row(verticalAlignment = Alignment.CenterVertically) {
-                Text(entry.kind.displayName, fontSize = 12.sp, color = palette.inkSoft)
-                Text(" · ${entry.genre}", fontSize = 12.sp, color = palette.inkSoft)
-                entry.releaseYear?.let { Text(" · $it", fontSize = 12.sp, color = palette.inkSoft) }
-                entry.stars?.let { stars ->
-                    Spacer(Modifier.width(6.dp))
-                    repeat(stars) {
+        Row(verticalAlignment = Alignment.Top) {
+            BookCoverThumbnail(
+                title = entry.title,
+                genre = entry.genre,
+                modifier = Modifier.width(72.dp).height(104.dp),
+            )
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(entry.title, fontWeight = FontWeight.SemiBold, fontSize = 18.sp,
+                        color = palette.ink, modifier = Modifier.weight(1f))
+                    if (entry.loved == true) {
                         DoodleIcon(
                             name = "starFill",
-                            modifier = Modifier.size(11.dp),
-                            tint = ColorFilter.tint(palette.inkSoft),
+                            modifier = Modifier.size(16.dp),
+                            tint = ColorFilter.tint(palette.accent),
                         )
                     }
+                    if (isNew) {
+                        Spacer(Modifier.width(6.dp))
+                        Text("NEW", fontSize = 9.sp, fontWeight = FontWeight.Black, color = palette.accent)
+                    }
                 }
+                Spacer(Modifier.height(2.dp))
+                Row(verticalAlignment = Alignment.CenterVertically) {
+                    Text(entry.kind.displayName, fontSize = 12.sp, color = palette.inkSoft)
+                    Text(" · ${entry.genre}", fontSize = 12.sp, color = palette.inkSoft)
+                    entry.releaseYear?.let { Text(" · $it", fontSize = 12.sp, color = palette.inkSoft) }
+                    entry.stars?.let { stars ->
+                        Spacer(Modifier.width(6.dp))
+                        repeat(stars) {
+                            DoodleIcon(
+                                name = "starFill",
+                                modifier = Modifier.size(11.dp),
+                                tint = ColorFilter.tint(palette.inkSoft),
+                            )
+                        }
+                    }
+                }
+                Spacer(Modifier.height(6.dp))
+                Text(entry.synopsis, fontSize = 14.sp, color = palette.ink)
             }
-            Spacer(Modifier.height(6.dp))
-            Text(entry.synopsis, fontSize = 14.sp, color = palette.ink)
         }
     }
 }

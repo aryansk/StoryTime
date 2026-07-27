@@ -55,10 +55,18 @@ fun LibraryScreen(onPick: (String) -> Unit) {
                     else LazyColumn(verticalArrangement = Arrangement.spacedBy(10.dp)) {
                         items(items, key = { it.storyKey }) { p ->
                             SketchCard(modifier = Modifier.fillMaxWidth(), onClick = { onPick(p.storyKey) }) {
-                                Column {
-                                    Text(p.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
-                                    p.sceneTitle?.let { Text("· $it", fontSize = 12.sp, color = palette.inkSoft) }
-                                    Text(p.storyDescription, fontSize = 13.sp, color = palette.ink)
+                                Row(verticalAlignment = Alignment.Top) {
+                                    BookCoverThumbnail(
+                                        title = p.title,
+                                        genre = byId[p.storyKey]?.genre ?: "Drama",
+                                        modifier = Modifier.width(66.dp).height(94.dp),
+                                    )
+                                    Spacer(Modifier.width(12.dp))
+                                    Column(Modifier.weight(1f)) {
+                                        Text(p.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
+                                        p.sceneTitle?.let { Text("· $it", fontSize = 12.sp, color = palette.inkSoft) }
+                                        Text(p.storyDescription, fontSize = 13.sp, color = palette.ink)
+                                    }
                                 }
                             }
                         }
@@ -80,9 +88,17 @@ fun LibraryScreen(onPick: (String) -> Unit) {
                         items(items, key = { it.id }) { e ->
                             val count = endings[e.id]?.size ?: 0
                             SketchCard(modifier = Modifier.fillMaxWidth(), onClick = { onPick(e.id) }) {
-                                Column {
-                                    Text(e.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
-                                    Text("$count endings discovered", fontSize = 12.sp, color = palette.inkSoft)
+                                Row(verticalAlignment = Alignment.Top) {
+                                    BookCoverThumbnail(
+                                        title = e.title,
+                                        genre = e.genre,
+                                        modifier = Modifier.width(66.dp).height(94.dp),
+                                    )
+                                    Spacer(Modifier.width(12.dp))
+                                    Column {
+                                        Text(e.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
+                                        Text("$count endings discovered", fontSize = 12.sp, color = palette.inkSoft)
+                                    }
                                 }
                             }
                         }
@@ -101,10 +117,18 @@ private enum class LibTab(val label: String) {
 private fun SimpleRow(e: CatalogIndexEntry, onClick: () -> Unit) {
     val palette = LocalStPalette.current
     SketchCard(modifier = Modifier.fillMaxWidth(), onClick = onClick) {
-        Column {
-            Text(e.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
-            Text("${e.kind.displayName} · ${e.genre}", fontSize = 12.sp, color = palette.inkSoft)
-            Text(e.synopsis, fontSize = 13.sp, color = palette.ink)
+        Row(verticalAlignment = Alignment.Top) {
+            BookCoverThumbnail(
+                title = e.title,
+                genre = e.genre,
+                modifier = Modifier.width(66.dp).height(94.dp),
+            )
+            Spacer(Modifier.width(12.dp))
+            Column(Modifier.weight(1f)) {
+                Text(e.title, fontWeight = FontWeight.SemiBold, color = palette.ink)
+                Text("${e.kind.displayName} · ${e.genre}", fontSize = 12.sp, color = palette.inkSoft)
+                Text(e.synopsis, fontSize = 13.sp, color = palette.ink)
+            }
         }
     }
 }

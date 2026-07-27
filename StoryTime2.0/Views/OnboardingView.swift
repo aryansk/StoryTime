@@ -22,6 +22,8 @@ struct OnboardingView: View {
     /// tapped one of their personalized picks and should land in that story.
     var onFinish: (CatalogStory?) -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     @State private var step = 0
     @State private var goingBack = false
     /// Guards the auto-advance on single-select steps so a fast double tap
@@ -62,91 +64,177 @@ struct OnboardingView: View {
                    doodle: .stack)
     ]
 
-    private static let tasteGenres: [(genre: StoryGenre, doodle: DoodleName)] = [
-        (.drama, .tv), (.comedy, .popcorn), (.thriller, .clapperboard),
-        (.sciFi, .sparkle), (.horror, .flame), (.fantasy, .scroll),
-        (.action, .play)
-    ]
+    private static let tasteGenres: [TasteGenre] = {
+        // Annotated separately: implicit member expressions inside an array
+        // literal can't be inferred through the `.enumerated().map` chain.
+        let raw: [(StoryGenre, DoodleName)] = [
+            (.drama, .tv), (.comedy, .popcorn), (.thriller, .clapperboard),
+            (.sciFi, .sparkle), (.horror, .flame), (.fantasy, .scroll),
+            (.action, .play)
+        ]
+        return raw.enumerated().map {
+            TasteGenre(order: $0.offset, genre: $0.element.0, doodle: $0.element.1)
+        }
+    }()
 
     var body: some View {
         ZStack {
             PageBackground()
 
             VStack(spacing: 0) {
-                if (1...Self.quizStepCount).contains(step) {
-                    header
-                        .padding(.horizontal, 20)
-                        .padding(.top, 16)
-                }
+                topBar
+                    .padding(.horizontal, 20)
+                    .padding(.top, 8)
 
-                Spacer(minLength: 12)
+                ScrollView(showsIndicators: false) {
+                    VStack(spacing: 18) {
+                        livingBookPreview
 
-                Group {
-                    switch step {
-                    case 0:
-                        WelcomeStep(storyCount: catalog.stories.count,
-                                    onContinue: advance,
-                                    onSkip: { complete() })
-                    case 1:
-                        TasteStep(genres: Self.tasteGenres,
-                                  selection: $selectedGenres,
-                                  onContinue: advance)
-                    case 2:
-                        OptionListStep(title: "What brings you here?",
-                                       subtitle: "This tunes tonight's pick — you can change it anytime.",
-                                       options: Self.goalOptions,
-                                       selection: $selectedGoal,
-                                       onSelect: autoAdvance)
-                    case 3:
-                        OptionListStep(title: "How deep do you go?",
-                                       subtitle: "So we know whether to hand you one-shots or whole sagas.",
-                                       options: Self.paceOptions,
-                                       selection: $selectedPace,
-                                       onSelect: autoAdvance)
-                    case 4:
-                        NameStep(name: $name, onContinue: advance)
-                    case 5:
-                        PayoffStep(name: displayName,
-                                   picks: personalizedPicks,
-                                   onStart: { complete(startWith: $0) },
-                                   onBrowse: { complete() })
-                    default:
-                        EmptyView()
+                        Group {
+                            switch step {
+                            case 0:
+                                WelcomeStep(storyCount: catalog.stories.count,
+                                            onContinue: advance)
+                            case 1:
+                                TasteStep(genres: Self.tasteGenres,
+                                          selection: $selectedGenres,
+                                          onContinue: advance)
+                            case 2:
+                                OptionListStep(title: "What kind of night is it?",
+                                               subtitle: "Your answer changes the book waiting on your shelf.",
+                                               options: Self.goalOptions,
+                                               selection: $selectedGoal,
+                                               onSelect: autoAdvance)
+                            case 3:
+                                OptionListStep(title: "How much story do you want?",
+                                               subtitle: "We’ll tune the shelf for a quick scene or a whole saga.",
+                                               options: Self.paceOptions,
+                                               selection: $selectedPace,
+                                               onSelect: autoAdvance)
+                            case 4:
+                                NameStep(name: $name, onContinue: advance)
+                            case 5:
+                                PayoffStep(name: displayName,
+                                           picks: personalizedPicks,
+                                           onStart: { complete(startWith: $0) },
+                                           onBrowse: { complete() })
+                            default:
+                                EmptyView()
+                            }
+                        }
+                        .transition(stepTransition)
+                        .padding(.bottom, 24)
                     }
+                    .padding(.top, 2)
                 }
-                .transition(.asymmetric(
-                    insertion: .move(edge: goingBack ? .leading : .trailing).combined(with: .opacity),
-                    removal:   .move(edge: goingBack ? .trailing : .leading).combined(with: .opacity)
-                ))
-
-                Spacer(minLength: 12)
             }
         }
     }
 
-    // MARK: Header (back + progress)
+    // MARK: Pool-like shell: one living object, one quiet progress cue
 
-    private var header: some View {
-        VStack(spacing: 8) {
-            HStack(spacing: 12) {
-                DoodleButton(doodle: .chevronLeft, size: 18, label: "Back") {
-                    back()
+    private var topBar: some View {
+        HStack(spacing: 12) {
+            if step > 0 && step < 5 {
+                Button(action: back) {
+                    DoodleIcon(.chevronLeft, size: 17)
+                        .frame(width: 44, height: 44)
                 }
-                HStack(spacing: 6) {
-                    ForEach(0..<Self.quizStepCount, id: \.self) { idx in
-                        WobblyRect(jitter: 0.4, corner: 3, seed: CGFloat(idx))
-                            .fill(idx < step ? Theme.Palette.ink : Theme.Palette.inkHair)
-                            .frame(height: 5)
-                            .animation(.easeOut(duration: 0.25), value: step)
-                    }
-                }
-                // Balances the back button so the bar stays centered.
+                .buttonStyle(.plain)
+                .accessibilityLabel("Back")
+            } else {
                 Color.clear.frame(width: 44, height: 44)
             }
-            Text("Step \(min(Self.quizStepCount, step)) of \(Self.quizStepCount)")
+
+            Spacer(minLength: 0)
+
+            if (1...Self.quizStepCount).contains(step) {
+                HStack(spacing: 6) {
+                    ForEach(0..<Self.quizStepCount, id: \.self) { index in
+                        Capsule()
+                            .fill(index < step ? Theme.Palette.storyBlue : Theme.Palette.inkHair)
+                            .frame(width: index == step - 1 ? 22 : 7, height: 5)
+                            .animation(reduceMotion ? nil : Theme.Motion.bouncy, value: step)
+                    }
+                }
+                .accessibilityElement()
+                .accessibilityLabel("Step \(step) of \(Self.quizStepCount)")
+            } else {
+                Text(step == 5 ? "YOUR SHELF" : "STORYTIME")
+                    .font(Theme.Fonts.meta())
+                    .tracking(1.4)
+                    .foregroundColor(Theme.Palette.inkSoft)
+            }
+
+            Spacer(minLength: 0)
+
+            if step < 5 {
+                Button("Skip", action: { complete() })
+                    .font(Theme.Fonts.headingMedium(13))
+                    .foregroundColor(Theme.Palette.inkSoft)
+                    .frame(minWidth: 44, minHeight: 44)
+            } else {
+                Color.clear.frame(width: 44, height: 44)
+            }
+        }
+    }
+
+    private var livingBookPreview: some View {
+        VStack(spacing: 5) {
+            if let story = onboardingPreviewStory {
+                BookSceneView(story: story,
+                              mode: .onboarding,
+                              onEvent: { event in
+                                  if case .opened = event {
+                                      NarrativeFeedback.play(.pageTurn)
+                                  }
+                              })
+                    .frame(height: 205)
+                    .clipShape(RoundedRectangle(cornerRadius: 16))
+                    .accessibilityElement()
+                    .accessibilityLabel("Your living storybook preview")
+                    .accessibilityHint("Tap a book to explore it")
+            } else {
+                DoodleIcon(.clapperboard, size: 82)
+                    .frame(height: 205)
+            }
+
+            Text(livingBookCaption)
                 .font(Theme.Fonts.meta())
                 .foregroundColor(Theme.Palette.inkSoft)
+                .contentTransition(.opacity)
+                .animation(reduceMotion ? nil : Theme.Motion.settle, value: livingBookCaption)
         }
+        .padding(.horizontal, 12)
+    }
+
+    private var onboardingPreviewStory: CatalogStory? {
+        guard !catalog.stories.isEmpty else { return nil }
+        return catalog.stories
+            .map { (story: $0, score: firstStoryScore($0)) }
+            .sorted { $0.score > $1.score }
+            .first?.story
+    }
+
+    private var livingBookCaption: String {
+        if step == 0 { return "A shelf that follows your taste" }
+        if step == 5 { return "Three paths, picked for you" }
+        if !selectedGenres.isEmpty { return "Your shelf is changing with you" }
+        return "Choose an answer — the book moves with you"
+    }
+
+    /// Steps slide in the direction of travel and shrink slightly on the way
+    /// out, so the flow reads as a stack of cards rather than a filmstrip.
+    /// Reduce Motion drops the travel and keeps the crossfade.
+    private var stepTransition: AnyTransition {
+        if reduceMotion { return .opacity }
+        return .asymmetric(
+            insertion: .move(edge: goingBack ? .leading : .trailing)
+                .combined(with: .opacity),
+            removal: .move(edge: goingBack ? .trailing : .leading)
+                .combined(with: .opacity)
+                .combined(with: .scale(scale: 0.96))
+        )
     }
 
     // MARK: Navigation
@@ -154,14 +242,14 @@ struct OnboardingView: View {
     private func advance() {
         goingBack = false
         advancing = false
-        withAnimation(.easeOut(duration: 0.25)) { step += 1 }
+        withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) { step += 1 }
     }
 
     private func back() {
         guard step > 0 else { return }
         goingBack = true
         advancing = false
-        withAnimation(.easeOut(duration: 0.25)) { step -= 1 }
+        withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) { step -= 1 }
     }
 
     /// Single-select steps advance on their own after a beat, so picking an
@@ -181,6 +269,7 @@ struct OnboardingView: View {
     }
 
     private func complete(startWith story: CatalogStory? = nil) {
+        advancing = false
         userModel.username = displayName.isEmpty ? "Storyteller" : displayName
         userModel.favoriteGenres = Self.tasteGenres
             .map(\.genre.rawValue)
@@ -238,6 +327,15 @@ struct OnboardingView: View {
 
 // MARK: - Quiz option model
 
+/// The taste-step genre chips, carrying their display order so the grid can
+/// stagger them. A named type (not a tuple) so `ForEach` has an id.
+struct TasteGenre: Identifiable {
+    let order: Int
+    let genre: StoryGenre
+    let doodle: DoodleName
+    var id: StoryGenre { genre }
+}
+
 private struct QuizOption: Identifiable {
     let title: String
     let subtitle: String
@@ -250,25 +348,25 @@ private struct QuizOption: Identifiable {
 private struct WelcomeStep: View {
     let storyCount: Int
     let onContinue: () -> Void
-    let onSkip: () -> Void
 
     var body: some View {
-        VStack(spacing: 32) {
-            VStack(spacing: 18) {
-                DoodleIcon(.clapperboard, size: 96)
-                    .jitter(amplitude: 0.4)
+        VStack(spacing: 22) {
+            VStack(spacing: 10) {
                 Text("StoryTime")
                     .font(Theme.Fonts.display())
                     .foregroundColor(Theme.Palette.ink)
+                Text("Stories with more than one way to end.")
+                    .font(Theme.Fonts.bodyItalic(14))
+                    .foregroundColor(Theme.Palette.inkSoft)
             }
 
             VStack(spacing: 12) {
-                Text("What would you have done in your favorite movie?")
+                Text("Pick a path. See what breaks.")
                     .font(Theme.Fonts.title())
                     .foregroundColor(Theme.Palette.ink)
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 24)
-                Text("\(max(storyCount, 100))+ hand-authored stories from the movies, shows, and books everyone has opinions about. Every choice is yours.")
+                Text("\(max(storyCount, 100))+ hand-authored stories from movies, shows, and books. Every choice is yours.")
                     .font(Theme.Fonts.body(15))
                     .foregroundColor(Theme.Palette.inkSoft)
                     .multilineTextAlignment(.center)
@@ -277,16 +375,10 @@ private struct WelcomeStep: View {
             }
 
             VStack(spacing: 12) {
-                SketchButton(title: "Begin", trailingDoodle: .arrowRight, action: onContinue)
+                SketchButton(title: "Open my shelf", trailingDoodle: .arrowRight, action: onContinue)
                 Text("4 quick questions · about 30 seconds")
                     .font(Theme.Fonts.meta())
                     .foregroundColor(Theme.Palette.inkSoft)
-                Button(action: onSkip) {
-                    Text("Skip — take me straight in")
-                        .font(Theme.Fonts.headingMedium(13))
-                        .foregroundColor(Theme.Palette.inkSoft)
-                        .frame(minHeight: 44)
-                }
             }
             .padding(.horizontal, 40)
         }
@@ -294,7 +386,7 @@ private struct WelcomeStep: View {
 }
 
 private struct TasteStep: View {
-    let genres: [(genre: StoryGenre, doodle: DoodleName)]
+    let genres: [TasteGenre]
     @Binding var selection: Set<String>
     let onContinue: () -> Void
 
@@ -316,7 +408,7 @@ private struct TasteStep: View {
             }
 
             LazyVGrid(columns: columns, spacing: 12) {
-                ForEach(genres, id: \.genre) { item in
+                ForEach(genres) { item in
                     GenreChip(title: item.genre.rawValue,
                               doodle: item.doodle,
                               selected: selection.contains(item.genre.rawValue)) {
@@ -327,6 +419,7 @@ private struct TasteStep: View {
                             selection.insert(item.genre.rawValue)
                         }
                     }
+                    .stAppear(item.order, rise: 12, scale: 0.94)
                 }
             }
             .padding(.horizontal, 32)
@@ -336,6 +429,8 @@ private struct TasteStep: View {
                          action: onContinue)
                 .padding(.horizontal, 40)
                 .opacity(selection.isEmpty ? 0.5 : 1)
+                .scaleEffect(selection.isEmpty ? 0.98 : 1)
+                .animation(Theme.Motion.quick, value: selection.isEmpty)
                 .disabled(selection.isEmpty)
         }
     }
@@ -347,6 +442,8 @@ private struct GenreChip: View {
     let selected: Bool
     let action: () -> Void
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     var body: some View {
         Button(action: action) {
             HStack(spacing: 8) {
@@ -357,6 +454,7 @@ private struct GenreChip: View {
                 Spacer(minLength: 0)
                 if selected {
                     DoodleIcon(.checkmark, size: 14)
+                        .transition(.scale(scale: 0.3).combined(with: .opacity))
                 }
             }
             .padding(.horizontal, 14)
@@ -371,8 +469,10 @@ private struct GenreChip: View {
                     .stroke(Theme.Palette.ink,
                             lineWidth: selected ? Theme.Stroke.bold : Theme.Stroke.line)
             )
+            .scaleEffect(selected && !reduceMotion ? 1.03 : 1)
+            .animation(reduceMotion ? nil : Theme.Motion.bouncy, value: selected)
         }
-        .buttonStyle(.plain)
+        .stPressable(scale: 0.95)
         .accessibilityLabel(title)
         .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
     }
@@ -400,10 +500,11 @@ private struct OptionListStep: View {
                     .padding(.horizontal, 32)
             }
             VStack(spacing: 10) {
-                ForEach(options) { opt in
+                ForEach(options.indexed) { item in
+                    let opt = item.value
                     Button {
                         UISelectionFeedbackGenerator().selectionChanged()
-                        selection = opt.title
+                        withAnimation(Theme.Motion.quick) { selection = opt.title }
                         onSelect()
                     } label: {
                         HStack(spacing: 14) {
@@ -419,6 +520,7 @@ private struct OptionListStep: View {
                             Spacer()
                             if selection == opt.title {
                                 DoodleIcon(.checkmark, size: 18)
+                                    .transition(.scale(scale: 0.3).combined(with: .opacity))
                             }
                         }
                         .padding(.horizontal, 18)
@@ -432,8 +534,11 @@ private struct OptionListStep: View {
                                 .stroke(Theme.Palette.ink,
                                         lineWidth: selection == opt.title ? Theme.Stroke.bold : Theme.Stroke.line)
                         )
+                        .scaleEffect(selection == opt.title ? 1.02 : 1)
+                        .animation(Theme.Motion.bouncy, value: selection)
                     }
-                    .buttonStyle(.plain)
+                    .stPressable(scale: 0.97)
+                    .stAppear(item.index, rise: 14)
                     .accessibilityLabel("\(opt.title). \(opt.subtitle)")
                     .accessibilityAddTraits(selection == opt.title ? [.isButton, .isSelected] : .isButton)
                 }
@@ -483,19 +588,16 @@ private struct PayoffStep: View {
     let onBrowse: () -> Void
 
     var body: some View {
-        ScrollView(showsIndicators: false) {
-            VStack(spacing: 24) {
+        VStack(spacing: 20) {
                 VStack(spacing: 12) {
-                    DoodleIcon(.sparkle, size: 72)
-                        .jitter(amplitude: 0.5)
-                    Text(name.isEmpty ? "Your shelf is ready." : "Your shelf is ready, \(name).")
+                    Text(name.isEmpty ? "Your shelf is ready." : "Ready for you, \(name).")
                         .font(Theme.Fonts.title())
                         .foregroundColor(Theme.Palette.ink)
                         .multilineTextAlignment(.center)
                         .padding(.horizontal, 24)
                     Text(picks.isEmpty
                          ? "The catalog is warming up — head in and look around."
-                         : "Three picks tuned to your answers. Tap one to start reading right now.")
+                         : "Three books tuned to your answers. Tap one to open it now.")
                         .font(Theme.Fonts.body(14))
                         .foregroundColor(Theme.Palette.inkSoft)
                         .multilineTextAlignment(.center)
@@ -503,17 +605,24 @@ private struct PayoffStep: View {
                 }
 
                 if !picks.isEmpty {
-                    VStack(spacing: 12) {
-                        ForEach(picks) { story in
+                    ScrollView(.horizontal, showsIndicators: false) {
+                        HStack(spacing: 12) {
+                        ForEach(picks.indexed) { item in
                             Button {
-                                onStart(story)
+                                onStart(item.value)
                             } label: {
-                                PickCard(story: story)
+                                PickCard(story: item.value)
+                                    .frame(width: 270)
                             }
-                            .buttonStyle(SketchPressStyle())
+                            .stPressable(scale: 0.97, nudge: 1.5)
+                            // The payoff is the moment the flow is built
+                            // around — the three picks deal out one by one.
+                            .stAppear(item.index, rise: 22, scale: 0.92,
+                                      animation: Theme.Motion.bouncy)
                         }
+                        }
+                        .padding(.horizontal, 32)
                     }
-                    .padding(.horizontal, 32)
                 }
 
                 SketchButton(title: picks.isEmpty ? "Enter the catalog" : "Browse everything instead",
@@ -521,9 +630,8 @@ private struct PayoffStep: View {
                              style: picks.isEmpty ? .primary : .ghost,
                              action: onBrowse)
                     .padding(.horizontal, 40)
-            }
-            .padding(.vertical, 8)
         }
+        .padding(.vertical, 8)
     }
 }
 
@@ -532,13 +640,8 @@ private struct PickCard: View {
 
     var body: some View {
         HStack(spacing: 14) {
-            ZStack {
-                WobblyRect(jitter: 0.4, corner: 8,
-                           seed: CGFloat(story.id.stableSeed(50)))
-                    .fill(Theme.Palette.butter)
-                DoodleIcon(doodleFor(story), size: 36)
-            }
-            .frame(width: 62, height: 72)
+            BookCoverThumbnail(story: story, compact: true)
+                .frame(width: 62, height: 72)
 
             VStack(alignment: .leading, spacing: 5) {
                 Text(story.title)

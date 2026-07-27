@@ -172,12 +172,29 @@ struct SketchButton: View {
     private var borderColor: Color { Theme.Palette.ink }
 }
 
+/// The sketch vocabulary's press state: the element nudges down-right as if
+/// pressed into the paper, and sinks very slightly. Kept as its own style
+/// (rather than folding into `PressableStyle`) because the directional nudge
+/// is what makes a hand-drawn button feel stamped rather than tapped.
 struct SketchPressStyle: ButtonStyle {
     func makeBody(configuration: Configuration) -> some View {
-        configuration.label
-            .offset(x: configuration.isPressed ? 1.5 : 0,
-                    y: configuration.isPressed ? 1.5 : 0)
-            .animation(.easeOut(duration: 0.08), value: configuration.isPressed)
+        Effect(configuration: configuration)
+    }
+
+    // See PressableStyle: @Environment only resolves inside a real View,
+    // not on the ButtonStyle struct itself — and the nested type can't be
+    // called `Body`, which is `ButtonStyle`'s own associated type.
+    private struct Effect: View {
+        let configuration: ButtonStyleConfiguration
+        @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
+        var body: some View {
+            let pressed = configuration.isPressed
+            return configuration.label
+                .offset(x: pressed ? 1.5 : 0, y: pressed ? 1.5 : 0)
+                .scaleEffect(reduceMotion ? 1 : (pressed ? 0.98 : 1))
+                .animation(reduceMotion ? nil : Theme.Motion.snappy, value: pressed)
+        }
     }
 }
 
@@ -188,6 +205,8 @@ struct SketchPill: View {
     var doodle: DoodleName? = nil
     var selected: Bool = false
     let action: () -> Void
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         Button(action: {
@@ -213,8 +232,10 @@ struct SketchPill: View {
                 WobblyRect(jitter: 0.4, corner: 14, seed: CGFloat(title.stableSeed(100)))
                     .stroke(Theme.Palette.ink, lineWidth: selected ? Theme.Stroke.bold : Theme.Stroke.line)
             )
+            .scaleEffect(selected && !reduceMotion ? 1.04 : 1)
+            .animation(reduceMotion ? nil : Theme.Motion.bouncy, value: selected)
         }
-        .buttonStyle(.plain)
+        .stPressable(scale: 0.94)
         .accessibilityLabel(title)
         .accessibilityAddTraits(selected ? [.isButton, .isSelected] : .isButton)
     }
@@ -251,10 +272,14 @@ struct StarRating: View {
                 DoodleIcon(i < rating ? .starFill : .star,
                            size: size,
                            filled: i < rating)
+                    .scaleEffect(i < rating ? 1 : 0.92)
+                    .animation(Theme.Motion.bouncy.delay(Double(i) * 0.04),
+                               value: rating)
             }
             if loved {
                 DoodleIcon(.sparkle, size: size + 2)
                     .jitter(amplitude: 0.4)
+                    .transition(.scale(scale: 0.3).combined(with: .opacity))
             }
         }
         .accessibilityElement(children: .ignore)
@@ -366,11 +391,12 @@ struct SketchTextField: View {
                         .padding(4)
                         .contentShape(Rectangle())
                 }
-                .buttonStyle(.plain)
+                .stPressable(scale: 0.85)
                 .accessibilityLabel("Clear text")
-                .transition(.opacity)
+                .transition(.scale(scale: 0.4).combined(with: .opacity))
             }
         }
+        .animation(Theme.Motion.quick, value: text.isEmpty)
         .padding(.horizontal, 14)
         .padding(.vertical, 14)
         .background(
@@ -470,7 +496,7 @@ struct DoodleButton: View {
                 .frame(width: 44, height: 44)
                 .contentShape(Rectangle())
         }
-        .buttonStyle(.plain)
+        .stPressable(scale: 0.86)
         // Fall back to a humanized version of the doodle name so an
         // icon-only button is never unlabeled to VoiceOver.
         .accessibilityLabel(label ?? doodle.rawValue)

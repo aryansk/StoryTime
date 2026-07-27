@@ -21,6 +21,9 @@ class SettingsModel: ObservableObject {
     /// Loop genre ambience audio under the reader. The toggle is harmless
     /// if no bundled audio assets are present.
     @AppStorage("ambienceEnabled") var ambienceEnabled: Bool = false
+    /// Short tactile cues for choices, page turns, bookmarks, and endings.
+    /// This is opt-out and remains safe when the device has no haptic engine.
+    @AppStorage("hapticsEnabled") var hapticsEnabled: Bool = true
     /// Pass-and-play companion mode: two players alternate decisions on
     /// the same device. Toggle in Settings; reader shows whose turn it is.
     @AppStorage("companionEnabled") var companionEnabled: Bool = false

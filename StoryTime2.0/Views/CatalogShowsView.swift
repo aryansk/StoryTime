@@ -15,15 +15,22 @@ struct CatalogShowsView: View {
     @EnvironmentObject var personalStore: PersonalStoriesStore
     @EnvironmentObject var statsStore: StatsStore
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     @State private var genre: StoryGenre = .all
     @State private var ratingFilter: RatingFilter = .all
     @State private var sort: StorySort = .featured
     @State private var searchText: String = ""
     @State private var activeCollection: StoryCollection? = nil
     @State private var showCreator: Bool = false
+    @State private var showExplore: Bool = false
     /// Programmatic navigation stack. NavigationLink(value:) rows append to
     /// this, and "Surprise Me" pushes a random story onto it directly.
     @State private var path: [CatalogStory] = []
+    /// Shared source for the cover-to-story transition. Keeping this at the
+    /// catalog level lets every discovery surface participate in the same
+    /// motion without changing the navigation model.
+    @Namespace private var storyTransition
 
     /// Merged catalog: personal stories first (most recently added on top),
     /// then bundled/remote.
@@ -143,7 +150,9 @@ struct CatalogShowsView: View {
         Button {
             guard let story = surprisePick(from: all) else { return }
             UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-            withAnimation(.easeOut(duration: 0.2)) { path.append(story) }
+            withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                path.append(story)
+            }
         } label: {
             HStack(spacing: 5) {
                 DoodleIcon(.sparkle, size: 14).jitter(amplitude: 0.4)
@@ -158,7 +167,7 @@ struct CatalogShowsView: View {
                     .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
             )
         }
-        .buttonStyle(.plain)
+        .stPressable(scale: 0.94)
         .accessibilityLabel("Surprise me with a random story")
     }
 
@@ -166,7 +175,9 @@ struct CatalogShowsView: View {
         Menu {
             ForEach(StorySort.allCases) { option in
                 Button {
-                    withAnimation(.easeOut(duration: 0.15)) { sort = option }
+                    withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                        sort = option
+                    }
                 } label: {
                     if sort == option {
                         Label(option.label, systemImage: "checkmark")
@@ -230,7 +241,7 @@ struct CatalogShowsView: View {
                                                 .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
                                         )
                                 }
-                                .buttonStyle(.plain)
+                                .stPressable(scale: 0.9)
                                 .accessibilityLabel("Create a story")
                             }
                             Text("Step inside the stories you've been watching. Pick a path. See what breaks.")
@@ -247,6 +258,32 @@ struct CatalogShowsView: View {
                                         doodle: .search)
                             .padding(.horizontal, 24)
 
+                        HStack(spacing: 10) {
+                            Button {
+                                showExplore = true
+                                NarrativeFeedback.play(.selection)
+                            } label: {
+                                HStack(spacing: 7) {
+                                    DoodleIcon(.sparkle, size: 15, color: Theme.Palette.storyBlue)
+                                    Text(filtersActive ? "Explore · filtered" : "Explore the shelf")
+                                        .font(Theme.Fonts.headingMedium(13))
+                                        .foregroundColor(Theme.Palette.ink)
+                                }
+                                .padding(.horizontal, 14)
+                                .padding(.vertical, 10)
+                                .background(Theme.Palette.paperSpeckle)
+                                .clipShape(Capsule())
+                                .overlay(Capsule().stroke(Theme.Palette.inkHair, lineWidth: 1))
+                            }
+                            .stPressable(scale: 0.96)
+                            .accessibilityLabel(filtersActive ? "Explore, filters active" : "Explore the shelf")
+                            Spacer()
+                            Text(filtersActive ? "\(results.count) stories" : "\(all.count) stories")
+                                .font(Theme.Fonts.bodyItalic(13))
+                                .foregroundColor(Theme.Palette.inkSoft)
+                        }
+                        .padding(.horizontal, 24)
+
                         if let pick, searchText.isEmpty {
                             VStack(alignment: .leading, spacing: 14) {
                                 SketchSectionHeader("Tonight's Pick",
@@ -258,9 +295,11 @@ struct CatalogShowsView: View {
                                         scenesToday: statsStore.todaySceneCount(),
                                         dailyGoal: settings.dailySceneGoal
                                     )
+                                    .matchedTransitionSource(id: pick.id, in: storyTransition)
                                 }
-                                .buttonStyle(.plain)
+                                .stPressable(scale: 0.98)
                                 .padding(.horizontal, 24)
+                                .stAppear(0, rise: 18)
                             }
                         }
 
@@ -273,81 +312,19 @@ struct CatalogShowsView: View {
                                 }
                                 ScrollView(.horizontal, showsIndicators: false) {
                                     HStack(spacing: 16) {
-                                        ForEach(fresh) { story in
-                                            NavigationLink(value: story) {
-                                                NewPosterCard(story: story)
+                                        ForEach(fresh.indexed) { item in
+                                            NavigationLink(value: item.value) {
+                                                NewPosterCard(story: item.value)
+                                                    .matchedTransitionSource(id: item.value.id,
+                                                                             in: storyTransition)
                                             }
-                                            .buttonStyle(.plain)
+                                            .stPressable()
+                                            .stAppear(item.index, rise: 0, scale: 0.94)
                                         }
                                     }
                                     .padding(.horizontal, 24)
                                     .padding(.vertical, 4)
                                 }
-                            }
-                        }
-
-                        // Collections (mood / curated)
-                        VStack(alignment: .leading, spacing: 12) {
-                            SketchSectionHeader("Collections")
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack(spacing: 10) {
-                                    SketchPill(title: "All",
-                                               selected: activeCollection == nil) {
-                                        withAnimation(.easeOut(duration: 0.15)) {
-                                            activeCollection = nil
-                                        }
-                                    }
-                                    ForEach(StoryCollections.all) { c in
-                                        SketchPill(title: c.title,
-                                                   selected: activeCollection?.id == c.id) {
-                                            withAnimation(.easeOut(duration: 0.15)) {
-                                                activeCollection = (activeCollection?.id == c.id) ? nil : c
-                                            }
-                                        }
-                                    }
-                                }
-                                .padding(.horizontal, 24)
-                            }
-                            if let c = activeCollection {
-                                Text(c.subtitle)
-                                    .font(Theme.Fonts.bodyItalic(13))
-                                    .foregroundColor(Theme.Palette.inkSoft)
-                                    .padding(.horizontal, 24)
-                            }
-                        }
-
-                        // Genre pills
-                        VStack(alignment: .leading, spacing: 12) {
-                            SketchSectionHeader("Browse")
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack(spacing: 10) {
-                                    ForEach(StoryGenre.allCases) { g in
-                                        SketchPill(title: g.rawValue,
-                                                   selected: genre == g) {
-                                            withAnimation(.easeOut(duration: 0.15)) {
-                                                genre = g
-                                            }
-                                        }
-                                    }
-                                }
-                                .padding(.horizontal, 24)
-                            }
-
-                            // Rating filter: complements the genre pills so the
-                            // catalog can be narrowed by curator's star rating
-                            // and the "loved" glow.
-                            ScrollView(.horizontal, showsIndicators: false) {
-                                HStack(spacing: 10) {
-                                    ForEach(RatingFilter.allCases) { r in
-                                        SketchPill(title: r.label,
-                                                   selected: ratingFilter == r) {
-                                            withAnimation(.easeOut(duration: 0.15)) {
-                                                ratingFilter = r
-                                            }
-                                        }
-                                    }
-                                }
-                                .padding(.horizontal, 24)
                             }
                         }
 
@@ -361,7 +338,7 @@ struct CatalogShowsView: View {
                                 EmptyCatalogState(
                                     message: emptyStateMessage,
                                     onClearFilters: filtersActive ? {
-                                        withAnimation(.easeOut(duration: 0.15)) {
+                                        withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
                                             genre = .all
                                             ratingFilter = .all
                                             activeCollection = nil
@@ -372,12 +349,19 @@ struct CatalogShowsView: View {
                                 .padding(.horizontal, 24)
                             } else {
                                 LazyVStack(spacing: 16) {
-                                    ForEach(results) { story in
+                                    ForEach(results.indexed) { item in
+                                        let story = item.value
                                         NavigationLink(value: story) {
                                             CatalogRowCard(story: story,
                                                             isFavorite: favoritesStore.isFavorite(story.storageKey))
+                                                .matchedTransitionSource(id: story.id, in: storyTransition)
                                         }
-                                        .buttonStyle(.plain)
+                                        .stPressable()
+                                        // Only the first screenful animates in.
+                                        // Rows past that are scroll-recycled,
+                                        // and fading each one as it crosses the
+                                        // edge reads as flicker, not entrance.
+                                        .stAppear(item.index, rise: 18, enabled: item.index < 10)
                                         .contextMenu {
                                             Button {
                                                 favoritesStore.toggle(story.storageKey)
@@ -411,12 +395,118 @@ struct CatalogShowsView: View {
             }
             .navigationBarHidden(true)
             .navigationDestination(for: CatalogStory.self) { story in
-                StoryStartView(story: story, settings: settings)
+                StoryStartView(story: story,
+                               settings: settings,
+                               transitionNamespace: storyTransition)
             }
             .sheet(isPresented: $showCreator) {
                 CreateStoryView(settings: settings)
                     .environmentObject(personalStore)
             }
+            .sheet(isPresented: $showExplore) {
+                ExploreSheet(genre: $genre,
+                             ratingFilter: $ratingFilter,
+                             activeCollection: $activeCollection,
+                             sort: $sort,
+                             onApply: { showExplore = false })
+                    .presentationDetents([.medium, .large])
+                    .presentationDragIndicator(.visible)
+            }
+        }
+    }
+}
+
+private struct ExploreSheet: View {
+    @Binding var genre: StoryGenre
+    @Binding var ratingFilter: RatingFilter
+    @Binding var activeCollection: StoryCollection?
+    @Binding var sort: StorySort
+    let onApply: () -> Void
+
+    var body: some View {
+        NavigationStack {
+            ZStack {
+                PageBackground()
+                ScrollView(showsIndicators: false) {
+                    VStack(alignment: .leading, spacing: 24) {
+                        VStack(alignment: .leading, spacing: 6) {
+                            Text("Explore the shelf")
+                                .font(Theme.Fonts.title())
+                                .foregroundColor(Theme.Palette.ink)
+                            Text("Tune the mood, then let the books do the rest.")
+                                .font(Theme.Fonts.bodyItalic(14))
+                                .foregroundColor(Theme.Palette.inkSoft)
+                        }
+
+                        exploreGroup("Mood and genre") {
+                            LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 10) {
+                                ForEach(StoryGenre.allCases) { value in
+                                    SketchPill(title: value.rawValue, selected: genre == value) {
+                                        genre = value
+                                    }
+                                }
+                            }
+                        }
+
+                        exploreGroup("Collections") {
+                            VStack(spacing: 10) {
+                                SketchPill(title: "All collections", selected: activeCollection == nil) {
+                                    activeCollection = nil
+                                }
+                                ForEach(StoryCollections.all) { value in
+                                    SketchPill(title: value.title,
+                                               selected: activeCollection?.id == value.id) {
+                                        activeCollection = activeCollection?.id == value.id ? nil : value
+                                    }
+                                }
+                            }
+                        }
+
+                        exploreGroup("Curator rating") {
+                            ScrollView(.horizontal, showsIndicators: false) {
+                                HStack(spacing: 10) {
+                                    ForEach(RatingFilter.allCases) { value in
+                                        SketchPill(title: value.label, selected: ratingFilter == value) {
+                                            ratingFilter = value
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        exploreGroup("Sort") {
+                            Picker("Sort stories", selection: $sort) {
+                                ForEach(StorySort.allCases) { value in
+                                    Text(value.label).tag(value)
+                                }
+                            }
+                            .pickerStyle(.segmented)
+                            .tint(Theme.Palette.storyBlue)
+                        }
+                    }
+                    .padding(24)
+                }
+            }
+            .navigationTitle("Explore")
+            .toolbar {
+                ToolbarItem(placement: .confirmationAction) {
+                    Button("Done", action: onApply)
+                        .font(Theme.Fonts.headingMedium(14))
+                        .foregroundColor(Theme.Palette.storyBlue)
+                }
+            }
+        }
+    }
+
+    @ViewBuilder
+    private func exploreGroup<Content: View>(_ title: String,
+                                             @ViewBuilder content: () -> Content) -> some View {
+        VStack(alignment: .leading, spacing: 10) {
+            Text(title.uppercased())
+                .font(Theme.Fonts.meta())
+                .tracking(1)
+                .foregroundColor(Theme.Palette.inkSoft)
+            content()
         }
     }
 }
@@ -528,10 +618,7 @@ struct TonightPickCard: View {
             VStack(alignment: .leading, spacing: 0) {
                 HStack(alignment: .center, spacing: 16) {
                     ZStack {
-                        WobblyRect(jitter: 0.4, corner: 8, seed: 62)
-                            .fill(Theme.Palette.mist)
-                        DoodleIcon(doodleFor(story), size: 64)
-                            .jitter(amplitude: 0.3)
+                        BookCoverThumbnail(story: story, compact: true)
                     }
                     .frame(width: 104, height: 116)
 
@@ -570,14 +657,7 @@ struct TonightPickCard: View {
                             .font(Theme.Fonts.bodyItalic(12))
                     }
                     .foregroundColor(Theme.Palette.inkSoft)
-                    GeometryReader { geometry in
-                        ZStack(alignment: .leading) {
-                            Capsule().fill(Theme.Palette.inkHair)
-                            Capsule().fill(Theme.Palette.ink)
-                                .frame(width: geometry.size.width * goalProgress)
-                        }
-                    }
-                    .frame(height: 7)
+                    AnimatedProgressBar(fraction: goalProgress, height: 7)
                 }
                 .padding(.horizontal, 16)
                 .padding(.vertical, 12)
@@ -595,9 +675,7 @@ struct NewPosterCard: View {
         SketchCard(fill: Theme.Palette.mist, padding: 0, seed: CGFloat(story.id.stableSeed(100))) {
             VStack(alignment: .leading, spacing: 0) {
                 ZStack {
-                    Theme.Palette.butter
-                    DoodleIcon(doodleFor(story), size: 70)
-                        .jitter(amplitude: 0.3)
+                    BookCoverThumbnail(story: story)
                 }
                 .frame(width: 200, height: 140)
                 .overlay(
@@ -632,6 +710,8 @@ struct CatalogRowCard: View {
     let story: CatalogStory
     let isFavorite: Bool
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     private var sourceLine: String {
         if story.title == story.sourceTitle {
             let year = story.releaseYear.map(String.init) ?? "Interactive story"
@@ -644,8 +724,7 @@ struct CatalogRowCard: View {
         SketchCard(fill: Theme.Palette.mist, seed: CGFloat(story.id.stableSeed(100))) {
             HStack(alignment: .top, spacing: 14) {
                 ZStack {
-                    Theme.Palette.butter
-                    DoodleIcon(doodleFor(story), size: 54)
+                    BookCoverThumbnail(story: story, compact: true)
                 }
                 .frame(width: 80, height: 100)
                 .overlay(
@@ -680,6 +759,10 @@ struct CatalogRowCard: View {
                         }
                         if isFavorite {
                             DoodleIcon(.heartFill, size: 16, filled: true)
+                                // Saving from the context menu pops the heart
+                                // in place, so the row confirms the action
+                                // without a toast.
+                                .transition(.scale(scale: 0.2).combined(with: .opacity))
                         }
                         Spacer()
                         DoodleIcon(.arrowRight, size: 18)
@@ -688,6 +771,7 @@ struct CatalogRowCard: View {
                 }
             }
         }
+        .animation(reduceMotion ? nil : Theme.Motion.bouncy, value: isFavorite)
     }
 }
 

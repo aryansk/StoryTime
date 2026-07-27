@@ -44,6 +44,16 @@ struct Theme {
         static let butterDeep = dyn(light: UIColor(r: 0.984, g: 0.945, b: 0.776),
                                     dark:  UIColor(r: 0.180, g: 0.212, b: 0.314))
 
+        /// Small, high-energy accents used for interaction feedback. These
+        /// are deliberately separate from the ink token so the reading
+        /// surface stays calm while the living-book moments can feel alive.
+        static let storyBlue = dyn(light: UIColor(r: 0.145, g: 0.286, b: 0.910),
+                                   dark:  UIColor(r: 0.420, g: 0.560, b: 1.000))
+        static let storyCoral = dyn(light: UIColor(r: 0.890, g: 0.300, b: 0.365),
+                                    dark:  UIColor(r: 1.000, g: 0.460, b: 0.520))
+        static let paperSpeckle = dyn(light: UIColor(r: 0.975, g: 0.953, b: 0.900),
+                                      dark:  UIColor(r: 0.120, g: 0.140, b: 0.200))
+
         // MARK: Page paper presets (used by PageBackground)
 
         /// Default light "paper" tint (Light Yellow theme).
@@ -123,6 +133,9 @@ struct Theme {
         static let bold: CGFloat   = 2.0
         static let chunky: CGFloat = 2.5
     }
+
+    // Motion lives in Theme/Motion.swift — see `Theme.Motion` there, along
+    // with the shared appear/press/progress modifiers built on top of it.
 }
 
 // MARK: - UIColor shorthand (used by the dynamic palette)

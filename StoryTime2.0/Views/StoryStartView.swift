@@ -13,11 +13,15 @@ struct StoryStartView: View {
     @EnvironmentObject var endingsTracker: EndingsTracker
     @EnvironmentObject var personalStore: PersonalStoriesStore
     @Environment(\.dismiss) private var dismiss
+    /// Nil when this screen is opened from a surface that does not provide a
+    /// shared source (for example Library or a deep link).
+    var transitionNamespace: Namespace.ID? = nil
 
     @State private var showDeleteConfirm = false
     @State private var showRestartConfirm = false
 
     @State private var goReading = false
+    @State private var bookmarkPulse = false
 
     private var savedProgress: ReadingProgress? {
         progressStore.progress(for: story.storageKey)
@@ -38,7 +42,7 @@ struct StoryStartView: View {
             : "What would you have done in \(story.sourceTitle)?"
     }
 
-    var body: some View {
+    private var page: some View {
         ZStack {
             PageBackground()
 
@@ -56,29 +60,30 @@ struct StoryStartView: View {
                         DoodleButton(doodle: isFavorite ? .heartFill : .heart,
                                      label: isFavorite ? "Remove from Library" : "Save to Library") {
                             favoritesStore.toggle(story.storageKey)
+                            NarrativeFeedback.play(.bookmark, enabled: settings.hapticsEnabled)
+                            withAnimation(Theme.Motion.quick) { bookmarkPulse.toggle() }
                         }
+                        .scaleEffect(bookmarkPulse ? 1.08 : 1)
                     }
                     .padding(.horizontal, 16)
                     .padding(.top, 8)
 
-                    // Cover doodle
-                    ZStack {
-                        WobblyRect(jitter: 0.5, corner: 10, seed: 4.0)
-                            .fill(Theme.Palette.mist)
-                        WobblyRect(jitter: 0.5, corner: 10, seed: 4.0)
-                            .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.bold)
-                        VStack(spacing: 12) {
-                            DoodleIcon(doodleFor(story), size: 96)
-                                .jitter(amplitude: 0.4)
-                            if let year = story.releaseYear {
-                                Text("\(story.sourceTitle) • \(String(year))")
-                                    .font(Theme.Fonts.bodyItalic(13))
-                                    .foregroundColor(Theme.Palette.inkSoft)
-                            }
-                        }
-                    }
-                    .frame(height: 220)
-                    .padding(.horizontal, 24)
+                    // Shared Three.js book scene. Every story uses the same
+                    // physical book model, but receives its own generated
+                    // cover, page text texture, and metadata.
+                    BookSceneView(story: story,
+                                  mode: .detail,
+                                  onEvent: { event in
+                                      if case .opened = event {
+                                          NarrativeFeedback.play(.pageTurn, enabled: settings.hapticsEnabled)
+                                      }
+                                  })
+                        .frame(height: 290)
+                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                        .padding(.horizontal, 24)
+                        .accessibilityElement()
+                        .accessibilityLabel("Interactive book for (story.title)")
+                        .accessibilityHint("Tap to open or close the book")
 
                     // Title block
                     VStack(alignment: .leading, spacing: 8) {
@@ -134,53 +139,45 @@ struct StoryStartView: View {
                     )
                     .padding(.horizontal, 24)
 
-                    // CTAs
-                    VStack(spacing: 14) {
-                        if let progress = savedProgress {
-                            VStack(alignment: .leading, spacing: 8) {
-                                HStack(spacing: 8) {
-                                    DoodleIcon(.bookmarkFill, size: 16, filled: true)
-                                    Text("Continue from \(progress.sceneTitle ?? "your saved place")")
-                                        .font(Theme.Fonts.bodyItalic(13))
-                                        .foregroundColor(Theme.Palette.inkSoft)
-                                    Spacer()
-                                    Text("\(Int(progress.completionFraction * 100))%")
-                                        .font(Theme.Fonts.headingMedium(12))
-                                        .foregroundColor(Theme.Palette.inkSoft)
-                                }
-                                GeometryReader { geometry in
-                                    ZStack(alignment: .leading) {
-                                        Capsule().fill(Theme.Palette.inkHair)
-                                        Capsule().fill(Theme.Palette.ink)
-                                            .frame(width: geometry.size.width * progress.completionFraction)
-                                    }
-                                }
-                                .frame(height: 7)
-                            }
-                        }
-                        SketchButton(
-                            title: savedProgress == nil ? "Begin the Story" : "Continue Reading",
-                            trailingDoodle: .arrowRight,
-                            style: .primary
-                        ) {
-                            goReading = true
-                        }
-                        if savedProgress != nil {
-                            SketchButton(
-                                title: "Start Over",
-                                doodle: .undo,
-                                style: .ghost
-                            ) {
-                                showRestartConfirm = true
-                            }
-                        }
-                    }
-                    .padding(.horizontal, 24)
-                    .padding(.top, 4)
-
                     Spacer(minLength: 40)
                 }
             }
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            VStack(spacing: 8) {
+                if let progress = savedProgress {
+                    HStack(spacing: 8) {
+                        DoodleIcon(.bookmarkFill, size: 15, filled: true)
+                        Text("Continue from \(progress.sceneTitle ?? "your saved place")")
+                            .font(Theme.Fonts.bodyItalic(12))
+                            .foregroundColor(Theme.Palette.inkSoft)
+                        Spacer()
+                        Text("\(Int(progress.completionFraction * 100))%")
+                            .font(Theme.Fonts.headingMedium(12))
+                            .foregroundColor(Theme.Palette.inkSoft)
+                    }
+                }
+                HStack(spacing: 10) {
+                    SketchButton(
+                        title: savedProgress == nil ? "Begin the Story" : "Continue Reading",
+                        trailingDoodle: .arrowRight,
+                        style: .primary
+                    ) {
+                        NarrativeFeedback.play(.pageTurn, enabled: settings.hapticsEnabled)
+                        goReading = true
+                    }
+                    if savedProgress != nil {
+                        DoodleButton(doodle: .undo, size: 19, label: "Start Over") {
+                            showRestartConfirm = true
+                        }
+                    }
+                }
+            }
+            .padding(.horizontal, 18)
+            .padding(.top, 10)
+            .padding(.bottom, 8)
+            .background(Theme.Palette.butter.opacity(0.97))
+            .overlay(alignment: .top) { Rectangle().fill(Theme.Palette.inkHair).frame(height: 1) }
         }
         .navigationBarBackButtonHidden(true)
         .navigationDestination(isPresented: $goReading) {
@@ -216,6 +213,16 @@ struct StoryStartView: View {
             Button("Keep My Place", role: .cancel) { }
         } message: {
             Text("Your current place in “\(story.title)” will be replaced.")
+        }
+    }
+
+    var body: some View {
+        Group {
+            if let transitionNamespace {
+                page.navigationTransition(.zoom(sourceID: story.id, in: transitionNamespace))
+            } else {
+                page
+            }
         }
     }
 }

@@ -3,6 +3,10 @@ package com.storytime.android
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.compose.animation.AnimatedContentTransitionScope
+import androidx.compose.animation.core.tween
+import androidx.compose.animation.fadeIn
+import androidx.compose.animation.fadeOut
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.*
@@ -113,7 +117,37 @@ private fun Root() {
         },
     ) { padding ->
         Box(Modifier.fillMaxSize().padding(padding).background(palette.paper)) {
-            NavHost(navController = nav, startDestination = "catalog") {
+            NavHost(
+                navController = nav,
+                startDestination = "catalog",
+                // The reference recenters the selected cover into a detail
+                // slot. A short slide/fade gives native routes the same
+                // continuous handoff without replacing Compose navigation.
+                enterTransition = {
+                    slideIntoContainer(
+                        AnimatedContentTransitionScope.SlideDirection.Start,
+                        animationSpec = tween(420),
+                    ) + fadeIn(animationSpec = tween(260))
+                },
+                exitTransition = {
+                    slideOutOfContainer(
+                        AnimatedContentTransitionScope.SlideDirection.Start,
+                        animationSpec = tween(320),
+                    ) + fadeOut(animationSpec = tween(220))
+                },
+                popEnterTransition = {
+                    slideIntoContainer(
+                        AnimatedContentTransitionScope.SlideDirection.End,
+                        animationSpec = tween(360),
+                    ) + fadeIn(animationSpec = tween(240))
+                },
+                popExitTransition = {
+                    slideOutOfContainer(
+                        AnimatedContentTransitionScope.SlideDirection.End,
+                        animationSpec = tween(300),
+                    ) + fadeOut(animationSpec = tween(200))
+                },
+            ) {
                 composable("catalog") {
                     CatalogScreen(onPick = { id -> nav.navigate("start/$id") })
                 }

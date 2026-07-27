@@ -28,6 +28,7 @@ struct StoryReaderView: View {
     @EnvironmentObject var catalog: CatalogService
     @Environment(\.dismiss) private var dismiss
     @Environment(\.scenePhase) private var scenePhase
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     @State private var selectedChoiceIndex: Int? = nil
     @State private var consequenceVisible: Bool = false
@@ -40,6 +41,7 @@ struct StoryReaderView: View {
     @State private var sagaDestination: CatalogStory? = nil
     @State private var isFocusMode: Bool = false
     @State private var showReaderControls: Bool = false
+    @State private var didCelebrateEnding: Bool = false
 
     private var sceneIndex: Int { max(1, gameState.history.count) }
     private var totalScenes: Int { story.nodes.count }
@@ -65,6 +67,16 @@ struct StoryReaderView: View {
         return "What do you do?"
     }
 
+    /// Page turn. Under Reduce Motion this collapses to a plain crossfade —
+    /// still legible as a change, without the travel.
+    private var pageTransition: AnyTransition {
+        if reduceMotion { return .opacity }
+        return .asymmetric(
+            insertion: .offset(y: 26).combined(with: .opacity),
+            removal:   .offset(y: -18).combined(with: .opacity)
+        )
+    }
+
     var body: some View {
         ZStack {
             PageBackground()
@@ -83,23 +95,35 @@ struct StoryReaderView: View {
                             sceneHeader
                                 .id("top")
 
+                            // The whole scene body is one transition unit
+                            // keyed on node id: the outgoing page lifts and
+                            // fades up while the incoming one rises from
+                            // below, so advancing reads as turning a page
+                            // rather than swapping text in place.
                             if let node = gameState.currentNode {
-                                bodyText(node.text)
-                                    .id(node.id)
+                                VStack(alignment: .leading, spacing: 22) {
+                                    bodyText(node.text)
 
-                                if node.isEnding {
-                                    endingBlock(title: node.endingTitle ?? "The End")
-                                } else if !consequenceVisible {
-                                    choicesBlock(choices: node.choices)
+                                    if node.isEnding {
+                                        endingBlock(title: node.endingTitle ?? "The End")
+                                    } else if !consequenceVisible {
+                                        choicesBlock(choices: node.choices)
+                                    }
                                 }
+                                .id(node.id)
+                                .transition(pageTransition)
                             }
 
                             Spacer(minLength: 80)
                         }
                         .padding(.vertical, 12)
+                        .animation(reduceMotion ? nil : Theme.Motion.page,
+                                   value: gameState.currentNode?.id)
                     }
                     .onChange(of: gameState.currentNode?.id) { _, _ in
-                        withAnimation { proxy.scrollTo("top", anchor: .top) }
+                        withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                            proxy.scrollTo("top", anchor: .top)
+                        }
                     }
                 }
             }
@@ -107,7 +131,6 @@ struct StoryReaderView: View {
             // Consequence overlay
             if consequenceVisible, let text = pendingConsequence {
                 consequenceOverlay(text: text)
-                    .transition(.opacity.combined(with: .move(edge: .bottom)))
                     .zIndex(10)
             }
         }
@@ -168,7 +191,7 @@ struct StoryReaderView: View {
             HStack(spacing: 0) {
                 DoodleButton(doodle: .chevronLeft, label: "Back") {
                     if gameState.canGoBack {
-                        withAnimation {
+                        withAnimation(stMotion(Theme.Motion.page, reduced: reduceMotion)) {
                             gameState.goBack()
                             resetTransientState()
                         }
@@ -183,7 +206,9 @@ struct StoryReaderView: View {
                 DoodleButton(doodle: speechService.isSpeaking ? .speakerPlaying : .speaker,
                              label: "Narrate") { toggleNarration() }
                 DoodleButton(doodle: .focus, label: "Enter focus mode") {
-                    withAnimation(.easeOut(duration: 0.2)) { isFocusMode = true }
+                    withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                        isFocusMode = true
+                    }
                 }
             }
         }
@@ -203,7 +228,9 @@ struct StoryReaderView: View {
                 .lineLimit(1)
             Spacer()
             DoodleButton(doodle: .focus, label: "Exit focus mode") {
-                withAnimation(.easeOut(duration: 0.2)) { isFocusMode = false }
+                withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
+                    isFocusMode = false
+                }
             }
         }
         .padding(.leading, 24)
@@ -300,22 +327,29 @@ struct StoryReaderView: View {
                     NumberedChoiceRow(
                         number: idx + 1,
                         text: choice.text,
-                        selected: selectedChoiceIndex == idx
+                        selected: selectedChoiceIndex == idx,
+                        dimmed: selectedChoiceIndex != nil && selectedChoiceIndex != idx
                     ) {
                         guard selectedChoiceIndex == nil else { return }
-                        selectedChoiceIndex = idx
+                        withAnimation(stMotion(Theme.Motion.quick, reduced: reduceMotion)) {
+                            selectedChoiceIndex = idx
+                        }
                         pendingConsequence = choice.consequence
                         pendingNextNodeId = choice.nextNodeId
                         pendingChoiceText = choice.text
                         pendingFromNodeId = gameState.currentNode?.id
                         statsStore.recordChoice()
+                        NarrativeFeedback.play(.selection, enabled: settings.hapticsEnabled)
                         // Score this choice against the Choice DNA traits.
                         choiceDNA.record(consequence: choice.consequence,
                                          choiceText: choice.text)
-                        withAnimation(.easeOut(duration: 0.25)) {
+                        withAnimation(stMotion(Theme.Motion.settle, reduced: reduceMotion)) {
                             consequenceVisible = true
                         }
                     }
+                    // Choices arrive one after another, so the reader's eye
+                    // lands on option 1 first instead of on a wall of cards.
+                    .stAppear(idx + 1, rise: 16)
                 }
             }
         }
@@ -327,11 +361,13 @@ struct StoryReaderView: View {
 
     private func consequenceOverlay(text: String) -> some View {
         ZStack {
-            // Scrim
+            // Scrim. Fades on its own so the note can spring in over a
+            // settled background rather than dragging the dim with it.
             Theme.Palette.ink.opacity(0.18)
                 .ignoresSafeArea()
                 .onTapGesture { advanceFromConsequence() }
                 .accessibilityHidden(true)
+                .transition(.opacity)
 
             VStack(spacing: 0) {
                 Spacer()
@@ -359,13 +395,10 @@ struct StoryReaderView: View {
                     .padding(.top, 4)
                 }
                 .padding(20)
-                .background(
-                    WobblyRect(jitter: 0.6, corner: 8, seed: 33)
-                        .fill(Theme.Palette.butterDeep)
-                )
+                .background(Theme.Palette.paperSpeckle)
                 .overlay(
                     WobblyRect(jitter: 0.6, corner: 8, seed: 33)
-                        .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.bold)
+                        .stroke(Theme.Palette.storyCoral, lineWidth: Theme.Stroke.bold)
                 )
                 .padding(.horizontal, 20)
                 .padding(.bottom, 28)
@@ -377,6 +410,12 @@ struct StoryReaderView: View {
                 .accessibilityAddTraits(.isButton)
                 .accessibilityHint("Continue to the next scene")
                 .accessibilityAction { advanceFromConsequence() }
+                // The note is a physical object: it slides up from the
+                // bottom edge with a little overshoot, like a card being
+                // dealt onto the page.
+                .transition(reduceMotion
+                            ? .opacity
+                            : .move(edge: .bottom).combined(with: .opacity))
             }
         }
     }
@@ -389,9 +428,13 @@ struct StoryReaderView: View {
         let consequence = pendingConsequence
         // Drive the scene transition off the overlay's dismiss animation
         // finishing, rather than a hand-tuned asyncAfter delay.
-        withAnimation(.easeOut(duration: 0.2)) {
+        // Never `nil` here, even under Reduce Motion: the scene advance is
+        // driven by this animation's completion handler, so it needs a real
+        // (if imperceptibly short) animation to complete against.
+        withAnimation(reduceMotion ? .linear(duration: 0.01) : Theme.Motion.quick) {
             consequenceVisible = false
         } completion: {
+            NarrativeFeedback.play(.pageTurn, enabled: settings.hapticsEnabled)
             if let next {
                 gameState.jump(
                     to: next,
@@ -422,6 +465,19 @@ struct StoryReaderView: View {
     private func endingBlock(title: String) -> some View {
         SketchCard(fill: Theme.Palette.mist, seed: 12.0) {
             VStack(alignment: .leading, spacing: 14) {
+                BookSceneView(story: story,
+                              mode: .ending,
+                              endingTitle: title,
+                              onEvent: { event in
+                                  if case .pageTurned = event {
+                                      NarrativeFeedback.play(.pageTurn, enabled: settings.hapticsEnabled)
+                                  }
+                              })
+                    .frame(height: 175)
+                    .clipShape(RoundedRectangle(cornerRadius: 10))
+                    .accessibilityElement()
+                    .accessibilityLabel("Ending book for (title)")
+
                 HStack(spacing: 8) {
                     DoodleIcon(.starFill, size: 22, filled: true)
                     Text("ENDING")
@@ -430,6 +486,18 @@ struct StoryReaderView: View {
                         .foregroundColor(Theme.Palette.inkSoft)
                     Spacer()
                     SketchBadge(text: "Path \(sceneIndex)")
+                }
+                HStack(spacing: 10) {
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 4)
+                            .fill(Theme.Palette.storyCoral)
+                            .frame(width: 24, height: 38)
+                        DoodleIcon(.starFill, size: 13, color: Theme.Palette.butter, filled: true)
+                    }
+                    Text("A new bookmark is on your shelf")
+                        .font(Theme.Fonts.bodyItalic(13))
+                        .foregroundColor(Theme.Palette.inkSoft)
+                    Spacer()
                 }
                 Text(title)
                     .font(Theme.Fonts.title())
@@ -451,7 +519,10 @@ struct StoryReaderView: View {
 
                 VStack(spacing: 10) {
                     SketchButton(title: "Start Over", doodle: .undo, style: .primary) {
-                        withAnimation { gameState.restart(); resetTransientState() }
+                        withAnimation(stMotion(Theme.Motion.page, reduced: reduceMotion)) {
+                            gameState.restart()
+                            resetTransientState()
+                        }
                     }
                     if let next = sagaNext() {
                         SketchButton(title: "Continue → \(next.sourceTitle)",
@@ -470,6 +541,14 @@ struct StoryReaderView: View {
         }
         .padding(.horizontal, 24)
         .padding(.top, 8)
+        // An ending has earned a flourish: the card lands with a bounce
+        // rather than sliding in like any other scene.
+        .stAppear(0, rise: 24, scale: 0.94, animation: Theme.Motion.bouncy)
+        .onAppear {
+            guard !didCelebrateEnding else { return }
+            didCelebrateEnding = true
+            NarrativeFeedback.play(.ending, enabled: settings.hapticsEnabled)
+        }
     }
 
     private func branchPeek() -> (label: String, consequence: String)? {
@@ -493,7 +572,7 @@ struct StoryReaderView: View {
             Text("If you had: \(label)")
                 .font(Theme.Fonts.body(15))
                 .foregroundColor(Theme.Palette.ink)
-            Text(consequence)
+            Text("Replay the story to discover where that choice leads.")
                 .font(Theme.Fonts.bodyItalic(14))
                 .foregroundColor(Theme.Palette.inkSoft)
                 .lineSpacing(3)
@@ -530,6 +609,7 @@ struct StoryReaderView: View {
     private func resetTransientState() {
         selectedChoiceIndex = nil
         consequenceVisible = false
+        didCelebrateEnding = false
         pendingConsequence = nil
         pendingNextNodeId = nil
     }
@@ -665,7 +745,12 @@ private struct NumberedChoiceRow: View {
     let number: Int
     let text: String
     let selected: Bool
+    /// True for the options *not* picked. They recede so the chosen path is
+    /// unmistakable in the beat before the consequence appears.
+    var dimmed: Bool = false
     let action: () -> Void
+
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         Button(action: {
@@ -699,6 +784,7 @@ private struct NumberedChoiceRow: View {
                 DoodleIcon(.arrowRight, size: 16, color: Theme.Palette.inkSoft)
                     .padding(.top, 10)
                     .opacity(selected ? 1 : 0.4)
+                    .offset(x: selected ? 4 : 0)
             }
             .padding(14)
             .frame(maxWidth: .infinity, alignment: .leading)
@@ -713,8 +799,13 @@ private struct NumberedChoiceRow: View {
                     .stroke(Theme.Palette.ink,
                             lineWidth: selected ? Theme.Stroke.bold : Theme.Stroke.line)
             )
+            .scaleEffect(selected && !reduceMotion ? 1.02 : 1)
+            .opacity(dimmed ? 0.42 : 1)
+            .animation(reduceMotion ? nil : Theme.Motion.quick, value: selected)
+            .animation(reduceMotion ? nil : Theme.Motion.settle, value: dimmed)
         }
-        .buttonStyle(.plain)
+        .stPressable(scale: 0.975)
+        .disabled(dimmed)
     }
 }
 
@@ -785,16 +876,26 @@ private struct ProgressDots: View {
     let count: Int
     let filled: Int
 
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+
     var body: some View {
         HStack(spacing: 4) {
             ForEach(0..<count, id: \.self) { i in
+                let isFilled = i < filled
                 Circle()
                     .stroke(Theme.Palette.ink, lineWidth: Theme.Stroke.line)
                     .background(
                         Circle()
-                            .fill(i < filled ? Theme.Palette.ink : Color.clear)
+                            .fill(isFilled ? Theme.Palette.ink : Color.clear)
+                            // The newest dot pops in slightly oversized and
+                            // settles, marking progress without a label.
+                            .scaleEffect(isFilled ? 1 : 0.1)
                     )
                     .frame(width: 6, height: 6)
+                    .animation(reduceMotion
+                               ? nil
+                               : Theme.Motion.bouncy.delay(Double(i) * 0.03),
+                               value: isFilled)
             }
         }
     }
