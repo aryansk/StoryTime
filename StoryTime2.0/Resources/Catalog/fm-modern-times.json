@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A feeding machine your boss bought from a salesman.",
+      "text": "Two salesmen wheel it in and the boss picks you because you are nearest the door. They strap a bib on. There is a rotating corn cob, a soup plate on a tilt, and an automatic mouth-wiper. The soup plate is what worries you. The mouth-wiper is what should worry you.",
       "sceneTitle": "Lunchtime Test",
       "choices": [
         {
           "text": "Volunteer",
-          "consequence": "You commit to “Volunteer.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You sit down in the chair yourself, hands folded, ready to be efficient. Nobody in the history of this factory has volunteered for anything.",
           "nextNodeId": "s2"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You get behind a crate and are found in four seconds, because you are the only man on the floor holding his breath.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Bolts and spinners and a foreman's whistle.",
+      "text": "Two bolts on every plate, and the plates keep coming. Scratch your nose and you are three plates behind; sneeze and you are nine. The foreman watches from a window and the belt goes faster after lunch, and your arms keep tightening things in the air long after the plates run out.",
       "sceneTitle": "Conveyor Belt",
       "choices": [
         {
           "text": "Keep up",
-          "consequence": "You commit to “Keep up.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You match the belt for two hours and win, and your hands go on winning by themselves right through the lunch break.",
           "nextNodeId": "s3"
         },
         {
           "text": "Slow down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You let four plates go past unbolted. Somewhere down the line a machine is now being assembled with holes in it.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Your body sucked into a wheel like a small leaf.",
+      "text": "You go after a loose spanner and the belt takes your sleeve, then the rest of you, and you travel through the machine lying down. Cogs pass you along like a parcel. In there, at the center of everything, you tighten two bolts nobody has reached in years. Then the wheel reverses.",
       "sceneTitle": "Gears",
       "choices": [
         {
           "text": "Wave on the way",
-          "consequence": "You commit to “Wave on the way.” The story records the instinct as “Calm” and carries it forward.",
+          "consequence": "You raise one hand to the crew as you disappear into the works, because a man should acknowledge people when passing.",
           "nextNodeId": "s4"
         },
         {
           "text": "Scream",
-          "consequence": "“Scream” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You go in shouting and come out still shouting, and find the shout has been running some while on its own.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A doctor with a tongue depressor and a long lecture.",
+      "text": "A doctor holds your jaw, says ah, and delivers a lecture on the nervous system while your right hand tightens two invisible bolts on his lapel. He calls it a full recovery. He also advises you to avoid excitement. Then he signs you out onto a street with a strike on it.",
       "sceneTitle": "Hospital",
       "choices": [
         {
           "text": "Smile and leave",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You thank him, shake his hand, and give it a quarter turn on the way past. He decides not to mention that.",
           "nextNodeId": "s5"
         },
         {
           "text": "Argue",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Reckless.",
+          "consequence": "You explain about the belt, in gestures, at length. He writes REST on a card and hands you a leaflet about fresh air.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A truck loses a red flag and a parade forms behind you.",
+      "text": "A lumber truck drops a red warning flag in the road. You pick it up and wave it after the driver, and the driver does not look back, and four thousand marching people come around the corner behind you in perfect step. You are now at the front of something. Mounted police arrive shortly.",
       "sceneTitle": "Flag",
       "choices": [
         {
           "text": "Wave it gently",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You keep waving politely at a truck that is three blocks away by now, leading a movement nobody has briefed you on.",
           "nextNodeId": "s6"
         },
         {
           "text": "Drop it",
-          "consequence": "You commit to “Drop it.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You let the flag fall the instant you understand. Four officers have already decided which one of you is the organizer.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A bunk, a man, a stash of cocaine in a salt shaker.",
+      "text": "Your cellmate keeps his powder in the salt shaker and watches you steadily while you reach for it. You put an entire snowfall on your beans. Twenty minutes later the walls are friendly, the bars are a suggestion, and a jailbreak is starting in the corridor without you.",
       "sceneTitle": "Cell",
       "choices": [
         {
           "text": "Salt your soup",
-          "consequence": "You commit to “Salt your soup.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You season generously, on the theory that a condiment is a condiment, and spend the afternoon convinced you are extremely tall.",
           "nextNodeId": "s7"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You push the shaker back and eat your beans plain, which is the only correct decision you make all week.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "The warden offers a recommendation letter to the outside.",
+      "text": "The warden shakes your hand for stopping a breakout you have no memory of stopping. There is a letter. It says you are honest and industrious, and it is signed by a man with a very good pen. He is handing you your freedom. You would rather have the cell, and you cannot say so.",
       "sceneTitle": "Pardon",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You fold the letter into your inside pocket, where it will stay dry through three jobs and outlast every one of them.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay in the cell",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You mime that you are comfortable here and the food agrees with you. The warden laughs and holds the gate open.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A bare-footed girl with a stolen banana and a flashing grin.",
+      "text": "She comes off the dock at a dead run with bananas under both arms and hands one to a small child without slowing down. Bare feet, cut rope for a belt, a grin like a struck match. Two officers are forty yards back and losing ground. You are standing directly in her path.",
       "sceneTitle": "Gamin",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You step sideways into the officers' route and apologize at enormous length while she goes past you and around the corner.",
           "nextNodeId": "s9"
         },
         {
           "text": "Walk on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You mind your own business for a full three seconds, then put out a foot, which is not minding your own business.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Mother's watch on the counter, a few coins back.",
+      "text": "She puts a lady's watch on the counter with the chain coiled beside it and does not say whose it was. The broker turns it over, breathes on the case, and names a figure. She takes the figure without arguing, which tells you she has done this before, with other things, that are already gone.",
       "sceneTitle": "Pawnbroker",
       "choices": [
         {
           "text": "Pawn it",
-          "consequence": "The decision settles the question for now. Its verdict—Practical—follows you into whatever comes next.",
+          "consequence": "You nod her toward the counter because two people need supper tonight, and you carry the guilt out into the street on her behalf.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You put your hand flat over the watch and shake your head, having no money, no plan, and one very firm opinion.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A wedge pulled, a hull launched a year early into the harbor.",
+      "text": "The foreman points at a timber wedge and walks off. You go in under the hull, find the wedge, and pull. The ship moves. The ship keeps moving. Eighty tons of unfinished vessel enters the harbor stern-first with no keel in it and goes down in perfect silence while you hold the wedge.",
       "sceneTitle": "Shipyard",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "“Apologize” closes one possibility and opens another. The moment leaves a clear note behind: Polite.",
+          "consequence": "You take off your hat to the harbor. Somewhere behind you a foreman is making a sound no man should make.",
           "nextNodeId": "s11"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You set the wedge down neatly, as though tidiness helps, and leave the yard at a brisk walk without turning around.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A night watchman job and a roller-skating rink for two.",
+      "text": "The store at night is six floors of everything nobody you know can afford. She tries on a fur coat and falls asleep in the bed department. You lace on skates and take her to the toy floor, where the railing is off for repairs and there is a four-story drop where the floor stops.",
       "sceneTitle": "Department Store",
       "choices": [
         {
           "text": "Skate blindfolded",
-          "consequence": "“Skate blindfolded” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You tie a scarf over your eyes to impress her and glide backwards to within four inches of the edge, twice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Skate carefully",
-          "consequence": "There is no taking “Skate carefully” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You keep both eyes open and stay near the counters, and she watches you being sensible and looks faintly let down.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Old factory mates turned hungry burglars.",
+      "text": "Three men with a crowbar in the grocery department, and the biggest one lowers it and says your name. You worked the same belt. They are not here for the till; they are here because they are hungry, and one of them has already got a tin open using his hands.",
       "sceneTitle": "Thieves",
       "choices": [
         {
           "text": "Share the food",
-          "consequence": "You commit to “Share the food.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You fetch glasses and they fetch the rum, and by two in the morning the four of you are singing in bedding.",
           "nextNodeId": "s13"
         },
         {
           "text": "Call the police",
-          "consequence": "There is no taking “Call the police” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You get halfway to the telephone, look back at a man eating cold beans off a crowbar, and stop where you stand.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A door that falls off in your hand. A roof made of pluck.",
+      "text": "She has found a place. The door comes off in your hand on arrival. The ceiling drops a plank on your head when you sit down, the far wall opens onto the lake when you lean on it, and the front step throws you into the water when you use it. She calls it paradise. She means it.",
       "sceneTitle": "Shack on the Lake",
       "choices": [
         {
           "text": "Move in",
-          "consequence": "There is no taking “Move in” back. Hope shapes the silence before the next moment arrives.",
+          "consequence": "You carry her over a threshold that detaches on contact, and you both stay anyway, and you mend the step on Sunday.",
           "nextNodeId": "s14"
         },
         {
           "text": "Find better",
-          "consequence": "“Find better” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You suggest looking further along the shore. She is already hanging a curtain made out of a flour sack, so that settles that.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A factory reopens for a single day.",
+      "text": "She holds the paper up before you are properly awake: the plant is opening. Eight hundred men are at the gates when you get there, pressed against the iron, quiet in a way crowds are not usually quiet. The gates go back. You are carried through them without your feet touching anything.",
       "sceneTitle": "Newspaper Help-Wanted",
       "choices": [
         {
           "text": "Apply",
-          "consequence": "You commit to “Apply.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You take the job at the mechanic's bench and are, for one entire morning, a man with employment and a lunch pail.",
           "nextNodeId": "s15"
         },
         {
           "text": "Sleep in",
-          "consequence": "You commit to “Sleep in.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You turn over for ten more minutes and she hauls you upright by the ankles, and you are at the gates by seven.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A brick on the cobbles, your shoe on the brick, a passing parade.",
+      "text": "Your foot happens to be resting on a loose brick when the picket line comes past and a police wagon slows. The brick shifts. You catch it on your instep, flick it up, and there you are, holding a brick, in the street, during a strike, with an officer already writing.",
       "sceneTitle": "Strike",
       "choices": [
         {
           "text": "Wave again",
-          "consequence": "“Wave again” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You wave, because waving has served you so well historically, and this time you are waving with a brick in your hand.",
           "nextNodeId": "s16"
         },
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You set the brick down with enormous care, as though it might be evidence, which it is, and then you go.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A waiter on roller skates with a tray.",
+      "text": "She has talked her way into a singing job and talked you into an apron. The kitchen door swings both ways and the dance floor lies between you and table four. You are carrying a roast duck at head height through a foxtrot. The duck leaves the tray during the second chorus.",
       "sceneTitle": "Cafe Job",
       "choices": [
         {
           "text": "Take the floor",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You go in among the dancers with the tray held overhead and come out the far side having lost only the garnish.",
           "nextNodeId": "s17"
         },
         {
           "text": "Quit",
-          "consequence": "There is no taking “Quit” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You untie the apron twice and put it back on twice, because she is up on that stage and you are not leaving her here.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A singing waiter has lost his cuffs with his lyrics on them.",
+      "text": "The lyrics are written on your cuffs. You flick your wrists on the way to the microphone and both cuffs sail into the orchestra pit. The band starts. You do not know one word of this song. Two hundred people are watching and the tenor sax has already begun the introduction.",
       "sceneTitle": "Performer",
       "choices": [
         {
           "text": "Mime the song",
-          "consequence": "The decision settles the question for now. Its verdict—Brilliant—follows you into whatever comes next.",
+          "consequence": "You act the whole thing out with your hips and your eyebrows, and a room full of strangers understands every verse.",
           "nextNodeId": "s18"
         },
         {
           "text": "Sing nonsense",
-          "consequence": "You commit to “Sing nonsense.” The story records the instinct as “Wild” and carries it forward.",
+          "consequence": "You invent a language on the spot, commit to it completely, and take an encore in a tongue that does not exist.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Social services for Gamin, paperwork in hand.",
+      "text": "Two officers come into the cafe with a folder and her name inside it. She is a minor with no address and a father in a file. The manager points at the stage. She is halfway through the second number, and she sees them over the top of the room, and keeps singing.",
       "sceneTitle": "Authorities at the Door",
       "choices": [
         {
           "text": "Run with her",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You take her hand at the kitchen door and go out through the alley in an apron and skates, and keep going.",
           "nextNodeId": "s19"
         },
         {
           "text": "Submit",
-          "consequence": "“Submit” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You put yourself between her and the folder and make a reasonable case in mime, and reasonable has never once worked for you.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A flatbed, a kindness, two passengers in coats.",
+      "text": "Dawn on the county road, and a flatbed slows without being asked. The driver jerks his thumb at the back and wants neither a name nor a reason. You ride out of the city on a stack of empty crates with her shoes in your lap, the two of you facing backwards.",
       "sceneTitle": "Truck on the Highway",
       "choices": [
         {
           "text": "Catch it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You run alongside, throw her up first, and get one leg over the tailgate with the last thing you had left.",
           "nextNodeId": "s20"
         },
         {
           "text": "Walk",
-          "consequence": "You commit to “Walk.” The story records the instinct as “Stubborn” and carries it forward.",
+          "consequence": "You wave the truck on and take the road on foot, because it is a good morning and you would rather see it slowly.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A road that bends out of frame, sun behind.",
+      "text": "No fence, no whistle, no gate. The road runs out between two fields, turns behind a hill, and does not explain itself. She has stopped walking. She is sitting on the verge with her arms around her knees, and she has run out of whatever has been carrying her since the dock.",
       "sceneTitle": "Open Country",
       "choices": [
         {
           "text": "Sing to her",
-          "consequence": "There is no taking “Sing to her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You hum four bars of the song with no words and get it wrong on purpose until she tells you to stop.",
           "nextNodeId": "s21"
         },
         {
           "text": "Just walk",
-          "consequence": "There is no taking “Just walk” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You sit down beside her on the verge and say nothing whatsoever for a while, which is your best language anyway.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A line of dialogue you write on her face with one finger.",
+      "text": "The dust on the verge is warm and the light is coming up behind the hill. What is the use, she says. You crouch in front of her and put one finger at each corner of her mouth and push them upward, and hold them there, and wait. Then you take your hands away to see whether anything stays.",
       "sceneTitle": "Smile, She Cries",
       "choices": [
         {
           "text": "Make her smile",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "It holds a second on its own, then goes crooked, then turns real, and she gets up and fixes her hair.",
           "nextNodeId": "end_road"
         },
         {
           "text": "Hold her hand",
-          "consequence": "“Hold her hand” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You skip the trick entirely and lift her hand off her knee, and she lets you, and neither of you mentions it.",
           "nextNodeId": "end_cafe"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a way this morning goes that has nothing to do with the road, and it begins with a whistle at six.",
           "nextNodeId": "end_factory"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_road",
-      "text": "Two figures on a dusty road and a future that has not been built yet. You whistle. She catches up. The two of you take it from there.",
+      "text": "You brush the dust off her and off yourself, and you both set your hats, and you go. The road climbs, bends, and carries the two of you out of sight of anything that keeps a payroll. Nobody has offered you a job or a house or a reason. There is only the road, a woman who can outrun a policeman, and a morning that has not been spent yet.",
       "sceneTitle": "Up the Road",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_cafe",
-      "text": "The cafe owner gives you a permanent shift and Gamin a dressing room. The customers wait for the song you have not written yet.",
+      "text": "The manager puts you on nights permanently and gives her a dressing room with a mirror and a chair that is hers. You learn nine words of the song and invent the rest, and the regulars come specifically for the part where you get it wrong. She keeps the tips in a coffee tin behind the bar. On Sundays you skate the empty floor with the chairs stacked and the lights down.",
       "sceneTitle": "Waiter on Wheels",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_factory",
-      "text": "The factory reopens at dawn and you, against your better self, are first in the line. The whistle blows. You smile despite yourself, just barely.",
+      "text": "At dawn you are at the gates before the gates are open, first in a line of eight hundred, holding a lunch pail she packed. The whistle goes at six. You pull on the coveralls, take your place at the belt, and the plates start coming, two bolts each, forever. Somewhere in the third hour you catch yourself whistling. You would not admit that to anybody, including her.",
       "sceneTitle": "The Wheel Goes On",
       "choices": [],
       "isEnding": true,

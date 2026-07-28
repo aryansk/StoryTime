@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You rent next to Gatsby's mansion. The lawn glows.",
+      "text": "Eighty a month gets you a cardboard bungalow wedged between two places that cost a fortune, with a view of the water and, if you crane, of somebody else's marble. Next door the lawn runs blue in the dark and men in white flannel keep arriving on Saturdays. You have a dozen volumes on bonds and banking that you intend to read. The music starts at nine and stops at four.",
       "sceneTitle": "The Bungalow",
       "choices": [
         {
           "text": "Settle in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You stand the books on a shelf, unopened, and go outside instead to watch the light move on the water and the caterers' trucks come up the drive.",
           "nextNodeId": "s2"
         },
         {
           "text": "Walk the property line",
-          "consequence": "The decision settles the question for now. Its verdict—Curious—follows you into whatever comes next.",
+          "consequence": "You walk the hedge in your shirtsleeves and find a man alone on his own lawn with both arms out toward the bay, and decide not to say hello.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "East Egg, across the bay. Daisy, your cousin. Tom, her husband.",
+      "text": "Across the bay the houses are older and better and the lawn runs a quarter mile up to the door as though it means to keep going. Your cousin Daisy lies on a sofa the size of a raft with a friend, both in white, the curtains breathing in and out around them. Tom shakes your hand as if testing it. During dinner the telephone rings and Daisy stops smiling.",
       "sceneTitle": "Daisy's House",
       "choices": [
         {
           "text": "Visit",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Family.",
+          "consequence": "You go, drink two glasses of something very cold, and leave knowing more about your cousin's marriage than anybody in that house has said out loud.",
           "nextNodeId": "s3"
         },
         {
           "text": "Decline",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You put it off a week and go anyway. Whatever is happening in that house has been happening since long before you got off the train.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Tom takes you to the city. He keeps Myrtle.",
+      "text": "Tom makes you get off the train with him halfway to the city, in the grey stretch where the ash is shovelled into ridges and a billboard oculist's spectacles look at everything without blinking. He buys her a puppy from a man on the sidewalk for ten dollars. There is a party in the apartment by four in the afternoon, and by seven he has broken her nose with his open hand.",
       "sceneTitle": "Myrtle",
       "choices": [
         {
           "text": "Notice",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You count the gin bottles and the scandal magazines and the way she pronounces her sister's name. You are the only sober person present and it does not help.",
           "nextNodeId": "s4"
         },
         {
           "text": "Pretend not to notice",
-          "consequence": "“Pretend not to notice” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "You look at a photograph on the wall until it stops being a photograph. Afterward you wait forty minutes for a train and mention it to nobody, ever.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Gatsby's lawn. Champagne. Strangers. You haven't met the host.",
+      "text": "Two motorboats, five crates of oranges, a machine in the pantry that will juice two hundred of them in half an hour, and an orchestra with oboes in it. Nobody is invited; people simply arrive. Girls faint decoratively. A man in the library is astounded to discover the books are real, with actual pages. Everyone has a theory about the host, and nobody has met him.",
       "sceneTitle": "First Party",
       "choices": [
         {
           "text": "Wander",
-          "consequence": "There is no taking “Wander” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You drift through nine rooms and collect three different stories about your host, each delivered with total confidence by someone drinking his champagne.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay near the bar",
-          "consequence": "There is no taking “Stay near the bar” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You stay near the bar as the only guest in the place who was actually invited, a fact you cannot mention to anyone without sounding ridiculous.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A man with a careful smile. Old sport.",
+      "text": "The man beside you says he believes you were in the same division in France, and then, when you laugh at something, he smiles at you as if he has spent his whole life hoping to find you specifically agreeable. A butler calls him away to Chicago on the telephone and the smile packs itself neatly away. Old sport, he says, twice. It sits wrong in his mouth, a coat cut for a bigger man.",
       "sceneTitle": "Meeting Gatsby",
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Civil.",
+          "consequence": "You tell him the party is magnificent and he receives the compliment like a man taking a receipt. He drinks nothing at all at his own party.",
           "nextNodeId": "s6"
         },
         {
           "text": "Be skeptical",
-          "consequence": "There is no taking “Be skeptical” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You notice the small hitch before he says Oxford. It is a lie, or a truth he has had to rehearse, and you cannot tell which is sadder.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Gatsby asks if you'd invite Daisy for tea.",
+      "text": "He drives you into town in a car the colour of cream with too much chrome and tells you an entire life in twenty minutes: a war medal from Montenegro, a photograph at Oxford, a dead family, rubies collected in the capitals of Europe. He produces evidence for each. Then, through a third party, over lunch, at last, the ask. Would you have your cousin over for tea.",
       "sceneTitle": "The Plan",
       "choices": [
         {
           "text": "Agree",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You say yes before thinking, and spend the drive home understanding that you have been carefully and expensively courted for a month.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hesitate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You ask what day would suit him and he says any day, instantly, and the speed of the answer tells you more than the medal did.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Rain. Roses delivered. Gatsby pacing. Daisy arrives.",
+      "text": "It rains all morning. He sends a man over to cut your grass, then arrives himself with enough greenhouse flowers to fill the room, a white suit, a silver shirt, a gold tie, and no colour in his face at all. He knocks your clock off the mantel catching it and apologises to the clock. He stands out in the rain by the back door for five minutes. Then wheels on the gravel.",
       "sceneTitle": "Tea",
       "choices": [
         {
           "text": "Step out for them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You go and stand under a black tree in the rain for half an hour so that two people can be alone inside your own house.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You stay, and watch two adults be visibly and badly seventeen, and then leave anyway, because there is no room in that room for a third person.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Daisy weeps over the shirts. The image is, in a way, the whole novel.",
+      "text": "He walks her through the house one room at a time: the pool, the organ, the pile of English shirts a man ships him every season in sheer linen and coral and apple green, monogrammed. She puts her face down into them and cries, hard, and says she has never seen such beautiful shirts. It is not about the shirts. It is about five years of them arriving in a house she was not in.",
       "sceneTitle": "Pool House",
       "choices": [
         {
           "text": "Witness",
-          "consequence": "You commit to “Witness.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stand in the doorway and let yourself see exactly what those tears are made of, and it alters what you are able to pretend for the rest of the summer.",
           "nextNodeId": "s9"
         },
         {
           "text": "Look away",
-          "consequence": "“Look away” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You study the rain on the window and decide it was about the shirts after all. That decision holds up for approximately one week.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Tom is, finally, aware. He goes hunting.",
+      "text": "Tom comes over for a drink and dislikes the house, the guests, and the way his wife looks across at that lawn. He starts asking who the man is and what business he is in, and he does not ask idly. He telephones people. Somebody who has never worked a full day in his life becomes abruptly, energetically industrious. He also stops leaving Daisy alone on Sunday afternoons.",
       "sceneTitle": "Tom Notices",
       "choices": [
         {
           "text": "Brace",
-          "consequence": "“Brace” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You begin reading Tom's silences the way a farmer reads weather, and you notice you have chosen a side without anybody having asked you to.",
           "nextNodeId": "s10"
         },
         {
           "text": "Don't tip Gatsby",
-          "consequence": "You commit to “Don't tip Gatsby.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You say nothing, because saying it would mean explaining why you care. He gets it out of a hotel clerk in Queens inside the week.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Heat, gin, accusations.",
+      "text": "Hottest day of the year, and the plan somebody has is a suite at the Plaza with the windows shut. Mint juleps, one electric fan, and a wedding march coming up through the floor from a ballroom two storeys down. Tom starts in on the decline of civilisation. Daisy asks for more ice. Gatsby stands very still, waiting for a woman to say a sentence he wrote for her five years ago.",
       "sceneTitle": "Plaza Hotel",
       "choices": [
         {
           "text": "Stay calm",
-          "consequence": "There is no taking “Stay calm” back. Civil shapes the silence before the next moment arrives.",
+          "consequence": "You count minutes and think about the fact that this is your thirtieth birthday, which nobody in the room knows and nobody is going to mention.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay silent",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep your hands flat on your knees while one man asks a woman to erase four years of her life on request, and you say nothing at all.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He produces evidence about Gatsby's money.",
+      "text": "He has all of it: the drugstores in Chicago and the sideline in grain alcohol over the counter, the bonds, the man in Queens who handles the paper. He delivers it slowly, the way you hand somebody a knife handle first. Gatsby answers him well, point by point. Then he turns to Daisy and she is no longer there. She has gone somewhere behind her own eyes and he cannot follow.",
       "sceneTitle": "Tom's Hammer",
       "choices": [
         {
           "text": "Watch Daisy's face",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You watch the exact moment she loses the ability to say she never loved her husband, and she does not get that ability back.",
           "nextNodeId": "s12"
         },
         {
           "text": "Watch Gatsby's",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You watch a man argue with a fact and lose, politely, in a rented room with a fan going, while the only person he is arguing for looks at the carpet.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Gatsby insists on letting Daisy drive.",
+      "text": "He puts her in the yellow car and gives her the wheel, because her hands are shaking and because he needs to prove she is his. Tom drives the rest of you back in the coupe and stops for gas at Wilson's garage, where Wilson says he has found something out about his wife and is taking her west. In one afternoon Tom loses both the women he owns.",
       "sceneTitle": "Drive Back",
       "choices": [
         {
           "text": "Sit in the back",
-          "consequence": "You commit to “Sit in the back.” The story records the instinct as “Witness” and carries it forward.",
+          "consequence": "You sit in the back with Jordan's hand in yours, watching the ash yard slide past, and it occurs to you that everyone in the car is faintly bored.",
           "nextNodeId": "s13"
         },
         {
           "text": "Argue",
-          "consequence": "There is no taking “Argue” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say she is in no condition to drive and he says she is fine, old sport, in the voice of a man closing a door with his foot.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The car strikes Myrtle. Daisy does not stop.",
+      "text": "She runs out into the road waving both arms, because she thinks the yellow car is Tom's and she wants to be taken away in it. The car swings toward her, then away, then keeps going. Twenty minutes later you come through and there is a crowd, and a policeman writing in a notebook, and a man on his knees in the road making a sound. The engine never even slowed.",
       "sceneTitle": "Valley of Ashes",
       "choices": [
         {
           "text": "Witness",
-          "consequence": "“Witness” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You get close enough to see her mouth open and her breast torn loose at the seam of her dress. You keep that, and you never write it down anywhere.",
           "nextNodeId": "s14"
         },
         {
           "text": "Beg her to stop",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You are not in that car. You would have shouted at her to brake, you tell yourself, and you go on telling yourself so for a number of years.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Gatsby tells you he'll take the blame.",
+      "text": "He is standing in the shrubbery outside their house at two in the morning, guarding nothing, in case Tom raises a hand. Through the pantry window the two of them sit over cold fried chicken and two bottles of ale, not happy, not unhappy, conspiring. He tells you he will say he was driving. He is out there waiting for a woman to come to a window and she is not coming.",
       "sceneTitle": "Long Island, Late",
       "choices": [
         {
           "text": "Tell him no",
-          "consequence": "There is no taking “Tell him no” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say she is not worth it and he looks at you with something like pity, because he has already decided and you are the one who has not understood.",
           "nextNodeId": "s15"
         },
         {
           "text": "Let him",
-          "consequence": "You commit to “Let him.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You go home and leave him in the wet grass keeping his sacred watch over two people deciding what should be done about him.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "He waits for a call that won't come. He floats in the pool.",
+      "text": "He has the pool drained for the season, then changes his mind and takes the mattress in anyway, his first swim of the summer in his own water. The house is empty; he fired every servant last week over gossip. He finally tells you the true story: the shack in North Dakota, the yacht in Lake Superior, the name he invented at seventeen. You tell him he is worth more than all of them.",
       "sceneTitle": "Pool",
       "choices": [
         {
           "text": "Visit him",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You are late for a train and you turn round anyway and shout it across the lawn. It is the only compliment he ever got, and you are glad of it for life.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay home",
-          "consequence": "“Stay home” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You go into the city to work and telephone the house at two, and there is no answer, and the ringing means nothing to you until much later.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "George Wilson finds the house. The shot is small.",
+      "text": "He walks all night out of the ash heaps. Somebody has told him about a yellow car and he does not ask twice. He comes up through the trees past the empty garages in the middle of the afternoon. A chauffeur hears what might be a shot and does nothing about it. The water carries the mattress in a slow circle, one end and then the other, until it comes to rest against the drain.",
       "sceneTitle": "Wilson",
       "choices": [
         {
           "text": "Hear it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You are on the train in from the city and you hear nothing at all. That is what you keep: the sound you were not there to be spared.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't hear it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "The gardener finds them both before you arrive, one in the pool and one in the grass, and by then the telephone is ringing about next weekend's party.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Three mourners. You. Owl Eyes. Gatsby's father.",
+      "text": "You telephone everybody. Daisy has left no address and no wire. A man who came to eight parties says his wife is unwell. The associate in Queens sends regrets and advice about staying out of it. His father arrives from Minnesota in a cheap coat, unable to stop being proud, carrying a boyhood schedule his son once wrote in the back of a cowboy book, with resolves and times of day.",
       "sceneTitle": "Funeral",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You stand at the grave in the rain as the only person who ever seriously tried to know him, and you are angry in a way you can find no place to spend.",
           "nextNodeId": "s18"
         },
         {
           "text": "Leave early",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You start back toward the cars before the last of it, because the rain is filthy and because standing there feels like a performance for an empty house.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "He says, the poor son of a bitch. He means it kindly.",
+      "text": "The man in the enormous glasses wipes them on his sleeve at the cemetery gate and asks whether they got the service done. He could not get to the house in time. He came to a great many of the parties. He never met the host either, not once. Then he says the poor son of a bitch, and there is nothing unkind anywhere in it, and it is the only eulogy anyone manages.",
       "sceneTitle": "Owl Eyes",
       "choices": [
         {
           "text": "Agree",
-          "consequence": "There is no taking “Agree” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You say yes, because it is the truest sentence anybody has produced all day, and he nods and walks off through the wet trees toward the road.",
           "nextNodeId": "s19"
         },
         {
           "text": "Be quiet",
-          "consequence": "“Be quiet” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You shake his hand without speaking, and it reaches you that the two of you together constitute the entire mourning of a very great man.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "They leave town with no forwarding address.",
+      "text": "The house across the bay is shuttered by August. No forwarding address, no telegram, no flowers sent. In October you meet Tom on Fifth Avenue and he tells you without embarrassment what he said to Wilson about the yellow car, and asks what else he was supposed to have done. Then he goes into a jeweller's to buy a pearl necklace, or possibly a pair of cufflinks. You shake his hand because it is easier.",
       "sceneTitle": "Daisy and Tom",
       "choices": [
         {
           "text": "Note the careless",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You file it exactly as it stands: they broke things and people, then retreated into their money and let it close over them like water over a stone.",
           "nextNodeId": "s20"
         },
         {
           "text": "Forgive them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You decide they were children and children cannot be blamed, and the decision leaves an aftertaste you never entirely get out of your mouth.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You stand at the end of the dock. The light is, again, just a light.",
+      "text": "You come down onto his beach the last night before you leave, the moon up, the house dark behind you, somebody's fenders still spraying gravel out on the road. Across the water there is a small green light burning at the end of a private dock. It has always been a light on a dock, marking a channel for boats. He stood on this sand and made it mean a woman's entire life.",
       "sceneTitle": "The Green Light",
       "choices": [
         {
           "text": "Stay a moment",
-          "consequence": "The decision settles the question for now. Its verdict—Witness—follows you into whatever comes next.",
+          "consequence": "You stay until the tide turns, letting yourself feel the size of what he believed. Nobody is ever going to believe anything about you that hard.",
           "nextNodeId": "s21"
         },
         {
           "text": "Walk back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You go back up the lawn and rub out an obscene word some boy has scrawled on his white marble steps with a piece of brick.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You move home to the Midwest. You write the story down.",
+      "text": "You sell the car, give notice, and take a train west at Christmas into that cold hard air off the prairie, with the town names being called down the carriage. Bonds bore you now. The East, remembered, has the crookedness of a night scene painted badly: too many white dresses, not enough furniture. On the back of a timetable you write four sentences about a man on a lawn and cannot stop.",
       "sceneTitle": "Home",
       "choices": [
         {
           "text": "Begin to write",
-          "consequence": "“Begin to write” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You write the first pages standing at the kitchen table in your father's house and find, to your astonishment, that you are defending a bootlegger to your own family.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Burn the draft",
-          "consequence": "You commit to “Burn the draft.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put the timetable in the stove and go to bed. A fortnight later you buy a ledger and a bottle of ink, which was always going to happen.",
           "nextNodeId": "end_midwest"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You leave the pages unfinished in a drawer, take the eastbound train on Monday, and tell yourself a man can sell bonds and still remember things properly.",
           "nextNodeId": "end_lawyer"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_book",
-      "text": "You write the book. It is, in the end, kind to Gatsby. The book outlives you. So do the parties, in their way.",
+      "text": "You write it. It takes years, and it is unfair to Tom, unfair to Daisy, and absurdly kind to a man who lied to you about Oxford within an hour of meeting you. Strangers read it and decide it is about money. It outlives you by a long way. So, in their fashion, do the parties: every June somebody puts that music on again and means it entirely.",
       "sceneTitle": "The Book",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_midwest",
-      "text": "You go home. You marry quietly. The Eggs become a long ago. You are, sometimes, in dreams, on the lawn again.",
+      "text": "You go home for good. You marry a woman from a family your father approves of and you are decent to her for forty years, which is not nothing. The Eggs become a story you tell badly twice and then stop telling. Still, some nights you are back on that lawn with the orchestra tuning and the lanterns going up, and a man on the marble steps is looking straight past you at the water.",
       "sceneTitle": "Midwest",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_lawyer",
-      "text": "You stay in New York and become, against your better judgement, a bond salesman. You retire early. You buy a small green-lit dock somewhere upstate, just for the joke.",
+      "text": "You stay. You turn out to be good at bonds, of all the things a man could be good at, and then better, and you retire at fifty-one with a house upstate and a knee that predicts rain. On the lake you build a short dock and hang a green lantern at the end of it, and when guests ask you say it is for navigation. You sit out there most evenings. You never explain the joke to anybody.",
       "sceneTitle": "Bonds",
       "choices": [],
       "isEnding": true,

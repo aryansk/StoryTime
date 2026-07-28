@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Forest, the CEO, hands you the key and a smile that has no joke behind it. 'Devs is the future,' he says. 'You'll either love it or you'll quietly leave.' Nobody, he doesn't add, has quietly left.",
+      "text": "Forest's hands are soft and his beard is old growth, and the key he gives you is brass, unlabelled, warm from his pocket. The lab sits a mile back into the redwoods behind a fence with no signage on it. 'Devs is the future,' he says. 'You'll love it or you'll quietly leave.' You do the arithmetic on your offer letter. Nobody has quietly left.",
       "sceneTitle": "The Hire",
       "choices": [
         {
           "text": "Accept and ask no further questions",
-          "consequence": "Curiosity is sometimes deferred.",
+          "consequence": "You sign where the tabs are, all fourteen of them, and skip the clause about post-employment monitoring. The salary is buying that skip and you both know it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask one clarifying question",
-          "consequence": "A measured probe.",
+          "consequence": "You ask, and Forest's pause runs a beat long — the pause of a man deciding how much truth a new hire can metabolize.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Floating cubes, ambient hum, six engineers working in absolute silence on a problem you can't yet see. Katie greets you with a half-smile. The air itself feels like it's been thinking for years.",
+      "text": "The floor is a suspended slab; the lab is a building inside a building, wrapped in vacuum and a golden mesh. Six people work at floating consoles and none of them speak. Katie gives you half a smile and no handshake. The hum comes up through your shoes and settles in your back teeth. The air in here has been thinking for years and it shows.",
       "sceneTitle": "Inside the Lab",
       "choices": [
         {
           "text": "Watch what they're doing",
-          "consequence": "Read the room.",
+          "consequence": "You stand at the back for two hours without being acknowledged, and learn more from the way Lyndon holds his breath than from any line of code.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask Katie what 'Devs' actually does",
-          "consequence": "Ask the question.",
+          "consequence": "Katie answers in a sentence containing no verbs you recognise, then watches your face to see which word you pick up.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "'Why six?' you ask. Forest considers. 'Because six is the maximum that can keep a secret,' he says, 'and the minimum that can run determinism at the scale we need.'",
+      "text": "'Why six?' Forest turns the question over like a stone he found. 'Six is the most people who can keep a secret,' he says, 'and the fewest who can run determinism at this scale.' Behind him a woman crosses the yard carrying nothing. You count her steps to the door — nine — and wonder whether somebody has already counted them for her.",
       "sceneTitle": "The Question",
       "choices": [
         {
           "text": "Press for what 'determinism' means here",
-          "consequence": "“Press for what 'determinism' means here” closes one possibility and opens another. The moment leaves a clear note behind: Definitions matter.",
+          "consequence": "He says causality is arithmetic with better manners. You nod as though that were an answer, and it goes into you and stays there.",
           "nextNodeId": "s4"
         },
         {
           "text": "File the answer away and start tomorrow",
-          "consequence": "Don't ask twice.",
+          "consequence": "You let it drop and drive home along the coast with the window down, testing whether wind feels chosen. It doesn't. You start Monday.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Lyndon shows you the screen — a grainy, jittery, but undeniable reconstruction of Joan of Arc, ten seconds of motion, voice reconstructed from physics alone. The machine, you realize, is reading backwards through the universe.",
+      "text": "Lyndon pulls up a render: a woman in a rough shift, jittering at four frames a second, mouth moving. Audio comes through as a rasp under the noise floor. 'Joan,' he says. 'Fifteenth century. Ten seconds of her.' Nothing recorded this. The machine solved backwards through six hundred years of particle interactions to find her, and she is grainy, and she is turning to look.",
       "sceneTitle": "The Reconstruction",
       "choices": [
         {
           "text": "Believe it and ask how far forward it can read",
-          "consequence": "The terrifying question.",
+          "consequence": "You ask how far forward it reaches, and Lyndon grins like a boy holding a firework, and across the room Katie's head comes up from her console.",
           "nextNodeId": "s6"
         },
         {
           "text": "Look for the trick",
-          "consequence": "Skepticism as a posture.",
+          "consequence": "You spend a weekend hunting for a rendering pipeline, a training set, any fakery at all. What you find is a machine with no training data, which is worse.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The person you replaced — Sergei — supposedly resigned and moved home to Russia. Katie says it twice in two different sentences. The redundancy is the tell.",
+      "text": "Your badge was printed over someone else's number. Sergei — resigned, went home to Russia, family reasons. Katie tells you this twice in one conversation, arranged two different ways, the way people say a thing they have rehearsed. His locker still holds a jacket and a paper bag of cashews gone soft, and nobody has thought to empty it.",
       "sceneTitle": "Sergei, Missing",
       "choices": [
         {
           "text": "Quietly look for Sergei online",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Investigate.",
+          "consequence": "You search his name at home on a phone you've owned since college, and find a Berkeley thesis, a chess rating, and no flight manifest anywhere on earth.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't look; you want to keep the job",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You close the tab. There is a mortgage, a partner and a visa hanging off this badge, and Sergei is a stranger, and you decide to keep him one.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A woman named Lily — Sergei's girlfriend — finds you at a coffee shop. She has questions about him. She has, you realize, more reason to be afraid than you do.",
+      "text": "The coffee shop is loud enough that she has to lean in. Lily — encryption side, Sergei's girlfriend. She has his texts from that last morning, and the punctuation goes wrong halfway down the thread. She isn't crying. She is the kind of frightened that organises: dates, screenshots, a printed map of the campus perimeter. She has more to lose than you do and she came anyway.",
       "sceneTitle": "Lily, Outside",
       "choices": [
         {
           "text": "Help her, carefully",
-          "consequence": "Solidarity is a verb.",
+          "consequence": "You give her the shift roster and the gate timings, and from that second you are a person with something to hide inside a building that hides nothing from itself.",
           "nextNodeId": "s8"
         },
         {
           "text": "Plead ignorance and stay safe",
-          "consequence": "“Plead ignorance and stay safe” closes one possibility and opens another. The moment leaves a clear note behind: Protect yourself.",
+          "consequence": "You say you never met him. She thanks you politely and leaves, and you finish a coffee you can no longer taste.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You watch Devs run a forward projection — ten minutes ahead. A coffee cup falls in the cafeteria at 12:34. At 12:34 the coffee cup falls. Nobody in the lab even blinks.",
+      "text": "The projection runs ten minutes ahead of the room, rendered in the cube like smoke holding a shape. In it, a cup goes off a cafeteria table at 12:34:06. At 12:34:06 you hear it from two floors down — ceramic, then a laugh. Nobody at the consoles looks up. They stopped finding it remarkable somewhere around month four.",
       "sceneTitle": "The Forecast",
       "choices": [
         {
           "text": "Ask if free will exists in this lab",
-          "consequence": "The honest question.",
+          "consequence": "Stewart answers without turning around: free will is a sensation, not a mechanism. He says it the way you'd hand somebody the wifi password.",
           "nextNodeId": "s8"
         },
         {
           "text": "Ask if it can predict tomorrow",
-          "consequence": "The dangerous question.",
+          "consequence": "Tomorrow, they tell you, is nothing special. Resolution falls off with distance, and the distance they actually care about isn't measured in time.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Forest's office has a single photograph of a small girl. You learn, by accident, that his daughter died in a car accident years ago. Devs, you start to suspect, is grief wearing the clothes of engineering.",
+      "text": "One photograph on the entire floor: a girl, maybe six, mid-sentence on a lawn. Amaya. Forest keeps the frame angled toward his chair, not the door. The rest you get from a decade-old traffic report somebody forgot to scrub — wet on-ramp, hands-free call, his voice in the car at the exact moment of it. This building is a grief with a capital budget.",
       "sceneTitle": "Forest's Daughter",
       "choices": [
         {
           "text": "Try to understand Forest's grief",
-          "consequence": "Compassion as analysis.",
+          "consequence": "You start reading everything he does as a man running a conversation backwards. It makes him legible, and legible is not the same thing as safe.",
           "nextNodeId": "s10"
         },
         {
           "text": "Decide grief is making him reckless",
-          "consequence": "Identify the risk.",
+          "consequence": "You decide a man who lost a child should not be permitted to own the past tense, and you begin, quietly, keeping notes with timestamps.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Katie pulls you aside. 'Forest's interpretation is wrong,' she whispers. 'It's not a single line. It's many. We can pick which one we render.' This sentence will keep you awake for years.",
+      "text": "Katie waits until Lyndon is on break and the corridor camera has finished its sweep. 'His interpretation is wrong,' she says, close to your ear and not whispering, because whispers carry. 'It isn't one line. It's a sheaf. We render the branch he can stand to watch.' Then she goes back to her console and doesn't speak to you again for nine days.",
       "sceneTitle": "The Tunnel Vision",
       "choices": [
         {
           "text": "Help Katie argue the many-worlds case",
-          "consequence": "Pick the right physics.",
+          "consequence": "You run her many-worlds argument at the whiteboard and it holds all the way down, and Forest listens to every word of it and changes nothing.",
           "nextNodeId": "s10"
         },
         {
           "text": "Believe Forest's single-line view",
-          "consequence": "Pick the kinder physics.",
+          "consequence": "You take the single line because it's cleaner, and because a universe with one answer in it requires nobody to be brave.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You discover Sergei wasn't a Russian asset — he was a sloppy security guy who got too curious. He was killed in this building. You realize the lab has a body count.",
+      "text": "The footage runs thirty-one seconds. Sergei in the parking structure with a phone stuffed in his sock, copying code he barely understood. Kenton comes up behind him — not fast, not angry, simply arriving. Kenton's hands are patient. Afterward he checks his own pulse. Sergei wasn't an asset. He was curious and sloppy, and this company has a body count and a benefits package.",
       "sceneTitle": "Sergei's Truth",
       "choices": [
         {
           "text": "Take the evidence to the press",
-          "consequence": "Daylight beats determinism.",
+          "consequence": "You mirror the file to a reporter's drop box from a library terminal in Fremont, and walk back out into the sun feeling exactly as safe as you deserve to.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take it to a federal agency",
-          "consequence": "Process over publicity.",
+          "consequence": "You take it federal, because federal is slower but carries subpoenas, and slow is a thing you may not personally have much of.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You stand in the center of the rendering cube alone. The visualizations of past and future swarm you. You see — for two terrible seconds — yourself, dead, on the steps outside. The timestamp is in three days.",
+      "text": "Alone on the platform, you let the visualisations come. Past and future swarm the air in the same golden static. Your own face surfaces out of it. You are on the granite steps outside the lobby, and you are not moving, and there is rain landing on your open eye. The timestamp reads three days from tonight, 6:52 in the evening.",
       "sceneTitle": "The Cube",
       "choices": [
         {
           "text": "Choose to defy the prediction",
-          "consequence": "Reach for many-worlds.",
+          "consequence": "You resolve to be elsewhere at 6:52 — another city, another body — and the resolve feels entirely yours, which is precisely what the render predicted it would feel like.",
           "nextNodeId": "s12"
         },
         {
           "text": "Surrender to the determinism",
-          "consequence": "Sometimes acceptance is its own freedom.",
+          "consequence": "You stop arguing with the clock and sleep better that night than you have since the offer letter. The comfort of it is the part that frightens Katie.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You and Lily and Katie meet in a parking garage. Forest's security chief Kenton is hunting both of you. The plan is messy and brave and contingent on one thing — that the machine cannot, in fact, predict everything.",
+      "text": "Level three of a parking structure at three in the morning, engine off, the cabin cooling fast around you. Lily has a cloned badge. Katie has the corridor timings written inside a gum wrapper. You have a hand that won't hold the pen level. Kenton is hunting all three of you, and the entire plan rests on the machine being wrong about one small thing.",
       "sceneTitle": "The Plan",
       "choices": [
         {
           "text": "Execute the plan as written",
-          "consequence": "Trust the team.",
+          "consequence": "You run it to the letter, every mark hit on time, and the eerie part isn't that it works — it's how little of it surprises anybody.",
           "nextNodeId": "s14"
         },
         {
           "text": "Improvise around it",
-          "consequence": "Trust your instincts.",
+          "consequence": "You throw the script away at the first door and improvise, on the theory that noise is the one commodity determinism cannot purchase.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You walk into Forest's office alone. You ask him to let you see the rendering of his daughter — the moment of her death. He nods. You watch it. You realize the lab's whole purpose, and you weep for both of you.",
+      "text": "You walk in without knocking. 'Show me Amaya,' you say. 'The road. All of it.' Forest doesn't ask why. He brings the render up and sits down on the floor beneath it like a man at a graveside, and you watch eight seconds of wet asphalt at a resolution no father should be permitted to own. Then you are both crying about entirely different things.",
       "sceneTitle": "The Confession",
       "choices": [
         {
           "text": "Stay and help him let it go",
-          "consequence": "Healing as engineering.",
+          "consequence": "You stay, and begin the slow work of talking a man down off a machine — harder than it sounds, because the machine keeps agreeing with him.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay and help him keep it on",
-          "consequence": "Mercy as architecture.",
+          "consequence": "You stay, and hand him the tissue, and say nothing whatsoever about switching it off. The lab has just acquired its seventh believer.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Kenton comes for you. The lab's predictions said this would happen. You and Lily run for the elevator. The doors close on his hand. The cube hums above you.",
+      "text": "The prediction put this at 9:41 and it is 9:41. Kenton comes down the corridor at a walk, unhurried, a man arriving at an appointment. You and Lily take the service elevator and his fingers make it through the closing doors — four of them, flat, white at the knuckle — and then don't. Above you the cube hums on, having already watched all of this.",
       "sceneTitle": "Kenton at the Door",
       "choices": [
         {
           "text": "Reach the top and confront Forest",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Confront.",
+          "consequence": "You go up, because Forest is the only person who can stop the building, and because some part of you wants to be looked at by him one last time.",
           "nextNodeId": "s16"
         },
         {
           "text": "Go to the basement and pull the plug",
-          "consequence": "Confront the machine.",
+          "consequence": "You go down, toward concrete and cold, where the answer is a switch instead of a conversation you'd have to win.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Katie hands you the shutdown code. 'It will take 47 seconds,' she says. 'Devs will know what you're doing in the first second.' The cube already, you realize, knows.",
+      "text": "Katie writes the code out longhand rather than send it anywhere. 'Forty-seven seconds to unwind,' she says. 'It knows inside the first one.' She doesn't specify who 'it' is. Your palms are damp on the console rail. Overhead the lattice is already rendering the next minute, and somewhere in that minute a pair of hands is moving exactly the way yours are about to.",
       "sceneTitle": "The Shutdown Sequence",
       "choices": [
         {
           "text": "Begin the sequence anyway",
-          "consequence": "Even the predictable can surprise.",
+          "consequence": "You start it anyway and the counter runs, and knowing you were always going to press it does absolutely nothing to slow your heart.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hesitate for a second of free will",
-          "consequence": "Pause is a vote too.",
+          "consequence": "You hold for one second — deliberate, useless, gorgeous — and Katie looks at you as though you have just proved her entire case for her.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Forest, calm, waits at the top. He is not, you realize, going to fight. He is going to ask you to choose — to render his daughter alive in the simulation, or to let him die in this one.",
+      "text": "Forest waits by the glass with his hands loose at his sides. No guards. He doesn't move when you come in. 'I'm not going to fight you,' he says, and he means it, and it is not kindness. He wants a choice made, tonight: render Amaya into the cube and live inside it, or let this version of him stop at the bottom of a stairwell.",
       "sceneTitle": "The Top of the Building",
       "choices": [
         {
           "text": "Render his daughter",
-          "consequence": "There is no taking “Render his daughter” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You reach for the console, and Forest shuts his eyes like a man being told the anaesthetic has started working.",
           "nextNodeId": "s18"
         },
         {
           "text": "Refuse and walk him out",
-          "consequence": "There is no taking “Refuse and walk him out” back. Reality first shapes the silence before the next moment arrives.",
+          "consequence": "You take his elbow and walk him toward the elevator, and feel through the sleeve how little of him is left to walk anywhere.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The quantum hardware hums in a vacuum chamber the size of a chapel. You stand with your hand near a kill switch designed by a person who clearly hoped it would never be used.",
+      "text": "Twelve metres down, in a chamber the size of a chapel, the hardware hangs in vacuum a few thousandths of a degree above nothing at all. Cold radiates off the glass and makes your eyes water. The kill switch is a red mushroom head on a keyed stalk, mounted at chest height by somebody who very sincerely hoped no one would ever reach for it.",
       "sceneTitle": "The Basement",
       "choices": [
         {
           "text": "Pull the switch and end it",
-          "consequence": "Some doors should close.",
+          "consequence": "The stalk takes more force than you expect, and the hum drops octave by octave until the room is just a room with an expensive refrigerator in it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Walk away without pulling it",
-          "consequence": "Leave the future to itself.",
+          "consequence": "You put your hand back in your pocket and climb the stairs, and the machine goes on being right about everything, including you.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The cube glows. A small girl, perfectly rendered, runs into a perfectly rendered house. Forest, on the floor, watching, smiles for the first time you have ever seen. You feel the universe split.",
+      "text": "The lattice brightens until the walls stop existing. A girl runs across a lawn toward a screen door with a repaired hinge, and the light on the grass is the exact light of one afternoon eight summers ago. Forest is down on the floor watching her, smiling — you have never seen him do it, and it is unbearable. Then the room comes apart into two rooms.",
       "sceneTitle": "The Render",
       "choices": [
         {
           "text": "Stay in the rendered universe with Lily",
-          "consequence": "Choose the kinder fork.",
+          "consequence": "You step through with Lily into a world that has a sun in it, knowing every photon of that sun has an author.",
           "nextNodeId": "end_render"
         },
         {
           "text": "Stay in the unrendered universe and live",
-          "consequence": "Choose the real fork.",
+          "consequence": "You stay where the coffee is bad and the light belongs to nobody, and let the other two of you go on without you.",
           "nextNodeId": "end_real"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The lab is shut. Forest dies. Lily, somehow, doesn't. You go home with a security guard's coat over your shoulders. The street outside is unrendered and dry and yours.",
+      "text": "The lab is sealed and the redwoods get their fence back. Forest dies at the foot of the stairs at the hour he was told he would. Lily doesn't, which is the only thing the machine got wrong all night. A campus guard puts his jacket around your shoulders outside. The street is wet and ordinary and nobody anywhere is rendering it. You walk.",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Testify in the federal inquiry",
-          "consequence": "The decision settles the question for now. Its verdict—Witness—follows you into whatever comes next.",
+          "consequence": "You keep every timestamp and badge log and hand it to people with subpoena power, and forfeit any future life in which nobody knows your name.",
           "nextNodeId": "end_inquiry"
         },
         {
           "text": "Disappear and rebuild",
-          "consequence": "Some endings are private.",
+          "consequence": "You sell the car, kill the numbers, and go somewhere the word 'quantum' only ever turns up in advertising for mattresses.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Years later, in a coffee shop, you flip a coin twenty times in a row to remind yourself that the future is not yet written. It comes up heads thirteen times. You laugh. You did not, after all, become the prediction.",
+      "text": "Years on, a coffee shop in a city that has weather. You flip a quarter twenty times across the table because you still do this, the way other people touch a doorframe on the way out. Thirteen heads. None of it means anything, which is precisely the point you drove across a state to make to yourself. The barista asks if it's for here. It is.",
       "sceneTitle": "Many Worlds, One Coffee",
       "choices": [
         {
           "text": "Live the rest of your life unmeasured",
-          "consequence": "There is no taking “Live the rest of your life unmeasured” back. Embrace indeterminism shapes the silence before the next moment arrives.",
+          "consequence": "You leave the coin on the table for whoever sits down next and go home to a life with no logging in it.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Write a memoir about Devs, carefully",
-          "consequence": "Document for the record.",
+          "consequence": "You start writing it slowly, with a lawyer's number saved in your phone and every name changed except the one they'd recognise anyway.",
           "nextNodeId": "end_inquiry"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_render",
-      "text": "You and Lily live, in some sense, in a render. The coffee is real to you. The sunset is rendered to atomic precision. Forest's daughter has, somewhere, a long good life. You don't know what counts as 'real' anymore. You decide it doesn't matter, and the decision lets you breathe.",
+      "text": "You and Lily live inside a solved universe. The coffee is hot at the temperature coffee is hot. The sun goes down the way that sun went down. Somewhere in a house with a repaired hinge, Amaya grows up, gets bored, gets a job, gets old — an entire life priced in electricity. Nothing here is less true than anything else; it simply has an author. One morning you stop asking, and find that you can breathe.",
       "sceneTitle": "Inside the Cube",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_real",
-      "text": "You walk out of the building into a morning the machine never quite finished predicting. Lily takes your hand. Forest's death is not, in the end, your fault. The street, unrendered, is enough.",
+      "text": "You come out into a Tuesday the machine never finished computing, and the sky over the parking lot is the same dull white it would have been regardless. Lily takes your hand at the crosswalk. Forest went down those stairs on a schedule that was never yours to interrupt. Nothing about the morning is remarkable in any direction. You had forgotten how much you liked that.",
       "sceneTitle": "The Unrendered Day",
       "choices": [],
       "isEnding": true,
@@ -415,7 +415,7 @@
     },
     {
       "id": "end_inquiry",
-      "text": "You testify for weeks. The lab is dismantled. Three engineers are charged. The technology is, you discover, more or less inevitable — someone else will build it. You write a long, careful memoir that becomes required reading in ethics classes at three universities.",
+      "text": "Six weeks of testimony, three engineers charged, one company dissolved into other companies with cleaner names. Then the part nobody films: two years later a lab in Shenzhen publishes the same architecture with a friendlier acronym. You write the memoir anyway — careful, dull in the right places, honest about the week you decided not to look for Sergei. It's assigned in ethics seminars at three universities now, and the students argue about you in the present tense.",
       "sceneTitle": "Federal Testimony",
       "choices": [],
       "isEnding": true,
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You move to a small city, take a small job, and disappear into a life nobody renders. Years later a documentary about Devs airs and you don't watch it. You walk to the corner store and buy oranges. They are exactly as orange as oranges.",
+      "text": "A small city, a job with a timesheet, a flat above a laundromat that shudders at nine every night. When the documentary airs you are at the corner store buying oranges, and you never watch it, not even the segment where they blur your face. The oranges are exactly as orange as oranges. You peel one on the walk home and the smell gets under your thumbnail and stays there for hours, and nobody anywhere predicted that.",
       "sceneTitle": "Unmeasured",
       "choices": [],
       "isEnding": true,

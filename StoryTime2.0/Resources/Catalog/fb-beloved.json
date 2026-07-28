@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The house is, as the town says, spiteful.",
+      "text": "The house has a number and no street left worth naming. Things happen in it. A hand pressed flat into a cake. The dog thrown against the wall hard enough to lose an eye. The floor going wet-cold in the middle of July. Your sons walked off at thirteen and never sent word. Baby Suggs died in the keeping room studying colors. The town crosses the road before your gate.",
       "sceneTitle": "124",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You stay, because leaving means going somewhere the baby isn't, and you are not doing that to her twice in one lifetime.",
           "nextNodeId": "s2"
         },
         {
           "text": "Move",
-          "consequence": "“Move” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You consider a room in town for the length of one evening, and Denver's face when you say it out loud closes the subject for good.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "An old friend from Sweet Home. He carries a tin tobacco box for a heart.",
+      "text": "Eighteen years, and he comes up the road with his shoes in his hand. The last of the Sweet Home men. Where his chest used to open there's a tobacco tin, and everything that happened to him in Georgia is inside it, rusted shut and staying that way. He looks at you and says your name like a thing he's been carrying. Behind him the light in the house goes red.",
       "sceneTitle": "Paul D Arrives",
       "choices": [
         {
           "text": "Welcome him",
-          "consequence": "There is no taking “Welcome him” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You sit him at the table and feed him and eighteen years fold up like cloth, and you let a man into a house that hasn't had one in it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Be wary",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You keep the width of the table between you and answer in short sentences, because the last man who knew you then also knows what you did after.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "He drives the ghost out for an evening.",
+      "text": "The house comes for him, the floor pitching, the table walking sideways, and he stands in the middle of the room hollering at it to get out and breaks a chair doing it. Then it's quiet. Genuinely quiet, the first quiet that room has held in years. Denver stands on the stairs with her hands at her sides, and you understand she has just been robbed of the only company she had.",
       "sceneTitle": "Stove",
       "choices": [
         {
           "text": "Be grateful",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You breathe in a house that holds nothing but living people, and for one evening you are a woman with a kitchen and a guest in it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Be careful",
-          "consequence": "“Be careful” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You take the quiet the way you'd take a gift from a stranger, holding it out at arm's length, waiting to learn what it means to cost you.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The three of you walk back from the fair. A young woman is on the steps.",
+      "text": "Walking back from the colored folks' day at the carnival, your three shadows on the road are holding hands, and Denver sees it before you do. She has laughed twice in public. Paul D bought her a paper flower she keeps turning over. Then you come round the bend and there's a woman on the stump by your steps, well dressed, new shoes, sound asleep, with hands that never worked.",
       "sceneTitle": "Carnival",
       "choices": [
         {
           "text": "Take her in",
-          "consequence": "“Take her in” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You carry her inside and she sleeps four days straight, and Denver sits beside her the entire time without anybody asking her to.",
           "nextNodeId": "s5"
         },
         {
           "text": "Send her on",
-          "consequence": "“Send her on” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You tell yourself you'll point her toward town in the morning, and by morning she is drinking cup after cup of water in your kitchen and you say nothing.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Her name. The name on a stone.",
+      "text": "She says her name is Beloved and spells it out slow, like she's reading it off something. You paid for that word with ten minutes against a headstone, and it's cut up on the hill, seven letters, all you could afford. She can't hold her own head up but she lifts the rocker one-handed. She asks about your earrings. Nobody alive in this county knows about the earrings.",
       "sceneTitle": "Beloved",
       "choices": [
         {
           "text": "Recognize it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "Something in you sits down and says: all right, then. Finally. You do not put one word of it out loud for weeks afterward.",
           "nextNodeId": "s6"
         },
         {
           "text": "Pretend not to",
-          "consequence": "You commit to “Pretend not to.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You decide she's a girl who got out of a bad house, which is a story that fits her, and you keep fitting it over her for months.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Paul D remembers the milk and the men.",
+      "text": "Paul D tells you at the table with both hands flat on it. Halle was up in the loft. He saw the whole of it, and did nothing, and afterward sat by the churn with butter smeared over his face, gone out of his mind. Eighteen years you have believed your husband simply never came. It turns out he came, and stayed, and watched, and that was the thing that broke him.",
       "sceneTitle": "Memory of Halle",
       "choices": [
         {
           "text": "Tell him you remember too",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You say the part about schoolteacher's nephews and the ink, flat, the way you'd read a list, and Paul D puts his hand down over yours.",
           "nextNodeId": "s7"
         },
         {
           "text": "Don't say it",
-          "consequence": "“Don't say it” closes one possibility and opens another. The moment leaves a clear note behind: Survive.",
+          "consequence": "You leave it up in the loft where it happened, and afterward you carry it alone again, which is a thing you already know how to do.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He came to take Sethe back. She made her choice.",
+      "text": "Twenty-eight days of free. Then four horsemen at the head of the road and a hat you recognized from a distance. You had four children in that yard. What you did in the woodshed took less time than telling it takes, and what you were doing was putting them somewhere no man could write them into a ledger with columns. One of them you got there. The others they lifted out of your arms.",
       "sceneTitle": "Schoolteacher",
       "choices": [
         {
           "text": "Speak it aloud",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You walk the kitchen in circles trying to lay it out for a man, going around and around it and never once arriving at the middle.",
           "nextNodeId": "s8"
         },
         {
           "text": "Hide it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You let the newspaper clipping do the talking, and a clipping gives the outside of a thing and gets the inside exactly, permanently wrong.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Your daughter, eighteen, watches everything.",
+      "text": "Eighteen, big as a woman, and she hasn't been past the fence in seven years, not since a boy at Lady Jones's asked her a question about her mother and the sound went out of the world for two full years afterward. She hears everything now. She watches the girl eat. She watches you watching the girl eat. She has decided, without telling you, whose daughter she is going to be.",
       "sceneTitle": "Denver",
       "choices": [
         {
           "text": "Listen to her",
-          "consequence": "You commit to “Listen to her.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You let her finish a sentence for once, and what she says about the woman living in your house is the truest thing spoken in it all year.",
           "nextNodeId": "s9"
         },
         {
           "text": "Push her aside",
-          "consequence": "You commit to “Push her aside.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You wave her off because you are busy being forgiven, and she goes up the stairs and begins making arrangements of her own.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "He cannot stay after he knows.",
+      "text": "He doesn't shout. He says a short thing about what animals do and what women do, and it sits down in the middle of the room and will not get up again. Then he takes his coat off the nail. He'll sleep in the church cellar and drink and think about a tin box that got knocked open. The house is quiet again, and it is the wrong quiet entirely.",
       "sceneTitle": "Paul D Leaves",
       "choices": [
         {
           "text": "Let him go",
-          "consequence": "“Let him go” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You hold the door open and don't say his name, and the not-saying costs you more than any word you have swallowed since the shed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Beg",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go three steps into the yard after him and stop, because you have begged once already in your life and you know what it does to a person.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "She wants more than you can give.",
+      "text": "It starts with sweets. Sugar stirred into water, syrup off the spoon, cane the whole day long. Then it's your attention, every hour, all of it, your voice telling it again. She wants the earrings, the boat, the river, why you left, why you left, why. You explain. You keep on explaining. Your dresses have started hanging off you and hers have started to be too small.",
       "sceneTitle": "Beloved, Greedy",
       "choices": [
         {
           "text": "Set a limit",
-          "consequence": "You commit to “Set a limit.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You say no to one thing, one time, and she puts her fist through a windowpane and then weeps until you take the no back and apologize for it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Give more",
-          "consequence": "“Give more” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You hand over the food and the hours and the story until there is nothing left in that house belonging to you that has not been asked for.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He brings food. He watches the porch.",
+      "text": "He carried you over the river with a baby ten minutes old and has never mentioned it once in eighteen years. Now he comes up with a bucket of blackberries and stands at the gate and cannot get his hand as far as the door, because through the window he hears something he can't name: voices, more than three of them, all talking at the same time in a house holding three women.",
       "sceneTitle": "Stamp Paid",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "“Trust him” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You take the berries and let him say the thing he walked out here to say, and it is about your sons, and it is not good news.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You leave the bucket on the post and let the door stay shut, and a man who has never once taken payment for anything walks home with nothing.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "She leaves the porch for the first time in years.",
+      "text": "She stands on the bottom step a long while. Seven years of that porch being the whole size of the world. Then she puts one foot on the ground and the ground holds, and she goes up the road toward Lady Jones's house to ask a stranger for food, which is the hardest sentence she will ever have to say out loud to anybody. Behind her, in the window, two faces.",
       "sceneTitle": "Denver Walks Out",
       "choices": [
         {
           "text": "Notice",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You see her go and stand with your hand flat on the glass, and something in you says the word out loud: good.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't notice",
-          "consequence": "The decision settles the question for now. Its verdict—Survive—follows you into whatever comes next.",
+          "consequence": "You are being asked a question about a pair of earrings and you do not turn your head, and your daughter leaves the yard with nobody to witness it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Denver studies again. She is, slowly, a woman.",
+      "text": "Lady Jones says oh, baby, and it unties something in her that has been knotted since she was seven years old. After that: rice on the porch rail. Eggs in a pail. A note tucked in a sack of beans with a name on it, because whoever left it wanted to be thanked and wanted to be known. Denver starts writing the names down. She reads again, slowly, her lips moving.",
       "sceneTitle": "Lady Jones",
       "choices": [
         {
           "text": "Be proud",
-          "consequence": "“Be proud” closes one possibility and opens another. The moment leaves a clear note behind: Mother.",
+          "consequence": "You watch your daughter learn to say thank you to strangers, and you understand she is doing the one thing you were never able to do.",
           "nextNodeId": "s14"
         },
         {
           "text": "Be jealous",
-          "consequence": "“Be jealous” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "Some part of you resents that this town would open its hand to her and never once to you, and the resentment sits on your tongue like iron.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "They begin to bring food to the porch.",
+      "text": "It goes around the way these things go around. Thirty women who did not come to this house in eighteen years, who sent no word at all the day the horsemen came up the road, begin leaving food on the stump. Nobody knocks. There's a pot of something every morning and no one to thank for it. Ella starts saying out loud that a dead girl bullying the living is too much.",
       "sceneTitle": "The Town's Women",
       "choices": [
         {
           "text": "Open the door",
-          "consequence": "There is no taking “Open the door” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You carry the food inside and put it out on your own table, which is a kind of forgiveness you had absolutely no intention of granting anybody.",
           "nextNodeId": "s15"
         },
         {
           "text": "Don't",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You leave the pots sitting on the stump until the flies find them, and Denver brings them in herself and does not say one word about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Thirty women sing the spirit out.",
+      "text": "They come up the road at three in the afternoon, thirty of them, some carrying things and some carrying nothing. At first they have no words. They stand in the yard hunting for the right sound, and when they find it, it comes through the floorboards and up your legs. It is the noise from the clearing. It is Baby Suggs's noise, made by the women who buried her.",
       "sceneTitle": "Singing",
       "choices": [
         {
           "text": "Step out with them",
-          "consequence": "You commit to “Step out with them.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You come down off the porch into that sound and it holds you up off the ground, and for one moment you are being carried by a whole town.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay in",
-          "consequence": "There is no taking “Stay in” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You stay behind the doorframe with your hand on the wood, and the singing goes on for you regardless of whether you come out and take it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He arrives in a wagon. You see, briefly, Schoolteacher.",
+      "text": "A wagon comes up the road while the women are singing. White man, black hat, reins held loose, come to collect Denver for the night work. The abolitionist. The one who owns this house. Harmless as bread and always has been. But the hat, and the road, and a horse coming steady for a girl of yours. Your hand finds the ice pick on the table without consulting you at all.",
       "sceneTitle": "Mr. Bodwin",
       "choices": [
         {
           "text": "Move toward him with the ice pick",
-          "consequence": "There is no taking “Move toward him with the ice pick” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You come off that porch straight at him with your arm already rising, and this time it isn't a child of yours you're running toward. It's him.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stop yourself",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "Something catches you at the top of the steps and you stand there shaking with the pick in your fist and thirty women singing all around you.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Denver and the women stop you. Beloved vanishes.",
+      "text": "Denver reaches you first and then all of them at once, a mass of arms and cloth, and the pick goes somewhere into the grass. Somebody is saying your name over and over like it's a rope. And on the porch behind you, where the girl was standing holding her belly and smiling, there is porch. Boards and light. Nobody in the yard sees her go. Everybody in the yard knows she's gone.",
       "sceneTitle": "Stopped",
       "choices": [
         {
           "text": "Sit down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heal.",
+          "consequence": "You let them set you down on the steps, and the pick stays lost in the grass, and you are not carried out of that yard in the back of a wagon.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stand again",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You get your feet under you because standing is what you know how to do, and your legs won't hold, and Denver takes the whole weight of you.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "He sits with you. He says you are your own best thing.",
+      "text": "He comes back to a house with the light gone out of it. You're in Baby Suggs's bed with your face to the window saying the best thing you had is gone, taken, again, twice now. He heats water and washes your face one part at a time, the way somebody did for him once in a place he does not discuss. Then he tells you the count was wrong.",
       "sceneTitle": "Paul D Returns",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heal.",
+          "consequence": "You put the idea in your mouth and try the shape of it, and it does not fit yet, not by a long way, and you keep hold of it anyway.",
           "nextNodeId": "s19"
         },
         {
           "text": "Almost",
-          "consequence": "There is no taking “Almost” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You get most of the way there and stop at the last inch of it, and Paul D says he has time, and turns out to be telling the truth.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "She has a job. She walks home in the evening.",
+      "text": "She works evenings at the Bodwins' and walks home in the dark past houses with people in them, unafraid, in a blue dress she paid for herself. She has thoughts about Oberlin and a teacher who might write on her behalf. A young man walks her as far as the corner and no further, and she has views about that too. She comes in the door talking about a world with other people in it.",
       "sceneTitle": "Denver, Working",
       "choices": [
         {
           "text": "Eat together",
-          "consequence": "“Eat together” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You set down two plates and listen to a whole day of somebody else's news, and it is easily the best hour of your week.",
           "nextNodeId": "s20"
         },
         {
           "text": "Sit on the porch",
-          "consequence": "You commit to “Sit on the porch.” The story records the instinct as “Quiet” and carries it forward.",
+          "consequence": "You sit out with her in the dark where neither of you has to arrange your face for the other, and the talking comes easier for it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The town sends letters of half-apology and half-curiosity.",
+      "text": "They start coming after the singing. Half apology, and not one of them says what for. A woman remembering that Baby Suggs fed her in fifty-five. A man who spends three paragraphs on the weather and then asks, in the last line, what exactly happened in that shed. That's the real letter. That's what all of them are underneath. Denver reads them at the table in a flat voice, sorting as she goes.",
       "sceneTitle": "Letters",
       "choices": [
         {
           "text": "Read them",
-          "consequence": "“Read them” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You go through every one of them, including the cruel one, and you find you can set it down afterward without your hands doing anything.",
           "nextNodeId": "s21"
         },
         {
           "text": "Burn them",
-          "consequence": "You commit to “Burn them.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You feed them into the stove one at a time, and Denver watches you do it, and neither of you ever calls it a mistake.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "And yet, you decide to set it down.",
+      "text": "It is not a story to pass on, and everyone who stood in that yard has agreed, without ever agreeing, to let it go under the water. In a year they'll have mislaid her name. In twenty they won't be certain there was a girl at all. You sit at the table with the paper Denver uses for her lessons, and a pencil, and consider the shape of a first sentence.",
       "sceneTitle": "The Story Will Not Pass On",
       "choices": [
         {
           "text": "Tell it carefully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You set it down slow and in order, the shed included, and it takes you four winters and costs you sleep that never comes back.",
           "nextNodeId": "end_best"
         },
         {
           "text": "Tell it once and stop",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You say the whole of it out loud one time, to one person, in one kitchen, and then you close your mouth on it permanently.",
           "nextNodeId": "end_denver"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You leave the pencil lying where it is. Somebody a long way from this table and this century comes along and picks it up.",
           "nextNodeId": "end_memory"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_best",
-      "text": "You and Paul D, slowly, learn each other again. The porch is, by spring, full of bread and visitors.",
+      "text": "Spring, and Paul D stays, and the staying is unremarkable, which is the point of it. A man's boots by the door. A second cup on the shelf. Arguments about how long to boil a thing. The tin in his chest does not come open all at once; it opens the way a fist does, over months, when nobody is watching. There's bread on the porch some mornings, and women who stop at the gate instead of crossing the road. You tell him the parts in order, and he does not leave the room for any of them.",
       "sceneTitle": "Your Own Best Thing",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_denver",
-      "text": "Denver becomes, in time, a teacher. She moves into town. You visit. You watch her speak to children and feel, finally, a kind of pride that doesn't ache.",
+      "text": "Denver goes to the Bodwins', then to Oberlin on other people's money and her own arithmetic, then to the front of a room with a smoking stove and two dozen children in it. She is good at it. She is patient with the slow ones in a way she learned from years of being talked around and over. You come once a term and watch her explain long division to a boy who will not stay in his chair, and what rises in you is a pride with no ache anywhere in it.",
       "sceneTitle": "Denver's Years",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_memory",
-      "text": "Beloved's name fades from the town's stories. Yours does not. The book gets written. The book gets read. A century later it is, by some readers, a kind of altar.",
+      "text": "The town forgets her the way water closes over a stone. Inside a generation nobody can say the name, and the few who could hold their tongues, and the footprints down by the stream fit whoever puts a foot in them and then are gone by evening. Yours does not go. The book gets written. The book gets read, and read again, in rooms nothing like this kitchen, by people who put a hand flat on the page and sit still awhile afterward. A century out it is, for some of them, a kind of altar.",
       "sceneTitle": "Disremembered",
       "choices": [],
       "isEnding": true,

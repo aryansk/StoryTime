@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You stand on a rooftop. Gordon, below, signals. The bat-light is, in fact, a habit.",
+      "text": "The ledge of the Major Crimes building, twenty-eight floors up, and the wind coming off the river has teeth in it. Below, Gordon throws a switch on a searchlight with a shape cut out of black tape across the lens, and a smear of it lands on the low cloud. It stopped being a signal months ago. It is a standing appointment now, and neither of you has ever said so out loud.",
       "sceneTitle": "Rooftop",
       "choices": [
         {
           "text": "Answer",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Duty.",
+          "consequence": "You drop onto the roof behind him and he does not turn around, because he stopped being startled by that particular arrival eight months ago.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait one more night",
-          "consequence": "“Wait one more night” closes one possibility and opens another. The moment leaves a clear note behind: Patience.",
+          "consequence": "You let the light burn and stay where you are. By morning there are five men in hockey pads and homemade masks bleeding in a parking garage.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A robbery: six clowns, killing each other. The vault is full. The boss is a man named the Joker.",
+      "text": "A mob bank on Fifth. Six men in clown masks go in, and the plan has each of them killing the one beside him the moment his part is finished — a subtraction problem wearing the costume of a robbery. The last one drives a school bus into a line of school buses and is gone. Sixty-eight million missing. Every corpse is masked. Nobody in Gotham has a face for the man who wrote it.",
       "sceneTitle": "The Bank Job",
       "choices": [
         {
           "text": "Track the trail",
-          "consequence": "There is no taking “Track the trail” back. Investigate shapes the silence before the next moment arrives.",
+          "consequence": "You follow the bus into a convoy of identical buses and lose it at the third intersection, so you take a mask off a dead man instead.",
           "nextNodeId": "s3"
         },
         {
           "text": "Confront Joker directly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go hunting a man nobody has ever photographed, which puts your name directly in his path. That was the first thing he actually wanted from you.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Gotham's white knight. He wants to clean up the city. He is, you realize, who you wish you were.",
+      "text": "Harvey Dent indicts five hundred and forty-nine mob affiliates in one morning under a statute everybody assured him would not hold. He does it in daylight, on camera, with his own name on the filing and his address in the phone book. He is doing your work with a briefcase instead of a cape, in front of everyone, and when it is finished he does not have to disappear off a roof.",
       "sceneTitle": "Harvey Dent",
       "choices": [
         {
           "text": "Support him publicly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Strategic.",
+          "consequence": "You put Wayne money and a fundraiser behind him inside a week, and half of Gotham decides the billionaire has finally discovered a hobby with a pulse.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stay distant",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Caution.",
+          "consequence": "You keep your distance and let him build it alone, which means that when it comes apart there is nobody standing near enough to catch him.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Rachel is dating Harvey. You are, in the suit, no good for her. You decide what to do with that knowledge.",
+      "text": "She is with Dent now. You learn this in a restaurant with four chairs and one very long silence, and you handle it by buying out the entire room for the evening. Later she repeats what she has told you for years: the day this city stops needing the mask, she will be there. Both of you hear the conditional sitting in the middle of the sentence. Neither of you touches it.",
       "sceneTitle": "Rachel",
       "choices": [
         {
           "text": "Step back fully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You take yourself out of it entirely and manage about nine days, right up until a letter arrives that you will never actually get around to opening.",
           "nextNodeId": "s5"
         },
         {
           "text": "Be her friend",
-          "consequence": "There is no taking “Be her friend” back. Hopeful shapes the silence before the next moment arrives.",
+          "consequence": "You stay close and useful and pretend that is a different thing from hoping, which costs you both the last honest ground you had left.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The mob bosses meet by video. The Joker, uninvited, joins. He offers them his services. He scares them.",
+      "text": "Maroni, Gambol and the Chechen meet over a video link to a Chinese accountant, with a hundred armed men in the building. Then a man in a purple coat walks in without knocking, drives a pencil into the table, and makes it disappear. He wants half. He tells them the accountant is the only real problem they have — and he is right, and being right is the part that frightens them.",
       "sceneTitle": "Mob Bosses",
       "choices": [
         {
           "text": "Identify the mob's allies",
-          "consequence": "“Identify the mob's allies” closes one possibility and opens another. The moment leaves a clear note behind: Investigate.",
+          "consequence": "You start with the money instead: three banks, a shipping line, and a judge who takes certain calls on a second phone. It takes eleven days.",
           "nextNodeId": "s6"
         },
         {
           "text": "Identify the Joker first",
-          "consequence": "You commit to “Identify the Joker first.” The story records the instinct as “Priority” and carries it forward.",
+          "consequence": "You have prints, fibres and DNA lifted off a playing card. They come back matched to three separate people, every one of them dead or missing.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "An accountant named Lau has fled to Hong Kong with mob money. You bring him back.",
+      "text": "Lau moves the mob's liquid assets and himself to Hong Kong in a single afternoon, into a tower with a private security floor and an extradition treaty working in his favour. Fox books the flight and asks nothing out loud. The building has exactly one weakness: it is extremely tall, and the sky over Hong Kong at three in the morning belongs to whoever is prepared to be up in it.",
       "sceneTitle": "Lau",
       "choices": [
         {
           "text": "Quietly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stealth.",
+          "consequence": "You drop the cell towers, ride a cargo plane's skyhook off the roof, and Lau is in a Gotham holding cell before his own people file a report.",
           "nextNodeId": "s7"
         },
         {
           "text": "Loudly",
-          "consequence": "There is no taking “Loudly” back. Statement shapes the silence before the next moment arrives.",
+          "consequence": "You come out through the glass with him across your shoulder and every screen in Asia has the footage by breakfast. Extradition becomes somebody else's problem entirely.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Dent announces he is Batman to draw Joker out. He isn't. You realize Dent is, in his way, you in a suit.",
+      "text": "The terms run on the front page of the Gotham Times: somebody dies every day until the man in the mask takes it off. At the press conference you are twenty feet from the podium in a good suit, ready to end it — and Dent steps to the microphone, says the name is his, and holds out his wrists for the cuffs. He is lying in public to protect you, and it works.",
       "sceneTitle": "Dent's Press Conference",
       "choices": [
         {
           "text": "Let it happen",
-          "consequence": "“Let it happen” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You let him take the handcuffs and the headline, and stand in the crowd applauding a man walking into a trap you supplied the bait for.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stop him",
-          "consequence": "The decision settles the question for now. Its verdict—Protect—follows you into whatever comes next.",
+          "consequence": "You start toward the podium and Rachel gets a hand flat on your arm, and by the time you are past her the cuffs are already closed.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "A trap. Dent in transit. The Joker attacks the convoy.",
+      "text": "Lower Fifth, the tunnel sealed, a prisoner transport running under escort with Dent locked in the back. A garbage truck comes across the median. Then an eighteen-wheeler with a slogan sprayed down the side, then a rocket launcher, then a man hanging out of the cab firing into squad cars purely for the noise it makes. The Tumbler goes under the trailer and comes apart, and something smaller climbs out.",
       "sceneTitle": "Joker Captures",
       "choices": [
         {
           "text": "Save Dent",
-          "consequence": "The decision settles the question for now. Its verdict—Mission—follows you into whatever comes next.",
+          "consequence": "You put the transport between the truck and the river and drive it clear of the tunnel with the rear doors welded shut. Dent walks away intact.",
           "nextNodeId": "s9"
         },
         {
           "text": "Capture Joker",
-          "consequence": "“Capture Joker” closes one possibility and opens another. The moment leaves a clear note behind: Goal.",
+          "consequence": "You take the semi over onto its roof at fifty miles an hour. Gordon comes out of the smoke alive, and the man in the paint will not stop laughing.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Joker in a chair. You hit him. He laughs. You realize hitting him is, in fact, the thing he wants.",
+      "text": "An interview room with the cameras off and the lawyer not called, and Gordon turns the lights all the way up and walks out. You put him into the wall and then through the table. He gets up. He explains, patiently, the only arrangement under which either of you makes sense. Then, with the timing of a professional, he mentions there are two addresses, and that one of them has Rachel in it.",
       "sceneTitle": "Interrogation",
       "choices": [
         {
           "text": "Stop hitting",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You let go and step back, and he straightens his collar and hands over both addresses. The pause costs you nothing except a certain amount of pride.",
           "nextNodeId": "s10"
         },
         {
           "text": "Keep going",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Anger.",
+          "consequence": "You keep going until the glass in the door flexes in its frame. He gives you the addresses through blood, laughing, and you have burned four minutes.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Rachel and Dent are each held in a building rigged to explode. You can save one.",
+      "text": "Two warehouses on opposite banks of the river. Two people cable-tied to chairs among drums of diesel, two timers running the same count down from the same number. Gordon takes half the department to one. You take the other. The drive is eleven minutes if the bridges cooperate, and there is no arrangement of the next quarter hour in which both of those buildings still holds somebody alive.",
       "sceneTitle": "Two Locations",
       "choices": [
         {
           "text": "Choose Rachel",
-          "consequence": "There is no taking “Choose Rachel” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You say her address out loud in the tunnel and mean it with everything in you, and go north with the throttle held wide open.",
           "nextNodeId": "s11"
         },
         {
           "text": "Choose Dent",
-          "consequence": "You commit to “Choose Dent.” The story records the instinct as “Mission” and carries it forward.",
+          "consequence": "You pick the man this city needs over the woman you want, and what appals you is how fast the arithmetic arrived, and how clean it was.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The Joker lied about the addresses. You arrive at the one with Dent. Rachel dies.",
+      "text": "You come in through the roof into diesel fumes and find Dent in the chair, not Rachel, with a phone taped to the drum beside him. The addresses were reversed. On the open line you can hear her voice, steady, saying goodbye to somebody who is not you, and then the count on her side of the river runs out while you are still cutting Dent's restraints.",
       "sceneTitle": "The Wrong Door",
       "choices": [
         {
           "text": "Tell Dent it was an accident",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Lie.",
+          "consequence": "You drag him out through the fireball and let him believe it was chance. It buys him about an hour and buys you nothing whatsoever.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tell him the truth",
-          "consequence": "“Tell him the truth” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You tell him a choice was made and who made it. The whole left side of his face is already gone by the time he answers.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Dent burns. Dent breaks. Dent becomes Two-Face. The white knight is gone.",
+      "text": "Half of him burned down to the bone, and he refuses morphine, because the pain is now the only thing in the room he trusts to be honest. On the bedside table sits a coin, scorched black on one face and mirror-clean on the other. When Gordon comes to apologise, Dent asks him for the names of every officer in his unit. Gordon gives them. He cannot think of a reason not to.",
       "sceneTitle": "Two-Face",
       "choices": [
         {
           "text": "Save what you can of him",
-          "consequence": "The decision settles the question for now. Its verdict—Save—follows you into whatever comes next.",
+          "consequence": "You leave the hospital an anonymous fund and a specialist flown in from Zurich. He refuses every appointment they book and signs himself out on the sixth day.",
           "nextNodeId": "s13"
         },
         {
           "text": "Mourn him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You stand at the foot of the bed and understand the man you built Gotham's future on is already gone. The body sticks around another week.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "An accountant threatens to reveal your identity. Joker says, if Reese isn't killed in an hour, a hospital explodes.",
+      "text": "A junior partner at your own law firm works out who owns the tank, and books himself onto a morning talk show to say the name on air. Then a phone call reaches the studio: if Coleman Reese is still breathing in sixty minutes, a hospital comes down. Now every driver in Gotham is running arithmetic on one man's life, and the network is helpfully displaying the clock in the corner.",
       "sceneTitle": "Coleman Reese",
       "choices": [
         {
           "text": "Protect Reese",
-          "consequence": "“Protect Reese” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You put Gordon's people around a man who was about to sell you out, and pull him out of a wrecked truck yourself on Second Avenue.",
           "nextNodeId": "s14"
         },
         {
           "text": "Let him reveal you",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You spend four seconds considering letting him say it and having all of this over before lunch, and those four seconds stay with you for years.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Joker, in a nurse's uniform, walks the wards. He finds Dent. He turns him.",
+      "text": "Gotham General is moving three hundred patients out through a car park when a man in a nurse's uniform walks the burns ward unchallenged, wig crooked, badge upside down. He sits on the edge of Dent's bed and offers him a gun and an argument: nobody panics when the horror is on schedule, so the only honest thing left in the world is chance. Then he leaves, and the building comes down behind him.",
       "sceneTitle": "Hospital",
       "choices": [
         {
           "text": "Get there first",
-          "consequence": "You commit to “Get there first.” The story records the instinct as “Speed” and carries it forward.",
+          "consequence": "You reach the burns ward eleven minutes after the bed is empty, and find the wig on the floor and both restraints cut clean through.",
           "nextNodeId": "s15"
         },
         {
           "text": "Catch Joker at the door",
-          "consequence": "The decision settles the question for now. Its verdict—Trap—follows you into whatever comes next.",
+          "consequence": "You take the east stairwell and miss him by a single landing, and the charges start going floor by floor while you are still descending.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Two ferries, one of civilians, one of prisoners. Each has the other's detonator.",
+      "text": "Two ferries stalled mid-harbour, engines dead, fuel drained. Every deck stacked with drums, and a detonator in a canvas bag on each bridge — his for theirs, theirs for his. Midnight, and whichever boat presses first is the boat that goes home. Three hundred and eighty passengers on one. On the other, four hundred men in orange with less to lose and considerably more practice at this kind of decision.",
       "sceneTitle": "Two Ferries",
       "choices": [
         {
           "text": "Wait for them to decide",
-          "consequence": "The decision settles the question for now. Its verdict—Trust—follows you into whatever comes next.",
+          "consequence": "You leave them the choice, which means standing on a roof with empty hands and eleven minutes on the clock, believing in four hundred strangers.",
           "nextNodeId": "s16"
         },
         {
           "text": "Disable the bombs yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Action.",
+          "consequence": "You start working the harbour instead, which spends your last hour and would still leave one boat fully wired if you read the wrong wiring diagram.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Neither boat presses the button. Joker is, briefly, surprised. He decides to do it himself.",
+      "text": "A man on the civilian deck calls a vote, wins it comfortably, and then cannot make his own hand close on the switch. On the prison boat a convict asks for the detonator, is handed it, and throws it out of the window into the harbour without a word. Midnight goes past. Two boats full of people who did not do it. Above the water, somebody decides he will simply do it himself.",
       "sceneTitle": "They Choose",
       "choices": [
         {
           "text": "Stop him fast",
-          "consequence": "You commit to “Stop him fast.” The story records the instinct as “Race” and carries it forward.",
+          "consequence": "You put him through a window and off the ledge inside eleven seconds, and the thumb comes off the trigger somewhere around the fortieth floor.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stop him slow",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Style.",
+          "consequence": "You take your time and let him talk, and every extra sentence is another three hundred people sitting very still on a deck full of diesel.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You use Lucius' city-wide phone sonar to find Joker. The technology is, in its way, monstrous.",
+      "text": "Thirty million phones in this city, every one of them a microphone, and Fox has built the machine that folds all of them into a single moving image of Gotham. It works perfectly. It is the most useful object you have ever held and the least defensible. Fox tells you he resigns the morning it stays switched on, and he means it, and then he types his own name into it anyway.",
       "sceneTitle": "Sonar",
       "choices": [
         {
           "text": "Use it once",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Compromise.",
+          "consequence": "You use it to find one man in one building and nothing else, and the console burns itself out under Fox's hands as he types his name.",
           "nextNodeId": "s18"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Principle.",
+          "consequence": "You leave the machine dark and go in with floor plans and a thermal scope, which costs four minutes and very nearly costs two hostages their lives.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Top of a building. SWAT and Joker. You save the SWAT, you take the Joker.",
+      "text": "The unfinished Prewitt Building: fifty floors of bare concrete and hanging plastic. Hostages dressed as clowns, gunmen dressed as hostages, and a SWAT team coming up the stairwell about to shoot the wrong people in the dark. Dogs come off their leads. You go through a window with a man under each arm, and then it is rebar and open ledge and the two of you, and he is not fighting to win.",
       "sceneTitle": "Final Fight",
       "choices": [
         {
           "text": "Don't kill him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vow.",
+          "consequence": "You catch him mid-fall on a line and leave him hanging upside down over Gotham, laughing, alive, and entirely certain he has already beaten you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Disable him brutally",
-          "consequence": "You commit to “Disable him brutally.” The story records the instinct as “Anger” and carries it forward.",
+          "consequence": "You break his arm in two places and pin him flat to the deck, and he thanks you for it, and that is the part that stays.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Two-Face has, in his last hours, killed five men. He has hostage Gordon's family on a rooftop.",
+      "text": "While you were out on that ledge, Dent worked through a list: two of Maroni's men, a driver, a detective who took money, and Maroni himself off an overpass at speed. Now he is on the roof of the burned-out warehouse with Gordon's wife, daughter and son, flipping a scorched coin for each of them in turn and honouring whatever it says. He starts with Gordon. Then he turns to the boy.",
       "sceneTitle": "Dent's Body Count",
       "choices": [
         {
           "text": "Take the fall for Dent's crimes",
-          "consequence": "There is no taking “Take the fall for Dent's crimes” back. Hero shapes the silence before the next moment arrives.",
+          "consequence": "You take him off the roof and take his five murders with him, handing this city a dead hero instead of a living argument for despair.",
           "nextNodeId": "s20"
         },
         {
           "text": "Tell the truth",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You weigh telling Gotham everything and watching five hundred and forty-nine convictions unravel, and every one of those men walking back onto the street.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Dent dies. Gordon's son lives. You tell Gordon to call you a villain. He does.",
+      "text": "You take Dent off the boy and both of you go over the edge, and only one of you gets back up. Gordon is on his knees in the gravel with his son alive against his chest, working out what the morning looks like. You tell him exactly what to say: the coin, the five bodies, the manhunt. He argues for a while. Then he stands up and goes to find a radio.",
       "sceneTitle": "The Rooftop",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Sacrifice.",
+          "consequence": "You are moving before the first siren clears the corner, because a manhunt only works properly if the man being hunted is genuinely running.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stand",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You give it ten more seconds on that roof, watching Gordon decide he can carry it. The first patrol car is already turning into the lot.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The bat-signal is, by morning, broken. You ride into the dawn. You are, in this story, the villain Gotham needs.",
+      "text": "Gordon takes an axe to the signal on the roof with his own men standing there watching, because the story requires it broken. Down in the lot a hundred officers and a dozen dogs are sweeping for a man in a mask. You take the stairs, then the ramp, then the bike out into a grey Gotham sunrise, and behind you the city wakes up with a clean hero and a name to hunt.",
       "sceneTitle": "Sunrise",
       "choices": [
         {
           "text": "Stay the villain",
-          "consequence": "There is no taking “Stay the villain” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You take the manhunt and keep it, which means every siren in this city for the next eight years is nominally about you.",
           "nextNodeId": "end_villain"
         },
         {
           "text": "Plan to come back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hope.",
+          "consequence": "You start assembling the file — Dent's list, the tapes, the coin — and seal it in a vault against a year Gotham can survive reading it.",
           "nextNodeId": "end_clean"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You ride until the lot is out of sight, then stop on an overpass and sit with the engine off until it is properly light.",
           "nextNodeId": "end_silence"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_villain",
-      "text": "You ride alone for years. The myth grows. Eventually, when the city needs you again, you return. The signal, restored, finds you on the same rooftop.",
+      "text": "You ride alone for years and the myth does the work for you. Mothers in the Narrows use your name to get children indoors after dark; the numbers in every precinct fall for reasons nobody at City Hall will write down on paper. The Dent Act puts a thousand men away on a lie you personally signed off. And when Gotham needs you again it will not ask politely, it will simply get loud enough to reach the rooftop, and the rooftop is still there.",
       "sceneTitle": "The Dark Knight",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_clean",
-      "text": "Years later, when Gotham is stronger, you reveal what Dent did. Gotham survives the revelation. You retire. Wayne Manor, restored, becomes a children's home.",
+      "text": "You wait until Gotham is strong enough to carry the weight, and then you let all of it out — the coin, the five bodies, eight years of legislation built on the worst night of a burned man's life. The city holds. There are hearings, one very bad month, and then, astonishingly, ordinary Tuesdays. You retire the suit properly, in daylight. Wayne Manor is rebuilt as a home for children with nowhere else to go, and the name finally means something you can say aloud.",
       "sceneTitle": "The Truth, Eventually",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_silence",
-      "text": "You disappear. The signal is dismantled. You let the city heal without you. Lucius, alone in the bunker, archives the suit. You build, instead, a foundation.",
+      "text": "You vanish completely and let the rumour go cold. Gordon has the signal taken off the roof and sold for the metal in it. Fox walks the bunker one last time, powers down every screen in sequence, and crates the suit with no label on the box. What Gotham gets instead is a foundation with a deliberately boring name that funds clinics, schools and legal aid and never once says who is paying. The city heals slowly, and has nobody to thank.",
       "sceneTitle": "Silent Bat",
       "choices": [],
       "isEnding": true,

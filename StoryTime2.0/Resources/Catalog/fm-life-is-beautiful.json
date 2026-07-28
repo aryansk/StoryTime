@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A borrowed car, a salute, a stranger waving a crowd off the road.",
+      "text": "The brakes go on a hill outside Arezzo and you come down the road with one hand out of the window, waving people aside. The crowd is waiting for a royal car. Four hundred of them take your flapping arm for a salute and salute back, and you steer through the whole town being cheered by mistake.",
       "sceneTitle": "Brakes on the Hill",
       "choices": [
         {
           "text": "Wave back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit, both arms, all the way through the square, and a brass band strikes up for a Fiat with no brakes.",
           "nextNodeId": "s2"
         },
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You shout that the brakes are gone, in Italian, at speed, and everybody waves harder because nobody can hear you.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Buongiorno, Principessa, into her arms.",
+      "text": "A woman falls out of a hay barn window and you are, for reasons of pure arithmetic, directly underneath. She lands in your arms. There is straw in her hair and a wasp sting on her leg and she is furious with the sky. Buongiorno, Principessa, you say, because nothing better is available.",
       "sceneTitle": "Falling from a Window",
       "choices": [
         {
           "text": "Ask her name",
-          "consequence": "There is no taking “Ask her name” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You ask, she does not answer, and you spend the following four months arranging coincidences all over one small town.",
           "nextNodeId": "s3"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Shy.",
+          "consequence": "You set her down, bow, and go before she can ask your name, which means inventing a reason to meet her again.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "She is promised to a fascist clerk in a stiff collar.",
+      "text": "The engagement dinner is at the theater and the fiancé is a municipal clerk who has ironed his collar into a weapon. He talks about paperwork with enormous confidence. Dora sits beside him under a chandelier, being congratulated, in a dress she did not choose, glancing at the door roughly once a minute.",
       "sceneTitle": "Theater of the Engagement",
       "choices": [
         {
           "text": "Crash the dinner",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Bold.",
+          "consequence": "You arrive as a waiter, serve the wrong table on purpose, and hold an entire conversation with her using only eyebrows.",
           "nextNodeId": "s4"
         },
         {
           "text": "Wait outside",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You wait by the stage door in the rain rehearsing one sentence, and by the time she comes out you have thrown every version away.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A racehorse painted by night with a slur on its flank.",
+      "text": "Uncle Eliseo's horse comes back from the field green and pink, with a word painted along its ribs in letters a metre tall. Your uncle looks at it a while without saying anything. Then he says the horse will need a wash, fetches two buckets, and does not discuss the letters at all.",
       "sceneTitle": "Pink Horse",
       "choices": [
         {
           "text": "Wash it off",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You scrub for two hours in the dark beside a man who will not let you say the word out loud, not even once.",
           "nextNodeId": "s5"
         },
         {
           "text": "Ride it past the dinner",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wild.",
+          "consequence": "You take a pink horse into a chandeliered ballroom, put a woman on it behind you, and ride out through her own engagement party.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A library job that lets you smell her hair as you reshelve.",
+      "text": "The reading room has ladders on rails and Dora at the desk stamping return cards. You have arranged to be the man who shelves the upper gallery. Six shelves up, four along, and every twenty minutes a fresh reason to come down and ask her about the filing system, which you memorized in March.",
       "sceneTitle": "Books on Shelves",
       "choices": [
         {
           "text": "Linger",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You take forty minutes over a job that needs six, and she allows it, and stamps the same card twice without noticing.",
           "nextNodeId": "s6"
         },
         {
           "text": "Work fast",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You clear the whole upper gallery in an hour to impress her. She is impressed. You now have no reason left to stay.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A small boy on a kitchen floor with a wooden tank.",
+      "text": "Joshua is five and owns one wooden tank, which he drives across the kitchen tiles making the engine noise himself. He wants to know why the sky is up. He asks four questions before breakfast and expects real answers, and you have decided to give him real answers for as long as that is possible.",
       "sceneTitle": "Joshua Born",
       "choices": [
         {
           "text": "Build a city for him",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You build a city out of chairs and a tablecloth and drive the tank straight through it, and open the shop an hour late.",
           "nextNodeId": "s7"
         },
         {
           "text": "Read a paper",
-          "consequence": "“Read a paper” closes one possibility and opens another. The moment leaves a clear note behind: Tired.",
+          "consequence": "You open the newspaper and manage one column while he drives the tank up the outside of it until you fold it away.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Words on the window of the bookshop you opened.",
+      "text": "Somebody has painted across the bookshop window in the night. Joshua reads it aloud, slowly, because he is learning to read and the letters are large. Then he asks what it means. Dora is behind you with the shopping. You have about two seconds to decide what kind of morning this is going to be.",
       "sceneTitle": "Storefront Painted",
       "choices": [
         {
           "text": "Wash them",
-          "consequence": "You commit to “Wash them.” The story records the instinct as “Calm” and carries it forward.",
+          "consequence": "You tell him it is a joke by somebody with terrible handwriting, and wash the window down while he holds the bucket.",
           "nextNodeId": "s8"
         },
         {
           "text": "Argue",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You start up the street to find out who did it, and get to the corner, and turn back, because he is watching from the door.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A platform, a list, a uniform's calm hand.",
+      "text": "They come for you on Joshua's birthday, which is a detail he will not understand for many years. The platform is orderly. A hand directs you toward a cattle car with the calm of a man working through paperwork. Joshua is holding your sleeve and asking, in a completely normal voice, where the seats are.",
       "sceneTitle": "Train",
       "choices": [
         {
           "text": "Get on",
-          "consequence": "You commit to “Get on.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You lift him up into the car yourself and make it look like a treat, and your face holds, and your hands do not.",
           "nextNodeId": "s9"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Doomed shapes the silence before the next moment arrives.",
+          "consequence": "You begin to say something to the man with the list. Joshua looks up at you. You stop, and step forward instead.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A thousand points for the first prize, you tell the boy. A real tank.",
+      "text": "You explain the rules on the way in, fast, before he can ask anything else. It is a competition. First prize is a real tank. There are a thousand points available. You lose points for crying, for asking about your mother, and for saying you are hungry. He asks whether the tank is new or used.",
       "sceneTitle": "Game",
       "choices": [
         {
           "text": "Sell it",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You sell the game the way you used to sell books, with your whole body, and he buys it, because you are his father.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell him the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You crouch down and start on the real thing, and get four words out, and hear what those four words sound like.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A guard speaks rules and you invent them all again for Joshua.",
+      "text": "The guard shouts the rules in German for four minutes and you translate for the room. Your German is worse than your Italian and your Italian is a comedian's. So the rules become: no asking for sweets, no whining about your mother, and absolutely nobody is allowed to eat all the jam. Joshua nods gravely at each one.",
       "sceneTitle": "German Translation",
       "choices": [
         {
           "text": "Translate playfully",
-          "consequence": "You commit to “Translate playfully.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You take a set of shouted orders and hand back a set of house rules, and every adult in that room understands exactly what you are doing.",
           "nextNodeId": "s11"
         },
         {
           "text": "Translate honestly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You begin rendering it accurately, get one sentence out, catch Joshua watching your mouth, and change direction in the middle of a word.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "An old riddler from your waiter days, now at the camp in a uniform.",
+      "text": "Doctor Lessing used to sit at table four and trade riddles with you over the soup. He is here, in uniform, and he knows your face across a corridor, and he arranges for you to wait tables at their dinner. You are certain he means to help you. He has been saving a question for weeks.",
       "sceneTitle": "Doctor Lessing",
       "choices": [
         {
           "text": "Ask for help",
-          "consequence": "You commit to “Ask for help.” The story records the instinct as “Hope” and carries it forward.",
+          "consequence": "You get four seconds alone with him and spend them on your son's name, and he leans in with a riddle about a duckling.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You keep your eyes on the tray and serve him like a stranger, and he watches you the entire length of the table.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A scrap of bread saved in a sleeve for a boy under a bunk.",
+      "text": "You eat half. The other half goes up your sleeve, folded small, and stays there through the count and the walk back. Under the bunk, Joshua takes it and asks how many points that is worth. You tell him forty. You have been inventing the scoreboard for six weeks and have never once written it down.",
       "sceneTitle": "Soup Line",
       "choices": [
         {
           "text": "Hide it",
-          "consequence": "“Hide it” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You go hungry and file it under strategy, and he believes the strategy, which is the only part of this you still control.",
           "nextNodeId": "s13"
         },
         {
           "text": "Eat it",
-          "consequence": "There is no taking “Eat it” back. Hungry shapes the silence before the next moment arrives.",
+          "consequence": "You eat the whole ration because your hands are shaking, then lie about the scoreboard that night to make up the difference.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A microphone in an office and a message you send across the camp.",
+      "text": "There is a microphone on a desk in an unlocked office and a guard walking away down the corridor. You have perhaps twenty seconds. You put your mouth to it and say good morning, Principessa, into a camp of several thousand people, so that one woman on the other side of the wire knows you are both still here.",
       "sceneTitle": "Loudspeaker Trick",
       "choices": [
         {
           "text": "Speak loud",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You get Joshua to the microphone as well and he says one sentence about his knees, and it costs the pair of you more than you know.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay quiet",
-          "consequence": "There is no taking “Stay quiet” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You lift the microphone, look down the corridor, set it back on the desk, and spend the rest of the week regretting it.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Another boy, a German child, on the wrong side of a window.",
+      "text": "A German boy about Joshua's height is on the far side of the officers' window, bored, breathing on the glass and drawing in it. Joshua draws back. Neither of them can read the other's rules. They play the same game for six minutes, and then somebody calls the other boy away to lunch.",
       "sceneTitle": "Joshua's Friend",
       "choices": [
         {
           "text": "Encourage friendship",
-          "consequence": "“Encourage friendship” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You let him keep drawing on the glass, because for six minutes your son is simply a boy at a window and nothing else.",
           "nextNodeId": "s15"
         },
         {
           "text": "Discourage it",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You take his hand off the glass and steer him away, and he asks why, and you have no version of why that he can hear.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Dora across the wire and a song carried on a record over a courtyard.",
+      "text": "The gramophone is in the office you cleaned yesterday and the horn faces the yard. You set the needle down on the record from the opera, the one from the night everything started, and turn the horn toward the women's side. Somewhere over there, Dora stops walking. That is the entire message and it is enough.",
       "sceneTitle": "Mother's Side",
       "choices": [
         {
           "text": "Play their song",
-          "consequence": "You commit to “Play their song.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You put a needle on a record in a place like this and hand a woman four bars of Offenbach across a wire fence.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You leave the gramophone where it stands and go back with empty hands, and you file that under caution rather than cowardice.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A door marked DOCCIA and a line of small hands.",
+      "text": "The children are being taken to wash. There is a queue, and a sign on the door, and small hands holding other small hands. Joshua has hated showers since he was three, and today, for the first time in his life, you do not correct him about it. You have one move and roughly a minute.",
       "sceneTitle": "Bath Sign",
       "choices": [
         {
           "text": "Hide Joshua",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You tell him that hiding is worth sixty points and put him in behind the bunks, and he goes, because it is a game.",
           "nextNodeId": "s17"
         },
         {
           "text": "Walk in",
-          "consequence": "“Walk in” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You start toward the door with him and your legs stop working, and you turn him around and call it a change of plan.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Trucks pulling away in the night and a sound like a country leaving.",
+      "text": "Engines all night. Doors, boots, orders shouted at nobody in particular. By four in the morning half the guards are gone and the ones left are burning paper in the yard. Nobody in the barracks says the word out loud. The man in the next bunk has been holding the same spoon for an hour.",
       "sceneTitle": "Liberation Rumor",
       "choices": [
         {
           "text": "Move now",
-          "consequence": "You commit to “Move now.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You get up while it is still dark, because whatever is happening out there will be finished by daylight, one way or the other.",
           "nextNodeId": "s18"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You lie still and listen and let two more hours pass, and every one of those minutes is something you will count later.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A cabinet of supplies and a place for Joshua to wait while the camp dies.",
+      "text": "There is a green metal cabinet against the wall with its door half off. You put him inside and tell him the final round has started and the rules are: stay in, make no sound, come out only when everyone has gone. Whoever holds out longest wins the tank. He asks whether you are playing too.",
       "sceneTitle": "Lockup Box",
       "choices": [
         {
           "text": "Hide him",
-          "consequence": "You commit to “Hide him.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You say yes, of course you are playing, and shut the cabinet door, and stand there four seconds longer than you should.",
           "nextNodeId": "s19"
         },
         {
           "text": "Take him",
-          "consequence": "“Take him” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You reach in to lift him out and stop with your hands on him, doing arithmetic no father should ever have to do.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A women's barracks and a coat too small.",
+      "text": "You put on a woman's coat that reaches your elbows and go looking on the other side. The barracks are empty and the bunks are stripped. On a nail beside the door there is a comb. You go through four buildings calling her name at the volume of a man who is not calling a name.",
       "sceneTitle": "Search for Dora",
       "choices": [
         {
           "text": "Search",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You keep going building by building well past the point of sense, because she is somewhere in this and you have a coat.",
           "nextNodeId": "s20"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You turn back toward the cabinet with her comb in your pocket, telling yourself you will find her in an hour, in daylight.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Boots on cobbles and a goose-step you turn into a clown's step for the boy in the box.",
+      "text": "A sentry has you by the arm and there is a wall at the end of the lane. The cabinet is four metres behind you with its door open a crack, and Joshua is watching. So you go past him doing an enormous ridiculous march, knees up, chin out, arms swinging, all the way to the corner.",
       "sceneTitle": "Past a Sentry",
       "choices": [
         {
           "text": "Wink at him",
-          "consequence": "You commit to “Wink at him.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You get one wink in, sideways, without turning your head, and it is the last thing you give him, and it lands.",
           "nextNodeId": "s21"
         },
         {
           "text": "Look straight ahead",
-          "consequence": "There is no taking “Look straight ahead” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You keep your eyes forward and let the walk carry all of it, so that he never sees your face change at the corner.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Dawn, dust, an American crewman with a friendly hand offered down.",
+      "text": "Morning. The yard is empty, the gate stands open, and a noise is coming up the road that is bigger than a truck. Joshua pushes the cabinet door open and steps out into the light on his own, and a Sherman comes around the corner of the wall and stops directly in front of him.",
       "sceneTitle": "Tank in the Yard",
       "choices": [
         {
           "text": "Climb up",
-          "consequence": "There is no taking “Climb up” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "A grinning soldier from Ohio hauls him up onto the hull, and he has won, and the scoreboard was always real to him.",
           "nextNodeId": "end_won"
         },
         {
           "text": "Look for mother first",
-          "consequence": "There is no taking “Look for mother first” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "He asks the crewman about his mother before he asks about the tank, in Italian, to a man who understands neither.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a way to tell this that starts years later, at a kitchen table, in the voice of a man who was five.",
           "nextNodeId": "end_paint"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_won",
-      "text": "Joshua wins his prize, a real tank, an American boy lifting him up. Dora finds him in a market three days later and they go home.",
+      "text": "A thousand points. He rides out of the gate on top of a tank with both hands on the hatch, shouting that he won, and the crew has no idea what he is talking about and lets him shout anyway. Three days later, on a road full of people walking in both directions, Dora sees a boy on a stranger's shoulders. He tells her about the game the whole way home. He tells her he won.",
       "sceneTitle": "A Thousand Points",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "A waiter, a bookseller, a father turning a hard year into a game his son will tell his own children about, hand on a kitchen table.",
+      "text": "A waiter who could balance nine plates. A bookseller nobody would let sell books. A man who took the worst year there has ever been and handed his son a game with rules in it. Years later Joshua sits at a kitchen table with his own children and begins the story the way you would have begun it — with a hill, a car with no brakes, and a woman falling out of a window.",
       "sceneTitle": "Buongiorno, Principessa",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_paint",
-      "text": "Joshua paints the pink horse the same color his father did, and rides it through Arezzo at a parade, and people cry without knowing why.",
+      "text": "He is nineteen when he paints a horse pink for a festival in Arezzo and refuses to explain why to anybody, including his mother, who does not ask. He rides it down the main street at the head of a parade with his back straight. Old men along the route take their hats off and could not tell you what for. Somewhere behind him a brass band is playing badly and much too fast.",
       "sceneTitle": "Pink Horse, Again",
       "choices": [],
       "isEnding": true,

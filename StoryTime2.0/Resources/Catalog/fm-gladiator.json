@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Wheat in your fingers, and a German emissary's head in the snow.",
+      "text": "Frost on the wheat stubble, and you walk the line rubbing grain between your fingers because it steadies your hands. Down the slope, the German emissary's head lies where they threw it, mouth open. Behind you, four thousand men stand in the trees with their spears grounded, breathing steam. Quintus asks whether you want the archers fired first or the catapults. The horns have not sounded yet.",
       "sceneTitle": "Germania, Dawn",
       "choices": [
         {
           "text": "Send a final offer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You send one rider forward under a branch of truce, and the Germans answer by shooting him out of the saddle in front of both armies.",
           "nextNodeId": "s2"
         },
         {
           "text": "Order the catapults",
-          "consequence": "You commit to “Order the catapults.” The story records the instinct as “Soldier” and carries it forward.",
+          "consequence": "You give the word and the treeline lights up with burning pitch, and the forest ahead of you starts screaming before the infantry has moved.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "The old emperor offers you Rome until his son returns.",
+      "text": "The tent smells of smoke and old man. Marcus Aurelius pours you wine with hands that shake and asks how many years since you saw your farm. Five, you tell him. He says the Republic was a good idea once and Rome has forgotten it, and that he wants you to hold the empire in trust until it can be handed back to the Senate. Outside, someone is grinding blades.",
       "sceneTitle": "Aurelius' Tent",
       "choices": [
         {
           "text": "Accept the burden",
-          "consequence": "You commit to “Accept the burden.” The story records the instinct as “Duty” and carries it forward.",
+          "consequence": "You take the old man's hands and say yes, and by saying it you sign the death warrant of a wife you have not seen in five years.",
           "nextNodeId": "s3"
         },
         {
           "text": "Ask to go home",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You ask for the road home, the horses, the harvest, and he smiles and does not release you, and the offer stays lying there between you.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "He embraces his father a little too long. His father does not breathe again.",
+      "text": "Commodus comes in still wearing his riding cloak, told nothing, expecting everything. He kneels for his father's blessing. The embrace goes on too long — long enough that you count it — and when the son stands, the old man is folded sideways in the chair with his mouth slack. Commodus turns around with wet eyes and asks you to be the first to grieve with him.",
       "sceneTitle": "Commodus",
       "choices": [
         {
           "text": "Confront him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bold.",
+          "consequence": "You say the word father in the wrong tense and watch his face reset, and by nightfall your name is on a list held by men with short swords.",
           "nextNodeId": "s4"
         },
         {
           "text": "Bide your time",
-          "consequence": "There is no taking “Bide your time” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You bow, you say nothing, you leave the tent walking evenly, and he watches you all the way to the flap and understands you anyway.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Soldiers loyal to a name you do not say. Your wife and son already two days ahead.",
+      "text": "They take you at first light in a clearing east of camp — Praetorians, not legionaries, city men in clean cloaks. One of them apologises. They cut your hands loose from the ropes only because a corpse is easier to carry unbound, and they tell you your family went ahead of you two days ago on the road south. Your sword is in the dirt three paces to your left.",
       "sceneTitle": "Praetorians at Dawn",
       "choices": [
         {
           "text": "Fight",
-          "consequence": "You commit to “Fight.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You get to the sword and four of them do not go home. It costs you a shoulder wound that will still ache in the arena a year from now.",
           "nextNodeId": "s5"
         },
         {
           "text": "Ride",
-          "consequence": "You commit to “Ride.” The story records the instinct as “Desperate” and carries it forward.",
+          "consequence": "You take a horse and ride south with your arm open to the bone, killing nothing, buying hours that turn out to be the wrong hours.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "You arrive too late and the world ends in a doorway.",
+      "text": "You smell it from a mile off and you know before you crest the ridge. The gate is broken inward. The olive trees are burning slowly, the way green wood does. Your wife and your son are hanging in the doorway of the house you built, and the ground under your horse comes up to meet your knees, and the horse walks away from you into the field.",
       "sceneTitle": "The Farmhouse Burning",
       "choices": [
         {
           "text": "Bury them",
-          "consequence": "You commit to “Bury them.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You dig two holes with a broken spear shaft and your bare hands and lay them down, and you are still on that ground when the slavers arrive.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ride after the killers",
-          "consequence": "You commit to “Ride after the killers.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You get four miles down the road before the fever from your shoulder puts you off the horse, and the tracks you were following go cold in the dust.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A trader in Zucchabar buys you cheap and feeds you better.",
+      "text": "Proximo buys you in Zucchabar for the price of a good mule, chiefly because you are still alive. He was freed by an emperor's own hand once, he says, and he will tell you about it whether or not you ask. The yard is hard-packed dirt, a well, and thirty men who look at you and calculate. He tells you to win the crowd and you will win your freedom.",
       "sceneTitle": "Proximo's Yard",
       "choices": [
         {
           "text": "Train hard",
-          "consequence": "You commit to “Train hard.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You take the wooden practice sword and work until your palms tear open, and the other men stop calculating and start staying out of your way.",
           "nextNodeId": "s7"
         },
         {
           "text": "Refuse to perform",
-          "consequence": "The decision settles the question for now. Its verdict—Stubborn—follows you into whatever comes next.",
+          "consequence": "You put the wooden sword down in the dust and let them beat you for it, and Proximo has you flogged and fed and dragged out anyway.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A circle of dirt and a man with a curved sword who wants your life.",
+      "text": "Zucchabar's arena is a ring of packed earth with a market going on outside it. They chain you at the wrist to another man and push you both through a gate. The crowd is maybe six hundred people eating. A tall fighter with a curved blade circles you, and you can tell in three steps that he has been taught to entertain rather than to kill.",
       "sceneTitle": "First Sand",
       "choices": [
         {
           "text": "End it quickly",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You put him down in under four seconds with a chained arm and walk off, and the six hundred boo you for spoiling a morning's amusement.",
           "nextNodeId": "s8"
         },
         {
           "text": "Show the crowd",
-          "consequence": "“Show the crowd” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You let it run long, take a cut across the ribs for the shape of it, and the market crowd stops eating and stands up to shout for you.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A Numidian asleep with a wooden carving of his daughter on his chest.",
+      "text": "Your cell is a stone box that holds ten. The Numidian sleeps on his back with two small carved figures on his chest, a woman and a girl, whittled from a broken cart spoke. He wakes without moving and watches you scrape at the dirt floor with your thumbnail, making rows. Neither of you has said anything since the wagon. He offers you the water first.",
       "sceneTitle": "Juba",
       "choices": [
         {
           "text": "Speak",
-          "consequence": "There is no taking “Speak” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You tell him about a farm with a red roof and a stable door his hands could fit through, and he tells you the dead are only ahead of you.",
           "nextNodeId": "s9"
         },
         {
           "text": "Sleep",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You lie down facing the wall and say nothing, and he sets the water skin beside your head anyway and goes back to his carvings.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Proximo says the only way to the emperor is the Colosseum.",
+      "text": "Proximo puts his ledger down. There are games in Rome for a hundred and fifty days straight, he says, paid for by an emperor who wants to be loved. The Colosseum swallows fifty thousand people. He wants you in it because you make money. You want it because there is exactly one man in the empire you need to stand close to, and he sits in a box above the sand.",
       "sceneTitle": "To Rome",
       "choices": [
         {
           "text": "Go willingly",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You tell Proximo you will go, and he studies your face for a long moment and decides not to ask why you agreed so fast.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You refuse, and he explains what happens to gladiators who refuse, and then he loads you onto the ship for Ostia in the morning regardless.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Chariots, archers, and a script that wants you dead in act one.",
+      "text": "The announcer calls it the Fall of Carthage. They give you rusted mail and a shield with a split boss, and the gate lifts on a sand floor already raked flat. Chariots come out of the far tunnel with scythes bolted to the axles, and archers standing in the beds. The script has you as Carthage. Carthage is supposed to lose in the first few minutes.",
       "sceneTitle": "Carthage Reenactment",
       "choices": [
         {
           "text": "Stand alone",
-          "consequence": "You commit to “Stand alone.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go out alone at a dead run to break the chariot line and one wheel passes close enough to take the paint off your shield.",
           "nextNodeId": "s11"
         },
         {
           "text": "Form a wall",
-          "consequence": "There is no taking “Form a wall” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You bellow at strangers until they lock shields into a ring, spears outward, and the horses refuse the wall the way horses always do.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Crowd silent. Sword raised. Eyes on the emperor's box.",
+      "text": "It ends faster than fifty thousand people paid for. The last chariot is on its side, the last man is face down, and the sand is very quiet. You turn a full circle with a sword in each hand and there is nobody left to fight. You shout at them — at all of them — and ask whether this is not what they came here for. The emperor's box is directly above you.",
       "sceneTitle": "Are You Not Entertained",
       "choices": [
         {
           "text": "Throw the sword",
-          "consequence": "The decision settles the question for now. Its verdict—Defiant—follows you into whatever comes next.",
+          "consequence": "You throw the sword up into the stands and it lands among senators, and fifty thousand Romans decide in one breath that they love you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Bow",
-          "consequence": "You commit to “Bow.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You lower your head and bend the neck, and the crowd cheers anyway, and Commodus comes down the stairs to meet a man who obeys.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Helm off. Names listed. An emperor learns whose face he has been watching.",
+      "text": "He wants to know the name of the Spaniard the whole city is chanting for. A slave is not required to show his face to an emperor, but you take the helmet off with both hands and hold it against your hip, and you give him the full list — rank, legion, commander, husband, father — in the flat voice you used for reading casualty returns.",
       "sceneTitle": "My Name Is Maximus",
       "choices": [
         {
           "text": "Speak the names",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You say your son's name and your wife's name out loud in front of fifty thousand witnesses, and Commodus cannot order your death without confessing everything.",
           "nextNodeId": "s13"
         },
         {
           "text": "Refuse to bow",
-          "consequence": "You commit to “Refuse to bow.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You keep the helmet on and stand with your back straight and say nothing, and the silence tells him just as much, and the crowd fills it.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "She slips into your cell with a plan and a small hand on yours.",
+      "text": "She comes down at night in a plain cloak, past guards who have been paid. Her hair is dressed for a banquet she left early. She says she wept when she heard, and you tell her that her brother slaughtered your family and she did nothing for two years. She puts her hand flat on the back of yours in the dark and says she has an army she cannot use.",
       "sceneTitle": "Lucilla",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "The decision settles the question for now. Its verdict—Hope—follows you into whatever comes next.",
+          "consequence": "You turn your hand over and take hers, and you buy a conspiracy at the price of trusting a woman whose son is the next emperor.",
           "nextNodeId": "s14"
         },
         {
           "text": "Refuse the plot",
-          "consequence": "“Refuse the plot” closes one possibility and opens another. The moment leaves a clear note behind: Cautious.",
+          "consequence": "You pull your hand back and tell her to leave, and she goes, and she keeps working on your behalf anyway without telling you a thing.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Gracchus would have you slip from Rome to your army at Ostia.",
+      "text": "Gracchus arrives in the yard smelling of the baths, a senator visiting the animals. The plan is small and therefore plausible: a gate left open, a cart, the coast road, and five thousand legionaries at Ostia who still answer to your name. Two nights. After that Commodus moves the games and you lose the window. Behind him, through the bars, Lucius is watching you the way boys watch soldiers.",
       "sceneTitle": "The Senator's Plan",
       "choices": [
         {
           "text": "Agree",
-          "consequence": "“Agree” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You agree, and the senator leaves with your life in a wax tablet, and every man in that yard is now something Commodus can crucify.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay for the boy",
-          "consequence": "“Stay for the boy” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You hesitate over a boy who reminds you of a boy in a doorway, and the delay costs the plot two nights it did not have.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "The little prince calls you Maximus the Hero. Commodus watches from a doorway.",
+      "text": "Lucius is seven and wears a wooden sword on a belt made for a grown man. He calls you Maximus the Hero and recites your fights back to you in order, getting two of them wrong. His mother is not in the room. His uncle is, standing in the doorway with a cup in his hand, watching how gently a slave speaks to an heir.",
       "sceneTitle": "Lucius",
       "choices": [
         {
           "text": "Be kind",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You kneel to his height and correct him about the chariots, and Commodus watches a child choose someone else's face and never forgets it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Be cold",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You answer in three words and turn away, and the boy's face goes down, and the man in the doorway smiles because he understands cruelty.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Tigers from trapdoors. A retired champion across the sand.",
+      "text": "They have not used tigers in years. The trapdoors are set in a ring and the handlers hold the chains just long enough. Across the sand is Tigris of Gaul, undefeated, retired, hauled out of comfortable old age in gold armor because the emperor needs someone to end you. The crowd is chanting a name and it is not his. He fights well. He fights like a man who has already lost.",
       "sceneTitle": "Tigris of Gaul",
       "choices": [
         {
           "text": "Spare him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You put him on his knees, look up at the imperial box, and drop your blade in the sand while the whole Colosseum roars a word you did not choose.",
           "nextNodeId": "s17"
         },
         {
           "text": "Finish him",
-          "consequence": "There is no taking “Finish him” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You finish it clean and the crowd goes flat and disappointed, and Commodus finally has a reason to smile that costs him nothing.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A long tunnel under the city, and someone has betrayed it already.",
+      "text": "A sewer runs under the Colosseum toward the river, and the air in it is warm and foul. Proximo's man has the gate. Two turns down, torchlight is coming the other way, moving in step, which is not how gladiators move. Behind you the passage back is full of men from your own yard with no weapons and no idea. The Praetorians have known about this tunnel for a day.",
       "sceneTitle": "The Escape",
       "choices": [
         {
           "text": "Press on",
-          "consequence": "You commit to “Press on.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go forward into the torches with a stolen gladius and open a way out for exactly one man, and the tunnel behind you fills with screaming.",
           "nextNodeId": "s18"
         },
         {
           "text": "Turn back to the others",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You turn back for men who have no blades, which is what a general does, and the Praetorians take the whole yard in the dark.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "He buys you a minute with his own life and a Spanish sword.",
+      "text": "Proximo is at the gate in a good cloak with his freedom papers on him, and he has your Spanish sword wrapped in cloth under his arm. He hands it over. He says shadows and dust, the way he always does, and then he sets his feet in the gateway with a short blade against eight Praetorians, which buys you one flight of stairs.",
       "sceneTitle": "Proximo at the Gate",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You take the sword and go, and behind you an old showman finally gets the death he has been rehearsing in that yard for twenty years.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay with him",
-          "consequence": "The decision settles the question for now. Its verdict—Loyal—follows you into whatever comes next.",
+          "consequence": "You plant yourself beside him and they take you both, and every plan Rome had for a free Republic dies in a doorway with two old men.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Commodus has the boy at the end of a knife on her shoulder.",
+      "text": "They bring her into the cell with her wrists tied and her chin up. Commodus stands behind her with the point of a knife resting on the shoulder seam of her dress, and Lucius is somewhere upstairs asleep in a room with a guard outside it. He explains it patiently, like arithmetic. He wants a public death in the arena and he wants you to walk to it without struggling.",
       "sceneTitle": "Lucilla Caught",
       "choices": [
         {
           "text": "Surrender",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You put your hands out for the irons and she says your name once, and the sound of it is the only thing you take down to the sand.",
           "nextNodeId": "s20"
         },
         {
           "text": "Refuse and fight",
-          "consequence": "There is no taking “Refuse and fight” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You go for his throat across the cell and four men put you on the floor, and the knife opens a line on her shoulder that he will never apologise for.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Commodus slips the wound under your armor before the duel begins.",
+      "text": "One lamp lights the armory under the arena. He comes down in white, alone except for the men holding your arms, and talks about legacy while he works the blade in under your ribs from behind, low, where the breastplate straps close over it. They buckle the armor on top. He tells the guards to strap it tight. Above you, fifty thousand people are already stamping.",
       "sceneTitle": "Knife in the Side",
       "choices": [
         {
           "text": "Hide it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Stoic.",
+          "consequence": "You keep your breathing shallow and your left arm down and walk out onto the sand with a lie held shut under bronze plating.",
           "nextNodeId": "s21"
         },
         {
           "text": "Let the crowd see",
-          "consequence": "“Let the crowd see” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You start to pull the strap loose to show the crowd what he did, and Quintus quietly puts a hand over yours and shakes his head.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A hundred thousand silent Romans, and a brother who does not understand he has lost.",
+      "text": "The floor is fresh sand and the light is enormous. He circles you in white and gold and tells the crowd this is between brothers. Your left side is filling up with something warm. Every step you take leaves a print that darkens after you have left it. The Colosseum, all of it, has gone silent enough that you can hear his boots turning, and he still thinks he is winning.",
       "sceneTitle": "The Last Sand",
       "choices": [
         {
           "text": "Strike clean",
-          "consequence": "“Strike clean” closes one possibility and opens another. The moment leaves a clear note behind: Justice.",
+          "consequence": "You take the blade off his wrist and put it through his throat in one motion, and Rome hears a sword come out of an emperor.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Drop the sword",
-          "consequence": "“Drop the sword” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You let the sword fall out of your hand and ask the Praetorians for theirs, and every one of them stands still and does not move.",
           "nextNodeId": "end_rome"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither. You take his weapon, look at Quintus, and hand the whole question of Rome to a man who has been waiting to be asked.",
           "nextNodeId": "end_name"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_home",
-      "text": "You walk through the long grass toward a door you remember. The latch lifts. Someone calls your name in the voice that was always home.",
+      "text": "The wheat comes up past your hands and the sun is on the back of your neck for the first time in six years. There is a gate ahead with a rope latch you tied yourself, badly, and never fixed. You push it open. A boy is running down the row toward you and behind him a woman is standing in the doorway with flour on her forearms, and she says your name the way it was always meant to be said.",
       "sceneTitle": "Wheat in the Sun",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_rome",
-      "text": "Gracchus carries your body out and the people carry the rest. The Republic, for a season, almost works.",
+      "text": "Gracchus and four gladiators carry your body up out of the sand and the crowd parts for it without being told. In the weeks after, the Senate meets more than it has in a decade and something like debate happens in the open air. It does not last. But for a season, laws are written by men who argue, and a boy grows up in a palace hearing that his uncle lost.",
       "sceneTitle": "A Senator's Rome",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_name",
-      "text": "Juba buries the small wooden figures in the sand and stands. We will see you again, he says. But not yet. Not yet.",
+      "text": "Juba comes back at night when the Colosseum is empty and the sand has been raked. He kneels at the spot and digs with his fingers until the hole is deep enough for two small figures cut from a cart spoke. He covers them over and presses the sand flat with his palm. Then he stands and tells the empty seats that he will see you again — but not yet. Not yet.",
       "sceneTitle": "Strength and Honor",
       "choices": [],
       "isEnding": true,

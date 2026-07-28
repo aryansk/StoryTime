@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Hundreds, in the chimney, in the kitchen, under the door.",
+      "text": "The first one arrives with the ordinary post, addressed to the cupboard under the stairs. Your cupboard, named exactly, spiders and all. Uncle Vernon burns it over the sink. Then two come. Then a dozen shoved under the door, then thirty down the chimney at breakfast, and by Sunday the letters are pouring out of the fireplace like water out of a pipe, and nobody is pretending anymore.",
       "sceneTitle": "Letters",
       "choices": [
         {
           "text": "Read one",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You get a hand on an envelope and hold on while it is torn away, but you have already read the yellowish paper and the green ink and your own name written by somebody who knows where you sleep.",
           "nextNodeId": "s2"
         },
         {
           "text": "Hide",
-          "consequence": "“Hide” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You take one into the cupboard and do not open it for six hours, because while it stays shut it could still say anything at all. It is the most hopeful you have ever been about paper.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "He breaks the door. He brings cake.",
+      "text": "The hut on the rock, past midnight, and something knocks the front door flat off its hinges and stands in the gap. He has to stoop to get inside and the whole room shrinks around him. Out of a coat pocket comes a chocolate cake, squashed, with your name iced on it in his own handwriting. He apologises for sitting on it. Nobody has ever brought you a cake before.",
       "sceneTitle": "Hagrid",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You eat a sat-on cake in front of a stranger the size of a door, and it is the best thing you have ever tasted. Trust turns out to be embarrassingly cheap to buy.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay back",
-          "consequence": "“Stay back” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You keep the table between you and ask three careful questions first. He answers all three badly and honestly, then gives your cousin a curly pink tail, and you stop worrying.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Wands, owls, gold. A vault, yours.",
+      "text": "Behind the pub there is a brick wall that counts itself open. The street on the other side sells cauldrons by weight and owls by temperament, and nothing there has a price you understand. Then a cart ride down into cold rock, a mile under London, and a door swings on a vault stacked to the ceiling with gold your parents left you. You have worn your cousin's outgrown socks your entire life.",
       "sceneTitle": "Diagon Alley",
       "choices": [
         {
           "text": "Choose the snowy owl",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You choose the white one because she looks at you as though the decision was made some time ago. Hagrid buys her as a birthday present and you go red and cannot say thank you properly.",
           "nextNodeId": "s4"
         },
         {
           "text": "Browse longer",
-          "consequence": "The decision settles the question for now. Its verdict—Curious—follows you into whatever comes next.",
+          "consequence": "You walk the street twice, pricing everything, adding up in your head the way you learned to at Privet Drive. Being rich is going to take considerably longer to learn than magic.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The wand chooses you. Phoenix feather core.",
+      "text": "Ollivander does not sell you a wand. He lets seventeen of them refuse you. A vase goes over. A drawer bangs open by itself. Then a slim holly wand warms in your hand and throws red sparks along the shelves, and the old man goes very quiet. The bird that gave the feather inside it, he says, gave exactly one other. The other wand made the scar on your forehead.",
       "sceneTitle": "Wand",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You close your hand around a wand that shares a heart with the one that tried to kill you, and it fits perfectly. Ollivander takes seven gold coins and looks unhappy about your future.",
           "nextNodeId": "s5"
         },
         {
           "text": "Try another",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You ask for anything else and try four more, and every one of them sulks in your grip. Some pairings are not offered, only announced, and you have to take what is announced.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "9 3/4. Ron in a compartment. Hermione asks if you've seen a toad.",
+      "text": "You go through a solid brick pillar at a run with your eyes shut, and come out into steam and a scarlet engine and a platform full of people who own owls. A red-haired boy shares his compartment. A girl with a great deal of hair puts her head round the door twice: first about a lost toad, then about the correct pronunciation of a spell nobody asked her to demonstrate.",
       "sceneTitle": "Train",
       "choices": [
         {
           "text": "Befriend Ron",
-          "consequence": "You commit to “Befriend Ron.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You buy out the entire sweet trolley and push half of it across the seat to a boy who is quietly ashamed of his corned-beef sandwich. He never mentions it and never forgets it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Befriend Hermione",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mind.",
+          "consequence": "You answer her questions properly instead of pulling a face at Ron, and she stays twenty minutes talking about a book neither of you has read. It costs nothing and gains you everything.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Not Slytherin, you whisper. Gryffindor, the hat says.",
+      "text": "The hat comes down over your eyes and starts talking inside your skull, which is considerably worse than it sounds. It goes through you like somebody going through a drawer: courage, yes, a decent mind, and a hard little wanting thing right at the bottom. It says you would do well in Slytherin. It says so twice, patiently, and then waits to see whether you intend to argue about it.",
       "sceneTitle": "Sorting Hat",
       "choices": [
         {
           "text": "Whisper firmly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You say no three times, loudly enough that the front row hears something. The hat sounds almost disappointed as it shouts Gryffindor, and you spend years wondering whether you chose or begged.",
           "nextNodeId": "s7"
         },
         {
           "text": "Don't whisper",
-          "consequence": "“Don't whisper” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You stay quiet and let it decide, and it takes a full minute, and you sit under the brim listening to your own pulse. It picks Gryffindor anyway. You never learn what tipped it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Madame Hooch, brooms. You catch a remembrall mid-air.",
+      "text": "First flying lesson on wet grass, and Neville's broom bolts with him and drops him from twenty feet with his wrist bent the wrong way. His glass ball rolls out of his pocket. Malfoy takes it fifty feet up and throws it at the castle wall for the pleasure of it. You have never been on a broom in your life. You are airborne before anyone finishes shouting your name.",
       "sceneTitle": "Quidditch",
       "choices": [
         {
           "text": "Show off",
-          "consequence": "“Show off” closes one possibility and opens another. The moment leaves a clear note behind: Joy.",
+          "consequence": "You take the catch a foot above the grass with one hand and pull up hard, and the whole class screams. McGonagall sees. For sixty seconds you cannot tell whether you are expelled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay calm",
-          "consequence": "“Stay calm” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You catch it neatly, land, and say nothing at all, so what she noticed was the flying and not the noise. Youngest house player in a century, and you still need Seeker explained to you.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Halloween. A troll. You and Ron save Hermione.",
+      "text": "Halloween: a thousand floating candles, live bats in the rafters, and Quirrell coming through the doors screaming about a troll before he faints into the pumpkin juice. Hermione does not know, because she has been crying in the girls' toilets since lunchtime over something Ron said and did not think she heard. The thing is twelve feet of grey muscle. It is already in there with her.",
       "sceneTitle": "Troll",
       "choices": [
         {
           "text": "Be brave",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You jump on its neck and your wand goes up its nostril, which was nobody's plan. Ron levitates the club and drops it, and three children become friends over an unconscious troll.",
           "nextNodeId": "s9"
         },
         {
           "text": "Get a teacher",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You lose ninety seconds finding a professor and hear the sinks shatter from the far end of the corridor. You go in anyway. Ninety seconds is what nearly cost her everything.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Parents in the mirror. Your hand on the glass.",
+      "text": "It stands in a disused room, taller than a door, with words cut round the frame that only make sense read backwards in another mirror. In it, perhaps a dozen people are standing behind you, and two of them have your eyes and your hair. Your mother is crying and waving with one hand up. You put your palm on the glass and what you get back is glass.",
       "sceneTitle": "Mirror of Erised",
       "choices": [
         {
           "text": "Sit a moment",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You come back three nights running and sit on the cold flagstones until dawn, forgetting meals. Dumbledore finds you on the third night and moves the mirror somewhere you will never look.",
           "nextNodeId": "s10"
         },
         {
           "text": "Walk away",
-          "consequence": "You commit to “Walk away.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You make yourself stand up and walk out with your parents still waving behind you, and then you do not sleep. Wanting what you cannot have is a wound the mirror keeps open and clean.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Hermione finds the name. The stone is real.",
+      "text": "The name has been nagging at you since Hagrid let it slip and went scarlet, and Hermione finally finds it in a book she took out weeks ago for light reading. A stone that turns metal into gold and brews a drink that stops you dying. Its maker is six hundred and sixty-five years old. And it is currently under a trapdoor on the third floor, behind a very large dog.",
       "sceneTitle": "Nicolas Flamel",
       "choices": [
         {
           "text": "Plan",
-          "consequence": "“Plan” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You spend a week mapping the corridor, the dog's shifts, and the exact hour Snape started limping, and Hermione writes it all out in three colours of ink. Being right early convinces nobody.",
           "nextNodeId": "s11"
         },
         {
           "text": "Tell McGonagall",
-          "consequence": "There is no taking “Tell McGonagall” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You take it to McGonagall and she tells you the stone is perfectly safe and sends you to bed. Adults keep saying that sentence to you. It keeps turning out not to be true.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Hagrid's dragon. You sneak it out.",
+      "text": "He hatched it in a wooden hut out of an egg he won off a stranger in a pub who kept his hood up the whole evening. Within a week the thing is the size of a dog, breathes sparks that take the beard off him in patches, and bites Ron's hand hard enough to turn it green and swollen. Hagrid has given it a name. That is the part making this difficult.",
       "sceneTitle": "Norbert",
       "choices": [
         {
           "text": "Take the risk",
-          "consequence": "There is no taking “Take the risk” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You carry a crated dragon up the astronomy tower at midnight under a cloak and hand it to Charlie's friends. Then you leave the cloak on the stairs, and Gryffindor loses a hundred and fifty points.",
           "nextNodeId": "s12"
         },
         {
           "text": "Convince him to send it on his own",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You argue him into writing the letter himself and watch him sob into a handkerchief the size of a tablecloth. Detention finds you regardless. The forest is still out there, waiting.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Centaurs. A unicorn killed. A cloaked figure drinking.",
+      "text": "Detention turns out to be midnight in the trees with a lantern, following silver blood that glows on the leaf litter. You find the unicorn on its side in a clearing, legs at wrong angles, still beautiful and completely dead. Then something hooded slides out from between the trunks, puts its mouth to the open wound, and drinks. Your scar goes off like a nail heated in a fire.",
       "sceneTitle": "Forbidden Forest",
       "choices": [
         {
           "text": "Stay close to the centaur",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "Firenze puts you on his back, which insults every other centaur in the forest, and explains what unicorn blood buys and what it charges. A half-life, cursed from the first swallow.",
           "nextNodeId": "s13"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You bolt through roots in the dark with the scar burning and your wand somewhere behind you in the leaves. Hagrid finds you shaking. You are not braver than your own body is.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Quidditch. Your broom shakes. Hermione sets a fire.",
+      "text": "Two hundred feet above the pitch, your broom begins trying to throw you off. Not a wobble. A fight, jerking sideways in a way that brooms do not do, until you are hanging underneath it by one hand with your feet in open air. Down in the stands, Hermione crawls under a bench, sets fire to a teacher's robes with a blue flame the size of a match, and the broom goes still.",
       "sceneTitle": "Snape's Curse",
       "choices": [
         {
           "text": "Trust the team",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You hang on and let your friends handle the part you cannot see, then get back astride and finish the match by catching the Snitch in your mouth. Teamwork tastes like blood and metal.",
           "nextNodeId": "s14"
         },
         {
           "text": "Solo",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You try to haul yourself back up the handle alone, two hundred feet up with nothing underneath, and lose your grip anyway. Somebody else's fire is what puts you back on the broom.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Fluffy. Sing. Devil's snare. Keys.",
+      "text": "Three heads and one harp: the dog sleeps exactly as long as the music lasts and wakes the instant it stops. Under the trapdoor is a plant that grips harder the more you struggle, so you go deliberately limp and drop through it. The room after that holds a thousand winged keys, one small lock, and a broomstick hung where only somebody who can fly would ever reach it.",
       "sceneTitle": "Through the Trapdoor",
       "choices": [
         {
           "text": "Take the lead",
-          "consequence": "You commit to “Take the lead.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You go through the trapdoor first, into a dark with no visible bottom, because you are the one who has to. Nobody argues with you about it, which is somehow worse than arguing.",
           "nextNodeId": "s15"
         },
         {
           "text": "Trust Ron with the keys",
-          "consequence": "You commit to “Trust Ron with the keys.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You take the broom and let Ron call it from below, and he picks the bent silver key out of a swarm of a thousand. Flying is the easy half. Being told what to do is the useful half.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Ron's sacrifice on the board.",
+      "text": "The next chamber is a chessboard the size of a hall with pieces taller than Hagrid, and there is no crossing it without playing. Ron takes knight and puts you and Hermione somewhere defensible on the flank. Twenty moves in, he works out the only route through the middle: he has to let the white queen take him off the board. He asks you not to look at him while he explains it.",
       "sceneTitle": "Chess",
       "choices": [
         {
           "text": "Honor him",
-          "consequence": "“Honor him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You stand still and let him be brave, and the queen's stone arm knocks him across the flagstones hard enough to hear from where you are. It is the worst thing you have ever done.",
           "nextNodeId": "s16"
         },
         {
           "text": "Refuse to let him sacrifice",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You shout across the board that there is another route, and then spend nine minutes proving there is not. He steps forward into the square while you are still arguing about it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Hermione's logic. The right vial.",
+      "text": "Purple fire behind, black fire ahead, and seven bottles on a table with a riddle in verse propped against them. There is no magic in this room at all: only poison, poison, wine, poison, and one bottle each for forward and back. She reads it four times, solves it in under a minute, and hands you the smallest bottle on the table. There is not enough in it for two people.",
       "sceneTitle": "The Potions",
       "choices": [
         {
           "text": "Drink and go on",
-          "consequence": "There is no taking “Drink and go on” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You swallow something that feels like ice going down your spine and walk into black fire alone, with the warmth of Hermione's hand still on your sleeve.",
           "nextNodeId": "s17"
         },
         {
           "text": "Turn back",
-          "consequence": "There is no taking “Turn back” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You suggest fetching Dumbledore, and she points out how long an owl takes to reach London. Then she hugs you, which is far worse than the fire, and you go through.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Quirrell with the turban. Voldemort under it.",
+      "text": "The stammer is gone. It was never Snape; it was the nervous one, the one nobody bothered watching. He cannot get the stone out of the mirror because of a rule he cannot see: it surrenders the thing only to someone who wants it and does not intend to use it. Then he unwinds the turban, and there is a face on the back of his head, and it is looking at you.",
       "sceneTitle": "Mirror Again",
       "choices": [
         {
           "text": "Refuse the stone",
-          "consequence": "There is no taking “Refuse the stone” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You look into the glass wanting nothing except to keep it away from him, and the weight of it drops into your trouser pocket. Not wanting it was the entire password.",
           "nextNodeId": "s18"
         },
         {
           "text": "Lie",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You say you see yourself winning the House Cup, and you say it badly, with the stone already in your pocket. The voice on the back of his head calls you a liar in a whisper that shreds.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Your skin burns him.",
+      "text": "He gets both hands on your throat and immediately starts screaming. Where he touches you his fingers go grey and crumble like ash falling off a log, and it is hurting him enormously more than it is hurting you. Your mother stood in front of you once and refused to move aside, and whatever that put into your skin is apparently still in there, ten years later, and still working.",
       "sceneTitle": "Touch",
       "choices": [
         {
           "text": "Hold",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You take hold of his face with both hands and hold on while he comes apart, and your scar burns white. You are the reason a man dies today, and you have not yet finished your first year of school.",
           "nextNodeId": "s19"
         },
         {
           "text": "Recoil",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You pull back and he comes after you anyway, and you black out on stone with something rushing over you like a cold wind. Waking up from it takes three days.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Dumbledore at your bed. Cards.",
+      "text": "Three days gone. The table beside the bed has disappeared under sweets and cards, a whole shelf of them, with Ron's handwriting on a get-well note and a joke in it smudged by somebody's thumb. Dumbledore sits down and answers your questions properly, one at a time, right up until the last one. Some truths, he says, you are too young to be handed. That is not the same as never.",
       "sceneTitle": "Hospital Wing",
       "choices": [
         {
           "text": "Ask questions",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Curious.",
+          "consequence": "You ask why Voldemort wanted you dead, and he says he will not lie to you and therefore will not answer. Honesty and answers turn out to be two entirely separate goods.",
           "nextNodeId": "s20"
         },
         {
           "text": "Sleep",
-          "consequence": "“Sleep” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You let the questions wait and sleep instead, and Madam Pomfrey throws every visitor out of the wing. There will be six more years in which to ask. You use most of them.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Last-minute points for bravery and friendship. Gryffindor wins.",
+      "text": "The hall is hung in Slytherin green and their table has been unbearable for a week. Then Dumbledore starts adding points right at the end: for chess played under pressure, for cold logic in front of fire, for nerve, and for standing up to your own friends, which he says is harder than standing up to enemies. The banners turn red overhead. Neville gets the last ten and does not understand for a full minute.",
       "sceneTitle": "House Cup",
       "choices": [
         {
           "text": "Cheer",
-          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "consequence": "You shout yourself hoarse with an entire house on the benches around you, and Ron is louder than you are. For one evening nobody in that hall is looking at your forehead.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Modest—follows you into whatever comes next.",
+          "consequence": "You watch Neville work out that the last points were his, and sit very still, grinning at the tablecloth. Some victories are better from the edge of the room.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Hedwig, trunk, Uncle Vernon's pinched face.",
+      "text": "King's Cross on the ordinary side of the barrier, and there he is by the pillars going purple about the parking charges. The trunk is heavy and the owl is loud and neither will be permitted indoors. Ron's mother tells you to come and stay for the summer, and means it. Behind you the scarlet engine is already cooling on the rails, and the year is over.",
       "sceneTitle": "Platform",
       "choices": [
         {
           "text": "Walk to him with confidence",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: New.",
+          "consequence": "You mention that you are allowed to do magic at home, which is a lie, and watch him turn a colour you have not seen on a person before. It buys you a very quiet July.",
           "nextNodeId": "end_year2"
         },
         {
           "text": "Be small",
-          "consequence": "There is no taking “Be small” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You shrink back into being nobody the moment you see him, and Ron watches it happen from the barrier. He writes twice a week all summer and never once says why.",
           "nextNodeId": "end_friends"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look back at the platform and understand that the castle is the place you leave from now, and Privet Drive is somewhere you visit, briefly, under protest, once a year.",
           "nextNodeId": "end_dumbledore"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_year2",
-      "text": "You return next year for more. The lessons get harder. Hermione, somehow, also gets sharper. Ron, somehow, also.",
+      "text": "You come back in September, and it gets harder every year the way stairs do when the building keeps growing extra floors. Hermione learns faster than the syllabus can be taught. Ron gets funnier and braver in the same motion, usually at the least convenient moment available. The castle stops being a miracle and becomes the ordinary place where you live, which turns out to be the better magic of the two.",
       "sceneTitle": "Year Two",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_friends",
-      "text": "You and Ron and Hermione, for seven years, are inseparable. The friendship outlasts the school.",
+      "text": "Seven years, three of you, and it holds: through the sulks, the term Ron stopped speaking to you, the whole year Hermione was right and completely unbearable about being right. School ends and the friendship does not. Decades later you can still finish each other's plans in the wrong order. Whatever the wand chose and the hat argued about, this is the thing that actually kept you alive, repeatedly, on purpose.",
       "sceneTitle": "The Three",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_dumbledore",
-      "text": "You realize, over years, that Dumbledore was setting you up to learn slowly. Some of it was kind. Some of it was, less so. You forgive him, mostly, late.",
+      "text": "It takes years to see the shape of it: that he told you exactly enough each time and never one word more, and that the timing was always chosen. Some of the withholding was mercy and you were glad of it. Some of it was a man moving a piece he loved across a board. You forgive him for all of it eventually, later than you meant to, standing in snow beside a white tomb.",
       "sceneTitle": "Dumbledore's Lessons",
       "choices": [],
       "isEnding": true,

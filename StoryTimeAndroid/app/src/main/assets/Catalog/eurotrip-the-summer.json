@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You land in London with two backpacks too many and one good plan. The plan involves Mieke.",
+      "text": "Six a.m. at Heathrow with two backpacks too many, because Cooper packed a second backpack for his first backpack. Scott has the rail pass in a neck pouch he will not stop touching. Jenny has the itinerary in a binder. The binder says DAY 1: LONDON. The plan, written nowhere in that binder, is Mieke.",
       "sceneTitle": "Heathrow",
       "choices": [
         {
           "text": "Start with London",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Sights.",
+          "consequence": "You give England forty hours. Cooper spends nine of them explaining to a barman that he is technically not the same as other Americans.",
           "nextNodeId": "s2"
         },
         {
           "text": "Skip to Paris",
-          "consequence": "There is no taking “Skip to Paris” back. Train shapes the silence before the next moment arrives.",
+          "consequence": "You're at the train before the jet lag lands. Jenny's binder loses page four in a turnstile and she never mentions it again.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The hostel manager is a man named Vinnie. Vinnie has a very specific energy.",
+      "text": "Vinnie runs the hostel and calls everyone 'my friend' with a small pause before it. There's one bathroom, a laminated sign about the bathroom, and a house rule involving the word 'donations.' Your room sleeps eleven. Nine of them are asleep at four in the afternoon. Vinnie says that's normal. Vinnie says a lot of things are normal.",
       "sceneTitle": "The Hostel",
       "choices": [
         {
           "text": "Trust Vinnie",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You hand Vinnie your passports for 'registration.' He puts them in a drawer with six other passports and most of a sandwich.",
           "nextNodeId": "s3"
         },
         {
           "text": "Sleep with one eye open",
-          "consequence": "“Sleep with one eye open” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You sleep in your shoes with the backpack as a pillow. In the morning everything you own is where you left it and your neck is ruined.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your friend Scott offends a Manchester United fan in a pub. The pub becomes a chase. The chase becomes a story.",
+      "text": "Scott, four pints in, says the words 'it's only a game' to a man with a tattoo of a stadium on his forearm. The pub goes quiet in a wave, table by table. Somebody's grandmother stands up. You are out the door before Scott finishes his apology, which he is still delivering over one shoulder, at a sprint.",
       "sceneTitle": "Hooligans",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "Scott buys the whole table a round with money you needed for Wednesday. They forgive him instantly, then teach him a chant about Cooper.",
           "nextNodeId": "s4"
         },
         {
           "text": "Outrun them",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You do nine blocks in bad shoes and lose them at a kebab window. Cooper, wheezing against a bin, calls it the best night of his life.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The ferry is bouncy. Cooper is seasick. You realize travel friendship requires more grace than you expected.",
+      "text": "The Channel is doing something the ferry brochure never mentioned. Cooper has gone a green that seems medically interesting, gripping the rail, apologizing out loud to the sea. Jenny holds his backpack. Scott films it. You learn that travel friendship is mostly this: standing near somebody at their absolute worst and not making it a thing.",
       "sceneTitle": "Channel Crossing",
       "choices": [
         {
           "text": "Take care of Cooper",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You get him crackers and a window seat and carry his bag for two hours. He will bring this up in a wedding speech someday.",
           "nextNodeId": "s5"
         },
         {
           "text": "Read on deck",
-          "consequence": "You commit to “Read on deck.” The story records the instinct as “Self” and carries it forward.",
+          "consequence": "You sit upwind with a paperback and let Jenny handle it. Cooper notices. Cooper notices everything and files it alphabetically.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Paris is, against all the cliches, exactly what they said. You are, somehow, both nineteen and exactly the right age.",
+      "text": "Paris does the thing where it refuses to be overrated. You eat a four-euro sandwich sitting on a curb and it quietly rearranges your understanding of bread. Scott says 'wow' six times in one block. You are nineteen, you smell like a train, and you have never been more precisely the right age for anything.",
       "sceneTitle": "Paris",
       "choices": [
         {
           "text": "Climb the Eiffel Tower",
-          "consequence": "The decision settles the question for now. Its verdict—Touristy—follows you into whatever comes next.",
+          "consequence": "Six hundred and sixty-nine steps, because the lift queue was ninety minutes. Cooper counts them aloud. The entire stairwell learns Cooper's name.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit in a cafe",
-          "consequence": "The decision settles the question for now. Its verdict—Vibey—follows you into whatever comes next.",
+          "consequence": "Three hours and one coffee, watching a street work. The waiter respects this. The waiter respects nothing else about any of you.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You and your friend Jenny adopt a street mime. The mime has, somehow, a phone number.",
+      "text": "The mime attaches himself outside a church and will not be un-attached. He does the box. He does a devastating impression of Scott that Jenny cannot stop laughing at. When you finally shake him at midnight, he presses a card into your hand. There's a phone number on it. The card is real. He is a mime with a business.",
       "sceneTitle": "Mime",
       "choices": [
         {
           "text": "Keep the mime",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Whimsy.",
+          "consequence": "He rides three trains with you and never once speaks. Jenny gives him half a sandwich. He mimes eating it, then actually eats it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Tip the mime, move on",
-          "consequence": "There is no taking “Tip the mime, move on” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You give him two euros and a handshake. He mimes weeping. For all you know he is behind that church still doing it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Bicycles. Canals. A man named Hennie selling, technically, tours.",
+      "text": "Canals, bicycles, and a man named Hennie who runs 'tours' out of a doorway with a laminated sign and no discernible route. The tour lasts ninety minutes and covers four bars and his ex-wife. Cooper takes notes. Cooper takes notes on all of it, in a little pad, like it's going to be on a test.",
       "sceneTitle": "Amsterdam",
       "choices": [
         {
           "text": "Take the tour",
-          "consequence": "“Take the tour” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "Twelve euros each. You see one windmill, two bars, and the apartment where Hennie's marriage ended. Somehow, worth it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wander on your own",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Independent.",
+          "consequence": "You get lost for four hours and finish at a herring cart. Scott eats a whole raw fish on a dare worth exactly one euro.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Rome on a Saturday is, in fact, a kind of carnival. The Trevi Fountain has a coin policy.",
+      "text": "Rome on a Saturday is a carnival that has been running for two thousand years and does not require your attendance. The Trevi has rules: one coin, right hand, over the left shoulder, or it doesn't count. Scott has one coin left in the world. That coin is also, technically, dinner.",
       "sceneTitle": "Rome",
       "choices": [
         {
           "text": "Throw the coin",
-          "consequence": "You commit to “Throw the coin.” The story records the instinct as “Tradition” and carries it forward.",
+          "consequence": "He throws it wrong-handed and it lands on a tourist's hat. The wish stands, Jenny rules. You split three plates of pasta four ways.",
           "nextNodeId": "s9"
         },
         {
           "text": "Save the coin",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cheap.",
+          "consequence": "Scott pockets it and buys a slice of pizza with it an hour later. He looks back at the fountain the entire time he's eating.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A pickpocket lifts Scott's wallet. Scott, in a moment of clarity, lifts it back.",
+      "text": "Termini, platform nine. A man in a very good coat bumps Scott, apologizes beautifully in three languages, and walks off with the wallet. Scott — who has never been coordinated at anything, ever — jogs after him, bumps him back, and returns holding the wallet. Nobody present, Scott included, knows how that happened.",
       "sceneTitle": "The Train Station Pickpocket",
       "choices": [
         {
           "text": "Celebrate",
-          "consequence": "You commit to “Celebrate.” The story records the instinct as “Win” and carries it forward.",
+          "consequence": "You buy him a beer he can now afford. He retells it four times by Tuesday and the coat gets nicer in every version.",
           "nextNodeId": "s10"
         },
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Even.",
+          "consequence": "Scott jogs back and hands the man his own wallet, which he also somehow has. The man is genuinely moved. Neither mentions the exchange rate.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Scott is mistaken for a tourist who is, separately, evading a debt. The Vatican guard is gentle but firm.",
+      "text": "A guard in the colonnade takes Scott gently by the elbow. There is, it turns out, an Australian with the same haircut who owes a Roman hotel eleven hundred euros. The guard is polite. The guard has a photograph. In the photograph, honestly, it is Scott. Jenny leans in, studies it, and agrees out loud that it's Scott.",
       "sceneTitle": "Vatican Robbed",
       "choices": [
         {
           "text": "Explain",
-          "consequence": "You commit to “Explain.” The story records the instinct as “Process” and carries it forward.",
+          "consequence": "Jenny does four minutes of confident, wrong Italian. It works. The guard mostly wants to get back to standing in the shade.",
           "nextNodeId": "s11"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Comedy” and carries it forward.",
+          "consequence": "You run inside the most famous church on earth, which the guard correctly identifies as a strategic error. He collects you at the gift shop.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Berlin is colder than expected. Mieke's address is, technically, valid.",
+      "text": "Berlin in August is doing eleven degrees and taking it personally. Mieke's address turns out to be a real street, a real building, a real buzzer with a real surname beside it. Scott has been carrying this address for six weeks. He looks at the buzzer. Nobody presses the buzzer. The four of you stand there like a delivery.",
       "sceneTitle": "Berlin",
       "choices": [
         {
           "text": "Knock",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "Scott knocks with two knuckles, badly, twice. Then steps back and fixes his hair with a hand that is visibly shaking.",
           "nextNodeId": "s12"
         },
         {
           "text": "Wait at the bar",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You lose ninety minutes to courage in a bar across the street. The bartender, unprompted, tells Scott to go and ring the bell.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Mieke opens the door. She is taller than you imagined and exactly as wonderful.",
+      "text": "She opens the door in socks. She is taller than six weeks of imagining allowed, she says Scott's name like it's an ordinary word, and she has clearly not been informed that four Americans were coming. Behind her someone turns the music down. She looks at all of you and says, 'So. All of you.'",
       "sceneTitle": "Mieke",
       "choices": [
         {
           "text": "Apologize for the misunderstanding",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "Scott explains the entire email situation in one long sentence with no breathing in it. She lets him finish. Then she laughs.",
           "nextNodeId": "s13"
         },
         {
           "text": "Try to charm her",
-          "consequence": "“Try to charm her” closes one possibility and opens another. The moment leaves a clear note behind: Funny.",
+          "consequence": "Scott attempts a line he has been rehearsing since Amsterdam. It lands at about sixty percent, which is sixty more than anyone predicted.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You and Scott and Cooper and Jenny end up at a club whose doorman judges you with great efficiency. Jenny, somehow, gets in.",
+      "text": "The doorman is a large, calm man who has decided several things about you in under a second. He takes Jenny. He does not take the rest of you. No explanation is offered; none has ever been offered to anyone. Jenny mouths 'sorry' through the door and is swallowed by fog and a bass note you can feel in your teeth.",
       "sceneTitle": "Berghain (parody version)",
       "choices": [
         {
           "text": "Wait outside for Jenny",
-          "consequence": "“Wait outside for Jenny” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "Three hours on a curb with one shared bag of crisps. She comes out at five a.m. glowing and refuses, forever, to describe any of it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Find another club",
-          "consequence": "“Find another club” closes one possibility and opens another. The moment leaves a clear note behind: Adventure.",
+          "consequence": "You find a place with a fog machine and nine customers. Cooper wins a dance-off against a man twice his size and never explains the rules.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Overnight train to Bratislava. Cheap. The bunk is, technically, a shelf. Cooper sleeps anyway.",
+      "text": "Night train to Bratislava, second class, which is a shelf with a curtain of aspiration. The compartment smells of sausage and other people's socks. Cooper is asleep in ninety seconds, upright, mouth open, entirely at peace. You lie on your shelf listening to Scott not sleeping on the shelf above you.",
       "sceneTitle": "Train, Overnight",
       "choices": [
         {
           "text": "Sleep on the floor",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You take the corridor floor with a sweater for a pillow and wake with a boot print on your shin. Best sleep of the trip.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay up all night",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Story.",
+          "consequence": "You and Scott talk to Vienna about nothing, then about Mieke, then about his dad. At dawn neither of you mentions it again.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Bratislava is, of course, much cheaper than your guidebook promised. You and the boys eat very well.",
+      "text": "Your guidebook said 'affordable.' Your guidebook was written by a coward. Dinner for four — soup, dumplings, a plate of meat with its own architecture, four beers — costs less than one Paris sandwich. The waiter keeps bringing things nobody ordered and refusing to charge for them. Cooper cries a little, at the table, into a dumpling.",
       "sceneTitle": "Bratislava",
       "choices": [
         {
           "text": "Stay an extra day",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You book two more nights on the strength of the dumplings alone. It is the only decision this entire trip that nobody argues about.",
           "nextNodeId": "s16"
         },
         {
           "text": "Move on",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Schedule.",
+          "consequence": "You leave in the morning with leftovers wrapped in a napkin. Cooper carries that napkin across two borders like a holy relic.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "A bar with a robot bartender. The robot bartender is, you realize, just a man in a costume. The man is friendly.",
+      "text": "The bar advertises a robot bartender. The robot bartender pours a beer, hits a pose, and has a small wet patch of sweat on its silver forehead. His name is Tomas. He has done nine hours in the suit today. He is, movement-wise, an excellent robot and, spiritually, a man who needs to sit down.",
       "sceneTitle": "Robot Club",
       "choices": [
         {
           "text": "Befriend the man",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vibe.",
+          "consequence": "You buy Tomas a drink he can't get through the helmet. He takes his break at your table and talks about his daughter for forty minutes.",
           "nextNodeId": "s17"
         },
         {
           "text": "Pretend you didn't notice",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You applaud the robot sincerely and tip it. Tomas performs a small bow that is, unmistakably, grateful in an extremely human way.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Italian train strike. You and the gang sleep in a station with a stray dog. The dog likes Cooper best.",
+      "text": "The strike is announced by a man with a megaphone and confirmed by everyone lying down. You sleep in the station under a departure board that updates all night to say nothing. A stray dog surveys your group, walks the whole row of you, and lies down on Cooper. Not near Cooper. On him.",
       "sceneTitle": "Italian Train Chaos",
       "choices": [
         {
           "text": "Adopt the dog",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hilarious.",
+          "consequence": "You name him Ferrovia and feed him half a panino. He follows you to the platform and stops at the yellow line like a professional.",
           "nextNodeId": "s18"
         },
         {
           "text": "Find a hotel",
-          "consequence": "“Find a hotel” closes one possibility and opens another. The moment leaves a clear note behind: Adult.",
+          "consequence": "You spend nine euros each on a room with one bed and a fan. Cooper sleeps on the floor anyway, out of loyalty to the dog.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "By accident you end up at a small Pope audience. The Pope, somehow, blesses Cooper specifically.",
+      "text": "You're in the square for the wrong reason — shade — when the crowd tightens and a small white figure comes down the aisle. He stops. Of the many thousand people present, he puts a hand on Cooper's head. Cooper, raised Lutheran, has no protocol whatsoever for this. He says, 'Thank you, sir.'",
       "sceneTitle": "Pope Audience",
       "choices": [
         {
           "text": "Take a photo",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Story.",
+          "consequence": "Jenny gets the shot: Cooper mid-blessing, face doing something between joy and panic. It stays his profile picture for nine years.",
           "nextNodeId": "s19"
         },
         {
           "text": "Just be there",
-          "consequence": "There is no taking “Just be there” back. Holy shapes the silence before the next moment arrives.",
+          "consequence": "Nobody reaches for a camera. Afterwards none of you can prove it happened, which somehow makes Cooper tell it better.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Mieke catches up with you in Venice. She is, against all odds, also into Scott. He realizes, late, that he likes her too.",
+      "text": "Mieke turns up in Venice with a backpack and no advance notice, which is the most Mieke thing available. She and Scott spend the whole boat ride arguing about a band. Halfway across the water Scott stops mid-sentence, looks at the wake, and works out — five weeks and four countries late — what is happening to him.",
       "sceneTitle": "Mieke, Again",
       "choices": [
         {
           "text": "Step back graciously",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You take Cooper and Jenny for gelato nobody wanted and leave those two alone on a bridge for two hours. It costs you nine euros.",
           "nextNodeId": "s20"
         },
         {
           "text": "Joke about it forever",
-          "consequence": "You commit to “Joke about it forever.” The story records the instinct as “Tone” and carries it forward.",
+          "consequence": "You start a running bit about Scott's lagoon epiphany that outlives four apartments, two weddings, and one very inappropriate funeral.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Last night before flights home. You sit at a hostel bar in Lisbon. You realize the summer is, finally, ending.",
+      "text": "Lisbon, hostel bar, four euros left between the group. Somebody two tables over is playing guitar badly and nobody minds. Jenny does the count out loud: nine countries, three arrests that weren't arrests, one dog. Nobody says the word 'ending.' Everybody orders one more anyway, which is how you say it without saying it.",
       "sceneTitle": "Last Night",
       "choices": [
         {
           "text": "Toast everyone",
-          "consequence": "You commit to “Toast everyone.” The story records the instinct as “Sentiment” and carries it forward.",
+          "consequence": "You stand up and give a speech with no structure and one genuinely good line about Cooper. Scott is crying by sentence three.",
           "nextNodeId": "s21"
         },
         {
           "text": "Just enjoy",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You say nothing and let the guitar handle it. On the walk back Jenny bumps your shoulder once, and that covers everything.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You land in London again on the way back. You are, technically, the same person. You are, technically, not.",
+      "text": "Same terminal, same fluorescent hum, ten weeks and one lifetime later. Your backpack weighs less and smells considerably worse. Cooper falls asleep at the gate holding a napkin from Bratislava. You are, on paper, the identical person who landed here in June, and you are lying about that directly to a passport officer's face.",
       "sceneTitle": "Heathrow Again",
       "choices": [
         {
           "text": "Go home",
-          "consequence": "There is no taking “Go home” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You board. Somewhere over the Atlantic, Cooper says 'so, next summer,' and four people with no money whatsoever immediately say yes.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Stay one more week",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You let them board without you and buy a train ticket you can't afford. Jenny passes forty euros through the barrier and won't discuss it.",
           "nextNodeId": "end_extra_week"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You change one flight and follow Scott back to Berlin, on the grounds that somebody has to be there to witness this.",
           "nextNodeId": "end_mieke"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_home",
-      "text": "You go home. You start senior year a slightly different person. The trip becomes the reference point. Your friends, ten years from now, will quote it at parties.",
+      "text": "You go home. Senior year starts and you are marginally harder to impress. The trip becomes the unit of measurement — 'that's nothing, in Bratislava we—' — and your roommates learn to leave the room. Ten years on, at somebody's kitchen island, four adults who now own printers and opinions about mattresses will do the mime's box routine until a spouse asks them, kindly, to stop.",
       "sceneTitle": "Senior Year",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_extra_week",
-      "text": "You stay an extra week. The week, somehow, becomes a month. You almost don't come home. You realize, in the end, you can come back. You will.",
+      "text": "One week becomes five. You wash dishes in a Lisbon hostel in exchange for a bunk and learn nine words of Portuguese, six of them useless. You miss the first two weeks of senior year and an internship that does not wait. On the flight home you finally understand the thing nobody tells you: it's still there. It'll keep being there. You can come back. You will, twice.",
       "sceneTitle": "One More Week",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_mieke",
-      "text": "Scott marries Mieke. You are the best man. The wedding is in Berlin. The toast is the longest of your life. You realize the trip was, somehow, a love story you didn't know you were in.",
+      "text": "Scott marries Mieke four years later in a Berlin function room with regrettable carpet. You're best man. Your toast runs nineteen minutes and includes a slide. Cooper does the mime bit at the reception and a German cousin films the whole thing. Somewhere in the middle you stop performing and just say that you were standing there the night he knocked on that door. Everyone cries. The DJ waits.",
       "sceneTitle": "Berlin, Forever",
       "choices": [],
       "isEnding": true,

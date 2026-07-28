@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A small bag, a kiss, a question about whether her parents know you are Black.",
+      "text": "Half a bag packed, a camera body rolled inside a sweater, and Rose back from the bodega with pastries and an answer to a question you have not asked out loud yet. Four months in. A weekend upstate with her parents. You ask it while looking at the toothbrush in your hand, light, like it is about traffic: do they know I'm Black. She says her dad would vote Obama a third time.",
       "sceneTitle": "Packing",
       "choices": [
         {
           "text": "Ask",
-          "consequence": "There is no taking “Ask” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You ask it plainly and she laughs it off and you laugh too, and you pack the camera anyway, because you have always needed somewhere to put your eyes.",
           "nextNodeId": "s2"
         },
         {
           "text": "Skip it",
-          "consequence": "“Skip it” closes one possibility and opens another. The moment leaves a clear note behind: Polite.",
+          "consequence": "You let it drop and zip the bag, and the question rides folded in your chest for the whole four hours of the drive, taking up room.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "An impact, a state trooper at the window.",
+      "text": "It comes out of the treeline and the car makes a sound it will only ever make once. Rose calls it in. You walk down into the ditch and find it still breathing, one eye working, and you stand over it much longer than makes any sense. The trooper who shows up asks for your license. You were not driving. Rose is already telling him, at volume, that this is not okay.",
       "sceneTitle": "Deer on the Road",
       "choices": [
         {
           "text": "Show your license",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You have it out of your wallet before your hand asks your permission, a reflex you did not choose and did not learn from your mother.",
           "nextNodeId": "s3"
         },
         {
           "text": "Refuse politely",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You keep your hands where he can see them and your voice pleasant and say no, and Rose fights him for you, and some part of her is enjoying it.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A long drive, white columns, two staff members who do not blink right.",
+      "text": "A quarter mile of gravel, white columns, a lawn edged by hand. Dean shakes your hand with both of his and holds on. In the kitchen a Black woman in a pressed uniform is putting plates away, and she smiles at you a full second too long without her eyes coming along. Out past the shed a Black man is stacking cordwood at a speed no one stacks cordwood at.",
       "sceneTitle": "Armitage House",
       "choices": [
         {
           "text": "Be friendly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You give the housekeeper the nod that means we both know where we are, and get back a smile with nothing whatsoever behind it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Be wary",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You count the exits out of habit and leave your bag by the front door instead of taking it up, and nobody notices, and you feel ridiculous.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Photos of grandparents, a fencing trophy, a knowing wink.",
+      "text": "Photographs the length of the hallway: grandfather in running spikes, beaten to the Berlin team by Jesse Owens and apparently still sore about 1936. A fencing trophy. A carving he picked up in Bali. He explains that he hired Walter and Georgina to look after his parents and could not bring himself to let them go afterwards, and hears it as it leaves him, and adds: I know how it looks.",
       "sceneTitle": "Dad's Tour",
       "choices": [
         {
           "text": "Smile",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You say it is a beautiful house and mean roughly half of that, and he takes the whole sentence as agreement and puts a hand on your shoulder.",
           "nextNodeId": "s5"
         },
         {
           "text": "Probe",
-          "consequence": "There is no taking “Probe” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You ask what happened to his parents, and the answer comes back so fast and so complete that it must have been sitting there waiting.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "The housekeeper pours sweet tea with a smile pinned on.",
+      "text": "She pours the sweet tea standing at your elbow and overfills the glass, and keeps pouring for a second after it goes over the rim onto the wood. Her apology arrives ahead of her sentence. When you say something quiet about how many white people there are out here, her face does two things at once — the smile holds absolutely still while a tear crosses it — and she says no. No, no, no.",
       "sceneTitle": "Georgina",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You take the pitcher out of her hand and mop the table with your own napkin, and she watches you do it the way you watch weather through a window.",
           "nextNodeId": "s6"
         },
         {
           "text": "Step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You let her clean it and say nothing kind, because kind has not worked once since you got here, and afterwards you feel the size of that.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "The groundskeeper runs full speed at you in the dark.",
+      "text": "Two in the morning, and you go out for the cigarette you told Rose you had quit. Something comes down the dark lawn at you at a dead sprint — arms driving, head up, closing — and cuts past your shoulder at the last possible instant. It is the groundskeeper, out running for his health, at two in the morning, in a shirt buttoned to the collar. He apologises using somebody else's vocabulary.",
       "sceneTitle": "Walter",
       "choices": [
         {
           "text": "Greet him",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You say his name to his face and he wishes you goodnight, brother, in the cadence of a man born fifty years before he was.",
           "nextNodeId": "s7"
         },
         {
           "text": "Step aside",
-          "consequence": "There is no taking “Step aside” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You step out of his way and let the cigarette burn down to your knuckles, and stand out on that lawn a good while afterwards by yourself.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A teaspoon against porcelain in a small dark room.",
+      "text": "She catches you coming back in. The kitchen light is off and she is up with tea. Sit. She is a psychiatrist, hypnosis is her field, she has taken people off cigarettes in a single session, and would you like her to. You say no thank you. She asks about your mother regardless. The spoon starts moving in the cup — small, even, ceramic on ceramic, like a clock with a chip in it.",
       "sceneTitle": "Missy's Stir",
       "choices": [
         {
           "text": "Resist",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You grip the arms of the chair and keep your eyes on the doorway, and the spoon keeps its time, and holding on proves to be exactly the wrong plan.",
           "nextNodeId": "s8"
         },
         {
           "text": "Talk",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You tell her about the rain and the television and how long you sat on that floor waiting, and saying it out loud is what unlatches the door.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A long fall into a dark with your own crying face in the corner.",
+      "text": "The floor is gone. You are falling through a dark that has no walls and you are getting slower rather than faster, and far up above there is a lit rectangle with your own face in it — eyes wide, tears running sideways, mouth open. That is the room you were just in. You can see everything that happens there and touch none of it. Her voice comes down after you: now you're in the sunken place.",
       "sceneTitle": "The Sunken Place",
       "choices": [
         {
           "text": "Climb",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You swim upward at a ceiling that is not there and arrive nowhere, and the effort of it is precisely what she is sitting there watching on your face.",
           "nextNodeId": "s9"
         },
         {
           "text": "Sink",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You stop fighting and let yourself drift, and the small lit square of your own face gets further away, and giving up your arms is horribly restful.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A cigarette forgotten by you for years.",
+      "text": "You come to in yesterday's clothes on top of the covers with an ashtray in your mouth and the smell of it through your shirt, and your body wants nothing to do with a cigarette, not one. Missy is bright over breakfast. Rose calls her mother a miracle worker. Your phone read ninety percent last night and is dead this morning, and the charger has been pulled out of the wall.",
       "sceneTitle": "Morning",
       "choices": [
         {
           "text": "Confront Missy",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You raise the tea at the table in front of everybody and she is delighted by it, and delight is not what people do when they have been caught out.",
           "nextNodeId": "s10"
         },
         {
           "text": "Pretend nothing happened",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cowardly.",
+          "consequence": "You eat the eggs, say thank you, and watch the room over the rim of the cup, and the pretending takes the entire morning out of you.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A lawn full of bidders pretending to be friends.",
+      "text": "Cars up the drive from nine: Lincolns, a Cadillac, one Porsche. Sixty guests in blazers, none of them under fifty, all of them white. They shake your hand and hold on. One wants to know if the game is better now. A woman squeezes your bicep in front of her husband and asks Rose, directly, whether it is true. Somebody says black is in fashion. Nobody is drunk. Nobody is actually talking to you.",
       "sceneTitle": "The Party",
       "choices": [
         {
           "text": "Mingle",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You work the lawn with a beer you never drink and field forty questions about your own body, and you smile all the way through every one of them.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay close to Rose",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You keep her elbow within reach like a passport, and she runs interference beautifully, and later you will think hard about how practised she was at it.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A familiar face, much older inside.",
+      "text": "There is one other Black guest on the lawn. Straw hat, golf shirt buttoned to the throat, married to a woman thirty years his senior, holding her hand the way you hold a receipt. His grip is soft and he says the weather is agreeable. You know that face. You know it from a neighbourhood the two of you both come out of, and the name he offers you is not his name.",
       "sceneTitle": "Logan",
       "choices": [
         {
           "text": "Ask about Brooklyn",
-          "consequence": "You commit to “Ask about Brooklyn.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You say the old neighbourhood out loud and watch nothing at all move behind his eyes, and the nothing is the worst thing you have seen today.",
           "nextNodeId": "s12"
         },
         {
           "text": "Move on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You let it go and tell yourself people change and get strange, and then spend an hour watching the back of his head from across the lawn.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Logan's nose bleeds, his eyes snap, his mouth opens.",
+      "text": "You lift the phone to take his picture for Rod and forget the flash is on. It fires into his face. He stops mid-word. Blood comes down out of his nose onto the straw hat, and then he is coming at you across the grass with his hands out and a completely different voice in his mouth, screaming at you to get out. Get out. Four men in blazers have him down within seconds.",
       "sceneTitle": "Flash Photo",
       "choices": [
         {
           "text": "Get out",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You back off the lawn with the phone still in your fist, and the picture is inside it, and that picture is the only thing that makes it home.",
           "nextNodeId": "s13"
         },
         {
           "text": "Reassure him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You put your palms up and say it's fine, it's fine, and everyone within earshot unclenches, and they walk him inside to lie down somewhere quiet.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "TSA. He believes you immediately.",
+      "text": "Your friend works airport security and has never once let you forget it. You send the photo. He rings back inside a minute with no joke anywhere in his voice and says Black men have been going missing and that this is a sex slave situation. It sounds absurd. It is also the only theory anybody has offered you all weekend, and he believed you before you finished your first sentence.",
       "sceneTitle": "Rod on the Phone",
       "choices": [
         {
           "text": "Tell him everything",
-          "consequence": "You commit to “Tell him everything.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You give him the tea, the spoon, the cigarette, the man on the lawn — and hearing it laid out in order in your own voice is what finally convinces you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Be vague",
-          "consequence": "You commit to “Be vague.” The story records the instinct as “Cowardly” and carries it forward.",
+          "consequence": "You keep it light so that he will not drive up here, and then you sit in the parked car afterwards with the keys in your hand for a while.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Photographs of past Black partners she pretended you were the first.",
+      "text": "You are hunting for the car keys in her closet and you find a shoebox instead. Photographs, twenty deep: Rose with a series of Black men, and one Black woman, on a beach, at a rink, in somebody's kitchen. Her smile is identical in every single frame. Walter in a track suit with her arm through his. Georgina in a diner booth. In your kitchen she told you that you were her first.",
       "sceneTitle": "Rose's Box",
       "choices": [
         {
           "text": "Bolt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You have the box under your arm and you are on the staircase before you have decided anything, and the whole family is standing in the hall below.",
           "nextNodeId": "s15"
         },
         {
           "text": "Confront her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You hold the pictures up and ask her, and she does not flinch or explain — she simply stops performing, all at once, like a light being switched off.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Missy on the couch tapping ceramic.",
+      "text": "The family arranges itself across the bottom of the stairs without hurrying anybody. Jeremy fills the doorway. Dean has the car keys in his fist. Rose goes through her handbag slowly, saying they are in here somewhere, and you watch her hands and understand she is not looking for anything. Missy is already seated. She sets the cup down, lifts the spoon, and the first small ring drops you through the floor.",
       "sceneTitle": "Teacup",
       "choices": [
         {
           "text": "Pocket cotton",
-          "consequence": "There is no taking “Pocket cotton” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "Going down, your fingers catch the split seam in the leather armrest and find raw stuffing underneath, and some part of you files that away before the dark closes.",
           "nextNodeId": "s16"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You get three strides toward the front door before the sound catches you, and going down at a run is far worse than going down standing still.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A patient strapped in a chair and a doctor with a smile.",
+      "text": "You surface strapped into a leather chair in a rec room with a deer's head on the wall and a television on a stand. A tape plays: the grandfather explaining the procedure, the transplant, the piece of you that remains afterwards as a passenger with a view. Then a live feed — Jim Hudson, blind, an art dealer, prepped upstairs. He says your being Black is beside the point. He wants your eyes.",
       "sceneTitle": "Basement Operation",
       "choices": [
         {
           "text": "Wait for the moment",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You keep your head down and let the tape run all the way out, and the waiting is not patience, it is arithmetic about a door and a stairwell.",
           "nextNodeId": "s17"
         },
         {
           "text": "Burst out",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You throw yourself sideways until the whole chair rocks, and all it earns you is a very clear understanding of how good these straps are.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Earbuds of fluff stop the trance.",
+      "text": "You have been working at the split in the armrest for two hours and what is underneath is raw cotton, which this house has an unbroken relationship with. You roll two plugs and press them in and the tape audio drops to a hum. When the spoon starts again out of the speaker overhead, the floor stays exactly where it is under your feet. You have never been so deliberately still.",
       "sceneTitle": "Petrified Cotton",
       "choices": [
         {
           "text": "Stay limp",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You let your head loll and your mouth hang and your eyes go soft, and Jeremy unbuckles you like luggage without checking a single thing twice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Snap up",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You come up out of that chair a second early and now speed has to do the entire job that surprise was supposed to do for you.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Lacrosse stick and a leer.",
+      "text": "He comes down the stairs whistling with a lacrosse helmet under his arm, the whole thing still a game to him, and starts on your ankle straps first. Your hands have been free for a while. The bocce ball sits on the shelf where his father keeps the equipment squared away, and it weighs about what a brick weighs. He is telling you what a beast you would be with a stick.",
       "sceneTitle": "Jeremy at the Door",
       "choices": [
         {
           "text": "Drop the boule",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You use it once, hard, and set it back down on the carpet, and the quiet afterwards is louder than anything else in that house.",
           "nextNodeId": "s19"
         },
         {
           "text": "Talk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You try words on him first, and he grins at you, and nothing in his entire life has ever been talked out of him.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "She is on the porch with grandma's body knocking on a window.",
+      "text": "Upstairs the house has stopped pretending: the mother on the floor, the grandmother wearing Georgina's face at the end of a hallway. Rose is out on the porch in riding boots with a bowl of cereal balanced on one knee and the rifle across the other. She has taken her hair down. When she sees you she brings the barrel up and calls you sweetheart with no strain in it whatsoever.",
       "sceneTitle": "Rose with a Rifle",
       "choices": [
         {
           "text": "Take her keys",
-          "consequence": "There is no taking “Take her keys” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You go for the pocket where she keeps the keys, and having her that close is worse than the rifle, because she still smells like your own bed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Get past her",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You break wide across the gravel and she tracks you the whole way without rushing, taking her time over the shot, enjoying the last of it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A flash, a sentence in his real voice, a gun handed back.",
+      "text": "The groundskeeper comes across the lawn at that same impossible speed and puts you flat, and he is stronger than the old man riding inside him. Your phone is in your hand. You fire the flash straight into his face. He goes rigid. Then Walter — the real one, all forty years of him — sits back on his heels, says one sentence in a voice you have never heard, and holds out his hand for the rifle.",
       "sceneTitle": "Walter Wakes",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You commit to “Trust him.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You hand the gun to a man who has been locked inside his own skull for years, and then you make a point of not watching what he does with it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay back",
-          "consequence": "You commit to “Stay back.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You keep your distance and let him decide it on his own, and he does not require you for any part of what comes next.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Sirens. A friend in a TSA jacket at the wheel.",
+      "text": "Rose is on the gravel with a hand out, asking for help, saying your name the way she used to say it in bed. Behind her the windows are lighting up orange one at a time. Headlights swing up the drive, and you stand in them while your chest gets itself ready for a badge, a shape, and a very short conversation. The door opens. The jacket says TSA. It's Rod.",
       "sceneTitle": "Headlights",
       "choices": [
         {
           "text": "Get in",
-          "consequence": "You commit to “Get in.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You get in and pull the door and the sound the latch makes is the first thing in three days that has meant anything good.",
           "nextNodeId": "end_rod"
         },
         {
           "text": "Wave",
-          "consequence": "You commit to “Wave.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You raise a hand at the headlights before you can see who is driving, which tells you exactly how badly you need this one to go your way.",
           "nextNodeId": "end_burn"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look past the car at the porch instead, at a man who insisted on doing the last part himself, and you let him have it.",
           "nextNodeId": "end_walter"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_rod",
-      "text": "Rod pulls up in a white SUV and you get in and the gates close behind you and the house goes silent for the first time in a hundred years.",
+      "text": "Rod leans across the front seat of an airport SUV and asks whether you got the pictures. You get in. The gate swings closed on a driveway with a burning house at the end of it and a family that has been collecting people for a century, and nobody outside this car is ever going to get the story straight. He puts the heater on. He tells you he told you so, and you let him have that, all of it.",
       "sceneTitle": "TSA on the Scene",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_burn",
-      "text": "You drag a candle through the parlor and the photographs flutter and the house lights up against a cold sky, and the lawn fills with confused neighbors.",
+      "text": "You carry a candle out of the parlour and walk it the length of a hallway hung with framed photographs — the spikes, the trophies, the album of identical smiles — and the whole gallery catches at once. Out on the frozen lawn the neighbours collect in their coats to watch the Armitage place go up, and to tell each other, over and over, what a lovely family they always seemed to be.",
       "sceneTitle": "Burn It Down",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_walter",
-      "text": "Walter, with the gun, salutes you once and turns it on the patriarch in the doorway. You drive away from a porch that has, finally, stopped smiling.",
+      "text": "Walter takes the rifle, salutes you once with two fingers off the brow, the way a man salutes who used to run for somebody else's pleasure, and turns toward the doorway where the patriarch is standing in his cardigan. He finishes it himself and does not ask you first. You walk down a long gravel drive past a porch that has finally, entirely stopped smiling, and you do not run.",
       "sceneTitle": "Walter Salutes",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Practice stabbing a tree at midnight in your underwear.",
+      "text": "Late, in your underwear, out at the courtyard tree with the kitchen knife you took from the drawer under the sink. You have been rehearsing the sentence for weeks: squeal, piggy, squeal. The bark takes the blade badly. Your breath goes up orange under the sodium lamp. Upstairs your mother is asleep with the television still on, and you have four bruises she has not asked about.",
       "sceneTitle": "Snow on a Knife",
       "choices": [
         {
           "text": "Practice",
-          "consequence": "There is no taking “Practice” back. Lonely shapes the silence before the next moment arrives.",
+          "consequence": "You stab the trunk until your hand aches and your feet stop feeling like feet, and it helps, and the helping is the frightening part.",
           "nextNodeId": "s2"
         },
         {
           "text": "Go inside",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You put the knife back under the sink and do the whole thing lying in bed instead. It takes longer and works exactly as well.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A pale girl, barefoot in the snow, who tells you she cannot be your friend.",
+      "text": "She is up on the climbing frame in the dark with no coat and no shoes and snow melting nowhere near her. Twelve, maybe. Her hair is wet at the ends. She smells faintly of something turned, like a bin in summer, and before you have said anything she tells you the two of you cannot be friends. Then she stays exactly where she is, waiting.",
       "sceneTitle": "Eli on the Jungle Gym",
       "choices": [
         {
           "text": "Speak to her",
-          "consequence": "“Speak to her” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You give her your name and hold out the Rubik's cube, because it is what happens to be in your pocket, and she takes it without touching your hand.",
           "nextNodeId": "s3"
         },
         {
           "text": "Walk past",
-          "consequence": "There is no taking “Walk past” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You go up to the flat and watch her from the kitchen window for an hour. She does not get cold and she does not leave.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Conny grabs your ear at the edge of the pool with a switch.",
+      "text": "Chlorine, echoes, the changing-room floor cold through your socks. Conny and two others get you against the tiles at the shallow end and Conny has a thin birch switch he keeps in his bag. He holds your earlobe between finger and thumb, almost politely, so that you will stand still for it. Squeal, he says. You do. On the far side of the pool the teacher is swimming lengths and counting them.",
       "sceneTitle": "Pool",
       "choices": [
         {
           "text": "Fight back",
-          "consequence": "You commit to “Fight back.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You swing once, badly, and connect with nobody. The switch leaves a red line under your ear that your mother reads as a cat scratch.",
           "nextNodeId": "s4"
         },
         {
           "text": "Endure",
-          "consequence": "You commit to “Endure.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You make the sound they want and they let go, and you are grateful, and the being grateful is the part you can never tell anyone.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "An old man hangs a child upside down in a forest with a funnel.",
+      "text": "In the trees behind the school an old man in a plastic-lined coat is working with the patience of somebody doing a chore he has done before. Rope, a funnel, a can. He is tidy about it. Halfway through, a poodle starts barking on the path and he walks away and leaves the whole arrangement hanging, empty-handed, with the face of a man who has failed at work.",
       "sceneTitle": "Hakan's Errand",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stay in the trees until your legs shake, and afterwards you cannot say what colour the boy's jacket was, only the man's shoes.",
           "nextNodeId": "s5"
         },
         {
           "text": "Walk away",
-          "consequence": "“Walk away” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You take the long way home past the sweet shop and buy nothing, and the poodle is still barking when you reach the main road.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Eli solves a Rubik's cube overnight under your window.",
+      "text": "You leave the cube with her scrambled and she hands it back finished, all six faces, no trick to it. She read the sides of it like a page. When you ask how, she says she likes puzzles, and asks whether you like people or only their books. Your fingers are aching with cold. Hers, when they brush yours on the railing, are the same temperature as the railing.",
       "sceneTitle": "Cube Game",
       "choices": [
         {
           "text": "Be impressed",
-          "consequence": "There is no taking “Be impressed” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You copy out the morse alphabet from a book of your father's and she has the whole thing memorised before the courtyard lights time out.",
           "nextNodeId": "s6"
         },
         {
           "text": "Be wary",
-          "consequence": "You commit to “Be wary.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You ask her what she eats, and she goes still in a way that is not a child's stillness, and you are the one who changes the subject.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Come in, you say. She steps inside, and she begins to bleed.",
+      "text": "She stands in the doorway in a borrowed dress and asks you to say it properly. You do not, on purpose, to see what happens. She steps over the threshold anyway, in her socks, looking straight at you. It begins at the corners of her eyes and then her nose and then her ears, all at once and without any noise at all, and she stands there and lets it.",
       "sceneTitle": "Invitation Test",
       "choices": [
         {
           "text": "Pull her in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You get both hands on her arms and drag her in across the carpet, and only afterwards think to say the words, and she forgives you the order.",
           "nextNodeId": "s7"
         },
         {
           "text": "Say it",
-          "consequence": "You commit to “Say it.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You say come in, out loud, meaning it, and she folds down onto the bathroom floor and the two of you spend an hour with a flannel and cold water.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "She is cold, you are warm, the door is locked.",
+      "text": "Curtains taped at the edges, the alarm clock turned to face the wall, your mother's door shut down the hall. She asks whether you would go steady with her, then asks whether it would matter if she were not a girl. Under the blanket she is precisely room temperature and she does not breathe when she is thinking. You lie awake doing sums about how many hours are left until light.",
       "sceneTitle": "Sleeping in Your Bed",
       "choices": [
         {
           "text": "Hold her hand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You keep hold of her hand under the blanket until she is as warm as you are, which takes most of the night and does not feel like a trade.",
           "nextNodeId": "s8"
         },
         {
           "text": "Sleep apart",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You give her the bed and take the floor by the radiator, and neither of you sleeps, and neither of you mentions it in the morning.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "He goes to the window for her at dawn, with a smile.",
+      "text": "He poured acid over his own face so that nobody could put a name to him, and he is still alive, and there is a policeman on the door. Fourth floor. She comes up the outside of the building at four in the morning. He gets himself to the window and tips his head back for her, patiently, the way you hold out an arm to a nurse. Then he lets go of the sill.",
       "sceneTitle": "Hakan's Hospital",
       "choices": [
         {
           "text": "Stay with him",
-          "consequence": "You commit to “Stay with him.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You go all the way down with him in your head and decide he must have loved her, which is the worst explanation available and probably the right one.",
           "nextNodeId": "s9"
         },
         {
           "text": "Step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You file it as a news item about an old man and a hospital window, and it stays filed for exactly one day before it comes out again.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A drained corpse and a town that is starting to notice.",
+      "text": "They cut a hole in the ice and bring up Jocke, who used to buy rounds at the Chinese restaurant, and he weighs almost nothing now. The regulars stand on the bank in their coats with their hands in their pockets and no one says the obvious word. Lacke, who is drunk most days, is not drunk today. He has started counting the doors in your block.",
       "sceneTitle": "Lake Body",
       "choices": [
         {
           "text": "Tell the police",
-          "consequence": "There is no taking “Tell the police” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You tell an officer about a girl with no shoes on a climbing frame, and he writes down your name and your mother's name and nothing else.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay quiet",
-          "consequence": "“Stay quiet” closes one possibility and opens another. The moment leaves a clear note behind: Loyal.",
+          "consequence": "You keep it to yourself, and the keeping is the exact moment you stop being a boy who tells adults things.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A cat-laden apartment with a friend who is now afraid of sunlight.",
+      "text": "Virginia was bitten in the underpass and lived, which turns out to be worse. Up in Gosta's flat the cats come off the shelves at her all at once, a dozen of them, silent, and have to be pulled off her arms one at a time. She will not eat. She keeps the blinds down on a grey Tuesday afternoon. In hospital she asks the nurse, politely, twice, to open the curtains.",
       "sceneTitle": "Virginia at the Window",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "There is no taking “Help her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You sit with her while she tries to explain what daylight feels like now, and she is embarrassed about taking up your afternoon.",
           "nextNodeId": "s11"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You are out of the door and down four flights before Gosta has the last one off her, and you hear it through two floors of stairwell.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "She asks for the curtains.",
+      "text": "A private room, a drip, a nurse who has become fond of her. She says please the way a woman asks for a window seat. The nurse is a decent person. The nurse does it. Morning comes in across the bedspread in one long yellow bar and Virginia turns her face into it deliberately, unhurried, like somebody stepping into a shower, and does not scream at all.",
       "sceneTitle": "Curtains Open",
       "choices": [
         {
           "text": "Open them",
-          "consequence": "“Open them” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "The nurse pulls the cord and stands there a second too long, and afterwards will keep saying she thought it was only light.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "Somebody keeps them shut for one more day, and the extra day is not a kindness and nobody involved should be thanked for it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A whisper, an invitation already spoken, a kiss on the cheek.",
+      "text": "She is outside the flat at two in the morning with dried blood behind one ear, and she does not knock, because she no longer has to. She says she has to leave the town tonight. She says she has been doing this a very long time and she is sorry about the way she smells. Then she kisses your cheek with her mouth shut and holds still to see what you do.",
       "sceneTitle": "Eli at Your Door",
       "choices": [
         {
           "text": "Hold her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You put both arms around her in the hallway and she is stiff for a second before she allows it, like somebody badly out of practice.",
           "nextNodeId": "s13"
         },
         {
           "text": "Step back",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You keep the width of the doormat between you, and she nods, as though that is the answer she has had from everybody for centuries.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A bigger boy with a bigger grudge.",
+      "text": "Jimmy is seventeen, shaves, drives his own car, and has heard that a small boy split his brother's ear open with a stick at the ice hole. In the corridor at school he is friendly about it. He puts a hand on the back of your neck the way an uncle would, tells you he will be seeing you, and lets go. Everybody in the corridor keeps walking.",
       "sceneTitle": "Conny's Brother",
       "choices": [
         {
           "text": "Stand up",
-          "consequence": "You commit to “Stand up.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You look him in the face and say nothing, and he laughs and calls you a hard man, and you spend the whole afternoon shaking.",
           "nextNodeId": "s14"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You take the fire door and the long way round the bins, and by last period he has already found out where your class swims on Fridays.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Conny holds your head under water and counts.",
+      "text": "Half past eight, the pool empty except for your class, and then the teacher is called out to a fire at the school and does not come back. Jimmy locks the door behind him. He offers the room a deal, out loud, so everyone hears it: three minutes under, or an eye. He counts aloud. Conny's hand is flat on the crown of your head and Conny has stopped enjoying this.",
       "sceneTitle": "Pool, Again",
       "choices": [
         {
           "text": "Hold your breath",
-          "consequence": "“Hold your breath” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You go down with a full chest and count along with him inside your own head, and you get much further than either of you expected.",
           "nextNodeId": "s15"
         },
         {
           "text": "Surrender",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You stop fighting the hand and let the water take the sound out of everything, and it is almost restful, which frightens you later.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A head and a hand fall on the pool deck above you.",
+      "text": "Underwater it is blue and slow and roaring. Something comes into the pool hard at the far end and the pressure of it goes through your chest like a door slamming. Legs move. The counting stops in the middle of a number. Two things land on the tiles above you and roll, and one of them still has a wristwatch on it, and the water around your face goes warm and then dark.",
       "sceneTitle": "Splash",
       "choices": [
         {
           "text": "Open your eyes",
-          "consequence": "There is no taking “Open your eyes” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You look up through the chlorine and see precisely what has happened, and you understand at once that you will never tell an adult any of it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay closed",
-          "consequence": "You commit to “Stay closed.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You keep them shut and let the hand on your head simply stop being there, and the not-looking turns out to be its own kind of yes.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "She lifts you out of the water with a small, kind smile.",
+      "text": "Her hand comes down into the water, takes a fistful of your hair, and you are out and on the tiles coughing before you understand that you have moved. She is soaked through and calm and her mouth is a mess. She crouches so that your faces are level, which adults never do, and waits for you to get your breath back. The pool is very quiet now.",
       "sceneTitle": "Eli on the Edge",
       "choices": [
         {
           "text": "Take her hand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You let her pull you up and you do not look at the deep end, and she walks you out past all of it without hurrying you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Look away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You get to your feet on your own and keep your eyes on the grouting between the tiles, and she lets you, and does not ask why.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A small box on the seat across from you on a long train south.",
+      "text": "You buy two tickets south with money out of your father's kitchen jar. The trunk goes on the seat opposite, air holes drilled in a neat pattern along one end, and you keep a hand through the strap. Snow slides off the platform roof in slabs. The carriage smells of coffee and wet wool. Nobody looks twice at a boy travelling alone with a heavy piece of luggage.",
       "sceneTitle": "Train Station",
       "choices": [
         {
           "text": "Tap",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You knock the first letter of her name on the lid before the train is even out of the yard, because you cannot wait any longer.",
           "nextNodeId": "s18"
         },
         {
           "text": "Look out the window",
-          "consequence": "“Look out the window” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You watch the sidings go past with your palm flat on the wood, and let her have the dark to herself for the first hour.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A small reply from the box.",
+      "text": "It comes back through the lid so softly that you feel it before you hear it. Two, then one, then a pause. P-U-S-S. It is the game from the courtyard, from before any of this, from the week when you were only a boy with a cube in his pocket. You spell it back. She answers instantly, which means she has been awake the entire time.",
       "sceneTitle": "Morse Tap",
       "choices": [
         {
           "text": "Tap back",
-          "consequence": "“Tap back” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You keep the conversation going the length of two counties, and your knuckles are raw by Norrkoping, and you do not stop.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You rest your hand on the lid instead of tapping, and she taps once more, and waits, and then does not.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Sun across a pine forest as the train rocks.",
+      "text": "The window goes grey, then pink, and then the sun comes off the snow between the pines in flat white sheets that cross the carriage floor and climb the seat opposite. It reaches the near corner of the trunk. You put your school bag in the way. It reaches the other corner. There is an hour and a half of this before the line goes into the next tunnel.",
       "sceneTitle": "Dawn Outside",
       "choices": [
         {
           "text": "Cover the box",
-          "consequence": "You commit to “Cover the box.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You strip off your jacket and drape it over the lid and sit there in shirtsleeves, shivering, until the light has moved off the seat.",
           "nextNodeId": "s20"
         },
         {
           "text": "Open the window",
-          "consequence": "“Open the window” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You crack the window for the cold and the noise, and spend the whole hour arranging your own body between the sun and the wood.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Tickets and small change.",
+      "text": "He comes down the aisle punching cards and making change out of a leather pouch. He looks at the trunk, then at you, and asks whether you are going to your grandmother's. You say yes. He asks what is in the box. You say records. He clips your ticket, tells you to mind the doors at Nassjo because they close fast, and moves on down the carriage whistling.",
       "sceneTitle": "Conductor Walks Past",
       "choices": [
         {
           "text": "Stay still",
-          "consequence": "There is no taking “Stay still” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You keep both hands in your lap and answer in short sentences, and he decides you are shy rather than anything more interesting.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hold the box tight",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "Your arms go around the trunk before you can stop them, and he watches you do it, and files it under boys and their things.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Just the two of you and the morse going.",
+      "text": "By afternoon the carriage has emptied down to you, the trunk, and somebody's folded newspaper. Fields, a level crossing, a red barn with a broken gutter. The tapping keeps going under your palm, nonsense now, just contact, the way people hold hands in a cinema. You are eating a bread roll you did not pay for. Nobody is looking for you and there is nowhere you have to be.",
       "sceneTitle": "Empty Carriage",
       "choices": [
         {
           "text": "Sleep",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You sleep with your cheek against the lid and the vibration coming through the bone, and you sleep better than you have all year.",
           "nextNodeId": "end_train"
         },
         {
           "text": "Watch the snow",
-          "consequence": "“Watch the snow” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You stay awake and let yourself go back into the changing rooms in your head, all of it, in order, and find that you are not sorry.",
           "nextNodeId": "end_pool"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a life at the far end of this where you are a grown man with a case beside you on a platform, and it begins somewhere near here.",
           "nextNodeId": "end_letter"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_train",
-      "text": "You and the box ride south for days, and the small tapping never stops, and the snow goes from white to gray to slush as the train carries you somewhere kinder.",
+      "text": "Days of this. Sundsvall, then further, then places you have to look up. The snow goes white to grey to a brown slush that soaks through your shoes on every platform. You get good at buying two of everything and eating one. The tapping never stops for long. At night she is out and back before you wake, and never says where, and you never ask, and that arrangement is the whole of the rest of your life, agreed at twelve, on a train.",
       "sceneTitle": "Puss, Puss",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_pool",
-      "text": "You climb out of the pool and Eli pulls a towel around you, and the two of you walk past a half-dozen severed surprises with an even smaller smile.",
+      "text": "She wraps a towel round your shoulders and rubs your arms until you can feel them again, and walks you out through the changing rooms without letting you look left. Your clothes are still on the hook. Your shoes are where you left them. Outside it is snowing and the lamps are on and somebody's mother is calling a name from a balcony. You take her hand on the path, and neither of you says one word about any of it, then or ever.",
       "sceneTitle": "On the Tile",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_letter",
-      "text": "Decades later you write your mother a postcard from a city she cannot name, and you sign it with a small symbol Eli taught you that means thank you for the invitation.",
+      "text": "You send your mother a postcard every few years from cities she could not find on a map, always short, always signed with two dots and a line, which is a mark Eli taught you at a courtyard window and means thank you for letting me in. She writes back to poste restante and asks whether you are eating, and whether you have met anyone. You have. She has been the same age since before your grandmother was born. You write: someone kind. You leave it there.",
       "sceneTitle": "A Letter Home",
       "choices": [],
       "isEnding": true,

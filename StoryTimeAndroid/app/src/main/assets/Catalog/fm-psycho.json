@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Sam in a hotel room. The cash from the office is heavy.",
+      "text": "Lunch hour in a downtown hotel with the blinds half shut and Sam still in his undershirt, talking about his father's debts and his ex-wife's alimony the way a man reads out a bill. Back at the office, Cassidy drops forty thousand in cash on the desk and says money never bought anybody unhappiness. Lowery asks you to bank it. It is Friday. He is leaving early.",
       "sceneTitle": "Friday Lunch",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "“Take it” closes one possibility and opens another. The moment leaves a clear note behind: Decision.",
+          "consequence": "You put the envelope in your handbag and go home and pack, and you leave the closet door standing open, which is not like you at all.",
           "nextNodeId": "s2"
         },
         {
           "text": "Don't",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You drive to the bank and sit in the lot with the engine running through two changes of the traffic light, and the envelope is still in your bag when you pull out.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You stop at a dealer. You change cars.",
+      "text": "A patrolman in mirrored glasses raps on your window at dawn where you pulled over to sleep, and asks why you did not take a motel like everybody else. He follows you into town. You trade the Ford for a Buick at a used lot in twenty minutes flat, counting cash in the ladies' room, and the salesman says nobody buys a car that fast. The patrolman watches from across the street.",
       "sceneTitle": "On the Road",
       "choices": [
         {
           "text": "Sleep at a motel",
-          "consequence": "You commit to “Sleep at a motel.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You decide you need six hours of sleep more than you need distance, and you start looking for a sign with the light still on.",
           "nextNodeId": "s3"
         },
         {
           "text": "Drive all night",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You keep going past every off-ramp in the rain until the wipers stop helping and your hands have cramped shut on the wheel.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Vacancy. A boy at the office. His mother shouts upstairs.",
+      "text": "Rain heavy enough that the highway has gone. Twelve cabins, twelve vacancies, a neon sign with a dead letter, and a house up on the rise with one window lit. The young man in the office is polite and starving for company and puts you in the cabin nearest his own. He shows you where the closet is. He cannot get the word bathroom out, so he points at it instead.",
       "sceneTitle": "Bates Motel",
       "choices": [
         {
           "text": "Check in",
-          "consequence": "There is no taking “Check in” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You sign a false name and a false town and hand the book back, and he hangs the key on the board without once looking at what you wrote.",
           "nextNodeId": "s4"
         },
         {
           "text": "Move on",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You consider driving on and the wipers make the decision for you, which is roughly how every decision has been made this week.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Sandwiches and milk. Stuffed birds.",
+      "text": "The parlour behind the office is full of birds he has stuffed himself: an owl over the door with its wings out, a crow perched on the lamp. He says a hobby should pass the time and not fill it. He talks about his mother, about how a boy's best friend is his mother, and then he uses the word trap, twice, and looks at the sandwich instead of you.",
       "sceneTitle": "Parlor",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You let him keep talking and he gives away more than he means to, and when you suggest somewhere she might be cared for, his voice changes register entirely.",
           "nextNodeId": "s5"
         },
         {
           "text": "Eat fast",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You finish the sandwich, thank him, and leave him standing among his birds with the sentence he was building still unfinished.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Shower. The curtain. The shadow.",
+      "text": "You have done the arithmetic on the back of an envelope and torn it up and flushed it, and decided to drive back in the morning and hand every dollar of it over. The shower is the first honest thing all week: very hot, very loud, the curtain white and translucent. Somewhere in the room a door opens. A shape arrives on the other side of the plastic. A hand takes hold of the curtain.",
       "sceneTitle": "Bathroom",
       "choices": [
         {
           "text": "Hear the steps",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You catch the hinge over the noise of the water and half turn, so you get one look at it, and one look is all there is time for.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You keep your face up in the spray with your eyes shut, and the whole thing arrives without any warning at all, which is the only mercy on offer.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Norman finds the room. He cleans, carefully, with bleach.",
+      "text": "He comes down from the house at a run, looks in, and puts a hand over his mouth in the doorway like a boy who has broken something of his mother's. Then he fetches a mop, a bucket and a bottle of bleach. He works for an hour. He wipes the taps down. He folds the towels and squares them on the rail. He walks the room twice before he switches off the light.",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Notice the car",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You notice that he never once opens the handbag on the nightstand, and that forty thousand dollars goes into the boot wrapped in yesterday's newspaper.",
           "nextNodeId": "s7"
         },
         {
           "text": "Notice the swamp",
-          "consequence": "You commit to “Notice the swamp.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You notice that the car stops sinking with a foot of roof still showing, and the way he waits, chewing, until the swamp takes the rest.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He asks Norman questions. The hallway creaks.",
+      "text": "A private man in a hat works every motel on the old highway with a photograph and a chequebook manner. He reaches Bates on a Thursday. He asks to see the register and Norman lets him, and there it is: a false name written in a real hand. Then he asks about the woman he can see in the window of the house, and Norman starts stammering and cannot get himself stopped.",
       "sceneTitle": "Detective Arbogast",
       "choices": [
         {
           "text": "Push",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "He leans on the mother and the answers get worse and worse, and a man who lies this badly is a man worth staying near.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "He walks to a phone booth and tells Lila he will call again in an hour, and that one call is the only reason anybody ever finds anything.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The detective climbs. The door opens.",
+      "text": "The house is unlocked, because it is a house. He goes up the front stairs slowly, taking in the runner, the wallpaper, the smell of an old woman's things kept exactly as they were left. He is four steps below the landing when a door comes open above and behind him, and he is looking the wrong way entirely, and he never does get his hands up.",
       "sceneTitle": "Stairs",
       "choices": [
         {
           "text": "Survive",
-          "consequence": "You commit to “Survive.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "He gets one arm across his face and goes down the whole flight backwards with the runner sliding under him, and the front door stays shut.",
           "nextNodeId": "s9"
         },
         {
           "text": "Press on",
-          "consequence": "There is no taking “Press on” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "He calls out a greeting from the stairs, politely, the way anyone would in a stranger's house, and that is the last sentence he says.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Marion's sister and the boyfriend come to find her.",
+      "text": "Marion's sister drives up from Phoenix and stands in the doorway of the hardware store with her hands in her coat pockets. Lila does not cry and does not sit down. The detective was due to telephone at six and it is now Saturday afternoon. Sam sells a man a tin of insecticide and reads the warning off the label aloud, twice, because he needs a minute before he turns round.",
       "sceneTitle": "Sam and Lila",
       "choices": [
         {
           "text": "Visit Norman",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You drive out that night and sign the register as husband and wife, and Norman recognises Lila's jaw before he has finished writing the room number.",
           "nextNodeId": "s10"
         },
         {
           "text": "Visit the sheriff first",
-          "consequence": "You commit to “Visit the sheriff first.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You knock on Sheriff Chambers's door at ten on a Sunday morning and wake a man who has known these people his entire life.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Mother has been dead for ten years.",
+      "text": "Chambers comes to the door in his dressing gown and hears the whole thing out with his wife making coffee behind him. Then he says it plainly. Norman's mother has been in the ground at Greenlawn for ten years, alongside the man she died beside. Poison in the coffee, the pair of them. He stood at the graveside himself. So who, he asks, is that in the window?",
       "sceneTitle": "Sheriff",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You take the sheriff's word and the case turns inside out, because if she is buried then the woman upstairs is a costume somebody puts on.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't believe it",
-          "consequence": "You commit to “Don't believe it.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You decide a small-town sheriff can be wrong about a grave, and you keep the appointment you have already made with the register.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "She goes to the house. Sam keeps Norman talking.",
+      "text": "The plan is thin and takes four minutes to make. Sam keeps Norman in the office arguing about the price of a room, and Lila walks up the path to the house alone in the middle of a Sunday afternoon. Sam talks about money, then about Marion, then about anything at all. Norman keeps looking past his shoulder at the window on the rise.",
       "sceneTitle": "Lila Investigates",
       "choices": [
         {
           "text": "Search every room",
-          "consequence": "“Search every room” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "Lila goes through the mother's bedroom, then the boy's room with its wind-up toy and its unmade bed, and then finds the cellar steps.",
           "nextNodeId": "s12"
         },
         {
           "text": "Search only downstairs",
-          "consequence": "You commit to “Search only downstairs.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "She keeps to the parlour and the hall, and hears Sam's voice stop in the middle of a sentence outside, which is how she knows to hide.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Lila descends. A figure in a chair. A wig.",
+      "text": "Fruit cellar. One bulb on a cord. A woman sits in a chair with her back to the door in a good dress with her hair pinned up, and does not turn round when she is spoken to. Lila puts a hand on the shoulder. The chair swings round on its castors. What is in it has been dead a decade and dressed with enormous care, and the bulb is still swinging.",
       "sceneTitle": "Cellar",
       "choices": [
         {
           "text": "Don't scream",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "She gets a hand across her own mouth and keeps it there, and the sound she does not make is what buys her the next four seconds.",
           "nextNodeId": "s13"
         },
         {
           "text": "Scream",
-          "consequence": "You commit to “Scream.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "She screams and the swinging bulb throws her shadow all over the wall, and the door at the top of the steps opens on a woman in a dress.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Norman enters with a knife. Sam stops him.",
+      "text": "He comes down the steps in the wig and the housedress with the knife already up, and the voice coming out of him is nothing like the voice from the parlour. Sam takes him round the middle from behind and the two of them go into the shelving. The wig comes off on the concrete. What is left is a young man on the floor, out of breath, explaining that it was his mother.",
       "sceneTitle": "Norman",
       "choices": [
         {
           "text": "Hold him",
-          "consequence": "You commit to “Hold him.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "Sam pins both arms and holds on until the fight goes out of him, and it goes out all at once, like a switch being thrown.",
           "nextNodeId": "s14"
         },
         {
           "text": "Knock him out",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pragmatic.",
+          "consequence": "Sam hits him once, and regrets it in the police report, and nobody who reads the police report cares in the slightest.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "A psychiatrist explains, calmly, what happened.",
+      "text": "The psychiatrist comes out to the county building and explains it to a room of exhausted people with the assurance of a man who has waited years for a case like this one. He covers the ten years, the poison, the cellar, the dress. He says Norman was never entirely Norman. He is clear and calm and unhurried, and there is something obscene in how much he is enjoying himself.",
       "sceneTitle": "Hospital Interview",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "There is no taking “Listen carefully” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You sit through all of it and take home nothing but his phrase about the mother half winning, which you will repeat for years without meaning to.",
           "nextNodeId": "s15"
         },
         {
           "text": "Leave",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go out to the corridor and stand by a radiator, because a diagnosis is not an answer and it was an answer you came for.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Norman, smiling. A fly.",
+      "text": "They put him in a room with a bench and a blanket, and he sits with the blanket round his shoulders, perfectly still, hands out of sight beneath it. A fly lands on the back of one hand and he lets it stay there. He is thinking in a voice that is not his, about how they are watching, and how they will see that this one would not even hurt a fly.",
       "sceneTitle": "Cell",
       "choices": [
         {
           "text": "Look away",
-          "consequence": "You commit to “Look away.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You turn away from the observation window because the smile is arriving very slowly and you do not want to be present when it finishes.",
           "nextNodeId": "s16"
         },
         {
           "text": "Watch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You stay at the glass until the smile is fully assembled, and it becomes the last thing about him you are able to describe.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Marion is buried. Sam holds Lila's hand.",
+      "text": "Green tent, folding chairs, six people. Her employer sends flowers and does not come. The money went back to Cassidy the day it came out of the swamp, still banded, in an evidence bag with a docket number on it. Lila keeps her chin level through the whole service. Sam holds her hand, and neither of them can work out yet whether that is allowed.",
       "sceneTitle": "Funeral",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "There is no taking “Stand” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You stand where you are told and say nothing and let the minister do the work, and that turns out to be exactly enough for Lila.",
           "nextNodeId": "s17"
         },
         {
           "text": "Speak",
-          "consequence": "“Speak” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You say four sentences about Marion at the graveside and get one of them badly wrong, and Lila squeezes your hand anyway.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Sam, after, drinks too much. He's, in a way, ashamed.",
+      "text": "Sam closes the hardware store on Wednesdays now and drinks in the afternoon at a place on the county line where nobody knows the name. What he cannot get past is the arithmetic. She was driving back to give all of it up, for him, in the rain, and she chose that motel because it had a light on. He never once asked her to come.",
       "sceneTitle": "Sam, Quiet",
       "choices": [
         {
           "text": "Forgive him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You sit with him through the worst of it and say the thing about the rain and the sign, and he lets you say it twice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Move on without him",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stop returning the calls and eventually he stops making them, and the ledger on that decision stays open for a long time.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Lila will not let it go. She presses the DA.",
+      "text": "Lila writes letters. To the district attorney, to the state hospital board, to a paper in Phoenix. She wants to know why nobody checked the Bates plot in ten years, why the county cleared a highway motel twice, and whose signature is on the paperwork. She keeps a folder with tabs in it. She is not grieving in a shape that anybody around her finds convenient.",
       "sceneTitle": "Lila, Sharp",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "There is no taking “Help her” back. Right shapes the silence before the next moment arrives.",
+          "consequence": "You drive her to Phoenix and sit outside offices with the folder on your knees, and you learn what she is like when she stops being polite.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step back",
-          "consequence": "You commit to “Step back.” The story records the instinct as “Healing” and carries it forward.",
+          "consequence": "You tell her, kindly, that none of it brings Marion back, and she looks at you as though you had remarked on the weather.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The motel, in foreclosure, is sold to a couple who don't know.",
+      "text": "The motel goes to auction with the house included. A couple from Tucson buy it for the land and the road frontage and talk about repainting the cabins and putting in a pool. Nobody at the auction mentions cabin one. The listing describes it as a going concern with owner's residence, in need of modernisation, and the photograph was taken on a bright day from the road.",
       "sceneTitle": "The Property",
       "choices": [
         {
           "text": "Tell them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You catch the wife by her car and give her the short version, and she thanks you and buys it anyway, and you have done what you can.",
           "nextNodeId": "s20"
         },
         {
           "text": "Don't",
-          "consequence": "“Don't” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You watch them walk the lot with a tape measure and keep your mouth shut, and the pool goes in where the old sign used to stand.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You read a paper. Norman is still there. Still smiling, still inside.",
+      "text": "The item is four inches on page nine: a state hospital, a review board, a patient described as a model of cooperation for twenty years and not, at this time, under consideration for release. There is a photograph with it. He is heavier and greyer and looking directly into the camera, and it is the same face he had in the parlour under the owl.",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Visit him",
-          "consequence": "You commit to “Visit him.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You write off for a visitor's pass and get one, and then keep it in the glove compartment for two years without ever using it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't",
-          "consequence": "There is no taking “Don't” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You cut the item out with the kitchen scissors, then throw it away, then take it back out of the bin an hour later.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You move on. You marry quietly. You don't tell most people about Phoenix.",
+      "text": "You have a life now, a modest one, in a town with a single traffic light and a decent library. You are careful about motels. You take the interstate and the chain places with lobbies lit like operating theatres. You have not stood under a shower with the curtain pulled since the year it happened, and your spouse has started to notice the baths.",
       "sceneTitle": "Your Life",
       "choices": [
         {
           "text": "Tell your spouse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You tell it once, badly, across a kitchen table at midnight, and afterwards you are married to somebody who knows.",
           "nextNodeId": "end_sam"
         },
         {
           "text": "Bury it",
-          "consequence": "“Bury it” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You leave the whole decade in Arizona where it happened and let your own history begin somewhere around the state line.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a version where you sell it properly, with your name on the front of it, and let the entire country have a look at Phoenix.",
           "nextNodeId": "end_press"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_sam",
-      "text": "You and Lila, after years, end up married. The marriage is, against all odds, kind. You buy a small business in Fairvale. You sleep poorly some nights.",
+      "text": "You and Lila marry four years after the funeral, in a registry office, with two witnesses borrowed from the hardware store. It is a kinder marriage than either of you had any right to expect. You buy a lumber yard in Fairvale and do well enough at it. She keeps the folder in a filing cabinet in the spare room and adds to it perhaps twice a year. Some nights one of you gets up at three and the other does not ask why, and that arrangement holds for forty years.",
       "sceneTitle": "Sam and Lila",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You move to California. You become a teacher. You don't, in the end, talk about the motel. The story, you decide, was never yours.",
+      "text": "You move to California and teach eighth-grade history in a school with a view of a brown hill. Colleagues find you pleasant and a little reserved. In twenty years you mention Phoenix three times and the motel not once, because you worked out early that the story belongs to a woman who cannot tell it, and the version you would give would really be about what it was like to be near her, which is not the same thing and never was.",
       "sceneTitle": "Quietly",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_press",
-      "text": "You write a long piece for a magazine. It becomes a book. The book becomes a movie, twice. You are paid. You give half away.",
+      "text": "You write it long and cold: the register entries, the coroner's photographs, the sheriff's own words about standing at the graveside. A magazine runs it over twenty-two pages. It becomes a book, then a film, then a second film, worse. You are paid more than the hardware store made in a decade, and half of it goes to Lila, who cashes the cheque without comment. Strangers tell you what happened at that motel now, at parties, and they get the woman's name wrong every single time.",
       "sceneTitle": "The Press",
       "choices": [],
       "isEnding": true,

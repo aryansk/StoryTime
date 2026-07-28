@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A coffin of a room. Heat. Debts. You write a strange article on theory.",
+      "text": "Five flights up, under the roof, in a room the shape of a cupboard. July has been baking the tin above your head since dawn. You owe your landlady four months and take the stairs slowly so her door will not open. On the sill lies your article, the one arguing that certain men are permitted to step across. You have not eaten since Tuesday.",
       "sceneTitle": "The Garret",
       "choices": [
         {
           "text": "Re-read your article",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You read your own sentences in the heat and find them beautiful, which frightens you less than it should. The logic holds. You keep reading anyway.",
           "nextNodeId": "s2"
         },
         {
           "text": "Burn it",
-          "consequence": "“Burn it” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You hold the pages over the candle, then blow the candle out. Burning paper changes nothing; you can recite the argument from memory, and do, all afternoon.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Alyona, mean, alone. You pawn a watch.",
+      "text": "Alyona Ivanovna keeps four locks and a face like a folded receipt. The flat smells of old wool and vinegar. She turns your father's watch over, names a price that insults you both, and counts the coins twice. Behind her: a chair, a trunk, a bed under a chintz cover. You catch yourself measuring the distance from the door to where she stands.",
       "sceneTitle": "The Pawnbroker",
       "choices": [
         {
           "text": "Note her routine",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You learn she is alone after seven, that the bolt sticks, that her sister trades in the market on Wednesdays. Knowledge you did not ask for and cannot put down.",
           "nextNodeId": "s3"
         },
         {
           "text": "Hesitate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You take the coins and say something pleasant about the weather. Your voice comes out perfectly ordinary, and that ordinariness follows you down four flights.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "A drunk in a tavern. Sonia, his daughter, doing what she has to.",
+      "text": "The tavern is below street level and smells of pickled fish. A ruined clerk in a coat with no buttons buys you a drink with money that is not his and tells you everything: the dismissal, the wife who coughs, the daughter who took a yellow ticket so the children could eat. He tells it proudly, at volume, to the whole room. That is the part you cannot get past.",
       "sceneTitle": "Marmeladov",
       "choices": [
         {
           "text": "Drink with him",
-          "consequence": "“Drink with him” closes one possibility and opens another. The moment leaves a clear note behind: Compassion.",
+          "consequence": "You stay until he cannot stand, walk him home, and watch his wife pull his hair while the children scream. You give away thirty kopecks you needed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Walk out",
-          "consequence": "You commit to “Walk out.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You leave him mid-sentence and take the air outside, which is no better. His daughter's name stays with you like a splinter under the nail.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Dunya, your sister, is engaged to a man who is, plainly, a creditor.",
+      "text": "Your mother's handwriting crowds the margins and runs up the sides. She writes cheerfully that Dunya is engaged to Luzhin, a man of forty-five who mentions his own generosity in every letter, who wants a wife with nothing so she will always owe him. Your mother calls this good fortune. She encloses money she does not have. Both women are selling themselves for you, and they call it love.",
       "sceneTitle": "Letter from Mother",
       "choices": [
         {
           "text": "Refuse the help",
-          "consequence": "“Refuse the help” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You write back forbidding the marriage in a hand that shakes. The letter is never posted; you spend the postage on bread and despise yourself for it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Accept",
-          "consequence": "There is no taking “Accept” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You take the roubles and buy a hat you do not need. Every time your sister's name comes up after that, something in your chest folds over.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "You bring the axe under your coat.",
+      "text": "There is a hatchet under a bench in the porter's lodge, and a loop you have sewn inside your coat to carry it. You test the weight against your ribs. Somewhere across the city a bell counts the half hour. You have argued yourself here on paper for weeks; the argument is thin as a wafer now, and your legs know the route without consulting you.",
       "sceneTitle": "Decision",
       "choices": [
         {
           "text": "Go",
-          "consequence": "“Go” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You step out into a heat that has not broken in nine days. Your body carries you as though the decision were already old business, settled last year.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't",
-          "consequence": "There is no taking “Don't” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You sit on the bed and renounce the whole idea, seriously and completely, for the better part of an hour. Then you stand up and put on your coat.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "She opens it. The room is small. You strike.",
+      "text": "The bell has a tinny, private sound. She opens the door the width of the chain, sees a customer, lets you in. You hold out a cigarette case wrapped in paper and tied with tape you knotted deliberately badly. She turns toward the window to work at the string. Her neck is thin and grey. Her hair is tied with a scrap of ribbon, the way a girl ties it.",
       "sceneTitle": "The Door",
       "choices": [
         {
           "text": "Strike",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "It takes less effort than a door that sticks. Afterward you stand listening to your own breathing and cannot remember choosing to lift your arm.",
           "nextNodeId": "s7"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You turn for the stairs and your body does not go. Something else finishes what your theory started, and it uses your hands to do it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Her sister returns. You strike again.",
+      "text": "You are at the trunk under the bed, hands wet, filling your pockets with objects you will never sell, when the outer door opens. Lizaveta stands in the middle of the room. She does not scream and she does not run. She lifts one arm the way a child does, palm out, apologetic, as though sorry to be in the way. Her mouth moves without sound.",
       "sceneTitle": "Lizaveta",
       "choices": [
         {
           "text": "Mourn instantly",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "She was the one who mended shirts for kopecks and gave the change to beggars. You know this while it is happening, which does not stop you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Don't think",
-          "consequence": "There is no taking “Don't think” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You refuse the thought for a single second, and the refusal costs more than the act. You will not manage to think anything else for two years.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The hallway. Footsteps. You hide behind an empty door.",
+      "text": "You are on the landing with the door open behind you when boots start up from the fourth floor. Two men. They knock, then rattle, then argue about fetching the porter. Six feet away is an empty flat, painters' buckets, fresh whitewash, no lock. The men go down together for help. You walk out through the yard past a street sweeper who does not look up from his broom.",
       "sceneTitle": "Escape",
       "choices": [
         {
           "text": "Hide",
-          "consequence": "There is no taking “Hide” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You press against the wet wall and hold still while a painter's plank ticks in the draught. Whitewash on your sleeve; you find it three days later.",
           "nextNodeId": "s9"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You go down the stairs at a speed that looks like nothing at all, hands in your pockets, and the sweeper wishes you a good evening.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You sleep for days, fevered. The blood on your sock.",
+      "text": "You return the hatchet to its bench, climb your stairs, and lie down in your boots. For four days the fever runs you: the landlady's voice, Razumikhin's hands, a doctor, a bill, someone shouting on the staircase about nothing. When you can sit up, you find the stiff dark ring at the top of your sock and understand that you were never careful, only lucky.",
       "sceneTitle": "Home",
       "choices": [
         {
           "text": "Burn the sock",
-          "consequence": "There is no taking “Burn the sock” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You feed it into the stove in pieces and the room fills with a smell you have no name for. The landlady calls up to ask what is cooking.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hide it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You push it behind the loose wallpaper with the purse you never opened, and then spend every hour of the following week wondering whether it has moved.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Your friend. He nurses you.",
+      "text": "He has decided, without consulting you, to be your friend. He pays the doctor, argues with the landlady, and comes back with a secondhand suit and a receipt itemised down to the buttons, because he knows you would rather owe an exact amount. He talks constantly and watches you the entire time. Over tea, the murders come up, and he sees you flinch.",
       "sceneTitle": "Razumikhin",
       "choices": [
         {
           "text": "Tell him part",
-          "consequence": "“Tell him part” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You give him a version with the shape of the truth and none of its weight. He accepts it, and something in his face goes carefully blank.",
           "nextNodeId": "s11"
         },
         {
           "text": "Tell him nothing",
-          "consequence": "There is no taking “Tell him nothing” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You quarrel with him about nothing until he leaves. In the morning he is back with bread, which is far worse than if he had stayed angry.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The investigator. He smiles. He talks of theory.",
+      "text": "The investigator receives you in a dressing gown, laughs at his own jokes, apologises for the mess, offers you a cigarette and then takes it back. He has read your article. He would like to know, purely as an intellectual matter, whether an extraordinary man would feel anything afterward. He asks it the way one asks about the weather, and he never once stops watching your hands.",
       "sceneTitle": "Porfiry",
       "choices": [
         {
           "text": "Speak carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You answer in the abstract, cleanly, and he beams at you. On the stairs you understand he was never after your answer, only your care.",
           "nextNodeId": "s12"
         },
         {
           "text": "Confess",
-          "consequence": "You commit to “Confess.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "The words come as far as your teeth. What stops them is not conscience but vanity: you will not be taken by a man in slippers.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You meet her. You read Lazarus together.",
+      "text": "Her room is a passageway with one crooked corner, rented from a tailor, and she keeps it clean the way other people pray. She is eighteen and wears her stepmother's shawl indoors. You ask her to read to you. She finds the place with one finger and reads about a man four days dead being called out of a cave, and her voice does not shake until the last line.",
       "sceneTitle": "Sonia's Room",
       "choices": [
         {
           "text": "Confess to her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You tell her who killed Lizaveta, and her arms are round you before you have finished the sentence, which is not at all what you came for.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't yet",
-          "consequence": "You commit to “Don't yet.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You leave the words in your mouth and ask about her stepmother instead. Walking home you understand that you will come back, and why.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "She tells you to kiss the earth at the crossroads and confess.",
+      "text": "She tells you to go tonight, to the crossing where four streets meet, and kneel, and kiss the dirt you have made filthy, and say it aloud so that strangers hear. Then take whatever comes. She says it plainly, without pity, holding out a cypress cross she wants you to wear. Suffering, she says, is not the punishment. You do not follow that part at all.",
       "sceneTitle": "Sonia's Words",
       "choices": [
         {
           "text": "Promise",
-          "consequence": "“Promise” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You say you will, and she believes you, which binds you harder than any oath. You take the cross and put it in your pocket rather than round your neck.",
           "nextNodeId": "s14"
         },
         {
           "text": "Walk away",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You call her a holy fool and go. Her window is lit when you look back from the corner, and you look back twice before the bridge.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He arrives. He has, you fear, your worst self in him.",
+      "text": "He turns up in your room at dusk, ruddy and well fed, a man who has buried a wife and does not trouble to pretend about it. He has heard everything through the wall of Sonia's room. He does not blackmail you. Instead he talks about eternity, and how it might turn out to be a country bathhouse full of spiders, and how that seems as likely as anything.",
       "sceneTitle": "Svidrigailov",
       "choices": [
         {
           "text": "Avoid him",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You get him out and bolt the door. He waits in the street below for an hour, smoking, and does not once look up at your window.",
           "nextNodeId": "s15"
         },
         {
           "text": "Talk to him",
-          "consequence": "There is no taking “Talk to him” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You drink with him until three and find that he asks nothing, judges nothing, and would do anything at all. He is you with the argument removed.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "He corners your sister. She holds a pistol.",
+      "text": "He gets your sister into rooms he has rented beside Sonia's, turns the key, and tells her calmly what he knows about her brother and what he wants in exchange. She takes a revolver out of her coat, your father's, and fires. The bullet takes hair off his temple. He tells her to try again and stands still for it. She fires, and the hammer comes down dead.",
       "sceneTitle": "Dunya's Visit",
       "choices": [
         {
           "text": "Trust she'll do what's needed",
-          "consequence": "“Trust she'll do what's needed” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "She throws the revolver on the floorboards. He gives her the key and stands aside, and neither of them ever explains that minute to you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Intervene",
-          "consequence": "You commit to “Intervene.” The story records the instinct as “Brother” and carries it forward.",
+          "consequence": "You are three streets away and know nothing about it. That is the intervening you managed: you left her a brother worth being blackmailed over.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He shoots himself in the morning.",
+      "text": "He spends the night walking: a filthy hotel, a mouse on the table, a dream of a girl of five who looks at him with a grown woman's eyes. At dawn he stands by the fire tower in a fog you could drink. A soldier in a brass helmet watches him raise the pistol and asks what he thinks he is doing. He says he is going to America.",
       "sceneTitle": "Svidrigailov's End",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You read it in the paper and stop dead on the pavement with the sheet still open. He had your problem exactly, and he solved it before breakfast.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't note",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You fold the paper away and go on with your day, and every hour of that day has the shape of a man standing in fog.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You hold her face. You don't tell her.",
+      "text": "She has known for weeks and has decided not to know. She kisses your hands, tells you about a piece of your writing she found in an old journal and has read twice, says how proud she is, and asks nothing whatever. You hold her face in both hands. You tell her you are going away for a time. Neither of you says the other thing, and she lets you go.",
       "sceneTitle": "Goodbye to Mother",
       "choices": [
         {
           "text": "Be gentle",
-          "consequence": "You commit to “Be gentle.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You promise to write and she believes it completely. She dies before the second winter, calling you by the name she used when you were small.",
           "nextNodeId": "s18"
         },
         {
           "text": "Be cold",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You keep it short, because tenderness would open you like a seam. Afterward you cannot recall one word of it, only the smell of her hair.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You kiss the earth. People stare.",
+      "text": "Haymarket Square in the evening, the taverns emptying, the dust of the day still hanging at knee height. You kneel down where the four streets meet and put your mouth to the filth of the road. A crowd gathers fast, the way crowds do. Someone decides you are off to Jerusalem. Someone laughs. You open your mouth to say the sentence aloud and see Sonia at the edge.",
       "sceneTitle": "Crossroads",
       "choices": [
         {
           "text": "Kneel",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You stay down longer than the crowd finds funny. Something goes out of your back that has been lodged there since the first week of July.",
           "nextNodeId": "s19"
         },
         {
           "text": "Pretend it was drunken",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You get up grinning and let them think what they like. Sonia follows you the whole way to the station and does not say one word.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You confess.",
+      "text": "You go up, and come down, and go up again. Inside, a clerk complains about the heat and a lieutenant mentions in passing that a gentleman shot himself by the fire tower this morning. You get as far as the street before turning round. Sonia is standing opposite in her green shawl, not moving, not calling out. You go back in and say it: it was me, with a hatchet.",
       "sceneTitle": "Police Station",
       "choices": [
         {
           "text": "Tell it clean",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You give the details flatly, including the trunk, and the purse you buried under a stone and never opened. The clerk keeps asking you to slow down.",
           "nextNodeId": "s20"
         },
         {
           "text": "Tell it half",
-          "consequence": "You commit to “Tell it half.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You confess the act and none of the reason, because the reason is a theory, and a theory said out loud now would only sound like an excuse.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Eight years. A wide river. Sonia, who came with you, lives in a hut nearby.",
+      "text": "Eight years, a fortress above a wide brown river, and across the water the steppe with nothing standing on it. You work, you eat, you are hated by the other convicts for reasons you understand: you never went to church, you never wept, you never asked anyone anything. Sonia rents a room in the settlement and sews for the officers' wives. She waits at the gate whether you come out or not.",
       "sceneTitle": "Siberia",
       "choices": [
         {
           "text": "Read the New Testament she gave you",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You open the book for the first time in the second spring. You read very slowly, like a man learning the alphabet twice, and you tell nobody.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hold out",
-          "consequence": "There is no taking “Hold out” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You keep it under your pillow unread for two years. The other convicts decide you sleep on a Bible for luck, and you let them think so.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Spring on the riverbank. You realize you love her.",
+      "text": "April, and the ice is going out; you can hear it breaking all night, a sound like a house settling. You are sitting on a log by the bank when she comes down the path, thinner than last year, and sits at the distance the rules require. Something in your chest gives way like the river. Seven years remain. It strikes you, absurdly, that seven years is nothing.",
       "sceneTitle": "Resurrection",
       "choices": [
         {
           "text": "Take her hand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You take her hand in front of the guards and she starts crying and laughing at the same time. Neither of you manages a word for a long while.",
           "nextNodeId": "end_resurrection"
         },
         {
           "text": "Sit alone",
-          "consequence": "There is no taking “Sit alone” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You let her go back up the path and sit until dark with your boots in the mud. Something has been decided; you simply cannot say it to her yet.",
           "nextNodeId": "end_writer"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do not reach for her hand. You start instead to talk, about the article, about the heat, about the way Lizaveta lifted her arm, and you talk until the light is gone.",
           "nextNodeId": "end_silence"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_resurrection",
-      "text": "You serve your sentence. You return, eventually, with Sonia. You become, the rest of your life, a quiet man who teaches mathematics in a small town and means it when he says 'good morning.'",
+      "text": "Seven years pass and the river takes them. You come back west with her in a third-class carriage and you do not go to Petersburg. In a small town you teach arithmetic to shopkeepers' children and are known as a quiet man, unaccountably patient with the slow ones. When you say good morning to a neighbour you mean the whole of it. It costs you something every single time, and you pay.",
       "sceneTitle": "Resurrection",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You write a different article in the prison, on conscience instead of theory. It is, when smuggled out, debated for a century.",
+      "text": "In the second year you begin writing again, on paper begged from the prison clerk. Not the old article. Its opposite: a hundred pages on what a man discovers about himself once he has decided he is exempt. A political prisoner carries it out in the lining of a boot. It is printed without your name, argued over for a century, and set for students who never guess there was a hatchet behind every line.",
       "sceneTitle": "A Different Article",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_silence",
-      "text": "You serve your time and disappear into a Siberian village. You die there old. Sonia is buried beside you. The villagers, who never knew, called you a kind man.",
+      "text": "You serve the sentence and you do not go home. There is a village upriver with a school and a stove that needs mending, so you stay. Sonia keeps chickens and is known for her bread. Nobody there ever learns what you did; you never tell them, and you decide that the not telling is its own long payment. She is buried by the fence one spring. You follow four winters later, old, and they say a kind man has died.",
       "sceneTitle": "Silence",
       "choices": [],
       "isEnding": true,

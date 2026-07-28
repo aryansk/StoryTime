@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A cake of plenty. Doors knocking. Maps unrolled.",
+      "text": "Thirteen dwarves come through your round green door in ones and twos and threes, and every one of them wants seed-cake. Your pantry is empty inside the hour. They stack the plates into a swaying tower and sing a song about doing it. Then somebody unrolls a map across your good tablecloth, taps a red dragon inked over a mountain, and the whole room looks at you expectantly.",
       "sceneTitle": "Bag End",
       "choices": [
         {
           "text": "Sign the contract",
-          "consequence": "“Sign the contract” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You sign a document that mentions funeral arrangements in paragraph four, and then run down the lane at dawn without a pocket handkerchief or a coat.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You say absolutely not, twice, and mean it both times. You are running down the lane forty minutes later anyway, hatless. Your kettle is still warm on the hob.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Ponies. Songs. Rain.",
+      "text": "Two weeks east, and it rains on nine of the days. Your pony smells of wet pony and finds every hole in the road with the same foot. Nobody has brought a spare handkerchief, and you have now asked three separate dwarves. They sing marching songs with fifteen verses, all about gold. Gandalf vanishes for whole afternoons and comes back explaining nothing.",
       "sceneTitle": "On the Road",
       "choices": [
         {
           "text": "Hum",
-          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "consequence": "You learn all fifteen verses and hum the tune deliberately wrong until Bofur laughs into his beard. The rain does not stop. You mind it considerably less.",
           "nextNodeId": "s3"
         },
         {
           "text": "Sulk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You ride at the back thinking loudly about armchairs and buttered toast, and it is in that hour that Thorin settles his opinion of exactly how useful you are.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Bert, Tom, William. A fire, a quarrel.",
+      "text": "Three of them the size of barn doors, roasting mutton on a fire, arguing about whether a hobbit is worth the trouble of skinning first. You have been sent to burgle them because burglar is the word written on the contract. You get one hand into a pocket the size of a grain sack, and the pocket says, in a slow wet voice, who is that.",
       "sceneTitle": "Trolls",
       "choices": [
         {
           "text": "Steal Bilbo's plan",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You throw your voice and set them quarrelling over seasoning until the sky goes grey behind them. Daylight does the rest, and three trolls become three ugly boulders.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stand tall",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You step out of the bracken and announce what you are at full height, which is not a great deal of height. They put you in a sack. Gandalf handles the clever part.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Elves. Sweet bread. Elrond reads the map.",
+      "text": "The valley is warm, there is an actual bath, and the bread has honey in it and no grit whatsoever. The elves sing outside the windows about everything, including your bewilderment. Then Elrond carries the map to a window on a midsummer evening, tilts it against the moon, and letters rise on it that were not there in daylight. Writing only the right moon can read.",
       "sceneTitle": "Rivendell",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "You commit to “Listen carefully.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You copy the moon-letters word for word onto the back of a napkin, including the odd bit about a thrush. Nobody else bothers. Months later it is the only thing that saves you.",
           "nextNodeId": "s5"
         },
         {
           "text": "Sleep first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You sleep fourteen hours in a bed with sheets and wake to find the map already rolled and stowed. Elrond tells you what it said. Being told is not the same as reading it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Misty Mountains. A trapdoor. A song nobody asked for.",
+      "text": "You bed down in a dry cave in the high pass because dry is the whole of your ambition by then, and the back wall of it opens. Goblins come out of the crack in numbers, take the ponies, take the luggage, and drive you downhill in the dark for hours on end. They sing while they do it. The song is about what happens to you at the bottom.",
       "sceneTitle": "Goblin Tunnels",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You run, lose your brass buttons on a corner, and lose everyone else somewhere in the scramble. Alone in the dark is at least quiet, which is more than the singing was.",
           "nextNodeId": "s6"
         },
         {
           "text": "Fight",
-          "consequence": "You commit to “Fight.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You wave a sword the length of a bread knife and connect with something exactly once. It is not much. Balin sees it happen, though, and begins revising his figures.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A cave. A pool. Gollum.",
+      "text": "The tunnel bottoms out at black water with an island in the middle, and something paddles across on a small boat, all eyes and appetite. He proposes a game with rules older than either of you: riddles, turn about, and the loser is either eaten or obliged to show the way out. He is ancient and extremely good at this. You are cold and have perhaps one guess left in you.",
       "sceneTitle": "Riddles",
       "choices": [
         {
           "text": "Riddle",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wit.",
+          "consequence": "You trade him five riddles in the dark, fish and eggs and time itself, and he answers four before the sulking starts. The old rules hold. That is the only reason you are alive.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stall",
-          "consequence": "“Stall” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You ask what is in your pocket, which is not a riddle, and both of you know it perfectly well. He grants three guesses from habit. Cheating an ancient bargain is never free.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You pick up a ring. You don't tell anyone yet.",
+      "text": "It is cold in your pocket and you do not remember picking it up. Then he comes hunting along the water's edge, and your hand finds it, and it goes onto your finger, and the world turns thin and grey while he walks past close enough to touch. You could kill him from here. His feet are bare and he is crying. You jump over him instead.",
       "sceneTitle": "Ring",
       "choices": [
         {
           "text": "Pocket it",
-          "consequence": "There is no taking “Pocket it” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You keep it and say nothing at supper, and build a better story about how you got past him. The lying comes far more easily than it ought to.",
           "nextNodeId": "s8"
         },
         {
           "text": "Show Gandalf",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You almost tell Gandalf twice, and both times your hand closes over it in your pocket first. Whatever the thing is, it prefers a secret, and it has just been given one.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Trees on fire. Wargs and goblins below.",
+      "text": "You finish up at the top of a pine with wolves circling the trunk and goblins setting the lower branches alight, and the smoke goes straight up into your face. Somebody down there is throwing burning cones for the fun of it. Then the sky fills with enormous birds, and one of them takes you in its feet, and you are a hundred feet up with nothing under your boots.",
       "sceneTitle": "Eagles",
       "choices": [
         {
           "text": "Wait for the eagles",
-          "consequence": "The decision settles the question for now. Its verdict—Faith—follows you into whatever comes next.",
+          "consequence": "You hold on and let the fire climb, trusting a rescue that nobody actually promised. The talons close on your coat rather than your ribs, a courtesy you notice for years.",
           "nextNodeId": "s9"
         },
         {
           "text": "Climb higher",
-          "consequence": "There is no taking “Climb higher” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You climb until the branches bend under a hobbit's weight, which is the only reason an eagle spots you at all. Blind panic turns out to have been the correct tactic.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A bear-man's hall. Cake. Bees the size of swallows.",
+      "text": "The bees are the size of your thumb and the hall has no metal anywhere in it, not a nail. Your host is enormous and gruff and speaks to his ponies as though they follow the conversation. There is cream and clover honey and twice-baked cake, and one rule: nobody goes outside after dark. Something walks around the house all night. In the morning there are bear tracks.",
       "sceneTitle": "Beorn",
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Civil.",
+          "consequence": "You compliment the honey, the ponies, and the joinery, in that order, and he laughs like a hillside coming down. The cream keeps arriving for two solid days.",
           "nextNodeId": "s10"
         },
         {
           "text": "Be quiet",
-          "consequence": "“Be quiet” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You keep to a bench and watch his hands, which are the size of dinner plates, and say nothing memorable at all. He notices the silence and thoroughly approves of it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Don't leave the path. The river will make you sleep.",
+      "text": "The trees close overhead and the light goes brown, and it stays brown for days. Two rules at the eaves of the forest: do not drink the black stream, and do not step off the path for anything whatsoever. There are eyes at night in a ring around the camp. The food runs out on the fourth day, and somewhere off through the trunks you can hear a feast going on.",
       "sceneTitle": "Mirkwood",
       "choices": [
         {
           "text": "Stay on path",
-          "consequence": "“Stay on path” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You hold to the path while your stomach folds in on itself and the lights go dancing away between the trunks. Obedience costs you four days of hunger and keeps you breathing.",
           "nextNodeId": "s11"
         },
         {
           "text": "Drink the water",
-          "consequence": "“Drink the water” closes one possibility and opens another. The moment leaves a clear note behind: Foolish.",
+          "consequence": "You take a mouthful of black water and dream of a hall full of candles for three days. You wake being carried, ravenous, and lighter by every hour that you lost.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Webs. You name your sword Sting.",
+      "text": "You come round to a rope of silk around your legs and a spider already deciding where to begin. The little elvish knife goes through it more easily than through a loaf. You name the blade on the spot, standing there: Sting, because it is a small word for a small weapon that works. Thirteen dwarves are hanging in the branches overhead like laundry nobody collected.",
       "sceneTitle": "Spiders",
       "choices": [
         {
           "text": "Sing to lure them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You invent an insulting song about spiders, put the ring on, and lead the entire nest away through the trees shouting. You have never been this stupid or this good at anything.",
           "nextNodeId": "s12"
         },
         {
           "text": "Charge",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You go straight in with the knife and cut them down while they are still working out what you are. Your hands shake for an hour afterwards and the dwarves pretend not to see.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Cells. Wine. A barrel in the river.",
+      "text": "The dwarves are taken; you are not, because you are wearing the ring and nobody counts a draught in a corridor. You spend two weeks in a palace under a hill, stealing bread and listening at doors. Then the butler and the chief of the guard drink a very good vintage down to the dregs and sleep in their chairs. Below the cellar, the river runs out through a hatch, and empty barrels go with it.",
       "sceneTitle": "Elf King's Dungeon",
       "choices": [
         {
           "text": "Hide in the barrels",
-          "consequence": "There is no taking “Hide in the barrels” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You seal thirteen furious dwarves into barrels and go out through the hatch clinging to the outside of one, soaked to the bone, nearly drowning twice before Long Lake.",
           "nextNodeId": "s13"
         },
         {
           "text": "Talk to the king",
-          "consequence": "“Talk to the king” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You try honesty with an elf-king about a dragon and a mountain, and get a courteous hearing and no help at all. Weeks gone. The barrels were still down there waiting.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The Master, the bowman Bard, the dragon under the mountain.",
+      "text": "A town built on stilts over cold water, and every plank of it knows what sleeps under the mountain to the north. The Master gives a speech about prosperity and sends round the wine. A grim bowman called Bard says out loud, from the back, that waking a dragon is how towns burn. Nobody cares to hear it. They give you a boat and a send-off anyway.",
       "sceneTitle": "Lake-town",
       "choices": [
         {
           "text": "Trust Bard",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You mark the man who said the unwelcome thing and remember his face. It costs you nothing now and buys the whole lake a future in about a fortnight.",
           "nextNodeId": "s14"
         },
         {
           "text": "Trust the Master",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You take his boat, his ponies, and his cheering, and notice he counts the barrels twice while proposing the toast. Generosity with an invoice folded inside it.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Map. Moon-letters. A keyhole.",
+      "text": "You find the ledge on the western spur and the wall there is smooth as a plate. No door. No seam. The moon-letters said stand here at the last light of Durin's Day and the thrush will knock, so you stand there for five days feeling like an idiot in front of a rock. On the fifth, a thrush cracks a snail on the stone, the sun drops, and a crack appears.",
       "sceneTitle": "The Secret Door",
       "choices": [
         {
           "text": "Wait for the day",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You hold the whole company on a bare ledge for five days on the strength of a napkin, and you are right. Nobody apologises. Thorin hands you the key without comment.",
           "nextNodeId": "s15"
         },
         {
           "text": "Force it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Foolish.",
+          "consequence": "The dwarves take picks to the rock and get blunt iron and a great deal of noise for it. The noise goes down the mountain, and something below stops sleeping.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Conversation, polite, with a dragon.",
+      "text": "He is a hill of gold that turns out to have a lid, and the lid opens, and the eye beneath it is bigger than your front door. He can smell you but cannot see you, and he is bored and monstrously vain. The rules for talking to a dragon are three: never give your real name, never refuse to answer, and never once tell him the truth in a straight line.",
       "sceneTitle": "Smaug",
       "choices": [
         {
           "text": "Flatter him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You call yourself the barrel-rider and the luck-wearer, and praise his waistcoat of gems until he rolls over to show it off properly. There: one bare patch, left breast.",
           "nextNodeId": "s16"
         },
         {
           "text": "Insult him",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You get in a joke about his housekeeping and he laughs, and then he stops laughing. The heat that follows takes your eyebrows and the greater part of your nerve.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The black arrow. A missing scale.",
+      "text": "The dragon comes over the lake in the dark with fire running ahead of him, and the stilt-houses light up one street at a time. Bard stands in the last tower still standing with one black arrow left, an heirloom, unbent through three generations of his family. A thrush lands beside him and speaks to him. He listens to a bird, because there is nothing else left to listen to.",
       "sceneTitle": "Bard's Arrow",
       "choices": [
         {
           "text": "Send word to Bard",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Right.",
+          "consequence": "You tell the thrush about the bare patch and the thrush tells the bowman, and one arrow goes exactly where a single arrow can. A whole town lives on that sentence.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You keep what you saw to yourself, and Bard has to hunt the gap by firelight and luck. The town burns for longer than it needed to, and you carry the extra minutes.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You find it. You keep it.",
+      "text": "It lies in the heap like a fallen star with its own weather inside it, and turning it throws every colour the lamps can manage. This is the one thing Thorin genuinely wants, the heart of his grandfather's hall, the reason for the entire walk. Your hand is in your pocket with it before you have thought a single word about why. The contract did specify a fourteenth share.",
       "sceneTitle": "Arkenstone",
       "choices": [
         {
           "text": "Hide it",
-          "consequence": "“Hide it” closes one possibility and opens another. The moment leaves a clear note behind: Strategy.",
+          "consequence": "You wrap it in a rag at the bottom of your bundle and lie to a dwarf-king's face about it for a week. Gold-sickness, it turns out, is catching.",
           "nextNodeId": "s18"
         },
         {
           "text": "Give it to Thorin",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You nearly hand it over twice, and both times his eyes are wrong and your fingers close again. Keeping it is either theft or mercy and you will not know which for a month.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Gold-sickness. The hall is too full of treasure to be a home.",
+      "text": "He walks the hoard at night counting, and the counting never finishes because the heap has no bottom to reach. Men whose town he watched burn are camped at the gate asking for enough coin to rebuild it. He calls that robbery. He has not eaten in two days. The hall is so full of treasure that there is nowhere left in it for a person to sit down.",
       "sceneTitle": "Thorin's Madness",
       "choices": [
         {
           "text": "Try to talk him down",
-          "consequence": "You commit to “Try to talk him down.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You describe what the lake looked like burning and he looks straight through you at the middle distance, still doing sums. That is the moment you decide to steal from him.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step back",
-          "consequence": "You commit to “Step back.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You stop arguing and start watching, and you count the days since he last ate. It is not loyalty and it is not betrayal. It is a burglar taking measurements.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Goblins, wolves, men, elves, eagles. A hobbit hides behind a rock.",
+      "text": "It was going to be a war over money, and then the goblins came over the ridge and everybody had to become friends inside four minutes. Men on the left spur, elves on the right, dwarves pouring out of the gate below. You put the ring on and stand behind a rock, and the noise goes on and on, and you can see everything and do almost nothing about any of it.",
       "sceneTitle": "Battle of Five Armies",
       "choices": [
         {
           "text": "Run a message",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You go invisible along the line carrying word of the second host coming over the shoulder of the mountain, and it arrives in time. Nobody ever learns who brought it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hide",
-          "consequence": "There is no taking “Hide” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You stay behind the boulder with both hands over your ears, and a falling stone finds you regardless. You miss the end of the battle entirely, which is its own kind of mercy.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A handshake. A goodbye. A small forgiveness.",
+      "text": "They bring you into the tent and he is grey and the bandage is plainly not working. He takes back what he said at the gate about thieves and burglars. He asks you to remember him as he was before the mountain got into him, and says your sort know something his sort forgot generations ago. Then he goes quiet. His hand is still lying in yours.",
       "sceneTitle": "Thorin Dying",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "You commit to “Sit with him.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You stay until his hand goes cool and somebody comes to lead you outside. You cannot eat for two days afterwards and you decline, every time, to explain why.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stand by Gandalf",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You step back and let the dwarves have their king's last minutes, and Gandalf's hand lands on your shoulder and stays there. Grief with someone beside you weighs differently.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The auction is canceled. Your spoons are mostly accounted for.",
+      "text": "You get home a year and a bit later to find your furniture out on the lawn with numbered tickets pinned to it and the Sackville-Bagginses measuring your hallway for curtains. You buy back your own spoons at auction prices. Two are never recovered. The neighbours decide you are no longer entirely respectable, and you discover, to your surprise, that you can live with that.",
       "sceneTitle": "Bag End, Again",
       "choices": [
         {
           "text": "Settle back in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You put the kettle on in your own kitchen and shift the armchair back to precisely the right angle. It takes a full week to stop listening for wolves at night.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Plan another trip",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Spirit.",
+          "consequence": "You get the maps out on the same tablecloth, alone this time, and letters from Gandalf begin arriving with no return address and increasingly specific questions.",
           "nextNodeId": "end_writer"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You mention the ring to nobody at all, and put your hand into your waistcoat pocket, casually, roughly forty times a day, just to check that it is still there.",
           "nextNodeId": "end_ring"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You stay home. You write down the journey. Years later your nephew Frodo, reading the book, asks if it's all true. You say, mostly.",
+      "text": "You stay put. You write the whole thing down in a red leather book with far too many footnotes, and the tale gets a little longer every time you tell it at a party. Years on, a young cousin reads it through at your kitchen table and asks whether any of it actually happened. You say most of it. You say the important parts. Then you put the kettle on and change the subject.",
       "sceneTitle": "Quiet at Bag End",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You become, in Hobbiton, a quiet author. Children come and ask about the ring. You smile and change the subject.",
+      "text": "You become the disreputable Baggins who writes things down, and the children of Hobbiton hang on your gate for stories about spiders and barrels and the voice of a dragon. One of them always, eventually, asks about the ring. You always say something vague about a conjuring trick and offer seed-cake instead. They take the cake. The question waits patiently until the following summer.",
       "sceneTitle": "Writer of Tales",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_ring",
-      "text": "You keep the ring in your waistcoat. You don't, for many years, look at it. You forget, mostly. It does not, you'll learn later, forget you.",
+      "text": "It lives in your waistcoat pocket and goes everywhere with you, and you almost never take it out to look at. Sixty years pass. Your hair stays the colour it was. Your appetite does not change. You sleep badly and blame the weather in the Water valley. You are the one who forgets about it, mostly. It has not, in all that time, forgotten a single thing about you.",
       "sceneTitle": "The Ring, Pocketed",
       "choices": [],
       "isEnding": true,

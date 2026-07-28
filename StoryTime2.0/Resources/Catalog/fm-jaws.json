@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A girl swims out from a bonfire on a beach.",
+      "text": "Somebody has brought a guitar down to the bonfire and nobody can play it. The girl runs at the dune peeling off her clothes, laughing, and the boy who follows gets as far as the tideline before the beer takes his legs. She swims out past the bell buoy in easy strokes. Then she stops. She goes down, comes up, goes sideways, and the water takes her like a drain.",
       "sceneTitle": "First Swim",
       "choices": [
         {
           "text": "Track her flashlight",
-          "consequence": "You commit to “Track her flashlight.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You follow the beam out past the buoy until it stops moving, then starts moving the wrong way. You will describe that motion at three separate hearings.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait at the fire",
-          "consequence": "You commit to “Wait at the fire.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You keep your back to the surf and your hands to the fire, and in the morning you tell the deputy you heard nothing over the singing.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Vaughn wants the beaches open for the Fourth.",
+      "text": "Vaughn catches you between the ferry rail and the pharmacy with two selectmen and the town lawyer, all of them smiling at once. Amity is a summer town, he says. It needs summer dollars. He says it three different ways. Your beach-closing signs are stacked in the trunk of the cruiser, hand-lettered, still tacky, and he asks pleasantly whether you have looked at the ferry timetable lately.",
       "sceneTitle": "Mayor's Office",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You say the word closed out loud with witnesses present. Vaughn's smile stays exactly where it is while his eyes go somewhere else entirely.",
           "nextNodeId": "s3"
         },
         {
           "text": "Compromise",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You settle for extra patrol boats and no signage. Three men in a Whaler is not a fence; it is a gesture you can be photographed making.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Probable shark, edited later to boat accident.",
+      "text": "The first report says shark. You read it twice, standing up, in a corridor that smells of floor wax. By four o'clock the coroner has a second opinion and the mayor's hand on his shoulder, and the word is propeller: a girl who swam into a passing boat, in the dark, alone, a mile out. There is correction fluid over one line of the typing.",
       "sceneTitle": "Coroner's Report",
       "choices": [
         {
           "text": "Document the original",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You photocopy the original before it can go missing and keep it folded in your tackle box. Nobody asks for it until August.",
           "nextNodeId": "s4"
         },
         {
           "text": "Sign the edit",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cowardly.",
+          "consequence": "You initial the amended sheet because the pen is already in your hand. Her mother will ask you, later, when exactly you knew.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A scream, a yellow line dragged under, a mother on the sand.",
+      "text": "A yellow raft, a black dog barking at the surf, a woman calling a name toward the water in a voice that begins casual. The raft stands on end. Red spreads underneath it and closes over again. Two hundred people get to their feet on the sand at the same moment, and the sound they make is not screaming yet. It is the half second before screaming.",
       "sceneTitle": "Boy on a Raft",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "You commit to “Help her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You reach Mrs Kintner before anyone else and hold her arms while she fights you, and she screams into your uniform instead of the water.",
           "nextNodeId": "s5"
         },
         {
           "text": "Clear the beach",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You do the job first, whistle and both arms up and everybody out, and by the time you turn around somebody else has hold of her.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Quint scratches a fingernail across a chalkboard.",
+      "text": "Folding chairs, bad coffee, a bounty already up to three thousand dollars from a woman who has never touched salt water. Then a fingernail goes down the chalkboard and every jaw in the room locks. Quint does not stand up to speak. He will take the fish for ten, he says, the head and the tail and the whole thing, and he prices it like a roofing job.",
       "sceneTitle": "Town Hall",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You copy his number onto the back of the agenda while the room laughs him off the floor. It stays in your wallet for six weeks.",
           "nextNodeId": "s6"
         },
         {
           "text": "Brush him off",
-          "consequence": "You commit to “Brush him off.” The story records the instinct as “Polite” and carries it forward.",
+          "consequence": "You let the chairman gavel him down. Quint collects his hat without hurry, because he already knows what week you will telephone.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "An oceanographer with a long beard and a checklist.",
+      "text": "He comes off the ferry with two crates of equipment, glasses he pushes up every thirty seconds, and money, which the dock notices first. He talks fast: bite radius, feeding pattern, an animal that does nothing but swim and eat and make more of itself. Then he turns over the amended coroner's report, reads two lines of it, and starts laughing at you in front of the harbourmaster.",
       "sceneTitle": "Hooper Arrives",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You hand him everything, including the page you were not supposed to keep, and he treats it as evidence rather than island gossip.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hesitate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You keep him at arm's length for a day, and he spends the day on the dock measuring bite marks nobody else will look at.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "The mayor wants the photograph.",
+      "text": "Two amateurs bring in a tiger shark on a hand line and the whole town photographs itself beside it, Vaughn front and centre with his jacket buttoned. Hooper says the mouth is wrong: bite width, wrong build, wrong animal. The mayor says the crowd does not care about bite width, and he is correct. The tail drips onto the planking all afternoon while people queue to stand near it.",
       "sceneTitle": "Tiger Shark Tied to the Dock",
       "choices": [
         {
           "text": "Cut it open",
-          "consequence": "There is no taking “Cut it open” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You and Hooper open the belly at midnight by torchlight and find a licence plate, a flattened tin can, and no part of any child.",
           "nextNodeId": "s8"
         },
         {
           "text": "Skip the autopsy",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You let it hang for the newspapers. Whatever took the boy spends that night somewhere off the point with its stomach still full.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A wrecked boat, a tooth in the hull, a dead fisherman's head.",
+      "text": "Ben Gardner's boat rides at anchor with nobody aboard and a hole below the waterline you could walk through. Hooper goes down alone. Cold, silt, one column of torchlight. He works a tooth out of the splintered hull, big as his palm, white as a dinner plate, and then Gardner's face rolls slowly out of the gap at him, and his hand jerks open.",
       "sceneTitle": "Night Dive",
       "choices": [
         {
           "text": "Surface fast",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "He comes up far too fast, gasping, with nothing in his fist. Forty feet of silt keeps the only object that would have convinced anybody.",
           "nextNodeId": "s9"
         },
         {
           "text": "Hold the tooth",
-          "consequence": "There is no taking “Hold the tooth” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "He gropes blind in the dark for ninety seconds and surfaces holding it. Vaughn turns it over once and asks who else has seen this.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Beach packed, kid in a black wetsuit pranking, a real fin in the pond.",
+      "text": "Vaughn walks a family into the shallows himself to make a point, hand flat on the man's back, smiling toward a reporter. Then a fin, then screaming, then two boys hauled out laughing under a cardboard dorsal. Everybody exhales. Everybody goes back in. And behind the sandbar, in the pond where the small children paddle and the rowboats go, something comes through the channel.",
       "sceneTitle": "Fourth of July",
       "choices": [
         {
           "text": "Clear the water",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You blow the whistle for the second time in ten minutes and half the beach ignores you, because you already cried wolf once today.",
           "nextNodeId": "s10"
         },
         {
           "text": "Trust the patrol",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You leave it to the patrol boats. The pond is inside the channel, and nobody in the history of this town has watched the pond.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Michael in a sailboat with a shark below it.",
+      "text": "Your older boy is in the pond in a borrowed sailboat with four friends and a life vest he is sitting on. A man in a rowboat goes over sideways without a sound. The dinghy comes apart in pieces. A leg sinks past the sandbar in water clear enough to read a newspaper through, while a hundred people scream from a beach forty yards off.",
       "sceneTitle": "Estuary",
       "choices": [
         {
           "text": "Pull him in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You go in with your shoes on and drag Michael up the ramp yourself, and he does not say a word again until the hospital.",
           "nextNodeId": "s11"
         },
         {
           "text": "Yell",
-          "consequence": "You commit to “Yell.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You shout his name across open water as though that has ever worked. Somebody else's arms get him out. You arrive second, dry.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "The Orca at the dock, smaller than you remembered.",
+      "text": "The Orca smells of diesel and fish blood and forty years of one man's habits. Jaws nailed over the wheelhouse door, harpoons racked, a compressor that only starts when kicked in the right place. Quint watches you carry your bag down the finger pier and observes, without any cruelty in it, that he has met your sort before: a chief of police who will not go in past his knees.",
       "sceneTitle": "Quint's Boat",
       "choices": [
         {
           "text": "Step on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You step across the gap in one motion and do not look at the water underneath. Quint notices that you did not look, and says nothing.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hesitate",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stand on the planks long enough that Hooper puts a hand out to help you, which is worse than falling in would have been.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A bucket of guts on a slow trawl.",
+      "text": "The work is ladling ground fish over the transom for six hours while the boat crawls a grid, and the work is yours because it is the only thing aboard you are qualified to do. The slick spreads a mile behind you. Quint will not permit you to hold the ladle wrong. Your back goes. Your hands stink. Nothing comes. Nothing comes. Nothing comes.",
       "sceneTitle": "Chum Line",
       "choices": [
         {
           "text": "Talk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You fill the silence with island gossip until Quint tells you to stop chumming with your mouth, and Hooper laughs into his coffee.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay quiet",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You work the bucket for two hours without speaking, and Quint decides you may be tolerable, which he indicates by handing you a beer.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A snout, a row of teeth, a deck that suddenly feels small.",
+      "text": "You are mid-sentence, complaining about the smell, when the water opens behind you. Snout first, then the gape, then teeth in staggered ranks going back into a hole you could stand upright in. It takes its time. It looks at you the way a man looks at a menu. It is gone again before you have finished backing into the cabin door.",
       "sceneTitle": "First Sight",
       "choices": [
         {
           "text": "Tag the barrel",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "Quint puts the first barrel in behind the dorsal and the line sings off the rail, and the boat begins, very slowly, to be towed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Reach for the M1",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You empty the rifle into a hole in the water. Quint takes the gun out of your hands and racks it again, almost gently.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Quint and Hooper compare wounds and laugh.",
+      "text": "Below decks, warm, working through Quint's bottle. He rolls a sleeve back for a moray eel off Cuba; Hooper counters with a bull shark and a thresher's tail. Arms on the table, laughing, everyone showing everything. Then Quint puts his ankle up: a burn scar where a tattoo used to be, a ship's name, taken off with a soldering iron. The laughing stops on his side of the table first.",
       "sceneTitle": "Scars",
       "choices": [
         {
           "text": "Show yours",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You lift your shirt over an appendix scar from when you were nine, and both of them are decent enough not to remark on the difference.",
           "nextNodeId": "s15"
         },
         {
           "text": "Tell yours",
-          "consequence": "There is no taking “Tell yours” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You keep your shirt down and offer a bar fight in Queens instead. It is a good story. It happened to somebody you knew.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Quint with whiskey, a story about a sinking ship.",
+      "text": "He tells it flat, hands still, eyes on the bottle. They delivered the bomb, took two torpedoes, and went down in twelve minutes with no distress signal sent. Hundreds of men floating in kapok jackets in warm water. The sharks arrived with the sun and worked the edges of the group, and every hour the group got quieter. He says the hard part was waiting your turn. He never wore a life jacket again.",
       "sceneTitle": "Indianapolis Speech",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You do not move and you do not fill the pause, and Quint keeps going a long way past the point where he meant to stop.",
           "nextNodeId": "s16"
         },
         {
           "text": "Pour another",
-          "consequence": "There is no taking “Pour another” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You top up his glass because your hands want a job, and the story loses its thread somewhere near the rescue and never picks it up.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "It pulls the boat backward by its barrels.",
+      "text": "Three barrels in it now: yellow, floating, and then not floating. The line comes taut off the stern cleat, the transom dips, and the Orca starts travelling backward through her own wake. Water comes over the rail and across the deck and into your shoes. Quint's face, for the first time in your acquaintance with it, is doing arithmetic instead of theatre.",
       "sceneTitle": "Shark Tested",
       "choices": [
         {
           "text": "Cut the line",
-          "consequence": "There is no taking “Cut the line” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You get a knife to the rope and Quint puts his boot on your wrist and leaves it there. The stern comes back up on its own, eventually.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold on",
-          "consequence": "The decision settles the question for now. Its verdict—Stubborn—follows you into whatever comes next.",
+          "consequence": "You lock both arms around the fighting chair and ride it out, and the fish takes three sealed barrels down with it and keeps them down.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Pistons screaming and a captain laughing too loud.",
+      "text": "Quint runs the throttle past the last number on the dial and chases the thing down himself, laughing, spray coming over the bow in sheets. Something in the engine changes pitch: a knock, then a whine, then the smell of hot iron coming up through the cabin floor. Hooper is shouting about the ports. Quint has stopped listening to anybody aboard, including the boat.",
       "sceneTitle": "Engine Trouble",
       "choices": [
         {
           "text": "Slow down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You reach past him and haul the throttle back yourself, and he does not hit you, which surprises both of you about equally.",
           "nextNodeId": "s18"
         },
         {
           "text": "Push harder",
-          "consequence": "“Push harder” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You let him run it. The engine seizes at dusk with the radio already smashed on the deck and the shore a grey line behind you.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Hooper in a steel box and a shark with a snout it can fit anywhere.",
+      "text": "The cage comes out of its crate looking like a shopping trolley somebody has welded. Hooper suits up with a lance and a hypodermic of strychnine and explains, twice, that he only has to get near the mouth. Quint measures the bar spacing with his eye and says nothing at all. Nobody mentions the obvious thing, which is that the animal is wider than the cage is tall.",
       "sceneTitle": "Cage",
       "choices": [
         {
           "text": "Lower him",
-          "consequence": "You commit to “Lower him.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You work the winch and watch a friend go down into green water in a box you could bend open with a car jack.",
           "nextNodeId": "s19"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Cautious.",
+          "consequence": "You stall ten minutes checking a shackle that is perfectly fine. The delay costs you nothing except the last useful light of the day.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A jaw on the transom and a man sliding down the deck.",
+      "text": "It comes at the transom instead of the cage, and it comes over it. Wood goes. The stern drops, the deck tilts past anything you can stand on, and everything loose on it goes downhill: chairs, tanks, tackle boxes, the whole afternoon. Quint's fingers open on the varnish. He slides, unhurried at first, boots leading, still holding the machete and still not shouting.",
       "sceneTitle": "Stern Crashing",
       "choices": [
         {
           "text": "Grab Quint's leg",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You get a hand around his ankle and hold on until the sound he is making changes, and then his boot is empty in your fist.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hold the rail",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You keep both hands on the rail and watch. That decision will sit in your chest at every town meeting for the next twenty years.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A yellow tank rolling around the deck.",
+      "text": "The Orca is going down by the stern and there is a yellow scuba tank rolling loose in the water at the foot of the sloping deck. Hooper's lecture comes back word for word: do not drop them, do not knock them about, they go off like ordnance. You have a rifle with four rounds in it and a boat with perhaps six minutes left.",
       "sceneTitle": "Compressed Air Tank",
       "choices": [
         {
           "text": "Throw it in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You jam the tank into the jaws as they come and get your hand back, mostly, and then you climb the mast with the rifle on a strap.",
           "nextNodeId": "s21"
         },
         {
           "text": "Shoot at it now",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You fire at the tank while it is still on your own deck. The round goes wide and takes out the compressor instead, and the boat lists further.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A man with a rifle and a sentence about a smile.",
+      "text": "You are up in the crosstrees with the mast leaning further every second and the sea climbing to meet your boots. It circles once and turns in, jaw open, the yellow tank wedged back behind the teeth where the throat should be. You brace the rifle across the spreader. Salt in both eyes. Four rounds left. It is close enough now to see what its eye is doing.",
       "sceneTitle": "Mast Top",
       "choices": [
         {
           "text": "Aim true",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You breathe out, hold, and put the last round into the tank at ten yards, and the whole sea stands straight up in front of you.",
           "nextNodeId": "end_smile"
         },
         {
           "text": "Pull the trigger now",
-          "consequence": "“Pull the trigger now” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You fire early and fast, three rounds wasted into open water, and the fourth is now the one that has to work.",
           "nextNodeId": "end_quint"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a version where the fish never comes back for the third pass, and the town has to answer for itself on dry land instead.",
           "nextNodeId": "end_swim"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_smile",
-      "text": "The tank explodes and the shark goes red and the chief, who hates the water, paddles back to shore on debris with a friend at his side.",
+      "text": "The tank goes and the sea stands up white and comes down again in pieces, and the pieces are red. You are hanging off a mast in ten feet of water with your ears ringing and no boat under you. Then Hooper surfaces forty yards out, glasses gone, entirely alive, swearing. You paddle in on a seat cushion and a length of spar, kicking the whole way, and you do not once put your face in the water.",
       "sceneTitle": "Smile You",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quint",
-      "text": "You bury Quint at sea and you do not, in your old age, talk about him to anyone, because the right words do not exist for a man who liked sharks more than he liked people.",
+      "text": "You mark the position on the chart and read something over it that you half remember from a funeral in Queens. Hooper says the man's first name and you find that you never knew it. Afterward, at town meetings and cookouts and school fetes, for thirty years, people ask what Quint was like out there, and you say he knew his business, and change the subject, because the true sentence has no polite version.",
       "sceneTitle": "Quint's Wake",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_swim",
-      "text": "Vaughn loses his job and the beach is closed for a season and the town rebuilds, this time with a new sign at the dock that says read the water.",
+      "text": "Vaughn resigns in October in a letter that mentions his health. The beaches stay shut through Labor Day, two guest houses fold, the ferry runs half empty, and nobody in Amity quite forgives you for having been right. In spring the harbourmaster bolts a sign at the head of the dock that says READ THE WATER. Tourists photograph it, thinking it quaint. You pass it every morning and go nowhere near the end of the pier.",
       "sceneTitle": "The Mayor Resigns",
       "choices": [],
       "isEnding": true,

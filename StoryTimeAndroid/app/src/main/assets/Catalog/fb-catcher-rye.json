@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Stradlater is, you think, a phony. You leave with a hat.",
+      "text": "Saturday night, the whole school down at the football game, and you're in the room with Stradlater while he shaves with a rusty razor and tells you about his date. It's Jane, and he can't get her name right. He asks you to write his English composition because he's got better things to do, and he asks it like a favor he's doing you. Your suitcases are already packed.",
       "sceneTitle": "Dorm Goodbye",
       "choices": [
         {
           "text": "Punch him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You take a swing at a guy who wrestles, which goes about how you'd expect, and you lie on the floor bleeding and feeling almost good about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Walk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You put the hat on backwards, pick up the bags, and yell something down the corridor at two in the morning at people who never did anything to you.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Mothers across the aisle. You lie about her son.",
+      "text": "Trenton, and a woman gets on and sits across from you, and it turns out she's the mother of a kid at Pencey. A genuinely rotten kid. A towel-snapper. A guy who once poured water into somebody's shoes for a laugh. So you tell her he's shy. You tell her he'd have been class president if he'd let himself be nominated. She glows the whole way to Newark and buys you a Coke.",
       "sceneTitle": "Train",
       "choices": [
         {
           "text": "Lie kindly",
-          "consequence": "There is no taking “Lie kindly” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You give her forty minutes of a son she'd like to have, and she gets off at Newark happy, and you feel worse than if you'd said nothing at all.",
           "nextNodeId": "s3"
         },
         {
           "text": "Tell the truth",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You give her one honest sentence about her kid and watch it land, and you spend the rest of the ride trying to think of a way to take it back.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Cab. Phoenix wanted, hotel suggested.",
+      "text": "You stand in a phone booth at Penn Station for twenty minutes going through everybody alive you could call at ten-forty at night. Your sister, no, they'd hear the phone. A girl from two summers ago, her mother answers. A guy from a school before Pencey. You come out having called nobody, get in a cab, and give the driver the wrong address out of pure habit.",
       "sceneTitle": "Penn Station",
       "choices": [
         {
           "text": "The Edmont",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You take a room in a hotel full of people doing things with their curtains open, and you watch them for a while, which you'd rather not go into.",
           "nextNodeId": "s4"
         },
         {
           "text": "Walk",
-          "consequence": "There is no taking “Walk” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You walk fifteen blocks in the cold with a suitcase in each hand instead, and the walking is the only thing all week that functions properly.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Three women from Seattle. Dancing.",
+      "text": "Downstairs there's a band that's terrible and three women from Seattle at the next table. The blond one can actually dance and the other two step on your feet and talk to each other over your head. They're waiting to see a movie star; they keep watching the door. You buy the drinks, get carded, settle for Cokes, and when they leave they stick you with the entire check.",
       "sceneTitle": "Lavender Room",
       "choices": [
         {
           "text": "Buy them drinks",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Lonely.",
+          "consequence": "You pay for four Cokes and a great deal of talk about a movie star, and afterward you genuinely miss them, which you can't explain to yourself.",
           "nextNodeId": "s5"
         },
         {
           "text": "Leave",
-          "consequence": "You commit to “Leave.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You go up to your room before midnight instead, and the room is worse than the band, and you sit on the end of the bed with your coat still on.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "An elevator boy sends up a girl. You decide not to.",
+      "text": "The elevator guy asks if you're interested and names a price, and you say yes before you've decided anything at all. She comes up and she's about your age, maybe less. She takes her dress off and hangs it on the back of the chair, careful about it, green, and something about the care she takes with the hanger turns your stomach over. You say you'd rather just talk.",
       "sceneTitle": "Sunny",
       "choices": [
         {
           "text": "Send her away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You give her the five and she's slow getting the dress off the chair, and you keep thinking about that hanger at odd hours for years.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay",
-          "consequence": "The decision settles the question for now. Its verdict—Lonely—follows you into whatever comes next.",
+          "consequence": "You sit on the edge of the bed while she asks what's the matter with you, and you invent an operation on your spine, and she looks at you with real pity.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Maurice takes more money. Your nose bleeds.",
+      "text": "Maurice comes back at one in the morning with her behind him and says the price was ten. So you argue about five dollars in a hotel corridor in your pajamas, which is not a scene you'd want written down anywhere. She takes the money out of your wallet while the two of you are talking. He hits you once, in the stomach, and you go down on the carpet and stay there.",
       "sceneTitle": "Beat Up",
       "choices": [
         {
           "text": "Cry quietly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You lie on the floor and cry where nobody can see it, then run a bath and spend the whole time pretending it happened to somebody else.",
           "nextNodeId": "s7"
         },
         {
           "text": "Plan revenge",
-          "consequence": "“Plan revenge” closes one possibility and opens another. The moment leaves a clear note behind: Foolish.",
+          "consequence": "You spend ten minutes staging a movie in your head where you come down the stairs with a bullet in you, and it helps, which is the embarrassing part.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You take her ice skating. You ask her to run away.",
+      "text": "Sally is a girl who says grand about things, and you call her anyway. Skating at Radio City in a skirt she wore because it looks right, and both of you are bad at it in different ways. Then over drinks afterward you start talking, actually talking, about a cabin in Massachusetts and getting out of here for good, and you can hear yourself doing it, and you cannot stop.",
       "sceneTitle": "Sally Hayes",
       "choices": [
         {
           "text": "Stop yourself",
-          "consequence": "There is no taking “Stop yourself” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You get the brakes on before the worst version comes out of your mouth, and the afternoon just ends flatly instead of catching fire.",
           "nextNodeId": "s8"
         },
         {
           "text": "Press",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You keep going until she's crying at the table, and then you say a thing you would pay actual money to unsay, and she leaves you with the check.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Old schoolmate. He is, charitably, a snob.",
+      "text": "Luce ran the entire dorm's education from an armchair at Whooton when you were fourteen. Now he's at Columbia, and he orders a martini and checks his watch four times before the drinks even arrive. You ask him too many questions in a row about his personal life. He tells you to go see a psychoanalyst, puts his coat on, and is out the door by ten past.",
       "sceneTitle": "Carl Luce",
       "choices": [
         {
           "text": "Endure him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You hold him at the table twenty minutes past when he wanted to leave, buying it with questions, and you can hear yourself doing it the whole time.",
           "nextNodeId": "s9"
         },
         {
           "text": "Leave",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You let him go and stay at the bar by yourself, which is how you end up ordering drinks that nobody should have sold you.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Late night, you call Sally. You apologize, sort of.",
+      "text": "You stay at the bar until it closes and then call Sally at one in the morning from a phone by the coat check and tell her you'll come over Christmas Eve and trim the tree. She says you're drunk. You are. Then you go into the men's room and put your head under the cold tap and sit on the radiator until your hair drips itself dry.",
       "sceneTitle": "Drunk",
       "choices": [
         {
           "text": "Get home",
-          "consequence": "You commit to “Get home.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You count your money out on the counter, find out exactly how little is left, and start toward the park because it's on the way and free.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wander",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You walk around for an hour talking to your dead brother in your head, asking him not to let you disappear every time you step off a curb.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The ducks. You ask cabbies where they go in winter.",
+      "text": "You go into the park to look at the lagoon on account of the ducks, which is not a thing you'd say out loud to another human being. Half of it's frozen over and there aren't any ducks anywhere. You've already asked two cab drivers tonight where they go in the winter, and the second one got angry about it. Phoebe's record is in your pocket in about six pieces.",
       "sceneTitle": "Park Lake",
       "choices": [
         {
           "text": "Wonder",
-          "consequence": "You commit to “Wonder.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stay on the cold bench working at the duck question, which is not really a question about ducks, and you know that while you're working at it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Move on",
-          "consequence": "There is no taking “Move on” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You get up and head for the apartment because you're shaking, and you tell yourself you'll come back and check on it in the spring.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You sneak home. Your sister is, against everything, a real person.",
+      "text": "You get past the doorman and into the apartment with your shoes in your hand, parents out at a party. Phoebe's asleep in D.B.'s room with her notebooks stacked on the desk; she's ten and she spells her middle name differently on every cover. She wakes up glad. Then she does arithmetic on the date and says it out loud: they kicked you out. And then: Daddy's going to kill you.",
       "sceneTitle": "Phoebe",
       "choices": [
         {
           "text": "Tell her you're going west",
-          "consequence": "There is no taking “Tell her you're going west” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You tell her about the ranch and the gas station and the entire plan, and she stops looking at you and won't answer for a long time.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tell her you came to see her",
-          "consequence": "You commit to “Tell her you came to see her.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You say you came home early because of her, and she knows that's partly a lie, and she decides to let you have it anyway.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Your old English teacher. He pats your head while you sleep.",
+      "text": "Antolini is the teacher who picked up the boy who went out the window at Elkton, carried him down with his own coat over him and didn't care about the blood. So you go there at midnight. He and his wife have had people over; there are glasses on every surface. He talks to you for an hour about the kind of fall you're headed for, and it's the best thing anybody says to you all week. Then you wake up with his hand on your head.",
       "sceneTitle": "Mr. Antolini",
       "choices": [
         {
           "text": "Leave politely",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You say something about bags at Grand Central and you're out of the apartment in four minutes, and then you're on the street at three a.m. with nowhere.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay angry",
-          "consequence": "The decision settles the question for now. Its verdict—Misread—follows you into whatever comes next.",
+          "consequence": "You get out fast and stay furious the whole way to Grand Central, where you start wondering whether you had it wrong, which is considerably worse.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The mummies. The display cases. You always loved that things stayed the same.",
+      "text": "You sit in Grand Central until dawn on a bench near the doughnut place, then walk up to the museum. The Eskimo is still fishing through the same hole. The birds are still going south on the same wire. You came every week with a class once and the only thing that ever changed in there was you. Two kids ask where the mummies are, get scared halfway, and run off.",
       "sceneTitle": "Museum",
       "choices": [
         {
           "text": "Sit",
-          "consequence": "“Sit” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You sit down in the dark under the stone with the writing all over the walls, and it's the calmest ten minutes of your week, and then you pass out.",
           "nextNodeId": "s14"
         },
         {
           "text": "Walk",
-          "consequence": "“Walk” closes one possibility and opens another. The moment leaves a clear note behind: Survive.",
+          "consequence": "You walk back through the halls past every case you know by heart, and somebody has written a filthy word on the wall in pencil.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "She comes with a suitcase. She wants to go west with you.",
+      "text": "You wait by the art museum after sending a note through her school, and she comes around the corner dragging your old suitcase from when you were a kid, sweating inside her coat. It's got her clothes in it and a pair of shoes. She says she's coming, she isn't going back, she's not going to school. She is completely serious about it and she will not look at you.",
       "sceneTitle": "Phoebe's Suitcase",
       "choices": [
         {
           "text": "Tell her no",
-          "consequence": "There is no taking “Tell her no” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You tell her no and she takes the hat off her own head and throws it at you, and then she doesn't speak to you for four blocks.",
           "nextNodeId": "s15"
         },
         {
           "text": "Take her",
-          "consequence": "You commit to “Take her.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You picture it for about ten seconds, the two of you on a westbound bus, and it's the first time the plan has looked like what it actually is.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Central Park. She rides. It rains.",
+      "text": "The zoo first, then the carousel, and it's playing the identical song it played when you were her age, because apparently they never change it. You buy her a ticket and she gets up on the big brown one and goes around. She keeps leaning way out for the gold ring and nearly coming off, and you decide to say nothing, because you can't spend your life catching people mid-lean. It starts raining hard.",
       "sceneTitle": "Carousel",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You sit on a soaked bench under a tree and watch her go around, and something in your chest opens up so wide it nearly hurts.",
           "nextNodeId": "s16"
         },
         {
           "text": "Worry",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stand at the rail ready to grab her every time she leans out, and she notices you standing there, and it makes her worse at it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You realize you're not running away. You're just tired.",
+      "text": "You're on the bench in the hat with the rain coming through it and everybody else has run for the arcade. She goes around and around in her blue coat. You'd been telling yourself for three days that you were leaving for good. You're not. You're a kid in a wet coat in a park two miles from your own apartment, and you're going to have to go home, and the relief is enormous.",
       "sceneTitle": "Sit in the Rain",
       "choices": [
         {
           "text": "Cry honestly",
-          "consequence": "There is no taking “Cry honestly” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You sit there and cry in the rain with nobody watching, and it doesn't fix one thing, and it takes something off your chest regardless.",
           "nextNodeId": "s17"
         },
         {
           "text": "Smile",
-          "consequence": "“Smile” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You sit there grinning like a moron at your sister on a wooden horse, and it's the only part of the entire week you'd keep.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You go home. The sick part of you sleeps a long time.",
+      "text": "You go home. Your mother is standing in her bedroom doorway and she doesn't shout, which is much worse than shouting. Somewhere in the days after that the thing that has been wrong gets worse, and you stop being able to get out of bed, and there's a doctor, and then a decision is made about you by people talking quietly in the hall. You sleep for what feels like a season.",
       "sceneTitle": "Home",
       "choices": [
         {
           "text": "Sleep",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go under for days and let them handle all of it, and you come up again with no memory whatsoever of most of December.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay up reading",
-          "consequence": "You commit to “Stay up reading.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You keep the lamp on until four every night reading anything with pages in it, because a book is the one thing that never asks you a question.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Out west, technically. A doctor. You talk about things.",
+      "text": "It's out west, technically, which is the joke: you got there in the end, just not the way you drew it up on a napkin. There's a psychoanalyst who wants to know whether you're going to apply yourself when you go back in September, which is not a question a person can answer in advance. Some days you talk. Some days you look at the window and he lets you.",
       "sceneTitle": "Hospital",
       "choices": [
         {
           "text": "Talk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You start telling him things in no order at all, and roughly a third of it turns out to be about your brother without you intending that.",
           "nextNodeId": "s19"
         },
         {
           "text": "Don't talk",
-          "consequence": "You commit to “Don't talk.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You give him nothing for three weeks and he keeps showing up anyway, which is the first argument in favor of people that has ever worked on you.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Your brother visits. He drives a fancy car. He is, in his way, kind.",
+      "text": "D.B. drives out Saturdays in a Jaguar he bought with money from a picture he won't defend. He used to write stories about a guy with a boat, and one of them you can still recite. Now he's a Hollywood guy, and you say so, meanly, and he takes it without a word. Then he asks what you actually make of everything that happened, and you can't answer him.",
       "sceneTitle": "D.B.",
       "choices": [
         {
           "text": "Forgive him",
-          "consequence": "You commit to “Forgive him.” The story records the instinct as “Brother” and carries it forward.",
+          "consequence": "You let the Jaguar go and let him be a guy who sold out and still drove four hours on a Saturday to sit in a room with you.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay distant",
-          "consequence": "“Stay distant” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You keep the sourness up as a defense and he keeps coming out anyway, and eventually the defense gets exhausting to maintain on schedule.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You're going to a new school in the fall.",
+      "text": "There's a new school in September, the fourth one, and everybody keeps asking whether you're going to apply yourself, like it's a switch somebody could flip on the back of your neck. How are you supposed to know what you'll do until you're in there doing it? The window here gives you a lawn and a fence. You've started thinking about the fall the ordinary way, as a season.",
       "sceneTitle": "Coming Back",
       "choices": [
         {
           "text": "Try",
-          "consequence": "There is no taking “Try” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You decide, without telling anybody, that you'll go in September and see what happens, which is the largest promise you're currently able to make.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't try",
-          "consequence": "“Don't try” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You refuse to promise anything to anyone, which is honest, and which leaves you sitting alone with the whole thing in your lap.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You realize you miss everyone. Even Stradlater.",
+      "text": "The strange part, and you would not say this out loud in this building, is that you miss them. Ackley standing in your doorway at eleven at night with his terrible teeth. Maurice, even. Stradlater and the rusty razor. The women from Seattle who stuck you with the check. Every one of them, and you can't work out whether that's a decent thing about you or the whole disease.",
       "sceneTitle": "Missing People",
       "choices": [
         {
           "text": "Admit it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You say it out loud once, to the doctor, and hearing it in your own voice makes it about nine times worse and also completely true.",
           "nextNodeId": "end_school"
         },
         {
           "text": "Don't admit it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You keep it where nobody can use it against you, which works fine, in the way that holding your breath works fine for a while.",
           "nextNodeId": "end_writer"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There's a version where the point of the whole week was a ten-year-old on a wooden horse in the rain, and it's been waiting for you to notice.",
           "nextNodeId": "end_phoebe"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_school",
-      "text": "You go to the new school. You do, eventually, finish. You also, slowly, stop hating most people. You realize the phonies were, often, just scared like you.",
+      "text": "You go in September. It's fine. Not good, fine, which turns out to be a category you didn't know was available. You finish. Somewhere around twenty you notice you've stopped auditing everybody within thirty feet of you for fraud, and it's less a decision than something that quietly stops happening. Most of the people you filed under phony were doing what you were doing: talking too loud in a room they weren't sure they were allowed in. You never entirely forgive the ones who earned it. You just stop keeping the list.",
       "sceneTitle": "New School",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You become a writer in your twenties. You write a long careful book about a few days in December when you almost ran away. The book becomes a kind of mirror for decades of teenagers.",
+      "text": "You write. Not straight away; there's a run of jobs first, and a marriage that mostly works. Then in your late twenties you sit down and put three days in December on paper, in the voice you had at sixteen, which is far harder to get right than anybody would believe. The book is short. It goes out and comes back multiplied: kids write to you from schools in states you can't picture, all saying you got it exactly right about them specifically. You answer every letter for two years. Then you stop answering.",
       "sceneTitle": "Writer",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_phoebe",
-      "text": "You stay close to Phoebe for the rest of your life. She becomes a teacher. You become her brother in the way that matters. You are, in middle age, happy.",
+      "text": "You stay her brother. Not the birthday-card way, the real way: thirty phone calls a year, the person she tells things to before she tells anyone else. She becomes a teacher, fourth grade, and is somewhat frightening about it. You sit at the back of her classroom once and watch her be patient with a boy who cannot stay in his chair, and you think about a suitcase and a carousel in the rain. In middle age, having planned for none of it, you are happy.",
       "sceneTitle": "Phoebe",
       "choices": [],
       "isEnding": true,

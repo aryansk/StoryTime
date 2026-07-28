@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Wampa tracks in the snow, and the sun going down fast.",
+      "text": "Your tauntaun's breath freezes the instant it leaves her nostrils. Six meters off, something has pushed a trench through the drift — not a claw mark, a drag mark, wide as a speeder. The meteorite you came out to log is still glowing to the east. Behind you the sun is already half into the ice, and Echo Base is a twenty-minute ride you no longer have.",
       "sceneTitle": "Hoth Patrol",
       "choices": [
         {
           "text": "Investigate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You ride toward the drag mark with your macrobinoculars up, and something with four-meter arms takes the tauntaun's throat out before you finish focusing.",
           "nextNodeId": "s2"
         },
         {
           "text": "Report and return",
-          "consequence": "You commit to “Report and return.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You turn for base at a trot, and the drift behind you stands up on two legs. Duty was never going to be fast enough.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Probe droid spotted. The Empire is on the way.",
+      "text": "Whatever you shot out in the snowfield left a scorch crater and a scatter of Imperial servomotors across the ice. Threepio identifies the plating before anyone wants him to. In the command trench, Rieekan reads the fleet plot and stops arguing: a line of Star Destroyers is decelerating above the pole, and the ion cannon can cover exactly one transport at a time. Klaxons. Everybody runs the wrong direction first.",
       "sceneTitle": "Echo Base Klaxon",
       "choices": [
         {
           "text": "Evacuate first",
-          "consequence": "There is no taking “Evacuate first” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You get the medical frigate's manifest moving first — crates, wounded, the children of technicians — and buy the ion gunners forty seconds they will spend very well.",
           "nextNodeId": "s3"
         },
         {
           "text": "Hold the line",
-          "consequence": "“Hold the line” closes one possibility and opens another. The moment leaves a clear note behind: Soldier.",
+          "consequence": "You take a trench with a rifle instead of a clipboard, and the snow in front of your position gets loud faster than anyone briefed you for.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Walkers on the ridge, and only one trick left.",
+      "text": "Rogue Group flies at treetop height on a planet with no trees. The walkers come over the ridge in a line, twenty meters at the shoulder, and your cannons scorch their armor and do nothing else. The shield generator has minutes. Your gunner's harness is empty behind you. In the belly of the speeder there is a harpoon and a cable winch, rated for hauling cargo sleds across flat ice.",
       "sceneTitle": "Snowspeeder Tow Cables",
       "choices": [
         {
           "text": "Try the cables",
-          "consequence": "The decision settles the question for now. Its verdict—Clever—follows you into whatever comes next.",
+          "consequence": "You fly circles around a walker's knees at full throttle while the line bites, and the whole grey mountain of it goes down face-first into the snow.",
           "nextNodeId": "s4"
         },
         {
           "text": "Strafe the cockpits",
-          "consequence": "“Strafe the cockpits” closes one possibility and opens another. The moment leaves a clear note behind: Direct.",
+          "consequence": "You go for the viewport glass and learn exactly what armored transparisteel does to a laser cannon. The lesson costs you a wingman named Hobbie.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Imperial troops in the corridor and a hyperdrive that coughs.",
+      "text": "Chewbacca has the deck plates up and both arms buried in the power coupling. Down the corridor a bulkhead goes white-hot and stormtroopers come through the hole in it. Leia is telling Han the transports are gone and he should have been on one. Every time he hits the ignition, the Falcon makes a noise like a man clearing his throat, then nothing. Blaster fire walks across the hull above your head.",
       "sceneTitle": "Falcon Won't Start",
       "choices": [
         {
           "text": "Stay and fix it",
-          "consequence": "“Stay and fix it” closes one possibility and opens another. The moment leaves a clear note behind: Bold.",
+          "consequence": "Han slams the console with the flat of his hand and the drive catches. Nobody who was aboard will ever admit out loud that this is why.",
           "nextNodeId": "s5"
         },
         {
           "text": "Sublight escape",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Desperate.",
+          "consequence": "You lift on repulsors alone, clawing out of the hangar mouth with a Star Destroyer already filling the viewport and no hyperdrive to run toward.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Sensors lie. The swamp rises up to grab the landing skids.",
+      "text": "Instruments go stupid at eight hundred meters. Altimeter spinning, horizon indicator flat, mass readings insisting the planet underneath you is not there at all. Artoo shrieks from the socket behind your head. Below, the canopy is a grey-green roof with no gaps in it, and something under your ribs keeps pulling left of everywhere the panel says to go.",
       "sceneTitle": "Dagobah Approach",
       "choices": [
         {
           "text": "Trust the Force",
-          "consequence": "The decision settles the question for now. Its verdict—Surrender—follows you into whatever comes next.",
+          "consequence": "You cut the instruments and fly on the pull in your chest. The X-wing goes into the bog nose-first, but you and the droid both walk out.",
           "nextNodeId": "s6"
         },
         {
           "text": "Trust the panel",
-          "consequence": "You commit to “Trust the panel.” The story records the instinct as “Stubborn” and carries it forward.",
+          "consequence": "You fly the numbers all the way down and the numbers put a wing through a tree. Ben's voice, when it arrives, does not say anything smug.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Vader's mask in your visor, and your saber already drawn.",
+      "text": "Yoda says the cave is strong with the dark side, and that only what you take in will be waiting. You take the belt and the saber. Inside, the air is warm and wet and smells like an infected wound. Vader steps out of the black with no sound at all — no breath, no bootfall — his blade already lit, and yours came up before you decided to raise it.",
       "sceneTitle": "The Cave",
       "choices": [
         {
           "text": "Drop the saber",
-          "consequence": "There is no taking “Drop the saber” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You lower the blade and he cuts anyway, and the split mask shows your own face inside it, calm, finished, wearing the machine like a coat.",
           "nextNodeId": "s7"
         },
         {
           "text": "Fight him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Reckless.",
+          "consequence": "Two exchanges and you take his head off in one clean sweep. The helmet rolls to your boots with your face in it. Yoda never asks what you saw.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Yoda says size matters not. The marsh disagrees.",
+      "text": "The fighter sits in the water to the cockpit rim, canopy fogged, one wing bent where the strut caught a root. Yoda perches on a log with his stick across his knees and says that size is a matter for the eye, and the eye is a liar. You reach out. The nose lifts a hand's width. Then the whole ship settles back into the mud with a long sucking sound.",
       "sceneTitle": "Lift the X-Wing",
       "choices": [
         {
           "text": "Try",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You get daylight under one landing skid before your concentration tears and the swamp takes the ship back with a slap you feel in your teeth.",
           "nextNodeId": "s8"
         },
         {
           "text": "Walk away",
-          "consequence": "You commit to “Walk away.” The story records the instinct as “Doubt” and carries it forward.",
+          "consequence": "You say the words too big and sit down in the mud, and a creature the size of a child raises a starfighter without bothering to stand.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Never tell you the odds. The cockpit goes dark for a second.",
+      "text": "Threepio starts reciting the odds against surviving a direct approach and Han cuts him off mid-number. The Falcon goes in at full throttle with rocks the size of cities tumbling past the viewport. Something clips the upper mandible. The lights dim, the gravity stutters, and for one entire second every panel on the flight deck goes dark while a fragment the size of a moon rolls toward the bow.",
       "sceneTitle": "Asteroid Field",
       "choices": [
         {
           "text": "Dive deeper",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "Han flies into the smallest debris on purpose, where nothing larger than a snub fighter can follow, and the Destroyers peel off one at a time.",
           "nextNodeId": "s9"
         },
         {
           "text": "Climb out",
-          "consequence": "“Climb out” closes one possibility and opens another. The moment leaves a clear note behind: Cautious.",
+          "consequence": "You break for open space, pick up three TIEs and a tractor lock, and Chewbacca says something about the pilot's ancestry that requires no translation.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A cave that breathes. The stars at its mouth like teeth.",
+      "text": "Underfoot, the cave floor gives slightly, which caves do not do. Leia points out there is breathable atmosphere in here, which is worse. The walls are ribbed and glossy and warm to the palm. Han fires one shot into the ground and the entire cavern shudders around you. Out at the entrance, the stalactites have started moving toward each other, top and bottom, without any wind to move them.",
       "sceneTitle": "Space Slug",
       "choices": [
         {
           "text": "Boost full",
-          "consequence": "The decision settles the question for now. Its verdict—Quick—follows you into whatever comes next.",
+          "consequence": "Han flies straight down a closing throat and rolls the Falcon out between two teeth with centimeters to spare on either wingtip. Nobody breathes for a while.",
           "nextNodeId": "s10"
         },
         {
           "text": "Drift quiet",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Stealth.",
+          "consequence": "You cut engines and coast toward the light, which gives the thing time to decide it wants you, and the mouth begins shutting early.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A line of them on a Star Destroyer deck. One in green Mandalorian plate.",
+      "text": "The Executor's hangar deck runs a hundred meters of polished black. Six of them stand in a row for inspection: two droids, a lizard, a masked man, and one in dented green plate with a jetpack and a voice like dry sand. Vader wants the passengers alive. He specifies that disintegrations will not be tolerated. Somewhere in this fleet a freighter with a dead hyperdrive is running out of ideas.",
       "sceneTitle": "Bounty Hunters",
       "choices": [
         {
           "text": "Hide on the hull",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "Han magnetizes the Falcon to the Destroyer's conning tower and waits for the garbage dump, and one man on that deck watches the trash instead of the ship.",
           "nextNodeId": "s11"
         },
         {
           "text": "Run sublight",
-          "consequence": "“Run sublight” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You burn for open space and every scanner in the fleet paints you, and the green helmet starts working out where a crippled freighter would have to go.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Lando smiles too wide and the dinner doors slide open on Vader at the head of the table.",
+      "text": "Bespin hangs in orange cloud, a mining colony balanced on a stalk. Lando Calrissian meets you on the landing platform with both arms open and a laugh that runs a beat too long. He compliments the ship he lost to Han at cards. He apologises for the security sweep. Then the dining room doors part on a long table set for guests, and at the head of it a black mask turns.",
       "sceneTitle": "Cloud City Welcome",
       "choices": [
         {
           "text": "Draw",
-          "consequence": "You commit to “Draw.” The story records the instinct as “Quick” and carries it forward.",
+          "consequence": "Han clears leather and gets three shots off before the blaster leaves his hand on its own and settles into a gloved palm, still smoking.",
           "nextNodeId": "s12"
         },
         {
           "text": "Drop the blaster",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You set the weapon down on the tablecloth and Vader thanks you for your cooperation, which lands somehow heavier than being shot at would have.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Han goes first, and Leia holds his face.",
+      "text": "Somewhere under Cloud City a chamber vents superheated gas in slow columns you can feel through your boots. Lando says the process was built for tibanna, not for people, and that nobody has run a man through it. So they test the settings on Han first. Chewbacca is chained and howling. Leia gets three steps before a trooper catches her, and Han is already standing on the platform with his hands cuffed.",
       "sceneTitle": "Carbon Freeze",
       "choices": [
         {
           "text": "Say it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "She says she loves him. He answers with two words that are not the two words, and the platform drops before either of them can take anything back.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't say it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stoic.",
+          "consequence": "Nobody says anything at all, and the steam takes him mid-look, and it is that silence you carry off Bespin rather than the screaming.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Lando whispers there is a way out for the others, if you trust him now.",
+      "text": "Lando's own guards now have blasters at the backs of Lando's own men. He says the Empire is taking his city and his people, that he made a deal and the deal was altered twice without him, and that there is a hangar four levels down if you move right now. Threepio rides in a net on Chewbacca's back, in pieces, still talking. Down the corridor, boots on metal.",
       "sceneTitle": "Tunnels of Cloud City",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You take a gambler's word one more time, and he spends the next ten minutes shouting into a public address system to empty his own city.",
           "nextNodeId": "s14"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Wary—follows you into whatever comes next.",
+          "consequence": "You keep a blaster level on him the entire way down, and he walks you out anyway, and he never once brings it up afterward.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Vader is patient and you are not. Sparks on a catwalk over nothing.",
+      "text": "He fights like a man moving furniture. No hurry, no wasted step, every parry landing hard enough to shake your wrists loose. The freeze chamber floor drops away and now you are on a gantry over a reactor shaft with no rail, warm air rising out of it. He says your abilities are complete, that Obi-Wan taught you well. He has not yet bothered to use his second hand.",
       "sceneTitle": "Saber Duel",
       "choices": [
         {
           "text": "Press the attack",
-          "consequence": "There is no taking “Press the attack” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You come at him swinging and drive him back three paces along the catwalk, which turns out to be precisely as far as he intended to go.",
           "nextNodeId": "s15"
         },
         {
           "text": "Defend",
-          "consequence": "You commit to “Defend.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You give ground, block, give ground again, and a length of machinery he throws one-handed puts you backward through a window into open sky.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Boba Fett's prize lifted onto a transport while you bleed in a corridor.",
+      "text": "Steaming and frost-white, the slab rises out of the pit with a man's face pressed out through the front of it with both hands still raised. Fett's crew tips it onto a repulsor sled without ceremony. You reach the upper platform in time to watch Slave I lift off Bespin with the cargo bay already sealed. Your shoulder is open to the bone and there is no ship of yours on this planet.",
       "sceneTitle": "Carbonite Slab",
       "choices": [
         {
           "text": "Pursue Fett",
-          "consequence": "There is no taking “Pursue Fett” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You sprint for a landing pad you cannot reach in time and the exhaust wash burns a black stripe up the plating past your boots.",
           "nextNodeId": "s16"
         },
         {
           "text": "Pursue Vader",
-          "consequence": "“Pursue Vader” closes one possibility and opens another. The moment leaves a clear note behind: Duty.",
+          "consequence": "You choose the father over the friend and turn back into the freeze chamber, which is exactly the door he left standing open for you.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A hand cut. A truth offered. A long fall to nothing.",
+      "text": "Your hand comes off at the wrist and the saber goes with it, spinning down the shaft, still lit. You are out on the weather vane under Cloud City with a thousand kilometers of nothing below and a red blade between you and the ladder. He says there is no escape. He says he does not want to kill you. He says Obi-Wan never told you what happened to your father. Then he tells you.",
       "sceneTitle": "Gantry Over the Reactor",
       "choices": [
         {
           "text": "Take his hand",
-          "consequence": "You commit to “Take his hand.” The story records the instinct as “Tempted” and carries it forward.",
+          "consequence": "You reach for the glove, and every story anyone ever told you about your own name goes down the reactor shaft behind you without a sound.",
           "nextNodeId": "s17"
         },
         {
           "text": "Let go",
-          "consequence": "“Let go” closes one possibility and opens another. The moment leaves a clear note behind: True.",
+          "consequence": "You pick the drop over the answer and fall through vent and duct until an antenna array catches you — alive, one-handed, and completely alone.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Lando at the controls, Leia at the cockpit, a voice in your mind saying her name.",
+      "text": "You are hanging under a weather vane by the fingers of the hand you still have. Cloud City turns slowly overhead, orange and enormous and indifferent. Nobody knows where you are, the wind is pulling the heat out of your chest, and you shouted yourself hoarse a while ago. Then something moves in you like a hand turning your head, and a name arrives that is not Ben's.",
       "sceneTitle": "Falcon Sweeps Under",
       "choices": [
         {
           "text": "Call her",
-          "consequence": "The decision settles the question for now. Its verdict—Hope—follows you into whatever comes next.",
+          "consequence": "You put her name out into the dark with the last air in your lungs, and two hundred kilometers away she tells Lando to turn the ship around.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay still",
-          "consequence": "You commit to “Stay still.” The story records the instinct as “Spent” and carries it forward.",
+          "consequence": "You tighten your grip and say nothing at all, and she comes regardless, because whatever runs between the two of you never required your permission.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "It is fixed by a fussy gold droid pieced back together in a sack.",
+      "text": "Lando has you inside and Chewbacca has a fist in your belt. Star Destroyers close from three vectors and the coordinates are laid in. Han taught this ship to lie to scanners, but Vader's technicians got into the drive on Bespin. Threepio, freshly reassembled and screwed together slightly wrong, is chattering at Artoo about a circuit nobody asked about. Artoo rolls to the panel and extends an arm.",
       "sceneTitle": "Hyperdrive Sabotaged",
       "choices": [
         {
           "text": "Trust it",
-          "consequence": "The decision settles the question for now. Its verdict—Faith—follows you into whatever comes next.",
+          "consequence": "You let the one droid nobody consults touch the last working system on the ship, and the stars stretch into lines on the very first attempt.",
           "nextNodeId": "s19"
         },
         {
           "text": "Limp on sublight",
-          "consequence": "You commit to “Limp on sublight.” The story records the instinct as “Practical” and carries it forward.",
+          "consequence": "You reach for the sublight throttle instead, and a droid repairs the drive behind your back while you are busy being certain it cannot be repaired.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Medical frigate, new hand, old face in the window.",
+      "text": "Everything on the medical frigate smells of antiseptic and cold alloy. A surgical droid stitches a synthetic hand onto your wrist and pricks each new fingertip with a needle to see what registers. Everything registers. Through the viewport the fleet hangs in formation against a nebula the color of a bruise, and Leia stands with her arms folded, watching a galaxy that now has one more thing missing out of it.",
       "sceneTitle": "Rebel Fleet, Quiet",
       "choices": [
         {
           "text": "Touch the glass",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You lay the new palm flat against the viewport and it reads the cold correctly, the first honest thing anything has told you in a week.",
           "nextNodeId": "s20"
         },
         {
           "text": "Turn away",
-          "consequence": "There is no taking “Turn away” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You keep the hand under the blanket where nobody has to look at it, yourself included, and Leia is decent enough to let you have that.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "He will find Han or he will die trying.",
+      "text": "Lando is wearing Han's clothes and flying Han's ship, and he keeps mentioning it so nobody else has to. Chewbacca has agreed in principle not to remove his arms. The plan is Tatooine: a crime lord, a palace carved into rock, and a slab of carbonite hung on a wall as decoration. Lando says he will bring him back or he will not be coming back either.",
       "sceneTitle": "Lando's Vow",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hope.",
+          "consequence": "You shake the gambler's hand and mean it, which rattles him more than any blaster ever did, and the Falcon leaves without you aboard.",
           "nextNodeId": "s21"
         },
         {
           "text": "Go yourself",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stubborn.",
+          "consequence": "You start listing what you would need for Tatooine and Leia stops you with one sentence about a hand you cannot yet close. She is right.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "The galaxy is wider and worse than yesterday, and you are still in it.",
+      "text": "The Falcon is a spark going out at the corner of the viewport. Behind you a droid is arguing with a droid. Your father is alive inside a machine, your friend is furniture in somebody's throne room, and your teacher lives in a swamp and never once lied to you. Artoo whistles a question. Outside, the nebula turns, and the war does not pause for a single part of it.",
       "sceneTitle": "Stars Again",
       "choices": [
         {
           "text": "Take the next mission",
-          "consequence": "You commit to “Take the next mission.” The story records the instinct as “Soldier” and carries it forward.",
+          "consequence": "You go find Rieekan and ask what needs flying, because a cockpit is the one place the new hand has nothing left to prove.",
           "nextNodeId": "end_train"
         },
         {
           "text": "Sit a moment",
-          "consequence": "You commit to “Sit a moment.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stay at the glass until the fleet's running lights change shift, letting the whole terrible sentence land properly instead of trying to outrun it.",
           "nextNodeId": "end_chase"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither. You walk to the hangar, where a beat-up X-wing sits fueled with a swamp already loaded into the navicomputer.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_train",
-      "text": "You return to the swamp to finish what you started, and Yoda is shorter and stranger and entirely correct, again.",
+      "text": "You set down in the bog on purpose this time, skids first, and Yoda is waiting on the same log with the same stick, entirely unsurprised. He looks at the hand. He looks at your face. He does not say that he warned you, which is worse than if he had. Training starts again before light, harder, and every lift comes easier than the last, because you have finally stopped asking whether the thing can be done.",
       "sceneTitle": "Back to Dagobah",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_chase",
-      "text": "You and Lando burn a hundred contacts and a half a dozen ships looking for one slab of carbonite across a galaxy that does not want it found.",
+      "text": "Lando burns through a hundred contacts and six false names. You trade a working hyperdrive for a rumor, the rumor for a location, and lose the location in a cantina on a moon that does not appear on any chart. Slave I leaves no wake worth following. Somewhere out ahead a man is hanging on a wall in the dark, not breathing and not dead, and the galaxy is enormous and declines to help.",
       "sceneTitle": "The Hunt for Fett",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You learn to live with the new hand, and with the sentence, and you do not lie down. That is the lesson the Empire never expected anyone to learn.",
+      "text": "You learn the new hand the way anyone learns anything, by breaking things. It grips too hard on a glass and not hard enough on a wet saber hilt. The sentence from the gantry arrives at odd hours — in turbolifts, mid-meal, halfway through a joke with people who do not know. You do not lie down under it. That refusal is the one variable the Empire never thought to put in the model.",
       "sceneTitle": "A New Hand",
       "choices": [],
       "isEnding": true,

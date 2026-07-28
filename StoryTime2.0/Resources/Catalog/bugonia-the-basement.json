@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You wake duct-taped to a chair in a basement that smells like old paint. Two men sit across from you on lawn chairs. The older one, Teddy, is calm. The younger one, Don, is sweating.",
+      "text": "Duct tape at both wrists, at the ankles, one strip across your chest. The basement smells of old paint and something mineral underneath it. Two lawn chairs face you. The older one, Teddy, sits perfectly still with his hands flat on his knees, like a man in a waiting room. The younger one, Don, cannot stop wiping his palms down his jeans. Your head has been shaved.",
       "sceneTitle": "The Basement",
       "choices": [
         {
           "text": "Stay silent until they speak",
-          "consequence": "Read the room.",
+          "consequence": "Forty minutes of nothing. You learn that Teddy can outlast you and that Don cannot, and you put that somewhere safe.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask why you are here",
-          "consequence": "The decision settles the question for now. Its verdict—Direct—follows you into whatever comes next.",
+          "consequence": "You ask, and Teddy answers immediately and at length, which tells you he has been rehearsing this for months.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Teddy reads, off a printout, the case against you. Your company's drugs have killed thousands. He has paperwork. He has names. He has, he says, photographic evidence that you are 'not from here.'",
+      "text": "Teddy reads from a printout, both hands, no notes in the margins. Trial numbers. Adverse-event filings. A settlement your legal team buried in Delaware in 2019. For nine straight minutes he is accurate — more accurate about you than any reporter has ever managed. Then, in exactly the same flat voice, he says he has photographs proving you are not from here.",
       "sceneTitle": "The Charge",
       "choices": [
         {
           "text": "Engage with the drug accusation only",
-          "consequence": "Find common ground.",
+          "consequence": "You answer the facts and step around the rest, which he hears as precisely the evasion a queen would use.",
           "nextNodeId": "s4"
         },
         {
           "text": "Engage with the alien accusation seriously",
-          "consequence": "Meet them where they are.",
+          "consequence": "You ask to see the photographs. Don's head comes up fast. In all these months, nobody has ever asked to see them.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Don looks at you the way a child looks at a TV he doesn't quite understand. He says, 'I told him you didn't really look like a queen.' Teddy ignores him.",
+      "text": "Don watches you the way a kid watches a program made for adults — leaning forward, following maybe a third of it, waiting for the part he was promised. Then he says, to the floor, that he told Teddy you did not really look like a queen. Teddy does not answer him. Don says it again, smaller, to the same floor. Teddy still does not answer.",
       "sceneTitle": "Don's Eyes",
       "choices": [
         {
           "text": "Talk to Don as the weaker link",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tactical.",
+          "consequence": "You aim two sentences past Teddy at Don. Teddy notices inside a second and moves his chair to block the sightline.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse to triangulate; speak to both",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You address them together, as brothers, before anyone has told you they are brothers. Teddy's jaw moves. He does not correct you.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Teddy explains: there is a lunar eclipse in 36 hours, and he believes the eclipse will 'reveal' your true form. If it does, they will kill you. If it doesn't, they will release you.",
+      "text": "He has printed the timetable off an astronomy site and highlighted one line. Totality at 3:41 Thursday morning, thirty-six hours out. Under the shadow, he says, your real face comes through, because it always does. If it does, they kill you. If it does not, they drive you to a road and let you walk. He says both halves in the tone of a man explaining a return policy.",
       "sceneTitle": "The Lunar Eclipse Deadline",
       "choices": [
         {
           "text": "Negotiate for safer terms",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bargain.",
+          "consequence": "You get water every two hours and one hand loose at meals. Small wins are still wins when you can count the hours left on them.",
           "nextNodeId": "s6"
         },
         {
           "text": "Accept the deadline and use it",
-          "consequence": "Use the clock.",
+          "consequence": "You stop arguing about the eclipse and start arguing about everything else. Thirty-six hours is enormous if you are the only person using it.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "You learn, in fragments, that Teddy's mother died in a clinical trial sponsored by your company. The trial was, on paper, ethical. The reality is, you suspect, more complicated.",
+      "text": "It comes out sideways, over hours. A phase-two trial, 2016. His mother enrolled because standard care cost more than her house was worth. She was in the arm that got the compound. She was fifty-nine. The paperwork is immaculate — consent signed, protocol followed, adverse event recorded and closed. All of it legal. You know exactly how a thing can be legal the whole way down and still be what it is.",
       "sceneTitle": "Teddy's Mother",
       "choices": [
         {
           "text": "Tell him you'll look into the trial personally",
-          "consequence": "There is no taking “Tell him you'll look into the trial personally” back. Sincerity shapes the silence before the next moment arrives.",
+          "consequence": "You promise a review, and hear how it sounds down here: the noise a company makes in the shape of an answer.",
           "nextNodeId": "s6"
         },
         {
           "text": "Tell him you're sorry",
-          "consequence": "There is no taking “Tell him you're sorry” back. Empathy first shapes the silence before the next moment arrives.",
+          "consequence": "Two words, no qualifier, no legal hedge. Don stops sweating. Teddy stands up and leaves the room for six minutes.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Don, against Teddy's orders, gives you a phone to call your assistant. You have ninety seconds. You realize that 'call for rescue' and 'call to apologize to your team' are, oddly, the same call.",
+      "text": "Don hands you the phone while Teddy is upstairs, and his hands are worse than yours. Ninety seconds, he says, and holds up the timer to prove he means it. Your assistant will answer on the second ring because she always does. And in the seconds you spend deciding what to say, you notice that the call for rescue and the call to apologise are, almost word for word, the same call.",
       "sceneTitle": "The Phone",
       "choices": [
         {
           "text": "Call to apologize and resign",
-          "consequence": "Use the moment.",
+          "consequence": "You spend eighty of the ninety seconds saying things that belonged in a boardroom. She keeps trying to interrupt with the word police.",
           "nextNodeId": "s8"
         },
         {
           "text": "Send a coded message for rescue",
-          "consequence": "Use the moment differently.",
+          "consequence": "You mention the Tahoe file, which does not exist, which is your family's word for the cabin. She goes very quiet and says she understands.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Teddy has written a manifesto. He reads it to you over many hours. It is, in places, terrifyingly accurate about your industry. It is, in places, deeply unwell about extraterrestrials. You realize that both can be true at once.",
+      "text": "Forty-one pages, read aloud, no breaks, no water. Pages one through nineteen are about pricing, regulatory capture, and the exact mechanism by which a company decides a life is cheaper than a lawsuit. Those pages are correct. Page twenty onward is hive structure, the queen's pheromone, and the year the substitutions began. Same handwriting throughout. Same wound underneath both halves.",
       "sceneTitle": "The Manifesto",
       "choices": [
         {
           "text": "Critique the manifesto sincerely",
-          "consequence": "“Critique the manifesto sincerely” closes one possibility and opens another. The moment leaves a clear note behind: Honest reader.",
+          "consequence": "You tell him where his sourcing is weak and where it is devastating. He writes your notes in the margin. Nobody has ever engaged with it before.",
           "nextNodeId": "s8"
         },
         {
           "text": "Praise the parts that are right",
-          "consequence": "You commit to “Praise the parts that are right.” The story records the instinct as “Coalition” and carries it forward.",
+          "consequence": "You tell him page fourteen would end a career if it ran anywhere. He glows, then narrows, then asks why you are being kind to him.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Don, who has been silent for hours, finally says, 'I just want my brother to be okay.' You realize Teddy is his brother, that the manifesto is a survival mechanism, and that everything they have done is, in its terrible way, love.",
+      "text": "Hours of silence, and then Don says he only wants his brother to be okay. Brother. The word rearranges the whole basement. The manifesto is not a plan, it is scaffolding — the thing Teddy built so his grief would have somewhere to stand up. And every locked door, every zip tie, every printed page is a younger man saying yes to him in the worst available dialect.",
       "sceneTitle": "Don, Listening",
       "choices": [
         {
           "text": "Try to give Teddy a kinder story",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You start offering Teddy a version where his mother's death has a cause he can name without the sky in it. He listens longer than he means to.",
           "nextNodeId": "s10"
         },
         {
           "text": "Try to get Don to make the call himself",
-          "consequence": "Use the gap.",
+          "consequence": "You tell Don that whoever opens the door first is the one the courts get to treat as a person. He looks at the stairs for a long time.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your sister, who knows you are missing, manages to text Don a question. He answers without thinking. The question reveals, accidentally, exactly where you are. You realize Don has, accidentally, saved you.",
+      "text": "Your sister has been texting Don's burner for six hours, gentle and relentless, asking nothing that sounds like a question. She asks what the weather is doing where he is. He answers — hail, in June, which happened in exactly one county yesterday. He does not realise. You do. Somewhere in a state office a map is narrowing right now. Don smiles at his phone, pleased to have been asked something easy.",
       "sceneTitle": "Your Sister Calls Back",
       "choices": [
         {
           "text": "Use the information to plan an escape",
-          "consequence": "You commit to “Use the information to plan an escape.” The story records the instinct as “Logical” and carries it forward.",
+          "consequence": "You start counting stairs and hinge screws. If people are coming, being upright and moving when they arrive is worth something.",
           "nextNodeId": "s10"
         },
         {
           "text": "Use the information to negotiate, not escape",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You decide the door will open on its own, and spend the hours buying Don a version of this in which he is not the one who dies.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You spend the next twelve hours in the basement having the most honest conversation of your professional life — about drug trials, about pricing, about the small terrible decisions that compound into bodies. You realize, in passing, that you might be a worse person than you'd believed.",
+      "text": "Twelve hours, no lawyer, no comms team, nobody to say let us take that offline. Teddy asks his questions in order. You answer in order. Pricing. The patient-assistance program engineered to be difficult to use. The 2019 memo you did not write and did not stop. Somewhere around hour eight you quit defending and start remembering, and remembering has a shape you recognise from a long way back.",
       "sceneTitle": "The Hours Before the Eclipse",
       "choices": [
         {
           "text": "Confess to Teddy fully",
-          "consequence": "There is no taking “Confess to Teddy fully” back. Truth shapes the silence before the next moment arrives.",
+          "consequence": "You hand him the whole ledger, including the parts with no statute of limitations on them. He writes none of it down, which is somehow worse.",
           "nextNodeId": "s12"
         },
         {
           "text": "Confess only the parts you can change",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pragmatic truth.",
+          "consequence": "You give up what can still be fixed and hold back the rest. It is strategic, it is survivable, and he can hear the seam.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your sister has, with help, called the FBI. They are, you understand from a small radio Don turns on by accident, in a perimeter outside. The eclipse is in nine hours.",
+      "text": "Don's little radio catches a dispatch it was never meant to, and the word cordon does not need explaining to anybody in this room. They are in the trees. They have been for hours — that is why the birds went quiet around four. Nine hours to totality. The most dangerous thing in this basement is no longer Teddy's belief. It is the possibility of one wrong sound outside.",
       "sceneTitle": "The FBI",
       "choices": [
         {
           "text": "Encourage Teddy to surrender",
-          "consequence": "Help him save himself.",
+          "consequence": "You use the word ending instead of the word arrest. He shakes his head, but he does not tell you to stop talking.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay calm; wait for them",
-          "consequence": "“Stay calm; wait for them” closes one possibility and opens another. The moment leaves a clear note behind: Patience.",
+          "consequence": "You keep your breathing slow and your face soft, because Teddy has started reading your face for the thing he expects to find in it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "The moon's shadow crosses the sun. Teddy stares at you with an intensity you have never had pointed at you. You do not, of course, transform. He blinks. The deadline passes.",
+      "text": "3:41. The basement window shows one strip of grass and nothing else, so Teddy watches you instead — close, unblinking, for the entire seventy-two seconds. He wants it. He has needed it more than he has needed anything in nine years. Nothing happens. Your face stays your face. The shadow slides off, the light comes back grey, and Teddy sits down on the concrete like someone took his chair away.",
       "sceneTitle": "The Eclipse",
       "choices": [
         {
           "text": "Stay calm and offer him a way out",
-          "consequence": "“Stay calm and offer him a way out” closes one possibility and opens another. The moment leaves a clear note behind: De-escalate.",
+          "consequence": "You say his mother's name, first name only, and tell him what can still be done about that trial. His hands come open on his knees.",
           "nextNodeId": "s14"
         },
         {
           "text": "Beg him to release you now, before the FBI escalates",
-          "consequence": "You commit to “Beg him to release you now, before the FBI escalates.” The story records the instinct as “Urgent” and carries it forward.",
+          "consequence": "You tell him about the men in the trees. He hears betrayal in it, and you lose four hours of trust inside one sentence.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Don, off-camera, walks upstairs and opens the front door of the cabin. The FBI agent at the door has been speaking gently for hours. Don sits on the porch with his hands up and tells them, plainly, the layout of the basement.",
+      "text": "Don goes up the stairs slowly, in socks. You hear the chain, then the bolt, then the door, then a voice outside that has been talking gently through a loudhailer since midnight and has not once raised itself. Don sits down on the porch boards, puts his hands where they can be seen, and starts describing the basement — the stairs, the beam, the chair, where his brother is standing.",
       "sceneTitle": "Don's Decision",
       "choices": [
         {
           "text": "Use the moment to convince Teddy",
-          "consequence": "Window of mercy.",
+          "consequence": "You tell Teddy that Don has just bought him the only ending where they both walk out. You have maybe forty seconds of his attention.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay still until the agents arrive",
-          "consequence": "Don't break it.",
+          "consequence": "You make yourself furniture. No sudden kindness, no sudden movement, nothing anyone coming down those stairs could read wrong.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Teddy and Don are arrested. The case becomes, briefly, national. You testify. You also, the same year, voluntarily resign from your company and spend three years working with regulators on patient-trial reforms.",
+      "text": "They are arrested at 6:12 in the morning and neither of them resists. The case runs national for nine days and then gets replaced by something else. You testify for the prosecution and, in the same season, resign the chair you spent nineteen years climbing towards. Three years after that with regulators, in rooms with bad coffee and no press, rewriting consent language nobody reads except the people it protects.",
       "sceneTitle": "The Trial",
       "choices": [
         {
           "text": "Visit Teddy in prison",
-          "consequence": "Bear the weight.",
+          "consequence": "You put your name on the approved visitor list and wait five months for him to add it. He adds it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Send Teddy books, not visits",
-          "consequence": "Care at distance.",
+          "consequence": "Four paperbacks a month, no letters, no return address that means anything. It is generosity with a wall built into it, and you know that.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Two months later you write a resignation letter that is also a kind of confession. You leave a foundation behind. You leave the equity behind. You realize, looking at the empty drawer, that the basement clarified something the office never could.",
+      "text": "You write it at four in the morning at the kitchen table, because you cannot yet sleep in a room with the light off. Two pages, a confession wearing the clothes of a business document. You leave the equity. You leave the board seat. Sitting there afterwards with an empty desk drawer, you notice that a basement clarified in thirty-six hours what nineteen years of quarterly reviews never once did.",
       "sceneTitle": "Your Resignation Letter",
       "choices": [
         {
           "text": "Start a new company aimed at patient safety",
-          "consequence": "There is no taking “Start a new company aimed at patient safety” back. Action shapes the silence before the next moment arrives.",
+          "consequence": "You are hiring inside a month, because standing still means thinking. The mission statement is written in the voice of a man in a lawn chair.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take a year off entirely",
-          "consequence": "You commit to “Take a year off entirely.” The story records the instinct as “Recover” and carries it forward.",
+          "consequence": "You do nothing for a year and discover that nothing is a skill, and that nobody ever taught it to you.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You visit Teddy in prison. He is, by then, on medication that takes the edges off. He does not, at first, want to see you. The third visit he says, 'I still think you're wrong about most things.' You laugh. He almost does too.",
+      "text": "The visiting room is beige and much too warm. He is heavier, slower, on something that takes the edge off the certainty along with the rage. The first visit he does not speak at all. The second he asks about a footnote in your testimony. On the third, halfway through, he says he still thinks you are wrong about most things, and you laugh, and he very nearly does too.",
       "sceneTitle": "Visiting Teddy",
       "choices": [
         {
           "text": "Stay involved in his case for parole",
-          "consequence": "The decision settles the question for now. Its verdict—Long—follows you into whatever comes next.",
+          "consequence": "You write to the parole board. It helps him and it costs you a magazine profile you had been assured would be flattering.",
           "nextNodeId": "s18"
         },
         {
           "text": "Visit but not advocate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Limited.",
+          "consequence": "You keep coming and keep quiet. He never asks you to speak for him, and you never work out whether that is dignity or a test.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The foundation you set up funds independent trial monitors. It is, by every measurement, more effective than your company ever was. You realize, late, that maybe you should have been doing this all along. You also realize there is no point in regretting it instead of doing it.",
+      "text": "It funds independent trial monitors in fourteen countries and pays them enough that they cannot be bought back. Inside four years it has flagged two compounds your old company would have shipped without blinking. The arithmetic is humiliating and plain: this costs a fraction of what you used to spend on conference booths, and it saves more people. There is no use being sick about that. There is only the next fourteen countries.",
       "sceneTitle": "The Foundation",
       "choices": [
         {
           "text": "Lead the foundation",
-          "consequence": "You commit to “Lead the foundation.” The story records the instinct as “Continue” and carries it forward.",
+          "consequence": "You take the chair, because you understand the enemy from the inside and because you are not yet ready to be nobody.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hire someone better suited and step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cede.",
+          "consequence": "You find a paediatric oncologist from Lagos who is better at this than you will ever be, and you hand her the keys.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Don is in a halfway house, working at a grocery store, mostly steady. You visit. He thanks you for not pressing charges on him personally. You realize repair is, partly, the work of small visits.",
+      "text": "Grocery store, night shift, twelve steps up to a room with one window. He is steadier than you expected and thinner than you remember. He thanks you for never naming him personally, which you did not do out of kindness so much as accuracy. In the parking lot afterwards he waves until you turn out of sight. Repair, it turns out, is mostly showing up on a Tuesday.",
       "sceneTitle": "Don's Halfway House",
       "choices": [
         {
           "text": "Visit Don monthly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Steady.",
+          "consequence": "You put it in the calendar and you keep it, through two winters and one funeral. He starts saving things up to tell you.",
           "nextNodeId": "s20"
         },
         {
           "text": "Visit when he asks",
-          "consequence": "There is no taking “Visit when he asks” back. Reactive shapes the silence before the next moment arrives.",
+          "consequence": "You leave the frequency to him, which is respectful, and which means the gaps stretch to five months without either of you ever deciding it.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "An industry conference asks you to keynote. You almost decline. You decide, instead, to tell the basement story plainly. The room is, for a long moment, silent. The reform you push from that stage, for once, lands.",
+      "text": "Four thousand people in a Boston ballroom and a teleprompter loaded with the safe version. You reach the lectern and do not use it. You tell them about the lawn chair, the duct tape, the printout, and the nine minutes in which a man with no degree and no lawyer was completely right about them. Nobody eats. The applause, when it finally comes, arrives late and starts at the back.",
       "sceneTitle": "The Conference Keynote",
       "choices": [
         {
           "text": "Use the platform yearly",
-          "consequence": "The decision settles the question for now. Its verdict—Voice—follows you into whatever comes next.",
+          "consequence": "You accept every invitation for six years running. The talk gets shorter each time and lands harder each time.",
           "nextNodeId": "s20"
         },
         {
           "text": "Use it once and step back",
-          "consequence": "You commit to “Use it once and step back.” The story records the instinct as “One arrow” and carries it forward.",
+          "consequence": "You say it once, properly, and refuse everything afterwards. The scarcity does more for the reform than repetition would have.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "On the night the eclipse would have happened, you sit outside and watch the sky. Teddy is not, in fact, watching it from his cell. He is asleep. You realize the curse, the basement, the manifesto, were always a metaphor he believed because nothing else explained his grief. You decide what to do next.",
+      "text": "You carry a chair into the yard on the night it would have happened and watch a sky doing nothing whatsoever. Four hundred miles away Teddy is asleep — you checked, which tells you something about yourself. Nobody was ever an alien. There was only a man whose mother died in a manner the paperwork approved of, holding on to the one explanation that made the world answerable to him.",
       "sceneTitle": "The Eclipse Anniversary",
       "choices": [
         {
           "text": "Keep repairing",
-          "consequence": "You commit to “Keep repairing.” The story records the instinct as “Active repair” and carries it forward.",
+          "consequence": "You go back inside and answer the email you have been avoiding all week, which is what repair actually looks like most days.",
           "nextNodeId": "end_repair"
         },
         {
           "text": "Keep distance",
-          "consequence": "There is no taking “Keep distance” back. Mature distance shapes the silence before the next moment arrives.",
+          "consequence": "You go back inside and leave it unanswered. Some nights the honest thing is admitting how much of this you did for yourself.",
           "nextNodeId": "end_distance"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_repair",
-      "text": "You spend the rest of your career trying to repair what your earlier career did. The math doesn't quite balance. You decide it's enough that you're trying. The basement, when you remember it, is not a nightmare — it's the moment your life turned the right way around.",
+      "text": "You spend the back half of your career undoing the front half, and the arithmetic never balances, because it was never going to. Trials get monitored. Prices come down in four countries. A woman in Ohio has a compound withdrawn six weeks before it would have reached her, and never knows. You decide the trying counts. The basement does not come back as a nightmare now. It comes back as the hour your life turned to face the right way.",
       "sceneTitle": "Repair",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_distance",
-      "text": "You stop being a public figure. The foundation does well. Teddy gets parole. He never quite forgives you. You never quite forgive yourself either. You both live anyway. It is, you decide, the honest kind of recovery.",
+      "text": "You stop appearing anywhere, which was the plan. The foundation outgrows you inside three years. Teddy makes parole at sixty-one, moves to within a mile of Don, and never writes. You do not write either. Neither of you forgives the other, or himself, and both of you go on living decent enough lives at a careful distance — which is, you have decided, what recovery honestly looks like when nobody is watching it happen.",
       "sceneTitle": "At Distance",
       "choices": [],
       "isEnding": true,

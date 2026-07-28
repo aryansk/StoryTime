@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You drift. The video is for Pepper. The oxygen is low.",
+      "text": "Twenty-two days out. The ship has no fuel, no water and enough air to get you to tomorrow morning if you stop moving around. Nebula plays a game with a folded paper on the deck plate to keep you talking. You point the helmet recorder at your own face and start the message you have spent three weeks not making, because the alternative in here is silence.",
       "sceneTitle": "Tony in Space",
       "choices": [
         {
           "text": "Send the message",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You get the whole thing out in a single take, including the part about the parking space, and then power the cell down and sleep for nine hours.",
           "nextNodeId": "s2"
         },
         {
           "text": "Save power",
-          "consequence": "“Save power” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You cut it at four minutes to keep the charge alive. The half you did not say sits in your chest the entire way home.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The remaining gather. Carol arrives.",
+      "text": "Twenty-three days of holograms and lists. Every face in that room is one of the ones who stayed, and the wall behind them scrolls the names of the ones who did not, faster than anybody can read. Then something comes down through the hangar roof carrying a ship, sets it on the grass, and steps off. Carol Danvers wants to know why nobody has gone after him. Nobody answers.",
       "sceneTitle": "Avengers Compound",
       "choices": [
         {
           "text": "Plan to hunt Thanos",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Action.",
+          "consequence": "You pull a heading off a two-day-old energy signature and six of you are aboard within the hour, flying at a man who is already finished.",
           "nextNodeId": "s3"
         },
         {
           "text": "Heal first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You argue for a week of sleep first and lose the room by a single vote. Rhodey says the thing about closure that nobody wants to hear.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Thanos, broken, on a farm. He destroyed the stones.",
+      "text": "The planet is warm and green and entirely undefended. He is outside a shack with his back to you, in a work shirt, pulling something out of the ground. The armour hangs on a frame in the field like a scarecrow. He tells you the stones went back into the energy they came out of, and shows you the arm that did it — ruined to the shoulder, hanging wrong.",
       "sceneTitle": "Garden",
       "choices": [
         {
           "text": "Question him",
-          "consequence": "There is no taking “Question him” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You get him talking and every answer is worse than no answer at all. He is not lying, he is not sorry, and there is nothing left to undo.",
           "nextNodeId": "s4"
         },
         {
           "text": "Strike",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Anger.",
+          "consequence": "Thor takes the head off in one motion and nobody moves to stop him. The room the act leaves behind is somehow emptier than the one before it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Group therapy in Brooklyn. Steve listens to a man talk about a date.",
+      "text": "Five years. A basement in Brooklyn with folding chairs and terrible coffee, and a man explaining that he went on a date — the first since — and they both cried into the appetizers and then he asked whether he could see her again. The room applauds. Steve Rogers is the one running this circle, which tells you most of what you need to know about the last half-decade.",
       "sceneTitle": "Five Years",
       "choices": [
         {
           "text": "Sit with the grief",
-          "consequence": "There is no taking “Sit with the grief” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You stay the full hour and say your own piece badly, out of order, twice. Something in your jaw comes unclenched that has been locked for years.",
           "nextNodeId": "s5"
         },
         {
           "text": "Bury it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You leave at the break, run six miles along the river and hit a bag until your knuckles open. It works about as well as it always has.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Van arrives. Scott has been in the quantum realm. He has an idea.",
+      "text": "A storage lot in San Francisco, a rat, a control panel, and Scott Lang walks out of a van having lost five hours while everybody else lost five years. He turns up at the compound gate on the security feed, waving into the camera, and starts talking before the door is halfway open. Time, he says, does not do down there what you think it does up here.",
       "sceneTitle": "Scott Lang",
       "choices": [
         {
           "text": "Bring it to Tony",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You take it to the one man who will hate it most, because he is also the only one who can turn a napkin sketch into a working platform.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take it to Bruce",
-          "consequence": "You commit to “Take it to Bruce.” The story records the instinct as “Process” and carries it forward.",
+          "consequence": "Banner runs the mathematics in an afternoon and gets it beautifully, spectacularly wrong, turning a volunteer into a teenager, then an infant, then an old man.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Tony, dad, refuses. Then he runs the math.",
+      "text": "He has a daughter now. There is a crayon drawing on the fridge and a swing hanging from an oak, and he says no in the driveway without inviting anybody inside. Then at two in the morning he sits at the kitchen table with cold coffee and a hologram shaped like a Mobius strip, asks the empty room to run an inversion, and the model holds together on the first attempt.",
       "sceneTitle": "Tony's No",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You leave the sample case on his porch and drive off without pushing once. He calls at four in the morning, talking too fast about inversions.",
           "nextNodeId": "s7"
         },
         {
           "text": "Push",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You say the kid's name out loud on his own driveway and watch the door close. It works. It also takes something out of the friendship permanently.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He has integrated. He drinks juice at brunches.",
+      "text": "Eighteen months in a gamma lab and he came out as both at once — seven feet of green in a cardigan and glasses, posing for photographs with kids in a diner booth and ordering a smoothie with extra spinach. He is happier than you have ever seen either version of him. He is also the only body in the building that could hold six stones and survive the attempt.",
       "sceneTitle": "Bruce/Hulk",
       "choices": [
         {
           "text": "Welcome him",
-          "consequence": "“Welcome him” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You tell him it suits him and you mean it, and he grins so hard he splits the vinyl seat he is wedged into.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tease him",
-          "consequence": "The decision settles the question for now. Its verdict—Civil—follows you into whatever comes next.",
+          "consequence": "You ask whether the cardigan comes in your size. He laughs, and underneath the laugh he is plainly relieved that somebody still can.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "He has aged poorly. He plays Fortnite.",
+      "text": "New Asgard is a fishing village in Norway with a whalebone gate and four hundred surviving members of a species. He is in the back room in a bathrobe, six years of beard, empty cans stacked into a low wall, shouting into a headset at a child in another country. Korg waves from the sofa without getting up. Nobody in this house has opened a curtain in a long time.",
       "sceneTitle": "Thor in New Asgard",
       "choices": [
         {
           "text": "Be kind",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You sit down on the cans and talk about fishing instead of fighting, and he agrees to come along for entirely the wrong reasons.",
           "nextNodeId": "s9"
         },
         {
           "text": "Be honest",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You use the word 'king' in front of him and he throws a can at the wall. Then he stands up, which is the whole point of saying it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Teams. Stones. Branches.",
+      "text": "A whiteboard, six stones, four points in time, and Banner's warning underlined twice: you cannot change your own past, only branch somebody else's. Two teams to New York in 2012, one to Asgard in 2013, one to Morag and Vormir in 2014. Pym particles for two trips each and no spares of anything. Rhodey asks what happens if somebody misses their window. The question just sits there.",
       "sceneTitle": "Time Heist Plan",
       "choices": [
         {
           "text": "Sign off",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You approve it exactly as drawn and the whole room exhales, which is how you learn none of them wanted to be holding the pen.",
           "nextNodeId": "s10"
         },
         {
           "text": "Adjust the plan",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You move Nat off the Asgard run and onto Vormir with your own hand, and you will be doing arithmetic about that line for the rest of your life.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Frigga gives Thor a hug. He, briefly, finds himself.",
+      "text": "2013, and the palace corridors smell of woodsmoke and beeswax. There is his mother, walking toward him on the last day of her life, and she works out who he is and roughly when he is from inside four seconds. She tells him he has got fat. Then she holds him anyway. Downstairs Rocket is swearing at a canister of red liquid and shouting about the schedule.",
       "sceneTitle": "Asgard",
       "choices": [
         {
           "text": "Stay for the hug",
-          "consequence": "“Stay for the hug” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You hold the window open eleven seconds past the plan, and he comes back through it with the hammer in his fist and his face rearranged.",
           "nextNodeId": "s11"
         },
         {
           "text": "Keep moving",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mission.",
+          "consequence": "You call the extraction on time and he goes into the field mid-sentence, and his mother's hand is still raised in the air behind him.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Black Widow and Hawkeye. Soul stone.",
+      "text": "A red planet, a stone stair cut into a cliff face, and a hooded thing at the top that knows both their names and every line of both their ledgers. The stone requires a soul, it says, and it will only accept one that is loved. Then it steps back and lets them settle it between themselves, unhurried, the way you wait out a conversation you have heard many times.",
       "sceneTitle": "Vormir",
       "choices": [
         {
           "text": "Volunteer Hawkeye",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "Clint reaches the ledge first with the tether in his fist and the arithmetic already finished, and she takes his legs out from under him.",
           "nextNodeId": "s12"
         },
         {
           "text": "Volunteer Nat",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "She goes over the side with her hand closed on his wrist and then opens it, and the whole planet gives a soft chime of approval.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Nat goes over the edge. Hawkeye holds the stone.",
+      "text": "He wakes in shallow water at the foot of the cliff with an orange stone in his fist and nothing else anywhere. The tether is still clipped to the rock above him, hanging slack. Back on the platform he sets the stone down on the table and cannot persuade his hand to leave it, and nobody in that room asks the question, because the answer is standing right there.",
       "sceneTitle": "Nat",
       "choices": [
         {
           "text": "Mourn her properly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "Somebody says her full name out loud. Thor asks who is going to bring her back, and the silence after that runs several seconds too long.",
           "nextNodeId": "s13"
         },
         {
           "text": "Press on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mission.",
+          "consequence": "You seal the stone in the case and call the next team through, and behind you Bruce breaks a steel bench in half without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Loki escapes with the tesseract in the alternate 2012.",
+      "text": "A Manhattan street full of Chitauri wreckage, a lobby, an elevator of men who are technically your colleagues, and a silver briefcase. Then the case hits the marble and slides, and a green-eyed prisoner in cuffs gets one hand to the handle. He is gone in a snap of blue light, taking the only ride home this year has to offer and grinning at nobody as he goes.",
       "sceneTitle": "New York",
       "choices": [
         {
           "text": "Recover the scepter",
-          "consequence": "You commit to “Recover the scepter.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You let Loki run and take the mind stone off the medical floor instead. It is the correct decision and it will irritate you for a decade.",
           "nextNodeId": "s14"
         },
         {
           "text": "Pursue Loki",
-          "consequence": "The decision settles the question for now. Its verdict—Mission—follows you into whatever comes next.",
+          "consequence": "You go after him, lose the trail in a stairwell, and are now stranded in 2012 with no particles left and one genuinely appalling idea.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Tony's father. A small conversation.",
+      "text": "1970, a New Jersey base with a mail room, a smoking area and a chain-link fence. A man in a good suit carries a cardboard box past you, worrying out loud about a baby due in three weeks and whether he will be any use at it. He asks whether you have kids. He asks what you would want for them. He is decades younger than the man you buried.",
       "sceneTitle": "Camp Lehigh",
       "choices": [
         {
           "text": "Speak as a stranger",
-          "consequence": "You commit to “Speak as a stranger.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep it to small talk and hold the door for him, and he thanks you by your invented name. The elevator ride afterward takes forty years.",
           "nextNodeId": "s15"
         },
         {
           "text": "Almost tell him",
-          "consequence": "“Almost tell him” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You get as far as the first syllable and swallow it, and hug him instead. He pats your back twice, politely, the way a stranger does.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Nebula's chip is read by past Thanos.",
+      "text": "The two Nebulas share one network, and the older one's memory is playing on a screen in 2014 for an audience of exactly one. He watches his own future run past: the snap, the farm, the axe. Then he stops the playback and calls for his fleet. Nobody on your side knows any of it yet. Your Nebula is on Morag with a compromised head and a working transponder.",
       "sceneTitle": "Future Past",
       "choices": [
         {
           "text": "Find out fast",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You catch the discrepancy in the diagnostic log and lock the platform down, and by then a warship is already burning atmosphere over upstate New York.",
           "nextNodeId": "s16"
         },
         {
           "text": "Push the gauntlet",
-          "consequence": "The decision settles the question for now. Its verdict—Speed—follows you into whatever comes next.",
+          "consequence": "You choose the stones over the security sweep and finish the build ninety seconds before the sky above the compound comes apart into fire.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Bruce snaps. Half the universe comes back.",
+      "text": "The gauntlet is built for a body nobody in the room has got. Bruce puts his arm into it and the gamma goes into him rather than through him, and the right side of him cooks while he holds the shape of a fist against everything the metal is doing. Thumb and finger meet. Outside the window the birds come back before anyone has thought to look up.",
       "sceneTitle": "Snap",
       "choices": [
         {
           "text": "Help him through",
-          "consequence": "There is no taking “Help him through” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You get the gauntlet off his arm and ice onto the burns and keep talking at him about nothing whatsoever until his eyes come back into focus.",
           "nextNodeId": "s17"
         },
         {
           "text": "Make him rest",
-          "consequence": "You commit to “Make him rest.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You order him to sit and he refuses and stands anyway, one hand on the doorframe, watching the sky over the lake refill with birds.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Past Thanos arrives. The compound falls.",
+      "text": "The first shot comes down through the roof of the lab and takes out three floors before the noise catches up with it. The compound folds inward — glass, dust, lake water pouring into the basement where Rhodey and Rocket are pinned under a slab with the tide climbing their chests. Above ground a ship the size of a stadium settles over the wreckage and begins unloading.",
       "sceneTitle": "Compound Attack",
       "choices": [
         {
           "text": "Hold",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You dig them out of the rising water with a hover unit and one working repulsor, and Scott comes through the floor at the size of a building.",
           "nextNodeId": "s18"
         },
         {
           "text": "Retreat",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You pull everybody back to the treeline and let the compound go. It saves four lives and hands him the ground you now have to take back.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Every hero who came back, came back. Avengers Assemble.",
+      "text": "You are on your knees in a crater with a shield broken in half and an army walking unhurried toward you when Sam's voice arrives in your earpiece, on your left. Behind you the air opens in a ring of orange sparks. Then another. Then forty of them at once — drums, a sanctum, a fleet, and every single person who came back stepping out onto the field together.",
       "sceneTitle": "Portals",
       "choices": [
         {
           "text": "Take the line",
-          "consequence": "There is no taking “Take the line” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You tighten the straps on the broken shield and say the two words out loud, and eight hundred people start moving at the same instant behind you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Take the field",
-          "consequence": "The decision settles the question for now. Its verdict—Action—follows you into whatever comes next.",
+          "consequence": "You go at him without waiting for the line to form. The line forms anyway, because it was only ever waiting on you to move first.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "She fights him for the gauntlet. Thanos uses the power stone.",
+      "text": "She comes down out of the upper atmosphere and goes through his flagship lengthwise on her way in, and then it is the two of them and the gauntlet between them. She holds his hand open by force. He cannot close it, cannot pull free, cannot reach a weapon. So he prises the purple stone out of its setting with his other hand and hits her across the face with it.",
       "sceneTitle": "Carol vs. Thanos",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "The decision settles the question for now. Its verdict—Faith—follows you into whatever comes next.",
+          "consequence": "You hold your position and let her work. She comes out of a building three hundred metres away and is airborne again before the dust has finished falling.",
           "nextNodeId": "s20"
         },
         {
           "text": "Help her",
-          "consequence": "There is no taking “Help her” back. Action shapes the silence before the next moment arrives.",
+          "consequence": "You go in and get one hand on the gauntlet, which is one more hand than he planned for, and it buys Tony the two seconds he needs.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Tony takes the stones. He snaps. He turns to ash, calmly.",
+      "text": "The stones are not in the gauntlet any more. They are seated in the housing on his forearm, all six, put there by a hand that touched the gauntlet for two seconds while everybody was watching the wrong thing. He raises the arm. He says his own name, quietly, the way a man announces himself at a door. Then the light, and the sound, and an army going to ash in the wind.",
       "sceneTitle": "I Am Iron Man",
       "choices": [
         {
           "text": "Hold him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You reach him before Rhodey does and hold his head up off the rubble, and he looks at you and cannot make any of the words arrive.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stand back",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You stay where you are and let Pepper have the last thirty seconds of him. She tells him he is allowed to rest, and he does.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "By a lake. Pepper. Morgan. Old friends.",
+      "text": "A dock on the lake behind the house. An arc reactor set out on the water in a wreath, and everybody he ever argued with standing on the grass in dark clothes with their hands empty. Morgan is five and holding Happy's hand. Nobody makes a speech. The wreath drifts out toward the middle and the whole yard watches it go until it is just a lake again.",
       "sceneTitle": "Funeral",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "“Stand” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You stay on your feet at the back with the shield case at your ankle, already knowing which trip you are taking and which one you are not returning from.",
           "nextNodeId": "end_steve"
         },
         {
           "text": "Speak softly",
-          "consequence": "“Speak softly” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You find Pepper by the porch rail and say something small and true about a parking space, and she laughs before she cries.",
           "nextNodeId": "end_pepper"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look at the people on that lawn — a king, a sorcerer, a kid from Queens — and start quietly counting what is still standing.",
           "nextNodeId": "end_phase4"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_steve",
-      "text": "Steve goes back to live the life he didn't take. He returns old. He hands the shield to Sam. He sits on a bench by the water with a faded photo.",
+      "text": "You return every stone to the branch it came from, and then you do not step back onto the platform. There is an apartment in 1949 instead, a record player, a woman who has been waiting since the war, and a life that nobody needs you to save. You come back to the bench by the water with all of it written in your face and a band on your finger. Sam lifts the shield, and his arm fits it exactly.",
       "sceneTitle": "The Dance",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_pepper",
-      "text": "You watch Pepper and Morgan in the field by the lake. They are, somehow, okay. The world is okay. You give Tony's helmet a small bow.",
+      "text": "Pepper sells nothing. She stays out at the lake with the goats and a workshop full of half-finished things, and Morgan grows up in a house that smells permanently of solder and cut grass. On the anniversary you drive up and find the two of them in the field throwing a ball for a dog, entirely all right in a way you had not dared to expect. You leave the helmet on the porch step and bow to it once, feeling ridiculous, meaning every bit of it.",
       "sceneTitle": "Pepper, After",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_phase4",
-      "text": "Whatever the next decade brings, the team is bigger now. Sam carries the shield. Bucky writes letters. You realize a saga doesn't end. It just rolls.",
+      "text": "There is no clean line at the end. Sam takes the shield to a hangar in Louisiana and spends a year deciding whether he is permitted to carry it. Bucky writes letters to people he hurt and hand-delivers some of them. A kid in Queens goes back to school and nobody there knows his name any more. The bench by the water outlasts the man who sat on it, the roster keeps getting longer, and nobody ever gets to say the word 'over' and mean it.",
       "sceneTitle": "What Comes Next",
       "choices": [],
       "isEnding": true,

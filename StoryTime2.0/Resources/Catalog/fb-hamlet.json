@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Horatio brings you to see the ghost.",
+      "text": "Horatio comes for you at midnight wearing a face you have never seen on him, and will not say why until you are up on the wall. The cold is savage. The sentries have seen it three nights running and will not discuss it in daylight. And then it is there at the end of the platform — your father's armour, your father's walk — and it will not speak to anybody but you.",
       "sceneTitle": "Battlement",
       "choices": [
         {
           "text": "Speak to it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go to it, and Horatio grabs your arm, and you tear free of him. Whatever this is, it came here for you specifically.",
           "nextNodeId": "s2"
         },
         {
           "text": "Watch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You hold still and study it: the buckles, the beard, the greave he broke the year you left for Wittenberg. Every detail confirms the thing you least want confirmed.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Murdered by Claudius. Revenge me.",
+      "text": "It tells you the orchard, the afternoon sleep, the vial of poison poured into the ear. The crown and the queen taken inside a single month. It tells you it is burning off the sins it died with no time to confess. Then it says the word — revenge — and then the harder one: remember. Then dawn comes up and it goes, and you are alone on a wall with a job.",
       "sceneTitle": "Father's Charge",
       "choices": [
         {
           "text": "Vow",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You swear it on your sword and make Horatio swear too, and the ghost's voice comes up through the stone under your feet to hold you to it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Doubt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You think, coldly, that a devil could wear that shape and use your grief as a lever. It is the most intelligent thought you have all year, and you will waste it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You play mad to buy time.",
+      "text": "So you go mad on purpose. It is a good plan: a lunatic prince is beneath suspicion, and a lunatic can say anything to anyone's face. You do it well — stockings down, wild talk, jokes that land like knives on people who cannot object to being cut. What you fail to plan for is how comfortable the madness turns out to be, and how quickly you lose the seam where the act stops.",
       "sceneTitle": "Antic Disposition",
       "choices": [
         {
           "text": "Play it well",
-          "consequence": "You commit to “Play it well.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "The whole court believes you, which is the problem. The people who love you believe you as well.",
           "nextNodeId": "s4"
         },
         {
           "text": "Play it badly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You overplay it and Claudius stops believing inside a week. Now the king knows the prince is watching him.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You are cruel to her in the gallery.",
+      "text": "She comes to hand back your letters because her father told her to, and you can see him behind the arras from where you stand, and you know that she knows you can see him. So you take it out on her instead. Get thee to a nunnery. You say the cruellest available thing four separate ways to the only person in Elsinore who never lied to you, because there is an audience and the audience has to buy it.",
       "sceneTitle": "Ophelia",
       "choices": [
         {
           "text": "Apologize later",
-          "consequence": "There is no taking “Apologize later” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You plan the apology for weeks. Something is always more urgent. There is always tomorrow — until there is her father's blood on your sleeve.",
           "nextNodeId": "s5"
         },
         {
           "text": "Don't apologize",
-          "consequence": "“Don't apologize” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You decide she is her father's instrument and treat her as one. You are wrong, and you will find out how wrong at a graveside.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "He hides behind tapestries to spy.",
+      "text": "The old man cannot help himself. He is behind the tapestry in the gallery, behind the door in your mother's chamber, in every corridor with a fresh theory about you that he is desperate to lay before the king. He is not evil. He is a busybody with a daughter he loves badly and an unfailing instinct for standing exactly where he should not be standing.",
       "sceneTitle": "Polonius",
       "choices": [
         {
           "text": "Sense him there",
-          "consequence": "There is no taking “Sense him there” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You catch the shift of cloth and adjust every word. From now on you speak to two audiences at once, and you never stop.",
           "nextNodeId": "s6"
         },
         {
           "text": "Walk past",
-          "consequence": "You commit to “Walk past.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You let him listen. He carries a garbled version of it to Claudius within the hour, and it makes the king thoughtful.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A troupe arrives. You write them new lines.",
+      "text": "A travelling company arrives, out of fashion in the city and glad of the work. You have them do the speech about Pyrrhus, and the lead actor weeps real tears over a queen three thousand years dead — for nothing, for a story — and you stand there afterward sick with yourself. Then you sit down and write twelve lines and hand them to a man who will say anything you pay him to say.",
       "sceneTitle": "Players",
       "choices": [
         {
           "text": "Test the king",
-          "consequence": "You commit to “Test the king.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You will not kill on a ghost's word alone. You will make Claudius sit through his own crime in public and you will watch his face do it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Don't test",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You put the pages in the fire. The doubt stays exactly where it was, and so do you.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Claudius rises and walks out, pale.",
+      "text": "The court sits down to be entertained. The dumbshow goes by and nothing happens. Then the poisoner comes on with the vial and leans over the sleeping king in his garden and pours — and Claudius is on his feet in the dark calling for light, and the hall goes to chaos around him, and Horatio catches your eye across fifty people and gives you the smallest nod in Denmark.",
       "sceneTitle": "The Play",
       "choices": [
         {
           "text": "Mark his guilt",
-          "consequence": "You commit to “Mark his guilt.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You have your proof. It is worthless in any court, and the man it convicts now knows precisely what you know.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell only Horatio",
-          "consequence": "There is no taking “Tell only Horatio” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You keep it between the two of you, which is wise — and which means exactly one person alive can tell your side afterward.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You find Claudius praying.",
+      "text": "You find him alone on his knees, unguarded, back turned, a sword's length away. It would take one second. And you stop — because a man killed at prayer goes up, and your father went down without absolution, and you want the accounts to balance. So you sheathe it and walk out. Behind you Claudius gets off his knees and remarks, to nobody, that the prayer did not work anyway.",
       "sceneTitle": "Prayer",
       "choices": [
         {
           "text": "Strike",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You go for it, and something in your arm refuses, and that hesitation is the entire tragedy compressed into one breath.",
           "nextNodeId": "s9"
         },
         {
           "text": "Wait",
-          "consequence": "You commit to “Wait.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You choose the theologically perfect murder over the available one. Four people die in the gap you have just opened.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You confront Gertrude. A noise behind the arras.",
+      "text": "You go to her chamber and finally say all of it: the speed of the wedding, the funeral meats, what she chose and what she stopped choosing. She has never seen you like this and calls out for help — and something moves behind the arras and calls out too. A man's voice. In your mother's private room, at midnight, hiding. There is only one man in Denmark that can be.",
       "sceneTitle": "Mother's Room",
       "choices": [
         {
           "text": "Stab",
-          "consequence": "You commit to “Stab.” The story records the instinct as “Anger” and carries it forward.",
+          "consequence": "You put the sword through the cloth without looking, because you are certain. Being certain is not the same as being right.",
           "nextNodeId": "s10"
         },
         {
           "text": "Reveal",
-          "consequence": "There is no taking “Reveal” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You pull the arras aside first and see who it actually is, and the whole remainder of your life turns on that half-second of patience.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "It was Polonius. Ophelia's father.",
+      "text": "It is Polonius. Of course it is Polonius. He comes out from behind the tapestry with your sword through him — a foolish old man who came to eavesdrop and got the death of a rat instead. Ophelia's father. Laertes's father. You look down at him and feel almost nothing at all, and the nothing frightens you considerably more than the body does.",
       "sceneTitle": "Polonius Dead",
       "choices": [
         {
           "text": "Mourn",
-          "consequence": "There is no taking “Mourn” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You say you are sorry to a corpse, and you mean it, and it changes nothing whatsoever about what comes next.",
           "nextNodeId": "s11"
         },
         {
           "text": "Hide him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You haul him up the stairs and stow him near the lobby and make jokes about it to the king's face. Every one of those jokes will be quoted back at you.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Rosencrantz and Guildenstern carry sealed orders.",
+      "text": "Claudius has his pretext now and does not waste a day of it. You are put aboard a ship for England before nightfall, escorted by two friends from Wittenberg who are being cheerful at you in a manner that is almost tender. In the sealed packet they carry, closed with the king's own ring, is a letter asking the English crown to take your head off the hour you land.",
       "sceneTitle": "Sent to England",
       "choices": [
         {
           "text": "Switch the letter",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You go through their bags at sea and forge a new commission naming them instead, and seal it with your father's signet, and lose not one minute of sleep over it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Trust the friends",
-          "consequence": "There is no taking “Trust the friends” back. Naive shapes the silence before the next moment arrives.",
+          "consequence": "You take them at their word, because they were funny once at university. It is the most expensive sentiment of your life.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A skirmish. You return alone.",
+      "text": "A pirate ship comes alongside on the second day and you are first over the rail into the grapple, which is either courage or a death wish, and you have lost the ability to tell them apart. They take you prisoner. Then, learning who you are, they take a better offer instead and put you ashore in Denmark. You come back alone, on foot, in borrowed clothes, and nobody at all knows you are coming.",
       "sceneTitle": "Pirates",
       "choices": [
         {
           "text": "Send word ahead",
-          "consequence": "You commit to “Send word ahead.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You send two letters ahead — one to Horatio, one to the king — and the second is very nearly a challenge. You have stopped hiding.",
           "nextNodeId": "s13"
         },
         {
           "text": "Surprise the court",
-          "consequence": "There is no taking “Surprise the court” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You keep it quiet and walk into Elsinore unannounced, which is the last free move left on the board.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A gravedigger holds a skull.",
+      "text": "You come over a rise and there is a man digging a grave and singing, which offends you until you understand that singing is simply what it is to work. He turns up a skull with the spade and tells you whose it is. The king's jester. The man who carried you on his back a thousand times and let you hang round his neck. And here he is. And here is the whole argument, in one hand.",
       "sceneTitle": "Yorick",
       "choices": [
         {
           "text": "Remember Yorick",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You take it and hold it and say the thing, and the joke and the grief arrive in the same instant, which is the only honest response available.",
           "nextNodeId": "s14"
         },
         {
           "text": "Move on",
-          "consequence": "“Move on” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You set it down and walk away, and the gravedigger goes on singing, and the grave he is digging is not for Yorick.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "She is in the ground. Laertes leaps in.",
+      "text": "The procession comes up the hill and it is maimed rites, half a service, no proper mourning permitted — and then you hear the name and understand what the hole in the ground was for. Willow, brook, garlands, water. Laertes throws himself down into it after her and demands to be buried alive, and something in you goes through clean, and you come out of the trees.",
       "sceneTitle": "Ophelia's Funeral",
       "choices": [
         {
           "text": "Leap in too",
-          "consequence": "“Leap in too” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You jump into your own consequences and grapple with her brother on top of the coffin, shouting that you loved her — which is true, and roughly a month too late to be worth anything.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stand back",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You stay at the lip of the grave and watch him break, and the not-moving costs you a great deal more than the fight would have.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "He sharpens a foil. He dips it in poison.",
+      "text": "Laertes wants you dead and Claudius wants you dead, and the king is extremely good at making another man's rage useful. Between them they build it: a friendly fencing match, foils buttoned, a wager laid on the hits — except that one blade is unbated, and Laertes has bought an unction from a mountebank so absolute that a scratch will finish it. And should the scratch fail, there is a cup.",
       "sceneTitle": "Laertes's Plot",
       "choices": [
         {
           "text": "Suspect",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You feel it in your chest before the match — a gain-giving, a wrongness about the whole business — and you say so aloud, and you go anyway.",
           "nextNodeId": "s16"
         },
         {
           "text": "Trust the duel",
-          "consequence": "There is no taking “Trust the duel” back. Naive shapes the silence before the next moment arrives.",
+          "consequence": "You take it for sport and reconciliation, which is exactly how it was dressed, and you are honestly glad to see him.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "A foolish courtier brings the challenge.",
+      "text": "The king's messenger is a young man with a fashionable hat and no discernible interior, and he delivers the challenge in language so ornate you cannot locate the verb in it. You play with him a while — agreeing it is hot, then that it is cold, and he agrees to both — until Horatio has to look at the floor. Then you say yes. The hat means nothing. The message means everything.",
       "sceneTitle": "Osric",
       "choices": [
         {
           "text": "Mock him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wit.",
+          "consequence": "You take him apart for sport, and it is the last purely enjoyable thing you do. Horatio does not find it funny.",
           "nextNodeId": "s17"
         },
         {
           "text": "Accept",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You say yes immediately, because refusing has stopped being available and you have stopped wanting it to be.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Touch. Touch. A scratch with the wrong foil.",
+      "text": "The hall fills. The foils are laid out and Laertes takes his time choosing, and nobody in the room but three people understands why. First exchange, a hit to you. Second, a hit to you. The king drinks to it loudly and drops something into a cup. Then the third pass turns ugly and fast, and you feel the point go in through your sleeve and out again — and it is nothing. A scratch. Barely bleeding.",
       "sceneTitle": "Duel",
       "choices": [
         {
           "text": "Switch",
-          "consequence": "“Switch” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "In the scuffle the blades change hands. Now you are holding the poisoned one and he is not, and he understands that before you do.",
           "nextNodeId": "s18"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You fight on with the honest weapon while he keeps the other, which is precisely what he planned and precisely what he can no longer bear.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Your mother drinks from the poisoned cup.",
+      "text": "Gertrude is proud of you. That is what does it. She has been watching you win, and she stands and takes up the cup to drink to your fortune, and Claudius says her name once, sharply — Gertrude, do not drink — and she smiles at him and drinks it anyway, because for once in her life she has decided something entirely for herself. It takes about eleven seconds.",
       "sceneTitle": "Cup",
       "choices": [
         {
           "text": "Stop her",
-          "consequence": "There is no taking “Stop her” back. Mother shapes the silence before the next moment arrives.",
+          "consequence": "You shout across the hall and she does not hear you over the applause, and that is the last thing you will ever ask of your mother.",
           "nextNodeId": "s19"
         },
         {
           "text": "Don't",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You are bleeding and confused and you let it happen, and you will have roughly four minutes left in which to think about that.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You finally do it.",
+      "text": "Laertes goes down and gives you all of it with the last of his air: the blade, the unction, no medicine in the world, the king, the king is to blame. Your mother is dead on the floor eight feet away. You have perhaps two minutes of your own left. And the thing you could not do to a man at prayer for careful religious reasons, you do now, in front of the entire court, in about four seconds.",
       "sceneTitle": "Stab the King",
       "choices": [
         {
           "text": "Pour the cup down his throat",
-          "consequence": "There is no taking “Pour the cup down his throat” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You make him finish his own drink — both the poisons he prepared, in the order he prepared them. Nobody in the hall moves to stop you.",
           "nextNodeId": "s20"
         },
         {
           "text": "Just the blade",
-          "consequence": "There is no taking “Just the blade” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "One clean thrust and it is done, and you discover, distantly, that it is far less satisfying than eight months of imagining it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Horatio raises the cup. You stop him.",
+      "text": "Horatio has the cup and the dregs and every intention of following you, because he is more an antique Roman than a Dane and because he cannot face the room after you are out of it. You get hold of his wrist. You tell him to stay, to live, to draw his breath in this harsh world a while longer and tell the thing properly — because a story not told right is told wrong forever. It costs you the last of your air.",
       "sceneTitle": "The Rest is Silence",
       "choices": [
         {
           "text": "Hold him",
-          "consequence": "You commit to “Hold him.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep hold of his wrist until he sets the cup down. It is the last decision you make and it is the right one.",
           "nextNodeId": "s21"
         },
         {
           "text": "Let him go",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You loosen your grip, and Horatio looks at the cup, and looks at you, and makes the choice himself.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "He arrives. He takes the kingdom. Horatio begins to speak.",
+      "text": "Drums outside. Young Fortinbras arrives from Poland with an army and the worst timing in Europe, walks into a hall containing a dead king, a dead queen, a dead prince and a dead councillor, and says the only sensible thing available, which is that this quarry cries on havoc. He has a claim to the throne and nobody left alive to contest it. Horatio steps forward and asks the room for a stage and a hearing.",
       "sceneTitle": "Fortinbras",
       "choices": [
         {
           "text": "Have Horatio tell the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "All of it — the carnal, bloody and unnatural acts, the accidental judgements, the purposes mistook falling on their inventors' heads. Nothing edited for the family.",
           "nextNodeId": "end_silence"
         },
         {
           "text": "Have him spare the worst",
-          "consequence": "“Have him spare the worst” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "He tells it kindly and leaves out the cruellest parts, and a kind version of this story is a lie in every particular that matters.",
           "nextNodeId": "end_words"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a version where the wound was shallower and the story runs a great deal longer, and it has been standing quietly at the back of the hall this whole time.",
           "nextNodeId": "end_horatio"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_silence",
-      "text": "You die, peacefully enough, with Horatio's hand on your shoulder. The kingdom passes to a foreigner. The story passes to a friend.",
+      "text": "You die on the floor of your father's hall with Horatio's hand on your shoulder and the drums getting louder outside, and it is, against everything, not a bad way to go: understood by one person, in the middle of a sentence, with the thing finally done. Fortinbras has your body carried up to the platform like a soldier's and orders the guns fired for you. The kingdom passes to a foreigner. The story passes to a friend, which turns out to be the only inheritance that survives any of it.",
       "sceneTitle": "The Rest is Silence",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_words",
-      "text": "You survive, somehow, the scratch. You abdicate. You go to Wittenberg as a tutor. You write down, with Horatio, the play exactly. It survives every revision.",
+      "text": "The scratch was shallower than it looked, or the mountebank was a fraud, or you were simply lucky in a play with no luck left anywhere in it. You survive. You hand the crown to Fortinbras in front of witnesses, sign whatever they put before you, and then take Horatio and a box of papers back to Wittenberg and become, of all things, a tutor. Together you set it down exactly as it happened. The manuscript survives every revision that follows, and every reader assumes the ending was invented.",
       "sceneTitle": "Words, Words, Words",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_horatio",
-      "text": "Horatio tells the story. He tells it carefully. He tells it for as long as he lives. The court that came after, slowly, hears it true.",
+      "text": "Horatio tells it. He tells it carefully and in order, from the battlement to the hall, and he tells it to anybody who will sit still for it — Fortinbras first, then the court, then whoever comes after them. He never embellishes and he never softens it, and he refuses, always, to say what he thought of you personally, because that part is his. He tells it for the rest of his life. The court that comes after, slowly, over years, hears it true.",
       "sceneTitle": "Horatio's Witness",
       "choices": [],
       "isEnding": true,

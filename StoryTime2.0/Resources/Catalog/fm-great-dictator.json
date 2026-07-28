@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A long gun, a comrade, the wrong line of the parapet.",
+      "text": "Nineteen-eighteen. The big gun is aimed at a cathedral eighty kilometres off and you are the man who pulls the lanyard. The shell leaves. Somewhere a long way away, an outhouse falls over. Your sergeant looks at you. You check the sight, which has been mounted, you now see, backwards.",
       "sceneTitle": "Trench",
       "choices": [
         {
           "text": "Aim away",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You nudge the barrel two degrees toward open field, and nobody notices, and a cathedral gets to keep its roof.",
           "nextNodeId": "s2"
         },
         {
           "text": "Fire",
-          "consequence": "There is no taking “Fire” back. Soldier shapes the silence before the next moment arrives.",
+          "consequence": "You do as you are told and the shell goes where it likes, which today means nowhere anyone was standing.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Generations later you wake up in a hospital that no longer exists.",
+      "text": "You flew a wounded officer out of a field and the plane went into a lake upside down. When you wake, a nurse tells you the war ended, and then tells you when. Twenty years. The ward is empty, the paint is peeling, and nobody has come to collect you. You ask for your razors.",
       "sceneTitle": "Lost in the Fog",
       "choices": [
         {
           "text": "Walk home",
-          "consequence": "There is no taking “Walk home” back. Stubborn shapes the silence before the next moment arrives.",
+          "consequence": "You leave in a coat two decades out of fashion and walk to a street you remember perfectly, which turns out to be the problem.",
           "nextNodeId": "s3"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You sit on the bed another hour holding the strop, waiting for somebody to come and explain the last twenty years.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Dust, a sign, a customer with a Hynkel armband at the door.",
+      "text": "The shop is exactly as you left it, under a finger of dust, with a lather brush gone hard in the cup. You open the shutters and sweep. A young man comes in wearing an armband you have never seen before and a haircut you have, and sits down in your chair, and waits to be served.",
       "sceneTitle": "The Shop",
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You shave him properly, because a barber shaves whoever sits down in the chair, and your hand does not shake once.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse to serve",
-          "consequence": "You commit to “Refuse to serve.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You set the razor on the shelf and tell him the chair is taken, and he studies the empty chair for a long moment.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A pan of soup, a courtyard, a hope that survived a war.",
+      "text": "Hannah lives across the courtyard and defends it with a frying pan kept within reach of her door. She brings you soup and asks nothing about where you have been. Her laugh arrives slightly before the joke does. She tells you that one day there will be a country where nobody has to run anywhere.",
       "sceneTitle": "Hannah Next Door",
       "choices": [
         {
           "text": "Talk to her",
-          "consequence": "There is no taking “Talk to her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You stand in the courtyard with your sleeves rolled and talk about nothing for an hour, which costs you the whole evening's work.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hide",
-          "consequence": "“Hide” closes one possibility and opens another. The moment leaves a clear note behind: Shy.",
+          "consequence": "You go back inside and watch her through the glass sweeping her own step, and the soup goes cold on your counter.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A pilot you carried out of a burning fuselage in another life.",
+      "text": "The officer inspecting the block stops outside your shop and looks at you the way you look at a word you cannot place. Then he has it. The lake. The upside-down plane. The man you dragged out by the collar and carried across three fields. He commands a squadron now. He is also, apparently, still that man.",
       "sceneTitle": "Schultz, Saved",
       "choices": [
         {
           "text": "Greet him",
-          "consequence": "“Greet him” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You put your hand out before you have decided to, and he takes it in front of his own men, in the street.",
           "nextNodeId": "s6"
         },
         {
           "text": "Pretend not to know",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep sweeping and let him walk on, because a debt from another war is a thin plank to stand on.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Boys in armbands with bricks and brushes.",
+      "text": "They come down the street in threes with buckets, and they are young, and they are painting a word across windows. Yours gets it while you are inside sharpening. You come out with a rag and a pail before the paint has set, because it is your window and you cleaned it this morning.",
       "sceneTitle": "Storm Troopers",
       "choices": [
         {
           "text": "Scrub the slur off",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You work at it with a wet rag on a public street in daylight, and three doors down a curtain moves and stops moving.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You stand behind your own counter with the lights off, watching the paint dry into the glass, hating how quiet it is.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A confrontation in a stairwell with a pail of paint.",
+      "text": "One of them takes the rag out of your hand and you take it back, and after that it is all elbows. The pail goes over. Somebody's brush finds somebody's eye. You get up a flight of stairs, down a fire escape, and along four rooftops with a paint tin still hooked over your wrist.",
       "sceneTitle": "Brush in His Eye",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You commit to “Apologize.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You offer, absurdly, to clean his tunic. He declines the offer. Hannah arrives at the top of the stairs with the frying pan.",
           "nextNodeId": "s8"
         },
         {
           "text": "Swing",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You hit a man for the first time in your life, with a wet brush, and it is nothing like as satisfying as advertised.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Tea, a confession, plans for a long resistance.",
+      "text": "Schultz pours the tea using both hands, because one of them is unsteady. He has been removed from his post for objecting in writing. He tells you there are men in the palace across town who could end this in an afternoon, and that he knows every one of their names, and that he needs a barber.",
       "sceneTitle": "Schultz's Apartment",
       "choices": [
         {
           "text": "Join him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You say yes over a cooling cup of tea in a borrowed apartment, and it is the least dramatic decision of your life.",
           "nextNodeId": "s9"
         },
         {
           "text": "Decline",
-          "consequence": "There is no taking “Decline” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You tell him you cut hair and nothing else. He nods. Neither of you believes the sentence while it is being said.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Across town, you have inadvertently inspired a coin balanced on a globe.",
+      "text": "Across town, in a room the size of a railway station, a man keeps his desk at the far end so that visitors have to walk the whole length of it. He takes a globe down from the shelf. It is not a globe; it is a balloon. He dances with the world for two minutes, gets it above his head, and it bursts.",
       "sceneTitle": "Hynkel's Office",
       "choices": [
         {
           "text": "Watch the office",
-          "consequence": "There is no taking “Watch the office” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You know a face like your own when a newsreel shows you one, and now you cannot stop seeing it everywhere.",
           "nextNodeId": "s10"
         },
         {
           "text": "Bide",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You go back to sharpening razors and let the newsreel run without you, which changes nothing whatsoever about the newsreel.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A coin in a dessert at a barber's table determines who assassinates the dictator.",
+      "text": "Six of you around Schultz's table, and one of the puddings has a coin in it, and whoever finds the coin goes to the palace. Everybody eats very slowly. You find a coin. So does the man beside you. So does every man at the table, because Hannah was in the kitchen and put one in all six.",
       "sceneTitle": "Pretzels in the Pudding",
       "choices": [
         {
           "text": "Take a pudding",
-          "consequence": "“Take a pudding” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You take the dish nearest you without looking at it, and swallow the coin, and say nothing, and swallow again.",
           "nextNodeId": "s11"
         },
         {
           "text": "Pass",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You push the plate away and announce you are not hungry, and five men look at you and go on chewing carefully.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A black truck at the door and a captain in white gloves.",
+      "text": "The truck arrives at four in the morning and does not hurry, which is the frightening part. A captain in white gloves reads a name off a card. Schultz is upstairs in your spare room with his boots off. The captain asks whether anyone else is in the building, and waits for your answer with real patience.",
       "sceneTitle": "Schultz Arrested",
       "choices": [
         {
           "text": "Hide him",
-          "consequence": "The decision settles the question for now. Its verdict—Loyal—follows you into whatever comes next.",
+          "consequence": "You say no in a steady voice, with a wanted officer three metres above the captain's head behind a water tank.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse to help",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You say nothing whatsoever, which is not the same as no, and Schultz hears every second of it through the floor.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Laundry lines, a song, a promise to find each other in a free country.",
+      "text": "You get up onto the roof among the wet sheets, because the street is not safe and neither is the stairwell. Hannah has hung the washing anyway. She sings four lines of something with the words wrong and makes you agree, formally, out loud, that one day you will meet in a country with no lists in it.",
       "sceneTitle": "Hannah on the Roof",
       "choices": [
         {
           "text": "Promise",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You say it plainly, with wet laundry hitting you in the face, and she makes you repeat it once for the record.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't",
-          "consequence": "“Don't” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You will not promise a thing you cannot deliver, and she says that is the most romantic sentence anyone has ever said to her.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Trucks, papers, a wide gray river to a kinder country.",
+      "text": "Osterlich sits on the far side of a river the color of dishwater, and the bridge has a barrier and two boys with clipboards. People are crossing with whatever they can carry. Hannah's cousins have a farm over there and a room with a stove in it. Your shop is behind you, paint still on the glass.",
       "sceneTitle": "Border",
       "choices": [
         {
           "text": "Cross",
-          "consequence": "You commit to “Cross.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go over the bridge with one bag and a razor case, and you do not look back until the far bank.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You send her ahead and keep the shop open, because somebody on this street still has to be standing here on Monday.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A military car, a salute mistaking you for the dictator.",
+      "text": "A staff car stops beside you on a country road and the driver comes to attention so fast he knocks his own hat. You are wearing a borrowed uniform and the wrong face — or rather, exactly the right face, which is worse. Schultz gets in beside you and says, without moving his lips, to keep walking forward.",
       "sceneTitle": "Pickup",
       "choices": [
         {
           "text": "Salute back",
-          "consequence": "You commit to “Salute back.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You return a salute you have never once practised, badly, and the driver receives it as evidence of greatness.",
           "nextNodeId": "s15"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You put your hands behind your back and say nothing at all, and the silence turns out to be extremely convincing.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A parade you have been driven into the center of.",
+      "text": "Bands on both sides of the avenue, banners four storeys tall, and a hundred thousand people who have been standing since dawn to look at the man they believe is riding in this car. The car does not stop. There is no door on your side that opens from the inside. Schultz is smiling straight ahead.",
       "sceneTitle": "Tomanian Forces Massed",
       "choices": [
         {
           "text": "Wave",
-          "consequence": "You commit to “Wave.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You raise one hand and a hundred thousand people raise theirs back at you, and your stomach goes out from under you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Bolt",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You get one leg over the side of a moving car in front of a nation, and Schultz takes a firm hold of your belt.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Drums, music, a long ramp toward a microphone.",
+      "text": "The tunnel smells of wet concrete. Ahead is a rectangle of white light, and past that a platform, and past that a country. Drums. Your hands are a barber's hands: small, steady, good with a strop and nothing else. Somebody behind you says it is time and puts a palm flat between your shoulder blades.",
       "sceneTitle": "Stadium Tunnel",
       "choices": [
         {
           "text": "Walk forward",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You go up the ramp at the pace of a man walking to open his own shop, because it is the only pace you own.",
           "nextNodeId": "s17"
         },
         {
           "text": "Refuse the stage",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stop dead halfway and a full orchestra keeps playing, and there is nothing behind you in this tunnel to go back to.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "He praises Hynkel; the world goes quiet to hear him.",
+      "text": "Garbitsch takes the microphone first and speaks about destiny for six minutes. He explains that liberty is inefficient and free speech a nuisance. He is very calm about it. The radios of an entire continent are open. Then he turns and gestures toward you the way a man unveils a monument.",
       "sceneTitle": "Garbitsch's Introduction",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You let him finish every word, because a man that pleased with himself always leaves you a bigger silence to fill.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cut him off",
-          "consequence": "You commit to “Cut him off.” The story records the instinct as “Bold” and carries it forward.",
+          "consequence": "You step up early and lift the microphone out of his hand, and his face does something you will remember for years.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A small black bulb, an open sky, a continent waiting for a voice.",
+      "text": "It is a small black bulb on a bent stalk. Behind it, rows of helmets to the far end of the field; past them the wires; past the wires, kitchens and workshops and a woman in a field somewhere. You have never in your life addressed more than one man in a chair. You lean in, and the sound carries.",
       "sceneTitle": "Microphone",
       "choices": [
         {
           "text": "Speak gently",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You begin quietly, the way you talk to somebody sitting in your chair, and half a million people lean forward to hear it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Speak with rage",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You start loud and hear your own anger come back off the far stands wearing his voice, so you stop and begin again.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Far away she is on her knees in a field hearing your voice for the first time in months.",
+      "text": "Two hundred kilometres away, Hannah is on her knees in a beet field with her hands in the dirt and a radio propped on a fence post. The guards have stopped work to listen. She does not know the voice at first. Then she does, and she stays exactly where she is, not moving at all.",
       "sceneTitle": "Hannah on the Radio",
       "choices": [
         {
           "text": "Speak to her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You aim the next part at one person, in a field, with dirt on her hands, and every listener assumes it was meant for them.",
           "nextNodeId": "s20"
         },
         {
           "text": "Speak to all of them",
-          "consequence": "There is no taking “Speak to all of them” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You widen it out to a whole continent, and Hannah hears herself counted inside it, which is nearly the same thing.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A speech about kindness in a uniform that does not deserve it.",
+      "text": "You are wearing his collar and his boots and saying the opposite of everything he has ever said. The helmets in the front rows are not moving. Somewhere behind you Garbitsch is trying to have the microphone cut, and discovering that nobody in the box is willing to be the man who does it.",
       "sceneTitle": "Words",
       "choices": [
         {
           "text": "Soldiers, do not despair",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You speak straight at the front rank about going home, and out in the middle of the field a rifle butt hits concrete.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be brief",
-          "consequence": "There is no taking “Be brief” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You cut it down to four sentences and let the silence carry the rest, and the silence runs longer than the speech did.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Look up, Hannah. The clouds are lifting.",
+      "text": "One thing is left and it is not for the crowd. Your hands are on the stand. The field has gone completely still. You have a woman's name in your mouth and a continent listening in on a private sentence, and the only question left is whether you can get it out without your voice going.",
       "sceneTitle": "Last Line",
       "choices": [
         {
           "text": "Say it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You say her name into a microphone in front of an army, and it is the bravest thing done on that field all day.",
           "nextNodeId": "end_speech"
         },
         {
           "text": "Stop",
-          "consequence": "There is no taking “Stop” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You take your hands off the stand and step back, leaving the last sentence unsaid, where nobody can take it off you.",
           "nextNodeId": "end_barber"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a way out of this stadium that does not run through a speech, and it ends at a shop with a broom in it.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_speech",
-      "text": "The crowd is quiet for once, and somewhere a woman on a hillside stands up. The film cuts to her face, and the future is, for one second, possible.",
+      "text": "You say it, and in a beet field two hundred kilometres off a woman sits back on her heels and lifts her face. The guards have drifted away from the fence. Nothing has been won. No army is coming and no border has moved. But for the length of one broadcast a barber stood in a dictator's uniform and told a continent it did not have to go on like this, and somebody heard him.",
       "sceneTitle": "Look Up, Hannah",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_barber",
-      "text": "You return to the chair and the strop, and a man in an armband comes in to threaten you and finds Schultz waiting for him, smiling.",
+      "text": "You get back somehow, and the shop is still there, and the paint comes off the glass with turpentine and a great deal of patience. You open at seven. On the second morning a man in an armband walks in to explain what is going to happen to you, and finds Schultz already in the chair with a hot towel over his face and all the time in the world.",
       "sceneTitle": "Back to the Shop",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "She knocks at your shop a year after the war and you do not recognize her at first, both of you laughing at how thin you became.",
+      "text": "She knocks in the spring after it ends, and you open the door and do not know her for three seconds, and those three seconds are the worst of the whole war. Then you do. You stand in the doorway with a towel over your shoulder while the two of you laugh about how thin you both got, because the alternative is not laughing, and neither of you has the strength for that today.",
       "sceneTitle": "Hannah at the Door",
       "choices": [],
       "isEnding": true,

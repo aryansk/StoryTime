@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Wind grinds the basin. A patrol below. Stilgar at your shoulder.",
+      "text": "Two years of this now. You lie in the scree with your hood up while the wind grinds grit into the seam of your mask. Below in the basin a Harkonnen patrol picks along a line of seismic stakes they don't understand. Stilgar breathes beside you, slow, the way he taught you when you were fifteen and useless. He waits for your signal now. He didn't used to.",
       "sceneTitle": "First Light",
       "choices": [
         {
           "text": "Plant the thumper",
-          "consequence": "Call the maker.",
+          "consequence": "You set the thumper and back off, and Stilgar watches you choose the worm over the knife, and files it with everything else about you he files.",
           "nextNodeId": "s2"
         },
         {
           "text": "Order a quiet ambush",
-          "consequence": "There is no taking “Order a quiet ambush” back. Patience shapes the silence before the next moment arrives.",
+          "consequence": "You put men on the ridge and take it with blades, cheaply, and it costs the patrol nothing that anybody could mistake for a miracle.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A wall of teeth eats the dune. The patrol breaks apart.",
+      "text": "The sand tightens, then goes hollow, then a hundred metres of dune drops out of the world and the maker comes up through it — crystal teeth in a ring wider than a landing field, cinnamon and hot metal rolling ahead of it like weather. The parked thopter is a spark going down a throat. Three men run and the sand takes their footing before the mouth takes the rest.",
       "sceneTitle": "Shai-Hulud",
       "choices": [
         {
           "text": "Spare a survivor",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You haul one survivor out by the collar and let him live to describe you, which is the cheapest weapon available anywhere on this planet.",
           "nextNodeId": "s3"
         },
         {
           "text": "End it cleanly",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You finish the ones the maker missed, quickly, at the throat, and afterwards the silence is total and nobody thanks you for it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Six bodies, no shouts. A tag in Chani's hand with your face on it.",
+      "text": "Six bodies in the wreck's shadow, not one shout raised, the whole thing done in the time it takes to fill a catchpocket. Chani goes through their pouches and comes up with a printed tag: your face at fifteen, softer, and a figure in solaris beside it carrying too many digits. The bounty was revised recently. Somebody who has seen you close has been describing you.",
       "sceneTitle": "Knife Work",
       "choices": [
         {
           "text": "Hunt the traitor",
-          "consequence": "“Hunt the traitor” closes one possibility and opens another. The moment leaves a clear note behind: Anger.",
+          "consequence": "You start counting who has been where and when, and it poisons the water-sharing for a month, and at the end of the month you find him.",
           "nextNodeId": "s4"
         },
         {
           "text": "Say nothing, watch",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You say nothing and keep watching, and three weeks of silence teaches you more than any interrogation in that cave would have.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Reverend Mother watches you with old eyes.",
+      "text": "Cave cold, the smell of bodies and spice-coffee, and ten thousand litres of stored water glinting behind a grille while children do arithmetic in front of it. The Reverend Mother sits back on her heels and looks at you with eyes that have carried other women's memories for sixty years. She wants you to drink the Water of Life. It has killed every man who has ever tried it.",
       "sceneTitle": "The Sietch",
       "choices": [
         {
           "text": "Drink the Water",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You take the cup and the poison stops your heart, and your mother's hands stay on your chest for three days while you walk through rooms that have no floors.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You refuse, and the old woman doesn't argue, and the refusal moves through the sietch as humility or cowardice depending entirely on who tells it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Possible futures pour through you. Some are oceans of dead.",
+      "text": "It opens the way pain opens, all at once. Ten thousand of you standing in ten thousand rooms. In most of them there are green banners and a number you cannot set down again: the dead, counted in whole worlds. You see Chani's face in the futures where you are worshipped, and it is the same face, with nothing behind it any more.",
       "sceneTitle": "Visions",
       "choices": [
         {
           "text": "Choose the smallest war",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You look for the corridor with the fewest bodies in it, and it is narrow and slow and requires you to stay smaller than everyone around you needs you to be.",
           "nextNodeId": "s6"
         },
         {
           "text": "Choose the swiftest justice",
-          "consequence": "“Choose the swiftest justice” closes one possibility and opens another. The moment leaves a clear note behind: Anger.",
+          "consequence": "You take the road that reaches a Harkonnen throat soonest, and the other futures shut behind you like doors down a corridor, one after another.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "She loves you. She also doesn't love what you might become.",
+      "text": "She holds your face in the dark of the stilltent and tells you plainly that she loves Usul — the man who nearly drowned learning to ride a maker, who still says the water-rite badly. Muad'Dib she does not love. Muad'Dib is what the naibs shout, and what her grandmother's generation was taught to wait for by women who came here specifically to plant it.",
       "sceneTitle": "Chani",
       "choices": [
         {
           "text": "Promise her",
-          "consequence": "There is no taking “Promise her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You promise, and she takes the promise, and you both hear the sound one makes when it is larger than the person giving it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Tell her the truth instead",
-          "consequence": "You commit to “Tell her the truth instead.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You tell her instead exactly what the visions showed you, all of it, and she stops touching your face, and stays anyway, which is worse and better.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You destroy a harvester. The Harkonnens send Rabban personally.",
+      "text": "You take a harvester at noon and send the crawler crew off in their own carryall unharmed, because dead workers cost the Harkonnens nothing. Then the machine burns for two days and the column shows up on Guild instruments from orbit. Rabban stops sending garrison officers after that. Rabban comes down himself, with his shields and his sixty guards and his family's patience finally gone.",
       "sceneTitle": "Spice Field",
       "choices": [
         {
           "text": "Strike Rabban directly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go straight at him, which is stupid, which is exactly why it works — nobody has attacked a Harkonnen na-Baron in open ground in eighty years.",
           "nextNodeId": "s8"
         },
         {
           "text": "Ambush his transport",
-          "consequence": "You commit to “Ambush his transport.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You take his transport instead, in the dark, at the fuel stop, and let the na-Baron arrive at his own war on foot in front of his men.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "His thopter falls. He kneels, half-burned, begging.",
+      "text": "His thopter comes down hard into the rocks and burns along one side. He crawls out with his shield generator dead and half his face gone shining and raw, and this man — who has squeezed a planet down to its bones for thirty years — gets on his knees in front of a boy in a stillsuit and starts offering you money.",
       "sceneTitle": "Rabban",
       "choices": [
         {
           "text": "End him",
-          "consequence": "There is no taking “End him” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You take his life with the blade Stilgar gave you, fast, and behind you the Fremen make the particular sound a crowd makes when a long debt closes.",
           "nextNodeId": "s9"
         },
         {
           "text": "Send him north broken",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategic.",
+          "consequence": "You send him north alive and disfigured, to explain himself to his uncle in person, which will do more damage to that house than his corpse ever could.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Sietch leaders argue your name.",
+      "text": "Twelve naibs in a cave that echoes, arguing about you in the third person while you sit there listening. Half of them want the Lisan al-Gaib and a war on every world with a name. Half want a Fremen who fights beside them and dies on the sand like anybody. Both halves would follow you tonight. Only one half is still Fremen in twenty years.",
       "sceneTitle": "North Council",
       "choices": [
         {
           "text": "Speak as one of them",
-          "consequence": "There is no taking “Speak as one of them” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You speak as a man who owes water to everyone in the room, and win it narrowly, and lose four sietches who came a long way to be given a god.",
           "nextNodeId": "s10"
         },
         {
           "text": "Speak as the Lisan al-Gaib",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Power.",
+          "consequence": "You use the voice they have been trained since childhood to obey, and the cave comes to its feet, and you feel precisely how little effort that took.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Halleck arrives with smugglers and old loyalty.",
+      "text": "Gurney Halleck walks into a smuggler camp with the inkvine scar down his jaw, a baliset on his back, and eight years of assuming you burned with your father. He is past the guards before they've decided anything. He weeps, briefly, is embarrassed about it, and inside a minute is loudly assessing your men's blade work and finding two of them slow.",
       "sceneTitle": "Gurney",
       "choices": [
         {
           "text": "Embrace him",
-          "consequence": "You commit to “Embrace him.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You hold onto him and let it be a reunion for one entire evening — the last night either of you will spend not thinking about the Emperor.",
           "nextNodeId": "s11"
         },
         {
           "text": "Use him for the war",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You put him straight onto the atomics and the smugglers' routes, and he obeys the Duke's son immediately, and something in his face closes over.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Family atomics, sealed since your father. The risk is the universe.",
+      "text": "Your grandfather's stockpile, sealed under rock. Family atomics: the one weapon whose use gets a house struck out of history by every other house at once. The Great Convention exists to prevent exactly this conversation. Gurney reads the seals, looks at you, and declines to say the obvious thing, which is that you have already been thinking about the Shield Wall and the storm behind it.",
       "sceneTitle": "The Atomics",
       "choices": [
         {
           "text": "Move them out",
-          "consequence": "There is no taking “Move them out” back. Strategic shapes the silence before the next moment arrives.",
+          "consequence": "You move them south under a false water shipment, and from that hour you hold the only argument nobody in the Imperium is able to refuse.",
           "nextNodeId": "s12"
         },
         {
           "text": "Leave them buried",
-          "consequence": "You commit to “Leave them buried.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You leave them where your grandfather buried them and win the smaller way, and never find out what the larger way would have charged you.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A Sardaukar squad lands. You bait them into a worm field.",
+      "text": "Sardaukar in Harkonnen livery come down on a sietch they think they've located — a full squad, each of them worth thirty line troops, trained on a prison planet that kills six in every ten it takes. You give them a running fight across three kilometres of open sand at a pace you choose. Then the dune in front of them begins, very quietly, to breathe.",
       "sceneTitle": "Emperor's Hand",
       "choices": [
         {
           "text": "Spring the trap",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You close it and lose four Fedaykin killing nineteen Sardaukar, and that ratio, spoken aloud in the sietches, recruits better than a division would.",
           "nextNodeId": "s13"
         },
         {
           "text": "Take prisoners for parley",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You keep two alive for parley, and one bites through his own tongue rather than carry a message, and the other one talks for six hours.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Letters. Her father is, you read between lines, terrified.",
+      "text": "The letters arrive through smugglers, in the Imperial hand, on paper worth its own weight in water. She writes about her father's health, the Landsraad's mood, the Guild's questions — and means you to read the gaps between: Shaddam is frightened, and a frightened Emperor with five legions is the most expensive object in the universe.",
       "sceneTitle": "Princess Irulan",
       "choices": [
         {
           "text": "Write her back",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You write back, careful and courteous, and open a channel that will one day become a marriage neither party in it wants.",
           "nextNodeId": "s14"
         },
         {
           "text": "Burn the letter",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pride.",
+          "consequence": "You burn it over the lamp and watch the Imperial seal go black and curl, and choose to meet her father later with nothing prepared.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He looks at you the way he looked at no man before.",
+      "text": "He used to correct your stance. He used to tell you flatly that your arrogance would kill you before you were twenty. Now he stands half a pace back and waits, and when you speak he looks at you the way a man looks at rain in a place that has never had any. You would very much rather he hit you.",
       "sceneTitle": "Stilgar's Belief",
       "choices": [
         {
           "text": "Honor his faith carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You keep asking his advice out loud in front of the others, and he gives it, and neither of you mentions that he'd reverse it instantly if you asked twice.",
           "nextNodeId": "s15"
         },
         {
           "text": "Let it carry you",
-          "consequence": "There is no taking “Let it carry you” back. Power shapes the silence before the next moment arrives.",
+          "consequence": "You let his faith carry the room, because it is the fastest way to move ten thousand people, and afterwards you cannot look at him over the coffee.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You ride into the deep south. The crowds gather.",
+      "text": "You go into the deep south, past the last cistern, where the old women brought the children and the story and kept both alive. Three generations they have waited with it. Twenty thousand of them stand in a basin at dusk, and when you climb the rock they go quiet all at once — a silence with weight in it, pressing down like heat off stone.",
       "sceneTitle": "South",
       "choices": [
         {
           "text": "Preach plain",
-          "consequence": "“Preach plain” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You speak plainly about water and Harkonnens and work, and they hear a prophet being humble, which is the one performance nobody can argue you out of.",
           "nextNodeId": "s16"
         },
         {
           "text": "Preach in their language",
-          "consequence": "You commit to “Preach in their language.” The story records the instinct as “Power” and carries it forward.",
+          "consequence": "You use the words the Missionaria planted here centuries ago, and the basin roars, and something starts rolling that has no brakes fitted anywhere on it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The council votes for jihad. You can still refuse.",
+      "text": "The council votes it — jihad, out past Arrakis, in your name — and every naib raising a hand is doing it out of love. You can still stop this. There exists a version of the next minute in which you say no and they obey you, and you have already stood inside that version and seen what it costs by the twentieth year.",
       "sceneTitle": "Holy War, Voted",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You refuse, and the cave takes the refusal as a test of their faith, and passes it, and votes a second time with more hands up than the first.",
           "nextNodeId": "s17"
         },
         {
           "text": "Accept",
-          "consequence": "The decision settles the question for now. Its verdict—Power—follows you into whatever comes next.",
+          "consequence": "You accept, and the noise in the cave is pure joy, and you have never in your life been more alone in a crowded room.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The Emperor's frigate lands. Banners ripple. You take the field.",
+      "text": "The Emperor comes down inside a metal city that lands on its own shadow: five legions of Sardaukar, Guild observers, the Great Houses in orbit watching to see which house is being made the example. A storm is coming off the Shield Wall behind you. Six hundred of your men sit their makers in the dark, waiting for the wind to strip the enemy's shields off.",
       "sceneTitle": "Arrakeen",
       "choices": [
         {
           "text": "Lead the charge",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You ride at the front and the Fedaykin watch you do it, and the story of that ride will outlive every treaty you ever put your name to.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hang back and direct",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You hold the ridge and move companies like counters, and win it cleaner and cheaper, and forfeit the one image the Imperium would have been afraid of.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The Harkonnen heir steps forward for a duel.",
+      "text": "Feyd-Rautha steps onto the floor with his knives and his charm and a body trained by men who were paid to lose to him. There is a needle somewhere in his left hand that he is very proud of. You have watched this duel in a hundred futures. In several of them you die on this floor and the war proceeds without you, which is the part that costs you your nerve.",
       "sceneTitle": "Feyd",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "There is no taking “Accept” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You take him yourself and it runs long, and he opens your forearm to the bone before you get the point in under his jaw.",
           "nextNodeId": "s19"
         },
         {
           "text": "Send a champion",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You send a champion and win the fight and lose the room, because the Fremen came to see it and so did every ambassador in the hall.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Shaddam kneels on the sand. The crown is in your hands.",
+      "text": "Shaddam the Fourth kneels on hot sand in a uniform cut for a throne room, and the sand goes into his boots, and nobody offers him water. The Guild's men are already asking what your spice policy will be. Everything in the universe is presently held together by the single fact that you could burn the spice fields and would.",
       "sceneTitle": "Crown",
       "choices": [
         {
           "text": "Take it as Emperor",
-          "consequence": "There is no taking “Take it as Emperor” back. Power shapes the silence before the next moment arrives.",
+          "consequence": "You take the throne and hand the Imperium a Fremen Emperor, and every Great House begins, that same hour, costing out your assassination.",
           "nextNodeId": "s20"
         },
         {
           "text": "Crown a council instead",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You put a council where the throne was, and the Landsraad calls it weakness, and the Guild — who only ever counts spice — calls it acceptable.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "She watches you marry a princess for politics.",
+      "text": "The treaty requires an Imperial marriage and Irulan is standing right there in her gloves, composed, having practised this. Chani watches from the side of the hall with her hood down and doesn't cry, because she was raised never to waste it. She turns and walks toward the doors, and the crowd parts to let her through, which is somehow the worst part of the afternoon.",
       "sceneTitle": "Chani, Walking Away",
       "choices": [
         {
           "text": "Run after her",
-          "consequence": "You commit to “Run after her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You go after her in front of every ambassador in the Imperium, and it costs a week of negotiation and buys the only thing you actually wanted.",
           "nextNodeId": "s21"
         },
         {
           "text": "Let her go to the worms",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You stay standing where an Emperor stands and let her walk out to the sand, and tell yourself she'll come back — and she does, and it is not the same.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Banners spread to every horizon. You have seen this.",
+      "text": "Green banners across every horizon a horizon can hold. Twelve legions carrying your name before the first year is out, then fifty. You have stood in this exact minute inside a thousand visions since you were fifteen years old, and none of them was a warning, because a warning implies an exit and this is only weather finally arriving.",
       "sceneTitle": "Lisan al-Gaib",
       "choices": [
         {
           "text": "Carry the cost",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You carry it, the whole weight, and start keeping the count yourself because nobody else on any world will do it honestly.",
           "nextNodeId": "end_jihad"
         },
         {
           "text": "Try one more time to steer it small",
-          "consequence": "“Try one more time to steer it small” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You spend the night with the naibs bargaining the war down world by world, and save perhaps a dozen of them, which is not nothing and is not much.",
           "nextNodeId": "end_steward"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You take neither road, walk out into the dark with a stillsuit and no escort, and leave the legend to find its own way south without you.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_jihad",
-      "text": "Green banners. Every horizon. You walk through it because you must — and you remember, every night, the futures where you didn't.",
+      "text": "Sixty-one billion in the end, though the figure shifts depending on who is doing the counting. Green banners on worlds you never learned to pronounce, in the name of a boy who once vomited from spice in a cave outside Sietch Tabr. You walk through all of it because every alternative you saw was worse, and because you are the only person alive who saw them. Before sleep you still visit the futures where you refused. They are quiet. They are also gone.",
       "sceneTitle": "Holy War",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_steward",
-      "text": "You refuse the crown. A council rules. Stilgar leads the desert. You marry Chani in a cave. The empire shrinks; the people breathe.",
+      "text": "You hand the crown to a council, and the Landsraad spends a decade unable to decide whether you are a saint or a coward. Stilgar runs the desert and argues with you in public, loudly, at least twice a season. Arrakis keeps its water debts and its own law. You marry Chani in a cave with forty people in it and no record made. The Imperium contracts; the cisterns fill; almost nobody writes a poem about any of it. You call that a result.",
       "sceneTitle": "The Steward",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You walk south. The legend keeps moving without you. Some say that is the only ending where the desert keeps its god.",
+      "text": "You go south on foot with two litres and a compass and let them look for you. The legend continues without you, which is how you learn it never needed you — it needed a shape, and the naibs will find another. Out past the last cistern an old man teaches children to walk without rhythm and declines, politely, to give a name when asked. The desert keeps its god by being unable to find him.",
       "sceneTitle": "South, Alone",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The horse, the gates, the smoke.",
+      "text": "Your idea: the hollow horse, the beach swept clean, the fleet hidden behind an island for one night. It works better than any plan has a right to. By dawn the city is burning in three places and the men who followed you are dragging temple gold down the streets by the handful. You built the thing that broke those walls, and every god watching the smoke knows whose idea it was.",
       "sceneTitle": "Troy Falls",
       "choices": [
         {
           "text": "Spare a survivor",
-          "consequence": "There is no taking “Spare a survivor” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You pull a woman out of a smoking doorway and put her on a ship with her own name still attached to her. One life against a city. It is the last untroubled sleep you get for a decade.",
           "nextNodeId": "s2"
         },
         {
           "text": "Press on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Soldier.",
+          "consequence": "You take your share and keep your eyes off the temple steps, and the smoke follows you out to sea. Nobody thanks the gods for the wind that morning, yourself least of all.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A drug that erases home.",
+      "text": "Nine days of storm, then a green coast where the people are gentle and offer food without asking for anything in return. Three of your men eat it. Within an hour they cannot tell you their own fathers' names, and they are smiling about it, and they genuinely cannot understand why anybody would leave. The fruit does not hurt. That is the trick. Nothing they have lost feels like a loss.",
       "sceneTitle": "Lotus Eaters",
       "choices": [
         {
           "text": "Drag the men back",
-          "consequence": "The decision settles the question for now. Its verdict—Captain—follows you into whatever comes next.",
+          "consequence": "You bind three grown men and haul them aboard weeping, and they curse you from under the benches for two days. You have stolen a happiness back out of their hands.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay yourself",
-          "consequence": "You commit to “Stay yourself.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You refuse the fruit and keep the whole shape of Ithaca in your head: the dogs, the doorstep, the sound of her loom upstairs. Remembering is a wound you insist on keeping open.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Polyphemus. Sheep. A cave.",
+      "text": "The cave smells of cheese and penned sheep, and the stone he rolls across the door would take twenty men to shift. He eats two of yours against the wall while the rest of you watch from the back. You cannot kill him in his sleep, because nobody else alive can move that stone. So it has to be slower, and cleverer, and it has to leave him breathing.",
       "sceneTitle": "Cyclops",
       "choices": [
         {
           "text": "Tell him your name is Nobody",
-          "consequence": "There is no taking “Tell him your name is Nobody” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You hand him a name that is a trap, blind him, and listen to him bellow across the hillside that Nobody has hurt him. His neighbours roll over and go back to sleep.",
           "nextNodeId": "s4"
         },
         {
           "text": "Boast your name",
-          "consequence": "You commit to “Boast your name.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You shout your true name over the water from a safe deck, because you want the story told correctly. He prays to his father. Poseidon hears it, and now the sea knows what to hunt.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "He gives you the bag of winds.",
+      "text": "The floating island, walled in bronze, and a host who feeds you a month and asks only for a story after dinner. When you go he gives you a leather bag tied off with silver wire: every wind except the one that carries you home, bagged and stoppered like wine. The rule is short. Do not open it. Nine days later you can see the smoke rising off your own hearth fires.",
       "sceneTitle": "Aeolus",
       "choices": [
         {
           "text": "Sleep with the bag tight",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You hold the rope yourself for nine days and nights and never sleep properly once. On the tenth, in sight of your own beach, your body finally takes what you have been owing it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Trust the crew",
-          "consequence": "The decision settles the question for now. Its verdict—Foolish—follows you into whatever comes next.",
+          "consequence": "You tell them what is inside because they have earned the truth, and you watch them silently decide it must be gold you are not sharing. Ten years of hunger does that to men.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Winds escape. You are blown back.",
+      "text": "You wake to the sound of silver wire being cut. The whole sky comes out of that bag at once. Ithaca, close enough to count the goats on the hillside, goes small, then grey, then gone, and the sea drags all of you back to the bronze island in two days. Aeolus stands on his wall and says a man this hated by the gods gets help exactly once.",
       "sceneTitle": "The Crew Open the Bag",
       "choices": [
         {
           "text": "Forgive them",
-          "consequence": "“Forgive them” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You say nothing to the men who just cost you your home, because shouting would cost you the rowing as well. Swallowing it puts a stone in your chest that stays for years.",
           "nextNodeId": "s6"
         },
         {
           "text": "Curse them",
-          "consequence": "The decision settles the question for now. Its verdict—Anger—follows you into whatever comes next.",
+          "consequence": "You call them thieves and fools the length of the benches and mean every syllable, and the rowing turns slow and sullen for a week. Being right does not move a ship any faster.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Giants throw rocks. Ships are crushed.",
+      "text": "A narrow harbour with cliffs on both sides and no swell inside it at all, which is exactly why every other captain rows straight in and moors up tidily. The people living above are the size of hilltops. They stand on the rim dropping boulders, then wade out to spear men in the water like fish in a shallow pool. Your ship is tied up outside the mouth. It is the only one that leaves.",
       "sceneTitle": "Laestrygonians",
       "choices": [
         {
           "text": "Cut and run",
-          "consequence": "There is no taking “Cut and run” back. Save shapes the silence before the next moment arrives.",
+          "consequence": "You take an axe to your own mooring line while men you have known since Troy are still screaming inside the harbour. The crew never mentions it afterwards. Neither do you.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stand and fight",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You put arrows into something the height of a mast and it does not notice them go in. Courage against giants is arithmetic, and the arithmetic is not remotely on your side.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Pigs. A drink. A goddess.",
+      "text": "Half your men go up toward the hall with the smoke coming off it, and the woman there feeds them barley and cheese and honey stirred into wine. Then she taps each of them with a stick and they are pigs, pigs with men's eyes, penned and weeping into the straw. Eurylochus runs back and cannot get the words out. On the path, a young man hands you a flower with a black root.",
       "sceneTitle": "Circe",
       "choices": [
         {
           "text": "Take Hermes' moly",
-          "consequence": "“Take Hermes' moly” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You eat a root that a god dug up for you and walk in immune, and the immunity is borrowed rather than earned. Every advantage arrives with somebody else's name on the invoice.",
           "nextNodeId": "s8"
         },
         {
           "text": "Drink unprotected",
-          "consequence": "“Drink unprotected” closes one possibility and opens another. The moment leaves a clear note behind: Foolish.",
+          "consequence": "You drink her cup first and reach for the sword after, on nothing but nerve, and it works. Your hands shake for an hour. You had gambled your own cleverness against a goddess.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Comfort. The crew softens.",
+      "text": "Roast meat every evening, a warm bed, a woman who is not frightened by anything you have done. A year goes past like one long afternoon. It is Polites who finally says it, awkwardly, down by the hauled-up boats: your son will be a grown man by now. You had honestly lost count of the seasons, and you are the one whose job it was to keep counting them.",
       "sceneTitle": "A Year on Circe's Island",
       "choices": [
         {
           "text": "Sleep a year",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You take the whole year and let the ropes rot on the beach, and afterwards nobody quite believes you when you say a thing is urgent. Rest is not free when men are waiting on you.",
           "nextNodeId": "s9"
         },
         {
           "text": "Leave sooner",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You order the ship refitted early and the men look at the meat and the beds and hate you for it, quietly. Hurrying costs their goodwill and buys back nothing you can point to.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Tiresias' prophecy. Your mother as a shade.",
+      "text": "You dig a trench at the edge of the world and pour milk, honey, wine, water, and the blood of a black ewe into it, and the dead come crowding to the smell, thirsty. The rule is blood first, then speech. The prophet drinks and tells you plainly: leave the cattle of the sun alone. Then a woman steps forward out of the crowd, and it is your mother, and nobody had told you.",
       "sceneTitle": "Underworld",
       "choices": [
         {
           "text": "Hold the trench",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You hold the sword across the pit and make the prophet drink first while your own mother waits her turn in the dark. Obeying the rule is the most expensive thing you do down there.",
           "nextNodeId": "s10"
         },
         {
           "text": "Lunge at her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You go for her three times and three times your arms close on cold air. She explains, patiently, what a body actually is, while you keep on trying to prove her wrong.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Wax in their ears. Ropes on your mast.",
+      "text": "Circe gave you the method and the price attached to it. Wax in every man's ears, and you alone permitted to listen, bound upright to the mast, and whatever you scream at them nobody unties you. The singing is not beautiful. It is worse than beautiful. It is specific. They sing what happened at Troy, accurately, including the parts you have never told a living person.",
       "sceneTitle": "Sirens",
       "choices": [
         {
           "text": "Bind tight",
-          "consequence": "There is no taking “Bind tight” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You have them add a second turn of rope and lash off the ends, and then spend an hour begging your own crew, in a voice you do not recognise, to kill them for not listening.",
           "nextNodeId": "s11"
         },
         {
           "text": "Loose enough to listen",
-          "consequence": "There is no taking “Loose enough to listen” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You want the song more than you want to be safe, so you let the knots stay slack. The rope takes the skin off both wrists before the island drops behind the stern.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Choose six lives or all.",
+      "text": "The strait is narrow. On one side a whirlpool that swallows a ship whole three times a day and gives back matchwood. On the other a cliff with a cave in it, and six long necks living in the cave. Circe was very clear about it: steer for the cliff, lose six men, no more. There is no version of this crossing where you come out the far end with everybody.",
       "sceneTitle": "Scylla and Charybdis",
       "choices": [
         {
           "text": "Take Scylla's side",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold math.",
+          "consequence": "You hug the cliff and hear six men shout your name from the air above the deck, and you keep both hands on the steering oar. You chose which six by where you posted them.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take Charybdis",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Foolish.",
+          "consequence": "You steer for the whirlpool instead to save six lives and nearly lose the hull, the cargo, and every man aboard. Refusing an unfair rule does not get the rule repealed.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Don't eat them. The crew, hungry, does.",
+      "text": "A month of wrong wind pins you on the island of the sun. The fish run out, then the birds, then the roots. The cattle on the hill are fat and gold-coloured and belong to a god who counts them personally every evening. You make every man swear on it. Then you sleep one afternoon, and wake to smoke and roasting fat and the hides crawling about on the ground by themselves.",
       "sceneTitle": "Helios' Cattle",
       "choices": [
         {
           "text": "Stop them",
-          "consequence": "You commit to “Stop them.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You come down the hill shouting into a crew who have not eaten in six days, and they look back at you with meat in both hands. Authority stops where hunger starts.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let them",
-          "consequence": "“Let them” closes one possibility and opens another. The moment leaves a clear note behind: Tired.",
+          "consequence": "You stand at the edge of their fire and say nothing and eat none of it, and it saves exactly one man out of the whole company. The god counts his herd that evening as usual.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Zeus' bolt. You alone live.",
+      "text": "The wind turns fair for a single day, just long enough to clear the island, and then the sky shuts like a hand. One bolt takes the mast out at the step and the men go into the water together, dark heads in white foam, and not one of them comes back up. You lash the keel to the broken mast with a strip of hide and hold on. You are what remains of six hundred.",
       "sceneTitle": "Shipwreck",
       "choices": [
         {
           "text": "Cling to the keel",
-          "consequence": "You commit to “Cling to the keel.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You bind keel to mast-stump and ride the thing nine days, drinking rain off your own forearm. Survival turns out to be mostly a question of not letting go of wood.",
           "nextNodeId": "s14"
         },
         {
           "text": "Swim",
-          "consequence": "“Swim” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You strike out for a shore you cannot see, and the current carries you back past the whirlpool a second time. You hang off a fig root like wet washing until the pool spits your raft up.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Seven years on her island.",
+      "text": "She offers you a body that never ages and a life with no end in it, and she means it, and the offer sits on the table every single evening for seven years. You take the bed and refuse the immortality. Most days you sit on the shore facing east with salt drying on your face, wanting a rocky island, a wife who is no longer young, and an ordinary death.",
       "sceneTitle": "Calypso",
       "choices": [
         {
           "text": "Refuse her gift",
-          "consequence": "There is no taking “Refuse her gift” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You turn down never dying, out loud, something over two thousand separate times. Every refusal is a vote cast for a woman who may well have remarried by now.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay",
-          "consequence": "There is no taking “Stay” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You let another season go because the alternative is a raft and open water, and you despise yourself in considerable comfort. Seven years is a long time to be almost leaving.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Their ship returns you to Ithaca, asleep.",
+      "text": "You come ashore naked, salt-crusted, shaking, and a king's daughter gives you clothes and a hearing before anyone asks a single question. They feed you. Their bard sings about Troy over dinner and you pull a cloth across your face and weep into the food. Only then do they ask your name. Then they row you home in one night, and you sleep through the entire crossing like a corpse.",
       "sceneTitle": "Phaeacians",
       "choices": [
         {
           "text": "Thank them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You name every one of them in the telling and give the king your true name last, the way you would hand over a gift. Courtesy is the only currency you have left aboard.",
           "nextNodeId": "s16"
         },
         {
           "text": "Forget them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You wake on your own beach with their ship already a speck offshore and never send word after them. Poseidon turns that vessel to stone in its own harbour mouth for the favour.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Athena disguises you.",
+      "text": "The goddess puts twenty years on you between one breath and the next: the skin goes loose on your arms, the hair thins out, the shoulders round. It is a good disguise largely because it is true. She hands you a stick and a bag with holes in it. In your own doorway, right now, men are eating your pigs, and you are going to have to beg from them.",
       "sceneTitle": "Beggar's Rags",
       "choices": [
         {
           "text": "Walk to the swineherd",
-          "consequence": "“Walk to the swineherd” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You go to the hut of a slave who has kept faith for twenty years, and he shares his worst bread with a stranger who could be anyone. You weep in front of a man who does not know you yet.",
           "nextNodeId": "s17"
         },
         {
           "text": "Walk to the palace",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You walk straight into the hall and take a stool by the door, and one of them throws a footstool into your back. You take it without making any sound at all, and you start counting.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Your son meets you. You weep.",
+      "text": "He comes to the hut looking for the swineherd, and he has your jaw and absolutely none of your caution. Athena strips the twenty years off you in the doorway and the boy thinks he is seeing a god and backs into the wall with his hands up. Saying it plainly takes three attempts. He was a baby in a blanket when you left. He is taller than you now, and armed.",
       "sceneTitle": "Telemachus",
       "choices": [
         {
           "text": "Tell him plainly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You say the sentence with no cleverness in it, that you are his father, and it comes out badly and he believes you regardless. Twenty years fits inside one minute of holding on.",
           "nextNodeId": "s18"
         },
         {
           "text": "Plan first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You spend the first hour of knowing your son discussing where to hide the spears and which servants can be trusted. It works, and you will always wish you had spent that hour differently.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Penelope's bow. Suitors fail.",
+      "text": "She brings out your bow, the one nobody but you has strung in twenty years, and sets the terms in front of the whole hall: bend it, put an arrow through twelve axe-heads standing in a row, and marry her. The strongest of them warms the horn at the fire and still cannot bring the ends together. Then the beggar in the corner asks for a turn, and the hall laughs.",
       "sceneTitle": "Bow Contest",
       "choices": [
         {
           "text": "String it slowly",
-          "consequence": "You commit to “String it slowly.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You take your time and turn it over like a man who has never held one, then set the string with a single unhurried movement. The laughing stops in the middle of itself.",
           "nextNodeId": "s19"
         },
         {
           "text": "String it fast",
-          "consequence": "“String it fast” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You bend it in a second because you want them to know before they die, and pluck the string once so it sings. Somewhere outside, thunder answers it. That is when they understand.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Arrows through the hall.",
+      "text": "You take the doorway, the only doorway, and your son bars the side passage behind you. The first arrow goes through a throat mid-swallow. There are a hundred and eight of them and they cannot reach the armoury, because Telemachus emptied it last night while they were drinking. It takes all afternoon. Afterwards the floor has to be scraped down with shovels and the doors left open for a week.",
       "sceneTitle": "Slaughter",
       "choices": [
         {
           "text": "Spare the bard",
-          "consequence": "“Spare the bard” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You spare the singer and the herald, because a man forced to sing at a table is not the same as a man who chose to eat at it. Mercy, once, on a technicality.",
           "nextNodeId": "s20"
         },
         {
           "text": "Spare none",
-          "consequence": "“Spare none” closes one possibility and opens another. The moment leaves a clear note behind: Soldier.",
+          "consequence": "You finish every man in the hall and stand in the middle of it afterwards, breathing, ankle-deep. Their fathers will come for you in the morning, and they will be entirely right to.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Penelope tests you with a bed only you can know.",
+      "text": "She will not come downstairs for an hour. When she does she studies you the way you would study a coin you suspect is bad. Then she says, quite calmly, to a servant: move the master's bed out of the chamber for him. You cut that bed yourself around a living olive trunk still rooted in the floor. Nobody moves it. Nobody who is not you knows why not.",
       "sceneTitle": "Olive-Tree Bed",
       "choices": [
         {
           "text": "Tell her the truth of the bed",
-          "consequence": "You commit to “Tell her the truth of the bed.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You describe the trunk, the four posts, the leather straps, the way you took the branches off before you planed it smooth. Her knees go. Twenty years ends in a carpentry detail.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be angry",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You shout that somebody has cut your bed loose from the ground, and the fury itself is the proof, because no imposter would care that much. She lets you finish before crossing the room.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Your father in the orchard.",
+      "text": "You find the old man in the vineyard with dirt to the elbows, in patched clothes and a goatskin cap against the sun, working a row he does not need to work. He is thinner than the last time by half. He has been out here for years, since the day he decided his son was dead. He does not look up. You could say absolutely anything right now.",
       "sceneTitle": "Laertes",
       "choices": [
         {
           "text": "Embrace him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You go straight down the row and hold him and he nearly faints against the vines. Then he asks for proof anyway, and you name the pear trees he counted out for you as a boy.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Wait for proof",
-          "consequence": "There is no taking “Wait for proof” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You test your own father with an invented story first, and watch him pour dirt over his own head before you stop it. Cleverness is a habit, and it cost you a minute you cannot return.",
           "nextNodeId": "end_sea"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You leave the orchard thinking about an oar, and dry country where nobody has ever tasted salt, and the long walk you were told you still owe.",
           "nextNodeId": "end_song"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_home",
-      "text": "You rule Ithaca again. Penelope at your side. Telemachus learns. You die old, in bed, with the sea in the distance.",
+      "text": "The fathers of the suitors come armed up the road and a goddess stops the war in the dust before it starts. You rule again: olives, boundary disputes, the caulking of ships. Penelope takes the loom apart for firewood. Telemachus learns the parts of the work you never wanted to teach anyone. You die old in a bed built round a tree, with the sea audible in the distance and no further interest in it.",
       "sceneTitle": "Home",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_sea",
-      "text": "Tiresias' prophecy comes due. You take an oar inland until a stranger calls it a winnowing fan. You die a peaceful death far from the water.",
+      "text": "The prophecy comes due, so you shoulder an oar and walk inland until the salt goes out of the air, and then keep walking. In high dry country a farmer stops you and asks why you are carrying a winnowing fan on your shoulder. You plant it there, make the sacrifice you were told to make, and go home empty-handed. Death finds you years later, gently, out of the sea, exactly as promised.",
       "sceneTitle": "The Sea, Again",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_song",
-      "text": "Demodocus and others sing your story. You become, eventually, a poem instead of a man. The poem outlives every kingdom you fought in or for.",
+      "text": "Blind men sing you in halls you will never walk into, and they get the details wrong and better. You become something that can be recited: the trick with the horse, the trick with the name, the man who wanted one small stony island more than he wanted to live forever. The kingdoms you fought over are grass now. The poem is still going. It has outlasted every wall you ever pulled down.",
       "sceneTitle": "The Song",
       "choices": [],
       "isEnding": true,

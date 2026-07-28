@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A microphone, a sister in a coffin, a son who refuses to come down.",
+      "text": "Seventy-eight people in a rented room, and you have to check the program to get the dates right on your own mother. You tell them she was private. You tell them she was secretive, and you hear the difference the moment it leaves your mouth. Half those faces you have never seen before and not one of them introduces itself afterward. Your son sits out in the car with the windows up.",
       "sceneTitle": "Eulogy",
       "choices": [
         {
           "text": "Speak",
-          "consequence": "There is no taking “Speak” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You get through it without crying, and afterward a woman you have never met takes your hand and says your mother would be so pleased with tonight.",
           "nextNodeId": "s2"
         },
         {
           "text": "Don't",
-          "consequence": "“Don't” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You sit back down and let the funeral director read something generic off a card, and there is a small relief in declining to be her daughter out loud.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A miniature of your own house with a small version of you in it.",
+      "text": "The gallery deadline is seven weeks out and everything is at one-twelfth scale. Your bedroom, accurate down to the hairline crack over the closet door. The hospice room with its rail bed. And one more, unfinished: your mother in her chair, and a small version of you standing beside her with an arm raised and nothing in the hand yet. You have no memory of beginning that one.",
       "sceneTitle": "Studio",
       "choices": [
         {
           "text": "Work",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You cut basswood chair rail at one-twelfth scale until three in the morning, and it is the only hour of the day in which you can properly breathe.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stop",
-          "consequence": "There is no taking “Stop” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You put the cloth back over the diorama and go up to bed, and under the cloth that small raised arm stays raised all night.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A small girl with a tongue-click and a chocolate bar.",
+      "text": "Thirteen, and she draws in a notebook the size of a brick: birds, the neighbour's dog, a woman none of you have ever met, all of it in a hard careful line. She makes a sound with her tongue against her palate, a dry click, at intervals, without noticing. She sleeps out in the treehouse in November. On Tuesday she took the head off a dead pigeon with sewing scissors.",
       "sceneTitle": "Charlie's Room",
       "choices": [
         {
           "text": "Hold her",
-          "consequence": "You commit to “Hold her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You sit on the end of her bed and she leans into your side like a much smaller child, and you cannot tell which of you that is actually for.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stay back",
-          "consequence": "You commit to “Stay back.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You say goodnight from the doorway with a hand on the frame, and the click follows you down the hall three times, evenly spaced.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A teen invitation, a sister tagging along because mother insists.",
+      "text": "Peter wants the car for a party where a particular girl will be. There is no negotiation on offer: he takes his sister. Charlie says nothing whatsoever. In the hallway Peter says one word under his breath that both of you hear clearly. She puts on her coat. She brings the notebook. At the door she asks, in a completely flat voice, whether there is going to be cake.",
       "sceneTitle": "Party",
       "choices": [
         {
           "text": "Send Peter",
-          "consequence": "You commit to “Send Peter.” The story records the instinct as “Practical” and carries it forward.",
+          "consequence": "You put the keys in his hand and tell him to look after her, and he says yeah, and neither of you manages to look at the other's face.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You nearly keep them home over a bad feeling with nothing underneath it, then hear how that would sound out loud, and let them go.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A nut in a cake, a swelling throat, a long drive.",
+      "text": "There is chocolate cake at the party and there are walnuts in it and nobody in that kitchen has ever heard the word epinephrine. Peter finds her by the table with her hands at her collar and her face already changing shape. The car is a four-door with an allergy sticker on the glovebox. He gets her into the back. Sixteen minutes of two-lane road, and the breathing behind him going wet.",
       "sceneTitle": "Allergic Reaction",
       "choices": [
         {
           "text": "Window down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You put the rear window all the way down for her because open air in a car is the one thing she has always asked for, and she puts her head out.",
           "nextNodeId": "s6"
         },
         {
           "text": "Speed",
-          "consequence": "You commit to “Speed.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You take the centre line at seventy with your eyes going to the mirror every three seconds, and not once do you think about height.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "An impact in the back seat that takes a daughter and a head.",
+      "text": "A deer carcass lying in the lane at night, and he swings left around it. She has her head and both shoulders out of the window. The impact is one flat sound off a telephone pole at exactly shoulder height, and then the car is stopped and the engine is idling and the radio is still playing. He does not turn around. He drives home, parks, goes in, lies down in his clothes.",
       "sceneTitle": "Tree on the Road",
       "choices": [
         {
           "text": "Drive home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You bring the car back up the drive with the rear window still down and go straight to your room, because no version of turning around is survivable.",
           "nextNodeId": "s7"
         },
         {
           "text": "Call the police",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You sit in a stopped car with your hand on the phone for a very long time and never make the call, and the not-calling becomes the second thing.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A scream that does not stop for a day.",
+      "text": "You go out to the car in your dressing gown because your son parked it crooked in the drive and left it there overnight. What is in the back takes all the sound out of you and then hands you a different one, a noise that carries across the gravel and through the door and does not stop for a day. Upstairs, Peter lies still and listens to his mother make it, and does not come down.",
       "sceneTitle": "Kitchen Morning",
       "choices": [
         {
           "text": "Hold your son",
-          "consequence": "“Hold your son” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You go up and stand over his bed and put your hand flat on his back, and neither of you speaks, and it is no comfort to either one of you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Lock the door",
-          "consequence": "You commit to “Lock the door.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You shut yourself in the studio with the light off and let the sound travel through the wall to him, which is a decision, whatever you call it afterward.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A folding chair, a confession to strangers, a woman named Joan who knows.",
+      "text": "A church basement, a metal folding chair, a ring of strangers who lost people the ordinary way. You say the family record out loud for the first time in your life: your father starved himself, your brother hanged himself at sixteen and left a note accusing your mother of putting people inside him. You hear yourself saying it. A woman called Joan follows you to the parking lot and knows your daughter's name.",
       "sceneTitle": "Annie at the Group",
       "choices": [
         {
           "text": "Confide more",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stand between two cars telling a stranger everything you have kept from your husband, and the relief is enormous and lasts approximately four days.",
           "nextNodeId": "s9"
         },
         {
           "text": "Leave",
-          "consequence": "“Leave” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You get in the car mid-sentence and pull out, and she waves after you with her whole arm, patient, like a woman who knows you will be back.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A séance, a pencil, a name said into a candle.",
+      "text": "One bedroom over a dry cleaner, a card table, a candle, and a pencil balanced upright on its point on a clean sheet of paper. Joan says her grandson came through last week; the trick is that anyone in the room who loved them can serve as the channel. Say her name, she says. The candle leans sideways with the windows shut. The pencil moves and writes, in a child's hand, hello mommy.",
       "sceneTitle": "Joan's Apartment",
       "choices": [
         {
           "text": "Speak Charlie's name",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You say it aloud in a stranger's kitchen and the temperature goes down through the floorboards, and something in that room turns its attention toward you.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep your mouth shut and watch the pencil work regardless, and afterward Joan smiles and mentions that it does not actually require your participation.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A figure with a smile that is not a smile.",
+      "text": "Charlie's room, and you go through the notebooks properly for the first time. The same figure recurs in the margins of forty pages: something tall and crowned, standing behind other people, always drawn from below. In every single version the mouth opens too wide and the teeth are done one at a time, patiently, with a sharpened point. On the last page, in ink, in your mother's handwriting, three encouraging words.",
       "sceneTitle": "Drawings on the Wall",
       "choices": [
         {
           "text": "Take them down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You pull the pages off the wall in handfuls and find the same figure in the sheets underneath, drawn earlier, drawn smaller, drawn from much further away.",
           "nextNodeId": "s11"
         },
         {
           "text": "Photograph them",
-          "consequence": "There is no taking “Photograph them” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You shoot them one at a time on your phone, the way you document your own work, and having a file of it turns out to control nothing.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Annie's open notebook with a strange figure in every page.",
+      "text": "Your own sketchbook lies open on the studio table and you did not open it. The last four pages are unmistakably your hand: your son asleep, your son at the table, your son from the doorway — and then one you cannot remember making, of him with his head at an angle nobody survives, rendered with the same care you give a chair rail. You have been working at night.",
       "sceneTitle": "Sketchbook",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "“Burn it” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You carry it to the fireplace with a box of matches and get as far as the grate before your husband walks in and asks what you are doing.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tear out pages",
-          "consequence": "You commit to “Tear out pages.” The story records the instinct as “Compromise” and carries it forward.",
+          "consequence": "You tear the last four sheets out and fold them into your pocket, and the rest of the book is still yours, which is the lie you sleep on.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A vision of his mother on the ceiling.",
+      "text": "He wakes without moving, which is how he knows. His mother is on the ceiling directly above the bed in her nightdress, on her hands and knees against it, watching him steadily. She tells him she never wanted to be his mother. Then she is at the window with a smell of lighter fluid coming off her, holding a match. In the morning there is a can of thinner standing in the hall.",
       "sceneTitle": "Peter's Dream",
       "choices": [
         {
           "text": "Wake him",
-          "consequence": "“Wake him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You put a hand on his shoulder and he comes up screaming with both arms across his face, and you stand there gripping the doorframe with nothing to say.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let him sleep",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You leave him inside it, because you cannot honestly swear that waking him helps anyone, and in the morning the can in the hallway is a real can.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Books bound in leather and a circle of names.",
+      "text": "A cardboard box in the storage room, taped shut, dated in her handwriting. Books with the spines gone soft as cloth. A spiritualist pamphlet with your mother's name typed inside the cover as an officer of the society. A photo album. And a list of names arranged in a ring, in ink, with hers at the top and yours below it and your children's below that, each marked except two.",
       "sceneTitle": "Grandma's Trunk",
       "choices": [
         {
           "text": "Read",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Curious.",
+          "consequence": "You sit down on the concrete and read a chapter about a king who requires a male host, written in the flat helpful tone of an appliance manual.",
           "nextNodeId": "s14"
         },
         {
           "text": "Lock the lid",
-          "consequence": "You commit to “Lock the lid.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You tape the box shut, slide it back under the shelf, and go upstairs, and it takes roughly four days before you come back down for it.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Grandma at a meeting of robed strangers.",
+      "text": "The album runs back forty years. Your mother, young and thin and radiant, in a ring of people in robes on somebody's back lawn, holding a naked infant up over her head. You recognise the lawn. You recognise the infant, because the same photograph hangs in your bedroom, cropped down to nothing but her face. Underneath, in soft pencil, she has written a date and one word: welcome.",
       "sceneTitle": "Photograph in the Album",
       "choices": [
         {
           "text": "Show Steve",
-          "consequence": "You commit to “Show Steve.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put it down in front of your husband at the kitchen table and he studies it a while and then asks, carefully, how much you have been sleeping.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hide it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You slide it into the back of the album and carry the whole thing out to the garage, where it sits radiating quietly through a shelf of paint tins.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A small parcel, a Praise Paimon, a smile.",
+      "text": "She is at the kerb before you have the shopping out of the car — good coat, small parcel in brown paper, apologising for calling round unannounced. She tells you that you have been chosen, and that it is a wonderful thing. She presses the parcel into your hands and says, as warmly as another woman would say drive safe: praise Paimon. Then she walks away down the middle of the road.",
       "sceneTitle": "Joan in the Driveway",
       "choices": [
         {
           "text": "Refuse it",
-          "consequence": "You commit to “Refuse it.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You hold the parcel out at arm's length and she declines to take it back, and you are left standing in your own driveway holding a gift.",
           "nextNodeId": "s16"
         },
         {
           "text": "Accept",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tempted.",
+          "consequence": "You take it because both your hands are already full and taking it is simply easier, and you carry it indoors without having decided anything at all.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A page in the fire, a wrist in flames at the same moment on another hand.",
+      "text": "You tell Steve to put the sketchbook on the fire and he refuses, so you do it yourself. The corner goes into the flame. Heat comes up inside your own sleeve at the identical moment, from nowhere, and your wrist is alight — and you can see plainly that the fire is on the paper and not on you, and that both of those are true at once.",
       "sceneTitle": "Burning the Sketchbook",
       "choices": [
         {
           "text": "Drop it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You let it fall to the hearth and the flame leaves your skin instantly, and you stand there looking at a wrist that has no mark on it anywhere.",
           "nextNodeId": "s17"
         },
         {
           "text": "Burn it all",
-          "consequence": "“Burn it all” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "Holding it in would mean holding your own arm in, and you find out in about a second and a half exactly what you are willing to do.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A husband on a couch with a teacup of coffee.",
+      "text": "He is on the couch with a coffee that went cold an hour ago, and he has been calm all week in the way that costs a man something. You tell him about the box, the names, the pamphlet, the woman in the road. He listens to every word. Then he says he telephoned the cemetery this morning, and the plot is empty, and he reports it like a delivery that failed.",
       "sceneTitle": "Steve in the Living Room",
       "choices": [
         {
           "text": "Beg him to listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You take both his hands and get all the way through it without your voice going, and he believes not one syllable of it, and stays anyway.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stop the fire",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You go for the sketchbook instead of the conversation, and he is up off the couch behind you saying your name twice, calmly, and then not calmly.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Steve catches fire in his chair as the sketchbook does.",
+      "text": "He picks it up off the hearth to stop you and puts it into the fire himself, to end the argument, the way a reasonable man ends an argument. The pages take. He does not get as far as standing. It goes through him from the inside out in under four seconds, and the shape in the chair stays sitting exactly as it was sitting, and the room fills with a smell like a garage.",
       "sceneTitle": "Father's Door",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You get out of that room and stand in the hall with your back flat against the wall, and you do not go in again, not even to be certain.",
           "nextNodeId": "s19"
         },
         {
           "text": "Try to help",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You go at him with a cushion, because that is what a person does, and the cushion takes light, and nothing comes out of that chair.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A trapdoor open at the top of the stairs and a humming above.",
+      "text": "The house is dark and nobody in it is answering you. At the top of the stairs a folding ladder is already down and a rectangle of yellow light lies open above it, and there is a sound like a woman humming with her mouth shut, held on one note, going nowhere. Your grandmother's box has been moved out onto the landing. The ladder rungs are damp where hands have been.",
       "sceneTitle": "Attic Light",
       "choices": [
         {
           "text": "Climb",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You climb one rung at a time with your head still below the opening, and the humming does not stop or alter or acknowledge you in any way.",
           "nextNodeId": "s20"
         },
         {
           "text": "Lock it from below",
-          "consequence": "You commit to “Lock it from below.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You reach up to fold the ladder away and something above sets its weight on the top rung, gently, and holds it exactly where it is.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Headless figures in a circle and a head on a pedestal in candlelight.",
+      "text": "Candles in jars all around the edge of the boards. Two figures kneeling naked with their faces pressed into the floor, perfectly still. Your grandmother's body propped against the chimney breast in a dress you have seen in an album, with nothing above the collar. On a plinth in the centre, lit from beneath and crowned, is your sister's head. Behind you, somewhere in the dark, the tongue click starts.",
       "sceneTitle": "Bodies in the Attic",
       "choices": [
         {
           "text": "Smash the lamps",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You swing at the nearest jar and the dark drops, and in the dark every single thing in that attic is much closer to you than it was.",
           "nextNodeId": "s21"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You go for the ladder, and something between you and it is already rising off the floor without putting a hand down to do it.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A whisper through the casement.",
+      "text": "You are in your bedroom with the door shut, and there is somebody at the glass. Your mother is outside a second-storey window in the dark, upright, touching nothing, sawing patiently at her own neck with a length of piano wire, and her face is entirely composed. Down in the yard the treehouse is lit up yellow and full of people standing very quietly, facing the house, waiting on you.",
       "sceneTitle": "Peter, At the Window",
       "choices": [
         {
           "text": "Jump",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tired.",
+          "consequence": "You go out through a second-floor window because it is the direction the door is not, and gravity is the last thing in this house still behaving properly.",
           "nextNodeId": "end_treehouse"
         },
         {
           "text": "Hide",
-          "consequence": "“Hide” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You get into the closet with your hands over your ears and the humming comes in under the door, and hiding was never on the list of options.",
           "nextNodeId": "end_burn"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look past all of it to the driveway and the truck and the road, measuring distances the way your mother did — in scale, from above, on a table.",
           "nextNodeId": "end_run"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_treehouse",
-      "text": "A crown is set on Peter's head by hands that are not human. The cult bows. The lights of the treehouse glow yellow against a dark hill.",
+      "text": "They lift you into the treehouse and set the crown on your head with hands that are gentle and are not warm. Joan is there. The kneeling figures are there. Your grandmother's body has been arranged to face you, and someone says the name that has been living in the margins of a thirteen-year-old's notebook for years. Everyone bows. The little lit box up in the tree glows yellow against a dark hill, and you feel wonderful.",
       "sceneTitle": "The Treehouse Lit",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_burn",
-      "text": "You set the studio alight at the right second and the figures inside dissolve into the photographs you spent your career building.",
+      "text": "You get the candle into the studio at the right second and the miniatures go up together: the house, the hospice room, the car on its short length of road. The figures inside curl at the edges and the paint blisters off the walls, and whatever had been standing behind those small people goes with the paper. What burns, in the end, is thirty years of looking down closely at your own family.",
       "sceneTitle": "Burn the House",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_run",
-      "text": "You take Peter in the truck and you do not stop driving. The country opens. The treehouse light recedes. The dread does not leave the rearview.",
+      "text": "You put Peter in the truck in his socks and do not stop for the state line or the second tank. The country opens out flat and orange and nothing follows you onto the highway. Hours back in the mirror, the treehouse light shrinks and shrinks and never entirely goes. He sleeps against the window with his mouth open. Somewhere ahead there is a town where nobody keeps a ring of names, and you drive straight at it.",
       "sceneTitle": "A Long Drive",
       "choices": [],
       "isEnding": true,

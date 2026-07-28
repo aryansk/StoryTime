@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Eleventy-first. Fireworks. Bilbo vanishes.",
+      "text": "The field behind Bag End smells of trampled grass and gunpowder, and half the guests are related to you by a marriage nobody can trace. Bilbo climbs onto a chair, makes a speech that sours in the middle, and steps down into nothing. No flash. No smoke. Only the shape of an old man missing from the air, and three hundred hobbits deciding to laugh.",
       "sceneTitle": "The Party",
       "choices": [
         {
           "text": "Notice",
-          "consequence": "“Notice” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You are the only one watching his hands, and you see the fingers close on something small in his pocket half a second before he goes.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wave",
-          "consequence": "“Wave” closes one possibility and opens another. The moment leaves a clear note behind: Joy.",
+          "consequence": "You lift your hand at empty air and hold it up too long, laughing with everyone else. Later, alone, you will hate how easy it was to be delighted.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Gandalf returns with a fireplace and runes.",
+      "text": "Seventeen years pass before Gandalf comes back, and he does not sit down. He takes the ring from the envelope with the fire tongs and lays it in the coals, and when he lifts it out an hour later it is cold enough to hold. Letters have surfaced on the gold, running like grease on water. He will not read them aloud inside your house.",
       "sceneTitle": "The Letter",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You sit with both hands flat on the table while he tells you what has been in your pocket for seventeen years. Neither of you touches the tea until it goes cold.",
           "nextNodeId": "s3"
         },
         {
           "text": "Argue",
-          "consequence": "You commit to “Argue.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You call it a trinket, a party trick, a joke of Bilbo's, and hear your own voice climbing as you say it. He lets you finish. That is worse than being interrupted.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Sam, Pippin, Merry.",
+      "text": "You sell Bag End to relatives you dislike and walk out at dusk with a pack that already hurts. Sam carries the pans, the rope, the salt, and the seed box he refuses to explain. Merry and Pippin have known for months and say so cheerfully, as though conspiracy were a kind of present. Behind you the round windows of Hobbiton go dark one by one, and stay dark.",
       "sceneTitle": "Leaving",
       "choices": [
         {
           "text": "Take the Old Forest path",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "Under the old trees the air thickens and the track bends where you never turned. You lose a full day to a willow's slow argument and come out scratched, soaked, and much quieter.",
           "nextNodeId": "s4"
         },
         {
           "text": "The road",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You keep to the open lane and make good time, which is how the black rider nearly has you at the ford. Nobody sings while walking after that, and Sam checks every hedge.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Strider in a corner.",
+      "text": "Rain on the slates of the Prancing Pony, and inside too much light and the smell of spilled beer. A man sits in the corner with a pipe and an untouched drink: mud to the knee, sword under the table, hood up indoors. He has been watching the door since before you came through it. The innkeeper calls him Strider and does not enjoy saying the name.",
       "sceneTitle": "Bree",
       "choices": [
         {
           "text": "Trust",
-          "consequence": "You commit to “Trust.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You follow a stranger out the back door into wet dark on the strength of Gandalf's handwriting alone. Sam walks between you and him the whole way and does not pretend otherwise.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hesitate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You stall two hours and learn afterwards that the beds you would have slept in were cut to ribbons at midnight. Suspicion was right, and delay very nearly killed you anyway.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Five blades in the dark.",
+      "text": "The old watchtower is a broken crown of stone, and the fire you build tells everything on the plain exactly where you are. They come up the slope without hurrying, because they have no reason to hurry. Five of them, and the cold arrives ahead of them like a smell. The ring becomes the heaviest thing you have ever carried, and it wants your finger, and it says so.",
       "sceneTitle": "Weathertop",
       "choices": [
         {
           "text": "Resist the ring",
-          "consequence": "“Resist the ring” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You get your fist closed around the chain and hold it there, shaking, until the blade finds your shoulder anyway. Refusal bought you a wound instead of something worse.",
           "nextNodeId": "s6"
         },
         {
           "text": "Put it on",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "The world goes grey and clean and you see them properly at last, faces and crowns and hunger, and they see you the same way. The shoulder will not close for a year.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Council. Volunteers. The Fellowship.",
+      "text": "You wake in a house where the air is warm and the shoulder aches whenever it rains. In the courtyard, men and dwarves and elves shout at each other about a thing on a stone pedestal no bigger than a wedding band. Every one of them wants it destroyed. Not one of them can stand near it long without wanting it instead. Then the shouting stops.",
       "sceneTitle": "Rivendell",
       "choices": [
         {
           "text": "Volunteer",
-          "consequence": "You commit to “Volunteer.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You hear your own voice make the offer before you have decided anything, and it comes out thin. Elrond looks at you the way you would look at weather coming over a ridge.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay silent",
-          "consequence": "“Stay silent” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You keep quiet long enough to learn that nobody else is going to speak, and then you speak anyway. The silence made the choice for you and let you keep the credit.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Drums. The bridge. Gandalf falls.",
+      "text": "Forty miles of black under a mountain, counted out in blisters and dropped water. Then drums, low in the deep rock, a sound that gets into your teeth before your ears. On the bridge the old man plants himself in front of something made of shadow and fire and tells it no. The stone holds. He does not. The dark takes him without a sound you have a word for.",
       "sceneTitle": "Moria",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "Boromir hauls you up the stair by the collar while you scream at nothing at all. Out in daylight you find you have been gripping Sam's sleeve for the better part of a mile.",
           "nextNodeId": "s8"
         },
         {
           "text": "Try to help",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You get three steps back onto the bridge before somebody drags you off it, which is three more than any of them expected of you. It changes nothing and it changes how they look at you.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Galadriel. Lembas. Gifts.",
+      "text": "The wood is out of time. You sleep on a platform under stars that seem nearer, and grief is somehow permitted here, which it has not been since Moria. She takes you to a basin of water and shows you the Shire with its trees felled and a mill smoking where the mill never was. Then she asks nothing at all, and waits, and you understand what you have just offered her.",
       "sceneTitle": "Lorien",
       "choices": [
         {
           "text": "Refuse her ring",
-          "consequence": "You commit to “Refuse her ring.” The story records the instinct as “Vow” and carries it forward.",
+          "consequence": "She goes very still, then laughs, and looks smaller and far more tired. Refusing was easy. Watching what it cost her to hear no was not.",
           "nextNodeId": "s9"
         },
         {
           "text": "Almost take it",
-          "consequence": "“Almost take it” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You hold the chain out a moment too long, wanting the weight off your neck at any price. She refuses. You feel relief and disappointment together, and you do not like the second one.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Boromir's hand reaches.",
+      "text": "He begins by offering to carry your pack and ends with both fists in your cloak, talking about his city and the wall of men that keeps everyone else's harvest safe. His face is wet. He is not lying about any part of it. The ring is warm now, always warm against your breastbone, and it has become extremely interested in this particular man's need.",
       "sceneTitle": "Amon Hen",
       "choices": [
         {
           "text": "Run",
-          "consequence": "Save the ring.",
+          "consequence": "You slide it on and go invisible while he blunders past shouting apologies to a hillside. From the water, cowardice and mercy look exactly alike.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hold him off",
-          "consequence": "There is no taking “Hold him off” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You stand your ground and say his own name back at him until he hears it. He weeps. You still leave, but you leave with him kneeling behind you rather than hunting you.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "He swims. You pull him in.",
+      "text": "You push off with the pole and do not look back, and there is splashing behind you: Sam, who cannot swim, walking into the river with the water at his chin and then over it. His hand comes up empty twice. You catch his wrist on the third and haul him in over the gunwale, and he coughs river all across your knees and says he is coming.",
       "sceneTitle": "Sam in the Water",
       "choices": [
         {
           "text": "Take him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You let him bail the boat out with his hat and say nothing about how bad an idea this is. It is the last easy decision you make for a year.",
           "nextNodeId": "s11"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You order him back to the Shire twice, and he simply goes on sitting in your boat, dripping, waiting for you to finish. Refusing Sam is not among the options available.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He swears on the precious.",
+      "text": "He is all wrist and rib, and he stinks of old fish and cave water. Sam gets the elven rope on him and the rope burns him; you can hear it burn. He offers an oath then, sworn on the thing he wants back, and swearing by it means the oath will hold and also that it will rot him from the inside. You accept it anyway.",
       "sceneTitle": "Gollum",
       "choices": [
         {
           "text": "Trust slowly",
-          "consequence": "You commit to “Trust slowly.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You use the old name, Smeagol, and something behind his eyes sits up like a dog remembering a kind hand. Sam does not forgive you for this and does not hide it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Don't trust",
-          "consequence": "“Don't trust” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You keep the rope on him three more days and watch him shrink into the thing that hates you. Guarding yourself well makes him precisely what you were guarding against.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He could take the ring. He doesn't.",
+      "text": "The Rangers hold you in a cave behind a waterfall, and their captain has every right to send the thing to his father and buy his city another year. He looks at your neck. He looks at Sam, who has just said far too much in front of soldiers. Then he tells his men to fetch water for the halflings, and marks your map with a road he should not be showing you.",
       "sceneTitle": "Faramir",
       "choices": [
         {
           "text": "Honor him",
-          "consequence": "“Honor him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You thank him formally, the way you would thank a lord, and watch him flinch. Nobody has spoken to him in that voice since his brother died at the river.",
           "nextNodeId": "s13"
         },
         {
           "text": "Note his restraint",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You say nothing, but you file it: a man offered the whole world who asked instead about the state of your feet. You will spend that memory later, when believing in men gets hard.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A spider in a cave.",
+      "text": "The stair ends in a tunnel that breathes out at you, warm and sweet-rotten, and the dark inside is thicker than the dark you came from. Something enormous moves in it without haste, because haste has never once been necessary. The phial burns white in your fist and drives her back exactly one body-length. Then she learns the light, and starts forward again.",
       "sceneTitle": "Shelob",
       "choices": [
         {
           "text": "Sting her",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You go at her with a blade the size of her smallest claw and drive it into a joint, and she recoils. You have wounded a thing that ate armies. It is nowhere near enough.",
           "nextNodeId": "s14"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You run, and the sting takes you from behind at the neck; you are unconscious before you hit stone. Sam finds you cold and believes, for a whole day, that he is alone in Mordor.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You are limp. Sam shoulders the load.",
+      "text": "Fifty miles of ash and no water in three days, and your legs have stopped belonging to you. He gets you across his shoulders like a sack of seed potatoes and stands up out of a crouch, and he is crying and swearing under his breath and describing the Shire in spring, all at the same time. He weighs less than you do. He carries you regardless.",
       "sceneTitle": "Sam Carries You",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You commit to “Trust him.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You go slack and let him have the whole weight, which is the hardest thing you have done since Rivendell. His hands lock under your knees and do not shake once.",
           "nextNodeId": "s15"
         },
         {
           "text": "Mumble",
-          "consequence": "“Mumble” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You keep insisting you can walk, so every few yards he sets you down to let you prove it, and every few yards you fall. He never once says that he told you so.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The stairs. The heat. The crack.",
+      "text": "Inside the mountain the air is a solid thing and the floor pushes heat up through your boots. The crack is right there, orange and simple: one step and a flick of the wrist. And your arm will not move. It is not that you refuse. It is that the hand belongs to something else now, and has for a long while, and you finally hear it say so in your own voice.",
       "sceneTitle": "Mount Doom",
       "choices": [
         {
           "text": "Refuse to drop it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You say it out loud, that the ring is yours, and hear how the voice has changed. Everything anyone carried you for gets spent in that one sentence.",
           "nextNodeId": "s16"
         },
         {
           "text": "Drop it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Lie.",
+          "consequence": "You try. Your fingers open and close again on their own, three times, and on the third you stop trying. Nobody who was not standing there will believe how hard you tried.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He takes the ring and falls in.",
+      "text": "He comes out of nowhere with his mouth, and there is a wet crunch, and your hand is suddenly lighter and wrong. He holds it up and dances along the lip of the fissure, shrieking with a joy you recognise and cannot stand to look at. Then his heel finds nothing. He goes down still holding it, still delighted, and the mountain starts coming apart around you.",
       "sceneTitle": "Gollum Bites",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "The decision settles the question for now. Its verdict—Witness—follows you into whatever comes next.",
+          "consequence": "You stand at the edge with your ruined hand under your arm and watch the gold go orange and gone. What you feel first is loss. Forgiving yourself for that takes years.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold Sam",
-          "consequence": "There is no taking “Hold Sam” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You get a fistful of Sam's collar and haul him back off the crumbling lip, and the two of you go out through falling rock holding onto each other like children.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You wake on a soft thing. Light. Gandalf.",
+      "text": "Clean sheets. A window. Birdsong from something that is not a carrion bird, for the first time in months. The old man sits by the bed in white and laughs at you, and you laugh back in a voice that has not been used for anything but pain in weeks. Somebody has cut your hair while you slept. The gap where your finger was aches in the sunlight.",
       "sceneTitle": "Eagles",
       "choices": [
         {
           "text": "Smile",
-          "consequence": "You commit to “Smile.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You laugh until your ribs complain and then keep going, because the alternative is the other thing. Gandalf lets you have it and does not ask a single question.",
           "nextNodeId": "s18"
         },
         {
           "text": "Sleep",
-          "consequence": "There is no taking “Sleep” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You go back under before you can ask anything at all, and sleep two more days. When you wake, Sam is in the chair, exactly where he was when you closed your eyes.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Aragorn is king. He kneels to the hobbits.",
+      "text": "The city climbs in seven white tiers and every one of them is packed with people. The new king takes the crown, then turns and comes down the steps toward four small figures in borrowed clothes, and kneels. A hundred thousand people go down after him, tier by tier, like a wave running downhill. Sam has gone scarlet to the ears and is studying his own boots.",
       "sceneTitle": "Gondor's Crown",
       "choices": [
         {
           "text": "Stand tall",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You keep your chin up and let an entire city look at the place where your finger used to be. Being seen costs you something. You let it cost.",
           "nextNodeId": "s19"
         },
         {
           "text": "Be embarrassed",
-          "consequence": "There is no taking “Be embarrassed” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You spend the ceremony wishing for a door, and afterwards a stonemason's daughter asks whether she may touch your hand. You let her. That part you do not mind at all.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Home is troubled. You fix it.",
+      "text": "They have felled the Party Tree and put up a mill that makes nothing but smoke, and there are rules nailed to the gate about how much a hobbit may eat. Men with clubs stand where the hedge used to be. You crossed Mordor on your stomach without complaining once; this is the first thing on the entire road that makes you properly, personally angry.",
       "sceneTitle": "Scouring the Shire",
       "choices": [
         {
           "text": "Lead quietly",
-          "consequence": "You commit to “Lead quietly.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep the killing to a minimum and the shouting to none, and Merry finishes it with a horn and forty farmhands. Afterwards nobody is quite sure who to thank.",
           "nextNodeId": "s20"
         },
         {
           "text": "Let others lead",
-          "consequence": "There is no taking “Let others lead” back. Modest shapes the silence before the next moment arrives.",
+          "consequence": "You hand it to Merry and Pippin, who have grown a foot and learned war, and stand at the back making sure nobody hangs anybody. A smaller job, and the right one.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Sam at the door. A daughter on his knee.",
+      "text": "Sam has married Rosie and moved in, and there is a baby on his knee with his ears and her hair. The new trees are coming in unnaturally fast, all from one box of grey dust the Lady gave him. Everything you walked to Mordor for is here, in this kitchen, at this table, buttering bread. Your shoulder aches. It is October, and it always will be.",
       "sceneTitle": "Bag End, Again",
       "choices": [
         {
           "text": "Be content",
-          "consequence": "There is no taking “Be content” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You hold the baby and let the ache in your shoulder be its own kind of weather. For one afternoon it works, and an afternoon is not nothing.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be restless",
-          "consequence": "There is no taking “Be restless” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You keep finding yourself at the window at odd hours, facing east. Sam catches you at it once and says nothing, and you both know exactly what the silence means.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "A ship. Bilbo, Gandalf, the Elves.",
+      "text": "A white ship stands at the harbour and Bilbo is already aboard, small and folded and mostly asleep against a coil of rope. Gandalf holds the rail. The elves have been leaving in twos and threes for a year, and this is the last of them going. Sam rode the whole way beside you and has not asked the question. The tide will not wait past dusk.",
       "sceneTitle": "Grey Havens",
       "choices": [
         {
           "text": "Sail",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You go up the plank without turning round, because turning round would end it. The wind takes the ship out fast, and the shore becomes a line, and then nothing at all.",
           "nextNodeId": "end_havens"
         },
         {
           "text": "Stay",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You step back off the plank, take Sam's arm, and walk inland while the ship leaves without you. The shoulder starts hurting on the road home and does not stop.",
           "nextNodeId": "end_shire"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You send the Red Book aboard in Bilbo's baggage and keep the rest of yourself here, gambling that the words will outlast whichever of you made this decision.",
           "nextNodeId": "end_legacy"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_havens",
-      "text": "You sail. The light is kind. Sam, on the dock, raises a hand. You wave back. The sea is, finally, soft.",
+      "text": "The sea gets softer the further out you go, until the grey turns to rain and the rain turns into a light that does not hurt to look at. Somewhere behind you Sam is standing on a wet dock with his hand up until his arm gets tired. You do not stop hurting all at once. You stop hurting the way frost goes out of ground: slowly, from underneath, across one very long spring.",
       "sceneTitle": "The Grey Havens",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_shire",
-      "text": "Sam returns and is, for many years, the mayor. You write the book. The book becomes, eventually, a kind of national story.",
+      "text": "You stay, and the shoulder aches every October, and you learn to work around it the way you work around a bad hinge. Sam is elected mayor seven times and never once enjoys the paperwork. You finish Bilbo's book at the kitchen table with ink Merry brought from Buckland, and hand it over with the last chapters still blank, because that part was always going to be somebody else's to write.",
       "sceneTitle": "Master of Bag End",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_legacy",
-      "text": "Generations read the Red Book of Westmarch. Your handwriting is, in places, smudged. Children copy the smudges, lovingly.",
+      "text": "The book goes to Sam, and from Sam to his daughter, and eventually to scribes in Minas Tirith who have never met a hobbit and draw the feet wrong. In one place the ink is blurred where a hand shook. Every copyist since has reproduced that blur exactly, faithfully, having no idea what it was, so that the worst night of your life survives four ages as a smudge nobody can account for.",
       "sceneTitle": "The Book",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The hallway smells like meat gone wrong. The super has, four times this year, called it 'a refrigerator problem.' Your son holds his nose at his school bag.",
+      "text": "It is in the hallway again, the same as it was in August, the same as March. Sweet at the front, and underneath it something that closes the back of your throat. The super has written refrigerator on four separate work orders this year and closed all four. Your son is eight. He has learned to hold his breath from the stairwell door to the lift, and he does it now without being told.",
       "sceneTitle": "The Smell",
       "choices": [
         {
           "text": "Knock on 213 yourself",
-          "consequence": "There is no taking “Knock on 213 yourself” back. Confront politely shapes the silence before the next moment arrives.",
+          "consequence": "You cross a hallway you have crossed a thousand times, and it takes you four minutes to get to the other side of it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Document every incident in a notebook",
-          "consequence": "Build the case quietly.",
+          "consequence": "You decide that if nobody will hear you, you will at least make it impossible for anyone to claim you never spoke.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "He answers in glasses, polite, vaguely apologetic. 'It's the freezer, ma'am,' he says. 'I'll get it fixed.' He smiles. The smell, in the open doorway, gets briefly worse before he shuts it.",
+      "text": "He opens the door eight inches. Glasses, polite, a little embarrassed. It is the freezer, ma'am, it quit on me and I have not had the money. He apologises twice. He uses the name off your mailbox. And in the seconds the door stands open the smell comes out into the hall at full strength, and then he closes it, and he is still smiling as it shuts.",
       "sceneTitle": "The Door",
       "choices": [
         {
           "text": "Tell the super again, firmly",
-          "consequence": "Use the chain of command.",
+          "consequence": "You stand in the super's office until he writes something down. He writes the wrong thing, slowly, so that you will leave.",
           "nextNodeId": "s4"
         },
         {
           "text": "Call the police non-emergency line",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Escalate.",
+          "consequence": "You dial the number off the fridge magnet and rehearse three sentences first, so you will sound calm and not like a woman complaining.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You start a black notebook. Dates, times, smells, sounds. The list grows faster than you wanted it to. You realize, terrifyingly, you may need this notebook in a courtroom one day.",
+      "text": "You buy a black composition book at the corner store for eighty-nine cents. Date. Time. What you smelled. What came through the wall — the saw, twice, after midnight; a freezer door; a voice that stopped mid-word. By the fourth page you have stopped writing it for yourself. You are writing it for a room with a court reporter in it, and you hate that you already know that.",
       "sceneTitle": "The Notebook",
       "choices": [
         {
           "text": "Share the notebook with your sister",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witnesses.",
+          "consequence": "You photocopy nine pages at the library for forty-five cents and hand them to the one person who has never told you to calm down.",
           "nextNodeId": "s4"
         },
         {
           "text": "Keep it to yourself for safety",
-          "consequence": "There is no taking “Keep it to yourself for safety” back. Protect first shapes the silence before the next moment arrives.",
+          "consequence": "You keep it under the pans in the bottom cupboard. Nobody can call you hysterical about a thing they have not read.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The officer is polite and bored. He tells you 'lots of single men live like this.' He does not write anything down. You realize his department's procedures are stacked against you.",
+      "text": "Two officers, one clipboard, no pen ever taken out of the pocket. One of them says that a lot of single men live like that. The other looks past you into your apartment, at your son on the couch, at the street out the window, and you can watch him filing you as he does it. The visit takes nine minutes. Neither of them knocks on 213.",
       "sceneTitle": "The Police, First Call",
       "choices": [
         {
           "text": "File a formal complaint",
-          "consequence": "Paperwork forces process.",
+          "consequence": "You go downtown, wait two hours, and put your name on a form. The form has a box for race and a box for building and no box for a smell.",
           "nextNodeId": "s6"
         },
         {
           "text": "Wait for a worse incident, prepared",
-          "consequence": "Patience as a tactic.",
+          "consequence": "You decide the next one will be undeniable and set the notebook and the phone beside the door. Knowing it is coming does not feel like patience.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Your sister works at the city desk of the local paper. She listens, nods, asks if she can take notes for a future story. You feel, briefly, like someone is finally on your side.",
+      "text": "Denise works the city desk at the paper, mostly obituaries and school-board budgets. She listens for forty minutes without interrupting, which nobody has done. Then she asks whether she can open a file — dates, names, who you called, who called back. Somebody is finally writing it down. You get into the car afterwards and cry for three full minutes before you are able to drive home.",
       "sceneTitle": "Your Sister, Listening",
       "choices": [
         {
           "text": "Let her start a quiet file",
-          "consequence": "Build parallel pressure.",
+          "consequence": "She opens a folder with your building number on the tab and puts it in a newsroom drawer. It is not nothing. It is not much either.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask her to wait until you have proof",
-          "consequence": "Don't move too soon.",
+          "consequence": "You ask her to hold off, because you have been called a liar before and it left a mark. The holding off costs weeks.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A young man, dazed, wanders out of 213 into the hallway, naked, bleeding. You shield him with your own coat. Police arrive. They speak to your neighbor. They walk the boy back inside.",
+      "text": "He cannot be more than fifteen. He is on the landing with nothing to wear and no words in any language, swaying, hurt, and when you get your coat around his shoulders he takes hold of your sleeve with both hands. Two squad cars come. The man from 213 comes down in a clean shirt, calls it a lovers' quarrel, keeps his voice reasonable. The officers walk that child back through his door.",
       "sceneTitle": "The Boy on the Stairs",
       "choices": [
         {
           "text": "Refuse to leave the hallway until they re-examine",
-          "consequence": "Stand your ground.",
+          "consequence": "You stand in the hallway saying the words interpreter and ambulance until an officer tells you to go inside, ma'am. You do not go inside.",
           "nextNodeId": "s8"
         },
         {
           "text": "Call your sister immediately for the story",
-          "consequence": "Use the press as a witness.",
+          "consequence": "You are on the lobby payphone before the squad cars have pulled off the block, reading badge numbers to your sister off your own palm.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "An older neighbor, Glenda, has been calling the city for months. You compare notes. She's been ignored too. Together you make a list of names and numbers and times every department has hung up on you.",
+      "text": "Glenda from the building next door has been calling since spring — the precinct, the field office, the mayor's line, a captain who told her to stop tying up the switchboard. She has kept every date on the back of a utility envelope. You sit at her kitchen table and put your notebook beside her envelope, and together you build one list: forty-one calls, nine departments, no callbacks.",
       "sceneTitle": "Glenda Cleveland's Call",
       "choices": [
         {
           "text": "Take the list to a city council member",
-          "consequence": "Politicize the silence.",
+          "consequence": "You get twenty minutes with an aide who is kind, takes notes, and has no power whatsoever. He does at least keep the copy.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take it directly to the FBI tip line",
-          "consequence": "“Take it directly to the FBI tip line” closes one possibility and opens another. The moment leaves a clear note behind: Bypass local.",
+          "consequence": "Glenda dials, because Glenda has the number memorised by now. The two of you stand in her kitchen listening to it ring.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Your sister and another reporter show up at the precinct with a list of incidents in a folder. The desk officer becomes, very quickly, much more polite.",
+      "text": "Denise walks into the precinct at four on a Friday with a second reporter and a folder half an inch thick — the dates, the calls, the badge numbers, the boy on the landing. She does not raise her voice. She reads three entries aloud and asks whether the department would care to comment for Sunday. Inside about ninety seconds the desk sergeant becomes an entirely different man.",
       "sceneTitle": "The Reporter's Visit",
       "choices": [
         {
           "text": "Stay for the interview",
-          "consequence": "Be the named source.",
+          "consequence": "You sit down, give your name, spell it, and say all of it again on the record. It is the first time anybody has asked you to repeat anything.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay anonymous; let the file speak",
-          "consequence": "Protect your family.",
+          "consequence": "You wait in the car with the engine running. A record can be a record without your son's address printed inside it.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "The FBI agent who returns your call is, surprisingly, alert. She has, she says, been collecting reports from this area for a year. You hear her flip a page. You hear her say, 'Tell me everything.'",
+      "text": "The agent who calls back is not what you braced for. No sighing, no ma'am, no explanation of jurisdiction. She has been pulling missing-persons reports out of this half of the city for a year and she has noticed what everybody else declined to notice: the same eight blocks, the same ages, the same families told to wait and see. You hear a page turn. Then she says, tell me everything, and means it.",
       "sceneTitle": "The Tip Line",
       "choices": [
         {
           "text": "Tell her everything you have",
-          "consequence": "Pour out the file.",
+          "consequence": "You talk for two hours and read the notebook aloud from page one. At the end she says your name back to you, correctly, and spells it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell her enough to get her on a plane",
-          "consequence": "Hook the case.",
+          "consequence": "You give her the shape and hold back the details, because you want her here, in the hallway, smelling it herself. She books the flight.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Another man escapes 213, this time onto the street, this time louder. Officers come. This time, with your file already known to a reporter, they cuff your neighbor without re-litigating it.",
+      "text": "It is a Monday, late, and this time the man who gets out of 213 makes it all the way to the street with a handcuff still on one wrist. This time there are three cars. And this time, because a reporter is holding a folder and an agent is holding a file and the woman in 212 is holding a notebook, nobody stands in that hallway arguing about whether it is a domestic matter.",
       "sceneTitle": "The Night It Breaks",
       "choices": [
         {
           "text": "Watch from the hallway, calmly",
-          "consequence": "Witness the arrest.",
+          "consequence": "You stand in your own doorway with your arms folded and watch it happen. Your hands do not start shaking until an hour afterwards.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hold Glenda's hand",
-          "consequence": "Care for the women who saw it first.",
+          "consequence": "You find Glenda on the front steps and take her hand, and neither of you says a word, because there is nothing the size of this.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "A press conference happens three days later. The mayor uses words like 'oversight' and 'review.' He does not say your name. You and Glenda watch from a bar across the street. You order one beer between you because that's all your budget allows.",
+      "text": "Three days later: a podium, a row of flags, the chief and the mayor. Oversight. Review. Procedures under examination. Nobody says the word Laotian. Nobody says the phrase forty-one calls. Nobody says your name or Glenda's or the name of the boy on the landing. The two of you watch it on the television above the bar across the street, splitting one beer, because one beer is what is in your purse.",
       "sceneTitle": "The Press Conference",
       "choices": [
         {
           "text": "Speak to a reporter outside",
-          "consequence": "Make the public statement.",
+          "consequence": "You cross the street and give your name to a woman from Channel 6. You are on at ten for nineteen seconds, with your name spelled wrong.",
           "nextNodeId": "s12"
         },
         {
           "text": "Drink the beer in silence",
-          "consequence": "Some moments are for survivors only.",
+          "consequence": "You let the men on the television keep the room. Glenda says nothing either, and later you both regret it in almost the same words.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Charges multiply over weeks — body parts in the apartment, families coming forward, photographs no human should have to look at. You realize you lived next door to it for two years. You realize you tried to stop it for half of those.",
+      "text": "The counts multiply weekly. Names come out of the district attorney's office and then, harder, out of the families' own mouths — a dancer, a nineteen-year-old with a scholarship, a brother who never once missed a Sunday call home. Some had been reported missing for two years. You do the arithmetic on your own tenancy: twenty-six months across that hallway, and fourteen of them spent calling people who did not call back.",
       "sceneTitle": "The Charges",
       "choices": [
         {
           "text": "Read every news report obsessively",
-          "consequence": "You commit to “Read every news report obsessively.” The story records the instinct as “Bear witness” and carries it forward.",
+          "consequence": "You take all three papers and clip everything. You learn the victims' names before the anchors have learned to pronounce them.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stop reading; protect your sleep",
-          "consequence": "The decision settles the question for now. Its verdict—Survival—follows you into whatever comes next.",
+          "consequence": "You cancel the papers and turn the set off at six. Knowing more will not un-know any of it, and your son needs you at the table.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Mothers and brothers and aunts of the victims come to the courthouse. You meet them, by accident, in a hallway. They thank you. You realize, painfully, that gratitude here is a form of grief.",
+      "text": "They come to the courthouse in coats too thin for November — mothers, an uncle, two brothers who flew in from three states. Somebody points you out in the corridor as the woman from 212, and then they are shaking your hand and thanking you, and you have to stand there and receive it. Gratitude, you learn that morning, is a shape grief takes when there is nowhere else for it to go.",
       "sceneTitle": "Families",
       "choices": [
         {
           "text": "Stay close to the families through the trial",
-          "consequence": "“Stay close to the families through the trial” closes one possibility and opens another. The moment leaves a clear note behind: Be present.",
+          "consequence": "You start driving two of the mothers in every day, and you learn their sons' names the way you know your own son's friends.",
           "nextNodeId": "s14"
         },
         {
           "text": "Help them organize a memorial",
-          "consequence": "You commit to “Help them organize a memorial.” The story records the instinct as “Action” and carries it forward.",
+          "consequence": "You find a church basement, forty chairs, and a photocopied program with every name spelled the way that family spells it.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Months later, a city council hearing on the police failures. You testify. Glenda testifies. The officers who walked the dazed boy back into 213 lose their jobs but, somehow, keep their pensions.",
+      "text": "A committee room with terrible acoustics, sixteen months on. You testify for nine minutes. Glenda testifies for longer and never once looks down at her notes. The two officers who walked that boy back through the door are fired in the spring, appeal in the autumn, and are reinstated with back pay the following year. One of them is later elected president of the police union.",
       "sceneTitle": "The Council Hearing",
       "choices": [
         {
           "text": "Push for systemic reforms",
-          "consequence": "The dead deserve a system that listens.",
+          "consequence": "You pick the boring fight: language-access rules, call-log audits, a supervisor's signature on every welfare check. Boring is what survives an election.",
           "nextNodeId": "s16"
         },
         {
           "text": "Push for individual prosecution of those officers",
-          "consequence": "Accountability is also a reform.",
+          "consequence": "You want those two names specifically, and you spend the next three years finding out what qualified immunity is actually for.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your son, eight, asks if it was your fault you lived next door to him. You sit on the floor and tell him the truth — that grown-ups should have listened to you sooner, and that you did everything you could.",
+      "text": "He is eight and he asks it at the kitchen table with his cereal going soft: was it your fault we lived next door to him. You get down on the floor so that his eyes are above yours, and you tell him the true version — that you saw it, that you said it out loud forty-one times, and that grown-ups whose entire job was listening did not listen. He thinks. Then he asks whether they will next time.",
       "sceneTitle": "Your Son",
       "choices": [
         {
           "text": "Promise him you'll make sure people listen next time",
-          "consequence": "Turn grief into a vow.",
+          "consequence": "You promise, at the kitchen table, with no idea how. He takes it as settled, which means now you are going to have to do it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Promise him you'll move somewhere else",
-          "consequence": "Choose his peace.",
+          "consequence": "You promise a different hallway, a different stairwell, a window with a tree in it. He asks whether he can bring the bike.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You and Glenda and three of the victims' mothers form an informal coalition — calls, hearings, a small fund for families. The work is slow. The work is real.",
+      "text": "It is you, Glenda, and three of the mothers, and it meets in whichever basement is free that month. You keep a phone tree, a list of which reporters return calls, and a shoebox that pays for bus fare and funeral flowers. In four years you get a language line at the precinct and a rule that a welfare check needs a supervisor's name on it. Slow. Small. Actual.",
       "sceneTitle": "The Mothers' Coalition",
       "choices": [
         {
           "text": "Make this your life's work",
-          "consequence": "The decision settles the question for now. Its verdict—Keep going—follows you into whatever comes next.",
+          "consequence": "You give it the next twenty years. It takes all twenty, and you would not hand a single one of them back if offered.",
           "nextNodeId": "s18"
         },
         {
           "text": "Do it for a year, then step back",
-          "consequence": "The decision settles the question for now. Its verdict—Sustainable—follows you into whatever comes next.",
+          "consequence": "You give it twelve honest months and pass the phone tree to a woman with more evenings than you have. Nobody is owed your whole life.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You pack two suitcases and your son's bike. You leave 212 with the notebook still in your purse. The new apartment is smaller and farther away and, by every measure that matters, better.",
+      "text": "Two suitcases, four boxes, and your son's bike with the streamers still on, carried down three flights to a borrowed hatchback. You hand back the keys to 212 and do not look at the door across the hall. The notebook travels in your purse, not the boxes. The new place is smaller, twenty minutes further from work, on a street where you do not yet know a single thing.",
       "sceneTitle": "Moving Day",
       "choices": [
         {
           "text": "Take a year before deciding what's next",
-          "consequence": "You commit to “Take a year before deciding what's next.” The story records the instinct as “Rest first” and carries it forward.",
+          "consequence": "You take a job with regular hours and spend a year learning how to hear a stairwell door without standing up.",
           "nextNodeId": "s18"
         },
         {
           "text": "Throw yourself into a new job",
-          "consequence": "You commit to “Throw yourself into a new job.” The story records the instinct as “Forward” and carries it forward.",
+          "consequence": "You work doubles until you are too tired to lie awake, which functions beautifully for roughly seven months.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Ten years on. A different neighborhood. A new young officer is being trained on the policies that have your name in the footnotes. You will never meet her. She will, one day, listen to a woman like you. That is, you decide, enough.",
+      "text": "Ten years on, a different zip code, a recruit class at the academy across town. There is a module now on welfare checks, interpreters, and taking the complainant seriously, and in the footnotes of the policy it cites are two names and a date in 1991. You will never meet the young officer reading it. She will, one day, stand in a hallway and believe a woman. That is the whole of it.",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Make peace with the legacy",
-          "consequence": "Forgiveness as posture.",
+          "consequence": "You let yourself be a footnote and stop auditing the outcome. It is a kind of rest, and you have earned every hour of it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay vigilant; the work is never done",
-          "consequence": "Vigilance as vow.",
+          "consequence": "You keep the numbers current and call the district commander every January, just so he knows the line still works.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Glenda dies, years later, of ordinary things. You give a short eulogy. Half the room has been in a hallway with her. You say, in the eulogy, what she always said: 'They will listen to you. They have to learn that.'",
+      "text": "She dies at seventy-five of the ordinary things — the heart, the lungs, a hospital room with the television bolted near the ceiling. You speak for four minutes. Half the room has stood in a hallway with her at some point. You end with the sentence she used on every desk sergeant who ever sighed down the phone at her: they will listen to you, they just have to be taught how.",
       "sceneTitle": "Glenda's Funeral",
       "choices": [
         {
           "text": "Continue Glenda's calls and complaints",
-          "consequence": "Take the baton.",
+          "consequence": "You inherit her envelope of numbers and keep making the calls. Some of them, now, get returned the same afternoon.",
           "nextNodeId": "s20"
         },
         {
           "text": "Step back; let younger neighbors take it on",
-          "consequence": "Pass it forward.",
+          "consequence": "You hand the envelope to a woman from the tenants' association who is thirty-four and angrier than you have been in a decade.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You open the bottom drawer of your dresser. The black notebook is still there, edges soft. You weigh whether to keep it close or pass it on. Either way, you've already done the harder thing — you were there.",
+      "text": "Bottom drawer of the dresser, under the winter things. The composition book has gone soft at the corners and the ink on the first page has browned. Two entries from the March before anybody believed a word of it. You sit on the end of the bed with it open across your knees and decide whether this is a thing you keep or a thing you hand on. Either way, you were there, and you said so.",
       "sceneTitle": "The Drawer",
       "choices": [
         {
           "text": "Keep the notebook in the drawer",
-          "consequence": "There is no taking “Keep the notebook in the drawer” back. Memory shapes the silence before the next moment arrives.",
+          "consequence": "You put it back under the sweaters. Some evidence has done its work and is allowed, afterwards, to just be yours.",
           "nextNodeId": "end_legacy"
         },
         {
           "text": "Give it to a neighbor who is starting hers",
-          "consequence": "Pass it on.",
+          "consequence": "You give it to a young woman on the second floor who has started writing dates on her calendar, and you tell her to keep two copies.",
           "nextNodeId": "end_vigil"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_legacy",
-      "text": "Your name lands in three policy footnotes and one foundation's annual report. You don't read them often. Your son grows up and becomes, against his own initial plan, a social worker. The notebook lives in a box in your closet. You sleep with the door unlocked, mostly.",
+      "text": "Your name ends up in three policy footnotes and one foundation's annual report. You read them exactly once each. Your son grows up and becomes, against every plan he announced at nineteen, a social worker doing home visits in the same half of the city. The notebook lives in a box at the back of the closet. Some nights the sound of a stairwell door still wakes you, and you go back to sleep, and the sleep holds.",
       "sceneTitle": "Footnote, Foundation",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_vigil",
-      "text": "You keep the phone numbers in a binder. When a neighbor asks for advice, you give it. When a new officer comes to the precinct, you go in and shake his hand and remember his face. Vigilance, you discover, is mostly just refusing to forget.",
+      "text": "You keep the numbers in a binder with tabs and dates. When a neighbour knocks and starts a sentence with I know this sounds crazy, you put the kettle on and find a pen. When a new commander arrives at the precinct you go in, shake his hand, and learn his face so that he knows he has been learned. Vigilance turns out not to be courage at all. It is only the refusal to forget on schedule.",
       "sceneTitle": "Still Calling",
       "choices": [],
       "isEnding": true,

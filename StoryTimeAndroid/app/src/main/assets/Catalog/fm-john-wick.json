@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A package on the doorstep two days after the funeral.",
+      "text": "The house is glass and concrete and too quiet. You have been sleeping on the couch because the bed is a size problem. Rain on the drive. A courier van pulls away before you reach the door, and there is a crate on the step with airholes punched in the side and a card taped to the top in her handwriting, which she wrote when she could still hold a pen.",
       "sceneTitle": "Helen",
       "choices": [
         {
           "text": "Open it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You cut the tape with a house key and something small and warm shoves its head straight into your palm before you have finished reading the card.",
           "nextNodeId": "s2"
         },
         {
           "text": "Leave it",
-          "consequence": "“Leave it” closes one possibility and opens another. The moment leaves a clear note behind: Numb.",
+          "consequence": "You leave the crate on the step and go back inside, and it makes a noise at three in the morning that gets you off the couch.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A small dog with a bow and a letter from your dead wife.",
+      "text": "A beagle puppy, eight weeks, a red bow, and a folded note. She writes that she needed to leave you something to love, so that you would not be alone with the thing you are. She has already named the dog Daisy. You sit on the kitchen floor of a house with no food in it and a beagle is chewing the corner of the paper you are holding.",
       "sceneTitle": "Daisy",
       "choices": [
         {
           "text": "Take her in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You buy a bowl, a leash and a bag of kibble at a quarter to ten at night, and the dog sleeps on the pillow that is not yours.",
           "nextNodeId": "s3"
         },
         {
           "text": "Send her to a shelter",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You call a shelter, get a recorded message, hang up, and then sit there long enough that the dog falls asleep against your leg.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A boy in a tracksuit wants the Mustang.",
+      "text": "That Mustang idles like something with a heartbeat. You are filling the tank when a kid in a red tracksuit walks over with two men behind him and asks what it is. Sixty-nine Boss 429, you tell him. He asks how much. You say it is not for sale. He tries the number in Russian, to his friends, and laughs, and does not walk away.",
       "sceneTitle": "Gas Station",
       "choices": [
         {
           "text": "Decline",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Calm.",
+          "consequence": "You say no twice, politely, and go back to the pump, and he stands there memorizing the plate while you count the gallons.",
           "nextNodeId": "s4"
         },
         {
           "text": "Threaten",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You tell him in his own language exactly what will happen if he touches the car, and now he needs it, and now it is personal.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Three men in the house at 3 a.m. with a bat and a tire iron.",
+      "text": "Three of them come through the back at three in the morning with a bat, a tire iron and a sledge, and you fight two of them in the dark hallway with your hands before the third one gets behind you. The floor is very cold. Someone is telling the kid to hurry. The dog will not stop barking, and then the barking stops, and there is a laugh, and then the door.",
       "sceneTitle": "Home Invasion",
       "choices": [
         {
           "text": "Fight",
-          "consequence": "“Fight” closes one possibility and opens another. The moment leaves a clear note behind: Wild.",
+          "consequence": "You put one of them through a glass partition and take a bat across the temple from a man you never saw, and the room goes sideways.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hide and call",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You lock the bedroom and reach for a phone with no line in it, and listen to three men take everything in your house one room at a time.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A dog without breath and a car gone and a face in the floorboards you have not worn in years.",
+      "text": "You come around on the floor at dawn with blood in one eye. The garage door is open and the bay is empty. The dog is on her side by the couch and she has been there a while. You sit with her for a long time. Then you go down to the basement, put a sledgehammer through the concrete slab, and lift out a case you buried and hoped to leave buried.",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Dig up the cellar",
-          "consequence": "“Dig up the cellar” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You break the floor open and find the gold coins, the guns and the wool suit exactly where you left them, still wrapped, still perfect.",
           "nextNodeId": "s6"
         },
         {
           "text": "Walk away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lost.",
+          "consequence": "You put the sledge down and stand in the dark for ten minutes, and then you pick it up again, because there is nowhere else to go.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A chop shop with a code about exactly which dogs you do not steal.",
+      "text": "Aurelio runs the cleanest chop shop on the East Coast and there is a red Mustang up on his lift with the plates already off. He knows the car. He knew it the second it rolled in. He is standing between you and the kid's crew with a rag in his hands, doing the arithmetic on how much of his life he wants to spend on this.",
       "sceneTitle": "Aurelio",
       "choices": [
         {
           "text": "Ask politely",
-          "consequence": "You commit to “Ask politely.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You ask him quietly whose car it is, and he tells you, and then he punches Iosef Tarasov in the mouth on his own shop floor.",
           "nextNodeId": "s7"
         },
         {
           "text": "Apply pressure",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You put a hand on the lift controls and let the silence do the work, and Aurelio gives you the name to get you out of his building.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "An old client, an old debt, an old name said into a phone.",
+      "text": "Viggo calls the house at midnight because his son has finally told him what he did. He is not angry with you. He is trying to explain to you why his boy should live, and to himself why he ever let a man like you retire. He asks you to be reasonable. He reminds you what you were. He says your name twice in a sentence, which is how you know he is afraid.",
       "sceneTitle": "Viggo's Call",
       "choices": [
         {
           "text": "Let him beg",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You let him talk himself all the way down to pleading and hold the phone to your ear without saying one word back.",
           "nextNodeId": "s8"
         },
         {
           "text": "Hang up",
-          "consequence": "You commit to “Hang up.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You hang up on a man who has never been hung up on, and he sends twelve men to the house within the hour.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A hotel with marble floors and a strict rule about no business on the grounds.",
+      "text": "The Continental takes up a block and looks like a bank that lost interest in money. Gold coins on the counter, no cash, no cards. No business conducted on the premises, no exceptions, ever. Charon has your key before you ask. The bar is downstairs, the doctor is on call, and everyone in the lobby is armed and no one in the lobby is worried.",
       "sceneTitle": "The Continental",
       "choices": [
         {
           "text": "Check in",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You take a room on the fourth floor and sleep four hours behind a door that the entire underworld has agreed not to open.",
           "nextNodeId": "s9"
         },
         {
           "text": "Skip it",
-          "consequence": "There is no taking “Skip it” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You take the key and do not use the room, and later, bleeding, you will have to walk nine blocks to get back to it.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Bourbon and rules and a man who has seen you do this before.",
+      "text": "Winston pours two bourbons and does not ask why you are back. He is the only man alive who watched you do the impossible thing, the one that bought you out, and he knows what it cost. He mentions the Tarasov bounty is at two million and climbing. He mentions the rules. Then he asks, without any edge, whether you are back back or just visiting.",
       "sceneTitle": "Winston at the Bar",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You take the glass and sit and let an old man tell you about markers and consequences, and you leave knowing the number on your head.",
           "nextNodeId": "s10"
         },
         {
           "text": "Decline the drink",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You leave the bourbon on the bar and walk out, and Winston watches the untouched glass and understands exactly what kind of week this will be.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "An old friend with a rifle and orders from Viggo for double pay.",
+      "text": "Marcus is on a roof across the street with a bolt-action and a thermos, and he has had the crosshairs on the back of your head for an hour. Viggo doubled the fee for him personally. He has known you since before the wool suit. There is a window with your silhouette in it and a shot he could make with a headache and one eye.",
       "sceneTitle": "Marcus on the Roof",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "There is no taking “Trust him” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You leave the curtains open on purpose, and the old man on the roof pours coffee, and takes no shot, and phones in a miss.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't trust him",
-          "consequence": "There is no taking “Don't trust him” back. Wary shapes the silence before the next moment arrives.",
+          "consequence": "You move to the interior wall and stay off the glass all night, and a friend who was never going to fire it holds his rifle in the cold anyway.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Neon, water, glass, and a hundred men in suits trying very hard to die.",
+      "text": "Under the Red Circle's dance floor there is a bathhouse, and Iosef is somewhere in the middle of it. Concrete stairs, wet tile, strobes on the beat. His men fill the stairwell in dark suits. There is no way to the pool level that does not go through the noise, and the music is loud enough that the first nine shots register as part of the track.",
       "sceneTitle": "Red Circle Stairs",
       "choices": [
         {
           "text": "Move through",
-          "consequence": "There is no taking “Move through” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You take the stairs straight down through the middle of it, reloading twice on the landing, and reach the water with a magazine and a half left.",
           "nextNodeId": "s12"
         },
         {
           "text": "Move around",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You go the long way, past the kitchens and the service door, which is quieter and slower and gives the boy a running start.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A contract violator in a hotel room with a knife and a smile.",
+      "text": "Perkins gets into your room at the Continental through the connecting door with a suppressed pistol and a wire, and she is fast, and she almost has it. You end up on the carpet with her elbow at your throat and a lamp broken between you. She is smiling because the fee is seven figures. She has just conducted business on hotel grounds, and that is the one thing this building does not forgive.",
       "sceneTitle": "Ms. Perkins",
       "choices": [
         {
           "text": "Subdue her",
-          "consequence": "There is no taking “Subdue her” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You zip-tie her to a radiator alive and phone the front desk, which is how a man keeps his word to an institution he needs.",
           "nextNodeId": "s13"
         },
         {
           "text": "Kill her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You finish it in the room, and now there are two rule violations on the register instead of one, and Winston's ledger has your name in it.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Tasting notes for guns delivered with a wine pour.",
+      "text": "A sommelier meets you in a cellar with no wine in it. He talks about the inventory the way a man talks about vintages — something bold, something with a nice dry finish. He lays out a tactical shotgun and a nine-millimeter with a compensated barrel on green felt and asks about the dinner party. You tell him it is going to be around twelve people. He suggests a tasting.",
       "sceneTitle": "The Sommelier",
       "choices": [
         {
           "text": "Choose loud",
-          "consequence": "“Choose loud” closes one possibility and opens another. The moment leaves a clear note behind: Direct.",
+          "consequence": "You take the loud one because the point is not stealth, and he approves, and packs the shells in a case with brass fittings.",
           "nextNodeId": "s14"
         },
         {
           "text": "Choose dependable",
-          "consequence": "“Choose dependable” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You take the pistol you have carried for twenty years and four boxes of ammunition, and the sommelier calls it a classic and means it.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Bratva, hangers-on, a kid who still thinks he is untouchable.",
+      "text": "Tarasov's safehouse is a parking structure with a bathhouse attached and forty men who all know who is coming. Iosef is on the lowest level near the pool, telling his friends that his father is overreacting. He has a towel around his neck. His hands are shaking anyway. You come down the ramp and the men on the ramp stop being an obstacle very quickly.",
       "sceneTitle": "Iosef in the Garage",
       "choices": [
         {
           "text": "Make it slow",
-          "consequence": "“Make it slow” closes one possibility and opens another. The moment leaves a clear note behind: Hard.",
+          "consequence": "You walk him through what he took, item by item, while he cries and apologises for a dog, and you make him hear all of it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Make it quick",
-          "consequence": "You commit to “Make it quick.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You put one round through his forehead mid-sentence and turn around, because drawing it out would only make it about you.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Viggo's slush fund in golden bricks under the altar.",
+      "text": "The church is nineteenth-century brick with an Orthodox saint above the altar and fifteen million dollars underneath it in gold bricks and paper — dirt on judges, files on councilmen, every favor Viggo ever bought. The priest has a key and a Bratva tattoo. Behind the icon there is a vault door standing open and a can of accelerant in the corner that somebody left there for a reason.",
       "sceneTitle": "The Church",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "There is no taking “Burn it” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You put a match to the whole room and stand outside watching a lifetime of leverage go up, which hurts him more than any bullet would.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take it",
-          "consequence": "The decision settles the question for now. Its verdict—Practical—follows you into whatever comes next.",
+          "consequence": "You take what will fit in a bag and leave the rest, and now you own something Viggo wants, which changes what he is willing to trade.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Two shots that should have killed you both, neither of them his.",
+      "text": "They take Marcus in his own house. Viggo works out who missed on purpose, and then who called the warning, and both answers are the same man. Kirill does it slow because Viggo asks for slow. You get there after and stand in a kitchen with your hands at your sides. He left a chess piece on the counter, deliberately, in the middle of the board.",
       "sceneTitle": "Marcus on the Roof, Again",
       "choices": [
         {
           "text": "Forgive",
-          "consequence": "“Forgive” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You say his name out loud in an empty house and let a debt you can never repay settle onto the pile with everything else.",
           "nextNodeId": "s17"
         },
         {
           "text": "Walk away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You take the chess piece, put it in your coat, and walk out without touching anything else, because grief will only slow the night down.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A small chain found in a drawer, a memory that fills your hands.",
+      "text": "There is a drawer upstairs you have not opened. A thin gold chain with a small pendant, a hospital band, and a photograph taken at the pier when neither of you knew anything. The house has bullet holes in the kitchen and a smell of accelerant. Your hands do not shake for any of the rest of it. They shake now, holding sixteen grams of gold.",
       "sceneTitle": "Helen's Necklace",
       "choices": [
         {
           "text": "Wear it",
-          "consequence": "You commit to “Wear it.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You put the chain around your neck under the shirt and it stays there through everything that comes after, which is the whole reason for it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Put it back",
-          "consequence": "You commit to “Put it back.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You set it back in the drawer and slide the drawer shut, because carrying her into what is coming feels like a thing you should not do.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Viggo, a rocket launcher, an icon of a saint, and a fire spreading.",
+      "text": "Tarasov Hall, the old union building, and Viggo has the top floor and a rocket launcher taken off a Chechen last spring. He puts a rocket through the stairwell and the stairwell stops existing. Fire climbs the wall behind the saint's icon. Everything he owns is either burning or gone, and he stands in the middle of it with a pistol and a cigarette and no plan at all.",
       "sceneTitle": "Tarasov Hall",
       "choices": [
         {
           "text": "End it cleanly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You go up through the smoke, take the launcher off him, and give him nothing to say, because the man traded a son for a fortune he has already lost.",
           "nextNodeId": "s19"
         },
         {
           "text": "Make him beg",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You make him list what it cost him out loud before you move, and the smoke gets thick enough that you both start coughing through it.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A long pier, two men past forty, knives that have done this before.",
+      "text": "First light on the pier, wet planks, water flat and grey. Both of you past forty and neither of you able to run anymore. He has a knife and a broken hand. You have a knife and cracked ribs and a bullet already in you somewhere. It comes down to who is willing to accept a wound in order to be close enough to give one.",
       "sceneTitle": "Docks at Dawn",
       "choices": [
         {
           "text": "Use the knee",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You drop your weight into his knee and hear it fold, and the fight becomes arithmetic instead of a contest, which is how you have always won.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take the cut",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You let his blade go into your side to get inside his reach, and you buy the finish with a hole that will take four months to close.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "He goes for the gun on the ground he already dropped.",
+      "text": "Viggo is on his back on the tarmac beside a jet that will not be taking him anywhere. The pistol is three feet from his hand, on the concrete, where he dropped it when you broke his wrist. He is talking about how you and he are the same. He is also inching his shoulder toward the gun while he says it, which he thinks you cannot see.",
       "sceneTitle": "Viggo on the Tarmac",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You stand there and let him reach it and get his fingers on the grip, so that he chooses it, so that it is his.",
           "nextNodeId": "s21"
         },
         {
           "text": "Shoot first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quick.",
+          "consequence": "You put him down mid-sentence before he gets there, efficient and early, and you will remember it as the one you rushed.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Locked door, an alarm, a kennel of dogs and one small unclaimed pit bull.",
+      "text": "The veterinary clinic on the corner has a door you can open with a knife and an alarm you have four minutes on. You staple your own side shut under the fluorescent light and sit on the floor breathing. Down the corridor, the kennels. Twenty animals, all asleep except one — a grey pit bull with a card on the cage that says he is scheduled for the morning.",
       "sceneTitle": "Animal Hospital",
       "choices": [
         {
           "text": "Take a dog",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You open the cage and he walks straight out at your knee like this was arranged in advance, and neither of you looks back at the corridor.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Walk out alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You look at the card, and at the dog, and you shut the kennel door and leave, because you know what you are and what follows you.",
           "nextNodeId": "end_table"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither. You lock the clinic behind you, walk the wet blocks back to the Continental, and take the room you paid for.",
           "nextNodeId": "end_rule"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_home",
-      "text": "Rain on the asphalt. A new dog at your hip. Helen's bench. You sit down and you do not get up for a while.",
+      "text": "Rain on the asphalt and no cars out. The dog walks at your left hip without a leash because there was no time to steal one. You go the long way, past the pier where the photograph was taken, and sit down on a green bench with your side leaking through the suit. He puts his chin on your shoe. You stay there while the sky goes from black to grey, and you do not get up for a while.",
       "sceneTitle": "Walk Home",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_table",
-      "text": "Word travels. The next courier knocks at the kitchen door inside of a week. Daisy growls at the right times.",
+      "text": "Word travels the way it always does, through concierges and doormen and men who wash cars. Inside a week there is a courier at the kitchen door with a marker in an envelope and a name that means something. The dog growls low before the knock, every time, which turns out to be the most useful thing in the house. You put on the suit. You were never really out; you were only between.",
       "sceneTitle": "Back on the Table",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_rule",
-      "text": "Winston pours one more bourbon. You drink it slow. The Continental has rules; you and it have always agreed about that.",
+      "text": "Winston pours one more and slides it down the bar and does not comment on the blood on your cuff. The Continental has rules and the rules are the only architecture holding any of this up, and you and the building have always agreed on that. You drink it slow. Outside, half the city is looking for you, and inside these walls not one of them can lift a hand. That is worth more than the bourbon.",
       "sceneTitle": "No Business on Continental Grounds",
       "choices": [],
       "isEnding": true,

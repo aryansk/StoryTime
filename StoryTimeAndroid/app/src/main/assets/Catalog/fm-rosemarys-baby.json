@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Bramford. High ceilings. A secretary cabinet shoved in front of a closet.",
+      "text": "Seventh floor of the Bramford, and the light is extraordinary. Four rooms, a fireplace that draws, rent you should not be able to touch. In the back bedroom a heavy secretary cabinet has been dragged across a closet door and left there, and the previous tenant, ninety and lately dead, apparently managed it alone. The agent talks over the question. Guy is already measuring the wall for a couch.",
       "sceneTitle": "Apartment Tour",
       "choices": [
         {
           "text": "Take the place",
-          "consequence": "You commit to “Take the place.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You sign because the light is worth it, and because Guy has already given the address to two people at his agent's office.",
           "nextNodeId": "s2"
         },
         {
           "text": "Pass",
-          "consequence": "There is no taking “Pass” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say you would like to think about it, and Guy laughs and puts a hand on the small of your back and tells you the deposit is paid.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "An old friend warns you about the building's history.",
+      "text": "Hutch takes you both to dinner and is charming for an hour before he mentions the Trench sisters, who cooked and ate at least three children in a Bramford cellar, and Adrian Marcato, who announced in the lobby that he had called something up, and was beaten nearly to death on the tiles for saying so. Every building has stories, he says. This one has rather a lot of them.",
       "sceneTitle": "Hutch",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You write down his telephone number and the title of the book, and Guy spends the whole taxi ride explaining what an old bachelor's hobby looks like.",
           "nextNodeId": "s3"
         },
         {
           "text": "Laugh",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You laugh along with Guy about superstitious old men, because laughing is easier than telling your husband that something has frightened you.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Behind the cabinet, a door, a smell, a board with a name on it.",
+      "text": "You get the cabinet off the closet on its castors by yourself in an afternoon, which answers that question. Inside: a vacuum cleaner, seven folded towels, and a smell like cold herbs. Somebody kept these shelves deliberately empty. On the floor, face down, is a Scrabble board with the letters still standing on one rack from a game that nobody finished.",
       "sceneTitle": "Closet",
       "choices": [
         {
           "text": "Investigate",
-          "consequence": "There is no taking “Investigate” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You get down on the boards with a torch and find nothing at all, which settles nothing at all, and you leave the door open behind you.",
           "nextNodeId": "s4"
         },
         {
           "text": "Push it back",
-          "consequence": "There is no taking “Push it back” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You shove the cabinet back where it was and hang your coats in the hall, and for six months it is only a closet with a smell.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A young woman in the laundry room with a tannis root pendant.",
+      "text": "In the laundry room a girl about your age with bitten fingernails gives you her whole life in eight minutes: the street, the needle, the elderly couple on seven who took her in and fed her and got her clean. She shows you a silver ball on a chain that Minnie gave her. It has holes punched in it and a green paste inside, and it smells exactly like the closet did.",
       "sceneTitle": "Terry Downstairs",
       "choices": [
         {
           "text": "Befriend her",
-          "consequence": "“Befriend her” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You make her laugh about the dryers and she says she will knock for you, and she means it, and she has nine days left.",
           "nextNodeId": "s5"
         },
         {
           "text": "Be polite",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You keep it to pleasantries and get your sheets out, and afterwards you will try very hard to remember whether she looked frightened or only tired.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Terry's body in a pool of blood under the awning.",
+      "text": "There is a crowd on Seventy-second and a sheet, and under the sheet is the girl from the laundry room, seven floors down, still in the dress she was wearing on Tuesday. Minnie and Roman arrive together in their good coats to identify her, and Minnie cries in a way that seems to start slightly late. The window she came out of is theirs.",
       "sceneTitle": "Sidewalk Cement",
       "choices": [
         {
           "text": "Stay with her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stand at the kerb until the ambulance has gone, and afterwards you cannot stop noticing that nobody upstairs ever mentions whose window it was.",
           "nextNodeId": "s6"
         },
         {
           "text": "Walk on",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You go up and run a bath and stay in it, and Guy tells the officer you were home all evening, which happens to be true.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Neighbors arrive with chocolate mousse and a thousand questions.",
+      "text": "They arrive with mousse and stay four hours. Minnie goes through your rooms opening cupboards, pricing the furniture, telling you what you paid for it. Roman talks to Guy about the theatre and lets him talk back for a very long time, and Guy comes alive under it like a plant. On the way out Minnie fastens the silver ball around your neck, Terry's, as though she were doing you a favour.",
       "sceneTitle": "Minnie and Roman",
       "choices": [
         {
           "text": "Indulge them",
-          "consequence": "You commit to “Indulge them.” The story records the instinct as “Polite” and carries it forward.",
+          "consequence": "You let Minnie run your kitchen for one evening because it is easier, and by dessert she has your doctor, your cycle, and your mother's maiden name.",
           "nextNodeId": "s7"
         },
         {
           "text": "Decline",
-          "consequence": "You commit to “Decline.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You say you are tired, and they come anyway, and Guy answers the door, and after that they do not really need to knock.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A bitter aftertaste in a spoon.",
+      "text": "Chocolate mousse in a bowl brought down under a cloth, made specially, waiting on the counter when you get in. Under the chocolate there is an undertaste, chalky and sharp, like a vitamin dissolving on the tongue. You say so. Guy's face does something small and quick, and then he tells you that you always have to make a performance out of food, and he says it in front of the bowl.",
       "sceneTitle": "Mousse",
       "choices": [
         {
           "text": "Eat anyway",
-          "consequence": "You commit to “Eat anyway.” The story records the instinct as “Polite” and carries it forward.",
+          "consequence": "You finish it to keep the peace. The peace lasts about forty minutes, and then the room begins going sideways under you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tip it in the napkin",
-          "consequence": "You commit to “Tip it in the napkin.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You scrape half of it into a napkin behind the toaster, and half is evidently enough, because you do not make it as far as the bedroom.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A dream that is not quite a dream, scratches on your thigh.",
+      "text": "You go under on the bedroom floor. Afterwards there are pieces of it: a ceiling that turns into a ship's hull, a ring of people you have met standing about with their clothes off and their expressions polite, Minnie's hand on your shoulder, Guy's face somewhere near the pillow. You wake with scratches down both thighs. Guy is shaving. He says he did not want to miss baby night, and that he filed his nails afterwards, and he laughs.",
       "sceneTitle": "Conception Night",
       "choices": [
         {
           "text": "Tell Guy",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You describe the whole night and he is talking before you have finished, and what he finally offers you is an apology about his fingernails.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay quiet",
-          "consequence": "There is no taking “Stay quiet” back. Cowardly shapes the silence before the next moment arrives.",
+          "consequence": "You wash and dress and say nothing whatever, and the not-saying becomes a habit that takes you eight months to break.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Sharp pains, a witchdoctor's herbal smoothie, a friendly woman insisting.",
+      "text": "The pain starts in January and does not stop. A wire pulled tight, low down, all day and all night, for weeks on end. You lose fifteen pounds. Minnie brings a glass of something green at ten every morning, tannis root snipped fresh and blended with egg, and stands there in your kitchen while you finish it, and carries the glass back upstairs to wash herself.",
       "sceneTitle": "Pregnancy",
       "choices": [
         {
           "text": "Drink it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You drink it down and hand back the glass and she pats your cheek, and you are being cared for so thoroughly that you cannot find the edge of it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Pour it out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You tip one glass down the sink and rinse it out, and Minnie asks how it tasted this morning, and you hear yourself say lovely.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A friend slips into a coma. A book about witches he tried to bring you.",
+      "text": "Hutch meets you in the lobby, asks about the herb, takes one of your gloves away by accident and leaves his hat behind. That night he goes into a coma he does not come out of. Three months later a package arrives from his estate: a book about witchcraft, and a note in a nurse's handwriting saying the name is an anagram, and to read it with the door shut.",
       "sceneTitle": "Hutch's Hat",
       "choices": [
         {
           "text": "Read it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You take it to bed and go through it twice, and the second time you write the names out on the back of an envelope.",
           "nextNodeId": "s11"
         },
         {
           "text": "Hide it",
-          "consequence": "You commit to “Hide it.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You put it in the linen cupboard under the towels, and Guy has found it within a day, and it goes out with the rubbish.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A doctor recommended by Minnie who dismisses every symptom.",
+      "text": "The most fashionable obstetrician in New York takes you on as a favour to Minnie, charges you nothing, and forbids books and the advice of other women. He says the pain will stop. He says every mother believes her own pregnancy is the worst one on record. He does not weigh you, does not send you for tests, and writes down what you say without appearing to hear any of it.",
       "sceneTitle": "Sapirstein",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You commit to “Trust him.” The story records the instinct as “Cowardly” and carries it forward.",
+          "consequence": "You accept that agony is normal because a man with certificates on his wall has said so twice, and you stop counting the days.",
           "nextNodeId": "s12"
         },
         {
           "text": "Doubt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You ask, once, about a second opinion, and he smiles and says of course, and has telephoned Minnie about it before you are out of the building.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A second doctor with a kind face who lets the others in the room.",
+      "text": "You get to Dr Hill's office with the envelope and the book and you tell him all of it, out loud, in order, for twenty minutes: the herb, the drink, the scratches, the coven in the apartment next door. He listens beautifully. He says what you need is rest. He puts you in a side room with a blanket and goes out to the telephone, and the number he dials is not the police.",
       "sceneTitle": "Hill",
       "choices": [
         {
           "text": "Confide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You tell a doctor the truth in plain sentences and watch him decide, kindly and in real time, that you are unwell.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay vague",
-          "consequence": "“Stay vague” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You hold half of it back in order to sound sane, and he still writes overwrought in the file, so half the truth buys you nothing.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A list of clues in your pocket and a friend on the other end.",
+      "text": "Ninth Avenue in the rain. The booth's folding door will not fold. You have a scrap of paper in your fist with all of it on: the anagram, Terry's window, the missing glove, the herb, the dates. The line rings six times. Through the glass a man in a dark coat stops at the kerb and does not cross, and stands there in the wet looking at a telephone booth.",
       "sceneTitle": "Phone Booth",
       "choices": [
         {
           "text": "Make the call",
-          "consequence": "You commit to “Make the call.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You get through and start talking fast, and hear yourself from the outside: a pregnant woman in a call box, saying the word coven.",
           "nextNodeId": "s14"
         },
         {
           "text": "Hang up",
-          "consequence": "“Hang up” closes one possibility and opens another. The moment leaves a clear note behind: Cowardly.",
+          "consequence": "You put the receiver back because of a man in a coat who is probably nobody, and you carry the scrap of paper around for another week.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "All of Them Witches. A doctor's name rearranged.",
+      "text": "You lay the Scrabble tiles out on the bedroom floor at two in the morning. Steven Marcato. Roman Castevet. The same letters both ways round, the son of the man from the lobby, living one wall away and eating dinner at your table. You do it three times to be certain of it. Then you push the tiles apart with the flat of your hand so that nobody can come in and read them.",
       "sceneTitle": "Anagram",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "The floor goes solid under you for the first time in months, because a woman who is right about one thing is right.",
           "nextNodeId": "s15"
         },
         {
           "text": "Doubt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cowardly.",
+          "consequence": "You tell yourself letters can be made to say anything at all, and then you sit down on the floor at three in the morning and do it again.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A doctor you trust enough to come in.",
+      "text": "You get a message to Hill from a payphone and he agrees to see you, and this time he says the words you have been starving for: come in, we will admit you tonight, we will look after you. He is gentle. He lets you lie down and take your shoes off. Then he steps out into the corridor and you hear the receiver lift, and a name spoken quietly, twice.",
       "sceneTitle": "Friend at the Apartment",
       "choices": [
         {
           "text": "Let him in",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You let a kind man take charge because you have run out of stamina, and the kindness turns out to be the delivery mechanism.",
           "nextNodeId": "s16"
         },
         {
           "text": "Cancel",
-          "consequence": "“Cancel” closes one possibility and opens another. The moment leaves a clear note behind: Cowardly.",
+          "consequence": "You get halfway to standing and sit back down, because the alternative is nine blocks in labour carrying your own suitcase.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Friendly. Calm. Already inside.",
+      "text": "Guy comes for you with Sapirstein and Roman and they are so reasonable about all of it. Nobody raises a voice. Sapirstein has his bag. Guy says nobody is going to hurt you and then says it a second time, and it is the second time that tells you. You get the bedroom door shut and the chain across, and the chain holds for about as long as a chain holds.",
       "sceneTitle": "Roman at the Door",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go out through the hall closet and down the corridor in a nightdress with a kitchen knife, and that is exactly as far as you get.",
           "nextNodeId": "s17"
         },
         {
           "text": "Sit",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You sit on the edge of the bed with both hands on your belly and let the needle happen, and you keep your eyes on your husband while it does.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Sedation, voices, a baby's cry far away.",
+      "text": "It goes in and out. Ceiling, then Minnie's face very close, then a sound coming out of you that you do not recognise. Somebody says push and somebody else says nearly and somebody is counting. Then a baby crying, close by and then going away, through a wall, along a corridor. You ask to hold him. People keep moving around the bed and nobody answers the question you actually asked.",
       "sceneTitle": "Labor",
       "choices": [
         {
           "text": "Resist",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You get an elbow up and a hand into somebody's sleeve, and they call it distress and give you more of it, and you go back under.",
           "nextNodeId": "s18"
         },
         {
           "text": "Surrender",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You stop fighting and let them work, and afterwards nobody can say you were not a cooperative patient, which is what goes into the notes.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A nurse with a story about a baby who did not make it.",
+      "text": "You come round in your own bed with the curtains drawn and a nurse knitting in the chair. There were complications, she says. It happens. Sapirstein says you might try again in three months. Your milk comes in on the second day, and Minnie brings up a pump and takes the bottles away with her, and nobody in the room hears how strange that is except you.",
       "sceneTitle": "Empty Room",
       "choices": [
         {
           "text": "Ask to see",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You ask for the certificate, the hospital, the name of the mortuary, and every answer arrives far too quickly and slightly wrong.",
           "nextNodeId": "s19"
         },
         {
           "text": "Believe",
-          "consequence": "You commit to “Believe.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You accept it for one afternoon, and then the full bottles go out of the room again, and the arithmetic starts up in your head.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Behind the cabinet again, a black bassinet, a chant.",
+      "text": "You take the carving knife off the magnetic rail and go through the linen closet, past the shelves, into the Castevets' back hall in your nightdress. There are coats piled on a bed. There is a party in the front room and the noise of it is completely ordinary, glasses and an argument about parking, right up until you make out what they are actually saying to each other.",
       "sceneTitle": "Secret Door",
       "choices": [
         {
           "text": "Walk in",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You push through the door with the blade down at your side and every face in the room turns at once, and not one of them looks surprised.",
           "nextNodeId": "s20"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You stand with your hand on the door for four seconds thinking about the fire stairs, and then you think about the bottles.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A rocking cradle, a small wide-eyed child, an upside-down crucifix above.",
+      "text": "Black bassinet in the corner under black bunting with an upside-down crucifix hanging over it on a ribbon. Roman is telling the room about his father. Guy is by the window with a drink, unable to look at you, saying he was offered a part and that it was not like that. A man is taking photographs. Somebody offers you a chair, and it is a good chair, and they have kept it free.",
       "sceneTitle": "Inverted Cross",
       "choices": [
         {
           "text": "Lift the knife",
-          "consequence": "There is no taking “Lift the knife” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You get the blade up and the room simply waits, because there is nothing in it they have not already priced and agreed on.",
           "nextNodeId": "s21"
         },
         {
           "text": "Drop the knife",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "The knife goes into the carpet point first and stands there quivering, and Minnie starts talking about how you will want a proper crib.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A circle of strangers waiting for a mother's verdict.",
+      "text": "You look in. What is in the bassinet is small and furious and has been crying a while, and not one person in this room has picked it up. Roman is explaining what the child is. Minnie is saying his name over and over. Eight strangers are watching your face to see what it does, and every one of them is waiting to be told by you what happens next.",
       "sceneTitle": "Hush, Little Andy",
       "choices": [
         {
           "text": "Rock him",
-          "consequence": "“Rock him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You put a hand on the bassinet and start it moving, and the whole room lets out a breath it has been holding for nine months.",
           "nextNodeId": "end_rock"
         },
         {
           "text": "Walk out",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You lift him out yourself, blanket and all, and discover that nobody here is willing to be the one who takes him back off you.",
           "nextNodeId": "end_walk"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a version where you reach a telephone before anybody thinks to stop a woman in a nightdress, and that version has witnesses.",
           "nextNodeId": "end_call"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_rock",
-      "text": "You sit by the cradle and you decide what to be his mother of. The strangers exchange a glance. It is, surprisingly, your house now.",
+      "text": "You rock the bassinet because he is crying and nobody else has moved, and the room reads it as a yes. Let them. From tonight you decide what he is fed and when the curtains open and who is allowed to hold him and which of them may come into the room at all. Roman writes out schedules; you rewrite them. Minnie asks permission now. They spent a year making certain that nobody on earth would believe you, and every one of them has to.",
       "sceneTitle": "Hush",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_walk",
-      "text": "You wrap a coat around the bassinet and walk out into Central Park West. The cult does not stop you. They never could.",
+      "text": "You lift him out with the black bunting still snagged over your arm and carry him down the hall, through the party, past your husband, and out. Not one of them puts a hand out to stop you. They built an entire year on your having no choices at all, and never worked out what they would do about you simply making one. The doorman holds the door. Central Park West is cold and loud and full of people, and the pram shops open at nine.",
       "sceneTitle": "Bramford Doors",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_call",
-      "text": "Hill comes himself this time, with two policemen and an ambulance. The cult scatters. You spend a decade telling the story to people who do not believe you.",
+      "text": "Hill comes himself at two in the morning with two patrolmen and an ambulance, because you got through, and because you gave him three things he could check inside ten minutes. The apartment empties like a bar at closing. What follows takes years: statements, hearings, a custody file thicker than the phone book, and a great many men explaining in writing that you were overwrought. You keep the boy. You go on telling it to people who smile and change the subject, and you go on telling it.",
       "sceneTitle": "The Right Doctor",
       "choices": [],
       "isEnding": true,

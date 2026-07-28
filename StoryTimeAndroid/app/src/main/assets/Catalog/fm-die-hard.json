@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Argyle asks about the wife and puts on a Christmas tape.",
+      "text": "Argyle is twenty-three, drives like the freeway owes him money, and has worked out from four sentences that you and your wife are not doing well. The limo has a bar, a television and a tape deck. He puts on carols, then something with more bass in it, and asks whether you brought her a present. On the seat beside you sits an enormous stuffed bear with a ribbon around its neck.",
       "sceneTitle": "LAX Limo",
       "choices": [
         {
           "text": "Talk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You tell a total stranger the entire thing between exits, and he gives you advice worth exactly what you paid for it, which turns out to be plenty.",
           "nextNodeId": "s2"
         },
         {
           "text": "Sit silent",
-          "consequence": "You commit to “Sit silent.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You watch Los Angeles slide past at sixty and rehearse an apology you have no intention of using. He turns the music up, out of mercy.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Holly. A Rolex. A husband who will not bend.",
+      "text": "Nakatomi Plaza, thirtieth floor, live band, a fountain of something expensive and a hundred people who all work for the same company. Her name on the door plate reads Gennero now. They gave her a Rolex last week and she is wearing it tonight. You get four sentences in before it becomes the argument you have been having since she took the job, and then she is called away.",
       "sceneTitle": "Party on the 30th",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You commit to “Apologize.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You apologise and half mean it, which she can hear across two feet of carpet, and she leaves the room with the conversation still standing open.",
           "nextNodeId": "s3"
         },
         {
           "text": "Pick a fight",
-          "consequence": "“Pick a fight” closes one possibility and opens another. The moment leaves a clear note behind: Stubborn.",
+          "consequence": "You go straight at it — the job, the coast, the six-year-old's Christmas — and win nothing whatsoever except the last word in an empty room.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A wise pilot once said, make fists with your toes.",
+      "text": "A big man on the plane, wedding ring, a million air miles, gave you his cure for a long flight: get your shoes off the moment you reach the room, put your bare feet flat on the carpet, and grip it hard with your toes. So here you are, standing in a corporate bathroom thirty floors above Los Angeles with your shoes in one hand, feeling completely ridiculous.",
       "sceneTitle": "Shoes Off",
       "choices": [
         {
           "text": "Do it",
-          "consequence": "You commit to “Do it.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stand there curling your toes into executive carpet like an idiot, and within the hour it becomes the single luckiest thing you have done all year.",
           "nextNodeId": "s4"
         },
         {
           "text": "Skip it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cool.",
+          "consequence": "You leave the shoes by the sink and walk out barefoot anyway, and later, on a floor covered in broken glass, you will remember precisely where you set them.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Engines outside, gunfire downstairs, elevator chime.",
+      "text": "A truck comes down the ramp into the parking level and the security desk stops answering. The phones die building-wide. The elevators lock out. Then a burst of automatic fire comes up the shaft from thirty floors below like a cough in a stairwell, and the band stops mid-song. You are barefoot in a bathroom with a service pistol and no shirt, and the party is on the far side of that door.",
       "sceneTitle": "Lobby Goes Loud",
       "choices": [
         {
           "text": "Move up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You take the fire stairs upward, away from the noise. It is cowardice on paper and it is the only reason you are alive on the thirty-second floor.",
           "nextNodeId": "s5"
         },
         {
           "text": "Move down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You go toward the gunfire on bare feet over cold concrete and get close enough to count twelve men and hear four different languages.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Crawl on your back over Christmas lights.",
+      "text": "The service duct above thirty-three is eighteen inches of galvanised steel, and somebody has run a string of Christmas lights down the whole length of it for reasons no engineer could defend. You go in on your back, pushing with your heels, and the metal booms like a drum skin every time you shift your weight. Below the grille, two men with rifles are walking a floor you left four minutes ago.",
       "sceneTitle": "Vent Shafts",
       "choices": [
         {
           "text": "Crawl",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stubborn.",
+          "consequence": "You cover forty feet at roughly the speed of a slug and come out over the elevator machine room with both elbows scraped down to raw meat.",
           "nextNodeId": "s6"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You lie still in the dark while two men discuss, in a language you do not speak, whether that noise is worth investigating. It is.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A radio in a dead man's belt and a name you should not give.",
+      "text": "The first one you take down has a rifle on a sling and a radio on his belt, and the radio is talking. It also transmits. You could put anything on that channel — a name, a rank, a badge number, a location — or you could give them nothing useful and everything irritating, and find out which of them cares enough to answer you personally.",
       "sceneTitle": "Yippee",
       "choices": [
         {
           "text": "Call for help",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You get onto the emergency band and reach a dispatcher who is certain you are a prank caller, and you burn two minutes proving otherwise.",
           "nextNodeId": "s7"
         },
         {
           "text": "Bait Hans",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You put something rude and useless on their channel, and a very polite European voice answers inside ten seconds, wanting to know your name.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A desk cop with a Twinkie and a steady voice.",
+      "text": "The squad car sent to check the building is one man — Sergeant Al Powell, a box of snack cakes on the passenger seat for his pregnant wife, no reason on earth to expect anything. He drives the plaza loop, sees a quiet tower with the lights on, and starts to pull away. So you put a body through a window and drop it thirty floors onto the hood of his car.",
       "sceneTitle": "Powell at the Curb",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "“Trust him” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You give him all of it over the radio: floors, headcount, weapons, timing. He writes every word down and keeps the car parked, which is the whole point.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wary.",
+          "consequence": "You keep your name and your job to yourself and feed him positions only. It takes him about nine minutes to work out you are a cop.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "C4 above the elevators, fuses in your fist.",
+      "text": "You find their explosives in a canvas bag on thirty-two — bricks of plastic, blasting caps in foam, a folded sheet of instructions in German. Enough here to take out two floors and everything standing on them. Downstairs the FBI has arrived and started issuing orders, which is precisely what these men have arranged their entire evening around. The fuses are in your fist and you have about four minutes.",
       "sceneTitle": "Detonators",
       "choices": [
         {
           "text": "Drop them down the shaft",
-          "consequence": "You commit to “Drop them down the shaft.” The story records the instinct as “Wild” and carries it forward.",
+          "consequence": "You send a brick down the elevator well with an office chair for company, and the blast takes the third floor out from under the men holding it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Plant them at the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You wire the stairwell door and back off, and the charge does its work on the wrong three men and buys you one clear floor.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Six locks, five dropped, one electromagnetic.",
+      "text": "The vault has seven locks. Their computer man has taken five of them apart from a laptop on a folding table with a bag of chips at his elbow, narrating his own progress like a sports commentator. The sixth is a circuit no one can talk their way through. It runs off the city grid, and it will open itself the moment somebody outside this building decides to cut the power.",
       "sceneTitle": "Theo at the Keyboard",
       "choices": [
         {
           "text": "Sabotage the power grid",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bold.",
+          "consequence": "You work out that the last lock opens when the lights go out, which means the only people who can crack that vault are the ones outside trying to help.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait for the FBI",
-          "consequence": "“Wait for the FBI” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You listen to the federal agents on the radio discussing how to isolate the building, and understand that you are watching a robbery finish itself.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A boy you killed had a brother who is now hunting you barefoot too.",
+      "text": "The man you dropped in the stairwell had a brother, and the brother has decided tonight is about something other than money. He stops answering the radio. He starts working the floors alone, methodically, checking rooms with the rifle held low and a length of chain over one shoulder. He is bigger than you and angrier than you and, unlike everyone else in this building, he is in no hurry at all.",
       "sceneTitle": "Karl's Brother",
       "choices": [
         {
           "text": "Set a trap",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You rig a fire door and a chain in a dark corridor and wait for him. The fight runs nine minutes and both of you very nearly lose it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You take the stairs three at a time with glass working into your feet and lose him around twenty-six, which only postpones the entire problem.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Hans drives the partygoers up to the helipad with the C4 still in the elevator shafts.",
+      "text": "They move everyone up to the roof at gunpoint, hands on heads, a hundred people filing up a fire stair in evening clothes. It plays as a hostage transfer. It is not. There are charges on the roof and more packed into the elevator shafts, and the plan has always been one detonation with every witness standing directly on top of it. Holly is somewhere in that line, near the front.",
       "sceneTitle": "Roof Hostages",
       "choices": [
         {
           "text": "Warn them off",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You come out of the stairwell firing into the ceiling and drive two hundred people back down the stairs at a dead run before anyone understands why.",
           "nextNodeId": "s12"
         },
         {
           "text": "Detonate first",
-          "consequence": "There is no taking “Detonate first” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You blow the shaft charges early and take the roof out from under nobody, which spends your surprise entirely and saves every hostage on the building.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A long hose, a heavier you, a window that won't break easy.",
+      "text": "The roof is coming apart under helicopter fire and the only way off it goes downward. You wrap a canvas fire hose twice around your waist, knot it, and go over the parapet backwards. Thirty floors of glass go past. Then the hose reaches its full length, the reel above you starts walking toward the edge, and the window in front of your feet turns out to be considerably tougher than it looks.",
       "sceneTitle": "Firehose Dive",
       "choices": [
         {
           "text": "Jump",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wild.",
+          "consequence": "You swing out and boot through the glass on the third attempt, and the reel goes over the parapet behind you about eleven seconds later.",
           "nextNodeId": "s13"
         },
         {
           "text": "Climb down",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You try to walk the wall like a climber and the hose drops a full floor at once, and your shoulder makes a sound you never forget.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "The cokehead negotiator names you on TV.",
+      "text": "Ellis from the thirtieth floor, who called you buddy twice at the party, decides he can handle these people because he can handle anyone. He gets on the radio, uses your first name on an open channel, and offers to hand you over in exchange for goodwill. He genuinely believes he is being useful. Behind him a man in a very good suit is loading a magazine and not blinking.",
       "sceneTitle": "Ellis",
       "choices": [
         {
           "text": "Disavow",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You tell the channel you have never met the man, loudly and cruelly, and it does not work, and the shot comes about eleven seconds later.",
           "nextNodeId": "s14"
         },
         {
           "text": "Try to save him",
-          "consequence": "You commit to “Try to save him.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You beg an idiot to stop talking and put the radio down. You are still mid-sentence when his transmission ends in the middle of a word.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Suit, glasses, a polite voice over a stranger's body.",
+      "text": "You come around a stairwell corner and find a man in an excellent suit and wire-framed glasses, hands open, no weapon, running a flawless American accent and claiming to be a hostage who got loose. He is calm. He is polite. He is standing eight feet from a rifle propped against the wall, and he keeps his eyes carefully on your face and never once on it.",
       "sceneTitle": "Hans on the Roof",
       "choices": [
         {
           "text": "Play the dumb cop",
-          "consequence": "“Play the dumb cop” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You hand him an unloaded gun and watch him take it and smile, and for ninety seconds the pair of you pretend extremely well at each other.",
           "nextNodeId": "s15"
         },
         {
           "text": "Confront him",
-          "consequence": "There is no taking “Confront him” back. Bold shapes the silence before the next moment arrives.",
+          "consequence": "You say his name out loud and the accent falls off him in a single syllable, and three of his men come through the door behind you.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A roll of holiday tape across your back and a service pistol against your spine.",
+      "text": "Two rounds left, one pistol, and nowhere to carry it that a hand would not find. You take a roll of packing tape off a desk and strap the gun flat between your shoulder blades, wound twice around your chest, adhesive against bare skin. It is uncomfortable, it is obvious to anybody who touches your back, and it is the last card in the deck.",
       "sceneTitle": "Two Bullets in the Tape",
       "choices": [
         {
           "text": "Hide them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You tape it down, walk out with your hands raised and your pulse going like a bird, and bet the whole night on nobody touching your spine.",
           "nextNodeId": "s16"
         },
         {
           "text": "Confront",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Reckless.",
+          "consequence": "You keep the pistol in your fist and go in shooting with two rounds available. It is bravery of a sort and it lasts roughly four seconds.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Which was the plan all along. The vault clicks open.",
+      "text": "Downstairs the FBI orders the utility to kill the entire block. Every light in the plaza dies at once and the emergency lamps come up amber — and thirty floors above them an electromagnetic lock that nobody in this building could have touched releases itself with a sound like a coin dropped on tile. The vault swings open. Six hundred and forty million in bearer bonds, and the government opened it for them.",
       "sceneTitle": "FBI Cuts the Power",
       "choices": [
         {
           "text": "Steal a detonator",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You lift a trigger unit off a crate in the dark while every man in the room is watching that door swing, and put it down your waistband.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You get behind a stack of drywall and count them out of the room, and the count comes to considerably more men than you have bullets.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Hans's hand on her wrist, your gun in your other hand, taped low.",
+      "text": "Thirty-second floor, window gone, and he has your wife by the wrist with cold air pouring in over the sill. He wants the trigger unit and he has already worked out that you will hand it to him. Your hands are up. The tape across your back has been holding two rounds for forty minutes and the adhesive is starting to give in the heat, and he is smiling because he has counted your bullets too.",
       "sceneTitle": "Holly at the Edge",
       "choices": [
         {
           "text": "Tip him off the side",
-          "consequence": "There is no taking “Tip him off the side” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You get the gun off your back in one motion and put both rounds where they need to be. He goes out through the window still holding her watch.",
           "nextNodeId": "s18"
         },
         {
           "text": "Talk him down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep him talking about money for eleven seconds longer than he intends to talk, and get one hand onto the clasp of that Rolex.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Outside, dust on his shoulders, an assault rifle aimed at you and the cop.",
+      "text": "Outside on the plaza, wrapped in a paramedic's blanket, watching a building smoke — and he comes out through the lobby doors with dust in his hair and a rifle already coming up. He should be dead. He was hanged in a stairwell two hours ago and here he is anyway. He is not aiming at you first. Powell is standing nine feet away with his hand nowhere near his holster.",
       "sceneTitle": "Karl Lives",
       "choices": [
         {
           "text": "Trust Powell",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You do nothing, which is the hardest thing you manage all night, and Al draws for the first time in eleven years and does not miss.",
           "nextNodeId": "s19"
         },
         {
           "text": "Charge",
-          "consequence": "“Charge” closes one possibility and opens another. The moment leaves a clear note behind: Wild.",
+          "consequence": "You go at a man with a rifle across nine feet of open concrete, and Powell fires past your shoulder before you have covered half of it.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Bearer bonds drifting down on the Christmas lights like ash.",
+      "text": "Six hundred and forty million dollars comes down over the plaza in sheets, catching in the string lights, settling on windshields and in the hair of every cop and reporter inside the cordon. For a second nobody moves. Then a fireman picks one up, reads the face of it, and puts it back down on the wet concrete very carefully. The most valuable litter in the history of Los Angeles.",
       "sceneTitle": "Bonds",
       "choices": [
         {
           "text": "Watch them fall",
-          "consequence": "You commit to “Watch them fall.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stand in the middle of it with a blanket on your shoulders and let a fortune settle on your bare feet without reaching for a single sheet.",
           "nextNodeId": "s20"
         },
         {
           "text": "Grab them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Greedy.",
+          "consequence": "You catch one out of the air and read the denomination twice, then hand it to a uniform who will spend six months of his life on the paperwork.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Theo at the wheel of a stolen rig, smiling at a window.",
+      "text": "There was a truck inside the truck. Their computer man is behind the wheel of an ambulance that has been sitting in the freight bay since before the party started, and he brings it out through the barrier grinning at the cordon like a man leaving a shopping centre. It is a clean plan. It is a very good plan. Argyle is parked in a limousine directly in its path.",
       "sceneTitle": "Ambulance",
       "choices": [
         {
           "text": "Let Argyle handle it",
-          "consequence": "“Let Argyle handle it” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You do nothing at all, and a twenty-three-year-old in a chauffeur's cap puts a stretch limousine into the side of an ambulance and knocks him cold.",
           "nextNodeId": "s21"
         },
         {
           "text": "Run after him",
-          "consequence": "“Run after him” closes one possibility and opens another. The moment leaves a clear note behind: Stubborn.",
+          "consequence": "You sprint across the garage on ruined feet and arrive nine seconds after Argyle has already hauled the man out through the driver's window.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Argyle pulls up smiling, and Holly says your name like you forgot it was hers.",
+      "text": "It is not snow, it is ash and shredded paper coming off the building, and it is landing on the plaza like the real thing. Argyle drives the limo out through a wall of it, hits the horn twice, and climbs out grinning with the roof of his car caved in. Holly gets a blanket around both of you. She says your first name, and the way she says it is a question.",
       "sceneTitle": "Holly in the Snow",
       "choices": [
         {
           "text": "Take her hand",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You take her hand with blood still drying on yours, and neither of you mentions the argument on the thirtieth floor, tonight or for a long time after.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Apologize first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You get the apology out before the car door closes, badly, with paper falling on both of you and a paramedic waiting to look at your feet.",
           "nextNodeId": "end_back"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look past her at the desk sergeant leaning on his squad car, and go shake the hand of a man who had not drawn in years.",
           "nextNodeId": "end_powell"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_home",
-      "text": "The limo pulls away. Argyle hums something. Holly leans on you and the radio plays a song you both already know.",
+      "text": "The limo pulls out past the cordon at four in the morning with a caved-in roof and two people in the back who have run out of things to argue about. Argyle hums along to a station playing carols for whoever is still driving home. Holly puts her head on your shoulder and gets ash in your collar. Your feet are wrapped in gauze, two ribs are wrong, and there is nobody in California you would trade places with tonight.",
       "sceneTitle": "Christmas Eve, Late",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_back",
-      "text": "You wake at the party in a sweat with shoes on. The Rolex on Hans's wrist on a man falling in slow motion.",
+      "text": "You wake in a hotel bed four days later with your shoes still on and your heart going flat out, back on the thirtieth floor, back at the party with the band playing. In the dream you never get the shoes off. A watch comes loose from a wrist and a man in a very good suit goes backwards out of a window in total silence, and you wake up before he lands. Every time. For about a year.",
       "sceneTitle": "Back at the 30th",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_powell",
-      "text": "Powell mails you Twinkies every Christmas for ten years. You keep eating them. You keep being okay.",
+      "text": "Al Powell goes back to a desk and a daughter born in March, and for the next ten Decembers a box of snack cakes arrives at your precinct with no note attached, and every December you send one back the other way. Neither of you ever writes anything on them. You eat them at your desk in January when the shift goes quiet — two men who met over a radio, checking once a year that the other one is still all right.",
       "sceneTitle": "Twinkies on Powell's Desk",
       "choices": [],
       "isEnding": true,

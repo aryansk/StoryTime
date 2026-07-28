@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Landa drinks a glass of milk and asks polite questions in four languages.",
+      "text": "The colonel takes off his cap, sets it on the table, and admires the dairy. He asks for milk and drinks the whole glass. He compliments your daughters, your farm, the weather. Then he asks, in French, whether you would prefer to continue in English, and produces an enormous calabash pipe from his coat like a conjuror. Under the boards beneath his boots, someone's knee is shaking.",
       "sceneTitle": "LaPadite's Farm",
       "choices": [
         {
           "text": "Lie",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You say you have sheltered no one, and he smiles, and says he already knew that, and then asks the same question again in a different language.",
           "nextNodeId": "s2"
         },
         {
           "text": "Tell the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Doomed—follows you into whatever comes next.",
+          "consequence": "You give him the floorboards with your eyes before your mouth catches up, and he thanks you warmly for your time and calls his men inside.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Floorboards above and a girl in the dark holding her breath.",
+      "text": "Four of you are lying on your sides in eighteen inches of crawlspace with a year of dust in your mouths. Above, boots cross the room in an unhurried square. Your mother has hold of your ankle. A voice up there is discussing the differences between hawks and rats and finds the comparison amusing. Then the boots stop, and something metal is being racked at the front door.",
       "sceneTitle": "Under the Floor",
       "choices": [
         {
           "text": "Run for the woods",
-          "consequence": "There is no taking “Run for the woods” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You go out the low gap into daylight running flat and uphill, and the machine guns follow you through the floor and stop at the treeline.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay still",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You stay pressed to the earth while your family is fired through above you, and the colonel lets one girl go because letting one go is funnier.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Years later, a cinema marquee with your new name above the door.",
+      "text": "Paris, and the marquee says Le Gamaar, and the name on the ownership papers is Emmanuelle Mimieux, which is a name you invented in a barn. You change the letters yourself on a ladder every Tuesday. Marcel runs the projector and sleeps upstairs. Tonight it is a German war picture and half the seats are grey uniforms who laugh at all the wrong moments.",
       "sceneTitle": "Shosanna in Paris",
       "choices": [
         {
           "text": "Burn it down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vengeance.",
+          "consequence": "You imagine the nitrate stock going up and the whole roof with it, and then you climb down the ladder and open the doors at seven.",
           "nextNodeId": "s4"
         },
         {
           "text": "Keep it open",
-          "consequence": "“Keep it open” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You sell tickets to men in grey and take their money and smile the smile, and it costs you something small every night that never comes back.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Each man, one hundred Nazi scalps.",
+      "text": "Aldo Raine stands on a rock in Tennessee posture with eight men in front of him and a rope scar around his throat that nobody has asked about. He explains the arithmetic. Eight of you, a hundred each, a hundred Nazi scalps, and he is in the killing business and business is about to be good. He does not care to hear about mercy. He mentions the debt personally.",
       "sceneTitle": "Aldo's Speech",
       "choices": [
         {
           "text": "Take the oath",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You say the number back to him out loud, and it becomes a promise you will spend two years in French woods paying down in installments.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay quiet",
-          "consequence": "“Stay quiet” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You keep your mouth shut in the back rank, which Aldo notices, and he decides you will be the one who counts and carries the knives.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A German sergeant in a cell with a list of dead officers.",
+      "text": "Gestapo men have him in a cell in a village square because he killed thirteen of his own officers with a knife over the course of one afternoon. They were going to hang him publicly to make a point. Hugo Stiglitz says nothing at all while the door is unlocked. He looks at the swastika armbands on the floor, and then at your knife, and then at your face.",
       "sceneTitle": "Stiglitz Joins",
       "choices": [
         {
           "text": "Recruit him",
-          "consequence": "“Recruit him” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You hand him a blade first and speak second, and you acquire a man who will kill Germans for free until it kills him.",
           "nextNodeId": "s6"
         },
         {
           "text": "Leave him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You leave him in the cell for the Gestapo, and hear about the hanging three weeks later, and think about it on and off for years.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A young hero won't stop asking about your cinema.",
+      "text": "This boy will not stop. He shot two hundred and fifty men from a bell tower in Italy and Goebbels has made a picture about it, and he wants to talk about Pabst and Riefenstahl and whether you would consider a German film for the marquee. He has a face like a puppy and a uniform with more on it than most colonels wear. He waits outside in the rain.",
       "sceneTitle": "Zoller",
       "choices": [
         {
           "text": "Be cold",
-          "consequence": "“Be cold” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You freeze him out with three flat sentences, and the boy takes coldness as a challenge, and comes back the next night with an idea about a premiere.",
           "nextNodeId": "s7"
         },
         {
           "text": "Play along",
-          "consequence": "There is no taking “Play along” back. Strategic shapes the silence before the next moment arrives.",
+          "consequence": "You let him buy you a coffee and laugh once, on purpose, and he goes straight to a minister and offers your cinema as a gift.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Lunch with the Reich's propaganda minister and a strudel and cream.",
+      "text": "The restaurant has white cloth and a minister at the head of it who does not stand when you enter. Goebbels wants his premiere at your theater because a national hero asked him for it as a favor. A waiter sets down strudel with a jug of cream and someone at the table says, in perfect French, that he took the liberty of ordering for you. You know the voice.",
       "sceneTitle": "Goebbels' Invitation",
       "choices": [
         {
           "text": "Eat the strudel",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cool.",
+          "consequence": "You eat the strudel with him watching, one careful forkful at a time, and neither of you acknowledges a farmhouse in the countryside four years ago.",
           "nextNodeId": "s8"
         },
         {
           "text": "Refuse politely",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wary.",
+          "consequence": "You decline politely and he insists more politely, and the pastry sits between you the whole meal like a thing you are both refusing to name.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A basement tavern, the wrong dialect, and an SS officer with a kind smile.",
+      "text": "Your rendezvous is a cellar tavern in a French village, which is the worst possible room, and it is full of Wehrmacht sergeants celebrating a birth. Hicox's German is beautiful and comes from the wrong hundred miles. A card game breaks out with names stuck to foreheads. In the corner, a major of the SS with an amused, patient face has been listening to your accent since the second sentence.",
       "sceneTitle": "La Louisiane",
       "choices": [
         {
           "text": "Walk out slow",
-          "consequence": "You commit to “Walk out slow.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You start standing up mid-sentence with a plan to reach the stairs, and the major invites you to sit back down and finish the round.",
           "nextNodeId": "s9"
         },
         {
           "text": "Bluff it",
-          "consequence": "You commit to “Bluff it.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to the accent and improvise a valley in the mountains where the vowels come from, and the major decides he would love to visit.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "He orders three glasses with the wrong hand. The room goes still.",
+      "text": "The major settles it with drinks. He orders three whiskies and signals the number with his index, middle and ring finger, the way a German does. Hicox orders three and signals it the way an Englishman does — thumb, index, middle — and the room stops breathing. Under the table, everybody's hand is already somewhere useful. The major says, very pleasantly, that there are now three pistols aimed at three testicles.",
       "sceneTitle": "Three Fingers",
       "choices": [
         {
           "text": "Draw",
-          "consequence": "There is no taking “Draw” back. Quick shapes the silence before the next moment arrives.",
+          "consequence": "You put a round through the table before he finishes his sentence and the cellar becomes a slaughterhouse in under four seconds of shooting.",
           "nextNodeId": "s10"
         },
         {
           "text": "Talk",
-          "consequence": "The decision settles the question for now. Its verdict—Doomed—follows you into whatever comes next.",
+          "consequence": "You try to negotiate a room full of dead men down to a hostage exchange, and the grenade in the major's fist decides it for everyone.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A wounded English spy among dead Germans and a smell of gunpowder.",
+      "text": "Broken glass, spilled beer, and everyone who was standing is down on the tavern floor. Bridget von Hammersmark is under a table with a bullet through her calf and a shoe that will not be going back on. She is also the only person alive who can get anyone into that premiere. Outside, a staff car engine is running. Aldo has a splinter of table in his neck and a decision to make quickly.",
       "sceneTitle": "Bridget Beneath the Table",
       "choices": [
         {
           "text": "Get her out",
-          "consequence": "The decision settles the question for now. Its verdict—Loyal—follows you into whatever comes next.",
+          "consequence": "You get her to a veterinarian, hold her leg while he digs, and buy an operation that leaves a limp everyone in Paris will notice.",
           "nextNodeId": "s11"
         },
         {
           "text": "Leave her",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You leave a movie star bleeding among dead Germans, and lose the only invitation into the Reich's biggest night, and Aldo says so out loud.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Marcel hands you cans of nitrate film, a hundred years of flammable history.",
+      "text": "Up in the splice room it is hot and smells of acetone. Marcel brings up the cans from the storeroom, and they are old prints — silver nitrate, the pre-war stock, which burns three times hotter than paper and cannot be put out once it starts. Three hundred and fifty reels. The auditorium seats three hundred and fifty people and has doors that lock from outside. You start deciding where the fire begins.",
       "sceneTitle": "Splice Room",
       "choices": [
         {
           "text": "Stack them by the screen",
-          "consequence": "There is no taking “Stack them by the screen” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You stack them behind the screen so the blaze eats the exit first, and Marcel points out that everyone will be facing it when it goes.",
           "nextNodeId": "s12"
         },
         {
           "text": "Spread them in the aisles",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vengeful.",
+          "consequence": "You lay them along the aisles under the carpet runners, so the room burns from the middle outward and no row reaches an aisle.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Limousines, flashbulbs, the high boots of the Reich, the wrong shoe size.",
+      "text": "Limousines all the way down the street and a red carpet soaking in the drizzle. Bridget in white, on Aldo's arm, introducing three Italian film men who between them possess perhaps nine Italian words. Landa comes down the steps to meet them and starts speaking Italian, fluently, at length. Bridget's cast is enormous. And the plaster boot, when Landa glances at it, is not a shoe size anyone expects.",
       "sceneTitle": "Premiere Arrivals",
       "choices": [
         {
           "text": "Smile big",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You lean into it — grinning, gesturing, bellowing gratzie — and he lets you pass while filing away every syllable for a conversation upstairs.",
           "nextNodeId": "s13"
         },
         {
           "text": "Limp inside",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Doomed.",
+          "consequence": "You limp past him fast with your head down, which is how a man behaves who does not want a question, and he notices that too.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "He orders for you and watches the cream sink into the pastry.",
+      "text": "Upstairs, in a private room away from the lobby, he has a table, a strudel, and a bottle. He orders for you both again. He sends for a jug of cream and makes everyone wait for it. He asks about mountain climbing in Italy, about the cast, about a signature. Then he puts an autographed napkin down and reaches under the table and produces a small plaster shoe.",
       "sceneTitle": "Landa's Strudel",
       "choices": [
         {
           "text": "Eat",
-          "consequence": "There is no taking “Eat” back. Cool shapes the silence before the next moment arrives.",
+          "consequence": "You take the fork and eat, and he watches every swallow, and then he asks the room to leave so he can talk to a lady about her leg.",
           "nextNodeId": "s14"
         },
         {
           "text": "Push it away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You push the plate away untouched, which tells him you are not enjoying yourself, which is precisely the confirmation he sat down to collect.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A waiter you trained yourself, and a tray with a small folded note under the glass.",
+      "text": "Champagne, dress uniforms, and a chandelier they cleaned for a week. Your waiter, who you trained yourself, moves the tray at the right angle. Under the third glass is a folded square of paper with the reel change written on it in pencil. Zoller keeps appearing at your elbow to introduce you to people, and the Führer's party has just come through the doors.",
       "sceneTitle": "Champagne in the Lobby",
       "choices": [
         {
           "text": "Pass the note",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You slip the note down the tray and Marcel has it inside twenty seconds, and the timing of the fire is now a thing on paper.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hold it",
-          "consequence": "There is no taking “Hold it” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You keep the note in your palm through four introductions and a photograph, and the reel change comes closer while your hand sweats around it.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Hitler laughing at his own image on a screen you control.",
+      "text": "From the projection window the box is easy to see. He is fifty feet away laughing at his own image killing Americans on a screen you own, slapping the rail. The doors below are chained from the outside now, which took Marcel four minutes and a length of bicycle chain. Your reel is spliced onto the end of the fourth. Three hundred and fifty seats and one way out of them.",
       "sceneTitle": "Box Seat",
       "choices": [
         {
           "text": "Lock the doors",
-          "consequence": "“Lock the doors” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You send Marcel down and hear the chain go through the handles, and the room below becomes a box with an audience already in it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wait for the reel",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You wait for your own footage rather than move a muscle early, because the whole point is that they see your face before they burn.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Cigarette. Match. The whole back wall of the auditorium drenched in cellulose.",
+      "text": "Marcel stands at the side of the auditorium with a cigarette going and a matchbook in his other hand. Behind the curtain, four feet of nitrate stacked to head height. On screen, the reel changes and a woman's face fills forty feet of wall and starts telling the Reich, in French, exactly who is speaking to them. He is watching for your signal through the smoke of his own cigarette.",
       "sceneTitle": "Marcel at the Curtain",
       "choices": [
         {
           "text": "Light it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vengeance.",
+          "consequence": "You give him the nod and he drops the cigarette into the pile, and the curtain goes up in a single sheet of white flame.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait one more minute",
-          "consequence": "“Wait one more minute” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You hold him one more minute so the recording finishes the sentence, and sixty seconds is a very long time to stand beside that much nitrate.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A baseball bat and a long-cherished list of names.",
+      "text": "Donny and Omar have gotten into the balcony and killed the guards outside the box, and they are standing there now with the whole German high command below them, packed and seated and facing away. Donny has a Thompson and a bat and a list of names he has been keeping since Boston. The dynamite is strapped around both their ankles. Downstairs, the back wall is already orange.",
       "sceneTitle": "Donny Behind the Box",
       "choices": [
         {
           "text": "Open fire",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Direct.",
+          "consequence": "You kick the door and empty two magazines into a box of generals, then keep firing into a corpse in a brown jacket for the pleasure of it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let the fire do it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You hold your fire and let the nitrate finish it, which is cleaner, quieter, and gives Donny nothing at all to take home with him.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "He has followed you up and he is bleeding and he is not done.",
+      "text": "He came up the stairs after you because he could not understand being refused. He is bleeding through the back of his jacket where you shot him four times, and he is on his knees in the projection room doorway with a pistol coming up. He asks, sounding genuinely hurt, whether he may come in. The film is running. The auditorium below has started to make a sound.",
       "sceneTitle": "Zoller in the Booth",
       "choices": [
         {
           "text": "Shoot first",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You shoot the boy on principle and turn back to the window, and he still has one hand and one round left behind you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hesitate",
-          "consequence": "There is no taking “Hesitate” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You look too long at a face you almost liked, which is the pause that lets him raise the pistol and finish the argument.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Landa offers a deal: a Medal of Honor and a house on Nantucket.",
+      "text": "They have Aldo and Utivich in a field office with the cinema still glowing on the horizon. Landa has already radioed the Americans and negotiated: full immunity, the Medal of Honor, citizenship, a pension, and a property on Nantucket Island. He wants it in writing from someone with the authority. He calls it the greatest single service any officer rendered the Allied cause. He is not entirely wrong.",
       "sceneTitle": "Aldo Captured",
       "choices": [
         {
           "text": "Sign",
-          "consequence": "You commit to “Sign.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You agree to every clause in that flat Tennessee drawl while working out what a man can do to another man that no treaty forbids.",
           "nextNodeId": "s20"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Stubborn.",
+          "consequence": "You tell him what he can do with Nantucket, and he points out that he is holding the radio, the driver, and both your lives.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Landa's wrists in cuffs, his driver dead, your knife in your hand.",
+      "text": "A forest road, the American line an hour ahead, and Landa in the back with his hands out and his cap on straight, already rehearsing his arrival. Utivich shoots the driver. You take the cuffs off Landa's wrists, which confuses him, and then Utivich puts him on his knees in the dirt. Landa protests the terms of an agreement. You take out the knife and check the edge with your thumb.",
       "sceneTitle": "On the Forest Road",
       "choices": [
         {
           "text": "Carve the swastika",
-          "consequence": "“Carve the swastika” closes one possibility and opens another. The moment leaves a clear note behind: Permanent.",
+          "consequence": "You carve it slow and deep into his forehead and step back to look at the work, and you tell Utivich it might just be your masterpiece.",
           "nextNodeId": "s21"
         },
         {
           "text": "Let him walk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You let him stand up and walk toward the American lines clean, and a man who did all of that goes on to eat lunch in Washington.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Twenty meters tall on smoke and flame, laughing in a language nobody in the cinema lives to translate.",
+      "text": "The screen and the smoke behind it are the same thing now, and her face is twenty meters tall and moving on it, laughing, telling a room full of dying men who she is and who her family was. Nobody down there speaks enough French to follow it. The balcony is coming down. The chandelier lets go. Somewhere under all that noise, a projector is still turning.",
       "sceneTitle": "Shosanna's Face",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "“Watch” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You stay and watch it burn from the first flame to the roof going in, because someone has to, and there is nobody else left to.",
           "nextNodeId": "end_burn"
         },
         {
           "text": "Walk away",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Free.",
+          "consequence": "You turn your back on it and walk out through the rain while the glow behind you throws your shadow forty feet up the street.",
           "nextNodeId": "end_mark"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither. You go looking through the crowd outside for one man in a black uniform, and find he has already driven away.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_burn",
-      "text": "The premier audience does not survive the screening. History tilts. A face in smoke says her own name and means it.",
+      "text": "Nobody who took a seat at that premiere leaves the building. The Reich loses a minister, a high command and a Führer in the space of one reel change, and the war ends on a schedule nobody in London ever drew up. In the ash afterward there is no body to identify and no name in the ledger that means anything. A face made of smoke said her own name out loud, and meant every syllable of it.",
       "sceneTitle": "Cinema On Fire",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_mark",
-      "text": "Landa goes to Washington in a clean uniform with a fresh red swastika on his forehead that no surgeon will ever quite remove.",
+      "text": "Landa arrives in Washington in a pressed uniform with his papers in order and his immunity signed, and steps off the transport into the rest of his comfortable life. Above his eyes, cut through to the bone and healing badly, is a mark that no surgeon on either coast will ever quite take out. He will wear a hat indoors for forty years. Everyone he meets will look, then look away, then look again.",
       "sceneTitle": "The Mark",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You sit in a dark theater with no Nazis in it and you eat strudel without cream and you weep without being seen.",
+      "text": "Years on, you buy a ticket to an afternoon showing in a town where nobody knows you. The theater is half empty and there is not one uniform in it. You sit near the back with strudel from a bakery down the street, no cream, and the lights go down and something silly happens on screen. You cry quietly all the way through it and nobody turns around, which is the entire point.",
       "sceneTitle": "After the War",
       "choices": [],
       "isEnding": true,

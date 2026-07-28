@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The arena is half-football-stadium, half-airport. Nine other contestants stand on circles taped to the ground. A producer in a polo shirt explains the next round with the calm of a man who has watched many people cry.",
+      "text": "The arena is half stadium, half airport hangar — you can hear the air handlers running under the crowd track they're piping in. Nine circles of gaffer tape on the concrete, nine people standing on them, and you on the tenth. A producer in a navy polo explains the next round in the flat voice of a man who has watched four hundred people cry this month. A drone drifts in and holds.",
       "sceneTitle": "Top Ten",
       "choices": [
         {
           "text": "Listen carefully — strategy starts at the rules",
-          "consequence": "Rules are the first weapon.",
+          "consequence": "You lock onto his mouth and stop hearing the crowd track entirely. Somewhere in that phrasing there is a trapdoor, and you intend to find it first.",
           "nextNodeId": "s2"
         },
         {
           "text": "Scan the other nine",
-          "consequence": "People before plans.",
+          "consequence": "You stop listening at 'the next round' and start reading shoulders. Two people are already looking at you exactly the way you are looking at them.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Each round eliminates two. The eliminated are paid a sum. The remaining split the bigger pot. The producers smile when they say 'except this round.'",
+      "text": "Two go home each round. The eliminated get a flat payout — enough to be life-changing for about eleven days. Everyone still standing splits a pot that swells with every empty circle. The producer runs through it twice, patient, generous with detail. Then he adds, with the timing of a man who has rehearsed it, 'Except this round.' Nobody asks. The drone rotates toward the silence.",
       "sceneTitle": "The Rules",
       "choices": [
         {
           "text": "Ask what 'except this round' means",
-          "consequence": "There is no taking “Ask what 'except this round' means” back. Always ask shapes the silence before the next moment arrives.",
+          "consequence": "Your voice is the first one on the tape, which means it lands in the trailer. He answers you with a warm smile and no information whatsoever.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't react — pretend you expected it",
-          "consequence": "Don't tip your nerves.",
+          "consequence": "You keep your face flat and your hands loose. Two contestants glance over to see how frightened they should be, and calibrate downward.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You spot two reliable players — Marisol, who plans, and Devon, who reads people. You also spot one chaos agent named Brad who you suspect was cast for exactly this.",
+      "text": "You take inventory. Marisol counts things under her breath — exits, crates, seconds. Devon watches faces instead of the game and gets to the answer faster. And there is Brad, who has introduced himself twice at volume and called a producer 'chief,' and who was cast for precisely that. Somewhere behind the scaffolding a story producer has a whiteboard with all four of your names on it.",
       "sceneTitle": "Allies",
       "choices": [
         {
           "text": "Form a quiet pact with Marisol and Devon",
-          "consequence": "Allies thrive in small groups.",
+          "consequence": "Three words at the water station and it is done. No handshake, no eye contact, nothing a camera can later cut into a betrayal montage.",
           "nextNodeId": "s4"
         },
         {
           "text": "Befriend Brad first; use his chaos",
-          "consequence": "Sometimes the wild card is your best play.",
+          "consequence": "Brad gives you his entire life in four minutes. You now own a loud, unstable asset that points wherever you last aimed it.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Stack soda crates higher than anyone. The producers have, you notice, given two contestants crates that wobble. Your stack is, mercifully, square.",
+      "text": "Soda crates, waist-high pallets of them, one rule: highest tower still standing at the horn. You are eleven crates in before you spot the sabotage — two players were handed crates with warped bases that rock a half inch under load. Yours sit square. Marisol's do not. She is already three levels up and has not looked down, and the horn is four minutes out.",
       "sceneTitle": "The Stack Round",
       "choices": [
         {
           "text": "Win the round cleanly",
-          "consequence": "Don't draw heat by sabotaging.",
+          "consequence": "You build fast and honest and take it by two crates. Marisol's tower folds at the horn and she smiles at you like she means it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Help Marisol's stack secretly while building yours",
-          "consequence": "Win as a pair.",
+          "consequence": "You shim her base with a crushed can while pretending to steady your own. Camera four caught your hand. You will not learn that for six weeks.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A producer, off-camera, leans in and offers you 'a small advantage' for a brief on-camera tantrum at Brad. You realize the show is, in part, a writers' room.",
+      "text": "Between setups a producer walks you behind the lighting truck, where the mics supposedly are not. He would like thirty seconds of you losing your temper at Brad. Nothing scripted — just honest feeling, aimed. In exchange, a small advantage next round. He says 'small' twice. And there it is: this is not a competition with a story attached. It is a story with a competition attached.",
       "sceneTitle": "Producer's Whisper",
       "choices": [
         {
           "text": "Refuse the producer's offer",
-          "consequence": "“Refuse the producer's offer” closes one possibility and opens another. The moment leaves a clear note behind: Stay clean.",
+          "consequence": "You say no, politely, twice. He shrugs and walks toward the next contestant, and you spend the whole round wondering which of them said yes.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take the advantage and overact mildly",
-          "consequence": "Use them back.",
+          "consequence": "You give him nine seconds of theatre and despise every one of them. The advantage turns out to be a head start you did not need.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A two-story plywood maze with cameras at every turn. The cameras click in a way that suggests they're tracking you in particular. Devon nudges you toward an unmarked door.",
+      "text": "The maze is two storeys of raw plywood and it smells like a lumber yard. Cameras at every corner, and they track — you can hear the servos turning to follow you specifically. Painted arrows mark the sanctioned route. Devon falls into step beside you and tips his chin at a door with no paint on it at all, set flush into the wall like a mistake nobody bothered to fix.",
       "sceneTitle": "The Maze",
       "choices": [
         {
           "text": "Take the unmarked door",
-          "consequence": "Bet on Devon's instincts.",
+          "consequence": "It opens onto a service corridor, cable runs, and a crew member eating a sandwich who does not look up. You come out four turns ahead.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take the marked path and stay legible",
-          "consequence": "Don't trust shortcuts on TV.",
+          "consequence": "You follow the arrows and stay legible the entire way. It costs you ninety seconds and buys you a floor producer who starts telling you things.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Round break. A sponsor wants you on Instagram doing a thirty-second clip with their energy drink. You realize your visibility has, accidentally, become an asset.",
+      "text": "Round break, and a woman with a lanyard and two cases of an energy drink called VOLTIC finds you specifically. Thirty seconds, your feed, your words, and they will boost it everywhere. You run the arithmetic while she talks: three episodes in, you have become something worth renting. The can is warm in your hand. It tastes like a blue raspberry that has never existed in nature.",
       "sceneTitle": "The Sponsor",
       "choices": [
         {
           "text": "Do the clip authentically",
-          "consequence": "Money is also strategy.",
+          "consequence": "You film it straight — one take, honest, mildly rude about the flavour. It clears four hundred thousand views and VOLTIC asks for another by morning.",
           "nextNodeId": "s8"
         },
         {
           "text": "Politely decline; protect your image",
-          "consequence": "Don't dilute your story.",
+          "consequence": "You decline and she is gone in eleven seconds. That night your name is missing from the sponsor tag, and you feel the temperature in the room change.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Six players left. The producers have, terrifyingly, started using everyone's full name. The next round involves trust.",
+      "text": "Six left. The producers have started using full legal names over the loudspeaker, which is how you learn Brad is a Bradley Duquesne and that this has stopped being a game show. The next round is called TRUST — one word, white on black, held on the wall screen four seconds longer than it needs to be. Nobody in the holding room is sitting down.",
       "sceneTitle": "Final Six",
       "choices": [
         {
           "text": "Trust Marisol publicly",
-          "consequence": "Make the pact visible.",
+          "consequence": "You say her name out loud on camera and she goes still for a second before nodding. You have handed her a weapon and taken on a debt.",
           "nextNodeId": "s10"
         },
         {
           "text": "Trust nobody, smile at everyone",
-          "consequence": "“Trust nobody, smile at everyone” closes one possibility and opens another. The moment leaves a clear note behind: Solo posture.",
+          "consequence": "You give everyone the same warm nothing. It works perfectly. By dinner nobody has approached you, including the two people who should have.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Brad pulls a stunt — slips a sleeping pill into someone's water bottle. He thinks it's funny. You realize the producers are not stopping him. They are recording his face.",
+      "text": "You catch Brad crouched by the cooler with a foil blister pack, thumbing a tablet into somebody's marked water bottle. He grins up at you like it is a bit you are both in on. Twelve feet behind him a camera operator has already reframed, tight on Brad's hands, and the floor producer has not said a word. Nobody here is going to stop this. They are going to air it.",
       "sceneTitle": "Brad's Move",
       "choices": [
         {
           "text": "Pour the bottle out before someone drinks it",
-          "consequence": "Conscience is a budget you spend.",
+          "consequence": "You empty it into the gravel and refill from the tap. Brad watches you do it and something in his face drops clean out of character.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell production and let them handle it",
-          "consequence": "Don't be the hero on camera.",
+          "consequence": "You report it. They thank you warmly and do nothing for two hours. The clip airs in episode nine with your name spelled wrong in the caption.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Producers reveal a side quest: each remaining contestant nominates a charity, and a portion of their final winnings will go to it. Suddenly your strategy has a public face.",
+      "text": "New card, new rule. Each of you names a charity, and a slice of whatever you walk out with goes to it — announced live, posted on the board beside your face. Marisol picks a burn unit in Sacramento without hesitating. Devon takes ninety seconds. Then the producer holds the marker out to you, and every strategy you have built acquires, in one move, a public conscience.",
       "sceneTitle": "The Charity Twist",
       "choices": [
         {
           "text": "Pick a charity you actually care about",
-          "consequence": "Lead with truth.",
+          "consequence": "You name the clinic that took your mother in when nobody else would. Saying it aloud on a soundstage nearly takes your legs out from under you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Pick a charity that polls well",
-          "consequence": "Optimize the narrative.",
+          "consequence": "You name the one with the best-known logo and the softest edges. It tests beautifully in the room and sits badly in your chest all night.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Brad, off-camera, breaks down and admits he's broke. The 'chaos' was him trying to be memorable for a sponsorship. He's, suddenly, a person.",
+      "text": "You find Brad behind the generator trailer with his hands on his knees, not performing for anybody. Forty-one thousand in debt, he says, and 'the loud guy' was the only character he could think of that agents actually remember. His hands will not stay still. With the volume gone, what is underneath is a man who did the math on his own life and got it wrong.",
       "sceneTitle": "The Reality of Brad",
       "choices": [
         {
           "text": "Help Brad through it",
-          "consequence": "Even competitors are people.",
+          "consequence": "You sit down on the gravel until his breathing evens out, and neither of you says anything useful. He never runs a bit at you again.",
           "nextNodeId": "s12"
         },
         {
           "text": "Be polite but stay focused",
-          "consequence": "Compassion has limits in a million-dollar game.",
+          "consequence": "You put a hand on his shoulder, say eleven kind words, and go back inside. He is still out there when the horn sounds.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Marisol, you, Devon, and — Brad. The producers love it. The pot has, you realize, become genuinely life-changing.",
+      "text": "Four circles left on the concrete. Marisol. Devon. You. And Brad, who the producers would have written in if he had not shown up on his own. The board updates and the pot crosses into a number that pays off a house, a degree, a decade of somebody's bad luck. You watch three people read it at the same moment and see precisely how badly each of them wants it.",
       "sceneTitle": "Final Four",
       "choices": [
         {
           "text": "Honor the pact with Marisol and Devon",
-          "consequence": "Allies through the ending.",
+          "consequence": "You confirm the pact with a look and hold it. Whatever happens from here, you will be able to watch the episode with your family in the room.",
           "nextNodeId": "s14"
         },
         {
           "text": "Break the pact at the right moment",
-          "consequence": "It is, after all, a game.",
+          "consequence": "You begin choosing your moment — not now, not yet, but soon — and something goes quiet in you that will not come back for a long while.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A reporter — between rounds — wants a comment about a video clip the show might 'leak.' You realize, again, the show is making its own news cycle.",
+      "text": "In the gap between rounds someone from a trade site gets your number and wants a comment on footage the show is 'considering releasing.' You, off-mic, saying something about Brad you do not remember saying. They read it back to you. It is yours. It is out of context and also entirely accurate, which is worse. The piece goes up in four hours either way.",
       "sceneTitle": "The Press",
       "choices": [
         {
           "text": "Give a careful, kind quote",
-          "consequence": "Maintain your shape.",
+          "consequence": "You give them nineteen words that are true, generous and impossible to cut badly. It runs as the headline with the clip playing underneath it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Decline entirely",
-          "consequence": "Power is also silence.",
+          "consequence": "You decline and the story runs without you, which reads on the page as guilt. Your mother calls at midnight to ask whether you are all right.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Stand on a beam. Hold a bag of sand. The first to drop loses. Devon's hands shake first. You can wait him out, or you can give him a graceful exit.",
+      "text": "A steel beam nine inches wide, forty pounds of sand in a canvas bag, and no clock displayed anywhere on purpose. Ninety minutes in, your shoulders have gone from burning to numb to a distant electrical hum. Devon is beside you and his left hand has started to tremble in a way he cannot hide and cannot stop. He turns his head toward you. Two minutes, maybe, to decide.",
       "sceneTitle": "Endurance",
       "choices": [
         {
           "text": "Wait him out",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Game theory.",
+          "consequence": "You hold, and hold, and he goes down at a hundred and four minutes, hard, onto his knees. You keep standing, because dropping now would insult him.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take the dive for him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pact theory.",
+          "consequence": "You let the bag slide before he has to fail on camera. He knows exactly what you did, and he will never once say thank you.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "If you split with Marisol you get less per person. If you break and win solo you get the most. If you break and lose you get the appearance fee. You have one more round to decide.",
+      "text": "You do the arithmetic on a napkin in the holding room and then tear the napkin up, because everything in here is filmed. Split with Marisol: comfortable, clean, a good year. Break and win alone: a different life entirely. Break and lose: the appearance fee, four figures, and a story you would have to tell at parties forever. One round to pick which one you can live inside.",
       "sceneTitle": "The Math",
       "choices": [
         {
           "text": "Stick with the pact",
-          "consequence": "Reputation outlives prize money.",
+          "consequence": "You choose the smaller number and feel your pulse drop for the first time in nine days. Marisol never learns you ran the math at all.",
           "nextNodeId": "s16"
         },
         {
           "text": "Break and run for solo win",
-          "consequence": "Bet on yourself.",
+          "consequence": "You commit to breaking it, and immediately start being warmer to her. That is the part you will remember later, on the nights you cannot sleep.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You and Marisol. The producers have built the moment perfectly. The lights, the music, the audience. She squeezes your hand. The host smiles.",
+      "text": "Two circles. The lights drop to a single hard cone and the score swells like somebody's wedding. The audience is on its feet, the host has the card in his hand, and he is enjoying the pause more than is decent. Marisol's palm finds yours and squeezes once — not a signal, just a person holding onto a person. The host says your full name. Then hers.",
       "sceneTitle": "Final Two",
       "choices": [
         {
           "text": "Propose splitting the pot live on air",
-          "consequence": "Subvert the show.",
+          "consequence": "You say it into a live microphone before anybody can stop you, and eleven thousand people hear the producers fail to answer for four entire seconds.",
           "nextNodeId": "s18"
         },
         {
           "text": "Play the final game for the win",
-          "consequence": "Honor the format.",
+          "consequence": "You let go of her hand and step to your mark. She nods once. The game starts, and there is no version of this where you both win.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You go solo. Marisol is gracious on camera and, you realize, won't be next time. You win the final game. The check is enormous. The flight home is silent.",
+      "text": "You go alone. Marisol is gracious on camera, generous even, and in the twelve seconds after the red light dies she looks at you and files something away permanently. You win the last game by a margin nobody will remember. The check is enormous and made of foam board and weighs less than a chair. On the flight home nobody in your row speaks, and the money is already in escrow.",
       "sceneTitle": "The Solo Path",
       "choices": [
         {
           "text": "Pay Marisol something off the books",
-          "consequence": "Some debts are voluntary.",
+          "consequence": "You wire her a figure you picked at three in the morning. She accepts it without comment and does not follow you back anywhere.",
           "nextNodeId": "s18"
         },
         {
           "text": "Move on — it's a game",
-          "consequence": "There is no taking “Move on — it's a game” back. Compartmentalize shapes the silence before the next moment arrives.",
+          "consequence": "You decide it was a game with rules everyone agreed to. That holds up beautifully until the reunion special seats you two chairs from her.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "On air, you propose a split. The host hesitates. Marisol accepts. The audience goes wild. The producers — eventually — agree because the moment is gold.",
+      "text": "You say it live: split, evenly, both names. The host's face does something the edit will never show — half a second of real panic while he waits on his earpiece. Marisol says yes before the earpiece answers. The room comes apart. Somewhere upstairs a producer works out that this is better television than either of you winning alone, and the lawyers are told to get out of the way.",
       "sceneTitle": "Live Split",
       "choices": [
         {
           "text": "Use your platform after the show for the charity",
-          "consequence": "Honor the bigger thing.",
+          "consequence": "You point every interview back at the burn unit until the questions stop being about you at all. Donations clear a million by March.",
           "nextNodeId": "end_charity"
         },
         {
           "text": "Use your platform for your own next thing",
-          "consequence": "Honor the smaller thing — yourself.",
+          "consequence": "You take the audience with you instead — a channel, a pitch deck, a name people already know how to spell. It feels like momentum, and it is.",
           "nextNodeId": "end_self"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You win. The check is six feet tall. There is confetti. Your knees, suddenly, are jelly. Marisol hugs you because she is, somehow, a better person than the game asked her to be.",
+      "text": "You win. Confetti in your collar, in your mouth, still drifting down twenty minutes later while crew sweep it into gray drifts against the barriers. The check is six feet tall and weighs nothing at all. Your knees pick the exact moment the cameras cut to stop working, and you sit down on the concrete. Marisol reaches you before anyone else and hugs you like the last eleven days never happened.",
       "sceneTitle": "The Win",
       "choices": [
         {
           "text": "Share the win with the people who got you there",
-          "consequence": "Be generous publicly.",
+          "consequence": "You start a list in your phone that night — six names, then nine — before the confetti has even been swept off the floor.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take the win quietly and disappear for a year",
-          "consequence": "“Take the win quietly and disappear for a year” closes one possibility and opens another. The moment leaves a clear note behind: Recover.",
+          "consequence": "You stop answering the group chat somewhere over Nevada and let the silence build a room quiet enough to think in.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The lawyers walk you through wiring instructions in a beige office. The cursor blinks. You decide, with a finger above the trackpad, what kind of person the money is going to make you.",
+      "text": "A beige conference room in Century City. Two lawyers, a laptop turned toward you, a field waiting for a routing number, and a plate of pastries nobody is going to touch. The cursor blinks in the amount box. Whatever you type here becomes the version of you that exists from now on, and everyone at this table has watched somebody type it wrong before.",
       "sceneTitle": "The Wire Transfer",
       "choices": [
         {
           "text": "Cut checks to the people who got you here",
-          "consequence": "There is no taking “Cut checks to the people who got you here” back. Public generosity shapes the silence before the next moment arrives.",
+          "consequence": "You start reading names off your phone and the junior lawyer stops smirking around the fourth one. It takes fifty minutes and you enjoy all of them.",
           "nextNodeId": "end_share"
         },
         {
           "text": "Send one to your mother and disappear for a year",
-          "consequence": "There is no taking “Send one to your mother and disappear for a year” back. Private decompression shapes the silence before the next moment arrives.",
+          "consequence": "One transfer, one number, and you close the laptop mid-sentence. The lawyers look at each other. You are on a northbound bus by six.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_charity",
-      "text": "You spend the year touring with the charity. The money goes where you said it would. The follower count drops back down. You are, oddly, happier without the metrics. You write the producers a thank-you that is also goodbye.",
+      "text": "You spend the year in the passenger seat of somebody else's van, working the burn unit's fundraisers, learning the names of nurses in four states. The money goes exactly where you said it would, audited and boring and enormous. Your follower count slides back down to the number it started at, and you find you sleep better without watching it move. In December you write the producers a letter that thanks them honestly and is, unmistakably, a goodbye.",
       "sceneTitle": "The Charity Year",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_self",
-      "text": "You launch a small show of your own — kinder, weirder, less zero-sum. It does fine. It does, in time, very well. The Beast producers, surprisingly, recommend you to a network.",
+      "text": "You build something smaller and stranger — six people, one room, nobody eliminated, a budget that would embarrass a Beast Games catering line. Season one does fine. Season two does well. Season three has a waiting list eight hundred names long. Two years on, a Beast producer you never much liked puts your name in front of a network unprompted, because the format works and because he watched you split a pot on live television and never quite got over it.",
       "sceneTitle": "Your Own Show",
       "choices": [],
       "isEnding": true,
@@ -415,7 +415,7 @@
     },
     {
       "id": "end_share",
-      "text": "You write checks — to Marisol, to Devon, even to Brad. You pay your mother's house off. You set up a small fund for kids who applied to be on the show and didn't make it. It feels, you realize, like winning twice.",
+      "text": "You write checks. Marisol, who says nothing and cashes it. Devon, who calls. Brad, who cries on the phone for four minutes and then apologizes for four more. You pay off your mother's house in a single wire and she has to sit down on the porch step. Then you set aside a fund for kids who reached final casting and got cut — small grants, no cameras, no application video. It lands like winning a second time.",
       "sceneTitle": "Sharing the Win",
       "choices": [],
       "isEnding": true,
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You disappear for a year. You hike, you sleep, you read books that are not self-help. When you come back you are a person who happened to win a thing once. You are, finally, not the contestant. You are you.",
+      "text": "You send your mother a number that ends her mortgage, and then you are gone. Twelve months of trail miles, cheap motels, and paperback novels with no takeaways in them. You gain nine pounds and lose the flinch you had developed around drones. When you come back you are a person who won a thing once, the way somebody once ran a marathon. Not contestant #482. Not a story arc. Just you, at normal volume.",
       "sceneTitle": "The Quiet Year",
       "choices": [],
       "isEnding": true,

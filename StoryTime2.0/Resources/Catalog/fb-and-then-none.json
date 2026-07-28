@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Wind, salt, the island ahead.",
+      "text": "Eight of you cross in a motorboat that smells of petrol and fish, and a boatman who answers nothing. Nobody has met the host. Nobody can even agree on the host's name — Owen, O'Nyme, U.N. Owen — and each of you quietly assumes somebody else knows. The island rises out of the swell, low and bare, a white modern house on it like a dropped sugar cube.",
       "sceneTitle": "The Boat",
       "choices": [
         {
           "text": "Make conversation",
-          "consequence": "The decision settles the question for now. Its verdict—Civil—follows you into whatever comes next.",
+          "consequence": "You collect six names, two professions and one lie within ten minutes. You do not yet know which was the lie.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You watch instead of talking, and notice that not one of them can say plainly how they came to be invited.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Servants who don't know the host either.",
+      "text": "Rogers and his wife take the luggage and apologise: engaged by letter, paid in advance, and they have never laid eyes on their employer either. The house is aggressively new — chrome, white walls, no attic, no cellar, nowhere in it to hide so much as a coat. On the dining table stands a circular glass base holding ten small china soldiers.",
       "sceneTitle": "The House",
       "choices": [
         {
           "text": "Note the figurines",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You count them without meaning to. Ten. The number sits down in your chest and refuses to settle.",
           "nextNodeId": "s3"
         },
         {
           "text": "Don't note",
-          "consequence": "“Don't note” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You take them for a decorator's whim and go up to dress for dinner. Later you will try very hard to remember whether it was ten.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Ten places. Ten people. A record begins to play.",
+      "text": "Ten places, ten guests, and a dinner that is genuinely excellent, which somehow makes everything worse. The talk loosens. Someone jokes that the host is enjoying being mysterious rather too much. Then Rogers, following written instructions to the letter, sets a gramophone record turning in the next room and lowers the needle — and a voice with no body in it fills the house.",
       "sceneTitle": "Dinner",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "There is no taking “Listen carefully” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You catch the exact phrasing and the order of the names. That order will turn out to matter more than anything else said tonight.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't listen",
-          "consequence": "There is no taking “Don't listen” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You are still reaching for the wine when your own name comes out of the wall.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The recording names each of you and an old death.",
+      "text": "The voice names each of you in turn, and after each name, a death — a patient, a passenger, a child, a native bearer, a boy who drowned within sight of shore. It is precise about dates. It is precise about the parts that never reached a courtroom. When it stops there is a silence in which ten people understand simultaneously that they are not here by accident and that nobody is coming.",
       "sceneTitle": "Accusations",
       "choices": [
         {
           "text": "Object",
-          "consequence": "“Object” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You say it is monstrous, and it is, and saying so puts your voice in the room where everyone can weigh it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay silent",
-          "consequence": "You commit to “Stay silent.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You say nothing whatsoever, which nine people notice, and you spend the rest of the evening being watched.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "He laughs, drinks, falls dead. Cyanide.",
+      "text": "Marston — young, handsome, entirely untroubled by having killed two children with a car — laughs the whole thing off, calls it a filthy joke, and refills his glass. He puts it down in one swallow. Then his face goes the wrong colour, his throat locks, and he is dead on the carpet before anyone can reach him. Cyanide, says the doctor, in a voice that has stopped being a doctor's.",
       "sceneTitle": "Anthony Marston",
       "choices": [
         {
           "text": "Note the cyanide source",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You look at the glass, then the decanter, then the nine faces around it. Somebody in this room poisoned one of those three things.",
           "nextNodeId": "s6"
         },
         {
           "text": "Mourn",
-          "consequence": "You commit to “Mourn.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You feel something like grief for a man you disliked on sight, and you are the only person in the room who does.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Found dead in her bed.",
+      "text": "Mrs. Rogers does not come down to cook breakfast. Rogers finds her in her bed, cold, having never woken at all — chloral, far too much of it, in the brandy her own husband handed her the night before. He stands in the doorway with the tray still in his hands. And on the glass base in the dining room there are now eight soldiers where last night there were ten.",
       "sceneTitle": "Mrs. Rogers",
       "choices": [
         {
           "text": "Note the figurines have lost two",
-          "consequence": "You commit to “Note the figurines have lost two.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You say it out loud and watch what each face does. Nine people look at the stand. One of them already knew.",
           "nextNodeId": "s7"
         },
         {
           "text": "Don't note",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep it to yourself — which means you are now holding a secret in a house where secrets are being executed one a day.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You search the island. No one else here.",
+      "text": "You go over the island end to end: every gully, every cleft, the boathouse, the roof, the water tank. It takes a full day. There is nowhere for a man to lie up — no cave, no cover, not one tree. When you come back in, the conclusion has already arrived ahead of you and is waiting in the hall. U.N. Owen is one of the seven people still breathing.",
       "sceneTitle": "Search",
       "choices": [
         {
           "text": "Search again",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You do it a second time, alone, more slowly. You find nothing, and the nothing is now a fact you can build on.",
           "nextNodeId": "s8"
         },
         {
           "text": "Settle in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You accept it and sit down to lunch with the murderer, and pass the salt, and say thank you.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "He sits by the sea waiting for it.",
+      "text": "The General has stopped pretending. He sits out on the rocks above the sea with his back to the house, perfectly calm, and tells anyone who comes near that it is a relief, that the end is coming, and that he has been waiting for it since 1917. He does not want talking out of it. He wants to be left alone with the sound of the water.",
       "sceneTitle": "General Macarthur",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "“Sit with him” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You sit down on the wet rock beside him and say nothing useful, and he is grateful. It is the last kindness done on this island.",
           "nextNodeId": "s9"
         },
         {
           "text": "Leave him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You leave him to it. When they come for him at dinnertime the back of his head has been broken in from behind.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Found chopped, in the woodshed.",
+      "text": "Rogers goes out early to split kindling for the fires, because that is what he does, and habit is the last thing in a servant to die. He is found in the woodshed with the axe still standing in him. Nobody heard a thing. Everybody was awake. Every person in the house claims to have been alone at the time, and not one of those claims can be tested.",
       "sceneTitle": "Rogers",
       "choices": [
         {
           "text": "Suspect Vera",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You start with yourself, honestly, and discover you cannot account for eleven minutes of your own morning.",
           "nextNodeId": "s10"
         },
         {
           "text": "Suspect Blore",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "The ex-policeman is too calm, too observant, too comfortable — which is either guilt or thirty years of the job.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "She sits in a chair, a wasp behind her.",
+      "text": "Miss Brent is left alone at the breakfast table for ten minutes, because she prefers it that way. When you come back she is upright in her chair, hands folded in her lap, entirely composed, and dead. There is a mark on the side of her neck and a bee droning against the pane — and somebody has been into Armstrong's case, because one hypodermic syringe is missing.",
       "sceneTitle": "Emily Brent",
       "choices": [
         {
           "text": "Examine the syringe",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You find it later on the lawn beneath the window, wiped clean and thrown out like a cigarette end. Whoever did this is not panicking.",
           "nextNodeId": "s11"
         },
         {
           "text": "Bury her",
-          "consequence": "You commit to “Bury her.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You do the decent thing and lay her out properly — and doing it takes you out of the room, and leaving rooms is how people die here.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He proposes search procedure. He is, you note, in charge.",
+      "text": "Justice Wargrave takes charge as though a courtroom had assembled itself around him, and because he is what he is, every one of you lets him. He proposes procedure: a search of all rooms, every drug and weapon locked in the plate cupboard, one key to Lombard, nobody alone after dark. It is calm, sensible and entirely correct. It is also the first moment you notice how completely he is enjoying himself.",
       "sceneTitle": "Wargrave",
       "choices": [
         {
           "text": "Follow",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You do as the judge says, because the judge is right. Obedience feels a great deal like safety and is not.",
           "nextNodeId": "s12"
         },
         {
           "text": "Question",
-          "consequence": "There is no taking “Question” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You ask aloud who gave him the bench here, and the room turns on you rather than on him. You have made yourself interesting.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He has a revolver. Vera asks for it.",
+      "text": "Lombard has a revolver, which he never declared, and which he now cheerfully admits to bringing because he was hired by a man he never met to come armed to an island for a hundred guineas. Then it vanishes from his room. Then it comes back. He passes it round the drawing room like a party trick, watching each of you decide whether to reach for it.",
       "sceneTitle": "Lombard",
       "choices": [
         {
           "text": "Hold it yourself",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "The weight of it in your pocket changes how six people look at you, and how you look at all six of them.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let him keep it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You let him keep the only weapon on the island. It is either trust or cowardice and you cannot tell which.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Apparently. A wig and a robe. A staged death.",
+      "text": "He is found in his chair in the hall with a scarlet curtain draped over his shoulders and a hank of grey wool set on his head — a judge in robe and wig — and a neat round hole in his forehead. Armstrong bends over him, straightens up, and pronounces him dead. Armstrong is the only doctor left alive. Armstrong is therefore the only person who could possibly check.",
       "sceneTitle": "Wargrave Shot",
       "choices": [
         {
           "text": "Inspect the body",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You want to lift the wig yourself and you do not, because the doctor is standing right there and it would be rude. Manners will kill you on this island.",
           "nextNodeId": "s14"
         },
         {
           "text": "Trust Armstrong",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Naive.",
+          "consequence": "You take the doctor's word for it, because taking the doctor's word is what people do, and the judge sits quietly under his curtain and waits.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He disappears in the night.",
+      "text": "Four of you left. In the night you hear a door, then gravel, then nothing at all. Armstrong's bed has not been slept in and his shoes are gone from the hall. You search the island in grey light and find no doctor, living or dead — only the sea coming in hard on the south side and a shelf of rock where the spray goes clean over the top.",
       "sceneTitle": "Armstrong, Missing",
       "choices": [
         {
           "text": "Don't trust the seas",
-          "consequence": "There is no taking “Don't trust the seas” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say the thing nobody wants said: he might have gone into that water deliberately, and he might be coming back out of it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Search the cliffs",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You work the cliffs with Blore for two hours and turn up one boot print at the tide line, pointing the wrong way.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "A statue dropped from above.",
+      "text": "Blore goes back up to the house alone because he is hungry and refuses to be frightened by an empty building in broad daylight. You and Lombard hear it from the terrace, a crash like furniture going over — and find him in the gravel below his own window with his skull crushed by a marble clock made in the shape of a bear. The window above is open. The room behind it is empty.",
       "sceneTitle": "Blore Killed",
       "choices": [
         {
           "text": "Suspect Lombard",
-          "consequence": "There is no taking “Suspect Lombard” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "He was standing beside you when it happened. Which is either an alibi, or the entire reason he was standing beside you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Suspect Vera",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You go back over your own last hour and cannot swear to any of it, and that is the moment this island really begins.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "On the rocks. Wet. Dead before he was wet.",
+      "text": "The sea gives him back on the rocks at the south point, rolled in by the tide, swollen and cold. You and Lombard drag him clear of the water together, and you both notice the same thing in the same second and neither of you says it aloud: the body is soaked through, but the man was dead well before he went in. There are two of you left. One of you did this.",
       "sceneTitle": "Armstrong Found",
       "choices": [
         {
           "text": "Trust nobody",
-          "consequence": "There is no taking “Trust nobody” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You walk back up to the house six feet apart, side by side, neither one of you turning your back for a moment.",
           "nextNodeId": "s17"
         },
         {
           "text": "Trust Lombard",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You decide it cannot possibly be him. You have decided this about a man before, and it is precisely why you are on this island.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "She shoots Lombard. She walks back to the house.",
+      "text": "On the terrace you go for the revolver in his pocket and you get it, because he underestimates you, because every one of them always has. He lunges. You shoot him through the heart at four feet and he goes over backwards onto the flagstones — and the relief that comes up through you is enormous and clean and horrifying. It is finished. You have won. You walk back into the house alone.",
       "sceneTitle": "Vera's Shot",
       "choices": [
         {
           "text": "Climb the stairs",
-          "consequence": "There is no taking “Climb the stairs” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You go up because you are exhausted and there is a bed up there. And because something in the house would very much like you to.",
           "nextNodeId": "s18"
         },
         {
           "text": "Step out",
-          "consequence": "There is no taking “Step out” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You stand in the doorway a long moment looking at the body on the flagstones, then turn and go inside anyway.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "A chair, a hook. Wargrave has prepared the room.",
+      "text": "Your room has been arranged for you. The chair is set out square in the middle of the floor. There is a hook in the ceiling that was not there this morning, and a rope through it, and a noose finished off neatly at the end. The whole room smells of the sea, of Cyril, of the afternoon you let a small boy swim out past the rock. Somebody has thought about you very carefully.",
       "sceneTitle": "The Noose",
       "choices": [
         {
           "text": "Resist",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You fight it for eleven whole seconds, which is longer than most people manage against their own conscience.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step on the chair",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You climb up, because the room has been built to make it feel like the sensible next thing to do — and it does.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "A note in a bottle. The judge has, on principle, judged.",
+      "text": "Weeks later a trawler brings up a bottle with a document inside, written in the judge's own hand for one reason only: a perfect crime is worth nothing at all if nobody ever learns how good it was. He had a terminal diagnosis and a lifelong appetite for punishment he could never quite hand down from the bench. Armstrong helped him stage the wig and the curtain. Then Armstrong went off the cliff.",
       "sceneTitle": "Wargrave's Confession",
       "choices": [
         {
           "text": "Read it slowly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You read it through twice. The pleasure in the handwriting is worse than any of the deaths it describes.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stop reading",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You put it down halfway. The half you did not read is the half that explains you.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A storm passes. Boats arrive.",
+      "text": "The storm blows itself out and the boats finally come: police, doctors, a photographer, men in wet overcoats walking through a house containing ten dead people and no eleventh. Every door was bolted from the inside. Every gun and every drug is accounted for. The chair in the upstairs bedroom has been set neatly back against the wall by somebody, and there is no explanation for that at all.",
       "sceneTitle": "Sea Police",
       "choices": [
         {
           "text": "Tell the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "Somebody has to write the report, and the report has to say plainly that the arithmetic does not work.",
           "nextNodeId": "s21"
         },
         {
           "text": "Withhold",
-          "consequence": "There is no taking “Withhold” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "It goes down as unsolved, which is tidier for everyone concerned and true to nobody.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Wargrave's confession surfaces. The case, eventually, is closed.",
+      "text": "The file stays open a year and closes without an answer, and the case becomes the sort of thing men argue about in pubs. Then the bottle surfaces, and the judge gets what he actually wanted all along: an audience. The rhyme is reprinted in every paper in England. Ten little soldiers. The island is bought and sold twice over, and nobody ever lives on it again.",
       "sceneTitle": "The Bottle, Found",
       "choices": [
         {
           "text": "Note the artifice",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You see it now for exactly what it was — a performance staged for the reader of a document its author could not live to see opened.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Forget it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You put it out of your mind for good. Or you try to, which is a different thing entirely.",
           "nextNodeId": "end_island"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Somebody had to be the man who pulled that bottle out of the net, and that man has a life afterward too.",
           "nextNodeId": "end_inspector"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_book",
-      "text": "The case is, in time, closed. The book is, in time, opened by readers in every country. The rhyme outlives every culprit.",
+      "text": "The case closes and the story does not. Wargrave gets precisely the immortality he designed for himself: a locked-room puzzle so clean it becomes the standard every other one is measured against. The rhyme outlives the judge, the island, the police who worked it and the reporters who ran it. Children learn the counting song without ever knowing what it was counting, and the last line still lands the same way in every language it is carried into.",
       "sceneTitle": "The Bottle Surfaces",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_island",
-      "text": "Soldier Island becomes a small ruin. Boats pass. Tourists come, sometimes, with a camera and a copy of the book.",
+      "text": "Soldier Island goes to ruin at its own unhurried pace — the white walls stain, the chrome pits, the terrace lifts and splits where the frost gets underneath. Boats pass and slow down. Now and then someone comes ashore with a camera and a paperback and stands in the dining room where the glass base used to be, counting an imaginary row of soldiers down from ten, feeling exactly as clever and exactly as small as everyone who did it before them.",
       "sceneTitle": "The Island, Empty",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_inspector",
-      "text": "Maine, who finds the bottle, becomes mildly famous. He retires with a small pension. He tells the story exactly twice in his life, both at funerals.",
+      "text": "Maine, who cuts the bottle out of the net and reads what is folded inside it, is briefly the most quoted policeman in England. Then the papers move on to something else. He goes back to work, gets his promotion two years late, and retires on a small pension to a house near water he no longer especially likes looking at. He tells the story exactly twice more in his life, both times at funerals, both times badly — and both times somebody in the room goes very quiet and does not sleep that night.",
       "sceneTitle": "Inspector Maine",
       "choices": [],
       "isEnding": true,

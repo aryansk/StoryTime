@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Clarisse walks beside you. She asks questions.",
+      "text": "Kerosene has been on your hands so long you have stopped smelling it; it is simply what evening smells like now. The girl walks backwards ahead of you on the sidewalk, seventeen, no seashell in her ear, and asks whether you ever read the books before you burn them. Then she asks the worse one. Are you happy? The word will not fit anywhere you try to put it.",
       "sceneTitle": "Sidewalk",
       "choices": [
         {
           "text": "Answer",
-          "consequence": "You commit to “Answer.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You answer badly, out loud, and hear your own voice doing something it hasn't done in years — hunting around for a word that isn't already a slogan.",
           "nextNodeId": "s2"
         },
         {
           "text": "Be brief",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You give her four syllables and the professional smile, and she takes it and walks on, rubbing a dandelion under her chin as if that settled something.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Mildred has the seashells in her ears.",
+      "text": "The bedroom is cold as a tomb and lit only by the faint hiss of the seashells. Mildred lies with the little radios pressed into both ears, tide coming in all night — talk, music, a man selling something, never one second of silence. You say her name twice. She smiles at the ceiling at something you cannot hear. There is an empty bottle by the bed that you decide not to count.",
       "sceneTitle": "Home",
       "choices": [
         {
           "text": "Speak to her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You tell her about the girl and the dandelion, and she asks whether the fourth parlour wall can be installed before autumn if you both save.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stop",
-          "consequence": "“Stop” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You stop mid-sentence and stand in the dark listening to two tiny oceans two feet apart, and you do not try again for six weeks.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "An old woman's house. Books in the attic.",
+      "text": "The bell goes at two in the morning and the Salamander takes the corner at seventy with the four of you hanging off the rail. An old house on Elm, phoned in by a neighbour, and a woman standing in her own doorway not running. Upstairs, the attic: books stacked to the rafters, spines split, the smell of them coming down the staircase — dust, wallpaper paste, something faintly like nutmeg.",
       "sceneTitle": "Alarm",
       "choices": [
         {
           "text": "Try to save them",
-          "consequence": "There is no taking “Try to save them” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You get one hand under a cover and your fingers close on it without instruction from you, and the whole arm goes hot with the knowledge of what you have just done.",
           "nextNodeId": "s4"
         },
         {
           "text": "Burn",
-          "consequence": "There is no taking “Burn” back. Job shapes the silence before the next moment arrives.",
+          "consequence": "You bring the hose up and do the work, and the nozzle bucks the way it always bucks, and for once the number on your helmet feels like nothing but a number.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "She stays with her books.",
+      "text": "The men are on the stairs with kerosene rainbowing over everything when she takes a kitchen match out of her apron pocket. She says one sentence you do not understand, about candles and men and somebody named Latimer, strikes the match on the rail, and does not move. Beatty walks out. You walk out. The heat comes through the front window and reaches you across the whole width of the lawn.",
       "sceneTitle": "She Strikes the Match",
       "choices": [
         {
           "text": "Carry one home in your pocket",
-          "consequence": "You commit to “Carry one home in your pocket.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "The book rides under your coat against your ribs, blazing hot and perfectly still, and it stays there through the drive back, the shower, and the entire night.",
           "nextNodeId": "s5"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You take nothing, and the emptiness under your coat on the way home turns out to be considerably worse than any book would have been.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Your captain. He quotes more than he should. He warns you.",
+      "text": "Captain Beatty sits on the end of your bed with his poker face and quotes Shakespeare, Pope, and half a dozen others, because he has read everything and burned it all afterwards on purpose. He supplies the history helpfully: nobody banned books, people simply stopped, and the firemen only arrived at the end to keep the peace. He knows about your ribs. He is giving you a day.",
       "sceneTitle": "Beatty",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You lie still and let him talk for an hour and take in every word of it, and the education is genuine and the intention is a threat.",
           "nextNodeId": "s6"
         },
         {
           "text": "Argue",
-          "consequence": "“Argue” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You argue back with three sentences you cannot support, watch him enjoy it enormously, and hand him confirmation of exactly what he came to check.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Pumps, technicians, fluorescent dawn.",
+      "text": "Two operators arrive with the machine — a long snake down the throat and a pump beside the bed. Fifty dollars, nine minutes. They handle nine or ten of these a night, they say, and one asks for a cigarette while the other watches the level in the glass. They are not doctors. They are not nurses. The room goes fluorescent and everything in it looks like it is underwater.",
       "sceneTitle": "Mildred Dosed",
       "choices": [
         {
           "text": "Hold her hand",
-          "consequence": "“Hold her hand” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You hold her hand while a machine drinks out her stomach and she never knows you are there, and by morning she is hungry and cheerful and denies all of it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Step out",
-          "consequence": "There is no taking “Step out” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You go out into the yard and stand under a sky with stars in it you have not looked at since you were a boy, and let strangers finish saving your wife.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Run over, they say. The street is the suspect.",
+      "text": "Four evenings without her on the corner and you find yourself checking the sidewalk like a man patting his pockets for keys. Mildred says it flatly over the parlour noise: run over, a car, four nights ago, family moved away. She thinks she already told you. Cars do a hundred on that road and nobody has walked anywhere in years, so the street itself is the suspect and will not be charged.",
       "sceneTitle": "Clarisse Gone",
       "choices": [
         {
           "text": "Mourn",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stand in her empty front garden where the dandelions still are and let it land, and it arrives with an entire way of living attached that you no longer have access to.",
           "nextNodeId": "s8"
         },
         {
           "text": "Move on",
-          "consequence": "There is no taking “Move on” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You put her out of your head with real professional discipline, and she keeps turning up anyway — at intersections, over breakfast, any moment a hose isn't in your hands.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "An old English professor in a quiet apartment.",
+      "text": "Faber's apartment smells of nutmeg and old paper. He is a retired English professor with the hands of a man who has been frightened for forty years, and the first thing he does is call himself a coward for it. Books are not the point, he says. The point is the pores in them, the texture, the leisure to think it over afterwards, and the right to act on what you thought.",
       "sceneTitle": "Faber",
       "choices": [
         {
           "text": "Recruit him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You put the proposition to him — printers, planted books, firemen's own houses burning — and he goes white, calls it madness, and immediately starts asking about logistics.",
           "nextNodeId": "s9"
         },
         {
           "text": "Listen",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You sit and listen for three hours, and it is the first conversation of your adult life in which nobody once told you what to feel.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "He gives you a small radio. He'll be in your ear.",
+      "text": "He gives you a green capsule the size of a bullet that seats in the ear canal and carries sound both ways. He has been building them for two years and has never had anybody to give one to. 'I'll be with you,' he says, 'and I'll be a coward in your ear, which is better than nothing at all.' You put it in. His breathing arrives, tiny and very close.",
       "sceneTitle": "The Earpiece",
       "choices": [
         {
           "text": "Wear it",
-          "consequence": "“Wear it” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You wear it into the firehouse next shift and hear an old man breathing three miles off while Beatty deals cards, and you have never felt less alone or more exposed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You hand it back, because a voice in your ear is one more thing that can be found on you, and you walk out with nothing in there but your own blood.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Mildred's friends. You read them poetry.",
+      "text": "Mrs Phelps and Mrs Bowles come for the parlour and stay for the drink. One has had two husbands and two Caesareans and cannot recall a single day of any of it; the other's man is off to a war they have promised will last forty-eight hours. You shut the walls down. You take the book out. You read them a poem about ignorant armies fighting in the dark.",
       "sceneTitle": "Dinner Party",
       "choices": [
         {
           "text": "Read it gently",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You read it quietly, almost apologetically, and Mrs Phelps begins crying with no idea why, and hates you for it before she has finished.",
           "nextNodeId": "s11"
         },
         {
           "text": "Read it loud",
-          "consequence": "You commit to “Read it loud.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You read it like a man throwing furniture down a staircase, and both women are on their feet by the last line, and one calls the alarm in from her own beetle.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Mildred has called it in.",
+      "text": "The Salamander stops in front of your own lawn and Beatty hands you the flamethrower with genuine pleasure on his face. Mildred comes down the walk past you with a suitcase, saying something about her family in the parlour needing her, gets into a beetle, and does not look at you once over the whole length of the path.",
       "sceneTitle": "Alarm at Your House",
       "choices": [
         {
           "text": "Burn the parlor walls first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Anger.",
+          "consequence": "You take the walls first — three of them, the family, the faces — and they go up with a sound like a wet sheet, and it is the most satisfying work of your career.",
           "nextNodeId": "s12"
         },
         {
           "text": "Burn the books only",
-          "consequence": "There is no taking “Burn the books only” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You do the bedroom and the books and leave the walls dark, and Beatty makes you go back and finish them slowly while he stands there watching.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He, almost, asks you to kill him.",
+      "text": "He keeps you standing in the smoke, talking, quoting both sides of every argument to demonstrate that words cancel each other out. Then he strikes you across the head, the green capsule falls into the grass, and he picks it up and says he will trace it tonight to whoever is on the other end. Your safety is off. He can see that your safety is off.",
       "sceneTitle": "Beatty's Hint",
       "choices": [
         {
           "text": "Pause",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You hold for one breath, and he sees you hold, and he steps in closer and dares you again with his eyes, because he has been wanting this for a very long time.",
           "nextNodeId": "s13"
         },
         {
           "text": "Strike",
-          "consequence": "There is no taking “Strike” back. Anger shapes the silence before the next moment arrives.",
+          "consequence": "You burn him where he stands, and the terrible part is not the sound he makes — it is the half-second of pure relief that arrives before the sound does.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "He falls.",
+      "text": "He goes over backwards in the shape of a man interrupted mid-sentence. The two firemen you have worked beside for years stand there like furniture. Then the Hound comes across the lawn on its eight legs with the needle already out; you take its head off with the flame, but it reaches your calf first, and the leg turns into a block of dead pine below the knee.",
       "sceneTitle": "Beatty Burned",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You run on a leg you cannot feel, badly, dragging it behind you, and every parlour wall on the street is already carrying the chase live.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stand",
-          "consequence": "There is no taking “Stand” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You stand four full seconds in your own front yard with a body at your feet, and then the ruined leg makes the decision on your behalf.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The mechanical hound on your trail.",
+      "text": "There is a second Hound, and it is being walked along your scent by men who have never once come home without somebody. Helicopters overhead. Every house on the block has its walls tuned to the pursuit, which means half the city is watching you from inside their living rooms, and therefore half the city is not looking out of a window.",
       "sceneTitle": "Hound",
       "choices": [
         {
           "text": "River",
-          "consequence": "There is no taking “River” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You go for the river, because moving water kills a scent and because the Hound is a nose on legs and has never been anything else.",
           "nextNodeId": "s15"
         },
         {
           "text": "Subway",
-          "consequence": "You commit to “Subway.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You take the subway two stops with a jingle drilling your skull into gravel, and come up gasping four blocks from the water anyway.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You float downriver. Stars.",
+      "text": "You go in wearing Faber's clothes to break the scent, and the cold takes your breath in a single grab. Then the current has you, and the noise of the pursuit thins out, and stops. On your back, moving, you see stars for the second time this month. The Hound loses you somewhere behind. The city loses you. The moon comes up over the far bank and there is nothing burning anywhere.",
       "sceneTitle": "River",
       "choices": [
         {
           "text": "Sleep on the bank",
-          "consequence": "“Sleep on the bank” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You crawl out into wet grass and sleep like a dropped stone, and wake at dawn to hay, a cow somewhere, and not one molecule of kerosene in the world.",
           "nextNodeId": "s16"
         },
         {
           "text": "Walk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep walking the old rail line in soaked clothes until your feet blister, because stopping means thinking, and thinking is what you have been postponing since the sidewalk.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Old men around a fire. Each is a book.",
+      "text": "A fire, and the wrong kind of fire — small, contained, built for warmth, a use you have literally never seen. Five men sit around it with a portable television, watching the manhunt end in somebody else's death, an innocent walker picked up for the cameras. They pour you coffee. Each of them, they explain, is a book: the whole text held in the head, kept warm, waiting.",
       "sceneTitle": "The Camp",
       "choices": [
         {
           "text": "Become one",
-          "consequence": "You commit to “Become one.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You offer what is in your head, which amounts to some pages of Ecclesiastes and a rattle of toothpaste jingle, and Granger says the jingle will fade out eventually.",
           "nextNodeId": "s17"
         },
         {
           "text": "Just listen",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You say you are not ready to be anything yet and just sit there, and nobody presses you, and the coffee is the best thing you have ever tasted.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "He recites Plato. He laughs.",
+      "text": "Granger was a writer. The man opposite is Plato; the one at the pot is a chapter of Schweitzer; there is a tramp somewhere in Ohio carrying the whole of Thoreau. Granger's grandfather made things with his hands and told him the object was to leave something behind with your own shape on it. Then he laughs, mostly at himself, and puts the last of the wood on.",
       "sceneTitle": "Granger",
       "choices": [
         {
           "text": "Become Ecclesiastes",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You take Ecclesiastes, or what you can recover of it, and begin the long work of prising it back out of a mind trained for forty years to hold nothing.",
           "nextNodeId": "s18"
         },
         {
           "text": "Become Job",
-          "consequence": "You commit to “Become Job.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You take Job, and the others glance at each other, and Granger says only that you will want it, and declines to explain why.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The city, behind you, is in light. Then it is dust.",
+      "text": "The jets are past before the sound of them arrives. Then the city, thirty kilometres back, becomes one white shape and holds that shape for a long moment before it stops being anything at all. The shock crosses the field as dust and a slap of warm air, and every man around the fire goes flat into the grass without a word being exchanged about it.",
       "sceneTitle": "Bombs",
       "choices": [
         {
           "text": "Mourn",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You lie in the dirt with your mouth open and grieve for an entire city that you spent your working life setting fire to one house at a time.",
           "nextNodeId": "s19"
         },
         {
           "text": "Walk on",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You get up first, brush off your knees, and start walking, because there is a road out there and by noon there will be people on it needing something to hold.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You realize she likely was watching the parlor when it ended.",
+      "text": "She would have been in a hotel room with the walls turned up, leaning toward them, asking the family a question. You try to remember where the two of you met — Chicago, you think — and cannot get it back, and that failure is the most honest fact you possess about the marriage. In the last second she may have seen her own face reflected in the wall.",
       "sceneTitle": "Mildred, Probably",
       "choices": [
         {
           "text": "Forgive her",
-          "consequence": "You commit to “Forgive her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You forgive her, which turns out to mean admitting she was handed nothing to be, and that you never once put an alternative in front of her.",
           "nextNodeId": "s20"
         },
         {
           "text": "Don't",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You don't, and carry it for years, and the not-forgiving is really only the shape you have found for not forgiving yourself.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Granger talks of the bird that burns and returns.",
+      "text": "Granger talks about the bird that builds its own pyre and climbs back out of the ash every few centuries to do the whole thing again. The difference between the bird and us, he says, is that we know we are doing it — we have the mirror and the memory — and one day we might get around to looking in it before we strike the match rather than after.",
       "sceneTitle": "Phoenix",
       "choices": [
         {
           "text": "Hope",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You take the hope carefully, the way you would carry water in cupped hands, because it is the only tool anybody here has offered you that is not a hose.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep the doubt, and Granger has no objection — he says the ones who doubt are the ones who can be relied on to check the mirror.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You walk back toward the ash. People will need words.",
+      "text": "First light. Smoke standing straight up over the place the city was. The men shoulder their packs and start along the rail line toward it, because there will be survivors on the road by noon and they will want something to put in their hands. You have a book in your head and nothing in your pockets. Somewhere in you is a verse about a time to break down and a time to build up.",
       "sceneTitle": "The Road",
       "choices": [
         {
           "text": "Walk",
-          "consequence": "You commit to “Walk.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You fall in beside Granger and are walking toward the ash before you have consciously decided to, and the leg that healed wrong keeps up anyway.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Stay another night",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You stay one more night by the water with the fire kept small, saying your book aloud to nobody until the sentences run through without stumbling.",
           "nextNodeId": "end_writer"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You let the others go ahead and settle on the bank, and by evening two families have camped near you and are asking what you know.",
           "nextNodeId": "end_river"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_book",
-      "text": "You become the book inside you. You recite it, slowly, to children. They learn it. They will, in time, recite it to other children.",
+      "text": "You become the thing you are carrying. In a town rebuilt out of scrap you say Ecclesiastes aloud once a week to children who have never seen a printed page, and they say it back at you until it belongs to them. One of them, at nine, corrects you on a line, and is right. That is the entire method: no paper, nothing to burn, a book kept in the one place a fireman was never issued equipment for.",
       "sceneTitle": "Becoming Ecclesiastes",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You and Granger, eventually, write a new book together. It is, mostly, a list of the books that were lost. It becomes the seed of a recovered library.",
+      "text": "You and Granger start writing — not the books, which live in people's heads now, but the list: everything remembered as lost, title by title, argued over by firelight for the better part of a decade. It is a dull document and a strange one, and thirty years on it is the spine of a library in a city that has a name again. Your entry, when somebody finally adds one, runs to four lines and gets your first name wrong.",
       "sceneTitle": "Writer",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_river",
-      "text": "You stay by the river. You teach the people who pass. You light no fires you don't need. You die very old, with a small book in your hands that nobody burned.",
+      "text": "You stay by the water. People pass — walking, everyone walks now — and you feed them and give them the verses, and some stay a season and carry a chapter off with them when they go. You light small fires, only what is needed, and put each one out yourself. You die very old, in spring, with a hand-stitched book somebody made for you resting under your palm, and no hose within a hundred miles.",
       "sceneTitle": "The River Bank",
       "choices": [],
       "isEnding": true,

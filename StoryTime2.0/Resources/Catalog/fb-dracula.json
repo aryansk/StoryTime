@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A coach. A wolf. A driver with red eyes.",
+      "text": "The coach driver takes your money at the Borgo Pass without meeting your eyes, and is gone before the dust settles. Then the calèche comes for you: black horses, a driver who does not speak, a hand cold enough to feel through your glove. Wolves close on the road and he lifts one arm, and they part for him like water.",
       "sceneTitle": "Borgo Pass",
       "choices": [
         {
           "text": "Stay calm",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You keep your voice level and your hands still. The driver notices, and approves — and that is not comfort.",
           "nextNodeId": "s2"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You bolt three steps into snow past your knees, and the wolves stop howling to listen. You climb back in by yourself.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Tall doors. No servants.",
+      "text": "The doors are twice your height and open with no hand on them. No footman takes your bag. No fire is lit, yet the hall is warm, and supper waits under a cloth, still steaming, laid for exactly one. Your host appears at the top of the stair — courteous, white-haired, delighted — and says your name as though he has been practising it for months.",
       "sceneTitle": "Castle",
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "The decision settles the question for now. Its verdict—Civil—follows you into whatever comes next.",
+          "consequence": "You bow, and praise the hall, and he beams for an hour. Only later do you notice he never once ate.",
           "nextNodeId": "s3"
         },
         {
           "text": "Look for an exit",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You count the doors while he talks. Every one is locked. He watches you count, and says nothing at all.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "He stands behind you and there is no reflection.",
+      "text": "You are shaving by the window when he wishes you good morning from directly over your shoulder — and the glass shows only an empty room. Your hand jumps. The razor opens a thin red line beneath your jaw. For one second his face becomes something with no courtesy in it whatsoever. Then he takes the mirror and hurls it into the courtyard.",
       "sceneTitle": "Mirror Shave",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You write it up that night in careful shorthand he cannot read. Setting it down does not make it any smaller.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't note",
-          "consequence": "You commit to “Don't note.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You decide it was the light, the fatigue, the poor Continental glass. You decide this several times before dawn.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Pale women lean over you.",
+      "text": "You fall asleep in the one room he told you never to sleep in. Three women step out of the moonlight — two dark, one fair — arguing pleasantly over who gets first turn at you. The fair one kneels. You feel her breath, then her teeth just touching, and you are ashamed of how much of you wants her to go on. Then the door bursts inward.",
       "sceneTitle": "Three Sisters",
       "choices": [
         {
           "text": "Pray",
-          "consequence": "You commit to “Pray.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "The prayer comes out in your mother's voice, which surprises you. It does not save you. He does, and that is worse.",
           "nextNodeId": "s5"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "Your legs will not obey. You learn something about yourself in that second you will never write in the journal.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Mina, in England, writes you cheerfully.",
+      "text": "He asks you, so very kindly, to write three letters home and date them weeks apart. The last one says you have already left the castle safely. You understand precisely what that is: a timetable for how long you have left. Downstairs, Mina's letter waits on the salver — cheerful, ordinary, full of train times and a wedding date — and you cannot make yourself open it.",
       "sceneTitle": "Letters",
       "choices": [
         {
           "text": "Reply carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You write nothing true and everything comforting. Somewhere in England a woman reads it and sleeps well, and that must be enough.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't reply",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "The letter stays folded in your breast pocket, going soft at the creases. Silence is its own kind of message.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A storm, a ship, a black dog ashore.",
+      "text": "A schooner runs aground at Whitby in a storm with every sail set and not one living soul aboard. The captain is lashed to his own wheel, dead, a crucifix wound through his fingers. An enormous dog leaps from the bow before anyone can reach her and goes up the abbey steps and is never seen again. The cargo: fifty crates of earth, consigned to a buyer who never appears.",
       "sceneTitle": "Whitby",
       "choices": [
         {
           "text": "Mark it",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You cut the notice from the Gazette and keep it. Later it will be the first page of the file that saves you.",
           "nextNodeId": "s7"
         },
         {
           "text": "Don't mark",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "It is a storm story. This coast has one every winter. You turn the page, and the tide comes in anyway.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "She begins to sleepwalk. Her neck shows two marks.",
+      "text": "Lucy begins walking in her sleep — out through the door, up the East Cliff in her nightdress, barefoot on wet stone. Each morning she is paler and sweeter and less able to explain any of it. At her throat, two small punctures, precise as a bookbinder's awl, that close by afternoon and open again by dark. She asks you, laughing, please not to make a fuss.",
       "sceneTitle": "Lucy",
       "choices": [
         {
           "text": "Bring Van Helsing",
-          "consequence": "You commit to “Bring Van Helsing.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "The Dutchman comes at once and asks not one question, which tells you he has seen this exact thing before.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wait",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You give it a week to resolve itself. In a week there is nothing left of her to resolve.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Garlic at the window. Stolen by the maid.",
+      "text": "Van Helsing hangs garlic flower at the sash, at the door, and in a wreath around her neck, and forbids anyone to move so much as a stem. Lucy sleeps deep and wakes rosy for the first time in a month. Then a well-meaning maid finds the room stinking, throws the windows wide to air it, and clears the whole lot away with the breakfast things.",
       "sceneTitle": "Garlic",
       "choices": [
         {
           "text": "Repeat the cure",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You lay it all again and stand the watch yourself, and do not sleep. It buys her three more days.",
           "nextNodeId": "s9"
         },
         {
           "text": "Move on",
-          "consequence": "There is no taking “Move on” back. Foolish shapes the silence before the next moment arrives.",
+          "consequence": "You tell yourself the flowers were superstition dressed up as medicine. The shadows under her eyes go the colour of thunder.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Long fight. Bright tools.",
+      "text": "It takes four transfusions from four different men, and at the end of it she is not saved. In the last hour her voice drops into something low and hungry and she asks Arthur to kiss her — and Van Helsing hauls him back by the collar so hard they both go down. Then it passes. She is briefly, entirely Lucy again. Then she is nothing at all.",
       "sceneTitle": "Lucy Dies",
       "choices": [
         {
           "text": "Mourn",
-          "consequence": "There is no taking “Mourn” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You sit with the body until dawn because that is what one does for people. You do not yet know it is a mistake.",
           "nextNodeId": "s10"
         },
         {
           "text": "Vow",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You swear it in a room that smells of iron and lilies. Van Helsing says nothing, which is how he agrees.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "She walks the cemetery. Children disappear and return weak.",
+      "text": "The Westminster papers name her the Bloofer Lady. Children go missing on the Heath after dark and come home by morning cheerful and weak, describing a beautiful lady who wanted to play, unable to account for the two small marks. Van Helsing takes you to the tomb at midnight and levers up the lid. She is warmer now than she ever was alive.",
       "sceneTitle": "Lucy Undead",
       "choices": [
         {
           "text": "End it",
-          "consequence": "There is no taking “End it” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "It takes a stake, a hammer, and the man who loved her holding the point steady. Her face afterward is finally at peace. None of yours ever will be.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You cannot do it. She rises the next night, and a child is carried home the night after that. Mercy keeps a body count too.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "She holds the diaries together. She types them out.",
+      "text": "Mina takes every letter, journal, telegram and phonograph cylinder the five of you have been hoarding separately, and types them into one chronological record. Overnight the impossible becomes a case file. Laid out in order, the shape of the thing finally appears: patient, methodical, three centuries old, and currently buying property across London through respectable solicitors.",
       "sceneTitle": "Mina",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "There is no taking “Trust her” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You hand her everything. She is faster than all of you and twice as unsentimental about what it means.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hide things from her",
-          "consequence": "You commit to “Hide things from her.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You agree, gently, to shield her from the worst of it. You will pay for that agreement with her blood.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He speaks of his Master.",
+      "text": "The lunatic in Seward's asylum eats flies, then spiders fattened on flies, then sparrows fattened on spiders — building life upward, he explains, one small ration at a time. He keeps a ledger. He is calm, precise and entirely lucid on every subject but one: the Master is coming, the Master is near, and Renfield has been very good and would like his reward now.",
       "sceneTitle": "Renfield",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You let him talk and you take notes, and he gives you the address before any of the rest of you work it out.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't listen",
-          "consequence": "You commit to “Don't listen.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You file him as a case study and close the door. He goes quiet, which ought to frighten you more than the shouting did.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Fifty boxes of earth from the castle.",
+      "text": "Fifty crates of Transylvanian earth, landed at Whitby, carted across London by three separate haulage firms. He cannot rest on English ground and cannot cross running water at will — so every box is a bed, and every bed is a fortress. Nine went to Carfax. The rest are scattered through Bermondsey, Mile End and Piccadilly. You are not hunting a man. You are besieging an address book.",
       "sceneTitle": "The Boxes",
       "choices": [
         {
           "text": "Track them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You spend a fortnight on carters' receipts and bills of lading. Dull, unglamorous, exhausting work — and the thing that wins.",
           "nextNodeId": "s14"
         },
         {
           "text": "Don't track",
-          "consequence": "“Don't track” closes one possibility and opens another. The moment leaves a clear note behind: Foolish.",
+          "consequence": "You go straight at him instead, and he is never where he is. He has fifty places to be. You have one.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He came in the night.",
+      "text": "You have been keeping her out of it for her own good, sleeping in the next room with the door shut. That is precisely where he finds her. When you break in he has Seward face-down on the floor and Mina held against his opened chest, being made to drink — and he turns and smiles at all five of you, entirely unhurried, before the mist takes him out through the sash.",
       "sceneTitle": "Mina Bitten",
       "choices": [
         {
           "text": "Bring her into the planning fully",
-          "consequence": "“Bring her into the planning fully” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You tell her every single thing from that hour onward. The link runs both ways: he can find her, and through her, she can find him.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hide it from her",
-          "consequence": "You commit to “Hide it from her.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You move to spare her a second time. She is now the only one of you who knows where he is, and you have decided she should not be told anything.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The Host burns her forehead.",
+      "text": "Van Helsing touches the Host to her forehead to bless her, and it burns — a livid raised scar, red as a brand, and permanent. Mina puts her hand flat over it and says the word none of the rest of you will say aloud: unclean. Then she makes you promise, all of you, in writing, that if she turns you will do to her exactly what you did to Lucy.",
       "sceneTitle": "Wafer",
       "choices": [
         {
           "text": "Vow she will be cleansed",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You promise her the scar will fade. You have not one shred of evidence for it, and you say it anyway.",
           "nextNodeId": "s16"
         },
         {
           "text": "Despair",
-          "consequence": "There is no taking “Despair” back. Foolish shapes the silence before the next moment arrives.",
+          "consequence": "You look at her forehead and see the ending, and she watches you see it. It is the cruellest thing you do all year.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Sterilize the boxes one by one.",
+      "text": "House to house with a locksmith's picks and Van Helsing's wafers, breaking the earth in every crate so he can never lie in it again. Carfax first, then Bermondsey, then Mile End. He is always one address ahead of you. In the Piccadilly hallway he walks straight past your shoulder, laughing, close enough to touch — and you cannot make your hand move.",
       "sceneTitle": "Box Hunt",
       "choices": [
         {
           "text": "Be thorough",
-          "consequence": "“Be thorough” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You sanctify forty-nine and check the manifest twice over. The fiftieth is already on a cart bound for the docks.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be fast",
-          "consequence": "There is no taking “Be fast” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "Speed costs you two crates you never confirm. You will lie awake for years wondering which two they were.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "He flees. You follow.",
+      "text": "He runs for home in the last box, by sea, aboard the Czarina Catherine. Mina, hypnotised at sunrise, reports lapping water and creaking timber and darkness — she is looking out through his eyes, and she does not enjoy it. So you split: one party overland by train through Paris and Bucharest, one up the river by launch, all of you racing a ship none of you can see.",
       "sceneTitle": "Train Across Europe",
       "choices": [
         {
           "text": "Coordinate",
-          "consequence": "There is no taking “Coordinate” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You wire ahead at every station and arrive as one body. Unheroic, procedural, and the only reason any of you survive it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Race",
-          "consequence": "You commit to “Race.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go flat out and arrive first and alone, in deep snow, with nobody holding the far side of the pass.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Snow. Gypsies. A cart with the last box.",
+      "text": "Snow to the axles and the light going fast off the ridge. A band of Szgany drive a wagon hard for the castle with the last box roped to the bed — armed, loyal, and fully aware of what they are carrying. Behind you Mina waits inside a ring of crumbled Host that the three sisters circle all night long, calling her by name in voices she recognises.",
       "sceneTitle": "Carpathian Pass",
       "choices": [
         {
           "text": "Cut off the cart",
-          "consequence": "You commit to “Cut off the cart.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You take the high road and come down on them at the bend. It works because they never see the second party at all.",
           "nextNodeId": "s19"
         },
         {
           "text": "Approach openly",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You ride straight at forty men and trust to nerve. Two of you are cut before the wagon has even stopped.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Knives. Bowie. The box opens.",
+      "text": "The wagon goes over, the Szgany scatter into the trees, and the lid comes off with a crowbar. He lies in the earth with his eyes open and aware, waiting out the last inches of sun above the ridge — minutes, then seconds. Harker's kukri and Morris's bowie go in together, throat and heart, and for one instant the whole ancient thing looks almost grateful.",
       "sceneTitle": "Sunset",
       "choices": [
         {
           "text": "Strike at the throat",
-          "consequence": "You commit to “Strike at the throat.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "Harker's blade takes the neck clean through. It has to be both, at the same moment, or neither one counts.",
           "nextNodeId": "s20"
         },
         {
           "text": "Strike at the heart",
-          "consequence": "There is no taking “Strike at the heart” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "Morris drives the bowie home with a hole already opened in his own side, and does not let go until it is done.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The mark fades.",
+      "text": "He goes to dust in the space of one breath — no scream, no curse, no vengeance, only the long-postponed peace of it. And Mina, standing in the snow with the light coming back into the sky, puts her fingers to her forehead and finds nothing there at all. The scar is gone as though it had never burned. Quincey Morris sees it, says so, and dies about a minute later, smiling.",
       "sceneTitle": "Mina's Forehead",
       "choices": [
         {
           "text": "Hold her",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You reach her before your legs give out, and neither of you says anything for a very long time.",
           "nextNodeId": "s21"
         },
         {
           "text": "Pray",
-          "consequence": "“Pray” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You say the words over Morris in the snow, badly, and everyone joins in badly, and it is the best funeral he could have wanted.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "A small boy with three names. A trip to Transylvania.",
+      "text": "Seven years on there is a boy who carries the name of every man who stood in that pass, and he is loud, and ordinary, and appallingly healthy. This summer you take him east. The castle is a broken tooth on the ridge; the villagers still cross themselves at the name. At home, in a trunk, sits a bundle of typed pages with your own handwriting crowded into the margins.",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Tell him the truth",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You give him the papers on his eighteenth birthday and let him decide for himself what to believe.",
           "nextNodeId": "end_record"
         },
         {
           "text": "Don't tell him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You let him have a childhood without it. Some inheritances are a kindness to withhold.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a version of this where you go back alone, and it has been waiting patiently for you to choose it.",
           "nextNodeId": "end_castle"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_record",
-      "text": "Mina compiles every letter and journal into a single bound book. The book outlives every member of the band of light.",
+      "text": "Mina binds it all together — shorthand journals, phonograph transcripts, the ship's log, the telegrams — and writes a note at the front admitting there is not one shred of proof in the entire volume. Not a single original document survives. The book outlives every one of you, and every reader who opens it runs the same arithmetic and arrives at the same place: it cannot possibly be true, and yet.",
       "sceneTitle": "The Record",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You marry. You have a son. You die old in England. The castle, by then, is a ruin and a rumor.",
+      "text": "You marry. You have a son. You take a house with good light and you never once go back. The nightmares thin out over a decade and then mostly stop, and you grow old in England with dirt under your fingernails from a garden you genuinely love. The castle becomes a ruin, then a rumour, then one line in a guidebook. You outlive it, which is the whole of the victory.",
       "sceneTitle": "Quiet Years",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_castle",
-      "text": "Years later you return alone. The villagers cross themselves. You sit in the great hall. You do not, you decide, want anything except to leave again.",
+      "text": "Years later you go back alone, without telling anyone, and the villagers make the old sign as you pass. You climb to the great hall and sit down in the dust and the birdsong and wait for something to want something from you. Nothing does. That, in the end, is what you came for — to sit in the worst room of your life and find it empty, and stand up, and leave again.",
       "sceneTitle": "The Castle, Empty",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Church basement. Cheap coffee. You sit on a folding chair early, headphones in. People begin filing in. You see a face you do not want to see: Cassie.",
+      "text": "Basement of St. Bart's. Fluorescent hum, folding chairs, coffee that tastes like the urn it came out of. You get there twenty minutes early because early is the only way you know how to arrive anywhere alone. Headphones in, nothing playing. Somebody's laughing about a parking ticket. Then the door, and a blond ponytail, and it's Cassie Howard holding a cup with both hands.",
       "sceneTitle": "Before the Meeting",
       "choices": [
         {
           "text": "Stay; recovery is bigger than your discomfort",
-          "consequence": "Hold the line.",
+          "consequence": "You leave your coat on the chair and your feet on the floor. Two years ago you'd have been in the parking lot before the door finished closing.",
           "nextNodeId": "s2"
         },
         {
           "text": "Step outside for one minute",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reset.",
+          "consequence": "You go out into cold air that smells like somebody's cigarette and stand there working out whether stepping outside counts as leaving.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "She approaches. She is sober too, surprisingly, and she looks like she has cried already today. She says, 'Can we talk after?' You haven't spoken in two years.",
+      "text": "She sits two seats down, then moves one closer during the readings. Her mascara has been repaired at some point today and not well. When the hour breaks she's in front of you holding coffee she isn't drinking, and she says, can we talk after. You have not spoken to her since a bathroom at a party junior year, in a version of your life you don't visit.",
       "sceneTitle": "Cassie, Hovering",
       "choices": [
         {
           "text": "Agree to talk",
-          "consequence": "You commit to “Agree to talk.” The story records the instinct as “Practice” and carries it forward.",
+          "consequence": "You say yes before you've decided to, and the relief that goes across her face is so complete it embarrasses you both.",
           "nextNodeId": "s4"
         },
         {
           "text": "Say 'maybe' and see how the hour goes",
-          "consequence": "The decision settles the question for now. Its verdict—Triage—follows you into whatever comes next.",
+          "consequence": "You give her a maybe, which is honest, and you watch her receive it as a no, and you let her keep it.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "On the sidewalk you call your sponsor — Ali, who picks up on the second ring even on Tuesdays. He listens. He says, 'You're already doing the work by calling. Go back inside.'",
+      "text": "Ali picks up on the second ring, which he does, on a Tuesday, at eight at night, always. You tell him there's a person here from before. He's quiet long enough that you check the screen. Then: you called me from the sidewalk instead of driving somewhere, so let's be clear about what's actually happening here. A pause. Go back in. Sit by the door if you have to.",
       "sceneTitle": "The Sidewalk",
       "choices": [
         {
           "text": "Go back inside steadily",
-          "consequence": "The decision settles the question for now. Its verdict—Trust him—follows you into whatever comes next.",
+          "consequence": "You go back down the stairs and take the seat nearest the door exactly as instructed, and the exit stays an exit, and you don't use it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stay outside for the meeting",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Slow.",
+          "consequence": "You stay on the step and listen to the murmur coming through the window, which is not nothing, and is also not the room.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You share, briefly, that this is your first meeting alone. The room is warm. An older woman named Marsha says 'glad you're here' in the exact way you needed.",
+      "text": "You say your name and that this is the first one you've come to by yourself. That's the whole share, maybe twenty seconds. Nobody claps, which is correct. Afterward a woman named Marsha with reading glasses on a chain says glad you're here with no weight on it at all, the way you'd tell a stranger their shoelace is untied. You have to look at the floor.",
       "sceneTitle": "Share Time",
       "choices": [
         {
           "text": "Stay for fellowship after",
-          "consequence": "Build the room.",
+          "consequence": "You help stack chairs and end up in a long conversation about somebody's terrible dog, and half an hour goes by without you narrating yourself to yourself.",
           "nextNodeId": "s6"
         },
         {
           "text": "Slip out quickly",
-          "consequence": "There is no taking “Slip out quickly” back. Save energy shapes the silence before the next moment arrives.",
+          "consequence": "You're in the car before the last chair is up, and then you sit in the lot with the engine off for a while, which is its own kind of staying.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Cassie's sister Lexi is at the meeting too, in the back, surprising you both. She catches your eye and gives a small, kind nod. The Howard sisters have, somehow, both ended up in this room.",
+      "text": "Back row, hood up, notebook. Lexi. You'd know that posture from across a parking lot. She's not here for herself, she's here the way people are here for somebody else, which means she drove. She catches your eye and gives you one inch of a nod, no smile. Both Howard sisters in a church basement on a Tuesday night. You'd have laughed at that once.",
       "sceneTitle": "Lexi, the Sister",
       "choices": [
         {
           "text": "Talk to Lexi first",
-          "consequence": "You commit to “Talk to Lexi first.” The story records the instinct as “Easier first” and carries it forward.",
+          "consequence": "You go to the back row because it's the easier of the two conversations, and Lexi lets you have the easy thing without once pointing out that it's the easy thing.",
           "nextNodeId": "s6"
         },
         {
           "text": "Talk to both sisters at once",
-          "consequence": "You commit to “Talk to both sisters at once.” The story records the instinct as “Be brave” and carries it forward.",
+          "consequence": "You take both of them at the same time so neither gets a private version of you, and it's unbearable for four minutes and then it isn't.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You, Lexi, Cassie, and Marsha sit at a diner counter at 10 p.m. and order pancakes. Cassie cries quietly into hers. Nobody comments. Lexi reaches over and squeezes her hand.",
+      "text": "Ten at night, diner counter, four stools: you, Lexi, Cassie, Marsha. Pancakes nobody's eating except Marsha, who eats with the calm of a woman who has done a thousand of these nights. Cassie cries into hers without any sound. Nobody comments. Lexi reaches over, puts a hand around her sister's wrist, and leaves it there while she keeps talking about something else entirely.",
       "sceneTitle": "Coffee After",
       "choices": [
         {
           "text": "Tell Cassie you're glad she's sober",
-          "consequence": "You commit to “Tell Cassie you're glad she's sober.” The story records the instinct as “Generous” and carries it forward.",
+          "consequence": "You say it plainly with no history attached to it, and Cassie nods down at her plate and can't answer, and that not answering is the answer.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell Lexi you're glad she's here too",
-          "consequence": "You commit to “Tell Lexi you're glad she's here too.” The story records the instinct as “Equal” and carries it forward.",
+          "consequence": "You say it and Lexi says where else, like it's obvious, and you understand she has been doing this quietly for months without telling anyone.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Wednesday morning. The coffee shop. Your manager Fez is, somehow, kind of a manager now. He gives you the morning shift on purpose so the rest of the day is yours.",
+      "text": "Wednesday, six a.m., the espresso machine doing its long complaint while it heats. Fez runs the schedule now, which nobody predicted, least of all Fez. He puts you on mornings on purpose and never says why, so your afternoons stay open for meetings and your nights end early. He pins the schedule up without comment. He has never once asked how you're doing in a way that requires an answer.",
       "sceneTitle": "The Job",
       "choices": [
         {
           "text": "Tell Fez about the meeting",
-          "consequence": "“Tell Fez about the meeting” closes one possibility and opens another. The moment leaves a clear note behind: Trust him.",
+          "consequence": "You tell him you went alone and he says good and hands you the milk pitcher and doesn't turn it into a thing, which is precisely why you told him.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay quiet at work and write later",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Compartmentalize.",
+          "consequence": "You keep it in your pocket the whole shift and put it on paper at midnight, where it fits the shape it actually is better than it would have out loud.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You keep a notebook. You write the sentence: 'I went to a meeting alone and I came home alone and I did not use.' You read it three times. You realize you have started, slowly, to believe in yourself.",
+      "text": "The notebook is a ninety-nine-cent one from the pharmacy, because the nice ones make you feel like you owe them something. You write: I went to a meeting alone and I came home alone and I did not use. It's a boring sentence. You read it three times and it stays true every time. That part is new. Not the not-using. The believing the sentence.",
       "sceneTitle": "Rue's Notebook",
       "choices": [
         {
           "text": "Buy a second notebook for the year",
-          "consequence": "Build the practice.",
+          "consequence": "You buy a second one before the first is half full, which is the most optimistic thing you have done with money in about six years.",
           "nextNodeId": "s10"
         },
         {
           "text": "Start texting one line a day to Ali",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Accountability.",
+          "consequence": "You start sending Ali one sentence a night. He answers some and not others, and the ones he skips still get read, and you know that.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Jules is in town for the week. The first phone call is tentative. The second is honest. The third is, in some way you can't yet name, possible.",
+      "text": "Jules is at her dad's for the week. The first call is four minutes of both of you being polite, which is worse than fighting. The second is at one in the morning and she says the thing about junior year and you say your part of it out loud for the first time. On the third call neither of you mentions the past at all. You just talk. Ninety minutes.",
       "sceneTitle": "Jules' Visit",
       "choices": [
         {
           "text": "See her",
-          "consequence": "There is no taking “See her” back. Try shapes the silence before the next moment arrives.",
+          "consequence": "You meet at the diner on Fourth and it's easy for an hour and hard for ten minutes, and neither of you leaves early to make it stop.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait to see her until you've talked to Ali",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You call Ali first, which delays it four days, and he asks you one question you can't answer, and you go anyway with the question still in your pocket.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Your mom watches you make her coffee in the morning. She does not say much. She doesn't have to. She has, you realize, been working as hard as you, for longer.",
+      "text": "Your mom comes into the kitchen at seven and stops in the doorway because you're already up, making her coffee, two sugars, the way she takes it. She sits down. She doesn't say anything about you being up. She hasn't said anything about it in a long time now, and this morning you finally understand that the not-saying is a discipline, and that she started it before you did.",
       "sceneTitle": "The Mother",
       "choices": [
         {
           "text": "Tell her you love her plainly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Plain.",
+          "consequence": "You say it in a flat morning kitchen with no occasion attached, and she sets the mug down and has to look out the window for a second.",
           "nextNodeId": "s12"
         },
         {
           "text": "Cook her breakfast in return",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Action.",
+          "consequence": "You make eggs badly and she eats every bite and says they're good, and neither of you brings up a single one of the years.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your sister Gia is in high school now. She watches you the way she used to watch the front door at 3 a.m. You realize she is not yet sure you will not relapse. You realize her patience is also love.",
+      "text": "Gia's a sophomore, taller than you now, quiet in a way she wasn't at thirteen. When you come in after nine she looks at your face first and then, fast, at your hands, before she says hi. She's checking. She's been checking since the year she found the door open at three in the morning. She isn't sure yet. Her not being sure is not a shortage of love. It's the shape love takes afterward.",
       "sceneTitle": "Gia, Watching",
       "choices": [
         {
           "text": "Take Gia somewhere fun on Saturday",
-          "consequence": "You commit to “Take Gia somewhere fun on Saturday.” The story records the instinct as “Show up” and carries it forward.",
+          "consequence": "You take her to the arcade two towns over and she is embarrassed for twenty minutes and then she is fourteen again for two whole hours.",
           "nextNodeId": "s12"
         },
         {
           "text": "Apologize directly for the years",
-          "consequence": "“Apologize directly for the years” closes one possibility and opens another. The moment leaves a clear note behind: Speak.",
+          "consequence": "You name specific nights instead of apologizing in general, which is much harder, and she says I know, and then later, from her room, thank you.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Two years. Marsha hands you a chip. You almost don't take it because chips have, in the past, felt like jinxes. You take it. You squeeze it in your hand the whole drive home.",
+      "text": "Two years. Marsha calls it and there's the plastic sound of a chip going around a table. You almost don't take it. The last one you held you threw into a drainage ditch on the drive home, and what came after was the worst nine months of your family's life. Superstition is easy. You take it anyway. You hold it in your fist the whole way home.",
       "sceneTitle": "The Anniversary",
       "choices": [
         {
           "text": "Pin it on your fridge",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Visible.",
+          "consequence": "You put it on the fridge where your mom and Gia will see it every morning, which makes it partly theirs, which is most of the point.",
           "nextNodeId": "s14"
         },
         {
           "text": "Carry it in your pocket every day",
-          "consequence": "There is no taking “Carry it in your pocket every day” back. Private shapes the silence before the next moment arrives.",
+          "consequence": "You keep it in your pocket and touch it at red lights, and by June the lettering on one side has worn completely smooth.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Fez tells you he's opening a small bakery. He wants you as the manager. The hours are hard. The job is real. You realize you have been offered, of all things, a future.",
+      "text": "Fez tells you about the bakery in the walk-in cooler, quietly, like it's contraband. Small place on Marlow, ovens included in the lease, previous tenant gave up. He wants you managing it. Four a.m. starts, thirty hours minimum, actual paperwork with your actual name on it. He says all of it fast and then studies the floor. Nobody has ever offered you a future that came with a key.",
       "sceneTitle": "Fez's Bakery",
       "choices": [
         {
           "text": "Accept the job",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Build.",
+          "consequence": "You say yes standing in a cooler at thirty-six degrees, and Fez shakes your hand like a man who saw it done on television once.",
           "nextNodeId": "s14"
         },
         {
           "text": "Negotiate fewer hours so you can keep writing",
-          "consequence": "The decision settles the question for now. Its verdict—Balance—follows you into whatever comes next.",
+          "consequence": "You ask for four mornings instead of six, which costs you money, and he says fine immediately, and you learn that asking was allowed the whole time.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Six months later the bakery opens. You and Fez and Marsha and Lexi and your mom and Gia are there. There is a small cake. Marsha gives a small speech. Fez almost cries. You almost cry.",
+      "text": "Six months and one health inspection later. There's a folding table by the register with a sheet cake on it that Fez bought instead of baking, which everybody finds funny except Fez. Your mom is there in her good coat. Gia photographs the sign from four angles. Marsha says four sentences and one of them is about her own first job at sixty days sober. Fez decides the oven needs him.",
       "sceneTitle": "The Bakery Opening",
       "choices": [
         {
           "text": "Take a photo for the year",
-          "consequence": "The decision settles the question for now. Its verdict—Mark it—follows you into whatever comes next.",
+          "consequence": "You get everybody into one badly framed picture with half of Fez cut off at the edge, and it's on your mom's refrigerator inside a week.",
           "nextNodeId": "s16"
         },
         {
           "text": "Just be there",
-          "consequence": "“Just be there” closes one possibility and opens another. The moment leaves a clear note behind: Be there.",
+          "consequence": "You put the phone face down on the counter and stand in the middle of it, and later you can't recall one detail except the noise of the room.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You write — not a book, exactly, but a small collection of essays. You publish one in a magazine. The piece, more than the bakery or the job, makes you feel like a person with a project.",
+      "text": "Not a book. Nine short essays, most of them bad, three of them not. You send one to a magazine that pays in contributor copies and they take it. Seeing your own sentences in a typeface you didn't choose does something specific to them: it puts the thing outside your body. The bakery is a job you happen to be good at. This is the first thing you'd call a project.",
       "sceneTitle": "The Year of Writing",
       "choices": [
         {
           "text": "Send the essay to Jules",
-          "consequence": "“Send the essay to Jules” closes one possibility and opens another. The moment leaves a clear note behind: Share.",
+          "consequence": "You send it to Jules with no message attached, which is either the bravest or the most cowardly available framing, and is probably both at once.",
           "nextNodeId": "s16"
         },
         {
           "text": "Send it to your sponsor",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Share.",
+          "consequence": "You send it to Ali, who reads slowly and takes two days about it, and you check your phone roughly four hundred times in those two days.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Jules replies in a long email. She says she's proud of you. She says she's not in a place to come home. She says she'd like to keep writing. You realize, slowly, that not all loves are reunions. Some are just letters.",
+      "text": "The email is long and arrives at three in the morning her time. She's proud of you and says it in a way that isn't a card. Then, halfway down, the rest: she isn't coming back to East Highland, not this year, probably not at all, and she'd like to keep writing to you. You read it four times looking for a door. There's no door. There's a window and it's open.",
       "sceneTitle": "Jules' Reply",
       "choices": [
         {
           "text": "Accept the letters as enough",
-          "consequence": "There is no taking “Accept the letters as enough” back. Mature shapes the silence before the next moment arrives.",
+          "consequence": "You write back the same night and ask her for nothing, and the not-asking is the most grown-up thing you have ever typed with your thumbs.",
           "nextNodeId": "s18"
         },
         {
           "text": "Plan to visit her in a year, no pressure",
-          "consequence": "You commit to “Plan to visit her in a year, no pressure.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You put a date twelve months out in your phone with no expectations attached to it, and the date itself starts functioning as a kind of company.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Ali, who is dying — you don't know it yet, you'll find out next month — sends you back a one-line text: 'You're writing the version of yourself the rest of us can read.' You frame it.",
+      "text": "He takes two days and sends back one line: you're writing the version of yourself the rest of us can actually read. You screenshot it, then print it, then buy a four-dollar frame at the drugstore. What you don't know, on this specific Thursday afternoon, is that his results came back Monday, and that he has decided to tell you in person, and that he's going to wait a month.",
       "sceneTitle": "Ali's Reply",
       "choices": [
         {
           "text": "Visit Ali in person next weekend",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Show up.",
+          "consequence": "You drive out Saturday for no stated reason and he makes you terrible tea, and you get a whole ordinary afternoon before you find out why it mattered.",
           "nextNodeId": "s18"
         },
         {
           "text": "Send him a long thank-you letter",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Letter.",
+          "consequence": "You write four pages and mail them, and much later you find them in his kitchen drawer, folded, underneath the takeout menus he never threw away.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Five years. You give the chip back at a meeting you sponsor a teenager from. You realize you are now Marsha. You realize this is, finally, a story without an exit.",
+      "text": "Five years. You hand your chip to a seventeen-year-old with bitten nails who came because a judge said so and stayed because of a doughnut. You're the one saying glad you're here now, in the same flat way, so it costs her nothing to receive it. You keep waiting to feel like you've arrived somewhere. You haven't. There's no door at the end of this. That's the good news.",
       "sceneTitle": "Five Years",
       "choices": [
         {
           "text": "Stay in East Highland",
-          "consequence": "“Stay in East Highland” closes one possibility and opens another. The moment leaves a clear note behind: Place.",
+          "consequence": "You sign a lease eight blocks from the bakery and stop describing this town, out loud or otherwise, as a place you are on your way out of.",
           "nextNodeId": "s20"
         },
         {
           "text": "Move; keep the meetings the same",
-          "consequence": "The decision settles the question for now. Its verdict—Travel—follows you into whatever comes next.",
+          "consequence": "You move an hour north and find a Tuesday room with identical bad coffee, and the sameness of it turns out to be the entire point.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Gia graduates high school. You give the speech at the family dinner. You say plain things. Your mom cries. Gia hugs you longer than usual. You go to bed sober and full and tired in the right way.",
+      "text": "Gia graduates in a gym that smells like floor polish and folding chairs. At dinner you stand up and say plain things: she did the reading, she made the food, she was thirteen. Your mom cries into a napkin and waves at you to keep going. Gia hugs you longer than her friends would find acceptable. You go to bed at ten, sober, full, tired in the way that's earned.",
       "sceneTitle": "Gia's Graduation",
       "choices": [
         {
           "text": "Keep building the small life",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Maintain.",
+          "consequence": "You go back to work on Monday, and somewhere in the second year the smallness of the life stops registering as a consolation prize.",
           "nextNodeId": "s20"
         },
         {
           "text": "Travel for the first time in your life",
-          "consequence": "You commit to “Travel for the first time in your life.” The story records the instinct as “Reward yourself” and carries it forward.",
+          "consequence": "You buy a ticket to a city you have only ever seen on a screen, and the airport terrifies you, and you get on the plane.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Ali is gone. You sit in the meeting in the chair he used to sit in. The room is the same. You are the same and very different. You decide what to do with the rest of the year.",
+      "text": "Ali's chair was third from the left, near the radiator, because of his back. Nobody has sat in it since March. Tonight you get there early and sit down in it, and it's a chair, just a chair, and the room fills up the way rooms do. Somebody makes the coffee wrong. Somebody's phone goes off during the readings. You have a year ahead of you with a decision inside it.",
       "sceneTitle": "Ali's Chair",
       "choices": [
         {
           "text": "Hold the chair in East Highland",
-          "consequence": "The decision settles the question for now. Its verdict—Steady—follows you into whatever comes next.",
+          "consequence": "You keep the Tuesday room and the key to the basement door, and being the person who unlocks it at seven turns out to be most of the job.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Take meetings on the road",
-          "consequence": "“Take meetings on the road” closes one possibility and opens another. The moment leaves a clear note behind: Mobile.",
+          "consequence": "You start going wherever the schedule takes you, and every basement in the country smells the same, which stops being funny and becomes a comfort.",
           "nextNodeId": "end_road"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_home",
-      "text": "You stay. The town gets a little kinder, year over year. You sponsor four people over a decade. Two of them stay sober. Two of them don't. You learn that the score isn't the point. The room is the point.",
+      "text": "You stay. East Highland does not transform; it gets marginally kinder, one block at a time, mostly because people you know are standing on those blocks. Over a decade you sponsor four people. Two get years. One relapses at eighteen months and comes back and is furious about it and stays. One you stop hearing from, and you keep his number in your phone anyway. Somewhere in there you learn the count was never the measure. The room is the measure. Chairs, urn, bad coffee, door unlocked at seven.",
       "sceneTitle": "Home",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_road",
-      "text": "You travel. Meetings everywhere, surprisingly, work the same way. You write essays from cafés in cities you used to dream about as a teenager. You realize that recovery is portable. So, finally, are you.",
+      "text": "You go. Portland, Tucson, a church hall in Glasgow with an actual kettle and a plate of biscuits. The meetings are startlingly identical everywhere: same three opening sentences, same folding chairs, somebody's kid asleep under a coat in the back. You write in the mornings from cafés in cities you used to look up at fourteen and assume you would not live long enough to see. It turns out recovery packs completely flat and travels anywhere at all. It turns out, after everything, so do you.",
       "sceneTitle": "Out",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A small lobby boy named Zero asks for a job from a desk.",
+      "text": "A boy of indeterminate age stands at your desk with a folded cap and an application filled out in three different pens. Experience: none. Education: none. Family: none. He has written the word zero in every blank, and it is also, he explains, his name. You look at him for a full three seconds.",
       "sceneTitle": "Reception",
       "choices": [
         {
           "text": "Hire him",
-          "consequence": "“Hire him” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You hire him on the spot at a wage of nothing plus a bunk, and he thanks you as though you handed him a country.",
           "nextNodeId": "s2"
         },
         {
           "text": "Defer",
-          "consequence": "There is no taking “Defer” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You inform him the position requires consideration, then have him polishing brass within the hour, because nobody else turned up.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A dowager with a long fur, a tearful goodbye, a key to a safe.",
+      "text": "Madame Céline D., eighty-four, arrives in the lobby in full fur and full panic, gripping your sleeve. She has had a premonition. She will not be back. She presses a small brass key into your palm and tells you which of her sons she is most afraid of, and it turns out to be all of them.",
       "sceneTitle": "Madame D.",
       "choices": [
         {
           "text": "Reassure her",
-          "consequence": "“Reassure her” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You walk her out to the car, adjust her collar, and assure her nothing has ever once happened to a guest of this hotel.",
           "nextNodeId": "s3"
         },
         {
           "text": "Be cold",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You keep your voice level and your hands behind your back, and she watches you the entire way to the door, waiting.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A family of vultures and a clause that names you.",
+      "text": "The drawing room contains nine relatives, four lawyers, and a notary reading at the speed of frost. Then comes the codicil. Your name, in a will, between a shipping concern and a set of Bohemian glass. The room turns as one body. Somebody's dog begins, very quietly, to growl.",
       "sceneTitle": "Will Reading",
       "choices": [
         {
           "text": "Accept it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You say you are honored and you mean it, and every heir present immediately reclassifies you as a legal problem to be solved.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You decline aloud, which convinces nobody, since the painting is worth more than the province and every person in the room knows it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A small panel painting that everyone wants to keep nailed to the wall.",
+      "text": "It is not large: a boy, an apple, a background the color of weak tea, and a valuation that would buy this hotel twice over. It hangs in the second drawing room beneath a lamp. Everyone in the house would kill for it, and one of them is currently offering you brandy.",
       "sceneTitle": "Boy With Apple",
       "choices": [
         {
           "text": "Steal it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You lift it off the wall, hang a lurid nude in its place, and walk out through a funeral with it under your coat.",
           "nextNodeId": "s5"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You leave it where it is for six more hours, which is five hours and fifty minutes longer than is survivable.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A son with a leather coat and a man named Jopling who carries a knife.",
+      "text": "The son wears black leather indoors and travels with a servant called Jopling, whose knuckles are decorated and whose coat is cut to hold objects. Dmitri accuses you of things in the corridor, loudly and mostly accurately. Jopling says nothing. Jopling is holding a cat, for no reason anyone can determine.",
       "sceneTitle": "Dmitri",
       "choices": [
         {
           "text": "Antagonize him",
-          "consequence": "There is no taking “Antagonize him” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You call him something unrepeatable in three languages and land one clean punch before Jopling separates you like laundry.",
           "nextNodeId": "s6"
         },
         {
           "text": "Placate him",
-          "consequence": "There is no taking “Placate him” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You apologize with tremendous grace for nothing you did. Dmitri accepts the apology. The cat is dead by morning.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A papers check and a uniform with a scar from the Old War.",
+      "text": "The compartment door opens and there are six of them and they want papers. Zero's permit was issued by a country that no longer exists. Hands go to his collar. Then an officer in the corridor looks at your face and lowers his lamp, because thirty years ago you carried his mother's luggage up four flights.",
       "sceneTitle": "Train",
       "choices": [
         {
           "text": "Speak up for Zero",
-          "consequence": "You commit to “Speak up for Zero.” The story records the instinct as “Loyal” and carries it forward.",
+          "consequence": "You put yourself between a boy and six rifles armed with nothing but impeccable diction, and it works, which astonishes everyone including you.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay still",
-          "consequence": "You commit to “Stay still.” The story records the instinct as “Cowardly” and carries it forward.",
+          "consequence": "You hold your tongue and count the seconds, and Zero's collar is already torn by the time the officer recognizes your face.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A telegram arrests you for the murder of Madame D.",
+      "text": "Poison from the strychnine family, a solicitor missing two fingers, and a telegram with your name spelled correctly, which is somehow the worst part of it. Two constables are at the desk asking for discretion. Behind them, guests are pretending to read newspapers upside down. You have ninety seconds and one exit.",
       "sceneTitle": "Police Order",
       "choices": [
         {
           "text": "Surrender quietly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You go with them holding your own elbow, requesting only that they not use the front stairs in view of the guests.",
           "nextNodeId": "s8"
         },
         {
           "text": "Bolt",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You get through the kitchens, across the courtyard, and some way up a drainpipe before a gardener takes both your ankles.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A roommate named Ludwig with a tattoo of a map of the world.",
+      "text": "Checkpoint Nineteen. Your cellmate wears a world map inked across his back, out of date by two borders, and he has been here long enough to hold firm opinions about the gruel. He is planning something. He shows you a sketch drawn on the back of a soap wrapper, and the sketch is very good.",
       "sceneTitle": "Prison Cell",
       "choices": [
         {
           "text": "Trade pastries for tools",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You divide one courtesan au chocolat five ways among the most violent men in Lutz and purchase an escape with it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You hold off and leave the pastry intact on the shelf, and four hardened criminals guard it for three days like a shrine.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Agatha bakes you out a hammer in a tarte aux mille feuilles.",
+      "text": "The parcel is tied with the ribbon, and nobody searches a Mendl's box; the guards would sooner search a cathedral. Inside the mille-feuille, arranged so carefully that the layers still stand, are a hammer, a chisel, and a file. The pastry is undamaged. She is nineteen and she is extraordinary.",
       "sceneTitle": "Mendl's Box",
       "choices": [
         {
           "text": "Use it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You start on the floor stones that night, and Ludwig weeps openly, and later denies it in front of the others.",
           "nextNodeId": "s10"
         },
         {
           "text": "Save it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You slide the tools under the mattress to wait for the right night, and eat the pastry, because not eating it would be a crime.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A long stinking pipe under a cobbled square.",
+      "text": "Down the shaft, through a grate, and into a river of everything Lutz has ever been ashamed of. The pipe narrows at the third junction. Ludwig goes first. You go third, holding a handkerchief over your face with one hand and your dignity with the other. Overhead, boots cross the square in sixes.",
       "sceneTitle": "Sewer Run",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You take it at a sprint and reach the outfall filthy, gasping, and a good forty minutes ahead of the alarm.",
           "nextNodeId": "s11"
         },
         {
           "text": "Crawl",
-          "consequence": "“Crawl” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You go slowly and quietly and arrive intact, having composed, entirely in your head, a formal complaint about municipal drainage.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A network of concierges with a passcode and an emergency line.",
+      "text": "You telephone the number nobody writes down. A concierge in Ober answers mid-check-in, listens for two seconds, and puts you on hold. Then a concierge in Nebelsbad, then one in a fishing town nobody has heard of. Across four countries, men in identical purple abandon their desks and reach for their receivers.",
       "sceneTitle": "Society of the Crossed Keys",
       "choices": [
         {
           "text": "Call them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You ask for a car, a disguise, and a monastery, and receive all three plus a packed lunch inside the hour.",
           "nextNodeId": "s12"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You hesitate over the receiver for a full minute out of pride, then dial anyway, because pride has never once run a switchboard.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A chamber with monks and a man named Serge holding a confession in his hand.",
+      "text": "You have him by both hands in a cold stone chamber. Serge X. has been hiding in a mountain monastery in a borrowed habit, singing bass badly. He knows what was in the second will and whose hand held the pen. He will tell you everything. He gets four sentences out before the choir starts and drowns him completely.",
       "sceneTitle": "Monastery",
       "choices": [
         {
           "text": "Reassure him",
-          "consequence": "You commit to “Reassure him.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You hold his hands and tell him he is safe here, which is a lie the two of you accept for ninety seconds.",
           "nextNodeId": "s13"
         },
         {
           "text": "Threaten him",
-          "consequence": "You commit to “Threaten him.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You raise your voice inside a house of God and regret it instantly, and he tells you anyway, out of fright.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Wood runners, a downhill, a man with a knife on the next track.",
+      "text": "A wooden toboggan, a mountain, and Jopling on skis behind you doing something with a knife that suggests practice. Zero steers. You do not steer; you hold on and shout corrections nobody can hear. The track forks at a cliff edge, one branch has a signpost, and neither of you can read it in time.",
       "sceneTitle": "Sled Chase",
       "choices": [
         {
           "text": "Cut a corner",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You take the inside line through pine trees and lose your hat, both gloves, and a structural portion of the toboggan.",
           "nextNodeId": "s14"
         },
         {
           "text": "Hold the line",
-          "consequence": "There is no taking “Hold the line” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You stay on the groomed track and let him gain, betting everything on the bottom bend being tighter than he expects.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Hidden behind a much worse painting in your suite.",
+      "text": "It has been in your suite the whole time, behind a canvas of two nudes and a hoop that you selected precisely because nobody would look at it twice. You lift it out. The apple is still there. So is the boy, and his expression has not improved with the political situation.",
       "sceneTitle": "Boy With Apple, Again",
       "choices": [
         {
           "text": "Reveal it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bold.",
+          "consequence": "You carry it downstairs under your arm, in daylight, past soldiers, on the theory that confidence is a form of paperwork.",
           "nextNodeId": "s15"
         },
         {
           "text": "Sell it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Practical.",
+          "consequence": "You get as far as naming a figure to a dealer in Lutz, then wrap it back up and take it home.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Soldiers in the lobby, a checkpoint at the desk.",
+      "text": "The lobby has a checkpoint in it. A trestle table stands where the flower arrangement was, a corporal has a stamp, and the piano has been shifted to make room for a filing cabinet. The bellhops are still working. That is the part that stops you halfway down the stairs.",
       "sceneTitle": "Lobby Coup",
       "choices": [
         {
           "text": "Bluff",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You cross the lobby complaining loudly about the flowers, the corporal apologizes to you, and you do not break stride.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hide",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You take the service stair with the painting flat against your chest, listening to your own hotel being reorganized below you.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Papers, lobby boy, a familiar scar in a higher rank.",
+      "text": "Different train, same compartment, and this time nobody in the corridor was ever a small boy in your lobby. The officer checking Zero's papers has a scar, a promotion, and a great deal less patience than the last one. There is a password. You have about a second to decide whether it still means anything.",
       "sceneTitle": "Train, Again",
       "choices": [
         {
           "text": "Speak the password",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You say the phrase clearly, to a stranger, in a corridor, staking a boy's life on a fraternity of doormen.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Cowardly—follows you into whatever comes next.",
+          "consequence": "You say nothing and let the papers speak, and the papers are worth precisely as much as the country that issued them.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A second testament in the back of the painting.",
+      "text": "There is an envelope taped inside the frame, behind the boy's head, where it has sat since before you knew her sons' names. Second testament. In the event of my murder. Her handwriting slopes uphill at the end of every line, exactly as it did on hotel cards for thirty years.",
       "sceneTitle": "Will Hidden",
       "choices": [
         {
           "text": "Read it aloud",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You read it standing up, in a full room, in front of witnesses, in the voice you use for announcing dinner.",
           "nextNodeId": "s18"
         },
         {
           "text": "Burn it",
-          "consequence": "You commit to “Burn it.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You hold one corner to the lamp for two seconds and take it back, because she wrote it for exactly this morning.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Agatha at the counter, flour on her brow, a small kiss on the back of your wrist.",
+      "text": "Flour to the elbows, a birthmark shaped like Mexico, and a piping bag she puts down for nobody. She has carried stolen evidence in a cake box across a militarized border. Zero produces a ring he cannot afford, in front of you, at the counter, and she keeps piping with the other hand while she says yes.",
       "sceneTitle": "Pastry Shop",
       "choices": [
         {
           "text": "Hold the moment",
-          "consequence": "You commit to “Hold the moment.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You give them thirty seconds and stand there holding your hat like a man at somebody else's wedding, which you are.",
           "nextNodeId": "s19"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You clap once, congratulate them both in a single sentence, and are through the door before the door has finished closing.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Jopling at the parapet, a bell tower, a tilt forward.",
+      "text": "A snowbound observatory, a stone parapet, and Jopling coming across the ice toward you with those knuckles. Zero hits him from behind with something and it barely registers. You finish with both hands in his coat at the very edge, and the drop is long, and he is not a large man to shift.",
       "sceneTitle": "Roof",
       "choices": [
         {
           "text": "Push",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Final.",
+          "consequence": "You push, and a man goes off a mountain, and you discover you are able to straighten your jacket afterwards.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hold him",
-          "consequence": "There is no taking “Hold him” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You try to haul him back over the parapet out of an instinct you could not defend in court, and the ice decides it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "The will read, the painting returned, the hotel inherited, Dmitri sputtering.",
+      "text": "The second testament is read out in a room with a stenographer, and it takes seven minutes to hand you a hotel, a fortune, and the boy with the apple. Dmitri stands up twice. The lawyers hold him down by the sleeves. At the back of the room Zero is crying and claiming to have a cold.",
       "sceneTitle": "Council Room",
       "choices": [
         {
           "text": "Toast",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Joyful.",
+          "consequence": "You send for something absurd in three bottles and toast a dead woman by name, in front of her sons, at length.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay solemn",
-          "consequence": "There is no taking “Stay solemn” back. Polite shapes the silence before the next moment arrives.",
+          "consequence": "You keep your hands folded and your face shut, and only Zero notices that you have not blinked in some time.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A border, a uniform, a smaller scar.",
+      "text": "The train halts in a wheat field with no station. Boots in the corridor again, and this time the officer is young, has no idea who you are, and there is no lamp lowered and no password worth saying. Zero's papers are in your hand. You are sitting between him and the door.",
       "sceneTitle": "Last Train",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You stand, put yourself in the aisle, and address a boy holding a rifle exactly as you would address a guest.",
           "nextNodeId": "end_pink"
         },
         {
           "text": "Sit down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You stay seated and keep your voice low and reasonable, and reasonable has a much shorter reach than it used to.",
           "nextNodeId": "end_zero"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is one other way out of this compartment, and it has been in your breast pocket since the monastery.",
           "nextNodeId": "end_paint"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_pink",
-      "text": "You manage the Grand Budapest into a small renaissance and Zero takes over after you, and Agatha bakes things that make people cry on the lobby steps.",
+      "text": "You run the Grand Budapest for four more seasons and it is, briefly, glorious again: the lift works, the orchestra comes back, the trout is beyond reproach. Zero takes the desk after you and never once changes the flowers you chose. Agatha bakes something every year on the anniversary of the will reading, and grown men eat it on the lobby steps and have to study the ceiling.",
       "sceneTitle": "Pink Hotel, Glorious Dawn",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_zero",
-      "text": "Decades later a lobby boy who once was small tells a young writer about a concierge with cologne and a pencil mustache, and a country he no longer recognizes.",
+      "text": "Decades on, in a hotel with orange carpet and a lift that sticks, an old man buys a young writer dinner and talks for three hours. He describes cologne, a pencil mustache, a poem recited during a gunfight, and a manner of speaking that belonged to a world already finished. He keeps one suite he never sleeps in. The writer asks why. He says he keeps it for her.",
       "sceneTitle": "Zero Tells the Story",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_paint",
-      "text": "The painting hangs in your suite forever and Dmitri spends his last years in a small angry apartment with a postcard of it on the mantel.",
+      "text": "The painting stays where you hung it, over the mantel in your own rooms, lit properly, dusted weekly by a boy who will one day own the building. Dmitri ends his years in two rooms in Lutz with a postcard reproduction propped against the clock, telling anyone who sits still long enough that it was stolen from him by a hotel employee. This is, technically, correct.",
       "sceneTitle": "Boy With Apple on the Wall",
       "choices": [],
       "isEnding": true,

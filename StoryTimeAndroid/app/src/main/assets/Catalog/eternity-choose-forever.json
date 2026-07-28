@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Soft music. A clerk in a cream blazer hands you a folder titled 'Your Eternity.' You're forty years younger and your shoes feel new. He clears his throat: 'You have seven days to choose.'",
+      "text": "The carpet is deep enough to swallow a dropped ring, and the music has been sanded down until it cannot possibly offend anyone. A clerk in a cream blazer slides a folder across the desk: Your Eternity, in gold, faintly embossed. Your hands are the hands you had at thirty. Your shoes do not pinch anywhere. He clears his throat and says you have seven days to decide.",
       "sceneTitle": "The Lobby",
       "choices": [
         {
           "text": "Ask for the rules in plain English",
-          "consequence": "Always read the contract.",
+          "consequence": "You ask him to drop the brochure voice, and he does, and the plain version is worse. Clarity in this building is not a comfort. It is a countdown with better manners.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask who's waiting for you",
-          "consequence": "The heart wants names.",
+          "consequence": "You skip the terms and go straight for the names, the way you always read the last page of a novel first. Two, he says, and lets the number sit on the desk between you.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The clerk smiles, professional. 'One person to share forever. Anyone who loved you and waited. Most pick a spouse. Some pick a parent. Some go alone.' He blinks. 'Two are waiting for you.'",
+      "text": "One person to share forever with, he says. It must be somebody who loved you and stayed waiting, and that condition does most of the choosing before you get anywhere near it. Most people take a spouse. A surprising number take a parent. Some go on alone, which is permitted and which he does not recommend. He checks the folder again. Two are waiting for you, he says.",
       "sceneTitle": "The Rules",
       "choices": [
         {
           "text": "Decide to meet both of them",
-          "consequence": "Owe everyone a hearing.",
+          "consequence": "You ask to see both of them, and something in the clerk's shoulders comes down half an inch. He had been afraid you would choose fast. Now you have to earn it instead.",
           "nextNodeId": "s4"
         },
         {
           "text": "Decide quickly — your husband, of course",
-          "consequence": "Loyalty as an instinct.",
+          "consequence": "You say Henry's name inside a second, out of fifty years of habit, and hear how automatic it sounded in a quiet room. The clerk waits. You take it back before he writes anything.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "He shows you the folder. Two names. Your husband Henry, who buried you yesterday with shaking hands. And David — the boy who promised you forever before he was killed in a car accident at twenty-three.",
+      "text": "He opens the folder where you can see it. Two lines of handwriting. Henry, who stood at your grave yesterday with his hat in both hands and could not get the words out in front of the family. And David, who promised you an entire life on a February porch and then died on a wet road at twenty-three, three months before a wedding you had half planned.",
       "sceneTitle": "Two Names",
       "choices": [
         {
           "text": "See Henry first",
-          "consequence": "Begin where you ended.",
+          "consequence": "You pick the man whose snoring you could identify in a crowded room. Familiarity gets to go first, which is already a kind of verdict, and you know it while you say it.",
           "nextNodeId": "s4"
         },
         {
           "text": "See David first",
-          "consequence": "Begin where you began.",
+          "consequence": "You ask for the boy first and feel it land as a small betrayal, which tells you something about yourself you would rather not have learned standing in a lobby.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "He is the Henry of your twenties — straight-backed, smiling, the laugh you fell for. But the rest of him is fifty years old at once: the patience, the in-jokes, the way he still finishes your sentences badly.",
+      "text": "He is the Henry of your twenties: straight back, ridiculous confidence, the laugh that did the damage in the first place. But all fifty years are in him at once. He knows how you take your tea in November as opposed to July. He still tells the story about the ferry wrong. He still finishes your sentences badly and looks pleased with himself about it afterwards.",
       "sceneTitle": "Henry in the Garden",
       "choices": [
         {
           "text": "Embrace him without speaking",
-          "consequence": "Some loves don't need preamble.",
+          "consequence": "You reach him without saying anything and he smells like the good coat, the one you kept in a bag. Whatever you say next, the true thing has already been said.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask him if he knows about David",
-          "consequence": "Honesty in heaven, at least.",
+          "consequence": "You ask, and his face does something small and quick before the smile comes back over it. He knows. He has known for fifty years and never once made you carry knowing it.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "He's still twenty-three. He's reading the book he never got to finish. He looks up and the smile is the smile that made you choose, in your senior year, to keep going after he was gone.",
+      "text": "He is twenty-three and will never be twenty-four. He is reading the paperback that was in his jacket that night, the one with the corner turned down at page ninety. When he looks up, the smile is exactly the smile: the one you kept going on for a full year afterwards, and then eventually, quietly, stopped being able to picture at all.",
       "sceneTitle": "David at the Bar",
       "choices": [
         {
           "text": "Hug him and weep",
-          "consequence": "Some grief comes due fifty years late.",
+          "consequence": "You put your face into a shoulder you buried and cry until your ribs ache, and he says nothing clever, which is new. He has had fifty years in which to learn how to be quiet.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit across from him and ask the question",
-          "consequence": "Information is also affection.",
+          "consequence": "You take the stool opposite and ask what he has been doing, and he says reading, mostly. He does not ask what you have been doing. He has already watched all of it happen.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The clerk schedules everything. Coffee with Henry at 9. Lunch with David at 12. Afternoon free, journaling encouraged. It is the strangest competitive interview of your life.",
+      "text": "The clerk runs it like a conference. Coffee with Henry at nine in the east room. Lunch with David at twelve on the terrace. Afternoon free, journaling encouraged, pens provided at the desk. There is a printed itinerary with your name across the header and a small map of the grounds. It is the strangest interview of your life, and you are somehow both the panel and the prize.",
       "sceneTitle": "Day Two: Coffee",
       "choices": [
         {
           "text": "Take the journaling seriously",
-          "consequence": "Slow thinking is the only honest kind here.",
+          "consequence": "You fill nine pages before lunch, and the handwriting starts out as yours at thirty and finishes as yours at seventy. Whatever the pens are made of, they will not let you lie.",
           "nextNodeId": "s8"
         },
         {
           "text": "Skip the journal — trust your gut",
-          "consequence": "Your gut got you fifty years.",
+          "consequence": "You leave the pages blank and walk the corridors instead, and your gut says both, loudly, all afternoon. Instinct is not an answer here. It is only the question at higher volume.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You walk between the hotel and a manicured cliff. Both men, separately, ask you about the parts of your life they missed. David asks about your children. Henry asks about the year you almost left him.",
+      "text": "There is a path between the hotel and a cliff, groomed like a golf course, with benches at intervals. Both men walk it with you, separately, an hour apart, and both ask about the parts they missed. David wants to know about your children, their names, their faces, everything. Henry wants to know about the spring you nearly left him, and he asks like a man who rehearsed it.",
       "sceneTitle": "Day Two: Walk",
       "choices": [
         {
           "text": "Tell Henry the truth about that year",
-          "consequence": "Heaven is the wrong place to lie.",
+          "consequence": "You tell him you packed a case in March and unpacked it in April, and exactly why. He nods slowly at the sea. Forty years of not asking gets spent in one afternoon.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell David about your children gently",
-          "consequence": "He never got to be a father.",
+          "consequence": "You describe your daughter's laugh and your son's enormous hands, and you watch a boy of twenty-three be genuinely glad about a life that only happened because he died.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The hotel offers a 'memory room.' You can replay any day of your life in any company. You step in alone first, just to see, and find yourself nineteen and laughing with David and Henry's best friend Walter both, all three of you in a college diner.",
+      "text": "There is a room here that will replay any day you lived, in whatever company you ask for. You step in alone first, only to test it, and land at nineteen in a college diner with a chipped Formica counter: David on one side, Henry's friend Walter on the other, all three of you laughing at something whose beginning you can no longer hear.",
       "sceneTitle": "Day Three: Memory",
       "choices": [
         {
           "text": "Replay your wedding to Henry",
-          "consequence": "Audit the vow.",
+          "consequence": "You stand at the back of your own wedding reception and watch yourself dance badly and mean every step of it. Fifty years starts here. You had forgotten how certain you were.",
           "nextNodeId": "s10"
         },
         {
           "text": "Replay the night before David died",
-          "consequence": "Audit the wound.",
+          "consequence": "You go back to the last ordinary evening, knowing exactly what the morning does, and you cannot alter one word of it. The room replays. It does not negotiate or take requests.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "The clerk mentions, casually, that you can also choose to share eternity with someone alive — they will not know until they arrive. Your daughter, perhaps. Your best friend.",
+      "text": "The clerk mentions it while stacking cups, as though it were a parking arrangement. You may also choose somebody still living. They will not be told. They will simply arrive one day, whenever that day turns out to be, and find you already waiting. Your daughter, for instance. Your oldest friend. He says it lightly and then leaves the room slightly too quickly.",
       "sceneTitle": "Day Three: The Other Choice",
       "choices": [
         {
           "text": "Consider waiting for your daughter",
-          "consequence": "Some loves outweigh romance.",
+          "consequence": "You do the arithmetic of her remaining lifetime, forty years, maybe fifty, and discover you are willing. That willingness frightens you considerably more than dying did.",
           "nextNodeId": "s10"
         },
         {
           "text": "Discard the option as too sad for them",
-          "consequence": "They have lives to finish.",
+          "consequence": "You refuse to hand your daughter a debt she never agreed to carry. Protecting her costs you the only version of this where nobody in the family gets left behind.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You can also visit your children — not in person, but as bystander, invisible. You see your daughter eat a sandwich over the sink and cry into it. Your son finally calls his sister, for the first time in a year.",
+      "text": "They let you watch, invisibly, the way you would watch weather through a window. Your daughter stands at the sink eating a sandwich over the plughole, and halfway through it she starts crying and goes on eating. Your son telephones his sister for the first time in fourteen months and neither of them mentions the gap. Your funeral flowers are on the kitchen table, going over.",
       "sceneTitle": "Day Four: The Children",
       "choices": [
         {
           "text": "Stay and watch them for hours",
-          "consequence": "Even invisible love is love.",
+          "consequence": "You stand in the corner of your own kitchen until it gets dark, learning things about your children you have no right to know. Watching costs nothing and it costs a great deal.",
           "nextNodeId": "s12"
         },
         {
           "text": "Step back — they deserve privacy",
-          "consequence": "Let them grieve unwatched.",
+          "consequence": "You leave your daughter to cry over the sink by herself, which is what she would want and what you would want, and doing it takes everything you have got.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You ask the clerk what David's been doing for fifty years. 'Waiting,' he says simply. 'Reading. Painting badly. Waiting.' The waiting room of eternity, it turns out, is also a real place.",
+      "text": "You ask the clerk what David has been doing for fifty years. Waiting, he says. Reading. Painting quite badly. Waiting. It turns out the waiting room is not a figure of speech at all: there is an actual corridor in this building, with actual chairs, and people sitting in it who have been sitting since before you were born. Several of them are still watching the door.",
       "sceneTitle": "Day Four: David's Side",
       "choices": [
         {
           "text": "Sit with David in his waiting room",
-          "consequence": "Time owed is sometimes paid.",
+          "consequence": "You take the chair next to his and look at what he has been looking at for fifty years: a door, a lamp, a bad seascape in a gilt frame. Ten minutes of it nearly breaks you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Ask Henry how he'd feel about you choosing David",
-          "consequence": "Generosity asks aloud.",
+          "consequence": "You ask your husband for permission and watch him go about giving it decently, which is unbearable. He says he would understand. He means it. That is the part you cannot bear.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You sit between them — separately, in different rooms — and tell each the truth. With Henry: that fifty years was a country, and you are not sure how to leave it. With David: that you have lived and changed and he has, terribly, not.",
+      "text": "Two rooms, one truth each. To Henry: that fifty years is a country with its own language and its own weather and you have no idea how a person emigrates. To David: that you kept on living and changed shape a dozen times while he did not, and that the woman he has been waiting for grew old and became somebody else, and that somebody is the one sitting here.",
       "sceneTitle": "Day Five: The Honest Talk",
       "choices": [
         {
           "text": "Notice how Henry hears 'leaving'",
-          "consequence": "He has been waiting to be chosen too.",
+          "consequence": "He catches the word emigrate and goes very still, then starts talking about the house, the boiler, the garden, anything at all with a lock on it. He is arguing with a suitcase.",
           "nextNodeId": "s14"
         },
         {
           "text": "Notice how David hears 'changed'",
-          "consequence": "Forever, for him, is the only thing left.",
+          "consequence": "He hears that you grew and he did not, and nods too quickly, agreeing with his own obsolescence. Nobody should ever agree that fast to having been outgrown.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You feel, briefly, an awful clarity: you want both. You want to be twenty-three again with David and seventy with Henry and you want a clerk to bring you an option that does not exist.",
+      "text": "It arrives at four in the morning, hotel-quiet: you want both. Not in sequence, not fairly, not as a compromise. Both, at once, the entire time. You want to be twenty-three on a porch and seventy in a kitchen, and you want a man in a cream blazer to produce a form that covers it. There is no such form. You go through the folder twice looking for it.",
       "sceneTitle": "Day Five: The Selfish Wish",
       "choices": [
         {
           "text": "Tell the clerk you want a third option",
-          "consequence": "Always ask for what does not exist.",
+          "consequence": "You ask for the thing that does not exist, out loud, at four in the morning, in a lobby with nobody in it. The clerk does not laugh. He asks you to sit down.",
           "nextNodeId": "s14"
         },
         {
           "text": "Resign yourself to choosing",
-          "consequence": "Even in eternity, no is the price of yes.",
+          "consequence": "You accept that one of them has to lose, and for about an hour the acceptance feels like maturity, and then it stops feeling like anything except grief in a good coat.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Off the record, the clerk admits there is a 'shared eternity' for souls in your specific bind. It is rare. It is not advertised. It requires the consent of all three, and a willingness to share what most people cannot.",
+      "text": "Off the record, he says, and he actually says off the record, in the afterlife. There is a shared arrangement for souls in your precise bind. It is rare. It is not in the folder and it is not advertised anywhere. It needs all three of you to agree, and then to keep agreeing, and it asks for a kind of sharing most people discover they cannot manage once the door shuts.",
       "sceneTitle": "Day Six: The Clerk's Confession",
       "choices": [
         {
           "text": "Propose the shared eternity",
-          "consequence": "Ask both men if they could bear it.",
+          "consequence": "You decide to ask two men to divide something neither of them has ever wanted divided. If they agree it will be because they love you, not because the arrangement is fair.",
           "nextNodeId": "s16"
         },
         {
           "text": "Refuse — fairness is not a banquet",
-          "consequence": "Some honesty rules out novelty.",
+          "consequence": "You turn down the loophole because you can already see the arithmetic of it: whose birthday, whose evening, whose turn at the table. Some kindnesses are cruelty spread thinner.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You sit down to write your daughter a letter she will never read on Earth. It is the longest letter of your life and it begins with the words 'I chose well.' You are not sure, yet, which 'well.'",
+      "text": "You sit down with hotel paper to write your daughter something she will never receive. It runs to nine pages and takes the whole night, and the first line of it reads: I chose well. You look at that sentence for a long time with the pen resting on the blotter. You have not chosen anything yet, and you have already told her it turned out fine.",
       "sceneTitle": "Day Six: The Letter",
       "choices": [
         {
           "text": "Address it to whoever you choose",
-          "consequence": "Let the choice author the letter.",
+          "consequence": "You leave the name blank at the top and keep writing anyway, which means the letter has quietly become a promise you now have to go downstairs and make true.",
           "nextNodeId": "s16"
         },
         {
           "text": "Address it to both Henry and David",
-          "consequence": "Acknowledge them both, on paper.",
+          "consequence": "You put both names on one envelope and feel the impossibility of it arrive in your wrist. The pen carries on regardless. It always did know more than the rest of you.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,27 +304,27 @@
     },
     {
       "id": "s16",
-      "text": "It is morning. The clerk meets you in the lobby with the folder open and a pen. He is, you realize, also somehow rooting for you.",
+      "text": "Morning, and the lobby is emptier than it has been all week. The clerk has the folder open at the last page with a pen laid across it at a careful angle. He has done this thousands of times and he is, you can see it in the set of his jaw, quietly hoping for one particular outcome. He does not say which one. It would not be proper.",
       "sceneTitle": "Day Seven: The Decision",
       "choices": [
         {
           "text": "Choose Henry — for the life you finished",
-          "consequence": "Honor what you built.",
+          "consequence": "You choose the fifty years: the boiler, the ferry story told wrong, the hand on your back at every funeral the two of you ever attended together. You choose the life that got lived.",
           "nextNodeId": "s18"
         },
         {
           "text": "Choose David — for the life you didn't get",
-          "consequence": "Honor what you lost.",
+          "consequence": "You choose the spring that never happened, knowing you are stepping back into a younger and smaller version of yourself to do it. Nobody else can go and collect that one.",
           "nextNodeId": "s19"
         },
         {
           "text": "Choose the shared eternity, if both agree",
-          "consequence": "Risk a new shape of love.",
+          "consequence": "You ask two men to share what people do not share. The clerk writes it into the folder very slowly, as though the ink might raise an objection partway through.",
           "nextNodeId": "s20"
         },
         {
           "text": "Choose to wait for your daughter",
-          "consequence": "Honor what is still here.",
+          "consequence": "You choose the person who is still alive and still eating sandwiches over a sink, and sign up for decades of an empty chair. It is the least romantic love in the building.",
           "nextNodeId": "s21"
         }
       ],
@@ -333,17 +333,17 @@
     },
     {
       "id": "s17",
-      "text": "Whatever you choose, there is one room where you must say goodbye to the person — or persons — you are leaving. The room is small. The lighting is kind. The clerk waits outside.",
+      "text": "Whatever you decide, there is a room for the leaving. It is small, two chairs and a lamp that somebody thought hard about. The clerk waits in the corridor with the door not quite shut, close enough to be reached and far enough to be decent. Whoever you are not taking sits down opposite you. There is no clock in here, which is either mercy or the exact opposite.",
       "sceneTitle": "The Goodbye Room",
       "choices": [
         {
           "text": "Tell each of them everything you'd want them to keep",
-          "consequence": "Goodbye is the last gift.",
+          "consequence": "You give it all: the ferry, the porch, the year you nearly left, the corner turned down at page ninety. It takes hours and it empties you out properly.",
           "nextNodeId": "s18"
         },
         {
           "text": "Keep it brief — feeling is enough",
-          "consequence": "Some farewells aren't speeches.",
+          "consequence": "You say one short true thing and stop, because past a certain length a goodbye starts serving the person who is leaving. You walk out with the rest of it still inside you.",
           "nextNodeId": "s19"
         }
       ],
@@ -352,17 +352,17 @@
     },
     {
       "id": "s18",
-      "text": "You walk out into a garden that is fifty years of mornings stitched together. He is making coffee. He looks up and grins. 'You took your time,' he says. 'I forgive you,' he says. 'I always forgive you,' he says. It is enough.",
+      "text": "The door opens onto a garden made of every good morning of fifty years stitched into one. The kettle is already on. He has the paper folded to the crossword with a single clue left, the way he always saved you one. He looks up and grins. You took your time, he says. Forgiven, he says, and then says it again, because he could never manage to say it only once.",
       "sceneTitle": "Henry's Forever",
       "choices": [
         {
           "text": "Stay in the morning, forever",
-          "consequence": "Forever is the right size for ordinary.",
+          "consequence": "You sit down at the table and let the morning begin again, and again. You do not get bored of it. That, it turns out, is the whole of the miracle they were selling.",
           "nextNodeId": "end_henry"
         },
         {
           "text": "Send a thought back to David, in mercy",
-          "consequence": "Even chosen love can be generous.",
+          "consequence": "Before you sit down you ask the clerk to make sure the boy is not left alone in that corridor. It costs you nothing and it is the only reason you can enjoy the coffee.",
           "nextNodeId": "end_henry_kind"
         }
       ],
@@ -371,17 +371,17 @@
     },
     {
       "id": "s19",
-      "text": "He puts the book down at last. The two of you walk out of the hotel into a year you never finished — the spring you were going to spend together. The grief of fifty unlived years sits behind you like the door of a house finally locked.",
+      "text": "He puts the book down without marking his place, for the first time in fifty years. The two of you walk out of the lobby into an April that never occurred: the rented flat on Sycamore with the temperamental boiler, the plan made on a cold porch. The years you actually lived are behind you now, shut and locked, and the key is somewhere you have agreed not to look.",
       "sceneTitle": "David's Forever",
       "choices": [
         {
           "text": "Live the spring forever",
-          "consequence": "Some forevers are a single season.",
+          "consequence": "You walk into the unlived April and let it be small: one street, one flat, one man reading aloud in a kitchen while you burn the onions. Small is what you were owed.",
           "nextNodeId": "end_david"
         },
         {
           "text": "Send your love back to Henry, in thanks",
-          "consequence": "Honor the man who held the world while you were gone.",
+          "consequence": "You send fifty years of gratitude backwards down a line that is not built to carry it, and somehow it goes through. That is the last thing you will ever spend on him.",
           "nextNodeId": "end_david_kind"
         }
       ],
@@ -390,17 +390,17 @@
     },
     {
       "id": "s20",
-      "text": "The clerk leads you into a strange, gentle room where Henry and David sit on opposite couches, both holding mugs the clerk handed them ten minutes ago. They look at each other for a long time. Then, almost in unison, they look at you.",
+      "text": "The clerk shows you into a room with two couches and a low table, and both men are already there holding mugs he handed them ten minutes ago. Neither has drunk anything. They look at each other for a long time, the boy who died at twenty-three and the man who buried you at seventy-four, and neither one of them looks away. Then, almost together, they look at you.",
       "sceneTitle": "The Three of You",
       "choices": [
         {
           "text": "Walk into the new shape of forever",
-          "consequence": "Some loves are not pies; they are weather.",
+          "consequence": "You cross the room and sit down between them, which is the least dignified and most honest thing you have ever done in your life. Nobody spills anything.",
           "nextNodeId": "end_shared"
         },
         {
           "text": "Walk back to your own room and reconsider",
-          "consequence": "Even now, you're allowed to choose again.",
+          "consequence": "Your nerve goes at the threshold and you climb back upstairs, leaving two men holding cooling mugs on facing couches. You will have to walk into that room again from the beginning.",
           "nextNodeId": "s16"
         }
       ],
@@ -409,17 +409,17 @@
     },
     {
       "id": "s21",
-      "text": "You choose to wait. You sit by a window in the hotel's tower and watch the years pass. Henry, in time, joins David, somewhere. You are alone in the best sense — keeping a seat warm for the person you love most.",
+      "text": "You take the tower room with the good window and tell the clerk that you will wait. Below, the years go past like a kind of weather. Henry arrives eventually, and after a long while goes off somewhere with David, and you hear about it secondhand. You are alone in the good sense: a woman keeping a chair warm, watching a door, with one arrival on her calendar.",
       "sceneTitle": "Your Daughter's Forever",
       "choices": [
         {
           "text": "Wait for her, however long it takes",
-          "consequence": "Some loves are vigil.",
+          "consequence": "You settle in for decades with no guarantee of the date and no way of hurrying it. Every single morning you check the lobby. It is the most patient thing you have ever done.",
           "nextNodeId": "end_daughter"
         },
         {
           "text": "Visit her each anniversary in dreams",
-          "consequence": "Bring her small messages.",
+          "consequence": "You ask for one night a year and are granted it, and spend the other three hundred and sixty-four hoping the dream lands somewhere useful in her head.",
           "nextNodeId": "end_dream"
         }
       ],
@@ -428,7 +428,7 @@
     },
     {
       "id": "end_henry",
-      "text": "You and Henry live the morning over and over and somehow it never gets old, because it is the morning you chose. Eternity, for you, smells like burnt toast and his bad coffee. You would, you realize, choose this a thousand times.",
+      "text": "The morning runs again and it does not wear out, because it is the one you picked on purpose. Burnt toast. Coffee he makes badly and has always made badly. The crossword clue left for you in the margin. Somewhere around the thousandth repetition you understand that eternity is not a length at all but a thing you would agree to again, and you would agree to this, without needing to be asked.",
       "sceneTitle": "Fifty Years, Forever",
       "choices": [],
       "isEnding": true,
@@ -436,7 +436,7 @@
     },
     {
       "id": "end_henry_kind",
-      "text": "You chose Henry, but you make sure David is not alone. The clerk arranges company for him — a soul who loved him too, in a life you'd never know. Forever, you decide, should be a place where nobody is forgotten.",
+      "text": "You took Henry, and you made certain David was not left sitting in that corridor. The clerk arranged company for him: a woman who loved him in a life you will never hear a word about, who had been waiting in a different wing since long before you arrived. Nobody should be alone in forever. You believe that now with the particular force of somebody who nearly made an exception.",
       "sceneTitle": "Mercy, Both Ways",
       "choices": [],
       "isEnding": true,
@@ -444,7 +444,7 @@
     },
     {
       "id": "end_david",
-      "text": "You live the spring you never got, and the surprise is that fifty unlived years do not weigh nothing — but they weigh less than the joy of an afternoon in the rented apartment on Sycamore, with David reading aloud while you cook. Forever turns out to be small. That is its kindness.",
+      "text": "You live the April you were promised, and the surprise is that fifty unlived years do weigh something. You feel them in the doorway of the Sycamore flat most evenings, around the time the light goes. But they weigh less than one afternoon of him reading aloud while you burn the onions and swear at the pan. Forever turns out to be one street long. That is the whole of its kindness.",
       "sceneTitle": "The Unfinished Spring",
       "choices": [],
       "isEnding": true,
@@ -452,7 +452,7 @@
     },
     {
       "id": "end_david_kind",
-      "text": "You make sure your gratitude reaches Henry — a feeling, a dream, a sentence in a song he hears in the car. He cries in a grocery store parking lot and doesn't know why. You do.",
+      "text": "You find a way to get it to him. Not a letter, not a visit: a feeling in a supermarket car park, a line in a song on the radio that was not in the song a second earlier. Henry sits with both hands on the wheel and cries and cannot account for it. He will put it down to the weather, or the anniversary, or nothing. You know better than that.",
       "sceneTitle": "Henry's Letter, Delivered",
       "choices": [],
       "isEnding": true,
@@ -460,7 +460,7 @@
     },
     {
       "id": "end_shared",
-      "text": "It is strange and gentle and entirely yours. Henry and David do not become friends, exactly. They become a kind of family. The clerk visits sometimes. Eternity, you decide, is more flexible than the brochures suggest.",
+      "text": "It is strange, and it works, mostly. Henry and David never become friends exactly; they become something without a proper word for it, two men who split the same person and mind it less with every decade. There is a third mug now, and an ongoing argument about the crossword, and the clerk drops by on slow afternoons. Eternity is more flexible than the folder suggested. You simply have to ask out loud.",
       "sceneTitle": "Three Mugs",
       "choices": [],
       "isEnding": true,
@@ -468,7 +468,7 @@
     },
     {
       "id": "end_daughter",
-      "text": "Decades later, your daughter — old now, grey-haired — walks through the lobby with the folder. She sees you in the tower window and laughs the laugh she got from you. The clerk smiles. You go down the stairs without hurrying. You have all the time in the world.",
+      "text": "Decades. Then the lobby doors go and a grey-haired woman comes through holding a gold folder, and she is seventy years old and she has your hands exactly. She looks up at the tower window and laughs the laugh she got from you, unchanged. The clerk permits himself a small smile. You come down the stairs at an ordinary walking pace, because for the first time in your life there is no hurry.",
       "sceneTitle": "The Seat Warmed",
       "choices": [],
       "isEnding": true,
@@ -476,7 +476,7 @@
     },
     {
       "id": "end_dream",
-      "text": "You visit her in dreams the way her grandmother visited you. She wakes calmer, kinder, ready for another year. You will be here when she's ready. Forever, you've learned, is patient.",
+      "text": "You go to her the way her grandmother came to you: once a year, near dawn, in a dream she will half remember over breakfast and not quite be able to describe. She wakes up calmer. She is kinder to her husband for a week afterwards and cannot say why. You keep the tower chair, and the window, and the year between visits, and you learn that forever is mostly made of patience.",
       "sceneTitle": "On Anniversaries",
       "choices": [],
       "isEnding": true,

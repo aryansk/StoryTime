@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Mist over the hills. Chai from a kettle you bought three years ago. Rabia, who finally stayed, reading on the porch. Your phone, which is supposed to be cold, rings.",
+      "text": "Mist coming down the hills like something poured. The kettle you bought three years ago with cash, in a shop where nobody wrote your name in a book. Rabia on the porch with a novel, on page nine and not turning it, which means she is thinking rather than reading. And the phone in the drawer beneath the tea towels — the dead phone, the one no living person has the number for — starts to ring.",
       "sceneTitle": "Lonavala, Morning",
       "choices": [
         {
           "text": "Answer",
-          "consequence": "“Answer” closes one possibility and opens another. The moment leaves a clear note behind: Old habits.",
+          "consequence": "You cross the room in four steps you have not needed in three years. Your body remembers the walk before you decide to take it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Let it ring",
-          "consequence": "You commit to “Let it ring.” The story records the instinct as “New life” and carries it forward.",
+          "consequence": "You count nineteen rings. Rabia does not look up from the page she is not reading. Then it starts again.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A handler you've never met. 'Karachi never closed,' she says. 'We need you in Dubai by Thursday.' You realize you have, perhaps, been chosen because you're the only one left who saw the original handler's face.",
+      "text": "A woman's voice, unhurried, no name offered. She says Karachi never closed, which is a sentence with a file number standing behind it. She says Dubai, Thursday, and gives you a hotel that does not take walk-ins. She does not try to persuade you, which is its own technique. And halfway through you work out why they woke you specifically: everyone else who ever saw your first handler's face is dead.",
       "sceneTitle": "The Voice",
       "choices": [
         {
           "text": "Agree to a meeting in Mumbai",
-          "consequence": "Hear them out.",
+          "consequence": "You give her a public place and a daylight hour. It is the last condition in this whole thing you will get to set.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse and hang up",
-          "consequence": "There is no taking “Refuse and hang up” back. Boundaries shapes the silence before the next moment arrives.",
+          "consequence": "You say no and put the phone back in the drawer. It does not ring again, which is how you learn they have gone around you.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Rabia sees the phone, sees your face, knows. She sets her book down. 'You promised me,' she says, gently. 'I know,' you say, equally gently. The morning has, somehow, gotten older.",
+      "text": "She sees the phone before you have it out of the drawer. She sees your shoulders drop half an inch, which is a thing only she can read. She marks her page properly, with the ribbon, and sets the book on the arm of the chair. You promised me, she says, without heat. I know, you say. The mist keeps coming down. The morning has aged twenty years since the kettle boiled.",
       "sceneTitle": "Rabia, Watching",
       "choices": [
         {
           "text": "Tell her you'll refuse",
-          "consequence": "Honor the promise.",
+          "consequence": "You say the word no out loud, to her face, and in that moment you mean it completely. She knows you mean it. She also knows what that is worth.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her you need to hear them out",
-          "consequence": "Honesty, however hard.",
+          "consequence": "You ask for one meeting and one hour, and she agrees the way people agree to a diagnosis rather than to a plan.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Your new handler is in her forties, sharp, kind, terrified. The dossier she slides across the table includes your old cover wife's name on the wrong side of a ledger.",
+      "text": "An Irani cafe off Colaba, two ceiling fans, bun maska nobody touches. Your new handler is forty-odd, sharp, and frightened in a way she is managing very well. The dossier crosses the marble inside a bakery bag. Third page: a ledger of payments out of a bank in Sharjah, and on the receiving side, spelled correctly, the name of the cover wife you buried an entire life underneath.",
       "sceneTitle": "Mumbai Cafe",
       "choices": [
         {
           "text": "Refuse and walk out",
-          "consequence": "Some triggers aren't yours.",
+          "consequence": "You leave the bag on the table and the money under the saucer. You get four streets before you understand you have already been briefed.",
           "nextNodeId": "s6"
         },
         {
           "text": "Demand the full operation brief",
-          "consequence": "Information before refusal.",
+          "consequence": "You ask for all of it, which is how they take you, because all of it is a thing you cannot afterwards un-know.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Khala Bhabhi, your old Karachi asset, somehow has your number. 'He's alive,' she says. 'And he has your wife's name.' Your wife, your real one, by paper.",
+      "text": "Khala Bhabhi's voice out of Karachi at one in the morning, on a number you have given to nobody. She is older and drier and she does not waste the first sentence on greetings. He is alive, she says. And he has your wife's name. Not the cover wife. Rabia — the woman asleep in the next room, in a house that four services are supposed to be unable to find.",
       "sceneTitle": "The Old Asset",
       "choices": [
         {
           "text": "Move Rabia tonight",
-          "consequence": "The decision settles the question for now. Its verdict—Family first—follows you into whatever comes next.",
+          "consequence": "You wake her at two and she is dressed and packed in nine minutes without asking a single question. That is not comforting.",
           "nextNodeId": "s6"
         },
         {
           "text": "Investigate the threat before moving",
-          "consequence": "Verify, then act.",
+          "consequence": "You spend a day verifying and let her sleep through it. You will never settle whether that was steadiness or cowardice.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You land in Dubai on a passport that has been very lightly used. The hotel room has good locks. The mission, briefly outlined, is to identify the man who survived the Karachi op three years ago.",
+      "text": "You land on a passport with three stamps in it, all of them boring. The hotel room is on the ninth floor with a door that closes properly and a window that does not open. The brief is one sentence wide: establish whether the man who walked out of the Karachi house three years ago is the man you shot. You have forty-eight hours before they send somebody who does it louder.",
       "sceneTitle": "Dubai, Forty-Eight Hours",
       "choices": [
         {
           "text": "Take the mission and run it carefully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Old skills.",
+          "consequence": "You run it their way — patterns, distance, no contact. Careful is slower, and slow is a thing you can no longer afford at home.",
           "nextNodeId": "s8"
         },
         {
           "text": "Run a counter-op of your own",
-          "consequence": "Trust nobody but yourself.",
+          "consequence": "You accept the brief in writing and open a second operation the same evening that nobody has authorised, including you.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You move Rabia to a safe house two hills over. She is angry and competent. She does, in fact, know exactly how to disappear — she did it before.",
+      "text": "Two hills over, a house with a tin roof and a kilometre of visible road in both directions. Rabia unpacks without being told where anything goes. She checks the back door, then the window latches, then the sightlines from the kitchen, in that order — the correct order. She is furious with you and she is extremely good at this, and it occurs to you that you have never once asked where she learned it.",
       "sceneTitle": "The Safe House, Lonavala",
       "choices": [
         {
           "text": "Take her with you to Dubai",
-          "consequence": "Asset and family.",
+          "consequence": "She travels as your wife, which she is, on paper that for once is not a lie. It is the first time you have not had to invent her.",
           "nextNodeId": "s8"
         },
         {
           "text": "Leave her safe; go alone",
-          "consequence": "“Leave her safe; go alone” closes one possibility and opens another. The moment leaves a clear note behind: Compartmentalize.",
+          "consequence": "You go without her and she does not argue, which frightens you considerably more than the argument would have.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Tariq — the man you were sure you killed — is in a Dubai gym at noon. He sees you. He smiles, sadly. He approaches you in the parking lot with empty hands and says, 'I wanted to apologize.'",
+      "text": "Noon, a gym on Sheikh Zayed Road, treadmills facing the glass. He is on the second one — greyer, forty pounds lighter, alive. He sees you in the reflection before you have finished looking at him. He does not run. He finishes his water, walks out to the car park with both hands loose and open at his sides, stops six feet away, and tells you he has been wanting to apologise.",
       "sceneTitle": "Tariq, Alive",
       "choices": [
         {
           "text": "Hear him out",
-          "consequence": "Even ghosts speak.",
+          "consequence": "You stand in a car park in forty-two degrees and let a dead man talk for an hour. Every minute of it is unauthorised.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take him into custody",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Process first.",
+          "consequence": "You put him in the boot of a rented sedan, which is procedure, and which means the men who own him now know exactly where he stopped.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You set up your own circle — Khala Bhabhi in Karachi, a stringer in Dubai, your old handler (the one who survived, secretly), and Rabia as your operational mind. Suddenly you have a team that does not, on paper, exist.",
+      "text": "You build it out of people no ledger will ever admit to. Khala Bhabhi in Karachi with forty years of grocers and cousins. A Malayali stringer in Deira who will photograph anything for cash. Your first handler, who is supposed to be in a grave in Pune and is not. And Rabia at a whiteboard in a Lonavala kitchen, because she turns out to be the best analyst any of you have ever worked with.",
       "sceneTitle": "The Counter-Op",
       "choices": [
         {
           "text": "Run it as a private circle",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Private justice.",
+          "consequence": "Nothing on paper, nothing on a state server, nobody to sign off. You have never been this exposed, or this fast.",
           "nextNodeId": "s10"
         },
         {
           "text": "Use it to clean your name with the agency",
-          "consequence": "“Use it to clean your name with the agency” closes one possibility and opens another. The moment leaves a clear note behind: Negotiate after.",
+          "consequence": "You feed them just enough to become useful again, which is the same as handing your leash back across the table.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Tariq tells you that he was, for a year, the asset of a third country you didn't know was in this game. He has been wanting to defect ever since. He has documents.",
+      "text": "He talks for two hours and never once asks you for anything. He was run for fourteen months by a third service — not Pakistan, not you, a country whose embassy sends you a card at Diwali. He has wanted out since the second month. There is a hard drive taped inside the frame of a bathroom mirror in a flat in Karama. He kept it, he says, in case somebody like you ever came.",
       "sceneTitle": "The Apology",
       "choices": [
         {
           "text": "Believe him and exfil him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Asset acquisition.",
+          "consequence": "You decide in a car park, on instinct, against every rule you have ever taught. You are right, and you would not have survived being wrong.",
           "nextNodeId": "s12"
         },
         {
           "text": "Verify his documents first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Trust verifies.",
+          "consequence": "You take four days to check the drive against three sources. He waits in the flat and does not run, which is evidence of a kind.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your stringer flips a server log: the third country running the original Karachi op was a 'friendly' power. The betrayal is, professionally, more interesting than personal. The agency has, you realize, been lied to too.",
+      "text": "Your stringer buys a server log off a sysadmin for the price of a motorcycle. The Karachi operation three years ago was not run out of Rawalpindi at all. It was routed through a friendly capital, through a service that shares your threat assessments and drinks at your embassy receptions. The betrayal is not personal, which somehow makes it worse. Your own agency has been lied to exactly as thoroughly as you were.",
       "sceneTitle": "The Third Country",
       "choices": [
         {
           "text": "Take the evidence to the agency",
-          "consequence": "“Take the evidence to the agency” closes one possibility and opens another. The moment leaves a clear note behind: Inside fix.",
+          "consequence": "You take it in the front door, which is loyal, and which means eight men now get to decide what happens to your family.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take it to a journalist for outside pressure",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Outside fix.",
+          "consequence": "You choose a woman in Delhi who has been sued four times and lost nothing. Once it is printed, nobody can quietly mislay it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Rabia, somehow, becomes the operational steady. She is faster than you in places you were too tired to be fast in. You realize she has been, all along, more than your cover. She is good at this.",
+      "text": "Dubai, week three, a handover in a mall car park that goes wrong in the ordinary way. She reads it two seconds before you do and moves the meeting point by text without consulting anybody. Afterwards you sit in the car with the engine off and understand she is not learning this. She has been carrying it the whole time you were teaching her to make chai for men who might have killed you.",
       "sceneTitle": "Rabia in the Field",
       "choices": [
         {
           "text": "Make her your official partner",
-          "consequence": "The decision settles the question for now. Its verdict—Honest team—follows you into whatever comes next.",
+          "consequence": "You put her name on the operational file. It gets her cleared, insured, and permanently on a list in three countries.",
           "nextNodeId": "s14"
         },
         {
           "text": "Keep her work informal — protect her record",
-          "consequence": "“Keep her work informal — protect her record” closes one possibility and opens another. The moment leaves a clear note behind: Compartmental.",
+          "consequence": "You keep her off every page. It keeps her clean, and it means nothing she does will ever officially have happened.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Khala Bhabhi outlines a long con — six months, in three cities, to make the third country's network publicly visible. She has been waiting, she says, for a man like you to do it with.",
+      "text": "She draws it on the back of a calendar: six months, three cities, four planted stories and one deliberately imperfect forgery the third country will be forced to publicly disown. She is sixty-eight. She has been running couriers since before you were commissioned. She says she has been waiting a long time for someone with your particular file to walk back through her door, and then she asks whether you want more tea.",
       "sceneTitle": "Khala Bhabhi's Plan",
       "choices": [
         {
           "text": "Commit to the six-month con",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Long game.",
+          "consequence": "You give her half a year and both hands. It means missing the monsoon in Lonavala, and Rabia hears the missing before you say it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Commit only to phase one",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stage it.",
+          "consequence": "You commit to six weeks and a review, which is honest, and which Khala Bhabhi accepts with a look that says she will get the rest regardless.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Six months later the network is, by every careful measurement, exposed — across three countries, two intelligence services, and one very embarrassing newspaper. You and Rabia did most of it from a kitchen in Lonavala.",
+      "text": "Six months. Two ambassadors recalled, three officers burned, one broadsheet forced into a correction that runs nine hundred words. The network comes apart in public, in the right order, on the right days. And nearly all of it was assembled at a kitchen table in Lonavala by a woman with a whiteboard and a man who is officially retired, over an internet connection that drops whenever it rains.",
       "sceneTitle": "The Exposure",
       "choices": [
         {
           "text": "Stay in the work, on your terms",
-          "consequence": "There is no taking “Stay in the work, on your terms” back. Continue shapes the silence before the next moment arrives.",
+          "consequence": "You take a consultancy on a contract you actually read, and the quiet power of being able to say no in writing.",
           "nextNodeId": "s16"
         },
         {
           "text": "Cash out fully and disappear",
-          "consequence": "The decision settles the question for now. Its verdict—Done—follows you into whatever comes next.",
+          "consequence": "You close the accounts, burn the passports, take the pension. The silence afterwards is very loud for about four months.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You and Rabia retreat to the original house. The cat next door has, in your absence, adopted you. Tariq, exfiltrated, sends a postcard from Lisbon. He's painting, badly. You both laugh.",
+      "text": "You come back to a house that has grown a smell of damp and a cat. The cat belongs to nobody and has decided, in your absence, that the porch is hers. On the mat there is a postcard from Lisbon with a painting on it — his own, badly photographed and worse painted. Tariq has taken up oils. Rabia laughs until she has to put the tea down on the step.",
       "sceneTitle": "The Lonavala House",
       "choices": [
         {
           "text": "Take Tariq's offer to visit Lisbon",
-          "consequence": "Friendship across borders.",
+          "consequence": "You write yes on the back of a bus ticket and post it. It is the least tradecraft you have managed in twenty years.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay in Lonavala for the season",
-          "consequence": "The decision settles the question for now. Its verdict—Settle—follows you into whatever comes next.",
+          "consequence": "You stay through the rains and repair the roof yourself, badly. It is the first thing you have built that nobody has to deny.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Lisbon in spring. Tariq's paintings are, you confirm, very bad. He cooks for you. You realize, in his kitchen, that you have not been a guest in a friend's home in twenty years.",
+      "text": "Spring, a fourth-floor flat in Graca with the windows open and washing strung on the line below. The paintings are genuinely terrible — you say so out loud and he agrees, delighted. He cooks bacalhau, gets it wrong, and serves it anyway. Somewhere between the second glass and the plates you register that you have not been a guest in a friend's home since you were twenty-six years old.",
       "sceneTitle": "The Lisbon Visit",
       "choices": [
         {
           "text": "Stay in Europe a while",
-          "consequence": "Take the air.",
+          "consequence": "You extend the ticket twice, then stop extending it and simply stay. Rabia arrives in June with two bags and no return date.",
           "nextNodeId": "s18"
         },
         {
           "text": "Return home enriched but unchanged",
-          "consequence": "Take the memory.",
+          "consequence": "You go home in April with a bad painting rolled in a tube and hang it in the kitchen, where it wins every argument by being there.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You and Rabia plant a small garden behind the Lonavala house. It is not symbolism. It is just a garden. The neighbors don't know your real name. They love you anyway.",
+      "text": "You dig a bed four metres by two behind the house, and Rabia argues for tomatoes over chillies and wins on the evidence. None of it is symbolic. It is soil, a fence against the monkeys, and a running disagreement about water. The neighbours know you as the couple in the blue house. They do not know your name, either of your names. They bring you seedlings anyway.",
       "sceneTitle": "The Garden",
       "choices": [
         {
           "text": "Keep the garden small and yours",
-          "consequence": "There is no taking “Keep the garden small and yours” back. Boundaries shapes the silence before the next moment arrives.",
+          "consequence": "You decide four metres by two is the correct size for the rest of a life. Nobody else gets a key to the gate.",
           "nextNodeId": "end_garden"
         },
         {
           "text": "Invite a young handler to learn",
-          "consequence": "Pass it on.",
+          "consequence": "You write one line to an old address: send me the next one you are about to waste. Somebody, eventually, replies.",
           "nextNodeId": "end_mentor"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You and Rabia spend a year between Lisbon, Istanbul, and Lonavala. You learn to be tourists. You realize, late, that it's possible to live in countries you previously only entered.",
+      "text": "A year split three ways — Lisbon in spring, Istanbul in autumn because Rabia wanted the bookshops, Lonavala for the rains. You learn to stand in a ferry queue without counting exits. You buy a guidebook, are embarrassed by it, and use it anyway. It takes most of a year to notice that these are countries you have only ever entered before, and never once lived in.",
       "sceneTitle": "Three Languages",
       "choices": [
         {
           "text": "Make Lisbon a real home half the year",
-          "consequence": "Build the dual life.",
+          "consequence": "You sign a lease with your own name on it, in ink, at a desk. The strangeness of that lasts about a week.",
           "nextNodeId": "s21"
         },
         {
           "text": "Come fully home",
-          "consequence": "There is no taking “Come fully home” back. Choose one shapes the silence before the next moment arrives.",
+          "consequence": "You give up the flat and carry the last of it back to Lonavala. Two homes was one more than you could keep secure.",
           "nextNodeId": "s21"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You write a memoir nobody will read. It is, for you, the closing argument of a career. Rabia edits. Tariq sends a chapter from his own attempt at one in Portuguese. Your memoir is, in the end, mostly an act of paying attention.",
+      "text": "You write it in longhand, because a hard drive is a liability and a habit is a habit. Four hundred pages nobody will read: the first handler, the first lie, the specific weight of a boy in Karachi. Rabia edits in pencil and shows no mercy. Tariq sends a chapter of his own attempt in Portuguese, which you cannot read and keep regardless. Mostly it is an act of paying attention.",
       "sceneTitle": "The Memoir, Unpublished",
       "choices": [
         {
           "text": "Burn the manuscript",
-          "consequence": "Some closings are private.",
+          "consequence": "You burn it in the garden bed in a steel bucket while Rabia watches. Writing it was the point. Keeping it never was.",
           "nextNodeId": "s21"
         },
         {
           "text": "Lock it in a vault for fifty years",
-          "consequence": "Some closings are for grandchildren.",
+          "consequence": "You put it in a Bombay bank with instructions for 2076. Somebody not yet born gets to decide whether any of it mattered.",
           "nextNodeId": "s21"
         }
       ],
@@ -380,22 +380,22 @@
     },
     {
       "id": "s21",
-      "text": "Rabia and you sit on the porch in Lonavala with two cups going cold. You weigh the shape of the rest of it — garden, two homes, or a quiet mentor's chair for the next handler the agency sends.",
+      "text": "Two cups going cold on the porch rail because you have both been talking instead of drinking. The rain is late this year. She lists the options the way she lists anything, like an operations board: the garden and nothing beyond it, two kitchens on two continents, or the young woman the agency keeps offering to send, who would learn more in a month here than in five years anywhere else.",
       "sceneTitle": "The Last Decision",
       "choices": [
         {
           "text": "Keep the porch and nothing else",
-          "consequence": "The decision settles the question for now. Its verdict—Smallest life—follows you into whatever comes next.",
+          "consequence": "You choose the four metres by two, the cat, and the same walk every morning. It is a smaller life, and you have earned smaller.",
           "nextNodeId": "end_garden"
         },
         {
           "text": "Teach the next handler",
-          "consequence": "Pass the craft.",
+          "consequence": "You write the letter that afternoon and post it from the town so the postmark is not the house. She replies in six days.",
           "nextNodeId": "end_mentor"
         },
         {
           "text": "Live the half-year in Lisbon",
-          "consequence": "There is no taking “Live the half-year in Lisbon” back. Two kitchens shapes the silence before the next moment arrives.",
+          "consequence": "You book two sets of flights for the next three years, which is either optimism or logistics, and at your age those have started to be the same thing.",
           "nextNodeId": "end_two_homes"
         }
       ],
@@ -404,7 +404,7 @@
     },
     {
       "id": "end_garden",
-      "text": "You live in Lonavala, full time, with Rabia and a cat. You learn the names of every neighbor. You walk the same loop every morning. You sleep well. You have, against every odd in your file, retired.",
+      "text": "Lonavala, all twelve months, with Rabia and a cat who has never once acknowledged being fed. You learn every neighbour's name and which of them lies about cricket scores. You walk the same loop each morning past the same three dogs. You sleep through the night. Against every line in a file that four services still keep and none of them will ever close, you have managed the impossible thing. You retired.",
       "sceneTitle": "Lonavala, Year Round",
       "choices": [],
       "isEnding": true,
@@ -412,7 +412,7 @@
     },
     {
       "id": "end_mentor",
-      "text": "A young woman from the agency, sent reluctantly, comes for tea. You teach her what you can. She comes back the next month. And the one after that. You become, in your sixties, what your old handler was supposed to be — patient, kind, devastatingly useful.",
+      "text": "She arrives for tea in the wrong shoes and does not touch her cup for the first hour. You teach her the boring parts: how to be forgettable, how to write nothing down, how to keep the person at the other end of it alive. She comes back the next month, and the one after that. At sixty-three you become what your first handler was supposed to be — patient, unglamorous, and quietly devastating.",
       "sceneTitle": "The Young Handler",
       "choices": [],
       "isEnding": true,
@@ -420,7 +420,7 @@
     },
     {
       "id": "end_two_homes",
-      "text": "Half the year Lisbon. Half the year Lonavala. You and Rabia get to know two sets of bakers, two sets of postmen, two ways of being. You realize the spy life trained you for, of all things, the present tense.",
+      "text": "Half the year Lisbon, half the year Lonavala. Two bakers who know your order, two postmen, two entirely different ways of standing in a queue. Rabia keeps a garden in both and complains about Portuguese soil in Marathi. On a tram in April you finally work out what all that training was actually for: you can hold a whole environment in your head at once, and now you use it to notice a Tuesday.",
       "sceneTitle": "Two Kitchens",
       "choices": [],
       "isEnding": true,

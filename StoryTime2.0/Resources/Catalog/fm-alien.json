@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A signal at the edge of charted space.",
+      "text": "Seven of you asleep in a room that smells of ozone and cold plastic, and the ship wakes you eight months early. Not Earth. A transmission repeating every twelve seconds off a moon nobody has surveyed. Parker asks about the bonus before he asks about the signal. Your contract obliges you to investigate any intelligent transmission — a clause typed a long time before your name went near it.",
       "sceneTitle": "Mother",
       "choices": [
         {
           "text": "Wake the crew",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You bang on the mess table until all six are up and arguing over coffee that tastes of the filter. Nobody notices the ship has already altered course.",
           "nextNodeId": "s2"
         },
         {
           "text": "Sleep through",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lazy.",
+          "consequence": "You go back under for four more hours, and when you surface the descent is plotted and locked and it is not anybody's decision now.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A rocky moon under a yellow sky and a horseshoe ship in the dust.",
+      "text": "The moon has no name, only a catalogue number and a wind reading seventy knots on the external gauge. Dust scours the hull loud enough to hear from the bridge. Below, in the yellow murk, something lies in the rock that was built by hands: a curved shape, kilometres of it, with two openings at the front that could be doors or could be nostrils. It has been down there a while.",
       "sceneTitle": "LV-426",
       "choices": [
         {
           "text": "Land",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "The struts hit rock and the landing gear tears open, so the question of whether to stay is now being settled by a repair estimate instead of by you.",
           "nextNodeId": "s3"
         },
         {
           "text": "Wait in orbit",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You hold high and watch the storm for six hours, which changes nothing at all except that you go down into worse weather than you started with.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Leathery shapes in fog with a thing twitching beneath each lid.",
+      "text": "Down through a hole in the floor into a chamber the size of a cargo bay, and the lamp picks out rows. Hundreds of them, leathery, waist-high, arranged with the tidiness of a seed tray. A blue haze lies flat across the tops, the exact light of a supermarket freezer. Kane steps over it to see better, and the lid of the nearest one peels back into four soft petals.",
       "sceneTitle": "Field of Eggs",
       "choices": [
         {
           "text": "Step back",
-          "consequence": "You commit to “Step back.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You put a hand on his shoulder from behind and feel him not stop. Two seconds of hesitation is the entire distance you manage to buy anybody.",
           "nextNodeId": "s4"
         },
         {
           "text": "Lean in",
-          "consequence": "There is no taking “Lean in” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "He lowers his helmet lamp right down over the opening the way a man checks a fusebox, and something inside adjusts itself to the light.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A spider with a tail wraps a man's helmet.",
+      "text": "It comes up faster than an eye tracks and takes the faceplate hard enough to star the glass. Eight fingers around his skull, a tail double-wrapped at the throat, the whole arrangement tightening in small increments like a grip strengthener. Dallas gets him under the arms. What comes over the suit channel is not screaming, because screaming requires an airway, and Kane no longer has one to spare.",
       "sceneTitle": "Facehugger",
       "choices": [
         {
           "text": "Stay outside",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You wait at the lock counting his breaths through a channel that keeps dropping out. Nothing you can do from here is not also a door being opened.",
           "nextNodeId": "s5"
         },
         {
           "text": "Open the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You break the seal for a crewmate, and let the moon's air and everything travelling in it into a ship you still have to sleep aboard.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Ripley at the door. Ash at the latch.",
+      "text": "Twenty-four hours, says the regulation, in a compartment with its own scrubbers, and Ripley has the manual open on the console to the precise page. Dallas is shouting through the outer hatch. Ash stands at the inner latch with his hand already resting on it, saying nothing, waiting for the argument to run out of air. Then the lock cycles. Nobody upstairs touched a single control.",
       "sceneTitle": "Quarantine",
       "choices": [
         {
           "text": "Side with Ripley",
-          "consequence": "“Side with Ripley” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You back the rule and lose anyway, and afterwards she is the only person aboard who knows you can be relied on for that particular kind of losing.",
           "nextNodeId": "s6"
         },
         {
           "text": "Override the lock",
-          "consequence": "“Override the lock” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You want the man inside more than you want the procedure. Everything that follows comes through a door you agreed to open.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A facehugger drops off and walks itself into a corner.",
+      "text": "It lets go on its own in the night and turns up in a corner, upside down, curled, dry, weighing about what a folded jacket weighs. Kane sits up asking whether there is anything to eat. The acid it bled through two decks stopped at the third and cooled into a black glaze. Ash has the body under glass with a typed label on it. He calls it, twice, a specimen.",
       "sceneTitle": "Medbay",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You want it out the airlock and gone, and Ash produces four calm reasons why the scientific position requires the exact opposite, and the four reasons win.",
           "nextNodeId": "s7"
         },
         {
           "text": "Cage it",
-          "consequence": "You commit to “Cage it.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You settle for a locked case with a light left burning over it, and from then on you check that latch every single time you pass the medbay.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Kane laughs at the table about a long sleep ahead.",
+      "text": "Cornbread out of a tube and the last of the real coffee. Kane eats like a man who has been away, elbows wide, talking with his mouth full: the only thing he remembers is a dream about being smothered. Parker complains about his share. Lambert laughs at something Dallas says. Somebody has laid a paper napkin at every place, which is what a crew does when it is nearly home.",
       "sceneTitle": "Dinner",
       "choices": [
         {
           "text": "Sit close",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You pull your chair in beside him and pass the bread across, and later you will remember your hand was resting on his wrist when it started.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay back",
-          "consequence": "“Stay back” closes one possibility and opens another. The moment leaves a clear note behind: Wary.",
+          "consequence": "You eat standing at the counter with your back half-turned, and it saves you nothing except the first four seconds of what happens next.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A small wet thing on the table running for a vent.",
+      "text": "He goes rigid mid-sentence and the tray goes over. Four of you hold him down on the table, which is the wrong thing to do, and the shirt darkens, and the front of him opens outward. What stands up in the wreck of his ribs is the length of your forearm, and it turns and looks at each face around the table in turn. Then it runs for the wall.",
       "sceneTitle": "Chestburst",
       "choices": [
         {
           "text": "Pursue",
-          "consequence": "You commit to “Pursue.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go after it with a coffee mug still in your hand, and it is under a floor grate before you have finished clearing the table edge.",
           "nextNodeId": "s9"
         },
         {
           "text": "Brace",
-          "consequence": "“Brace” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You do not move for six entire seconds, and you will spend a large portion of the rest of your life inside those six seconds.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Air ducts and a tracker that pings irregularly.",
+      "text": "Nobody eats afterwards. Parker rigs a tracker from a hand scanner and a motion head off the cargo lift, and it works, which is worse — it pings irregularly out of ducts running behind every wall of a ship you had never once considered as a place to hide inside. The schematic shows more crawlspace than living space. All of you have been sleeping under it for months.",
       "sceneTitle": "Vent Map",
       "choices": [
         {
           "text": "Use the tracker",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You follow the numbers, and the numbers keep steering you into corners, and after a while you are being read at least as thoroughly as you are reading.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hunt by ear",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You switch the thing off and listen instead. The Nostromo makes forty noises a minute and every one of them qualifies.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Jonesy hisses at a door that should not be unlocked.",
+      "text": "Jonesy crosses the mess doorway at a dead run and is gone, and after that the cat becomes the argument: he trips the sensors, he ruins the readings, somebody catch him. Down in the equipment bay he is sitting on a locker with his ears flat, staring at a supply door engineering keeps latched. Chains drip overhead. Water is coming down through a ship where nothing is supposed to drip.",
       "sceneTitle": "Brett's Cat",
       "choices": [
         {
           "text": "Follow Jonesy",
-          "consequence": "You commit to “Follow Jonesy.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You go where the animal is looking, on the theory that its instincts are better maintained than yours. They are. That turns out to be the problem.",
           "nextNodeId": "s11"
         },
         {
           "text": "Ignore the cat",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You write him off as an ordinary nuisance and turn back up the corridor, which leaves Brett behind in the bay collecting him alone.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A wet sound up in the chains.",
+      "text": "Brett stands under the chain fall with the water coming down over his face and his hat in his hand, calling the cat by name. Above him there is a sound like a wet coat being lifted off a hook. When you look up, what registers first is size — it has stood up out of a crouch, and it is tall, and it is holding him. Then the chains swing empty.",
       "sceneTitle": "Brett Gone",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You get out through the bay door with the sound still going on behind you, and it takes Parker two days to say Brett's name out loud again.",
           "nextNodeId": "s12"
         },
         {
           "text": "Look up",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Reckless.",
+          "consequence": "You look, so now you know the shape of it, and knowing the shape does not help you sleep or fight or plan anything whatsoever.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Captain in coveralls with a flame thrower.",
+      "text": "The captain goes into the ducts with a flamethrower and a headset because somebody has to, and the plan is to drive it toward an open lock. You sit at a screen watching a green dot that is him and a green dot that is not. Lambert reads out the distances. Twenty metres. Twelve. Both dots are in the same duct now, and only one of them knows that.",
       "sceneTitle": "Dallas in the Vents",
       "choices": [
         {
           "text": "Talk to him on comms",
-          "consequence": "“Talk to him on comms” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You keep your voice flat and feed him numbers, and he thanks you like a man in a lift, and the channel goes to static in the middle of a word.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay quiet",
-          "consequence": "There is no taking “Stay quiet” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You hold the transmit key down and say nothing, because a voice in a metal pipe travels in both directions. It does not save him either.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Mother's screen reveals the crew is expendable.",
+      "text": "Mother's chamber is white and freezing and full of small lights, and you use the captain's clearance because the captain will not be needing it. Priority One: return organism, all other considerations secondary. Then a line about crew expendability, typed by someone in an office with a window in it. That it reads as a line item rather than a decision is what keeps you standing there, reading it twice.",
       "sceneTitle": "Special Order 937",
       "choices": [
         {
           "text": "Confront Ash",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You come out of that room heading straight at him with the truth in your mouth, which is precisely the sequence somebody in that office already planned around.",
           "nextNodeId": "s14"
         },
         {
           "text": "Hide your knowledge",
-          "consequence": "“Hide your knowledge” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You memorise the exact wording and say nothing, and eat dinner sitting across from him, and it costs you real effort to keep your face flat.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A magazine rolled in his hand, white fluid on his collar.",
+      "text": "He has you against a bulkhead with a rolled magazine in his fist, and he is smiling, and the smile is wrong before anything else is — a centimetre too wide, held several beats too long. When Parker catches him with the extinguisher the head comes half away and what runs out is white and smells of glue, threaded through with things the shape of pasta. He goes on trying to finish the smile.",
       "sceneTitle": "Ash, Synthetic",
       "choices": [
         {
           "text": "Decapitate him",
-          "consequence": "There is no taking “Decapitate him” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "Parker swings without asking anyone's permission, and the compartment fills with an odour you will never afterwards manage to place in an ordinary kitchen.",
           "nextNodeId": "s15"
         },
         {
           "text": "Talk first",
-          "consequence": "You commit to “Talk first.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You try to reason with a thing that has been reasoning at you for eight months, and get four seconds of a hand closing on your windpipe.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "He laughs at your odds.",
+      "text": "You wire the head to a console and it comes up polite, eyes tracking, mouth running slightly out of step with the voice. It calls the creature a perfect organism, unclouded by conscience or remorse, in the tone another man might use about a good watch. You ask how to kill it. It says you cannot. Then it wishes all of you luck, and appears to mean that sincerely.",
       "sceneTitle": "Reactivate Ash's Head",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "There is no taking “Listen carefully” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You let it finish, and buried inside the admiration there is one usable fact, and using it will feel like taking household advice from a burglar.",
           "nextNodeId": "s16"
         },
         {
           "text": "Burn him",
-          "consequence": "“Burn him” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "Parker puts the flame on it mid-sentence, and the head keeps smiling in the fire for a good while after the voice has stopped.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A countdown, a long corridor, a thing in the way.",
+      "text": "Four cooling rods, pulled by hand, in sequence, with a key that hangs on a hook by the bunkroom door. Once the last one is out you have ten minutes and one corridor to cross, and the corridor is long and it runs past every compartment the thing has been in. Mother counts down aloud in a voice engineered to be soothing. Parker says he would rather burn than be lifted into a ceiling.",
       "sceneTitle": "Self-Destruct",
       "choices": [
         {
           "text": "Set it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You pull the rods yourself in the correct order and the ship begins dying precisely on schedule, and the sound it makes is very nearly restful.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You keep a hand on the last rod for thirty seconds doing sums about the shuttle, and every one of those seconds comes out of your ten minutes later.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Jonesy under a chair in a service bay.",
+      "text": "Jonesy is under a chair in a service bay, flattened to the deck, tail straight out, refusing to be reasoned with. You are carrying a plastic carrier and a cattle prod and there are seven minutes on the clock. He goes in eventually, complaining the whole way, warm through the wire door, and his weight against your hip is the first ordinary thing you have felt since the dinner table.",
       "sceneTitle": "Cat Carrier",
       "choices": [
         {
           "text": "Grab him",
-          "consequence": "There is no taking “Grab him” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You lose ninety seconds to a cat and make them back at a dead run, and you will not be apologising to anybody for that trade.",
           "nextNodeId": "s18"
         },
         {
           "text": "Leave him",
-          "consequence": "“Leave him” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You get four strides up the corridor before turning around, because you did not survive this far in order to become the kind of person who doesn't.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A scream, an impact, a corridor that goes quiet too fast.",
+      "text": "The coolant deck, and you hear it instead of seeing it: Lambert's voice climbing and climbing, Parker roaring at her to get out of his line so he can use the flame, and then the roaring stops. When you reach the hatch the deck is quiet, the coolant is still hissing out of a split line, and there are two pairs of boots on the plating. You do not go further in.",
       "sceneTitle": "Lambert and Parker",
       "choices": [
         {
           "text": "Push past",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You go through the far hatch without looking down at the floor, and afterwards you could not swear to a court what you did or did not see.",
           "nextNodeId": "s19"
         },
         {
           "text": "Try to help",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You take three steps toward the hissing and the smell stops you there, and help is the wrong word for anything that was finished before you arrived.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A small bay, a small ship, an escape that fits two if one is a cat.",
+      "text": "The shuttle is a tube with two seats, a coffin unit apiece, and enough in the tanks for a very long drift. You wedge the cat box under the console and pull the harness across your chest with hands that will not hold steady. Behind you the countdown is inside its last minute. You blow the clamps. The flash, when it comes, is silent and enormous, and then you are alone.",
       "sceneTitle": "Narcissus Lifeboat",
       "choices": [
         {
           "text": "Buckle in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You take the seat and pull the straps and let the machinery make the decision, and for a handful of seconds you get to be only a passenger.",
           "nextNodeId": "s20"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You hold the launch one beat longer, watching the hatch behind you, needing to be certain — and being certain costs more than it has ever been worth.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "The alien folded into a wall plate behind the seats.",
+      "text": "You are down to your undershirt because it is warm in here and you believed you were finished. Then a plate low on the wall behind the seats shifts, and an arm extends out of a space no arm should fold into. It was in there through the launch, through the blast, through the whole time you sat talking to a recorder. It unfolds slowly. It is in no hurry at all.",
       "sceneTitle": "Bridge",
       "choices": [
         {
           "text": "Vent the cabin",
-          "consequence": "You commit to “Vent the cabin.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You get into a pressure suit one strap at a time without ever turning your back, and reach for the hatch control with your arm at full stretch.",
           "nextNodeId": "s21"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stand perfectly still and let it fill the entire room in front of you, and the stillness buys exactly enough time to reach the grapple gun.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A log entry to a Company recorder no one will check for fifty-seven years.",
+      "text": "The recorder wants a name, a designation, and a summary of losses. Seven crew, one ship, a refinery worth two hundred million, and a company that will read this in an office and file it under something. Jonesy is asleep in the carrier with his paws folded over each other. You are due to be found in fifty-seven years by somebody who has not yet been born.",
       "sceneTitle": "Final Report",
       "choices": [
         {
           "text": "Tell the truth",
-          "consequence": "“Tell the truth” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You put Special Order 937 into the log by its number and its exact wording, and go under knowing the wrong people will hear it first.",
           "nextNodeId": "end_log"
         },
         {
           "text": "Lie a little",
-          "consequence": "You commit to “Lie a little.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You leave out the parts a board of inquiry could use against you, and it will take them decades to notice the shape of what is missing.",
           "nextNodeId": "end_hold"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You stop the recording halfway through a sentence, seal the tube, and let the silence stand in place of any report at all.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_log",
-      "text": "Ripley, Nostromo, signing off. The cat curls against your boot and the cryo bay hums and you sleep without dreams for the first time in months.",
+      "text": "Last survivor of the Nostromo, signing off. You give the date, and the registration, and then the crew — all six names in the order you learned them, which is not the order they went in. The recorder clicks off. Jonesy goes into the second tube on his side, still asleep, one ear folded under. The lid comes down and the frost starts at the corners, and you sleep without dreaming for the first time since that moon.",
       "sceneTitle": "Final Log",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_hold",
-      "text": "You and Jonesy drift through space toward a frontier station, half a century out, a small lifeboat and a clean ledger of survival.",
+      "text": "Two tubes, one warm animal, and a heading toward the nearest frontier station that will take half a century to reach. The lifeboat holds its temperature and hums to itself. Nothing follows. Behind you a refinery is scattered wide enough that no salvage crew will ever match a serial number to anything, and the only account of it rides in a tube with a sleeping woman and a very clean ledger of who lived.",
       "sceneTitle": "Hyper Sleep",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You wake up to find Jonesy purring against the glass of his cryo tube and you both look at each other for a long calm second before you go back under.",
+      "text": "The lid lifts once, briefly, on a fault, and you come up just far enough to see Jonesy against his own glass with his eyes half shut, purring into the cold. You put your palm flat on the panel between you. He puts his head against it. Then the system corrects itself and takes you both back down, the cabin lights drop to standby, and the boat carries two survivors quietly outward.",
       "sceneTitle": "Cat in the Tube",
       "choices": [],
       "isEnding": true,

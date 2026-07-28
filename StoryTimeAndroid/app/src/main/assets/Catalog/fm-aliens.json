@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Fifty-seven years of sleep and a hearing about a lifeboat full of nothing.",
+      "text": "Fifty-seven years, and the freezer burn is still in your knuckles. A boardroom, a long table, eleven men in good suits, and a flight recorder that says you destroyed forty million in hardware over something none of them can find on any chart. They pull your licence and offer you counselling. Outside the window the station turns, and somewhere below it a colony sits on LV-426 with no idea.",
       "sceneTitle": "Wake Up",
       "choices": [
         {
           "text": "Plead for the colony",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You tell them there are families on that rock and watch the words land nowhere at all. Two of them are already reaching for their coats.",
           "nextNodeId": "s2"
         },
         {
           "text": "Quit and walk",
-          "consequence": "There is no taking “Quit and walk” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You take the loading-dock job and the dreams that come with it, and every night you wake with both hands pressed flat against your own chest.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Drop pod and Hudson loud and Vasquez quiet and a Smartgun checklist on a screen.",
+      "text": "The drop pod smells of hydraulic fluid and forty-eight hours of recycled breath. Hudson narrates everything at volume. Vasquez says nothing and racks the Smartgun's feed belt twice, checking the same link both times. A screen runs a preflight list nobody reads. Then the clamps release and your stomach goes up through your teeth and the ship falls into weather.",
       "sceneTitle": "Express Elevator to Hell",
       "choices": [
         {
           "text": "Brief them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You lay out what happened on the Nostromo in flat, short sentences. Half of them stop grinning. The other half check their ammunition anyway.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay silent",
-          "consequence": "You commit to “Stay silent.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You keep it behind your teeth and let them find out for themselves. Hicks reads your face and quietly moves your seat nearer the ramp.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Wind. Acid rain. Atmosphere processor humming a wrong chord.",
+      "text": "The dropship sets down in horizontal rain that strips the finish off the hull in long streaks. Wind at sixty knots, visibility forty metres, and under all of it the atmosphere processor grinding away at a pitch a full tone below where it should be. Nobody in the colony answers the hail. The perimeter lights are still burning. Every door you pass is standing open.",
       "sceneTitle": "LV-426 Surface",
       "choices": [
         {
           "text": "Sweep the comm tower",
-          "consequence": "There is no taking “Sweep the comm tower” back. Strategic shapes the silence before the next moment arrives.",
+          "consequence": "You find the transmitter live, powered and unmanned, its log ending mid-sentence eleven days ago. Nothing was switched off here. Things were simply left.",
           "nextNodeId": "s4"
         },
         {
           "text": "Sweep the medlab",
-          "consequence": "“Sweep the medlab” closes one possibility and opens another. The moment leaves a clear note behind: Hunch.",
+          "consequence": "You go where the wounded would have gone, which is the wrong instinct in exactly the right way. The floor in there is tacky under your boots.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Colonists in the walls of medlab, two still warm enough to scream.",
+      "text": "The corridor wall is not a wall. It is resin, poured and set around people, and it has been built with something disturbingly like care. Most of them died days ago. Two did not. One opens her eyes when your lamp crosses her face and asks you, clearly and politely, to finish it — and the thing under her ribs is already shifting position.",
       "sceneTitle": "Cocoons",
       "choices": [
         {
           "text": "Burn them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "The flamethrower does what she asked for. The corridor fills with white light and the marines behind you stop talking for a full ninety seconds.",
           "nextNodeId": "s5"
         },
         {
           "text": "Try to save",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You call for a stretcher that is nine hundred metres away and her chestplate goes before it arrives. You are still holding onto her hand.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A girl in a vent who has not been hugged in weeks.",
+      "text": "Motion on the scanner, low and small and fast. She goes into an air duct the way water goes down a drain, and you follow on your elbows through six weeks of somebody's survival: cracker wrappers, a doll's head, a nest of colony blankets in a service crawlway. She is filthy and she does not blink. She has been in here alone since the screaming stopped.",
       "sceneTitle": "Newt",
       "choices": [
         {
           "text": "Coax her out",
-          "consequence": "“Coax her out” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You sit down in the duct and stop chasing and start waiting. It takes eleven minutes. When she finally moves, she moves toward you.",
           "nextNodeId": "s6"
         },
         {
           "text": "Leave her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You back out and let the marines handle it. She is gone in four seconds, and it takes another two hours to find her again.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "The reactor under your boots and a sergeant who fires anyway.",
+      "text": "The tracker leads you under the primary heat exchange, into a chamber where the walls run with condensate and the reactor housing sits one deck beneath your boots. Live rounds down here will hole the coolant lines. Gorman orders every magazine pulled. Apone collects them in a bag. Somebody keeps one back and lies about it, and from the doorway you can see exactly which one of them it is.",
       "sceneTitle": "Atmosphere Processor",
       "choices": [
         {
           "text": "Override the rifle order",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You get on the channel and tell Gorman what a coolant breach costs. He informs you that civilians observe. The magazines come out anyway.",
           "nextNodeId": "s7"
         },
         {
           "text": "Obey orders",
-          "consequence": "“Obey orders” closes one possibility and opens another. The moment leaves a clear note behind: Loyal.",
+          "consequence": "You watch the ammunition go into the bag and say nothing, and count flamethrowers instead. Four of them, against whatever is nesting down there.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Eggs in the dark. Drones from the ceiling. Apone, Dietrich, Frost, Crowe — gone.",
+      "text": "Someone finds the eggs and everything happens at once. They come out of the ceiling, out of the resin, out of the gaps between pipes you would not put a hand into. Frost goes off the catwalk with his flamethrower still lit and Dietrich burns him on the way down. Crowe. Apone. Four gone in ninety seconds, and Gorman's voice on the channel has stopped forming words.",
       "sceneTitle": "Ambush",
       "choices": [
         {
           "text": "Take the wheel of the APC",
-          "consequence": "There is no taking “Take the wheel of the APC” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You put the armoured carrier through a bulkhead at forty kilometres an hour and drag four survivors out through the hole you made in the wall.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wait for orders",
-          "consequence": "“Wait for orders” closes one possibility and opens another. The moment leaves a clear note behind: Doomed.",
+          "consequence": "You wait, and the orders never come, and the count on the squad channel drops by two more while you are still standing there waiting.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Dropship pilot is foam on a wall. The other ship is gone.",
+      "text": "The dropship comes out of the cloud base sideways with something already inside it. Ferro's last transmission is a wet click. It hits the processor apron, cartwheels, and the fuel goes up in a column you can read from four kilometres out. That was your ride. The other one is aboard a ship that will not answer, and the reactor below you has begun venting.",
       "sceneTitle": "Wreck",
       "choices": [
         {
           "text": "Improvise the orbit drop",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You start working out how to fly a lander down through that weather by remote, with a synthetic on the far end of a cable. Bishop volunteers.",
           "nextNodeId": "s9"
         },
         {
           "text": "Fortify and wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You weld the fire doors, mine the junctions and count rounds twice. Seventeen hours until the processor goes. The sentry guns will hold for about two.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "He hopes the Company keeps a specimen alive. He suggests the smuggling routine.",
+      "text": "Burke wants a live one. Not on record — he floats it as a hypothetical, the way people do when they have already priced the thing. Quarantine would never clear an organism like that, he says, unless it were already inside a host, and a host can be frozen, and a frozen thing is only cargo. Then he asks how you are holding up. He sounds entirely sincere.",
       "sceneTitle": "Burke",
       "choices": [
         {
           "text": "Confront him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You say the word 'implant' out loud in front of Hicks and watch Burke's face try three separate expressions before it settles on wounded.",
           "nextNodeId": "s10"
         },
         {
           "text": "Watch him quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You say nothing and start logging which doors he touches and when. Two hours later the medlab record shows a specimen cage cycled at 02:14.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Tracers in the corridor and a counter ticking down ammo per second.",
+      "text": "The guns sit at the two corridor junctions, slaved to a screen in operations. When the first one opens up the ammunition readout does not tick down, it falls — six hundred rounds gone in nine seconds, then the second gun joins in. Both magazines empty on the display while the contact count keeps climbing. Whatever is in that corridor is walking into the fire anyway.",
       "sceneTitle": "Sentry Guns",
       "choices": [
         {
           "text": "Reposition them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You pull both guns back to the final set of doors. Shorter field of fire, worse angles, and roughly forty more seconds of ammunition when it matters.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stand the line",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You leave them where they stand and watch the counters bottom out. In the quiet afterward you can hear something patiently testing the door hinges.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Two in a cage that is unlocked.",
+      "text": "Two specimens in a glass tank in the medlab, curled like things out of a rock pool, and the tank's cycle lock reads OPEN. You did not open it. The lab door shuts behind you and stops answering the panel. One of them uncurls without hurrying, sets its legs against the glass, and the glass begins to slide. Newt is asleep on the gurney behind you.",
       "sceneTitle": "Medlab Facehuggers",
       "choices": [
         {
           "text": "Lock it again",
-          "consequence": "You commit to “Lock it again.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You kill the panel with a fire extinguisher and jam the lid down, and one of them is already out and moving along the ceiling tiles above you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Burn them",
-          "consequence": "“Burn them” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You hold a lighter under the sprinkler head instead. Fire brings the marines through that door in eleven seconds, which was always the actual plan.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "He hands you a tracker bracelet for Newt and a careful first name.",
+      "text": "Hicks presses a locator bracelet into your palm — motion tag, forty-metre range, the kind they use to keep track of equipment. For the kid, he says. Then he tells you his first name, Dwayne, like it costs him something to hand over, and stands there a moment too long, in a way that says he does not expect to need it again after tonight.",
       "sceneTitle": "Hicks at the Door",
       "choices": [
         {
           "text": "Wear it",
-          "consequence": "There is no taking “Wear it” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You clip the paired unit to your own wrist and test the range twice. Sixty metres under the floor, later, that test is the only reason she lives.",
           "nextNodeId": "s13"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hard.",
+          "consequence": "You give the whole thing to Newt and keep nothing back for yourself, which is generous and stupid, and you are aware of both while you do it.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Sound of a wet thing moving past a grille.",
+      "text": "Above the false ceiling something crosses the length of the room and does not hurry. It is not scratching. It is a wet, deliberate dragging, and it stops directly over the table where the ammunition is laid out. Dust comes down through the grille in a fine, steady line. Every rifle in the room comes up. There is nothing anybody can aim at.",
       "sceneTitle": "Vents Above",
       "choices": [
         {
           "text": "Drop a flare",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You put a flare up into the ceiling void and get one second of a shape far too long for the space it is in. Then the flare dies.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay still",
-          "consequence": "You commit to “Stay still.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You signal everyone down and count to forty while it moves off toward the kitchens. Nobody in that room breathes properly for a minute afterward.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A vent slips and pulls her down a chute toward a darkness with eyes in it.",
+      "text": "The grating gives under her and she goes feet first down a smooth duct that drops away at an angle nothing could climb. You get a hand on her sleeve and the fabric tears through your fingers. Her voice comes back up the shaft twice, then a third time much fainter, and after that there is only the bracelet signal, sixty metres down, and moving.",
       "sceneTitle": "Newt in the Wall",
       "choices": [
         {
           "text": "Crawl after her",
-          "consequence": "There is no taking “Crawl after her” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You go in headfirst with a flare between your teeth and hit standing water at the bottom, and the signal is still travelling away from you.",
           "nextNodeId": "s15"
         },
         {
           "text": "Cut through the floor",
-          "consequence": "“Cut through the floor” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You take a cutting torch to the deck plate and lose four minutes you cannot spare, and come out below her level by thirty metres of pipework.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "It is going critical and the windows are starting to flex.",
+      "text": "Bishop's countdown runs on every screen in the complex. Containment is failing in stages and you can watch it through the observation glass — the panes bow outward, go flat, then bow again, breathing. Corridor air is twelve degrees hotter than it was an hour ago and the handrails have started to sting. Four hours, he says, and then a crater you could pick out from orbit.",
       "sceneTitle": "Power to the Reactor",
       "choices": [
         {
           "text": "Set the timer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You put a hard number on the wall — nineteen minutes — and everything after that stops being fear and becomes arithmetic you can actually work with.",
           "nextNodeId": "s16"
         },
         {
           "text": "Cut the cooling now",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You pull the coolant yourself and shave the margin down to nothing. It buys the last elevator ride and destroys any possibility of a second attempt.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "He has locked you out and run for the dropship.",
+      "text": "The pressure door into the operations spine reads LOCKED LOCAL, and through the port you can see Burke's back going away down the corridor at a fast walk rather than a run, because running looks like guilt. He has sealed the hatch on you and on everything behind you. The bracelet on your wrist says Newt is still under the floor, and still moving.",
       "sceneTitle": "Burke at the Lock",
       "choices": [
         {
           "text": "Track him with the bracelet",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You abandon the door and follow the tag readings instead, which gives Burke eleven more minutes and a corridor meeting he has to attend without you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Calm.",
+          "consequence": "You hammer on the port until Hicks blows the lock from the far side. By then Burke is three levels down and past anybody's reach.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Eggs in long rows, and at the center, a swaying mother with new breath.",
+      "text": "The floor down here is not floor. Resin, poured over everything, and the eggs are set into it in rows that run back further than your lamp reaches — hundreds of them, each one breathing a slow open and shut. At the far end the ovipositor hangs from the ceiling like industrial plant, and above it something enormous turns its head toward the heat coming off you.",
       "sceneTitle": "Hive",
       "choices": [
         {
           "text": "Burn the eggs",
-          "consequence": "There is no taking “Burn the eggs” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You put a full tank into the nearest four rows, and the noise the chamber makes is not a sound any animal should be able to produce.",
           "nextNodeId": "s18"
         },
         {
           "text": "Sneak past",
-          "consequence": "There is no taking “Sneak past” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You take the long wall on your belly with the pilot light shielded in one hand, and get within nine metres of her before she stops swaying.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "She lifts her ovipositor and gestures: leave, and we leave.",
+      "text": "She detaches from the ovipositor with a sound like wet rope paying out, and comes down between you and the eggs, and then she stops. She does not charge. She holds there, enormous and patient, and shifts her body clear of the exit by precisely the width of two people. It is a bargain, offered in the only language available to her. Newt's hand tightens in yours.",
       "sceneTitle": "Queen's Bargain",
       "choices": [
         {
           "text": "Burn anyway",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hard.",
+          "consequence": "You break the deal inside the first second of it. The chamber goes white, and behind you something the size of a truck starts moving very fast.",
           "nextNodeId": "s19"
         },
         {
           "text": "Walk slowly back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep the flame low and walk backward eleven metres with a child against your hip, and she permits it, right up until the drones drop from the ceiling.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Bishop at the controls, half a man, all the way arrived.",
+      "text": "Bishop brought the second lander down through weather no human pilot would have attempted, and he is on the pad with the engines hot, waving you in with both arms. The apron is shaking hard enough to blur his outline. Behind the ship the processor tower has started shedding panels the size of houses, and the light coming off it makes every shadow on the pad point the same way.",
       "sceneTitle": "Dropship Pad",
       "choices": [
         {
           "text": "Hand him Newt first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You put her through the hatch before your own hand touches the rail. It costs three seconds and is not a decision you are aware of making.",
           "nextNodeId": "s20"
         },
         {
           "text": "Cover the rear",
-          "consequence": "There is no taking “Cover the rear” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You take the ramp last with the flamethrower up and see something come around the landing strut behind you at a speed you cannot answer.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Queen on the underside of the ship, eggs in her teeth.",
+      "text": "You make orbit, and Bishop begins a systems check, and something in the cargo bay makes a noise that is not machinery. She came up on the underside of the lander, folded into the gear bay, holding on through re-entry heat and then through vacuum. She unfolds in the middle of the deck, and takes Bishop apart at the waist in a single unhurried movement.",
       "sceneTitle": "Cargo Bay",
       "choices": [
         {
           "text": "Power loader",
-          "consequence": "The decision settles the question for now. Its verdict—Bold—follows you into whatever comes next.",
+          "consequence": "You back into the cargo loader and strap in, and the hydraulics come up with a whine that promises nine tonnes of lifting capacity and no finesse.",
           "nextNodeId": "s21"
         },
         {
           "text": "Vent the bay",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You go for the airlock override and get halfway to it before you understand that Newt is on the wrong side of the compartment.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Loader arms, claws, the cold of space waiting just past the door.",
+      "text": "The loader's claws close on her mandibles and the pair of you go across the deck plating in a long scrape of steel on chitin. Her tail finds a hydraulic line and the whole left arm goes soft in your hand. The outer door is nine metres behind you, and past that plating there is nothing but vacuum, and it will take everything on this deck that is not bolted down.",
       "sceneTitle": "Get Away From Her",
       "choices": [
         {
           "text": "Open the airlock",
-          "consequence": "There is no taking “Open the airlock” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You hit the override and hold the rail while the bay empties itself, and she goes out through the door still reaching for you the whole way.",
           "nextNodeId": "end_sleep"
         },
         {
           "text": "Spin her into the lift",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You use her own weight against the loader's pivot and drop her down the lift shaft. It does not kill her. It buys forty seconds.",
           "nextNodeId": "end_hold"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You get Newt behind the hatch coaming first and only then turn around, and that order — her, then the fight — is how you do everything afterward.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_sleep",
-      "text": "Bishop's torso in a cot, Newt's small hand in yours, a fifty-year ride home with better dreams this time.",
+      "text": "Bishop's upper half rides home in a cot, apologetic about the mess and still running diagnostics on himself out of habit. Newt takes the hypersleep tube beside yours and asks whether the dreams come with it. Then the lid, the cold, and years of automated dark with nobody at the controls and nobody watching the freezer cycle. For the first time since the Nostromo you go under without arguing with it, and you stay under, and nothing follows you in.",
       "sceneTitle": "Sleep Easy",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_hold",
-      "text": "You come back to the surface anyway, with five hundred Colonial Marines and a plan that the Queen has not yet predicted.",
+      "text": "You do not stay away. Eleven months in rooms with men in good suits, and then you come back to LV-426 with five hundred Colonial Marines, orbital mapping, and a plan built by people who believed you the first time you told them. Every hive is charted before a boot touches the ash. And somewhere under the wreck of the processor something is still laying eggs, patient, working from the assumption that nobody ever comes back twice.",
       "sceneTitle": "Hold the Line",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "She asks if she can dream now. You say yes. She does. So do you. Both of you for the first time in weeks.",
+      "text": "She asks, with the tube lid already open, whether she is allowed to dream now. You tell her yes. She takes your word for that the way she has taken everything else you have said since the vent, and she is under inside a minute with both fists finally loose. You lie down in the tube beside hers and the cold comes up through your spine, and you dream about absolutely nothing for fifty-seven years.",
       "sceneTitle": "Newt Asleep",
       "choices": [],
       "isEnding": true,

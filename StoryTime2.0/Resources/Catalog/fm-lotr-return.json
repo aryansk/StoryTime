@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The signal fire is unlit and the steward forbids it.",
+      "text": "The beacon on Amon Dîn is a cairn of dry brush the height of three men, stacked and oiled and waiting eight hundred years for one match. The keepers are asleep by the wall. Denethor has forbidden the signal because asking Rohan for help is the same as admitting Gondor cannot stand. Gandalf sets you on the ledge and says, quietly, to be quick and not to be seen.",
       "sceneTitle": "Beacon of Amon Din",
       "choices": [
         {
           "text": "Light it anyway",
-          "consequence": "You commit to “Light it anyway.” The story records the instinct as “Defiance” and carries it forward.",
+          "consequence": "You climb the pile in the wind, get a torch into the heart of it, and by the time anyone shouts, the mountain behind it has answered.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait for orders",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You wait for the keepers to give an order they have been ordered not to give, and Gandalf finally goes up the stones himself.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Denethor offers a small sword and a long oath.",
+      "text": "Inside, the hall of the Stewards runs a hundred paces of black marble, with one dead tree in the courtyard outside. Denethor sits with his son's cloven horn in his lap and eats a bird with his fingers while he decides what you are worth. He offers you a small sword and the livery of the Tower. Payment, he says, for a life given for his son on a hillside far away.",
       "sceneTitle": "Pippin's Vow",
       "choices": [
         {
           "text": "Kneel and swear",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You go to one knee and swear it out loud in a hall that has heard the oath ten thousand times, and now you belong to Gondor.",
           "nextNodeId": "s3"
         },
         {
           "text": "Hesitate",
-          "consequence": "You commit to “Hesitate.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You hold the sword without kneeling for three long breaths, and Denethor watches, and remembers, and finds a use for it later.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A door in the mountain, and behind it, an army of oathbreakers.",
+      "text": "Under the Dwimorberg there is a black slot in the rock, and the horses will not go within thirty feet of it. Cold comes out of it like breath from a cellar. Behind that door is an army that swore to Isildur and broke the oath and has been rotting in the dark ever since. Legolas says the way is shut. It was made by the dead and the dead keep it.",
       "sceneTitle": "The Paths of the Dead",
       "choices": [
         {
           "text": "Enter",
-          "consequence": "You commit to “Enter.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You walk in dragging a horse by the bridle and the mountain fills up behind you with a whispering that has been saving itself for centuries.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ride the long road",
-          "consequence": "You commit to “Ride the long road.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You take the long road south with three days you do not have, and the corsair fleet reaches the Harlond before anyone can stop it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Osgiliath is lost. Denethor orders a doomed cavalry charge.",
+      "text": "Osgiliath is a burned shell on both banks and the enemy already holds it. Denethor puts down his cup and tells Faramir that Boromir would have brought him the weapon of the enemy, and that the retaking of the crossing is what a real son would offer. Two hundred horse against ten thousand across open ground. Faramir asks if his father would rather have him die in his brother's place. Denethor says yes.",
       "sceneTitle": "Faramir's Charge",
       "choices": [
         {
           "text": "Ride",
-          "consequence": "“Ride” closes one possibility and opens another. The moment leaves a clear note behind: Duty.",
+          "consequence": "You ride out under a banner in good order and the arrows come down like weather, and the horses are dead before the walls are out of sight.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You refuse the order in the hall in front of the guard, and Gondor keeps two hundred riders and loses the last of the Steward's mind.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A young rider with hidden hair offers Merry a place at her stirrup.",
+      "text": "Rohan's muster fills the field below Dunharrow with six thousand spears and the smell of horses. Théoden has told you plainly that a hobbit is not riding to war. Then a rider you do not know puts a hand down from the saddle — light frame, mail too big at the shoulder, hair pushed up under a helm — and offers you the stirrup and no explanation at all.",
       "sceneTitle": "Eowyn in Mail",
       "choices": [
         {
           "text": "Go with her",
-          "consequence": "There is no taking “Go with her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You take the hand and get pulled up behind a shield, and the two of you ride south hidden in six thousand riders nobody is counting.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay behind",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You stay in the camp with the packhorses like a sensible person, and hear the horns leave without you, and start walking anyway.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Sam hears Frodo scream past the webbing.",
+      "text": "This tunnel stinks of old meat, and the webs across it are as thick as ship's cable. You came in behind him and now you cannot hear him. Then a scream from further up — his, high and short and stopped — and something enormous shifts its weight in the dark ahead of you, more legs than any living thing should be allowed. Sting is on the ground where he dropped it.",
       "sceneTitle": "Shelob's Lair",
       "choices": [
         {
           "text": "Run in",
-          "consequence": "There is no taking “Run in” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You go up the tunnel in the dark with a bare cook's blade and nothing else, shouting, which is the stupidest and best thing you ever do.",
           "nextNodeId": "s7"
         },
         {
           "text": "Fetch sting first",
-          "consequence": "You commit to “Fetch sting first.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You scramble back for Sting and the phial first, and the eight seconds it costs you are eight seconds she spends wrapping him.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Gollum whispers that the fat one stole the bread.",
+      "text": "The stair is cut into a cliff and goes up a thousand feet with no rail. Halfway, on a ledge the width of a table, Gollum shows you the crumbs he salted into your friend's collar while he slept and tells the master that the fat one has been eating the lembas. Frodo has not slept in three nights and the chain around his neck has worn a groove.",
       "sceneTitle": "The Stairs of Cirith Ungol",
       "choices": [
         {
           "text": "Believe Gollum",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Trusting.",
+          "consequence": "You believe the crumbs and send Sam down the stairs alone, and Gollum has you to himself at the top of them, which was always the plan.",
           "nextNodeId": "s8"
         },
         {
           "text": "Watch Gollum",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wary.",
+          "consequence": "You say nothing and let it stand, and keep Gollum in the corner of your eye for the whole climb, which is exhausting and correct.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "The steward calls for oil and a torch over his sleeping son.",
+      "text": "They have built the pyre in the Rath Dínen with Faramir laid on top of it, breathing, fevered, not dead. Denethor has a torch and the servants have the oil and nobody in the tomb will look at anyone. He is saying that the west has failed and that he will burn like the heathen kings. Gandalf is coming up the hill on a white horse and is not going to be in time.",
       "sceneTitle": "Pyre of Denethor",
       "choices": [
         {
           "text": "Tackle him",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You put your whole small weight into the back of the Steward's knees and knock a burning torch out of a madman's hand.",
           "nextNodeId": "s9"
         },
         {
           "text": "Save Faramir alone",
-          "consequence": "The decision settles the question for now. Its verdict—Focused—follows you into whatever comes next.",
+          "consequence": "You go straight for Faramir and drag him off the wood by his shirt while his father sets fire to himself behind you.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Dawn, and six thousand spears at the edge of the Pelennor.",
+      "text": "Dawn on the Pelennor, and the city is burning, and six thousand riders are lined up along the ridge looking down at a hundred thousand. Théoden goes along the front rank striking spears with his sword, and the sound of it travels. Then the horns, all of them, and the whole line goes from standing to full gallop, and the ground below stops being a field and becomes a wave.",
       "sceneTitle": "Horn of Rohan",
       "choices": [
         {
           "text": "Charge first rank",
-          "consequence": "“Charge first rank” closes one possibility and opens another. The moment leaves a clear note behind: Glory.",
+          "consequence": "You go in with the first rank and hit the orc line so hard that the front three ranks of it simply cease to exist.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hold flank",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You hold the flank where the mûmakil come through, and learn what a beast the size of a house does to men on horses.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "No man can kill him, he laughs. Eowyn answers with her helm in her hand.",
+      "text": "Snowmane is down and the king is under him. The winged thing has landed and the crowned shape on its back has an iron mace and no face inside the helm. He says no living man may hinder him. There is a rider standing over Théoden with a sword in both hands, and a hobbit lying in the grass a few paces behind him with a barrow-blade nobody has noticed.",
       "sceneTitle": "The Witch-King",
       "choices": [
         {
           "text": "Strike for the face",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You take the helm off, say you are no man, and put a blade through the space where a face should be, and pay for it with an arm.",
           "nextNodeId": "s11"
         },
         {
           "text": "Distract with Merry's blade",
-          "consequence": "You commit to “Distract with Merry's blade.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You crawl in low and put a Númenórean blade behind his knee, and the spell that has held him upright for an age comes undone.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A herald rides out with Frodo's mithril shirt swinging from a chain.",
+      "text": "The Black Gate opens a crack and one rider comes out, mouth first — a man once, now mostly a wound that talks. He holds up a mithril shirt, small, and a grey cloak, and an elven brooch, and swings them on a chain so the light catches. He describes at length what was done to the person who was wearing them. Behind him the gate keeps opening.",
       "sceneTitle": "Mouth of Sauron",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "“Believe him” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You look at the small shirt and your knees go, and the whole host behind you sees the moment its captain believed the enemy.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse to break",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hope.",
+          "consequence": "You take the trophies off the chain and take his head off in the same motion, and the gate finishes opening on all of Mordor.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "The host of the West is a coin tossed into the dark.",
+      "text": "Six thousand of you on a slag heap in front of the Morannon, and the plain fills up on three sides until there is no horizon left that is not moving. This was never an army. This is a hand waving in front of the Eye so it will not look east at two figures on a mountain. Aragorn tells you that there will come a day, but that it is not this day.",
       "sceneTitle": "Black Gate Opens",
       "choices": [
         {
           "text": "Stand at front",
-          "consequence": "You commit to “Stand at front.” The story records the instinct as “Lead” and carries it forward.",
+          "consequence": "You take the front rank beside the king, where the banner is, because the whole point is to be seen and to be looked at.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stand with Pippin",
-          "consequence": "There is no taking “Stand with Pippin” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You put yourself beside the smallest soldier in the host and tell him to stay at your shoulder, and he does, and neither of you runs.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Frodo cannot walk. The mountain is still there.",
+      "text": "Orodruin's slope is loose ash that gives back half of every step. He is on his hands and knees with the chain cutting his neck and he says he cannot remember the taste of strawberries or the sound of water. There is no path left, only the mountain. Behind you the sky over the Morannon is full of something. Above you, the crack in the side of the peak.",
       "sceneTitle": "Sam Carries Him",
       "choices": [
         {
           "text": "Carry him",
-          "consequence": "“Carry him” closes one possibility and opens another. The moment leaves a clear note behind: Love.",
+          "consequence": "You get him across your shoulders like a sack of seed potatoes and tell him you cannot carry it but you can carry him.",
           "nextNodeId": "s14"
         },
         {
           "text": "Drag the ring alone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stern.",
+          "consequence": "You reach for the chain to take the weight yourself, and his hand closes on your wrist with strength he has not had for days.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Frodo at the edge slips the ring onto his own finger.",
+      "text": "Inside, a ledge hangs over moving rock and the heat comes up through your boots. He stands at the edge with it in his fist and everything drops out of his face, and he says the ring is his and always was, and he puts it on and is gone. Then something bites the empty air where he stood, and a finger comes away, and Gollum is dancing.",
       "sceneTitle": "Crack of Doom",
       "choices": [
         {
           "text": "Tackle him",
-          "consequence": "“Tackle him” closes one possibility and opens another. The moment leaves a clear note behind: Desperate.",
+          "consequence": "You go through the space where he was standing with both arms out and hit nothing at all, and land hard on hot stone.",
           "nextNodeId": "s15"
         },
         {
           "text": "Wait for Gollum",
-          "consequence": "“Wait for Gollum” closes one possibility and opens another. The moment leaves a clear note behind: Fated.",
+          "consequence": "You hold still on the ledge while a creature bites off a finger for you, and the thing ends the way no one intended and nobody planned.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Wings against the smoke, far off.",
+      "text": "The mountain is coming apart. You are both on a rock in a lake of moving fire with the ash falling hot enough to raise blisters, and there is nowhere left to go and nothing left to do. He is smiling, which he has not done since Rivendell. Then, far up through the smoke, something enormous with wings is turning against the light and dropping fast toward the ledge.",
       "sceneTitle": "Eagles",
       "choices": [
         {
           "text": "Hold on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You keep your grip on his hand as the rock tilts, and talons the size of doorframes close around both of you at once.",
           "nextNodeId": "s16"
         },
         {
           "text": "Let go",
-          "consequence": "The decision settles the question for now. Its verdict—Peace—follows you into whatever comes next.",
+          "consequence": "You let go of everything, the way a body does when it is finished, and something with feathers catches you before you have fallen far.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A clearing, a banner, a song you do not yet recognize is yours.",
+      "text": "You wake in a white bed with sunlight on it and no weight anywhere, and the door bangs open on a wizard laughing, which you have never once heard. Then they all come through it — Merry, Pippin, the dwarf, the elf, the king with a crown he has not got used to. Outside there is a field, a banner, and several thousand men singing in a language you barely know.",
       "sceneTitle": "Fields of Cormallen",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You get to your feet on a hillside and the whole host of the West goes down on one knee facing a gardener and a clerk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Kneel",
-          "consequence": "“Kneel” closes one possibility and opens another. The moment leaves a clear note behind: Humble.",
+          "consequence": "You start to kneel out of habit to a king, and Aragorn catches your elbow and says that you bow to no one.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A sapling unfolds in the courtyard of Minas Tirith for no clear reason.",
+      "text": "A dead white tree has stood in the Citadel's courtyard for longer than anyone can date, and nobody has ever had the heart to take it out. Then a shoot comes up out of the paving beside it, thin as a finger, and puts out four leaves in a morning. The guards do not know the protocol. Somebody sends for the Steward. Somebody else sends for the King.",
       "sceneTitle": "White Tree Blooming",
       "choices": [
         {
           "text": "Tend it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You bring water in a helmet, twice a day, and stake it with a spear haft, and the tree grows crooked toward the way you set it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let it grow wild",
-          "consequence": "“Let it grow wild” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You leave it alone entirely and let it find its own shape, and it comes up wilder and stronger than anything a gardener would have allowed.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Aragorn bows to the hobbits. The whole city follows.",
+      "text": "They crown him at the gate, with the whole city packed into the streets behind it. He takes the crown, says words in a tongue nobody has spoken aloud in an age, and walks the line greeting men who fought for him. Then he reaches the four of you at the front, standing in borrowed clothes, and he stops, and he bends all the way down.",
       "sceneTitle": "Coronation",
       "choices": [
         {
           "text": "Bow back",
-          "consequence": "The decision settles the question for now. Its verdict—Equal—follows you into whatever comes next.",
+          "consequence": "You bow back because you do not know what else to do, and a hundred thousand people in a stone city fold at the waist behind him.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stand straight",
-          "consequence": "You commit to “Stand straight.” The story records the instinct as “Proud” and carries it forward.",
+          "consequence": "You stand up straight and let a king bow to you, which is the harder thing, and which is what he actually asked for.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "The Green Dragon is loud with strangers who do not know your name.",
+      "text": "Same beams at the Green Dragon, same low door, same ale in the same mugs. Nobody looks up. A farmer is arguing about the price of a pumpkin as though nothing anywhere has ever happened. The four of you come in with swords under your cloaks and mud from three countries on your boots, and the room does not turn around, and that is what you fought for.",
       "sceneTitle": "Return to the Shire",
       "choices": [
         {
           "text": "Sit at your old table",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You sit at the corner table where you have always sat and lift a mug, and none of you can find one word to say.",
           "nextNodeId": "s20"
         },
         {
           "text": "Walk past",
-          "consequence": "“Walk past” closes one possibility and opens another. The moment leaves a clear note behind: Changed.",
+          "consequence": "You look through the doorway at your own bench and keep walking down the lane, because the room is exactly right and you are not.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "The kettle. The book. A page left blank for someone else.",
+      "text": "Bag End has a kettle that still whistles flat and a hole in the pantry shelf where a pack used to be. Bilbo's book is on the desk with his handwriting for eighty pages and yours after that. You get through the burning of the mountain and the eagles and the field, and then the pen stops, and there is a clean page waiting with a chapter number on it.",
       "sceneTitle": "Bag End",
       "choices": [
         {
           "text": "Write your part",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You write it out to the last day in a hand that shakes at the words Grey Havens, and then you close it and set the pen down.",
           "nextNodeId": "s21"
         },
         {
           "text": "Leave it blank",
-          "consequence": "“Leave it blank” closes one possibility and opens another. The moment leaves a clear note behind: Humble.",
+          "consequence": "You leave the page bare and shut the cover on it, because the part that comes next is not yours to put down.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A ship at the quay, and Gandalf already aboard.",
+      "text": "Mithlond's quay smells of salt, and there is a white ship at the end of it with the sail already loose. Gandalf is aboard, and Elrond, and Galadriel, and a light on the water going west that hurts to look at. Frodo has his hand on your shoulder and the wound in it aches every year on the same day. He says some hurts do not close in the Shire.",
       "sceneTitle": "Grey Havens",
       "choices": [
         {
           "text": "Board with Frodo",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You walk up the plank behind him because you were never going to let him go anywhere by himself, and the rope comes off the bollard.",
           "nextNodeId": "end_king"
         },
         {
           "text": "Stay on the dock",
-          "consequence": "There is no taking “Stay on the dock” back. Home shapes the silence before the next moment arrives.",
+          "consequence": "You stay on the stones with the others and watch the sail go small, and then turn around, because there is a gate at home to mend.",
           "nextNodeId": "end_west"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither. You put the book into his hands at the last second so he takes the whole story with him across the water.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_king",
-      "text": "You ride home to the Shire white-haired and quiet, and tend a garden that no enemy can find. The crown was Aragorn's; the long second life is yours.",
+      "text": "You go back up the road with Merry and Pippin either side and none of you talking, and you push open a round green door and there is a fire and a child on the mat. The garden takes forty years and turns out well. Your hair goes white and people bring their questions to the bench outside. The crown was Aragorn's and the ship was Frodo's; the long ordinary second life is yours, and it was the hardest of the three to earn.",
       "sceneTitle": "King and Steward",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_west",
-      "text": "You board the ship, and the sea air mends what Mordor broke. Somewhere ahead, a green country.",
+      "text": "The plank comes up, the sail fills, and the Grey Havens go small behind you. Somewhere past the second night the salt gets into the shoulder wound and it stops hurting, and you notice this an hour after it happens. Ahead, under a line of cloud that is not cloud, there is a green country and a long shore and a light that does not come off any sea you have crossed. You do not look back again.",
       "sceneTitle": "Into the West",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You leave the book open on the table for the next small hand. The story keeps going without you, which is the proof it was good.",
+      "text": "You leave the book open on the desk with the pen beside it and the last chapter unwritten, and you do not close the door of the study when you go down to supper. There are small hands in this house that will be big enough for it eventually. Someone will pick it up, read to the blank page, and be furious, and then start writing. That the story keeps going without you is the only proof that it was ever any good.",
       "sceneTitle": "The Last Page",
       "choices": [],
       "isEnding": true,

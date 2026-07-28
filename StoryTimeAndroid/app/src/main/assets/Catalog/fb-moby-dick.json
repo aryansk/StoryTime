@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You share a bed with Queequeg, harpooner.",
+      "text": "There is one bed left in New Bedford and it already contains a harpooner from the South Seas, who is out late selling a shrunken head and comes in at midnight with a tomahawk pipe still lit. He is tattooed in purple squares from scalp to ankle. He gets in beside you, prays to a small black idol on the hearth, and sleeps like a man with nothing whatever on his conscience.",
       "sceneTitle": "Spouter-Inn",
       "choices": [
         {
           "text": "Befriend him",
-          "consequence": "You commit to “Befriend him.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "By morning his arm is across you like a wife's. You share his pipe at breakfast, and by evening he has declared the two of you married in his fashion.",
           "nextNodeId": "s2"
         },
         {
           "text": "Be wary",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You lie rigid until first light, counting the tattoos you can see. He notices, offers you the whole bed, and takes the boards without a word of complaint.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Father Mapple in the pulpit. Jonah.",
+      "text": "The chapel walls carry marble tablets for men the sea kept: taken by a whale off Japan, lost overboard in the night, blown up in a boat. The pulpit is built like a ship's bow, and Father Mapple climbs to it on a rope ladder and hauls the ladder up behind him. He preaches Jonah. The fare paid in coin, the storm, the belly, the man who ran from an order and was swallowed for it.",
       "sceneTitle": "Sermon",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "“Note it” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You sit beneath the tablets of drowned men and take the sermon personally, which is precisely the direction it was aimed in.",
           "nextNodeId": "s3"
         },
         {
           "text": "Don't note",
-          "consequence": "There is no taking “Don't note” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You admire the rope ladder and the carved bow and go out whistling. The part about fleeing an appointed thing follows you all the way to Nantucket.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The Pequod. Captain Peleg pays you in lays.",
+      "text": "Two Quaker owners in a cabin the size of a coffin haggle over your share of the voyage's profit. Peleg offers the three hundredth lay. Bildad, reading his Bible with a finger on the page, proposes the seven hundred and seventy-seventh and quotes scripture about treasure. You settle between. Neither will let you see the captain, who is ashore, unwell, and not himself since the last voyage took his leg.",
       "sceneTitle": "Sign On",
       "choices": [
         {
           "text": "Negotiate",
-          "consequence": "“Negotiate” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You get the three hundredth lay, which after outfitting and slops may leave you owing the ship money at the end. You sign, pleased with yourself.",
           "nextNodeId": "s4"
         },
         {
           "text": "Take what's offered",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You put your mark down without argument, because you want the sea more than you want the money, and both old men can see it plainly.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "He appears on deck. Bone leg. Scar from forehead to coat.",
+      "text": "Nantucket winter keeps him below for days after sailing. Then one grey morning he is simply there by the mizzen, standing in a hole augered into the deck to steady the ivory of his leg. There is a seam down him, white and thin, running out of the hair and under the collar, and no man aboard will tell you whether it stops at the bone or goes the whole way down.",
       "sceneTitle": "Ahab",
       "choices": [
         {
           "text": "Read the room",
-          "consequence": "You commit to “Read the room.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You watch the mates go quiet and busy at the same moment, and learn more from the set of Starbuck's shoulders than from all the talk in port.",
           "nextNodeId": "s5"
         },
         {
           "text": "Approach him",
-          "consequence": "“Approach him” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You come within six feet of him and he looks through you at the water. He does not know your name and will not learn it for a year.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A coin nailed to the mast. To whoever sights the white whale.",
+      "text": "He calls all hands aft, produces a gold coin out of Ecuador stamped with three mountains, a flame, a tower, a crowing cock, and hammers it to the mainmast himself. Whoever raises a white-headed whale with a wrinkled brow and a crooked jaw takes it. Then the harpooners drink from the sockets of their own irons and the crew cheers, and it is the cheering that frightens you.",
       "sceneTitle": "Doubloon",
       "choices": [
         {
           "text": "Look up often",
-          "consequence": "You commit to “Look up often.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You catch yourself scanning the horizon on your own watch, unpaid, for a whale you have no quarrel with at all. That is how the thing gets into a man.",
           "nextNodeId": "s6"
         },
         {
           "text": "Forget it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go back to tarring rope and tell yourself gold is only gold. You still put a hand on that coin every single time you pass the mast.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "First mate. He warns Ahab in private.",
+      "text": "The first mate is a Nantucketer, thin, careful, thirty years at the trade, and he will have no man in his boat who is not afraid of a whale. He tells the captain to his face that vengeance on a dumb brute is blasphemy and that the owners are owed oil. Ahab says the sun would answer for an insult too. Starbuck says nothing further. He obeys, and goes on obeying.",
       "sceneTitle": "Starbuck",
       "choices": [
         {
           "text": "Side with Starbuck",
-          "consequence": "There is no taking “Side with Starbuck” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say aloud at the windlass that the mate has the right of it, and the watch goes quiet, and somebody at the far end laughs at you.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep coiling line while a good man loses an argument he was correct about. You are one of a whole crew who says nothing.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A great squid surfaces. Bad omen.",
+      "text": "Dead calm, and a great pale mass lifts off the bow: no head that anyone can find, no eyes, an acre of curd with innumerable long arms curling and uncurling like a nest of anacondas reaching for whatever is nearest. It sinks again without a sound. Starbuck says he would rather have met the white whale. Few men who see one of these live long enough to describe it.",
       "sceneTitle": "Squid",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You put it into the account you keep in your head under omens, and go below with your hands shaking on the ladder rungs.",
           "nextNodeId": "s8"
         },
         {
           "text": "Don't speak it",
-          "consequence": "There is no taking “Don't speak it” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You keep it to yourself for a week. The old Manxman says it aloud instead, twice, and after that the whole forecastle walks quieter at night.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Queequeg in the bow. The boat hauls.",
+      "text": "A cry from the masthead and the boats go down in a scramble of tackle and shouting. Queequeg stands in the bow with his iron while you pull an oar with your back to everything that matters, so that the whole world is Starbuck's face and the sound of water tearing. Then the line runs out smoking through the chocks and the boat is dragged flat across the sea by something you never see.",
       "sceneTitle": "First Lower",
       "choices": [
         {
           "text": "Hold tight",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You keep your knees against the thwart and your hands off the running line, because the line takes fingers, and every man with fingers learned that first.",
           "nextNodeId": "s9"
         },
         {
           "text": "Steady your nerves",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You get through it by naming the parts of the boat under your breath, cleat and chock and loggerhead, and Queequeg turns round and grins at you for it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A small school. You take one.",
+      "text": "You take a small whale after four hours: the iron, the run, the lance worked in and churned until the spout comes up red, then the flurry, the slow flailing circle, the fin turning over. The carcass is chained alongside. The blubber comes away in one continuous strip, like peel off an orange, hauled by the windlass with the whole watch on the handles. The head alone outweighs the boat that killed it.",
       "sceneTitle": "Whales",
       "choices": [
         {
           "text": "Trust the technique",
-          "consequence": "“Trust the technique” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You do exactly as you are told and the method holds. Whaling proves to be a butcher's trade carried on in a small boat by men who sing while they work.",
           "nextNodeId": "s10"
         },
         {
           "text": "Doubt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You look at the eye, set on the side of the head so that the animal cannot see forward at all, and you wonder what it believes it is dying of.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Boiling blubber, midnight, fire.",
+      "text": "Two iron pots set in brickwork amidships, and once lit they are fed with the crisped scraps of the whale itself, so that the animal burns its own body down into oil. Midnight, black smoke, red light on black faces, the harpooners forking blubber and laughing over the pots. You take the helm and the fire behind throws your shadow out ahead of you. You turn to look at it and nearly broach the ship.",
       "sceneTitle": "Try-Works",
       "choices": [
         {
           "text": "Tend the fire",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You feed the pots until dawn and come off watch smelling of something that stays in your hair for a month. Two hundred barrels stowed below by Friday.",
           "nextNodeId": "s11"
         },
         {
           "text": "Watch the sea",
-          "consequence": "You commit to “Watch the sea.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You keep your face to the water and off the flame, and the trick works, and afterward you recommend it to anybody who will stand still to hear it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The cabin boy is left in the sea. They retrieve him changed.",
+      "text": "The small Alabama boy jumps from a fast boat twice; the second time Stubb keeps his whale and leaves him. The sea is calm as a millpond and it is barely an hour before they come back, and an hour is nothing, and an hour is the entire width of creation when the shoreless horizon is turning slowly round your head. They haul him in. His hair goes white. He speaks of himself now in the third person.",
       "sceneTitle": "Pip Lost",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "You commit to “Sit with him.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You share your biscuit and let him talk, and none of it makes sense, and a good deal of it makes a terrible sort of sense.",
           "nextNodeId": "s12"
         },
         {
           "text": "Avoid him",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You keep clear of him, because his eyes are difficult to be looked at by. Ahab does not. Ahab takes him into his own cabin and holds his hand like a father.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He plots whale migrations on a chart.",
+      "text": "He is up all night with yellowed charts, ruling lines through the currents and the seasons of the migration, marking where the ship has been against every sperm whale ever logged by any master anywhere. He is not mad in the arithmetic. The sums are sound. The lamp swings above him and the shadow of his forehead travels back and forth across the paper like a hand wiping something out.",
       "sceneTitle": "Ahab's Map",
       "choices": [
         {
           "text": "Note his certainty",
-          "consequence": "There is no taking “Note his certainty” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You see that the numbers are correct, which is far worse than if they were nonsense. A man who is wrong can at least be argued with.",
           "nextNodeId": "s13"
         },
         {
           "text": "Be impressed",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stand in the companionway admiring the work of a first-rate mind, and forget for a full minute what the mind has been set to do.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "He forges a harpoon, tempered in blood.",
+      "text": "Perth the blacksmith heats a dozen rods of race-horse nail-stubs and welds them into one shank. Ahab has the barbs beaten out of his own razors and will not permit them to be tempered in water. He calls the three harpooners aft and they open their arms, and the steel goes hissing into their blood, and he says words over it in a language that is nobody's language for a christening.",
       "sceneTitle": "Forge",
       "choices": [
         {
           "text": "Watch silently",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You stand at the back of the crowd and watch a man spend his own razors on a barb, and you do not once look away from it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Object",
-          "consequence": "“Object” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You say something about the pagan blood and the smith keeps hammering. Ahab does not hear you. Nobody on that deck hears you.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Another ship asks for help finding a captain's son. Ahab refuses.",
+      "text": "She comes down on the Pequod with everything set, and her captain is over the rail before the boats are properly fast. His whaleboat has been missing since yesterday with his twelve-year-old son aboard. He offers to charter the Pequod for forty-eight hours. He offers to pay. He says he knows Ahab, and that Ahab has a boy of his own. Then he says please. Ahab tells him he is losing time.",
       "sceneTitle": "Rachel",
       "choices": [
         {
           "text": "Argue",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You say out loud that it is a child out there, and Stubb puts a hand on your arm, and by then the ship is already gathering way.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay silent",
-          "consequence": "You commit to “Stay silent.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You watch a father go back down the side into his own boat with nothing, and you carry the shape of his back for the remainder of your life.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Lightning down the masts. St. Elmo's fire.",
+      "text": "The typhoon comes out of the east, dead against the course, and takes the canvas out of the boltropes. Then the three masts light up: a pale corpse-fire standing on every truck, burning without heat, the yards drawn in it like chalk. The crew goes to its knees on the wet deck. Ahab sets his boot on a coil of line, takes hold of the burning lightning links, and addresses the fire as an equal.",
       "sceneTitle": "Storm",
       "choices": [
         {
           "text": "Trust the spar",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You get both arms round the mainmast and your eyes shut and let the ship do the arguing with the sky. She survives it. So, to your surprise, do you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Pray",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You pray for the first time since the chapel, and the words come out in Father Mapple's order, and you are not comforted by them.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He nails his quadrant. He throws away time.",
+      "text": "After the storm the compasses are reversed by the lightning and he makes new needles out of a lance head and a sailmaker's palm, purely to shame them. Then he takes the quadrant, the instrument that finds a ship its latitude off the sun, and looks at it, and says it can tell him where he is but never where the whale will be. He throws it down and treads it into brass rubbish.",
       "sceneTitle": "Ahab's Vow",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You pick a piece of the smashed arc off the deck later and keep it in your chest, and you never once work out why you wanted it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't note",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You go on with your splicing and let another hand sweep it over the side, and the ship runs on by log and line and the will of one man.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "A spout on the horizon. White.",
+      "text": "After a year and a half of the world's water he goes up in the basket himself and raises it: there she blows, a wrinkled white forehead, a hump like a snow hill, two miles off in a light morning wind. The doubloon is his own. Three days, he says. The boats swing out on the davits. Starbuck stands at the rail and asks him, quietly, to go home to his wife and his boy.",
       "sceneTitle": "First Sight",
       "choices": [
         {
           "text": "Lower boats",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You are in the mate's boat with an oar in your hands, going toward it at four knots, and your body is doing this before your mind has agreed to it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Plead",
-          "consequence": "You commit to “Plead.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You add your voice to Starbuck's, which is like adding a cup to a river. The man has waited forty years and will not be talked out of a morning.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Ahab's boat is smashed.",
+      "text": "He goes in first. The whale takes the head of his boat crosswise in its jaw, shakes it the way a terrier shakes a rat, and bites the thing in two. Men in the water everywhere and the sea white for an acre. He is fished out gasping with the ivory snapped off short at the knee. He sits in the bottom of another boat and asks whether all his men are living, then calls for the carpenter.",
       "sceneTitle": "Day One",
       "choices": [
         {
           "text": "Pull Ahab from the water",
-          "consequence": "“Pull Ahab from the water” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You get a hand in his collar and haul, and he does not thank you, and he asks after the whale's heading before he asks after his own leg.",
           "nextNodeId": "s19"
         },
         {
           "text": "Save your boat",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You bail and plug and keep a hull under a boat's crew, which is the useful thing to be doing, and nobody in the whole story ever mentions it.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Fedallah is dragged under. The harpoons miss.",
+      "text": "He is up before light on a new leg the carpenter has cut from a spare jawbone. The whale comes at all three boats from underneath and throws them, and the lines cross and foul, and two boats are stove in. When the water clears, Fedallah, the strange Parsee who has shadowed him since Nantucket, is not anywhere. Ahab's ivory is splintered again and half his irons are floating loose.",
       "sceneTitle": "Day Two",
       "choices": [
         {
           "text": "Persuade Ahab to turn",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "Starbuck begs him on the open deck in front of everybody. He answers that the whole business was decided long before either of them was born.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay silent",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You mend line with your head down. Silence is what a forecastle has to give, and enough silences together will carry a ship absolutely anywhere.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The Pequod is rammed. The whale rolls.",
+      "text": "Third morning, and the whale surfaces with Fedallah lashed to its back by the turns of yesterday's rope. Ahab darts and the iron holds. Then the whale comes round and puts the whole of its forehead into the Pequod at the waterline. She goes down by the head with the birds still circling her trucks. The line jumps its groove, takes Ahab round the neck, and he is gone before a man can shout.",
       "sceneTitle": "Day Three",
       "choices": [
         {
           "text": "Cling to the coffin",
-          "consequence": "“Cling to the coffin” closes one possibility and opens another. The moment leaves a clear note behind: Save.",
+          "consequence": "The sea sucks everything under and then spits one object back up: a coffin, built and carved for a man who did not die of his fever after all.",
           "nextNodeId": "s21"
         },
         {
           "text": "Help others",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You swim toward the nearest hand and the vortex takes the pair of you round twice and lets only one go. You are not the one who chooses which.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Queequeg's coffin floats up. You climb on. Days pass.",
+      "text": "The ship's suction closes over and turns you slowly, and then the coffin comes up on its own beside you, black and cut all over with Queequeg's tattooing. You get an arm across it. For a day and a night the sharks go by with their mouths shut as though padlocked, and the hawks fly with sheathed beaks. The sea rolls exactly as it rolled the day before there was ever a Pequod.",
       "sceneTitle": "Sea, Alone",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Save.",
+          "consequence": "You lie on the box and stop trying to swim anywhere. The current takes you east, and you watch the horizon without expecting one thing of it.",
           "nextNodeId": "end_rachel"
         },
         {
           "text": "Pray",
-          "consequence": "You commit to “Pray.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You say Father Mapple's words with a swollen tongue, and then Queequeg's, and by that hour you are not particular about whose god is listening.",
           "nextNodeId": "end_writer"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You promise the water that if it lets you out you will never put your hand on a whale line again. You mean it. You keep it, too, for the rest of your days.",
           "nextNodeId": "end_shore"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_rachel",
-      "text": "The Rachel finds you, searching for her own lost. You ride home with her crew. You write the book down, in time, in a small room in Brooklyn.",
+      "text": "On the second day a ship comes down on you, tacking back and forth in her mourning, and it is the Rachel, still hunting a captain's boy she is never going to find. They take you up almost out of habit. Home is a long passage in a stranger's forecastle with nothing to do but remember. Years later, in a rented room in Brooklyn with a window on a brick wall, you begin writing it down, and it costs you most of a life.",
       "sceneTitle": "The Rachel",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You become a sailor and a teacher of sailors. You write a book that nobody reads in your lifetime. A century later they read it everywhere.",
+      "text": "You go back to sea, because there is nothing else in you, and then ashore to a school where you teach navigation to boys who have never tasted salt. Nights, you write. The book appears and is called a failure by men who read forty pages of it, sells a few hundred copies, and leaves you owing your printer. A century on they teach it in the same schools that would not have you.",
       "sceneTitle": "Call Me Ishmael",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_shore",
-      "text": "You stay on land. You learn a trade. You marry a woman who has never been to sea. Every July you walk to a pier and stand for an hour. You do not, by then, fully know why.",
+      "text": "You never ship again. You learn to make barrels in a yard three streets back from the water, and you are competent at it and then genuinely good. Your wife has never seen the ocean and has no wish to. Every July you walk down to the end of a pier and stand there an hour with both hands on the rail, facing east, saying nothing at all. You could not now explain to anybody what you are waiting for.",
       "sceneTitle": "Quiet Shore",
       "choices": [],
       "isEnding": true,
