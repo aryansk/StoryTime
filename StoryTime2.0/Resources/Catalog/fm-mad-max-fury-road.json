@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Hooks pull you down into a place that calls itself the Citadel.",
+      "text": "Hooks pull you down into a place that calls itself the Citadel. The road still runs toward Blood Bag. Its next turn depends on the difference between choosing “Fight the chains” and choosing “Go limp.”",
       "sceneTitle": "Caught at the Rocks",
       "choices": [
         {
           "text": "Fight the chains",
-          "consequence": "The decision settles the question for now. Its verdict—Wild—follows you into whatever comes next.",
+          "consequence": "You commit to fight the chains. It buys momentum toward Blood Bag and spends the last protection hesitation gave you.",
           "nextNodeId": "s2"
         },
         {
           "text": "Go limp",
-          "consequence": "You commit to “Go limp.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You go limp. The route to Blood Bag opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Hose in your arm, a mask on your face, a War Boy painted white above you.",
+      "text": "Hose in your arm, a mask on your face, a War Boy painted white above you. You are unlikely to keep all three. Both choices lead to Furiosa Turns East, but “Bide” arrives there with a different cost than “Bite.”",
       "sceneTitle": "Blood Bag",
       "choices": [
         {
           "text": "Bide",
-          "consequence": "There is no taking “Bide” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You choose to bide. By Furiosa Turns East, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         },
         {
           "text": "Bite",
-          "consequence": "The decision settles the question for now. Its verdict—Wild—follows you into whatever comes next.",
+          "consequence": "You bite. The route to Furiosa Turns East opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "The war rig veers off the spice road into the open dust.",
+      "text": "The war rig veers off the spice road into the open dust. The road still runs toward Pursuit. Its next turn depends on the difference between choosing “Trust her plan” and choosing “Ride straight.” By Pursuit, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Furiosa Turns East",
       "choices": [
         {
           "text": "Trust her plan",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to trust her plan. It buys momentum toward Pursuit and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ride straight",
-          "consequence": "The decision settles the question for now. Its verdict—Stubborn—follows you into whatever comes next.",
+          "consequence": "You commit to ride straight. It buys momentum toward Pursuit and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Joe's whole convoy turns at once, a hundred wheels in a war drum's beat.",
+      "text": "Joe's whole convoy turns at once, a hundred wheels in a war drum's beat. Both choices lead to The Wives, but “Push the throttle” arrives there with a different cost than “Conserve fuel.” By The Wives, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Pursuit",
       "choices": [
         {
           "text": "Push the throttle",
-          "consequence": "The decision settles the question for now. Its verdict—Wild—follows you into whatever comes next.",
+          "consequence": "You commit to push the throttle. It buys momentum toward The Wives and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         },
         {
           "text": "Conserve fuel",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You commit to conserve fuel. It buys momentum toward The Wives and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Five women in white linen and chain bolt cutters in the bed of the rig.",
+      "text": "Five women in white linen and chain bolt cutters in the bed of the rig. Nux on the Hood is already waiting. What changes is whether “Help them” or “Use them as leverage” is the instinct you carry into it.",
       "sceneTitle": "The Wives",
       "choices": [
         {
           "text": "Help them",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You help them. The route to Nux on the Hood opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Use them as leverage",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You choose to use them as leverage. By Nux on the Hood, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A young War Boy with a steering wheel in his fist and chrome in his teeth.",
+      "text": "A young War Boy with a steering wheel in his fist and chrome in his teeth. Canyon Pass comes either way; its meaning changes with the difference between “Pull him in” and “Let him fall.”",
       "sceneTitle": "Nux on the Hood",
       "choices": [
         {
           "text": "Pull him in",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You choose to pull him in. By Canyon Pass, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         },
         {
           "text": "Let him fall",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You let him fall. The route to Canyon Pass opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "The Buzzards in spiked cars and a tunnel through living rock.",
+      "text": "The Buzzards in spiked cars and a tunnel through living rock. Storm of Sand comes either way; its meaning changes with the difference between “Blow the cliffs” and “Outrun them.” At Storm of Sand, everyone involved will know which risk you accepted.",
       "sceneTitle": "Canyon Pass",
       "choices": [
         {
           "text": "Blow the cliffs",
-          "consequence": "“Blow the cliffs” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You choose to blow the cliffs. By Storm of Sand, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Outrun them",
-          "consequence": "“Outrun them” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You outrun them. The route to Storm of Sand opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A dust devil the size of a city walks at you in slow motion.",
+      "text": "A dust devil the size of a city walks at you in slow motion. You cannot avoid Splendid's Belly; you can only decide whether “Drive in” or “Go around” defines the person who reaches it.",
       "sceneTitle": "Storm of Sand",
       "choices": [
         {
           "text": "Drive in",
-          "consequence": "The decision settles the question for now. Its verdict—Wild—follows you into whatever comes next.",
+          "consequence": "You drive in. The route to Splendid's Belly opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         },
         {
           "text": "Go around",
-          "consequence": "There is no taking “Go around” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You commit to go around. It buys momentum toward Splendid's Belly and spends the last protection hesitation gave you.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "The pregnant wife stands in the door to shield Furiosa from her husband's bullet.",
+      "text": "The pregnant wife stands in the door to shield Furiosa from her husband's bullet. Night in the Mud will follow either decision, but it will meet a different version of you after “Pull her in” than after “Hold the line.”",
       "sceneTitle": "Splendid's Belly",
       "choices": [
         {
           "text": "Pull her in",
-          "consequence": "“Pull her in” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You commit to pull her in. It buys momentum toward Night in the Mud and spends the last protection hesitation gave you.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hold the line",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You commit to hold the line. It buys momentum toward Night in the Mud and spends the last protection hesitation gave you.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Stuck axle, dead lights, distant engines.",
+      "text": "Stuck axle, dead lights, distant engines. The road still runs toward Furiosa's Stump. Its next turn depends on the difference between choosing “Push together” and choosing “Push alone.” At Furiosa's Stump, everyone involved will know which risk you accepted.",
       "sceneTitle": "Night in the Mud",
       "choices": [
         {
           "text": "Push together",
-          "consequence": "“Push together” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You push together. The route to Furiosa's Stump opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         },
         {
           "text": "Push alone",
-          "consequence": "“Push alone” closes one possibility and opens another. The moment leaves a clear note behind: Stubborn.",
+          "consequence": "You push alone. The route to Furiosa's Stump opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "The mechanical arm is jammed and she will not say it hurts.",
+      "text": "The mechanical arm is jammed and she will not say it hurts. Both choices lead to Bullet Farmer, but “Help her unscrew it” arrives there with a different cost than “Leave her alone.” By Bullet Farmer, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Furiosa's Stump",
       "choices": [
         {
           "text": "Help her unscrew it",
-          "consequence": "You commit to “Help her unscrew it.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You commit to help her unscrew it. It buys momentum toward Bullet Farmer and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Leave her alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to leave her alone. By Bullet Farmer, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A blind man on a tractor turret shooting by the sound of your tires.",
+      "text": "A blind man on a tractor turret shooting by the sound of your tires. The Vuvalini is already waiting. What changes is whether “Decoy” or “Charge” is the instinct you carry into it. At The Vuvalini, everyone involved will know which risk you accepted.",
       "sceneTitle": "Bullet Farmer",
       "choices": [
         {
           "text": "Decoy",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You decoy. The route to The Vuvalini opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s13"
         },
         {
           "text": "Charge",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to charge. By The Vuvalini, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Old women in motorcycles with bags of seeds and stories.",
+      "text": "Old women in motorcycles with bags of seeds and stories. You are unlikely to keep all three. The Green Place is already waiting. What changes is whether “Trust them” or “Travel alone” is the instinct you carry into it.",
       "sceneTitle": "The Vuvalini",
       "choices": [
         {
           "text": "Trust them",
-          "consequence": "The decision settles the question for now. Its verdict—Hope—follows you into whatever comes next.",
+          "consequence": "You trust them. The route to The Green Place opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s14"
         },
         {
           "text": "Travel alone",
-          "consequence": "You commit to “Travel alone.” The story records the instinct as “Wary” and carries it forward.",
+          "consequence": "You commit to travel alone. It buys momentum toward The Green Place and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Crows. Mud. A sky that has not had a green place in it for forty years.",
+      "text": "Crows. Mud. A sky that has not had a green place in it for forty years. You are unlikely to keep all three. Turn Around will follow either decision, but it will meet a different version of you after “Go on” than after “Sit down.”",
       "sceneTitle": "The Green Place",
       "choices": [
         {
           "text": "Go on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Stubborn.",
+          "consequence": "You go on. The route to Turn Around opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         },
         {
           "text": "Sit down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to sit down. By Turn Around, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Furiosa decides to drive back through the war party to the Citadel itself.",
+      "text": "Furiosa decides to drive back through the war party to the Citadel itself. The road still runs toward Salt Flats. Its next turn depends on the difference between choosing “Ride” and choosing “Stay behind.” At Salt Flats, everyone involved will know which risk you accepted.",
       "sceneTitle": "Turn Around",
       "choices": [
         {
           "text": "Ride",
-          "consequence": "There is no taking “Ride” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You choose to ride. By Salt Flats, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay behind",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to stay behind. It buys momentum toward Salt Flats and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A horizon with no edges, and a hundred engines closing.",
+      "text": "A horizon with no edges, and a hundred engines closing. Nux's Choice comes either way; its meaning changes with the difference between “Pour the speed” and “Stay tight.” By Nux's Choice, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Salt Flats",
       "choices": [
         {
           "text": "Pour the speed",
-          "consequence": "The decision settles the question for now. Its verdict—Wild—follows you into whatever comes next.",
+          "consequence": "You commit to pour the speed. It buys momentum toward Nux's Choice and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay tight",
-          "consequence": "You commit to “Stay tight.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You stay tight. The route to Nux's Choice opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Witness me, he whispers, and grips a steering wheel one-handed.",
+      "text": "Witness me, he whispers, and grips a steering wheel one-handed. You are unlikely to keep all three. You cannot avoid Joe at the Window; you can only decide whether “Let him go” or “Pull him back” defines the person who reaches it.",
       "sceneTitle": "Nux's Choice",
       "choices": [
         {
           "text": "Let him go",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You commit to let him go. It buys momentum toward Joe at the Window and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Pull him back",
-          "consequence": "There is no taking “Pull him back” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You choose to pull him back. By Joe at the Window, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "His silver mask, your hooked fingers, a moment that does not last.",
+      "text": "His silver mask, your hooked fingers, a moment that does not last. You are unlikely to keep all three. Furiosa Bleeding comes either way; its meaning changes with the difference between “Tear it off” and “Push him under.”",
       "sceneTitle": "Joe at the Window",
       "choices": [
         {
           "text": "Tear it off",
-          "consequence": "There is no taking “Tear it off” back. Wild shapes the silence before the next moment arrives.",
+          "consequence": "You commit to tear it off. It buys momentum toward Furiosa Bleeding and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Push him under",
-          "consequence": "“Push him under” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You push him under. The route to Furiosa Bleeding opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A blade through her side and the rig still running on fumes.",
+      "text": "A blade through her side and the rig still running on fumes. The Gates of the Citadel comes either way; its meaning changes with the difference between “Field dress” and “Drive faster.” At The Gates of the Citadel, everyone involved will know which risk you accepted.",
       "sceneTitle": "Furiosa Bleeding",
       "choices": [
         {
           "text": "Field dress",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You choose to field dress. By The Gates of the Citadel, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Drive faster",
-          "consequence": "You commit to “Drive faster.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You drive faster. The route to The Gates of the Citadel opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Joe's body on the hood, the dust people staring up at the rig.",
+      "text": "Joe's body on the hood, the dust people staring up at the rig. The road still runs toward Lift Up. Its next turn depends on the difference between choosing “Open the water” and choosing “Drive past.”",
       "sceneTitle": "The Gates of the Citadel",
       "choices": [
         {
           "text": "Open the water",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You open the water. The route to Lift Up opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         },
         {
           "text": "Drive past",
-          "consequence": "“Drive past” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You choose to drive past. By Lift Up, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Furiosa rises on the platform with the wives, breathing through a tube of your blood.",
+      "text": "Furiosa rises on the platform with the wives, breathing through a tube of your blood. You are unlikely to keep all three. “Step back into the crowd” opens the route to Water for All. “Ride up with her” changes the terms and carries you toward Back to the Road. A third choice, “Take the third path,” keeps Witnessed in play.",
       "sceneTitle": "Lift Up",
       "choices": [
         {
           "text": "Step back into the crowd",
-          "consequence": "There is no taking “Step back into the crowd” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You step back into the crowd. The route to Water for All opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_water"
         },
         {
           "text": "Ride up with her",
-          "consequence": "“Ride up with her” closes one possibility and opens another. The moment leaves a clear note behind: Loyal.",
+          "consequence": "You choose to ride up with her. By Back to the Road, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_road"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Witnessed, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_witness"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_water",
-      "text": "The wheels lock, the gates open, and the Citadel learns it was always two days from kindness.",
+      "text": "The wheels lock, the gates open, and the Citadel learns it was always two days from kindness. The road into Water for All began with “Step back into the crowd” in Lift Up; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Water for All",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_road",
-      "text": "You slip down through the crowd before anyone can name you. The road goes both ways and you are not done being driven.",
+      "text": "You slip down through the crowd before anyone can name you. The road goes both ways and you are not done being driven. You are unlikely to keep all three. The road into Back to the Road began with “Ride up with her” in Lift Up; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Back to the Road",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_witness",
-      "text": "Nux's grin in the rearview, half a second before chrome. You will see it for the rest of your long, accidental life.",
+      "text": "Nux's grin in the rearview, half a second before chrome. You will see it for the rest of your long, accidental life. The road into Witnessed began with “Take the third path” in Lift Up; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Witnessed",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Nineteen-eighteen. The big gun is aimed at a cathedral eighty kilometres off and you are the man who pulls the lanyard. The shell leaves. Somewhere a long way away, an outhouse falls over. Your sergeant looks at you. You check the sight, which has been mounted, you now see, backwards.",
+      "text": "Nineteen-eighteen. The big gun is aimed at a cathedral eighty kilometres off and you are the man who pulls the lanyard. The shell leaves. Somewhere a long way away, an outhouse falls over. Your sergeant looks at you. You check the sight, which has been mounted, you now see, backwards. You are unlikely to keep all three.",
       "sceneTitle": "Trench",
       "choices": [
         {
           "text": "Aim away",
-          "consequence": "You nudge the barrel two degrees toward open field, and nobody notices, and a cathedral gets to keep its roof.",
+          "consequence": "You nudge the barrel two degrees toward open field, and nobody notices, and a cathedral gets to keep its roof. You aim away. The route to Lost in the Fog opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         },
         {
           "text": "Fire",
-          "consequence": "You do as you are told and the shell goes where it likes, which today means nowhere anyone was standing.",
+          "consequence": "You do as you are told and the shell goes where it likes, which today means nowhere anyone was standing. You fire. The route to Lost in the Fog opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         }
       ],
@@ -44,12 +44,12 @@
       "choices": [
         {
           "text": "Walk home",
-          "consequence": "You leave in a coat two decades out of fashion and walk to a street you remember perfectly, which turns out to be the problem.",
+          "consequence": "You leave in a coat two decades out of fashion and walk to a street you remember perfectly, which turns out to be the problem. You commit to walk home. It buys momentum toward The Shop and spends the last protection hesitation gave you.",
           "nextNodeId": "s3"
         },
         {
           "text": "Wait",
-          "consequence": "You sit on the bed another hour holding the strop, waiting for somebody to come and explain the last twenty years.",
+          "consequence": "You sit on the bed another hour holding the strop, waiting for somebody to come and explain the last twenty years. You choose to wait. By The Shop, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         }
       ],
@@ -63,12 +63,12 @@
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "You shave him properly, because a barber shaves whoever sits down in the chair, and your hand does not shake once.",
+          "consequence": "You shave him properly, because a barber shaves whoever sits down in the chair, and your hand does not shake once. You be polite. The route to Hannah Next Door opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse to serve",
-          "consequence": "You set the razor on the shelf and tell him the chair is taken, and he studies the empty chair for a long moment.",
+          "consequence": "You set the razor on the shelf and tell him the chair is taken, and he studies the empty chair for a long moment. You choose to refuse to serve. By Hannah Next Door, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s4"
         }
       ],
@@ -82,12 +82,12 @@
       "choices": [
         {
           "text": "Talk to her",
-          "consequence": "You stand in the courtyard with your sleeves rolled and talk about nothing for an hour, which costs you the whole evening's work.",
+          "consequence": "You stand in the courtyard with your sleeves rolled and talk about nothing for an hour, which costs you the whole evening's work. You talk to her. The route to Schultz, Saved opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hide",
-          "consequence": "You go back inside and watch her through the glass sweeping her own step, and the soup goes cold on your counter.",
+          "consequence": "You go back inside and watch her through the glass sweeping her own step, and the soup goes cold on your counter. You hide. The route to Schultz, Saved opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         }
       ],
@@ -101,12 +101,12 @@
       "choices": [
         {
           "text": "Greet him",
-          "consequence": "You put your hand out before you have decided to, and he takes it in front of his own men, in the street.",
+          "consequence": "You put your hand out before you have decided to, and he takes it in front of his own men, in the street. You choose to greet him. By Storm Troopers, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         },
         {
           "text": "Pretend not to know",
-          "consequence": "You keep sweeping and let him walk on, because a debt from another war is a thin plank to stand on.",
+          "consequence": "You keep sweeping and let him walk on, because a debt from another war is a thin plank to stand on. You commit to pretend not to know. It buys momentum toward Storm Troopers and spends the last protection hesitation gave you.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "They come down the street in threes with buckets, and they are young, and they are painting a word across windows. Yours gets it while you are inside sharpening. You come out with a rag and a pail before the paint has set, because it is your window and you cleaned it this morning.",
+      "text": "They come down the street in threes with buckets, and they are young, and they are painting a word across windows. Yours gets it while you are inside sharpening. You come out with a rag and a pail before the paint has set, because it is your window and you cleaned it this morning. You are unlikely to keep all three.",
       "sceneTitle": "Storm Troopers",
       "choices": [
         {
           "text": "Scrub the slur off",
-          "consequence": "You work at it with a wet rag on a public street in daylight, and three doors down a curtain moves and stops moving.",
+          "consequence": "You work at it with a wet rag on a public street in daylight, and three doors down a curtain moves and stops moving. You choose to scrub the slur off. By Brush in His Eye, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hide",
-          "consequence": "You stand behind your own counter with the lights off, watching the paint dry into the glass, hating how quiet it is.",
+          "consequence": "You stand behind your own counter with the lights off, watching the paint dry into the glass, hating how quiet it is. You commit to hide. It buys momentum toward Brush in His Eye and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -139,12 +139,12 @@
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You offer, absurdly, to clean his tunic. He declines the offer. Hannah arrives at the top of the stairs with the frying pan.",
+          "consequence": "You offer, absurdly, to clean his tunic. He declines the offer. Hannah arrives at the top of the stairs with the frying pan. You choose to apologize. By Schultz's Apartment, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Swing",
-          "consequence": "You hit a man for the first time in your life, with a wet brush, and it is nothing like as satisfying as advertised.",
+          "consequence": "You hit a man for the first time in your life, with a wet brush, and it is nothing like as satisfying as advertised. You swing. The route to Schultz's Apartment opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         }
       ],
@@ -158,12 +158,12 @@
       "choices": [
         {
           "text": "Join him",
-          "consequence": "You say yes over a cooling cup of tea in a borrowed apartment, and it is the least dramatic decision of your life.",
+          "consequence": "You say yes over a cooling cup of tea in a borrowed apartment, and it is the least dramatic decision of your life. You choose to join him. By Hynkel's Office, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         },
         {
           "text": "Decline",
-          "consequence": "You tell him you cut hair and nothing else. He nods. Neither of you believes the sentence while it is being said.",
+          "consequence": "You tell him you cut hair and nothing else. He nods. Neither of you believes the sentence while it is being said. You decline. The route to Hynkel's Office opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -177,12 +177,12 @@
       "choices": [
         {
           "text": "Watch the office",
-          "consequence": "You know a face like your own when a newsreel shows you one, and now you cannot stop seeing it everywhere.",
+          "consequence": "You know a face like your own when a newsreel shows you one, and now you cannot stop seeing it everywhere. You choose to watch the office. By Pretzels in the Pudding, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Bide",
-          "consequence": "You go back to sharpening razors and let the newsreel run without you, which changes nothing whatsoever about the newsreel.",
+          "consequence": "You go back to sharpening razors and let the newsreel run without you, which changes nothing whatsoever about the newsreel. You bide. The route to Pretzels in the Pudding opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         }
       ],
@@ -196,12 +196,12 @@
       "choices": [
         {
           "text": "Take a pudding",
-          "consequence": "You take the dish nearest you without looking at it, and swallow the coin, and say nothing, and swallow again.",
+          "consequence": "You take the dish nearest you without looking at it, and swallow the coin, and say nothing, and swallow again. You commit to take a pudding. It buys momentum toward Schultz Arrested and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         },
         {
           "text": "Pass",
-          "consequence": "You push the plate away and announce you are not hungry, and five men look at you and go on chewing carefully.",
+          "consequence": "You push the plate away and announce you are not hungry, and five men look at you and go on chewing carefully. You pass. The route to Schultz Arrested opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -215,12 +215,12 @@
       "choices": [
         {
           "text": "Hide him",
-          "consequence": "You say no in a steady voice, with a wanted officer three metres above the captain's head behind a water tank.",
+          "consequence": "You say no in a steady voice, with a wanted officer three metres above the captain's head behind a water tank. You choose to hide him. By Hannah on the Roof, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse to help",
-          "consequence": "You say nothing whatsoever, which is not the same as no, and Schultz hears every second of it through the floor.",
+          "consequence": "You say nothing whatsoever, which is not the same as no, and Schultz hears every second of it through the floor. You choose to refuse to help. By Hannah on the Roof, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         }
       ],
@@ -234,12 +234,12 @@
       "choices": [
         {
           "text": "Promise",
-          "consequence": "You say it plainly, with wet laundry hitting you in the face, and she makes you repeat it once for the record.",
+          "consequence": "You say it plainly, with wet laundry hitting you in the face, and she makes you repeat it once for the record. You choose to promise. By Border, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't",
-          "consequence": "You will not promise a thing you cannot deliver, and she says that is the most romantic sentence anyone has ever said to her.",
+          "consequence": "You will not promise a thing you cannot deliver, and she says that is the most romantic sentence anyone has ever said to her. You commit to don't. It buys momentum toward Border and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Osterlich sits on the far side of a river the color of dishwater, and the bridge has a barrier and two boys with clipboards. People are crossing with whatever they can carry. Hannah's cousins have a farm over there and a room with a stove in it. Your shop is behind you, paint still on the glass.",
+      "text": "Osterlich sits on the far side of a river the color of dishwater, and the bridge has a barrier and two boys with clipboards. People are crossing with whatever they can carry. Hannah's cousins have a farm over there and a room with a stove in it. Your shop is behind you, paint still on the glass. You are unlikely to keep all three.",
       "sceneTitle": "Border",
       "choices": [
         {
           "text": "Cross",
-          "consequence": "You go over the bridge with one bag and a razor case, and you do not look back until the far bank.",
+          "consequence": "You go over the bridge with one bag and a razor case, and you do not look back until the far bank. You commit to cross. It buys momentum toward Pickup and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay",
-          "consequence": "You send her ahead and keep the shop open, because somebody on this street still has to be standing here on Monday.",
+          "consequence": "You send her ahead and keep the shop open, because somebody on this street still has to be standing here on Monday. You stay. The route to Pickup opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s14"
         }
       ],
@@ -272,12 +272,12 @@
       "choices": [
         {
           "text": "Salute back",
-          "consequence": "You return a salute you have never once practised, badly, and the driver receives it as evidence of greatness.",
+          "consequence": "You return a salute you have never once practised, badly, and the driver receives it as evidence of greatness. You commit to salute back. It buys momentum toward Tomanian Forces Massed and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         },
         {
           "text": "Refuse",
-          "consequence": "You put your hands behind your back and say nothing at all, and the silence turns out to be extremely convincing.",
+          "consequence": "You put your hands behind your back and say nothing at all, and the silence turns out to be extremely convincing. You choose to refuse. By Tomanian Forces Massed, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -291,12 +291,12 @@
       "choices": [
         {
           "text": "Wave",
-          "consequence": "You raise one hand and a hundred thousand people raise theirs back at you, and your stomach goes out from under you.",
+          "consequence": "You raise one hand and a hundred thousand people raise theirs back at you, and your stomach goes out from under you. You wave. The route to Stadium Tunnel opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s16"
         },
         {
           "text": "Bolt",
-          "consequence": "You get one leg over the side of a moving car in front of a nation, and Schultz takes a firm hold of your belt.",
+          "consequence": "You get one leg over the side of a moving car in front of a nation, and Schultz takes a firm hold of your belt. You choose to bolt. By Stadium Tunnel, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         }
       ],
@@ -310,12 +310,12 @@
       "choices": [
         {
           "text": "Walk forward",
-          "consequence": "You go up the ramp at the pace of a man walking to open his own shop, because it is the only pace you own.",
+          "consequence": "You go up the ramp at the pace of a man walking to open his own shop, because it is the only pace you own. You commit to walk forward. It buys momentum toward Garbitsch's Introduction and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Refuse the stage",
-          "consequence": "You stop dead halfway and a full orchestra keeps playing, and there is nothing behind you in this tunnel to go back to.",
+          "consequence": "You stop dead halfway and a full orchestra keeps playing, and there is nothing behind you in this tunnel to go back to. You commit to refuse the stage. It buys momentum toward Garbitsch's Introduction and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         }
       ],
@@ -329,12 +329,12 @@
       "choices": [
         {
           "text": "Wait",
-          "consequence": "You let him finish every word, because a man that pleased with himself always leaves you a bigger silence to fill.",
+          "consequence": "You let him finish every word, because a man that pleased with himself always leaves you a bigger silence to fill. You wait. The route to Microphone opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cut him off",
-          "consequence": "You step up early and lift the microphone out of his hand, and his face does something you will remember for years.",
+          "consequence": "You step up early and lift the microphone out of his hand, and his face does something you will remember for years. You commit to cut him off. It buys momentum toward Microphone and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         }
       ],
@@ -348,12 +348,12 @@
       "choices": [
         {
           "text": "Speak gently",
-          "consequence": "You begin quietly, the way you talk to somebody sitting in your chair, and half a million people lean forward to hear it.",
+          "consequence": "You begin quietly, the way you talk to somebody sitting in your chair, and half a million people lean forward to hear it. You speak gently. The route to Hannah on the Radio opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         },
         {
           "text": "Speak with rage",
-          "consequence": "You start loud and hear your own anger come back off the far stands wearing his voice, so you stop and begin again.",
+          "consequence": "You start loud and hear your own anger come back off the far stands wearing his voice, so you stop and begin again. You speak with rage. The route to Hannah on the Radio opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -367,12 +367,12 @@
       "choices": [
         {
           "text": "Speak to her",
-          "consequence": "You aim the next part at one person, in a field, with dirt on her hands, and every listener assumes it was meant for them.",
+          "consequence": "You aim the next part at one person, in a field, with dirt on her hands, and every listener assumes it was meant for them. You choose to speak to her. By Words, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Speak to all of them",
-          "consequence": "You widen it out to a whole continent, and Hannah hears herself counted inside it, which is nearly the same thing.",
+          "consequence": "You widen it out to a whole continent, and Hannah hears herself counted inside it, which is nearly the same thing. You choose to speak to all of them. By Words, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         }
       ],
@@ -386,12 +386,12 @@
       "choices": [
         {
           "text": "Soldiers, do not despair",
-          "consequence": "You speak straight at the front rank about going home, and out in the middle of the field a rifle butt hits concrete.",
+          "consequence": "You speak straight at the front rank about going home, and out in the middle of the field a rifle butt hits concrete. You commit to soldiers, do not despair. It buys momentum toward Last Line and spends the last protection hesitation gave you.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be brief",
-          "consequence": "You cut it down to four sentences and let the silence carry the rest, and the silence runs longer than the speech did.",
+          "consequence": "You cut it down to four sentences and let the silence carry the rest, and the silence runs longer than the speech did. You be brief. The route to Last Line opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "One thing is left and it is not for the crowd. Your hands are on the stand. The field has gone completely still. You have a woman's name in your mouth and a continent listening in on a private sentence, and the only question left is whether you can get it out without your voice going.",
+      "text": "One thing is left and it is not for the crowd. Your hands are on the stand. The field has gone completely still. You have a woman's name in your mouth and a continent listening in on a private sentence, and the only question left is whether you can get it out without your voice going. You are unlikely to keep all three.",
       "sceneTitle": "Last Line",
       "choices": [
         {
           "text": "Say it",
-          "consequence": "You say her name into a microphone in front of an army, and it is the bravest thing done on that field all day.",
+          "consequence": "You say her name into a microphone in front of an army, and it is the bravest thing done on that field all day. You commit to say it. It buys momentum toward Look Up, Hannah and spends the last protection hesitation gave you.",
           "nextNodeId": "end_speech"
         },
         {
           "text": "Stop",
-          "consequence": "You take your hands off the stand and step back, leaving the last sentence unsaid, where nobody can take it off you.",
+          "consequence": "You take your hands off the stand and step back, leaving the last sentence unsaid, where nobody can take it off you. You stop. The route to Back to the Shop opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_barber"
         },
         {
           "text": "Take the third path",
-          "consequence": "There is a way out of this stadium that does not run through a speech, and it ends at a shop with a broom in it.",
+          "consequence": "There is a way out of this stadium that does not run through a speech, and it ends at a shop with a broom in it. You choose to take the third path. By Hannah at the Door, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_quiet"
         }
       ],

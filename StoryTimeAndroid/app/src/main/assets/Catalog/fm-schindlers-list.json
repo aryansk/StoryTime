@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Officers, cognac, jazz. You buy every round.",
+      "text": "Officers, cognac, jazz. You buy every round. Both choices lead to The Factory, but “Make a connection” arrives there with a different cost than “Buy more rounds.” By The Factory, the decision will already have changed who trusts you.",
       "sceneTitle": "The Club",
       "choices": [
         {
           "text": "Make a connection",
-          "consequence": "You commit to “Make a connection.” The story records the instinct as “Strategy” and carries it forward.",
+          "consequence": "You choose to make a connection. It opens the route to The Factory, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Buy more rounds",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You buy more rounds. The decision moves you toward The Factory and tells everyone present what you are willing to risk.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "An enamelware factory, abandoned. A man named Stern keeps the books.",
+      "text": "An enamelware factory, abandoned. A man named Stern keeps the books. The road still runs toward Jewish Workers. Its next turn depends on the difference between choosing “Hire Stern” and choosing “Hire a German.” At Jewish Workers, the people waiting will read the choice before the explanation.",
       "sceneTitle": "The Factory",
       "choices": [
         {
           "text": "Hire Stern",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Trust.",
+          "consequence": "You hire Stern. The decision moves you toward Jewish Workers and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         },
         {
           "text": "Hire a German",
-          "consequence": "The decision settles the question for now. Its verdict—Safe—follows you into whatever comes next.",
+          "consequence": "You choose to hire a German. It opens the route to Jewish Workers, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Cheap labor, the regime says. People, you see, when you look at them.",
+      "text": "Cheap labor, the regime says. People, you see, when you look at them. You cannot avoid Goeth; you can only decide whether “Hire many” or “Hire few” defines the person who reaches it. In Jewish Workers, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Jewish Workers",
       "choices": [
         {
           "text": "Hire many",
-          "consequence": "You commit to “Hire many.” The story records the instinct as “Right” and carries it forward.",
+          "consequence": "You choose to hire many. It opens the route to Goeth, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Hire few",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cover.",
+          "consequence": "You hire few. The decision moves you toward Goeth and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Camp commandant. Cruel. Charming when useful.",
+      "text": "Camp commandant. Cruel. Charming when useful. Helen Hirsch is already waiting. What changes is whether “Befriend him” or “Avoid him” is the instinct you carry into it. In Goeth, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Goeth",
       "choices": [
         {
           "text": "Befriend him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You commit to befriend him. By Helen Hirsch, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         },
         {
           "text": "Avoid him",
-          "consequence": "“Avoid him” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to avoid him. It opens the route to Helen Hirsch, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Goeth's maid. He beats her. You bring her medicine quietly.",
+      "text": "Goeth's maid. He beats her. You bring her medicine quietly. The Ghetto is already waiting. What changes is whether “Help quietly” or “Confront Goeth” is the instinct you carry into it. At The Ghetto, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Helen Hirsch",
       "choices": [
         {
           "text": "Help quietly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You commit to help quietly. By The Ghetto, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         },
         {
           "text": "Confront Goeth",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You commit to confront Goeth. By The Ghetto, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Liquidation day. The streets fill with bodies and shoes. A girl in a red coat.",
+      "text": "Liquidation day. The streets fill with bodies and shoes. A girl in a red coat. Stern's Lists is already waiting. What changes is whether “Watch from the hill” or “Look away” is the instinct you carry into it.",
       "sceneTitle": "The Ghetto",
       "choices": [
         {
           "text": "Watch from the hill",
-          "consequence": "You commit to “Watch from the hill.” The story records the instinct as “Witness” and carries it forward.",
+          "consequence": "You commit to watch from the hill. By Stern's Lists, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         },
         {
           "text": "Look away",
-          "consequence": "There is no taking “Look away” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to look away. By Stern's Lists, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Stern brings names. Each name is a person. Each person is a deduction from your factory's price.",
+      "text": "Stern brings names. Each name is a person. Each person is a deduction from your factory's price. The road still runs toward Payoffs. Its next turn depends on the difference between choosing “Approve every name” and choosing “Cap the list.”",
       "sceneTitle": "Stern's Lists",
       "choices": [
         {
           "text": "Approve every name",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Right.",
+          "consequence": "You approve every name. The decision moves you toward Payoffs and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Cap the list",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You cap the list. The decision moves you toward Payoffs and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You buy people one bribe at a time. The price changes weekly.",
+      "text": "You buy people one bribe at a time. The price changes weekly. Both choices lead to Goeth's Pardons, but “Pay it” arrives there with a different cost than “Negotiate.” By Goeth's Pardons, the decision will already have changed who trusts you.",
       "sceneTitle": "Payoffs",
       "choices": [
         {
           "text": "Pay it",
-          "consequence": "“Pay it” closes one possibility and opens another. The moment leaves a clear note behind: Vow.",
+          "consequence": "You pay it. The decision moves you toward Goeth's Pardons and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         },
         {
           "text": "Negotiate",
-          "consequence": "“Negotiate” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You negotiate. The decision moves you toward Goeth's Pardons and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You convince Goeth to grant pardons for sport. He likes the idea of being god.",
+      "text": "You convince Goeth to grant pardons for sport. He likes the idea of being god. You cannot avoid The Wedding; you can only decide whether “Encourage it” or “Disgust him” defines the person who reaches it.",
       "sceneTitle": "Goeth's Pardons",
       "choices": [
         {
           "text": "Encourage it",
-          "consequence": "“Encourage it” closes one possibility and opens another. The moment leaves a clear note behind: Cynical use.",
+          "consequence": "You choose to encourage it. It opens the route to The Wedding, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         },
         {
           "text": "Disgust him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You disgust him. The decision moves you toward The Wedding and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A Jewish wedding in the camp. You attend secretly.",
+      "text": "A Jewish wedding in the camp. You attend secretly. Auschwitz Train is already waiting. What changes is whether “Drink” or “Stand far back” is the instinct you carry into it. In The Wedding, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "The Wedding",
       "choices": [
         {
           "text": "Drink",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to drink. It opens the route to Auschwitz Train, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stand far back",
-          "consequence": "“Stand far back” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You stand far back. The decision moves you toward Auschwitz Train and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "A train of your women workers is misrouted to Auschwitz.",
+      "text": "A train of your women workers is misrouted to Auschwitz. Both choices lead to Auschwitz Office, but “Buy them back” arrives there with a different cost than “Send a telegram first.” In Auschwitz Train, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Auschwitz Train",
       "choices": [
         {
           "text": "Buy them back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Now.",
+          "consequence": "You commit to buy them back. By Auschwitz Office, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s12"
         },
         {
           "text": "Send a telegram first",
-          "consequence": "There is no taking “Send a telegram first” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You send a telegram first. The decision moves you toward Auschwitz Office and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You enter the office with a diamond brooch and a smile.",
+      "text": "You enter the office with a diamond brooch and a smile. Women Returned is already waiting. What changes is whether “Smile larger” or “Show the diamond first” is the instinct you carry into it. In Auschwitz Office, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Auschwitz Office",
       "choices": [
         {
           "text": "Smile larger",
-          "consequence": "“Smile larger” closes one possibility and opens another. The moment leaves a clear note behind: Strategy.",
+          "consequence": "You commit to smile larger. By Women Returned, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Show the diamond first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You commit to show the diamond first. By Women Returned, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The women come back. The relief is private.",
+      "text": "The women come back. The relief is private. The road still runs toward The List. Its next turn depends on the difference between choosing “Hide the relief” and choosing “Show some warmth.” At The List, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Women Returned",
       "choices": [
         {
           "text": "Hide the relief",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You commit to hide the relief. By The List, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Show some warmth",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to show some warmth. By The List, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Stern, at the typewriter. Names. More names. Eleven hundred names.",
+      "text": "Stern, at the typewriter. Names. More names. Eleven hundred names. Both choices lead to Final Bribes, but “Add every Stern suggests” arrives there with a different cost than “Add a few you've thought of.” In The List, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "The List",
       "choices": [
         {
           "text": "Add every Stern suggests",
-          "consequence": "The decision settles the question for now. Its verdict—Right—follows you into whatever comes next.",
+          "consequence": "You choose to add every Stern suggests. It opens the route to Final Bribes, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         },
         {
           "text": "Add a few you've thought of",
-          "consequence": "The decision settles the question for now. Its verdict—Memory—follows you into whatever comes next.",
+          "consequence": "You choose to add a few you've thought of. It opens the route to Final Bribes, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your fortune is, by now, mostly gone. Each name has cost a price.",
+      "text": "Your fortune is, by now, mostly gone. Each name has cost a price. The road still runs toward The Workers Arrive. Its next turn depends on the difference between choosing “Spend the rest” and choosing “Save a little.”",
       "sceneTitle": "Final Bribes",
       "choices": [
         {
           "text": "Spend the rest",
-          "consequence": "There is no taking “Spend the rest” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You spend the rest. The decision moves you toward The Workers Arrive and tells everyone present what you are willing to risk.",
           "nextNodeId": "s16"
         },
         {
           "text": "Save a little",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You choose to save a little. It opens the route to The Workers Arrive, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The eleven hundred arrive at Brünnlitz. They are, for now, alive.",
+      "text": "The eleven hundred arrive at Brünnlitz. They are, for now, alive. The Last Months is already waiting. What changes is whether “Be at the gate” or “Stay in the office” is the instinct you carry into it.",
       "sceneTitle": "The Workers Arrive",
       "choices": [
         {
           "text": "Be at the gate",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to be at the gate. It opens the route to The Last Months, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay in the office",
-          "consequence": "You commit to “Stay in the office.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You choose to stay in the office. It opens the route to The Last Months, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You make worthless ammunition on purpose. The war ends in slow degrees.",
+      "text": "You make worthless ammunition on purpose. The war ends in slow degrees. You cannot avoid Liberation; you can only decide whether “Keep faking” or “Risk less” defines the person who reaches it. At Liberation, the people waiting will read the choice before the explanation.",
       "sceneTitle": "The Last Months",
       "choices": [
         {
           "text": "Keep faking",
-          "consequence": "“Keep faking” closes one possibility and opens another. The moment leaves a clear note behind: Sabotage.",
+          "consequence": "You keep faking. The decision moves you toward Liberation and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         },
         {
           "text": "Risk less",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Safe.",
+          "consequence": "You commit to risk less. By Liberation, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "A Russian officer rides in. The workers are no longer prisoners.",
+      "text": "A Russian officer rides in. The workers are no longer prisoners. The Ring is already waiting. What changes is whether “Speak to them” or “Stand to the side” is the instinct you carry into it.",
       "sceneTitle": "Liberation",
       "choices": [
         {
           "text": "Speak to them",
-          "consequence": "“Speak to them” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to speak to them. It opens the route to The Ring, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stand to the side",
-          "consequence": "“Stand to the side” closes one possibility and opens another. The moment leaves a clear note behind: Quiet.",
+          "consequence": "You stand to the side. The decision moves you toward The Ring and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The workers melt down their gold to make you a ring. He who saves one life.",
+      "text": "The workers melt down their gold to make you a ring. He who saves one life. Could Have Saved More is already waiting. What changes is whether “Take the ring” or “Refuse” is the instinct you carry into it.",
       "sceneTitle": "The Ring",
       "choices": [
         {
           "text": "Take the ring",
-          "consequence": "You commit to “Take the ring.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to take the ring. By Could Have Saved More, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You commit to refuse. By Could Have Saved More, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You break, in front of Stern, over the car you could have sold, the pin you could have sold.",
+      "text": "You break, in front of Stern, over the car you could have sold, the pin you could have sold. Years Later comes either way; its meaning changes with the difference between “Let it out” and “Bury it.”",
       "sceneTitle": "Could Have Saved More",
       "choices": [
         {
           "text": "Let it out",
-          "consequence": "There is no taking “Let it out” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to let it out. It opens the route to Years Later, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s21"
         },
         {
           "text": "Bury it",
-          "consequence": "You commit to “Bury it.” The story records the instinct as “Survival” and carries it forward.",
+          "consequence": "You bury it. The decision moves you toward Years Later and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You die a poor man, honored. The workers and their children visit your grave for decades.",
+      "text": "You die a poor man, honored. The workers and their children visit your grave for decades. “Be remembered” draws you toward He Who Saves One Life; “Be forgotten quietly” leaves Stern's Friendship waiting on the other side. A third choice, “Take the third path,” keeps Helen, Free in play.",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Be remembered",
-          "consequence": "There is no taking “Be remembered” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You be remembered. The decision moves you toward He Who Saves One Life and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_ring"
         },
         {
           "text": "Be forgotten quietly",
-          "consequence": "You commit to “Be forgotten quietly.” The story records the instinct as “Modest” and carries it forward.",
+          "consequence": "You be forgotten quietly. The decision moves you toward Stern's Friendship and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_stern"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. It opens the route to Helen, Free, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_helen"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_ring",
-      "text": "The ring is, in the end, the only inheritance you wanted to leave. The descendants of the eleven hundred number, by the time you are remembered, more than the population of Kraków.",
+      "text": "The ring is, in the end, the only inheritance you wanted to leave. The descendants of the eleven hundred number, by the time you are remembered, more than the population of Kraków. The road into He Who Saves One Life began with “Be remembered” in Years Later; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "He Who Saves One Life",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_stern",
-      "text": "Stern survives you. He writes the list down again, properly, with photographs. The list, in libraries, becomes a kind of scripture.",
+      "text": "Stern survives you. He writes the list down again, properly, with photographs. The list, in libraries, becomes a kind of scripture. The road into Stern's Friendship began with “Be forgotten quietly” in Years Later; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Stern's Friendship",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_helen",
-      "text": "Helen survives. She emigrates. Years later she sits at a kitchen table with your widow, drinking coffee, talking about a man neither of them could have predicted.",
+      "text": "Helen survives. She emigrates. Years later she sits at a kitchen table with your widow, drinking coffee, talking about a man neither of them could have predicted. The road into Helen, Free began with “Take the third path” in Years Later; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Helen, Free",
       "choices": [],
       "isEnding": true,

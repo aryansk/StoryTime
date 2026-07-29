@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A camera crew, a clipboard, a cheerful introduction.",
+      "text": "The sound guy clips a mic to your collar and tells you not to touch it. You touch it. Your father-in-law signs the deployment order in a room with a whiteboard and a coffee urn, and the crew films you saying your name twice for levels. Two thousand one hundred shacks, one day, forms in triplicate. You wave at the lens like a man on holiday.",
       "sceneTitle": "Briefing",
       "choices": [
         {
           "text": "Smile bright",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You give the camera your best raffle-winner grin, and it is the frame they will use later, over your name, in the part where they explain what you did.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You look at your shoes while the crew rolls, and the silence reads on tape as competence. It buys you nothing but the sound guy's mild disappointment.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A shack, a smell, a being too tall for the door.",
+      "text": "Corrugated iron, wet ash, a sweetness underneath that gets into the weave of your shirt. The door is a car bonnet on hinges. The thing behind it stands, and keeps standing, and its head goes past where the roof should be. You find you are speaking louder, the way people do to the deaf and to the poor.",
       "sceneTitle": "First Door",
       "choices": [
         {
           "text": "Knock politely",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You knock on a car bonnet and say sir, and the crew catches the word, and nobody at MNU can later decide whether it was decency or nerves.",
           "nextNodeId": "s3"
         },
         {
           "text": "Force entry",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "Your boot takes the hinge clean off the frame. Inside, a saucer of something cooling, and a shape backed against the wall. The camera keeps rolling and you keep grinning.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A signature on a wall in a language you do not speak.",
+      "text": "You hold the clipboard out and explain, slowly, that this scrawl is consent, that twenty-four hours is legally generous, that the new camp has fences for their protection. It marks the wall with a claw. Somewhere in the file that becomes a signature. You initial the box. The paper says District 10 and does not say ninety kilometres from here.",
       "sceneTitle": "Eviction Notice",
       "choices": [
         {
           "text": "Wait for it",
-          "consequence": "“Wait for it” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You stand in the doorway a full minute while it works out what you want. Patience looks good on camera and changes nothing whatsoever on the ground.",
           "nextNodeId": "s4"
         },
         {
           "text": "Forge it",
-          "consequence": "There is no taking “Forge it” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You draw the mark yourself with your left hand, badly, and the file accepts it. That scratch will outlive the shack and everyone standing in it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A vial of black liquid in a cupboard.",
+      "text": "Behind a paint tin, a steel cylinder with a nozzle and a fitting no human tool would seat. Twenty years of somebody's patient distillation, a few centilitres of black. You shake it near your ear the way you would a spray can. Something inside answers. The seal ticks. The cameraman steps closer, because you have that look men get before a mistake.",
       "sceneTitle": "Canister",
       "choices": [
         {
           "text": "Spray your face",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "It goes across your mouth and your eyes, warm and faintly sweet, and you laugh, and the crew laughs, and none of you has a name for it yet.",
           "nextNodeId": "s5"
         },
         {
           "text": "Bag it",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You seal it into evidence and sign the tag, and the fluid finds the split in your glove anyway, and the paperwork will record that the officer was careful.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A prawn who reads the small print and looks back at you.",
+      "text": "This one holds the notice at arm's length and works down it line by line, the way your accountant does. He asks for a month. He says his son goes to school. The word arrives through the translator flat and unaccented and does something to your afternoon that will never appear in a report. You have called them all one name for four years.",
       "sceneTitle": "Christopher Johnson",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You say sorry, quietly, off-mic, and he does not take it, because an apology from the man holding the clipboard is only weather.",
           "nextNodeId": "s6"
         },
         {
           "text": "Move on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You tap the notice twice, say twenty-four hours, and step to the next door. Behind you he is still reading. That is the part you keep seeing.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A clutch under the floorboards.",
+      "text": "The floor sounds hollow at one corner. Under it, in the wet, a nursery: sacs the size of rugby balls, tubed into a hanging carcass, moving slightly. The team leader calls it an abortion and says it out loud for the camera, pleased with himself. You count them. There are sixty-odd. You feel the number somewhere behind your teeth.",
       "sceneTitle": "Egg Hatchery",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "“Burn it” closes one possibility and opens another. The moment leaves a clear note behind: Hard.",
+          "consequence": "You take the lighter to the feed line and the popping sounds like a braai, and you say so, on tape, and afterwards you cannot explain why.",
           "nextNodeId": "s7"
         },
         {
           "text": "Walk past",
-          "consequence": "You commit to “Walk past.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You let someone else hold the flame and go stand in the sun outside, which is not the same as stopping it, and you know that while you are doing it.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A nail loosens at dinner. Then another.",
+      "text": "Your wife has made a birthday dinner. Between the salad and the cake a fingernail lifts clean off your left hand into the napkin. No blood, no pain, a small dry click like a button coming off a shirt. Black fluid follows. In the bathroom mirror your forearm is doing something under the skin that forearms do not do.",
       "sceneTitle": "Fingers",
       "choices": [
         {
           "text": "Hide it",
-          "consequence": "You commit to “Hide it.” The story records the instinct as “Cowardly” and carries it forward.",
+          "consequence": "You wrap the hand in a serviette and say you cut it on the braai grid, and you keep smiling through the singing while your arm works away underneath.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell your wife",
-          "consequence": "“Tell your wife” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You show her the napkin and she goes very still, and her father is on the phone within the hour, which is the part you had not considered.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A doctor with a clipboard and a quarantine sign.",
+      "text": "They put you on a gurney under a light and cut the sleeve off. The doctor's pen stops moving. Someone tapes plastic over the doorway. Someone else uses the word asset in front of you, the way you would say it about furniture in a room being valued. Your father-in-law arrives and does not come to the bedside. That tells you the rest.",
       "sceneTitle": "Hospital",
       "choices": [
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You get four metres down a corridor in a hospital gown before two orderlies fold you back onto the trolley, and the restraints come out of a drawer already prepared.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay",
-          "consequence": "You commit to “Stay.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You lie flat and cooperate and they thank you for it, and that thanks is the last polite thing anyone at MNU says to you.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A glass box, a row of restraints, a familiar voice in another room.",
+      "text": "Perspex, a drain in the floor, a chair with wrist cuffs sized wrong for the arm you have now. Through the wall, muffled, your father-in-law discusses the biotech value of your tissue with people who keep saying nonetheless. They wheel in a prawn, alive, strapped to a steel table. Nobody in the room is unkind. Everybody in the room has a lanyard.",
       "sceneTitle": "MNU Lab",
       "choices": [
         {
           "text": "Bide",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You go slack and let them measure you, storing the door codes and the shift change, hating yourself at a manageable and useful volume.",
           "nextNodeId": "s10"
         },
         {
           "text": "Lash out",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You put a technician through a trolley with an arm you have not learned yet. After that they only work on you asleep.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A weapon that only an alien hand can trigger.",
+      "text": "The rifles have sat in a vault for two decades because no human finger has ever made one work. They tape your left arm to a rest, wrap your fingers round the grip, and the thing wakes warm against your palm like a dog that knows you. Down the range they have zip-tied a live prawn to a plywood board.",
       "sceneTitle": "Test Fire",
       "choices": [
         {
           "text": "Pretend you cannot",
-          "consequence": "“Pretend you cannot” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You let your hand go limp and the weapon sleeps, and they try four more times, and each failure buys the thing on the board another minute.",
           "nextNodeId": "s11"
         },
         {
           "text": "Fire",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "The board is empty afterwards and the wall behind it is not. Your ears ring. The scientists applaud, and the applause is the detail that stays.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A corridor, a confused intern, a stolen labcoat.",
+      "text": "A cart, a swipe card left sitting in a reader, an intern who looks at your face a second too long and decides not to be brave today. You go through in a coat with somebody else's name over the pocket and blood on both cuffs. Behind you an alarm starts up, unhurried, the way alarms do when a building still thinks it owns you.",
       "sceneTitle": "Break Out",
       "choices": [
         {
           "text": "Bolt for District 9",
-          "consequence": "There is no taking “Bolt for District 9” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You run the whole way to a place you spent four years evicting people from, because it is the only address left that will not phone anyone.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hide",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You spend six hours folded into a service crawlspace with your arm changing, listening to men walk past discussing overtime, learning to breathe through it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A small son named CJ playing with a toy that is not a toy.",
+      "text": "The boy has a coil of cabling and a socket in his palm, and he lights the whole shack up like Christmas to show you he can. He is delighted with you. His father is not. On the table are your own file photographs, your eviction signature, your name, printed off MNU servers by someone whose home you once filed paperwork on.",
       "sceneTitle": "Christopher's Shack",
       "choices": [
         {
           "text": "Plead for help",
-          "consequence": "You commit to “Plead for help.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put your changing hand flat on his table and ask, and it is the first time in four years you have asked one of them for anything.",
           "nextNodeId": "s13"
         },
         {
           "text": "Steal the canister",
-          "consequence": "You commit to “Steal the canister.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You get the cylinder into your jacket while the boy is showing you his lights, and the boy keeps showing you his lights, and you keep taking it.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "An offer to cure you, but in two decades, after he returns home.",
+      "text": "He can reverse it, he says, but not from here. The fluid runs the command module, the module goes up, the ship needs three years to reach home and seventeen to come back. Twenty years. Your wife will be past fifty. He says it without apology, because it is simply the arithmetic, and because he has been waiting considerably longer than you have.",
       "sceneTitle": "Twenty Years",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "Twenty years is a sentence, not an offer, and you say so with your voice climbing, and you lift the cylinder off the table yourself.",
           "nextNodeId": "s14"
         },
         {
           "text": "Accept",
-          "consequence": "You commit to “Accept.” The story records the instinct as “Practical” and carries it forward.",
+          "consequence": "You agree to wait, which is easy inside a room and hard everywhere outside one, and he takes your hand in a claw and you do not flinch.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Black trucks, masked men, an open garage door.",
+      "text": "Three trucks come in without sirens, which is how you know they are not police. Masked men take the door off its frame. Above the shack the little command module is already vibrating on its pad. You are on the floor of a lift with a claw for a hand and a rifle nobody believed you could hold. Your father-in-law is in the second vehicle.",
       "sceneTitle": "MNU Strike",
       "choices": [
         {
           "text": "Fight",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You come up firing with a weapon that answers your hand, and men trained for riot control learn what the vault has been keeping from them.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hide",
-          "consequence": "There is no taking “Hide” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You get behind a fuel drum and stay there while boots go past, and the shame of that works on you longer than any of the shooting does.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "An alien exoskeleton in a hangar.",
+      "text": "It stands in the corner of the shack like farm equipment nobody has serviced in twenty years. The chest splits open and the harness reaches for your spine, and needles find your neck without asking permission. Then you are three metres tall and can feel the grit of the floor through soles you do not have. The display writes in a script you cannot read and you understand it anyway.",
       "sceneTitle": "Mech Suit",
       "choices": [
         {
           "text": "Climb in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "The harness takes your spine and your arms go where its arms go, and for the first time since the canister your body does exactly what you tell it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You leave it standing there and take the alley on foot, and every step you can hear what is happening in the shack behind you.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A warlord who has been eating prawn flesh to gain their power.",
+      "text": "Obesandjo runs cat food and prostitution out of a room with a bed in it and keeps a butcher's block for arms. He has been eating them for years, hoping the guns will wake up for him. He looks at your left hand the way a starving man reads a menu. His people already have the machete out. The room is very small.",
       "sceneTitle": "Nigerian Gang",
       "choices": [
         {
           "text": "Take the fight",
-          "consequence": "You commit to “Take the fight.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go through his front room in a suit built for war, and what is left of him would not fill a bucket, and you do not feel any better.",
           "nextNodeId": "s17"
         },
         {
           "text": "Sneak past",
-          "consequence": "There is no taking “Sneak past” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You go along the drainage ditch on your belly while his men eat, and afterwards you carry that hour with you, being the man who crawled.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Mortar shells, kids on the ground, a small boy in a stairwell.",
+      "text": "MNU has moved to mortars, which is what a company does once it has stopped worrying about footage. A round takes the roof off a creche. There are children flat in the dirt with their hands over the wrong parts of their heads, and one small one upright on a stairwell landing, watching you the way you watch weather turning.",
       "sceneTitle": "Boom in the Slum",
       "choices": [
         {
           "text": "Cover them",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You stand up in the open and put the suit's shield between a stairwell and the sky, and a fragment goes through your thigh, and the children live.",
           "nextNodeId": "s18"
         },
         {
           "text": "Press on",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You keep moving toward the module because stopping helps nobody, which is true, and which is also the sentence you used at every door you kicked in.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A capsule rising to the mother ship with a small son aboard.",
+      "text": "Christopher gets the boy into the pod, seals it, and the thing lifts on a column of dust with a noise like a sheet tearing. Above it, dead for two decades, the mother ship's engines find a pulse and the whole city stops on the pavement to look up. Down here you are holding a gate with a broken suit and a father who will not go.",
       "sceneTitle": "Module Ascends",
       "choices": [
         {
           "text": "Hold the line",
-          "consequence": "“Hold the line” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You put yourself in the gap so the pod clears the roofline, and there is nothing noble in your head at the time, only arithmetic.",
           "nextNodeId": "s19"
         },
         {
           "text": "Run for it",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You break for cover and the pod clears anyway, and you will spend three years deciding whether that makes any difference to what you are.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "An MNU mercenary with a long knife and a quiet voice.",
+      "text": "He does not shout. That is the thing about him. He puts a round through the suit's knee and walks up while you are on the ground and tells you, conversationally, that he intends to take your head back to the lab in a cooler box. Then he asks whether you would rather it were done here or in the truck.",
       "sceneTitle": "Koobus",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You get up on a leg that is not a leg any more and go for him with a claw, and the suit's arm comes away in his hands.",
           "nextNodeId": "s20"
         },
         {
           "text": "Surrender",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You go still and let him bind your wrists, and it saves nothing. It only gives the crowd behind him time to arrive.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A crowd that has watched a man become like them.",
+      "text": "They come out of the shacks in numbers you never once saw on eviction day. They know the coat you used to wear. They take Koobus apart in the dirt in about four seconds, and then they stand around you in a ring, not helping, not hurting, looking at a thing that used to hold a clipboard and now looks like their cousin.",
       "sceneTitle": "Aliens of the Slum",
       "choices": [
         {
           "text": "Speak",
-          "consequence": "There is no taking “Speak” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You try their name for themselves with a mouth that can finally make it, and the sound comes out right, and nobody answers, and that is fair.",
           "nextNodeId": "s21"
         },
         {
           "text": "Walk past",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tired.",
+          "consequence": "You get up and go through the ring without a word, and they part for you, which is a good deal worse than being stopped.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A small tin sculpture left on a window ledge.",
+      "text": "Three years on the fence line at District 10: four hundred thousand of them and one of you. Your hands do fine work now. Bully-beef tin cut with a shard, petals folded off a paint-can lid, a stem of fence wire. It is not much of a flower. It is the only thing you have made since the paperwork. The ledge you are picturing is ninety kilometres away.",
       "sceneTitle": "Metal Flower",
       "choices": [
         {
           "text": "Hold it",
-          "consequence": "There is no taking “Hold it” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You hold it a long while, turning it in a claw until the metal warms, and understand that giving it away was the entire point of making it.",
           "nextNodeId": "end_three"
         },
         {
           "text": "Drop it",
-          "consequence": "“Drop it” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You let it fall in the dust and start another one, better, and another after that, because the first attempt was never going to be good enough for her.",
           "nextNodeId": "end_christopher"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You set it aside and walk out to the wire where the sky is unobstructed, because tonight there is something up there worth standing still for.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_three",
-      "text": "Your wife finds a metal flower on her windowsill. The reporter at the door cannot prove who left it. She knows.",
+      "text": "It appears on the sill of a flat she moved to so that people would stop asking. Tin, cut by hand, the petals unevenly folded because whoever made them has fingers that no longer bend the old way. The documentary crew films her holding it and asks who she thinks left it. She says she has no idea. She says it into the lens, steadily, and then she asks them to leave. She keeps the flower.",
       "sceneTitle": "Three Years On",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_christopher",
-      "text": "Three years later a ship descends on Johannesburg and a small alien hand lifts you up off the dirt and a cure begins.",
+      "text": "The ship comes down over Johannesburg on a Thursday and the traffic stops dead on the M1 and nobody screams. He finds you in a lean-to at the edge of the camp, thinner, the wrong colour, still yours. He does not apologise for the twenty years, or explain how he shortened them. He puts a hand under your arm, gets you upright, and begins the slow chemistry of giving back a body you were never once grateful for.",
       "sceneTitle": "Christopher Returns",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You stand at the gate of District 10 in a kind of dusk that suits you now, and you watch the capsule rise toward a mother ship that will, one day, return.",
+      "text": "Dusk over the camp, and the light does not hurt your eyes any more, which is one of the small mercies of what you are. Somewhere past the cloud a pod is still climbing with a boy inside it who once lit up an entire shack just to make you laugh. Twenty years, the father said. You have done three of them. You go in and start the next flower, because hands like these need work, and because waiting has to look like something from the outside.",
       "sceneTitle": "The Boy Lifts Off",
       "choices": [],
       "isEnding": true,

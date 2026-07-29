@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A wet, gray maze of stones, and footsteps not your own behind you.",
+      "text": "A wet, gray maze of stones, and footsteps not your own behind you. Both choices lead to Smeagol's Bargain, but “Set a trap” arrives there with a different cost than “Press on.” By Smeagol's Bargain, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Emyn Muil",
       "choices": [
         {
           "text": "Set a trap",
-          "consequence": "The decision settles the question for now. Its verdict—Wary—follows you into whatever comes next.",
+          "consequence": "You choose to set a trap. By Smeagol's Bargain, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s2"
         },
         {
           "text": "Press on",
-          "consequence": "The decision settles the question for now. Its verdict—Trust—follows you into whatever comes next.",
+          "consequence": "You choose to press on. By Smeagol's Bargain, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "He swears on the precious to be your guide.",
+      "text": "He swears on the precious to be your guide. Both choices lead to The Three Hunters, but “Bind him” arrives there with a different cost than “Believe him.” At The Three Hunters, everyone involved will know which risk you accepted.",
       "sceneTitle": "Smeagol's Bargain",
       "choices": [
         {
           "text": "Bind him",
-          "consequence": "There is no taking “Bind him” back. Stern shapes the silence before the next moment arrives.",
+          "consequence": "You bind him. The route to The Three Hunters opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         },
         {
           "text": "Believe him",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You believe him. The route to The Three Hunters opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Aragorn presses his ear to the ground. Two days ahead, maybe more.",
+      "text": "Aragorn presses his ear to the ground. Two days ahead, maybe more. Riders of Rohan is already waiting. What changes is whether “Run” or “Rest first” is the instinct you carry into it. In The Three Hunters, the safer route is disappearing faster than the danger.",
       "sceneTitle": "The Three Hunters",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Fierce shapes the silence before the next moment arrives.",
+          "consequence": "You run. The route to Riders of Rohan opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Rest first",
-          "consequence": "“Rest first” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You choose to rest first. By Riders of Rohan, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A line of horsemen breaks over the ridge with spears down.",
+      "text": "A line of horsemen breaks over the ridge with spears down. Fangorn's Edge will follow either decision, but it will meet a different version of you after “Stand and speak” than after “Hide in the grass.”",
       "sceneTitle": "Riders of Rohan",
       "choices": [
         {
           "text": "Stand and speak",
-          "consequence": "You commit to “Stand and speak.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You stand and speak. The route to Fangorn's Edge opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hide in the grass",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You hide in the grass. The route to Fangorn's Edge opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A forest that watches you back, breathing slowly.",
+      "text": "A forest that watches you back, breathing slowly. The road still runs toward Treebeard. Its next turn depends on the difference between choosing “Enter” and choosing “Skirt it.” By Treebeard, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Fangorn's Edge",
       "choices": [
         {
           "text": "Enter",
-          "consequence": "You commit to “Enter.” The story records the instinct as “Curious” and carries it forward.",
+          "consequence": "You commit to enter. It buys momentum toward Treebeard and spends the last protection hesitation gave you.",
           "nextNodeId": "s6"
         },
         {
           "text": "Skirt it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You choose to skirt it. By Treebeard, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "An entmoot, in a voice that takes hours per word.",
+      "text": "An entmoot, in a voice that takes hours per word. The road still runs toward Edoras. Its next turn depends on the difference between choosing “Plead urgently” and choosing “Speak slow.” In Treebeard, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Treebeard",
       "choices": [
         {
           "text": "Plead urgently",
-          "consequence": "“Plead urgently” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to plead urgently. It buys momentum toward Edoras and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         },
         {
           "text": "Speak slow",
-          "consequence": "There is no taking “Speak slow” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You speak slow. The route to Edoras opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "The hall is dim and the king is small inside a borrowed body.",
+      "text": "The hall is dim and the king is small inside a borrowed body. Both choices lead to Eowyn at the Door, but “Confront Wormtongue” arrives there with a different cost than “Win Theoden first.” In Edoras, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Edoras",
       "choices": [
         {
           "text": "Confront Wormtongue",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bold.",
+          "consequence": "You commit to confront Wormtongue. It buys momentum toward Eowyn at the Door and spends the last protection hesitation gave you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Win Theoden first",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You choose to win Theoden first. By Eowyn at the Door, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "She offers a cup of water and a steady look.",
+      "text": "She offers a cup of water and a steady look. Westfold Burning will follow either decision, but it will meet a different version of you after “Drink” than after “Refuse the courtesy.” In Eowyn at the Door, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Eowyn at the Door",
       "choices": [
         {
           "text": "Drink",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to drink. By Westfold Burning, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         },
         {
           "text": "Refuse the courtesy",
-          "consequence": "You commit to “Refuse the courtesy.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You commit to refuse the courtesy. It buys momentum toward Westfold Burning and spends the last protection hesitation gave you.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Refugees on the road, smoke on the horizon.",
+      "text": "Refugees on the road, smoke on the horizon. The road still runs toward Warg Riders. Its next turn depends on the difference between choosing “Go to Helm's Deep” and choosing “Ride to meet the foe.”",
       "sceneTitle": "Westfold Burning",
       "choices": [
         {
           "text": "Go to Helm's Deep",
-          "consequence": "There is no taking “Go to Helm's Deep” back. Shelter shapes the silence before the next moment arrives.",
+          "consequence": "You go to Helm's Deep. The route to Warg Riders opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         },
         {
           "text": "Ride to meet the foe",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You ride to meet the foe. The route to Warg Riders opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Ambush on the plain, and Aragorn over the cliff.",
+      "text": "Ambush on the plain, and Aragorn over the cliff. Glittering Caves comes either way; its meaning changes with the difference between “Chase the wargs” and “Get the people inside.” In Warg Riders, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Warg Riders",
       "choices": [
         {
           "text": "Chase the wargs",
-          "consequence": "The decision settles the question for now. Its verdict—Fierce—follows you into whatever comes next.",
+          "consequence": "You commit to chase the wargs. It buys momentum toward Glittering Caves and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         },
         {
           "text": "Get the people inside",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Duty.",
+          "consequence": "You choose to get the people inside. By Glittering Caves, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "The women and children file into stone that has not seen war.",
+      "text": "The women and children file into stone that has not seen war. Elven Reinforcements will follow either decision, but it will meet a different version of you after “Stay with them” than after “Take the wall.”",
       "sceneTitle": "Glittering Caves",
       "choices": [
         {
           "text": "Stay with them",
-          "consequence": "You commit to “Stay with them.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You commit to stay with them. It buys momentum toward Elven Reinforcements and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take the wall",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Soldier.",
+          "consequence": "You commit to take the wall. It buys momentum toward Elven Reinforcements and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Haldir's company arrives, cloaked, silent, in the rain.",
+      "text": "Haldir's company arrives, cloaked, silent, in the rain. Both choices lead to Berm at the Culvert, but “Place them at the wall” arrives there with a different cost than “Hold them as reserve.” By Berm at the Culvert, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Elven Reinforcements",
       "choices": [
         {
           "text": "Place them at the wall",
-          "consequence": "There is no taking “Place them at the wall” back. Trust shapes the silence before the next moment arrives.",
+          "consequence": "You commit to place them at the wall. It buys momentum toward Berm at the Culvert and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         },
         {
           "text": "Hold them as reserve",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You choose to hold them as reserve. By Berm at the Culvert, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A weak point in the old stone, and a torch running for it.",
+      "text": "A weak point in the old stone, and a torch running for it. The Wall Breaks will follow either decision, but it will meet a different version of you after “Loose every arrow” than after “Save the shot.”",
       "sceneTitle": "Berm at the Culvert",
       "choices": [
         {
           "text": "Loose every arrow",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Fierce.",
+          "consequence": "You commit to loose every arrow. It buys momentum toward The Wall Breaks and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Save the shot",
-          "consequence": "There is no taking “Save the shot” back. Disciplined shapes the silence before the next moment arrives.",
+          "consequence": "You choose to save the shot. By The Wall Breaks, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A blast, a hole, and ladders already on the lip.",
+      "text": "A blast, a hole, and ladders already on the lip. Both choices lead to Causeway, but “Hold the breach” arrives there with a different cost than “Fall back to the keep.” At Causeway, everyone involved will know which risk you accepted.",
       "sceneTitle": "The Wall Breaks",
       "choices": [
         {
           "text": "Hold the breach",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to hold the breach. It buys momentum toward Causeway and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         },
         {
           "text": "Fall back to the keep",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You commit to fall back to the keep. It buys momentum toward Causeway and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A narrow neck of stone packed with Uruks like a fist.",
+      "text": "A narrow neck of stone packed with Uruks like a fist. Aragorn at the Gate will follow either decision, but it will meet a different version of you after “Charge them” than after “Cut the bridge.”",
       "sceneTitle": "Causeway",
       "choices": [
         {
           "text": "Charge them",
-          "consequence": "The decision settles the question for now. Its verdict—Glory—follows you into whatever comes next.",
+          "consequence": "You commit to charge them. It buys momentum toward Aragorn at the Gate and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Cut the bridge",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hard.",
+          "consequence": "You choose to cut the bridge. By Aragorn at the Gate, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "He proposes to ride out at dawn for one last charge.",
+      "text": "He proposes to ride out at dawn for one last charge. The road still runs toward Gandalf on the Hill. Its next turn depends on the difference between choosing “Ride with him” and choosing “Hold the hall.”",
       "sceneTitle": "Aragorn at the Gate",
       "choices": [
         {
           "text": "Ride with him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You ride with him. The route to Gandalf on the Hill opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold the hall",
-          "consequence": "You commit to “Hold the hall.” The story records the instinct as “Loyal” and carries it forward.",
+          "consequence": "You commit to hold the hall. It buys momentum toward Gandalf on the Hill and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "White rider, east edge, sun behind.",
+      "text": "White rider, east edge, sun behind. The road still runs toward Dead Marshes. Its next turn depends on the difference between choosing “Cheer” and choosing “Brace ranks.” At Dead Marshes, everyone involved will know which risk you accepted.",
       "sceneTitle": "Gandalf on the Hill",
       "choices": [
         {
           "text": "Cheer",
-          "consequence": "You commit to “Cheer.” The story records the instinct as “Hope” and carries it forward.",
+          "consequence": "You cheer. The route to Dead Marshes opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         },
         {
           "text": "Brace ranks",
-          "consequence": "You commit to “Brace ranks.” The story records the instinct as “Steady” and carries it forward.",
+          "consequence": "You brace ranks. The route to Dead Marshes opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Faces in the water that you must not look at.",
+      "text": "Faces in the water that you must not look at. Faramir's Choice will follow either decision, but it will meet a different version of you after “Follow Smeagol” than after “Find your own path.” In Dead Marshes, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Dead Marshes",
       "choices": [
         {
           "text": "Follow Smeagol",
-          "consequence": "The decision settles the question for now. Its verdict—Trust—follows you into whatever comes next.",
+          "consequence": "You follow Smeagol. The route to Faramir's Choice opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         },
         {
           "text": "Find your own path",
-          "consequence": "The decision settles the question for now. Its verdict—Stubborn—follows you into whatever comes next.",
+          "consequence": "You find your own path. The route to Faramir's Choice opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "He has the ring and a long road back to his father.",
+      "text": "He has the ring and a long road back to his father. Osgiliath will follow either decision, but it will meet a different version of you after “Speak to him plainly” than after “Try to escape.”",
       "sceneTitle": "Faramir's Choice",
       "choices": [
         {
           "text": "Speak to him plainly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to speak to him plainly. By Osgiliath, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Try to escape",
-          "consequence": "The decision settles the question for now. Its verdict—Desperate—follows you into whatever comes next.",
+          "consequence": "You try to escape. The route to Osgiliath opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A Nazgul circling and Frodo at the edge of the broken bridge.",
+      "text": "A Nazgul circling and Frodo at the edge of the broken bridge. Sam's Speech will follow either decision, but it will meet a different version of you after “Pull him back” than after “Let the ring decide.”",
       "sceneTitle": "Osgiliath",
       "choices": [
         {
           "text": "Pull him back",
-          "consequence": "The decision settles the question for now. Its verdict—Loyal—follows you into whatever comes next.",
+          "consequence": "You choose to pull him back. By Sam's Speech, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s21"
         },
         {
           "text": "Let the ring decide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Fated.",
+          "consequence": "You commit to let the ring decide. It buys momentum toward Sam's Speech and spends the last protection hesitation gave you.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "There's some good in this world, and it's worth fighting for.",
+      "text": "There's some good in this world, and it's worth fighting for. The paths divide here: “Believe it” leads into The Hall Holds, while “Walk on quietly” makes Dawn Charge the next reckoning. A third choice, “Take the third path,” keeps Carrying the Carrier in play.",
       "sceneTitle": "Sam's Speech",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You believe it. The route to The Hall Holds opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_hold"
         },
         {
           "text": "Walk on quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to walk on quietly. By Dawn Charge, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_ride"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Carrying the Carrier, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_carry"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_hold",
-      "text": "The hornblast at dawn is yours. You hold the keep until white riders break the line, and you sleep that night in a cold corner that feels like home.",
+      "text": "The hornblast at dawn is yours. You hold the keep until white riders break the line, and you sleep that night in a cold corner that feels like home. The road into The Hall Holds began with “Believe it” in Sam's Speech; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Hall Holds",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_ride",
-      "text": "You ride with Aragorn out of the gate and into a song the Mark will sing for a thousand years. Half of you comes back. All of it matters.",
+      "text": "You ride with Aragorn out of the gate and into a song the Mark will sing for a thousand years. Half of you comes back. All of it matters. You are unlikely to keep all three.",
       "sceneTitle": "Dawn Charge",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_carry",
-      "text": "Frodo cannot, so you do. Up a long road that has no name yet, you carry the man who carries the ring, and nobody writes that part down for centuries.",
+      "text": "Frodo cannot, so you do. Up a long road that has no name yet, you carry the man who carries the ring, and nobody writes that part down for centuries. The road into Carrying the Carrier began with “Take the third path” in Sam's Speech; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Carrying the Carrier",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The mansion. The professor. The one arm that does, technically, work in mysterious ways.",
+      "text": "The mansion has forty-one windows and every one of them is lit, which nobody comments on, because nobody is home. Professor Oldman greets you on the steps. He has one arm. He extends it. Behind him, in an upstairs window, something pulls the curtain aside and then puts it back exactly the way it was.",
       "sceneTitle": "The Driveway",
       "choices": [
         {
           "text": "Shake the arm",
-          "consequence": "You commit to “Shake the arm.” The story records the instinct as “Polite” and carries it forward.",
+          "consequence": "You shake it. It's colder than an arm should be and he holds on four seconds too long. You both agree, silently, that this was normal.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse politely",
-          "consequence": "There is no taking “Refuse politely” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You wave instead. He waves back with the arm. The arm keeps waving slightly longer than he does, and nobody raises it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Hannibal the butler hands you a drink that is, in fact, alive.",
+      "text": "Hannibal the butler brings the welcome cocktails out on a silver tray. Yours has a cherry in it and the cherry is looking at you. It has been looking at you since the foyer. Hannibal describes the drink as 'a house recipe, seasonal,' and then waits, with terrible patience, for you to take a sip.",
       "sceneTitle": "Welcome Drink",
       "choices": [
         {
           "text": "Drink it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You drink it. It's delicious and it thanks you. You compliment the bartending and change the subject at considerable speed.",
           "nextNodeId": "s3"
         },
         {
           "text": "Pour it in a plant",
-          "consequence": "“Pour it in a plant” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You feed it to a fern while nobody's watching. The fern drinks it, straightens up noticeably, and follows you in to dinner.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your room contains a bed, a closet, and one ghost who is mostly into critique.",
+      "text": "Room fourteen: a four-poster bed, a wardrobe, and one ghost sitting in the armchair with her arms folded. She is not here to haunt you. She is here to discuss your suitcase, which she describes as 'a lot of beige for one weekend.' The temperature in the room drops six degrees purely for emphasis.",
       "sceneTitle": "Your Room",
       "choices": [
         {
           "text": "Engage the ghost",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You ask what she would have packed. She talks for an hour and is entirely correct about the shoes, which is the actual haunting.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ignore",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survival.",
+          "consequence": "You unpack the beige in silence while she narrates every item. By the third cardigan you are seriously considering an apology.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Dinner is roast something. The vegetables are screaming. Hannibal pretends not to notice.",
+      "text": "Dinner is roast something. The vegetables are screaming — a high, thin, continuous scream, mostly the carrots — and Hannibal serves them with a slotted spoon and no expression whatsoever. Down the table, Theo asks whether anyone else is hearing that. Nobody is. Everyone is. Nobody wants to be the one who says so first.",
       "sceneTitle": "Dinner",
       "choices": [
         {
           "text": "Eat it",
-          "consequence": "“Eat it” closes one possibility and opens another. The moment leaves a clear note behind: Manners.",
+          "consequence": "You eat the carrots. They go quiet as you chew, which is worse, and you tell Hannibal the seasoning is genuinely lovely.",
           "nextNodeId": "s5"
         },
         {
           "text": "Pretend to eat it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You move food around your plate in the classic pattern. The plate notices. The plate says nothing about it, and remembers.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The cat, named Mr. Kittles, knows everything. Mr. Kittles will tell you, for treats.",
+      "text": "The cat is called Mr. Kittles and he knows every single thing that has happened in this house since 1847. He will share, but the rate is fixed: one treat, one fact. He does not haggle. He sits halfway up the staircase with his tail wrapped around his feet, waiting for you to open the bag.",
       "sceneTitle": "The Talking Cat",
       "choices": [
         {
           "text": "Bribe Mr. Kittles",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You spend seven treats and learn about the well, the cousin, and why the third floor has no doors. Worth every treat.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't trust the cat",
-          "consequence": "There is no taking “Don't trust the cat” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You walk straight past him. He calls after you: 'Fine. But you'll wish you'd asked about the basement.' He is completely right.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A floating sheet. A chandelier that judges. A long hallway that's longer when you walk back.",
+      "text": "A sheet floats down the corridor at chest height, apologizing as it passes. The chandelier watches you go by and makes a small disappointed noise. The hallway is thirty steps going and forty-six coming back — you count it both times — and you decide not to raise the discrepancy with anyone at breakfast.",
       "sceneTitle": "First Scare",
       "choices": [
         {
           "text": "Walk fast",
-          "consequence": "“Walk fast” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You walk fast. The hallway matches your pace exactly and politely, like a man at a party who wants to finish telling you something.",
           "nextNodeId": "s7"
         },
         {
           "text": "Walk slow",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You stroll. This confuses the corridor so completely that it gives up on the whole enterprise and delivers you to your door early.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Buddy, the wheelchair-bound friend from college, arrives. He has, mysteriously, gained the ability to levitate.",
+      "text": "Buddy arrives from college and greets everyone from four feet off the floor. He has been levitating since Tuesday. Asked about it, he says his chiropractor 'made an adjustment.' He does not consider this a story. He is far more interested in whether anybody brought a charger, and he is drifting ceilingward as he asks.",
       "sceneTitle": "Buddy",
       "choices": [
         {
           "text": "Befriend Buddy",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You hand him a charger and a compliment. He beams and rises another foot, which he blames entirely on the humidity.",
           "nextNodeId": "s8"
         },
         {
           "text": "Get out of Buddy's way",
-          "consequence": "The decision settles the question for now. Its verdict—Practical—follows you into whatever comes next.",
+          "consequence": "You step aside. He drifts past at shoulder height, still talking, and gets wedged behind a light fixture for six minutes.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The basement has, against all reason, a clown room. Nobody likes the clown room.",
+      "text": "Down in the basement: a wine cellar, a boiler, and a clown room. The clown room is labeled. There is a small brass plaque on the door reading CLOWN ROOM, engraved, professionally, by somebody who was paid actual money. Nobody in this house likes the clown room. Everybody in this house has a key to it.",
       "sceneTitle": "The Basement",
       "choices": [
         {
           "text": "Skip the clown room",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You walk past the door. Something inside applauds — slowly, alone — for the entire length of the corridor and then stops.",
           "nextNodeId": "s9"
         },
         {
           "text": "Enter the clown room",
-          "consequence": "There is no taking “Enter the clown room” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You go in. Forty chairs face one chair. The one chair is warm. You come back up and say the wine cellar was lovely.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Theo, the goth, has an opinion about every painting in the house. Her opinions are, occasionally, prophetic.",
+      "text": "Theo has an opinion about every painting in this house and delivers them in order, room by room. The one over the fireplace, she says, is 'derivative, badly lit, and going to be a problem on Sunday.' Everyone laughs at the first two parts. On Sunday, at around four in the afternoon, the painting becomes a problem.",
       "sceneTitle": "Theo",
       "choices": [
         {
           "text": "Listen to Theo",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You take notes while she talks. Three of those notes save your life on Sunday and you never tell her which three they were.",
           "nextNodeId": "s10"
         },
         {
           "text": "Mock Theo gently",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tone.",
+          "consequence": "You do an impression of her art voice. She laughs harder than anybody — and then quietly stops warning you about things.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The chandelier delivers a sermon about your choices. The chandelier is, in fact, correct.",
+      "text": "The chandelier speaks for four minutes about the choices you have made this weekend. It isn't shouting. It's worse than shouting: it's reasonable, well-organized, and it has examples. Halfway through it brings up the fern. You had forgotten about the fern. Every crystal rotates very slightly toward you, in unison, and waits.",
       "sceneTitle": "Chandelier Sentience",
       "choices": [
         {
           "text": "Apologize to the chandelier",
-          "consequence": "You commit to “Apologize to the chandelier.” The story records the instinct as “Humor” and carries it forward.",
+          "consequence": "You apologize sincerely and by name. It dims once in acceptance and stays on your side for the remainder of the weekend.",
           "nextNodeId": "s11"
         },
         {
           "text": "Argue with the chandelier",
-          "consequence": "You commit to “Argue with the chandelier.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You argue. You lose. It cites the fern twice more, and the entire room takes the chandelier's side without anyone calling a vote.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Hedge maze. The hedge maze is also alive. It is, however, polite.",
+      "text": "The hedge maze is alive, which everyone had assumed, and polite, which nobody had. It asks after your journey. It expresses concern about the weather. When you take a wrong turn it closes the path behind you and says 'not that way, love,' in a voice like six people whispering the same sentence slightly out of step.",
       "sceneTitle": "The Maze",
       "choices": [
         {
           "text": "Be polite back",
-          "consequence": "“Be polite back” closes one possibility and opens another. The moment leaves a clear note behind: Tone.",
+          "consequence": "You thank it and ask about its winter. It's so pleased it walks you to the center and then gives you directions home.",
           "nextNodeId": "s12"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survival.",
+          "consequence": "You sprint. It keeps pace effortlessly while continuing the conversation, which is the single most upsetting thing all weekend.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "There is a sex ghost. He is, somehow, the most polite character in the movie. He offers tea.",
+      "text": "The house has a sex ghost. He is, by a wide margin, the best-mannered entity on the property: knocks first, waits, introduces himself, apologizes for the temperature. At present he is offering you tea. He has brought a second cup, a small jug of milk, and a coaster, because somebody raised him properly.",
       "sceneTitle": "Sex Ghost",
       "choices": [
         {
           "text": "Accept the tea",
-          "consequence": "The decision settles the question for now. Its verdict—Civil—follows you into whatever comes next.",
+          "consequence": "You accept. It's excellent tea. He talks about his sister for forty minutes, leaves before ten, and takes both cups with him.",
           "nextNodeId": "s13"
         },
         {
           "text": "Decline politely",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Civil.",
+          "consequence": "You decline, warmly, with an actual reason. He takes it beautifully and leaves a note in the morning hoping you slept well.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The library has a single book. The book is full of cookie recipes. The recipes are good.",
+      "text": "In the library, four thousand empty shelves and exactly one book. The book is cookie recipes — handwritten, indexed, annotated here and there in a second hand that says things like 'better with less butter, and he was wrong about the walnuts.' You try one at two in the morning. Best cookie of your life.",
       "sceneTitle": "The Library",
       "choices": [
         {
           "text": "Bake cookies",
-          "consequence": "There is no taking “Bake cookies” back. Joy shapes the silence before the next moment arrives.",
+          "consequence": "You bake three dozen at 2 a.m. Six ghosts come down to the kitchen and stand around not eating them, appreciatively, for an hour.",
           "nextNodeId": "s14"
         },
         {
           "text": "Read the book aloud",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Use.",
+          "consequence": "You read a recipe out loud. Something inside the wall says the second ingredient along with you, half a beat behind, every time.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "A footman with a chainsaw. He is, alarmingly, also a member of HR.",
+      "text": "A footman comes down the corridor carrying a chainsaw and a clipboard. The chainsaw is running. The clipboard has your name on it. He introduces himself as being from People and Culture and asks whether now is a good time for your check-in. It is not a good time. He has already sat down.",
       "sceneTitle": "The Footman",
       "choices": [
         {
           "text": "Comply with HR",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You do the check-in. He sets you goals. One of the goals is 'survive Sunday' and he writes it down with no trace of irony.",
           "nextNodeId": "s15"
         },
         {
           "text": "File a complaint",
-          "consequence": "You commit to “File a complaint.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You file a complaint against him, to him. He accepts the form, thanks you for the candid feedback, and revs the chainsaw once.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Buddy can't get out of bed. The bed has, apparently, gained sentience and is filing a counter-claim.",
+      "text": "Buddy can't get out of bed. Not stuck — represented. The bed has retained counsel and is filing regarding six years of what it terms 'unreasonable expectations.' The paperwork on the nightstand is thorough and tabbed. Buddy, hovering three inches above the mattress, is technically not touching it and technically not helping.",
       "sceneTitle": "Buddy's Crisis",
       "choices": [
         {
           "text": "Negotiate with the bed",
-          "consequence": "“Negotiate with the bed” closes one possibility and opens another. The moment leaves a clear note behind: Diplomacy.",
+          "consequence": "You settle for a written apology and one weekly airing-out. The bed accepts, everyone signs, and Buddy drifts out through the doorway.",
           "nextNodeId": "s16"
         },
         {
           "text": "Get Buddy out anyway",
-          "consequence": "The decision settles the question for now. Its verdict—Pragmatic—follows you into whatever comes next.",
+          "consequence": "You tow him out by one ankle like a parade balloon. The bed logs the incident, and the log will be produced again later.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Theo proposes, with great seriousness, a séance. Everyone agrees. The professor brings extra crackers.",
+      "text": "Theo proposes a séance with the gravity of a woman proposing a merger. Everyone agrees instantly, because at this point a séance is the most normal thing anybody has suggested since Friday. The professor arrives carrying three boxes of crackers. Nobody asks why crackers. Everyone is about to find out why crackers.",
       "sceneTitle": "Theo's Plan",
       "choices": [
         {
           "text": "Hold the séance",
-          "consequence": "There is no taking “Hold the séance” back. Plot shapes the silence before the next moment arrives.",
+          "consequence": "You join hands and begin. Buddy has to be weighted down with a coffee table book in order to remain inside the circle.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold the séance but eat the crackers first",
-          "consequence": "There is no taking “Hold the séance but eat the crackers first” back. Snacks shapes the silence before the next moment arrives.",
+          "consequence": "You eat two boxes before starting. The spirits arrive, look at the empty plates, and take the whole thing extremely personally.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The spirits arrive. They are mostly there for the crackers. One of them files a noise complaint.",
+      "text": "Spirits come through fast and in numbers, and within a minute it is clear they are here for the crackers. Nine of them. They circle the table at ankle height. One raises a formal noise complaint about the séance itself, which is, structurally, a noise complaint about the meeting convened to hear it.",
       "sceneTitle": "Séance",
       "choices": [
         {
           "text": "Sort out the noise complaint",
-          "consequence": "“Sort out the noise complaint” closes one possibility and opens another. The moment leaves a clear note behind: Civic.",
+          "consequence": "You handle it properly, with minutes and a seconder. It takes fifty minutes, resolves nothing supernatural, and the spirits leave content.",
           "nextNodeId": "s18"
         },
         {
           "text": "Pivot to actual exorcism",
-          "consequence": "The decision settles the question for now. Its verdict—Plot—follows you into whatever comes next.",
+          "consequence": "You pivot into Latin. The spirits are offended, then intrigued, then they ask whether you'd mind doing the second verse again.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The professor reveals his one-arm origin story. It involves a wedding, a tractor, and his cousin. Nobody is brave enough to ask follow-up questions.",
+      "text": "Over brandy, the professor tells the arm story unprompted. It involves a wedding, a tractor, a cousin named Denise, and — briefly, around the middle — a llama. He tells it out of order and finishes on a laugh nobody joins. Six adults sit very still. Nobody asks a follow-up. The llama goes unexplained forever.",
       "sceneTitle": "Professor's Reveal",
       "choices": [
         {
           "text": "Ask follow-ups",
-          "consequence": "There is no taking “Ask follow-ups” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You ask about the llama. He answers for twenty minutes and by the end the story makes measurably less sense than it did before.",
           "nextNodeId": "s19"
         },
         {
           "text": "Let the story breathe",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You let the silence sit there. He nods, satisfied, and pours everyone more brandy, and the arm pours a glass for itself.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "All the ghosts in one room. The chandelier presides. Mr. Kittles moderates. Buddy is, against all odds, the swing vote.",
+      "text": "Everything in the house convenes in the ballroom at once: nine spirits, the sheet, the maze via an open window, HR, and the fern. The chandelier presides. Mr. Kittles moderates from the piano and keeps time by flicking his tail. It comes down to a single vote, and that vote belongs to Buddy, who is asleep near the ceiling.",
       "sceneTitle": "Final Showdown",
       "choices": [
         {
           "text": "Side with the chandelier",
-          "consequence": "There is no taking “Side with the chandelier” back. Style shapes the silence before the next moment arrives.",
+          "consequence": "You back the chandelier. It carries the room by four votes and thanks you publicly, at which point the cat's tail goes very still.",
           "nextNodeId": "s20"
         },
         {
           "text": "Side with Mr. Kittles",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You back the cat. He wins immediately, then abstains from his own motion for reasons he declines to enter into the record.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You walk out of the mansion alive, with cookies and a fairly comprehensive HR file.",
+      "text": "Sunday evening you walk out the front door alive, carrying a tin of cookies and a personnel file forty pages long, most of it concerning the fern. Nobody died. Nobody is entirely sure why nobody died. Behind you all forty-one windows go dark at exactly the same instant, and not one of you turns around.",
       "sceneTitle": "Exit",
       "choices": [
         {
           "text": "Take the cookies home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You take the tin. Two hours later it is still warm in the back of the car, which everyone attributes to the heater.",
           "nextNodeId": "s21"
         },
         {
           "text": "Leave the cookies for the ghosts",
-          "consequence": "“Leave the cookies for the ghosts” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "You leave the tin on the steps. Something takes it before the car doors have shut and says, very faintly, 'oh, lovely.'",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "A title card promises, somewhere down the road, another sequel. Mr. Kittles winks at the camera. The chandelier sighs.",
+      "text": "A title card comes up over the driveway announcing a third one, with a date, which is bold of everybody involved. Mr. Kittles turns and winks at the camera — directly, unmistakably, at you — and nobody in the car sees it happen. Inside the house the chandelier sighs. Someone in the back seat calls the weekend 'fine.'",
       "sceneTitle": "Sequel Hook",
       "choices": [
         {
           "text": "Wink back",
-          "consequence": "There is no taking “Wink back” back. Style shapes the silence before the next moment arrives.",
+          "consequence": "You wink back. The cat looks genuinely startled, which is the only time all weekend that anything in that house was surprised.",
           "nextNodeId": "end_house"
         },
         {
           "text": "Pretend not to notice",
-          "consequence": "“Pretend not to notice” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "You look out the other window like a professional. The cat holds the wink a full four seconds, waiting, and then gives up.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You reach over and lift the recipe book out of Theo's bag, where it has been sitting since Saturday, unmentioned by anyone.",
           "nextNodeId": "end_cookies"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_house",
-      "text": "The mansion adopts you. You move in. You become, by year's end, an honorary haunting. It is the best apartment you have ever had.",
+      "text": "You go back for one weekend and never entirely finish leaving. By spring you have a room, a key, and a standing invitation to the Thursday meeting. By autumn you're on the rota. You take the second hallway on alternate weeks and you are, honestly, very good at the moaning. Rent is nothing. The heating is a nightmare. It is the best apartment you have ever had, and the chandelier says you've grown.",
       "sceneTitle": "Welcome to the Family",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_book",
-      "text": "You write a memoir of the weekend. It outsells your other books combined. You retire on the proceeds. You are interviewed, exactly once, on morning TV.",
+      "text": "You write the whole weekend down and nobody believes a word of it, which is precisely why it outsells everything else you've published combined. Six printings. A foreword by a man who has never met you. You do morning television exactly once, and when the host asks about the talking cat you say 'he was a professional,' and the segment ends nine seconds early. You never do press again. The royalties clear.",
       "sceneTitle": "The Memoir",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_cookies",
-      "text": "You take the recipe book. You open a small bakery. Mr. Kittles, in a strange way, becomes the bakery's mascot. The chandelier writes you a glowing online review.",
+      "text": "You keep the book and open a bakery on a street with too much parking. The walnut cookie does numbers. Mr. Kittles turns up in month four, sits in the window, and declines to leave; within a year he is on the sign, the cups, and a tote bag. The chandelier posts a five-star review of a bakery it has never physically visited. It runs to two thousand words and is, in places, moving.",
       "sceneTitle": "Cookies, Indefinitely",
       "choices": [],
       "isEnding": true,

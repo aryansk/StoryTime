@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Take her seriously immediately",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Trust Lila.",
+          "consequence": "You take her seriously immediately. The way toward The Old Map opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask kind, clarifying questions first",
-          "consequence": "There is no taking “Ask kind, clarifying questions first” back. Verify shapes the silence before the next moment arrives.",
+          "consequence": "You commit to ask kind, clarifying questions first. It carries you into The Hearing Aids while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Marvin produces, from his apartment, a 1962 map of the original property — a sanatorium before it was the retirement village. Three rooms on the map no longer exist on the current floor plan.",
+      "text": "Marvin produces, from his apartment, a 1962 map of the original property — a sanatorium before it was the retirement village. Three rooms on the map no longer exist on the current floor plan. The paths divide here: “Find the rooms” leads into The Three Rooms, while “Research what happened in them first” makes The Librarian the next reckoning.",
       "sceneTitle": "The Old Map",
       "choices": [
         {
           "text": "Find the rooms",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Investigate.",
+          "consequence": "You find the rooms. The way toward The Three Rooms opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         },
         {
           "text": "Research what happened in them first",
-          "consequence": "“Research what happened in them first” closes one possibility and opens another. The moment leaves a clear note behind: Library.",
+          "consequence": "You commit to research what happened in them first. It carries you into The Librarian while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Beverly's new hearing aids pick up frequencies the rest of yours don't. She agrees to wear them tonight at 2:14. The four of you have, accidentally, become an investigative unit.",
+      "text": "Beverly's new hearing aids pick up frequencies the rest of yours don't. She agrees to wear them tonight at 2:14. The four of you have, accidentally, become an investigative unit. Choose “Set up an overnight stakeout” and The Three Rooms comes into view; choose “Set up a microphone array instead” and the road bends toward The Librarian.",
       "sceneTitle": "The Hearing Aids",
       "choices": [
         {
           "text": "Set up an overnight stakeout",
-          "consequence": "There is no taking “Set up an overnight stakeout” back. Active shapes the silence before the next moment arrives.",
+          "consequence": "You commit to set up an overnight stakeout. It carries you into The Three Rooms while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Set up a microphone array instead",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hands-off.",
+          "consequence": "You set up a microphone array instead. The way toward The Librarian opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         }
       ],
@@ -81,12 +81,12 @@
       "choices": [
         {
           "text": "Open the door",
-          "consequence": "“Open the door” closes one possibility and opens another. The moment leaves a clear note behind: Curiosity.",
+          "consequence": "You commit to open the door. It carries you into Inside the Door while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Photograph the door and call the property manager",
-          "consequence": "“Photograph the door and call the property manager” closes one possibility and opens another. The moment leaves a clear note behind: Process.",
+          "consequence": "You commit to photograph the door and call the property manager. It carries you into Detective Petrillo while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The local librarian — a friend of Marvin's late wife — finds, in the regional archive, three newspaper stories from 1958 about a missing nurse who was 'last seen at the sanatorium.'",
+      "text": "The paths divide here: “Bring this to the property manager” leads into Inside the Door, while “Bring it to the police as a cold case” makes Detective Petrillo the next reckoning. In The Librarian, even a sensible delay gives the threat another way in.",
       "sceneTitle": "The Librarian",
       "choices": [
         {
           "text": "Bring this to the property manager",
-          "consequence": "The decision settles the question for now. Its verdict—Authority—follows you into whatever comes next.",
+          "consequence": "You commit to bring this to the property manager. It carries you into Inside the Door while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Bring it to the police as a cold case",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Bigger authority.",
+          "consequence": "You choose to bring it to the police as a cold case. By Detective Petrillo, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Take the key out and try other locks",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Investigative.",
+          "consequence": "You choose to take the key out and try other locks. By The Brass Key, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Leave the key; document the room",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Preserve.",
+          "consequence": "You commit to leave the key; document the room. It carries you into The Microphone Pickup while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A young detective named Petrillo agrees to take this seriously — partly because his grandmother lives in your building, mostly because Marvin is, unbelievably, his father's old high school teacher.",
+      "text": "A young detective named Petrillo agrees to take this seriously — partly because his grandmother lives in your building, mostly because Marvin is, unbelievably, his father's old high school teacher. “Work with him formally” draws you toward The Brass Key; “Share what you've found and step back” leaves The Microphone Pickup waiting on the other side.",
       "sceneTitle": "Detective Petrillo",
       "choices": [
         {
           "text": "Work with him formally",
-          "consequence": "The decision settles the question for now. Its verdict—Coalition—follows you into whatever comes next.",
+          "consequence": "You commit to work with him formally. It carries you into The Brass Key while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Share what you've found and step back",
-          "consequence": "“Share what you've found and step back” closes one possibility and opens another. The moment leaves a clear note behind: Hand off.",
+          "consequence": "You choose to share what you've found and step back. By The Microphone Pickup, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Read every letter aloud over tea",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You read every letter aloud over tea. The way toward Eleanor's Story opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take them to the historical society",
-          "consequence": "You commit to “Take them to the historical society.” The story records the instinct as “Public memory” and carries it forward.",
+          "consequence": "You take them to the historical society. The way toward The Voice, Identified opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Identify whose voice it is",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hunt.",
+          "consequence": "You choose to identify whose voice it is. By Eleanor's Story, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Sit with the request and decide who to tell",
-          "consequence": "You commit to “Sit with the request and decide who to tell.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to sit with the request and decide who to tell. By The Voice, Identified, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Find descendants of the patient",
-          "consequence": "Continue the rescue.",
+          "consequence": "You choose to find descendants of the patient. By The Granddaughter, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Find Eleanor's descendants",
-          "consequence": "Honor the helper.",
+          "consequence": "You find Eleanor's descendants. The way toward The Plaque Committee opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The voice is Eleanor's. You find a 1962 recording of her at a community meeting and confirm by tone. Eleanor, even in death, would like the record to include her sacrifice.",
+      "text": "The voice is Eleanor's. You find a 1962 recording of her at a community meeting and confirm by tone. Eleanor, even in death, would like the record to include her sacrifice. Choose “Hold a small memorial” and The Granddaughter comes into view; choose “Get Eleanor's name on a plaque at the property” and the road bends toward The Plaque Committee.",
       "sceneTitle": "The Voice, Identified",
       "choices": [
         {
           "text": "Hold a small memorial",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to hold a small memorial. By The Granddaughter, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Get Eleanor's name on a plaque at the property",
-          "consequence": "Make it official.",
+          "consequence": "You commit to get Eleanor's name on a plaque at the property. It carries you into The Plaque Committee while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Help her write a family history book",
-          "consequence": "There is no taking “Help her write a family history book” back. Document shapes the silence before the next moment arrives.",
+          "consequence": "You commit to help her write a family history book. It carries you into The Plaque Unveiling while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Just let her sit with it for the weekend",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Presence.",
+          "consequence": "You choose to just let her sit with it for the weekend. By The Book, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Write the plaque text yourself",
-          "consequence": "You commit to “Write the plaque text yourself.” The story records the instinct as “Author” and carries it forward.",
+          "consequence": "You commit to write the plaque text yourself. It carries you into The Plaque Unveiling while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Get the historical society to write it",
-          "consequence": "There is no taking “Get the historical society to write it” back. Credentials shapes the silence before the next moment arrives.",
+          "consequence": "You choose to get the historical society to write it. By The Book, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Form a permanent local history committee",
-          "consequence": "You commit to “Form a permanent local history committee.” The story records the instinct as “Continue” and carries it forward.",
+          "consequence": "You choose to form a permanent local history committee. By The Next Mystery, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Go back to bridge",
-          "consequence": "“Go back to bridge” closes one possibility and opens another. The moment leaves a clear note behind: Rest.",
+          "consequence": "You commit to go back to bridge. It carries you into The Quiet Year while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You and Marvin and Lila and Beverly help Eleanor's granddaughter write a small book. It is published by a regional press. It outsells the local cookbook. It is, by your measurements, a real success.",
+      "text": "You and Marvin and Lila and Beverly help Eleanor's granddaughter write a small book. It is published by a regional press. It outsells the local cookbook. It is, by your measurements, a real success. Choose “Tour the book at three libraries” and The Next Mystery comes into view; choose “Donate the proceeds to a queer youth center” and the road bends toward The Quiet Year.",
       "sceneTitle": "The Book",
       "choices": [
         {
           "text": "Tour the book at three libraries",
-          "consequence": "“Tour the book at three libraries” closes one possibility and opens another. The moment leaves a clear note behind: Public.",
+          "consequence": "You choose to tour the book at three libraries. By The Next Mystery, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Donate the proceeds to a queer youth center",
-          "consequence": "Continue Eleanor's work.",
+          "consequence": "Continue Eleanor's work. You donate the proceeds to a queer youth center. The way toward The Quiet Year opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Petrillo, the detective, drops by with another cold case. Lila and Marvin and Beverly look at each other. You realize, with delight, that the bridge club has accidentally become an institution.",
+      "text": "Petrillo, the detective, drops by with another cold case. Lila and Marvin and Beverly look at each other. You realize, with delight, that the bridge club has accidentally become an institution. Beverly's Cataract Surgery will follow either decision, but it will meet a different version of you after “Take the next case” than after “Tell Petrillo this was the case.”",
       "sceneTitle": "The Next Mystery",
       "choices": [
         {
           "text": "Take the next case",
-          "consequence": "“Take the next case” closes one possibility and opens another. The moment leaves a clear note behind: Continue.",
+          "consequence": "You take the next case. The way toward Beverly's Cataract Surgery opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Tell Petrillo this was the case",
-          "consequence": "Choose your battles.",
+          "consequence": "You choose to tell Petrillo this was the case. By Beverly's Cataract Surgery, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You go back to bridge. The cards are familiar. The laughs come more easily. Eleanor, you realize, has done something good for the building — not by haunting it, but by being remembered.",
+      "text": "You go back to bridge. The cards are familiar. The laughs come more easily. Eleanor, you realize, has done something good for the building — not by haunting it, but by being remembered. Marvin's Granddaughter Visits is already waiting. What changes is whether “Keep her photo on the wall above the bridge table” or “Move on; she's at peace” is the instinct you carry into it.",
       "sceneTitle": "The Quiet Year",
       "choices": [
         {
           "text": "Keep her photo on the wall above the bridge table",
-          "consequence": "Hold the memory.",
+          "consequence": "You commit to keep her photo on the wall above the bridge table. It carries you into Marvin's Granddaughter Visits while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         },
         {
           "text": "Move on; she's at peace",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Release.",
+          "consequence": "You commit to move on; she's at peace. It carries you into Marvin's Granddaughter Visits while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Celebrate with cake",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Joy.",
+          "consequence": "You celebrate with cake. The way toward The Next Hand opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Just deal the next hand",
-          "consequence": "The decision settles the question for now. Its verdict—Routine—follows you into whatever comes next.",
+          "consequence": "You choose to just deal the next hand. By The Next Hand, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Invite her to a recurring family-day Sunday",
-          "consequence": "There is no taking “Invite her to a recurring family-day Sunday” back. Tradition shapes the silence before the next moment arrives.",
+          "consequence": "You invite her to a recurring family-day Sunday. The way toward The Next Hand opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Send her home full of cookies and let it be one day",
-          "consequence": "There is no taking “Send her home full of cookies and let it be one day” back. Light shapes the silence before the next moment arrives.",
+          "consequence": "You commit to send her home full of cookies and let it be one day. It carries you into The Next Hand while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "It is your deal. You shuffle. You look at three friends who are still here. You decide what kind of year is next — more cases, or more cake.",
+      "text": "It is your deal. You shuffle. You look at three friends who are still here. You decide what kind of year is next — more cases, or more cake. Choose “Take the next case from Petrillo” and The Listening Society comes into view; choose “Cake. Just cake.” and the road bends toward Bridge, Tuesdays.",
       "sceneTitle": "The Next Hand",
       "choices": [
         {
           "text": "Take the next case from Petrillo",
-          "consequence": "The decision settles the question for now. Its verdict—Society on—follows you into whatever comes next.",
+          "consequence": "You take the next case from Petrillo. The way toward The Listening Society opens, and something on the other side seems to notice.",
           "nextNodeId": "end_society"
         },
         {
           "text": "Cake. Just cake.",
-          "consequence": "Bridge Tuesdays forever.",
+          "consequence": "Bridge Tuesdays forever. You commit to cake. Just cake. It carries you into Bridge, Tuesdays while the safer possibility closes without making a sound.",
           "nextNodeId": "end_rest"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_society",
-      "text": "The four of you (eventually three, then two, then memory) become a small local legend. Other retirement villages start their own listening societies. You leave behind a quiet, devoted, weird little legacy.",
+      "text": "The four of you (eventually three, then two, then memory) become a small local legend. Other retirement villages start their own listening societies. You leave behind a quiet, devoted, weird little legacy. The road into The Listening Society began with “Take the next case from Petrillo” in The Next Hand; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Listening Society",
       "choices": [],
       "isEnding": true,

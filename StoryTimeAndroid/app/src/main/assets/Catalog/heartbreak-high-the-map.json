@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The map, drawn in marker, occupies an entire toilet wall. Lines connect names you barely thought about and names you most certainly did. The principal's heels click down the hallway. You have three minutes.",
+      "text": "The map, drawn in marker, occupies an entire toilet wall. Lines connect names you barely thought about and names you most certainly did. The principal's heels click down the hallway. You have three minutes. To choose “Take photos of the map first” means meeting Your Best Friend Quinni; “Try to scrub it before assembly” sends you toward Principal Stacy instead.",
       "sceneTitle": "Monday, Pre-Assembly",
       "choices": [
         {
           "text": "Take photos of the map first",
-          "consequence": "Document the chaos you made.",
+          "consequence": "Document the chaos you made. You choose to take photos of the map first. It opens the route to Your Best Friend Quinni, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Try to scrub it before assembly",
-          "consequence": "There is no taking “Try to scrub it before assembly” back. Damage control shapes the silence before the next moment arrives.",
+          "consequence": "You try to scrub it before assembly. The decision moves you toward Principal Stacy and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Quinni sees you with the camera. She doesn't judge. She does, helpfully, point out that you spelled three names wrong. Friendship like Quinni's is rare and you do not deserve it.",
+      "text": "Quinni sees you with the camera. She doesn't judge. She does, helpfully, point out that you spelled three names wrong. Friendship like Quinni's is rare and you do not deserve it. Choose “Apologize to Quinni for involving her” and Sexual Literacy Tutorial comes into view; choose “Recruit Quinni to help you fix it” and the road bends toward Malakai, Hurt.",
       "sceneTitle": "Your Best Friend Quinni",
       "choices": [
         {
           "text": "Apologize to Quinni for involving her",
-          "consequence": "Friendship over scoops.",
+          "consequence": "You choose to apologize to Quinni for involving her. It opens the route to Sexual Literacy Tutorial, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Recruit Quinni to help you fix it",
-          "consequence": "The decision settles the question for now. Its verdict—Practical first—follows you into whatever comes next.",
+          "consequence": "You commit to recruit Quinni to help you fix it. By Malakai, Hurt, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Principal Stacy stares at the map for a long minute. Then she looks at you. 'My office,' she says, evenly. 'And bring whichever friend convinced you the marker was washable.'",
+      "text": "Principal Stacy stares at the map for a long minute. Then she looks at you. 'My office,' she says, evenly. “Take Quinni with you” opens the route to Sexual Literacy Tutorial. “Go alone — own it” changes the terms and carries you toward Malakai, Hurt.",
       "sceneTitle": "Principal Stacy",
       "choices": [
         {
           "text": "Take Quinni with you",
-          "consequence": "“Take Quinni with you” closes one possibility and opens another. The moment leaves a clear note behind: Backup.",
+          "consequence": "You take Quinni with you. The decision moves you toward Sexual Literacy Tutorial and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Go alone — own it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Solo.",
+          "consequence": "You go alone — own it. The decision moves you toward Malakai, Hurt and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The new mandatory class is called 'SLT' by the school and 'SLuTs' by everyone else. The teacher is well-intentioned and overwhelmed. The class is, of course, the exact people you mapped.",
+      "text": "The new mandatory class is called 'SLT' by the school and 'SLuTs' by everyone else. The teacher is well-intentioned and overwhelmed. The class is, of course, the exact people you mapped. “Participate honestly” draws you toward Darren's Take; “Sit at the back with Quinni and Darren” leaves Amerie's Detention waiting on the other side.",
       "sceneTitle": "Sexual Literacy Tutorial",
       "choices": [
         {
           "text": "Participate honestly",
-          "consequence": "“Participate honestly” closes one possibility and opens another. The moment leaves a clear note behind: Lean in.",
+          "consequence": "You choose to participate honestly. It opens the route to Darren's Take, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit at the back with Quinni and Darren",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You choose to sit at the back with Quinni and Darren. It opens the route to Amerie's Detention, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Apologize fully",
-          "consequence": "Own the harm.",
+          "consequence": "You apologize fully. The decision moves you toward Darren's Take and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Explain the map's intent",
-          "consequence": "Context as defense.",
+          "consequence": "You commit to explain the map's intent. By Amerie's Detention, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Darren, equal parts dramatic and wise, says, 'You made the map because you wanted everyone to admit they're connected. The school doesn't want them to.' Darren is right, as usual.",
+      "text": "Darren, equal parts dramatic and wise, says, 'You made the map because you wanted everyone to admit they're connected. The school doesn't want them to.' Darren is right, as usual. To choose “Lean into Darren's framing” means meeting The Walkout; “Lean away — you didn't mean it to be political” sends you toward Spider's Apology instead.",
       "sceneTitle": "Darren's Take",
       "choices": [
         {
           "text": "Lean into Darren's framing",
-          "consequence": "The decision settles the question for now. Its verdict—Politicize it—follows you into whatever comes next.",
+          "consequence": "You choose to lean into Darren's framing. It opens the route to The Walkout, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Lean away — you didn't mean it to be political",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is De-escalate.",
+          "consequence": "You commit to lean away — you didn't mean it to be political. By Spider's Apology, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You and Quinni share a detention with three people you mapped. The conversation, surprisingly, gets honest. You discover the map left out a connection that, in person, is obvious.",
+      "text": "You and Quinni share a detention with three people you mapped. The conversation, surprisingly, gets honest. You discover the map left out a connection that, in person, is obvious. To choose “Add the connection to a mental version” means meeting The Walkout; “Decide the map was a bad idea entirely” sends you toward Spider's Apology instead.",
       "sceneTitle": "Amerie's Detention",
       "choices": [
         {
           "text": "Add the connection to a mental version",
-          "consequence": "You commit to “Add the connection to a mental version.” The story records the instinct as “Stay curious” and carries it forward.",
+          "consequence": "You commit to add the connection to a mental version. By The Walkout, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Decide the map was a bad idea entirely",
-          "consequence": "You commit to “Decide the map was a bad idea entirely.” The story records the instinct as “Reconsider” and carries it forward.",
+          "consequence": "You commit to decide the map was a bad idea entirely. By Spider's Apology, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Students stage a walkout — not, technically, because of you. Then it kind of becomes because of you. The local news has a microphone in your face. Principal Stacy has a vein in her forehead.",
+      "text": "Students stage a walkout — not, technically, because of you. Then it kind of becomes because of you. The local news has a microphone in your face. Principal Stacy has a vein in her forehead. The paths divide here: “Speak to the news, briefly” leads into Malakai's Choice, while “Walk past the news in solidarity” makes Quinni's Burnout the next reckoning.",
       "sceneTitle": "The Walkout",
       "choices": [
         {
           "text": "Speak to the news, briefly",
-          "consequence": "Take responsibility publicly.",
+          "consequence": "Take responsibility publicly. You commit to speak to the news, briefly. By Malakai's Choice, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Walk past the news in solidarity",
-          "consequence": "Action over interview.",
+          "consequence": "You walk past the news in solidarity. The decision moves you toward Quinni's Burnout and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Spider — boy, dumb, mostly — apologizes for the comment that started a fight last week. He is, briefly, a person. You realize the map, accidentally, gave him a way to think about himself.",
+      "text": "Spider — boy, dumb, mostly — apologizes for the comment that started a fight last week. He is, briefly, a person. You realize the map, accidentally, gave him a way to think about himself. To choose “Accept his apology” means meeting Malakai's Choice; “Tell him to apologize to the actual people he hurt” sends you toward Quinni's Burnout instead.",
       "sceneTitle": "Spider's Apology",
       "choices": [
         {
           "text": "Accept his apology",
-          "consequence": "“Accept his apology” closes one possibility and opens another. The moment leaves a clear note behind: Allow change.",
+          "consequence": "You commit to accept his apology. By Malakai's Choice, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell him to apologize to the actual people he hurt",
-          "consequence": "You commit to “Tell him to apologize to the actual people he hurt.” The story records the instinct as “Redirect” and carries it forward.",
+          "consequence": "You tell him to apologize to the actual people he hurt. The decision moves you toward Quinni's Burnout and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Choose the boyfriend part for now",
-          "consequence": "The decision settles the question for now. Its verdict—Commit—follows you into whatever comes next.",
+          "consequence": "You choose the boyfriend part for now. The decision moves you toward Sasha's Counter-Project and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Be honest that you can't yet",
-          "consequence": "Honesty hurts cleaner.",
+          "consequence": "You commit to be honest that you can't yet. By Your Mom Knocks, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Quinni, who hates loud places and loud weeks, has had enough. She skips school. You find her at the planetarium. You sit beside her in the dark while a recorded voice describes Saturn.",
+      "text": "Quinni, who hates loud places and loud weeks, has had enough. She skips school. You find her at the planetarium. You sit beside her in the dark while a recorded voice describes Saturn. The paths divide here: “Skip the rest of the week with her” leads into Sasha's Counter-Project, while “Promise to take fewer of her spoons” makes Your Mom Knocks the next reckoning.",
       "sceneTitle": "Quinni's Burnout",
       "choices": [
         {
           "text": "Skip the rest of the week with her",
-          "consequence": "Friendship over school.",
+          "consequence": "You skip the rest of the week with her. The decision moves you toward Sasha's Counter-Project and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Promise to take fewer of her spoons",
-          "consequence": "There is no taking “Promise to take fewer of her spoons” back. Mindful shapes the silence before the next moment arrives.",
+          "consequence": "You commit to promise to take fewer of her spoons. By Your Mom Knocks, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Help organize the festival",
-          "consequence": "Lean into the better version.",
+          "consequence": "Lean into the better version. You commit to help organize the festival. By The Festival Night, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Step back and let it be theirs",
-          "consequence": "“Step back and let it be theirs” closes one possibility and opens another. The moment leaves a clear note behind: Generosity.",
+          "consequence": "You step back and let it be theirs. The decision moves you toward End of Term and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Your mom — too cool, too tired — knocks on your door at 11. She heard about the map from another mum. She doesn't yell. She makes tea. She asks if you've been okay, actually, lately.",
+      "text": "Your mom — too cool, too tired — knocks on your door at 11. She heard about the map from another mum. She doesn't yell. She makes tea. She asks if you've been okay, actually, lately. “Tell her the truth about the year” opens the route to The Festival Night. “Promise her a longer talk on Saturday” changes the terms and carries you toward End of Term.",
       "sceneTitle": "Your Mom Knocks",
       "choices": [
         {
           "text": "Tell her the truth about the year",
-          "consequence": "There is no taking “Tell her the truth about the year” back. Adult conversation shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tell her the truth about the year. It opens the route to The Festival Night, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s14"
         },
         {
           "text": "Promise her a longer talk on Saturday",
-          "consequence": "Schedule the honesty.",
+          "consequence": "You commit to promise her a longer talk on Saturday. By End of Term, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Lights strung between the basketball hoops. Music from someone's brother's DJ rig. The map, redrawn by Sasha, is now a giant mural and includes everyone's pronouns and a few jokes only your year understands.",
+      "text": "Lights strung between the basketball hoops. Music from someone's brother's DJ rig. The map, redrawn by Sasha, is now a giant mural and includes everyone's pronouns and a few jokes only your year understands. To choose “Dance, fully, without your phone” means meeting Year Twelve; “Sit on the bleachers with Quinni and Darren” sends you toward Beach Day instead.",
       "sceneTitle": "The Festival Night",
       "choices": [
         {
           "text": "Dance, fully, without your phone",
-          "consequence": "The decision settles the question for now. Its verdict—Be present—follows you into whatever comes next.",
+          "consequence": "You choose to dance, fully, without your phone. It opens the route to Year Twelve, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Sit on the bleachers with Quinni and Darren",
-          "consequence": "“Sit on the bleachers with Quinni and Darren” closes one possibility and opens another. The moment leaves a clear note behind: Quieter joy.",
+          "consequence": "You sit on the bleachers with Quinni and Darren. The decision moves you toward Beach Day and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Reports come out. The school will not, after all, expel you. Principal Stacy writes a note in pencil: 'You have a knack for systems. Use it.' You will, you think, take her advice.",
+      "text": "Reports come out. The school will not, after all, expel you. Principal Stacy writes a note in pencil: 'You have a knack for systems. Use it.' You will, you think, take her advice. Choose “Apply for the school newspaper editor role next term” and Year Twelve comes into view; choose “Take a term off everything official” and the road bends toward Beach Day.",
       "sceneTitle": "End of Term",
       "choices": [
         {
           "text": "Apply for the school newspaper editor role next term",
-          "consequence": "Use the knack.",
+          "consequence": "You commit to apply for the school newspaper editor role next term. By Year Twelve, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take a term off everything official",
-          "consequence": "There is no taking “Take a term off everything official” back. Recover shapes the silence before the next moment arrives.",
+          "consequence": "You choose to take a term off everything official. It opens the route to Beach Day, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Throw yourself into year twelve fully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Commit.",
+          "consequence": "You choose to throw yourself into year twelve fully. It opens the route to Parent-Teacher Night, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take it one term at a time",
-          "consequence": "“Take it one term at a time” closes one possibility and opens another. The moment leaves a clear note behind: Pace yourself.",
+          "consequence": "You commit to take it one term at a time. By Parent-Teacher Night, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Take a group photo for the year",
-          "consequence": "Preserve the moment.",
+          "consequence": "You choose to take a group photo for the year. It opens the route to Sasha's Festival, Round Two, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Just live the moment, no photo",
-          "consequence": "“Just live the moment, no photo” closes one possibility and opens another. The moment leaves a clear note behind: Be there.",
+          "consequence": "You choose to just live the moment, no photo. It opens the route to Sasha's Festival, Round Two, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Take the writing track seriously",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Aim.",
+          "consequence": "You take the writing track seriously. The decision moves you toward Last Bell and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         },
         {
           "text": "Keep it just as a hobby",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You keep it just as a hobby. The decision moves you toward Last Bell and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Sasha announces a second Connection Festival. You all help. The school, having learned, gives them the gym this time. The night is louder, kinder, and full of someone's bluetooth speaker playing exactly one song.",
+      "text": "Sasha announces a second Connection Festival. You all help. The school, having learned, gives them the gym this time. The night is louder, kinder, and full of someone's bluetooth speaker playing exactly one song. Last Bell is already waiting. What changes is whether “Dance for the whole festival” or “Sit and watch your people be happy” is the instinct you carry into it.",
       "sceneTitle": "Sasha's Festival, Round Two",
       "choices": [
         {
           "text": "Dance for the whole festival",
-          "consequence": "You commit to “Dance for the whole festival.” The story records the instinct as “Joy” and carries it forward.",
+          "consequence": "You choose to dance for the whole festival. It opens the route to Last Bell, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Sit and watch your people be happy",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You commit to sit and watch your people be happy. By Last Bell, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,22 +380,22 @@
     },
     {
       "id": "s20",
-      "text": "The final bell of year twelve. The whole map of who-knew-who tilts into the future. You stand in the courtyard one last time and choose what kind of leaving you'll have.",
+      "text": "The final bell of year twelve. The whole map of who-knew-who tilts into the future. You stand in the courtyard one last time and choose what kind of leaving you'll have. The distance between Year Twelve, Loud and Slow Year, Real Year begins with the choice between “Throw yourself into the next year” and “Take the slow walk out.” A third choice, “Take one last photo of the gang,” keeps The Photo on the Fridge in play.",
       "sceneTitle": "Last Bell",
       "choices": [
         {
           "text": "Throw yourself into the next year",
-          "consequence": "“Throw yourself into the next year” closes one possibility and opens another. The moment leaves a clear note behind: Loud goodbye.",
+          "consequence": "You commit to throw yourself into the next year. By Year Twelve, Loud, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_year12"
         },
         {
           "text": "Take the slow walk out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet goodbye.",
+          "consequence": "You take the slow walk out. The decision moves you toward Slow Year, Real Year and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_pace"
         },
         {
           "text": "Take one last photo of the gang",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Save it.",
+          "consequence": "You take one last photo of the gang. The decision moves you toward The Photo on the Fridge and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_photo"
         }
       ],
@@ -420,7 +420,7 @@
     },
     {
       "id": "end_photo",
-      "text": "The photo lives on your fridge for a decade. Different versions of you pass it. None of them know yet how good a year that was. You do.",
+      "text": "The photo lives on your fridge for a decade. Different versions of you pass it. None of them know yet how good a year that was. You do. The road into The Photo on the Fridge began with “Take one last photo of the gang” in Last Bell; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Photo on the Fridge",
       "choices": [],
       "isEnding": true,

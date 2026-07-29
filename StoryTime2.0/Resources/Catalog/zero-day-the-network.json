@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "FBI Director, on a sofa in your study. The brief is one minute long. The minute was, as far as anyone can prove, foreign.",
+      "text": "FBI Director, on a sofa in your study. The brief is one minute long. The minute was, as far as anyone can prove, foreign. Your Wife will follow either decision, but it will meet a different version of you after “Take the commission” than after “Refuse and recommend someone.”",
       "sceneTitle": "The Briefing",
       "choices": [
         {
           "text": "Take the commission",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Lead.",
+          "consequence": "You commit to take the commission. It carries you into Your Wife while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse and recommend someone",
-          "consequence": "There is no taking “Refuse and recommend someone” back. Decline shapes the silence before the next moment arrives.",
+          "consequence": "You refuse and recommend someone. The way toward Your Wife opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "She does not want you to take it. She is, in the marital sense, correct. You take it anyway. She, in the marital sense, supports you.",
+      "text": "She does not want you to take it. She is, in the marital sense, correct. You take it anyway. She, in the marital sense, supports you. Both choices lead to Staff, but “Promise her a date” arrives there with a different cost than “Promise her honesty.”",
       "sceneTitle": "Your Wife",
       "choices": [
         {
           "text": "Promise her a date",
-          "consequence": "You commit to “Promise her a date.” The story records the instinct as “Marriage” and carries it forward.",
+          "consequence": "You choose to promise her a date. By Staff, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Promise her honesty",
-          "consequence": "“Promise her honesty” closes one possibility and opens another. The moment leaves a clear note behind: Marriage harder.",
+          "consequence": "You commit to promise her honesty. It carries you into Staff while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You build a small staff — a former general counsel, a young technologist, a press secretary you respect.",
+      "text": "You build a small staff — a former general counsel, a young technologist, a press secretary you respect. First Hearing comes either way; its meaning changes with the difference between “Lead with the lawyer” and “Lead with the technologist.”",
       "sceneTitle": "Staff",
       "choices": [
         {
           "text": "Lead with the lawyer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Process.",
+          "consequence": "You choose to lead with the lawyer. By First Hearing, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Lead with the technologist",
-          "consequence": "There is no taking “Lead with the technologist” back. Substance shapes the silence before the next moment arrives.",
+          "consequence": "You choose to lead with the technologist. By First Hearing, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The first hearing is, as expected, theater. You permit a small amount of it.",
+      "text": "The first hearing is, as expected, theater. You permit a small amount of it. You cannot avoid The Whistle; you can only decide whether “Use the theater” or “Cut to substance” defines the person who reaches it.",
       "sceneTitle": "First Hearing",
       "choices": [
         {
           "text": "Use the theater",
-          "consequence": "You commit to “Use the theater.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You use the theater. The way toward The Whistle opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         },
         {
           "text": "Cut to substance",
-          "consequence": "“Cut to substance” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You commit to cut to substance. It carries you into The Whistle while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "An NSA analyst comes to you quietly. He has data the agency has, he believes, redacted dishonestly. You verify him.",
+      "text": "An NSA analyst comes to you quietly. He has data the agency has, he believes, redacted dishonestly. You verify him. Memory Issues is already waiting. What changes is whether “Receive the data” or “Recommend formal whistleblower channels first” is the instinct you carry into it.",
       "sceneTitle": "The Whistle",
       "choices": [
         {
           "text": "Receive the data",
-          "consequence": "There is no taking “Receive the data” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You receive the data. The way toward Memory Issues opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Recommend formal whistleblower channels first",
-          "consequence": "“Recommend formal whistleblower channels first” closes one possibility and opens another. The moment leaves a clear note behind: Process.",
+          "consequence": "You commit to recommend formal whistleblower channels first. It carries you into Memory Issues while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You notice, between meetings, that you are forgetting things. Names. Dates. The press secretary does not, you can tell, want to be the one who tells you.",
+      "text": "You notice, between meetings, that you are forgetting things. Names. Dates. The press secretary does not, you can tell, want to be the one who tells you. Both choices lead to The Daughter, but “See a doctor immediately” arrives there with a different cost than “Hide it for now.”",
       "sceneTitle": "Memory Issues",
       "choices": [
         {
           "text": "See a doctor immediately",
-          "consequence": "You commit to “See a doctor immediately.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to see a doctor immediately. It carries you into The Daughter while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hide it for now",
-          "consequence": "You commit to “Hide it for now.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You choose to hide it for now. By The Daughter, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Your daughter, a congresswoman, has been briefed by her own staff that you are missing things. She comes to you. The conversation is difficult and loving.",
+      "text": "Your daughter, a congresswoman, has been briefed by her own staff that you are missing things. She comes to you. The conversation is difficult and loving. Closet, Old Administration is already waiting. What changes is whether “Tell her everything” or “Tell her you'll handle it” is the instinct you carry into it.",
       "sceneTitle": "The Daughter",
       "choices": [
         {
           "text": "Tell her everything",
-          "consequence": "You commit to “Tell her everything.” The story records the instinct as “Family” and carries it forward.",
+          "consequence": "You tell her everything. The way toward Closet, Old Administration opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell her you'll handle it",
-          "consequence": "There is no taking “Tell her you'll handle it” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tell her you'll handle it. By Closet, Old Administration, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The whistleblower's data points to a backdoor you signed off on during your presidency. You did not, at the time, understand it fully. You sign off on many things.",
+      "text": "The whistleblower's data points to a backdoor you signed off on during your presidency. You did not, at the time, understand it fully. You sign off on many things. Press Secretary is already waiting. What changes is whether “Take responsibility publicly” or “Address it quietly first” is the instinct you carry into it.",
       "sceneTitle": "Closet, Old Administration",
       "choices": [
         {
           "text": "Take responsibility publicly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You commit to take responsibility publicly. It carries you into Press Secretary while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Address it quietly first",
-          "consequence": "You commit to “Address it quietly first.” The story records the instinct as “Discretion” and carries it forward.",
+          "consequence": "You commit to address it quietly first. It carries you into Press Secretary while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your press secretary asks if you want a statement. He has, separately, written two drafts. One is a full apology. One is a careful one.",
+      "text": "Your press secretary asks if you want a statement. He has, separately, written two drafts. One is a full apology. One is a careful one. Director comes either way; its meaning changes with the difference between “Use the full apology” and “Use the careful one.”",
       "sceneTitle": "Press Secretary",
       "choices": [
         {
           "text": "Use the full apology",
-          "consequence": "There is no taking “Use the full apology” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to use the full apology. It carries you into Director while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Use the careful one",
-          "consequence": "“Use the careful one” closes one possibility and opens another. The moment leaves a clear note behind: Strategic.",
+          "consequence": "You commit to use the careful one. It carries you into Director while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The current FBI Director meets you off the record. He is loyal to the institution. He is, in this case, on your side.",
+      "text": "The current FBI Director meets you off the record. He is loyal to the institution. He is, in this case, on your side. Asia Trip comes either way; its meaning changes with the difference between “Coordinate with him” and “Stay separate.”",
       "sceneTitle": "Director",
       "choices": [
         {
           "text": "Coordinate with him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Allies.",
+          "consequence": "You commit to coordinate with him. It carries you into Asia Trip while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay separate",
-          "consequence": "The decision settles the question for now. Its verdict—Independence—follows you into whatever comes next.",
+          "consequence": "You stay separate. The way toward Asia Trip opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "A trip to Tokyo, Seoul, and Taipei, with the question 'who did this.' The answer, in your gut, is not what the briefings say.",
+      "text": "A trip to Tokyo, Seoul, and Taipei, with the question 'who did this.' The answer, in your gut, is not what the briefings say. Memory Test is already waiting. What changes is whether “Trust your gut” or “Trust the briefings” is the instinct you carry into it.",
       "sceneTitle": "Asia Trip",
       "choices": [
         {
           "text": "Trust your gut",
-          "consequence": "The decision settles the question for now. Its verdict—Independent—follows you into whatever comes next.",
+          "consequence": "You trust your gut. The way toward Memory Test opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Trust the briefings",
-          "consequence": "You commit to “Trust the briefings.” The story records the instinct as “Process” and carries it forward.",
+          "consequence": "You choose to trust the briefings. By Memory Test, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Your doctor confirms early cognitive issues. The press will, eventually, learn. You decide what shape the disclosure takes.",
+      "text": "Your doctor confirms early cognitive issues. The press will, eventually, learn. You decide what shape the disclosure takes. The road still runs toward Your Old Chief of Staff. Its next turn depends on the difference between choosing “Disclose now” and choosing “Disclose at the end of the commission.”",
       "sceneTitle": "Memory Test",
       "choices": [
         {
           "text": "Disclose now",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cleaner.",
+          "consequence": "You choose to disclose now. By Your Old Chief of Staff, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Disclose at the end of the commission",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You commit to disclose at the end of the commission. It carries you into Your Old Chief of Staff while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Your old chief of staff is, you discover, lobbying for the cybersecurity firm at the center of the closet you just opened. He is a friend.",
+      "text": "Your old chief of staff is, you discover, lobbying for the cybersecurity firm at the center of the closet you just opened. He is a friend. You cannot avoid The Quiet Threat; you can only decide whether “Confront him” or “Subpoena him” defines the person who reaches it.",
       "sceneTitle": "Your Old Chief of Staff",
       "choices": [
         {
           "text": "Confront him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You choose to confront him. By The Quiet Threat, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Subpoena him",
-          "consequence": "You commit to “Subpoena him.” The story records the instinct as “Process” and carries it forward.",
+          "consequence": "You subpoena him. The way toward The Quiet Threat opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Someone in the executive branch — quietly, formally — would prefer you didn't.",
+      "text": "Someone in the executive branch — quietly, formally — would prefer you didn't. You cannot avoid Your Wife, Again; you can only decide whether “Push back through formal channels” or “Push back publicly” defines the person who reaches it.",
       "sceneTitle": "The Quiet Threat",
       "choices": [
         {
           "text": "Push back through formal channels",
-          "consequence": "“Push back through formal channels” closes one possibility and opens another. The moment leaves a clear note behind: Process.",
+          "consequence": "You choose to push back through formal channels. By Your Wife, Again, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Push back publicly",
-          "consequence": "There is no taking “Push back publicly” back. Sunlight shapes the silence before the next moment arrives.",
+          "consequence": "You choose to push back publicly. By Your Wife, Again, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "She makes coffee in the morning and doesn't ask. You realize, gratefully, that being silent with someone is also a form of supporting them.",
+      "text": "She makes coffee in the morning and doesn't ask. You realize, gratefully, that being silent with someone is also a form of supporting them. Hearing, Final Day will follow either decision, but it will meet a different version of you after “Tell her everything” than after “Just thank her.”",
       "sceneTitle": "Your Wife, Again",
       "choices": [
         {
           "text": "Tell her everything",
-          "consequence": "“Tell her everything” closes one possibility and opens another. The moment leaves a clear note behind: Marriage.",
+          "consequence": "You choose to tell her everything. By Hearing, Final Day, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Just thank her",
-          "consequence": "You commit to “Just thank her.” The story records the instinct as “Marriage” and carries it forward.",
+          "consequence": "You just thank her. The way toward Hearing, Final Day opens, and something on the other side seems to notice.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Final hearing. The room is, somehow, both packed and tired. You speak for fourteen minutes without notes. You realize, mid-sentence, that you are, almost, telling the truth.",
+      "text": "Final hearing. The room is, somehow, both packed and tired. You speak for fourteen minutes without notes. You realize, mid-sentence, that you are, almost, telling the truth. Both choices lead to The Report, but “Tell all of it” arrives there with a different cost than “Tell most of it.”",
       "sceneTitle": "Hearing, Final Day",
       "choices": [
         {
           "text": "Tell all of it",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to tell all of it. It carries you into The Report while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         },
         {
           "text": "Tell most of it",
-          "consequence": "You commit to “Tell most of it.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You choose to tell most of it. By The Report, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The final report is honest. It also, at your insistence, names the backdoor you signed. The press, expecting cover-up, doesn't quite know what to do.",
+      "text": "The final report is honest. It also, at your insistence, names the backdoor you signed. The press, expecting cover-up, doesn't quite know what to do. The road still runs toward Resignation. Its next turn depends on the difference between choosing “Take questions immediately” and choosing “Let the report speak.”",
       "sceneTitle": "The Report",
       "choices": [
         {
           "text": "Take questions immediately",
-          "consequence": "You commit to “Take questions immediately.” The story records the instinct as “Press” and carries it forward.",
+          "consequence": "You choose to take questions immediately. By Resignation, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let the report speak",
-          "consequence": "There is no taking “Let the report speak” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You let the report speak. The way toward Resignation opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You resign from a board you sit on. The resignation is, in a quiet way, the punishment that fits.",
+      "text": "You resign from a board you sit on. The resignation is, in a quiet way, the punishment that fits. You cannot avoid Daughter, Calling; you can only decide whether “Resign quietly” or “Resign with a public statement” defines the person who reaches it.",
       "sceneTitle": "Resignation",
       "choices": [
         {
           "text": "Resign quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You resign quietly. The way toward Daughter, Calling opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         },
         {
           "text": "Resign with a public statement",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Public.",
+          "consequence": "You resign with a public statement. The way toward Daughter, Calling opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Your daughter calls. She read the report. She tells you she is proud of you. You realize, in your seventies, that this matters more to you than any other call you have taken.",
+      "text": "Your daughter calls. She read the report. She tells you she is proud of you. You realize, in your seventies, that this matters more to you than any other call you have taken. You cannot avoid Memoir; you can only decide whether “Tell her what's been going on with the doctor” or “Save it for dinner” defines the person who reaches it.",
       "sceneTitle": "Daughter, Calling",
       "choices": [
         {
           "text": "Tell her what's been going on with the doctor",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You tell her what's been going on with the doctor. The way toward Memoir opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Save it for dinner",
-          "consequence": "Family in person.",
+          "consequence": "You save it for dinner. The way toward Memoir opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You decide to write a memoir. The memoir is, finally, the honest one. The publisher, surprising you, is grateful.",
+      "text": "You decide to write a memoir. The memoir is, finally, the honest one. The publisher, surprising you, is grateful. Both choices lead to Last Year, but “Lead with the failure” arrives there with a different cost than “Lead with the lessons.”",
       "sceneTitle": "Memoir",
       "choices": [
         {
           "text": "Lead with the failure",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You lead with the failure. The way toward Last Year opens, and something on the other side seems to notice.",
           "nextNodeId": "s21"
         },
         {
           "text": "Lead with the lessons",
-          "consequence": "You commit to “Lead with the lessons.” The story records the instinct as “Frame” and carries it forward.",
+          "consequence": "You commit to lead with the lessons. It carries you into Last Year while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The diagnosis progresses, slowly. You spend time at the lake with your wife. The country, mostly, recovers.",
+      "text": "The diagnosis progresses, slowly. You spend time at the lake with your wife. The country, mostly, recovers. The paths divide here: “Spend the last good year with family” leads into Legacy of the Report, while “Spend it on one last public good” makes Lake House the next reckoning. A third choice, “Take the third path,” keeps One Last Good in play.",
       "sceneTitle": "Last Year",
       "choices": [
         {
           "text": "Spend the last good year with family",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Family.",
+          "consequence": "You choose to spend the last good year with family. By Legacy of the Report, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_legacy"
         },
         {
           "text": "Spend it on one last public good",
-          "consequence": "“Spend it on one last public good” closes one possibility and opens another. The moment leaves a clear note behind: Service.",
+          "consequence": "You choose to spend it on one last public good. By Lake House, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you into One Last Good while the safer possibility closes without making a sound.",
           "nextNodeId": "end_service"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_legacy",
-      "text": "The report becomes the foundation for the cybersecurity reforms that follow. You are remembered for the honesty more than the presidency. You decide, late, that that is exactly right.",
+      "text": "The report becomes the foundation for the cybersecurity reforms that follow. You are remembered for the honesty more than the presidency. You decide, late, that that is exactly right. The road into Legacy of the Report began with “Spend the last good year with family” in Last Year; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Legacy of the Report",
       "choices": [],
       "isEnding": true,

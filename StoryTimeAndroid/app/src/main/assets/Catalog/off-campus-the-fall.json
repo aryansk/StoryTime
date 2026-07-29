@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The off-campus house is bigger and dustier than the brochure suggested. Your three teammates haul a couch. Your maybe-girlfriend Hannah arrives, surprising everyone but you, with a houseplant.",
+      "text": "The off-campus house is bigger and dustier than the brochure suggested. Your three teammates haul a couch. Your maybe-girlfriend Hannah arrives, surprising everyone but you, with a houseplant. Choose “Help her find a spot for the plant” and Bookstore comes into view; choose “Keep helping with the couch” and the road bends toward The Captain.",
       "sceneTitle": "Move-In",
       "choices": [
         {
           "text": "Help her find a spot for the plant",
-          "consequence": "There is no taking “Help her find a spot for the plant” back. Small choice shapes the silence before the next moment arrives.",
+          "consequence": "You help her find a spot for the plant. It carries you toward Bookstore and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s2"
         },
         {
           "text": "Keep helping with the couch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Big choice.",
+          "consequence": "You choose to keep helping with the couch. The way to The Captain opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Hannah and you wander the bookstore together. She buys a course pack. You buy a coffee. She holds your hand on the walk back like you've been together for a year. You haven't.",
+      "text": "Hannah and you wander the bookstore together. She buys a course pack. You buy a coffee. She holds your hand on the walk back like you've been together for a year. You haven't. “Talk about what 'this' is” draws you toward The Job; “Don't talk about it; let it be” leaves Hannah's Parents waiting on the other side.",
       "sceneTitle": "Bookstore",
       "choices": [
         {
           "text": "Talk about what 'this' is",
-          "consequence": "The decision settles the question for now. Its verdict—Define—follows you into whatever comes next.",
+          "consequence": "You commit to talk about what 'this' is. By The Job, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't talk about it; let it be",
-          "consequence": "There is no taking “Don't talk about it; let it be” back. Float shapes the silence before the next moment arrives.",
+          "consequence": "You don't talk about it; let it be. It carries you toward Hannah's Parents and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Be visibly happy for Garrett",
-          "consequence": "The decision settles the question for now. Its verdict—Sportsmanship—follows you into whatever comes next.",
+          "consequence": "You commit to be visibly happy for Garrett. By The Job, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Let yourself feel disappointed privately",
-          "consequence": "The decision settles the question for now. Its verdict—Honesty—follows you into whatever comes next.",
+          "consequence": "You choose to let yourself feel disappointed privately. The way to Hannah's Parents opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s5"
         }
       ],
@@ -81,12 +81,12 @@
       "choices": [
         {
           "text": "Drop a class to balance",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Triage.",
+          "consequence": "You choose to drop a class to balance. The way to Midterms opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s6"
         },
         {
           "text": "Push through; you can sleep in December",
-          "consequence": "The decision settles the question for now. Its verdict—Grit—follows you into whatever comes next.",
+          "consequence": "You choose to push through; you can sleep in December. The way to The Tournament opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Hannah's parents visit campus for a weekend. They invite you to dinner. You realize you are now, suddenly, in 'meet the parents' territory. They are nice. Her dad asks you about hockey statistics.",
+      "text": "Hannah's parents visit campus for a weekend. They invite you to dinner. You realize you are now, suddenly, in 'meet the parents' territory. They are nice. Her dad asks you about hockey statistics. The paths divide here: “Be honest about your stats” leads into Midterms, while “Be honest about your major” makes The Tournament the next reckoning.",
       "sceneTitle": "Hannah's Parents",
       "choices": [
         {
           "text": "Be honest about your stats",
-          "consequence": "The decision settles the question for now. Its verdict—Plain—follows you into whatever comes next.",
+          "consequence": "You be honest about your stats. It carries you toward Midterms and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s6"
         },
         {
           "text": "Be honest about your major",
-          "consequence": "There is no taking “Be honest about your major” back. Pivot shapes the silence before the next moment arrives.",
+          "consequence": "You choose to be honest about your major. The way to The Tournament opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Three exams in a week. Your professor sees you fall asleep in lecture. He, kindly, does not call you out. He, kindly, also schedules you for office hours.",
+      "text": "Three exams in a week. Your professor sees you fall asleep in lecture. He, kindly, does not call you out. He, kindly, also schedules you for office hours. To choose “Go to office hours” means meeting Garrett's Bad Stretch; “Skip; sleep instead” sends you toward Hannah's Friend instead.",
       "sceneTitle": "Midterms",
       "choices": [
         {
           "text": "Go to office hours",
-          "consequence": "There is no taking “Go to office hours” back. Receive help shapes the silence before the next moment arrives.",
+          "consequence": "You go to office hours. It carries you toward Garrett's Bad Stretch and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s8"
         },
         {
           "text": "Skip; sleep instead",
-          "consequence": "“Skip; sleep instead” closes one possibility and opens another. The moment leaves a clear note behind: Body first.",
+          "consequence": "You choose to skip; sleep instead. The way to Hannah's Friend opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A weekend tournament in Maine. You play well. Hannah cannot come. You text her between games. She is, you can tell, slightly bored of being texted between games.",
+      "text": "A weekend tournament in Maine. You play well. Hannah cannot come. You text her between games. She is, you can tell, slightly bored of being texted between games. The paths divide here: “Call her after the late game” leads into Garrett's Bad Stretch, while “Sleep; she'll understand” makes Hannah's Friend the next reckoning.",
       "sceneTitle": "The Tournament",
       "choices": [
         {
           "text": "Call her after the late game",
-          "consequence": "Make the effort.",
+          "consequence": "You choose to call her after the late game. The way to Garrett's Bad Stretch opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s8"
         },
         {
           "text": "Sleep; she'll understand",
-          "consequence": "Trust the relationship.",
+          "consequence": "You choose to sleep; she'll understand. The way to Hannah's Friend opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Garrett, the captain, is in a slump. Coach is on him. He, off-ice, doesn't talk to anyone. You realize captain isn't, mostly, a prize. It is a weight.",
+      "text": "Garrett, the captain, is in a slump. Coach is on him. He, off-ice, doesn't talk to anyone. You realize captain isn't, mostly, a prize. It is a weight. The paths divide here: “Talk to Garrett one-on-one” leads into Coach's Office, while “Let him have his space” makes The Conversation the next reckoning.",
       "sceneTitle": "Garrett's Bad Stretch",
       "choices": [
         {
           "text": "Talk to Garrett one-on-one",
-          "consequence": "Be the teammate.",
+          "consequence": "You talk to Garrett one-on-one. It carries you toward Coach's Office and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s10"
         },
         {
           "text": "Let him have his space",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Respect.",
+          "consequence": "You let him have his space. It carries you toward The Conversation and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Initiate something thoughtful this week",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Repair.",
+          "consequence": "You commit to initiate something thoughtful this week. By Coach's Office, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Have a real conversation about it",
-          "consequence": "You commit to “Have a real conversation about it.” The story records the instinct as “Address” and carries it forward.",
+          "consequence": "You commit to have a real conversation about it. By The Conversation, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Decide hockey is for college and beyond",
-          "consequence": "Bet on it.",
+          "consequence": "You choose to decide hockey is for college and beyond. The way to Finals opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s12"
         },
         {
           "text": "Decide hockey is for college, period",
-          "consequence": "Plan for after.",
+          "consequence": "You choose to decide hockey is for college, period. The way to Career Fair opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Reset the relationship on purpose",
-          "consequence": "You commit to “Reset the relationship on purpose.” The story records the instinct as “Refresh” and carries it forward.",
+          "consequence": "You choose to reset the relationship on purpose. The way to Finals opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take it week by week",
-          "consequence": "“Take it week by week” closes one possibility and opens another. The moment leaves a clear note behind: Trial.",
+          "consequence": "You take it week by week. It carries you toward Career Fair and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Go home for the break",
-          "consequence": "“Go home for the break” closes one possibility and opens another. The moment leaves a clear note behind: Family.",
+          "consequence": "You go home for the break. It carries you toward Spring Semester and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay in town with Hannah",
-          "consequence": "There is no taking “Stay in town with Hannah” back. Stay shapes the silence before the next moment arrives.",
+          "consequence": "You stay in town with Hannah. It carries you toward Senior Captain Vote and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Talk to a tech company that interests you",
-          "consequence": "There is no taking “Talk to a tech company that interests you” back. Aim shapes the silence before the next moment arrives.",
+          "consequence": "You choose to talk to a tech company that interests you. The way to Spring Semester opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s14"
         },
         {
           "text": "Talk to the kind sales recruiter",
-          "consequence": "There is no taking “Talk to the kind sales recruiter” back. Pragmatic shapes the silence before the next moment arrives.",
+          "consequence": "You talk to the kind sales recruiter. It carries you toward Senior Captain Vote and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Spring is gentler. You drop a class. You take a writing class instead. The writing class is, embarrassingly, the best class you have taken in college.",
+      "text": "Spring is gentler. You drop a class. You take a writing class instead. The writing class is, embarrassingly, the best class you have taken in college. The distance between Senior Year and Graduation Day begins with the choice between “Pivot toward writing” and “Stay your major.”",
       "sceneTitle": "Spring Semester",
       "choices": [
         {
           "text": "Pivot toward writing",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discover.",
+          "consequence": "You pivot toward writing. It carries you toward Senior Year and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay your major",
-          "consequence": "The decision settles the question for now. Its verdict—Pragmatic—follows you into whatever comes next.",
+          "consequence": "You commit to stay your major. By Graduation Day, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "End of the year. Captains for next season are voted on. Your name is on the list. So is Garrett's, again. You realize you might, this time, want it.",
+      "text": "End of the year. Captains for next season are voted on. Your name is on the list. So is Garrett's, again. You realize you might, this time, want it. The distance between Senior Year and Graduation Day begins with the choice between “Accept the nomination” and “Decline and support Garrett.”",
       "sceneTitle": "Senior Captain Vote",
       "choices": [
         {
           "text": "Accept the nomination",
-          "consequence": "“Accept the nomination” closes one possibility and opens another. The moment leaves a clear note behind: Lead.",
+          "consequence": "You accept the nomination. It carries you toward Senior Year and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s16"
         },
         {
           "text": "Decline and support Garrett",
-          "consequence": "There is no taking “Decline and support Garrett” back. Servant leader shapes the silence before the next moment arrives.",
+          "consequence": "You decline and support Garrett. It carries you toward Graduation Day and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Senior year arrives. You are captain or you aren't. You and Hannah are still, somehow, together. Your professor invites you to TA the intro writing course. The houseplant is huge.",
+      "text": "Senior year arrives. You are captain or you aren't. You and Hannah are still, somehow, together. Your professor invites you to TA the intro writing course. The houseplant is huge. Both choices lead to The Last Home Game, but “Take the TA job” arrives there with a different cost than “Focus only on hockey and Hannah.”",
       "sceneTitle": "Senior Year",
       "choices": [
         {
           "text": "Take the TA job",
-          "consequence": "Build the after.",
+          "consequence": "You commit to take the TA job. By The Last Home Game, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Focus only on hockey and Hannah",
-          "consequence": "Live the season.",
+          "consequence": "You focus only on hockey and Hannah. It carries you toward The Last Home Game and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s18"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Take a mental photo to keep forever",
-          "consequence": "“Take a mental photo to keep forever” closes one possibility and opens another. The moment leaves a clear note behind: Save it.",
+          "consequence": "You take a mental photo to keep forever. It carries you toward The Apartment Lease and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s19"
         },
         {
           "text": "Plan a road trip with Hannah for the summer",
-          "consequence": "The decision settles the question for now. Its verdict—Forward—follows you into whatever comes next.",
+          "consequence": "You plan a road trip with Hannah for the summer. It carries you toward The Apartment Lease and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Senior night. The rink lights, the parents standing, your name read over the PA. You realize this might be the last time you skate in front of people who came because of you.",
+      "text": "Senior night. The rink lights, the parents standing, your name read over the PA. You realize this might be the last time you skate in front of people who came because of you. First Real Monday is already waiting. What changes is whether “Take it in fully” or “Play it like every other game” is the instinct you carry into it.",
       "sceneTitle": "The Last Home Game",
       "choices": [
         {
           "text": "Take it in fully",
-          "consequence": "“Take it in fully” closes one possibility and opens another. The moment leaves a clear note behind: Be present.",
+          "consequence": "You commit to take it in fully. By First Real Monday, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Play it like every other game",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to play it like every other game. By First Real Monday, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "After graduation Hannah and you walk through a small apartment near the city. The kitchen tiles are ugly. The window has good light. You decide together what the year after college looks like.",
+      "text": "After graduation Hannah and you walk through a small apartment near the city. The kitchen tiles are ugly. The window has good light. You decide together what the year after college looks like. First Real Monday will follow either decision, but it will meet a different version of you after “Sign the lease” than after “Wait six months and travel first.”",
       "sceneTitle": "The Apartment Lease",
       "choices": [
         {
           "text": "Sign the lease",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Commit.",
+          "consequence": "You commit to sign the lease. By First Real Monday, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Wait six months and travel first",
-          "consequence": "You commit to “Wait six months and travel first.” The story records the instinct as “Open” and carries it forward.",
+          "consequence": "You commit to wait six months and travel first. By First Real Monday, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,22 +380,22 @@
     },
     {
       "id": "s20",
-      "text": "First real Monday after college. The world is, finally, not a syllabus. You sit on a porch and look at it. You decide which version of your life starts now.",
+      "text": "First real Monday after college. The world is, finally, not a syllabus. You sit on a porch and look at it. You decide which version of your life starts now. Choose “Build the after” and After College comes into view; choose “Stay present for now” and the road bends toward The Long Saturday. A third choice, “Take the road trip first,” keeps Summer Road Trip in play.",
       "sceneTitle": "First Real Monday",
       "choices": [
         {
           "text": "Build the after",
-          "consequence": "You commit to “Build the after.” The story records the instinct as “Career on” and carries it forward.",
+          "consequence": "You choose to build the after. The way to After College opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "end_after"
         },
         {
           "text": "Stay present for now",
-          "consequence": "There is no taking “Stay present for now” back. Lean in shapes the silence before the next moment arrives.",
+          "consequence": "You commit to stay present for now. By The Long Saturday, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "end_present"
         },
         {
           "text": "Take the road trip first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Drive west.",
+          "consequence": "You commit to take the road trip first. By Summer Road Trip, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "end_road"
         }
       ],

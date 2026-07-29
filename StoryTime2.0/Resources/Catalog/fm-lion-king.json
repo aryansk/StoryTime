@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Sun, savanna, Rafiki lifting you above.",
+      "text": "Sun, savanna, Rafiki lifting you above. Elephant Graveyard comes either way; its meaning changes with the difference between “Stay close to Mufasa” and “Wander early.” At Elephant Graveyard, the decision will matter as memory as well as intent.",
       "sceneTitle": "Pride Rock",
       "choices": [
         {
           "text": "Stay close to Mufasa",
-          "consequence": "You commit to “Stay close to Mufasa.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You stay close to Mufasa. The path to Elephant Graveyard opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wander early",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Spirit.",
+          "consequence": "You commit to wander early. It carries you toward Elephant Graveyard, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Scar tells you about it. You and Nala explore.",
+      "text": "Scar tells you about it. You and Nala explore. Both choices lead to Hyenas, but “Go anyway” arrives there with a different cost than “Stay near home.” At Hyenas, the decision will matter as memory as well as intent.",
       "sceneTitle": "Elephant Graveyard",
       "choices": [
         {
           "text": "Go anyway",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to go anyway. It carries you toward Hyenas, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay near home",
-          "consequence": "There is no taking “Stay near home” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You commit to stay near home. It carries you toward Hyenas, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "They corner you. Mufasa arrives.",
+      "text": "They corner you. Mufasa arrives. You cannot avoid Father's Lesson; you can only decide whether “Run” or “Stand” defines the person who reaches it. By Father's Lesson, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Hyenas",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You choose to run. By Father's Lesson, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stand",
-          "consequence": "You commit to “Stand.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You choose to stand. By Father's Lesson, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Stars and ancestors. The kings of the past watch.",
+      "text": "Stars and ancestors. The kings of the past watch. Both choices lead to Stampede, but “Believe” arrives there with a different cost than “Doubt.” At Stampede, the decision will matter as memory as well as intent.",
       "sceneTitle": "Father's Lesson",
       "choices": [
         {
           "text": "Believe",
-          "consequence": "You commit to “Believe.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to believe. It carries you toward Stampede, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         },
         {
           "text": "Doubt",
-          "consequence": "There is no taking “Doubt” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to doubt. By Stampede, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Scar's plan. Wildebeests in the gorge.",
+      "text": "Scar's plan. Wildebeests in the gorge. Both choices lead to Mufasa Saves, but “Climb the tree” arrives there with a different cost than “Run with them.” In Stampede, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Stampede",
       "choices": [
         {
           "text": "Climb the tree",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You choose to climb the tree. By Mufasa Saves, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Run with them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to run with them. It carries you toward Mufasa Saves, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Mufasa pulls you up. Scar drops him.",
+      "text": "Mufasa pulls you up. Scar drops him. You cannot avoid Run; you can only decide whether “See it” or “Look away” defines the person who reaches it. At Run, the decision will matter as memory as well as intent.",
       "sceneTitle": "Mufasa Saves",
       "choices": [
         {
           "text": "See it",
-          "consequence": "You commit to “See it.” The story records the instinct as “Witness” and carries it forward.",
+          "consequence": "You see it. The path to Run opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         },
         {
           "text": "Look away",
-          "consequence": "The decision settles the question for now. Its verdict—Spare—follows you into whatever comes next.",
+          "consequence": "You choose to look away. By Run, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Scar tells you to run. You believe him.",
+      "text": "Scar tells you to run. You believe him. Hakuna Matata is already waiting. What changes is whether “Run far” or “Run nearby” is the instinct you carry into it. By Hakuna Matata, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Run",
       "choices": [
         {
           "text": "Run far",
-          "consequence": "You commit to “Run far.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You choose to run far. By Hakuna Matata, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Run nearby",
-          "consequence": "There is no taking “Run nearby” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You commit to run nearby. It carries you toward Hakuna Matata, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Timon and Pumbaa. Bugs for dinner.",
+      "text": "Timon and Pumbaa. Bugs for dinner. Growing Up is already waiting. What changes is whether “Try the bugs” or “Refuse” is the instinct you carry into it. In Hakuna Matata, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Hakuna Matata",
       "choices": [
         {
           "text": "Try the bugs",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You choose to try the bugs. By Growing Up, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to refuse. By Growing Up, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Years pass. You forget the rock. You almost forget yourself.",
+      "text": "Years pass. You forget the rock. You almost forget yourself. Nala Returns is already waiting. What changes is whether “Sing” or “Stay quiet” is the instinct you carry into it. In Growing Up, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Growing Up",
       "choices": [
         {
           "text": "Sing",
-          "consequence": "“Sing” closes one possibility and opens another. The moment leaves a clear note behind: Joy.",
+          "consequence": "You commit to sing. It carries you toward Nala Returns, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay quiet",
-          "consequence": "There is no taking “Stay quiet” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You stay quiet. The path to Nala Returns opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "She finds you. The pride is starving.",
+      "text": "She finds you. The pride is starving. You cannot avoid Rafiki; you can only decide whether “Argue” or “Listen” defines the person who reaches it. At Rafiki, the decision will matter as memory as well as intent.",
       "sceneTitle": "Nala Returns",
       "choices": [
         {
           "text": "Argue",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to argue. By Rafiki, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Listen",
-          "consequence": "There is no taking “Listen” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to listen. It carries you toward Rafiki, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He appears with a stick. He says your father lives in you.",
+      "text": "He appears with a stick. He says your father lives in you. You cannot avoid Mufasa in the Sky; you can only decide whether “Look in the water” or “Look away” defines the person who reaches it.",
       "sceneTitle": "Rafiki",
       "choices": [
         {
           "text": "Look in the water",
-          "consequence": "There is no taking “Look in the water” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You choose to look in the water. By Mufasa in the Sky, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Look away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to look away. By Mufasa in the Sky, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Remember who you are.",
+      "text": "Remember who you are. Run Home comes either way; its meaning changes with the difference between “Vow” and “Doubt.” By Run Home, the people waiting will remember which instinct carried you forward. Rafiki watches to see whether memory becomes courage.",
       "sceneTitle": "Mufasa in the Sky",
       "choices": [
         {
           "text": "Vow",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You choose to vow. By Run Home, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Doubt",
-          "consequence": "“Doubt” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You doubt. The path to Run Home opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Pride Rock is a wasteland. Hyenas everywhere.",
+      "text": "Pride Rock is a wasteland. Hyenas everywhere. Sarabi will follow either decision, but it will meet a different version of you after “Climb quietly” than after “Roar.” At Sarabi, the decision will matter as memory as well as intent.",
       "sceneTitle": "Run Home",
       "choices": [
         {
           "text": "Climb quietly",
-          "consequence": "There is no taking “Climb quietly” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You climb quietly. The path to Sarabi opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Roar",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You roar. The path to Sarabi opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Your mother sees you. Briefly, she sees Mufasa.",
+      "text": "Your mother sees you. Briefly, she sees Mufasa. The road still runs toward Scar's Confession. Its next turn depends on the difference between choosing “Embrace her” and choosing “Stand back.” At Scar's Confession, the decision will matter as memory as well as intent.",
       "sceneTitle": "Sarabi",
       "choices": [
         {
           "text": "Embrace her",
-          "consequence": "You commit to “Embrace her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to embrace her. By Scar's Confession, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stand back",
-          "consequence": "There is no taking “Stand back” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You stand back. The path to Scar's Confession opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "He admits to killing your father.",
+      "text": "He admits to killing your father. Fire is already waiting. What changes is whether “Lunge” or “Hold” is the instinct you carry into it. By Fire, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Scar's Confession",
       "choices": [
         {
           "text": "Lunge",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Anger.",
+          "consequence": "You commit to lunge. It carries you toward Fire, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hold",
-          "consequence": "“Hold” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to hold. It carries you toward Fire, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Lightning. The rock burns.",
+      "text": "Lightning. The rock burns. Scar at the Edge will follow either decision, but it will meet a different version of you after “Climb high” than after “Fight low.” By Scar at the Edge, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Fire",
       "choices": [
         {
           "text": "Climb high",
-          "consequence": "“Climb high” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You climb high. The path to Scar at the Edge opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         },
         {
           "text": "Fight low",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You fight low. The path to Scar at the Edge opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "He lies one more time.",
+      "text": "He lies one more time. Hyenas Decide is already waiting. What changes is whether “Spare him” or “Throw him” is the instinct you carry into it. By Hyenas Decide, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Scar at the Edge",
       "choices": [
         {
           "text": "Spare him",
-          "consequence": "“Spare him” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You choose to spare him. By Hyenas Decide, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Throw him",
-          "consequence": "There is no taking “Throw him” back. Justice shapes the silence before the next moment arrives.",
+          "consequence": "You throw him. The path to Hyenas Decide opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "They turn on Scar. The rock is yours.",
+      "text": "They turn on Scar. The rock is yours. Rain will follow either decision, but it will meet a different version of you after “Rain comes” than after “Mourn the dead.” By Rain, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Hyenas Decide",
       "choices": [
         {
           "text": "Rain comes",
-          "consequence": "“Rain comes” closes one possibility and opens another. The moment leaves a clear note behind: Renewal.",
+          "consequence": "You commit to rain comes. It carries you toward Rain, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         },
         {
           "text": "Mourn the dead",
-          "consequence": "You commit to “Mourn the dead.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to mourn the dead. It carries you toward Rain, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Rain on the rock. Sun after.",
+      "text": "Rain on the rock. Sun after. Both choices lead to Cub, but “Roar” arrives there with a different cost than “Stand quiet.” At Cub, the decision will matter as memory as well as intent. The rain cannot choose what kind of king steps into the sunlight.",
       "sceneTitle": "Rain",
       "choices": [
         {
           "text": "Roar",
-          "consequence": "You commit to “Roar.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to roar. By Cub, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stand quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to stand quiet. By Cub, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Years later. Rafiki lifts your child.",
+      "text": "Years later. Rafiki lifts your child. Kings of the Past comes either way; its meaning changes with the difference between “Hold Nala's hand” and “Stand alone.” In Cub, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Cub",
       "choices": [
         {
           "text": "Hold Nala's hand",
-          "consequence": "There is no taking “Hold Nala's hand” back. Family shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hold Nala's hand. By Kings of the Past, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stand alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You commit to stand alone. It carries you toward Kings of the Past, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You teach your child the stars. The cycle is, again, a circle.",
+      "text": "You teach your child the stars. The cycle is, again, a circle. “Pass it on” draws you toward King; “Keep it private” leaves The Council waiting on the other side. A third choice, “Take the third path,” keeps Circle in play.",
       "sceneTitle": "Kings of the Past",
       "choices": [
         {
           "text": "Pass it on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to pass it on. By King, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_king"
         },
         {
           "text": "Keep it private",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to keep it private. By The Council, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_council"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Circle, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_legacy"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_king",
-      "text": "You rule for decades. The savanna heals. Songs are sung about you. Some of them, sweetly, are about Pumbaa.",
+      "text": "You rule for decades. The savanna heals. Songs are sung about you. Some of them, sweetly, are about Pumbaa. The road into King began with “Pass it on” in Kings of the Past; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "King",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_council",
-      "text": "You build a council with hyenas at the table. The pride disagrees. The pride is, in the end, stronger for it.",
+      "text": "You build a council with hyenas at the table. The pride disagrees. The pride is, in the end, stronger for it. The road into The Council began with “Keep it private” in Kings of the Past; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Council",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_legacy",
-      "text": "You die old. Your cub becomes the next ruler. They, in turn, raise their own. The circle, you decide, is exactly as small as it ever was. And exactly as wide.",
+      "text": "You die old. Your cub becomes the next ruler. They, in turn, raise their own. The circle, you decide, is exactly as small as it ever was. And exactly as wide. The road into Circle began with “Take the third path” in Kings of the Past; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Circle",
       "choices": [],
       "isEnding": true,

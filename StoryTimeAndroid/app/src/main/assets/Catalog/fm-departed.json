@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "He sees you as a boy in a deli and he sees what he can use.",
+      "text": "You're twelve, buying bread for your grandmother, and the man at the end of the counter pays for it and asks whether you're any good at school. He says the church wants boys on their knees and he'd rather see one stand up. He hands you groceries you can barely carry, and then an envelope, every month, for the next twenty years. Nobody on the street mentions it to your mother.",
       "sceneTitle": "Costello at the Counter",
       "choices": [
         {
           "text": "Take the envelope",
-          "consequence": "“Take the envelope” closes one possibility and opens another. The moment leaves a clear note behind: Tempted.",
+          "consequence": "You take it, carry the bread home, and say nothing at dinner. That's the whole transaction: a boy learns he can be paid to stay quiet.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You say no on the step and he laughs and puts it in your coat pocket anyway. Refusing something you then keep is a habit you'll build a career on.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A class of cadets, a sergeant with a file with your name on it.",
+      "text": "Graduation is in nine days and two men in a windowless room have your family tree spread on the desk. An uncle who did four years. A father who worked the airport, stayed straight, and got nothing for it. They explain that your record is exactly wrong enough to be useful, and offer you a cell, a rap sheet, and no badge for as long as it takes. Outside, the other cadets are having their photographs taken.",
       "sceneTitle": "State Police Academy",
       "choices": [
         {
           "text": "Volunteer to go deep",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You say yes in the room without asking how long, and inside a month you have a conviction, a probation officer, and no way on earth to prove you're police.",
           "nextNodeId": "s3"
         },
         {
           "text": "Take the badge",
-          "consequence": "You commit to “Take the badge.” The story records the instinct as “Safe” and carries it forward.",
+          "consequence": "You picture the uniform, the pension, the whole clean version of it, and let yourself have that for about four seconds before signing the other paper.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Old neighborhood, old contempt, an opening across the bar.",
+      "text": "Sean deals a little and talks a great deal and thinks you're beneath him, which is the opening. You take the stool at the end of the Lynn bar and let him hold court for two hours about a man he calls the boss like it's a first name. Then you break a glass across his cheekbone over nothing at all, in front of six witnesses who count. By Friday the story has reached the right ear intact.",
       "sceneTitle": "Cousin Sean",
       "choices": [
         {
           "text": "Talk to him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You spend three weeks being family, drinking with a man you can't stand, and it works. You catch yourself laughing at one of his jokes and it doesn't feel like acting.",
           "nextNodeId": "s4"
         },
         {
           "text": "Walk past",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You let the easy door shut and take the hard one — a charge, two months inside, a reputation earned the slow way. Nothing about it can be traced to a phone call.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A psychiatrist with a sharp pen and a softer voice.",
+      "text": "Court-mandated, twice a week, eighteen minutes apiece because that's what the state pays for. She has a pen she clicks while deciding whether you're lying, and she's right more often than she has any business being. She asks what you do for a living and you have three answers ready and use the worst one. She writes something down. Eventually she sees both of you in that chair, and never learns it was two men.",
       "sceneTitle": "Madolyn",
       "choices": [
         {
           "text": "Open up",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You give her one true thing about your father to buy back the rest of the hour. It goes off in your chest for two days afterward like a swallowed pill.",
           "nextNodeId": "s5"
         },
         {
           "text": "Lie",
-          "consequence": "“Lie” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You lie fluently and she lets you, and clicks the pen, and asks the same question a different way nine days later. She's patient in a way you aren't built for.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A bar, a smashed glass, an audition.",
+      "text": "Two of Costello's men come to look at you in a back room off Broadway with the jukebox unplugged. It's a test and everybody in the room knows it's a test, and the point is not whether you win. One of them is wearing a cast on his arm. You have about a second to decide whether to be the man who waits to be hit or the man who doesn't, and both answers are correct answers to different questions.",
       "sceneTitle": "First Fight",
       "choices": [
         {
           "text": "Hit first",
-          "consequence": "You commit to “Hit first.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go through the cast and hear it crack, and the room's opinion of you settles in that instant. You throw up in an alley afterward, alone, which nobody grades.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take the hit",
-          "consequence": "“Take the hit” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You let it land, stay standing, and smile through the blood, and one of them nods. You have bought their interest with a tooth and a week of headaches.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "French, Fitzy, a Chinese deal at a Quincy warehouse.",
+      "text": "Fourteen months to get inside, and inside turns out to be four men and a great deal of driving. French does the arithmetic and never raises his voice. Fitzy laughs at things that aren't funny. There's a buyer coming from out of state for something in crates, and everyone has been told a different date on purpose. Costello sits in the back with a paper bag on his lap and asks you, pleasantly, where you were on Tuesday.",
       "sceneTitle": "Costello's Inner Ring",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "There is no taking “Watch” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You memorise plate numbers and drinking times and say nothing for four months. Every night you don't act is a night somebody gets hurt across town.",
           "nextNodeId": "s7"
         },
         {
           "text": "Act",
-          "consequence": "The decision settles the question for now. Its verdict—Reckless—follows you into whatever comes next.",
+          "consequence": "You put yourself forward on a job and it goes well, so now they trust you, and now you're the one who drove. Evidence has a habit of pointing at whoever was in the car.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Servers in crates trundled across a wet warehouse floor.",
+      "text": "Quincy at low tide, a warehouse roof leaking onto pallets of stolen processors, a buyer from out of state who pays in cash and won't shake hands. Costello collects everybody's phone at the door and misses the one in your sock. Four streets away there's a van of federal agents waiting on a signal. You have perhaps ninety seconds while the crates are counted and every back in the building is turned.",
       "sceneTitle": "Microprocessors",
       "choices": [
         {
           "text": "Tip the cops",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You send four characters with your thumb inside your pocket and then stand there twenty minutes being looked at. The raid is clean, and Costello starts counting who was present.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay silent",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You let it go through, because a rat gets found and a dead man tells nobody anything. The buyer walks. Two weeks later you read what those crates were for.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A wire under a folder in the captain's drawer.",
+      "text": "The captain's office stands empty for nine minutes on Thursdays while he runs the briefing. The drawer sticks. You've done this in training with a stopwatch and a supervisor watching and it took forty seconds, and now your hands are wrong and the corridor has a window in it. A wire under a folder, the folder under a report, the drawer closed to precisely the gap it was open at.",
       "sceneTitle": "Tap",
       "choices": [
         {
           "text": "Plant it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You get it in and get out and stand at the coffee machine holding a cup you don't want. Nothing happens for six days, which is how you know it's working.",
           "nextNodeId": "s9"
         },
         {
           "text": "Pull back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You shut the drawer with nothing in it and walk away. The caution keeps you alive another month and costs a man on a roof everything he had.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Captain Queenan in a coat, your name in your mouth.",
+      "text": "Queenan is the only living man who can prove you are a police officer, and he meets you on rooftops in a raincoat because your file is in his head and nowhere else. He asks how you're sleeping, and he means it. You want to tell him you have lost track of which of your own opinions are real, and instead you brief him on a warehouse. He says three more weeks. He's been saying three more weeks since March.",
       "sceneTitle": "Queenan on the Roof",
       "choices": [
         {
           "text": "Meet him",
-          "consequence": "You commit to “Meet him.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go up to the roof because he is the only person who knows your name, and his knowing it is the one thing keeping you from disappearing entirely.",
           "nextNodeId": "s10"
         },
         {
           "text": "Cancel",
-          "consequence": "You commit to “Cancel.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You text him off and sit in a parking garage for an hour instead. Missing him by one afternoon is not the same as saving him, and you'll do that arithmetic for years.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Falling glass, a body on the pavement, a phone in pieces on a roof.",
+      "text": "They come up the stairwell with the door already standing open. Glass first, then a coat, then a sound off the pavement that nothing in your training prepared you for, and it is finished before you are up off your knees at the parapet. Somebody stamps a phone into the gravel. Everyone looks at everyone. Six men on a roof, one of them called it in, and every one of them is watching your face.",
       "sceneTitle": "Stairs",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go down the fire escape with your hands shaking too hard to hold the rail, and you don't stop until you're four neighbourhoods away and it's dark.",
           "nextNodeId": "s11"
         },
         {
           "text": "Confront",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You look each of them in the eye and ask the question first, loudly, because the man asking is never the man being asked. It works. It costs you whatever was left.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Toothbrush left on a counter that is not yours.",
+      "text": "Her place has a plant dying politely on the sill and a spare key she gave you without ceremony. There's a second toothbrush in the glass and it isn't yours. She hasn't lied about anything; she has simply stopped explaining, and you have stopped having the standing to ask. You sit on the edge of her bath at two in the morning working out whether you're permitted to be the one who's hurt.",
       "sceneTitle": "Madolyn's Apartment",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "“Stay” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You get back into her bed and hold on and say nothing, and she lets you, and in the morning neither of you mentions the glass.",
           "nextNodeId": "s12"
         },
         {
           "text": "Leave",
-          "consequence": "“Leave” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You leave the key on the counter and take the stairs. Nine blocks later you understand you did it so she'd come after you, and she doesn't.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Costello has been an FBI asset for years.",
+      "text": "It's on a tape in a federal file with half the page blacked out: he has been handing them people since the eighties. Everyone he ever gave up was somebody he wanted gone anyway. All those years of sermons about never talking, and he has been the best-protected informant in Massachusetts, and the men who died for that rule died for a man who never once kept it.",
       "sceneTitle": "Rat on the Tape",
       "choices": [
         {
           "text": "Tell Dignam",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You take it to the one man who would burn the building down over it. He goes very quiet, which from him is louder than shouting, and then he puts in for leave.",
           "nextNodeId": "s13"
         },
         {
           "text": "Use it",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You keep it and start working out who benefits. Two hours of thinking that way and you have stopped being a police officer in any sense that matters.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Manila, blank face, a name in pencil.",
+      "text": "A manila envelope with nothing written on the outside, and inside it a list of every man Costello has placed, and one name in pencil at the bottom that isn't a placement. It's the whole thing. You stand in a stairwell holding it against your chest and understand that handing it over ends you as well, because there is no version of this where you get to be an anonymous witness.",
       "sceneTitle": "Envelope to the Captain",
       "choices": [
         {
           "text": "Hand it over",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You put it on the desk and walk out before it's opened. That is the last free decision you make; everything after it belongs to other men.",
           "nextNodeId": "s14"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You hold on to it four days and spend those days on something small and human. It doesn't get safer, but you get to have had the four days.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A folded flag, a son who looks like the father.",
+      "text": "Full honours, the flag folded into that hard triangle, and a boy of about nineteen with his father's jaw holding it slightly wrong. Everybody in dress uniform. The man who got Queenan killed stands four rows up in a pressed shirt with his hand over his heart, and he is crying, and the terrible part is that the crying is real. He liked him too.",
       "sceneTitle": "Funeral for Queenan",
       "choices": [
         {
           "text": "Speak to the widow",
-          "consequence": "“Speak to the widow” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You give her your name and she has no idea who you are, because to her husband you were a file and a rooftop. You stand there anyway until she's done.",
           "nextNodeId": "s15"
         },
         {
           "text": "Walk past",
-          "consequence": "There is no taking “Walk past” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You get out the side door before the pipes start and sit in the car with the radio off. Grief you aren't allowed to claim just goes somewhere else inside you.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "An audit that wants to know exactly what your unit has been doing.",
+      "text": "Internal review: four inspectors, a conference room with the blinds down, a request for every log the unit has kept since January. Half your work is legally difficult and the other half doesn't exist on paper by design. They ask reasonable questions in a reasonable order. Somewhere in that pile is the one document naming a man who is currently sitting two floors above you, deciding what gets released.",
       "sceneTitle": "Citizens' Affairs",
       "choices": [
         {
           "text": "Open the books",
-          "consequence": "“Open the books” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You hand over everything, including the parts that make you look bad, and the truth comes out slower than a lie would have and then stays out.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stall",
-          "consequence": "“Stall” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You lose them a fortnight in requests for clarification. It buys time for exactly one man, it isn't you, and you don't work out whose until later.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A friendly word, a clap on the shoulder, a phone that has been calling Costello.",
+      "text": "He has the corner locker, a wedding coming up, and a knack for remembering your kid's name. He claps your shoulder on the way past and asks about the audit the way a man asks about weather. In his hand, screen down, is a phone with a number in it that appears in no directory. The two of you have been in this building for years and you like him. That is not a figure of speech.",
       "sceneTitle": "Sullivan in the Locker Room",
       "choices": [
         {
           "text": "Watch him",
-          "consequence": "“Watch him” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You start logging his hours and his calls like a jealous husband, and hate the shape of yourself doing it. He gets friendlier toward you every single day.",
           "nextNodeId": "s17"
         },
         {
           "text": "Confront him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You say one sentence too many by the sinks and watch his face do nothing whatsoever. Now he knows, and knowing was the only advantage either of you had.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "An alley by the Charles, a phone clutched to his ear, the cops at both ends.",
+      "text": "An alley off the river with cruisers blocking both ends and the old man out of the car, phone still up at his ear, still talking, still convinced he is the most protected man in the state. He is seventy and the coat is too big for him now. He calls out a name — the one he has been paying since the deli — and asks it to do something about all this. The call connects.",
       "sceneTitle": "Costello Cornered",
       "choices": [
         {
           "text": "Pull the trigger",
-          "consequence": "“Pull the trigger” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You empty it into him, because a dead man can't say who he was calling, and you spend a decade telling yourself the arrest simply went wrong.",
           "nextNodeId": "s18"
         },
         {
           "text": "Arrest him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You cuff a man who has been buying you since you were twelve, and he laughs the entire way to the car, and he is right to, because he knows what he can say.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Madolyn opens it on a kitchen table you used to share.",
+      "text": "You post it to her because there is nobody else left who would open it, and you don't put a note in. She sits at the table the two of you bought together with the tape and the pencilled name in front of her and the kettle going, and she is four months pregnant, and she doesn't have to press play. She presses play. Nine minutes. Then she starts it again from the beginning.",
       "sceneTitle": "Envelope Delivered",
       "choices": [
         {
           "text": "Don't be there",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You mail it and get on a train and let a woman find out about her whole life alone in a kitchen. It's a mercy for you and nothing at all for her.",
           "nextNodeId": "s19"
         },
         {
           "text": "Wait outside",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You stand across the street watching the window and don't go up, which is the coward's version of being present. The light goes off at midnight.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Doors open on a familiar face you used to drink with.",
+      "text": "Federal building, ground floor, a man in handcuffs beside you and a badge finally in your hand, and it is supposed to be over. The doors open. He is standing there with his service weapon out and his coat still on, a man you have played hockey against, a man from three streets over, and neither of you has anything left to say that would work.",
       "sceneTitle": "Elevator",
       "choices": [
         {
           "text": "Draw",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quick.",
+          "consequence": "You go for it and you are slower, and the last thing in your head is a rooftop and how long the falling seemed to take.",
           "nextNodeId": "s20"
         },
         {
           "text": "Speak",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You get half a word out. Half a word is all the room allows, and it turns out not to have been the important half.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A second cop with a quieter gun than yours.",
+      "text": "Two of you and a prisoner on a gravel roof above the river — the same building, near enough the same square yard. The other man says he understands, says he'd have done the same, says he has a car downstairs and a way to make every part of this disappear if you'll just put it down. He's very calm. Everyone who has ever stood on this roof has been very calm.",
       "sceneTitle": "Roof",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "There is no taking “Trust him” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You drop it an inch, which is all the invitation the arrangement requires. The gravel is wet and the light over the river is coming up grey.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wary.",
+          "consequence": "You keep it level and keep him talking, and nothing you do alters the number of men on the roof or the order in which they leave it.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A clean uniform, a key in a lock, a long ride down to the floor.",
+      "text": "Groceries in one arm, a medal in a bag, a new coat, and the key going into your own lock at half past six. The apartment has been emptied of the woman's things. The door swings on a man standing in your hallway who has been waiting a very long time and has no intention of speaking first. There is no part of this you didn't build yourself, one small transaction at a time, starting with bread.",
       "sceneTitle": "Apartment Door",
       "choices": [
         {
           "text": "Look him in the eye",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You look, and there is nothing in his face to bargain with, and you see what you look like from the outside for the first time in your life.",
           "nextNodeId": "end_rat"
         },
         {
           "text": "Close your eyes",
-          "consequence": "You commit to “Close your eyes.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You shut them like a child in a hallway. The last of it is the smell of the grocery bag and somebody's boots on your own floor.",
           "nextNodeId": "end_card"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You think about her, of all people, at the end — a pen clicking, eighteen minutes, one question you answered wrong on purpose.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_rat",
-      "text": "A rodent runs across the railing in the dawn. The city is gray. Justice has not arrived; arithmetic has.",
+      "text": "A rodent crosses the railing outside in the early light, unhurried, going about its business above a city that has stopped belonging to anyone. Two men off the same six streets, both dead inside a week, both buried by the state with a flag folded on top. Nobody who deserved the truth is still alive to be told it. What arrives isn't justice. It's arithmetic, and it balances, and it does no one any good whatsoever.",
       "sceneTitle": "The Rat in the Window",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_card",
-      "text": "A medal in a frame on a wall in a room nobody goes into. A widow throws the envelope away unopened, then digs it back out.",
+      "text": "A medal in a frame in a room the family keeps shut. Speeches, a folded programme, his name spelled right for once. The envelope reaches her in November and she drops it in the bin under the coffee grounds, then stands in the kitchen a long minute, then takes it back out and wipes it clean. She doesn't open it that night. It goes in a drawer with the ultrasound pictures, which is where her son eventually finds it.",
       "sceneTitle": "Citizens' Award",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "She raises the boy in a town her family does not know. A photograph on the dresser. She does not say which father he looks like.",
+      "text": "She moves ninety miles out to a town where nobody knows either name, and teaches part-time at a clinic. The boy is easy, and loud, and good at arithmetic. One photograph on the dresser, cropped so that only a shoulder and a jaw are in it. When he asks — he is nine, they always ask at nine — she says his father was a policeman and that it's complicated, and she doesn't say which of them she means.",
       "sceneTitle": "Madolyn, Alone",
       "choices": [],
       "isEnding": true,

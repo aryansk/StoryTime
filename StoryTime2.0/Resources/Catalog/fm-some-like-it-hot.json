@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Chicago, 1929, machine guns and a snow boot stuck on a wet floor.",
+      "text": "You and Jerry are behind a stack of tires in a garage off Clark Street when seven men get lined against a wall and the guns start. Jerry cannot move. His galosh is stuck fast in a puddle of engine oil, and Spats Colombo turns his head at the exact sound it makes coming free.",
       "sceneTitle": "Garage",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You go out the side door with the bass and no overcoat and do not stop for fourteen blocks. Jerry keeps insisting he is fine, while running.",
           "nextNodeId": "s2"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You get behind a Packard and hold your breath until you see spots. A gunman looks straight at the fender you are behind, then looks away.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Sweet Sue's Society Syncopators, Florida, three weeks of bus rides.",
+      "text": "Poliakoff has exactly one job on the board: Sweet Sue and her Society Syncopators, three weeks in Florida, bus and berth included. The only two openings are bass and saxophone. Both must be female and under twenty-five. One of you keeps pointing out that you are neither. The other is already looking at the dresses.",
       "sceneTitle": "Booking Agent",
       "choices": [
         {
           "text": "Take the gig",
-          "consequence": "“Take the gig” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You call back in a voice two octaves up and book it on the spot. The secretary asks whether you happen to be related to a Joe.",
           "nextNodeId": "s3"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You hang up and spend four hours pricing train tickets to nowhere. By dinner you are dialing Poliakoff again in the voice.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Borrowed dresses, borrowed wigs, names like Josephine and Daphne.",
+      "text": "The wardrobe woman gives you two dresses, two wigs, and one piece of advice concerning knees. Josephine walks like a woman carrying an apology. Daphne is a name Jerry invents right there on the platform, because he flatly refuses to be a Geraldine, and he says it like he has been waiting his whole life.",
       "sceneTitle": "Heels",
       "choices": [
         {
           "text": "Walk small",
-          "consequence": "You commit to “Walk small.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You take short steps, keep your chin down, and nobody looks twice, which turns out to be an insult of its own particular flavor.",
           "nextNodeId": "s4"
         },
         {
           "text": "Strut",
-          "consequence": "There is no taking “Strut” back. Bold shapes the silence before the next moment arrives.",
+          "consequence": "Jerry sails down the platform hips first, a porter whistles, and Jerry says thank you before he can get his mouth under control.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Sugar Kane, a flask, a ukulele.",
+      "text": "Sugar Kane plays ukulele, sings, and travels with a flask strapped somewhere no polite person would search. Sweet Sue has fired four girls for drinking and keeps a list. On the platform the flask hits concrete and rolls, and your shoe comes down on it half a second before Sue turns around.",
       "sceneTitle": "Train Berth",
       "choices": [
         {
           "text": "Help her hide it",
-          "consequence": "“Help her hide it” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You palm it into your garter and hand it back in the corridor. She kisses your cheek. Josephine has to sit down for a minute.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay still",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You leave it lying there and watch her scramble for it. She thanks you afterward for not saying anything, which is considerably worse.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A whole band in your berth with a hot water bottle and a salami.",
+      "text": "It begins with Sugar climbing into Daphne's berth to get warm and ends with the entire brass section in there, plus a hot water bottle, a salami the length of your arm, and somebody mixing drinks in a rubber bag. Jerry, horizontal under six women, is having a religious experience with his eyes open.",
       "sceneTitle": "Late Night",
       "choices": [
         {
           "text": "Host them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "Daphne calls for more ice. It runs until the conductor arrives, and afterward Jerry lies awake staring at a ceiling four inches from his nose.",
           "nextNodeId": "s6"
         },
         {
           "text": "Throw them out",
-          "consequence": "There is no taking “Throw them out” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You hiss that Sue is coming and clear the berth in nine seconds flat. Jerry does not speak one word to you until Ocala.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A retiree named Osgood who likes your ankles.",
+      "text": "The elevator at the Seminole Ritz contains one small millionaire named Osgood Fielding the Third, married either three times or seven depending which lawyer you ask. He surveys the pair of you, makes his selection, and pinches Daphne. Daphne turns around and pinches him back, hard, entirely on principle.",
       "sceneTitle": "Hotel Lobby",
       "choices": [
         {
           "text": "Refuse politely",
-          "consequence": "You commit to “Refuse politely.” The story records the instinct as “Polite” and carries it forward.",
+          "consequence": "You get between them and explain that Daphne is engaged. Osgood asks to whom, and produces a small notebook and a silver pencil.",
           "nextNodeId": "s7"
         },
         {
           "text": "Encourage him",
-          "consequence": "“Encourage him” closes one possibility and opens another. The moment leaves a clear note behind: Mischievous.",
+          "consequence": "You mention that Daphne is very fond of boats. By dinner there are flowers in the room and a card with a yacht's name on it.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Shell collectors and a borrowed Cary Grant accent.",
+      "text": "You need money and a story, so you take a bellhop's blazer, a yachting cap, and an accent you last heard in a movie house, and you sit on the sand pointedly not looking at Sugar until she comes over. Shell Oil, you tell her. Junior. She says she has heard of the shells.",
       "sceneTitle": "Beach",
       "choices": [
         {
           "text": "Pretend to be him",
-          "consequence": "You commit to “Pretend to be him.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You run the voice for ninety unbroken minutes and she believes every syllable. Behind you in a beach bag, Josephine's wig is waiting patiently.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay safe",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You nearly walk away. Then she mentions she is looking for a man with glasses and money, and your hand is already on the borrowed cap.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Osgood's tender pulls up and Daphne is invited to dance the night away.",
+      "text": "Osgood's tender comes to the dock with a man in white gloves and an engraved invitation for Daphne to dine aboard the New Caledonia. The difficulty is that you need that yacht empty for the evening, and the only way to empty it is to keep Osgood ashore, dancing, for as long as a person can dance.",
       "sceneTitle": "Yacht",
       "choices": [
         {
           "text": "Send her",
-          "consequence": "You commit to “Send her.” The story records the instinct as “Cunning” and carries it forward.",
+          "consequence": "You promise Jerry it is one night of tango and nothing more. He asks what happens when the music stops. You have no answer ready.",
           "nextNodeId": "s9"
         },
         {
           "text": "Cancel",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You call it off and then find yourself with no yacht, no story, and a girl expecting a dock at eight. You uncancel within the hour.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A rose, a tilt, twelve hours that pass like four.",
+      "text": "Osgood dances like a man with a rented heart. Rose in the teeth, cheek against sternum, and the band at the Rendezvous plays until three because he pays them by the hour to. Jerry comes back at dawn shaking maracas, a flower behind one ear, and announces to the room that he is engaged.",
       "sceneTitle": "Tango",
       "choices": [
         {
           "text": "Lead",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Bold.",
+          "consequence": "Daphne leads the entire night and Osgood lets her, delighted beyond measure, which is the precise moment the real trouble begins.",
           "nextNodeId": "s10"
         },
         {
           "text": "Follow",
-          "consequence": "There is no taking “Follow” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "Jerry allows himself to be led for four straight hours and comes home humming. Nobody who hums like that is thinking clearly about anything.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Engagement to a fictional Shell Oil heir falling apart on a yacht.",
+      "text": "The Shell Oil heir has been recalled to Venezuela to marry a woman he has never met. You wrote that. You wrote it on hotel paper and had a bellhop carry it up. Now Sugar sits on a bandstand wearing a bracelet you bought with Osgood's money, singing about being through with love to a nearly empty room.",
       "sceneTitle": "Sugar in Tears",
       "choices": [
         {
           "text": "Comfort her",
-          "consequence": "You commit to “Comfort her.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "Josephine sits down beside her and says something kind in the wrong voice, and Sugar leans into a shoulder that has no business being there.",
           "nextNodeId": "s11"
         },
         {
           "text": "Confess",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You get as far as opening your mouth. Then you see Spats Colombo checking in at the front desk, and the sentence dies where it stands.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A scene of female solidarity that requires you to keep a beard pressed against your sternum.",
+      "text": "Six girls, one bathtub, and a conversation about men you were never supposed to hear. Sugar tells the room exactly what she wants: a quiet man in glasses who does not play saxophone. You are wedged behind the door with a wig in your fist and both feet standing in a wastebasket, taking notes.",
       "sceneTitle": "Hotel Bath",
       "choices": [
         {
           "text": "Stay still",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You hold the pose until your calf cramps and learn more in four minutes than in nine years of chasing women around Chicago.",
           "nextNodeId": "s12"
         },
         {
           "text": "Bolt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You go out the window onto a ledge in stockings, three floors up, and a seagull regards you with open and unmistakable contempt.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Friends of Italian Opera with familiar faces and bulgy coats in the lobby.",
+      "text": "Friends of Italian Opera fills the lobby with wide lapels, narrow eyes, and violin cases no violin has ever occupied. Spats crosses the carpet eight feet from where you are standing, and you are in heels, holding a clutch, and you have never in your entire life been so grateful for a hat with a veil.",
       "sceneTitle": "Convention",
       "choices": [
         {
           "text": "Disguise harder",
-          "consequence": "The decision settles the question for now. Its verdict—Cunning—follows you into whatever comes next.",
+          "consequence": "You go up a size in veil and add a limp. Jerry adds a fan. Between you, the two of you make one convincing widow.",
           "nextNodeId": "s13"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You reach the stairwell and find two men from Chicago coming up it, so you turn around and attend the banquet instead.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A coffin and a cake and a hidden cake-jumping gunman.",
+      "text": "Little Bonaparte holds a memorial for a colleague nobody in the room misses, and the centerpiece is a cake the size of a bass drum. You are under a table with a tablecloth for a horizon. Six inches from your face, a pair of spats stops walking. Actual spats. White. Immaculate. Not moving.",
       "sceneTitle": "Press Conference for Spats",
       "choices": [
         {
           "text": "Hide",
-          "consequence": "There is no taking “Hide” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You stay all the way under and count your own breaths. Jerry, beside you, eats a dinner roll he located somewhere down there.",
           "nextNodeId": "s14"
         },
         {
           "text": "Watch",
-          "consequence": "You commit to “Watch.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You lift one corner of the cloth to look and see the cake, the candles, and the unmistakable shape of a man crouched inside it.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A cake bursting open with a Tommy gun and Spats Columbo's last objection.",
+      "text": "The lights go down for the cake. What comes out of the cake is not a girl. Spats gets one second to be indignant about the arrangements and does not reach the end of the sentence. Under the table you and Jerry hold absolutely still while a shell casing rolls to a stop against your ankle.",
       "sceneTitle": "Banquet",
       "choices": [
         {
           "text": "Crawl out",
-          "consequence": "You commit to “Crawl out.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You go out on your elbows through a forest of trouser cuffs and reach the kitchen door as somebody near the bandstand calls for the check.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay frozen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You wait until the room empties, and the last man out lifts the tablecloth, looks at two crouching women, and says good evening to both.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A bellboy with a knowing look and the wrong color of wig.",
+      "text": "The bellhop who has been pursuing Josephine since Tuesday finally corners you on the service stairs, and your wig is on backwards, and he does not notice. What he does notice, out loud, is the two men downstairs asking the desk clerk about a bass and a saxophone travelling with the girls' band.",
       "sceneTitle": "Stairs",
       "choices": [
         {
           "text": "Tip him",
-          "consequence": "“Tip him” closes one possibility and opens another. The moment leaves a clear note behind: Practical.",
+          "consequence": "You put a five in his palm and he gives you the room number they asked for. The room number they asked for is yours.",
           "nextNodeId": "s16"
         },
         {
           "text": "Push past",
-          "consequence": "There is no taking “Push past” back. Wild shapes the silence before the next moment arrives.",
+          "consequence": "You shove past him and he shouts something wounded down the stairwell, which brings two men from Chicago up it at a run.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Osgood at the wheel, a Sugar at the dock, a small bag of clothes.",
+      "text": "The plan takes four minutes: fire escape, dock, Osgood's launch, gone. Jerry has packed a bag with a hairbrush in it. You have a bass case and no bass. Sugar is up in a spotlight singing to an audience that includes at least one man who would very much like to shoot you.",
       "sceneTitle": "Boat",
       "choices": [
         {
           "text": "Tell Sugar everything",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You walk out onto a lit stage wearing a wig, kiss her in front of the entire room, and tell her the truth in eight words.",
           "nextNodeId": "s17"
         },
         {
           "text": "Sneak aboard",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cowardly.",
+          "consequence": "You take the fire escape without a word to her and get halfway to the launch before your legs quit cooperating with the plan.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Sugar running, the bass case bouncing, the music starting up again.",
+      "text": "She comes down the dock at a flat run with her shoes in one hand, because Sweet Sue would sooner lose a singer than a downbeat and the band is still playing. Jerry is already in the launch, veil up, explaining the engagement to Osgood, who is nodding. Two overcoats appear at the top of the dock.",
       "sceneTitle": "Pier",
       "choices": [
         {
           "text": "Wait for her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You hold the launch at the pier twenty seconds longer than is survivable while a man in an overcoat starts running. She makes it aboard.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cast off",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You tell Osgood to go, and watch her get smaller on the dock, and then Sugar jumps, badly, and you catch her by one arm.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Osgood at the throttle, the harbor opening.",
+      "text": "Osgood opens the throttle and the harbor unfolds: buoys, pelicans, a horizon the color of a nickel. Sugar is under your coat. Jerry sits very upright in a veil working himself up to something. Osgood, meanwhile, has moved on to the wedding, his mother's likely opinion of it, and a set of family pearls.",
       "sceneTitle": "Engine",
       "choices": [
         {
           "text": "Confess at last",
-          "consequence": "“Confess at last” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You take the wig off in front of Sugar, and she says she knows, she has known since the bandstand, and kisses you regardless.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay in character",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You keep Josephine running another mile of open water because it is easier, and Sugar lets you, which tells you something you would rather not know.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A breeze, a real face, a calm look at the engineer.",
+      "text": "Jerry tries the reasonable objections first. He smokes. He can never have children. There is a shameful history involving a saxophone player. Osgood waves each one away like a fly at a picnic. So Jerry takes the wig off, in the wind, and says it flat out: he is a man. Osgood keeps one hand on the wheel.",
       "sceneTitle": "Wig Off",
       "choices": [
         {
           "text": "Tell him the truth",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You back Jerry up out loud, with your own name and your own voice, and Osgood receives both of them like a weather report.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hold the wig down",
-          "consequence": "There is no taking “Hold the wig down” back. Cowardly shapes the silence before the next moment arrives.",
+          "consequence": "You grab for the wig and get a fistful of wind instead. Certain confessions cannot be caught once they are already moving.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Smoker, never could have children, an entire list.",
+      "text": "The list gets longer and less convincing by the item. Not a natural blonde. Lived with a saxophone player for three years. Cannot cook at all, not even eggs. Osgood, steering with two fingers, has an answer for every one, and the answers keep getting shorter, and the boat does not slow down anywhere in there.",
       "sceneTitle": "Reasons",
       "choices": [
         {
           "text": "Try harder",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You feed Jerry two more disasters from the stern and Osgood disposes of both before either sentence has finished landing.",
           "nextNodeId": "s21"
         },
         {
           "text": "Surrender",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You stop helping and watch Jerry arrive at the end of his own reasons, which is a very particular and recognizable kind of terror.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "He shrugs at the wheel and the boat goes on toward open water.",
+      "text": "Jerry says it plainly one last time. Everything. No wig, no voice, no room left anywhere to hide in. Osgood glances over, shrugs the shrug of a man who has thought about all of this a great deal longer than anyone else in this boat, and says nobody is perfect. The engine keeps its rhythm.",
       "sceneTitle": "Nobody's Perfect",
       "choices": [
         {
           "text": "Laugh",
-          "consequence": "You commit to “Laugh.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You laugh until you have to hold the gunwale, and Sugar laughs, and Osgood assumes cheerfully that the joke concerns somebody else entirely.",
           "nextNodeId": "end_three"
         },
         {
           "text": "Cry",
-          "consequence": "“Cry” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You get unexpectedly wet-eyed near a harbor buoy and blame the wind, which convinces exactly nobody in a boat this size.",
           "nextNodeId": "end_sugar"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You look at open water instead of at the three people around you, and think about a town where not one person knows your face.",
           "nextNodeId": "end_solo"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_three",
-      "text": "Sugar at the bow, Daphne at the stern, Osgood at the helm. None of you knows what the next harbor looks like, and all of you agree to look together.",
+      "text": "Sugar at the bow with her shoes still in her hand. Jerry at the stern, wigless, being consulted about pearls. Osgood at the helm, humming, entirely unbothered by any of it. Nobody aboard has told the truth about themselves in three weeks and now everybody has, all in one afternoon, and the harbor mouth opens onto water none of you has seen. You start composing what to say at the next dock. Then you stop.",
       "sceneTitle": "Florida by Boat",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_sugar",
-      "text": "You and Sugar slip off at the next pier into a small life with a small band and a small apartment and a very large amount of love.",
+      "text": "You get off at the next pier with Sugar and forty-one dollars between you. Inside a year there is a four-piece band, a walk-up over a laundry, and a landlord with strong feelings about the saxophone. She still keeps a flask somewhere. You still cannot hold onto money for a week. Neither of you has run from anything since Tuesday, and Tuesday has already become a story you tell at parties.",
       "sceneTitle": "Sugar and the Bass",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_solo",
-      "text": "You go ashore at a strange town with no act and no friends and you start an honest life that nobody, including you, expected.",
+      "text": "You go ashore at a town with a water tower and one movie house, and you telephone nobody. You get work tuning pianos, which you can actually do, and you pay rent on the day it is due, which you cannot believe about yourself. Nobody here has ever heard you do the accent. Some nights the saxophone comes out; most nights you just sit on the step. It is the first thing you ever picked on purpose.",
       "sceneTitle": "Joe Alone",
       "choices": [],
       "isEnding": true,

@@ -24,17 +24,17 @@
       "choices": [
         {
           "text": "Take the highway, the fast way",
-          "consequence": "Speed is safety until it isn't.",
+          "consequence": "Speed is safety until it isn't. You take the highway, the fast way. The decision moves you toward The Highway and tells everyone present what you are willing to risk.",
           "nextNodeId": "s2"
         },
         {
           "text": "Take the ridge road, the long way",
-          "consequence": "The longer road is sometimes the only road.",
+          "consequence": "The longer road is sometimes the only road. You take the ridge road, the long way. The decision moves you toward The Ridge Road and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         },
         {
           "text": "Wait for the convoy to form up",
-          "consequence": "There is strength in numbers and danger in delay.",
+          "consequence": "There is strength in numbers and danger in delay. You choose to wait for the convoy to form up. It opens the route to The Convoy, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         }
       ],
@@ -48,12 +48,12 @@
       "choices": [
         {
           "text": "Tell him the truth, gently",
-          "consequence": "Children survive honesty better than we think.",
+          "consequence": "Children survive honesty better than we think. You tell him the truth, gently. The decision moves you toward The Wall of Smoke and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         },
         {
           "text": "Tell him everyone's going to be fine",
-          "consequence": "A kind lie can be a kind of bridge.",
+          "consequence": "A kind lie can be a kind of bridge. You choose to tell him everyone's going to be fine. It opens the route to Marcus Knows, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         }
       ],
@@ -62,17 +62,17 @@
     },
     {
       "id": "s3",
-      "text": "The ridge gives you a view you'll never unsee: the whole valley below is a sheet of moving fire, and it is climbing. But up here the road is clear. For now.",
+      "text": "The ridge gives you a view you'll never unsee: the whole valley below is a sheet of moving fire, and it is climbing. But up here the road is clear. For now. To choose “Push the bus faster on the gravel” means meeting The Wall of Smoke; “Slow down for the blind curves” sends you toward The Lead Vehicle instead.",
       "sceneTitle": "The Ridge Road",
       "choices": [
         {
           "text": "Push the bus faster on the gravel",
-          "consequence": "Trade traction for time and pray.",
+          "consequence": "Trade traction for time and pray. You commit to push the bus faster on the gravel. By The Wall of Smoke, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         },
         {
           "text": "Slow down for the blind curves",
-          "consequence": "A controlled bus is a living bus.",
+          "consequence": "A controlled bus is a living bus. You commit to slow down for the blind curves. By The Lead Vehicle, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         }
       ],
@@ -81,17 +81,17 @@
     },
     {
       "id": "s4",
-      "text": "Three other buses and a fire crew gather in the lot. The captain shouts orders, but there's no time and no consensus — and the smoke is already thickening at the fence line.",
+      "text": "Three other buses and a fire crew gather in the lot. The captain shouts orders, but there's no time and no consensus — and the smoke is already thickening at the fence line. The paths divide here: “Break from the convoy and go alone” leads into The Ridge Road, while “Follow the fire crew's lead vehicle” makes The Lead Vehicle the next reckoning.",
       "sceneTitle": "The Convoy",
       "choices": [
         {
           "text": "Break from the convoy and go alone",
-          "consequence": "Sometimes the group is just a slower target.",
+          "consequence": "Sometimes the group is just a slower target. You commit to break from the convoy and go alone. By The Ridge Road, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s3"
         },
         {
           "text": "Follow the fire crew's lead vehicle",
-          "consequence": "Trust the people who run toward this.",
+          "consequence": "Trust the people who run toward this. You choose to follow the fire crew's lead vehicle. It opens the route to The Lead Vehicle, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,17 +100,17 @@
     },
     {
       "id": "s5",
-      "text": "The road vanishes into a gray nothing. Your headlights die against it. A girl in the front seat takes your sleeve. \"I can't see,\" she says, and neither can you.",
+      "text": "The road vanishes into a gray nothing. Your headlights die against it. A girl in the front seat takes your sleeve. \"I can't see,\" she says, and neither can you. “Crawl forward at walking pace” draws you toward The Bridge; “Stop and wait for the smoke to shift” leaves Trapped waiting on the other side.",
       "sceneTitle": "The Wall of Smoke",
       "choices": [
         {
           "text": "Crawl forward at walking pace",
-          "consequence": "Faith in a road you can't see is the whole job.",
+          "consequence": "Faith in a road you can't see is the whole job. You choose to crawl forward at walking pace. It opens the route to The Bridge, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stop and wait for the smoke to shift",
-          "consequence": "Stillness in a fire is a terrible gamble.",
+          "consequence": "Stillness in a fire is a terrible gamble. You commit to stop and wait for the smoke to shift. By Trapped, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -119,17 +119,17 @@
     },
     {
       "id": "s6",
-      "text": "Marcus looks out the window at his street going by, the flames already in it, and stops asking questions. His silence is louder than any scream. The other kids feel it spread.",
+      "text": "Marcus looks out the window at his street going by, the flames already in it, and stops asking questions. His silence is louder than any scream. The other kids feel it spread. The paths divide here: “Get them singing to break the fear” leads into The Animal on the Road, while “Give Marcus a job to do” makes Trapped the next reckoning.",
       "sceneTitle": "Marcus Knows",
       "choices": [
         {
           "text": "Get them singing to break the fear",
-          "consequence": "Noise is a rope thrown to the drowning.",
+          "consequence": "Noise is a rope thrown to the drowning. You choose to get them singing to break the fear. It opens the route to The Animal on the Road, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Give Marcus a job to do",
-          "consequence": "Purpose is the antidote to panic.",
+          "consequence": "Purpose is the antidote to panic. You choose to give Marcus a job to do. It opens the route to Trapped, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,17 +138,17 @@
     },
     {
       "id": "s19",
-      "text": "A deer stands frozen in your high beams, flanks heaving, a refugee like the rest of you. Behind it the brush is already glowing. The kids press to the windows.",
+      "text": "A deer stands frozen in your high beams, flanks heaving, a refugee like the rest of you. Behind it the brush is already glowing. The kids press to the windows. Choose “Edge around it and keep moving” and The Bridge comes into view; choose “Lean on the horn to send it running” and the road bends toward Through the Gap.",
       "sceneTitle": "The Animal on the Road",
       "choices": [
         {
           "text": "Edge around it and keep moving",
-          "consequence": "Mercy is a luxury the fire doesn't grant.",
+          "consequence": "Mercy is a luxury the fire doesn't grant. You edge around it and keep moving. The decision moves you toward The Bridge and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Lean on the horn to send it running",
-          "consequence": "Save what you can, even what isn't yours to save.",
+          "consequence": "Save what you can, even what isn't yours to save. You choose to lean on the horn to send it running. It opens the route to Through the Gap, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -157,17 +157,17 @@
     },
     {
       "id": "s7",
-      "text": "You follow the fire truck's taillights like a prayer. Then it turns down a side road and is gone, and a downed power line writhes across the path ahead, throwing sparks.",
+      "text": "You follow the fire truck's taillights like a prayer. Then it turns down a side road and is gone, and a downed power line writhes across the path ahead, throwing sparks. The distance between The Bridge and The Detour begins with the choice between “Drive over the line fast” and “Find another way around.”",
       "sceneTitle": "The Lead Vehicle",
       "choices": [
         {
           "text": "Drive over the line fast",
-          "consequence": "Rubber tires, steady nerves, no brakes.",
+          "consequence": "Rubber tires, steady nerves, no brakes. You choose to drive over the line fast. It opens the route to The Bridge, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Find another way around",
-          "consequence": "Respect the things that can kill you sideways.",
+          "consequence": "Respect the things that can kill you sideways. You choose to find another way around. It opens the route to The Detour, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         }
       ],
@@ -176,17 +176,17 @@
     },
     {
       "id": "s8",
-      "text": "Through the smoke: a bridge, the only crossing for miles, and it's already burning at the far end. The fire hasn't reached the deck yet. You have maybe ninety seconds.",
+      "text": "Through the smoke: a bridge, the only crossing for miles, and it's already burning at the far end. The fire hasn't reached the deck yet. You have maybe ninety seconds. The distance between Through the Gap and The River Ford begins with the choice between “Floor it across the bridge” and “Reverse and find the old ford downstream.”",
       "sceneTitle": "The Bridge",
       "choices": [
         {
           "text": "Floor it across the bridge",
-          "consequence": "Hesitation is the only thing that can't survive here.",
+          "consequence": "Hesitation is the only thing that can't survive here. You commit to floor it across the bridge. By Through the Gap, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         },
         {
           "text": "Reverse and find the old ford downstream",
-          "consequence": "Water is a road too, if you're brave enough.",
+          "consequence": "Water is a road too, if you're brave enough. You choose to reverse and find the old ford downstream. It opens the route to The River Ford, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         }
       ],
@@ -200,12 +200,12 @@
       "choices": [
         {
           "text": "Shelter in place and seal the bus",
-          "consequence": "When you can't outrun it, you outlast it.",
+          "consequence": "When you can't outrun it, you outlast it. You commit to shelter in place and seal the bus. By Shelter in Place, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Make a run for the reservoir clearing",
-          "consequence": "One gap in the wall is all you need.",
+          "consequence": "One gap in the wall is all you need. You choose to make a run for the reservoir clearing. It opens the route to Through the Gap, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -214,17 +214,17 @@
     },
     {
       "id": "s10",
-      "text": "The side road is barely a road — washboard dirt narrowing into trees that are starting to torch one by one, like matches in a row. But it bends away from the worst of it.",
+      "text": "The side road is barely a road — washboard dirt narrowing into trees that are starting to torch one by one, like matches in a row. But it bends away from the worst of it. The paths divide here: “Commit to the detour fully” leads into The River Ford, while “Turn back toward the highway after all” makes Smoke in the Cabin the next reckoning.",
       "sceneTitle": "The Detour",
       "choices": [
         {
           "text": "Commit to the detour fully",
-          "consequence": "The road less burning.",
+          "consequence": "You choose to commit to the detour fully. It opens the route to The River Ford, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Turn back toward the highway after all",
-          "consequence": "Sometimes retreat is the only advance.",
+          "consequence": "Sometimes retreat is the only advance. You turn back toward the highway after all. The decision moves you toward Smoke in the Cabin and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -238,12 +238,12 @@
       "choices": [
         {
           "text": "Seal the vents and ride it out",
-          "consequence": "Trap the good air and hoard it like gold.",
+          "consequence": "Trap the good air and hoard it like gold. You commit to seal the vents and ride it out. By Shelter in Place, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Make a hard run for clearer air",
-          "consequence": "Outrun the cloud or become it.",
+          "consequence": "Outrun the cloud or become it. You make a hard run for clearer air. The decision moves you toward Through the Gap and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -252,17 +252,17 @@
     },
     {
       "id": "s11",
-      "text": "There's a seam in the fire — a corridor of merely terrible heat between two walls of worse. It's closing. The bus groans up to speed. The kids have stopped making any sound at all.",
+      "text": "There's a seam in the fire — a corridor of merely terrible heat between two walls of worse. It's closing. The bus groans up to speed. The kids have stopped making any sound at all. “Drive straight through the corridor” opens the route to The Far Side. “Use the reservoir to wet the bus first” changes the terms and carries you toward Shelter in Place.",
       "sceneTitle": "Through the Gap",
       "choices": [
         {
           "text": "Drive straight through the corridor",
-          "consequence": "Aim at the gap and refuse to blink.",
+          "consequence": "Aim at the gap and refuse to blink. You drive straight through the corridor. The decision moves you toward The Far Side and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Use the reservoir to wet the bus first",
-          "consequence": "A soaked machine buys a few precious degrees.",
+          "consequence": "A soaked machine buys a few precious degrees. You use the reservoir to wet the bus first. The decision moves you toward Shelter in Place and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         }
       ],
@@ -271,17 +271,17 @@
     },
     {
       "id": "s12",
-      "text": "The old crossing is low water over smooth stone. The far bank is dark — unburned. But the current is faster than it looks and the bus is heavy with frightened cargo.",
+      "text": "The old crossing is low water over smooth stone. The far bank is dark — unburned. But the current is faster than it looks and the bus is heavy with frightened cargo. “Ease across the ford slowly” opens the route to The Far Side. “Power across before the engine drowns” changes the terms and carries you toward Engine Trouble.",
       "sceneTitle": "The River Ford",
       "choices": [
         {
           "text": "Ease across the ford slowly",
-          "consequence": "Read the water like a road.",
+          "consequence": "Read the water like a road. You ease across the ford slowly. The decision moves you toward The Far Side and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Power across before the engine drowns",
-          "consequence": "Momentum is a kind of buoyancy.",
+          "consequence": "Momentum is a kind of buoyancy. You power across before the engine drowns. The decision moves you toward Engine Trouble and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -295,12 +295,12 @@
       "choices": [
         {
           "text": "Wait until the heat truly breaks",
-          "consequence": "Patience is the bravest thing in a furnace.",
+          "consequence": "Patience is the bravest thing in a furnace. You commit to wait until the heat truly breaks. By The Count, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Move the moment the front passes",
-          "consequence": "The window after the wave is narrow and real.",
+          "consequence": "The window after the wave is narrow and real. You commit to move the moment the front passes. By Engine Trouble, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -314,12 +314,12 @@
       "choices": [
         {
           "text": "Radio your survivors' count to dispatch",
-          "consequence": "Every name said aloud is a name saved.",
+          "consequence": "Every name said aloud is a name saved. You commit to radio your survivors' count to dispatch. By The Count, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Push on without stopping",
-          "consequence": "Don't trust safety until you're standing in it.",
+          "consequence": "Don't trust safety until you're standing in it. You push on without stopping. The decision moves you toward Town Lights and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         }
       ],
@@ -328,17 +328,17 @@
     },
     {
       "id": "s15",
-      "text": "The bus coughs, sputters, and the temperature needle pins red. You're almost clear — almost. Steam rolls from under the hood. Twenty-two kids, one dying engine, and not quite enough road.",
+      "text": "The bus coughs, sputters, and the temperature needle pins red. You're almost clear — almost. Steam rolls from under the hood. Twenty-two kids, one dying engine, and not quite enough road. To choose “Nurse it forward in low gear” means meeting Town Lights; “Stop and lead the kids out on foot” sends you toward One More Run instead.",
       "sceneTitle": "Engine Trouble",
       "choices": [
         {
           "text": "Nurse it forward in low gear",
-          "consequence": "Coax the machine like a frightened animal.",
+          "consequence": "Coax the machine like a frightened animal. You choose to nurse it forward in low gear. It opens the route to Town Lights, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stop and lead the kids out on foot",
-          "consequence": "When the metal fails, the legs decide.",
+          "consequence": "When the metal fails, the legs decide. You stop and lead the kids out on foot. The decision moves you toward One More Run and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         }
       ],
@@ -347,17 +347,17 @@
     },
     {
       "id": "s16",
-      "text": "You make them line up and count off the way you've practiced a hundred bored mornings. The numbers climb — eighteen, nineteen, twenty — and then a pause that stops your heart before someone small says \"twenty-one\" and another, \"twenty-two.\"",
+      "text": "You make them line up and count off the way you've practiced a hundred bored mornings. “Drive the last miles to the shelter” opens the route to Town Lights. “Stop to help another stranded vehicle” changes the terms and carries you toward One More Run.",
       "sceneTitle": "The Count",
       "choices": [
         {
           "text": "Drive the last miles to the shelter",
-          "consequence": "The end of the road is the start of the rest.",
+          "consequence": "The end of the road is the start of the rest. You drive the last miles to the shelter. The decision moves you toward Town Lights and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stop to help another stranded vehicle",
-          "consequence": "There's always one more name to save.",
+          "consequence": "There's always one more name to save. You commit to stop to help another stranded vehicle. By One More Run, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -371,12 +371,12 @@
       "choices": [
         {
           "text": "Hand each child to someone who loves them",
-          "consequence": "This is the only paperwork that matters.",
+          "consequence": "This is the only paperwork that matters. You hand each child to someone who loves them. The decision moves you toward Everyone Home and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Go back out for the ones still on the mountain",
-          "consequence": "Heroes are just people who can't sit still.",
+          "consequence": "Heroes are just people who can't sit still. You go back out for the ones still on the mountain. The decision moves you toward One More Run and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         }
       ],
@@ -390,12 +390,12 @@
       "choices": [
         {
           "text": "Turn around and drive back in",
-          "consequence": "The bravest tank is the one that's nearly empty.",
+          "consequence": "The bravest tank is the one that's nearly empty. You choose to turn around and drive back in. It opens the route to The Second Trip, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_again"
         },
         {
           "text": "Stay, rest, let the crews take it",
-          "consequence": "You can't pour from a tank that's run dry.",
+          "consequence": "You can't pour from a tank that's run dry. You choose to stay, rest, let the crews take it. It opens the route to The Weight You Carry, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_rest"
         }
       ],

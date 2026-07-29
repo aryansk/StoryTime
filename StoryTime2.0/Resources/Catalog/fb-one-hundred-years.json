@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "José Arcadio Buendía draws Macondo on a map.",
+      "text": "Your great-great-grandfather lays a map on the kitchen table showing a town nobody has built yet: twenty houses of mud and cane, the river on the left, each house placed so that no man gets more morning sun than his neighbour. He walked two years through the swamp to get here, away from a man he killed. He does not mention that part. He asks where you want the almond trees.",
       "sceneTitle": "Founding",
       "choices": [
         {
           "text": "Plant the trees",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You set almonds along every frontage. Their shade outlasts the man who ordered it, the wars, the company, and eventually the name carved above the door.",
           "nextNodeId": "s2"
         },
         {
           "text": "Plant the streets",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You lay the streets first, straight and equal, and the equality holds for about a decade — longer than most things this family builds.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Melquíades brings ice. Magnets. Flying carpets.",
+      "text": "Every March the gypsies pitch their tents by the river. Melquiades has a gap in his teeth from scurvy and a chest of impossible things: two iron bars that drag nails out of the walls, a glass that pulls fire from sunlight, and, packed in sawdust inside a pirate's trunk, a block so cold it burns your palm. Your father pays twice to touch it.",
       "sceneTitle": "Gypsies",
       "choices": [
         {
           "text": "Buy them all",
-          "consequence": "“Buy them all” closes one possibility and opens another. The moment leaves a clear note behind: Wonder.",
+          "consequence": "He trades two goats and the family's only mule for magnets and an astrolabe, then locks himself away four months to prove the earth is round. He is correct. Nobody cares.",
           "nextNodeId": "s3"
         },
         {
           "text": "Save your money",
-          "consequence": "You commit to “Save your money.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You keep the coins in a jar, and the jar outlives the wonder. Years on you cannot recall what the ice felt like — only that you chose not to find out.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Mauricio Babilonia, mechanic, follows your aunt.",
+      "text": "The mechanic from the banana company arrives smelling of engine oil, and wherever he stands the air fills with yellow butterflies — in the kitchen, in the henhouse, at the window while Meme washes her hair. The family has him shot in the spine as a chicken thief. He lives thirty more years paralysed on a cot, and the butterflies keep finding the glass.",
       "sceneTitle": "Yellow Butterflies",
       "choices": [
         {
           "text": "Note them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You start counting them, and the count tells you exactly which nights he came. You say nothing to her mother. It is your first adult act.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't note",
-          "consequence": "There is no taking “Don't note” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You decide they are moths and the season is wet. Choosing not to see is a household skill, and you have just been taught it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "He starts thirty-two civil wars and loses all of them.",
+      "text": "He was born with his eyes open and cried inside the womb. For thirty years he made nothing but small gold fish; then he raised thirty-two armed rebellions and lost every one of them. He survives fourteen assassination attempts, seventy-three ambushes and a firing squad. Seventeen women in seventeen towns bear him sons, all named Aureliano, all marked on the forehead with ash that will not wash off.",
       "sceneTitle": "Colonel Aureliano",
       "choices": [
         {
           "text": "Visit him",
-          "consequence": "You commit to “Visit him.” The story records the instinct as “Family” and carries it forward.",
+          "consequence": "You find him under a tamarind tree dictating terms he stopped believing years ago. He asks your name twice in one hour and forgets it both times.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay home",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You read about him in a newspaper four months late. Distance keeps him a legend, and legends are far easier to love than uncles.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "He makes little gold fishes and melts them down.",
+      "text": "After the treaty he shuts himself in the workshop and makes fish. Each one costs a day and a half: scales scored with a fine chisel, ruby eyes, twenty grams of gold. When he has twenty-five he melts them down and begins again. The fish are not the point. The hours the fish consume are the point, and there are a great many hours left.",
       "sceneTitle": "Workshop",
       "choices": [
         {
           "text": "Buy a fish",
-          "consequence": "There is no taking “Buy a fish” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "He sells you one for twenty gold coins, then buys the gold back with the same coins. You have taken part in the only economy he still trusts.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't buy",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You watch him work and say nothing, and he is grateful, and neither of you ever mentions it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Your great-grandmother is, in her hundreds, holding it together.",
+      "text": "She goes blind somewhere past ninety and hides it for years by memorising the house — where the light falls at four, where each person sets down a cup, the particular rhythm of each grandchild on the tiles. She corrects your posture from across the room. She has buried a husband who died tied to a chestnut tree and can no longer recall which war took which son.",
       "sceneTitle": "Ursula",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "You commit to “Help her.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You begin moving nothing, ever, and putting everything back exactly where it stood. It is the closest thing to devotion this family has invented.",
           "nextNodeId": "s7"
         },
         {
           "text": "Watch her",
-          "consequence": "You commit to “Watch her.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You let her manage, because being needed is the last thing she owns. She dies on a Thursday, by then the size of a child.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Foreigners arrive. The town fattens. Then they leave.",
+      "text": "They come with surveyors and a train painted yellow, and within a year the town has electric light, a cinema and a phonograph in the brothel. They alter the rain schedule. Beside your streets they build their own town, fenced, with lawns and screened porches, and they do not eat your food. Then the price of fruit shifts in a city you have never heard named.",
       "sceneTitle": "The Banana Company",
       "choices": [
         {
           "text": "Speak against them",
-          "consequence": "You commit to “Speak against them.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You say at the market that the company owns the mayor, the priest and the weather. Two men write it down without hurrying, which is worse than if they had hurried.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay quiet",
-          "consequence": "You commit to “Stay quiet.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You take the wages and the electric light and buy a bicycle. It is a good bicycle. You ride past the fence daily and never once look through it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Three thousand workers killed at the station. The town forgets.",
+      "text": "The strike is about latrines and a company doctor who prescribes copper sulphate for everything. The army gathers the workers at the station, reads a decree declaring them a gang of criminals, and gives them five minutes. Then the machine guns. By morning the platform is washed, the trains run on time, and every person you ask says calmly that nothing happened here, that Macondo has always been a happy town.",
       "sceneTitle": "The Massacre",
       "choices": [
         {
           "text": "Insist on memory",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You tell it to anyone who will sit still, and they nod the way people nod at a madman. You are the only man in town who is right.",
           "nextNodeId": "s9"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You let the official version stand, and inside four years you half believe it. That is how it is done — not with force, with repetition.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "It rains for nearly five years.",
+      "text": "It begins in an ordinary October and does not stop. Fish swim through the corridors. Doors swell shut, the clothes in the wardrobes grow a fur of green, and a woman conceives, raises a child to walking age and buries her mother without once seeing the sun. Cattle drown standing up. When it finally quits, the better part of five years is gone and nobody can agree on the count.",
       "sceneTitle": "Rain",
       "choices": [
         {
           "text": "Build",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You raise the floors, tar the roof, cut channels across the yard. The house survives. Everything soft inside it does not.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You lie in a hammock for four wet years and become extremely good at listening. It is not laziness, though it will be remembered as laziness.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "She ascends to heaven hanging the sheets.",
+      "text": "She is too beautiful to be practical. She shaves her head, wears a sack, and cannot understand why four men have died over her. On a windy afternoon she is folding sheets on the line when the linen lifts. She rises with it, past the guava trees, still holding one corner, waving in a way that is not goodbye, because she has no idea she is leaving.",
       "sceneTitle": "Remedios the Beauty",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "“Watch” closes one possibility and opens another. The moment leaves a clear note behind: Wonder.",
+          "consequence": "You follow her up until the light hurts. For the rest of your life, sheets moving on a line will close your throat.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't watch",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You are counting pegs and miss it entirely. Fernanda spends four days furious about the loss of good Belgian linen.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "She dies the day she finishes.",
+      "text": "Death visits her in the courtyard one afternoon as an ordinary woman in blue, gives her the date, and leaves one instruction: sew your own shroud. So she sews. She unpicks whole weeks of it to buy time, and when the unpicking stops meaning anything she finishes, bathes, lies down, and offers to carry letters to the dead. Half the town brings her mail before dark.",
       "sceneTitle": "Amaranta Embroiders Her Shroud",
       "choices": [
         {
           "text": "Bury her with the shroud",
-          "consequence": "There is no taking “Bury her with the shroud” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "She goes into the ground wearing her own stitching, and the letters go with her — hundreds of them, sealed, addressed to people nobody living can name.",
           "nextNodeId": "s12"
         },
         {
           "text": "Use it for someone else",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You cut the linen down for a christening gown. It is beautiful and faintly wrong, and every child who wears it sleeps badly.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A young Buendía rediscovers Melquíades' room.",
+      "text": "The room at the back of the house has stayed clean for fifty years — no dust, no moths, the light always the same brown afternoon light — because nobody who enters quite believes it belongs to the same building. The boy finds it on a day of high wind and does not come out until dark. On the table lies a stack of parchment in a script no one alive here can read.",
       "sceneTitle": "Aureliano José",
       "choices": [
         {
           "text": "Read with him",
-          "consequence": "“Read with him” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You sit on the floor beside him copying letters neither of you understands. It is the happiest the two of you will ever be.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay out",
-          "consequence": "You commit to “Stay out.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You leave him to it, and he grows up talking to a dead gypsy and knowing the tonnage of ships that sank two centuries ago.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Sanskrit. Translated. The whole future of the family is, in fact, the past.",
+      "text": "It takes a scholar from Catalonia, a borrowed grammar and years of nights. The script is Sanskrit; under that, a cipher; under that, your family. Not prophecy, exactly — the pages were written before any of it and describe all of it, the births and the betrayals and which grandson dies of what, arranged so a century passes in the time it takes to read one side of one sheet.",
       "sceneTitle": "The Parchments",
       "choices": [
         {
           "text": "Translate carefully",
-          "consequence": "“Translate carefully” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You go line by line and refuse to skip ahead. That is discipline, and it also guarantees you reach your own name at the worst possible moment.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stop reading",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You set the pages down and live blind, like everyone else in the house. It changes nothing about the ending. It changes how loud the ending is.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "A Buendía marries a Buendía. Pigs' tails are said to follow.",
+      "text": "The warning has been passed down a hundred years by women who could not say the word aloud: an aunt in Riohacha bore a child with a corkscrew of cartilage at the base of his spine, and the butcher who removed it took too much, and the boy bled out at forty-two. So the family marries outward, mostly. Then two of you share a house in August, and one of you speaks first.",
       "sceneTitle": "Forbidden Love",
       "choices": [
         {
           "text": "Marry anyway",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You take her up the stairs and stop pretending, and the house is so relieved by the honesty that it forgets, briefly, to be a warning.",
           "nextNodeId": "s15"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You send her to Brussels and marry a woman from the coast. You are decent to that woman for forty years, and she knows exactly what she was given.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "She lives long enough to know everyone twice. She reads cards.",
+      "text": "She has slept with two generations and midwifed a third, and she keeps a chair by the door of a house that is a brothel only in the loosest sense — mostly it is chairs, a phonograph and her. Somewhere past a hundred and forty she stops needing the cards. The family, she says, is one wheel turning on a worn axle, and she can hear it going round.",
       "sceneTitle": "Pilar Ternera",
       "choices": [
         {
           "text": "Visit her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "She reads your fortune in four words, refuses payment, then asks after your mother, who has been dead six years. You do not correct her.",
           "nextNodeId": "s16"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You cross the street to avoid her chair. She notices, and forgives it, and dies in a wicker rocker with nobody owing her anything.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The house is, finally, full of ants and dust.",
+      "text": "The red ants come up through the foundations in a column the width of your hand. They take the veranda, then the doorframe, then an entire wall of the dining room in a single night. You lay ash, quicklime, boiling water. The house is emptying anyway — furniture sold, rooms shut, the last of you upstairs translating parchment while the floor underneath him is quietly eaten.",
       "sceneTitle": "Ants",
       "choices": [
         {
           "text": "Sweep",
-          "consequence": "“Sweep” closes one possibility and opens another. The moment leaves a clear note behind: Resist.",
+          "consequence": "You sweep every morning for a year and they advance nine centimetres a week regardless. The sweeping is for you, not for the house.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't sweep",
-          "consequence": "There is no taking “Don't sweep” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You let them have it, and there is an odd peace in surrender, and the peace lasts until you hear them working inside the walls at night.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "A child with a pig's tail is born.",
+      "text": "She bleeds out within the hour and the neighbour who midwifed her runs. You are alone with him on a bed in a house with no clean water. He is beautiful — heavy, dark-eyed, furious at the air — and at the base of his spine there is a soft curl of cartilage, and a hundred years of rumour is suddenly a thing you can hold between two fingers.",
       "sceneTitle": "The Last Child",
       "choices": [
         {
           "text": "Take him in your arms",
-          "consequence": "“Take him in your arms” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You lift him and he stops screaming, and for four minutes this family is only a father and a son, which is all it ever needed to be.",
           "nextNodeId": "s18"
         },
         {
           "text": "Don't",
-          "consequence": "“Don't” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You leave him in the basket and go out for rum. You will have exactly one night in which to regret the going out.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The next morning, ants carry him to their nest.",
+      "text": "You come back at first light and the basket is a moving carpet. They have him. The column runs out the door, down the step, across the ruined garden toward the nest beneath the stone — a dark swollen rope of them carrying a child, unhurried, in perfect order. You stand in the doorway with a hand on the frame and finally understand the shape of the whole thing.",
       "sceneTitle": "Ants Carry Him",
       "choices": [
         {
           "text": "Read the last parchment now",
-          "consequence": "You commit to “Read the last parchment now.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You go straight up the stairs still holding the empty basket, because there is exactly one place left in the world where any of this is explained.",
           "nextNodeId": "s19"
         },
         {
           "text": "Wait",
-          "consequence": "You commit to “Wait.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You sit on the step until the column thins to nothing. Grief first, answers second — a decent order, and it costs you the last hour you had.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The parchments describe this moment, exactly.",
+      "text": "The Sanskrit gives way and the pages begin outrunning you: the founder roped to his tree, the thirty-two lost wars, the ice, the linen going up, the yellow butterflies, the three thousand at the station. Then the pages catch up to the present. Then they reach a man in a shuttered room reading a page about a man in a shuttered room, and outside the window the wind changes direction.",
       "sceneTitle": "Reading the End",
       "choices": [
         {
           "text": "Read your name",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "There it is, in a hand a century dead: what you are wearing, what the room smells of, and the fact that you will not finish this paragraph.",
           "nextNodeId": "s20"
         },
         {
           "text": "Look up",
-          "consequence": "“Look up” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You lift your eyes to the window instead and buy yourself a few seconds of not knowing. It is the only mercy on offer and you take it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A wind begins to take the town.",
+      "text": "It arrives with no weather in front of it — no cloud, no drop in pressure, just a hot pressure out of the swamp. Zinc peels off the roofs of the company houses. The almond trees your family planted come out whole, roots and all, and the dust of the closed rooms rises, and the pages in your hands start turning themselves faster than you can follow them.",
       "sceneTitle": "Wind",
       "choices": [
         {
           "text": "Step into it",
-          "consequence": "There is no taking “Step into it” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You walk out into it carrying nothing, and the wind takes your shirt, your name and the year, in that order.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay inside",
-          "consequence": "You commit to “Stay inside.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You hold the door shut with your shoulder and keep reading. The house is coming apart around a man who only wants to finish a sentence.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The town is, at last, a place that has been.",
+      "text": "It all goes at once, without violence: the church, the fenced lawns, the platform where nothing ever happened, the river's name. Not destroyed — unremembered. Some cartographer will draw this coast next season and leave a clean space between the water and the swamp, and nobody will write in to complain, because there is no longer anyone alive who could tell him what belongs in the gap.",
       "sceneTitle": "Macondo, Disappearing",
       "choices": [
         {
           "text": "Smile",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You are smiling as it goes, because the parchments got every detail right including this one, and being read correctly is a kind of company.",
           "nextNodeId": "end_wind"
         },
         {
           "text": "Cry",
-          "consequence": "There is no taking “Cry” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You weep for the almond trees, which is a small enough thing to weep for, and which is the only part of any of it you personally planted.",
           "nextNodeId": "end_parchment"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Another version stands off at the edge of the page — a cold library, a stranger's hands, paper that outlived the wind. It has been waiting a long time.",
           "nextNodeId": "end_family"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_wind",
-      "text": "The town is taken. The book ends. Generations after, in other cities, the book is read by people who do not know they are reading their own future.",
+      "text": "The wind takes the last wall and there is nothing left to be from. But paper travels. Decades on, in cities with trams and central heating, people open a book about a town between a river and a swamp, finish it in two sittings, put it down, and look at their own families with a new and unwelcome clarity. None of them know they are reading a forecast. They rarely do.",
       "sceneTitle": "Macondo, Wind",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_parchment",
-      "text": "A scholar in a quiet library, decades later, decodes the parchments fully. She publishes. The world reads. Macondo, against its own ending, persists.",
+      "text": "Seventy years later a woman in a cold Barcelona library finishes what the Catalonian began — Sanskrit, then cipher, then names. She publishes with a small university press and a footnote apologising for the unreliability of her source. Four hundred copies sell in the first decade, and then it does not stop selling. A town erased on condition nobody remember it is now taught in nine languages. The wind was not thorough.",
       "sceneTitle": "The Parchments, Translated",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_family",
-      "text": "Far from Macondo, descendants you didn't know about live ordinary lives. They name children, by chance, after you. They do not know why these names felt familiar.",
+      "text": "In a suburb of a city none of you ever named, a man teaches secondary-school chemistry and has his grandmother's hands. His daughter is called Ursula because his wife liked the sound of it. No house, no parchment, no gypsy, no ice — only a family that argues at Christmas and keeps its silences in the usual places. The prophecy said the line ended. The prophecy was written by someone who only counted the ones who stayed.",
       "sceneTitle": "Family, Always",
       "choices": [],
       "isEnding": true,

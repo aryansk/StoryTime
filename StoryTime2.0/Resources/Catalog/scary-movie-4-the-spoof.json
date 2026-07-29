@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "An ominous tripod legs over your fence. Your neighbor Tom screams artistically. A baby in a stroller deadlifts a chainsaw. You're holding a TV remote and a half-eaten waffle.",
+      "text": "An ominous tripod legs over your fence. Your neighbor Tom screams artistically. A baby in a stroller deadlifts a chainsaw. You're holding a TV remote and a half-eaten waffle. The paths divide here: “Brandish the waffle” leads into The Basement, while “Run dramatically in slow motion” makes The Grim Village the next reckoning.",
       "sceneTitle": "Suburb in Peril",
       "choices": [
         {
           "text": "Brandish the waffle",
-          "consequence": "Absurdity is a shield in this universe.",
+          "consequence": "Absurdity is a shield in this universe. You commit to brandish the waffle. It carries you into The Basement while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         },
         {
           "text": "Run dramatically in slow motion",
-          "consequence": "Style is survival.",
+          "consequence": "You commit to run dramatically in slow motion. It carries you into The Grim Village while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You hide in the basement, which has, inexplicably, a karaoke machine and three life-size mannequins of yourself. One of them is doing your taxes.",
+      "text": "You hide in the basement, which has, inexplicably, a karaoke machine and three life-size mannequins of yourself. One of them is doing your taxes. To choose “Sing karaoke at the tripod” means meeting Brenda's Apartment; “Fight your tax-doing doppelganger” sends you toward Tom Ryan's Crane instead.",
       "sceneTitle": "The Basement",
       "choices": [
         {
           "text": "Sing karaoke at the tripod",
-          "consequence": "Distract aliens with American Idol.",
+          "consequence": "Distract aliens with American Idol. You choose to sing karaoke at the tripod. By Brenda's Apartment, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Fight your tax-doing doppelganger",
-          "consequence": "Self-loathing made literal.",
+          "consequence": "Self-loathing made literal. You choose to fight your tax-doing doppelganger. By Tom Ryan's Crane, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You sprint and accidentally arrive in a black-and-white village from a completely different horror movie. The elders look at you suspiciously. There is a strict no-shoes policy.",
+      "text": "You sprint and accidentally arrive in a black-and-white village from a completely different horror movie. The elders look at you suspiciously. There is a strict no-shoes policy. “Bow to the elders” opens the route to Brenda's Apartment. “Eat the forbidden grapes immediately” changes the terms and carries you toward Tom Ryan's Crane.",
       "sceneTitle": "The Grim Village",
       "choices": [
         {
           "text": "Bow to the elders",
-          "consequence": "When in spoof, do as the spoof does.",
+          "consequence": "When in spoof, do as the spoof does. You commit to bow to the elders. It carries you into Brenda's Apartment while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Eat the forbidden grapes immediately",
-          "consequence": "Curiosity killed the parody.",
+          "consequence": "Curiosity killed the parody. You choose to eat the forbidden grapes immediately. By Tom Ryan's Crane, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Brenda is hiding from a ghost-cousin and watching the news, which is just a guy in glasses yelling about cats. The ghost rises from her TV in 480i resolution.",
+      "text": "Brenda is hiding from a ghost-cousin and watching the news, which is just a guy in glasses yelling about cats. The ghost rises from her TV in 480i resolution. To choose “Throw popcorn at the ghost” means meeting The Town Meeting; “Negotiate with the ghost about residuals” sends you toward The Iron Lung instead.",
       "sceneTitle": "Brenda's Apartment",
       "choices": [
         {
           "text": "Throw popcorn at the ghost",
-          "consequence": "Snacks are weapons here.",
+          "consequence": "Snacks are weapons here. You throw popcorn at the ghost. The way toward The Town Meeting opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Negotiate with the ghost about residuals",
-          "consequence": "“Negotiate with the ghost about residuals” closes one possibility and opens another. The moment leaves a clear note behind: Hollywood logic.",
+          "consequence": "You negotiate with the ghost about residuals. The way toward The Iron Lung opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Tom Ryan is operating a crane while being chased by a swarm of polite swarming birds. He keeps yelling at his son — who is actually a thirty-five-year-old man wearing a propeller hat.",
+      "text": "Tom Ryan is operating a crane while being chased by a swarm of polite swarming birds. He keeps yelling at his son — who is actually a thirty-five-year-old man wearing a propeller hat. The paths divide here: “Climb the crane to help” leads into The Town Meeting, while “Stay on the ground and yell back” makes The Iron Lung the next reckoning.",
       "sceneTitle": "Tom Ryan's Crane",
       "choices": [
         {
           "text": "Climb the crane to help",
-          "consequence": "Heroism is rarely calibrated.",
+          "consequence": "Heroism is rarely calibrated. You commit to climb the crane to help. It carries you into The Town Meeting while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay on the ground and yell back",
-          "consequence": "Family bonding by megaphone.",
+          "consequence": "Family bonding by megaphone. You choose to stay on the ground and yell back. By The Iron Lung, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Mayor Baxter convenes an emergency meeting. The agenda includes alien invasion, a strange smell, and Mrs. Peterson's cat being on Roomba again.",
+      "text": "Mayor Baxter convenes an emergency meeting. The agenda includes alien invasion, a strange smell, and Mrs. Peterson's cat being on Roomba again. “Propose dancing as a global defense” draws you toward The Tripod Boss; “Propose hiding under the table” leaves The Well waiting on the other side.",
       "sceneTitle": "The Town Meeting",
       "choices": [
         {
           "text": "Propose dancing as a global defense",
-          "consequence": "Improbable plans only.",
+          "consequence": "You commit to propose dancing as a global defense. It carries you into The Tripod Boss while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Propose hiding under the table",
-          "consequence": "“Propose hiding under the table” closes one possibility and opens another. The moment leaves a clear note behind: Underrated tactic.",
+          "consequence": "You choose to propose hiding under the table. By The Well, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "An iron lung patient — played by a celebrity in a horrendous prosthetic — hands you a clue: 'The aliens hate French music. Trust me.'",
+      "text": "An iron lung patient — played by a celebrity in a horrendous prosthetic — hands you a clue: 'The aliens hate French music. The distance between The Tripod Boss and The Well begins with the choice between “Trust the iron-lung clue” and “Distrust the iron-lung clue.”",
       "sceneTitle": "The Iron Lung",
       "choices": [
         {
           "text": "Trust the iron-lung clue",
-          "consequence": "Authority radiates from prosthetics.",
+          "consequence": "Authority radiates from prosthetics. You commit to trust the iron-lung clue. It carries you into The Tripod Boss while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Distrust the iron-lung clue",
-          "consequence": "Always second-guess a cameo.",
+          "consequence": "Always second-guess a cameo. You distrust the iron-lung clue. The way toward The Well opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "A massive alien tripod strides through Main Street. The driver inside is a small alien wearing oven mitts. He waves apologetically as he steps on a hot dog cart.",
+      "text": "A massive alien tripod strides through Main Street. The driver inside is a small alien wearing oven mitts. He waves apologetically as he steps on a hot dog cart. “Befriend the alien driver” draws you toward The Holding Cell; “Throw a banana peel under the tripod” leaves Saw Spoof Bathroom waiting on the other side.",
       "sceneTitle": "The Tripod Boss",
       "choices": [
         {
           "text": "Befriend the alien driver",
-          "consequence": "Spoofs reward kindness.",
+          "consequence": "You choose to befriend the alien driver. By The Holding Cell, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Throw a banana peel under the tripod",
-          "consequence": "Cartoon physics, applied.",
+          "consequence": "Cartoon physics, applied. You throw a banana peel under the tripod. The way toward Saw Spoof Bathroom opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A girl with wet hair crawls out of a well. She's just looking for Wi-Fi. The router has been on the fritz since the 1800s.",
+      "text": "A girl with wet hair crawls out of a well. She's just looking for Wi-Fi. The router has been on the fritz since the 1800s. The distance between The Holding Cell and Saw Spoof Bathroom begins with the choice between “Help her connect to your hotspot” and “Push her gently back in the well.”",
       "sceneTitle": "The Well",
       "choices": [
         {
           "text": "Help her connect to your hotspot",
-          "consequence": "Customer service is the kindness.",
+          "consequence": "Customer service is the kindness. You commit to help her connect to your hotspot. It carries you into The Holding Cell while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Push her gently back in the well",
-          "consequence": "You commit to “Push her gently back in the well.” The story records the instinct as “Reasonable boundaries” and carries it forward.",
+          "consequence": "You commit to push her gently back in the well. It carries you into Saw Spoof Bathroom while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You and Brenda end up in a cell with the President, who is currently in a Catholic school reading a children's book about ducks. He refuses to leave until the duck book is finished.",
+      "text": "You and Brenda end up in a cell with the President, who is currently in a Catholic school reading a children's book about ducks. He refuses to leave until the duck book is finished. To choose “Read the duck book aloud to expedite” means meeting Oprah's Couch; “Stage a break-out, musical-number style” sends you toward Climactic Car Chase instead.",
       "sceneTitle": "The Holding Cell",
       "choices": [
         {
           "text": "Read the duck book aloud to expedite",
-          "consequence": "Diplomacy through poultry.",
+          "consequence": "Diplomacy through poultry. You choose to read the duck book aloud to expedite. By Oprah's Couch, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stage a break-out, musical-number style",
-          "consequence": "Cinema demands choreography.",
+          "consequence": "Cinema demands choreography. You choose to stage a break-out, musical-number style. By Climactic Car Chase, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You wake in a filthy bathroom chained to a sink. A puppet on a tricycle informs you that you have to choose between sawing off your own leg or assembling IKEA furniture without instructions.",
+      "text": "You wake in a filthy bathroom chained to a sink. A puppet on a tricycle informs you that you have to choose between sawing off your own leg or assembling IKEA furniture without instructions. The distance between Oprah's Couch and Climactic Car Chase begins with the choice between “Pretend to saw and bluff the puppet” and “Tackle the IKEA furniture.”",
       "sceneTitle": "Saw Spoof Bathroom",
       "choices": [
         {
           "text": "Pretend to saw and bluff the puppet",
-          "consequence": "“Pretend to saw and bluff the puppet” closes one possibility and opens another. The moment leaves a clear note behind: Performative compliance.",
+          "consequence": "You choose to pretend to saw and bluff the puppet. By Oprah's Couch, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tackle the IKEA furniture",
-          "consequence": "A real horror.",
+          "consequence": "You tackle the IKEA furniture. The way toward Climactic Car Chase opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You appear, somehow, on Oprah's set. She jumps on the couch demanding you announce your love for someone. You don't know who. The audience cheers regardless.",
+      "text": "You appear, somehow, on Oprah's set. She jumps on the couch demanding you announce your love for someone. You don't know who. The audience cheers regardless. “Profess love for Brenda” opens the route to The Big Reveal. “Profess love for the iron-lung patient” changes the terms and carries you toward Inside the Tripod.",
       "sceneTitle": "Oprah's Couch",
       "choices": [
         {
           "text": "Profess love for Brenda",
-          "consequence": "Confess on national television.",
+          "consequence": "Confess on national television. You choose to profess love for Brenda. By The Big Reveal, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Profess love for the iron-lung patient",
-          "consequence": "Plot twist for the awards reel.",
+          "consequence": "Plot twist for the awards reel. You commit to profess love for the iron-lung patient. It carries you into Inside the Tripod while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A car chase through suburbia somehow involves three weddings, a marching band, and Charlie Sheen's face on every billboard. You're driving with your knees and texting with your eyebrows.",
+      "text": "A car chase through suburbia somehow involves three weddings, a marching band, and Charlie Sheen's face on every billboard. You're driving with your knees and texting with your eyebrows. “Use the marching band as a roadblock” opens the route to The Big Reveal. “Crash the wedding to slow down the bad guy” changes the terms and carries you toward Inside the Tripod.",
       "sceneTitle": "Climactic Car Chase",
       "choices": [
         {
           "text": "Use the marching band as a roadblock",
-          "consequence": "Brass section vs. brakes.",
+          "consequence": "Brass section vs. brakes. You use the marching band as a roadblock. The way toward The Big Reveal opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Crash the wedding to slow down the bad guy",
-          "consequence": "“Crash the wedding to slow down the bad guy” closes one possibility and opens another. The moment leaves a clear note behind: Romcom physics.",
+          "consequence": "You choose to crash the wedding to slow down the bad guy. By Inside the Tripod, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The aliens, it turns out, are scared of love. Brenda and you, holding hands while delivering a monologue, are functionally a nuke. The tripod tilts toward you, weeping politely.",
+      "text": "The aliens, it turns out, are scared of love. Brenda and you, holding hands while delivering a monologue, are functionally a nuke. The tripod tilts toward you, weeping politely. To choose “Hug the alien” means meeting Brenda's Speech; “Begin a wedding flash mob” sends you toward Tom Ryan, Hero? instead.",
       "sceneTitle": "The Big Reveal",
       "choices": [
         {
           "text": "Hug the alien",
-          "consequence": "Hugs solve everything in spoof.",
+          "consequence": "Hugs solve everything in spoof. You commit to hug the alien. It carries you into Brenda's Speech while the safer possibility closes without making a sound.",
           "nextNodeId": "s16"
         },
         {
           "text": "Begin a wedding flash mob",
-          "consequence": "Wedding choreography defeats the saucer.",
+          "consequence": "Wedding choreography defeats the saucer. You begin a wedding flash mob. The way toward Tom Ryan, Hero? opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You're absorbed into the tripod. Inside, it's a Costco. The aliens are buying bulk humans for snacks. You sneak into the sample aisle as a disguise.",
+      "text": "You're absorbed into the tripod. Inside, it's a Costco. The aliens are buying bulk humans for snacks. You sneak into the sample aisle as a disguise. Choose “Sample your way to the controls” and Brenda's Speech comes into view; choose “Convince the aliens to give up snacks for Lent” and the road bends toward Tom Ryan, Hero?.",
       "sceneTitle": "Inside the Tripod",
       "choices": [
         {
           "text": "Sample your way to the controls",
-          "consequence": "Free queso wins the war.",
+          "consequence": "Free queso wins the war. You choose to sample your way to the controls. By Brenda's Speech, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Convince the aliens to give up snacks for Lent",
-          "consequence": "Religious peer pressure.",
+          "consequence": "Religious peer pressure. You convince the aliens to give up snacks for Lent. The way toward Tom Ryan, Hero? opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Brenda gives a Best Original Speech that makes the aliens cry chrome tears. The tripods all sit down in formation. Earth's anthem plays through three different car alarms.",
+      "text": "Brenda gives a Best Original Speech that makes the aliens cry chrome tears. The tripods all sit down in formation. Earth's anthem plays through three different car alarms. “Kiss Brenda for the credits” draws you toward Roll Credits; “Crown Brenda president immediately” leaves President Brenda waiting on the other side.",
       "sceneTitle": "Brenda's Speech",
       "choices": [
         {
           "text": "Kiss Brenda for the credits",
-          "consequence": "Spoof endings demand it.",
+          "consequence": "Spoof endings demand it. You commit to kiss Brenda for the credits. It carries you into Roll Credits while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Crown Brenda president immediately",
-          "consequence": "Bypass the constitution by applause.",
+          "consequence": "Bypass the constitution by applause. You crown Brenda president immediately. The way toward President Brenda opens, and something on the other side seems to notice.",
           "nextNodeId": "end_president"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Tom Ryan, despite being absolutely no good at parenting, manages to defeat the lead alien by accident with a beer bong and a leaf blower. His son slow-claps with the propeller hat still spinning.",
+      "text": "Tom Ryan, despite being absolutely no good at parenting, manages to defeat the lead alien by accident with a beer bong and a leaf blower. His son slow-claps with the propeller hat still spinning. To choose “Let Tom take the credit” means meeting End-Credit Scene Setup; “Steal the credit on live TV” sends you toward Karma, in Stilettos instead.",
       "sceneTitle": "Tom Ryan, Hero?",
       "choices": [
         {
           "text": "Let Tom take the credit",
-          "consequence": "Sometimes the doofus wins.",
+          "consequence": "Sometimes the doofus wins. You let Tom take the credit. The way toward End-Credit Scene Setup opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Steal the credit on live TV",
-          "consequence": "Karma takes a sick day in spoofs.",
+          "consequence": "Karma takes a sick day in spoofs. You commit to steal the credit on live TV. It carries you into Karma, in Stilettos while the safer possibility closes without making a sound.",
           "nextNodeId": "end_steal"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The threat is over. A second tripod ominously rises behind you. Then a third. Then a fourth, which is just a person on stilts who's late to the bit.",
+      "text": "The threat is over. A second tripod ominously rises behind you. Then a third. Then a fourth, which is just a person on stilts who's late to the bit. The paths divide here: “Run for a sequel hook” leads into The Cameo, while “Decide not to look back” makes Walk-Off Joke the next reckoning.",
       "sceneTitle": "End-Credit Scene Setup",
       "choices": [
         {
           "text": "Run for a sequel hook",
-          "consequence": "“Run for a sequel hook” closes one possibility and opens another. The moment leaves a clear note behind: Studio mandate.",
+          "consequence": "You commit to run for a sequel hook. It carries you into The Cameo while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         },
         {
           "text": "Decide not to look back",
-          "consequence": "Endings are also choices.",
+          "consequence": "Endings are also choices. You commit to decide not to look back. It carries you into Walk-Off Joke while the safer possibility closes without making a sound.",
           "nextNodeId": "end_walkoff"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "A famous-but-unnamed celebrity stops the scene to demand a cameo. They've heard the residuals are good. You allow it because they brought their own catering.",
+      "text": "A famous-but-unnamed celebrity stops the scene to demand a cameo. They've heard the residuals are good. You allow it because they brought their own catering. The distance between To Be Continued (Loosely) and Walk-Off Joke begins with the choice between “Give them the closing line” and “Let the boom mic do the closer.”",
       "sceneTitle": "The Cameo",
       "choices": [
         {
           "text": "Give them the closing line",
-          "consequence": "The decision settles the question for now. Its verdict—Tradition—follows you into whatever comes next.",
+          "consequence": "You choose to give them the closing line. By To Be Continued (Loosely), the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_sequel"
         },
         {
           "text": "Let the boom mic do the closer",
-          "consequence": "Subvert one last time.",
+          "consequence": "You let the boom mic do the closer. The way toward Walk-Off Joke opens, and something on the other side seems to notice.",
           "nextNodeId": "end_walkoff"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The credits roll over outtakes of you tripping into a wedding cake. Audiences laugh. Critics will be furious. Studio sets a release date for Scary Movie 5 before the lights come up.",
+      "text": "The credits roll over outtakes of you tripping into a wedding cake. Audiences laugh. Critics will be furious. Studio sets a release date for Scary Movie 5 before the lights come up. The paths divide here: “Stand for the bows” leads into Bonus Scene, while “Slip out the back of the cinema” makes Walk-Off Joke the next reckoning.",
       "sceneTitle": "Roll Credits",
       "choices": [
         {
           "text": "Stand for the bows",
-          "consequence": "Take the laugh.",
+          "consequence": "You choose to stand for the bows. By Bonus Scene, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Slip out the back of the cinema",
-          "consequence": "Quit while you're winning.",
+          "consequence": "Quit while you're winning. You choose to slip out the back of the cinema. By Walk-Off Joke, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_walkoff"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "You and Brenda, three years later, are at a kids' birthday party. The clown is, suspiciously, an alien in a hat. Nobody is paying attention. You smile, because that's the joke.",
+      "text": "You and Brenda, three years later, are at a kids' birthday party. The clown is, suspiciously, an alien in a hat. Nobody is paying attention. You smile, because that's the joke. The paths divide here: “Wink at the camera” leads into Love Wins, Stupidly, while “Eat cake and ignore the alien” makes Tom Ryan, Lord and Savior the next reckoning.",
       "sceneTitle": "Bonus Scene",
       "choices": [
         {
           "text": "Wink at the camera",
-          "consequence": "Fourth-wall break for the road.",
+          "consequence": "Fourth-wall break for the road. You commit to wink at the camera. It carries you into Love Wins, Stupidly while the safer possibility closes without making a sound.",
           "nextNodeId": "end_love"
         },
         {
           "text": "Eat cake and ignore the alien",
-          "consequence": "Be the calm in the spoof.",
+          "consequence": "Be the calm in the spoof. You eat cake and ignore the alien. The way toward Tom Ryan, Lord and Savior opens, and something on the other side seems to notice.",
           "nextNodeId": "end_doofus"
         }
       ],
@@ -426,7 +426,7 @@
     },
     {
       "id": "end_president",
-      "text": "Brenda is sworn in. Her first executive order is mandatory karaoke Tuesdays. Approval ratings hit 93%. The aliens write a strongly-worded letter and then visit on vacation.",
+      "text": "Brenda is sworn in. Her first executive order is mandatory karaoke Tuesdays. Approval ratings hit 93%. The aliens write a strongly-worded letter and then visit on vacation. The road into President Brenda began with “Crown Brenda president immediately” in Brenda's Speech; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "President Brenda",
       "choices": [],
       "isEnding": true,
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_doofus",
-      "text": "Tom is celebrated worldwide for accidentally winning a war. He sells autographs at fairs. His son finally takes off the propeller hat. You are happy for them in a slightly bewildered way.",
+      "text": "Tom is celebrated worldwide for accidentally winning a war. He sells autographs at fairs. His son finally takes off the propeller hat. You are happy for them in a slightly bewildered way. The road into Tom Ryan, Lord and Savior began with “Eat cake and ignore the alien” in Bonus Scene; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Tom Ryan, Lord and Savior",
       "choices": [],
       "isEnding": true,
@@ -442,7 +442,7 @@
     },
     {
       "id": "end_steal",
-      "text": "You take the credit on live TV. Within six minutes you're trending for the wrong reasons. Your reputation is repaired only after a heartfelt podcast apology and a charity bake sale.",
+      "text": "You take the credit on live TV. Within six minutes you're trending for the wrong reasons. Your reputation is repaired only after a heartfelt podcast apology and a charity bake sale. The road into Karma, in Stilettos began with “Steal the credit on live TV” in Tom Ryan, Hero?; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Karma, in Stilettos",
       "choices": [],
       "isEnding": true,
@@ -450,7 +450,7 @@
     },
     {
       "id": "end_sequel",
-      "text": "A title card promises 'Scary Movie 5: This Time It's Personal-er.' Nobody asked. Everyone shows up anyway. Spoofs, like cockroaches, survive everything.",
+      "text": "A title card promises 'Scary Movie 5: This Time It's Personal-er.' Nobody asked. Everyone shows up anyway. Spoofs, like cockroaches, survive everything. The road into To Be Continued (Loosely) began with “Give them the closing line” in The Cameo; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "To Be Continued (Loosely)",
       "choices": [],
       "isEnding": true,
@@ -458,7 +458,7 @@
     },
     {
       "id": "end_walkoff",
-      "text": "You walk into the sunset which is, on closer inspection, a painted sheet held up by two stagehands. One of them shrugs. You shrug back. Roll credits.",
+      "text": "You walk into the sunset which is, on closer inspection, a painted sheet held up by two stagehands. One of them shrugs. You shrug back. Roll credits. The road into Walk-Off Joke began with “Decide not to look back” in End-Credit Scene Setup; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Walk-Off Joke",
       "choices": [],
       "isEnding": true,

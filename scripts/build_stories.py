@@ -2,15 +2,19 @@
 """
 Author StoryTime catalog stories from compact specs and emit validated JSON.
 
-This is the *source of truth* for the app-original "after the credits" stories
-adapted from the curator's 2025-26 watch list. Each spec lists scenes; the
-generator wires choices, marks endings, writes one JSON file per story, and
-merges the entries into index.json without touching hand-written stories it
-does not manage.
+The compact specs are the source of truth for metadata and branching. Existing
+catalog JSON is the source of truth for edited scene prose and choice
+consequences. Each build overlays that editorial copy onto the generated
+structure before writing, so a catalog rebuild cannot silently replace a
+finished edit with compact authoring text.
 
 Usage:
     python3 scripts/build_stories.py          # write files
     python3 scripts/build_stories.py --check   # dry run, validate only
+    python3 scripts/build_stories.py --refresh-editorial-copy
+
+The last command deliberately replaces catalog prose with the compact spec
+copy. It should only be used when that destructive editorial reset is intended.
 
 Scene spec format (a dict per scene):
     {
@@ -115,6 +119,60 @@ def story(meta, scenes):
     }
 
 
+def preserve_editorial_copy(generated):
+    """Overlay edited prose from the current catalog onto generated structure.
+
+    Nodes are matched by stable node ID. Choices are matched by both their
+    visible label and destination, so changing either in a compact spec opts
+    that choice into newly generated copy rather than attaching a stale
+    consequence to a different decision.
+    """
+    current_path = CATALOG / f"{generated['id']}.json"
+    if not current_path.exists():
+        return generated
+
+    try:
+        current = json.loads(current_path.read_text())
+    except (OSError, json.JSONDecodeError) as error:
+        raise ValueError(
+            f"{generated['id']}: cannot preserve editorial copy from "
+            f"{current_path.name}: {error}"
+        ) from error
+
+    if current.get("id") != generated["id"]:
+        raise ValueError(
+            f"{generated['id']}: existing catalog payload has id "
+            f"{current.get('id')!r}"
+        )
+
+    current_nodes = {
+        node.get("id"): node for node in current.get("nodes", []) if node.get("id")
+    }
+    for node in generated["nodes"]:
+        edited_node = current_nodes.get(node["id"])
+        if not edited_node:
+            continue
+        edited_text = edited_node.get("text")
+        if isinstance(edited_text, str) and edited_text.strip():
+            node["text"] = edited_text
+
+        edited_choices = {
+            (choice.get("text"), choice.get("nextNodeId")): choice
+            for choice in edited_node.get("choices", [])
+        }
+        for choice in node["choices"]:
+            edited_choice = edited_choices.get(
+                (choice.get("text"), choice.get("nextNodeId"))
+            )
+            if not edited_choice:
+                continue
+            edited_consequence = edited_choice.get("consequence")
+            if isinstance(edited_consequence, str) and edited_consequence.strip():
+                choice["consequence"] = edited_consequence
+
+    return generated
+
+
 def index_entry(s):
     return {
         "id": s["id"],
@@ -133,8 +191,10 @@ def index_entry(s):
     }
 
 
-def build(specs, check=False):
+def build(specs, check=False, preserve_copy=True):
     built = [story(meta, scenes) for meta, scenes in specs]
+    if preserve_copy:
+        built = [preserve_editorial_copy(s) for s in built]
 
     # Catch duplicate IDs early — otherwise the later spec silently
     # overwrites the earlier one's JSON file and the bug only surfaces
@@ -174,4 +234,9 @@ def build(specs, check=False):
 
 if __name__ == "__main__":
     from stories_data import SPECS
-    build(SPECS, check="--check" in sys.argv)
+    refresh_copy = "--refresh-editorial-copy" in sys.argv
+    build(
+        SPECS,
+        check="--check" in sys.argv,
+        preserve_copy=not refresh_copy,
+    )

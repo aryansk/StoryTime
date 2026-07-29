@@ -26,12 +26,12 @@
       "choices": [
         {
           "text": "Ask where they were trying to go",
-          "consequence": "You commit to “Ask where they were trying to go.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You ask where they were trying to go. The path to The Address That Moved opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_where"
         },
         {
           "text": "Just start drawing what they describe",
-          "consequence": "You commit to “Just start drawing what they describe.” The story records the instinct as “Kind” and carries it forward.",
+          "consequence": "You commit to just start drawing what they describe. It carries you toward Ink Finds the Road, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_draw"
         }
       ],
@@ -45,12 +45,12 @@
       "choices": [
         {
           "text": "Tell them the truth, gently",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to tell them the truth, gently. It carries you toward After the Truth, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_truth"
         },
         {
           "text": "Map the road anyway, to the house as it was",
-          "consequence": "There is no taking “Map the road anyway, to the house as it was” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to map the road anyway, to the house as it was. By The Road That Remembers, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s_ghost"
         }
       ],
@@ -64,12 +64,12 @@
       "choices": [
         {
           "text": "Ride along and follow your own map",
-          "consequence": "You commit to “Ride along and follow your own map.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You ride along and follow your own map. The path to Two on a Wrong Turn opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_ride"
         },
         {
           "text": "Send them off alone with it",
-          "consequence": "There is no taking “Send them off alone with it” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You send them off alone with it. The path to The Courier Drives On opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_alone"
         }
       ],
@@ -78,17 +78,17 @@
     },
     {
       "id": "s_truth",
-      "text": "You tell them. They go very still, and then they weep — not surprised, exactly, more like someone finally allowed to. When they can speak again, they ask for something else. \"Then don't map me the place,\" they say. \"Map me the road to the person. They moved. I never got the new address.\"",
+      "text": "You tell them. They go very still, and then they weep — not surprised, exactly, more like someone finally allowed to. When they can speak again, they ask for something else. \"Then don't map me the place,\" they say. \"Map me the road to the person. They moved.",
       "sceneTitle": "After the Truth",
       "choices": [
         {
           "text": "Map the road to a person, not a place",
-          "consequence": "There is no taking “Map the road to a person, not a place” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to map the road to a person, not a place. It carries you toward The Road That Remembers, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_ghost"
         },
         {
           "text": "Refuse — some roads shouldn't be drawn",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You commit to refuse — some roads shouldn't be drawn. It carries you toward Some Roads Stay Unmapped, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_closed"
         }
       ],
@@ -102,12 +102,12 @@
       "choices": [
         {
           "text": "Let them take the road that remembers",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You choose to let them take the road that remembers. By A Window Still Lit, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_home_was"
         },
         {
           "text": "Take the pen back before it's finished",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You take the pen back before it's finished. The path to Some Roads Stay Unmapped opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_closed"
         }
       ],
@@ -121,12 +121,12 @@
       "choices": [
         {
           "text": "Map every wrong turn you pass",
-          "consequence": "You commit to “Map every wrong turn you pass.” The story records the instinct as “Devoted” and carries it forward.",
+          "consequence": "You map every wrong turn you pass. The path to The Atlas of Wrong Turns opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_atlas"
         },
         {
           "text": "Get this one courier home and stop",
-          "consequence": "“Get this one courier home and stop” closes one possibility and opens another. The moment leaves a clear note behind: Kind.",
+          "consequence": "You choose to get this one courier home and stop. By The Courier Drives On, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s_alone"
         }
       ],
@@ -140,12 +140,12 @@
       "choices": [
         {
           "text": "Keep the copy you traced",
-          "consequence": "There is no taking “Keep the copy you traced” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You keep the copy you traced. The path to The Atlas of Wrong Turns opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_atlas"
         },
         {
           "text": "Let it fade from the desk by morning",
-          "consequence": "There is no taking “Let it fade from the desk by morning” back. Free shapes the silence before the next moment arrives.",
+          "consequence": "You let it fade from the desk by morning. The path to Some Roads Stay Unmapped opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_closed"
         }
       ],

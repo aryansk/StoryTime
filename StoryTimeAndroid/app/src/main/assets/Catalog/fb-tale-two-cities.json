@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A messenger meets a stranger. Recalled to life.",
+      "text": "Fog on the Dover road so thick the guard walks beside the horses with a hand on the harness, and each of the three passengers privately suspects the other two of being highwaymen. A rider comes up out of the murk asking for the gentleman from Tellson's. The reply he is told to carry back is three words, meaningless to him, and to the elderly man in the coach the end of eighteen years.",
       "sceneTitle": "Mail Coach",
       "choices": [
         {
           "text": "Carry the message",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You take the reins yourself and ride back through the fog carrying a sentence you do not understand. It turns out to be a hinge, and everything after swings on it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse it",
-          "consequence": "“Refuse it” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You let the messenger go alone and settle back into the straw. Lorry looks at you once, and you learn the exact difference between being useful and being employed.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A pale man at a cobbler's bench.",
+      "text": "Five flights above a wine shop, in a room with one shutter open a hand's width, a white-haired man sits making a lady's shoe. He has done nothing else for eighteen years. Asked his name, he gives a number and a tower, in the flat voice of a man reciting an address. Then his daughter kneels in front of him and touches his hair, and something behind his face begins to move.",
       "sceneTitle": "Paris Garret",
       "choices": [
         {
           "text": "Speak softly",
-          "consequence": "“Speak softly” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You keep your voice low and your hands where he can see them, the way you would with a horse in a burning stable. It takes an hour. It works.",
           "nextNodeId": "s3"
         },
         {
           "text": "Speak loud",
-          "consequence": "There is no taking “Speak loud” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You address him briskly, the way a bank addresses a debtor. He retreats to the bench and the shoe, and the hour is lost and must be bought again.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Lucie. Dr. Manette. The house under the plane tree.",
+      "text": "Soho: a corner house with a plane tree in the yard and Miss Pross running the establishment like a garrison under siege. The doctor takes patients again and does well by them. The bench comes too, because Lucie insists, and stands in a locked room upstairs, never mentioned — the way a household keeps one bottle in the cupboard for a man who has stopped drinking.",
       "sceneTitle": "London",
       "choices": [
         {
           "text": "Settle them",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You find the corner house, negotiate the lease yourself, and enter it in the books as bank business. Nobody at Tellson's asks. Lorry sees to that.",
           "nextNodeId": "s4"
         },
         {
           "text": "Move them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You keep them moving between lodgings for a year, on the theory that distance heals. The doctor sleeps badly in every one of them and never says why.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "A man accused of treason. A barrister yawns.",
+      "text": "The Old Bailey, a treason charge, and the gallery has come for the quartering rather than the argument. Two witnesses swear they watched the prisoner counting troops at Dover, and the thing is running one way only — until a wigged man at the defence table, who has spent the morning studying the ceiling, writes four words on a scrap and pushes it along the bench to his leader.",
       "sceneTitle": "Darnay's Trial",
       "choices": [
         {
           "text": "Watch carefully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You watch the jury instead of the dock and catch the exact moment twelve certain men become twelve unsure ones. It takes about four heartbeats.",
           "nextNodeId": "s5"
         },
         {
           "text": "Doubt the witnesses",
-          "consequence": "“Doubt the witnesses” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You notice the chief witness has recited his evidence in the wrong order twice. You mention it to Lorry, quietly, and it alters nothing except your opinion of courts.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The man at the table looks like Darnay.",
+      "text": "They have the wig taken off him in open court, and the likeness walks the length of the room: the same jaw, the same height, the same nose at the same angle. The witness who swore he could never mistake the prisoner can no longer say which man is which. Darnay walks out free. Carton goes off to drink alone, having saved a life before dinner and found no use in it.",
       "sceneTitle": "Carton",
       "choices": [
         {
           "text": "Notice",
-          "consequence": "There is no taking “Notice” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You look from one face to the other and file it away, the way a bank files a signature that may one day be wanted. Two decades later, it is.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't notice",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You put it down to two dark young men and poor light. Nearly everybody does, which is precisely why the trick will work a second time.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Tea at the Manettes'. Lorry of Tellson's. Pross with her brother.",
+      "text": "Sundays under the plane tree: Lorry with his neat wig and his flat little jokes, Pross announcing that no man breathing is fit for Lucie, Carton arriving late and sober enough and saying almost nothing at all. Pross keeps sending money to a brother who calls himself Barsad and appears only when he wants something. She calls him the finest fellow in England. Everyone at the table lets her.",
       "sceneTitle": "Soho Saturdays",
       "choices": [
         {
           "text": "Be a regular",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You take the same chair every week for four years, and it becomes the only place in your life where nobody present is calculating anything.",
           "nextNodeId": "s7"
         },
         {
           "text": "Be a stranger",
-          "consequence": "There is no taking “Be a stranger” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You come twice a year and stand near the door. You will still be in the room for the worst of it — you simply will not have earned the right to be.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He is, in fact, of the Evrémonde family.",
+      "text": "On the morning of the wedding he asks the doctor for a word alone and gives him the name: the family whose coach ran a child down in a Paris street and flung a coin from the window for the inconvenience. The name Manette was buried alive for knowing. The doctor hears it out without moving a muscle, and says only that he will carry it until the marriage is finished.",
       "sceneTitle": "Darnay's Confession",
       "choices": [
         {
           "text": "Keep his secret",
-          "consequence": "There is no taking “Keep his secret” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You hold it because he asked and because the ceremony is in an hour. Manette walks his daughter up the aisle with his jaw set like a man carrying a beam.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell Lucie",
-          "consequence": "There is no taking “Tell Lucie” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You could put the truth into her hands while she is still in her wedding dress. You imagine her face for four seconds and understand exactly why the doctor chose as he did.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Lucie marries Darnay. Dr. Manette holds.",
+      "text": "They marry and go into Wales for a fortnight, and Manette stands at the church door doing arithmetic nobody else can see: the name, the coach, the loft, and a letter he once wrote in a cell with a rusty nail and a scrap of smuggled paper. He waves them off down the street. He is admirable through the whole of the ceremony and most of the afternoon.",
       "sceneTitle": "Marriage",
       "choices": [
         {
           "text": "Stand with the doctor",
-          "consequence": "“Stand with the doctor” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You stay at his elbow through the breakfast and the toasts, and when his hand begins to shake you ask him about a patient in Wapping until it stops.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You send a gift and keep away, and are told afterwards that he was perfectly well. Nine days later you learn what afterwards means in that house.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "He works at the cobbler's bench again, briefly.",
+      "text": "Nine days. He does not know his own name or Lorry's, and he sits in the locked upstairs room making shoes by candlelight, quite calm, quite occupied. On the tenth morning he comes down, reads the paper, asks about breakfast, and remembers none of it. Lorry raises the matter with him as a hypothetical case concerning a friend, and the doctor answers as a physician, and both maintain the fiction beautifully.",
       "sceneTitle": "Manette's Relapse",
       "choices": [
         {
           "text": "Be patient",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You take the night shifts, keep the household quiet, write nothing to Wales. Patience here is not a virtue but a technique, and the technique holds.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hide the bench",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You and Lorry break the bench up and burn it while he is out, feeling like murderers, and never mention it. He never asks. He must have seen the empty room.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The Bastille falls. The Defarges are at the front.",
+      "text": "Saint Antoine goes over the drawbridge with Defarge in the front rank, and afterwards he takes a torch down to a north tower cell marked with three scratched letters and prises up the stones beside the chimney. His wife sits out the whole day in the wine shop with her knitting. The register is in the stitches. Every name she has entered is worked into the pattern, and she has never once misread it back.",
       "sceneTitle": "Paris, Storming",
       "choices": [
         {
           "text": "Track the names knitted in",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You watch her needles long enough to understand that the row she added on Tuesday was a household, and that households go into that ledger entire.",
           "nextNodeId": "s11"
         },
         {
           "text": "Look away",
-          "consequence": "You commit to “Look away.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You decide she is only a woman knitting in a doorway. Half of Paris makes the same decision, and it is that half of Paris the ledger is for.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Darnay must come to Paris. He goes.",
+      "text": "The old family steward writes from a Paris prison: arrested for the crime of having served the Evremondes, held without charge, and only the marquis himself can testify that the man collected nothing and forgave everything. Darnay reads it twice in a comfortable London study. He tells nobody — not his wife, not the doctor — writes two letters to be delivered after he has gone, and takes the night packet.",
       "sceneTitle": "Gabelle's Letter",
       "choices": [
         {
           "text": "Follow him",
-          "consequence": "“Follow him” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You go after him with a bank draft and no plan of any kind, which is how most of the useful things in this business get done.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay with Lucie",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You stay behind, and you are in the room when she opens the letter, and there is no version of you anywhere that forgets the sound she makes.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Darnay is in La Force. Dr. Manette tries to help.",
+      "text": "They take him at the barrier before he is properly inside Paris — an emigrant returned, which the decree makes a capital matter — and walk him to La Force through streets where the lamp brackets are being put to other uses. Manette arrives four days behind him, gaunt and upright, and discovers the one currency he happens to hold: eighteen years in the Bastille make a man holy to the men now in charge.",
       "sceneTitle": "Arrest",
       "choices": [
         {
           "text": "Use his name",
-          "consequence": "The decision settles the question for now. Its verdict—Strategy—follows you into whatever comes next.",
+          "consequence": "You put the doctor in front of every section committee that will sit still for him. It works for fifteen months, and fifteen months is a very long time to hold a door shut.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay quiet",
-          "consequence": "You commit to “Stay quiet.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep him out of it to protect whatever is left of him. The mercy is real and it purchases precisely nothing at the prison gate.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "He is acquitted, briefly. A second indictment.",
+      "text": "The tribunal hears the doctor out and the room turns over: they carry Darnay home on their shoulders through streets that killed a hundred prisoners in a single night last September. Lucie has her husband back for one evening. There is soup, and the child on his knee, and everybody talking too quickly at once. At nine the next morning somebody knocks, holding a fresh denunciation with three names signed to it.",
       "sceneTitle": "Trial",
       "choices": [
         {
           "text": "Brace",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You have the bags packed and the papers checked before the knock lands, because you have stopped believing in good afternoons on principle.",
           "nextNodeId": "s14"
         },
         {
           "text": "Hope",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You let yourself sit down at that table and enjoy the soup. You will be grateful for the memory later, which is not at all the same as it having been wise.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Dr. Manette's old letter from prison surfaces. It condemns Darnay's family.",
+      "text": "Defarge reads it aloud. Written with a nail, hidden in a chimney, blackened but perfectly legible: a young physician called out on a December night, a girl dying of fever and of other things, her brother bleeding on the floor of a loft, and two brothers of the Evremonde family standing by with their gloves still on. Manette cursed the whole line to the last of its blood. The tribunal is delighted to oblige him.",
       "sceneTitle": "The Manuscript",
       "choices": [
         {
           "text": "Confront Darnay's identity",
-          "consequence": "“Confront Darnay's identity” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You watch a husband hear his father and his uncle described by the man who gave him his wife, and the shame that comes over him looks very nearly like relief.",
           "nextNodeId": "s15"
         },
         {
           "text": "Plead",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You stand and speak about the man he actually became, and the room laughs at you, and afterwards a friendly stranger advises you to be out of France by Thursday.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Darnay is condemned. Lucie collapses.",
+      "text": "Unanimous, and twenty-four hours. Outside, the crowd rates the sentence the way it would rate a horse, while Madame Defarge neither stands nor cheers nor alters her expression, which is the only genuinely frightening thing in the building. Lucie goes down on the stones and her father kneels beside her, and for the first time since Soho he has the face he wore in the garret.",
       "sceneTitle": "Death Sentence",
       "choices": [
         {
           "text": "Find Carton",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You go hunting for a barrister's wreck through the wine shops by the river, because there is nobody left with less to lose. He is already sober, and already ahead of you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Plan an escape with Pross",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You and Pross work out a route through the barriers, forged papers, a hired coach, an hour before dawn. It is a good plan and it is missing exactly one man.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He has, somehow, become a different man. He has, somehow, planned everything.",
+      "text": "He has been in Paris four days without telling a soul. He has stood at the back of the wine shop and heard Madame Defarge name the next three, the wife and the child among them. He carries a chemist's paper folded in his coat and a hold over Barsad worth precisely one favour. He gives Lorry his instructions in a level voice — carriage, hour, gate — and answers nothing about himself.",
       "sceneTitle": "Carton's Plan",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You do as he says without asking why. It is the last gift anybody gives him, and the only one he asked for.",
           "nextNodeId": "s17"
         },
         {
           "text": "Doubt him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You ask him twice what he means to do. He smiles and turns the conversation to the weather, and you are still asking that question forty years afterwards.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Carton drugs Darnay, exchanges clothes, hides him in a carriage.",
+      "text": "Barsad walks him into the cell at one o'clock. Darnay is finishing a last letter and cannot follow what is being asked of him; he refuses, argues, is made to change coats, and the folded paper comes under his nose in the middle of a sentence. Then two turnkeys carry out a prisoner who fainted at the sight of the yard, which happens most days, and a man in a stranger's coat sits down on the straw.",
       "sceneTitle": "La Force, Visit",
       "choices": [
         {
           "text": "Hold Lucie steady",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You keep her at the coach window facing the wrong way and talk about nothing whatever for six minutes. She never learns what she was not looking at.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hold Manette steady",
-          "consequence": "You commit to “Hold Manette steady.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep the doctor upright and moving, which is harder, because he has come apart again and there is nothing left in Paris to mend him with.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Pross, blocking Madame Defarge, holds the door.",
+      "text": "The coach clears the gate with four passengers and one set of forged papers. Behind it, in an emptied lodging room, an Englishwoman who speaks no French stands in a doorway facing a woman who has come to finish the family, with a pistol hidden under her shawl. Neither understands a syllable the other says. They understand everything else exactly. The pistol goes off between their bodies.",
       "sceneTitle": "Carriage Out",
       "choices": [
         {
           "text": "Stand with Pross",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You would have been no use and one more corpse. She wins the room alone and pays with her hearing, and never catches another sound as long as she lives.",
           "nextNodeId": "s19"
         },
         {
           "text": "Drive on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You keep the horses moving, because stopping kills five people. Every mile is a fresh decision to leave her behind, and you make it fifty times before Calais.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "London, after. Lorry counts what was saved.",
+      "text": "Back in the old panelled room at the bank, Lorry writes it up, because writing things up is the thing he knows how to do: four returned, one servant deafened, one man not returned. He is seventy-eight and has managed in a fortnight what fifty years of ledgers never asked of him. He sets down the pen. He sits on there a long while with the fire going out beside him.",
       "sceneTitle": "Tellson's",
       "choices": [
         {
           "text": "Visit them",
-          "consequence": "“Visit them” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You call at the house in Soho, hold the child, drink the tea, talk about the price of coal. That is what the work consists of now.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You go back to your own rooms and pour something and leave the letter sealed until morning, because you already know what is in it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A small letter, in Carton's hand. He has gone for them all.",
+      "text": "It came out of the prison with a turnkey and it is not long. No instructions, no reproach, no request to be remembered kindly. He thanks her for one afternoon years ago when she spoke to him as though he were worth the trouble of speaking to. He says he has found a use at last for a wasted life, and asks that the boy not be told until he is old enough to hear it properly.",
       "sceneTitle": "Letter",
       "choices": [
         {
           "text": "Read it aloud",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You read it to the whole room and your voice fails at the third line, and Lorry takes it out of your hand and finishes it in the flat clear tone of a statement of account.",
           "nextNodeId": "s21"
         },
         {
           "text": "Read it quietly",
-          "consequence": "You commit to “Read it quietly.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You read it once alone and hand it to Lucie without a word. She reads it standing, and afterwards it lives in a locked box for fifty years.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "It is, he says, a far, far better thing.",
+      "text": "He goes up in another man's coat under another man's name, holding the hand of a seamstress of twenty who worked out who he was in the cart and asked to keep hold of him for the last of it. He counts for her. She goes first. And what he thinks, standing there, is nothing about himself: it is a long clear look down the years he will not be present for, and how good they are going to be.",
       "sceneTitle": "Scaffold",
       "choices": [
         {
           "text": "Honor him forever",
-          "consequence": "You commit to “Honor him forever.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "The family says his name at table for three generations. The saying of it is the whole of the monument, and the only sort he would have tolerated.",
           "nextNodeId": "end_carton"
         },
         {
           "text": "Don't speak of it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You agree to leave it alone, and the silence gets into the house like damp, and the boy grows up knowing only that there is a box nobody opens.",
           "nextNodeId": "end_lucie"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is a quieter road out of this — a consulting room, a shabby coat, a man teaching himself to be ordinary again. It has been standing open since Soho.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_carton",
-      "text": "Carton's name lives, quietly, in your family. Your son, eventually, is named Sydney. He grows up kind. He never quite knows why he is allowed to be.",
+      "text": "They call the boy Sydney and he is never told why he is handled so carefully. He becomes a decent man with a dull profession and no idea at all that he was purchased. On a winter evening late in his life he tells the story to his own son, badly, with two of the dates wrong, and the son keeps it for sixty years. That is what survives: a first name, told imperfectly, and held on to anyway.",
       "sceneTitle": "Far, Far Better Thing",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_lucie",
-      "text": "Lucie lives long. She tells the story to grandchildren by a small fire. The grandchildren, in turn, tell their own.",
+      "text": "Lucie lives to be old and does the harder thing, which is not grieving but being happy on purpose, publicly, for fifty years, because a debt of that size can only be repaid in kind. Grandchildren by a small fire, a shawl over her knees, the story told the same way every time with the same pause before the same sentence. They carry it to their own children. The pause travels with it, and nobody ever explains the pause.",
       "sceneTitle": "Lucie's Years",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "Dr. Manette returns to medicine. His patients are gentle with him. He sees, for the rest of his days, the shape of a tower no longer there.",
+      "text": "Manette takes patients again in a London street where nobody has heard of the Bastille. His hands are steady for surgery and unreliable for buttons. He is gentle with the frightened ones, unhurried with the poor, and twice a year he loses a fortnight and comes back saying nothing about where he went, and Lucie says nothing either, and the household simply closes over the gap. He dies in his own chair by the fire with a book open. There is no bench anywhere in the house.",
       "sceneTitle": "A Quieter Practice",
       "choices": [],
       "isEnding": true,

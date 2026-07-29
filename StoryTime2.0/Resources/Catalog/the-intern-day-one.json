@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Your badge says 'Senior Intern' and your desk faces an open-plan office of people on standing-desk treadmills. The CEO, Jules, has, on paper, eight minutes a day. You set your watch.",
+      "text": "Your badge says 'Senior Intern' and your desk faces an open-plan office of people on standing-desk treadmills. The CEO, Jules, has, on paper, eight minutes a day. You set your watch. “Wait to be assigned a task” draws you toward The Useless Day; “Find something useful immediately” leaves The Cluttered Desk waiting on the other side.",
       "sceneTitle": "Orientation",
       "choices": [
         {
           "text": "Wait to be assigned a task",
-          "consequence": "Patience is a skill they haven't seen.",
+          "consequence": "Patience is a skill they haven't seen. You wait to be assigned a task. The route to The Useless Day opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         },
         {
           "text": "Find something useful immediately",
-          "consequence": "Initiative is your superpower.",
+          "consequence": "Initiative is your superpower. You choose to find something useful immediately. By The Cluttered Desk, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Nobody knows what to do with you. You read the company's website twice. You watch Jules walk past your desk three times without seeing you. At 5:01 you go home and tell your daughter it was 'great.'",
+      "text": "Nobody knows what to do with you. You read the company's website twice. You watch Jules walk past your desk three times without seeing you. The paths divide here: “Come back tomorrow with a plan” leads into The Drive Home, while “Tell Jules's COO you want a project” makes Cameron, Hungry to Learn the next reckoning.",
       "sceneTitle": "The Useless Day",
       "choices": [
         {
           "text": "Come back tomorrow with a plan",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plan B.",
+          "consequence": "You come back tomorrow with a plan. The route to The Drive Home opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell Jules's COO you want a project",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Apply directly.",
+          "consequence": "You commit to tell Jules's COO you want a project. It buys momentum toward Cameron, Hungry to Learn and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Tidy with respect — touch only what's clearly trash",
-          "consequence": "Boundaries are also kindness.",
+          "consequence": "Boundaries are also kindness. You commit to tidy with respect — touch only what's clearly trash. It buys momentum toward The Drive Home and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         },
         {
           "text": "Color-code the supply closet first",
-          "consequence": "Win small before big.",
+          "consequence": "You color-code the supply closet first. The route to Cameron, Hungry to Learn opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Jules's chauffeur quits — Uber wars, a scheduling issue, life. You, who once drove for a living, casually offer. She refuses politely. Then she gets in.",
+      "text": "Jules's chauffeur quits — Uber wars, a scheduling issue, life. You, who once drove for a living, casually offer. She refuses politely. Then she gets in. You are unlikely to keep all three. “Be a calm professional driver” draws you toward Jules's Home; “Be a calm presence and a sounding board” leaves Cameron's Promotion waiting on the other side.",
       "sceneTitle": "The Drive Home",
       "choices": [
         {
           "text": "Be a calm professional driver",
-          "consequence": "Let her work in the back.",
+          "consequence": "Let her work in the back. You be a calm professional driver. The route to Jules's Home opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Be a calm presence and a sounding board",
-          "consequence": "Listen when she breathes.",
+          "consequence": "Listen when she breathes. You commit to be a calm presence and a sounding board. It buys momentum toward Cameron's Promotion and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A young coworker named Cameron shyly asks you how to write a 'business email that doesn't sound like Slack.' This is, you realize, your real job.",
+      "text": "A young coworker named Cameron shyly asks you how to write a 'business email that doesn't sound like Slack.' This is, you realize, your real job. “Teach him over coffee” draws you toward Jules's Home; “Send him a one-pager” leaves Cameron's Promotion waiting on the other side.",
       "sceneTitle": "Cameron, Hungry to Learn",
       "choices": [
         {
           "text": "Teach him over coffee",
-          "consequence": "Mentorship is the actual product.",
+          "consequence": "Mentorship is the actual product. You teach him over coffee. The route to Jules's Home opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Send him a one-pager",
-          "consequence": "Documentation lasts longer than coffee.",
+          "consequence": "Documentation lasts longer than coffee. You choose to send him a one-pager. By Cameron's Promotion, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Be helpful without overstepping",
-          "consequence": "Be a guest, not a fixer.",
+          "consequence": "Be a guest, not a fixer. You commit to be helpful without overstepping. It buys momentum toward The Board's Suggestion and spends the last protection hesitation gave you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Notice Matt's loneliness gently",
-          "consequence": "See people fully.",
+          "consequence": "You notice Matt's loneliness gently. The route to Matt's Coffee opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Refuse the muffin with a smile",
-          "consequence": "Decline currency for kindness.",
+          "consequence": "Decline currency for kindness. You refuse the muffin with a smile. The route to The Board's Suggestion opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         },
         {
           "text": "Accept the muffin and ask him to mentor someone next",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pay forward.",
+          "consequence": "You commit to accept the muffin and ask him to mentor someone next. It buys momentum toward Matt's Coffee and spends the last protection hesitation gave you.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The investors suggest Jules step aside and hire a 'professional CEO.' Jules forwards you the email at midnight by accident. The forward is — you suspect — not entirely an accident.",
+      "text": "The investors suggest Jules step aside and hire a 'professional CEO.' Jules forwards you the email at midnight by accident. The forward is — you suspect — not entirely an accident. “Listen the next morning, no advice” opens the route to The Office Crisis. “Offer one careful sentence of perspective” changes the terms and carries you toward Becky's Confession.",
       "sceneTitle": "The Board's Suggestion",
       "choices": [
         {
           "text": "Listen the next morning, no advice",
-          "consequence": "Hold space first.",
+          "consequence": "You choose to listen the next morning, no advice. By The Office Crisis, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Offer one careful sentence of perspective",
-          "consequence": "Mentor without prescribing.",
+          "consequence": "Mentor without prescribing. You offer one careful sentence of perspective. The route to Becky's Confession opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Have the coffee and listen",
-          "consequence": "Care travels strange roads.",
+          "consequence": "Care travels strange roads. You choose to have the coffee and listen. By The Office Crisis, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Suggest he join the dads' group at the school",
-          "consequence": "Plug him into community.",
+          "consequence": "Plug him into community. You suggest he join the dads' group at the school. The route to Becky's Confession opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A small operational disaster — a vendor shipped two thousand wrong-colored boxes — threatens a launch. You quietly know three vendors who can pivot in 24 hours. You make four calls in fifteen minutes.",
+      "text": "A small operational disaster — a vendor shipped two thousand wrong-colored boxes — threatens a launch. You quietly know three vendors who can pivot in 24 hours. You make four calls in fifteen minutes. To choose “Solve it quietly and never mention it” means meeting Matt's Mistake; “Solve it and brief Jules cleanly” sends you toward Jules's Cry instead.",
       "sceneTitle": "The Office Crisis",
       "choices": [
         {
           "text": "Solve it quietly and never mention it",
-          "consequence": "Power is a verb.",
+          "consequence": "You commit to solve it quietly and never mention it. It buys momentum toward Matt's Mistake and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Solve it and brief Jules cleanly",
-          "consequence": "Give credit; build trust.",
+          "consequence": "Give credit; build trust. You commit to solve it and brief Jules cleanly. It buys momentum toward Jules's Cry and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Becky, Jules's overworked assistant, hits a wall and cries in the supply closet. She is also, you find out, a brilliant manager who has been hiding it. You see her clearly.",
+      "text": "Becky, Jules's overworked assistant, hits a wall and cries in the supply closet. She is also, you find out, a brilliant manager who has been hiding it. You see her clearly. Choose “Recommend Becky for a promotion” and Matt's Mistake comes into view; choose “Build a 90-day plan with her quietly” and the road bends toward Jules's Cry.",
       "sceneTitle": "Becky's Confession",
       "choices": [
         {
           "text": "Recommend Becky for a promotion",
-          "consequence": "Promote what you see.",
+          "consequence": "You commit to recommend Becky for a promotion. It buys momentum toward Matt's Mistake and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Build a 90-day plan with her quietly",
-          "consequence": "Coach where you can.",
+          "consequence": "You build a 90-day plan with her quietly. The route to Jules's Cry opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Matt confides, ashamed, that he's done something wrong in his marriage. He's not asking advice. He's asking what to do. The mentor in you knows there is no shortcut.",
+      "text": "Matt confides, ashamed, that he's done something wrong in his marriage. He's not asking advice. He's asking what to do. The mentor in you knows there is no shortcut. You are unlikely to keep all three.",
       "sceneTitle": "Matt's Mistake",
       "choices": [
         {
           "text": "Tell him the truth gently",
-          "consequence": "Be a friend with a spine.",
+          "consequence": "Be a friend with a spine. You commit to tell him the truth gently. It buys momentum toward The Pitch Meeting and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Ask him what he wants for his marriage in a year",
-          "consequence": "Coach the future, not the moment.",
+          "consequence": "Coach the future, not the moment. You ask him what he wants for his marriage in a year. The route to The Office Dance Floor opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Jules cries in a hotel room in San Francisco at 1 a.m. and you sit on the second bed at a respectful distance and say nothing for a long time. Then you hand her a tissue.",
+      "text": "Jules cries in a hotel room in San Francisco at 1 a.m. and you sit on the second bed at a respectful distance and say nothing for a long time. Then you hand her a tissue. You are unlikely to keep all three.",
       "sceneTitle": "Jules's Cry",
       "choices": [
         {
           "text": "Be quietly present",
-          "consequence": "Care is sometimes a tissue.",
+          "consequence": "Care is sometimes a tissue. You commit to be quietly present. It buys momentum toward The Pitch Meeting and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Say one perfect sentence",
-          "consequence": "When you do speak, it counts.",
+          "consequence": "When you do speak, it counts. You say one perfect sentence. The route to The Office Dance Floor opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Tell her she's right about slide three",
-          "consequence": "Make her see what you see.",
+          "consequence": "Make her see what you see. You commit to tell her she's right about slide three. It buys momentum toward The Board Decision and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Let her discover it on her own",
-          "consequence": "Trust is also a slide.",
+          "consequence": "You let her discover it on her own. The route to Paige's School Play opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "An office party. Jules dances with her assistant. Cameron dances badly with a girl from accounting. You dance with a colleague named Fiona, who is, somehow, very pleasant company.",
+      "text": "An office party. Jules dances with her assistant. Cameron dances badly with a girl from accounting. You dance with a colleague named Fiona, who is, somehow, very pleasant company. Choose “Ask Fiona to dinner” and The Board Decision comes into view; choose “Stay friendly, no more” and the road bends toward Paige's School Play.",
       "sceneTitle": "The Office Dance Floor",
       "choices": [
         {
           "text": "Ask Fiona to dinner",
-          "consequence": "Companionship at any age.",
+          "consequence": "Companionship at any age. You commit to ask Fiona to dinner. It buys momentum toward The Board Decision and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay friendly, no more",
-          "consequence": "Take care of your own pace.",
+          "consequence": "Take care of your own pace. You commit to stay friendly, no more. It buys momentum toward Paige's School Play and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Jules emerges from the boardroom slightly windswept. 'I'm staying,' she says. 'Also, the new chairwoman wants to hire you full-time. I told her no. You're mine.'",
+      "text": "Jules emerges from the boardroom slightly windswept. 'I'm staying,' she says. 'Also, the new chairwoman wants to hire you full-time. I told her no. “Accept Jules's offer” opens the route to One Year Later. “Negotiate for a fractional schedule” changes the terms and carries you toward Tai Chi at Dawn.",
       "sceneTitle": "The Board Decision",
       "choices": [
         {
           "text": "Accept Jules's offer",
-          "consequence": "Stay in the room you helped build.",
+          "consequence": "Stay in the room you helped build. You choose to accept Jules's offer. By One Year Later, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         },
         {
           "text": "Negotiate for a fractional schedule",
-          "consequence": "Make space for life.",
+          "consequence": "You choose to negotiate for a fractional schedule. By Tai Chi at Dawn, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Jules can't make it. You go in her place with Matt and Paige's homemade sign. Paige sees you in the audience and her face lights up like a small city.",
+      "text": "Jules can't make it. You go in her place with Matt and Paige's homemade sign. Paige sees you in the audience and her face lights up like a small city. To choose “Take a hundred terrible photos to send to Jules” means meeting One Year Later; “Just be there, fully present” sends you toward Tai Chi at Dawn instead.",
       "sceneTitle": "Paige's School Play",
       "choices": [
         {
           "text": "Take a hundred terrible photos to send to Jules",
-          "consequence": "Bridge the room she's not in.",
+          "consequence": "Bridge the room she's not in. You commit to take a hundred terrible photos to send to Jules. It buys momentum toward One Year Later and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Just be there, fully present",
-          "consequence": "Sometimes you're the photo.",
+          "consequence": "Sometimes you're the photo. You commit to just be there, fully present. It buys momentum toward Tai Chi at Dawn and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Keep working as long as it's useful",
-          "consequence": "Usefulness is a kind of youth.",
+          "consequence": "Usefulness is a kind of youth. You choose to keep working as long as it's useful. By Cameron's Letter, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Plan a slow retirement again, on your terms",
-          "consequence": "Slow exit, full heart.",
+          "consequence": "You plan a slow retirement again, on your terms. The route to Cameron's Letter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s20",
-      "text": "Cameron leaves a handwritten letter on your desk on a Friday afternoon. It is two pages, slightly smudged, and it begins with 'You taught me how to be a colleague.' You read it twice and put it in the drawer where you keep important things.",
+      "text": "Cameron leaves a handwritten letter on your desk on a Friday afternoon. It is two pages, slightly smudged, and it begins with 'You taught me how to be a colleague.' You read it twice and put it in the drawer where you keep important things. You are unlikely to keep all three.",
       "sceneTitle": "Cameron's Letter",
       "choices": [
         {
           "text": "Stay because letters like this exist",
-          "consequence": "Mentorship is the only career that pays in letters.",
+          "consequence": "Mentorship is the only career that pays in letters. You stay because letters like this exist. The route to Senior Intern, Forever opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_useful"
         },
         {
           "text": "Plan the slow goodbye, with letters of your own to write",
-          "consequence": "Pay it forward in ink.",
+          "consequence": "You plan the slow goodbye, with letters of your own to write. The route to The Slow Exit opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_slow"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Take Fiona on a weekend trip",
-          "consequence": "Companionship is a verb.",
+          "consequence": "Companionship is a verb. You take Fiona on a weekend trip. The route to A Weekend in Vermont opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_companion"
         },
         {
           "text": "Keep tai chi alone, mostly",
-          "consequence": "Solitude is also fine.",
+          "consequence": "You commit to keep tai chi alone, mostly. It buys momentum toward The Park at Dawn and spends the last protection hesitation gave you.",
           "nextNodeId": "end_serene"
         }
       ],

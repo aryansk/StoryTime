@@ -82,13 +82,20 @@ Catalog loading is offline-first. The Apple app loads bundled and cached content
 
 ## Working with stories
 
-The compact Python specs are the authoring source of truth. Do not hand-edit generated JSON without also updating the corresponding spec.
+The compact Python specs are the source of truth for story metadata and
+branching. Existing catalog JSON is the source of truth for edited scene prose
+and choice consequences. A normal build preserves that editorial copy while
+regenerating structure.
 
 Build all managed stories and the index:
 
 ```bash
 python3 scripts/build_stories.py
 ```
+
+To deliberately discard edited catalog prose and restore the compact spec copy,
+use `python3 scripts/build_stories.py --refresh-editorial-copy`. This is an
+editorial reset and should not be part of the normal build workflow.
 
 Validate metadata parity, graph reachability, choice integrity, endings, and content fields:
 

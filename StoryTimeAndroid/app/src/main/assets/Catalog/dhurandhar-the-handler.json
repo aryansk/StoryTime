@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Your dead-drop in Saddar is empty for the third week. The signal mark on the wall by Burns Road has been painted over. Your handler in Delhi has, somewhere, gone quiet.",
+      "text": "Third week, and the dead-drop behind the Saddar bookseller is still empty — no chalk, no cigarette packet, nothing. The signal mark on the wall off Burns Road has been painted over in a municipal green nobody in this city has ever used for anything. Ganesh does not miss a cycle. Ganesh has not missed a cycle in six years. So either he is dead or you are.",
       "sceneTitle": "Silence on the Line",
       "choices": [
         {
           "text": "Trigger the emergency protocol",
-          "consequence": "Assume the worst.",
+          "consequence": "You post a classified for a bicycle you do not own, and the moment it goes up you are asking a stranger to save you.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait one more cycle",
-          "consequence": "Patience is also tradecraft.",
+          "consequence": "You give it eight more days, because eight days is cheaper than a burn notice. Eight days is also long enough to fit a funeral.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your cover wife reminds you of the wedding tomorrow at the general's compound. Your in-laws, by cover, are deep into the regime. You must attend smiling.",
+      "text": "Rabia irons your good kurta and talks you through tomorrow: her cousin's wedding, the general's compound in Clifton, four hundred guests under a marquee lit like a runway. Her family — your family, on paper, for four years — sit close enough to the regime to hear it breathe. You will attend. You will smile at men who would hang you before the sweets came out.",
       "sceneTitle": "The Cousin's Wedding",
       "choices": [
         {
           "text": "Use the wedding for one drop",
-          "consequence": "Cover is also an opportunity.",
+          "consequence": "You decide to work a room full of soldiers while wearing their nephew's face. One drop, one minute. You have never been greedy before.",
           "nextNodeId": "s4"
         },
         {
           "text": "Use the wedding only as cover, not for ops",
-          "consequence": "Don't burn a wedding.",
+          "consequence": "You resolve to be nothing but a husband for six hours, which is discipline, and which means the intelligence walks past you carrying a plate.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Lt. Asad, junior ISI, has been polite to you for two years and you suspect, mildly, that he likes your cover wife. Today he asks you for a private cigarette on the balcony.",
+      "text": "Lt. Asad, twenty-nine, ISI, two years of correct small talk and a habit of standing half a step closer to Rabia than the tea requires. Today he does not mention cricket. He tips his head toward the balcony and holds out a cigarette from a packet he has already opened. You do not smoke. He knows you do not smoke.",
       "sceneTitle": "The Lieutenant",
       "choices": [
         {
           "text": "Take the cigarette",
-          "consequence": "Hear him out.",
+          "consequence": "You take it, hold it wrong, and let him light it. Whatever he means to say needs your hands busy, and now they are.",
           "nextNodeId": "s4"
         },
         {
           "text": "Politely decline",
-          "consequence": "There is no taking “Politely decline” back. Buy time shapes the silence before the next moment arrives.",
+          "consequence": "You say your chest has been bad. He nods, keeps the packet out one beat longer, and files the refusal somewhere you cannot reach.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "An asset older than you — a woman who runs a pharmacy in Korangi — leaves you a message inside a strip of antacids. Translation: 'Delhi compromised. Run silent. Trust nobody outside our chain.'",
+      "text": "Korangi, a pharmacy with a hand-painted sign and a woman behind the counter old enough to have run couriers before Partition finished settling. She sells you antacids for a stomach you never mentioned. Under the foil of the fourth tablet, a square of rice paper: Delhi is open. Run silent. Nothing outside our own chain. She has already turned to the next customer.",
       "sceneTitle": "The Old Asset",
       "choices": [
         {
           "text": "Run silent immediately",
-          "consequence": "Trust the old hand.",
+          "consequence": "You stop signalling, stop collecting, stop being useful — and by nightfall you are a man with no reason to exist in this city.",
           "nextNodeId": "s6"
         },
         {
           "text": "Verify her message first",
-          "consequence": "Trust, but check.",
+          "consequence": "You spend two days confirming a warning from the only person in your life who has never been wrong. Two days is what it costs to trust nobody.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Rabia, your cover wife of four years, is not — you have always believed — an asset herself. Tonight, over dinner, she says quietly, 'I think you should tell me what you do.'",
+      "text": "Four years of dal and news bulletins and a marriage certificate manufactured in Lahore. Rabia sets down the serving spoon, wipes her hands twice, and says she would like you to tell her what you actually do. No shouting. No tears. She has rehearsed the sentence in a mirror, and she has left a very careful pause on the end of it for you to fill.",
       "sceneTitle": "Your Cover Wife",
       "choices": [
         {
           "text": "Tell her",
-          "consequence": "Honesty is also a vow.",
+          "consequence": "You say one true sentence out loud in Karachi for the first time in four years, and the room does not fall in on you.",
           "nextNodeId": "s6"
         },
         {
           "text": "Deny, then evaluate her",
-          "consequence": "Trust takes longer.",
+          "consequence": "You lie smoothly and watch how she takes it. She takes it far too well. That answers a question you had not thought to ask.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Three brigadiers, two ministers, fourteen waiters who report somewhere. You smile, eat the lamb, embrace cousins who don't exist. The cake has, inexplicably, fireworks.",
+      "text": "Three brigadiers, two ministers, and fourteen waiters who file reports somewhere. You eat the lamb, embrace cousins invented in a Delhi office, and laugh at a joke about Indians at exactly the right volume. Then the cake comes in under sparklers, and for four seconds every face in the marquee is lit from below and turned the same direction. You are the only one facing the doors.",
       "sceneTitle": "The Wedding Day",
       "choices": [
         {
           "text": "Approach Brigadier Khan for intel",
-          "consequence": "Risk, target up.",
+          "consequence": "You walk toward the loudest man at the party, because loud men explain themselves. It is the first unnecessary risk you have taken in six years.",
           "nextNodeId": "s8"
         },
         {
           "text": "Stay invisible and read the room",
-          "consequence": "There is no taking “Stay invisible and read the room” back. Watch first shapes the silence before the next moment arrives.",
+          "consequence": "You keep to the edges and let the room tell you things it does not know it is saying. Nobody will remember you were there.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Asad pulls you aside. He says, in a quiet way, that ISI knows about a 'Delhi joint' — they don't have your name, but they have a list of forty husbands fitting your profile. Yours is one of them.",
+      "text": "Asad takes you past the generator shed where nobody stands. He talks to the wall rather than to you. There is a Delhi line running through Karachi, he says. They do not have a name. What they have is forty husbands — right age, right marriage, wrong amount of nothing in the history. He does not say that yours is one of them. He does not have to.",
       "sceneTitle": "Asad's Confession",
       "choices": [
         {
           "text": "Use Asad — he likes you for some reason",
-          "consequence": "Friendly enemy is the rarest asset.",
+          "consequence": "You begin working out what he wants, which is the beginning of running him, and you do it while your hands are still unsteady.",
           "nextNodeId": "s8"
         },
         {
           "text": "Plan immediate exfil",
-          "consequence": "Forty is a small number to be in.",
+          "consequence": "You start counting borders instead of assets. Forty names is a list somebody in Delhi handed across a table, and lists get shorter.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Khan's daughter, twenty-two, is openly cynical about her father in a way only daughters of generals can be. She also, you discover, has access to a laptop the agency would burn for.",
+      "text": "Khan's daughter is twenty-two, doing a law degree she calls a hostage situation, and speaks about her father with the specific contempt of a woman who has watched him lie to a room. She is also the one who carries his laptop out to the car when he has been drinking, and she mentions this the way people mention weather.",
       "sceneTitle": "The Brigadier's Daughter",
       "choices": [
         {
           "text": "Pitch her on a slow recruitment",
-          "consequence": "The decision settles the question for now. Its verdict—Long game—follows you into whatever comes next.",
+          "consequence": "You plant one idea and leave it unwatered — six months of tea and patience. Recruitment done properly is indistinguishable from friendship, which is the ugly part.",
           "nextNodeId": "s10"
         },
         {
           "text": "Steal one file and walk away",
-          "consequence": "There is no taking “Steal one file and walk away” back. Short game shapes the silence before the next moment arrives.",
+          "consequence": "You take twenty minutes and one directory, and you never see her again. She will spend years wondering what it was she said.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "On the drive home you spot the same dark Vigo twice. You change routes. It changes routes. Rabia, beside you, sees it before you do.",
+      "text": "Sharea Faisal, then the turn at Nursery, and the dark Vigo with the tinted rear glass is behind you both times. You change lanes twice and take a wrong exit deliberately, and it comes along like weather. Rabia keeps her eyes forward and says nothing. Three minutes ago she reached over and quietly locked her own door. She saw it before you did.",
       "sceneTitle": "Karachi Traffic",
       "choices": [
         {
           "text": "Confront the tail at a chowk you control",
-          "consequence": "There is no taking “Confront the tail at a chowk you control” back. Bait them shapes the silence before the next moment arrives.",
+          "consequence": "You pick ground you know — one exit, four rickshaws, a traffic constable who owes you. Making them react is how you find out who owns them.",
           "nextNodeId": "s10"
         },
         {
           "text": "Lose them through Saddar's alleys",
-          "consequence": "The decision settles the question for now. Its verdict—Disappear—follows you into whatever comes next.",
+          "consequence": "You dissolve into alleys built before cars and come out clean at Empress Market. Clean, and now certain somebody has your registration plate.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You go back to the Korangi pharmacy. The old asset — Khala Bhabhi — is not surprised. She pulls out a samosa, a USB, and a 9mm with one round in the chamber. She is, you realize, the only person in your chain who is calm.",
+      "text": "Khala Bhabhi pulls the shutter halfway down and sets out samosas nobody is going to eat. Onto the counter, in order: a USB in a twist of cotton wool, an envelope of rupees, and a 9mm with one round chambered and no spare. Sixty-five years old, her own blood pressure tablets in her pocket, the steadiest hands in your entire chain. She asks whether you have eaten.",
       "sceneTitle": "The Pharmacy",
       "choices": [
         {
           "text": "Take the USB and run",
-          "consequence": "The decision settles the question for now. Its verdict—Information first—follows you into whatever comes next.",
+          "consequence": "You take the drive and leave the samosas, and she looks at you the way she looks at people she does not expect to see twice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay an hour and learn her plan",
-          "consequence": "She has one.",
+          "consequence": "You sit, you eat, and you let a woman in her sixties draw an escape route on the back of a wholesale receipt. Every minute is a minute the Vigos have.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Rabia, back at the apartment, opens a drawer you didn't know existed. Documents. A passport with her photo and another name. 'I was placed here by someone too,' she says. 'My handler is dead. I think we should leave together.'",
+      "text": "She opens the bottom drawer of a cabinet you have searched twice. Under folded winter blankets: a passport with her photograph and a name you have never heard, four thousand dollars in old notes, and a list with burnt edges. Somebody placed me here too, she says. My handler stopped answering in March. She has been carrying this since March. She has also been making your breakfast.",
       "sceneTitle": "Rabia's Plan",
       "choices": [
         {
           "text": "Believe her and run together",
-          "consequence": "Allies in the cold.",
+          "consequence": "You believe a woman who has just proved she is a professional liar. It is the only decision in six years you make with your chest.",
           "nextNodeId": "s12"
         },
         {
           "text": "Verify her story for an hour",
-          "consequence": "“Verify her story for an hour” closes one possibility and opens another. The moment leaves a clear note behind: Even now.",
+          "consequence": "You give it one hour and three questions with known answers. She passes all three, then answers the fourth before you ask it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You and Rabia (or you alone) drive through the night toward the border. The Pakistani desert at 3 a.m. is a particular kind of empty. There is one checkpoint left.",
+      "text": "You drive without headlights on a road that stopped being a road forty kilometres ago. Sand, salt flat, the occasional acacia standing out like a man. At three in the morning the desert is quiet enough that you can hear the engine cooling when you stop. Ahead is the last checkpoint before the border: two soldiers, a barrier, and a radio that tonight either works or does not.",
       "sceneTitle": "Tharparkar",
       "choices": [
         {
           "text": "Bribe the checkpoint guard",
-          "consequence": "Cash is fluent.",
+          "consequence": "You get out with money in your shirt pocket and a story about a sick mother in Mithi. He counts it slowly enough that you feel every note.",
           "nextNodeId": "s14"
         },
         {
           "text": "Take a smuggler's route around it",
-          "consequence": "Maps you memorized.",
+          "consequence": "You go around on tracks worn smooth by men who move diesel and goats, which costs three hours and very nearly all of your fuel.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Three Vigos converge on a Saddar street. You take a side door into a tea shop. The owner, who has seen too many movies, recognizes the look on your face and says, in Sindhi, 'Back room. Now.'",
+      "text": "Three Vigos take the Saddar street from both ends at once, a manoeuvre nobody improvises. You go sideways through a tea shop's kitchen door into the courtyard behind, and there is Tariq, who trained one intake ahead of you, standing with men who are not his. He starts a sentence. You fire twice without waiting to see the result, come back inside, and the owner tilts his chin at the back room.",
       "sceneTitle": "The Ambush",
       "choices": [
         {
           "text": "Trust the tea shop owner",
-          "consequence": "Sometimes strangers save you.",
+          "consequence": "You take a stranger's word and the back room with it. He goes on wiping cups, and later, when they ask, he will describe somebody taller.",
           "nextNodeId": "s14"
         },
         {
           "text": "Climb to the roof",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Old solutions.",
+          "consequence": "You go up the water-tank ladder instead, across four roofs of drying chillies, and count from above. Nine men, and not one of them looking up.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You make it to a safe-house run by a different handler than yours — Delhi's left hand, who didn't know what the right hand was doing. They are appalled, professional, in motion.",
+      "text": "A flat above a shipping agent in Kharadar, run by Delhi's other hand — a desk that did not know your desk existed. The woman in charge reads the drive, goes grey, and starts making calls in a language of reference numbers. Ganesh, they tell you, was buried in Pune in March with full honours and no autopsy. They are appalled. They are also, you notice, extremely fast.",
       "sceneTitle": "The Joint Office",
       "choices": [
         {
           "text": "Trust them to extract you cleanly",
-          "consequence": "Bureaucracy at its best.",
+          "consequence": "You put your life into a chain you have known for ninety minutes, because the alternative is a chain that has already been opened once.",
           "nextNodeId": "s16"
         },
         {
           "text": "Demand independent extraction by an ally service",
-          "consequence": "Don't put all eggs in one Delhi.",
+          "consequence": "You insist on a third-country channel and a signature you can put a name to. It buys safety and costs you every friend you had in Delhi.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "A small boat — Kemari, dawn — bound for an island you cannot put on a map. The fisherman has been paid in advance. He nods at Rabia. He nods at you. The water, briefly, is yours.",
+      "text": "Kemari before dawn: diesel, fish guts, a boat with peeling blue paint and an outboard rebuilt more times than is reasonable. The fisherman was paid a week ago by somebody neither of you has met. He nods at Rabia. He nods at you. He asks for no names, and out past the breakwater the water goes grey and briefly, absolutely, belongs to nobody.",
       "sceneTitle": "The Beach",
       "choices": [
         {
           "text": "Take the boat",
-          "consequence": "Leave by the sea.",
+          "consequence": "You step in and the hull settles under your weight, and six years of Karachi becomes something that happened to a man with a different name.",
           "nextNodeId": "s16"
         },
         {
           "text": "Decide to stay and finish the work",
-          "consequence": "Some assets cannot be exfiltrated.",
+          "consequence": "You step back onto wet concrete and watch the boat go out without you. Rabia does not turn around, which is correct procedure and nothing else.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Back home, in a debrief room with one-way glass, you trade silence for a pension and a promise. Your case officer, alive, blinks at you across a table. You realize forgiveness is, in this profession, also paperwork.",
+      "text": "A debrief room in a building with no board outside it: one-way glass, a jug of water nobody pours, a table with a burn mark. Across it sits a case officer who is alive, apologetic, and has clearly been briefed on what he may say. Six years, forty names, one funeral in Pune that was not a funeral. You trade silence for a pension band. Here, forgiveness is issued in triplicate.",
       "sceneTitle": "Delhi, Quietly",
       "choices": [
         {
           "text": "Take the pension and disappear into civilian life",
-          "consequence": "Earn the boredom.",
+          "consequence": "You sign in three places and hand back a life. The clerk asks how to spell your real surname and you have to stop and think.",
           "nextNodeId": "s18"
         },
         {
           "text": "Check the mail one more time before deciding",
-          "consequence": "An old asset always checks the mail.",
+          "consequence": "You hold off on the signature for one more week on nothing but instinct, and instinct has never once been kind to you.",
           "nextNodeId": "s20"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You stay. With a new cover, a new neighborhood, a new wife on paper. You spend three years rebuilding what was burned. You uncover, eventually, the leak in Delhi. Your name will never be in a paper. You're okay with that.",
+      "text": "You stay. New name, new neighbourhood, a wife on paper who is not Rabia and never asks. Three years rebuilding a network out of grocers, ambulance drivers and one dentist. The leak, when it surfaces, is not glamorous: a joint secretary's aide in Delhi with school fees and a habit of photographing his own desk. No newspaper will ever carry any of this. You find that you can live with it.",
       "sceneTitle": "The Long Game",
       "choices": [
         {
           "text": "Take the leak's head",
-          "consequence": "“Take the leak's head” closes one possibility and opens another. The moment leaves a clear note behind: Internal justice.",
+          "consequence": "You sit with the idea of doing it yourself for a week, and discover you have already booked the flight to Delhi.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hand the leak to the agency and walk",
-          "consequence": "Let process do it.",
+          "consequence": "You put it in a folder, hand it up the line, and go back to work — which is either discipline or cowardice, and you no longer separate them.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You wake at 5:30 because you always have. The street vendor calls his price. You buy two oranges. Nobody is following you. You learn, slowly, to trust that.",
+      "text": "You wake at five-thirty because your body has not been informed. The fruit seller downstairs calls his price at nobody in particular. You buy two oranges and take the long way back out of pure habit, checking reflections in a chemist's window. Nothing behind you. Nothing behind you tomorrow either. It takes about four months before you stop earning the street and simply walk down it.",
       "sceneTitle": "The First Civilian Morning",
       "choices": [
         {
           "text": "Choose the civilian life fully",
-          "consequence": "Let the rhythm reset you.",
+          "consequence": "You throw out the second phone, and for a fortnight your hand keeps going to the pocket where it used to live.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Pick up the phone when it rings, just once",
-          "consequence": "Old loyalties tug.",
+          "consequence": "You answer a number with no country code, only to hear who it is. Hearing who it is takes nine seconds and costs you a year.",
           "nextNodeId": "end_again"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You walk Lodhi at dawn and weigh whether the leak deserves the personal touch or the procedural one. The trees do not, in the end, advise you. They never have.",
+      "text": "Six in the morning, the tombs still cold, joggers in bright shoes going past you who have never once been afraid. You have his address, his shift pattern, and the name of the school his daughters attend. You also have a file that would finish him legally in about four months. The trees offer nothing. They offered nothing in Karachi either, and men died on both plans.",
       "sceneTitle": "The Decision in Lodhi Gardens",
       "choices": [
         {
           "text": "Settle it yourself, quietly",
-          "consequence": "Justice with your own hands.",
+          "consequence": "You choose the personal touch, then spend the whole walk home deciding what personal actually means when you are holding this much paper.",
           "nextNodeId": "end_leak"
         },
         {
           "text": "Let the agency settle it on paper",
-          "consequence": "Justice with letterhead.",
+          "consequence": "You choose the slow bloodless version and hand it to a committee, knowing exactly how many of them owe him a lunch.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A letter arrives from a country Rabia is not supposed to be alive in. It is two pages. It says only what one survivor says to another. You read it twice and put it in a drawer with the other things you cannot keep on a shelf.",
+      "text": "An Amsterdam postmark, and a country of residence Rabia is officially not alive in. Two pages, her handwriting narrower than you remember. She asks for nothing. She describes a bus route, a landlady, the price of fish on Thursdays. Near the bottom she writes that she still wakes at four and checks the door, and that she has stopped apologising to herself for it.",
       "sceneTitle": "Rabia's Letter",
       "choices": [
         {
           "text": "Write back, carefully",
-          "consequence": "Some lines stay open.",
+          "consequence": "You reply on unlined paper with no return address, and catch yourself choosing sentences that could survive being read aloud at a hearing.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Burn the letter and let her live free",
-          "consequence": "Some kindnesses are silences.",
+          "consequence": "You burn both pages over the kitchen sink and keep the envelope, which is exactly the half-measure you have spent years teaching people not to make.",
           "nextNodeId": "end_leak"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You become a man with a small business in Pune that nobody asks about. You learn to garden. You read history. You sleep with the door unlocked once a month, then twice, then nightly. It is a strange peace, and it is yours.",
+      "text": "You end up two hours out of Pune, in hill country, with a shop that sells generator parts and a house that fills with mist most mornings. Rabia comes nine months later, on paper that is finally only slightly false. You garden badly. You read history that has already finished happening. You unlock the door at night — once a month, then twice, then always — and one day notice you have stopped listening for the gate.",
       "sceneTitle": "Civilian",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_again",
-      "text": "You take a posting in Colombo, then Singapore. You age inside a profession that does not allow you to remember birthdays. You see your cover children grow up in photographs. You will, in your sixties, write a memoir nobody will publish. It will be excellent.",
+      "text": "Colombo, then Singapore, then a desk in Dubai with a view of someone else's construction. You age inside a profession that does not permit birthdays. Your cover children grow up in photographs a courier brings twice a year; you can name their teachers but not their voices. At sixty-one you write four hundred pages in longhand that no publisher will touch. It is the best thing you ever make, and it stays in a drawer.",
       "sceneTitle": "The Next Assignment",
       "choices": [],
       "isEnding": true,
@@ -415,7 +415,7 @@
     },
     {
       "id": "end_leak",
-      "text": "You find the man in Delhi who burned a generation of assets. You do not kill him. You ensure, instead, that every transaction of his life is daylight. He resigns within a month, in disgrace, and survives. That, you decide, is the right severity.",
+      "text": "You find him in a flat in Mayur Vihar with a scooter and a mortgage. You do not touch him. Instead every account, every trip, every unexplained deposit becomes visible to people who cannot afterwards un-see it, and he resigns in five weeks with his pension intact and his name inside a file that will outlive him. He lives. He goes on living, in daylight, forever. You decide that is the correct weight.",
       "sceneTitle": "The Internal Justice",
       "choices": [],
       "isEnding": true,

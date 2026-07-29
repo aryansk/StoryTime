@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The AI judge — they call it MERCY — renders a decision in 0.4 seconds. Your client, an undocumented teenager, is guilty by 96.8% confidence. You have until tomorrow's sentencing to file an appeal a machine will read.",
+      "text": "MERCY returns in 0.4 seconds. There is no gavel; there is a chime, and then a PDF. Your client — seventeen, undocumented, five foot one in shoes she borrowed for court — is guilty at 96.8% confidence, printed in the same font as everything else on the page. Sentencing is tomorrow at nine. You have until then to write an appeal that will be read by nothing with a face.",
       "sceneTitle": "The Verdict",
       "choices": [
         {
           "text": "Read the model card immediately",
-          "consequence": "Know your judge.",
+          "consequence": "You go at the machine before you go to the girl, because the machine has documentation and the girl has hope. You will feel that ordering later.",
           "nextNodeId": "s2"
         },
         {
           "text": "Call your client first",
-          "consequence": "People before paperwork.",
+          "consequence": "You call the holding facility before reading a page, and Sara answers already crying. Twenty minutes out of twenty-four hours, and you would spend them again.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "MERCY's documentation is 1,200 pages of math. The summary admits to a 'measured bias floor of 1.4% on minority defendants.' The footnote calls that 'within acceptable bounds.' You decide it isn't.",
+      "text": "Twelve hundred pages, and the interesting sentence sits on page nine hundred and four, in a footnote, in a smaller point size: 'a measured bias floor of 1.4% on minority defendants, within acceptable bounds.' Acceptable to whom is not specified. You do the arithmetic anyway. Fourteen thousand cases a year run through MERCY in this state. One point four percent isn't a rounding error. It's a small town.",
       "sceneTitle": "The Model Card",
       "choices": [
         {
           "text": "Focus the appeal on the bias floor",
-          "consequence": "Math beats math.",
+          "consequence": "You aim at the machine instead of the case, which is either the biggest swing of your career or malpractice, depending entirely on Thursday.",
           "nextNodeId": "s4"
         },
         {
           "text": "Focus on your specific client's case",
-          "consequence": "Particulars beat statistics.",
+          "consequence": "You put the footnote in a drawer and go back to one girl and one night. Winning small is still winning, and Sara doesn't get to appeal twice.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Sara, seventeen, hasn't slept. She didn't do it. She also didn't do it in a way that the prosecution's data set would recognize as exoneration. Her alibi is in a language MERCY does not weight highly.",
+      "text": "Sara hasn't slept in thirty-one hours and keeps apologizing for how she looks on the video link. She didn't do it. She also didn't not-do-it in any format the training set recognizes: her alibi is her aunt's church, in Mam, a congregation with no digital footprint and eight members who will not file affidavits with anyone in a uniform. Truth exists here. It simply isn't machine-readable.",
       "sceneTitle": "Your Client",
       "choices": [
         {
           "text": "Promise her you'll win",
-          "consequence": "Lies you intend to make true.",
+          "consequence": "You say the word 'promise' to a seventeen-year-old about something you cannot control. It buys her four hours of sleep and costs you the rest of the night.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her the odds honestly",
-          "consequence": "She has earned the truth.",
+          "consequence": "You give her the real number and watch her take it better than most adults do. 'Okay,' she says. 'So what do we do at three percent?'",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "A former engineer on MERCY answers your email at 3 a.m. She'll meet you, in person, off-camera. She has a USB. She is, she says, terrified.",
+      "text": "An email you sent to six former employees gets exactly one answer, at 3:14 in the morning, from an account with no name attached. She spent nineteen months on the calibration team. She'll meet you in person: no phones, no video, a diner off Route 9 she picks herself. She has a USB drive. The last line reads, 'I'm not brave. I'm just done being able to sleep.'",
       "sceneTitle": "The Whistleblower",
       "choices": [
         {
           "text": "Meet her at the diner she suggests",
-          "consequence": "Risk is the work.",
+          "consequence": "You drive ninety minutes at four in the morning on a stranger's word. Every reasonable instinct says trap. You go anyway, and you leave your phone in the trunk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask for the file remotely first",
-          "consequence": "Caution can also be care.",
+          "consequence": "You ask her to upload it and she stops answering for six hours. Caution is free until it isn't, and you just spent a quarter of your day learning that.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Adams, an old colleague, has gone all-in on MERCY. He thinks it ends bias. He thinks it is the only honest judge he's ever appeared before. He is not, in the conventional sense, wrong about the alternative.",
+      "text": "Adams has been a prosecutor twenty-two years and a believer for two. He buys the coffee and explains, without heat, that he has watched judges sentence by hunger, by tee time, by what a defendant's father did in 1988. MERCY doesn't do that. MERCY has never once been late for lunch. He is not, in the way that matters, wrong about the thing he is comparing it to.",
       "sceneTitle": "The Prosecutor",
       "choices": [
         {
           "text": "Try to flip him on this specific case",
-          "consequence": "Persuasion is a slow art.",
+          "consequence": "You work the one case instead of the philosophy, because he can concede a girl without conceding a religion. He agrees to read a single file.",
           "nextNodeId": "s6"
         },
         {
           "text": "Plan to outflank him",
-          "consequence": "Sometimes you have to win past a friend.",
+          "consequence": "You decide he can't be moved and start building around him. It is the correct tactical read, and you will spend a year regretting it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The whistleblower hands you a drive containing the training data audits MERCY's vendor never published. Half the data is from one neighborhood. Half the 'high-risk' tags were drawn by an intern.",
+      "text": "The drive holds the internal audits nobody filed with the state. Sixty-one percent of the training incidents come from four census tracts. The 'high-risk associate' tags — the feature that weighed hardest against Sara — were hand-labeled by contractors at nineteen dollars an hour, working from social media, with an inter-rater agreement of 0.51. Half the model's moral authority was assembled by people who were guessing.",
       "sceneTitle": "The USB",
       "choices": [
         {
           "text": "Build the appeal around the data",
-          "consequence": "Bias documented is bias defeated.",
+          "consequence": "You spend the drive on one girl, which means the vendor gets it sealed afterward and nobody else ever sees a page of it. Sara first. Sara always.",
           "nextNodeId": "s8"
         },
         {
           "text": "Save the data and use it for systemic suit",
-          "consequence": "Bigger fights need ammunition.",
+          "consequence": "You hold the best evidence you will ever own out of tomorrow's filing to protect a larger case. Sara is not told this. You don't sleep.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Sara's sister — fifteen, sharp — shows you a TikTok timestamp that places Sara six miles from the scene. MERCY rejected it as 'unverified.' The video is real and dated and clear.",
+      "text": "Marisol is fifteen and films everything, which is a personality defect right up until it becomes an alibi. On her phone: Sara, eating shaved ice, six miles from the scene, timestamped nine minutes before it happened, a bus rolling through frame with a route number you can verify. MERCY logged the submission and flagged it 'unverified, user-generated.' It never assigned the footage any weight at all.",
       "sceneTitle": "Sara's Sister",
       "choices": [
         {
           "text": "Get the video verified by a forensic lab",
-          "consequence": "Evidence MERCY can't reject.",
+          "consequence": "You pay a lab out of your own account for a rush certification you cannot bill. Nine hours and eight hundred dollars to make a machine admit that a bus exists.",
           "nextNodeId": "s8"
         },
         {
           "text": "Submit it to MERCY again with new metadata",
-          "consequence": "Game the input.",
+          "consequence": "You resubmit with the transit authority's GPS log attached, teaching yourself the system's grammar in an afternoon. Confidence drops from 96.8 to 94.1. Not nearly enough.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The defense terminal lets you submit appeals as structured text plus evidence packets. There is no audience. There is no jury. You write the most important paragraph of your career into a chat box.",
+      "text": "The defense portal is a text field with a character counter and an evidence-packet uploader. No podium, no jury, nobody to look at while you say the thing. The counter runs grey to 8,000 and turns red after. You have written closings that made bailiffs look away, and tonight the most important paragraph of your life goes into a box that suggests, helpfully, that shorter submissions parse more reliably.",
       "sceneTitle": "MERCY's Interface",
       "choices": [
         {
           "text": "Frame it as a procedural error",
-          "consequence": "Bureaucracy is MERCY's love language.",
+          "consequence": "You write it in the machine's language — evidentiary weighting, submission handling, remand for reprocessing. Cold, correct, and it never once says her name.",
           "nextNodeId": "s10"
         },
         {
           "text": "Frame it as a story about Sara",
-          "consequence": "Even algorithms are trained on stories.",
+          "consequence": "You write about the shaved ice and the borrowed shoes and the aunt's church, knowing the parser will discount every sentence. Somebody human might read it later.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "There is one human in this courtroom: Judge Park, who oversees MERCY's outputs. She is exhausted and skeptical of both you and the machine. She might be your only doorway.",
+      "text": "There is exactly one person in Courtroom 4B with a pulse and authority: Judge Park, who signs off on MERCY's outputs at a rate of about ninety a day. She has read your filing. She is unimpressed by you and, you slowly understand, equally unimpressed by the terminal glowing at her left elbow. Then she asks a question that appears in no script: 'Counsel, who do you imagine I am in this room?'",
       "sceneTitle": "The Hearing",
       "choices": [
         {
           "text": "Argue to Park directly, off-script",
-          "consequence": "Find the human in the room.",
+          "consequence": "You close the binder and talk to her like a person, which is a procedural risk and the first honest thing said in that room all week.",
           "nextNodeId": "s10"
         },
         {
           "text": "Submit through MERCY's official channels",
-          "consequence": "Respect the system to break it.",
+          "consequence": "You take the safe route and file properly, and Park's face closes by a millimetre. You have just informed a judge that she is furniture.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A reporter has gotten wind of the bias-floor footnote. She wants a comment. Going public will pressure the court — or wreck your client's privacy.",
+      "text": "A reporter from the state desk has the footnote — somebody leaked it, and it wasn't you. She files at six. Going loud puts 1.4% on a front page and puts a seventeen-year-old's arrest record beside it forever, along with her immigration status, her sister's face, and an address. Pressure is a tool. It is also a thing that lands on whoever happens to be standing underneath.",
       "sceneTitle": "The Press",
       "choices": [
         {
           "text": "Speak on record with Sara's permission",
-          "consequence": "Sunlight is contagious.",
+          "consequence": "You ask a minor to consent to being famous and she says yes in four seconds, which is precisely why you made yourself ask her twice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Decline; protect Sara's name",
-          "consequence": "Privacy first; press never.",
+          "consequence": "You give the reporter nothing and lose the leverage that could have moved this in a day. Her family will never know what you turned down on their behalf.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your old colleague meets you for coffee. He's read the audit. He's not, today, the prosecutor. 'If you can prove this isn't an outlier,' he says, 'I'll move to dismiss.'",
+      "text": "He asks to meet somewhere that isn't the courthouse and shows up without a tie. He has read the audit twice, and it's the inter-rater number that got him. 'I sent forty people through that thing this year,' he says, and stops. Then: 'Prove it isn't an outlier. Give me a pattern I can put in a motion and I'll move to dismiss myself.' He means it, and that frightens him more than it frightens you.",
       "sceneTitle": "Adams Wavers",
       "choices": [
         {
           "text": "Promise him pattern evidence by tomorrow",
-          "consequence": "Friends meet you halfway.",
+          "consequence": "You promise a career prosecutor a statistical pattern in nineteen hours, with no analyst, no budget, and a paralegal who has a toddler at home.",
           "nextNodeId": "s12"
         },
         {
           "text": "Push him to dismiss now",
-          "consequence": "Strike while the conscience is warm.",
+          "consequence": "You lean on a man already half-turned and watch him harden up again. Adams needed cover, not courage, and you just asked him for the wrong one.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Your office at 2 a.m. The whistleblower is pouring coffee. Sara's sister is on a couch correcting MERCY's translations. You and your paralegal are building an exhibit list that will, you hope, dismantle a god.",
+      "text": "Two in the morning, four people, one office, a printer that jams on page nine every time. The whistleblower makes coffee like it's a job she used to hold. Marisol is on the couch correcting MERCY's Mam translations line by line and getting angrier with each one. Your paralegal builds the exhibit index. You are dismantling something the state calls infallible with a legal pad and a stolen drive.",
       "sceneTitle": "All-Nighter",
       "choices": [
         {
           "text": "Cut for clarity — three killer exhibits",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Less, sharper.",
+          "consequence": "You throw out ninety pages at four in the morning and keep the bus, the tract map, and the 0.51. Anything a tired human can't hold in one hand loses.",
           "nextNodeId": "s14"
         },
         {
           "text": "Submit everything — overwhelm the model",
-          "consequence": "Volume can also be a weapon.",
+          "consequence": "You file all six hundred pages and let the parser drown in them. It isn't elegant. Neither is the thing you're arguing against.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Judge Park reads you something privately: a draft of her own report on MERCY, due in three weeks. She is, secretly, already on your side. She just needs a case that gives her cover.",
+      "text": "She sends the clerk out and reads you three paragraphs from a document with no letterhead: her own report on MERCY's supervision regime, due to the judicial council in three weeks, currently unsigned. It uses the word 'unreviewable' four times. She has been on your side since before she met you. What she lacks is a case ugly enough to justify saying so out loud.",
       "sceneTitle": "Park's Chambers",
       "choices": [
         {
           "text": "Offer her this case as that cover",
-          "consequence": "Give the judge a doorway.",
+          "consequence": "You hand a judge the ammunition and the target in a single sentence. It is not improper. It is not entirely proper either, and you both know which.",
           "nextNodeId": "s14"
         },
         {
           "text": "Promise her a cleaner case next month",
-          "consequence": "Wait for a better fight.",
+          "consequence": "You offer to wait for a defendant with a cleaner record and a citizenship document. Park says nothing at all. Sara is sentenced at nine tomorrow regardless.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Sara wants to address the court — even though MERCY does not, by design, take oral statements. You have to decide whether to put her on a screen the algorithm will downweight, just so a human can hear her say it.",
+      "text": "She wants to speak. MERCY takes no oral statements — the intake schema has no field for a voice — so anything she says enters as a transcript with a provenance flag that halves its weight. Putting her on that screen means a machine discounts her in real time while a room full of people watches it happen. She's seventeen. She has written it out on notebook paper, both sides.",
       "sceneTitle": "Sara's Statement",
       "choices": [
         {
           "text": "Let her speak; she has earned the room",
-          "consequence": "Voice is a verdict too.",
+          "consequence": "You let a girl read her own words into a system engineered to discount them, because Park is listening, and Park is not a system.",
           "nextNodeId": "s16"
         },
         {
           "text": "Read her statement aloud for the record",
-          "consequence": "Protect her from the moment.",
+          "consequence": "You read it in your own voice, which lands better and belongs to her less. She watches you do it and says nothing about it afterward.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "MERCY's vendor — a Silicon Valley counsel in a beautiful suit — files an emergency motion to keep the model card sealed. Your audit, they say, is proprietary. You have one hour to respond.",
+      "text": "The vendor sends a Palo Alto litigator with a beautiful suit and a genuinely warm handshake, and at 4:50 he files an emergency motion to seal the audit as trade secret. His brief runs forty pages and was clearly written before you ever found the drive. The clerk gives you until six to respond. One hour to explain why the arithmetic behind a conviction should not be somebody's intellectual property.",
       "sceneTitle": "MERCY's Counter",
       "choices": [
         {
           "text": "Argue the public interest",
-          "consequence": "Daylight beats trade secrets.",
+          "consequence": "You write forty-one minutes of pure constitutional argument and none of it mentions Sara. The strongest brief you have ever filed, and it isn't hers.",
           "nextNodeId": "s16"
         },
         {
           "text": "Negotiate a redacted release",
-          "consequence": "Half a sun is still a sun.",
+          "consequence": "You trade away the vendor's names and internal emails to keep the numbers. Half a loaf — and the half you kept has a bus in it.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The court convenes. MERCY's interface blinks. Park sits high above. Sara sits low and small. Adams stands and clears his throat. You stand. You have done what you can.",
+      "text": "Nine in the morning. The terminal wakes with a soft chime somebody was paid to make reassuring. Park sits above everyone. Sara sits below everyone, in the borrowed shoes, her sister's hand flat against her back. Adams stands, clears his throat twice, and does not look at you. You stand. Everything you had, you spent. The room is very quiet for a place with no jury in it.",
       "sceneTitle": "Decision Day",
       "choices": [
         {
           "text": "Trust the work and let it play out",
-          "consequence": "Surrender to the process.",
+          "consequence": "You sit down and let the record be the record. It is the hardest professional act of your life and it takes about four seconds.",
           "nextNodeId": "s18"
         },
         {
           "text": "Make one last argument from the heart",
-          "consequence": "Sometimes you talk past the machine to the people behind it.",
+          "consequence": "You say something unbriefed about what a confidence interval cannot contain. The court reporter's hands stop for a moment, which is its own kind of verdict.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Park rules that MERCY's audit must be unsealed for this case. The vendor's counsel pales. The reporter's phone buzzes. Sara doesn't yet understand what just happened. You squeeze her hand under the table.",
+      "text": "Park rules from the bench in ninety seconds: the audit is unsealed for the purposes of this proceeding, and the vendor may take it up on appeal. The litigator's warmth goes out like a pilot light. In the back row a reporter's phone starts buzzing and does not stop. Sara doesn't understand yet — she is reading faces, not words. Under the table you find her hand and hold it.",
       "sceneTitle": "Ex Parte",
       "choices": [
         {
           "text": "Build the closing on the unsealed audit",
-          "consequence": "Use the new oxygen.",
+          "consequence": "You rebuild the closing around numbers that are now permanently public. Sixty-one percent. Four tracts. 0.51. Let them live in a transcript forever.",
           "nextNodeId": "s18"
         },
         {
           "text": "Move for immediate dismissal",
-          "consequence": "Strike before they regroup.",
+          "consequence": "You go for the throat while the vendor's counsel is still pale. Speed over thoroughness, and you will spend a long time wondering about the trade.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Park reads the ruling herself. She overrides MERCY, dismisses the charges, and orders an inquiry into the model's bias floor. The court goes quiet in a way that feels, briefly, like the future correcting itself.",
+      "text": "Park reads it herself, aloud, on the record — she will not let the terminal print it. She vacates MERCY's finding, dismisses with prejudice, and refers the bias floor to the judicial council for inquiry. Then she takes off her glasses, which she has not done once in three days. The silence afterward feels less like victory than like a very old machine being handed back to people.",
       "sceneTitle": "The Ruling",
       "choices": [
         {
           "text": "Walk Sara out to her family",
-          "consequence": "Always remember whose day this is.",
+          "consequence": "You leave the paperwork on the table and walk a seventeen-year-old out through a door she had stopped picturing. The filing will still be there at four.",
           "nextNodeId": "s21"
         },
         {
           "text": "File the systemic complaint today",
-          "consequence": "Don't let momentum cool.",
+          "consequence": "You stay in the emptying courtroom with a laptop while her family celebrates in the hallway. Momentum is a resource, and this one expires by Monday.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "MERCY upholds itself. Park, frustrated, writes a scathing concurrence. The case is appealed, and the appeal becomes the test case that ends MERCY's deployment in three states.",
+      "text": "MERCY reviews the appeal, weighs it, and affirms itself at 94.4% — the machine cannot be embarrassed, which is the whole of its design. Park signs the order because she must, then attaches a concurrence so scathing that two law reviews reprint it entire. The appeal of the appeal takes two years and becomes the case that pulls MERCY out of three states. Sara serves fourteen months while that happens.",
       "sceneTitle": "The Loss That Wins",
       "choices": [
         {
           "text": "Tell Sara what her case became",
-          "consequence": "She deserves to know her name made law.",
+          "consequence": "You explain to a girl in a visiting room that her worst year became a citation. She asks whether it has helped anyone yet. You say: eventually.",
           "nextNodeId": "end_legacy"
         },
         {
           "text": "Keep her name out of every press hit",
-          "consequence": "Protect first; legacy second.",
+          "consequence": "You do forty interviews and never once say her name. The story gets smaller and she gets to have a life, and you take that trade without flinching.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "MERCY is replaced by a hybrid system — humans in front, algorithms behind. It is messier. It is, by every measurable metric, fairer. Adams sends you a single bottle of decent scotch and a handwritten thank-you.",
+      "text": "MERCY is decommissioned and replaced by a hybrid: people deciding in front, models advising behind, every recommendation logged with the features that produced it. It is slower. It is inconsistent in exactly the way people are inconsistent. On every measure anyone bothered to publish, it is fairer. Adams sends good scotch to your office with four handwritten words on the card: 'I was wrong. Sorry.'",
       "sceneTitle": "Months Later",
       "choices": [
         {
           "text": "Drink the scotch with Park",
-          "consequence": "Allies, finally, in the same room.",
+          "consequence": "You open it in chambers with a judge who retires in June, and the two of you argue about what fairness actually measures until the cleaners arrive.",
           "nextNodeId": "end_systemic"
         },
         {
           "text": "Save the scotch for Sara's college graduation",
-          "consequence": "Patience as a kind of vow.",
+          "consequence": "You put it at the back of a filing cabinet with a sticky note naming a date five years out. It's a bet on a person, and you like the odds.",
           "nextNodeId": "end_sara"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "Sara walks out of a building she once thought she'd never leave. Her sister is filming because she always films. The lawyer in you wants the press conference; the human in you wants the burrito the family is ordering down the street.",
+      "text": "She walks out through a lobby she had stopped imagining an exit from, and the light on the steps is ordinary and enormous. Marisol films it, because Marisol films everything, and this time nobody tells her to stop. Down the block the aunt is ordering for nine people at a place with laminated menus. The lawyer in you wants the microphones. The rest of you wants to be at that table.",
       "sceneTitle": "Sara, Free",
       "choices": [
         {
           "text": "Go to the press conference",
-          "consequence": "Use the megaphone responsibly.",
+          "consequence": "You take the microphones, because the next Sara has no lawyer yet and stories are how she gets one. Lunch goes cold in a bag on your desk.",
           "nextNodeId": "end_systemic"
         },
         {
           "text": "Go to the burrito",
-          "consequence": "Some victories taste better off-camera.",
+          "consequence": "You skip the cameras and eat at a folding table with her family while the aunt keeps refilling your plate. The story runs without you. Fine.",
           "nextNodeId": "end_sara"
         }
       ],
@@ -418,7 +418,7 @@
     },
     {
       "id": "end_sara",
-      "text": "Sara graduates high school, then college, then law school. She's a prosecutor now — a careful one. She files a brief in your retirement year that cites your appeal twice. She signs it 'with gratitude, your client, your friend.'",
+      "text": "She finishes high school a year late and college on time, then law school on a scholarship named for somebody who would have hated the reason she qualified. She is a prosecutor now, and a careful one — she reads every model output twice and makes her juniors explain the features aloud. In your last year practicing she files a brief citing your appeal twice. The signature block reads: your client, your friend.",
       "sceneTitle": "Sara, Specifically",
       "choices": [],
       "isEnding": true,
@@ -426,7 +426,7 @@
     },
     {
       "id": "end_systemic",
-      "text": "The systemic inquiry takes years and ends three contracts. MERCY's vendor pivots to insurance. You teach a seminar called 'How to Cross-Examine a Black Box.' It is, depressingly, oversubscribed.",
+      "text": "The judicial council inquiry runs four years, produces a document nobody outside the field will ever read, and terminates three state contracts. The vendor pivots to underwriting, where nobody has a right to counsel and nobody is watching. You end up teaching a seminar called How to Cross-Examine a Black Box. It fills in nine minutes every spring, which is either encouraging or the most depressing fact of your professional life.",
       "sceneTitle": "The Inquiry",
       "choices": [],
       "isEnding": true,
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_legacy",
-      "text": "Years later law students learn 'People v. M.' — Sara's name is anonymized — as the test case for algorithmic justice. She is fine with the anonymity. She didn't want to be famous. She wanted to be free.",
+      "text": "Law students learn it as People v. M., because the court anonymized her at your request and she never once asked to be un-anonymized. Three thousand words in a casebook, a standard for auditing an automated finder of fact, and a footnote on inter-rater reliability that ruined one company. She's fine with the initial. Years later she tells you she never wanted to be famous. She wanted to be outside.",
       "sceneTitle": "The Case That Made the Law",
       "choices": [],
       "isEnding": true,
@@ -442,7 +442,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "Sara goes home to a quiet life. You go home tired. Park sleeps better. Adams retires. Somewhere, a model trains on your appeal and a new version of MERCY will, eventually, do less harm. That is, you tell yourself, enough.",
+      "text": "She goes home to a street with no reporters on it and takes a job at a garden center. You go home tired in a way sleep doesn't fix. Park starts sleeping again. Adams retires early and coaches something. And somewhere in a training run your appeal becomes a document a newer model reads, and the next version does a fraction less harm to somebody who will never learn your name. Enough, you decide. Most days.",
       "sceneTitle": "Quiet, On Purpose",
       "choices": [],
       "isEnding": true,

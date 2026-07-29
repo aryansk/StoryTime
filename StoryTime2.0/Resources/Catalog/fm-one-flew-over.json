@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A nurse in starched white at a glass window with a clipboard.",
+      "text": "A nurse in starched white at a glass window with a clipboard. The road still runs toward Med Cart. Its next turn depends on the difference between choosing “Smile big” and choosing “Stay quiet.” By Med Cart, the decision will already have changed who trusts you.",
       "sceneTitle": "Intake",
       "choices": [
         {
           "text": "Smile big",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You commit to smile big. By Med Cart, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay quiet",
-          "consequence": "There is no taking “Stay quiet” back. Wary shapes the silence before the next moment arrives.",
+          "consequence": "You stay quiet. The decision moves you toward Med Cart and tells everyone present what you are willing to risk.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A small paper cup with three pills and a name on the side.",
+      "text": "A small paper cup with three pills and a name on the side. Cards comes either way; its meaning changes with the difference between “Refuse” and “Swallow.” In Med Cart, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Med Cart",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "You commit to “Refuse.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You refuse. The decision moves you toward Cards and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         },
         {
           "text": "Swallow",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You swallow. The decision moves you toward Cards and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Cheswick antes a cigarette and Billy stutters a bet.",
+      "text": "Cheswick antes a cigarette and Billy stutters a bet. Chief comes either way; its meaning changes with the difference between “Teach them” and “Hustle them.” By Chief, the decision will already have changed who trusts you.",
       "sceneTitle": "Cards",
       "choices": [
         {
           "text": "Teach them",
-          "consequence": "There is no taking “Teach them” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You teach them. The decision moves you toward Chief and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Hustle them",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You hustle them. The decision moves you toward Chief and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "He is six and a half feet tall and pretends he can't hear anything.",
+      "text": "He is six and a half feet tall and pretends he can't hear anything. World Series Vote will follow either decision, but it will meet a different version of you after “Speak to him” than after “Leave him be.”",
       "sceneTitle": "Chief",
       "choices": [
         {
           "text": "Speak to him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Curious.",
+          "consequence": "You commit to speak to him. By World Series Vote, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         },
         {
           "text": "Leave him be",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You commit to leave him be. By World Series Vote, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Hands up against a fixed schedule and a clock at 4.",
+      "text": "Hands up against a fixed schedule and a clock at 4. Group is already waiting. What changes is whether “Mime the game” or “Sit silent” is the instinct you carry into it. In World Series Vote, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "World Series Vote",
       "choices": [
         {
           "text": "Mime the game",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wild.",
+          "consequence": "You mime the game. The decision moves you toward Group and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit silent",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You sit silent. The decision moves you toward Group and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Ratched asks Billy about his mother in front of everyone.",
+      "text": "Ratched asks Billy about his mother in front of everyone. You cannot avoid Basketball with Chief; you can only decide whether “Interrupt” or “Wait” defines the person who reaches it. In Group, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Group",
       "choices": [
         {
           "text": "Interrupt",
-          "consequence": "You commit to “Interrupt.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You choose to interrupt. It opens the route to Basketball with Chief, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You choose to wait. It opens the route to Basketball with Chief, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "He blocks a shot and the smile is brief and bright.",
+      "text": "He blocks a shot and the smile is brief and bright. You cannot avoid Bus Hijack; you can only decide whether “Pass to him” or “Take the shot” defines the person who reaches it. In Basketball with Chief, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Basketball with Chief",
       "choices": [
         {
           "text": "Pass to him",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You commit to pass to him. By Bus Hijack, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take the shot",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You take the shot. The decision moves you toward Bus Hijack and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A field trip, then a sudden left turn and a stolen vessel.",
+      "text": "A field trip, then a sudden left turn and a stolen vessel. The road still runs toward Fishing Boat. Its next turn depends on the difference between choosing “Take the wheel” and choosing “Hold the door.”",
       "sceneTitle": "Bus Hijack",
       "choices": [
         {
           "text": "Take the wheel",
-          "consequence": "There is no taking “Take the wheel” back. Wild shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the wheel. By Fishing Boat, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         },
         {
           "text": "Hold the door",
-          "consequence": "You commit to “Hold the door.” The story records the instinct as “Loyal” and carries it forward.",
+          "consequence": "You commit to hold the door. By Fishing Boat, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Twelve patients in life jackets, line out, sun on the water.",
+      "text": "Twelve patients in life jackets, line out, sun on the water. Cheswick's Cigarettes comes either way; its meaning changes with the difference between “Let Cheswick captain” and “Helm yourself.” In Fishing Boat, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Fishing Boat",
       "choices": [
         {
           "text": "Let Cheswick captain",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You let Cheswick captain. The decision moves you toward Cheswick's Cigarettes and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Helm yourself",
-          "consequence": "“Helm yourself” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You commit to helm yourself. By Cheswick's Cigarettes, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Confiscated. A small loss that is not small.",
+      "text": "Confiscated. A small loss that is not small. Both choices lead to Electroshock, but “Riot for them” arrives there with a different cost than “Speak slowly.” By Electroshock, the decision will already have changed who trusts you.",
       "sceneTitle": "Cheswick's Cigarettes",
       "choices": [
         {
           "text": "Riot for them",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to riot for them. By Electroshock, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         },
         {
           "text": "Speak slowly",
-          "consequence": "“Speak slowly” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You choose to speak slowly. It opens the route to Electroshock, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A bite block and a hand on your wrist and the smell of ozone.",
+      "text": "A bite block and a hand on your wrist and the smell of ozone. Both choices lead to Chief Speaks, but “Brace” arrives there with a different cost than “Refuse.” In Electroshock, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Electroshock",
       "choices": [
         {
           "text": "Brace",
-          "consequence": "“Brace” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to brace. It opens the route to Chief Speaks, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You refuse. The decision moves you toward Chief Speaks and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A whisper at night that he was not deaf, not really.",
+      "text": "A whisper at night that he was not deaf, not really. Plan is already waiting. What changes is whether “Listen” or “Doubt” is the instinct you carry into it. By Plan, the decision will already have changed who trusts you.",
       "sceneTitle": "Chief Speaks",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You commit to listen. By Plan, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Doubt",
-          "consequence": "There is no taking “Doubt” back. Wary shapes the silence before the next moment arrives.",
+          "consequence": "You choose to doubt. It opens the route to Plan, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A window, a key, a Christmas Eve nurse asleep at her desk.",
+      "text": "A window, a key, a Christmas Eve nurse asleep at her desk. Candy comes either way; its meaning changes with the difference between “Stay” and “Run alone.” At Candy, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Plan",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "There is no taking “Stay” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You stay. The decision moves you toward Candy and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Run alone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You choose to run alone. It opens the route to Candy, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Two women in a station wagon at midnight, a bottle of liquor.",
+      "text": "Two women in a station wagon at midnight, a bottle of liquor. You cannot avoid Billy's Night; you can only decide whether “Let them in” or “Wave them off” defines the person who reaches it.",
       "sceneTitle": "Candy",
       "choices": [
         {
           "text": "Let them in",
-          "consequence": "You commit to “Let them in.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You let them in. The decision moves you toward Billy's Night and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         },
         {
           "text": "Wave them off",
-          "consequence": "“Wave them off” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You wave them off. The decision moves you toward Billy's Night and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A bedroom door, a girl with kindness, a stutter that disappears for a few hours.",
+      "text": "A bedroom door, a girl with kindness, a stutter that disappears for a few hours. Morning is already waiting. What changes is whether “Stand guard” or “Wake the ward” is the instinct you carry into it.",
       "sceneTitle": "Billy's Night",
       "choices": [
         {
           "text": "Stand guard",
-          "consequence": "There is no taking “Stand guard” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You stand guard. The decision moves you toward Morning and tells everyone present what you are willing to risk.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wake the ward",
-          "consequence": "There is no taking “Wake the ward” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You commit to wake the ward. By Morning, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Ratched in the doorway with a face like ice.",
+      "text": "Ratched in the doorway with a face like ice. Billy's Mother will follow either decision, but it will meet a different version of you after “Confront her” than after “Hide Billy.” At Billy's Mother, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Morning",
       "choices": [
         {
           "text": "Confront her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You confront her. The decision moves you toward Billy's Mother and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hide Billy",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You choose to hide Billy. It opens the route to Billy's Mother, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "She will be told, she says. The word breaks him on the floor.",
+      "text": "She will be told, she says. The word breaks him on the floor. Glass Broken is already waiting. What changes is whether “Step between” or “Plead” is the instinct you carry into it. By Glass Broken, the decision will already have changed who trusts you.",
       "sceneTitle": "Billy's Mother",
       "choices": [
         {
           "text": "Step between",
-          "consequence": "“Step between” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to step between. It opens the route to Glass Broken, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Plead",
-          "consequence": "There is no taking “Plead” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to plead. By Glass Broken, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A doctor's office, a body on the desk, an answer not heard until too late.",
+      "text": "A doctor's office, a body on the desk, an answer not heard until too late. Hands on Her Throat will follow either decision, but it will meet a different version of you after “Lift Billy” than after “Run.”",
       "sceneTitle": "Glass Broken",
       "choices": [
         {
           "text": "Lift Billy",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You lift Billy. The decision moves you toward Hands on Her Throat and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         },
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You commit to run. By Hands on Her Throat, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A neck under your thumbs, a window over a quiet lawn.",
+      "text": "A neck under your thumbs, a window over a quiet lawn. Both choices lead to After, but “Squeeze” arrives there with a different cost than “Release.” At After, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Hands on Her Throat",
       "choices": [
         {
           "text": "Squeeze",
-          "consequence": "There is no taking “Squeeze” back. Wild shapes the silence before the next moment arrives.",
+          "consequence": "You commit to squeeze. By After, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         },
         {
           "text": "Release",
-          "consequence": "You commit to “Release.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You release. The decision moves you toward After and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A bed, a strap, a smile that doesn't reach the eyes.",
+      "text": "A bed, a strap, a smile that doesn't reach the eyes. Pillow comes either way; its meaning changes with the difference between “Wait for Chief” and “Wait alone.” By Pillow, the decision will already have changed who trusts you.",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Wait for Chief",
-          "consequence": "“Wait for Chief” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You wait for Chief. The decision moves you toward Pillow and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         },
         {
           "text": "Wait alone",
-          "consequence": "“Wait alone” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to wait alone. By Pillow, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Chief lifts the pillow with both hands.",
+      "text": "Chief lifts the pillow with both hands. Choose “Look him in the eye” and Through the Window comes into view; choose “Close your eyes” and the road bends toward The Card Table. A third choice, “Take the third path,” keeps Chief's Voice in play.",
       "sceneTitle": "Pillow",
       "choices": [
         {
           "text": "Look him in the eye",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to look him in the eye. It opens the route to Through the Window, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_window"
         },
         {
           "text": "Close your eyes",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You commit to close your eyes. By The Card Table, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_card"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The decision moves you toward Chief's Voice and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_chief"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_window",
-      "text": "Chief lifts the sink and walks out into a morning that smells of cut grass. Somewhere, you are running with him. Somewhere else, you are at rest.",
+      "text": "Chief lifts the sink and walks out into a morning that smells of cut grass. Somewhere, you are running with him. Somewhere else, you are at rest. The road into Through the Window began with “Look him in the eye” in Pillow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Through the Window",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_card",
-      "text": "The men learn poker. They learn it well. They lose a thousand games to each other and not one to the house, ever again.",
+      "text": "The men learn poker. They learn it well. They lose a thousand games to each other and not one to the house, ever again. The road into The Card Table began with “Close your eyes” in Pillow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Card Table",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_chief",
-      "text": "He goes back to Canada through fields nobody owns. He talks now. Mostly to a stranger he keeps in his head, in a leather jacket, smiling like a mouth full of cards.",
+      "text": "He goes back to Canada through fields nobody owns. He talks now. Mostly to a stranger he keeps in his head, in a leather jacket, smiling like a mouth full of cards. The road into Chief's Voice began with “Take the third path” in Pillow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Chief's Voice",
       "choices": [],
       "isEnding": true,

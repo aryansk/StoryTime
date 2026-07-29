@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Wake your husband",
-          "consequence": "You commit to “Wake your husband.” The story records the instinct as “Family first” and carries it forward.",
+          "consequence": "You choose to wake your husband. It opens the route to His Reaction, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Get dressed and go to Mary immediately",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend first.",
+          "consequence": "You commit to get dressed and go to Mary immediately. By Mary's Kitchen, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your husband Robert reacts in a way that is one ratchet off from what you expected. He is sad. He is also, in a way you can't name, alert.",
+      "text": "Your husband Robert reacts in a way that is one ratchet off from what you expected. He is sad. He is also, in a way you can't name, alert. The distance between The Affair Half and The Money Half begins with the choice between “Notice the alertness” and “Ignore it; he loved Eleanor.”",
       "sceneTitle": "His Reaction",
       "choices": [
         {
           "text": "Notice the alertness",
-          "consequence": "Trust the gut.",
+          "consequence": "You notice the alertness. The decision moves you toward The Affair Half and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ignore it; he loved Eleanor",
-          "consequence": "Don't make stories yet.",
+          "consequence": "You ignore it; he loved Eleanor. The decision moves you toward The Money Half and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Mary, at her counter, hands you a coffee with the same chip in the mug she's had since college. She says, before you can speak, 'I knew about Eleanor and someone. I just didn't know who.'",
+      "text": "Mary, at her counter, hands you a coffee with the same chip in the mug she's had since college. She says, before you can speak, 'I knew about Eleanor and someone. “Ask her who she suspected” draws you toward The Affair Half; “Tell her your half first” leaves The Money Half waiting on the other side.",
       "sceneTitle": "Mary's Kitchen",
       "choices": [
         {
           "text": "Ask her who she suspected",
-          "consequence": "Demand the half-secret.",
+          "consequence": "You ask her who she suspected. The decision moves you toward The Affair Half and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her your half first",
-          "consequence": "There is no taking “Tell her your half first” back. Trade truths shapes the silence before the next moment arrives.",
+          "consequence": "You commit to tell her your half first. By The Money Half, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Eleanor had been having an affair for the last year. You knew because she told you. You don't know with whom. Mary, you suspect, knew the man's name but didn't know it was Eleanor.",
+      "text": "Eleanor had been having an affair for the last year. You knew because she told you. You don't know with whom. Mary, you suspect, knew the man's name but didn't know it was Eleanor. “Tell Mary the affair half now” draws you toward The Detective; “Wait to see what Mary volunteers” leaves The Husband, Nathan waiting on the other side.",
       "sceneTitle": "The Affair Half",
       "choices": [
         {
           "text": "Tell Mary the affair half now",
-          "consequence": "The decision settles the question for now. Its verdict—Symmetrical truth—follows you into whatever comes next.",
+          "consequence": "You commit to tell Mary the affair half now. By The Detective, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         },
         {
           "text": "Wait to see what Mary volunteers",
-          "consequence": "Information is power.",
+          "consequence": "You choose to wait to see what Mary volunteers. It opens the route to The Husband, Nathan, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Eleanor had been managing money — yours, Mary's, hers — and you'd noticed a discrepancy two months ago. You'd been planning to ask her about it the day she died. The half-secret is, somehow, becoming whole.",
+      "text": "Eleanor had been managing money — yours, Mary's, hers — and you'd noticed a discrepancy two months ago. You'd been planning to ask her about it the day she died. The half-secret is, somehow, becoming whole. The paths divide here: “Tell Mary about the money” leads into The Detective, while “Hold the money for now; the affair feels closer to motive” makes The Husband, Nathan the next reckoning.",
       "sceneTitle": "The Money Half",
       "choices": [
         {
           "text": "Tell Mary about the money",
-          "consequence": "The decision settles the question for now. Its verdict—Honesty—follows you into whatever comes next.",
+          "consequence": "You choose to tell Mary about the money. It opens the route to The Detective, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Hold the money for now; the affair feels closer to motive",
-          "consequence": "“Hold the money for now; the affair feels closer to motive” closes one possibility and opens another. The moment leaves a clear note behind: Triage.",
+          "consequence": "You hold the money for now; the affair feels closer to motive. The decision moves you toward The Husband, Nathan and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Detective Kapoor is kind, careful, slow. She asks you both about Eleanor's life in the past year. She has noticed, you can tell, the small inconsistency between your accounts.",
+      "text": "Detective Kapoor is kind, careful, slow. She asks you both about Eleanor's life in the past year. She has noticed, you can tell, the small inconsistency between your accounts. Choose “Trust her with the affair half” and The Daughter comes into view; choose “Trust her with the money half” and the road bends toward Robert, Out.",
       "sceneTitle": "The Detective",
       "choices": [
         {
           "text": "Trust her with the affair half",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Truth.",
+          "consequence": "You choose to trust her with the affair half. It opens the route to The Daughter, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Trust her with the money half",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Truth.",
+          "consequence": "You commit to trust her with the money half. By Robert, Out, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Eleanor's husband Nathan sits in his kitchen looking smaller than you remember. He says he didn't know about the affair. He says it twice. He looks at you the second time.",
+      "text": "Eleanor's husband Nathan sits in his kitchen looking smaller than you remember. He says he didn't know about the affair. He says it twice. He looks at you the second time. The paths divide here: “Believe him” leads into The Daughter, while “Watch him more closely” makes Robert, Out the next reckoning.",
       "sceneTitle": "The Husband, Nathan",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "The decision settles the question for now. Its verdict—He's grieving—follows you into whatever comes next.",
+          "consequence": "You believe him. The decision moves you toward The Daughter and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Watch him more closely",
-          "consequence": "Doubt has its own work.",
+          "consequence": "You commit to watch him more closely. By Robert, Out, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Eleanor's seventeen-year-old, Sophie, asks you, in the back garden, if you knew her mother was unhappy. You realize, again, that 'mother' and 'friend' are different people you each knew.",
+      "text": "Eleanor's seventeen-year-old, Sophie, asks you, in the back garden, if you knew her mother was unhappy. You realize, again, that 'mother' and 'friend' are different people you each knew. “Tell Sophie what you knew” draws you toward The Photo; “Tell Sophie that her mother loved her” leaves Mary's Husband waiting on the other side.",
       "sceneTitle": "The Daughter",
       "choices": [
         {
           "text": "Tell Sophie what you knew",
-          "consequence": "Honor the daughter.",
+          "consequence": "You tell Sophie what you knew. The decision moves you toward The Photo and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell Sophie that her mother loved her",
-          "consequence": "Lead with the kindest truth.",
+          "consequence": "Lead with the kindest truth. You choose to tell Sophie that her mother loved her. It opens the route to Mary's Husband, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your husband Robert is, conveniently, out late three nights running. He says it's work. The shoes by the door, when he comes home, are wet. It hasn't rained.",
+      "text": "Your husband Robert is, conveniently, out late three nights running. He says it's work. The shoes by the door, when he comes home, are wet. It hasn't rained. The paths divide here: “Follow Robert one night” leads into The Photo, while “Ask Mary if she's noticed the same about her husband” makes Mary's Husband the next reckoning.",
       "sceneTitle": "Robert, Out",
       "choices": [
         {
           "text": "Follow Robert one night",
-          "consequence": "Investigate at home.",
+          "consequence": "You commit to follow Robert one night. By The Photo, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Ask Mary if she's noticed the same about her husband",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Compare.",
+          "consequence": "You commit to ask Mary if she's noticed the same about her husband. By Mary's Husband, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "On Eleanor's phone, recovered after a week, is a photo of a hotel-room ceiling. The angle is innocuous to anyone who doesn't know the ceiling. You know the ceiling.",
+      "text": "On Eleanor's phone, recovered after a week, is a photo of a hotel-room ceiling. The angle is innocuous to anyone who doesn't know the ceiling. You know the ceiling. Choose “Tell Mary you recognize the ceiling” and The Garage Conversation comes into view; choose “Tell Detective Kapoor” and the road bends toward Detective Kapoor's Case.",
       "sceneTitle": "The Photo",
       "choices": [
         {
           "text": "Tell Mary you recognize the ceiling",
-          "consequence": "Truth to friend.",
+          "consequence": "You tell Mary you recognize the ceiling. The decision moves you toward The Garage Conversation and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tell Detective Kapoor",
-          "consequence": "Truth to law.",
+          "consequence": "You commit to tell Detective Kapoor. By Detective Kapoor's Case, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Plan to confront the husbands together",
-          "consequence": "“Plan to confront the husbands together” closes one possibility and opens another. The moment leaves a clear note behind: United front.",
+          "consequence": "You choose to plan to confront the husbands together. It opens the route to The Garage Conversation, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Each speak to your own first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Personal first.",
+          "consequence": "You choose to each speak to your own first. It opens the route to Detective Kapoor's Case, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Believe the parts that exonerate them",
-          "consequence": "Friend is also wife.",
+          "consequence": "You believe the parts that exonerate them. The decision moves you toward The Arrest and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Disbelieve until proven",
-          "consequence": "Marriage is also evidence.",
+          "consequence": "Marriage is also evidence. You commit to disbelieve until proven. By The Marriage Counseling, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Kapoor calls you in for a quiet meeting. She has, she says, narrowed it. She tells you a name. The name is on neither half of your secret. The room moves.",
+      "text": "Kapoor calls you in for a quiet meeting. She has, she says, narrowed it. She tells you a name. The name is on neither half of your secret. The room moves. “Help her gather what she needs” draws you toward The Arrest; “Take a breath before responding” leaves The Marriage Counseling waiting on the other side.",
       "sceneTitle": "Detective Kapoor's Case",
       "choices": [
         {
           "text": "Help her gather what she needs",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cooperate fully.",
+          "consequence": "You help her gather what she needs. The decision moves you toward The Arrest and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Take a breath before responding",
-          "consequence": "Don't speak fast.",
+          "consequence": "You commit to take a breath before responding. By The Marriage Counseling, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Attend the trial through to verdict",
-          "consequence": "Stand for Eleanor.",
+          "consequence": "You commit to attend the trial through to verdict. By Mary and You, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Step back; protect your own family",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Personal first.",
+          "consequence": "You choose to step back; protect your own family. It opens the route to Your Daughter, Listening, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Apologize fully",
-          "consequence": "Marriage as repair.",
+          "consequence": "You commit to apologize fully. By Mary and You, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Ask why he kept it secret",
-          "consequence": "Repair requires questions.",
+          "consequence": "Repair requires questions. You ask why he kept it secret. The decision moves you toward Your Daughter, Listening and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Make Sundays a permanent ritual",
-          "consequence": "Vows of two.",
+          "consequence": "You choose to make Sundays a permanent ritual. It opens the route to Sophie's University, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Bring Sophie sometimes",
-          "consequence": "Three again, differently.",
+          "consequence": "Three again, differently. You commit to bring Sophie sometimes. By The Anniversary, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Your own daughter, fifteen, asks you to teach her how to be a friend like you are friends. You sit on the porch and try to think of an answer that isn't a Hallmark card. You tell her, eventually, 'Tell each other things first.'",
+      "text": "Your own daughter, fifteen, asks you to teach her how to be a friend like you are friends. You sit on the porch and try to think of an answer that isn't a Hallmark card.",
       "sceneTitle": "Your Daughter, Listening",
       "choices": [
         {
           "text": "Model that for her with your own friends",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Show.",
+          "consequence": "You choose to model that for her with your own friends. It opens the route to Sophie's University, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Send her to call her best friend now",
-          "consequence": "You commit to “Send her to call her best friend now.” The story records the instinct as “Direct” and carries it forward.",
+          "consequence": "You send her to call her best friend now. The decision moves you toward The Anniversary and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Tell Sophie about her mother's good qualities",
-          "consequence": "Memory as gift.",
+          "consequence": "You choose to tell Sophie about her mother's good qualities. It opens the route to The Photograph on the Wall, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Sit beside Mary and just let it be",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Presence.",
+          "consequence": "You sit beside Mary and just let it be. The decision moves you toward The Photograph on the Wall and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Make this the new tradition",
-          "consequence": "Build the ritual.",
+          "consequence": "You choose to make this the new tradition. It opens the route to The Photograph on the Wall, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Let it be a one-time thing",
-          "consequence": "Some moments belong to once.",
+          "consequence": "Some moments belong to once. You commit to let it be a one-time thing. By The Photograph on the Wall, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Hand it to Sophie",
-          "consequence": "Pass it on.",
+          "consequence": "You hand it to Sophie. The decision moves you toward Sophie's Aunts and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_sophie"
         },
         {
           "text": "Keep it on your own wall and call Mary",
-          "consequence": "Pair of twos.",
+          "consequence": "You keep it on your own wall and call Mary. The decision moves you toward Sunday Walks and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_two"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_sophie",
-      "text": "You and Mary become Sophie's aunts in a real, unofficial way. You attend her graduation. You attend her wedding. At her wedding she names a child after Eleanor. You both cry without performing it.",
+      "text": "You and Mary become Sophie's aunts in a real, unofficial way. You attend her graduation. You attend her wedding. At her wedding she names a child after Eleanor. You both cry without performing it. The road into Sophie's Aunts began with “Hand it to Sophie” in The Photograph on the Wall; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Sophie's Aunts",
       "choices": [],
       "isEnding": true,

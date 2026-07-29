@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Eleven hands up for guilty, fast, in a hot room.",
+      "text": "Ninety-four degrees, the hottest day of the year, and the fan bolted to the wall does not turn. The foreman proposes a show of hands to save everybody time — a formality, six days is enough, people have somewhere to be. Hands go up around the table before he finishes the sentence. Eleven of them. Then the whole room is looking at the man by the window who has not moved his.",
       "sceneTitle": "First Vote",
       "choices": [
         {
           "text": "Raise your hand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "Yours goes up with the others and you think about it no harder than you would think about a bus fare. That is the part you will remember.",
           "nextNodeId": "s2"
         },
         {
           "text": "Hold it down",
-          "consequence": "There is no taking “Hold it down” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You leave your hand flat on the table four seconds longer than is comfortable, then raise it — and the man by the window has already seen you hesitate.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Foreman asks for a reason and the room stares.",
+      "text": "The foreman wants a reason. It is not a demand; he coaches high-school football and he is running a meeting nobody trained him for. The rest of the table turns. The man by the window says he does not know whether the boy did it, and that is the entirety of his position, and the salesman at the far end asks whether he has been asleep since Tuesday.",
       "sceneTitle": "Why Not",
       "choices": [
         {
           "text": "Speak",
-          "consequence": "You commit to “Speak.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You say out loud that a kid's life is worth an hour of somebody's afternoon, and four men look at you as though you have changed seats.",
           "nextNodeId": "s3"
         },
         {
           "text": "Pass",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You wave the foreman on and study the water stain on the ceiling. Silence in a room this size is a vote, and you have just cast a second one.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Juror Eight pulls an identical knife from his pocket.",
+      "text": "The knife came from a pawnshop three blocks from the boy's house, and the storekeeper swore under oath it was the only one he had ever handled — unusual, hand-carved, one of a kind. The quiet man reaches into his jacket and sticks a second one upright in the table beside it. Same bone handle, same blade. He walked the boy's neighborhood last night and paid six dollars for it.",
       "sceneTitle": "Switchblade",
       "choices": [
         {
           "text": "Lay it on the table",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Bold.",
+          "consequence": "You lay your hands flat on either side of the two knives so the whole table can see they match, and that small motion carries you across a line you cannot recross.",
           "nextNodeId": "s4"
         },
         {
           "text": "Pocket it again",
-          "consequence": "“Pocket it again” closes one possibility and opens another. The moment leaves a clear note behind: Quiet.",
+          "consequence": "You tell him to put it away before somebody gets cut, which is a sensible thing to say and also the first time you have defended the prosecution out loud.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "He testified he ran to his door in fifteen seconds.",
+      "text": "The old man downstairs testified that he heard the body hit, got himself off the bed, and covered forty-three feet of hallway in time to see the boy running down the stairs. Fifteen seconds, he said, twice. He also had a stroke two years back and drags his left leg. Somebody pushes two chairs together to make a hallway. Somebody else takes out a stopwatch, and the room goes quiet a different way.",
       "sceneTitle": "Old Man's Limp",
       "choices": [
         {
           "text": "Time it on the floor",
-          "consequence": "The decision settles the question for now. Its verdict—Practical—follows you into whatever comes next.",
+          "consequence": "You hold the watch and you count, and you get forty-one seconds, and your thumb is slick on the stem by the time you say the number aloud.",
           "nextNodeId": "s5"
         },
         {
           "text": "Trust him",
-          "consequence": "You commit to “Trust him.” The story records the instinct as “Loyal” and carries it forward.",
+          "consequence": "You say a sworn witness deserves better than grown men crawling around a jury-room floor. You mean it, and it does not survive the stopwatch.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Train under the window during the scream.",
+      "text": "The elevated track runs six feet from that window. The woman across it swore she watched the stabbing through the last two cars of a train going by. The old man swore he heard the boy shout a threat over the top of the same train. A six-car el takes ten seconds to pass. A man who grew up under one says you cannot hear yourself think, let alone make out a sentence.",
       "sceneTitle": "El",
       "choices": [
         {
           "text": "Time the rumble",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You lean out into the wet heat and wait for the next one and count it yourself, and you come back inside with a soaked collar and nothing to say.",
           "nextNodeId": "s6"
         },
         {
           "text": "Move past",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You say people hear what they hear and the appellate courts can worry about acoustics, and then you go on hearing that train for the rest of the afternoon.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "The marks on a woman's nose at the trial.",
+      "text": "She testified that she saw it from her bed, across the tracks, through the windows of a moving train, at ten past midnight. In the box she kept rubbing the sides of her nose. Two deep marks, one either side, the kind that take years to make. Nobody wears glasses to sleep. Nobody finds them in the time it takes to look up at a noise. Six days, and not one man mentioned it.",
       "sceneTitle": "Glasses",
       "choices": [
         {
           "text": "Speak the detail",
-          "consequence": "You commit to “Speak the detail.” The story records the instinct as “Sharp” and carries it forward.",
+          "consequence": "You say it first, and the words are out of your mouth before you have decided to release them, and the table turns toward you and you understand you have switched sides.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hold it",
-          "consequence": "There is no taking “Hold it” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You keep it, because saying it means agreeing with a man you have spent four hours resenting. Tonight you will be ashamed of that exact piece of arithmetic.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A second vote, secret ballot. Nine to three.",
+      "text": "Written ballots this time, folded, passed down to the foreman. He reads them out and the count comes back nine to three. Two men have moved and neither one will lift his eyes off the table. The garage owner is out of his chair before the last slip is unfolded, demanding to know which of these bleeding hearts changed, and the oldest man at the table folds his hands and waits to be accused.",
       "sceneTitle": "Switch",
       "choices": [
         {
           "text": "Take the credit",
-          "consequence": "There is no taking “Take the credit” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You claim it loudly before anyone can guess wrong. It feels good for about nine seconds and buys you an enemy for the remainder of the day.",
           "nextNodeId": "s8"
         },
         {
           "text": "Listen for who switched",
-          "consequence": "There is no taking “Listen for who switched” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You watch hands instead of faces and know inside a minute, and say nothing. Knowing something the loudest man does not know is its own kind of vote.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "He says he never even gets emotional about anything.",
+      "text": "He runs three garages in Queens and he is on his feet shouting that nothing ever gets to him, that he is a man who deals strictly in facts, and there is a vein standing up on his forehead the whole time he says it. His shirt is stuck to the chairback. He calls the man beside him a golden-voiced preacher and knocks over a paper cup reaching across for the diagram.",
       "sceneTitle": "Garage Owner",
       "choices": [
         {
           "text": "Press him",
-          "consequence": "“Press him” closes one possibility and opens another. The moment leaves a clear note behind: Hard.",
+          "consequence": "You go straight at the contradiction and he comes up out of the chair, and two men have to hold him, and the room learns precisely how hot it is in here.",
           "nextNodeId": "s9"
         },
         {
           "text": "Soften him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You slide him a cigarette and concede his one good point. He sits down. Half an hour later he votes with you and never once refers to it.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A floorplan in chalk on a table cloth.",
+      "text": "He has drawn the old man's apartment on the back of a ballot sheet: bedroom, twelve feet of hall, the chain on the door, forty-three feet in total. He wants somebody to walk it at the pace of a seventy-five-year-old with a dead leg while the watch runs. The salesman says this is not a courtroom. The foreman says there is nothing else to do until somebody moves.",
       "sceneTitle": "Architect's Diagram",
       "choices": [
         {
           "text": "Walk it",
-          "consequence": "You commit to “Walk it.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You get up and shuffle the length of the room dragging one foot while the whole table stares at a stopwatch. It is absurd. It takes forty-one seconds.",
           "nextNodeId": "s10"
         },
         {
           "text": "Argue it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You say the drawing proves nothing because a frightened man moves faster than a tired one — which is fair, and which nobody in this room can measure.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Cold facts, cold tone, a deep certainty.",
+      "text": "He has not taken off his jacket. He is not sweating. He recites the case in order and without notes, itemized, and every item he sets down is genuinely solid: the knife, the two neighbors, the boy who cannot name the picture he says he sat through. He is not cruel and he is not angry. He is the hardest man in this room because he is the only one who has actually thought it through.",
       "sceneTitle": "Stockbroker",
       "choices": [
         {
           "text": "Engage",
-          "consequence": "There is no taking “Engage” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You take him point by point and lose four of them, and the losing sharpens you, because he concedes only on evidence — and he does concede.",
           "nextNodeId": "s11"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You let him build the entire structure and say nothing at all, because you have noticed the way he keeps pinching the bridge of his nose.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "He has tickets to a game and he wants the room to vote.",
+      "text": "He has two tickets for the ballgame at eight and he has mentioned them four times. He does bird calls. He imitates the accents of witnesses for the men nearest him. When the count turns against him he changes his vote inside half a sentence to keep things moving, and when somebody asks whether he believes the boy is innocent he says he doesn't know and doesn't much care.",
       "sceneTitle": "Salesman",
       "choices": [
         {
           "text": "Shame him",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You ask him what he would want if it were his own kid down in that cell, and he sits there with his mouth open, and it is the only time today he stops talking.",
           "nextNodeId": "s12"
         },
         {
           "text": "Persuade him",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You hand him a real reason instead of a shove. He takes it, and votes with the room for entirely the wrong motive, and it counts exactly the same.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A juror says these people, they're all like that.",
+      "text": "He starts reasonably — the way they're brought up, the drinking, what a person can expect out of that neighborhood — and it builds, and then he is standing over the table saying they are born liars and a life does not mean the same thing to those people. One after another the men get up, turn their backs, and walk to the window. He finishes the speech to the wallpaper.",
       "sceneTitle": "Prejudice",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "You commit to “Stand.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You stand with the others and put your back to a man you agreed with an hour ago, and the scrape of your chair is the loudest thing you do all day.",
           "nextNodeId": "s13"
         },
         {
           "text": "Sit silent",
-          "consequence": "“Sit silent” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You stay in your seat looking at the tabletop, and nobody notices, and you notice, and it stays with you a great deal longer than the verdict does.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "The eldest finds words for what the youngest just felt.",
+      "text": "The oldest man here is seventy-three and has spoken maybe forty words since lunch. He stands slowly and says that the witness downstairs has been nobody at all for a very long time, and that a man like that will say whatever makes him matter for one day — and will mean it while he says it. Then he sits back down. Nobody argues. Nobody in the room knows how to.",
       "sceneTitle": "Old Juror Speaks",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "There is no taking “Listen” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You let him finish without a sound. It is the only testimony today that came from a man who has actually been inside that apartment, in the way that counts.",
           "nextNodeId": "s14"
         },
         {
           "text": "Interrupt",
-          "consequence": "You commit to “Interrupt.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You cut in to ask whether he is calling a witness a liar, and he says no, gently, and explains the difference, and you feel about nine years old.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "The defense was sleepy and you are not.",
+      "text": "The court appointed the defense and he did not want the job. He never cross-examined the woman about her eyes, never timed the hallway, never asked why a boy who had just knifed his father would come back three hours later for the weapon. He sighed at the table. You watched him sigh from the box on the second morning, and it bothered you then, and you let it go.",
       "sceneTitle": "Tired Lawyer",
       "choices": [
         {
           "text": "Note it for the room",
-          "consequence": "The decision settles the question for now. Its verdict—Sharp—follows you into whatever comes next.",
+          "consequence": "You say it out loud — a bored lawyer is not proof of guilt — and it lands harder than anything else you have said, because every man here watched it happen.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hold it",
-          "consequence": "There is no taking “Hold it” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You keep quiet, because criticizing the defense sounds like siding with the defense, and you sit on the one thing you actually earned in that courtroom.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Ask Juror Four what movie he saw last week.",
+      "text": "He is the certain one, and he is certain about the movies, because who forgets a picture they walked out of three hours ago. So somebody asks him, pleasantly, what he saw last Tuesday night. He produces the first title. He gets the second one wrong. He cannot name either lead — and he is not fifteen, not under arrest, and not being questioned with his father dead on the floor behind him.",
       "sceneTitle": "Memory Test",
       "choices": [
         {
           "text": "Press for detail",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You ask him for the second feature and he stops, and takes off his glasses, and rubs the two marks on the sides of his nose, and the room sees it when you do.",
           "nextNodeId": "s16"
         },
         {
           "text": "Move on",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You let him off after the first title out of plain respect. It costs the room twenty minutes and arrives at the same place anyway.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Rain on the windows finally and the fan starts at the right second.",
+      "text": "The sky goes green over the courthouse and then the rain comes down hard enough to drown out the el. Somebody hits the light switch and somebody else hits the one next to it, and the fan coughs twice and begins to turn, and every man in the room feels air move across the back of his neck in the same second. The shouting stops for a minute. It never comes back the same.",
       "sceneTitle": "Hot Day Cooling",
       "choices": [
         {
           "text": "Open the window",
-          "consequence": "You commit to “Open the window.” The story records the instinct as “Calm” and carries it forward.",
+          "consequence": "You push the sash up and the smell of wet pavement comes in, and the garage owner says thanks without looking up, which is as far as he goes.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay seated",
-          "consequence": "You commit to “Stay seated.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You leave the window to somebody else and keep your eyes on the ballot slips, doing arithmetic you would rather nobody caught you doing.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Eight stabs the table to argue an unlikely angle.",
+      "text": "The wound went in and downward, through the chest at a steep angle. The boy is five foot seven. His father stood six two. The quiet man asks the garage owner — who grew up around blades and has said so twice — to come at him with the switchblade, and he does, and every man watches his hand come up underhand toward the ribs, because that is how anybody who knows a knife uses one.",
       "sceneTitle": "Knife in the Door",
       "choices": [
         {
           "text": "Approve the demonstration",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You say go ahead, and a jury room watches two men rehearse a killing across a table, and nobody laughs, and afterward there is a fresh gouge in the wood.",
           "nextNodeId": "s18"
         },
         {
           "text": "Object",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You call it theater rather than evidence. You are right about what it is and wrong about what it proves, and you know it before the sentence is finished.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "The room has flipped under you and you are still standing.",
+      "text": "The count goes around again and it stands nine to three the other way now. Men who were with you at noon are lifting their jackets off the chairbacks and not meeting your eye. The stockbroker is still with you. So is the garage owner. So is the man who ended up talking to the wallpaper. That is the company you are keeping, and you can feel the room measuring it.",
       "sceneTitle": "Three to Acquit",
       "choices": [
         {
           "text": "Concede gracefully",
-          "consequence": "There is no taking “Concede gracefully” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You say the two words in a level voice, and it costs you less than you had braced for, and losing the argument turns out not to be the part that stays.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hold out",
-          "consequence": "You commit to “Hold out.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "You dig in for another forty minutes on principle, and every one of them makes you more certain and less convincing, which is something you will think about.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Juror Three with a wallet photo and a son he hasn't spoken to.",
+      "text": "By six it is down to one man, and he is going back through the evidence out of order now, item by item, in a voice that is coming apart in his hands. He mentioned his kid on the first afternoon: a boy who hit him once at sixteen, and then a boy he has not seen in two years. He keeps a photograph in his wallet. He has taken it out twice today.",
       "sceneTitle": "One Holdout",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You sit down and let the silence do the work. It is the cruelest and kindest thing available, and it runs about twenty minutes without a word from anybody.",
           "nextNodeId": "s20"
         },
         {
           "text": "Confront",
-          "consequence": "“Confront” closes one possibility and opens another. The moment leaves a clear note behind: Hard.",
+          "consequence": "You tell him out loud, in front of the room, that this is not about his son. He comes at you and it takes three men to hold him, and it was still true.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A son's face on the floor and a father's face in his hands.",
+      "text": "He pulls the wallet out to prove something about kids today, and the photograph is in his hand, and he stops mid-sentence and looks at it. Then he tears it across and lets both halves drop. Then he sits down and cries with his hands over his face, and every man in the room finds somewhere else to look, out of ordinary decency, and for a while nobody moves at all.",
       "sceneTitle": "Photograph Torn",
       "choices": [
         {
           "text": "Help him up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You gather the two halves off the floor and set them on the table by his elbow without saying anything. He does not thank you. He takes them.",
           "nextNodeId": "s21"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stay in your chair and leave him the room, because a man crying wants privacy more than he wants a hand on his shoulder, and you hope you have read that right.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Twelve hands raised slowly, no triumph in any of them.",
+      "text": "The foreman asks once more and the hands come up without speed, one at a time. The last belongs to a man who cannot make the words and only nods. Somebody helps him into his jacket. Nobody shakes hands, nobody says well done. The guard opens the door onto a corridor with a floor polished like water, and the room behind you smells of smoke, wet wool and other people's sweat.",
       "sceneTitle": "Not Guilty",
       "choices": [
         {
           "text": "File out quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go down the stairs behind men whose names you never learned and whose faces you will keep for thirty years, and not one word is said in the stairwell.",
           "nextNodeId": "end_rain"
         },
         {
           "text": "Shake hands",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You put your hand out to the man by the window and he takes it and tells you his name, which is the first time anybody in that room has used one.",
           "nextNodeId": "end_doubt"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Out on the corner in the rain there is a payphone, and a man standing at it holding two halves of a photograph. That is a different story.",
           "nextNodeId": "end_three"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_rain",
-      "text": "You walk down the courthouse steps with a stranger whose first name you finally learn. You do not exchange numbers. You do not need to.",
+      "text": "You come down the wet steps beside the man who started it, and he gives you his first name, and you give him yours, and neither of you says anything else. He goes east. You go west. You never see him again and you never go looking. You think about him most weeks for the rest of your life, usually in traffic, usually when somebody is being certain at a volume that does not fit the facts.",
       "sceneTitle": "Rain on the Steps",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_doubt",
-      "text": "The boy walks. He is innocent or guilty and the room never found out. You learn to live with that distinction, which is the entire point.",
+      "text": "The boy goes home. He is innocent or he is guilty and that room never found out, and finding out was never the room's job. What you carry down the steps is smaller and heavier than you expected. Not that you saved anybody — that on a hot Tuesday afternoon you nearly sent a kid to the chair because a fan was broken and you had plans at eight. You never entirely set that down.",
       "sceneTitle": "Reasonable",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_three",
-      "text": "Juror Three calls his son that night from a payphone, and the line is busy. He calls again at six in the morning. He calls every day until it is not.",
+      "text": "He walks four blocks in the rain before he finds a booth, and the line is busy, and he stands there in the doorway listening to it. He calls again at six the next morning and gets a woman who says the boy is sleeping. He calls Thursday. He calls the Tuesday after. It takes nine weeks to hear his son say hello, and when it comes he can manage nothing but the kid's name, twice, and that turns out to be enough.",
       "sceneTitle": "The Photograph",
       "choices": [],
       "isEnding": true,

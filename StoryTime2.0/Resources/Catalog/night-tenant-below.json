@@ -26,12 +26,12 @@
       "choices": [
         {
           "text": "Slip a polite note back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Kind.",
+          "consequence": "You commit to slip a polite note back. It carries you into Correspondence while the safer possibility closes without making a sound.",
           "nextNodeId": "s_reply"
         },
         {
           "text": "Go downstairs and knock on 3B",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to go downstairs and knock on 3B. It carries you into Apartment 3B while the safer possibility closes without making a sound.",
           "nextNodeId": "s_knock"
         }
       ],
@@ -45,12 +45,12 @@
       "choices": [
         {
           "text": "Test it — drag the chair at 3 a.m. on purpose",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Curious.",
+          "consequence": "You commit to test it — drag the chair at 3 a.m. on purpose. It carries you into 3:00 A.M. while the safer possibility closes without making a sound.",
           "nextNodeId": "s_test"
         },
         {
           "text": "Keep the apartment silent all night",
-          "consequence": "There is no taking “Keep the apartment silent all night” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You choose to keep the apartment silent all night. By The Silent Night, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s_silent"
         }
       ],
@@ -59,17 +59,17 @@
     },
     {
       "id": "s_knock",
-      "text": "No one answers the knock, but the door is chained from inside and a voice comes through the gap — thin, kind, exhausted. \"Oh,\" it says, as if you have arrived somewhere it did not expect you yet. \"You're early. You're not supposed to be making the sounds yet.\"",
+      "text": "No one answers the knock, but the door is chained from inside and a voice comes through the gap — thin, kind, exhausted. \"Oh,\" it says, as if you have arrived somewhere it did not expect you yet. \"You're early.",
       "sceneTitle": "Apartment 3B",
       "choices": [
         {
           "text": "Ask what they mean by early",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You ask what they mean by early. The way toward Early opens, and something on the other side seems to notice.",
           "nextNodeId": "s_early"
         },
         {
           "text": "Leave, and never knock again",
-          "consequence": "You commit to “Leave, and never knock again.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to leave, and never knock again. By The Silent Night, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s_silent"
         }
       ],
@@ -83,12 +83,12 @@
       "choices": [
         {
           "text": "Read the next line and follow it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to read the next line and follow it. It carries you into Early while the safer possibility closes without making a sound.",
           "nextNodeId": "s_early"
         },
         {
           "text": "Burn the notes and start packing",
-          "consequence": "You commit to “Burn the notes and start packing.” The story records the instinct as “Free” and carries it forward.",
+          "consequence": "You choose to burn the notes and start packing. By The Lease Breaks You, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_left"
         }
       ],
@@ -102,12 +102,12 @@
       "choices": [
         {
           "text": "Stay awake to catch the real source",
-          "consequence": "There is no taking “Stay awake to catch the real source” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to stay awake to catch the real source. It carries you into What Makes the Sounds while the safer possibility closes without making a sound.",
           "nextNodeId": "s_source"
         },
         {
           "text": "Set a packed bag by the door, just in case",
-          "consequence": "“Set a packed bag by the door, just in case” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to set a packed bag by the door, just in case. It carries you into The Lease Breaks You while the safer possibility closes without making a sound.",
           "nextNodeId": "end_left"
         }
       ],
@@ -116,17 +116,17 @@
     },
     {
       "id": "s_early",
-      "text": "\"The building runs a night ahead of the people in it,\" 3B says. \"The notes aren't complaints. They're warnings. I'm you — a night further on than you are now — sliding them back so you'll know what you're about to do before you do it. I've been doing it for a long time.\"",
+      "text": "\"The building runs a night ahead of the people in it,\" 3B says. \"The notes aren't complaints. They're warnings. I'm you — a night further on than you are now — sliding them back so you'll know what you're about to do before you do it.",
       "sceneTitle": "Early",
       "choices": [
         {
           "text": "Start writing notes forward yourself",
-          "consequence": "There is no taking “Start writing notes forward yourself” back. Devoted shapes the silence before the next moment arrives.",
+          "consequence": "You choose to start writing notes forward yourself. By Tomorrow's Neighbor, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_keeper"
         },
         {
           "text": "Refuse to play along",
-          "consequence": "There is no taking “Refuse to play along” back. Spirit shapes the silence before the next moment arrives.",
+          "consequence": "You refuse to play along. The way toward What Makes the Sounds opens, and something on the other side seems to notice.",
           "nextNodeId": "s_source"
         }
       ],
@@ -140,12 +140,12 @@
       "choices": [
         {
           "text": "Join the rehearsal; become part of the house",
-          "consequence": "“Join the rehearsal; become part of the house” closes one possibility and opens another. The moment leaves a clear note behind: Quiet.",
+          "consequence": "You choose to join the rehearsal; become part of the house. By A Very Good Tenant, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_stay"
         },
         {
           "text": "Break the pattern and run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You break the pattern and run. The way toward The Lease Breaks You opens, and something on the other side seems to notice.",
           "nextNodeId": "end_left"
         }
       ],

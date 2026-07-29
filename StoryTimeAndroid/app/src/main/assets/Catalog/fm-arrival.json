@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A class emptied of students, a phone vibrating in a coat.",
+      "text": "The lecture hall holds nine students out of sixty, and then four, and then none, because the phones started before the news did. You keep talking about Portuguese into the empty rows for a while. Then a television bracketed to the wall shows a shape over Montana that the anchor cannot find a noun for, and your phone begins going in your coat pocket, and does not stop.",
       "sceneTitle": "News Bulletin",
       "choices": [
         {
           "text": "Go to the door",
-          "consequence": "There is no taking “Go to the door” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You go out into the corridor and find the whole building at the north windows, as though Montana were visible from Massachusetts. Nobody is talking.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay",
-          "consequence": "You commit to “Stay.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You stay at the lectern with your notes and read the same paragraph four times without absorbing a word of it.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A recording, a recruitment, a long ride in a helicopter.",
+      "text": "The colonel sets a recorder on your desk and plays four seconds: a low pulse with wet edges, like something enormous trying to speak through a wall. He wants a translation by morning. You tell him nobody translates from a recording — you have to be able to ask a question and see what comes back. Twelve hours later a helicopter is flattening the grass outside your house.",
       "sceneTitle": "Colonel Weber",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "You commit to “Accept.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You sign before you have finished thinking, because the chance to hear a living speaker outweighs any caution you have ever managed.",
           "nextNodeId": "s3"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You send him to Danvers at Berkeley instead. Danvers fails the interview in four hours, and the helicopter comes for you regardless.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A camp of trucks under a hovering shell.",
+      "text": "The camp is trucks in a mud field, generators, a tent with a coffee urn nobody has cleaned in a week. Above it hangs the shell: two hundred metres of dark curve, not touching the ground, not moving in the wind. Cattle graze underneath it, unbothered. A soldier hands you a hazmat suit and a next-of-kin form, and apologises for the form.",
       "sceneTitle": "Montana Site",
       "choices": [
         {
           "text": "Suit up",
-          "consequence": "“Suit up” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You climb into the suit in the bed of a truck while a corporal checks your seals twice and never once looks up at the thing above you.",
           "nextNodeId": "s4"
         },
         {
           "text": "Hesitate",
-          "consequence": "There is no taking “Hesitate” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You stand in the mud a beat too long, and the soldier holding your helmet learns something about you that he will remember later.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A long tunnel up to a horizontal glass and a room that ignores gravity.",
+      "text": "A lift carries you up a shaft inside the hull. Then the floor rolls ninety degrees and becomes the wall, and your inner ear files a formal complaint. You walk on what was vertical a moment ago. Ahead lies a chamber of white fog behind a pane the size of a cinema screen. Your breath blooms on the visor. Someone counts down on the radio; you cannot hear the numbers.",
       "sceneTitle": "First Entry",
       "choices": [
         {
           "text": "Step through",
-          "consequence": "There is no taking “Step through” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You walk into the fog-lit chamber, and your body insists the entire way that you are climbing a wall rather than crossing a floor.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay outside",
-          "consequence": "There is no taking “Stay outside” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You stop at the threshold and let the others go ahead, and spend the whole session watching their shadows instead of the shapes behind the glass.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A circle of ink in midair.",
+      "text": "Two shapes come forward out of the mist on legs like tree trunks and stop. One lifts a limb and sprays ink into the air, and the ink holds: a black ring, thick along one edge, trailing barbs. It hangs for ten seconds and dissolves. Weber wants to know what it said. You want to know whether that was a sentence, a greeting, or a throat being cleared.",
       "sceneTitle": "First Word",
       "choices": [
         {
           "text": "Write your name",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You hold up a whiteboard with your name on it, which is absurd and enormous, and something two hundred metres wide bothers to answer.",
           "nextNodeId": "s6"
         },
         {
           "text": "Wait",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You give it silence and let it lead. The linguists will call that sound method; the colonels will call it four wasted days.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A vocabulary of circles and tails.",
+      "text": "Against the protocol you take the suit off and write your name on a board, letter by letter, pointing at your chest. Weeks go by in circles. Each logogram is a whole thought laid down at once — no beginning, no left to right, the ending settled before the first stroke. To write one, you must already know how it finishes. You start dreaming in rings and waking with wet cheeks.",
       "sceneTitle": "Logogram",
       "choices": [
         {
           "text": "Map them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You build the dictionary the slow way, entry by cross-checked entry, and it costs weeks that Weber counts out loud to you every morning.",
           "nextNodeId": "s7"
         },
         {
           "text": "Decode randomly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Reckless.",
+          "consequence": "You chase the elegant shapes first and get three quick wins and one mistranslation that will follow you around for months.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A memory you have never had of a small girl.",
+      "text": "A girl on a slope of dry grass, six or so, coming down toward you with her arms out. You know her weight. You know she refuses the crust on toast, and that her name reads the same in both directions. You have never had a child. The memory arrives with the texture of last Tuesday, and you find you are crying in a trailer over a mug of coffee gone cold.",
       "sceneTitle": "Daughter on a Hill",
       "choices": [
         {
           "text": "Hold it",
-          "consequence": "“Hold it” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You stay inside it deliberately, until you can smell her hair. Afterwards you cannot work for an hour and you tell nobody why.",
           "nextNodeId": "s8"
         },
         {
           "text": "Let it pass",
-          "consequence": "There is no taking “Let it pass” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You push it under and go back to segment nine, and it waits for you, patient, the way this language is patient.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A military comms blackout in Vladivostok.",
+      "text": "Vladivostok stops sharing. The feed that used to show a Russian tent and a whiteboard crowded with Cyrillic goes to a test card, then to nothing at all. A general there has been shot, or has done the shooting. Your counterpart in Denmark mails you one photograph of a logogram at four in the morning with no message attached. Sharing was the method. Someone upstairs has decided it was the risk.",
       "sceneTitle": "Russians Going Dark",
       "choices": [
         {
           "text": "Share notes anyway",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You send your lexicon to Copenhagen from a personal account at dawn, which is a career-ending act and also the only useful one available.",
           "nextNodeId": "s9"
         },
         {
           "text": "Comply",
-          "consequence": "There is no taking “Comply” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You obey, and the world's twelve teams begin guessing separately, each of them wrong in a different and unshareable direction.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "General Shang teaches the heptapods mahjong.",
+      "text": "Shanghai has taught their pair mahjong to build a shared vocabulary, which sounds elegant until you sit with it for a minute. Every tile carries a value. Every hand produces a loser. Teach a species that game and you have taught them that exchange is a contest — and then you ask them a question, and everything that comes back arrives folded into that shape.",
       "sceneTitle": "Chinese Card Game",
       "choices": [
         {
           "text": "Object",
-          "consequence": "You commit to “Object.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You say it plainly in the briefing: give them a game with a loser and they learn that speaking is something a person wins.",
           "nextNodeId": "s10"
         },
         {
           "text": "Suggest a chess game",
-          "consequence": "“Suggest a chess game” closes one possibility and opens another. The moment leaves a clear note behind: Practical.",
+          "consequence": "You offer an alternative that turns out to be exactly as adversarial, hear it in your own mouth, and stop halfway through the sentence.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A word that can mean either.",
+      "text": "Segment forty-seven resolves and the tent goes quiet. Offer weapon. Except the same logogram serves for tool, for instrument, for a thing handed over to be used, and the barbed clause beneath it is either a plural or a request. You explain that a word is not a fact. A man with three flags on his sleeve explains that the President reads summaries, not caveats.",
       "sceneTitle": "Weapon vs Tool",
       "choices": [
         {
           "text": "Argue",
-          "consequence": "“Argue” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You raise your voice at a man who outranks everyone in the tent, and get walked out into the rain, and are correct.",
           "nextNodeId": "s11"
         },
         {
           "text": "Translate carefully",
-          "consequence": "You commit to “Translate carefully.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You write four readings with confidence intervals attached, and watch the cable that goes to Washington keep only the shortest one.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A physicist with kind questions.",
+      "text": "Ian does the physics, takes the readings, and lately mostly brings you food you forget to eat. He asks what happens to a mind that learns a language with no tenses in it. Not as an accusation — he asks the way he asks about anything, because he wants the answer. You could tell him about the kitchen you have never stood in. You tell him the coffee is cold.",
       "sceneTitle": "Ian",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "“Sit with him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You let him stay, and you talk about nothing much for an hour, and it is the first hour in six weeks you have not been afraid.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay alone",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You carry your notes to the far end of the mess. He does not follow, and the plate he brought over sits going cold in front of you.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A radio host calling the ships a hoax.",
+      "text": "A radio host is telling three million listeners the ships are a projection paid for by defence contractors, and that anyone who walks into the fog is being dosed with something. Two soldiers in the mess have his show running on a laptop between shifts. They laugh at it. Then they do not switch it off. Nobody screens what comes into a camp. Everybody screens what goes out.",
       "sceneTitle": "Donnelly Recordings",
       "choices": [
         {
           "text": "Ignore",
-          "consequence": "You commit to “Ignore.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You decide the noise is not your department, which is true and useless, and which you will be reconsidering in a stairwell nine days from now.",
           "nextNodeId": "s13"
         },
         {
           "text": "Address it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You ask a sergeant to kill the broadcast in the barracks. He does, and three of his men have found another way to hear it by dinner.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A young man with a bomb in a back pocket and a face full of fear.",
+      "text": "The kid on the perimeter has been on watch nineteen hours and his hands shake when he checks your badge. Later you pass the barracks stairwell and see him packing something dense and grey into a satchel with a timer taped to the flap, and he sees you see it. He is not a monster. He has been listening to a laptop for a week, and he is very tired.",
       "sceneTitle": "Soldier With C4",
       "choices": [
         {
           "text": "Warn the heptapods",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You turn toward the glass instead of the door, waving both arms at something that has never once watched a human being hurry.",
           "nextNodeId": "s14"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You get nine steps down the corridor before the air behind you turns solid and picks you up.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A flash, a hum, a body in the air.",
+      "text": "The pane goes white. The blast is a pressure that reaches straight through the suit and squeezes your sternum, and the sound arrives afterwards as one long bell. You are on the floor in the wrong gravity with your ears ringing at a single flat pitch. Behind the barrier, ink is being laid down fast — faster than any session — a whole paragraph inside four seconds.",
       "sceneTitle": "Inside the Blast",
       "choices": [
         {
           "text": "Reach for Ian",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You crawl to him first, because your hands decide before you do, and haul a concussed physicist toward the shaft by the collar of his suit.",
           "nextNodeId": "s15"
         },
         {
           "text": "Find Costello",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You leave Ian on the floor and go to the glass, and you will still be justifying those eight seconds to yourself in a decade.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A heptapod fades behind the glass.",
+      "text": "One of them stands close against the barrier and the fog around it has turned the colour of a bruise. The limb rises and does not spray. The other writes instead, alone, a phrase that resolves days later as a statement about entering the death process. They knew the satchel was there. They stayed anyway. You put your palm flat on the glass and it is warm, and then it is not.",
       "sceneTitle": "Abbott Dying",
       "choices": [
         {
           "text": "Sing a small farewell",
-          "consequence": "You commit to “Sing a small farewell.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You hum four notes with your hand on the barrier, which is not a language and is not a ritual, and is the only thing you have.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take a sample",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You fill a vial with fog off the barrier while it dies. The lab is delighted with you. You cannot look at the vial afterwards.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A long sentence split among twelve nations.",
+      "text": "The final transmission is enormous, and it is one twelfth of something. The other pieces sit in Shanghai, Khartoum, Siberia, Caracas — held by governments that have stopped answering the phone. It is not a cipher. It is a sentence that can only be assembled by people who currently want each other dead. That is the gift. The gift is also, unmistakably, the examination.",
       "sceneTitle": "Gift in Sections",
       "choices": [
         {
           "text": "Share fully",
-          "consequence": "You commit to “Share fully.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You push the whole lexicon out to every team on Earth in one upload before anyone can classify it, and the phones start ringing inside a minute.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold back",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You keep two ambiguous segments back as leverage, and find that withholding tastes precisely like the thing you have spent six weeks arguing against.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A banquet, a Chinese general, a private cell number.",
+      "text": "You are in a ballroom, in a dress you do not own, and a Chinese general is thanking you for a call you have not made. He places his phone in your hand so you can read his private number off the screen. He repeats what you said to him — sentences in Mandarin you do not possess — and you are not remembering any of this. You are reading ahead.",
       "sceneTitle": "Future Glimpse",
       "choices": [
         {
           "text": "Memorize it",
-          "consequence": "“Memorize it” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You hold the digits in your mouth like a foreign word until they stick, standing in a room that has not been built yet.",
           "nextNodeId": "s18"
         },
         {
           "text": "Distrust the vision",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You call it oxygen debt and exhaustion and grief, and the number stays anyway, sitting behind your teeth like a splinter.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A satellite line, a number that should not work.",
+      "text": "The camp is being struck in eight minutes: crates going into trucks, a generator coughing out. In the comms tent there is a satellite handset on a cable with a live tone. You have a string of digits that exists only inside something which has not happened yet. If it is a memory it will connect. If it is a symptom, a stranger in Shanghai is about to be woken for nothing.",
       "sceneTitle": "Phone in the Tent",
       "choices": [
         {
           "text": "Dial",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You punch in a number you learned from the future and hear a foreign ringtone, which is the second the theory stops being a theory.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hesitate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You stand with your thumb over the keypad while a corporal outside shouts the eight-minute mark, and the handset gets heavier.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Her last words, said to a man who will not need them for many years.",
+      "text": "He is on the line. Behind him men are calling out coordinates. You give him the sentence you were handed in the ballroom — a dying woman's last words to her husband, in a language you learned by hearing yourself use it — and it means, more or less, that a country is not made out of its wars. You do not understand it while you are saying it. He does.",
       "sceneTitle": "Shang's Wife",
       "choices": [
         {
           "text": "Speak them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You hand a stranger his wife's last words years before she will say them, and hear a general on the other end stop breathing.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay silent",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You hold the sentence back two seconds too long, and inside those two seconds you finally understand what the language has done to you.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Stars, a small girl in a memory not yet hers.",
+      "text": "Afterwards there is a lawn and a black sky and Ian with his hands in his pockets, saying he had forgotten how many stars there are once you get away from floodlights. He turns and asks whether you want to make a baby. And you can already see it — the slope of dry grass, the small girl running, the corridor with the machine breathing at the end of it.",
       "sceneTitle": "Ian on a Hill",
       "choices": [
         {
           "text": "Choose",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You say yes on a dark lawn to a man who does not yet know he will leave you, and you mean every syllable of it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You tell him you cannot, and watch him decide not to ask why, and the stars go on doing what stars do.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A face in a future you can see, with all of its endings.",
+      "text": "Here is what the language actually gave you: not prophecy — shape. Hannah at four on a wet beach. Hannah at twelve refusing to look at you across a table. Hannah in a bed with a machine doing her breathing, and Ian walking out of the house because you knew and let it happen anyway. All of it at once, in every direction, the way you now know how to read.",
       "sceneTitle": "Tomorrow's Daughter",
       "choices": [
         {
           "text": "Have her anyway",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You take the whole of it, because subtracting the ending would subtract every ordinary morning that came before the ending.",
           "nextNodeId": "end_daughter"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep the future shut. Ian marries someone else in a town you never drive through, and a girl who was never born stops arriving in your kitchen.",
           "nextNodeId": "end_unite"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You keep the language and let the life go, and become the only person on this planet who can read a sentence from both ends at once.",
           "nextNodeId": "end_alone"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_daughter",
-      "text": "You marry Ian on a quiet day and you have the daughter who will not stay long, and you love her exactly enough.",
+      "text": "You say yes on the lawn. The wedding is small, and Ian burns the rice, and nobody minds. Hannah arrives in March: furious, red, entirely ordinary. You teach her that her name reads the same in both directions, and she tests it on the fridge with magnets for a solid week. Years later a doctor uses a word you already knew was coming. You sit through every hour of it deliberately, because the hours were always the point.",
       "sceneTitle": "Hannah's Name, Both Ways",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_unite",
-      "text": "The world's leaders speak to each other through circles of ink and the war that almost started becomes the peace that almost surprised them.",
+      "text": "Shang stands down first, and once one general has, the others can. The pieces come in across ninety hours — Khartoum, Caracas, Vladivostok, a hard drive carried through a checkpoint by a woman on a bicycle — and they fit. What they spell is not a weapon and not an instruction. It is a request for help, dated three thousand years out. Nations that were mobilising last week now argue about stroke order, loudly, and nobody is shooting.",
       "sceneTitle": "Twelve Pieces",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_alone",
-      "text": "You teach a course at the university about a language that nobody else can quite read. Students drift in and out. One stays. One always stays.",
+      "text": "You teach the seminar nobody funds: eight chairs, a bad projector, a language with no tenses and no living speakers on this planet. Most students come for a term and leave with a good anecdote for dinner parties. One stays. She stays four years, and one wet afternoon she writes a logogram you have not taught her yet, and then goes very still. You get up, close the door, and sit down beside her.",
       "sceneTitle": "Alone With the Gift",
       "choices": [],
       "isEnding": true,

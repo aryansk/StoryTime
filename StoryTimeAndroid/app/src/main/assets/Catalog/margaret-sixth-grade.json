@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Go outside and say hi",
-          "consequence": "Brave is just scared with its shoes on.",
+          "consequence": "Brave is just scared with its shoes on. You go outside and say hi. The path to The Cartwheel Girl opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay in and unpack your room first",
-          "consequence": "Some courage needs a running start.",
+          "consequence": "Some courage needs a running start. You choose to stay in and unpack your room first. By The First Prayer, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Her name is Nancy and she talks fast and decides things. By the end of the driveway you have a friend and, apparently, opinions about boys you've never met. It's dizzying and wonderful.",
+      "text": "Her name is Nancy and she talks fast and decides things. By the end of the driveway you have a friend and, apparently, opinions about boys you've never met. It's dizzying and wonderful. Choose “Agree with everything she says” and Nancy's Secret Club comes into view; choose “Quietly keep your own opinions too” and the road bends toward We Must, We Must.",
       "sceneTitle": "The Cartwheel Girl",
       "choices": [
         {
           "text": "Agree with everything she says",
-          "consequence": "Fitting in feels like floating.",
+          "consequence": "Fitting in feels like floating. You commit to agree with everything she says. It carries you toward Nancy's Secret Club, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         },
         {
           "text": "Quietly keep your own opinions too",
-          "consequence": "You can belong without disappearing.",
+          "consequence": "You can belong without disappearing. You choose to quietly keep your own opinions too. By We Must, We Must, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Ask God to make sixth grade easy",
-          "consequence": "Hope is a kind of homework.",
+          "consequence": "Hope is a kind of homework. You ask God to make sixth grade easy. The path to Nancy's Secret Club opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask God which religion you're supposed to be",
-          "consequence": "The biggest questions arrive in the smallest rooms.",
+          "consequence": "The biggest questions arrive in the smallest rooms. You commit to ask God which religion you're supposed to be. It carries you toward The Religion Assignment, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Nancy forms a club with three other girls and you. There are rules: you keep a notebook, you rank the boys, and you must tell each other the instant anything happens. Anything.",
+      "text": "Nancy forms a club with three other girls and you. There are rules: you keep a notebook, you rank the boys, and you must tell each other the instant anything happens. Anything. The paths divide here: “Join enthusiastically” leads into We Must, We Must, while “Join, but feel a little uneasy about the rules” makes The Religion Assignment the next reckoning.",
       "sceneTitle": "Nancy's Secret Club",
       "choices": [
         {
           "text": "Join enthusiastically",
-          "consequence": "Four best friends is a fortress.",
+          "consequence": "Four best friends is a fortress. You commit to join enthusiastically. It carries you toward We Must, We Must, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         },
         {
           "text": "Join, but feel a little uneasy about the rules",
-          "consequence": "A club can be a cage with cushions.",
+          "consequence": "A club can be a cage with cushions. You join, but feel a little uneasy about the rules. The path to The Religion Assignment opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s6"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The club has an exercise to help you grow up faster, arms pumping, chanting at the ceiling. You laugh until you're breathless. Then someone asks who's gotten their period and the room goes quiet.",
+      "text": "The club has an exercise to help you grow up faster, arms pumping, chanting at the ceiling. You laugh until you're breathless. Then someone asks who's gotten their period and the room goes quiet. To choose “Admit you haven't and don't care” means meeting Grandma Sylvia; “Pretend you're close, like the others” sends you toward The Other Grandparents instead.",
       "sceneTitle": "We Must, We Must",
       "choices": [
         {
           "text": "Admit you haven't and don't care",
-          "consequence": "Honesty is its own kind of cool.",
+          "consequence": "Honesty is its own kind of cool. You choose to admit you haven't and don't care. By Grandma Sylvia, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Pretend you're close, like the others",
-          "consequence": "Small lies grow in the dark.",
+          "consequence": "Small lies grow in the dark. You commit to pretend you're close, like the others. It carries you toward The Other Grandparents, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Your teacher assigns a year-long project: pick something important to you and study it. You know instantly. You'll study whether you have a religion at all, since nobody ever told you.",
+      "text": "Your teacher assigns a year-long project: pick something important to you and study it. You know instantly. You'll study whether you have a religion at all, since nobody ever told you. “Visit a temple with Grandma Sylvia” draws you toward Grandma Sylvia; “Visit a church with a new friend” leaves The Other Grandparents waiting on the other side.",
       "sceneTitle": "The Religion Assignment",
       "choices": [
         {
           "text": "Visit a temple with Grandma Sylvia",
-          "consequence": "Start with the family that claims you loudest.",
+          "consequence": "Start with the family that claims you loudest. You commit to visit a temple with Grandma Sylvia. It carries you toward Grandma Sylvia, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         },
         {
           "text": "Visit a church with a new friend",
-          "consequence": "Try on a faith and see if it itches.",
+          "consequence": "Try on a faith and see if it itches. You commit to visit a church with a new friend. It carries you toward The Other Grandparents, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Tell her you're still deciding",
-          "consequence": "Loving someone and disagreeing are allowed at once.",
+          "consequence": "Loving someone and disagreeing are allowed at once. You tell her you're still deciding. The path to The List of Boys opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         },
         {
           "text": "Let her believe what makes her happy",
-          "consequence": "Kindness sometimes wears a small surrender.",
+          "consequence": "Kindness sometimes wears a small surrender. You let her believe what makes her happy. The path to Are You There, God? opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Your mother's parents, who once disowned her for marrying outside the faith, send a sudden letter. They want to visit. Your parents go pale and polite in that grown-up way.",
+      "text": "Your mother's parents, who once disowned her for marrying outside the faith, send a sudden letter. They want to visit. Your parents go pale and polite in that grown-up way. “Hope the visit fixes everything” opens the route to The List of Boys. “Worry it'll all blow up” changes the terms and carries you toward Are You There, God?.",
       "sceneTitle": "The Other Grandparents",
       "choices": [
         {
           "text": "Hope the visit fixes everything",
-          "consequence": "Children are the bridges adults won't build.",
+          "consequence": "Children are the bridges adults won't build. You hope the visit fixes everything. The path to The List of Boys opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         },
         {
           "text": "Worry it'll all blow up",
-          "consequence": "You can feel a storm before it has a name.",
+          "consequence": "You can feel a storm before it has a name. You worry it'll all blow up. The path to Are You There, God? opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Back in the club, the notebook comes out. You're supposed to write your number-one boy. Philip Leroy is everyone's pick — perfect, mean, and boring, you secretly think. There's also quiet Norman from math.",
+      "text": "Back in the club, the notebook comes out. You're supposed to write your number-one boy. Philip Leroy is everyone's pick — perfect, mean, and boring, you secretly think. There's also quiet Norman from math. “Write Philip to match the group” draws you toward The Party; “Write who you actually like” leaves Norman, Actually waiting on the other side.",
       "sceneTitle": "The List of Boys",
       "choices": [
         {
           "text": "Write Philip to match the group",
-          "consequence": "Sometimes you vote with the room.",
+          "consequence": "Sometimes you vote with the room. You choose to write Philip to match the group. By The Party, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Write who you actually like",
-          "consequence": "A true answer in a notebook of lies is a small rebellion.",
+          "consequence": "A true answer in a notebook of lies is a small rebellion. You write who you actually like. The path to Norman, Actually opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Late at night you ask God the real questions — about your body, your friends, your two sets of grandparents pulling you like taffy. The ceiling, as always, doesn't answer in words. But you feel a little less alone for asking.",
+      "text": "Late at night you ask God the real questions — about your body, your friends, your two sets of grandparents pulling you like taffy. The ceiling, as always, doesn't answer in words. But you feel a little less alone for asking. reports normal conditions.",
       "sceneTitle": "Are You There, God?",
       "choices": [
         {
           "text": "Decide God is listening",
-          "consequence": "Faith is choosing to leave the line open.",
+          "consequence": "Faith is choosing to leave the line open. You commit to decide God is listening. It carries you toward The Party, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         },
         {
           "text": "Decide you'll figure it out yourself",
-          "consequence": "Growing up is partly learning to answer your own prayers.",
+          "consequence": "Growing up is partly learning to answer your own prayers. You choose to decide you'll figure it out yourself. By Norman, Actually, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "A boy-girl party. There's a closet, a spinning bottle, and a rule called Two Minutes in Heaven that makes your stomach drop. Nancy's already pushing you toward the circle.",
+      "text": "A boy-girl party. There's a closet, a spinning bottle, and a rule called Two Minutes in Heaven that makes your stomach drop. Nancy's already pushing you toward the circle. “Take your turn even though you're nervous” opens the route to The Period Panic. “Sit this one out without apology” changes the terms and carries you toward Laura Danker.",
       "sceneTitle": "The Party",
       "choices": [
         {
           "text": "Take your turn even though you're nervous",
-          "consequence": "Brave is scared with its shoes on, remember.",
+          "consequence": "Brave is scared with its shoes on, remember. You choose to take your turn even though you're nervous. By The Period Panic, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Sit this one out without apology",
-          "consequence": "No is a complete sentence, even at eleven.",
+          "consequence": "No is a complete sentence, even at eleven. You choose to sit this one out without apology. By Laura Danker, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Tell the club the truth about Norman",
-          "consequence": "Owning your own crush is its own bravery.",
+          "consequence": "Owning your own crush is its own bravery. You commit to tell the club the truth about Norman. It carries you toward The Period Panic, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         },
         {
           "text": "Keep this one just for yourself",
-          "consequence": "Some good things shrink when shared.",
+          "consequence": "Some good things shrink when shared. You keep this one just for yourself. The path to Laura Danker opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Call out Nancy's lie gently",
-          "consequence": "Truth between friends is risky and necessary.",
+          "consequence": "Truth between friends is risky and necessary. You choose to call out Nancy's lie gently. By The Falling Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Say nothing and feel left behind",
-          "consequence": "Waiting is the loneliest verb in sixth grade.",
+          "consequence": "Waiting is the loneliest verb in sixth grade. You choose to say nothing and feel left behind. By The Visit Goes Wrong, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Defend Laura to the club",
-          "consequence": "It costs something to be kind out loud.",
+          "consequence": "It costs something to be kind out loud. You choose to defend Laura to the club. By The Falling Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay quiet to keep the peace",
-          "consequence": "Silence can be a small betrayal you carry.",
+          "consequence": "Silence can be a small betrayal you carry. You stay quiet to keep the peace. The path to The Visit Goes Wrong opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Try to apologize and rebuild",
-          "consequence": "Mending takes more nerve than breaking.",
+          "consequence": "Mending takes more nerve than breaking. You choose to try to apologize and rebuild. By Are You Even There?, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Decide you're better off without the rules",
-          "consequence": "Some friendships fit you, and some you just fit into.",
+          "consequence": "Some friendships fit you, and some you just fit into. You commit to decide you're better off without the rules. It carries you toward Choosing for Yourself, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Stay quiet and let the adults fight",
-          "consequence": "Sometimes the smallest person sees the most.",
+          "consequence": "Sometimes the smallest person sees the most. You choose to stay quiet and let the adults fight. By Are You Even There?, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Speak up about how it makes you feel",
-          "consequence": "Even kids get a vote in their own souls.",
+          "consequence": "Even kids get a vote in their own souls. You commit to speak up about how it makes you feel. It carries you toward Choosing for Yourself, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "After everything — the friends, the grandparents, the body that won't cooperate — you get angry at God for the first time. You tell Him you stopped hearing back and you're not sure you'll keep calling.",
+      "text": "After everything — the friends, the grandparents, the body that won't cooperate — you get angry at God for the first time. You tell Him you stopped hearing back and you're not sure you'll keep calling. reports normal conditions.",
       "sceneTitle": "Are You Even There?",
       "choices": [
         {
           "text": "Keep talking to God anyway",
-          "consequence": "Doubt and faith can share a room.",
+          "consequence": "Doubt and faith can share a room. You keep talking to God anyway. The path to Finally opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         },
         {
           "text": "Take a break from praying",
-          "consequence": "Sometimes you put the phone down and grow.",
+          "consequence": "Sometimes you put the phone down and grow. You commit to take a break from praying. It carries you toward Just You, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You realize the religion project was never really about temple or church. It was about who gets to decide what you believe — and the answer, finally, scary and freeing, is you.",
+      "text": "You realize the religion project was never really about temple or church. It was about who gets to decide what you believe — and the answer, finally, scary and freeing, is you. Choose “Write the project about your own searching” and Finally comes into view; choose “Decide you don't need a label yet” and the road bends toward Just You.",
       "sceneTitle": "Choosing for Yourself",
       "choices": [
         {
           "text": "Write the project about your own searching",
-          "consequence": "The truest answer is that you're still looking.",
+          "consequence": "The truest answer is that you're still looking. You write the project about your own searching. The path to Finally opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         },
         {
           "text": "Decide you don't need a label yet",
-          "consequence": "Some questions get to stay open.",
+          "consequence": "Some questions get to stay open. You decide you don't need a label yet. The path to Just You opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Thank God, and mean it",
-          "consequence": "Gratitude reopens every line you thought went dead.",
+          "consequence": "Gratitude reopens every line you thought went dead. You thank God, and mean it. The path to Sixth Grade, Survived opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         },
         {
           "text": "Call Nancy first, then God",
-          "consequence": "Some news belongs to your people.",
+          "consequence": "Some news belongs to your people. You choose to call Nancy first, then God. By Sixth Grade, Survived, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Make peace with not having all the answers",
-          "consequence": "Eleven is allowed to be a question mark.",
+          "consequence": "Eleven is allowed to be a question mark. You choose to make peace with not having all the answers. By Sixth Grade, Survived, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Promise yourself you'll keep asking the big questions",
-          "consequence": "The asking is the faith.",
+          "consequence": "The asking is the faith. You commit to promise yourself you'll keep asking the big questions. It carries you toward Sixth Grade, Survived, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         }
       ],
@@ -404,17 +404,17 @@
       "choices": [
         {
           "text": "Choose faith, on your own terms",
-          "consequence": "Belief you pick yourself fits best.",
+          "consequence": "Belief you pick yourself fits best. You choose faith, on your own terms. The path to On My Own Terms opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_faith"
         },
         {
           "text": "Choose your friends, mended and real",
-          "consequence": "The people who stay are the answer to half your prayers.",
+          "consequence": "The people who stay are the answer to half your prayers. You choose your friends, mended and real. The path to The Fortress, Rebuilt opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_friends"
         },
         {
           "text": "Choose just being eleven, fully",
-          "consequence": "Some years you win by simply living them.",
+          "consequence": "Some years you win by simply living them. You commit to choose just being eleven, fully. It carries you toward Are You There? It's Me., exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_self"
         }
       ],
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_self",
-      "text": "In the end the biggest thing you grew wasn't your body or your faith — it was you, the part that talks to God at night and means it. You're eleven, almost twelve, and for one perfect summer evening that feels like exactly enough.",
+      "text": "In the end the biggest thing you grew wasn't your body or your faith — it was you, the part that talks to God at night and means it. You're eleven, almost twelve, and for one perfect summer evening that feels like exactly enough. For one suspended beat, Are You There? It's Me.",
       "sceneTitle": "Are You There? It's Me.",
       "choices": [],
       "isEnding": true,

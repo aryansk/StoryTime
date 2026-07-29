@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Quantico woods. Crawford pulls you off the course.",
+      "text": "Quantico, the wooded course, a mile and a half in and your lungs burning honestly for the first time all week. A trainee flags you off the trail: Crawford wants you now, downstairs, Behavioral Science. You go with mud to the knee and stand in a basement corridor hung with photographs you are not supposed to study while you get your breath back. He offers you an errand. He is not a man who runs errands.",
       "sceneTitle": "The Run",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "There is no taking “Listen” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You let him lay the whole thing out without interrupting once, and by the end you know exactly which parts he has left out deliberately.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask why",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Curious.",
+          "consequence": "You ask why a second-year trainee and not an agent, and he answers the question he prefers, which tells you the answer to yours.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "He flirts grossly. He hands you the case file.",
+      "text": "Baltimore State Hospital, and the director keeps you standing a full minute while he finds a chair. He mentions his credentials, then a conference in Philadelphia, then dinner. It is not quite an invitation; it is a door left open so that refusing it becomes your rudeness. The file sits under his hand. He explains the restraints to you the way men explain machinery to women who fly planes.",
       "sceneTitle": "Chilton's Office",
       "choices": [
         {
           "text": "Decline gracefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You turn him down warmly enough that he can pretend it never happened, which costs you nothing now and one favor later.",
           "nextNodeId": "s3"
         },
         {
           "text": "Be cold",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You leave the invitation lying there unanswered, and he walks you down eight flights explaining at length how dangerous the man is.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Multiple Miggs spits. Lecter is upright behind glass.",
+      "text": "The corridor smells of disinfectant laid over something older. Eight cells; the last one glass instead of bars. Halfway along, a man throws himself at the mesh and says something about you that gets into your hair and stays there. And then a small man standing perfectly upright in the middle of his cell, hands at his sides, who has been listening to your shoes since the far end and has already decided what you are.",
       "sceneTitle": "The Cell",
       "choices": [
         {
           "text": "Stand still",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You stop at the marked line and do not touch your hair, and he registers the not-touching, which was always the first thing he was going to read.",
           "nextNodeId": "s4"
         },
         {
           "text": "Step closer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Direct.",
+          "consequence": "You come nearer than the tape allows because there is glass between you, and you watch him note that you will break a small rule.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "He wants something for every answer.",
+      "text": "He will discuss the questionnaire, he says, but not for nothing. Every answer about the man you are hunting costs one answer about you, and he sets the price himself: not the training, not the Bureau — West Virginia, your father, and what your accent does under pressure. He is entirely courteous about it. He has all the time in the world, and somewhere there is a woman who does not.",
       "sceneTitle": "Quid Pro Quo",
       "choices": [
         {
           "text": "Trade carefully",
-          "consequence": "“Trade carefully” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You give him true things that cost you nothing, and watch him accept them unimpressed, waiting for the one you cannot afford to hand over.",
           "nextNodeId": "s5"
         },
         {
           "text": "Trade fully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You put the real thing on the table first go, and get more out of him in nine minutes than the Bureau has assembled in six years.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Lecter's old patient's storage. A head in a jar.",
+      "text": "A rented garage outside Baltimore, unopened in ten years, a door that rises eight inches and jams. Rain runs down the back of your collar while you crawl under it with a flashlight. Inside: a car under a sheet, mannequin limbs, a flag folded wrong. On the passenger seat, caught in the beam, a glass jar — and inside the jar something with a face, turned toward the windshield.",
       "sceneTitle": "Storage Unit",
       "choices": [
         {
           "text": "Document",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You write down the plate, the mileage and the dates on the lease agreement, and only then let yourself be frightened, in the correct order.",
           "nextNodeId": "s6"
         },
         {
           "text": "Photograph",
-          "consequence": "There is no taking “Photograph” back. Quick shapes the silence before the next moment arrives.",
+          "consequence": "You shoot two rolls of film in a jammed garage during a thunderstorm, because a photograph outlives an argument with a police department.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Catherine Martin is abducted from a parking lot.",
+      "text": "Memphis, a parking lot outside her building, a truck with a couch in the back and a man with his arm in a cast asking for a hand loading it. Twenty-five years old, keys in her fist, still on the phone to a friend. Her blouse turns up in a hedge. By the Bureau's own numbers he keeps them nine or ten days, and one of those days has already gone.",
       "sceneTitle": "Senator's Daughter",
       "choices": [
         {
           "text": "Time pressure",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Real.",
+          "consequence": "You start counting in days and stop sleeping properly, and Crawford watches you do it and says nothing at all about pace.",
           "nextNodeId": "s7"
         },
         {
           "text": "Pace",
-          "consequence": "There is no taking “Pace” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You make yourself work the way the manual says — evidence, sequence, patience — while a clock nobody can see runs down somewhere in Ohio.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A pupa in the throat. A death's-head moth.",
+      "text": "Two entomologists in a Smithsonian basement, working late, arguing about beetles over Chinese food. You set the thing from the girl's throat on a tray under the lamp. It is a pupa, wrapped and placed, and it is native nowhere near the river she was pulled out of. Somebody raised it in a warm room and put it in her mouth on purpose. They tell you the common name. It is worse than the Latin.",
       "sceneTitle": "Bug, Genus",
       "choices": [
         {
           "text": "Pull on it",
-          "consequence": "“Pull on it” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You follow the moth alone, at night, in a library, because it is the only item in the entire file that somebody actually chose.",
           "nextNodeId": "s8"
         },
         {
           "text": "Show Crawford",
-          "consequence": "The decision settles the question for now. Its verdict—Process—follows you into whatever comes next.",
+          "consequence": "You take it up the chain properly, and it becomes a task force item, and you become the trainee who found something.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Lecter is moved to Memphis. Senator wants a deal.",
+      "text": "A senator with a missing daughter can move a prisoner in an afternoon. He is transferred to Memphis on information you now know he manufactured — wrong name, wrong city, built out of what you told him about your father. He gets a view of a courthouse and a hotel ballroom with a cage standing in it. The clock in Ohio is indifferent to all of this. Six days gone, and a girl who has stopped crying.",
       "sceneTitle": "Lecter Moves",
       "choices": [
         {
           "text": "Visit him there",
-          "consequence": "“Visit him there” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You go without authorization, on a Sunday, carrying an offer you invented and nothing to back it, and he lets you sit down.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You stay at Quantico and read the file for the ninth time, and every page you turn has his fingerprints somewhere on it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Lecter, in a hockey mask, in a cage in a ballroom.",
+      "text": "A Tennessee ballroom with chandeliers and a custom cage bolted through the parquet, and two Memphis officers who have been told what he does and have privately decided it cannot be accurate. Mask, restraints, one chair. He is enjoying the room enormously. He asks about your drive, then your shoes, then whether the Bureau knows you are here — and he already has the answer to the third one.",
       "sceneTitle": "Cage in the Hall",
       "choices": [
         {
           "text": "Talk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You lead with the offer you invented and he lets you finish it, courteously, the way you let a child finish a lie.",
           "nextNodeId": "s10"
         },
         {
           "text": "Listen",
-          "consequence": "There is no taking “Listen” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You say almost nothing for twenty minutes and let him fill it, and he does, because being listened to is the one thing they have withheld from him.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "He asks about your father. You tell him about the lambs.",
+      "text": "He wants the rest, and the rest is a ranch in Montana, ten years old, two months after the funeral, and waking before dawn to a sound you did not understand until you walked out to the shed. You tell it flatly, in order, using none of the words you would use with a friend. He does not interrupt. When you reach what you carried, and how far you got with it, he closes his eyes.",
       "sceneTitle": "Your Mother, Late",
       "choices": [
         {
           "text": "Tell honestly",
-          "consequence": "There is no taking “Tell honestly” back. Trust shapes the silence before the next moment arrives.",
+          "consequence": "You put the whole of it on the table for a man in a cage, and he pays in full immediately, which is somehow the worst part.",
           "nextNodeId": "s11"
         },
         {
           "text": "Lie",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You give him a version with the edges filed off, and he waits, and lets the silence show you he already knows the real ending.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Lecter slips you a name. Or a clue toward one. Geographic.",
+      "text": "He does not hand you a name. He hands the file back through the tray with two lines pencilled in the margin: that a man learns to want by looking at whatever is nearest him, and that this one began somewhere he already lived. A jurisdiction is underlined twice. Downstairs a phone is ringing in an office, and in forty minutes two officers will be dead, and neither of you mentions it.",
       "sceneTitle": "Buffalo Bill",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You take the margin note straight to a telephone and start working backward through ten years of one county's records.",
           "nextNodeId": "s12"
         },
         {
           "text": "Verify it",
-          "consequence": "You commit to “Verify it.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You check him against the Bureau's own map first, and the two agree — which means either he is honest or he built the map you are checking against.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "House to house in a small town. The names from the seamstress.",
+      "text": "A town in Ohio with one main street, and the case has narrowed to a tailoring detail nobody else thought mattered: the darts, the seams, the fact that whoever this is can make a garment fit a body. You and a local detective work addresses from a seamstress who trained a boy ten years ago and remembers his hands. The houses have porches and screen doors. It is four in the afternoon.",
       "sceneTitle": "Belvedere",
       "choices": [
         {
           "text": "Door by door",
-          "consequence": "“Door by door” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You take every address in order, including the ones that look wrong, which is slow — and which is why you end up on the correct porch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Skip the easy ones",
-          "consequence": "“Skip the easy ones” closes one possibility and opens another. The moment leaves a clear note behind: Speed.",
+          "consequence": "You prioritize by profile and cut the list in half, gaining two hours that you are going to need very badly in about twenty minutes.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A man at a door. A moth in the hallway.",
+      "text": "The man who opens the door is ordinary in the particular way that makes you stop cataloguing him. Mild, pleasant, holding the door at slightly the wrong angle. He answers about the previous tenant smoothly, without hesitating anywhere. And then, over his shoulder, something the size of a hand lifts off the hall lampshade and drifts across the doorway — and you have seen one of those before, in a jar, under a lamp.",
       "sceneTitle": "Mr. Gumb",
       "choices": [
         {
           "text": "Identify yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You say the word FBI in a doorway with no backup, and watch a mild face rearrange into an expression that has clearly been rehearsed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Push past",
-          "consequence": "“Push past” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You go through the door without waiting for permission, which is not procedure, and which is the only reason the next four minutes happen at all.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Stairs. Skin. Goggles in the dark.",
+      "text": "Down, and then down again — the house has more floors beneath it than above. Plaster dust. A bathtub you do not look into twice. A workroom with a sewing machine, a dress form, and material laid across it that is not material. Ahead somewhere a small dog is barking and a woman is shouting a name. Then every light in the basement goes out at once, and you hear a click that is not a switch.",
       "sceneTitle": "Basement",
       "choices": [
         {
           "text": "Don't shoot the dog",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You keep your muzzle off a barking terrier in the dark and lose two seconds you will spend the rest of your life accounting for.",
           "nextNodeId": "s15"
         },
         {
           "text": "Look at the well",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You go toward the shouting first — the pit, the mattress, the woman — because a living person outranks a cleared room, every time.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "She is in a pit, screaming.",
+      "text": "The pit is an old cistern, six feet across, and she has been down there six days with a bucket, a bottle of lotion, and a dog she has taken hostage. She is screaming at you to get her out now, this second, and she is entirely right. There is no ladder. There is no rope within reach. And there is a man somewhere behind you in the dark who has stopped moving.",
       "sceneTitle": "Catherine",
       "choices": [
         {
           "text": "Get to her after",
-          "consequence": "There is no taking “Get to her after” back. Mission shapes the silence before the next moment arrives.",
+          "consequence": "You tell her to be quiet and stay down, which is the cruellest sentence you have ever said to anybody, and it is also correct.",
           "nextNodeId": "s16"
         },
         {
           "text": "Try to free her now",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You hunt for anything long enough to reach her and give away your position doing it, and the darkness behind you adjusts itself.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He sees you. You don't see him.",
+      "text": "Total black. Not dim — absolute, the kind your eyes never adjust to because there is nothing to adjust to. Your back is against something solid, your sidearm is up, and you are turning your head to hear better the way people do. Nine feet away he is watching your face in a green wash through a pair of goggles, close enough to count your eyelashes, and he puts out a hand and does not quite touch your hair.",
       "sceneTitle": "Night Vision",
       "choices": [
         {
           "text": "Hold the gun out",
-          "consequence": "“Hold the gun out” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You hold the weapon extended into a room you cannot see, which tells him precisely where you are and gives him something to reach for.",
           "nextNodeId": "s17"
         },
         {
           "text": "Listen",
-          "consequence": "“Listen” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You lower the muzzle, stop breathing, and turn every part of yourself into hearing. Somewhere to your left, cloth moves against cloth.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You hear the click. You turn. You fire.",
+      "text": "The room is silent for a length of time you have no way of measuring. Then a sound behind you and to the left: small, mechanical, unmistakable — a hammer being drawn back by a hand that is not yours. You turn onto the noise and fire everything you have at it. Glass breaks somewhere high up. Daylight comes into the basement through the broken pane in a narrow grey column, and lands on him.",
       "sceneTitle": "Shot",
       "choices": [
         {
           "text": "Fire",
-          "consequence": "You commit to “Fire.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You empty the magazine at a sound in the dark, and it is the only correct thing to do, and you will hear that click for years.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hold",
-          "consequence": "“Hold” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You almost wait one more half-second to be certain, and half a second is the entire difference between the two of you tonight.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The basement floods with backup. Catherine breathes.",
+      "text": "He is on his back beneath the broken window with his hand still in the glove and the goggles pushed up, breathing in a way that will stop inside a minute. You do not go to him. You go to the cistern, and you tell the woman down there your name and your job and that she is going to be lifted out — and then you say all of it again, because the first time she did not hear you.",
       "sceneTitle": "Light",
       "choices": [
         {
           "text": "Carry her up",
-          "consequence": "You commit to “Carry her up.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You get her out, put your jacket over her, let her keep the dog, and the whole business takes nineteen minutes and a fire crew.",
           "nextNodeId": "s19"
         },
         {
           "text": "Treat the scene",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You back everyone out and preserve the room exactly as it stands, because a defense attorney is being retained in Chicago right now.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You graduate. Crawford shakes your hand.",
+      "text": "The auditorium at Quantico, a hundred and eight of you in new suits, your name read out in the middle of a list. Crawford comes down the row, takes your hand, and says your father would have been pleased — the one sentence he has been carrying since that basement corridor. He holds on half a second too long. Then a woman from Justice wants a photograph, and the noise comes back in.",
       "sceneTitle": "Graduation",
       "choices": [
         {
           "text": "Take the moment",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You let yourself have the applause, the photograph, and one entire afternoon that is not about anybody's basement.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay focused",
-          "consequence": "There is no taking “Stay focused” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You are thinking about a shipping manifest through the whole ceremony, and you will still be thinking about it at the reception.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A phone in your room. 'I do wish we could chat longer.'",
+      "text": "The phone in your room rings during the party, and there is background on the line — an airport, or a hotel bar somewhere with sun in it. He is unhurried. He asks whether the screaming has stopped. He tells you he has no intention of coming for you, that the world is more interesting with you in it, and then he says he has a dinner engagement and would you excuse him.",
       "sceneTitle": "Lecter Calls",
       "choices": [
         {
           "text": "Hang up",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You put the receiver down mid-sentence, which is the only power available to you, and then sit on the bed with your hand still on it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay on",
-          "consequence": "You commit to “Stay on.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You keep him talking for ninety seconds while a Bureau line lights up somewhere, and you learn nothing except the sound of him being happy.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The lambs, when you try to sleep, are quieter.",
+      "text": "Two in the morning, the certificate still in its cardboard tube, the window open because the room is too warm. Somewhere in Montana there is a ranch with a shed on it. Somewhere in Ohio a woman is sleeping through the night with a small dog on the bed. You listen for the sound you have been listening for since you were ten years old. It is fainter. It is not gone.",
       "sceneTitle": "Sleep",
       "choices": [
         {
           "text": "Try to sleep",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You lie down and let it be quiet, and it stays quiet for six hours, which is the longest run you have managed in eighteen years.",
           "nextNodeId": "end_agent"
         },
         {
           "text": "Stay awake reading",
-          "consequence": "The decision settles the question for now. Its verdict—Survive—follows you into whatever comes next.",
+          "consequence": "You read case summaries until the light changes, because the material is easier to be inside than the room is.",
           "nextNodeId": "end_teacher"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You get up, find a pen, and start writing down what happened in that basement while it is still exactly the right shape.",
           "nextNodeId": "end_lecter"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_agent",
-      "text": "You serve, decades, with distinction. Lecter does not come for you. The lambs, eventually, do quiet. You sleep.",
+      "text": "Twenty-six years, four field offices, and a habit of being the last one in the building. He never comes for you. Twice a year for a while a card arrives from a city you have never worked, and then those stop as well. The lambs go quiet gradually, the way a noise you have stopped needing goes — and one October you notice you cannot remember the last time you woke at four and went to the window.",
       "sceneTitle": "Agent Starling",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_teacher",
-      "text": "You move to Quantico as an instructor. You shape a generation. You meet your own students at lunch sometimes, twenty years on, and they call you ma'am.",
+      "text": "You go back to the building with the basement corridor and you teach, which nobody predicted and which turns out to be the work. Twelve years of rooms full of people frightened of being wrong. You teach them to write things down, to distrust the tidy version, to look at what a killer chose rather than what he did. They call you ma'am at forty, and they are still calling you ma'am at sixty-two.",
       "sceneTitle": "Teaching",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_lecter",
-      "text": "A phone rings, decades on. You let it. You realize, late, that some shadows are also, in their way, witnesses to who you became.",
+      "text": "Decades on, a phone rings in a house in Virginia at an hour nobody friendly calls, and you stand in the kitchen and let it run through to a machine that is not switched on. You have stopped needing to know. What you understand, late and unwillingly, is that the two people who saw exactly who you were becoming were a man in a cage and a woman in a hole — and that both of them were right.",
       "sceneTitle": "The Phone, Sometimes",
       "choices": [],
       "isEnding": true,

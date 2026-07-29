@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A peacock fountain and a girl from below at the elevator.",
+      "text": "A peacock fountain and a girl from below at the elevator. The road still runs toward Machine M. Its next turn depends on the difference between choosing “Follow her” and choosing “Stay.” At Machine M, the decision will matter as data as well as intent.",
       "sceneTitle": "Pleasure Gardens",
       "choices": [
         {
           "text": "Follow her",
-          "consequence": "You commit to “Follow her.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to follow her. It carries you toward Machine M, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Polite.",
+          "consequence": "You commit to stay. It carries you toward Machine M, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A whistle, a clock, a worker on a dial-board.",
+      "text": "A whistle, a clock, a worker on a dial-board. The road still runs toward Mary Speaks. Its next turn depends on the difference between choosing “Take his place” and choosing “Watch.” By Mary Speaks, the system will have recorded that choice as precedent.",
       "sceneTitle": "Machine M",
       "choices": [
         {
           "text": "Take his place",
-          "consequence": "There is no taking “Take his place” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You choose to take his place. By Mary Speaks, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Watch",
-          "consequence": "There is no taking “Watch” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to watch. By Mary Speaks, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A woman in the catacombs preaching patience to the workers.",
+      "text": "A woman in the catacombs preaching patience to the workers. Both choices lead to Rotwang's House, but “Listen” arrives there with a different cost than “Question.” At Rotwang's House, the decision will matter as data as well as intent.",
       "sceneTitle": "Mary Speaks",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You listen. The path to Rotwang's House opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Question",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to question. It carries you toward Rotwang's House, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A door with a five-pointed star, a metal woman on a chair.",
+      "text": "A door with a five-pointed star, a metal woman on a chair. Both choices lead to Father at the Desk, but “Knock” arrives there with a different cost than “Watch from the lane.” At Father at the Desk, the decision will matter as data as well as intent.",
       "sceneTitle": "Rotwang's House",
       "choices": [
         {
           "text": "Knock",
-          "consequence": "There is no taking “Knock” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to knock. It carries you toward Father at the Desk, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         },
         {
           "text": "Watch from the lane",
-          "consequence": "You commit to “Watch from the lane.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You choose to watch from the lane. By Father at the Desk, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Joh Fredersen wants to know what was on the dead man's hand.",
+      "text": "Joh Fredersen wants to know what was on the dead man's hand. The road still runs toward Slim. Its next turn depends on the difference between choosing “Tell him” and choosing “Hide it.” At Slim, the decision will matter as data as well as intent.",
       "sceneTitle": "Father at the Desk",
       "choices": [
         {
           "text": "Tell him",
-          "consequence": "You commit to “Tell him.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You tell him. The path to Slim opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s6"
         },
         {
           "text": "Hide it",
-          "consequence": "You commit to “Hide it.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to hide it. By Slim, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A foreman with a notebook and your name in it.",
+      "text": "A foreman with a notebook and your name in it. Both choices lead to Catacombs Sermon, but “Avoid him” arrives there with a different cost than “Confront.” By Catacombs Sermon, the system will have recorded that choice as precedent.",
       "sceneTitle": "Slim",
       "choices": [
         {
           "text": "Avoid him",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You commit to avoid him. It carries you toward Catacombs Sermon, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         },
         {
           "text": "Confront",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to confront. It carries you toward Catacombs Sermon, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A crucifix lit by candles, a story about Babel, a hand raised.",
+      "text": "A crucifix lit by candles, a story about Babel, a hand raised. You cannot avoid Rotwang's Lab; you can only decide whether “Step forward” or “Listen quietly” defines the person who reaches it. In Catacombs Sermon, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Catacombs Sermon",
       "choices": [
         {
           "text": "Step forward",
-          "consequence": "There is no taking “Step forward” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You choose to step forward. By Rotwang's Lab, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Listen quietly",
-          "consequence": "There is no taking “Listen quietly” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You listen quietly. The path to Rotwang's Lab opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Rays of light wrap around Mary's body and step into the metal woman.",
+      "text": "Rays of light wrap around Mary's body and step into the metal woman. False Maria comes either way; its meaning changes with the difference between “Try to stop him” and “Hide.” At False Maria, the decision will matter as data as well as intent.",
       "sceneTitle": "Rotwang's Lab",
       "choices": [
         {
           "text": "Try to stop him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to try to stop him. By False Maria, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Hide",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You commit to hide. It carries you toward False Maria, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A robot in a flesh face dancing at a club for the sons of the rich.",
+      "text": "A robot in a flesh face dancing at a club for the sons of the rich. Sons in Spats is already waiting. What changes is whether “Warn the workers” or “Confront her” is the instinct you carry into it.",
       "sceneTitle": "False Maria",
       "choices": [
         {
           "text": "Warn the workers",
-          "consequence": "There is no taking “Warn the workers” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to warn the workers. It carries you toward Sons in Spats, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Confront her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to confront her. By Sons in Spats, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A duel almost over a doll on a stage.",
+      "text": "A duel almost over a doll on a stage. You cannot avoid Worker Riot; you can only decide whether “Stop it” or “Let them fight” defines the person who reaches it. In Sons in Spats, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Sons in Spats",
       "choices": [
         {
           "text": "Stop it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You stop it. The path to Worker Riot opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         },
         {
           "text": "Let them fight",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to let them fight. It carries you toward Worker Riot, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Hammers up, dial-boards smashed, a city's water mains opening below.",
+      "text": "Hammers up, dial-boards smashed, a city's water mains opening below. Both choices lead to Rising Water, but “Run to the children's lobby” arrives there with a different cost than “Argue with Maria.” In Worker Riot, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Worker Riot",
       "choices": [
         {
           "text": "Run to the children's lobby",
-          "consequence": "There is no taking “Run to the children's lobby” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to run to the children's lobby. It carries you toward Rising Water, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         },
         {
           "text": "Argue with Maria",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to argue with Maria. By Rising Water, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Sea green up the steps, children clinging to a column.",
+      "text": "Sea green up the steps, children clinging to a column. The road still runs toward Maria, Real. Its next turn depends on the difference between choosing “Carry them” and choosing “Find a boat.” By Maria, Real, the system will have recorded that choice as precedent.",
       "sceneTitle": "Rising Water",
       "choices": [
         {
           "text": "Carry them",
-          "consequence": "“Carry them” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You choose to carry them. By Maria, Real, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Find a boat",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You commit to find a boat. It carries you toward Maria, Real, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "She is in the upper city alone in a courtyard with a torch and a crowd hunting her.",
+      "text": "She is in the upper city alone in a courtyard with a torch and a crowd hunting her. Pyre is already waiting. What changes is whether “Stand with her” or “Hide her” is the instinct you carry into it.",
       "sceneTitle": "Maria, Real",
       "choices": [
         {
           "text": "Stand with her",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You stand with her. The path to Pyre opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Hide her",
-          "consequence": "There is no taking “Hide her” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hide her. By Pyre, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A robot tied to a stake and a hundred workers cheering before they realize who is in the metal.",
+      "text": "A robot tied to a stake and a hundred workers cheering before they realize who is in the metal. Cathedral Roof will follow either decision, but it will meet a different version of you after “Pull the cloth” than after “Watch.”",
       "sceneTitle": "Pyre",
       "choices": [
         {
           "text": "Pull the cloth",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to pull the cloth. By Cathedral Roof, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Watch",
-          "consequence": "You commit to “Watch.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to watch. It carries you toward Cathedral Roof, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A bell tower, Rotwang at your back, Maria over the city.",
+      "text": "A bell tower, Rotwang at your back, Maria over the city. You cannot avoid Joh in the Square; you can only decide whether “Climb” or “Wait” defines the person who reaches it. In Cathedral Roof, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Cathedral Roof",
       "choices": [
         {
           "text": "Climb",
-          "consequence": "You commit to “Climb.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You climb. The path to Joh in the Square opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You choose to wait. By Joh in the Square, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "The owner of Metropolis on the cobbles with a crowd that is not his.",
+      "text": "The owner of Metropolis on the cobbles with a crowd that is not his. Grot the Foreman comes either way; its meaning changes with the difference between “Speak to him” and “Hold the foreman.” By Grot the Foreman, the system will have recorded that choice as precedent.",
       "sceneTitle": "Joh in the Square",
       "choices": [
         {
           "text": "Speak to him",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You speak to him. The path to Grot the Foreman opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hold the foreman",
-          "consequence": "There is no taking “Hold the foreman” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You hold the foreman. The path to Grot the Foreman opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "He wants a culprit. He has names in mind.",
+      "text": "He wants a culprit. He has names in mind. Both choices lead to Joh's Son, Freder, but “Calm him” arrives there with a different cost than “Hand him names.” By Joh's Son, Freder, the system will have recorded that choice as precedent.",
       "sceneTitle": "Grot the Foreman",
       "choices": [
         {
           "text": "Calm him",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You calm him. The path to Joh's Son, Freder opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hand him names",
-          "consequence": "You commit to “Hand him names.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You hand him names. The path to Joh's Son, Freder opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "He has been ill in bed and he steps forward in white linen.",
+      "text": "He has been ill in bed and he steps forward in white linen. You cannot avoid Mary's Words; you can only decide whether “Stand with him” or “Bow” defines the person who reaches it. At Mary's Words, the decision will matter as data as well as intent.",
       "sceneTitle": "Joh's Son, Freder",
       "choices": [
         {
           "text": "Stand with him",
-          "consequence": "You commit to “Stand with him.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to stand with him. By Mary's Words, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Bow",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You commit to bow. It carries you toward Mary's Words, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Mediator between head and hands must be the heart.",
+      "text": "Mediator between head and hands must be the heart. Foreman and Owner comes either way; its meaning changes with the difference between “Repeat them” and “Translate them.” In Mary's Words, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Mary's Words",
       "choices": [
         {
           "text": "Repeat them",
-          "consequence": "There is no taking “Repeat them” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to repeat them. By Foreman and Owner, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Translate them",
-          "consequence": "You commit to “Translate them.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You choose to translate them. By Foreman and Owner, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A handshake at the cathedral steps that the camera holds for a long time.",
+      "text": "A handshake at the cathedral steps that the camera holds for a long time. Both choices lead to Dawn, but “Place Freder's hand between” arrives there with a different cost than “Step back.” In Foreman and Owner, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Foreman and Owner",
       "choices": [
         {
           "text": "Place Freder's hand between",
-          "consequence": "“Place Freder's hand between” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You place Freder's hand between. The path to Dawn opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         },
         {
           "text": "Step back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to step back. It carries you toward Dawn, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Sun on the towers, a city that has stopped flooding, a small calm.",
+      "text": "Sun on the towers, a city that has stopped flooding, a small calm. “Breathe” opens the route to Hand on Hand on Hand. “Get to work” changes the terms and carries you toward Lobby of the Saved. A third choice, “Take the third path,” keeps Catacombs Empty in play.",
       "sceneTitle": "Dawn",
       "choices": [
         {
           "text": "Breathe",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You breathe. The path to Hand on Hand on Hand opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_handshake"
         },
         {
           "text": "Get to work",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to get to work. It carries you toward Lobby of the Saved, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_children"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Catacombs Empty, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_handshake",
-      "text": "The owner and the foreman take each other's hands with a son between them and the city, briefly, learns a new manner of being a city.",
+      "text": "The owner and the foreman take each other's hands with a son between them and the city, briefly, learns a new manner of being a city. The road into Hand on Hand on Hand began with “Breathe” in Dawn; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Hand on Hand on Hand",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_children",
-      "text": "You stand in a soaked lobby with children at your knees and a woman across the room who is also you, somehow, and you all breathe.",
+      "text": "You stand in a soaked lobby with children at your knees and a woman across the room who is also you, somehow, and you all breathe. The road into Lobby of the Saved began with “Get to work” in Dawn; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Lobby of the Saved",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You return to the candles and the crucifix alone and you sit there a long time, and you do not preach to anyone, and that is also a kind of answer.",
+      "text": "You return to the candles and the crucifix alone and you sit there a long time, and you do not preach to anyone, and that is also a kind of answer. The road into Catacombs Empty began with “Take the third path” in Dawn; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Catacombs Empty",
       "choices": [],
       "isEnding": true,

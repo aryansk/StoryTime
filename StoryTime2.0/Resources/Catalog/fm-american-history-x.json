@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A teacher who asks for a paper on a book you would not have chosen.",
+      "text": "Murray hands back the reading list and there's a title on it you didn't pick, by an author whose photograph is taped inside the cover. Eight pages by Friday. You sit at the back with your arms folded and the book unopened on the desk, and what you feel isn't disagreement yet. It's that someone is asking you to change your mind in public.",
       "sceneTitle": "Murray's Class",
       "choices": [
         {
           "text": "Write the paper",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You write it in one sitting, angry, and it's good, and Murray puts \"more of this\" in the margin. You never show anyone the grade.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You hand in three sentences about how nobody gets to assign you a conscience. Murray reads them twice and doesn't hand them back.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A monologue in the kitchen that becomes an inheritance.",
+      "text": "Your father asks what you're reading and you tell him, and he sets down his fork. He doesn't shout. He talks about shift rosters, about who got hired ahead of who, about a city that stopped being his, and then wraps all of it around a smaller, uglier idea and hands it to you like a tool. You're fourteen. He is the smartest man in the room.",
       "sceneTitle": "Dad's Dinner Table",
       "choices": [
         {
           "text": "Listen quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Doubt—follows you into whatever comes next.",
+          "consequence": "You don't argue. You memorize his cadence instead — the pauses, the way he makes contempt sound like common sense. Years later you'll hear yourself using it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Agree loudly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lost.",
+          "consequence": "You say yes before he's finished, twice, and watch his face open. Being agreed with is the only thing he has ever asked of you.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A father in a uniform shot at a call in a neighborhood he did not respect.",
+      "text": "The call came from an address he'd complained about at that same table. He went in anyway, because that was the job, and someone put a round through the doorway and there is still no name. At the station they hand you his helmet in a plastic sack. It smells like smoke and hair oil. Everyone tells you he was a hero and nobody tells you anything true.",
       "sceneTitle": "Fire House",
       "choices": [
         {
           "text": "Grieve",
-          "consequence": "You commit to “Grieve.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You cry in the truck with the windows up so Danny can't see, then drive him to school and say nothing the whole way.",
           "nextNodeId": "s4"
         },
         {
           "text": "Blame",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Lost.",
+          "consequence": "By the wake you have a story that explains everything, and it's simple, and it doesn't require you to miss him. Grief costs more than rage.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Three men, a window broken, a boot at the curb.",
+      "text": "Two in the morning: glass across the driveway, the truck window starred and sagging, three men in the street who came for it. Danny is at the window in his shirt. You come out with a pistol and the whole block goes quiet. One of them ends up on his knees with his teeth against the curb, and you can hear yourself breathing, and your brother is still watching.",
       "sceneTitle": "Truck on the Curb",
       "choices": [
         {
           "text": "Walk away",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You lower the gun and your hands won't stop. The men run. You sit on the step until sunrise doing arithmetic on what almost happened.",
           "nextNodeId": "s5"
         },
         {
           "text": "Press the foot down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You do it because Danny is watching, which is the worst reason there has ever been for anything. The sound is small. You will hear it for years.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Three years, a wife crying, a brother in the back row.",
+      "text": "Voluntary manslaughter. Three years, and the judge says the number like she's reading out a delivery time. Behind you someone is crying into a sleeve, trying to do it silently. Danny is in the back row wearing your jacket with the cuffs turned twice, and his face isn't frightened. That's the problem. His face looks like he is watching a man win something.",
       "sceneTitle": "Sentencing",
       "choices": [
         {
           "text": "Look at him",
-          "consequence": "There is no taking “Look at him” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You hold your brother's eyes across the courtroom and try to put a warning in yours. He reads it as a salute.",
           "nextNodeId": "s6"
         },
         {
           "text": "Look away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You study the woodgrain of the table until the bailiff moves you. Danny will spend three years deciding what your turned head meant, and he'll guess wrong.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Lamont with a half-grin and a sock joke.",
+      "text": "Laundry detail: hot air, industrial soap, a man named Lamont who talks the entire shift whether you answer or not. He has a running theory about where the missing socks go and it involves a federal agency and it is, against everything, funny. He holds up one grey sock like evidence in a trial. Nobody has made you want to laugh in four months.",
       "sceneTitle": "Laundry",
       "choices": [
         {
           "text": "Laugh",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "It gets out of you before you can stop it, and Lamont grins like he won a bet with himself. You feel like you've broken a rule you agreed to.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay cold",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You keep folding. He keeps talking anyway, to the dryers, to the air, and doesn't hold your silence against you, which is somehow worse.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Two men in the steam with a smile that is not a smile.",
+      "text": "Steam, tile, the drain gargling. Two men you nodded to yesterday are between you and the door and one of them is smiling in a way that has nothing to do with his eyes. You know what this is. You have exactly one breath in which to decide, and your body has already picked, and the guard's boots are somewhere far down the corridor going the other way.",
       "sceneTitle": "Shower",
       "choices": [
         {
           "text": "Fight",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You get one good hit in and then the tile comes up to meet you. Afterward, in the infirmary, nobody asks and you don't say.",
           "nextNodeId": "s8"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You go for the gap and don't make it. What they take isn't the beating; it's the last version of yourself you were still defending.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "An Aryan brotherhood that wants you to nod.",
+      "text": "There's a bench by the fence where the shirts come off in October and the ink does the talking. They've heard about you. They want a nod, nothing more, and a nod is a signature. Up close they aren't soldiers. They're a bookmaking operation in a costume, and the man running it keeps checking whether the guards are looking. The whole yard is waiting to see where you sit.",
       "sceneTitle": "Yard",
       "choices": [
         {
           "text": "Sit alone",
-          "consequence": "You commit to “Sit alone.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You take the end of an empty bench and eat with your back to the fence. Isolation is currency here, and you spend three years of it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Sit with them",
-          "consequence": "There is no taking “Sit with them” back. Tempted shapes the silence before the next moment arrives.",
+          "consequence": "You sit, the nod happens, and it costs nothing that day. Inside a month you're carrying things across the yard for men you don't respect.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "He covered for you in the laundry without a reason.",
+      "text": "You find out sideways that Lamont told the sergeant you were on the far machines when the count came up wrong, and that it wasn't true, and that he had no reason. He's in the corridor with a mop bucket now, and he clocks you looking, and he doesn't make it easy. He just stands there wringing the mop, letting you be the one who has to speak first.",
       "sceneTitle": "Lamont in the Hallway",
       "choices": [
         {
           "text": "Thank him",
-          "consequence": "You commit to “Thank him.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "Two words, badly said. He shrugs, tells you not to make it a thing, and goes back to the socks. He lets you off.",
           "nextNodeId": "s10"
         },
         {
           "text": "Pretend it didn't happen",
-          "consequence": "There is no taking “Pretend it didn't happen” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You walk past. He doesn't chase it. That night you lie on the bunk building an argument for why you owe him nothing, and it keeps collapsing.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Murray writes weekly. The handwriting is patient.",
+      "text": "Every Tuesday a plain envelope: two paragraphs about a book, one question, no lecture. He never mentions the curb. He never asks how you are, which is how you know he already knows. The handwriting slopes and the pen presses hard on the question mark, like a man willing to wait a year for an answer. Nine letters go under the mattress before you touch one.",
       "sceneTitle": "Letters",
       "choices": [
         {
           "text": "Write back",
-          "consequence": "“Write back” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You answer the question about the book and nothing else — four lines, no greeting. His next letter arrives Tuesday, longer, as if you'd written pages.",
           "nextNodeId": "s11"
         },
         {
           "text": "Burn them",
-          "consequence": "You commit to “Burn them.” The story records the instinct as “Pride” and carries it forward.",
+          "consequence": "There's no fire in here, so you tear them small and flush them, and still remember every question. Destroying a thing is not the same as answering it.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Mother in a coat that doesn't fit, sister in heels too high.",
+      "text": "Your mother comes in a coat borrowed off a neighbor, sleeves past her knuckles, lipstick on for a room with vending machines in it. Davina is in heels she can't walk in and won't sit down. Doris has a list of subjects to avoid and gets four minutes in before the coughing starts. She's been sick since March and told nobody. You have twenty minutes.",
       "sceneTitle": "Visit from Doris",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You apologize for one specific thing rather than everything, and your mother's hands come apart in her lap. Davina looks out the window and lets you have it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Bristle",
-          "consequence": "You commit to “Bristle.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You hear a question in her voice that isn't there and snap, and the rest is weather and cousins. She waves from the doorway anyway.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Frederick Douglass left on a cot in a stack.",
+      "text": "Three books appear on your bunk with a library slip and no note, and the one on top is Douglass. You leave them a week. You move them to the floor. You move them back. On a Sunday with nothing in it you open the middle one anywhere and read a paragraph about a man deciding what he intends to be, and you have to put it down.",
       "sceneTitle": "Library Books",
       "choices": [
         {
           "text": "Read",
-          "consequence": "You commit to “Read.” The story records the instinct as “Curious” and carries it forward.",
+          "consequence": "You finish it over two nights by the light from the corridor and tell nobody, because who would you tell, and what would you have to admit.",
           "nextNodeId": "s13"
         },
         {
           "text": "Push aside",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You shove them under the bunk. They're still there in the morning, and the morning after, patient as Tuesday envelopes.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A bus from upstate, a bag with a notebook, a brother on a curb.",
+      "text": "The bus takes six hours and smells like wet coat. Everything you own is in a paper sack: a toothbrush, forty-one dollars, a notebook with your handwriting getting smaller toward the end. Danny is on the curb outside the depot, taller than the arithmetic said, head shaved, and he's wearing a look you last saw in a courtroom. He is grinning at you like you came home a champion.",
       "sceneTitle": "Release",
       "choices": [
         {
           "text": "Embrace him",
-          "consequence": "There is no taking “Embrace him” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You hold on longer than either of you expected and feel how much bone there is now. Over his shoulder you're already counting what has to be undone.",
           "nextNodeId": "s14"
         },
         {
           "text": "Lecture him",
-          "consequence": "You commit to “Lecture him.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You start in on the haircut before the bag is down. His face closes like a door. First hour home and you've taught him you came back a stranger.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "An old mentor with the same speech and a softer chair.",
+      "text": "Cameron has put in new carpet with your absence. He's got a boy of sixteen refilling his glass and another on the porch, and he greets you like a returning investment. The speech hasn't changed in three years — not one line — and hearing it twice is what ruins it. He isn't a believer. He's a man who needs angry teenagers and has found himself a reliable supply.",
       "sceneTitle": "Cameron in the Living Room",
       "choices": [
         {
           "text": "Walk out",
-          "consequence": "“Walk out” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You leave mid-sentence and the room goes quiet behind you. It's the first door you've closed since getting out that actually stayed closed.",
           "nextNodeId": "s15"
         },
         {
           "text": "Sit down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tempted.",
+          "consequence": "You sit because it's easier than explaining, and he reads it as loyalty, and by the time you stand up he has told two people you're back.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A draft on a kitchen table about his big brother as a hero.",
+      "text": "You find it under the sugar bowl at one in the morning. Twelve pages, double-spaced, your name in the title. He has written you as a man who saw clearly and paid for it. He has quoted your father's kitchen speech from memory and got it word-perfect, which means he heard it from you. In the margin, in Murray's hand: rewrite this. See me.",
       "sceneTitle": "Danny's Paper",
       "choices": [
         {
           "text": "Read it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You read all twelve pages standing up, and the worst part is how well he writes. Every good sentence is aimed at a target you handed him.",
           "nextNodeId": "s16"
         },
         {
           "text": "Rip it",
-          "consequence": "“Rip it” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You tear it in half before you've thought, and then you're on the kitchen floor at two a.m. taping a fifteen-year-old's homework back together.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Tattoos, lights, the truth said into a small room at midnight.",
+      "text": "You take your shirt off under the bedroom light and let him look at all of it — the ink, the scar under the ribs, the piece on your chest you can't afford to have removed. Then you tell him about the shower, and the yard, and Lamont, and what it actually cost, keeping your voice level, because the second it shakes he stops listening. He says nothing for a long time.",
       "sceneTitle": "Bedroom Confession",
       "choices": [
         {
           "text": "Tell him everything",
-          "consequence": "You commit to “Tell him everything.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You give him the parts that make you small, including the ones you'd rather he never held. He goes to bed knowing his brother isn't a hero, and stays.",
           "nextNodeId": "s17"
         },
         {
           "text": "Tell him part",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You leave out the shower. It's the kindest edit you have and it is still a lie, and lies are how the two of you got here.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "The teacher with a long, polite memory.",
+      "text": "Murray is on the step at eight in the morning holding Danny's twelve pages, and he doesn't come in. He mentions, without emphasis, that he wrote you thirty-one letters. He can fail the paper, or he can set a new one tonight on a subject Danny picks himself. He wants to know whether you'll stand behind that at the kitchen table. He isn't asking you to be sorry.",
       "sceneTitle": "Murray at the Door",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You let him say all of it on the doorstep without defending yourself once. It takes four minutes and they are the hardest four minutes of the week.",
           "nextNodeId": "s18"
         },
         {
           "text": "Slam the door",
-          "consequence": "There is no taking “Slam the door” back. Pride shapes the silence before the next moment arrives.",
+          "consequence": "You shut it mid-sentence and stand in the hall with your hand still flat on the wood, listening to him not knock again.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A summer game whose score did not matter and a friend who is gone.",
+      "text": "The court on Venice has a bent rim now. You remember a July when it was full and nobody kept score properly and a kid called Ruben with a terrible jump shot made everybody laugh for an entire afternoon. That was before. Ruben's family left the state the same summer your father died, and you know exactly why, and you were part of the reason they went.",
       "sceneTitle": "Basketball Court Memory",
       "choices": [
         {
           "text": "Hold the loss",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You stand at the fence until your hands hurt from the wire. Some things you don't get to fix; you only get to stop calling them nothing.",
           "nextNodeId": "s19"
         },
         {
           "text": "Walk past",
-          "consequence": "“Walk past” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You keep moving and let the court stay a court. The forgetting works for about a block, and then it doesn't.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Cameron's lookouts watching for a new soldier.",
+      "text": "Three of them outside the market on the corner, seventeen at most, one with a phone and the other two with nothing to do. They straighten up when they see you. They have been told a story about you and they are standing inside it. One has a little brother's face, round, unfinished, and he is watching the door for somebody Cameron told him to watch for. That somebody is Danny.",
       "sceneTitle": "Crew Outside the Store",
       "choices": [
         {
           "text": "Cross the street",
-          "consequence": "You commit to “Cross the street.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You take the far sidewalk and feel every step of it. Refusing to be their proof costs you nothing today and buys Danny maybe a week.",
           "nextNodeId": "s20"
         },
         {
           "text": "Confront them",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You get in the round-faced one's chest and watch fear turn into a story he'll be telling by lunch. You have just made yourself legendary again.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A kid from a school you once owned with a small pistol.",
+      "text": "This one isn't yours to be inside, and you're inside it anyway, because you will rebuild it a thousand times. Second-floor bathroom, first period, a tap running. A boy from yesterday's hallway is by the sinks with his hand in his jacket and the hand is shaking, and he is fifteen too, and neither of them has any idea how to stop this now that it has started.",
       "sceneTitle": "Bathroom Stall",
       "choices": [
         {
           "text": "Don't fight",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "He puts his hands where they can be seen and says something almost kind. It doesn't matter. A shaking hand does what shaking hands do.",
           "nextNodeId": "s21"
         },
         {
           "text": "Reach for it",
-          "consequence": "“Reach for it” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "He grabs for the wrist and the room goes very loud and very small. Two boys, one bad second, and everything either of them might have been.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Sirens far off, a brother in your arms, a quiet street that has finally arrived.",
+      "text": "Somebody runs for a phone. You reach him on the tile and then somehow you're outside on the school steps with him across your lap and your shirt doing nothing at all. Sirens, somewhere, still far off. The street is finally as quiet as your father used to say he wanted it. His weight in your arms is exactly the weight of a boy who was going to rewrite a paper.",
       "sceneTitle": "Steps",
       "choices": [
         {
           "text": "Hold him",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You don't let go when they tell you to, and then you do, because he isn't in there any more. Somebody is going to have to call your mother.",
           "nextNodeId": "end_paper"
         },
         {
           "text": "Stand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lost.",
+          "consequence": "You get up, because standing is the thing you know how to do, and there is nobody left in this street to fight. Your hands are red and empty.",
           "nextNodeId": "end_school"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You decide nothing on those steps. You just start counting the hours until you have to be a person again, and the counting is the only prayer you've got.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_paper",
-      "text": "Murray reads the rewritten paper at a funeral. The room is full and the words are about a brother and a smile and a curb that should not have happened.",
+      "text": "Murray reads it at the funeral because you asked him to and then couldn't stand up. It's the rewrite — Danny chose his own subject in the end, and the subject was a brother, and a sock joke he'd heard secondhand, and a curb. He is more generous in it than the facts allow. The church is full. When Murray reaches the last page he has to stop, and the room waits for him.",
       "sceneTitle": "The Last Page",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_school",
-      "text": "You sit in the seat your brother used. You raise your hand a lot. The class learns to listen to you because you have, finally, listened back.",
+      "text": "You take Danny's desk in second-period English, a grown man among fifteen-year-olds, and you keep your hand up. You are wrong out loud, often, and you let it happen. It takes most of a semester before the room stops treating you like weather. Murray never once says he told you so. On the last day he hands you a reading list and doesn't say what for.",
       "sceneTitle": "Murray's Class, Front Row",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "Your mother holds your hand on a sagging step at sunset. Neither of you speaks. The neighbors do not yet trust you. You do not blame them.",
+      "text": "Your mother's step sags on the left and neither of you fixes it. You sit out there at six most evenings while the light goes orange over the roofs, her hand in yours, her breathing bad, almost nothing said. The woman across the street still takes her kids inside when you come out. You would do the same. You come out anyway, and one evening in August she doesn't.",
       "sceneTitle": "Doris on the Porch",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A list of names, four photos, a forced contract.",
+      "text": "Bryant's office smells of old paper and cigarettes and he does not offer you a chair. Four came in on a stolen shuttle: a combat model, a pleasure model, a labourer with nine years of memory, and the one who leads them. The photographs are grey and useless. He explains, without ever raising his voice, that you are either a man doing this work or a man with a file.",
       "sceneTitle": "Bryant's Office",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You take the file because the alternative is being nobody in a city that logs everybody, and he pours you a drink you do not want.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You say no twice, and he waits, and you understand that the conversation was never actually two-sided.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "An owl on a perch and a woman with a green gaze.",
+      "text": "The lift climbs out of the smog into sunlight that somebody is paying for, and the office is a temple with dust turning slowly in the light. An owl crosses the room and settles on a perch, and its eyes catch the sun wrong. Tyrell wants the machine run on a human first, for calibration. The woman who sits down opposite you is very composed and does not blink enough.",
       "sceneTitle": "Tyrell Corp",
       "choices": [
         {
           "text": "Test her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You set up the apparatus on the table, level the bellows, and start asking a stranger about a tortoise on its back in the desert.",
           "nextNodeId": "s3"
         },
         {
           "text": "Skip the test",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You tell him you will take his word for it, and he smiles, and you have just failed a test you did not know was running.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "She does not know that she is one of them.",
+      "text": "A hundred questions in, the needle still has not settled. Twenty or thirty is usually enough. Her iris floats in the eyepiece, the bellows breathes in and out, and she asks whether you have ever run the machine on yourself. Afterwards Tyrell explains it in the corridor: implanted memories, a niece's childhood spooled in at manufacture, so that the feelings have something underneath to grip.",
       "sceneTitle": "Rachael",
       "choices": [
         {
           "text": "Tell her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You put it plainly, in a corridor, in daylight — the aunt, the spider, the recordings — and watch a person come apart standing up.",
           "nextNodeId": "s4"
         },
         {
           "text": "Conceal it",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You let her go on thinking she was born, and file the result, and the omission sits in your stomach for a week.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "An aquarium in Chinatown, a clue under a microscope.",
+      "text": "Leon's room at the hotel has a photograph of a room, a bath with grey water standing in it, and one scale the size of a fingernail caught in the drain. Under the scope there is a serial number pressed into it: maker, batch, licence. Nothing in this city is born. Everything carries a stamp somewhere on its body, if you are willing to go to a high enough magnification.",
       "sceneTitle": "Snake Scale",
       "choices": [
         {
           "text": "Press the shopkeeper",
-          "consequence": "You commit to “Press the shopkeeper.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You lean on a man behind a counter until he gives you the batch and the buyer, and he hates you accurately and gives you both.",
           "nextNodeId": "s5"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You sit in the noodle queue in the rain for two hours letting the number work its way through the market on its own.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A snake artist named Abdul Ben Hassan.",
+      "text": "Animoid Row is wet neon and cages: ostriches, mechanical fish turning in tanks, a man haggling over something that used to be a horse. Abdul Ben Hassan has a jeweller's hands and no use for police. He knows the scale, the batch, and who paid cash. He also knows what tends to happen to a shopkeeper who talks, and you watch that arithmetic cross his face while he talks.",
       "sceneTitle": "Animoid Row",
       "choices": [
         {
           "text": "Threaten him",
-          "consequence": "You commit to “Threaten him.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You put your badge on the counter and let him imagine the rest, which is cheaper than saying it and works just as well.",
           "nextNodeId": "s6"
         },
         {
           "text": "Bribe him",
-          "consequence": "You commit to “Bribe him.” The story records the instinct as “Practical” and carries it forward.",
+          "consequence": "You buy something small and useless from him first, at his price, and he tells you more than the threat would have bought.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Zhora dancing with a transparent python.",
+      "text": "The club is smoke and a badly translated torch song. Behind the glass, Zhora dances with a snake across her shoulders for a room of men who paid to stand near it. You go backstage with a story about the union, decency standards, unauthorised exhibition, and she takes her eye makeup off in the mirror and watches your reflection do all of the lying.",
       "sceneTitle": "Taffey Lewis Club",
       "choices": [
         {
           "text": "Confront her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bold.",
+          "consequence": "You keep talking until she puts the towel down, and the moment she moves you know she made you three questions ago.",
           "nextNodeId": "s7"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You stand in the doorway saying nothing while she dresses, and the silence gives her exactly the head start she needs.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Glass on glass on glass, a coat in a hundred panes.",
+      "text": "She goes through the stage door into the street in a transparent coat with rain sliding off it, and the crowd swallows her. Neon, umbrellas, sirens over everything. She puts three shop windows between you at a flat sprint. You fire twice through moving glass and the whole street turns into falling panes, and a woman goes down through a display of mannequins that keep on smiling.",
       "sceneTitle": "Chase",
       "choices": [
         {
           "text": "Shoot",
-          "consequence": "You commit to “Shoot.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You take the shot in a crowded street through two sheets of glass, and it works, and you throw up in a doorway afterwards.",
           "nextNodeId": "s8"
         },
         {
           "text": "Pursue further",
-          "consequence": "There is no taking “Pursue further” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You keep running instead and lose her in an arcade, and she comes back around the block at you with a length of pipe.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A big man with a bigger grief in an alley.",
+      "text": "He arrives out of the crowd behind you and the pavement comes up fast. He is enormous and he is crying. He wants to know exactly how long he has left, and he has just watched a woman he knew go down through a window with two rounds in her back. Your gun is in a puddle a metre away, and his thumbs are finding your eye sockets.",
       "sceneTitle": "Leon's Anger",
       "choices": [
         {
           "text": "Shoot him",
-          "consequence": "The decision settles the question for now. Its verdict—Final—follows you into whatever comes next.",
+          "consequence": "Somebody else's gun goes off twice and he comes apart on top of you, and you lie under him breathing and looking at the rain.",
           "nextNodeId": "s9"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You get one hand free, get a knee down, and run six steps before your legs remember they were recently underneath a very large man.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Photographs, memories, a piano cover at home.",
+      "text": "She is on your landing with the rain still in her hair, no longer pretending anything. Her photographs have stopped working: a woman on a porch, a girl in a hat, all of it printed in a batch. She sits at your piano and plays badly and says she is no longer sure the lessons were hers. You tell her a small kind lie about her file.",
       "sceneTitle": "Rachael in the Doorway",
       "choices": [
         {
           "text": "Hold her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You take hold of her at the door and neither of you is entirely sure which of you is being comforted for what.",
           "nextNodeId": "s10"
         },
         {
           "text": "Send her away",
-          "consequence": "There is no taking “Send her away” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You put her out in the corridor for her own sake and stand on the other side of the door listening to her not leave.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A toymaker with sped-up genes and a roomful of friends.",
+      "text": "The Bradbury is empty and cathedral-sized, and Sebastian lives in it with what he builds: a soldier that salutes, a bear that bows, a roomful of voices talking over each other in the cold. He is twenty-five and his hands are seventy — accelerated decrepitude, factory-standard, no fix available. He is thrilled to have visitors. Two of them are already sitting in his kitchen.",
       "sceneTitle": "Sebastian",
       "choices": [
         {
           "text": "Use him",
-          "consequence": "“Use him” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You work him gently for the lift codes and the floor plan, and he answers everything, because nobody ever asks him anything.",
           "nextNodeId": "s11"
         },
         {
           "text": "Be kind",
-          "consequence": "There is no taking “Be kind” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You let him show you the toys first, all of them, one at a time, and he is happier for an hour than he has been in months.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "An audience with the maker of all this trouble.",
+      "text": "Roy rides up through the building in Sebastian's lift, past guards who would shoot him on sight, because the old man loves chess and Sebastian has never once beaten him. He wants more time. Four years is the design life and his four are almost spent. The maker explains the biology kindly, patiently, in detail: every method they tried killed the patient faster than the clock did.",
       "sceneTitle": "Tyrell at the Top",
       "choices": [
         {
           "text": "Stand back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You are still in the lobby with a wet coat and a badge when the floor indicator above you stops climbing.",
           "nextNodeId": "s12"
         },
         {
           "text": "Step forward",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You get into the lift and ride up into a conversation you have no standing in, arriving roughly four minutes too late for any of it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Roy presses his thumbs into a god's eyes.",
+      "text": "The old man puts a hand on his shoulder, calls him something affectionate, and means every word of it, and it changes nothing. The thumbs go in slowly. There is no speed in it anywhere. Sebastian stands in the doorway watching the man who designed him being killed by a man he designed, and then the lift goes down a very long way with two people in it.",
       "sceneTitle": "Eyes",
       "choices": [
         {
           "text": "Look away",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You look at the floor and hear it instead, which turns out to be worse, and which you will keep hearing at odd hours.",
           "nextNodeId": "s13"
         },
         {
           "text": "Watch",
-          "consequence": "You commit to “Watch.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You make yourself watch the whole thing, because somebody in this building ought to be a witness rather than an accessory.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Sebastian's keepsakes, a long staircase up to the rooftop.",
+      "text": "Sebastian's flat smells of dust and machine oil, and the toys are still moving in the dark, saluting nobody. A staircase runs up through the middle of the building, slick with rain coming in through the roof, coiling around an open shaft. Backup in this district runs about forty minutes on a quiet night. Somewhere above you, something under a dust sheet has been waiting for hours.",
       "sceneTitle": "Bradbury Apartment",
       "choices": [
         {
           "text": "Climb",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You start up the wet stairs with your gun low and your heart going, and the toys applaud you from the floor behind.",
           "nextNodeId": "s14"
         },
         {
           "text": "Wait for backup",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You radio it in and sit in the dark counting minutes, and every one of them is a minute somebody upstairs also gets to use.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A doll with a smile and a leap from a doorway.",
+      "text": "She is sitting motionless among the dolls with a veil over her face, painted the way they are painted, and you walk past her twice. Then your head is locked between her thighs, the ceiling is going round, and your nose breaks against a table edge. She is combat-rated, doing gymnastics in a stairwell, screaming. Your gun is on the floor two metres from your right hand.",
       "sceneTitle": "Pris",
       "choices": [
         {
           "text": "Fight her",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You get to the gun with your face full of blood and finish it on the floor of a toymaker's living room.",
           "nextNodeId": "s15"
         },
         {
           "text": "Talk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You try talking to a machine built for close work while it is throwing you into furniture, which lasts about four seconds.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "He has a nail through his palm to keep his hand from dying.",
+      "text": "He comes down when the noise stops, unhurried. His right hand is closing on him — the fingers curling and staying curled — so he drives a nail through the palm, because pain keeps a dying limb answering a while longer. He picks up your gun, looks at it, and hands it back to you butt first. He does not want an execution. He wants a hunt with two people in it.",
       "sceneTitle": "Roy on the Stair",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You take the gun and run, which is what he wanted, and you can hear him laughing somewhere behind the wall.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stay where you are with two broken fingers and no plan, and he sets them for you, one at a time, slowly.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A long fall over the city.",
+      "text": "Up through the wet dark, out onto the roof, into rain coming sideways off the towers. He is howling somewhere behind you, half of it in a language you do not have. The next building is four metres away across a drop that goes down further than the light reaches, and you are running on a leg that has stopped taking instructions.",
       "sceneTitle": "Rooftop Edge",
       "choices": [
         {
           "text": "Jump for the next building",
-          "consequence": "“Jump for the next building” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You jump anyway with two ruined fingers, and get one hand and no arm on the far girder, and the rain does the rest.",
           "nextNodeId": "s17"
         },
         {
           "text": "Hang",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Desperate.",
+          "consequence": "You stop at the parapet and turn round to face him, and he stops too, genuinely interested in what you plan to do next.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "He pulls you up over the edge by your wrist.",
+      "text": "Your fingers hook a girder and the rain turns the metal into a joke. The city carries on beneath your shoes, all circuitry and steam, wholly uninterested. He crouches on the parapet with the nail still through his palm and watches your grip give. Then he reaches down, takes your wrist in the ruined hand, and lifts you over the edge onto the gravel.",
       "sceneTitle": "Roy's Hand",
       "choices": [
         {
           "text": "Thank him",
-          "consequence": "“Thank him” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You say thank you to a man you were paid to retire, out loud, on a roof, and neither of you knows what to do with it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay silent",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You lie on the gravel and say nothing at all, and he does not appear to need anything from you, which is worse.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A small white bird in his palm in the rain.",
+      "text": "He sits back against a vent with a white bird held loose in one hand, not looking at you. Rain runs off his chin and into his collar. He starts describing things he has seen that no one in this city will ever be able to look up: ships burning somewhere past the shipping lanes, light behaving in ways it does not behave down here.",
       "sceneTitle": "Dove",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "“Listen” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You sit on wet gravel with a broken hand and listen to a dying man describe a sky you will never be cleared to see.",
           "nextNodeId": "s19"
         },
         {
           "text": "Move",
-          "consequence": "You commit to “Move.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You shift your weight toward the gun and he notices, and goes on talking anyway, which ends the argument about who you are.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "All those moments will be lost.",
+      "text": "It goes out of him quietly, without ceremony, while the rain keeps arriving. Everything he saw out there existed in exactly one place, and that place has just stopped. Nobody will file it. Nobody is even coming up here for another twenty minutes. His head goes down against his chest, his hand opens, and the bird gets up off the roof and climbs into the wet air.",
       "sceneTitle": "Tears in Rain",
       "choices": [
         {
           "text": "Be still",
-          "consequence": "“Be still” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You stay on your knees in the rain long after there is any reason to, and your hand hurts, and you let it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Reply",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You answer him, three words, too late for him to hear any of it, which is the first honest thing you have said all week.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A small folded thing on the threshold of your apartment.",
+      "text": "Gaff is behind you on the roof with his cane, and he says something that is either a remark about your surviving or a reminder about somebody else's clock. Later, at your own door, there is a small folded thing on the wet carpet: a horse with a horn on its head. You have never told a living soul what you dream about. You were certain of that.",
       "sceneTitle": "Origami Unicorn",
       "choices": [
         {
           "text": "Pocket it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You put it in your coat pocket without looking at it twice, which is not the same thing as not thinking about it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Leave it",
-          "consequence": "You commit to “Leave it.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You leave it on the carpet and step over it, and go inside, and stand in the dark hallway for a long time.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Rachael in the corner, a long road ahead, an unanswered question.",
+      "text": "She stands in the corner of the lift with her collar up and her eyes on the floor numbers. Neither of you mentions the paper animal. The doors will open on a garage, and after the garage there is a road going north out of the rain, and the only genuine question left is how many years either of you was built with.",
       "sceneTitle": "Elevator Down",
       "choices": [
         {
           "text": "Take her hand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You take her hand in the lift and decide not to ask the question, which is the closest thing to faith you have.",
           "nextNodeId": "end_north"
         },
         {
           "text": "Go alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You let the doors open and walk out alone, because you have been the wrong man for her since the moment you set up the machine.",
           "nextNodeId": "end_quit"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You send her ahead and go back up to the roof, where the gravel is still wet and there is nothing there at all.",
           "nextNodeId": "end_dove"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_north",
-      "text": "You drive Rachael out of the city through wet streets and the long road opens past the neon, into something colder and cleaner.",
+      "text": "You drive out through wet streets with her asleep against the window and the wipers going, and past the last checkpoint the neon simply stops. The road climbs. The rain turns to something dry and white on the windscreen, and by morning there are trees, and a sky with actual weather in it. Neither of you knows how many years the other one has. You take the position that this is the ordinary human condition, and you keep driving.",
       "sceneTitle": "North to the Snow",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quit",
-      "text": "You return the badge and you find a small noodle bar where the owner does not ask questions, and you teach yourself to fold paper birds.",
+      "text": "You put the badge on Bryant's desk and take a room over a noodle bar where the owner asks nothing except how much chilli. Your fingers heal crooked. Rain goes on doing what it does to this city. In the evenings you sit at the counter with a square of paper and teach yourself to fold birds, badly at first, then well, and you leave them on the counter for whoever wants one.",
       "sceneTitle": "Hang Up the Gun",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_dove",
-      "text": "You stand in the rain for a long time after Roy's hand opens, and the bird takes off, and the city keeps not noticing.",
+      "text": "You stay on the roof after his hand opens, sitting in water with a broken face, while the bird goes up and out over the towers. It takes twenty minutes for anyone to come. Nobody asks what he said, because there is no field on the form for it. You keep the whole thing exactly where he left it, and the city goes on beneath you, entirely unaware that anything happened up here.",
       "sceneTitle": "The Dove on the Roof",
       "choices": [],
       "isEnding": true,

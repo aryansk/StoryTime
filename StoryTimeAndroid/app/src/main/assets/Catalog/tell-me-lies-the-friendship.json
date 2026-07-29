@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The bachelorette invite arrives by email. The names on the list include yours, and his sister's, and people you have not spoken to since graduation.",
+      "text": "The bachelorette invite arrives by email. The names on the list include yours, and his sister's, and people you have not spoken to since graduation. The road still runs toward Your Therapist. Its next turn depends on the difference between choosing “Reply yes” and choosing “Stall.”",
       "sceneTitle": "The Invite",
       "choices": [
         {
           "text": "Reply yes",
-          "consequence": "There is no taking “Reply yes” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You choose to reply yes. It opens the route to Your Therapist, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stall",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You commit to stall. By Your Therapist, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your therapist is, today, professionally curious. She asks whether you have ever, fully, told your best friend about him.",
+      "text": "Your therapist is, today, professionally curious. She asks whether you have ever, fully, told your best friend about him. The Group Chat will follow either decision, but it will meet a different version of you after “No” than after “Mostly.”",
       "sceneTitle": "Your Therapist",
       "choices": [
         {
           "text": "No",
-          "consequence": "“No” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to no. It opens the route to The Group Chat, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s3"
         },
         {
           "text": "Mostly",
-          "consequence": "You commit to “Mostly.” The story records the instinct as “Half” and carries it forward.",
+          "consequence": "You mostly. The decision moves you toward The Group Chat and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The group chat is, against all instincts, friendly. People you stopped talking to in 2018 are, again, on a thread.",
+      "text": "The group chat is, against all instincts, friendly. People you stopped talking to in 2018 are, again, on a thread. The road still runs toward The Sister. Its next turn depends on the difference between choosing “Engage” and choosing “Mute.”",
       "sceneTitle": "The Group Chat",
       "choices": [
         {
           "text": "Engage",
-          "consequence": "You commit to “Engage.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You choose to engage. It opens the route to The Sister, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Mute",
-          "consequence": "You commit to “Mute.” The story records the instinct as “Self” and carries it forward.",
+          "consequence": "You commit to mute. By The Sister, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "His sister, who never liked you, writes you a private DM. The DM is, surprisingly, kind.",
+      "text": "His sister, who never liked you, writes you a private DM. The DM is, surprisingly, kind. Your Spouse comes either way; its meaning changes with the difference between “Reply warmly” and “Reply minimally.” In The Sister, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "The Sister",
       "choices": [
         {
           "text": "Reply warmly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Risk.",
+          "consequence": "You choose to reply warmly. It opens the route to Your Spouse, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s5"
         },
         {
           "text": "Reply minimally",
-          "consequence": "“Reply minimally” closes one possibility and opens another. The moment leaves a clear note behind: Caution.",
+          "consequence": "You commit to reply minimally. By Your Spouse, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Your spouse is supportive in the way only a spouse can be. They also, gently, want to know what you actually want.",
+      "text": "Your spouse is supportive in the way only a spouse can be. They also, gently, want to know what you actually want. Both choices lead to The Bachelorette Plan, but “Tell them honestly” arrives there with a different cost than “Promise to figure it out.”",
       "sceneTitle": "Your Spouse",
       "choices": [
         {
           "text": "Tell them honestly",
-          "consequence": "“Tell them honestly” closes one possibility and opens another. The moment leaves a clear note behind: Marriage.",
+          "consequence": "You tell them honestly. The decision moves you toward The Bachelorette Plan and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Promise to figure it out",
-          "consequence": "There is no taking “Promise to figure it out” back. Process shapes the silence before the next moment arrives.",
+          "consequence": "You commit to promise to figure it out. By The Bachelorette Plan, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The plan is a winery weekend. The plan includes, at the explicit request of the bride, no boyfriends/husbands.",
+      "text": "The plan is a winery weekend. The plan includes, at the explicit request of the bride, no boyfriends/husbands. The Bride, Calling is already waiting. What changes is whether “Commit to going” or “Hold off” is the instinct you carry into it.",
       "sceneTitle": "The Bachelorette Plan",
       "choices": [
         {
           "text": "Commit to going",
-          "consequence": "There is no taking “Commit to going” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You commit to going. The decision moves you toward The Bride, Calling and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hold off",
-          "consequence": "There is no taking “Hold off” back. Wait shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hold off. It opens the route to The Bride, Calling, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Your best friend calls. She has, she says, been afraid to ask you. She wants to know if you'll be okay.",
+      "text": "Your best friend calls. She has, she says, been afraid to ask you. She wants to know if you'll be okay. Coffee with Her will follow either decision, but it will meet a different version of you after “Tell her yes” than after “Tell her you need to talk.”",
       "sceneTitle": "The Bride, Calling",
       "choices": [
         {
           "text": "Tell her yes",
-          "consequence": "There is no taking “Tell her yes” back. Cover shapes the silence before the next moment arrives.",
+          "consequence": "You tell her yes. The decision moves you toward Coffee with Her and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell her you need to talk",
-          "consequence": "You commit to “Tell her you need to talk.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to tell her you need to talk. By Coffee with Her, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You meet for coffee. You decide whether to tell her everything you never told her about her fiancé.",
+      "text": "You meet for coffee. You decide whether to tell her everything you never told her about her fiancé. His Email will follow either decision, but it will meet a different version of you after “Tell her” than after “Tell her part.”",
       "sceneTitle": "Coffee with Her",
       "choices": [
         {
           "text": "Tell her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to tell her. It opens the route to His Email, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s9"
         },
         {
           "text": "Tell her part",
-          "consequence": "There is no taking “Tell her part” back. Half shapes the silence before the next moment arrives.",
+          "consequence": "You commit to tell her part. By His Email, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "He emails you, unprompted. The email is, in a way you don't want to be true, charming.",
+      "text": "He emails you, unprompted. The email is, in a way you don't want to be true, charming. Your Old Notebook comes either way; its meaning changes with the difference between “Don't reply” and “Reply with a single sentence.”",
       "sceneTitle": "His Email",
       "choices": [
         {
           "text": "Don't reply",
-          "consequence": "You commit to “Don't reply.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You don't reply. The decision moves you toward Your Old Notebook and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Reply with a single sentence",
-          "consequence": "The decision settles the question for now. Its verdict—Closure—follows you into whatever comes next.",
+          "consequence": "You reply with a single sentence. The decision moves you toward Your Old Notebook and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You find your old college notebook. It is, in a real way, evidence. You read it.",
+      "text": "You find your old college notebook. It is, in a real way, evidence. You read it. Other Friends, Listening comes either way; its meaning changes with the difference between “Burn it” and “Keep it.” In Your Old Notebook, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Your Old Notebook",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "The decision settles the question for now. Its verdict—Closure—follows you into whatever comes next.",
+          "consequence": "You burn it. The decision moves you toward Other Friends, Listening and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         },
         {
           "text": "Keep it",
-          "consequence": "You commit to “Keep it.” The story records the instinct as “Memory” and carries it forward.",
+          "consequence": "You commit to keep it. By Other Friends, Listening, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Two friends from the group chat — Pippa and Bree — invite you to dinner separately. They want, in different ways, to support you.",
+      "text": "Two friends from the group chat — Pippa and Bree — invite you to dinner separately. They want, in different ways, to support you. Pre-Bachelorette Drinks comes either way; its meaning changes with the difference between “Lean on both” and “Pick the safer one.”",
       "sceneTitle": "Other Friends, Listening",
       "choices": [
         {
           "text": "Lean on both",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Allies.",
+          "consequence": "You commit to lean on both. By Pre-Bachelorette Drinks, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s12"
         },
         {
           "text": "Pick the safer one",
-          "consequence": "There is no taking “Pick the safer one” back. Triage shapes the silence before the next moment arrives.",
+          "consequence": "You commit to pick the safer one. By Pre-Bachelorette Drinks, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Pre-bachelorette drinks in the city. The bride is, you realize, happy. You decide what to do with that.",
+      "text": "Pre-bachelorette drinks in the city. The bride is, you realize, happy. You decide what to do with that. You cannot avoid Winery Weekend, Friday; you can only decide whether “Be glad for her” or “Watch for the signs” defines the person who reaches it.",
       "sceneTitle": "Pre-Bachelorette Drinks",
       "choices": [
         {
           "text": "Be glad for her",
-          "consequence": "You commit to “Be glad for her.” The story records the instinct as “Generous” and carries it forward.",
+          "consequence": "You commit to be glad for her. By Winery Weekend, Friday, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         },
         {
           "text": "Watch for the signs",
-          "consequence": "You commit to “Watch for the signs.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You choose to watch for the signs. It opens the route to Winery Weekend, Friday, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You arrive at the winery. He is not there. The weekend, briefly, is just women you love.",
+      "text": "You arrive at the winery. He is not there. The weekend, briefly, is just women you love. Late Night Talk will follow either decision, but it will meet a different version of you after “Enjoy the day” than after “Stay vigilant.”",
       "sceneTitle": "Winery Weekend, Friday",
       "choices": [
         {
           "text": "Enjoy the day",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Present.",
+          "consequence": "You choose to enjoy the day. It opens the route to Late Night Talk, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay vigilant",
-          "consequence": "You commit to “Stay vigilant.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You stay vigilant. The decision moves you toward Late Night Talk and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Late on Friday night, the bride and you sit on a balcony and talk. You decide what to tell her now.",
+      "text": "Late on Friday night, the bride and you sit on a balcony and talk. You decide what to tell her now. Saturday Hike is already waiting. What changes is whether “Tell her” or “Hold off” is the instinct you carry into it.",
       "sceneTitle": "Late Night Talk",
       "choices": [
         {
           "text": "Tell her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to tell her. It opens the route to Saturday Hike, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hold off",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You hold off. The decision moves you toward Saturday Hike and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Saturday is a hike. You realize, on the trail, that the weekend is also a kind of healing for you.",
+      "text": "Saturday is a hike. You realize, on the trail, that the weekend is also a kind of healing for you. Dinner, Saturday Night comes either way; its meaning changes with the difference between “Receive it” and “Stay guarded.”",
       "sceneTitle": "Saturday Hike",
       "choices": [
         {
           "text": "Receive it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to receive it. By Dinner, Saturday Night, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay guarded",
-          "consequence": "There is no taking “Stay guarded” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay guarded. It opens the route to Dinner, Saturday Night, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Dinner. Toasts. People give speeches. You realize what kind of speech you'd give if asked.",
+      "text": "Dinner. Toasts. People give speeches. You realize what kind of speech you'd give if asked. Pippa's Honesty is already waiting. What changes is whether “Volunteer to speak” or “Stay quiet” is the instinct you carry into it.",
       "sceneTitle": "Dinner, Saturday Night",
       "choices": [
         {
           "text": "Volunteer to speak",
-          "consequence": "You commit to “Volunteer to speak.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to volunteer to speak. By Pippa's Honesty, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You choose to stay quiet. It opens the route to Pippa's Honesty, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Pippa, drunk, tells you what she always thought of him. You realize, with a strange relief, you weren't alone.",
+      "text": "Pippa, drunk, tells you what she always thought of him. You realize, with a strange relief, you weren't alone. The road still runs toward Sunday Morning. Its next turn depends on the difference between choosing “Compare notes” and choosing “Just listen.”",
       "sceneTitle": "Pippa's Honesty",
       "choices": [
         {
           "text": "Compare notes",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to compare notes. By Sunday Morning, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         },
         {
           "text": "Just listen",
-          "consequence": "You commit to “Just listen.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You commit to just listen. By Sunday Morning, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Sunday morning. Coffee. Hangover. Bride beside you on the porch. You decide what kind of friend you're going to be for the next year.",
+      "text": "Sunday morning. Coffee. Hangover. Bride beside you on the porch. You decide what kind of friend you're going to be for the next year. You cannot avoid The Wedding Date; you can only decide whether “Be fully honest now” or “Be present and patient” defines the person who reaches it.",
       "sceneTitle": "Sunday Morning",
       "choices": [
         {
           "text": "Be fully honest now",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You be fully honest now. The decision moves you toward The Wedding Date and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         },
         {
           "text": "Be present and patient",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to be present and patient. It opens the route to The Wedding Date, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The wedding date is in five months. You decide whether you'll be there.",
+      "text": "The wedding date is in five months. You decide whether you'll be there. His Last Email is already waiting. What changes is whether “Be there” or “Decline” is the instinct you carry into it. At His Last Email, the people waiting will read the choice before the explanation.",
       "sceneTitle": "The Wedding Date",
       "choices": [
         {
           "text": "Be there",
-          "consequence": "“Be there” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You choose to be there. It opens the route to His Last Email, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Decline",
-          "consequence": "There is no taking “Decline” back. Self shapes the silence before the next moment arrives.",
+          "consequence": "You decline. The decision moves you toward His Last Email and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "He emails again. The email is, this time, an apology. You read it twice. You decide what it deserves.",
+      "text": "He emails again. The email is, this time, an apology. You read it twice. You decide what it deserves. You cannot avoid Your Spouse, Returning Home; you can only decide whether “Forgive privately” or “Don't reply” defines the person who reaches it.",
       "sceneTitle": "His Last Email",
       "choices": [
         {
           "text": "Forgive privately",
-          "consequence": "“Forgive privately” closes one possibility and opens another. The moment leaves a clear note behind: Closure.",
+          "consequence": "You forgive privately. The decision moves you toward Your Spouse, Returning Home and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't reply",
-          "consequence": "“Don't reply” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You choose to don't reply. It opens the route to Your Spouse, Returning Home, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You come home Sunday night. Your spouse hugs you. You realize you have, finally, the family you wanted in college.",
+      "text": "You come home Sunday night. Your spouse hugs you. You realize you have, finally, the family you wanted in college. To choose “Tell them everything about the weekend” means meeting Best Friend, Still; “Just be home” sends you toward Quietly Yours instead. A third choice, “Take the third path,” keeps Honest, At Last in play.",
       "sceneTitle": "Your Spouse, Returning Home",
       "choices": [
         {
           "text": "Tell them everything about the weekend",
-          "consequence": "“Tell them everything about the weekend” closes one possibility and opens another. The moment leaves a clear note behind: Marriage.",
+          "consequence": "You commit to tell them everything about the weekend. By Best Friend, Still, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_friend"
         },
         {
           "text": "Just be home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You commit to just be home. By Quietly Yours, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_self"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The decision moves you toward Honest, At Last and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_honest"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_friend",
-      "text": "You stay her best friend. You attend the wedding. The marriage, predictably, does not last. She moves to your city when it ends. You walk her dog the first month.",
+      "text": "You stay her best friend. You attend the wedding. The marriage, predictably, does not last. She moves to your city when it ends. You walk her dog the first month. The road into Best Friend, Still began with “Tell them everything about the weekend” in Your Spouse, Returning Home; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Best Friend, Still",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_self",
-      "text": "You let the friendship dim. You realize, slowly, that some friendships don't survive twenties' damage. Your spouse, and the small life you built, becomes the center.",
+      "text": "You let the friendship dim. You realize, slowly, that some friendships don't survive twenties' damage. Your spouse, and the small life you built, becomes the center. The road into Quietly Yours began with “Just be home” in Your Spouse, Returning Home; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Quietly Yours",
       "choices": [],
       "isEnding": true,

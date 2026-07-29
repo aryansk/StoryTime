@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "She brings tea. Watson is at the window.",
+      "text": "Mrs. Hudson brings the tray up at four and sets it down where the slipper of tobacco is not. Watson stands at the window with his hands behind his back, doing the thing he believes is inconspicuous. Rain since noon; Baker Street runs like a gutter. Below, a four-wheeler has stopped with the horse still steaming — stopped, not passed. Someone on the kerb is deciding whether to come up.",
       "sceneTitle": "Mrs. Hudson",
       "choices": [
         {
           "text": "Read the paper",
-          "consequence": "There is no taking “Read the paper” back. Practice shapes the silence before the next moment arrives.",
+          "consequence": "You take the agony column and let the street solve itself. Three of the advertisements are in the same hand, and two of them are lies.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait for a knock",
-          "consequence": "There is no taking “Wait for a knock” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You watch the ceiling and count the pauses on the stair. She stops twice. People who stop twice have brought something they already tried to burn.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A young woman with a half-burned letter.",
+      "text": "She is twenty-three, her gloves too good for her boots, and she gives her name as though it were a password somebody instructed her to use. From her muff, folded in a handkerchief, comes the top half of a letter, the rest charred to a brown crescent. She did not burn it. Someone else burned it, and she went back into the grate for what the fire had left.",
       "sceneTitle": "Client at the Door",
       "choices": [
         {
           "text": "Read the letter",
-          "consequence": "You commit to “Read the letter.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You carry the paper to the lamp, and the watermark gives you a stationer in Chichester at a price nobody in her family should be paying.",
           "nextNodeId": "s3"
         },
         {
           "text": "Read her hands",
-          "consequence": "The decision settles the question for now. Its verdict—Method—follows you into whatever comes next.",
+          "consequence": "You watch her hands instead of the page: ink on the wrong finger, a typewriter's callus, and a wedding ring worn on a chain beneath the collar.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Outside, mud, two horses, fresh from the south road.",
+      "text": "In the mud below, two sets of wheel ruts lie over one another, the newer cutting the older. Chalk in the clay, and a red clay that London does not manufacture. A pair driven hard, one of them casting a shoe on the near fore. Her cab came three streets. This one came up the south road at speed and then stood an hour with the horses left standing in the wet.",
       "sceneTitle": "The Carriage Tracks",
       "choices": [
         {
           "text": "Pursue",
-          "consequence": "There is no taking “Pursue” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You send Watson for his coat and go after ruts that are already filling with rain. Ten minutes more of tea would have made this impossible.",
           "nextNodeId": "s4"
         },
         {
           "text": "Wait for more clues",
-          "consequence": "“Wait for more clues” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You let the chase go and take scrapings from the boot instead, gambling that clay will outlast pursuit. Clay is patient. Men are not.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Scotland Yard's most enthusiastic mistake. He invites you to a scene.",
+      "text": "Lestrade arrives at nine with rain in his moustache and the pleased look of a man who has already formed his theory. A locked study in Bayswater, a gentleman dead in his chair, the key in his own waistcoat pocket. He says suicide four times before he has his coat off. He also mentions, without noticing that he has, that the window sash was re-puttied within the fortnight.",
       "sceneTitle": "Lestrade",
       "choices": [
         {
           "text": "Go",
-          "consequence": "“Go” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You go, because Lestrade's constables will have walked over the hearthrug by noon, and the hearthrug is where this will be decided.",
           "nextNodeId": "s5"
         },
         {
           "text": "Send Watson",
-          "consequence": "The decision settles the question for now. Its verdict—Strategy—follows you into whatever comes next.",
+          "consequence": "You send Watson with instructions to measure and touch nothing, and he comes back with a page of notes and one detail Lestrade sat on for an hour.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A locked study. Powder on the curtain. A faint scent of cigar.",
+      "text": "The study smells faintly of a cigar costing more than the housemaid earns in a month. Powder marks on the curtain and none on the shirt front. The chair stands three feet back from the desk, which no man writing at a desk arranges. And in the fresh putty under the window sash, the clean crescent of a thumbnail, pressed from outside by somebody who could not wait for it to dry.",
       "sceneTitle": "The Scene",
       "choices": [
         {
           "text": "Smell carefully",
-          "consequence": "There is no taking “Smell carefully” back. Method shapes the silence before the next moment arrives.",
+          "consequence": "You take the air by the curtain twice and separate Trichinopoly from Havana. One of them was smoked by a man standing very still for some minutes.",
           "nextNodeId": "s6"
         },
         {
           "text": "Look for fingerprints",
-          "consequence": "“Look for fingerprints” closes one possibility and opens another. The moment leaves a clear note behind: Modern.",
+          "consequence": "You go over sash and decanter with the lens while Lestrade explains suicide to Watson. The decanter has been wiped. Only the decanter.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The butler. The nephew. The maid. The dog who didn't bark.",
+      "text": "The butler, nineteen years in the house, who answers before the question has finished. The nephew, who owed nine hundred pounds on Tuesday and owed nothing by Friday. The maid, weeping in all the right places at very slightly the wrong times. And the mastiff in the yard, chained where any stranger must pass it, which slept through the whole night and woke for the milk.",
       "sceneTitle": "Suspicion",
       "choices": [
         {
           "text": "The dog",
-          "consequence": "The decision settles the question for now. Its verdict—Method—follows you into whatever comes next.",
+          "consequence": "You attend to the animal that did nothing, which narrows the field to men the mastiff has been fed by. That is a very short list.",
           "nextNodeId": "s7"
         },
         {
           "text": "The nephew",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Obvious.",
+          "consequence": "You take the debts first, and by evening you have the bank, the clerk, and the precise afternoon on which nine hundred pounds stopped being a problem.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You become an unemployed groom. Watson is, briefly, scandalized.",
+      "text": "You come down at seven as an out-of-work groom: teeth blacked with wax, stable on your coat, and a limp acquired by watching a man in Lambeth for a fortnight. Watson opens his mouth, closes it, and pours himself something. In this coat nobody in London will look at your face for longer than a second, which is the entire purpose of the coat.",
       "sceneTitle": "Disguise",
       "choices": [
         {
           "text": "Visit the stables",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You go where the horses are, buy two men a pint apiece, and learn which pair went out at midnight and came home lame.",
           "nextNodeId": "s8"
         },
         {
           "text": "Visit the gentleman's club",
-          "consequence": "“Visit the gentleman's club” closes one possibility and opens another. The moment leaves a clear note behind: Society.",
+          "consequence": "You take the servants' entrance of a very good club and stand about holding a bridle, and gentlemen say remarkable things over your head all evening.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Your brother knows things you don't. He weighs an opinion like a kingdom.",
+      "text": "Mycroft occupies the Strangers' Room at the Diogenes for precisely the quarter of an hour he has allotted you, and does not get up. Heavier than last year, quicker than anyone alive. He does not investigate; he simply carries every department's ledger in his head at once. He already has the dead man's name, his pension, and the month in which a certain office in Whitehall stopped writing to him.",
       "sceneTitle": "Mycroft",
       "choices": [
         {
           "text": "Visit the Diogenes Club",
-          "consequence": "There is no taking “Visit the Diogenes Club” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You sit in a room where speech is forbidden and let your brother be right about four things in a quarter of an hour. He enjoys it enormously.",
           "nextNodeId": "s9"
         },
         {
           "text": "Don't bother him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You keep the business out of Whitehall's hands and solve it the slow way, which costs three days and leaves the case entirely your own.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "From the south coast. Inquire about the schooner Friesland.",
+      "text": "The boy brings it up wet: nine words from Newhaven, paid for by somebody counting pennies. Inquire the schooner Friesland, out of Rotterdam, sailed Thursday, cargo lawful. It is signed with a pair of initials you last saw on the flyleaf of a stolen prayer book. Whoever sent it knows this address perfectly well, and chose not to come to it.",
       "sceneTitle": "Telegram",
       "choices": [
         {
           "text": "Catch the next train",
-          "consequence": "You commit to “Catch the next train.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You are at Victoria within forty minutes, Watson's revolver in Watson's pocket and no clean shirt between you, which he mentions twice before Croydon.",
           "nextNodeId": "s10"
         },
         {
           "text": "Telegraph back",
-          "consequence": "There is no taking “Telegraph back” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You send eight words and one deliberate falsehood, and wait to see which of two harbours answers. One does, very quickly indeed.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A figure in a top hat does not, in fact, want to be followed.",
+      "text": "Brighton in a flat grey wind, the pier boards ticking under a hundred bored feet. The man in the tall hat has looked at the sea, at his watch, and twice at the same shopfront, and has not once looked behind him — which is a discipline, not an innocence. He is waiting for the crowd to come off at the quarter hour. In it he intends to disappear.",
       "sceneTitle": "Brighton",
       "choices": [
         {
           "text": "Follow on the pier",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You take the seaward rail among the crowd, collar up, nine paces back, and he obligingly leads you past the ticket hut twice.",
           "nextNodeId": "s11"
         },
         {
           "text": "Set a trap",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cunning.",
+          "consequence": "You post Watson at the pier gate and buy the boatman's silence instead, and let the tall hat come to a place you have already chosen.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He talks. Money is, sometimes, fluent.",
+      "text": "He is sixty, deaf on the left, and has rowed out to the Friesland's tender three nights running. For a while he tells you nothing. Then he tells you a great deal, money being a language most men speak fluently before they know they have learned it. A gentleman. Two crates. And a woman who did not wish to go and went anyway, at half past one in the morning.",
       "sceneTitle": "The Boatman",
       "choices": [
         {
           "text": "Pay him generously",
-          "consequence": "There is no taking “Pay him generously” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You give him more than he asked, and he remembers a fourth night nobody had mentioned. Generosity buys detail; meanness buys silence with a grudge inside it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Pay him modestly",
-          "consequence": "You commit to “Pay him modestly.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You pay him exactly the sum agreed. He tells you the truth and not an inch past it, and watches you go with a face that will describe you accurately.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You decode it in five minutes by counting letters.",
+      "text": "The charred half yields in four minutes at the lamp: not a cipher but a substitution, done by a clever amateur with a Bradshaw open at his elbow. Find the frequency, find the E, and the rest topples over. A time, a tide, and the name of a house in Sussex. What it does not contain is any threat — and nobody writes in code to say something harmless.",
       "sceneTitle": "The Coded Letter",
       "choices": [
         {
           "text": "Note it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Method.",
+          "consequence": "You explain the whole method aloud to Watson, who writes it down, and it will appear in the Strand within a year dressed beyond recognition.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't show off",
-          "consequence": "The decision settles the question for now. Its verdict—Modesty—follows you into whatever comes next.",
+          "consequence": "You fold the solution into your pocket and give him only the where and the when. He looks wounded for an hour; you notice, and choose not to mend it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "He is, in fact, the missing heir. He has been hiding for years.",
+      "text": "He is at the Sussex house under a gardener's name, twelve years hidden, his hands honestly ruined. The heir to a considerable estate, growing another man's roses and doing it well. He did not run from the law. He ran from a signature he put on a document at nineteen, and from the man who has kept that document in a tin box ever since.",
       "sceneTitle": "Honoria's Brother",
       "choices": [
         {
           "text": "Find him kindly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You come to him in daylight with his sister's name first and your own second, and he sits down on an upturned crate and weeps.",
           "nextNodeId": "s14"
         },
         {
           "text": "Confront",
-          "consequence": "You commit to “Confront.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put the date and the document to him at once. He does not deny it. He looks past you at the roses, working out what is left.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He is well-bred, well-dressed, and willing to murder. The worst kind.",
+      "text": "He receives you in a morning room with good pictures and a decanter he does not offer. County family, public school, a voice trained so that refusal sounds like consideration. He does not threaten you. He observes, as a matter of local interest, that the road from the station is unlit after dark and that his housekeeper is deaf. Then he asks whether you take milk.",
       "sceneTitle": "The Villain",
       "choices": [
         {
           "text": "Don't underestimate him",
-          "consequence": "“Don't underestimate him” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You treat him as the equal he is, wire Lestrade from the village, and sleep with a chair beneath the handle. He notices you noticing.",
           "nextNodeId": "s15"
         },
         {
           "text": "Take him alone",
-          "consequence": "“Take him alone” closes one possibility and opens another. The moment leaves a clear note behind: Pride.",
+          "consequence": "You decide that one man is only one man and go back after dark alone, which is vanity — and vanity is priced very precisely in this line of work.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "A different case, a different waterfall. He proposes single combat.",
+      "text": "Two years later and a different quarry entirely: the falls at Meiringen throwing up a spray that soaks the path a hundred feet above the water. Watson has been called back to the hotel by a letter about a dying Englishwoman. There is no Englishwoman. You knew that when you let him go. The professor comes up the path alone and asks, courteously, for a few minutes in which to settle the account.",
       "sceneTitle": "Reichenbach",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You agree to the private interview and set your cigarette case on the rock, so that Watson will at least know where to begin.",
           "nextNodeId": "s16"
         },
         {
           "text": "Plan a trick",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You let him believe he has you against the edge, and keep three inches of wet stone in reserve. It is the whole of the plan you had time to build.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You and he go over. Watson finds the note.",
+      "text": "The ledge is wet and the noise takes every other sound out of the world. He is far stronger than a mathematician has any right to be. You go over together — and then only one of you is going down. The other has both hands on a shelf of rock and a very long climb ahead of him. Below, on the path, Watson finds three folded pages beneath a silver case.",
       "sceneTitle": "Drop",
       "choices": [
         {
           "text": "Survive",
-          "consequence": "There is no taking “Survive” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You climb in the dark with a torn shoulder, and let the whole world keep the simpler version of events for three years.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't",
-          "consequence": "“Don't” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose the account in which Sherlock Holmes dies at Meiringen, and every man who wants you dead relaxes — which is precisely the use of it.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You return to Baker Street disguised as a bookseller.",
+      "text": "Three years of being nobody: Tibet under a Norwegian's name, Khartoum, a laboratory at Montpellier smelling of coal tar. You come up the seventeen stairs as a stooped bookseller with an armful of volumes and a wheezing opinion of the weather. Watson is at the desk, greyer, writing something slowly. He does not look up. He has, you observe, still kept your chair clear of papers.",
       "sceneTitle": "Three Years Gone",
       "choices": [
         {
           "text": "Reveal slowly",
-          "consequence": "“Reveal slowly” closes one possibility and opens another. The moment leaves a clear note behind: Style.",
+          "consequence": "You set the books down and straighten by degrees, giving him perhaps four seconds of warning — four more than you gave him at the falls.",
           "nextNodeId": "s18"
         },
         {
           "text": "Reveal quickly",
-          "consequence": "There is no taking “Reveal quickly” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You drop the accent in a single sentence, and a doctor who has been shot at on two continents faints on his own hearthrug.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "She faints once and recovers twice.",
+      "text": "Mrs. Hudson comes up with the tray, sees you, and the whole of it goes down the stairs — pot, milk jug, the good cups. She sits on the step. She stands. She sits down again. Then she informs you that she has kept the rooms exactly as they were and dusted them weekly, that she never once let them, and that she will not be discussing the matter further.",
       "sceneTitle": "Hudson's Reaction",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You say the necessary thing plainly, and she waves it away while gripping the banister. She will accept the apology somewhere around Christmas.",
           "nextNodeId": "s19"
         },
         {
           "text": "Move past",
-          "consequence": "You commit to “Move past.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You ask instead about the rent and whether the tobacco is still in the slipper, and let her have the dignity of the ordinary.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "He punches the table. He hugs you.",
+      "text": "He strikes the table hard enough to jump the inkwell and calls you a name he has never once written down. Three years, he says. Three years of a headstone, and letters of condolence, and a manuscript he could not finish. Then he crosses the room and takes hold of you by both arms, as if checking the weight and the temperature of a thing he has been told is not real.",
       "sceneTitle": "Watson's Hands",
       "choices": [
         {
           "text": "Apologize properly",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You give him the whole of it — the letter, the ledge, the four men who would have shot him first. It takes an hour and it is owed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Joke",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You make a remark about his practice and his waistline, and he laughs before he means to, which is a mercy the pair of you agree to accept.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A new client. A small problem. You smile.",
+      "text": "A note in the second post from a woman signing herself Mary H., concerning a matter she describes as almost certainly nothing: a gardener dismissed without character, a greenhouse kept locked, and a cheque made out to a man who has been dead since April. It is a small case. It is beautifully wrong. You read it twice, and the tobacco slipper is in your hand before you notice reaching.",
       "sceneTitle": "The Letter from Mary",
       "choices": [
         {
           "text": "Take the case",
-          "consequence": "You commit to “Take the case.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You are into your coat before Watson has found his hat, which he mentions, and which is as near as either of you comes to saying it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Recommend a colleague",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You write a courteous name and address on the reverse, hold the envelope a full minute, and then put the letter in your own pocket instead.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Mrs. Hudson brings tea. You and Watson sip in companionable silence.",
+      "text": "Mrs. Hudson brings the tray up at four, as she has for a decade and a half, and for some minutes neither of you says anything at all. Rain again on the glass. Watson's pen going in the next room. Below, a hansom slows at the door and does not move on. There are, by your count, three things you might do with the remainder of it, and the horse is still standing in the wet.",
       "sceneTitle": "Tea",
       "choices": [
         {
           "text": "Sip",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You let the tea go cold in the correct companionable manner and do not go to the window, which costs you rather more than you had expected.",
           "nextNodeId": "end_retire"
         },
         {
           "text": "Begin the next thing",
-          "consequence": "You commit to “Begin the next thing.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You are at the glass before the cabman has set his brake, reading boots, a mourning band and a left-handed grip from the first floor.",
           "nextNodeId": "end_lestrade"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You tell Watson to write it — all of it, the errors as well — and he replies that he intends to whether you care for it or not.",
           "nextNodeId": "end_book"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_retire",
-      "text": "You retire to Sussex to keep bees. You write a small book on apiology that is, mercifully, better than the police think.",
+      "text": "Five miles out of Eastbourne on the chalk, in a house with a view of nothing but weather. You keep bees, which is to say you conduct an eighteen-year observation of a society entirely uninterested in your reputation. You publish a small book on the segregation of the queen. Two reviewers call it eccentric; one beekeeper in Kent calls it the finest thing written on the subject, and the beekeeper is correct.",
       "sceneTitle": "Sussex Downs",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_lestrade",
-      "text": "Lestrade, decades on, gives a speech in your honor. He calls you, with feeling, the best and wisest man he ever knew. Watson cries discreetly.",
+      "text": "Decades on, a dinner in a room with poor acoustics, and Lestrade — retired, thicker, still convinced he had the Bayswater business half right — stands up with notes he does not consult. He says he was wrong more often in your company than anywhere else in his life, and that he would not trade a single day of it. Watson studies the tablecloth. You examine your cuff and say nothing whatsoever.",
       "sceneTitle": "Lestrade's Tribute",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_book",
-      "text": "Watson publishes. The Strand prints. The world reads. You are, against your will, a literary figure for two centuries.",
+      "text": "Watson publishes; the Strand sells out on Thursdays; strangers write to Baker Street asking you to find their dogs. You complain about the romanticism, the omitted reasoning, the invented weather. You complain for thirty years. What neither of you anticipates is that the complaints and the stories outlast the crimes, the constables, the fog and both your graves — and that people will still be knocking at that door.",
       "sceneTitle": "The Adventures",
       "choices": [],
       "isEnding": true,

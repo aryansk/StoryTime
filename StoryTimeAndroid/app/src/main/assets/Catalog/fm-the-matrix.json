@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A green prompt. Wake up, Neo. A knock at the door.",
+      "text": "A green prompt. Wake up, Neo. A knock at the door. Choi will follow either decision, but it will meet a different version of you after “Open” than after “Pretend not to be home.” At Choi, the decision will matter as data as well as intent.",
       "sceneTitle": "The Apartment",
       "choices": [
         {
           "text": "Open",
-          "consequence": "“Open” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You commit to open. It carries you toward Choi, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s2"
         },
         {
           "text": "Pretend not to be home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You pretend not to be home. The path to Choi opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Two grand for the disk. Follow the white rabbit, he says.",
+      "text": "Two grand for the disk. Follow the white rabbit, he says. Trinity comes either way; its meaning changes with the difference between “Go with them” and “Stay home.” At Trinity, the decision will matter as data as well as intent.",
       "sceneTitle": "Choi",
       "choices": [
         {
           "text": "Go with them",
-          "consequence": "You commit to “Go with them.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You commit to go with them. It carries you toward Trinity, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay home",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Safe.",
+          "consequence": "You commit to stay home. It carries you toward Trinity, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "A woman in leather at a club. She tells you the question is what drives you.",
+      "text": "A woman in leather at a club. She tells you the question is what drives you. The road still runs toward The Office. Its next turn depends on the difference between choosing “Listen” and choosing “Stay alert.”",
       "sceneTitle": "Trinity",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You listen. The path to The Office opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stay alert",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You commit to stay alert. It carries you toward The Office, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Agents at your desk. Smith. Phone in a parcel.",
+      "text": "Agents at your desk. Smith. Phone in a parcel. Both choices lead to Window Ledge, but “Take the phone” arrives there with a different cost than “Go with the agents.” In The Office, the rules change the moment you decide they can be tested.",
       "sceneTitle": "The Office",
       "choices": [
         {
           "text": "Take the phone",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You choose to take the phone. By Window Ledge, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Go with the agents",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to go with the agents. By Window Ledge, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Morpheus says go to the ledge. You can't. They take you.",
+      "text": "Morpheus says go to the ledge. You can't. They take you. You cannot avoid Bug; you can only decide whether “Try anyway” or “Cooperate” defines the person who reaches it. In Window Ledge, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Window Ledge",
       "choices": [
         {
           "text": "Try anyway",
-          "consequence": "You commit to “Try anyway.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You choose to try anyway. By Bug, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Cooperate",
-          "consequence": "There is no taking “Cooperate” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to cooperate. It carries you toward Bug, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A bug crawls under your skin. Trinity removes it.",
+      "text": "A bug crawls under your skin. Trinity removes it. The road still runs toward Pills. Its next turn depends on the difference between choosing “Trust her” and choosing “Run.” At Pills, the decision will matter as data as well as intent.",
       "sceneTitle": "Bug",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You commit to trust her. It carries you toward Pills, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to run. It carries you toward Pills, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Red or blue. Morpheus, sincere.",
+      "text": "Red or blue. Morpheus, sincere. Out comes either way; its meaning changes with the difference between “Red” and “Blue.” At Out, the decision will matter as data as well as intent. Morpheus is watching for conviction, not vocabulary.",
       "sceneTitle": "Pills",
       "choices": [
         {
           "text": "Red",
-          "consequence": "“Red” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You red. The path to Out opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s8"
         },
         {
           "text": "Blue",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to blue. By Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You are pulled out of a pod. You are weak. You are real.",
+      "text": "You are pulled out of a pod. You are weak. You are real. The road still runs toward Nebuchadnezzar. Its next turn depends on the difference between choosing “Stay still” and choosing “Look around.” In Out, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Out",
       "choices": [
         {
           "text": "Stay still",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heal.",
+          "consequence": "You commit to stay still. It carries you toward Nebuchadnezzar, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         },
         {
           "text": "Look around",
-          "consequence": "You commit to “Look around.” The story records the instinct as “Curious” and carries it forward.",
+          "consequence": "You choose to look around. By Nebuchadnezzar, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Hovercraft, crew, a captain. Real food is gruel.",
+      "text": "Hovercraft, crew, a captain. Real food is gruel. The road still runs toward Training. Its next turn depends on the difference between choosing “Eat it” and choosing “Refuse.” In Nebuchadnezzar, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Nebuchadnezzar",
       "choices": [
         {
           "text": "Eat it",
-          "consequence": "There is no taking “Eat it” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to eat it. By Training, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Spoiled.",
+          "consequence": "You refuse. The path to Training opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Jiu-jitsu uploaded. You wake fluent.",
+      "text": "Jiu-jitsu uploaded. You wake fluent. The road still runs toward The Construct. Its next turn depends on the difference between choosing “Spar with Morpheus” and choosing “Spar carefully.” By The Construct, the system will have recorded that choice as precedent.",
       "sceneTitle": "Training",
       "choices": [
         {
           "text": "Spar with Morpheus",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to spar with Morpheus. It carries you toward The Construct, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         },
         {
           "text": "Spar carefully",
-          "consequence": "“Spar carefully” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You choose to spar carefully. By The Construct, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Black emptiness. Morpheus shows you the system.",
+      "text": "Black emptiness. Morpheus shows you the system. Tank will follow either decision, but it will meet a different version of you after “Listen carefully” than after “Argue.” At Tank, the decision will matter as data as well as intent.",
       "sceneTitle": "The Construct",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "You commit to “Listen carefully.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to listen carefully. It carries you toward Tank, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         },
         {
           "text": "Argue",
-          "consequence": "There is no taking “Argue” back. Spirit shapes the silence before the next moment arrives.",
+          "consequence": "You commit to argue. It carries you toward Tank, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A man named Tank brings you tea. He was born free.",
+      "text": "A man named Tank brings you tea. He was born free. The road still runs toward Oracle. Its next turn depends on the difference between choosing “Befriend him” and choosing “Stay alone.” By Oracle, the system will have recorded that choice as precedent.",
       "sceneTitle": "Tank",
       "choices": [
         {
           "text": "Befriend him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You befriend him. The path to Oracle opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay alone",
-          "consequence": "There is no taking “Stay alone” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You stay alone. The path to Oracle opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Cookies. A small woman. She tells you what you needed to hear, not what you wanted.",
+      "text": "Cookies. A small woman. She tells you what you needed to hear, not what you wanted. You cannot avoid Cypher; you can only decide whether “Believe her” or “Doubt her” defines the person who reaches it.",
       "sceneTitle": "Oracle",
       "choices": [
         {
           "text": "Believe her",
-          "consequence": "“Believe her” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You choose to believe her. By Cypher, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Doubt her",
-          "consequence": "“Doubt her” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You doubt her. The path to Cypher opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Cypher misses steak. He misses being unconscious. He betrays.",
+      "text": "Cypher misses steak. He misses being unconscious. He betrays. You cannot avoid Subway; you can only decide whether “Spot it earlier” or “Catch it late” defines the person who reaches it. In Cypher, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Cypher",
       "choices": [
         {
           "text": "Spot it earlier",
-          "consequence": "“Spot it earlier” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You spot it earlier. The path to Subway opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         },
         {
           "text": "Catch it late",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to catch it late. By Subway, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Agents pursue. Morpheus, captured, is taken to a building.",
+      "text": "Agents pursue. Morpheus, captured, is taken to a building. Lobby is already waiting. What changes is whether “Save him” or “Wait” is the instinct you carry into it. By Lobby, the system will have recorded that choice as precedent.",
       "sceneTitle": "Subway",
       "choices": [
         {
           "text": "Save him",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You commit to save him. It carries you toward Lobby, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You commit to wait. It carries you toward Lobby, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Marble. Guards. Sunglasses. Many rounds expended.",
+      "text": "Marble. Guards. Sunglasses. Many rounds expended. You cannot avoid Rooftop; you can only decide whether “Run the lobby” or “Plan a quieter route” defines the person who reaches it. By Rooftop, the system will have recorded that choice as precedent.",
       "sceneTitle": "Lobby",
       "choices": [
         {
           "text": "Run the lobby",
-          "consequence": "“Run the lobby” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You commit to run the lobby. It carries you toward Rooftop, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         },
         {
           "text": "Plan a quieter route",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You choose to plan a quieter route. By Rooftop, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "A helicopter. Morpheus on a chair.",
+      "text": "A helicopter. Morpheus on a chair. You cannot avoid Subway Two; you can only decide whether “Pilot” or “Cover” defines the person who reaches it. By Subway Two, the system will have recorded that choice as precedent.",
       "sceneTitle": "Rooftop",
       "choices": [
         {
           "text": "Pilot",
-          "consequence": "You commit to “Pilot.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to pilot. It carries you toward Subway Two, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cover",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You cover. The path to Subway Two opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Smith on a platform. You face him.",
+      "text": "Smith on a platform. You face him. Hotel comes either way; its meaning changes with the difference between “Stand” and “Run.” At Hotel, the decision will matter as data as well as intent. Smith only needs one hesitation to turn the platform into a grave.",
       "sceneTitle": "Subway Two",
       "choices": [
         {
           "text": "Stand",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to stand. By Hotel, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You commit to run. It carries you toward Hotel, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Smith corners you in a hallway. Bullets stop.",
+      "text": "Smith corners you in a hallway. Bullets stop. The One will follow either decision, but it will meet a different version of you after “See them” than after “Dodge them.” At The One, the decision will matter as data as well as intent.",
       "sceneTitle": "Hotel",
       "choices": [
         {
           "text": "See them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You see them. The path to The One opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Dodge them",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to dodge them. It carries you toward The One, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You break Smith apart from the inside.",
+      "text": "You break Smith apart from the inside. Phone Booth comes either way; its meaning changes with the difference between “Step out of his shape” and “Hold him a moment.” By Phone Booth, the system will have recorded that choice as precedent.",
       "sceneTitle": "The One",
       "choices": [
         {
           "text": "Step out of his shape",
-          "consequence": "The decision settles the question for now. Its verdict—Final—follows you into whatever comes next.",
+          "consequence": "You choose to step out of his shape. By Phone Booth, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hold him a moment",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You hold him a moment. The path to Phone Booth opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Call ended. You step out of the booth. You can fly.",
+      "text": "Call ended. You step out of the booth. You can fly. “Fly” opens the route to The One. “Walk a block first” changes the terms and carries you toward Zion's Builder. A third choice, “Take the third path,” keeps Peace with the Machines in play.",
       "sceneTitle": "Phone Booth",
       "choices": [
         {
           "text": "Fly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You fly. The path to The One opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_one"
         },
         {
           "text": "Walk a block first",
-          "consequence": "There is no taking “Walk a block first” back. Style shapes the silence before the next moment arrives.",
+          "consequence": "You choose to walk a block first. By Zion's Builder, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_zion"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you toward Peace with the Machines, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_peace"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_one",
-      "text": "You become a teacher and a target. You fly often. You also, occasionally, take the bus, because the bus passes a place that used to be your apartment.",
+      "text": "You become a teacher and a target. You fly often. You also, occasionally, take the bus, because the bus passes a place that used to be your apartment. The road into The One began with “Fly” in Phone Booth; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The One",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_zion",
-      "text": "You spend a decade rebuilding Zion's defenses. You marry Trinity. You retire, eventually, to teach kids how to fly. The kids, mostly, prefer running.",
+      "text": "You spend a decade rebuilding Zion's defenses. You marry Trinity. You retire, eventually, to teach kids how to fly. The kids, mostly, prefer running. The road into Zion's Builder began with “Walk a block first” in Phone Booth; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Zion's Builder",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_peace",
-      "text": "You broker, eventually, a peace between humans and machines. The truce holds for a generation. After that, you don't know. You are, for now, content with a generation.",
+      "text": "You broker, eventually, a peace between humans and machines. The truce holds for a generation. After that, you don't know. You are, for now, content with a generation. The road into Peace with the Machines began with “Take the third path” in Phone Booth; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Peace with the Machines",
       "choices": [],
       "isEnding": true,

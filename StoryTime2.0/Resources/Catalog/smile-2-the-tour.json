@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Boston, third encore. A face in the front row. The smile is wrong in a way that does not photograph. You finish the song. Your dancers don't notice. You do.",
+      "text": "Boston, third encore. A face in the front row. The smile is wrong in a way that does not photograph. You finish the song. Your dancers don't notice. You do. “Finish the show clean” draws you toward Backstage; “Skip the second encore” leaves The Hotel Room waiting on the other side.",
       "sceneTitle": "The Smile",
       "choices": [
         {
           "text": "Finish the show clean",
-          "consequence": "Hold the line.",
+          "consequence": "You choose to finish the show clean. By Backstage, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Skip the second encore",
-          "consequence": "Trust your instincts.",
+          "consequence": "You commit to skip the second encore. It carries you into The Hotel Room while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your manager Joel is happy. The review will be glowing. You ask security to flag the face from the front-row camera. They look at you like you've asked for a unicorn.",
+      "text": "Your manager Joel is happy. The review will be glowing. You ask security to flag the face from the front-row camera. They look at you like you've asked for a unicorn. “Push harder for the footage” draws you toward The Footage; “Let it go for tonight” leaves Your Sister's House waiting on the other side.",
       "sceneTitle": "Backstage",
       "choices": [
         {
           "text": "Push harder for the footage",
-          "consequence": "The decision settles the question for now. Its verdict—Information first—follows you into whatever comes next.",
+          "consequence": "You choose to push harder for the footage. By The Footage, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Let it go for tonight",
-          "consequence": "“Let it go for tonight” closes one possibility and opens another. The moment leaves a clear note behind: Recover first.",
+          "consequence": "You commit to let it go for tonight. It carries you into Your Sister's House while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Late. You can't sleep. You FaceTime your sister, who knows your old life better than anyone in the room you're in now. She doesn't pick up.",
+      "text": "Late. You can't sleep. You FaceTime your sister, who knows your old life better than anyone in the room you're in now. She doesn't pick up. “Try her again in the morning” opens the route to The Footage. “Get on a plane to her tonight” changes the terms and carries you toward Your Sister's House.",
       "sceneTitle": "The Hotel Room",
       "choices": [
         {
           "text": "Try her again in the morning",
-          "consequence": "Trust the day.",
+          "consequence": "You try her again in the morning. The way toward The Footage opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         },
         {
           "text": "Get on a plane to her tonight",
-          "consequence": "Trust the gut.",
+          "consequence": "You choose to get on a plane to her tonight. By Your Sister's House, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Security pulls the front-row clip. The face is not, on the video, smiling. The face is, on the video, expressionless. You realize the curse may not be in the camera's bandwidth.",
+      "text": "Security pulls the front-row clip. The face is not, on the video, smiling. The face is, on the video, expressionless. You realize the curse may not be in the camera's bandwidth. The paths divide here: “Tell Joel about the curse” leads into Joel's Reaction, while “Tell your therapist over the phone” makes The Doctor in Chicago the next reckoning.",
       "sceneTitle": "The Footage",
       "choices": [
         {
           "text": "Tell Joel about the curse",
-          "consequence": "Bring in management.",
+          "consequence": "You commit to tell Joel about the curse. It carries you into Joel's Reaction while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Tell your therapist over the phone",
-          "consequence": "Bring in care.",
+          "consequence": "You choose to tell your therapist over the phone. By The Doctor in Chicago, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "On her porch at 5 a.m. she opens the door without asking why. She makes tea. You tell her the truth. She does not say you're crazy. She says, 'I believe you. What do we do?'",
+      "text": "On her porch at 5 a.m. she opens the door without asking why. She makes tea. You tell her the truth. She does not say you're crazy. She says, 'I believe you. The distance between Joel's Reaction and The Doctor in Chicago begins with the choice between “Stay with her through the next show” and “Go back; the tour can't stop.”",
       "sceneTitle": "Your Sister's House",
       "choices": [
         {
           "text": "Stay with her through the next show",
-          "consequence": "You commit to “Stay with her through the next show.” The story records the instinct as “Allies” and carries it forward.",
+          "consequence": "You commit to stay with her through the next show. It carries you into Joel's Reaction while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Go back; the tour can't stop",
-          "consequence": "There is no taking “Go back; the tour can't stop” back. Duty shapes the silence before the next moment arrives.",
+          "consequence": "You go back; the tour can't stop. The way toward The Doctor in Chicago opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Joel does not, of course, believe in curses. He believes in cancellation insurance and TMZ. He tells you, gently, that 'tour stress' is a thing and that he can move two cities.",
+      "text": "Joel does not, of course, believe in curses. He believes in cancellation insurance and TMZ. He tells you, gently, that 'tour stress' is a thing and that he can move two cities. “Accept the moved cities” opens the route to The Documentary Crew. “Demand a full pause” changes the terms and carries you toward The Last Person Who Smiled at You.",
       "sceneTitle": "Joel's Reaction",
       "choices": [
         {
           "text": "Accept the moved cities",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Compromise.",
+          "consequence": "You commit to accept the moved cities. It carries you into The Documentary Crew while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Demand a full pause",
-          "consequence": "You commit to “Demand a full pause.” The story records the instinct as “Stand firm” and carries it forward.",
+          "consequence": "You commit to demand a full pause. It carries you into The Last Person Who Smiled at You while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You find — through a private channel — a doctor who has, allegedly, treated this curse before. He is in Chicago. He has a flight in two hours. You can be on it.",
+      "text": "You find — through a private channel — a doctor who has, allegedly, treated this curse before. He is in Chicago. He has a flight in two hours. You can be on it. The paths divide here: “Take the flight” leads into The Documentary Crew, while “Have him come to you” makes The Last Person Who Smiled at You the next reckoning.",
       "sceneTitle": "The Doctor in Chicago",
       "choices": [
         {
           "text": "Take the flight",
-          "consequence": "Risk the chase.",
+          "consequence": "You choose to take the flight. By The Documentary Crew, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Have him come to you",
-          "consequence": "You commit to “Have him come to you.” The story records the instinct as “Power” and carries it forward.",
+          "consequence": "You have him come to you. The way toward The Last Person Who Smiled at You opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Your tour is being documented for streaming. The crew, kindly, asks if you'd like them to give you a day off camera. You realize that 'off camera' is, possibly, the only safe place left.",
+      "text": "Your tour is being documented for streaming. The crew, kindly, asks if you'd like them to give you a day off camera. You realize that 'off camera' is, possibly, the only safe place left. “Take the day” opens the route to The Doctor. “Stay on camera; daylight as protection” changes the terms and carries you toward The Stadium, Half-Full.",
       "sceneTitle": "The Documentary Crew",
       "choices": [
         {
           "text": "Take the day",
-          "consequence": "The decision settles the question for now. Its verdict—Privacy—follows you into whatever comes next.",
+          "consequence": "You commit to take the day. It carries you into The Doctor while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay on camera; daylight as protection",
-          "consequence": "There is no taking “Stay on camera; daylight as protection” back. Visibility shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay on camera; daylight as protection. By The Stadium, Half-Full, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Trace the face's identity",
-          "consequence": "“Trace the face's identity” closes one possibility and opens another. The moment leaves a clear note behind: Hunt.",
+          "consequence": "You commit to trace the face's identity. It carries you into The Doctor while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Burn every meet-and-greet photo of yourself in your possession",
-          "consequence": "The decision settles the question for now. Its verdict—Ritual—follows you into whatever comes next.",
+          "consequence": "You choose to burn every meet-and-greet photo of yourself in your possession. By The Stadium, Half-Full, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The doctor explains: the entity feeds on visibility. The bigger your platform, the bigger its meal. The cure is, embarrassingly, to be less visible — for as long as it takes to starve it.",
+      "text": "The doctor explains: the entity feeds on visibility. The bigger your platform, the bigger its meal. The cure is, embarrassingly, to be less visible — for as long as it takes to starve it. “Cancel the rest of the tour” opens the route to The Press Statement. “Cancel only the next month” changes the terms and carries you toward The Defiance Tour.",
       "sceneTitle": "The Doctor",
       "choices": [
         {
           "text": "Cancel the rest of the tour",
-          "consequence": "“Cancel the rest of the tour” closes one possibility and opens another. The moment leaves a clear note behind: Starve it.",
+          "consequence": "You cancel the rest of the tour. The way toward The Press Statement opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Cancel only the next month",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Compromise.",
+          "consequence": "You choose to cancel only the next month. By The Defiance Tour, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Madison Square Garden. You walk out and the crowd is, against expectation, smaller than expected. The face is, against expectation, not in the front row. The face is in the lighting rig.",
+      "text": "Madison Square Garden. You walk out and the crowd is, against expectation, smaller than expected. The face is, against expectation, not in the front row. The face is in the lighting rig. To choose “Stop the show mid-song” means meeting The Press Statement; “Sing through it; perform until it fades” sends you toward The Defiance Tour instead.",
       "sceneTitle": "The Stadium, Half-Full",
       "choices": [
         {
           "text": "Stop the show mid-song",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Public refusal.",
+          "consequence": "You stop the show mid-song. The way toward The Press Statement opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Sing through it; perform until it fades",
-          "consequence": "“Sing through it; perform until it fades” closes one possibility and opens another. The moment leaves a clear note behind: Performer's defiance.",
+          "consequence": "You choose to sing through it; perform until it fades. By The Defiance Tour, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Joel and you write a press statement together. It says, in essence, 'I am taking a year off.' It does not mention curses. It mentions burnout. It is, in its own way, the truth.",
+      "text": "Joel and you write a press statement together. It says, in essence, 'I am taking a year off.' It does not mention curses. It mentions burnout. It is, in its own way, the truth. “Take the year off in a cabin” opens the route to The Cabin. “Take the year off touring small underground shows” changes the terms and carries you toward The Small Tour.",
       "sceneTitle": "The Press Statement",
       "choices": [
         {
           "text": "Take the year off in a cabin",
-          "consequence": "There is no taking “Take the year off in a cabin” back. Disappear shapes the silence before the next moment arrives.",
+          "consequence": "You take the year off in a cabin. The way toward The Cabin opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Take the year off touring small underground shows",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Low visibility.",
+          "consequence": "You choose to take the year off touring small underground shows. By The Small Tour, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You finish the tour. The face appears in three more cities. You survive each show. You realize you have, through sheer stamina and your own anger, gained something like control of the curse.",
+      "text": "You finish the tour. The face appears in three more cities. You survive each show. You realize you have, through sheer stamina and your own anger, gained something like control of the curse. “Use the control to research and end it” opens the route to The Cabin. “Use the control to live with it” changes the terms and carries you toward The Small Tour.",
       "sceneTitle": "The Defiance Tour",
       "choices": [
         {
           "text": "Use the control to research and end it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Active.",
+          "consequence": "You commit to use the control to research and end it. It carries you into The Cabin while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Use the control to live with it",
-          "consequence": "The decision settles the question for now. Its verdict—Coexistence—follows you into whatever comes next.",
+          "consequence": "You commit to use the control to live with it. It carries you into The Small Tour while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Six months in. No phone. No camera. The face appears once, faintly, in a fogged-up bathroom mirror. You laugh at it. It does not, surprisingly, laugh back. It also, after a long second, fades.",
+      "text": "Six months in. No phone. No camera. The face appears once, faintly, in a fogged-up bathroom mirror. You laugh at it. It does not, surprisingly, laugh back. It also, after a long second, fades. Choose “Stay in the cabin another six months” and The Documentary Cut comes into view; choose “Go home to make small art” and the road bends toward Your Sister, Always.",
       "sceneTitle": "The Cabin",
       "choices": [
         {
           "text": "Stay in the cabin another six months",
-          "consequence": "There is no taking “Stay in the cabin another six months” back. Heal shapes the silence before the next moment arrives.",
+          "consequence": "You stay in the cabin another six months. The way toward The Documentary Cut opens, and something on the other side seems to notice.",
           "nextNodeId": "s16"
         },
         {
           "text": "Go home to make small art",
-          "consequence": "“Go home to make small art” closes one possibility and opens another. The moment leaves a clear note behind: Quiet life.",
+          "consequence": "You choose to go home to make small art. By Your Sister, Always, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You play 200-capacity venues under a pseudonym for a year. The shows are honest. You write a new record that is, by any measure, the best of your career.",
+      "text": "You play 200-capacity venues under a pseudonym for a year. The shows are honest. You write a new record that is, by any measure, the best of your career. The distance between The Documentary Cut and Your Sister, Always begins with the choice between “Release the record under your real name” and “Release it pseudonymously.”",
       "sceneTitle": "The Small Tour",
       "choices": [
         {
           "text": "Release the record under your real name",
-          "consequence": "You commit to “Release the record under your real name.” The story records the instinct as “Reclaim” and carries it forward.",
+          "consequence": "You commit to release the record under your real name. It carries you into The Documentary Cut while the safer possibility closes without making a sound.",
           "nextNodeId": "s16"
         },
         {
           "text": "Release it pseudonymously",
-          "consequence": "You commit to “Release it pseudonymously.” The story records the instinct as “Stay small” and carries it forward.",
+          "consequence": "You release it pseudonymously. The way toward Your Sister, Always opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Take the doc's success and rest",
-          "consequence": "“Take the doc's success and rest” closes one possibility and opens another. The moment leaves a clear note behind: Pace.",
+          "consequence": "You commit to take the doc's success and rest. It carries you into The Backstage Mirror while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Use the moment to push a real reform of the industry",
-          "consequence": "There is no taking “Use the moment to push a real reform of the industry” back. Action shapes the silence before the next moment arrives.",
+          "consequence": "You commit to use the moment to push a real reform of the industry. It carries you into The Backstage Mirror while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Tour gently from now on",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pace forever.",
+          "consequence": "You commit to tour gently from now on. It carries you into Boston Bench while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         },
         {
           "text": "Open a small school for young performers",
-          "consequence": "Pass it forward.",
+          "consequence": "You open a small school for young performers. The way toward Boston Bench opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Make the promise the rule",
-          "consequence": "There is no taking “Make the promise the rule” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You commit to make the promise the rule. It carries you into The Encore while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Make the promise the working draft",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Flexible.",
+          "consequence": "You commit to make the promise the working draft. It carries you into The Encore while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "On a bench in Boston between soundcheck and show, your sister and you split a sandwich. You tell her you're scared and also okay. She nods. She takes the half you don't finish.",
+      "text": "On a bench in Boston between soundcheck and show, your sister and you split a sandwich. You tell her you're scared and also okay. She nods. She takes the half you don't finish. The Encore will follow either decision, but it will meet a different version of you after “Carry the bench feeling onstage” than after “Step onstage as a different person.”",
       "sceneTitle": "Boston Bench",
       "choices": [
         {
           "text": "Carry the bench feeling onstage",
-          "consequence": "“Carry the bench feeling onstage” closes one possibility and opens another. The moment leaves a clear note behind: Calm.",
+          "consequence": "You choose to carry the bench feeling onstage. By The Encore, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Step onstage as a different person",
-          "consequence": "There is no taking “Step onstage as a different person” back. Performer shapes the silence before the next moment arrives.",
+          "consequence": "You choose to step onstage as a different person. By The Encore, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,17 +385,17 @@
       "choices": [
         {
           "text": "Quiet, paced career from here",
-          "consequence": "The decision settles the question for now. Its verdict—Quiet—follows you into whatever comes next.",
+          "consequence": "You quiet, paced career from here. The way toward Quietly opens, and something on the other side seems to notice.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Industry-reform megaphone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Megaphone.",
+          "consequence": "You industry-reform megaphone. The way toward Industry Reform opens, and something on the other side seems to notice.",
           "nextNodeId": "end_reform"
         },
         {
           "text": "Open the small school",
-          "consequence": "There is no taking “Open the small school” back. Pass forward shapes the silence before the next moment arrives.",
+          "consequence": "You choose to open the small school. By The Small School, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_school"
         }
       ],

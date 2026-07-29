@@ -18,17 +18,17 @@
   "nodes": [
     {
       "id": "m1",
-      "text": "The car jerks and stills. The display says 23. The smell is wrong.",
+      "text": "The car drops half a floor and stops with a sound like a dropped wrench. Display: 23. The fluorescent panel ticks twice and holds. Then the smell arrives — not smoke exactly, but the thing that comes before smoke, hot dust and something plastic giving up. Four people in a box the size of a bathroom, and nobody has looked at anybody yet. Somewhere above you, a fan shuts off.",
       "sceneTitle": "The Stop",
       "choices": [
         {
           "text": "Hit the call button",
-          "consequence": "“Hit the call button” closes one possibility and opens another. The moment leaves a clear note behind: Tactical.",
+          "consequence": "You press it and get a recorded menu. Option two is building services. Option two rings, and rings, and then the line simply ends without a click.",
           "nextNodeId": "m2"
         },
         {
           "text": "Pry the doors",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You get four inches and a view of poured concrete — you're between floors. Cold air comes through the gap, and with it a sound like a distant crowd.",
           "nextNodeId": "m2"
         }
       ],
@@ -37,17 +37,17 @@
     },
     {
       "id": "m2",
-      "text": "A nurse, a teenager, a man with a briefcase. Each takes you in.",
+      "text": "A nurse in scrubs with her hospital badge clipped on backwards. A boy, maybe fifteen, earbuds still in but nothing playing through them. A man in a good coat holding a briefcase against his chest with both arms, the way you would hold a child. Everyone takes everyone in, fast, the way people do when they have just been made into a group. The alarm starts on 23. Then on 24.",
       "sceneTitle": "The Strangers",
       "choices": [
         {
           "text": "Take charge",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lead.",
+          "consequence": "You say your name and ask for theirs, which is the smallest possible act of leadership and immediately makes you responsible for three human beings.",
           "nextNodeId": "m3"
         },
         {
           "text": "Step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You stay against the rail and let the nurse start talking. Being useful later means not burning out now, and you have decided she is better at this.",
           "nextNodeId": "m3"
         }
       ],
@@ -56,17 +56,17 @@
     },
     {
       "id": "m3",
-      "text": "Two have no signal. The nurse's does.",
+      "text": "No bars. The boy holds his phone up in the corner like an offering and gets nothing back. The man in the coat says his is dead and doesn't take it out of his pocket, which you notice and file away. The nurse has one bar, flickering, and a dispatcher who tells her the fire is on 21, the elevators are locked out, and it will be a while. Her face doesn't move while she hears it.",
       "sceneTitle": "Phones",
       "choices": [
         {
           "text": "Coordinate",
-          "consequence": "“Coordinate” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You collect everyone's emergency contact into one phone and draft a single text, ready to send the second a bar returns. The boy gives a number and says, 'she works nights.'",
           "nextNodeId": "m4"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You let the nurse handle dispatch and watch the man in the coat instead. He has not asked one question about the fire. Not a single one.",
           "nextNodeId": "m4"
         }
       ],
@@ -75,17 +75,17 @@
     },
     {
       "id": "m4",
-      "text": "A thin line of smoke under the door. The boy starts coughing.",
+      "text": "It comes under the door first — a flat grey line along the floor, moving the way water moves. Then the metal by your shoulder is warm. The boy coughs once, then can't stop, and the sound has a wet edge that changes the nurse's posture entirely. She is counting his breaths and looking at the ceiling at the same time. Twenty-three is not a floor any ladder reaches.",
       "sceneTitle": "Smoke",
       "choices": [
         {
           "text": "Wet your shirts",
-          "consequence": "“Wet your shirts” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "The nurse empties a water bottle over four bunched shirts and shows the boy how to breathe through his, low and slow. It buys minutes. Minutes are the whole currency now.",
           "nextNodeId": "m5"
         },
         {
           "text": "Lift the ceiling panel",
-          "consequence": "You commit to “Lift the ceiling panel.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "The man in the coat makes a stirrup of his hands without being asked, and the panel goes up on the second shove. Above it: dark, and colder air falling in.",
           "nextNodeId": "m5"
         }
       ],
@@ -94,17 +94,17 @@
     },
     {
       "id": "m5",
-      "text": "Above the panel, an old maintenance ladder runs to the roof.",
+      "text": "Behind the panel, the shaft — greasy cable, and a maintenance ladder bolted to the wall that somebody stopped inspecting in a decade with different fonts. Twelve feet up, a service hatch outlined in daylight. The rungs are cold and slick, and there's a gap where one is missing entirely. Whoever climbs first tests it for everyone. The nurse looks at the boy. The boy looks at you.",
       "sceneTitle": "Ladder Up",
       "choices": [
         {
           "text": "Send the boy first",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "Lightest first, and he's the one who can't breathe. He goes up shaking, misses the gap rung twice, and makes it. Nobody exhales until the hatch light widens.",
           "nextNodeId": "m6"
         },
         {
           "text": "Send the strongest first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pragmatic.",
+          "consequence": "The man in the coat goes, briefcase abandoned on the floor at last, testing the ladder with weight and hauling the others through. He is better at this than you expected.",
           "nextNodeId": "m6"
         }
       ],
@@ -113,17 +113,17 @@
     },
     {
       "id": "m6",
-      "text": "Roof. Helicopters far off. The nurse hugs you in a way that is years of hugging compressed.",
+      "text": "Roof. Gravel, a chained satellite dish, wind that tastes like clean nothing after twenty minutes of the other thing. Two helicopters working a fire three streets over — not yours, not yet. The boy is on his side, breathing properly. The nurse puts her arms around you hard, and it isn't a thank-you; it's years of hugging that never got done, arriving all at once, in entirely the wrong place.",
       "sceneTitle": "Daylight",
       "choices": [
         {
           "text": "Hug back",
-          "consequence": "There is no taking “Hug back” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You hug a stranger on a roof for longer than either of you would admit to, and something in your chest lets go that you hadn't known was holding.",
           "nextNodeId": "end_safe"
         },
         {
           "text": "Help the others up first",
-          "consequence": "There is no taking “Help the others up first” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You step out of her arms to haul the last man through the hatch, and she laughs at you — properly laughs — because of course that's what you did.",
           "nextNodeId": "end_friend"
         }
       ],
@@ -132,7 +132,7 @@
     },
     {
       "id": "end_safe",
-      "text": "Everyone gets out. The man in the suit, weeping in his SUV, tells you it was his first day.",
+      "text": "Everybody gets out. Twenty-two people, three ambulances, no fatalities, a building closed for the next eight months. In the parking structure you find the man in the good coat sitting sideways in his SUV with the door open, crying the way men his age practice never doing. It was his first day. He had been in the building fifty minutes. He keeps repeating it, as though the number explains something.",
       "sceneTitle": "Safe",
       "choices": [],
       "isEnding": true,
@@ -140,7 +140,7 @@
     },
     {
       "id": "end_friend",
-      "text": "You stay friends with the nurse. You get drinks every February 4th.",
+      "text": "Her name is Dana, she works nights at St. Vincent's, and you get drinks every February 4th in a bar with no elevator, at a table she picks. Seven years of it now. She has never once mentioned the shaft, or the boy, or the ladder, and neither have you. What you talk about is her sister, your knee, the terrible film she saw last week. That is the friendship. That is the entire point of it.",
       "sceneTitle": "Friend in a Stairwell",
       "choices": [],
       "isEnding": true,

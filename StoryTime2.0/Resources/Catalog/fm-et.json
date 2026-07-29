@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Something rustles. Reese's Pieces lead it to your room.",
+      "text": "You are the one sent out for the pizza, because you are the one nobody at the card table wants to talk to. Behind the shed the cornstalks move against the wind, which is wrong. You throw a baseball into the dark and something throws it back. Nobody believes you. So you lay a line of candy from the corn to the shed to your window, one piece every step, and stay up.",
       "sceneTitle": "Shed",
       "choices": [
         {
           "text": "Lure with candy",
-          "consequence": "You commit to “Lure with candy.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You spend a whole bag of Reese's Pieces on a trail through the yard, and by two in the morning the trail is gone, every last one.",
           "nextNodeId": "s2"
         },
         {
           "text": "Confront",
-          "consequence": "You commit to “Confront.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go out in your sneakers with a flashlight that keeps dying, saying hello into the corn in a voice you barely recognise as brave.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "He hides among stuffed animals. He blinks.",
+      "text": "He shuffles in behind you and stops in the closet among the Snoopys and the sock monkey, and he holds very still, and he almost matches. Then he blinks. The eyes are blue and enormous and much older than everything else about him. You sit on the carpet with the door open six inches all night. Neither of you sleeps. Neither of you leaves.",
       "sceneTitle": "Closet",
       "choices": [
         {
           "text": "Don't tell Mom",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You keep him inside your own room, which is the first thing that has ever been entirely yours, and you lie about the noises at breakfast.",
           "nextNodeId": "s3"
         },
         {
           "text": "Tell Mom",
-          "consequence": "“Tell Mom” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You stand in her doorway and say there is something in my closet, and she says honey in the tired voice, and does not get up.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your little sister sees him. He, somehow, is okay with this.",
+      "text": "Gertie walks in without knocking, because she is five and doors do not mean anything yet. She screams. He screams back, higher, and knocks the lamp over. Then she stops, because he has stopped, and she holds out a fistful of jelly beans, not bravely, just politely, the way she was taught. He takes one. She tells him her name twice, slowly.",
       "sceneTitle": "Gertie",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You let her stay, and she teaches him three words before lunch, and none of them are useful, and all three are hers.",
           "nextNodeId": "s4"
         },
         {
           "text": "Swear her to secrecy",
-          "consequence": "There is no taking “Swear her to secrecy” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You make her spit-swear on the carpet, and she keeps it, and being trusted turns her into somebody who has never once been trusted before.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You feel what he feels. Sometimes drunk, sometimes sad.",
+      "text": "It starts small. You get thirsty when he drinks. Then halfway through arithmetic your face goes hot for no reason and something under your ribs turns soft and sad, and you know, without being told, that he is in your closet looking at the photograph of a family that is not his. There is a wire between you now. It only runs one direction at a time.",
       "sceneTitle": "Elliott's Bond",
       "choices": [
         {
           "text": "Trust the bond",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You stop fighting it and let his feelings come across, and school becomes impossible, and you are not lonely for a single minute of the day.",
           "nextNodeId": "s5"
         },
         {
           "text": "Resist it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You hold yourself shut all afternoon like a fist, and it works, and he sits in the closet not understanding what he did wrong.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "You release the frogs in science class. You kiss Erika.",
+      "text": "He is home in front of a black-and-white movie with the fridge door hanging open, so at ten in the morning you are unreasonably happy for no reason you could write down. The frogs in the dissection trays are looking at you. You open the jars. You open the window. Then the man in the movie kisses somebody, and a girl with feathered hair is standing right there in the aisle.",
       "sceneTitle": "Frog Day",
       "choices": [
         {
           "text": "Just go with it",
-          "consequence": "There is no taking “Just go with it” back. Joy shapes the silence before the next moment arrives.",
+          "consequence": "You kiss her and get carried out of the room under a teacher's arm with frogs going in every direction, and it is the best day of fourth grade.",
           "nextNodeId": "s6"
         },
         {
           "text": "Apologize after",
-          "consequence": "There is no taking “Apologize after” back. Civil shapes the silence before the next moment arrives.",
+          "consequence": "You find her by the lockers and explain about the frogs, leaving out the part about the alien, and she says okay, weirdly, and means it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "He builds a radio out of an umbrella and a saw blade.",
+      "text": "He wants the coffee-can lid, the arm off the record player, an umbrella, the buzz saw and Gertie's Speak-and-Spell, and he wants them in that order. He points at each thing and waits for you to fetch it. It takes all Saturday. What he builds looks like something a raccoon would make, and it hums, and it turns itself toward the sky with nobody touching it.",
       "sceneTitle": "Phone Home",
       "choices": [
         {
           "text": "Help him",
-          "consequence": "“Help him” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You give up the record player you got for your birthday and hold the umbrella steady for an hour, and never once ask what happens to you afterwards.",
           "nextNodeId": "s7"
         },
         {
           "text": "Slow him down",
-          "consequence": "The decision settles the question for now. Its verdict—Selfish—follows you into whatever comes next.",
+          "consequence": "You hide the saw blade under your bed for a whole day and tell him you cannot find it, and he waits, patiently, which is far worse.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He needs to broadcast from a hill.",
+      "text": "The signal needs height and open sky, which means the ridge past the reservoir, which means going out on Halloween, which means a sheet with two holes cut in it. Gertie's ghost costume goes over him and he is short enough to pass and tall enough not to. Mike says he is too heavy for the basket. You already know what the bike does going downhill with him in it.",
       "sceneTitle": "Forest Trip",
       "choices": [
         {
           "text": "Carry the radio in your bike",
-          "consequence": "There is no taking “Carry the radio in your bike” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You take his weight in the front basket and pedal until your legs burn, and the front wheel leaves the road, and you do not scream once.",
           "nextNodeId": "s8"
         },
         {
           "text": "Drive there with Mike",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "Mike drives your mother's car with a cushion under him and the radio rattling in back, and the two of you argue about the turn-off the entire way.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "He turns gray. You turn gray.",
+      "text": "In the morning you find him face-down in the drainage ditch, the colour of old chewing gum, cold in a way that nothing alive is cold. You get him home in the wagon. By dinner you cannot lift your arm, and your mother's hand comes off your forehead wet, and both of you end up lying on the bathroom tile because the tile is the only cool thing left.",
       "sceneTitle": "Sick",
       "choices": [
         {
           "text": "Stay close",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You lie on the floor beside him where the wire between you pulls strongest, because getting worse together seems better than getting better alone.",
           "nextNodeId": "s9"
         },
         {
           "text": "Tell Mom now",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You crawl to the top of the stairs and call her, and she comes running, and after that the house belongs to other people.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Mom finds him. Government men in suits arrive.",
+      "text": "She sees him on the bathroom floor and picks Gertie up and gets all of you to the front door, and the front door has a man in it, in a space suit, filling the whole frame. Behind him the yard is white with vans and lights. They have been listening to your house for weeks. The one with the keys on his belt says your name like he already knows you.",
       "sceneTitle": "Discovery",
       "choices": [
         {
           "text": "Hide him",
-          "consequence": "There is no taking “Hide him” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You throw a blanket over him and stand in front of it with your arms out, and grown men in plastic suits go around you like water round a rock.",
           "nextNodeId": "s10"
         },
         {
           "text": "Cooperate",
-          "consequence": "“Cooperate” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You point at the bathroom because he is dying and you have run out of ideas, and you will spend years deciding whether that was a betrayal.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The house becomes a hospital.",
+      "text": "They put your house in a bag. Plastic tunnels down the hallway, a zipper where the kitchen door used to be, men eating sandwiches in your living room in full suits. Nobody asks anybody's permission. Your mother is signing forms at the table with her coat still on. Through the sheeting, your bedroom looks like a photograph of your bedroom.",
       "sceneTitle": "Plastic Tent",
       "choices": [
         {
           "text": "Stay by his side",
-          "consequence": "“Stay by his side” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You refuse to leave the gurney and they allow it, because it turns out their machines read better when you are holding on to him.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay out of the way",
-          "consequence": "You commit to “Stay out of the way.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You sit in the plastic corridor with your knees up while they work, being good, being no trouble, which is what you have been all year.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "His heart flickers. So does yours.",
+      "text": "The light under his chest comes on when he wants something and goes out when he is frightened, and now the doctors have a monitor for it, and a name for it, and a chart. Yours is on the next screen along, in green, doing precisely the same thing at precisely the same time. A man with a beard keeps saying we are losing him. Nobody says which one.",
       "sceneTitle": "Heart Light",
       "choices": [
         {
           "text": "Hold his hand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You reach through the plastic and take three of his fingers, and both lines on both screens climb, and a nurse writes it down without understanding it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Step back",
-          "consequence": "“Step back” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You let go so the doctors can work, and the second you do, the wire goes quiet, and you have your own body back and you hate it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "He stops glowing. You break.",
+      "text": "The light under his chest goes out and stays out. Your own chest turns warm and ordinary and yours again, and that is how you know before anybody says it. They put him in a steel box with a window in the lid and pack ice in around him. Everyone in the room is being extremely kind to you. You want them to be anything else.",
       "sceneTitle": "Dead",
       "choices": [
         {
           "text": "Mourn",
-          "consequence": "You commit to “Mourn.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put your forehead on the cold lid of the box and say all the things you did not get to say, out loud, in front of ten adults.",
           "nextNodeId": "s13"
         },
         {
           "text": "Refuse to mourn",
-          "consequence": "You commit to “Refuse to mourn.” The story records the instinct as “Hope” and carries it forward.",
+          "consequence": "You tell the man with the keys that he is not dead, flatly, twice, and the man does not argue with you, which is how you know he pities you.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The flower blooms. He whispers your name.",
+      "text": "The geranium Gertie left beside the box has been dead a whole day, and while you are sitting there the stalk lifts and the thing opens, petal by petal, like somebody running a film backwards. Then the window in the lid fogs from the inside. The light comes back on under his chest, and your chest answers it, and he says your name wrong, the way he always does.",
       "sceneTitle": "Awake",
       "choices": [
         {
           "text": "Don't tell the adults",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You put your coat over the window in the lid and walk out of the room at a normal speed, which is the hardest walking you have ever done.",
           "nextNodeId": "s14"
         },
         {
           "text": "Tell the doctor",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You shout for the man with the beard and he comes at a run with a clipboard, and every second he spends being amazed is a second you lose.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Mike and his friends. Bikes. A van.",
+      "text": "You get Mike on the phone and say four words and he does not ask a single question. Greg and Steve and Tyler arrive on their bikes with sleeping bags and no plan whatsoever. He goes in the back of the government van under a blanket with the flower held against him, and Mike, who is fifteen and has driven a car precisely never, gets behind the wheel.",
       "sceneTitle": "Escape Plan",
       "choices": [
         {
           "text": "Steal the van",
-          "consequence": "There is no taking “Steal the van” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "Mike takes the van off the kerb, through a fence and out into the road, hitting the horn with his elbow, and nobody stops laughing until the sirens start.",
           "nextNodeId": "s15"
         },
         {
           "text": "Run on foot",
-          "consequence": "There is no taking “Run on foot” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You carry him between you through three backyards and a hedge, and Tyler's mother watches the whole thing from her kitchen window and never says a word.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Police behind. You pedal. He, in the basket, lifts the bikes.",
+      "text": "Five bikes down a residential street with a squad car behind and men stepping out from between parked cars with their arms spread wide. Then the road runs out at a roadblock and there is nowhere left to put a wheel. The basket goes heavy. The front tyre comes up, and keeps coming up, and the hedge and then the rooftops slide underneath you.",
       "sceneTitle": "Chase",
       "choices": [
         {
           "text": "Trust it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You put your feet flat on the pedals and lean into the sky and let him steer, and you laugh so hard you nearly fall out of California.",
           "nextNodeId": "s16"
         },
         {
           "text": "Be terrified",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You grip the bars white-knuckled with your eyes shut, at rooftop height, over a whole suburb, and you are still the luckiest boy in the county.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Spaceship lands. Lights through trees.",
+      "text": "The clearing is the same one where you found him. The ship comes down slowly with its lights doing something that is not quite music, and the whole forest turns silver, and the pine needles lift off the ground and hang there. He is standing on his own feet for the first time in a week. He is looking up. He is not looking at you.",
       "sceneTitle": "Forest, Again",
       "choices": [
         {
           "text": "Walk him up",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You walk him all the way to the bottom of the ramp with your hand on his shoulder, because leaving him to do it alone is not a thing you can do.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait at the edge",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You stop at the treeline and let him have it to himself, and it is the first grown-up thing you have ever done, and it costs you accordingly.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "They arrive. Gertie hands him a flower.",
+      "text": "Your mother comes through the trees with her hand over her mouth and does not scream, which you will think about for years. Gertie goes straight past everybody, because she has brought him something. The geranium, replanted, in its pot. She holds it up as high as she can reach. He takes it in both hands and says her name, and gets it right, and she says thank you.",
       "sceneTitle": "Mom and Gertie",
       "choices": [
         {
           "text": "Hug them",
-          "consequence": "You commit to “Hug them.” The story records the instinct as “Love” and carries it forward.",
+          "consequence": "You take a fistful of your mother's coat and Gertie's hood and hold on, and the three of you stand there like something that came through a storm.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stand alone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stay three steps out on your own in the ferns, because if you touch anybody at all right now you will not manage the rest of it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "He touches his finger to your forehead. He'll be right here.",
+      "text": "He lifts the finger, the one that lights, and sets it just above your eyebrow and holds it there. It is warm. Nothing is said out loud. What arrives instead is a fact, placed carefully in your head in the drawer where you keep your own name: this part stays. Whatever happens to the rest of it, whatever they take, this is not going anywhere.",
       "sceneTitle": "The Touch",
       "choices": [
         {
           "text": "Cry",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You cry properly, the loud kind, with your whole face, in front of your mother and four boys from your street, and not one of them mentions it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Smile",
-          "consequence": "There is no taking “Smile” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You hold your mouth steady and give him the best smile you have, because he is the one leaving, and somebody ought to send him off well.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "He climbs aboard. The ship rises. The rainbow stripes are in the sky.",
+      "text": "He goes up the ramp with the geranium held against his chest and does not turn around, and you understand that he cannot, and that this is not unkindness. The ramp folds shut. The lights run their sequence one last time. Then the ship goes straight up and lays a band of colour across the sky above the reservoir, and the crickets start again as if nothing happened.",
       "sceneTitle": "Departing",
       "choices": [
         {
           "text": "Wave",
-          "consequence": "“Wave” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You wave with both arms at something already far too high to see you, and Gertie copies you, and after a second so does Mike.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stand still",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You keep your hands at your sides and watch it all the way out, marking the exact place in the sky where it stops being visible.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Mom's hand on your shoulder. The house is small. The world is bigger.",
+      "text": "The government take their plastic down and their vans away and leave the lawn ruined. The house is the same size it was in September and much too big. Your mother's hand lands on your shoulder in the kitchen doorway and stays there longer than usual. Nobody mentions your father. The closet door is standing open, and there is nothing in it but Snoopys.",
       "sceneTitle": "Home, Now Quieter",
       "choices": [
         {
           "text": "Eat dinner",
-          "consequence": "You commit to “Eat dinner.” The story records the instinct as “Routine” and carries it forward.",
+          "consequence": "You sit down and eat two slices and answer Gertie's questions about outer space with a completely straight face, and your mother watches you do it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Sit on the porch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You take your plate outside and eat looking at the corn, and after a while your mother brings her own plate out and does not talk.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Years later you keep the dead flower in a book.",
+      "text": "The geranium went up with him, but Gertie kept a single leaf, and the leaf ends up pressed flat in the middle of a dictionary on your shelf, brown as a paper bag. You are seventeen. Then twenty-five. The book moves house four times and never once gets given away, and everybody who helps you carry boxes asks what is so special about the dictionary.",
       "sceneTitle": "Later",
       "choices": [
         {
           "text": "Open the book sometimes",
-          "consequence": "“Open the book sometimes” closes one possibility and opens another. The moment leaves a clear note behind: Sentiment.",
+          "consequence": "You look at the leaf maybe twice a year, on no particular date, and every time your chest does something you have never found a word for.",
           "nextNodeId": "end_grown"
         },
         {
           "text": "Keep it closed",
-          "consequence": "You commit to “Keep it closed.” The story records the instinct as “Memory” and carries it forward.",
+          "consequence": "You leave the page unturned and let the leaf get on with being a leaf, because you never needed proof, and proof only fades.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You start telling it out loud, badly at first, and find you can put the whole night back into a room just by describing the candy on the grass.",
           "nextNodeId": "end_storyteller"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_grown",
-      "text": "You become an astronaut. You don't, in the end, meet him again. The stars are, you find, enough.",
+      "text": "You spend a decade in a flight suit and four months at a stretch in a can above the Pacific. You look, obviously. You do not find him, because space turns out to be mostly distance and the distance is honest about itself. But on the night side of the planet, with the lights of Karachi and Cairo going past underneath and the radio quiet, you notice that you are not lonely, and that you have not been since you were ten years old.",
       "sceneTitle": "Elliott, Grown",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You become a teacher in the same town. Gertie becomes a doctor. Mom remarries kindly. The flower is, still, in the book.",
+      "text": "You teach fifth grade three blocks from the house you grew up in, and every October a kid with no friends turns up in your room and you know exactly what to do about it. Gertie fixes children's hearts in San Diego and still cannot keep a houseplant alive. Your mother married a decent man who repairs things without being asked twice. The dictionary sits on the shelf above your desk, and the leaf is on page four hundred and six, and it is browner every year.",
       "sceneTitle": "Quiet Life",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_storyteller",
-      "text": "You write the story down for kids who don't believe in much anymore. They believe. Some of them, after, build radios out of unlikely parts.",
+      "text": "You write it down for nine-year-olds, the ones who have stopped expecting much from anybody. You leave in everything embarrassing: the frogs, the crying, the sheet with two holes cut in it, the part where you were rude to him for a week. Kids read it under their desks and argue about whether it happened. Some of them decide that it did. A few of those go out to the garage with a record-player arm and a coffee-can lid, and their parents find them at midnight, pointing something homemade at the sky.",
       "sceneTitle": "The Storyteller",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The biggest ship ever built. White Star flags. You don't look at it the way the steerage does.",
+      "text": "The biggest ship ever built. White Star flags. You don't look at it the way the steerage does. You cannot avoid Cal; you can only decide whether “Try to feel the wonder” or “Stay composed” defines the person who reaches it.",
       "sceneTitle": "Boarding",
       "choices": [
         {
           "text": "Try to feel the wonder",
-          "consequence": "You commit to “Try to feel the wonder.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to try to feel the wonder. The way to Cal opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay composed",
-          "consequence": "The decision settles the question for now. Its verdict—Class—follows you into whatever comes next.",
+          "consequence": "You commit to stay composed. By Cal, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your fiancé's smile is, on closer reading, ownership.",
+      "text": "Your fiancé's smile is, on closer reading, ownership. You cannot avoid Dinner; you can only decide whether “Tolerate” or “Push back” defines the person who reaches it. By Dinner, ambiguity will no longer protect what you actually feel.",
       "sceneTitle": "Cal",
       "choices": [
         {
           "text": "Tolerate",
-          "consequence": "You commit to “Tolerate.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You tolerate. It carries you toward Dinner and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s3"
         },
         {
           "text": "Push back",
-          "consequence": "There is no taking “Push back” back. Spirit shapes the silence before the next moment arrives.",
+          "consequence": "You commit to push back. By Dinner, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The first-class dining room is a circus of forks.",
+      "text": "The first-class dining room is a circus of forks. Both choices lead to The Stern, but “Be charming” arrives there with a different cost than “Be honest.” By The Stern, ambiguity will no longer protect what you actually feel.",
       "sceneTitle": "Dinner",
       "choices": [
         {
           "text": "Be charming",
-          "consequence": "“Be charming” closes one possibility and opens another. The moment leaves a clear note behind: Strategy.",
+          "consequence": "You choose to be charming. The way to The Stern opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s4"
         },
         {
           "text": "Be honest",
-          "consequence": "There is no taking “Be honest” back. Truth shapes the silence before the next moment arrives.",
+          "consequence": "You choose to be honest. The way to The Stern opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You walk to the back at night, considering the water.",
+      "text": "You walk to the back at night, considering the water. Jack is already waiting. What changes is whether “Climb the rail” or “Step back” is the instinct you carry into it. In The Stern, silence would answer the question in its own way.",
       "sceneTitle": "The Stern",
       "choices": [
         {
           "text": "Climb the rail",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You climb the rail. It carries you toward Jack and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s5"
         },
         {
           "text": "Step back",
-          "consequence": "“Step back” closes one possibility and opens another. The moment leaves a clear note behind: Caution.",
+          "consequence": "You choose to step back. The way to Jack opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A man named Jack talks you back from the rail. He sketches.",
+      "text": "A man named Jack talks you back from the rail. He sketches. Steerage Party is already waiting. What changes is whether “Talk to him” or “Walk away” is the instinct you carry into it. At Steerage Party, the choice will be visible before either of you explains it.",
       "sceneTitle": "Jack",
       "choices": [
         {
           "text": "Talk to him",
-          "consequence": "The decision settles the question for now. Its verdict—Curious—follows you into whatever comes next.",
+          "consequence": "You talk to him. It carries you toward Steerage Party and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s6"
         },
         {
           "text": "Walk away",
-          "consequence": "You commit to “Walk away.” The story records the instinct as “Class” and carries it forward.",
+          "consequence": "You choose to walk away. The way to Steerage Party opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Beer, music, dancing without shoes.",
+      "text": "Beer, music, dancing without shoes. The road still runs toward Cal's Anger. Its next turn depends on the difference between choosing “Dance” and choosing “Sit and watch.” By Cal's Anger, ambiguity will no longer protect what you actually feel.",
       "sceneTitle": "Steerage Party",
       "choices": [
         {
           "text": "Dance",
-          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "consequence": "You commit to dance. By Cal's Anger, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Sit and watch",
-          "consequence": "There is no taking “Sit and watch” back. Quiet shapes the silence before the next moment arrives.",
+          "consequence": "You commit to sit and watch. By Cal's Anger, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Cal flips the table. He hits you, almost. You realize you cannot marry him.",
+      "text": "Cal flips the table. He hits you, almost. You realize you cannot marry him. The Sketch is already waiting. What changes is whether “Decide now” or “Decide later” is the instinct you carry into it.",
       "sceneTitle": "Cal's Anger",
       "choices": [
         {
           "text": "Decide now",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You decide now. It carries you toward The Sketch and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s8"
         },
         {
           "text": "Decide later",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You commit to decide later. By The Sketch, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Jack draws you wearing only the Heart of the Ocean. Cal will find the sketch.",
+      "text": "Jack draws you wearing only the Heart of the Ocean. Cal will find the sketch. Cargo Hold comes either way; its meaning changes with the difference between “Hide it” and “Leave it for him.” By Cargo Hold, ambiguity will no longer protect what you actually feel.",
       "sceneTitle": "The Sketch",
       "choices": [
         {
           "text": "Hide it",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You hide it. It carries you toward Cargo Hold and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s9"
         },
         {
           "text": "Leave it for him",
-          "consequence": "You commit to “Leave it for him.” The story records the instinct as “Defiant” and carries it forward.",
+          "consequence": "You leave it for him. It carries you toward Cargo Hold and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Cars in the hold. A handprint on a window.",
+      "text": "Cars in the hold. A handprint on a window. You cannot avoid Iceberg Spotted; you can only decide whether “Just be here” or “Run for the deck” defines the person who reaches it. At Iceberg Spotted, the choice will be visible before either of you explains it.",
       "sceneTitle": "Cargo Hold",
       "choices": [
         {
           "text": "Just be here",
-          "consequence": "There is no taking “Just be here” back. Present shapes the silence before the next moment arrives.",
+          "consequence": "You choose to just be here. The way to Iceberg Spotted opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s10"
         },
         {
           "text": "Run for the deck",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plan.",
+          "consequence": "You run for the deck. It carries you toward Iceberg Spotted and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "11:40 p.m. Bell. Frantic turn. The scrape is small. The water is fast.",
+      "text": "11:40 p.m. Bell. Frantic turn. The scrape is small. The water is fast. The road still runs toward Mr. Andrews. Its next turn depends on the difference between choosing “Believe it” and choosing “Disbelieve it.”",
       "sceneTitle": "Iceberg Spotted",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "“Believe it” closes one possibility and opens another. The moment leaves a clear note behind: Real.",
+          "consequence": "You commit to believe it. By Mr. Andrews, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Disbelieve it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hope.",
+          "consequence": "You choose to disbelieve it. The way to Mr. Andrews opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The architect knows the ship will sink. He tells you to put on your lifebelt.",
+      "text": "The architect knows the ship will sink. He tells you to put on your lifebelt. Nobody else in Mr. Lifeboat comes either way; its meaning changes with the difference between “Trust him” and “Hesitate.” In Mr. Andrews, silence would answer the question in its own way.",
       "sceneTitle": "Mr. Andrews",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You choose to trust him. The way to Lifeboat opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hesitate",
-          "consequence": "“Hesitate” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to hesitate. The way to Lifeboat opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Women and children first. Cal forces you in. Jack is on the deck.",
+      "text": "Women and children first. Cal forces you in. Jack is on the deck. The Jump is already waiting. What changes is whether “Step in” or “Step out” is the instinct you carry into it. In Lifeboat, silence would answer the question in its own way.",
       "sceneTitle": "Lifeboat",
       "choices": [
         {
           "text": "Step in",
-          "consequence": "The decision settles the question for now. Its verdict—Live—follows you into whatever comes next.",
+          "consequence": "You choose to step in. The way to The Jump opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s13"
         },
         {
           "text": "Step out",
-          "consequence": "You commit to “Step out.” The story records the instinct as “Choice” and carries it forward.",
+          "consequence": "You commit to step out. By The Jump, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You leap from the lifeboat back onto the ship. Jack runs to you.",
+      "text": "You leap from the lifeboat back onto the ship. Jack runs to you. Both choices lead to Cal Chases, but “Hold his hand” arrives there with a different cost than “Look at the ship.” In The Jump, silence would answer the question in its own way.",
       "sceneTitle": "The Jump",
       "choices": [
         {
           "text": "Hold his hand",
-          "consequence": "The decision settles the question for now. Its verdict—Vow—follows you into whatever comes next.",
+          "consequence": "You hold his hand. It carries you toward Cal Chases and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s14"
         },
         {
           "text": "Look at the ship",
-          "consequence": "There is no taking “Look at the ship” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You look at the ship. It carries you toward Cal Chases and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Cal, with a pistol. The corridors are flooding.",
+      "text": "Cal, with a pistol. The corridors are flooding. Stairwell comes either way; its meaning changes with the difference between “Run” and “Trick him.” By Stairwell, ambiguity will no longer protect what you actually feel. Cal's jealousy has become a weapon, and the rising water is closing every detour.",
       "sceneTitle": "Cal Chases",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You run. It carries you toward Stairwell and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s15"
         },
         {
           "text": "Trick him",
-          "consequence": "There is no taking “Trick him” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You choose to trick him. The way to Stairwell opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Water roars up the staircase. A clock chimes 2:00.",
+      "text": "Water roars up the staircase. A clock chimes 2:00. The road still runs toward Locked Gates. Its next turn depends on the difference between choosing “Climb high” and choosing “Help others as you go.”",
       "sceneTitle": "Stairwell",
       "choices": [
         {
           "text": "Climb high",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You choose to climb high. The way to Locked Gates opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s16"
         },
         {
           "text": "Help others as you go",
-          "consequence": "You commit to “Help others as you go.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to help others as you go. By Locked Gates, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Steerage is locked below. You and Jack break a bench from the floor.",
+      "text": "Steerage is locked below. You and Jack break a bench from the floor. The road still runs toward Stern Rising. Its next turn depends on the difference between choosing “Break the gate” and choosing “Find another route.”",
       "sceneTitle": "Locked Gates",
       "choices": [
         {
           "text": "Break the gate",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to break the gate. By Stern Rising, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Find another route",
-          "consequence": "You commit to “Find another route.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You commit to find another route. By Stern Rising, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The stern rises out of the water. You hold the rail.",
+      "text": "The stern rises out of the water. You hold the rail. The Plunge comes either way; its meaning changes with the difference between “Climb the rail” and “Wait it out.” At The Plunge, the choice will be visible before either of you explains it.",
       "sceneTitle": "Stern Rising",
       "choices": [
         {
           "text": "Climb the rail",
-          "consequence": "“Climb the rail” closes one possibility and opens another. The moment leaves a clear note behind: Plan.",
+          "consequence": "You climb the rail. It carries you toward The Plunge and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s18"
         },
         {
           "text": "Wait it out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Faith.",
+          "consequence": "You wait it out. It carries you toward The Plunge and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The ship splits. The stern drops. Cold takes everything.",
+      "text": "The ship splits. The stern drops. Cold takes everything. You cannot avoid The Door; you can only decide whether “Hold Jack's hand” or “Swim to a door” defines the person who reaches it. In The Plunge, silence would answer the question in its own way.",
       "sceneTitle": "The Plunge",
       "choices": [
         {
           "text": "Hold Jack's hand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You hold Jack's hand. It carries you toward The Door and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s19"
         },
         {
           "text": "Swim to a door",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You choose to swim to a door. The way to The Door opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "A wooden door in the water. Jack pushes you onto it. He stays in.",
+      "text": "A wooden door in the water. Jack pushes you onto it. He stays in. Whistle will follow either decision, but it will meet a different version of you after “Hold his hand till he goes” than after “Promise to live.”",
       "sceneTitle": "The Door",
       "choices": [
         {
           "text": "Hold his hand till he goes",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You hold his hand till he goes. It carries you toward Whistle and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s20"
         },
         {
           "text": "Promise to live",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You commit to promise to live. By Whistle, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Carpathia is hours away. You take the whistle from a frozen officer.",
+      "text": "Carpathia is hours away. You take the whistle from a frozen officer. Carpathia will follow either decision, but it will meet a different version of you after “Blow it long” than after “Blow it short.”",
       "sceneTitle": "Whistle",
       "choices": [
         {
           "text": "Blow it long",
-          "consequence": "You commit to “Blow it long.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You commit to blow it long. By Carpathia, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Blow it short",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Conserve.",
+          "consequence": "You blow it short. It carries you toward Carpathia and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You give your name as Rose Dawson. The reporters never find you.",
+      "text": "You give your name as Rose Dawson. The reporters never find you. The distance between Rose Dawson and Cal, Eventually begins with the choice between “Hide” and “Step into the light.” A third choice, “Take the third path,” keeps Jack, Always in play.",
       "sceneTitle": "Carpathia",
       "choices": [
         {
           "text": "Hide",
-          "consequence": "The decision settles the question for now. Its verdict—Vow—follows you into whatever comes next.",
+          "consequence": "You commit to hide. By Rose Dawson, the distance between you will have changed, even if neither of you names it.",
           "nextNodeId": "end_dawson"
         },
         {
           "text": "Step into the light",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You step into the light. It carries you toward Cal, Eventually and makes the feeling underneath the decision impossible to hide.",
           "nextNodeId": "end_calvin"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. The way to Jack, Always opens, trading the safety of ambiguity for the possibility of being understood.",
           "nextNodeId": "end_jack"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_dawson",
-      "text": "You live as Rose Dawson for the rest of your life. You travel. You ride horses. You learn to fly. At eighty-something, you sail to the wreck site and drop the diamond in.",
+      "text": "You live as Rose Dawson for the rest of your life. You travel. You ride horses. You learn to fly. At eighty-something, you sail to the wreck site and drop the diamond in. The road into Rose Dawson began with “Hide” in Carpathia; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Rose Dawson",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_calvin",
-      "text": "Cal loses everything in 1929 and shoots himself. You read about it in the paper at breakfast. You finish the toast. You go on with your day.",
+      "text": "Cal loses everything in 1929 and shoots himself. You read about it in the paper at breakfast. You finish the toast. You go on with your day. The road into Cal, Eventually began with “Step into the light” in Carpathia; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Cal, Eventually",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_jack",
-      "text": "You keep a small sketch in a tin. You speak to him sometimes, by water. You marry, eventually, a kind man. He does not, you tell him, replace Jack. He understands.",
+      "text": "You keep a small sketch in a tin. You speak to him sometimes, by water. You marry, eventually, a kind man. He does not, you tell him, replace Jack. He understands. The road into Jack, Always began with “Take the third path” in Carpathia; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Jack, Always",
       "choices": [],
       "isEnding": true,

@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Auntie Em. Uncle Henry. Miss Gulch with a bicycle. Toto in your arms.",
+      "text": "Auntie Em. Uncle Henry. Miss Gulch with a bicycle. Toto in your arms. Both choices lead to Run Away, but “Stay with Auntie” arrives there with a different cost than “Run away.” In The Farm, the rules change the moment you decide they can be tested.",
       "sceneTitle": "The Farm",
       "choices": [
         {
           "text": "Stay with Auntie",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Family.",
+          "consequence": "You choose to stay with Auntie. By Run Away, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Run away",
-          "consequence": "You commit to “Run away.” The story records the instinct as “Spirit” and carries it forward.",
+          "consequence": "You choose to run away. By Run Away, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You meet Professor Marvel. He reads your future kindly.",
+      "text": "You meet Professor Marvel. He reads your future kindly. Cyclone will follow either decision, but it will meet a different version of you after “Listen” than after “Argue.” In Run Away, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Run Away",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "“Listen” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to listen. It carries you toward Cyclone, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Argue",
-          "consequence": "The decision settles the question for now. Its verdict—Spirit—follows you into whatever comes next.",
+          "consequence": "You commit to argue. It carries you toward Cyclone, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Storm cellar locked. You run for the house. The window comes loose.",
+      "text": "Storm cellar locked. You run for the house. The window comes loose. Both choices lead to Munchkinland, but “Hold on” arrives there with a different cost than “Lie low.” By Munchkinland, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Cyclone",
       "choices": [
         {
           "text": "Hold on",
-          "consequence": "“Hold on” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You hold on. The path to Munchkinland opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Lie low",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You commit to lie low. It carries you toward Munchkinland, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Color. Tiny people. A witch crushed by your house.",
+      "text": "Color. Tiny people. A witch crushed by your house. You cannot avoid Glinda; you can only decide whether “Sing along” or “Look for an exit” defines the person who reaches it. At Glinda, the decision will matter as memory as well as intent.",
       "sceneTitle": "Munchkinland",
       "choices": [
         {
           "text": "Sing along",
-          "consequence": "You commit to “Sing along.” The story records the instinct as “Joy” and carries it forward.",
+          "consequence": "You sing along. The path to Glinda opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         },
         {
           "text": "Look for an exit",
-          "consequence": "“Look for an exit” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You look for an exit. The path to Glinda opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "She arrives in a bubble. She gives you the shoes. She says follow the road.",
+      "text": "She arrives in a bubble. She gives you the shoes. She says follow the road. You cannot avoid Scarecrow; you can only decide whether “Trust her” or “Ask many questions” defines the person who reaches it.",
       "sceneTitle": "Glinda",
       "choices": [
         {
           "text": "Trust her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Faith.",
+          "consequence": "You choose to trust her. By Scarecrow, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask many questions",
-          "consequence": "You commit to “Ask many questions.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to ask many questions. It carries you toward Scarecrow, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "He has no brain. He says so cheerfully.",
+      "text": "He has no brain. He says so cheerfully. Apples comes either way; its meaning changes with the difference between “Invite him along” and “Help him down only.” By Apples, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Scarecrow",
       "choices": [
         {
           "text": "Invite him along",
-          "consequence": "There is no taking “Invite him along” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You invite him along. The path to Apples opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         },
         {
           "text": "Help him down only",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Modest.",
+          "consequence": "You choose to help him down only. By Apples, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "The trees throw apples. The scarecrow improvises.",
+      "text": "The trees throw apples. The scarecrow improvises. You cannot avoid Tin Man; you can only decide whether “Steal the apples” or “Apologize and leave” defines the person who reaches it. In Apples, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Apples",
       "choices": [
         {
           "text": "Steal the apples",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to steal the apples. By Tin Man, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Apologize and leave",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You apologize and leave. The path to Tin Man opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Rust. Oilcan. A heart, missing.",
+      "text": "Rust. Oilcan. A heart, missing. Forest is already waiting. What changes is whether “Oil him” or “Oil him slowly” is the instinct you carry into it. In Tin Man, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Tin Man",
       "choices": [
         {
           "text": "Oil him",
-          "consequence": "You commit to “Oil him.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You commit to oil him. It carries you toward Forest, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         },
         {
           "text": "Oil him slowly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You commit to oil him slowly. It carries you toward Forest, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Lions, tigers, bears.",
+      "text": "Lions, tigers, bears. The road still runs toward Lion. Its next turn depends on the difference between choosing “Hum a song” and choosing “Quiet steps.” At Lion, the decision will matter as memory as well as intent.",
       "sceneTitle": "Forest",
       "choices": [
         {
           "text": "Hum a song",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You hum a song. The path to Lion opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Quiet steps",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You choose to quiet steps. By Lion, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A lion who roars and weeps in the same breath.",
+      "text": "A lion who roars and weeps in the same breath. You cannot avoid Poppies; you can only decide whether “Invite him” or “Be brave for him” defines the person who reaches it. In Lion, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Lion",
       "choices": [
         {
           "text": "Invite him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You invite him. The path to Poppies opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         },
         {
           "text": "Be brave for him",
-          "consequence": "You commit to “Be brave for him.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You be brave for him. The path to Poppies opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Sleep. Glinda sends snow.",
+      "text": "Sleep. Glinda sends snow. Emerald City will follow either decision, but it will meet a different version of you after “Wake” than after “Sleep through.” At Emerald City, the decision will matter as memory as well as intent.",
       "sceneTitle": "Poppies",
       "choices": [
         {
           "text": "Wake",
-          "consequence": "“Wake” closes one possibility and opens another. The moment leaves a clear note behind: Now.",
+          "consequence": "You wake. The path to Emerald City opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         },
         {
           "text": "Sleep through",
-          "consequence": "There is no taking “Sleep through” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to sleep through. It carries you toward Emerald City, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Green walls, green tea. A door without a handle.",
+      "text": "Green walls, green tea. A door without a handle. You cannot avoid Audience with the Wizard; you can only decide whether “Knock politely” or “Yell” defines the person who reaches it. In Emerald City, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Emerald City",
       "choices": [
         {
           "text": "Knock politely",
-          "consequence": "You commit to “Knock politely.” The story records the instinct as “Civil” and carries it forward.",
+          "consequence": "You commit to knock politely. It carries you toward Audience with the Wizard, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         },
         {
           "text": "Yell",
-          "consequence": "The decision settles the question for now. Its verdict—Spirit—follows you into whatever comes next.",
+          "consequence": "You choose to yell. By Audience with the Wizard, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Fire, smoke, a big head. He gives you a task.",
+      "text": "Fire, smoke, a big head. He gives you a task. Both choices lead to Witch's Castle, but “Accept” arrives there with a different cost than “Negotiate.” At Witch's Castle, the decision will matter as memory as well as intent.",
       "sceneTitle": "Audience with the Wizard",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to accept. By Witch's Castle, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Negotiate",
-          "consequence": "There is no taking “Negotiate” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to negotiate. It carries you toward Witch's Castle, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You are captured. The witch wants the shoes.",
+      "text": "You are captured. The witch wants the shoes. Both choices lead to Rescue, but “Refuse her” arrives there with a different cost than “Bargain for time.” By Rescue, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Witch's Castle",
       "choices": [
         {
           "text": "Refuse her",
-          "consequence": "You commit to “Refuse her.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You choose to refuse her. By Rescue, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Bargain for time",
-          "consequence": "You commit to “Bargain for time.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You commit to bargain for time. It carries you toward Rescue, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your friends arrive in stolen uniforms.",
+      "text": "Your friends arrive in stolen uniforms. Water will follow either decision, but it will meet a different version of you after “Run for the door” than after “Fight your way out.” By Water, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Rescue",
       "choices": [
         {
           "text": "Run for the door",
-          "consequence": "You commit to “Run for the door.” The story records the instinct as “Speed” and carries it forward.",
+          "consequence": "You choose to run for the door. By Water, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Fight your way out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to fight your way out. It carries you toward Water, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The witch corners you. You throw a bucket. She melts.",
+      "text": "The witch corners you. You throw a bucket. She melts. Both choices lead to Behind the Curtain, but “Apologize” arrives there with a different cost than “Take her broom.” By Behind the Curtain, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Water",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You commit to “Apologize.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to apologize. It carries you toward Behind the Curtain, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         },
         {
           "text": "Take her broom",
-          "consequence": "You commit to “Take her broom.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You commit to take her broom. It carries you toward Behind the Curtain, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Toto pulls back the curtain. The wizard is a man.",
+      "text": "Toto pulls back the curtain. The wizard is a man. Both choices lead to Gifts, but “Be angry” arrives there with a different cost than “Be gentle.” By Gifts, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Behind the Curtain",
       "choices": [
         {
           "text": "Be angry",
-          "consequence": "“Be angry” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to be angry. By Gifts, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Be gentle",
-          "consequence": "You commit to “Be gentle.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You be gentle. The path to Gifts opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Diploma, medal, heart-shaped clock.",
+      "text": "Diploma, medal, heart-shaped clock. The road still runs toward Balloon. Its next turn depends on the difference between choosing “Accept them gratefully” and choosing “Refuse the gimmicks.” By Balloon, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Gifts",
       "choices": [
         {
           "text": "Accept them gratefully",
-          "consequence": "“Accept them gratefully” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to accept them gratefully. By Balloon, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Refuse the gimmicks",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You refuse the gimmicks. The path to Balloon opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The balloon ride home. Toto runs after a cat. The balloon leaves without you.",
+      "text": "The balloon ride home. Toto runs after a cat. The balloon leaves without you. The road still runs toward Glinda Again. Its next turn depends on the difference between choosing “Sit down crying” and choosing “Plan again.”",
       "sceneTitle": "Balloon",
       "choices": [
         {
           "text": "Sit down crying",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to sit down crying. By Glinda Again, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Plan again",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Spirit.",
+          "consequence": "You choose to plan again. By Glinda Again, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "She tells you you've had the power all along.",
+      "text": "She tells you you've had the power all along. You cannot avoid Kansas; you can only decide whether “Click the heels” or “Question it” defines the person who reaches it. At Kansas, the decision will matter as memory as well as intent.",
       "sceneTitle": "Glinda Again",
       "choices": [
         {
           "text": "Click the heels",
-          "consequence": "The decision settles the question for now. Its verdict—Faith—follows you into whatever comes next.",
+          "consequence": "You choose to click the heels. By Kansas, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Question it",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You choose to question it. By Kansas, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You wake in your bed. Aunt Em. Toto. The farm.",
+      "text": "You wake in your bed. Aunt Em. Toto. The farm. Choose “Tell them everything” and There's No Place Like Home comes into view; choose “Just be grateful” and the road bends toward Back to Oz. A third choice, “Take the third path,” keeps The Storyteller in play.",
       "sceneTitle": "Kansas",
       "choices": [
         {
           "text": "Tell them everything",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to tell them everything. It carries you toward There's No Place Like Home, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Just be grateful",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You just be grateful. The path to Back to Oz opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_oz"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By The Storyteller, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_storyteller"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_home",
-      "text": "You stay in Kansas. You marry, eventually. Your children grow up listening to a story their teachers don't quite believe. The shoes, you keep in a drawer.",
+      "text": "You stay in Kansas. You marry, eventually. Your children grow up listening to a story their teachers don't quite believe. The shoes, you keep in a drawer. The road into There's No Place Like Home began with “Tell them everything” in Kansas; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "There's No Place Like Home",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_oz",
-      "text": "Years later you find a way back. You become, eventually, the steward of Emerald City. The scarecrow and tin man are, by then, regents. The lion is, mostly, a sleepy mayor.",
+      "text": "Years later you find a way back. You become, eventually, the steward of Emerald City. The scarecrow and tin man are, by then, regents. The lion is, mostly, a sleepy mayor. The road into Back to Oz began with “Just be grateful” in Kansas; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Back to Oz",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_storyteller",
-      "text": "You write the book down. The book becomes a movie. The movie becomes part of every Sunday afternoon for decades. You die quietly. Toto is, by then, a small grand-pup.",
+      "text": "You write the book down. The book becomes a movie. The movie becomes part of every Sunday afternoon for decades. You die quietly. Toto is, by then, a small grand-pup. The road into The Storyteller began with “Take the third path” in Kansas; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Storyteller",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A TV announces the death of the youngest person on Earth. A bomb takes the cafe's front.",
+      "text": "The screens have run the same footage since six: a boy of eighteen, the youngest person alive, stabbed outside a bar in Buenos Aires over an autograph. The newsreaders have given up pretending to know what to say. You queue, get your coffee, tip a measure of something into it on the pavement, and take four steps. Then the shopfront comes out into the street and the noise takes your hearing with it.",
       "sceneTitle": "Cafe Bomb",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You walk away from it with your ears ringing and a coffee still in your hand, because you have somewhere to be and this is Tuesday.",
           "nextNodeId": "s2"
         },
         {
           "text": "Help the wounded",
-          "consequence": "You commit to “Help the wounded.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You go back toward the smoke with everyone else running the other way, and there is nothing you know how to do when you get there.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A friend with a battered car, two joints, a wife who does not move.",
+      "text": "Jasper's house is at the end of a track behind camouflage netting: newspaper cuttings floor to ceiling, a grow lamp in the back room, a dog with bad hips. Janice sits in the chair by the window where he put her, gone since her interrogation, blinking at the trees. He brushes her hair and tells her the same jokes. In the drawer there is a government suicide kit, for later, for both of them.",
       "sceneTitle": "Jasper's Cottage",
       "choices": [
         {
           "text": "Stay the night",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You stay, get comprehensively stoned, and sleep on a sofa under a coat for the first unbroken eight hours in about a year.",
           "nextNodeId": "s3"
         },
         {
           "text": "Leave at dawn",
-          "consequence": "You commit to “Leave at dawn.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You leave before it gets light because staying means talking about your son, and Jasper is the only person left who would.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Your ex from the old protest days, with a small ask in a kidnapped van.",
+      "text": "A van takes you off the street with a bag over your head, and it turns out to belong to your ex-wife. Julian across a table in a dark room: older, calmer, running the Fishes now, with men behind her who defer to her. She wants transit papers for one refugee girl. She names a figure. Neither of you mentions the funeral, so she asks after your cousin instead.",
       "sceneTitle": "Julian",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You say yes for money and then discover, somewhere around the second sentence, that the money was never the reason you said it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse",
-          "consequence": "You commit to “Refuse.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You tell her to find somebody else, and she lets you get almost to the door before saying your son's name.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "She needs them for a refugee. You are at a desk that signs them.",
+      "text": "Your cousin runs the Ministry of Art out of a converted power station full of whatever got rescued: a statue missing an arm, a nine-metre canvas of a bombed town hung where the turbines were. Dinner is excellent. His son sits at the table on a heavy pill regimen and says nothing at all. You ask for a joint permit, lie about a girlfriend, and he signs while explaining that he simply does not think about it.",
       "sceneTitle": "Transit Papers",
       "choices": [
         {
           "text": "Sign",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You take the papers and eat the rest of the meal with a man who saves paintings for a world that has stopped producing people.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse",
-          "consequence": "You commit to “Refuse.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You push him on what any of it is for once nobody is left to look at it, and the wine goes very quiet on both sides of the table.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A burning car, a girl behind a back seat, a quiet that becomes a scream.",
+      "text": "The car is a battered saloon on a wooded road with four of you inside and a game going where somebody bounces a ball off the windscreen into a mouth. Everyone is genuinely, briefly happy. Ninety seconds of it. Then a burning car rolls out of the trees ahead and there are people coming down the verge with bricks and lengths of pipe, and reverse will not engage the first time.",
       "sceneTitle": "Ambush",
       "choices": [
         {
           "text": "Stay calm",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You keep your voice flat, get the door locked, and tell Luke the gear he needs, twice, until his hand actually finds it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Panic",
-          "consequence": "There is no taking “Panic” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You are shouting before you know you are shouting, which does nothing useful and which you will remember for the rest of your life.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Bullet through the throat in a country lane.",
+      "text": "Two men on a motorbike come up on the left and the shot goes through her throat. A car interior is not designed for that much blood. Luke is driving. Kee is screaming. You have both hands pressed on a wound that will not close and you keep talking to her about nothing while it stops being relevant. And behind you the road stays empty. Nobody pursues. That is the first thing that is wrong.",
       "sceneTitle": "Julian Dies",
       "choices": [
         {
           "text": "Pull her out of the car",
-          "consequence": "“Pull her out of the car” closes one possibility and opens another. The moment leaves a clear note behind: Loyal.",
+          "consequence": "You drag a girl out of a car soaked to the elbows in someone else's blood, and she lets you, because you are what is available.",
           "nextNodeId": "s7"
         },
         {
           "text": "Drive past",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You sit in the wet seat while the fields go past and you do not look at anybody, and Kee watches you not looking.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A girl in a barn with a small belly she lifts her dress to show you.",
+      "text": "The Fishes hole up at a farm, and Kee takes you out to the byre among the cows and lifts her dress. Eight months. Nobody on this planet has been pregnant for eighteen years. She says she does not know who the father is, quite flatly, then laughs at your face, and then she is nineteen years old and frightened and asking what happens next.",
       "sceneTitle": "Kee",
       "choices": [
         {
           "text": "Promise to help",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You promise a teenager in a cowshed something no government on Earth could deliver, and you hear yourself do it, and you mean it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Cry",
-          "consequence": "You commit to “Cry.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You sit down hard on a milking stool and cry in front of a girl who was hoping for an adult, and she waits it out.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A boat called Tomorrow, the Human Project, a man with a gun he is too eager to use.",
+      "text": "Luke lays out the Human Project: a hospital ship called Tomorrow standing off Bexhill, doctors, an island, a rendezvous at a buoy. Then he lays out the other plan — a black girl who gave birth in a British camp, held up in front of an uprising as a banner. He is twenty-four. He carries a rifle he clearly enjoys. He has already held a vote about Julian.",
       "sceneTitle": "Luke's Plan",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "There is no taking “Trust him” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You agree with everything he says, out loud, warmly, while working out where the keys to the car are kept.",
           "nextNodeId": "s9"
         },
         {
           "text": "Doubt",
-          "consequence": "“Doubt” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You ask one question too many about who else voted, and he answers pleasantly, and after that he knows where you stand.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A choice to run before Luke decides for you.",
+      "text": "You hear it through a floorboard at two in the morning: the roadblock was theirs, the shot was theirs, the vote was carried, and they intend to keep the girl and the baby. Downstairs there is a car with no keys in it, a nineteen-year-old whose contractions have started, and a midwife named Miriam who wants out as badly as you do. The dogs in the yard know your smell.",
       "sceneTitle": "Theo's Decision",
       "choices": [
         {
           "text": "Take Kee",
-          "consequence": "There is no taking “Take Kee” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You get all three of them into a car and roll it down the slope in neutral before starting it, and nobody upstairs wakes.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You lie in the dark for another hour weighing it, and by dawn there is a man with a rifle sitting on the stairs.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A safe house, a herbal tea, a Strawberry Cough joke.",
+      "text": "You reach Jasper's before it is properly light, three of you, and he feeds everybody and asks nothing that matters. Kee eats two plates and half of yours. Miriam falls asleep upright at the table. He tells a long unfunny story about a strain of weed he grows for Janice, and gets an actual laugh out of a pregnant teenager, which is more than anyone has managed in a week.",
       "sceneTitle": "Jasper Again",
       "choices": [
         {
           "text": "Sleep",
-          "consequence": "“Sleep” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You take the bed for four hours and wake up with the dog on your feet, and it is the last quiet you will get.",
           "nextNodeId": "s11"
         },
         {
           "text": "Move on",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You want to be gone by dusk, and Jasper argues, and you win, and Kee goes back to the car without finishing her tea.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Headlights, dogs, a kindly old hand on a window with a wave.",
+      "text": "Headlights come up the track in the grey light, with dogs and with men who do not bother shouting. Jasper walks out onto his own path to keep them standing there. Through the trees you can see him talking, using his hands, doing the routine. And then he lifts one arm in a small wave toward the treeline, where you are lying in wet leaves with your hand over Kee's mouth.",
       "sceneTitle": "Raid on the Cottage",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You take the girl and go, downhill, through the netting, and you do not turn round when the single shot comes.",
           "nextNodeId": "s12"
         },
         {
           "text": "Go back for him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You get halfway back up the slope before Miriam has you by the collar, and the shot happens while she is holding you down.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A train of cages, a friendly thug named Syd, a smuggler at a coffee.",
+      "text": "Bexhill takes people in on cattle wagons and unloads them into a walled seaside town with soldiers on the roofs. Syd is a border guard who trades in favours and talks about appalling things in a cheerful, chatty way, like a man discussing football. Two hundred euros gets three people through as detainees. Miriam handles the paperwork. Kee's contractions are eight minutes apart and getting closer.",
       "sceneTitle": "Bexhill Refugee Camp",
       "choices": [
         {
           "text": "Pay Syd",
-          "consequence": "You commit to “Pay Syd.” The story records the instinct as “Practical” and carries it forward.",
+          "consequence": "You pay a man who thinks all of this is a great laugh, and you laugh along with him, because that is the price on top of the price.",
           "nextNodeId": "s13"
         },
         {
           "text": "Find another route",
-          "consequence": "There is no taking “Find another route” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You spend two hours looking for a cleaner route and find nothing, and come back to Syd, who has helpfully raised the fee.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "Mud, gunfire, a row of buses, a midwife on a wet street.",
+      "text": "At the gate Miriam makes a scene to pull the guards off Kee, and you watch her taken through a doorway with a hood already over her head. Inside: mud, half a mosque, graffiti in three alphabets, and an uprising due at any hour. On a wet street a woman called Marichka looks once at Kee's belly, says something in Romanian, and starts giving orders.",
       "sceneTitle": "Inside the Camp",
       "choices": [
         {
           "text": "Follow the midwife",
-          "consequence": "There is no taking “Follow the midwife” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You follow a stranger through a camp full of armed men because she is the only person here who has seen a birth.",
           "nextNodeId": "s14"
         },
         {
           "text": "Find shelter",
-          "consequence": "You commit to “Find shelter.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You try to find somewhere with a door and a lock instead, and lose ten minutes that Kee's body was not prepared to lend you.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A small wet cry that you have not heard in eighteen years.",
+      "text": "A room upstairs with a mattress, a bucket, and a window that will not shut. No doctor, no drugs, no clean water, no plan. You hold her under the arms and count while she pushes and swears at you in two languages. It comes out grey and slick and silent for four seconds that last considerably longer. Then there is a sound nobody in this building has heard for eighteen years.",
       "sceneTitle": "Birth in a Room",
       "choices": [
         {
           "text": "Hold the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You stand in the doorway with your back to the room and your hand on the latch, listening, doing the only job you can do.",
           "nextNodeId": "s15"
         },
         {
           "text": "Catch the baby",
-          "consequence": "“Catch the baby” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You get both hands under a head the size of an orange and take the whole weight of the first newborn in a generation.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Soldiers on every floor and a baby's cry that stops everything for one impossible minute.",
+      "text": "The building is being cleared floor by floor by men with rifles up. You come down through it with a newborn wrapped inside a coat, and the crying carries a long way in a stairwell. Soldiers stop. One of them crosses himself. Two hundred people flatten against the walls to make a channel, and a nineteen-year-old girl walks down through it with everybody staring at what she is holding.",
       "sceneTitle": "Down the Stairs",
       "choices": [
         {
           "text": "Walk slowly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go one step at a time with a hand out in front of you, and the slowness is the only thing keeping anyone from firing.",
           "nextNodeId": "s16"
         },
         {
           "text": "Bolt",
-          "consequence": "You commit to “Bolt.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You take the last flight too fast and somebody's rifle comes up, and the crying is the reason it goes back down.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A turret stops. A line of soldiers makes way.",
+      "text": "Outside, the square is a firefight: a tank tracking its turret, an armoured car, men shooting out of upper windows. Then the noise falls away in a wave, outward from the sound of a baby. The turret stops moving. A line of soldiers steps back off the road to let you through. You walk down the middle of it. And then, roughly a minute later, somebody starts shooting again.",
       "sceneTitle": "Tank in the Square",
       "choices": [
         {
           "text": "Walk through",
-          "consequence": "“Walk through” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You keep walking at the pace of a man crossing a car park, and a war holds its breath for as long as your nerve does.",
           "nextNodeId": "s17"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Reckless.",
+          "consequence": "You break into a run at the far kerb, and the spell goes with you, and the square comes back to life behind your heels.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A small craft on a gray sea, a fog with a ship in it.",
+      "text": "A rowing boat tied at the end of a groyne, fog on the water, a compass, a plastic bottle. The rendezvous is a buoy somewhere offshore at some hour nobody could be specific about. Behind you the camp is being shelled by the government that built it. Kee sits in the stern with the baby inside her coat and asks whether you actually know how to do this.",
       "sceneTitle": "Boat in the Mist",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You tell her the truth, which is no, and she nods, and the two of you push off anyway on a falling tide.",
           "nextNodeId": "s18"
         },
         {
           "text": "Row",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You get the oars into the rowlocks and start pulling before she can ask again, because rowing is at least an answer.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Oars in a chop with a wound at your side.",
+      "text": "The outboard drowns two hundred metres out, so it is oars. Your hands blister inside minutes. There is a hole in your side you have not looked at since the stairwell and it goes through you on every stroke, hot, then cold, then hot. Kee talks quietly to the baby. The fog takes the shore, then the sound of the shore, then everything except the water hitting the hull.",
       "sceneTitle": "Engine Out",
       "choices": [
         {
           "text": "Pull",
-          "consequence": "There is no taking “Pull” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You keep pulling long past the point where your body files a complaint, because the alternative is drifting where the shelling is.",
           "nextNodeId": "s19"
         },
         {
           "text": "Rest",
-          "consequence": "You commit to “Rest.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You ship the oars for a minute that turns into six, and when you look at your palm it is dark and shining.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "An old needle in a tin box, points east.",
+      "text": "A brass needle in a tin box, swinging in the wet, and east does not obviously look like anything. There is a shape of noise out in the fog that could be an engine, or surf on shingle, or a fault in your own ears. You are pulling harder on one arm than the other without meaning to. Kee says a name for the baby out loud, twice, testing it.",
       "sceneTitle": "Compass",
       "choices": [
         {
           "text": "Trust it",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You steer by a needle you cannot fully see and correct every twenty strokes, which is either navigation or superstition.",
           "nextNodeId": "s20"
         },
         {
           "text": "Doubt",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wary.",
+          "consequence": "You put the tin down and row toward the noise instead, on nothing but a feeling, with a girl and an infant in the boat.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A ship's prow looms out of the fog.",
+      "text": "You have long stopped counting strokes. Then the fog thins in one place and a hull comes out of it — grey, enormous, streaked with rust, a name riveted to the bow that you can nearly read. Kee is standing up in a rowing boat, which is a terrible idea, and shouting. Your right hand has stopped closing properly on the oar. Your breath will not go past whatever is in your side.",
       "sceneTitle": "Tomorrow",
       "choices": [
         {
           "text": "Wave",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You get one arm up and wave at a ship the size of a street, and somewhere above you a light swings round onto the boat.",
           "nextNodeId": "s21"
         },
         {
           "text": "Brace",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You put a hand on Kee's leg to make her sit down, because after all this, capsizing forty metres from the ship would be exactly right.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Small, perfect, half asleep.",
+      "text": "The baby is asleep against Kee's collarbone with one fist out of the blanket, and the fog is going pale gold at the edges. Small flat nose. Absurd eyelashes. Somebody on the deck above is paying out a line. You have been awake for three days, and there is a warmth spreading under your coat that you are choosing not to investigate, and everything has gone rather quiet and quite comfortable.",
       "sceneTitle": "Baby's Face",
       "choices": [
         {
           "text": "Look once more",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You keep your eyes open on purpose for one more minute, because you would like the last thing to be that face and not the water.",
           "nextNodeId": "end_ship"
         },
         {
           "text": "Lie back",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You lie back against the transom and let the boat rock, and Kee is still talking to you, and you have stopped answering.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You think about a man in a cottage waving at a treeline, and how he made the same decision, and how cheerful he managed to be about it.",
           "nextNodeId": "end_jasper"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_ship",
-      "text": "A doctor takes Kee and the baby up the gangway and a sailor wraps your wound and the gray sea keeps doing what it does, indifferent, and saving.",
+      "text": "The line comes down and a doctor in a fleece takes the baby up the gangway first, then Kee, who will not let go of the rail until she can see where they have put her. A sailor gets your coat open, swears at what is underneath it, and packs the wound with something cold while shouting for a stretcher. The grey sea goes on doing exactly what it did before, indifferent, and today that indifference has let three people through.",
       "sceneTitle": "Aboard the Tomorrow",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You lie back in the boat and the fog goes pink at the edges and the world is, for one breath, a thing that has been started over.",
+      "text": "You lie back in the bottom of the boat with the water knocking against the boards, and the fog turns pink at the edges the way it does over the Channel in the early morning. Kee is holding the baby up so you can see, and saying the name again, and the small face is doing something that is probably wind. For one breath the world is a thing that has been started over. You do not need the next breath particularly.",
       "sceneTitle": "Sleep on the Water",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_jasper",
-      "text": "You wake up in the cottage and Jasper is at the door with a teapot and the war is over and the baby in your arms grins at the ceiling.",
+      "text": "You surface in the back bedroom of a cottage with the smell of frying and Jasper in the doorway with a teapot, complaining that you slept through the good part of the news. Janice is at the window in the sun. The dog is on your feet. Somewhere outside, an entire war has quietly finished being necessary, and the baby in your arms grins at the ceiling for no reason at all, the way they apparently do.",
       "sceneTitle": "Jasper's Joke",
       "choices": [],
       "isEnding": true,

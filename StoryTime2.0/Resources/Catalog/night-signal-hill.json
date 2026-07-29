@@ -26,12 +26,12 @@
       "choices": [
         {
           "text": "Log it and wake the chain of command",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You log it and wake the chain of command. The path to The Chain of Command opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_chain"
         },
         {
           "text": "Answer it yourself, off the record",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to answer it yourself, off the record. It carries you toward Your Own Voice, Returned, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_answer"
         }
       ],
@@ -45,12 +45,12 @@
       "choices": [
         {
           "text": "Obey, and go home",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You obey, and go home. The path to Interference, They Called It opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_home"
         },
         {
           "text": "Stay and keep listening alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Spirit.",
+          "consequence": "You stay and keep listening alone. The path to Your Own Voice, Returned opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_answer"
         }
       ],
@@ -64,12 +64,12 @@
       "choices": [
         {
           "text": "Ask who they are",
-          "consequence": "You commit to “Ask who they are.” The story records the instinct as “Curious” and carries it forward.",
+          "consequence": "You ask who they are. The path to A Message From Later opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_who"
         },
         {
           "text": "Ask what the countdown is counting to",
-          "consequence": "“Ask what the countdown is counting to” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to ask what the countdown is counting to. It carries you toward What Zero Means, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_endcount"
         }
       ],
@@ -78,17 +78,17 @@
     },
     {
       "id": "s_who",
-      "text": "\"I'm you,\" the old voice says, unbothered by how impossible that is. \"Forty years on. This relay is the only thing that still bounces a signal back to a night I can pin down. I've been trying to reach this exact evening for a long time.\"",
+      "text": "\"I'm you,\" the old voice says, unbothered by how impossible that is. \"Forty years on. This relay is the only thing that still bounces a signal back to a night I can pin down.",
       "sceneTitle": "A Message From Later",
       "choices": [
         {
           "text": "Believe yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Trust.",
+          "consequence": "You commit to believe yourself. It carries you toward The Warning, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_warning"
         },
         {
           "text": "Assume it's a hoax and trace the source",
-          "consequence": "There is no taking “Assume it's a hoax and trace the source” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You assume it's a hoax and trace the source. The path to Triangulation opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_trace"
         }
       ],
@@ -97,17 +97,17 @@
     },
     {
       "id": "s_endcount",
-      "text": "\"Zero is 08:00,\" the voice says. \"When the crew arrives to cut the array down for scrap. After that there's no antenna on Earth aimed the right way to carry me back this far. Zero is simply the last moment we can talk.\"",
+      "text": "\"Zero is 08:00,\" the voice says. \"When the crew arrives to cut the array down for scrap. After that there's no antenna on Earth aimed the right way to carry me back this far.",
       "sceneTitle": "What Zero Means",
       "choices": [
         {
           "text": "Record everything before zero",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Devoted.",
+          "consequence": "You record everything before zero. The path to The Warning opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_warning"
         },
         {
           "text": "Pull the plug now and get some sleep",
-          "consequence": "You commit to “Pull the plug now and get some sleep.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You pull the plug now and get some sleep. The path to Interference, They Called It opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_home"
         }
       ],
@@ -121,12 +121,12 @@
       "choices": [
         {
           "text": "Open the hatch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to open the hatch. It carries you toward Under Signal Hill, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_hatch"
         },
         {
           "text": "Flag it and wait for daylight",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You flag it and wait for daylight. The path to Interference, They Called It opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_home"
         }
       ],
@@ -135,17 +135,17 @@
     },
     {
       "id": "s_warning",
-      "text": "\"I didn't cross forty years of static to chat,\" the voice says, gentler now. \"Tomorrow you'll be offered the transfer to the coastal station. Everyone will tell you it's the smart move. Don't take it. Stay near the people who are still alive to stay near. That's the whole message.\"",
+      "text": "\"I didn't cross forty years of static to chat,\" the voice says, gentler now. \"Tomorrow you'll be offered the transfer to the coastal station. Everyone will tell you it's the smart move. Don't take it. Stay near the people who are still alive to stay near.",
       "sceneTitle": "The Warning",
       "choices": [
         {
           "text": "Promise to change tomorrow",
-          "consequence": "You commit to “Promise to change tomorrow.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to promise to change tomorrow. By The Transfer You Turned Down, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_changed"
         },
         {
           "text": "Ask to trade places instead",
-          "consequence": "“Ask to trade places instead” closes one possibility and opens another. The moment leaves a clear note behind: Longing.",
+          "consequence": "You ask to trade places instead. The path to Under Signal Hill opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_hatch"
         }
       ],
@@ -159,12 +159,12 @@
       "choices": [
         {
           "text": "Sit down and take the watch",
-          "consequence": "You commit to “Sit down and take the watch.” The story records the instinct as “Devoted” and carries it forward.",
+          "consequence": "You choose to sit down and take the watch. By Operator, Indefinite, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_keeper"
         },
         {
           "text": "Climb back out and live forward",
-          "consequence": "You commit to “Climb back out and live forward.” The story records the instinct as “Free” and carries it forward.",
+          "consequence": "You choose to climb back out and live forward. By The Transfer You Turned Down, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_changed"
         }
       ],

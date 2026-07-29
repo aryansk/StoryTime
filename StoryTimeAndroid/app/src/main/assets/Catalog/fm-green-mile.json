@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A mouse on the green linoleum that everyone pretends not to see.",
+      "text": "A mouse on the green linoleum that everyone pretends not to see. The moment in Mr. New Inmate will follow either decision, but it will meet a different version of you after “Leave a crumb” than after “Set the trap.”",
       "sceneTitle": "Mr. Jingles",
       "choices": [
         {
           "text": "Leave a crumb",
-          "consequence": "“Leave a crumb” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You commit to leave a crumb. By New Inmate, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         },
         {
           "text": "Set the trap",
-          "consequence": "You commit to “Set the trap.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You choose to set the trap. It opens the route to New Inmate, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Six feet eight, hands the size of dinner plates, weeping.",
+      "text": "Six feet eight, hands the size of dinner plates, weeping. Percy will follow either decision, but it will meet a different version of you after “Lead him gently” than after “Cuff him hard.” In New Inmate, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "New Inmate",
       "choices": [
         {
           "text": "Lead him gently",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You commit to lead him gently. By Percy, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s3"
         },
         {
           "text": "Cuff him hard",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You choose to cuff him hard. It opens the route to Percy, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A nephew of a governor with a baton and a small cruelty.",
+      "text": "A nephew of a governor with a baton and a small cruelty. Bladder, Burning comes either way; its meaning changes with the difference between “Stand up to him” and “Manage him.” In Percy, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Percy",
       "choices": [
         {
           "text": "Stand up to him",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to stand up to him. It opens the route to Bladder, Burning, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Manage him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You choose to manage him. It opens the route to Bladder, Burning, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A urinary infection that will kill you slowly.",
+      "text": "A urinary infection that will kill you slowly. The road still runs toward Coffey's Hands. Its next turn depends on the difference between choosing “See a doctor” and choosing “Push through.” At Coffey's Hands, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Bladder, Burning",
       "choices": [
         {
           "text": "See a doctor",
-          "consequence": "You commit to “See a doctor.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to see a doctor. By Coffey's Hands, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         },
         {
           "text": "Push through",
-          "consequence": "“Push through” closes one possibility and opens another. The moment leaves a clear note behind: Stubborn.",
+          "consequence": "You push through. The decision moves you toward Coffey's Hands and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "He asks for your face, palms up.",
+      "text": "He asks for your face, palms up. Both choices lead to Healed, but “Let him” arrives there with a different cost than “Refuse.” At Healed, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Coffey's Hands",
       "choices": [
         {
           "text": "Let him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You let him. The decision moves you toward Healed and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You commit to refuse. By Healed, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A pain that was a wall is suddenly a door.",
+      "text": "A pain that was a wall is suddenly a door. Wild Bill comes either way; its meaning changes with the difference between “Tell the warden” and “Tell no one.” At Wild Bill, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Healed",
       "choices": [
         {
           "text": "Tell the warden",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to tell the warden. By Wild Bill, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         },
         {
           "text": "Tell no one",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to tell no one. By Wild Bill, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A new inmate, a yellow grin, a habit of spitting.",
+      "text": "A new inmate, a yellow grin, a habit of spitting. Del's Mouse will follow either decision, but it will meet a different version of you after “Keep him chained” than after “Try kindness.” By Del's Mouse, the decision will already have changed who trusts you.",
       "sceneTitle": "Wild Bill",
       "choices": [
         {
           "text": "Keep him chained",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You choose to keep him chained. It opens the route to Del's Mouse, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Try kindness",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You try kindness. The decision moves you toward Del's Mouse and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A miracle in cupped hands, a tail in fingers like a thread.",
+      "text": "A miracle in cupped hands, a tail in fingers like a thread. The road still runs toward Mr. Jingles Performs. Its next turn depends on the difference between choosing “Watch” and choosing “Smile.” At Mr. Jingles Performs, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Del's Mouse",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "There is no taking “Watch” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to watch. By Mr. Jingles Performs, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         },
         {
           "text": "Smile",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You commit to smile. By Mr. Jingles Performs, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A spool, a song, a trick learned in a quiet cell.",
+      "text": "A spool, a song, a trick learned in a quiet cell. The room inside Mr. Sponge Dry is already waiting. What changes is whether “Applaud” or “Stay neutral” is the instinct you carry into it.",
       "sceneTitle": "Mr. Jingles Performs",
       "choices": [
         {
           "text": "Applaud",
-          "consequence": "There is no taking “Applaud” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to applaud. By Sponge Dry, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay neutral",
-          "consequence": "There is no taking “Stay neutral” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay neutral. It opens the route to Sponge Dry, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Percy forgets the wet sponge for the chair on purpose.",
+      "text": "Percy forgets the wet sponge for the chair on purpose. Both choices lead to Del at the Chair, but “Hit Percy” arrives there with a different cost than “Hold the line.” At Del at the Chair, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Sponge Dry",
       "choices": [
         {
           "text": "Hit Percy",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to hit Percy. By Del at the Chair, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         },
         {
           "text": "Hold the line",
-          "consequence": "You commit to “Hold the line.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You commit to hold the line. By Del at the Chair, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "The smell, the screaming, a thing nobody who was there ever forgets.",
+      "text": "The smell, the screaming, a thing nobody who was there ever forgets. The road still runs toward Visit to the Warden's Wife. Its next turn depends on the difference between choosing “Look” and choosing “Look away.”",
       "sceneTitle": "Del at the Chair",
       "choices": [
         {
           "text": "Look",
-          "consequence": "There is no taking “Look” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to look. It opens the route to Visit to the Warden's Wife, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Look away",
-          "consequence": "“Look away” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You look away. The decision moves you toward Visit to the Warden's Wife and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Melinda is dying of a brain tumor and a smile that is no longer hers.",
+      "text": "Melinda is dying of a brain tumor and a smile that is no longer hers. Both choices lead to Touch, but “Take Coffey” arrives there with a different cost than “Stay.” In Visit to the Warden's Wife, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Visit to the Warden's Wife",
       "choices": [
         {
           "text": "Take Coffey",
-          "consequence": "You commit to “Take Coffey.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You take Coffey. The decision moves you toward Touch and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay",
-          "consequence": "There is no taking “Stay” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay. It opens the route to Touch, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "He sucks the sickness into his mouth like flies.",
+      "text": "He sucks the sickness into his mouth like flies. You cannot avoid Sick Black Cloud; you can only decide whether “Watch” or “Pray” defines the person who reaches it. By Sick Black Cloud, the decision will already have changed who trusts you.",
       "sceneTitle": "Touch",
       "choices": [
         {
           "text": "Watch",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to watch. By Sick Black Cloud, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Pray",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You commit to pray. By Sick Black Cloud, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "He spits the bugs into the air over a kitchen sink.",
+      "text": "He spits the bugs into the air over a kitchen sink. Percy is already waiting. What changes is whether “Lock the doors” or “Open the window” is the instinct you carry into it. At Percy, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Sick Black Cloud",
       "choices": [
         {
           "text": "Lock the doors",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to lock the doors. By Percy, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         },
         {
           "text": "Open the window",
-          "consequence": "You commit to “Open the window.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to open the window. By Percy, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A man cured of nothing has Coffey's mouth on his and inherits the curse.",
+      "text": "A man cured of nothing has Coffey's mouth on his and inherits the curse. Both choices lead to Wild Bill, Crowed, but “Let it happen” arrives there with a different cost than “Pull him off.”",
       "sceneTitle": "Percy",
       "choices": [
         {
           "text": "Let it happen",
-          "consequence": "There is no taking “Let it happen” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You choose to let it happen. It opens the route to Wild Bill, Crowed, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Pull him off",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You choose to pull him off. It opens the route to Wild Bill, Crowed, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "He grins through bars and brags about two little girls in a barn.",
+      "text": "He grins through bars and brags about two little girls in a barn. Two Shots is already waiting. What changes is whether “Restrain Percy” or “Step back” is the instinct you carry into it. In Wild Bill, Crowed, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Wild Bill, Crowed",
       "choices": [
         {
           "text": "Restrain Percy",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You restrain Percy. The decision moves you toward Two Shots and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You step back. The decision moves you toward Two Shots and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Six rounds emptied into a cell by a man who has been spelled.",
+      "text": "Six rounds emptied into a cell by a man who has been spelled. Both choices lead to Coffey's Truth, but “Take the gun” arrives there with a different cost than “Wait.” At Coffey's Truth, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Two Shots",
       "choices": [
         {
           "text": "Take the gun",
-          "consequence": "You commit to “Take the gun.” The story records the instinct as “Calm” and carries it forward.",
+          "consequence": "You take the gun. The decision moves you toward Coffey's Truth and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You wait. The decision moves you toward Coffey's Truth and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "He says he saw what Wild Bill did and he is tired, boss.",
+      "text": "He says he saw what Wild Bill did and he is tired, boss. Both choices lead to Last Meal, but “Believe him” arrives there with a different cost than “Doubt.” By Last Meal, the decision will already have changed who trusts you.",
       "sceneTitle": "Coffey's Truth",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "You commit to “Believe him.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to believe him. It opens the route to Last Meal, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Doubt",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You doubt. The decision moves you toward Last Meal and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Cornbread, okra, sweet potato pie, the kindness of a cook.",
+      "text": "Cornbread, okra, sweet potato pie, the kindness of a cook. The road still runs toward Hood. Its next turn depends on the difference between choosing “Sit with him” and choosing “Stand.” By Hood, the decision will already have changed who trusts you.",
       "sceneTitle": "Last Meal",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "You commit to “Sit with him.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to sit with him. By Hood, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stand",
-          "consequence": "There is no taking “Stand” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stand. It opens the route to Hood, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "He asks if he can go without it. The room is full of strangers.",
+      "text": "He asks if he can go without it. The room is full of strangers. Switch is already waiting. What changes is whether “Refuse, gently” or “Allow it” is the instinct you carry into it. By Switch, the decision will already have changed who trusts you.",
       "sceneTitle": "Hood",
       "choices": [
         {
           "text": "Refuse, gently",
-          "consequence": "There is no taking “Refuse, gently” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You commit to refuse, gently. By Switch, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s21"
         },
         {
           "text": "Allow it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mercy.",
+          "consequence": "You allow it. The decision moves you toward Switch and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Your hand on a lever, his eyes on yours, his last words a small request.",
+      "text": "Your hand on a lever, his eyes on yours, his last words a small request. “Throw it” opens the route to The Long Goodbye. “Stop the execution” changes the terms and carries you toward A Quiet Pension. A third choice, “Take the third path,” keeps Coffey's Prayer in play.",
       "sceneTitle": "Switch",
       "choices": [
         {
           "text": "Throw it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You commit to throw it. By The Long Goodbye, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_long"
         },
         {
           "text": "Stop the execution",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to stop the execution. It opens the route to A Quiet Pension, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. It opens the route to Coffey's Prayer, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_pray"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_long",
-      "text": "Mr. Jingles is alive in a small wooden cage forty years later, and so are you, both of you tired of staying.",
+      "text": "Mr. Jingles is alive in a small wooden cage forty years later, and so are you, both of you tired of staying. The road into The Long Goodbye began with “Throw it” in Switch; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Long Goodbye",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You leave the prison. You marry a kind woman. You wake up at night with green linoleum in your dreams. It does not let you go.",
+      "text": "You leave the prison. You marry a kind woman. You wake up at night with green linoleum in your dreams. It does not let you go. The road into A Quiet Pension began with “Stop the execution” in Switch; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "A Quiet Pension",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_pray",
-      "text": "On a hill behind the prison you bury a man with hands like dinner plates. You pray for a mercy you do not believe in, and it comes anyway.",
+      "text": "On a hill behind the prison you bury a man with hands like dinner plates. You pray for a mercy you do not believe in, and it comes anyway. The road into Coffey's Prayer began with “Take the third path” in Switch; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Coffey's Prayer",
       "choices": [],
       "isEnding": true,

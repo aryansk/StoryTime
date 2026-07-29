@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You win by 41 votes. Your mom cries. Your kid, eleven, is asleep on the couch. The coalition is in your living room making absurdly bad coffee.",
+      "text": "You win by 41 votes. Your mom cries. Your kid, eleven, is asleep on the couch. The coalition is in your living room making absurdly bad coffee. Choose “Thank the coalition publicly tonight” and The Mayor's Call comes into view; choose “Save the thank-yous for Monday” and the road bends toward Your Mother.",
       "sceneTitle": "Election Night",
       "choices": [
         {
           "text": "Thank the coalition publicly tonight",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Recognize.",
+          "consequence": "You choose to thank the coalition publicly tonight. It opens the route to The Mayor's Call, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Save the thank-yous for Monday",
-          "consequence": "You commit to “Save the thank-yous for Monday.” The story records the instinct as “Be presentable” and carries it forward.",
+          "consequence": "You choose to save the thank-yous for Monday. It opens the route to Your Mother, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The mayor, who endorsed your opponent, calls to congratulate you. He uses your first name without permission. He invites you to coffee. You realize he is, professionally, already negotiating.",
+      "text": "The mayor, who endorsed your opponent, calls to congratulate you. He uses your first name without permission. He invites you to coffee. You realize he is, professionally, already negotiating. The paths divide here: “Accept the coffee” leads into Monday Session, while “Decline politely” makes The Coalition the next reckoning.",
       "sceneTitle": "The Mayor's Call",
       "choices": [
         {
           "text": "Accept the coffee",
-          "consequence": "Politics is also rooms.",
+          "consequence": "You commit to accept the coffee. By Monday Session, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         },
         {
           "text": "Decline politely",
-          "consequence": "Set the boundary.",
+          "consequence": "You commit to decline politely. By The Coalition, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your mother, who once ran for the same seat and lost twice, makes you sit on the porch with her. 'They will try to make you a kind of woman they can manage,' she says. 'Don't let them.'",
+      "text": "Your mother, who once ran for the same seat and lost twice, makes you sit on the porch with her. 'They will try to make you a kind of woman they can manage,' she says.",
       "sceneTitle": "Your Mother",
       "choices": [
         {
           "text": "Ask her how she avoided that",
-          "consequence": "The decision settles the question for now. Its verdict—Listen—follows you into whatever comes next.",
+          "consequence": "You ask her how she avoided that. The decision moves you toward Monday Session and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask her what she thought she should have done differently",
-          "consequence": "There is no taking “Ask her what she thought she should have done differently” back. Different question shapes the silence before the next moment arrives.",
+          "consequence": "You ask her what she thought she should have done differently. The decision moves you toward The Coalition and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You sit at the council table for the first time. There are six of you. You are the only woman. The first item is, unbelievably, the budget you've been pushing for two years. The mayor calls you 'councilwoman' the way some men say 'ma'am.'",
+      "text": "You sit at the council table for the first time. There are six of you. You are the only woman. The first item is, unbelievably, the budget you've been pushing for two years. The paths divide here: “Lead with the budget” leads into The Budget Vote, while “Read the room first” makes Your Kid's Questions the next reckoning.",
       "sceneTitle": "Monday Session",
       "choices": [
         {
           "text": "Lead with the budget",
-          "consequence": "Strike while warm.",
+          "consequence": "You commit to lead with the budget. By The Budget Vote, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         },
         {
           "text": "Read the room first",
-          "consequence": "The decision settles the question for now. Its verdict—Read—follows you into whatever comes next.",
+          "consequence": "You commit to read the room first. By Your Kid's Questions, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Make space for the ambitious one",
-          "consequence": "There is no taking “Make space for the ambitious one” back. Generosity shapes the silence before the next moment arrives.",
+          "consequence": "You choose to make space for the ambitious one. It opens the route to The Budget Vote, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Set firm expectations for the coalition",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You choose to set firm expectations for the coalition. It opens the route to Your Kid's Questions, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The vote is three to three. You sit with it for a long second. The deciding vote is, of course, an unexpected councilman who, you realize, is voting his conscience for the first time.",
+      "text": "The vote is three to three. You sit with it for a long second. The deciding vote is, of course, an unexpected councilman who, you realize, is voting his conscience for the first time. The distance between The Editorial and The Town Hall begins with the choice between “Thank him publicly after” and “Thank him privately and protect him.”",
       "sceneTitle": "The Budget Vote",
       "choices": [
         {
           "text": "Thank him publicly after",
-          "consequence": "Make him your ally.",
+          "consequence": "You commit to thank him publicly after. By The Editorial, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Thank him privately and protect him",
-          "consequence": "You commit to “Thank him privately and protect him.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You commit to thank him privately and protect him. By The Town Hall, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Your kid, eleven, asks you, with great seriousness, what your job is now. You think for a long minute. You realize the answer is, technically, 'I argue with men about how the town should work.'",
+      "text": "Your kid, eleven, asks you, with great seriousness, what your job is now. You think for a long minute. The distance between The Editorial and The Town Hall begins with the choice between “Tell her exactly that” and “Give her the kid-version.”",
       "sceneTitle": "Your Kid's Questions",
       "choices": [
         {
           "text": "Tell her exactly that",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You tell her exactly that. The decision moves you toward The Editorial and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Give her the kid-version",
-          "consequence": "There is no taking “Give her the kid-version” back. Gentle shapes the silence before the next moment arrives.",
+          "consequence": "You commit to give her the kid-version. By The Town Hall, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Respond to the editorial in a letter",
-          "consequence": "You commit to “Respond to the editorial in a letter.” The story records the instinct as “On record” and carries it forward.",
+          "consequence": "You commit to respond to the editorial in a letter. By The Difficult Vote, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Don't respond; let the work speak",
-          "consequence": "You commit to “Don't respond; let the work speak.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You choose to don't respond; let the work speak. It opens the route to The Quiet Win, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your first town hall as a councilmember. The room is louder than the council chamber. A man in the back yells about your funding decision. A woman near the front cries because of it.",
+      "text": "Your first town hall as a councilmember. The room is louder than the council chamber. A man in the back yells about your funding decision. A woman near the front cries because of it. The distance between The Difficult Vote and The Quiet Win begins with the choice between “Address the man first” and “Address the woman first.”",
       "sceneTitle": "The Town Hall",
       "choices": [
         {
           "text": "Address the man first",
-          "consequence": "Calm the loudest.",
+          "consequence": "You choose to address the man first. It opens the route to The Difficult Vote, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         },
         {
           "text": "Address the woman first",
-          "consequence": "Honor the quieter.",
+          "consequence": "You commit to address the woman first. By The Quiet Win, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Three months in. A vote on whether to fund a new library or repair the old highway bridge. The county will subsidize either, not both. You can guess which option the men will pick.",
+      "text": "Three months in. A vote on whether to fund a new library or repair the old highway bridge. The county will subsidize either, not both. You can guess which option the men will pick. “Push for the library” opens the route to The Re-Election Year. “Push for the bridge” changes the terms and carries you toward The Daughter Watching.",
       "sceneTitle": "The Difficult Vote",
       "choices": [
         {
           "text": "Push for the library",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vision.",
+          "consequence": "You push for the library. The decision moves you toward The Re-Election Year and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Push for the bridge",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pragmatism.",
+          "consequence": "You commit to push for the bridge. By The Daughter Watching, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You and the unexpected councilman start meeting for breakfast. You don't agree on much. You agree on the budget for the food pantry. The breakfasts become, in their way, the actual government.",
+      "text": "You and the unexpected councilman start meeting for breakfast. You don't agree on much. You agree on the budget for the food pantry. The breakfasts become, in their way, the actual government. “Codify the alliance” draws you toward The Re-Election Year; “Keep it informal” leaves The Daughter Watching waiting on the other side.",
       "sceneTitle": "The Quiet Win",
       "choices": [
         {
           "text": "Codify the alliance",
-          "consequence": "There is no taking “Codify the alliance” back. Build shapes the silence before the next moment arrives.",
+          "consequence": "You choose to codify the alliance. It opens the route to The Re-Election Year, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Keep it informal",
-          "consequence": "You commit to “Keep it informal.” The story records the instinct as “Light” and carries it forward.",
+          "consequence": "You keep it informal. The decision moves you toward The Daughter Watching and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Two years pass. Your re-election campaign is, mercifully, less of a fight than the first. You win by 312 votes. The coalition has, in your absence, doubled.",
+      "text": "Two years pass. Your re-election campaign is, mercifully, less of a fight than the first. You win by 312 votes. The coalition has, in your absence, doubled. “Run for mayor next cycle” draws you toward Mayor; “Stay on the council and build” leaves Your Library Wins waiting on the other side.",
       "sceneTitle": "The Re-Election Year",
       "choices": [
         {
           "text": "Run for mayor next cycle",
-          "consequence": "You commit to “Run for mayor next cycle.” The story records the instinct as “Aim up” and carries it forward.",
+          "consequence": "You commit to run for mayor next cycle. By Mayor, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay on the council and build",
-          "consequence": "Stay in your strength.",
+          "consequence": "You stay on the council and build. The decision moves you toward Your Library Wins and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Your daughter, thirteen now, sits in on a council meeting and watches you for two hours. Afterward she says, 'I want to do that.' You realize you have, accidentally, started a small generational thing.",
+      "text": "Your daughter, thirteen now, sits in on a council meeting and watches you for two hours. Afterward she says, 'I want to do that.' You realize you have, accidentally, started a small generational thing. The distance between Mayor and Your Library Wins begins with the choice between “Mentor her properly” and “Let her find her own version.”",
       "sceneTitle": "The Daughter Watching",
       "choices": [
         {
           "text": "Mentor her properly",
-          "consequence": "Pass the skill.",
+          "consequence": "You mentor her properly. The decision moves you toward Mayor and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Let her find her own version",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Independence.",
+          "consequence": "You let her find her own version. The decision moves you toward Your Library Wins and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Make 'small town, big work' your platform",
-          "consequence": "“Make 'small town, big work' your platform” closes one possibility and opens another. The moment leaves a clear note behind: Frame.",
+          "consequence": "You commit to make 'small town, big work' your platform. By First Hundred Days, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Just do the work quietly",
-          "consequence": "“Just do the work quietly” closes one possibility and opens another. The moment leaves a clear note behind: Substance.",
+          "consequence": "You choose to just do the work quietly. It opens the route to First Hundred Days, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Use the library opening for the next campaign",
-          "consequence": "The decision settles the question for now. Its verdict—Build—follows you into whatever comes next.",
+          "consequence": "You choose to use the library opening for the next campaign. It opens the route to The County Conference, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         },
         {
           "text": "Just celebrate the library",
-          "consequence": "Honor the win.",
+          "consequence": "You choose to just celebrate the library. It opens the route to The County Conference, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The first hundred days are paperwork, parking, ordinances. Glamorous it is not. You realize, slowly, that being mayor is mostly the work of returning calls. You return them.",
+      "text": "The first hundred days are paperwork, parking, ordinances. Glamorous it is not. You realize, slowly, that being mayor is mostly the work of returning calls. You return them. You cannot avoid The Veto; you can only decide whether “Keep returning every call personally” or “Hire a chief of staff” defines the person who reaches it.",
       "sceneTitle": "First Hundred Days",
       "choices": [
         {
           "text": "Keep returning every call personally",
-          "consequence": "There is no taking “Keep returning every call personally” back. Old school shapes the silence before the next moment arrives.",
+          "consequence": "You keep returning every call personally. The decision moves you toward The Veto and tells everyone present what you are willing to risk.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hire a chief of staff",
-          "consequence": "You commit to “Hire a chief of staff.” The story records the instinct as “Scale yourself” and carries it forward.",
+          "consequence": "You choose to hire a chief of staff. It opens the route to The Veto, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You attend a county-wide conference of small-town officials. Half of them are women now. Five years ago, two of them were. You realize you have, accidentally, been part of a shift.",
+      "text": "You attend a county-wide conference of small-town officials. Half of them are women now. Five years ago, two of them were. You realize you have, accidentally, been part of a shift. The Regional Coalition Meeting comes either way; its meaning changes with the difference between “Take the lead on a regional coalition” and “Stay focused on your own town.”",
       "sceneTitle": "The County Conference",
       "choices": [
         {
           "text": "Take the lead on a regional coalition",
-          "consequence": "There is no taking “Take the lead on a regional coalition” back. Bigger frame shapes the silence before the next moment arrives.",
+          "consequence": "You choose to take the lead on a regional coalition. It opens the route to The Regional Coalition Meeting, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay focused on your own town",
-          "consequence": "There is no taking “Stay focused on your own town” back. Local shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay focused on your own town. It opens the route to The Regional Coalition Meeting, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Be principled and friendly always",
-          "consequence": "Both at once.",
+          "consequence": "You choose to be principled and friendly always. It opens the route to Re-Election Eve, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Accept some friendships will fray",
-          "consequence": "Honest about cost.",
+          "consequence": "You accept some friendships will fray. The decision moves you toward Re-Election Eve and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You convene a coalition of nine towns. The first meeting is awkward. The second is, surprisingly, productive. By the third you are voted, against your wishes, the chair.",
+      "text": "You convene a coalition of nine towns. The first meeting is awkward. The second is, surprisingly, productive. By the third you are voted, against your wishes, the chair. Re-Election Eve is already waiting. What changes is whether “Accept the chair” or “Decline; nominate someone better suited” is the instinct you carry into it.",
       "sceneTitle": "The Regional Coalition Meeting",
       "choices": [
         {
           "text": "Accept the chair",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Take it.",
+          "consequence": "You choose to accept the chair. It opens the route to Re-Election Eve, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Decline; nominate someone better suited",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pass.",
+          "consequence": "You decline; nominate someone better suited. The decision moves you toward Re-Election Eve and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Run again with the bigger 'small town' frame",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mayor again.",
+          "consequence": "You run again with the bigger 'small town' frame. The decision moves you toward Mayor for Two Terms and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_mayor"
         },
         {
           "text": "Run again on quiet, careful substance",
-          "consequence": "The decision settles the question for now. Its verdict—Quiet—follows you into whatever comes next.",
+          "consequence": "You choose to run again on quiet, careful substance. It opens the route to Councilwoman, Quietly, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_quiet"
         }
       ],

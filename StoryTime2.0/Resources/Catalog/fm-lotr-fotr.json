@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Bilbo's 111th birthday. Fireworks. You are quietly happy.",
+      "text": "Bilbo's 111th birthday. Fireworks. You are quietly happy. Gandalf's Return comes either way; its meaning changes with the difference between “Enjoy the party” and “Help Bilbo pack.” In The Party Field, the rules change the moment you decide they can be tested.",
       "sceneTitle": "The Party Field",
       "choices": [
         {
           "text": "Enjoy the party",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Joy.",
+          "consequence": "You choose to enjoy the party. By Gandalf's Return, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Help Bilbo pack",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You choose to help Bilbo pack. By Gandalf's Return, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Gandalf comes by night. The ring tests fire. The runes appear.",
+      "text": "Gandalf comes by night. The ring tests fire. The runes appear. You cannot avoid Leaving the Shire; you can only decide whether “Listen carefully” or “Be afraid” defines the person who reaches it. At Leaving the Shire, the decision will matter as memory as well as intent.",
       "sceneTitle": "Gandalf's Return",
       "choices": [
         {
           "text": "Listen carefully",
-          "consequence": "“Listen carefully” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to listen carefully. It carries you toward Leaving the Shire, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Be afraid",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to be afraid. By Leaving the Shire, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Sam at your side. Pippin and Merry crash through corn.",
+      "text": "Sam at your side. Pippin and Merry crash through corn. You cannot avoid Bree; you can only decide whether “Take the Old Forest path” or “Take the road” defines the person who reaches it. At Bree, the decision will matter as memory as well as intent.",
       "sceneTitle": "Leaving the Shire",
       "choices": [
         {
           "text": "Take the Old Forest path",
-          "consequence": "“Take the Old Forest path” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to take the Old Forest path. By Bree, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Take the road",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Direct.",
+          "consequence": "You choose to take the road. By Bree, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The Prancing Pony. A stranger named Strider. Wet stones.",
+      "text": "The Prancing Pony. A stranger named Strider. Wet stones. Weathertop will follow either decision, but it will meet a different version of you after “Trust him” than after “Hold off.” By Weathertop, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Bree",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You commit to “Trust him.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to trust him. It carries you toward Weathertop, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hold off",
-          "consequence": "You commit to “Hold off.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You choose to hold off. By Weathertop, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The Nazgûl find you. You are stabbed by a Morgul blade.",
+      "text": "The Nazgûl find you. You are stabbed by a Morgul blade. Both choices lead to Rivendell, but “Hide the ring” arrives there with a different cost than “Try to fight.” At Rivendell, the decision will matter as memory as well as intent.",
       "sceneTitle": "Weathertop",
       "choices": [
         {
           "text": "Hide the ring",
-          "consequence": "There is no taking “Hide the ring” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You commit to hide the ring. It carries you toward Rivendell, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Try to fight",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to try to fight. By Rivendell, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Elrond's house. Council. Voices argue. The ring sits on a plinth.",
+      "text": "Elrond's house. Council. Voices argue. The ring sits on a plinth. You cannot avoid The Fellowship; you can only decide whether “Volunteer” or “Stay silent” defines the person who reaches it. By The Fellowship, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Rivendell",
       "choices": [
         {
           "text": "Volunteer",
-          "consequence": "“Volunteer” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You commit to volunteer. It carries you toward The Fellowship, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay silent",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to stay silent. It carries you toward The Fellowship, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Nine. Aragorn, Boromir, Gimli, Legolas, Gandalf, the four hobbits.",
+      "text": "Nine. Aragorn, Boromir, Gimli, Legolas, Gandalf, the four hobbits. The road still runs toward Caradhras. Its next turn depends on the difference between choosing “Trust each one” and choosing “Watch Boromir.” At Caradhras, the decision will matter as memory as well as intent.",
       "sceneTitle": "The Fellowship",
       "choices": [
         {
           "text": "Trust each one",
-          "consequence": "The decision settles the question for now. Its verdict—Open—follows you into whatever comes next.",
+          "consequence": "You commit to trust each one. It carries you toward Caradhras, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Watch Boromir",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You choose to watch Boromir. By Caradhras, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The mountain pass. Snow. Saruman's voice in the wind.",
+      "text": "The mountain pass. Snow. Saruman's voice in the wind. The road still runs toward Moria. Its next turn depends on the difference between choosing “Push through” and choosing “Go under via Moria.” At Moria, the decision will matter as memory as well as intent.",
       "sceneTitle": "Caradhras",
       "choices": [
         {
           "text": "Push through",
-          "consequence": "There is no taking “Push through” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You choose to push through. By Moria, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Go under via Moria",
-          "consequence": "There is no taking “Go under via Moria” back. Reluctant shapes the silence before the next moment arrives.",
+          "consequence": "You commit to go under via Moria. It carries you toward Moria, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "The Doors of Durin. Speak friend and enter.",
+      "text": "The Doors of Durin. Speak friend and enter. You cannot avoid The Hall; you can only decide whether “Trust Gandalf” or “Argue the riddle” defines the person who reaches it. In Moria, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Moria",
       "choices": [
         {
           "text": "Trust Gandalf",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Faith.",
+          "consequence": "You commit to trust Gandalf. It carries you toward The Hall, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Argue the riddle",
-          "consequence": "“Argue the riddle” closes one possibility and opens another. The moment leaves a clear note behind: Mind.",
+          "consequence": "You commit to argue the riddle. It carries you toward The Hall, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Dwarves long dead. A drum in the deep.",
+      "text": "Dwarves long dead. A drum in the deep. Bridge of Khazad-dûm will follow either decision, but it will meet a different version of you after “Stand by the door” than after “Read the records.” At Bridge of Khazad-dûm, the decision will matter as memory as well as intent.",
       "sceneTitle": "The Hall",
       "choices": [
         {
           "text": "Stand by the door",
-          "consequence": "You commit to “Stand by the door.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You commit to stand by the door. It carries you toward Bridge of Khazad-dûm, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         },
         {
           "text": "Read the records",
-          "consequence": "You commit to “Read the records.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You read the records. The path to Bridge of Khazad-dûm opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The Balrog. Gandalf, you fly fools.",
+      "text": "The Balrog. Gandalf, you fly fools. Lothlorien is already waiting. What changes is whether “Run” or “Try to help” is the instinct you carry into it. By Lothlorien, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Bridge of Khazad-dûm",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You commit to run. It carries you toward Lothlorien, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         },
         {
           "text": "Try to help",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to try to help. It carries you toward Lothlorien, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Galadriel. The mirror. The temptation.",
+      "text": "Galadriel. The mirror. The temptation. The road still runs toward River. Its next turn depends on the difference between choosing “Refuse the ring” and choosing “Almost take it.” At River, the decision will matter as memory as well as intent.",
       "sceneTitle": "Lothlorien",
       "choices": [
         {
           "text": "Refuse the ring",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Vow.",
+          "consequence": "You commit to refuse the ring. It carries you toward River, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         },
         {
           "text": "Almost take it",
-          "consequence": "There is no taking “Almost take it” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to almost take it. It carries you toward River, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Boats on the Anduin. Tall stone kings.",
+      "text": "Boats on the Anduin. Tall stone kings. Both choices lead to Amon Hen, but “Watch the riverbanks” arrives there with a different cost than “Talk with Aragorn.” By Amon Hen, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "River",
       "choices": [
         {
           "text": "Watch the riverbanks",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You watch the riverbanks. The path to Amon Hen opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Talk with Aragorn",
-          "consequence": "You commit to “Talk with Aragorn.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You talk with Aragorn. The path to Amon Hen opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Boromir asks for the ring. You refuse. He grabs.",
+      "text": "Boromir asks for the ring. You refuse. He grabs. The Choice comes either way; its meaning changes with the difference between “Run” and “Try to talk him down.” In Amon Hen, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Amon Hen",
       "choices": [
         {
           "text": "Run",
-          "consequence": "Save the ring.",
+          "consequence": "You commit to run. It carries you toward The Choice, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         },
         {
           "text": "Try to talk him down",
-          "consequence": "There is no taking “Try to talk him down” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You choose to try to talk him down. By The Choice, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You sit by the river. Sam finds you. You decide the only way forward is alone.",
+      "text": "You sit by the river. Sam finds you. You decide the only way forward is alone. Both choices lead to Sam in the Water, but “Take Sam” arrives there with a different cost than “Go alone.”",
       "sceneTitle": "The Choice",
       "choices": [
         {
           "text": "Take Sam",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You take Sam. The path to Sam in the Water opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Go alone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You commit to go alone. It carries you toward Sam in the Water, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Sam swims after you. You pull him in. You realize you are not alone after all.",
+      "text": "Sam swims after you. You pull him in. You realize you are not alone after all. Boromir, Falling comes either way; its meaning changes with the difference between “Cry” and “Smile.” In Sam in the Water, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Sam in the Water",
       "choices": [
         {
           "text": "Cry",
-          "consequence": "You commit to “Cry.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to cry. By Boromir, Falling, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Smile",
-          "consequence": "You commit to “Smile.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to smile. It carries you toward Boromir, Falling, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Boromir, redeemed, dies defending Merry and Pippin. Aragorn cradles him.",
+      "text": "Boromir, redeemed, dies defending Merry and Pippin. Aragorn cradles him. You cannot avoid Aragorn's Vow; you can only decide whether “Honor him from afar” or “Go back briefly” defines the person who reaches it. In Boromir, Falling, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Boromir, Falling",
       "choices": [
         {
           "text": "Honor him from afar",
-          "consequence": "There is no taking “Honor him from afar” back. Quiet shapes the silence before the next moment arrives.",
+          "consequence": "You honor him from afar. The path to Aragorn's Vow opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         },
         {
           "text": "Go back briefly",
-          "consequence": "There is no taking “Go back briefly” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You go back briefly. The path to Aragorn's Vow opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Aragorn vows to hunt the Uruks. You and Sam vow to take the road east.",
+      "text": "Aragorn vows to hunt the Uruks. You and Sam vow to take the road east. You cannot avoid Emyn Muil; you can only decide whether “Trust the company splits well” or “Wish for the company whole” defines the person who reaches it.",
       "sceneTitle": "Aragorn's Vow",
       "choices": [
         {
           "text": "Trust the company splits well",
-          "consequence": "You commit to “Trust the company splits well.” The story records the instinct as “Faith” and carries it forward.",
+          "consequence": "You commit to trust the company splits well. It carries you toward Emyn Muil, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         },
         {
           "text": "Wish for the company whole",
-          "consequence": "“Wish for the company whole” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to wish for the company whole. It carries you toward Emyn Muil, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Stones, mist, no path. Gollum follows.",
+      "text": "Stones, mist, no path. Gollum follows. The road still runs toward Gollum. Its next turn depends on the difference between choosing “Set a trap” and choosing “Confront Gollum.” In Emyn Muil, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Emyn Muil",
       "choices": [
         {
           "text": "Set a trap",
-          "consequence": "There is no taking “Set a trap” back. Cunning shapes the silence before the next moment arrives.",
+          "consequence": "You set a trap. The path to Gollum opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Confront Gollum",
-          "consequence": "The decision settles the question for now. Its verdict—Direct—follows you into whatever comes next.",
+          "consequence": "You choose to confront Gollum. By Gollum, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "He bargains. He swears on the precious.",
+      "text": "He bargains. He swears on the precious. Mordor's Border is already waiting. What changes is whether “Trust slowly” or “Don't trust” is the instinct you carry into it. By Mordor's Border, the people waiting will remember which instinct carried you forward.",
       "sceneTitle": "Gollum",
       "choices": [
         {
           "text": "Trust slowly",
-          "consequence": "You commit to “Trust slowly.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You choose to trust slowly. By Mordor's Border, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Don't trust",
-          "consequence": "“Don't trust” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to don't trust. It carries you toward Mordor's Border, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The Black Gate. Closed. The land smokes. The road, somehow, continues.",
+      "text": "The Black Gate. Closed. The land smokes. The road, somehow, continues. “Find the secret way” draws you toward The Ring Cast Down; “Wait” leaves Sam, Always waiting on the other side. A third choice, “Take the third path,” keeps Back in the Shire in play.",
       "sceneTitle": "Mordor's Border",
       "choices": [
         {
           "text": "Find the secret way",
-          "consequence": "There is no taking “Find the secret way” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You commit to find the secret way. It carries you toward The Ring Cast Down, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_ring"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Patience.",
+          "consequence": "You commit to wait. It carries you toward Sam, Always, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_sam"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you toward Back in the Shire, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_shire"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_ring",
-      "text": "The road goes on for two more books. You and Sam, at the end, throw it into the fire. The Shire heals. You sail west, eventually, with Bilbo.",
+      "text": "The road goes on for two more books. You and Sam, at the end, throw it into the fire. The Shire heals. You sail west, eventually, with Bilbo. The road into The Ring Cast Down began with “Find the secret way” in Mordor's Border; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Ring Cast Down",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_sam",
-      "text": "Sam is, in the end, the hero of the story. He marries Rosie. He has many children. You write a book about it. The book becomes, in time, scripture.",
+      "text": "Sam is, in the end, the hero of the story. He marries Rosie. He has many children. You write a book about it. The book becomes, in time, scripture. The road into Sam, Always began with “Wait” in Mordor's Border; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Sam, Always",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_shire",
-      "text": "You return changed. Most don't notice. Sam notices. The Gaffer notices. You sit by the river and write, in a small careful hand, the whole tale.",
+      "text": "You return changed. Most don't notice. Sam notices. The Gaffer notices. You sit by the river and write, in a small careful hand, the whole tale. The road into Back in the Shire began with “Take the third path” in Mordor's Border; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Back in the Shire",
       "choices": [],
       "isEnding": true,

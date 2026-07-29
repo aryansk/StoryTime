@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Mr. Gower has a telegram in one hand and gin on his breath.",
+      "text": "Mr. Gower has a telegram in one hand and gin on his breath. Charleston at the Dance Floor will follow either decision, but it will meet a different version of you after “Hold the capsules” than after “Deliver them.”",
       "sceneTitle": "Drug Store, 1919",
       "choices": [
         {
           "text": "Hold the capsules",
-          "consequence": "“Hold the capsules” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You commit to hold the capsules. By Charleston at the Dance Floor, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         },
         {
           "text": "Deliver them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You commit to deliver them. By Charleston at the Dance Floor, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A waxed gym floor that opens onto a pool.",
+      "text": "A waxed gym floor that opens onto a pool. Moon for Mary will follow either decision, but it will meet a different version of you after “Lean back” than after “Catch the falling girl.” At Moon for Mary, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Charleston at the Dance Floor",
       "choices": [
         {
           "text": "Lean back",
-          "consequence": "You commit to “Lean back.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You lean back. The decision moves you toward Moon for Mary and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         },
         {
           "text": "Catch the falling girl",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You choose to catch the falling girl. It opens the route to Moon for Mary, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "She would, if you would, lasso it.",
+      "text": "She would, if you would, lasso it. Pop's Stroke is already waiting. What changes is whether “Lasso” or “Laugh it off” is the instinct you carry into it. By Pop's Stroke, the decision will already have changed who trusts you.",
       "sceneTitle": "Moon for Mary",
       "choices": [
         {
           "text": "Lasso",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You commit to lasso. By Pop's Stroke, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         },
         {
           "text": "Laugh it off",
-          "consequence": "“Laugh it off” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You laugh it off. The decision moves you toward Pop's Stroke and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A father on the floor of an office that is not yours, yet.",
+      "text": "A father on the floor of an office that is not yours, yet. Both choices lead to Harry's Wedding, but “Take the desk” arrives there with a different cost than “Refuse.” At Harry's Wedding, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Pop's Stroke",
       "choices": [
         {
           "text": "Take the desk",
-          "consequence": "You commit to “Take the desk.” The story records the instinct as “Duty” and carries it forward.",
+          "consequence": "You take the desk. The decision moves you toward Harry's Wedding and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to refuse. By Harry's Wedding, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Your brother home from college with a bride and a new job.",
+      "text": "Your brother home from college with a bride and a new job. Building and Loan Run is already waiting. What changes is whether “Hold the news” or “Tell him” is the instinct you carry into it.",
       "sceneTitle": "Harry's Wedding",
       "choices": [
         {
           "text": "Hold the news",
-          "consequence": "You commit to “Hold the news.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You hold the news. The decision moves you toward Building and Loan Run and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Tell him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to tell him. It opens the route to Building and Loan Run, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A line at the counter and four thousand dollars total in the drawer.",
+      "text": "A line at the counter and four thousand dollars total in the drawer. You cannot avoid Honeymoon Money; you can only decide whether “Speak to them” or “Close the doors” defines the person who reaches it.",
       "sceneTitle": "Building and Loan Run",
       "choices": [
         {
           "text": "Speak to them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You choose to speak to them. It opens the route to Honeymoon Money, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         },
         {
           "text": "Close the doors",
-          "consequence": "There is no taking “Close the doors” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You close the doors. The decision moves you toward Honeymoon Money and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Two thousand dollars for the company instead of a train.",
+      "text": "Two thousand dollars for the company instead of a train. You cannot avoid Bailey Park; you can only decide whether “Spend it” or “Keep it” defines the person who reaches it. In Honeymoon Money, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Honeymoon Money",
       "choices": [
         {
           "text": "Spend it",
-          "consequence": "You commit to “Spend it.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You commit to spend it. By Bailey Park, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Keep it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pride.",
+          "consequence": "You choose to keep it. It opens the route to Bailey Park, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Plain houses on plain streets, owned by people who lived in slums.",
+      "text": "Plain houses on plain streets, owned by people who lived in slums. Potter's Office will follow either decision, but it will meet a different version of you after “Tour them through” than after “Stay at the desk.”",
       "sceneTitle": "Bailey Park",
       "choices": [
         {
           "text": "Tour them through",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pride.",
+          "consequence": "You commit to tour them through. By Potter's Office, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay at the desk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tired.",
+          "consequence": "You commit to stay at the desk. By Potter's Office, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Twenty thousand a year and a cigar.",
+      "text": "Twenty thousand a year and a cigar. Pharmacy Return will follow either decision, but it will meet a different version of you after “Refuse the cigar” than after “Take the offer.” In Potter's Office, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Potter's Office",
       "choices": [
         {
           "text": "Refuse the cigar",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You refuse the cigar. The decision moves you toward Pharmacy Return and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take the offer",
-          "consequence": "“Take the offer” closes one possibility and opens another. The moment leaves a clear note behind: Tempted.",
+          "consequence": "You choose to take the offer. It opens the route to Pharmacy Return, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Old Mr. Gower in a Christmas line, embracing you in front of strangers.",
+      "text": "Old Mr. Gower in a Christmas line, embracing you in front of strangers. Zuzu's Petals is already waiting. What changes is whether “Embrace him” or “Brush past” is the instinct you carry into it. In Pharmacy Return, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Pharmacy Return",
       "choices": [
         {
           "text": "Embrace him",
-          "consequence": "There is no taking “Embrace him” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to embrace him. It opens the route to Zuzu's Petals, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         },
         {
           "text": "Brush past",
-          "consequence": "“Brush past” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You choose to brush past. It opens the route to Zuzu's Petals, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "She gives you her flower; you tuck the petals into your watch pocket.",
+      "text": "She gives you her flower; you tuck the petals into your watch pocket. Uncle Billy's Bundle is already waiting. What changes is whether “Promise to fix it” or “Be honest” is the instinct you carry into it.",
       "sceneTitle": "Zuzu's Petals",
       "choices": [
         {
           "text": "Promise to fix it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You choose to promise to fix it. It opens the route to Uncle Billy's Bundle, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Be honest",
-          "consequence": "You commit to “Be honest.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You choose to be honest. It opens the route to Uncle Billy's Bundle, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "The eight thousand dollars in a newspaper a banker leaves on a counter.",
+      "text": "The eight thousand dollars in a newspaper a banker leaves on a counter. Potter Across the Desk comes either way; its meaning changes with the difference between “Search the streets” and “Calm yourself.” At Potter Across the Desk, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Uncle Billy's Bundle",
       "choices": [
         {
           "text": "Search the streets",
-          "consequence": "The decision settles the question for now. Its verdict—Frantic—follows you into whatever comes next.",
+          "consequence": "You search the streets. The decision moves you toward Potter Across the Desk and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         },
         {
           "text": "Calm yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You choose to calm yourself. It opens the route to Potter Across the Desk, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "He smells the panic and offers a noose.",
+      "text": "He smells the panic and offers a noose. Bedroom, Late is already waiting. What changes is whether “Beg” or “Walk out” is the instinct you carry into it. At Bedroom, Late, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Potter Across the Desk",
       "choices": [
         {
           "text": "Beg",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to beg. It opens the route to Bedroom, Late, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s14"
         },
         {
           "text": "Walk out",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You commit to walk out. By Bedroom, Late, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Snapping at the children for being children.",
+      "text": "Snapping at the children for being children. You cannot avoid Bridge; you can only decide whether “Apologize” or “Storm out” defines the person who reaches it. By Bridge, the decision will already have changed who trusts you.",
       "sceneTitle": "Bedroom, Late",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to apologize. It opens the route to Bridge, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         },
         {
           "text": "Storm out",
-          "consequence": "“Storm out” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You storm out. The decision moves you toward Bridge and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "Snow on the rail, a long dark river below.",
+      "text": "Snow on the rail, a long dark river below. Clarence will follow either decision, but it will meet a different version of you after “Climb up” than after “Step back.” At Clarence, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Bridge",
       "choices": [
         {
           "text": "Climb up",
-          "consequence": "You commit to “Climb up.” The story records the instinct as “Lost” and carries it forward.",
+          "consequence": "You commit to climb up. By Clarence, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Step back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hope.",
+          "consequence": "You step back. The decision moves you toward Clarence and tells everyone present what you are willing to risk.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "An old man in dripping clothes, a book under his arm.",
+      "text": "An old man in dripping clothes, a book under his arm. You cannot avoid Pottersville; you can only decide whether “Help him” or “Wish yourself away” defines the person who reaches it. In Clarence, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Clarence",
       "choices": [
         {
           "text": "Help him",
-          "consequence": "“Help him” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You help him. The decision moves you toward Pottersville and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wish yourself away",
-          "consequence": "“Wish yourself away” closes one possibility and opens another. The moment leaves a clear note behind: Lost.",
+          "consequence": "You wish yourself away. The decision moves you toward Pottersville and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Neon and dance halls and a wife who does not know you.",
+      "text": "Neon and dance halls and a wife who does not know you. Mr. Gower in the Gutter will follow either decision, but it will meet a different version of you after “Run” than after “Look closer.”",
       "sceneTitle": "Pottersville",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The decision settles the question for now. Its verdict—Frightened—follows you into whatever comes next.",
+          "consequence": "You choose to run. It opens the route to Mr. Gower in the Gutter, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Look closer",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to look closer. It opens the route to Mr. Gower in the Gutter, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Twenty years for the capsules you did not hold back.",
+      "text": "Twenty years for the capsules you did not hold back. The room inside Mr. Both choices lead to Harry's Grave, but “Lift him up” arrives there with a different cost than “Walk past.” At Harry's Grave, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Mr. Gower in the Gutter",
       "choices": [
         {
           "text": "Lift him up",
-          "consequence": "You commit to “Lift him up.” The story records the instinct as “Mercy” and carries it forward.",
+          "consequence": "You commit to lift him up. By Harry's Grave, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         },
         {
           "text": "Walk past",
-          "consequence": "There is no taking “Walk past” back. Cold shapes the silence before the next moment arrives.",
+          "consequence": "You choose to walk past. It opens the route to Harry's Grave, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Nine men on a transport who died because nobody was there to save Harry from the ice.",
+      "text": "Nine men on a transport who died because nobody was there to save Harry from the ice. Both choices lead to Bridge Again, but “Pray” arrives there with a different cost than “Run home.” At Bridge Again, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Harry's Grave",
       "choices": [
         {
           "text": "Pray",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You pray. The decision moves you toward Bridge Again and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         },
         {
           "text": "Run home",
-          "consequence": "“Run home” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You run home. The decision moves you toward Bridge Again and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Snow back where it belongs, your prayer answered.",
+      "text": "Snow back where it belongs, your prayer answered. The road still runs toward Living Room. Its next turn depends on the difference between choosing “Want to live” and choosing “Hesitate.” In Bridge Again, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Bridge Again",
       "choices": [
         {
           "text": "Want to live",
-          "consequence": "You commit to “Want to live.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to want to live. It opens the route to Living Room, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hesitate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You choose to hesitate. It opens the route to Living Room, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A basket of cash and a town in your living room and a bell on the tree.",
+      "text": "A basket of cash and a town in your living room and a bell on the tree. “Hold Mary” draws you toward No Man Is a Failure; “Stand still” leaves Quiet Christmas waiting on the other side. A third choice, “Take the third path,” keeps Potter, Alone in play.",
       "sceneTitle": "Living Room",
       "choices": [
         {
           "text": "Hold Mary",
-          "consequence": "“Hold Mary” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You choose to hold Mary. It opens the route to No Man Is a Failure, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_friends"
         },
         {
           "text": "Stand still",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to stand still. It opens the route to Quiet Christmas, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. By Potter, Alone, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_potter"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_friends",
-      "text": "The whole town files past with what they can spare. Harry toasts you. A bell rings. Zuzu says it means an angel got his wings.",
+      "text": "The whole town files past with what they can spare. Harry toasts you. A bell rings. Zuzu says it means an angel got his wings. The road into No Man Is a Failure began with “Hold Mary” in Living Room; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "No Man Is a Failure",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You sit on the floor with the children and you do not look at the basket of money for a long time. You just look at them.",
+      "text": "You sit on the floor with the children and you do not look at the basket of money for a long time. You just look at them. The road into Quiet Christmas began with “Stand still” in Living Room; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Quiet Christmas",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_potter",
-      "text": "Across town, an old man in a wheelchair sits with a stolen bundle on his desk and does not, for the first time, count it.",
+      "text": "Across town, an old man in a wheelchair sits with a stolen bundle on his desk and does not, for the first time, count it. The road into Potter, Alone began with “Take the third path” in Living Room; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Potter, Alone",
       "choices": [],
       "isEnding": true,

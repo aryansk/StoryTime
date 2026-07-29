@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Editor Rawlston wants a hook for the obituary. Rosebud, he says, is it.",
+      "text": "Rawlston runs the newsreel back four times with the lights off. Sixty million dollars, two wives, a castle full of crates, and a dead man alone in a room saying one word to nobody. He stops the reel on the mouth. Find out what a man like that means by Rosebud, he says. You have until Thursday, and don't come back with a dog's name.",
       "sceneTitle": "The Newsroom",
       "choices": [
         {
           "text": "Take the assignment",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You take it because it's a byline and because the word has already got into your head sideways. You'll chase it six days and never admit that out loud.",
           "nextNodeId": "s2"
         },
         {
           "text": "Object",
-          "consequence": "“Object” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You point out that dying men say all sorts of things. Rawlston agrees completely and hands you the story anyway, which is how he wins arguments.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A vault. The banker's memoirs. A child sled in the snow.",
+      "text": "The library is a marble box with one desk and a guard who times you. Pages eighty-three to one forty-two, nothing else. Thatcher's handwriting belongs to a man who never once wondered whether he was wrong. Colorado, 1871: a boarding house, a mother signing a paper on the porch, and a boy out in the snow with a sled who does not want to be collected, and who swings it at the banker's shins.",
       "sceneTitle": "Thatcher Memorial",
       "choices": [
         {
           "text": "Read them",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You read all sixty pages with the guard's watch ticking, and the only living thing on any of them is a kid in the snow shouting at his mother's decision.",
           "nextNodeId": "s3"
         },
         {
           "text": "Skim them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Speed.",
+          "consequence": "You take three quotes and a date and hand the volume back inside twenty minutes. Something in that snow keeps snagging on you all the way down the steps.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Old, kind, loyal. He talks about Kane on the wharf.",
+      "text": "Bernstein has an office the size of a ballroom and gives you two hours he doesn't owe you. He tells you a thing that has nothing to do with anything: a June morning in 1896, a ferry across the harbour, a girl in a white dress with a parasol who never looked over, and how not one month of his life has passed without her in it. He isn't being sentimental. He is telling you what memory does.",
       "sceneTitle": "Bernstein",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "The decision settles the question for now. Its verdict—Listen—follows you into whatever comes next.",
+          "consequence": "You let the old man wander, and he hands you the only real key anybody gives you all week. It takes four more days to recognise it as one.",
           "nextNodeId": "s4"
         },
         {
           "text": "Press him",
-          "consequence": "There is no taking “Press him” back. Job shapes the silence before the next moment arrives.",
+          "consequence": "You steer him back to Kane every time he drifts, and he answers everything, obligingly, dully. Efficiency costs you the second half of the ferry story.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Kane buys the Inquirer. He writes a Declaration of Principles.",
+      "text": "He takes over a paper losing money on six thousand readers and moves a bed into the building. At three in the morning he writes out a promise in the first person — the news honestly, a paper for the people who can't buy one — and makes Leland set it on the front page over his signature. Bernstein says he watched him write it. Leland kept the original.",
       "sceneTitle": "The First Paper",
       "choices": [
         {
           "text": "Note the document",
-          "consequence": "You commit to “Note the document.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You copy the whole thing into your book, all four clauses, and it reads like a young man's vow and a middle-aged man's indictment at the same time.",
           "nextNodeId": "s5"
         },
         {
           "text": "Note the timing",
-          "consequence": "“Note the timing” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You write down the date instead and set it beside the circulation figures. The promise arrives exactly when it becomes profitable, which is not the same as insincere.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Kane buys the rival paper's whole staff. He throws a party.",
+      "text": "Six years later he hires the rival paper's entire staff — every reporter who ever beat him, bought in a single afternoon — and throws them a party with a brass band, dancers, and a photograph of the old team propped on an easel. He makes a speech about how the men are what makes a paper. Bernstein still has that photograph. Leland asks, that night, whose principles the new men will be printing.",
       "sceneTitle": "Newsroom Party",
       "choices": [
         {
           "text": "Mark the loyalty",
-          "consequence": "You commit to “Mark the loyalty.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You note how the room loved him — genuinely, not for hire. Whatever else he was, people wanted to be in rooms that he was in.",
           "nextNodeId": "s6"
         },
         {
           "text": "Mark the ego",
-          "consequence": "You commit to “Mark the ego.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You note that he bought his rivals rather than beat them, and that he required the band, the photograph, and everyone watching him get what he wanted.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "His old friend Leland talks honestly about love. He says Kane loved no one but himself.",
+      "text": "Leland is in a hospital chair by a window, seventy-odd, angling for cigars he isn't allowed. He tells you Kane wanted love from everybody in America and never gave any of it away, and then, half a sentence later, that Kane was the best friend he ever had. He doesn't notice the contradiction. He asks whether you brought cigars. He asks it twice, ten minutes apart.",
       "sceneTitle": "Leland",
       "choices": [
         {
           "text": "Note the contradiction",
-          "consequence": "There is no taking “Note the contradiction” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You write both sentences down side by side and leave them there. This obituary is going to be two obituaries stapled together.",
           "nextNodeId": "s7"
         },
         {
           "text": "Take it as truth",
-          "consequence": "You commit to “Take it as truth.” The story records the instinct as “Naive” and carries it forward.",
+          "consequence": "You take the harsher line because it's cleaner and it quotes well. Clean quotes are how you end up with a story that explains nothing.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Emily Norton. The President's niece. Their marriage decays over breakfasts.",
+      "text": "Emily has been dead nine years, so you get her out of other people's mouths: a president's niece, a good marriage, and then sixteen years compressed into a series of breakfasts at the same table. She reads his paper from the far side of it. The table gets longer. Toward the end they are both perfectly polite and neither of them looks up, and the newspaper between them is the one he owns.",
       "sceneTitle": "First Wife",
       "choices": [
         {
           "text": "Notice the marriage in the meals",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You build the entire decline out of tablecloths and coffee and who spoke first. It's the truest paragraph you write all week.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take it from her words",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You go to the record instead — letters, a deposition, two interviews. She never once complains, which tells you everything and prints as nothing.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "He meets Susan Alexander on a street. She has a toothache. She sings, badly.",
+      "text": "1915, a wet corner on West Seventy-Fourth: a cab throws mud up his coat and a shopgirl with a swollen jaw laughs at him. He is on his way to a warehouse to go through his dead mother's things and he never gets there. She makes him laugh. She has no idea who he is, and that, Bernstein says, was the whole of the attraction, and it lasted about a year.",
       "sceneTitle": "Susan",
       "choices": [
         {
           "text": "Investigate the encounter",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You find the address, the drugstore, even the dentist. It all checks out and none of it explains why a man hands his life over to a toothache.",
           "nextNodeId": "s9"
         },
         {
           "text": "Move on",
-          "consequence": "You commit to “Move on.” The story records the instinct as “Job” and carries it forward.",
+          "consequence": "You let the meeting be a meeting and go looking for the marriage instead. Later you'll wish you had asked what he was going to that warehouse for.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Kane runs for governor. He is, briefly, beloved.",
+      "text": "Madison Square Garden, a photograph of his own face two storeys high behind him, and a crowd that believed every word. He promised to prosecute Boss Gettys and he meant it. His son sleeps through most of it in a box seat. Emily leaves early. Everybody you speak to about that autumn reaches for the same phrase without prompting: he was going to win. Then they change the subject.",
       "sceneTitle": "Political Run",
       "choices": [
         {
           "text": "Track the campaign",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You dig out the rally figures and the endorsements and find a man who was going to be governor by twelve points. The best version of him is in that folder.",
           "nextNodeId": "s10"
         },
         {
           "text": "Track the scandal",
-          "consequence": "“Track the scandal” closes one possibility and opens another. The moment leaves a clear note behind: Job.",
+          "consequence": "You go straight to the hotel address, because that is the story that sells. It's the right instinct and it makes you feel like a smaller reporter.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Boss Jim Gettys finds Kane and Susan. The newspapers will run a story.",
+      "text": "Gettys walks Emily up the stairs himself so that nobody has to write anything down. He offers a deal: withdraw citing your health, keep the marriage, keep the boy, and it stays buried. Susan stands in a doorway in a robe asking what is happening. Kane refuses in front of all three of them, at volume, and then shouts threats down a stairwell after a man who has already gone.",
       "sceneTitle": "The Hotel Room",
       "choices": [
         {
           "text": "Note Kane's defiance",
-          "consequence": "You commit to “Note Kane's defiance.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You write him as a man who would not be told what to do by anybody, which is admirable exactly once and never again.",
           "nextNodeId": "s11"
         },
         {
           "text": "Note his stupidity",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You set down what he held, what he traded, and what he got, and the arithmetic is so poor that you check it twice.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Kane loses the election. He loses Emily and Junior.",
+      "text": "The rival paper runs it in seventy-two point type. He loses by a hundred and forty thousand. Emily takes the boy to Manhattan and there is no scene, no letters, nothing quotable — she simply stops appearing in the record. She and the boy die in a car in 1918. His own paper covers it in four inches on page nine, and he wrote that headline himself.",
       "sceneTitle": "The Scandal",
       "choices": [
         {
           "text": "Note the cost",
-          "consequence": "“Note the cost” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You lay it out plainly: a marriage, a son, a state, all spent refusing one deal in one hotel corridor. He never once described it as a loss.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tell yourself it was fate",
-          "consequence": "“Tell yourself it was fate” closes one possibility and opens another. The moment leaves a clear note behind: Story.",
+          "consequence": "You reach for a line about the whole thing having been written in advance. It reads well, and it lets everybody off the hook, including you.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Kane builds her an opera house. She does not, in fact, sing well.",
+      "text": "He marries her, hires the best teacher in Europe, and builds her a house in Chicago with three thousand seats in it. She has a small, sweet, entirely inadequate voice, and she knows it before anyone else does, and tells him, and he doesn't hear it. Opening night the audience is his. The applause begins because he begins it, standing alone in a box, and it doesn't stop until everyone joins.",
       "sceneTitle": "Susan's Career",
       "choices": [
         {
           "text": "Talk to Susan now",
-          "consequence": "“Talk to Susan now” closes one possibility and opens another. The moment leaves a clear note behind: Direct.",
+          "consequence": "You decide the woman is the story and go looking for the club she drinks in. It costs you the objectivity you had rather been enjoying.",
           "nextNodeId": "s13"
         },
         {
           "text": "Talk to the music critic",
-          "consequence": "The decision settles the question for now. Its verdict—Layered—follows you into whatever comes next.",
+          "consequence": "You find Leland's unfinished review instead — the savage one Kane finished for him, in his friend's own voice, and then printed.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Susan, decades later, in a club. She drinks. She talks.",
+      "text": "El Rancho, a Tuesday, two customers in the room. She stopped performing years ago and they keep her name on the roof anyway. The first night she has you thrown out. The second she is drunk enough to be kind and talks for three hours: the singing lessons, the jigsaw puzzles, the size of the rooms, and how you can be lonely in a house on forty-nine thousand acres if only one other person lives in it.",
       "sceneTitle": "Atlantic City",
       "choices": [
         {
           "text": "Be gentle with her",
-          "consequence": "There is no taking “Be gentle with her” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You buy nothing and ask nothing for an hour and let her get there herself. She gives you more than anyone else does, and asks you not to make her sad in print.",
           "nextNodeId": "s14"
         },
         {
           "text": "Push for the story",
-          "consequence": "“Push for the story” closes one possibility and opens another. The moment leaves a clear note behind: Job.",
+          "consequence": "You push, and she gives you Rosebud at once — she never knew, she says, and she is tired of being asked. Then she stops talking for the night.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Kane's house. Crates. Statues. Echoes.",
+      "text": "It was never finished and never was going to be. Crates from four continents stacked to the ceilings, Venetian ceilings bought whole, a fireplace you could park a car inside. Two hundred statues, most still boxed. The staff are cataloguing at nine cents a piece, and the sound of your own footsteps comes back to you a second and a half late. Nobody has lived in the north wing since 1932.",
       "sceneTitle": "Xanadu",
       "choices": [
         {
           "text": "Walk the halls slowly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Witness.",
+          "consequence": "You take three hours and count rooms until you stop counting. The house is one man's answer to a question nobody ever asked him twice.",
           "nextNodeId": "s15"
         },
         {
           "text": "Walk fast",
-          "consequence": "You commit to “Walk fast.” The story records the instinct as “Job” and carries it forward.",
+          "consequence": "You do it in forty minutes with a flashlight and a caretaker who wants his dinner. You miss the basement entirely, which is where the story is.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "She leaves him in a marble room. He destroys her bedroom.",
+      "text": "The last quarrel is about a picnic. She packs while the servants pretend to be elsewhere, and he says the one sentence that would have kept her and says it as an instruction. When the car has gone he walks into her room and takes it apart — mirrors, drawers, the bed — with a kind of methodical patience, until he picks a small glass ball off the dresser and stops dead.",
       "sceneTitle": "Susan's Departure",
       "choices": [
         {
           "text": "Notice the snowglobe",
-          "consequence": "There is no taking “Notice the snowglobe” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You get it from a maid who was in the corridor: he stood there holding it, said the word once, and walked out past all of them like they were furniture.",
           "nextNodeId": "s16"
         },
         {
           "text": "Notice his face",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "The maid can't describe his face and tries for a while. Old, she says finally, and gives up, and that is the closest anybody gets.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "He dies alone, the snowglobe falling.",
+      "text": "1941, upstairs, snow in a glass ball, a nurse coming along the corridor too late. He says it, his hand opens, and the thing goes down two steps and breaks. The nurse heard nothing; she was still on the stairs. So either somebody else was in the room, or nobody was and the word walked out of the house by itself. You have built six days on a sentence with no witness.",
       "sceneTitle": "Rosebud, Whispered",
       "choices": [
         {
           "text": "Hold the image",
-          "consequence": "There is no taking “Hold the image” back. Witness shapes the silence before the next moment arrives.",
+          "consequence": "You sit with it — a rich old man, a cheap glass souvenir, snow that isn't snow. Whatever it means, it is the last thing he chose to look at.",
           "nextNodeId": "s17"
         },
         {
           "text": "Cut away",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Job.",
+          "consequence": "You move on, because the deadline is Thursday and unwitnessed last words are not evidence. The image comes back on the train regardless.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "He says Rosebud was nothing. He doesn't know.",
+      "text": "Raymond ran that house for nine years and wants a thousand dollars to talk. He talks for a thousand: the old man said it twice, once after the wife left, and it didn't mean anything, he was going soft at the end. Raymond is entirely certain of this. He also cannot tell you the colour of Kane's mother's hair or what state the man was born in.",
       "sceneTitle": "Raymond, the Butler",
       "choices": [
         {
           "text": "Believe him partly",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You take the fact and leave the interpretation. Raymond saw everything in that house and understood none of it, which makes him a perfect witness and a useless one.",
           "nextNodeId": "s18"
         },
         {
           "text": "Suspect more",
-          "consequence": "There is no taking “Suspect more” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You lean on him another hour and get nothing but a rise in the price. He doesn't have it; you're squeezing a stone because Thursday is coming.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Workers burn old junk in the basement. A sled.",
+      "text": "Downstairs the men are sorting: catalogue this, ship that, burn the rest. The furnace has been going three days. A man in overalls picks up a child's sled with the runners rusted through, turns it over once, decides it isn't worth the trouble, and pitches it in with the broken chairs. You are on the landing above with your notebook shut, waiting on a car, watching nothing in particular.",
       "sceneTitle": "Crates Burning",
       "choices": [
         {
           "text": "Watch the fire",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You stay at the rail longer than you meant to, the way anybody watches a furnace. You are twenty feet from the answer and thinking about your train.",
           "nextNodeId": "s19"
         },
         {
           "text": "Look away",
-          "consequence": "There is no taking “Look away” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You turn to say something to the caretaker about the weather. Behind you the paint on a piece of scrap wood begins to blister.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "On the sled the word ROSEBUD chars and curls.",
+      "text": "The paint goes first — a curved flourish, a flower done in red by a factory in 1870, and a word beneath it in block letters. It browns at the edges, lifts, and is gone inside a minute. The furnace man shuts the door with his boot. Smoke goes up the chimney over Xanadu, and a guard down at the gate watches it, the way he does every afternoon.",
       "sceneTitle": "Rosebud Burns",
       "choices": [
         {
           "text": "Notice it as audience",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You are not in that room and never will be, and yet here you are watching it. That is the whole cruelty of the arrangement.",
           "nextNodeId": "s20"
         },
         {
           "text": "Don't notice",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "Nobody sees it. It happens exactly as it would have happened if the question had never been asked, which is what makes six days' work worth something.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You file the story without Rosebud's meaning.",
+      "text": "Thursday. You write four thousand words about a man who got everything he asked for and then stopped being able to ask, and you put nothing in it about the sled, because you don't have the sled. Rawlston wants to know what it turned out to be. You tell him it's one piece from a puzzle, a missing piece, and that no single word explains a life. He takes the copy and doesn't argue.",
       "sceneTitle": "Back at the Office",
       "choices": [
         {
           "text": "Write it well",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You spend the night on it and turn in the best thing you have done. It runs cut by a third, under a headline you didn't write.",
           "nextNodeId": "s21"
         },
         {
           "text": "Write it fast",
-          "consequence": "“Write it fast” closes one possibility and opens another. The moment leaves a clear note behind: Job.",
+          "consequence": "You file at six and go drinking with the photographers. It reads fine. It reads like a man who had stopped believing there was an answer, which is accurate.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You decide what kind of reporter to be next.",
+      "text": "You clear out the desk drawer near midnight and find the notebook from Colorado with the snow paragraph still in it. Six days, seven interviews, one dead man, and a word you will be carrying around for the rest of your life like a stone in a coat pocket. The night editor asks whether you're in on Monday. It is not, you notice, a rhetorical question.",
       "sceneTitle": "Quitting",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "“Stay” closes one possibility and opens another. The moment leaves a clear note behind: Career.",
+          "consequence": "You say yes, Monday, same as ever — and then go home and start a page that isn't for the paper and doesn't have a deadline on it.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Pivot to books",
-          "consequence": "There is no taking “Pivot to books” back. New shapes the silence before the next moment arrives.",
+          "consequence": "You announce you're going to write something long enough to hold all of it. You mean that for about a year, and then a city desk comes open.",
           "nextNodeId": "end_paper"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You don't answer him. You put the Colorado notebook in your coat instead of back in the drawer, and that turns out to be the decision.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_book",
-      "text": "You write a long book about Kane. It outlives the newspaper. People read it in college for decades.",
+      "text": "It takes nine years and two marriages' worth of evenings. Six hundred pages, no thesis, everybody's Kane laid alongside everybody else's with the contradictions left standing where they fell. The reviews call it cold. It outlives the newspaper by four decades and turns up on syllabuses, and undergraduates argue in seminar rooms about a man they believe you solved. You never found the sled. You never once wrote that you hadn't.",
       "sceneTitle": "The Book",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_paper",
-      "text": "You stay at the paper. You become managing editor. You think about Rosebud every Christmas, for some reason.",
+      "text": "You make managing editor at forty-one, and you are good at it: you kill sentimental copy, you protect your reporters, you keep the paper's promises off the front page where they can't be broken. Somebody is always dying with a word in their mouth. Every Christmas, for a reason you would not defend out loud, you think about snow inside a glass ball and a boy who did not want to be collected.",
       "sceneTitle": "The Daily",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You leave reporting. You take a job at a small magazine that does, mostly, longer pieces. You marry, eventually. You name nothing Rosebud.",
+      "text": "You go to a monthly out of Philadelphia that will run six thousand words if the piece needs them and lets you spend a season on a subject. You marry a copy editor who fixes your commas over breakfast. Two children, a dog with an ordinary name, a house exactly the size of the people in it. Nothing you own would be worth cataloguing. You never mention the assignment, and nobody ever asks.",
       "sceneTitle": "Quietly Done",
       "choices": [],
       "isEnding": true,

@@ -27,12 +27,12 @@
       "choices": [
         {
           "text": "Bring the letter you wrote to your mother",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You bring the letter you wrote to your mother. The decision moves you toward The Archivist and tells everyone present what you are willing to risk.",
           "nextNodeId": "archive_desk"
         },
         {
           "text": "Enter empty-handed and ask who invited you",
-          "consequence": "You commit to “Enter empty-handed and ask who invited you.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You choose to enter empty-handed and ask who invited you. It opens the route to Shelves Without End, giving up the protection of pretending you had not decided.",
           "nextNodeId": "delivery_room"
         }
       ],
@@ -41,17 +41,17 @@
     },
     {
       "id": "archive_desk",
-      "text": "An archivist with ink-stained cuffs weighs your letter on a silver scale. The needle trembles between APOLOGY and EXPLANATION. “We can deliver it to the day it was meant for,” she says, “or to the person your mother became after never receiving it. Those are not the same address.”",
+      "text": "An archivist with ink-stained cuffs weighs your letter on a silver scale. The needle trembles between APOLOGY and EXPLANATION. “We can deliver it to the day it was meant for,” she says, “or to the person your mother became after never receiving it.",
       "sceneTitle": "The Archivist",
       "choices": [
         {
           "text": "Send it backward to the day you left home",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You send it backward to the day you left home. The decision moves you toward The Kitchen, Twelve Years Ago and tells everyone present what you are willing to risk.",
           "nextNodeId": "letter_to_past"
         },
         {
           "text": "Send it to your mother as she is now",
-          "consequence": "You commit to “Send it to your mother as she is now.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to send it to your mother as she is now. It opens the route to The Address She Never Gave You, giving up the protection of pretending you had not decided.",
           "nextNodeId": "letter_to_present"
         }
       ],
@@ -65,12 +65,12 @@
       "choices": [
         {
           "text": "Read your mother's unsent letter",
-          "consequence": "“Read your mother's unsent letter” closes one possibility and opens another. The moment leaves a clear note behind: Curious.",
+          "consequence": "You commit to read your mother's unsent letter. By Dear You, Whenever You Are Ready, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "letter_to_you"
         },
         {
           "text": "Leave it sealed and search for the future visitor",
-          "consequence": "“Leave it sealed and search for the future visitor” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You commit to leave it sealed and search for the future visitor. By Portrait of a Visitor, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "future_gallery"
         }
       ],
@@ -84,12 +84,12 @@
       "choices": [
         {
           "text": "Place the letter where your mother will find it",
-          "consequence": "“Place the letter where your mother will find it” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You commit to place the letter where your mother will find it. By A Memory Rearranged, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "changed_home"
         },
         {
           "text": "Give it to your younger self instead",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Truth.",
+          "consequence": "You commit to give it to your younger self instead. By What You Needed Then, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "younger_self"
         }
       ],
@@ -103,12 +103,12 @@
       "choices": [
         {
           "text": "Let the courier deliver it first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You let the courier deliver it first. The decision moves you toward Across the Street and tells everyone present what you are willing to risk.",
           "nextNodeId": "waiting_bench"
         },
         {
           "text": "Carry it to her door yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to carry it to her door yourself. It opens the route to Three Knocks, giving up the protection of pretending you had not decided.",
           "nextNodeId": "her_door"
         }
       ],
@@ -122,12 +122,12 @@
       "choices": [
         {
           "text": "Answer her question in a new letter",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to answer her question in a new letter. It opens the route to A Page That Does Not Judge, giving up the protection of pretending you had not decided.",
           "nextNodeId": "writing_room"
         },
         {
           "text": "Take her letter home without answering",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Boundaries.",
+          "consequence": "You take her letter home without answering. The decision moves you toward The Letter You Keep and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_kept_letter"
         }
       ],
@@ -141,12 +141,12 @@
       "choices": [
         {
           "text": "Meet the future version of yourself",
-          "consequence": "“Meet the future version of yourself” closes one possibility and opens another. The moment leaves a clear note behind: Curious.",
+          "consequence": "You commit to meet the future version of yourself. By The Founder, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "future_self"
         },
         {
           "text": "Refuse the prophecy and enter the writing room",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Spirit.",
+          "consequence": "You refuse the prophecy and enter the writing room. The decision moves you toward A Page That Does Not Judge and tells everyone present what you are willing to risk.",
           "nextNodeId": "writing_room"
         }
       ],
@@ -160,12 +160,12 @@
       "choices": [
         {
           "text": "Accept the kinder history",
-          "consequence": "You commit to “Accept the kinder history.” The story records the instinct as “Hope” and carries it forward.",
+          "consequence": "You choose to accept the kinder history. It opens the route to The Kinder History, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_rewritten"
         },
         {
           "text": "Restore the life you actually lived",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You restore the life you actually lived. The decision moves you toward Nothing Erased and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_true_memory"
         }
       ],
@@ -179,12 +179,12 @@
       "choices": [
         {
           "text": "Tell them they are not cruel",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You choose to tell them they are not cruel. It opens the route to Nothing Erased, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_true_memory"
         },
         {
           "text": "Tell them courage can still carry guilt",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You choose to tell them courage can still carry guilt. It opens the route to Tea Before Answers, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_open_door"
         }
       ],
@@ -198,12 +198,12 @@
       "choices": [
         {
           "text": "Cross the street",
-          "consequence": "“Cross the street” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to cross the street. It opens the route to Tea Before Answers, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_open_door"
         },
         {
           "text": "Let the letter be enough for tonight",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You let the letter be enough for tonight. The decision moves you toward The Letter You Keep and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_kept_letter"
         }
       ],
@@ -217,12 +217,12 @@
       "choices": [
         {
           "text": "Go in for tea and begin without the letter",
-          "consequence": "“Go in for tea and begin without the letter” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You go in for tea and begin without the letter. The decision moves you toward Tea Before Answers and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_open_door"
         },
         {
           "text": "Give her the letter and ask for time",
-          "consequence": "There is no taking “Give her the letter and ask for time” back. Boundaries shapes the silence before the next moment arrives.",
+          "consequence": "You give her the letter and ask for time. The decision moves you toward The Letter You Keep and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_kept_letter"
         }
       ],
@@ -236,12 +236,12 @@
       "choices": [
         {
           "text": "Send the letter to your mother",
-          "consequence": "“Send the letter to your mother” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You send the letter to your mother. The decision moves you toward Tea Before Answers and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_open_door"
         },
         {
           "text": "Send it to your younger self",
-          "consequence": "You commit to “Send it to your younger self.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You send it to your younger self. The decision moves you toward Nothing Erased and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_true_memory"
         }
       ],
@@ -255,12 +255,12 @@
       "choices": [
         {
           "text": "Take the keys and keep the museum open",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Service.",
+          "consequence": "You commit to take the keys and keep the museum open. By Keeper of the Unsaid, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_archivist"
         },
         {
           "text": "Leave both futures unwritten and go home",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Free.",
+          "consequence": "You commit to leave both futures unwritten and go home. By Nothing Erased, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_true_memory"
         }
       ],

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Andy's mother carries cake into a living room while you organize a recon.",
+      "text": "The party got moved up a week and you are running recon with a baby monitor, a bucket of soldiers, and a sergeant who takes casualties personally. Everyone on the shelf is smiling at you. Everyone on the shelf is also quietly doing arithmetic about their own replacement. You tell them nobody is getting replaced.",
       "sceneTitle": "Birthday Plans",
       "choices": [
         {
           "text": "Send the soldiers",
-          "consequence": "There is no taking “Send the soldiers” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You send the squad down the banister on a knotted sheet and lose one behind the couch, which he treats as a decoration for valor.",
           "nextNodeId": "s2"
         },
         {
           "text": "Hide",
-          "consequence": "“Hide” closes one possibility and opens another. The moment leaves a clear note behind: Cautious.",
+          "consequence": "You stay on the bed and let somebody else run it, then spend the whole afternoon pretending you are not listening to the monitor.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A space ranger with retracting plastic wings is the surprise gift.",
+      "text": "The last present is bigger than the bed. What comes out of it has retracting wings, a chin, a chest panel that lights up, and a voice box with fourteen recorded phrases. The room goes quiet. Andy sets him down on the pillow, which is your pillow, and nobody looks at you, which is how you know.",
       "sceneTitle": "Box Sees Wings",
       "choices": [
         {
           "text": "Welcome him",
-          "consequence": "There is no taking “Welcome him” back. Polite shapes the silence before the next moment arrives.",
+          "consequence": "You put out a hand and say howdy and mean maybe sixty percent of it, which is honestly more than anyone in the room expected.",
           "nextNodeId": "s3"
         },
         {
           "text": "Resent him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You make a remark about the wings being molded plastic. Slinky laughs, then stops laughing, then finds something interesting about his own feet.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "He pins a new poster on the ceiling above where you used to sleep.",
+      "text": "The old poster comes down. The new one goes up on the ceiling, precisely where you used to be, and Andy lies underneath it making rocket noises with his entire body. You were on that ceiling for six years. The tape leaves four gray rectangles up there and nobody paints over them, ever.",
       "sceneTitle": "Andy's Bed",
       "choices": [
         {
           "text": "Stay friendly",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You say the poster looks good. Everyone hears you say it. Only Bo hears the half second that happens right before you say it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Be petty",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You suggest the wings could be a choking hazard. Potato Head repeats it downstairs and it is all the way around the room by dinner.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "An accidental shove that becomes a real fall.",
+      "text": "You only meant to knock him behind the desk. What happens instead involves a lamp, a cord, and a chain of events with physics of its own, and it ends with a space ranger going out a second-story window into the hedge. Twenty toys turn and look at you. In the yard, something plastic bounces twice.",
       "sceneTitle": "Window Push",
       "choices": [
         {
           "text": "Confess",
-          "consequence": "“Confess” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You start to say it was an accident and hear exactly how that sounds while it is coming out of you. Slinky will not meet your eye.",
           "nextNodeId": "s5"
         },
         {
           "text": "Hide the deed",
-          "consequence": "The decision settles the question for now. Its verdict—Cowardly—follows you into whatever comes next.",
+          "consequence": "You say the window was open and the wind took him. Nobody buys it, and Potato Head names it out loud, in front of everybody: murder.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A space ranger thinks the gas pump is a planet.",
+      "text": "You find him at the gas station standing in a puddle of unleaded, saluting a pump. He has decided this is a fuel depot on a hostile world and that you are a local. He offers you passage home aboard a ship he does not have. He is completely sincere about all of it, which makes everything worse.",
       "sceneTitle": "Lost in the Yard",
       "choices": [
         {
           "text": "Play along",
-          "consequence": "There is no taking “Play along” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You call him Ranger and let him think you are a native guide, which gets you both onto the truck and costs a small piece of your soul.",
           "nextNodeId": "s6"
         },
         {
           "text": "Correct him",
-          "consequence": "You commit to “Correct him.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You tell him he is a toy off a shelf in aisle nine. He looks at you with genuine pity, which is somehow much harder to take.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A rocket-shaped truck, a chance to get back into the house.",
+      "text": "The truck is shaped like a rocket, which he finds reassuring for entirely the wrong reasons. Getting aboard requires a jump from a curb, a grab at a mud flap, and lying flat in a truck bed at forty miles an hour while a bag of tortilla chips slides back and forth across your hat.",
       "sceneTitle": "Pizza Planet",
       "choices": [
         {
           "text": "Hide in the back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You get under the tarp with him and he narrates the entire ride as a launch sequence. This time you do not correct a single word of it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Wait at the curb",
-          "consequence": "You commit to “Wait at the curb.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You freeze and the truck pulls out, and you run the last block on two stitched legs that were never engineered for running anywhere.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Squeaky aliens worship a mechanical claw.",
+      "text": "Inside the crane game, three hundred rubber aliens with three eyes apiece lie in a heap waiting to be chosen. They speak in unison. They believe the claw decides who goes and who stays, and they are entirely at peace with this arrangement. Buzz is already climbing in to look for a spaceship.",
       "sceneTitle": "Claw Machine",
       "choices": [
         {
           "text": "Climb in",
-          "consequence": "“Climb in” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You go down the chute after him and land in soft aliens who immediately declare you a stranger from the outside and touch the brim of your hat.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wait outside",
-          "consequence": "“Wait outside” closes one possibility and opens another. The moment leaves a clear note behind: Cautious.",
+          "consequence": "You stay out on the glass and knock. He cannot hear you. A kid in a rocket helmet feeds in a quarter and everything changes.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A boy with a magnifying glass and a love of explosives.",
+      "text": "The kid next door wears a skull shirt and carries a magnifying glass and keeps a shoebox of parts labeled in his own handwriting. The dog is named Scud and does not sleep. There is a workbench with a vise bolted to it. On the wall, still in its wrapper, a rocket marked THE BIG ONE. He has been saving it.",
       "sceneTitle": "Sid's Bedroom",
       "choices": [
         {
           "text": "Be still",
-          "consequence": "There is no taking “Be still” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You go limp on the carpet for two hours while a boy holds a lit match near your boot heel and eventually gets bored of you.",
           "nextNodeId": "s9"
         },
         {
           "text": "Make a plan",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You map the room from a milk crate. Door, vent, dog, window. You count nine minutes between his passes and write nothing down.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "A spider with a doll head and a fishing pole with a baby leg.",
+      "text": "They come out from under the bed. A baby head on spider legs. A fishing rod ending in a doll's leg. A duck on a spring. You brace for the attack, and instead they take the broken space ranger, carry him carefully to the middle of the floor, and tape his arm back on. Then they go back under.",
       "sceneTitle": "Mutant Toys",
       "choices": [
         {
           "text": "Don't be afraid",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You hold your ground and let them work, and one of them pats your boot with a hand that is, technically, a television antenna.",
           "nextNodeId": "s10"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Cowardly.",
+          "consequence": "You bolt for the crate and hear yourself yelling on the way, and afterward you have to apologize to a spider with a baby's face.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Sid plans to strap a rocket to a new space ranger.",
+      "text": "Sid has the rocket taped to Buzz's back and the pack zipped shut, and a thunderstorm has bought you exactly one night. Buzz sits on the workbench not talking. He spent the last hour trying to fly out a stairwell window and finding out, in front of an audience, what he is. You have until the sky clears.",
       "sceneTitle": "Backpack",
       "choices": [
         {
           "text": "Tell Buzz",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You go to the bench and tell him being a toy is the whole point. It takes three attempts. The third one gets through.",
           "nextNodeId": "s11"
         },
         {
           "text": "Hide",
-          "consequence": "“Hide” closes one possibility and opens another. The moment leaves a clear note behind: Cowardly.",
+          "consequence": "You stay behind the tool caddy rehearsing the speech and never say any of it, and the rain stops at seven in the morning.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "An organized swarm in the yard tells a small boy a hard lesson.",
+      "text": "You organize the mutants, a wind-up frog, and one extremely brave baby head into formation on the front lawn. Then you break the only rule toys actually have. You sit up, in daylight, in front of a boy holding a magnifying glass, and you speak to him directly. He goes up the porch stairs on all fours.",
       "sceneTitle": "Toy Roar",
       "choices": [
         {
           "text": "Lead them",
-          "consequence": "“Lead them” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You call the count yourself and hold steady while a boy screams a foot from your face. Nobody on that lawn has ever done that before.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hold back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You let the mutants take the front and wait behind a garden gnome. It works perfectly and you do not feel wonderful about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Andy's family rolls out and the rest of the toys are already aboard.",
+      "text": "The van pulls out of the driveway with everyone you know packed in a box in the back. You are standing on asphalt beside a space ranger who will not get up. There is a bicycle length between you and that bumper, and a dog named Scud who has been waiting for this opportunity since Tuesday. The van does not stop.",
       "sceneTitle": "Moving Truck",
       "choices": [
         {
           "text": "Run for it",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You go under a fence, over a dog, and onto a bumper at twenty miles an hour with one arm barely stitched to your shoulder.",
           "nextNodeId": "s13"
         },
         {
           "text": "Give up",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You sit down in the middle of the road. Then a plastic hand hauls you up by the collar and you are both running before you agreed to anything.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A remote control speedster, a chase down a suburban street.",
+      "text": "RC is a birthday present with a nine-volt heart and a top speed nobody has ever tested on open pavement. Somebody panicked and threw him out of the van. Now he is the only vehicle available, every toy back there thinks you are a murderer, and the van is four car lengths ahead and gaining ground.",
       "sceneTitle": "RC Car",
       "choices": [
         {
           "text": "Cheer Buzz on",
-          "consequence": "You commit to “Cheer Buzz on.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You yell his name into the wind and he holds the wheel with both hands, and behind you the toys in the window slowly work it out.",
           "nextNodeId": "s14"
         },
         {
           "text": "Sabotage him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "For one second you think about steering wrong on purpose, and that second is long enough that you will still be thinking about it in years.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "RC's lights dim halfway up the block.",
+      "text": "RC's lights go orange, then brown, then out entirely, halfway up the block. The van holds its distance and then increases it. You are two toys and a dead car in the middle of a suburban street, and every toy in that van is watching you get smaller through a rectangle of plastic window.",
       "sceneTitle": "Out of Batteries",
       "choices": [
         {
           "text": "Stop",
-          "consequence": "There is no taking “Stop” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You let go of the wheel and let the van go, and Buzz looks over his shoulder at the rocket taped there with the beginning of an idea.",
           "nextNodeId": "s15"
         },
         {
           "text": "Push harder",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stubborn.",
+          "consequence": "You keep shoving a dead car with your boot heels for another block and a half, which accomplishes absolutely nothing and had to be attempted.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A toy soldier's helmet, a rocket fuse, an idea about altitude.",
+      "text": "The rocket is still taped to his back. You have one match, a soldier's helmet to break the wind, and arithmetic that is not complicated: the fuse is short, the fuse does not stop once lit, and the label on the tube reads FLIGHT in cheerful letters directly above the words ONE TIME USE.",
       "sceneTitle": "Match Strike",
       "choices": [
         {
           "text": "Light it",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You get the match lit on the third strike, and then a magnifying glass on a passing dashboard finishes the job for you anyway.",
           "nextNodeId": "s16"
         },
         {
           "text": "Save the match",
-          "consequence": "You commit to “Save the match.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You blow it out and go looking for another way, and there is no other way, and the van takes a left at the light.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Wings open. A whoosh. A backyard receding.",
+      "text": "The tape lets go, the wings come out, and a hobby rocket takes two toys off a car roof at an angle nobody planned for. The whole neighborhood drops away underneath. Buzz has his arms out. You are hanging onto his shoulder and screaming, and about four seconds in you notice that he is steering.",
       "sceneTitle": "Up",
       "choices": [
         {
           "text": "Glide",
-          "consequence": "You commit to “Glide.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You let him fly it, stop yelling, and look down at the entire street at once, which turns out to be worth the trip.",
           "nextNodeId": "s17"
         },
         {
           "text": "Falter",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Frightened.",
+          "consequence": "You keep your eyes shut past the treetops and miss most of it. He describes it to you later, in detail, for the rest of your life.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Bo Peep and the slinky dog cheering through cardboard.",
+      "text": "The rocket goes off somewhere above the mailboxes and the two of you come down through the sunroof into the moving boxes with the good packing paper. Slinky's face. Bo's face. Everybody talking at the same time. Andy finds you both in the box like you had been there the whole way, and asks nothing.",
       "sceneTitle": "Into the Box",
       "choices": [
         {
           "text": "Land",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You land in bubble wrap and take a good nine seconds before you are able to produce any words in any order.",
           "nextNodeId": "s18"
         },
         {
           "text": "Hover",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "Buzz holds you both up one extra beat, showing off, and Bo says loudly that it is not flying and does not look away once.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A new round of presents, a hush of anticipation.",
+      "text": "New house, new carpet, identical panic. The soldiers are downstairs with the monitor and the paper is coming off something large in the living room. You have done this before. Buzz has not. He asks you, quietly, whether it is always like this, and you tell him yes, every year, and he says good.",
       "sceneTitle": "Christmas Morning",
       "choices": [
         {
           "text": "Stand together",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You take the window seat beside him and the two of you wait it out shoulder to shoulder like a pair of old men on a bench.",
           "nextNodeId": "s19"
         },
         {
           "text": "Brace alone",
-          "consequence": "“Brace alone” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You go to your usual corner alone out of pure habit, and after about a minute a plastic elbow arrives beside you regardless.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A puppy named Buster downstairs.",
+      "text": "The monitor crackles. Sarge reports a large gift-wrapped box downstairs, and then his voice changes register: it is a puppy. There is a puppy. Somewhere below you a small dog is being handed to a delighted boy, and every toy on that shelf performs the same rapid calculation about chew toys.",
       "sceneTitle": "Andy's Bedroom Again",
       "choices": [
         {
           "text": "Welcome him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You order a calm evacuation of the lower shelves and put the hard plastic ones on floor duty. Nobody panics. Not much, anyway.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hide",
-          "consequence": "You commit to “Hide.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You get behind the toy chest with Potato Head, who has extensive opinions about dogs and shares every single one of them.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A toy you don't recognize on the floor.",
+      "text": "There is a toy on the rug you have never seen. Cape, molded hair, some accessory it came packaged with and does not understand yet. It is holding perfectly still because it does not know the rules of this room. You remember standing exactly there, on a different rug, in a different house, a long time ago.",
       "sceneTitle": "First Wave",
       "choices": [
         {
           "text": "Introduce yourself",
-          "consequence": "There is no taking “Introduce yourself” back. Polite shapes the silence before the next moment arrives.",
+          "consequence": "You walk out into the open and say howdy first, which you have figured out by now is essentially the entire job description.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay back",
-          "consequence": "You commit to “Stay back.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You wait for somebody else to go, and Buzz goes, and does it better than you would have, and you find you are fine with that.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Buzz at your shoulder. The new toys at your other. A whole bedroom of allies.",
+      "text": "Buzz on one side, the new ones on the other, the whole shelf lined up in a bedroom that will be too small for all of you in a few years. Nobody in this room lasts forever and everybody in it knows. Andy is asleep with one arm off the mattress. Somebody's hat is on the floor and it is yours.",
       "sceneTitle": "Old Friends",
       "choices": [
         {
           "text": "Smile",
-          "consequence": "There is no taking “Smile” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You put the hat back on, get the newcomer's name, and remember it, which is the full charter of the welcoming committee.",
           "nextNodeId": "end_friend"
         },
         {
           "text": "Stay quiet",
-          "consequence": "You commit to “Stay quiet.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You say nothing and just walk the room the way you always do. Exits, window, everybody accounted for, lights out.",
           "nextNodeId": "end_yard"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You climb up onto the bed instead, past all of them, and sit down at the edge of it, and nobody follows you up.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_friend",
-      "text": "You and Buzz watch a new toy meet Andy and you remember what it felt like, and you decide to be the welcoming committee from now on, forever.",
+      "text": "You and Buzz work out a routine. He gives the tour of the room; you handle the part where somebody has to explain that Andy is going to grow up, and neither of you does that one in the first week. New toys arrive scared. About a month later they are talking like they have always lived here. Nobody appointed the two of you to any of this. You just kept doing it until it became the job.",
       "sceneTitle": "Friend in Me",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_yard",
-      "text": "You and Buzz become the team that handles backyard rescues, and the toys talk about you both like a small fire department.",
+      "text": "Somewhere along the way the two of you become the ones who go out. Under the deck after a lost frog. Into the storm gutter after a rainstorm for a marble belonging to nobody in particular. The rest of the shelf talks about you like a very small fire department with two engines and no funding at all. You bring everybody back. There was one time you did not, and neither of you has ever mentioned it.",
       "sceneTitle": "The Yard Adventure",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "The kid is dreaming. Buzz hums the theme from the commercial. You sit on the edge of the bed and you do not, for once, plan anything.",
+      "text": "Andy is out, mouth open, one hand still resting on the blanket. Buzz is humming the jingle off the commercial, badly, because he only ever heard it the one time. You sit on the edge of the mattress with your boots off the bedspread and do not run a check, do not make a list, do not plan one single thing. The whole room is quiet. For once, you let it stay that way.",
       "sceneTitle": "Andy Asleep",
       "choices": [],
       "isEnding": true,

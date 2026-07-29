@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You set up the profile under 'Sebastian.' Mostly truthful. Mostly flattering. You write your novel's protagonist into the bio. Within an hour, three messages.",
+      "text": "You set up the profile under 'Sebastian.' Mostly truthful. Mostly flattering. You write your novel's protagonist into the bio. Within an hour, three messages. To choose “Reply to the first carefully” means meeting The First Client; “Reply to a safer-seeming one” sends you toward Helen, the Editor instead.",
       "sceneTitle": "The Profile",
       "choices": [
         {
           "text": "Reply to the first carefully",
-          "consequence": "The decision settles the question for now. Its verdict—Curiosity, careful—follows you into whatever comes next.",
+          "consequence": "You choose to reply to the first carefully. It opens the route to The First Client, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Reply to a safer-seeming one",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Risk management.",
+          "consequence": "You reply to a safer-seeming one. The decision moves you toward Helen, the Editor and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -43,12 +43,12 @@
       "choices": [
         {
           "text": "Write the scene tonight",
-          "consequence": "Capitalize on the rawness.",
+          "consequence": "Capitalize on the rawness. You commit to write the scene tonight. By Your Day Job, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         },
         {
           "text": "Wait a week before writing",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Distance.",
+          "consequence": "You commit to wait a week before writing. By The Client Who Reads, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your literary agent, Helen, calls. She wants to know what you're working on. You tell her the truth in a careful sentence. She is silent. Then she says, 'Be careful. Be specific. Don't lie to yourself about it.'",
+      "text": "Your literary agent, Helen, calls. She wants to know what you're working on. You tell her the truth in a careful sentence. She is silent. Then she says, 'Be careful. Be specific. The distance between Your Day Job and The Client Who Reads begins with the choice between “Send Helen a chapter immediately” and “Keep Helen in the dark for the first draft.”",
       "sceneTitle": "Helen, the Editor",
       "choices": [
         {
           "text": "Send Helen a chapter immediately",
-          "consequence": "Make her your sounding board.",
+          "consequence": "Make her your sounding board. You choose to send Helen a chapter immediately. It opens the route to Your Day Job, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Keep Helen in the dark for the first draft",
-          "consequence": "Protect the work.",
+          "consequence": "You choose to keep Helen in the dark for the first draft. It opens the route to The Client Who Reads, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You are also, technically, a junior writer at a magazine. Your colleague Amna notices you have been very tired. She asks if you are okay. You say yes. You say it slightly too quickly.",
+      "text": "You are also, technically, a junior writer at a magazine. Your colleague Amna notices you have been very tired. She asks if you are okay. You say yes. You say it slightly too quickly. Choose “Tell Amna the truth” and Helen's Concern comes into view; choose “Tell her you're just sleep-deprived” and the road bends toward The Borderline Night.",
       "sceneTitle": "Your Day Job",
       "choices": [
         {
           "text": "Tell Amna the truth",
-          "consequence": "You commit to “Tell Amna the truth.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You tell Amna the truth. The decision moves you toward Helen's Concern and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Tell her you're just sleep-deprived",
-          "consequence": "The decision settles the question for now. Its verdict—Cover—follows you into whatever comes next.",
+          "consequence": "You tell her you're just sleep-deprived. The decision moves you toward The Borderline Night and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Use him as a long, careful conversation partner",
-          "consequence": "Make him a character.",
+          "consequence": "You choose to use him as a long, careful conversation partner. It opens the route to Helen's Concern, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stop seeing him; the line is too thin",
-          "consequence": "“Stop seeing him; the line is too thin” closes one possibility and opens another. The moment leaves a clear note behind: Boundary.",
+          "consequence": "You stop seeing him; the line is too thin. The decision moves you toward The Borderline Night and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Helen, after reading two chapters, calls late. 'Two questions,' she says. 'One: is the work good? Yes. Two: are you?' You realize you don't have a different answer for each.",
+      "text": "Helen, after reading two chapters, calls late. 'Two questions,' she says. 'One: is the work good? Yes. Two: are you?' You realize you don't have a different answer for each. “Tell her the answer is the same and you don't know” opens the route to Your Family. “Tell her you're fine — finish the book first” changes the terms and carries you toward The First Draft.",
       "sceneTitle": "Helen's Concern",
       "choices": [
         {
           "text": "Tell her the answer is the same and you don't know",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honesty.",
+          "consequence": "You tell her the answer is the same and you don't know. The decision moves you toward Your Family and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell her you're fine — finish the book first",
-          "consequence": "Bet on the work.",
+          "consequence": "You tell her you're fine — finish the book first. The decision moves you toward The First Draft and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A booking goes slightly wrong — nothing dangerous, just unsettling. You go home with a feeling you don't want in your notes. You sit on the kitchen floor with the lights off for an hour.",
+      "text": "A booking goes slightly wrong — nothing dangerous, just unsettling. You go home with a feeling you don't want in your notes. You sit on the kitchen floor with the lights off for an hour. “Take a week off” opens the route to Your Family. “Write the unsettling scene with full honesty” changes the terms and carries you toward The First Draft.",
       "sceneTitle": "The Borderline Night",
       "choices": [
         {
           "text": "Take a week off",
-          "consequence": "The decision settles the question for now. Its verdict—Replenish—follows you into whatever comes next.",
+          "consequence": "You choose to take a week off. It opens the route to Your Family, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Write the unsettling scene with full honesty",
-          "consequence": "The decision settles the question for now. Its verdict—Use it—follows you into whatever comes next.",
+          "consequence": "You commit to write the unsettling scene with full honesty. By The First Draft, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Tell her the truth gently",
-          "consequence": "There is no taking “Tell her the truth gently” back. Family honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tell her the truth gently. It opens the route to The Bidding War, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait until the book is out",
-          "consequence": "Plan the disclosure.",
+          "consequence": "You commit to wait until the book is out. By The Decision, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Send the draft to Helen the next morning",
-          "consequence": "“Send the draft to Helen the next morning” closes one possibility and opens another. The moment leaves a clear note behind: Commit.",
+          "consequence": "You send the draft to Helen the next morning. The decision moves you toward The Bidding War and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Sit on the draft for a month first",
-          "consequence": "“Sit on the draft for a month first” closes one possibility and opens another. The moment leaves a clear note behind: Decompress.",
+          "consequence": "You commit to sit on the draft for a month first. By The Decision, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Helen sends the manuscript. Three publishers want it. The advance is, by a wide margin, the most money you have ever been offered for anything.",
+      "text": "Helen sends the manuscript. Three publishers want it. The advance is, by a wide margin, the most money you have ever been offered for anything. The distance between The Publicity Tour and Your Family, Reading begins with the choice between “Accept the biggest offer” and “Accept the editor you think believes in the book most.”",
       "sceneTitle": "The Bidding War",
       "choices": [
         {
           "text": "Accept the biggest offer",
-          "consequence": "Take the money.",
+          "consequence": "You choose to accept the biggest offer. It opens the route to The Publicity Tour, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Accept the editor you think believes in the book most",
-          "consequence": "Take the right partner.",
+          "consequence": "You choose to accept the editor you think believes in the book most. It opens the route to Your Family, Reading, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Stop the day after sale",
-          "consequence": "There is no taking “Stop the day after sale” back. Clean break shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stop the day after sale. It opens the route to The Publicity Tour, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Taper off for a month",
-          "consequence": "“Taper off for a month” closes one possibility and opens another. The moment leaves a clear note behind: Soft landing.",
+          "consequence": "You taper off for a month. The decision moves you toward Your Family, Reading and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Pubs ask you the same questions — autobiographical, ethics, exploitation. You answer the same answer with growing patience: the book is a novel. It is also, you admit, a kind of field notes.",
+      "text": "Pubs ask you the same questions — autobiographical, ethics, exploitation. You answer the same answer with growing patience: the book is a novel. It is also, you admit, a kind of field notes. The paths divide here: “Be plain about the field notes” leads into The Long Profile, while “Lean into the novelist's distance” makes Amna's Question the next reckoning.",
       "sceneTitle": "The Publicity Tour",
       "choices": [
         {
           "text": "Be plain about the field notes",
-          "consequence": "There is no taking “Be plain about the field notes” back. Own it shapes the silence before the next moment arrives.",
+          "consequence": "You commit to be plain about the field notes. By The Long Profile, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Lean into the novelist's distance",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Protect.",
+          "consequence": "You choose to lean into the novelist's distance. It opens the route to Amna's Question, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Call him back",
-          "consequence": "You commit to “Call him back.” The story records the instinct as “Talk” and carries it forward.",
+          "consequence": "You call him back. The decision moves you toward The Long Profile and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Write him a letter the next morning",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Letter.",
+          "consequence": "You commit to write him a letter the next morning. By Amna's Question, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Trust the profile and be done with the press",
-          "consequence": "There is no taking “Trust the profile and be done with the press” back. Closure shapes the silence before the next moment arrives.",
+          "consequence": "You choose to trust the profile and be done with the press. It opens the route to Second Book, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Use it as a platform for sex worker rights advocacy",
-          "consequence": "You commit to “Use it as a platform for sex worker rights advocacy.” The story records the instinct as “Politicize” and carries it forward.",
+          "consequence": "You commit to use it as a platform for sex worker rights advocacy. By Brighton, Visiting, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Take the workshop",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Teach.",
+          "consequence": "You choose to take the workshop. It opens the route to Second Book, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take a sabbatical first",
-          "consequence": "There is no taking “Take a sabbatical first” back. Rest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to take a sabbatical first. It opens the route to Brighton, Visiting, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Write the book you've always quietly wanted to",
-          "consequence": "The decision settles the question for now. Its verdict—Indulge—follows you into whatever comes next.",
+          "consequence": "You choose to write the book you've always quietly wanted to. It opens the route to The Reading, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Write the book that helps the next 'Sebastian'",
-          "consequence": "There is no taking “Write the book that helps the next 'Sebastian'” back. Pass forward shapes the silence before the next moment arrives.",
+          "consequence": "You commit to write the book that helps the next 'Sebastian'. By The Reading, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Move back near them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Closer.",
+          "consequence": "You choose to move back near them. It opens the route to The Honest Lunch, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay in London, visit often",
-          "consequence": "You commit to “Stay in London, visit often.” The story records the instinct as “Balanced” and carries it forward.",
+          "consequence": "You commit to stay in London, visit often. By The Honest Lunch, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Stay an hour for the second-row reader",
-          "consequence": "“Stay an hour for the second-row reader” closes one possibility and opens another. The moment leaves a clear note behind: Mentor.",
+          "consequence": "You stay an hour for the second-row reader. The decision moves you toward The Shape of It and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         },
         {
           "text": "Be gracious and brief",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Boundaries.",
+          "consequence": "You commit to be gracious and brief. By The Shape of It, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Tell her the plan",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Plan.",
+          "consequence": "You tell her the plan. The decision moves you toward The Shape of It and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         },
         {
           "text": "Tell her you'll send it on paper",
-          "consequence": "You commit to “Tell her you'll send it on paper.” The story records the instinct as “Letter” and carries it forward.",
+          "consequence": "You tell her you'll send it on paper. The decision moves you toward The Shape of It and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,17 +385,17 @@
       "choices": [
         {
           "text": "The career writer",
-          "consequence": "You commit to “The career writer.” The story records the instinct as “Long shelf” and carries it forward.",
+          "consequence": "You commit to the career writer. By A Long Career, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_books"
         },
         {
           "text": "The writer-teacher",
-          "consequence": "Shorter shelf, more readers helped.",
+          "consequence": "Shorter shelf, more readers helped. You commit to the writer-teacher. By The Workshop, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_help"
         },
         {
           "text": "The Brighton writer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Home shelf.",
+          "consequence": "You choose to the Brighton writer. It opens the route to Brighton, Eventually, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_home"
         }
       ],

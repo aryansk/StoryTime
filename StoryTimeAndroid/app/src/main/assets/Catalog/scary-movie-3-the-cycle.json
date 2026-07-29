@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Your friend Brenda hands you the cursed tape. The cursed tape is, technically, a VHS. You haven't owned a VCR in years.",
+      "text": "Your friend Brenda hands you the cursed tape. The cursed tape is, technically, a VHS. You haven't owned a VCR in years. The VCR is already waiting. What changes is whether “Find a VCR” or “Refuse the tape” is the instinct you carry into it.",
       "sceneTitle": "The Tape",
       "choices": [
         {
           "text": "Find a VCR",
-          "consequence": "“Find a VCR” closes one possibility and opens another. The moment leaves a clear note behind: Plot.",
+          "consequence": "You find a VCR. It gets you to The VCR, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse the tape",
-          "consequence": "“Refuse the tape” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You choose to refuse the tape. By The VCR, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A pawn shop has a VCR. The pawn shop owner is also a rapper.",
+      "text": "A pawn shop has a VCR. The pawn shop owner is also a rapper. You cannot avoid The Watch; you can only decide whether “Buy the VCR” or “Take the rapper's number” defines the person who reaches it.",
       "sceneTitle": "The VCR",
       "choices": [
         {
           "text": "Buy the VCR",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plot.",
+          "consequence": "You buy the VCR. It gets you to The Watch, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s3"
         },
         {
           "text": "Take the rapper's number",
-          "consequence": "You commit to “Take the rapper's number.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You commit to take the rapper's number. The road to The Watch is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You watch the tape. It is grainy. It is also, you realize, a karaoke video for a song you don't know.",
+      "text": "You watch the tape. It is grainy. It is also, you realize, a karaoke video for a song you don't know. You cannot avoid Cindy; you can only decide whether “Try to identify the song” or “Just turn it off” defines the person who reaches it.",
       "sceneTitle": "The Watch",
       "choices": [
         {
           "text": "Try to identify the song",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Investigate.",
+          "consequence": "You commit to try to identify the song. The road to Cindy is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s4"
         },
         {
           "text": "Just turn it off",
-          "consequence": "“Just turn it off” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You just turn it off. It gets you to Cindy, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Cindy, the protagonist of every Scary Movie, calls. She has been trying to call you for two films.",
+      "text": "Cindy, the protagonist of every Scary Movie, calls. She has been trying to call you for two films. The Field is already waiting. What changes is whether “Pick up” or “Let it go to voicemail” is the instinct you carry into it.",
       "sceneTitle": "Cindy",
       "choices": [
         {
           "text": "Pick up",
-          "consequence": "“Pick up” closes one possibility and opens another. The moment leaves a clear note behind: Plot.",
+          "consequence": "You choose to pick up. By The Field, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s5"
         },
         {
           "text": "Let it go to voicemail",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You commit to let it go to voicemail. The road to The Field is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Your uncle's cornfield has new crop circles. The circles, drawn by aliens, are also a math joke.",
+      "text": "Your uncle's cornfield has new crop circles. The circles, drawn by aliens, are also a math joke. Both choices lead to The Priest, but “Solve the math” arrives there with a different cost than “Take a photo.”",
       "sceneTitle": "The Field",
       "choices": [
         {
           "text": "Solve the math",
-          "consequence": "You commit to “Solve the math.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You solve the math. It gets you to The Priest, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take a photo",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tourist.",
+          "consequence": "You commit to take a photo. The road to The Priest is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Father Muldoon has, in his rectory, both an exorcism kit and a karaoke machine. They are, surprisingly, related.",
+      "text": "Father Muldoon has, in his rectory, both an exorcism kit and a karaoke machine. They are, surprisingly, related. The Aliens will follow either decision, but it will meet a different version of you after “Use the karaoke” than after “Use the kit.”",
       "sceneTitle": "The Priest",
       "choices": [
         {
           "text": "Use the karaoke",
-          "consequence": "There is no taking “Use the karaoke” back. Plot shapes the silence before the next moment arrives.",
+          "consequence": "You use the karaoke. It gets you to The Aliens, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s7"
         },
         {
           "text": "Use the kit",
-          "consequence": "You commit to “Use the kit.” The story records the instinct as “Plot” and carries it forward.",
+          "consequence": "You commit to use the kit. The road to The Aliens is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "The aliens, polite, show up at the cornfield. They have a complaint. The complaint is, technically, valid.",
+      "text": "The aliens, polite, show up at the cornfield. They have a complaint. The complaint is, technically, valid. Both choices lead to Tabitha, but “Hear them out” arrives there with a different cost than “Apologize on behalf of humanity.”",
       "sceneTitle": "The Aliens",
       "choices": [
         {
           "text": "Hear them out",
-          "consequence": "There is no taking “Hear them out” back. Civil shapes the silence before the next moment arrives.",
+          "consequence": "You hear them out. It gets you to Tabitha, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s8"
         },
         {
           "text": "Apologize on behalf of humanity",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Generous.",
+          "consequence": "You commit to apologize on behalf of humanity. The road to Tabitha is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The girl from the tape, Tabitha, climbs out of a TV. She is, off-camera, exhausted.",
+      "text": "The girl from the tape, Tabitha, climbs out of a TV. She is, off-camera, exhausted. Both choices lead to Sue's Rap Battle, but “Make her tea” arrives there with a different cost than “Apologize.” By Sue's Rap Battle, somebody will have misunderstood the choice spectacularly.",
       "sceneTitle": "Tabitha",
       "choices": [
         {
           "text": "Make her tea",
-          "consequence": "The decision settles the question for now. Its verdict—Civil—follows you into whatever comes next.",
+          "consequence": "You choose to make her tea. By Sue's Rap Battle, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s9"
         },
         {
           "text": "Apologize",
-          "consequence": "“Apologize” closes one possibility and opens another. The moment leaves a clear note behind: Polite.",
+          "consequence": "You choose to apologize. By Sue's Rap Battle, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You end up in a rap battle. You don't know how. The rules are, somehow, clear.",
+      "text": "You end up in a rap battle. You don't know how. The rules are, somehow, clear. You cannot avoid Brenda; you can only decide whether “Battle” or “Forfeit” defines the person who reaches it. In Sue's Rap Battle, delaying only gives the absurdity time to organize.",
       "sceneTitle": "Sue's Rap Battle",
       "choices": [
         {
           "text": "Battle",
-          "consequence": "There is no taking “Battle” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You battle. It gets you to Brenda, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s10"
         },
         {
           "text": "Forfeit",
-          "consequence": "You commit to “Forfeit.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to forfeit. The road to Brenda is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Brenda has been killed by the tape. She is, however, alive in this scene. The continuity is, again, doing its best.",
+      "text": "Brenda has been killed by the tape. She is, however, alive in this scene. The continuity is, again, doing its best. The President will follow either decision, but it will meet a different version of you after “Just go with it” than after “Question it.”",
       "sceneTitle": "Brenda",
       "choices": [
         {
           "text": "Just go with it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You just go with it. It gets you to The President, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s11"
         },
         {
           "text": "Question it",
-          "consequence": "The decision settles the question for now. Its verdict—Comedy—follows you into whatever comes next.",
+          "consequence": "You commit to question it. The road to The President is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The President — also the protagonist of the parody — is, today, addressing the nation. He has, on his desk, a chicken.",
+      "text": "The President — also the protagonist of the parody — is, today, addressing the nation. He has, on his desk, a chicken. The road still runs toward Press Briefing. Its next turn depends on the difference between choosing “Brief him” and choosing “Take the chicken.”",
       "sceneTitle": "The President",
       "choices": [
         {
           "text": "Brief him",
-          "consequence": "The decision settles the question for now. Its verdict—Plot—follows you into whatever comes next.",
+          "consequence": "You brief him. It gets you to Press Briefing, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take the chicken",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plot.",
+          "consequence": "You choose to take the chicken. By Press Briefing, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "The press briefing involves, accidentally, the President saying the cursed tape song out loud. The press laughs. The aliens cry.",
+      "text": "The press briefing involves, accidentally, the President saying the cursed tape song out loud. The press laughs. The aliens cry. Cindy's Plan is already waiting. What changes is whether “Stop the briefing” or “Let it finish” is the instinct you carry into it.",
       "sceneTitle": "Press Briefing",
       "choices": [
         {
           "text": "Stop the briefing",
-          "consequence": "“Stop the briefing” closes one possibility and opens another. The moment leaves a clear note behind: Civic.",
+          "consequence": "You choose to stop the briefing. By Cindy's Plan, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let it finish",
-          "consequence": "“Let it finish” closes one possibility and opens another. The moment leaves a clear note behind: Comedy.",
+          "consequence": "You commit to let it finish. The road to Cindy's Plan is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Cindy proposes a plan. The plan involves Tabitha and the karaoke machine and the rap battle.",
+      "text": "Cindy proposes a plan. The plan involves Tabitha and the karaoke machine and the rap battle. The road still runs toward Mac and Tabitha. Its next turn depends on the difference between choosing “Adopt the plan” and choosing “Modify the plan.”",
       "sceneTitle": "Cindy's Plan",
       "choices": [
         {
           "text": "Adopt the plan",
-          "consequence": "The decision settles the question for now. Its verdict—Trust—follows you into whatever comes next.",
+          "consequence": "You choose to adopt the plan. By Mac and Tabitha, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s14"
         },
         {
           "text": "Modify the plan",
-          "consequence": "You commit to “Modify the plan.” The story records the instinct as “Improve” and carries it forward.",
+          "consequence": "You modify the plan. It gets you to Mac and Tabitha, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Tabitha's mother, somewhere, wants to be apologized to. Tabitha is, technically, the saddest character in the movie.",
+      "text": "Tabitha's mother, somewhere, wants to be apologized to. Tabitha is, technically, the saddest character in the movie. Both choices lead to Karaoke Showdown, but “Apologize to Tabitha's mother” arrives there with a different cost than “Apologize to Tabitha.”",
       "sceneTitle": "Mac and Tabitha",
       "choices": [
         {
           "text": "Apologize to Tabitha's mother",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You commit to apologize to Tabitha's mother. The road to Karaoke Showdown is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s15"
         },
         {
           "text": "Apologize to Tabitha",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You apologize to Tabitha. It gets you to Karaoke Showdown, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The final showdown is a karaoke night at the local bar. The aliens are surprisingly good at backup.",
+      "text": "The final showdown is a karaoke night at the local bar. The aliens are surprisingly good at backup. The Tape's Origin will follow either decision, but it will meet a different version of you after “Sing” than after “Lip sync.”",
       "sceneTitle": "Karaoke Showdown",
       "choices": [
         {
           "text": "Sing",
-          "consequence": "“Sing” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You sing. It gets you to The Tape's Origin, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s16"
         },
         {
           "text": "Lip sync",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You choose to lip sync. By The Tape's Origin, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The tape, finally, plays its full original recording. The recording is, in fact, a 1976 wedding video.",
+      "text": "The tape, finally, plays its full original recording. The recording is, in fact, a 1976 wedding video. Aliens Negotiate comes either way; its meaning changes with the difference between “Reunite the wedding party” and “Just delete the file.”",
       "sceneTitle": "The Tape's Origin",
       "choices": [
         {
           "text": "Reunite the wedding party",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plot.",
+          "consequence": "You commit to reunite the wedding party. The road to Aliens Negotiate is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s17"
         },
         {
           "text": "Just delete the file",
-          "consequence": "You commit to “Just delete the file.” The story records the instinct as “Modern” and carries it forward.",
+          "consequence": "You choose to just delete the file. By Aliens Negotiate, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The aliens, satisfied, leave. They take with them, oddly, the chicken.",
+      "text": "The aliens, satisfied, leave. They take with them, oddly, the chicken. Both choices lead to Sue, Rapping, but “Wave goodbye” arrives there with a different cost than “Run for the cornfield.” In Aliens Negotiate, delaying only gives the absurdity time to organize.",
       "sceneTitle": "Aliens Negotiate",
       "choices": [
         {
           "text": "Wave goodbye",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You commit to wave goodbye. The road to Sue, Rapping is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s18"
         },
         {
           "text": "Run for the cornfield",
-          "consequence": "There is no taking “Run for the cornfield” back. Comedy shapes the silence before the next moment arrives.",
+          "consequence": "You run for the cornfield. It gets you to Sue, Rapping, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Sue ends the movie with a freestyle rap about closure, family, and cursed VHS tapes.",
+      "text": "Sue ends the movie with a freestyle rap about closure, family, and cursed VHS tapes. You cannot avoid Roll Credits; you can only decide whether “Drop the mic” or “Bow” defines the person who reaches it.",
       "sceneTitle": "Sue, Rapping",
       "choices": [
         {
           "text": "Drop the mic",
-          "consequence": "You commit to “Drop the mic.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You drop the mic. It gets you to Roll Credits, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s19"
         },
         {
           "text": "Bow",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Style.",
+          "consequence": "You choose to bow. By Roll Credits, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Credits roll. Bloopers. A cameo by an alien who clearly didn't sign the release.",
+      "text": "Credits roll. Bloopers. A cameo by an alien who clearly didn't sign the release. The road still runs toward Tabitha's Mother. Its next turn depends on the difference between choosing “Stay for bloopers” and choosing “Leave the theater.”",
       "sceneTitle": "Roll Credits",
       "choices": [
         {
           "text": "Stay for bloopers",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Loyal.",
+          "consequence": "You stay for bloopers. It gets you to Tabitha's Mother, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s20"
         },
         {
           "text": "Leave the theater",
-          "consequence": "There is no taking “Leave the theater” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You commit to leave the theater. The road to Tabitha's Mother is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Tabitha's mother, played by a famous comedian, hugs you. The hug, on screen, is the best joke of the movie.",
+      "text": "Tabitha's mother, played by a famous comedian, hugs you. The hug, on screen, is the best joke of the movie. Sequel Tease comes either way; its meaning changes with the difference between “Hug back” and “Just smile.”",
       "sceneTitle": "Tabitha's Mother",
       "choices": [
         {
           "text": "Hug back",
-          "consequence": "“Hug back” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "You choose to hug back. By Sequel Tease, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s21"
         },
         {
           "text": "Just smile",
-          "consequence": "You commit to “Just smile.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You just smile. It gets you to Sequel Tease, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "A title card promises Scary Movie 4. Everyone, including the chicken, is back next year.",
+      "text": "A title card promises Scary Movie 4. Everyone, including the chicken, is back next year. “Plan to attend” draws you toward Karaoke Champion; “Skip the sequel” leaves The Aliens Move In waiting on the other side. A third choice, “Take the third path,” keeps The 1976 Wedding in play.",
       "sceneTitle": "Sequel Tease",
       "choices": [
         {
           "text": "Plan to attend",
-          "consequence": "“Plan to attend” closes one possibility and opens another. The moment leaves a clear note behind: Loyal.",
+          "consequence": "You choose to plan to attend. By Karaoke Champion, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "end_sing"
         },
         {
           "text": "Skip the sequel",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You choose to skip the sequel. By The Aliens Move In, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "end_aliens"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By The 1976 Wedding, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "end_wedding"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_sing",
-      "text": "You become the karaoke champion of the county. The cursed tape, in fact, is the song that keeps winning.",
+      "text": "You become the karaoke champion of the county. The cursed tape, in fact, is the song that keeps winning. The road into Karaoke Champion began with “Plan to attend” in Sequel Tease; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Karaoke Champion",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_aliens",
-      "text": "The aliens decide to move in with you. They are, in fact, polite tenants. They pay rent in interstellar shrimp.",
+      "text": "The aliens decide to move in with you. They are, in fact, polite tenants. They pay rent in interstellar shrimp. The road into The Aliens Move In began with “Skip the sequel” in Sequel Tease; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Aliens Move In",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_wedding",
-      "text": "You attend the actual 1976 wedding via a time-travel sequence you can't quite explain. You realize the cursed tape was, all along, family content.",
+      "text": "You attend the actual 1976 wedding via a time-travel sequence you can't quite explain. You realize the cursed tape was, all along, family content. The road into The 1976 Wedding began with “Take the third path” in Sequel Tease; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The 1976 Wedding",
       "choices": [],
       "isEnding": true,

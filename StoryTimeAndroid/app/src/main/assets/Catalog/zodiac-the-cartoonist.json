@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "It arrives at the paper in a manila envelope. The cipher is in three colors. You are, technically, the political cartoonist.",
+      "text": "It arrives at the paper in a manila envelope. The cipher is in three colors. You are, technically, the political cartoonist. The road still runs toward The Detective. Its next turn depends on the difference between choosing “Look at it anyway” and choosing “Walk past.”",
       "sceneTitle": "The Letter",
       "choices": [
         {
           "text": "Look at it anyway",
-          "consequence": "There is no taking “Look at it anyway” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You choose to look at it anyway. By The Detective, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Walk past",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You walk past. The way toward The Detective opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Inspector Toschi, on the phone, is polite and brittle. He has many cases. This is one.",
+      "text": "Inspector Toschi, on the phone, is polite and brittle. He has many cases. This is one. Your Editor comes either way; its meaning changes with the difference between “Offer to help informally” and “Stay out of his way.”",
       "sceneTitle": "The Detective",
       "choices": [
         {
           "text": "Offer to help informally",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Volunteer.",
+          "consequence": "You choose to offer to help informally. By Your Editor, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay out of his way",
-          "consequence": "There is no taking “Stay out of his way” back. Respect shapes the silence before the next moment arrives.",
+          "consequence": "You stay out of his way. The way toward Your Editor opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your editor laughs. He tells you to stick to cartoons. You realize, slowly, that he is also curious.",
+      "text": "Your editor laughs. He tells you to stick to cartoons. You realize, slowly, that he is also curious. Both choices lead to The Crime Scenes, but “Pitch the story” arrives there with a different cost than “Work on it after hours.”",
       "sceneTitle": "Your Editor",
       "choices": [
         {
           "text": "Pitch the story",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Push.",
+          "consequence": "You commit to pitch the story. It carries you into The Crime Scenes while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Work on it after hours",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Stealth.",
+          "consequence": "You commit to work on it after hours. It carries you into The Crime Scenes while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "On weekends you visit, on your own dime, every public crime scene. None of them tell you anything you didn't already read.",
+      "text": "On weekends you visit, on your own dime, every public crime scene. None of them tell you anything you didn't already read. Both choices lead to The Bar, but “Take notes anyway” arrives there with a different cost than “Stop visiting.”",
       "sceneTitle": "The Crime Scenes",
       "choices": [
         {
           "text": "Take notes anyway",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You commit to take notes anyway. It carries you into The Bar while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stop visiting",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pragmatic.",
+          "consequence": "You choose to stop visiting. By The Bar, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The reporter assigned to the case, Avery, is at the bar. He is, by 8 p.m., drunker than you are. He is also smarter.",
+      "text": "The reporter assigned to the case, Avery, is at the bar. He is, by 8 p.m., drunker than you are. He is also smarter. Codebreakers will follow either decision, but it will meet a different version of you after “Drink with him” than after “Get him home.”",
       "sceneTitle": "The Bar",
       "choices": [
         {
           "text": "Drink with him",
-          "consequence": "You commit to “Drink with him.” The story records the instinct as “Source” and carries it forward.",
+          "consequence": "You drink with him. The way toward Codebreakers opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Get him home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You choose to get him home. By Codebreakers, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A teacher and his wife crack one of the ciphers in their kitchen. The cipher is, on cracking, mostly Christian theology and ego.",
+      "text": "A teacher and his wife crack one of the ciphers in their kitchen. The cipher is, on cracking, mostly Christian theology and ego. Your Wife is already waiting. What changes is whether “Use the cipher's tells” or “Pass it up the chain” is the instinct you carry into it.",
       "sceneTitle": "Codebreakers",
       "choices": [
         {
           "text": "Use the cipher's tells",
-          "consequence": "You commit to “Use the cipher's tells.” The story records the instinct as “Read” and carries it forward.",
+          "consequence": "You commit to use the cipher's tells. It carries you into Your Wife while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         },
         {
           "text": "Pass it up the chain",
-          "consequence": "“Pass it up the chain” closes one possibility and opens another. The moment leaves a clear note behind: Process.",
+          "consequence": "You pass it up the chain. The way toward Your Wife opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Your wife wants to know why you're not home. You realize you don't have a good answer that isn't, slowly, ruining you.",
+      "text": "Your wife wants to know why you're not home. You realize you don't have a good answer that isn't, slowly, ruining you. Avery's Tip will follow either decision, but it will meet a different version of you after “Tell her the obsession is the thing” than after “Promise to come home earlier.”",
       "sceneTitle": "Your Wife",
       "choices": [
         {
           "text": "Tell her the obsession is the thing",
-          "consequence": "You commit to “Tell her the obsession is the thing.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You tell her the obsession is the thing. The way toward Avery's Tip opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         },
         {
           "text": "Promise to come home earlier",
-          "consequence": "You commit to “Promise to come home earlier.” The story records the instinct as “Promise” and carries it forward.",
+          "consequence": "You choose to promise to come home earlier. By Avery's Tip, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Avery hands you a manila folder. He is, he says, done with it. He is leaving the paper.",
+      "text": "Avery hands you a manila folder. He is, he says, done with it. He is leaving the paper. The Long Suspect comes either way; its meaning changes with the difference between “Take the folder” and “Refuse it.”",
       "sceneTitle": "Avery's Tip",
       "choices": [
         {
           "text": "Take the folder",
-          "consequence": "There is no taking “Take the folder” back. Pick up shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the folder. It carries you into The Long Suspect while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Refuse it",
-          "consequence": "There is no taking “Refuse it” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to refuse it. By The Long Suspect, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A man named Allen, school employee, lake area, the right kind of wrong. You read his file three nights in a row.",
+      "text": "A man named Allen, school employee, lake area, the right kind of wrong. You read his file three nights in a row. Toschi, Frustrated comes either way; its meaning changes with the difference between “Stay on Allen” and “Look at other suspects.”",
       "sceneTitle": "The Long Suspect",
       "choices": [
         {
           "text": "Stay on Allen",
-          "consequence": "There is no taking “Stay on Allen” back. Long shapes the silence before the next moment arrives.",
+          "consequence": "You stay on Allen. The way toward Toschi, Frustrated opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Look at other suspects",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Open.",
+          "consequence": "You look at other suspects. The way toward Toschi, Frustrated opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Toschi has been re-investigated by his own department after a forged letter. He is, professionally, dying.",
+      "text": "Toschi has been re-investigated by his own department after a forged letter. He is, professionally, dying. The road still runs toward Your Editor, Again. Its next turn depends on the difference between choosing “Offer to back him publicly” and choosing “Stay neutral.”",
       "sceneTitle": "Toschi, Frustrated",
       "choices": [
         {
           "text": "Offer to back him publicly",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You commit to offer to back him publicly. It carries you into Your Editor, Again while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay neutral",
-          "consequence": "The decision settles the question for now. Its verdict—Reporter—follows you into whatever comes next.",
+          "consequence": "You choose to stay neutral. By Your Editor, Again, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your editor finally lets you write. The article is, by his hand, half its original length. It is still, in places, accurate.",
+      "text": "Your editor finally lets you write. The article is, by his hand, half its original length. It is still, in places, accurate. Stalking comes either way; its meaning changes with the difference between “Run the article” and “Pull the article.”",
       "sceneTitle": "Your Editor, Again",
       "choices": [
         {
           "text": "Run the article",
-          "consequence": "“Run the article” closes one possibility and opens another. The moment leaves a clear note behind: Print.",
+          "consequence": "You commit to run the article. It carries you into Stalking while the safer possibility closes without making a sound.",
           "nextNodeId": "s12"
         },
         {
           "text": "Pull the article",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You pull the article. The way toward Stalking opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You notice, one night, that you are being followed. You don't know by whom. The follower, you suspect, is your own paranoia.",
+      "text": "You notice, one night, that you are being followed. You don't know by whom. The follower, you suspect, is your own paranoia. The road still runs toward Allen's Trailer. Its next turn depends on the difference between choosing “Vary your route” and choosing “Confront.”",
       "sceneTitle": "Stalking",
       "choices": [
         {
           "text": "Vary your route",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to vary your route. It carries you into Allen's Trailer while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         },
         {
           "text": "Confront",
-          "consequence": "“Confront” closes one possibility and opens another. The moment leaves a clear note behind: Stupid.",
+          "consequence": "You choose to confront. By Allen's Trailer, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You visit Allen's trailer with your editor's permission. He is mostly silent. He stares at you for a long minute. You leave with nothing and everything.",
+      "text": "You visit Allen's trailer with your editor's permission. He is mostly silent. He stares at you for a long minute. You leave with nothing and everything. Both choices lead to The Polygraph, but “Trust your gut” arrives there with a different cost than “Trust the evidence.”",
       "sceneTitle": "Allen's Trailer",
       "choices": [
         {
           "text": "Trust your gut",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Instinct.",
+          "consequence": "You trust your gut. The way toward The Polygraph opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Trust the evidence",
-          "consequence": "You commit to “Trust the evidence.” The story records the instinct as “Process” and carries it forward.",
+          "consequence": "You trust the evidence. The way toward The Polygraph opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Allen takes a polygraph. The polygraph says, ambiguously, no. You realize polygraphs say ambiguously, no.",
+      "text": "Allen takes a polygraph. The polygraph says, ambiguously, no. You realize polygraphs say ambiguously, no. Your Daughter comes either way; its meaning changes with the difference between “Use the result anyway” and “Drop the angle.”",
       "sceneTitle": "The Polygraph",
       "choices": [
         {
           "text": "Use the result anyway",
-          "consequence": "You commit to “Use the result anyway.” The story records the instinct as “Selective” and carries it forward.",
+          "consequence": "You use the result anyway. The way toward Your Daughter opens, and something on the other side seems to notice.",
           "nextNodeId": "s15"
         },
         {
           "text": "Drop the angle",
-          "consequence": "There is no taking “Drop the angle” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You drop the angle. The way toward Your Daughter opens, and something on the other side seems to notice.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your daughter, six, asks why you are not at her recital. You sit her on your knee that night and tell her, almost, the truth.",
+      "text": "Your daughter, six, asks why you are not at her recital. You sit her on your knee that night and tell her, almost, the truth. The Case Files is already waiting. What changes is whether “Promise to be at the next one” or “Promise to step back from the case” is the instinct you carry into it.",
       "sceneTitle": "Your Daughter",
       "choices": [
         {
           "text": "Promise to be at the next one",
-          "consequence": "The decision settles the question for now. Its verdict—Vow—follows you into whatever comes next.",
+          "consequence": "You choose to promise to be at the next one. By The Case Files, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Promise to step back from the case",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Bigger vow.",
+          "consequence": "You choose to promise to step back from the case. By The Case Files, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You get, by way of a sympathetic clerk, copies of files you should not, technically, have. They contain, finally, the thing nobody has named.",
+      "text": "You get, by way of a sympathetic clerk, copies of files you should not, technically, have. They contain, finally, the thing nobody has named. Both choices lead to Toschi's Retirement, but “Use them carefully” arrives there with a different cost than “Don't use them.”",
       "sceneTitle": "The Case Files",
       "choices": [
         {
           "text": "Use them carefully",
-          "consequence": "The decision settles the question for now. Its verdict—Discreet—follows you into whatever comes next.",
+          "consequence": "You choose to use them carefully. By Toschi's Retirement, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't use them",
-          "consequence": "You commit to “Don't use them.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to don't use them. By Toschi's Retirement, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Toschi retires. He invites you to his backyard party. You go. He thanks you for the company more than the help.",
+      "text": "Toschi retires. He invites you to his backyard party. You go. He thanks you for the company more than the help. Both choices lead to The Book, but “Stay in touch” arrives there with a different cost than “Let him have his retirement.”",
       "sceneTitle": "Toschi's Retirement",
       "choices": [
         {
           "text": "Stay in touch",
-          "consequence": "“Stay in touch” closes one possibility and opens another. The moment leaves a clear note behind: Friend.",
+          "consequence": "You stay in touch. The way toward The Book opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let him have his retirement",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Boundary.",
+          "consequence": "You commit to let him have his retirement. It carries you into The Book while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You decide to write a book. The book is a years-long project. The book is, you realize, your only path to closure.",
+      "text": "You decide to write a book. The book is a years-long project. The book is, you realize, your only path to closure. The Manuscript comes either way; its meaning changes with the difference between “Commit to the book” and “Write a smaller version first.”",
       "sceneTitle": "The Book",
       "choices": [
         {
           "text": "Commit to the book",
-          "consequence": "The decision settles the question for now. Its verdict—Years—follows you into whatever comes next.",
+          "consequence": "You choose to commit to the book. By The Manuscript, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Write a smaller version first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pilot.",
+          "consequence": "You commit to write a smaller version first. It carries you into The Manuscript while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The manuscript is, in the end, careful and damning. It accuses Allen by implication. Your lawyer goes through every page twice.",
+      "text": "The manuscript is, in the end, careful and damning. It accuses Allen by implication. Your lawyer goes through every page twice. The Letter from a Reader is already waiting. What changes is whether “Publish” or “Publish a less specific version” is the instinct you carry into it.",
       "sceneTitle": "The Manuscript",
       "choices": [
         {
           "text": "Publish",
-          "consequence": "You commit to “Publish.” The story records the instinct as “Risk” and carries it forward.",
+          "consequence": "You publish. The way toward The Letter from a Reader opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Publish a less specific version",
-          "consequence": "“Publish a less specific version” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You choose to publish a less specific version. By The Letter from a Reader, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A letter from a woman who survived a Zodiac attack, decades ago. She thanks you. She also, in passing, names the man you suspected.",
+      "text": "A letter from a woman who survived a Zodiac attack, decades ago. She thanks you. She also, in passing, names the man you suspected. Old Age comes either way; its meaning changes with the difference between “Take her letter at face value” and “Verify with her police report.”",
       "sceneTitle": "The Letter from a Reader",
       "choices": [
         {
           "text": "Take her letter at face value",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Trust.",
+          "consequence": "You take her letter at face value. The way toward Old Age opens, and something on the other side seems to notice.",
           "nextNodeId": "s21"
         },
         {
           "text": "Verify with her police report",
-          "consequence": "You commit to “Verify with her police report.” The story records the instinct as “Verify” and carries it forward.",
+          "consequence": "You choose to verify with her police report. By Old Age, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You are old now. The case is, technically, unsolved. You are, technically, retired. You realize 'unsolved' is not the same as 'unknown.'",
+      "text": "You are old now. The case is, technically, unsolved. You are, technically, retired. “Stay quietly satisfied” opens the route to The Book Endures. “Take one last lap” changes the terms and carries you toward The Cartoon Desk, Again. A third choice, “Take the third path,” keeps One More Letter in play.",
       "sceneTitle": "Old Age",
       "choices": [
         {
           "text": "Stay quietly satisfied",
-          "consequence": "“Stay quietly satisfied” closes one possibility and opens another. The moment leaves a clear note behind: Quiet.",
+          "consequence": "You stay quietly satisfied. The way toward The Book Endures opens, and something on the other side seems to notice.",
           "nextNodeId": "end_book"
         },
         {
           "text": "Take one last lap",
-          "consequence": "“Take one last lap” closes one possibility and opens another. The moment leaves a clear note behind: Loud.",
+          "consequence": "You take one last lap. The way toward The Cartoon Desk, Again opens, and something on the other side seems to notice.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you into One More Letter while the safer possibility closes without making a sound.",
           "nextNodeId": "end_one_more"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_book",
-      "text": "The book becomes the definitive account. Other writers use it. A film is, eventually, made from it. You are credited as a consultant. You attend the premiere. You are bored. You are, also, grateful.",
+      "text": "The book becomes the definitive account. Other writers use it. A film is, eventually, made from it. You are credited as a consultant. You attend the premiere. You are bored. You are, also, grateful. The road into The Book Endures began with “Stay quietly satisfied” in Old Age; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Book Endures",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You go back to cartoons. You discover, late, that you are good at them. You publish a small collection of newsroom-life cartoons that does, surprisingly, well. Your daughter laughs at every one.",
+      "text": "You go back to cartoons. You discover, late, that you are good at them. You publish a small collection of newsroom-life cartoons that does, surprisingly, well. Your daughter laughs at every one. The road into The Cartoon Desk, Again began with “Take one last lap” in Old Age; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Cartoon Desk, Again",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_one_more",
-      "text": "In your eighties you receive, in your mail, an envelope with a cipher in three colors. You do not, this time, open it for the paper. You open it for yourself.",
+      "text": "In your eighties you receive, in your mail, an envelope with a cipher in three colors. You do not, this time, open it for the paper. You open it for yourself. The road into One More Letter began with “Take the third path” in Old Age; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "One More Letter",
       "choices": [],
       "isEnding": true,

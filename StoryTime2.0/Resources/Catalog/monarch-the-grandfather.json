@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You inherit, alongside a paid-off mortgage and a sad fish, a box of files marked MONARCH — TOP SECRET. Your half-brother you didn't know existed sits across the church.",
+      "text": "You inherit, alongside a paid-off mortgage and a sad fish, a box of files marked MONARCH — TOP SECRET. Your half-brother you didn't know existed sits across the church. The distance between Half-Brother, Half-Stranger and Page One begins with the choice between “Introduce yourself to him” and “Walk past and read the files first.”",
       "sceneTitle": "The Funeral",
       "choices": [
         {
           "text": "Introduce yourself to him",
-          "consequence": "Family arrives unexpectedly.",
+          "consequence": "Family arrives unexpectedly. You introduce yourself to him. The path to Half-Brother, Half-Stranger opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         },
         {
           "text": "Walk past and read the files first",
-          "consequence": "You commit to “Walk past and read the files first.” The story records the instinct as “Information first” and carries it forward.",
+          "consequence": "You walk past and read the files first. The path to Page One opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Kentaro is your age, raised in Tokyo, equally surprised. He has half the photographs you have. The puzzle, you realize, was always meant to be two-handed.",
+      "text": "Kentaro is your age, raised in Tokyo, equally surprised. He has half the photographs you have. The puzzle, you realize, was always meant to be two-handed. The distance between Tim, the Recruiter and The Apartment in Tokyo begins with the choice between “Compare files together immediately” and “Buy him a drink first.”",
       "sceneTitle": "Half-Brother, Half-Stranger",
       "choices": [
         {
           "text": "Compare files together immediately",
-          "consequence": "Trust before you've earned it.",
+          "consequence": "Trust before you've earned it. You choose to compare files together immediately. By Tim, the Recruiter, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Buy him a drink first",
-          "consequence": "Person before project.",
+          "consequence": "You choose to buy him a drink first. By The Apartment in Tokyo, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Read every file before you act",
-          "consequence": "There is no taking “Read every file before you act” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You read every file before you act. The path to Tim, the Recruiter opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Take the most actionable file and move",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Speed.",
+          "consequence": "You commit to take the most actionable file and move. It carries you toward The Apartment in Tokyo, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "A man in his thirties, polite, badly dressed, finds you at a coffee shop. 'Monarch wants to help,' he says. 'But you should be careful about who answers their phone right now.'",
+      "text": "A man in his thirties, polite, badly dressed, finds you at a coffee shop. 'Monarch wants to help,' he says. Choose “Go with Tim to a Monarch safehouse” and Lee Shaw, Old comes into view; choose “Refuse and run with the files” and the road bends toward The Map Pin.",
       "sceneTitle": "Tim, the Recruiter",
       "choices": [
         {
           "text": "Go with Tim to a Monarch safehouse",
-          "consequence": "Trust the org.",
+          "consequence": "You choose to go with Tim to a Monarch safehouse. By Lee Shaw, Old, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Refuse and run with the files",
-          "consequence": "Trust no org.",
+          "consequence": "You commit to refuse and run with the files. It carries you toward The Map Pin, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Inside the apartment is a phone that still works, a kettle, and a wall covered in photographs of the same family — yours, at different decades. Your grandfather kept two lives.",
+      "text": "Inside the apartment is a phone that still works, a kettle, and a wall covered in photographs of the same family — yours, at different decades. Your grandfather kept two lives. The paths divide here: “Photograph the wall for the record” leads into Lee Shaw, Old, while “Sit on the floor and let it hit you” makes The Map Pin the next reckoning.",
       "sceneTitle": "The Apartment in Tokyo",
       "choices": [
         {
           "text": "Photograph the wall for the record",
-          "consequence": "The decision settles the question for now. Its verdict—Document—follows you into whatever comes next.",
+          "consequence": "You commit to photograph the wall for the record. It carries you toward Lee Shaw, Old, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit on the floor and let it hit you",
-          "consequence": "“Sit on the floor and let it hit you” closes one possibility and opens another. The moment leaves a clear note behind: Feel it.",
+          "consequence": "You sit on the floor and let it hit you. The path to The Map Pin opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Lee Shaw — your grandfather's old partner, supposedly dead, very alive — walks out of a back room in a leather coat. He looks at you, then Kentaro, then back. He says, 'You found me before they did.'",
+      "text": "Lee Shaw — your grandfather's old partner, supposedly dead, very alive — walks out of a back room in a leather coat. He looks at you, then Kentaro, then back. Choose “Trust Shaw” and The Outpost comes into view; choose “Verify Shaw first” and the road bends toward The Frequency.",
       "sceneTitle": "Lee Shaw, Old",
       "choices": [
         {
           "text": "Trust Shaw",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Old hands.",
+          "consequence": "You commit to trust Shaw. It carries you toward The Outpost, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Verify Shaw first",
-          "consequence": "Even old hands lie.",
+          "consequence": "You verify Shaw first. The path to The Frequency opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Go to Kansas",
-          "consequence": "Chase the new lead.",
+          "consequence": "You choose to go to Kansas. By The Outpost, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Triangulate from Tokyo first",
-          "consequence": "Build the picture.",
+          "consequence": "You commit to triangulate from Tokyo first. It carries you toward The Frequency, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "A small Monarch outpost outside a town that doesn't appear on highway maps. The team here is friendly and scared. They show you a tunnel that goes very, very far down.",
+      "text": "A small Monarch outpost outside a town that doesn't appear on highway maps. The team here is friendly and scared. They show you a tunnel that goes very, very far down. “Descend with them” draws you toward First Encounter; “Send Kentaro down; stay with the data” leaves The Apex Cinemas waiting on the other side.",
       "sceneTitle": "The Outpost",
       "choices": [
         {
           "text": "Descend with them",
-          "consequence": "Inside the world.",
+          "consequence": "You descend with them. The path to First Encounter opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Send Kentaro down; stay with the data",
-          "consequence": "You commit to “Send Kentaro down; stay with the data.” The story records the instinct as “Divide labor” and carries it forward.",
+          "consequence": "You send Kentaro down; stay with the data. The path to The Apex Cinemas opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Shaw shows you a recording — Titan calls layered on top of each other. The pattern, he claims, is a language. Your grandfather had translated it partially. The files have the rest.",
+      "text": "Shaw shows you a recording — Titan calls layered on top of each other. The pattern, he claims, is a language. Your grandfather had translated it partially. The files have the rest. Choose “Translate it together” and First Encounter comes into view; choose “Take the recording to a linguist friend” and the road bends toward The Apex Cinemas.",
       "sceneTitle": "The Frequency",
       "choices": [
         {
           "text": "Translate it together",
-          "consequence": "Tackle the hard problem.",
+          "consequence": "Tackle the hard problem. You commit to translate it together. It carries you toward First Encounter, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take the recording to a linguist friend",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Outside expert.",
+          "consequence": "You take the recording to a linguist friend. The path to The Apex Cinemas opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Sit still and let it pass",
-          "consequence": "Don't be a threat.",
+          "consequence": "You choose to sit still and let it pass. By The Files Online, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Try to record its call",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Document.",
+          "consequence": "You choose to try to record its call. By The Hatchling, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Plan to expose Apex",
-          "consequence": "Counter the corporation.",
+          "consequence": "Counter the corporation. You plan to expose Apex. The path to The Files Online opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         },
         {
           "text": "Plan to undermine them from inside",
-          "consequence": "There is no taking “Plan to undermine them from inside” back. Subversion shapes the silence before the next moment arrives.",
+          "consequence": "You choose to plan to undermine them from inside. By The Hatchling, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You upload your grandfather's files to a trusted journalist with a 48-hour fuse. If you're not heard from in 48, the files publish. It is the only insurance you have that isn't a Titan.",
+      "text": "You upload your grandfather's files to a trusted journalist with a 48-hour fuse. If you're not heard from in 48, the files publish. It is the only insurance you have that isn't a Titan. The distance between The Council Vote and Reunion begins with the choice between “Keep moving and rely on the fuse” and “Confront the saboteur in Monarch leadership.”",
       "sceneTitle": "The Files Online",
       "choices": [
         {
           "text": "Keep moving and rely on the fuse",
-          "consequence": "Bet on the press.",
+          "consequence": "You commit to keep moving and rely on the fuse. It carries you toward The Council Vote, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s14"
         },
         {
           "text": "Confront the saboteur in Monarch leadership",
-          "consequence": "Strike at the top.",
+          "consequence": "You choose to confront the saboteur in Monarch leadership. By Reunion, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "In a containment lab you find a small Titan — newborn, blue-eyed, frightened. Apex was going to weaponize it. The hatchling, you realize, has been responding to its mother's calls in the recordings Shaw played.",
+      "text": "In a containment lab you find a small Titan — newborn, blue-eyed, frightened. Apex was going to weaponize it. The hatchling, you realize, has been responding to its mother's calls in the recordings Shaw played. “Release the hatchling to its mother” draws you toward The Council Vote; “Move it to a Monarch sanctuary” leaves Reunion waiting on the other side.",
       "sceneTitle": "The Hatchling",
       "choices": [
         {
           "text": "Release the hatchling to its mother",
-          "consequence": "The right thing.",
+          "consequence": "You commit to release the hatchling to its mother. It carries you toward The Council Vote, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s14"
         },
         {
           "text": "Move it to a Monarch sanctuary",
-          "consequence": "The safe thing.",
+          "consequence": "You move it to a Monarch sanctuary. The path to Reunion opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Monarch's old families convene a council vote — keep the files secret, or release them. Your grandfather was the swing vote a generation ago. You are, terrifyingly, the swing vote now.",
+      "text": "Monarch's old families convene a council vote — keep the files secret, or release them. Your grandfather was the swing vote a generation ago. You are, terrifyingly, the swing vote now. To choose “Vote for release” means meeting The Press Conference; “Vote for limited disclosure” sends you toward The Family Dinner instead.",
       "sceneTitle": "The Council Vote",
       "choices": [
         {
           "text": "Vote for release",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Daylight.",
+          "consequence": "You choose to vote for release. By The Press Conference, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Vote for limited disclosure",
-          "consequence": "There is no taking “Vote for limited disclosure” back. Compromise shapes the silence before the next moment arrives.",
+          "consequence": "You vote for limited disclosure. The path to The Family Dinner opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You and Kentaro stand at the mouth of a tunnel and watch the hatchling find its mother. The sound the mother Titan makes shakes the air. It is, somehow, joy.",
+      "text": "You and Kentaro stand at the mouth of a tunnel and watch the hatchling find its mother. The sound the mother Titan makes shakes the air. It is, somehow, joy. To choose “Stay in the work” means meeting The Press Conference; “Hand the work to others and go home” sends you toward The Family Dinner instead.",
       "sceneTitle": "Reunion",
       "choices": [
         {
           "text": "Stay in the work",
-          "consequence": "This is your inheritance.",
+          "consequence": "This is your inheritance. You stay in the work. The path to The Press Conference opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hand the work to others and go home",
-          "consequence": "You did your part.",
+          "consequence": "You commit to hand the work to others and go home. It carries you toward The Family Dinner, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Take a leadership role in the new public Monarch",
-          "consequence": "Build it openly.",
+          "consequence": "You choose to take a leadership role in the new public Monarch. By Years Later, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Step back to advisor",
-          "consequence": "Don't be the face.",
+          "consequence": "You commit to step back to advisor. It carries you toward The Map, Closing, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Kentaro and his mother visit your home. Your own mother, baffled, sets six places. The dinner is — given the day — startlingly ordinary. You realize the inheritance was, partly, also a family.",
+      "text": "Kentaro and his mother visit your home. Your own mother, baffled, sets six places. The dinner is — given the day — startlingly ordinary. You realize the inheritance was, partly, also a family. “Make this a regular thing” opens the route to Years Later. “Take it one dinner at a time” changes the terms and carries you toward The Map, Closing.",
       "sceneTitle": "The Family Dinner",
       "choices": [
         {
           "text": "Make this a regular thing",
-          "consequence": "Build the family slowly.",
+          "consequence": "Build the family slowly. You make this a regular thing. The path to Years Later opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take it one dinner at a time",
-          "consequence": "Don't force it.",
+          "consequence": "You take it one dinner at a time. The path to The Map, Closing opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Monarch is, in the new public era, oversight more than secrecy. Titans are policy. You have testified before three legislatures. You sleep with the fish your grandfather kept — actually his great-grandfish — on the dresser.",
+      "text": "Monarch is, in the new public era, oversight more than secrecy. Titans are policy. You have testified before three legislatures. You sleep with the fish your grandfather kept — actually his great-grandfish — on the dresser. Tokyo Apartment, Returned will follow either decision, but it will meet a different version of you after “Stay in the public role” than after “Hand off and write the family book.”",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Stay in the public role",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Keep going.",
+          "consequence": "You stay in the public role. The path to Tokyo Apartment, Returned opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hand off and write the family book",
-          "consequence": "There is no taking “Hand off and write the family book” back. Document shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hand off and write the family book. By Tokyo Apartment, Returned, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You spend a year visiting every red pin on the original map. Some are empty. Some have new villages. Some have new Titans. You take photographs your grandfather would have wanted.",
+      "text": "You spend a year visiting every red pin on the original map. Some are empty. Some have new villages. Some have new Titans. You take photographs your grandfather would have wanted. Tokyo Apartment, Returned will follow either decision, but it will meet a different version of you after “Compile them into an archive” than after “Donate the originals to a museum.”",
       "sceneTitle": "The Map, Closing",
       "choices": [
         {
           "text": "Compile them into an archive",
-          "consequence": "Finish his work.",
+          "consequence": "You commit to compile them into an archive. It carries you toward Tokyo Apartment, Returned, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         },
         {
           "text": "Donate the originals to a museum",
-          "consequence": "“Donate the originals to a museum” closes one possibility and opens another. The moment leaves a clear note behind: Public memory.",
+          "consequence": "You commit to donate the originals to a museum. It carries you toward Tokyo Apartment, Returned, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Stay public; the work calls",
-          "consequence": "There is no taking “Stay public; the work calls” back. Director's chair shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay public; the work calls. By Director, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_public"
         },
         {
           "text": "Go home and write the book together",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Authors.",
+          "consequence": "You choose to go home and write the book together. By The Family Book, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_book"
         }
       ],

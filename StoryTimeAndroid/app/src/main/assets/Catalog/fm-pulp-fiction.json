@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You and Vincent. The briefcase glows. The kid in the chair, sweating.",
+      "text": "Three kids in a Valley apartment at seven-thirty in the morning, and one of them has been holding a bag of fast food for four minutes without setting it down. Vincent keeps opening the briefcase because he likes the look people get. You take the chair. You ask the kid his name, then what he's eating, and you take your time over both. Your gun has been out the whole conversation.",
       "sceneTitle": "The Apartment",
       "choices": [
         {
           "text": "Recite the verse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You do the whole passage from memory, the way you have for nine years, having never once stopped to work out what it actually says.",
           "nextNodeId": "s2"
         },
         {
           "text": "Skip the verse",
-          "consequence": "There is no taking “Skip the verse” back. Speed shapes the silence before the next moment arrives.",
+          "consequence": "You skip it today for no reason you could name, and the room goes quieter than the words have ever managed to make it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Vincent shoots Marvin by accident. The car is a disaster. You drive.",
+      "text": "The kid in the back seat is answering a question nobody needed answered when the car takes a seam in the road and Vincent's gun goes off. Forty seconds later you're doing thirty-eight in a fifty on a residential street with the windows down, and Vincent is apologizing about the upholstery. It's nine-fifteen in the morning in the Valley. Every vehicle beside you sits higher than yours does.",
       "sceneTitle": "The Car",
       "choices": [
         {
           "text": "Call Jimmie",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You call a friend nine minutes away whose wife gets home from night shift at ten-fifteen. That clock starts the second he says yes.",
           "nextNodeId": "s3"
         },
         {
           "text": "Drive to Marsellus",
-          "consequence": "You commit to “Drive to Marsellus.” The story records the instinct as “Direct” and carries it forward.",
+          "consequence": "You point the car downtown with the windows down and a dead man's opinion of the traffic. Twenty-two miles of freeway in the morning glare.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Coffee, calm, a man named the Wolf. He has thirty minutes.",
+      "text": "Jimmie stands in a bathrobe saying the word divorce in a very calm voice, and the coffee he pours you is genuinely excellent, which he brings up twice. Then a man arrives in a tuxedo at eight-forty in the morning, having driven from Toluca Lake in under ten minutes, and starts assigning jobs before he has finished shaking hands. He gives you thirty minutes. He never once raises his voice.",
       "sceneTitle": "Jimmie's Garage",
       "choices": [
         {
           "text": "Listen to the Wolf",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You do exactly what a stranger in evening dress tells you, including the business with the hose and the seats, and it works to the minute.",
           "nextNodeId": "s4"
         },
         {
           "text": "Argue",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Foolish.",
+          "consequence": "You object to his tone, get the same instruction back in the same pleasant register, and lose ninety seconds you spend all morning making up.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "You and Vincent in a diner. You decide, today, what kind of man you want to be.",
+      "text": "Coffee, a booth by the window, and Vincent explaining why what happened in the apartment was ordinary. You keep going back to it: six shots in the plaster behind where you were standing, and neither of you touched. He says statistics. You say you're finished — out loud, in a diner, at a quarter to ten in the morning, with syrup on the table between you.",
       "sceneTitle": "The Diner",
       "choices": [
         {
           "text": "Quit the life",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You say the word retired in front of a witness, which makes it real in a way you cannot take back over pancakes.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay in",
-          "consequence": "There is no taking “Stay in” back. Familiar shapes the silence before the next moment arrives.",
+          "consequence": "You let Vincent talk you into calling it a coincidence, and something goes quiet in you that you will not hear again for years.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Two amateurs robbing the diner. You hold them at gunpoint, briefly.",
+      "text": "Two amateurs come up out of a booth shouting — one standing on a table, one waving a gun at a waitress holding a coffee pot. Neither of them has looked at you even once. Your hand is on your piece before the manager is on his knees, and you are running an arithmetic nobody in this room can see: you stopped being this man about four minutes ago.",
       "sceneTitle": "Pumpkin and Honey Bunny",
       "choices": [
         {
           "text": "Talk them down",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Style.",
+          "consequence": "You get the drop on him, keep your voice at breakfast volume, and turn an armed robbery into a very long conversation about everybody leaving.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take them out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You do it the way you'd have done it yesterday — fast, correct, finished — and you are still shaking when you order more coffee.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Vincent has, tonight, dinner with Marsellus' wife.",
+      "text": "Switching tracks: tonight you're Vincent, and the boss has asked you, as a favor, to take his wife out while he's in Florida. Everybody in the crew has a story about a man who got too friendly with her, and no two versions match. You stop at Lance's kitchen first and get high, then drive up into the hills with the radio low, rehearsing being polite.",
       "sceneTitle": "Vincent and Mia",
       "choices": [
         {
           "text": "Behave perfectly",
-          "consequence": "You commit to “Behave perfectly.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You keep both hands visible all evening and treat her like freight you're transporting, which she clocks inside ten minutes and finds hilarious.",
           "nextNodeId": "s7"
         },
         {
           "text": "Be yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Risk.",
+          "consequence": "You decide she's a person rather than a rumor and talk to her like one, which is the last simple decision you make tonight.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Twist contest. You dance. You almost forget the briefcase.",
+      "text": "A restaurant built inside somebody's memory: booths made of cars, waiters dressed as dead celebrities, a five-dollar milkshake she makes you taste so you can be wrong out loud. She asks a question about uncomfortable silences and then proves her own point by letting one sit there. Then they announce the twist contest, and she stands up and takes your hand and does not ask.",
       "sceneTitle": "Jack Rabbit Slim's",
       "choices": [
         {
           "text": "Win the twist",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Joy.",
+          "consequence": "You take your shoes off in a public restaurant for a woman you are not permitted to touch, and come home with a trophy nobody can explain afterward.",
           "nextNodeId": "s8"
         },
         {
           "text": "Lose with style",
-          "consequence": "There is no taking “Lose with style” back. Cool shapes the silence before the next moment arrives.",
+          "consequence": "You dance badly on purpose and let her carry the whole thing, and the room watches her instead of you, which was always the safer arrangement.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Mia thinks your bag is something else. She overdoses.",
+      "text": "Back at the house she puts on a record, and you go into the bathroom to give yourself the mirror speech about leaving now. Ninety seconds. In that time she has found your coat, found the bag inside the coat, read it as something else entirely, and taken a great deal of it. You come out and her nose is bleeding and she is not answering to her own name.",
       "sceneTitle": "The Heroin Mistake",
       "choices": [
         {
           "text": "Drive her to Lance",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Save.",
+          "consequence": "You get her into the passenger seat and take residential streets at eighty, calling a dealer who is watching television in a bathrobe and does not want this.",
           "nextNodeId": "s9"
         },
         {
           "text": "Call 911",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Civic.",
+          "consequence": "You get three digits in and hang up, because the ambulance brings police and the police bring a phone call to Florida.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You stab the needle into her heart. She comes back screaming.",
+      "text": "Lance's kitchen table, a medical book nobody can locate, his wife screaming about her collection, and a marker pen putting a red dot on a woman's chest. Somebody has to bring it down hard, and everyone in the room agrees it is not going to be Lance. You count to three. You come down. She sits straight up off the floor with the needle standing in her and looks around at all of you.",
       "sceneTitle": "Adrenaline Needle",
       "choices": [
         {
           "text": "Promise not to tell",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You drive her home and agree in the car that the night was a dinner and a milkshake. Two people maintaining the same lie is nearly intimacy.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell Marsellus the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You consider telling a man in Florida what almost happened to his wife, and you are still considering it four days later.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Switching tracks: you are now Butch. Your father's watch is at your apartment.",
+      "text": "Switching tracks again: now you're Butch, thirty-five, and last night you took a hundred thousand of a fixer's money to go down in the fifth and instead killed a man with your hands. Fabienne has packed the motel room. You go through the bag twice, then a third time slowly, and your father's watch — two years in a camp, and it came home — is in a drawer four miles from here.",
       "sceneTitle": "Butch's Watch",
       "choices": [
         {
           "text": "Go back for it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You point the car back toward a neighborhood where a man with a photograph of your face is being paid to sit and wait.",
           "nextNodeId": "s11"
         },
         {
           "text": "Leave it",
-          "consequence": "There is no taking “Leave it” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You start the engine and drive south, and the thing you left behind gets heavier every mile, which is not how objects are supposed to work.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You shoot Vincent as he comes out of your bathroom. The watch is in your hand.",
+      "text": "The apartment is exactly as you left it. Pop-tarts standing in the toaster. And on the kitchen counter a machine gun that is not yours, which means the man it belongs to is somewhere inside two rooms. Then the toilet flushes. He comes out with a paperback in one hand and nothing in the other, sees you, and has time to arrange his face but not to move.",
       "sceneTitle": "Vincent in the Bathroom",
       "choices": [
         {
           "text": "Take the watch and go",
-          "consequence": "“Take the watch and go” closes one possibility and opens another. The moment leaves a clear note behind: Survive.",
+          "consequence": "You wipe nothing, pocket the watch, and are on the road before the pastries come up. Three minutes, door to door.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stand frozen",
-          "consequence": "There is no taking “Stand frozen” back. Human shapes the silence before the next moment arrives.",
+          "consequence": "You stand over a man you never met and understand that somebody told the fixer where you'd be — which means a phone call was made about a watch.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Marsellus, on the street. You hit him with your car. You both end up in a pawn shop.",
+      "text": "A red light on a wide empty boulevard, and you are humming, actually humming, when a man crosses in front of your hood carrying coffee and a box of donuts. It's him. The man who owns your last two years. You are both looking directly at each other when your foot goes down, and the next thing either of you knows is a windshield, an intersection, and a crowd forming while you try to stand.",
       "sceneTitle": "The Car Crash",
       "choices": [
         {
           "text": "Fight him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You go at him in the street with your hands, in front of witnesses, until a shopkeeper across the road decides he has watched enough and reaches under his counter.",
           "nextNodeId": "s13"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You get up first and manage four steps, which is when a door opens behind you and a man with a shotgun invites you both inside.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The owner has a gimp. The owner has a problem with you and Marsellus both.",
+      "text": "You come around tied to a chair in a back room smelling of gun oil and old carpet, a ball strapped in your mouth, a man opposite you in the same condition. The shopkeeper has made a phone call. His friend arrives in a uniform he is not entitled to. They flip a coin over the pair of you, take the other man through a door, and leave you with something that lives in a box.",
       "sceneTitle": "The Pawn Shop",
       "choices": [
         {
           "text": "Free Marsellus",
-          "consequence": "“Free Marsellus” closes one possibility and opens another. The moment leaves a clear note behind: Right.",
+          "consequence": "You get out of the ropes, get to the door, and then stand in a corridor listening to a man you hate being destroyed. You turn around.",
           "nextNodeId": "s14"
         },
         {
           "text": "Save yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Practical.",
+          "consequence": "You get out of the ropes and take four steps toward daylight, and those four steps are the longest walk of your entire life.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "A katana on the wall. You take it.",
+      "text": "The front of the shop is a museum of other people's worst months: chainsaws, a hammer, a baseball bat, and above the register on a bracket a katana somebody pawned for maybe eighty dollars. You pick each one up and put it back. You take the sword because it's silent, and because holding it makes you feel like the man who survives the next four minutes rather than the one who doesn't.",
       "sceneTitle": "The Sword",
       "choices": [
         {
           "text": "Use it",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You go back down the stairs and finish it without a word, and it turns out quicker and considerably worse than anything you had pictured.",
           "nextNodeId": "s15"
         },
         {
           "text": "Threaten with it",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You come through the door holding it high and give a man in a stolen uniform two whole seconds to reconsider his life. He uses them badly.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Marsellus owes you. He tells you to leave LA forever.",
+      "text": "He's on the floor with a towel and a look you will never forget having been allowed to see. He says the thing between you is finished — the money, the fight, all of it. Then he names the price: you leave the city tonight, you stay gone, and if anyone ever asks, neither of you was in this building. He puts out his hand. You are both bleeding on the counter.",
       "sceneTitle": "The Bond",
       "choices": [
         {
           "text": "Take the deal",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You agree to be erased from the city you were born in, and it feels less like exile than like being handed your own name back.",
           "nextNodeId": "s16"
         },
         {
           "text": "Negotiate",
-          "consequence": "There is no taking “Negotiate” back. Greedy shapes the silence before the next moment arrives.",
+          "consequence": "You push for the purse money too, which is either brave or stupid, and he laughs once from the floor and gives you half of it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Fabienne packed everything except your father's watch. She is, you realize, going to be okay.",
+      "text": "You come into the motel room on a chopper you didn't own an hour ago, with another man's blood down your shirt, and she is upset about the blueberry pancakes she ordered and how late you are. She has packed everything you own. She did not pack the watch, and she's standing there braced for it, small, holding a coffee cup with both hands.",
       "sceneTitle": "Fabienne",
       "choices": [
         {
           "text": "Forgive her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Love.",
+          "consequence": "You tell her it doesn't matter and she can hear that you mean it, and you realize you have never once done that before, with anyone.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be cold",
-          "consequence": "You commit to “Be cold.” The story records the instinct as “Stress” and carries it forward.",
+          "consequence": "You let the silence work for a good ten seconds and watch her get smaller, and then you spend a year undoing those ten seconds.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You and Fabienne ride out of LA on Zed's chopper. The sun comes up.",
+      "text": "Six-forty in the morning on a bike belonging to a dead man, with a woman on the back who has never been on one and is holding you the way people hold railings. The freeway is empty. The hills go grey, then pink, then merely ordinary. Neither of you has a plan past the county line, and neither of you has yet said the word Tennessee out loud.",
       "sceneTitle": "On the Chopper",
       "choices": [
         {
           "text": "Look back",
-          "consequence": "The decision settles the question for now. Its verdict—Sentiment—follows you into whatever comes next.",
+          "consequence": "You check the mirror at the top of the pass and take one look at a city that is never finished with anybody, and then let it go.",
           "nextNodeId": "s18"
         },
         {
           "text": "Don't look",
-          "consequence": "There is no taking “Don't look” back. Forward shapes the silence before the next moment arrives.",
+          "consequence": "You keep your eyes forward the whole way out, which is discipline, and which means you never actually said goodbye to any of it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Back at the diner. The robbery is happening now. You and Vincent are in a booth.",
+      "text": "Back to the morning, back to the booth, except now you know how the rest of the day goes and the two men in the booth do not. Vincent is in the bathroom with a paperback. The coffee has been topped up three times. Across the room a young couple have been having a conversation about liquor stores that keeps getting louder, and one of them has just stood up on a seat.",
       "sceneTitle": "Diner, Reframed",
       "choices": [
         {
           "text": "Defuse calmly",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You keep your hand on the gun under the table and your voice completely level, and you begin by asking the man what his name is.",
           "nextNodeId": "s19"
         },
         {
           "text": "Take them out",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "The old arithmetic is still in your hands — two targets, one room, under two seconds — and this morning you decide not to use it.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The robber wants your wallet. You pay him to leave. You realize you are, finally, walking the earth.",
+      "text": "He wants the wallets in the bag with everything else, and yours goes in with the rest of them. Then he wants the case, and instead you offer him the sixteen hundred in your billfold — buying it off him, out of your own pocket, from a man pointing a gun at your face. His girlfriend is screaming from across the room. You have never in your life been this calm anywhere.",
       "sceneTitle": "Honey Bunny's Wallet",
       "choices": [
         {
           "text": "Pay him generously",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You hand over everything on you and tell him it's a purchase and not a robbery, and the distinction turns out to matter to both of you.",
           "nextNodeId": "s20"
         },
         {
           "text": "Pay him exactly",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You count it out to the dollar so he understands there are terms, and he takes it slowly, watching your hands the entire time.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Vincent decides to stay in. You decide to walk.",
+      "text": "Vincent comes back out of the bathroom into the middle of it and wants to shoot everybody, and you talk him down with two words and a look. Out in the lot he tells you the retirement thing is a phase, and offers to drive you to the meet. He will be dead inside a month and there is no way on earth for you to know that. You shake his hand anyway.",
       "sceneTitle": "Vincent Stays In",
       "choices": [
         {
           "text": "Walk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You get out at a gas station on Ventura and let him pull away, and that is the last conversation the two of you ever have.",
           "nextNodeId": "s21"
         },
         {
           "text": "Stay one more job",
-          "consequence": "The decision settles the question for now. Its verdict—Familiar—follows you into whatever comes next.",
+          "consequence": "You agree to one more delivery, one afternoon, nothing complicated — the exact sentence every man in this business says before the thing that finishes him.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "The briefcase is delivered. Whatever is in it stays in it. You don't, today, open it.",
+      "text": "The case goes across a desk in an office above a bar, and the man who wanted it lays one hand flat on the lid and thanks you both by name. Neither of you opens it. Neither of you has ever opened it. Whatever is inside has cost four lives since Tuesday, and you notice you have entirely stopped being curious, which is new.",
       "sceneTitle": "The Briefcase",
       "choices": [
         {
           "text": "Don't open it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You leave it shut and walk out with empty hands for the first time in nine years, and nobody at the door stops you.",
           "nextNodeId": "end_path"
         },
         {
           "text": "Hand it over",
-          "consequence": "You commit to “Hand it over.” The story records the instinct as “Job” and carries it forward.",
+          "consequence": "You do the job properly, take the envelope, and let the whole thing remain somebody else's problem for the rest of time.",
           "nextNodeId": "end_briefcase"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither: you set it down, say you're finished, and walk out of a room in which nobody has ever resigned before.",
           "nextNodeId": "end_LA"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_path",
-      "text": "You walk the earth, like Caine. You end up running a small diner in New Mexico. The food is, by year three, surprisingly good. People come from town just for the eggs.",
+      "text": "You walk. Buses, a Greyhound, a woman in Amarillo who trades a bed for a painted fence. It takes three years and ends in a nine-table diner outside Las Cruces, where you learn eggs the way you learned everything — repetition, and refusing to be wrong twice. People drive in from town for them. Nobody in that county knows what your hands used to do, and you have stopped rehearsing the sentence that would explain it.",
       "sceneTitle": "The Path of the Righteous Man",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_briefcase",
-      "text": "You never learn what was in it. Marsellus pays you. You buy a small apartment building. You become a landlord. You are, against every expectation, good at it.",
+      "text": "You never do find out. Twenty years later it still surfaces at three in the morning: the weight of it, the sound the catches made. Marsellus paid you in cash and you bought an eight-unit building in Van Nuys with a bad roof. You fix the roof yourself. You are fair about deposits and quick about hot water, and every tenant you have ever had describes you, without knowing why, as extremely calm.",
       "sceneTitle": "The Briefcase, Closed",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_LA",
-      "text": "You stay in. The work continues. Vincent dies. Marsellus retires. You are, eventually, the oldest man in the rooms you walk into. You die in one of them, with a smile.",
+      "text": "You stay in, because the work is the only room where you know exactly where everything is. Vincent dies in a bathroom in the spring and you carry the coffin. Marsellus retires to Palm Desert with a pool and a bad back. Somewhere in your fifties you notice you are the oldest man in every room you enter, and that the young ones go quiet when you sit down. You die in one of those rooms, mid-story, smiling.",
       "sceneTitle": "LA, Forever",
       "choices": [],
       "isEnding": true,

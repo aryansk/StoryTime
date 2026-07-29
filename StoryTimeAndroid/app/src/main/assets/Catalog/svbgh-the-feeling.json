@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The feeling arrives before you're fully awake — heavy and certain, like furniture in a dark room. Something very bad is going to happen. You don't know what, only that it's today.",
+      "text": "The feeling arrives before you're fully awake — heavy and certain, like furniture in a dark room. Something very bad is going to happen. You don't know what, only that it's today. The air in 4:11 a.m.",
       "sceneTitle": "4:11 a.m.",
       "choices": [
         {
           "text": "Get up and write down everything you sense",
-          "consequence": "List the dread before it scatters.",
+          "consequence": "List the dread before it scatters. You get up and write down everything you sense. The way toward The List opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         },
         {
           "text": "Try to go back to sleep — it's just a dream",
-          "consequence": "Denial is a curtain, not a door.",
+          "consequence": "Denial is a curtain, not a door. You try to go back to sleep — it's just a dream. The way toward Coffee opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "On a notepad you write: kitchen, car, your sister, the stairs at work, the bridge. Even reading it back, your hand shakes. Some of these mean nothing. One of them is the thing.",
+      "text": "On a notepad you write: kitchen, car, your sister, the stairs at work, the bridge. Even reading it back, your hand shakes. Some of these mean nothing. One of them is the thing. “Take the list seriously, item by item” draws you toward Your Sister Calls; “Burn the list and shake it off” leaves The Office waiting on the other side.",
       "sceneTitle": "The List",
       "choices": [
         {
           "text": "Take the list seriously, item by item",
-          "consequence": "Superstition is sometimes pattern recognition.",
+          "consequence": "Superstition is sometimes pattern recognition. You choose to take the list seriously, item by item. By Your Sister Calls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Burn the list and shake it off",
-          "consequence": "Naming a fear gives it shape.",
+          "consequence": "Naming a fear gives it shape. You commit to burn the list and shake it off. It carries you into The Office while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Tell your partner the truth",
-          "consequence": "Saying it aloud is a kind of test.",
+          "consequence": "Saying it aloud is a kind of test. You choose to tell your partner the truth. By Your Sister Calls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Keep it to yourself — they'll think you're spiraling",
-          "consequence": "Some weights are quieter alone.",
+          "consequence": "Some weights are quieter alone. You commit to keep it to yourself — they'll think you're spiraling. It carries you into The Office while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "She calls at 7:42 about nothing — running late, the car making a sound, did you call Mom. You hear, very clearly, the thing on your list. The car. The sound. Today.",
+      "text": "She calls at 7:42 about nothing — running late, the car making a sound, did you call Mom. You hear, very clearly, the thing on your list. The car. The sound. Today. Choose “Tell her not to drive, no matter what” and She Won't Listen comes into view; choose “Ask careful questions without alarming her” and the road bends toward The Pattern.",
       "sceneTitle": "Your Sister Calls",
       "choices": [
         {
           "text": "Tell her not to drive, no matter what",
-          "consequence": "Sometimes love sounds like a command.",
+          "consequence": "Sometimes love sounds like a command. You tell her not to drive, no matter what. The way toward She Won't Listen opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask careful questions without alarming her",
-          "consequence": "A net cast wider may catch more.",
+          "consequence": "A net cast wider may catch more. You ask careful questions without alarming her. The way toward The Pattern opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "At work the stairwell looks longer than usual. The fluorescents tick. Your boss tells a story about a near-miss on the way in and you actually flinch — and notice that nobody else does.",
+      "text": "At work the stairwell looks longer than usual. The fluorescents tick. Your boss tells a story about a near-miss on the way in and you actually flinch — and notice that nobody else does. The distance between She Won't Listen and The Pattern begins with the choice between “Take the stairs anyway” and “Take the elevator and feel ridiculous.”",
       "sceneTitle": "The Office",
       "choices": [
         {
           "text": "Take the stairs anyway",
-          "consequence": "Confront what your gut accuses.",
+          "consequence": "Confront what your gut accuses. You choose to take the stairs anyway. By She Won't Listen, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take the elevator and feel ridiculous",
-          "consequence": "Some battles are not today's.",
+          "consequence": "Some battles are not today's. You commit to take the elevator and feel ridiculous. It carries you into The Pattern while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Your sister laughs — kindly. 'You're being weird,' she says. 'I love you. Bye.' She hangs up and you stand in your kitchen with the phone still warm, and the feeling thickens like fog.",
+      "text": "Your sister laughs — kindly. 'You're being weird,' she says. 'I love you. Bye.' She hangs up and you stand in your kitchen with the phone still warm, and the feeling thickens like fog. “Drive to her right now” draws you toward The Drive; “Trust her and turn your attention elsewhere” leaves The Quiet Warning waiting on the other side.",
       "sceneTitle": "She Won't Listen",
       "choices": [
         {
           "text": "Drive to her right now",
-          "consequence": "Your body knows what your reasons don't.",
+          "consequence": "Your body knows what your reasons don't. You commit to drive to her right now. It carries you into The Drive while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Trust her and turn your attention elsewhere",
-          "consequence": "You can't be in every room.",
+          "consequence": "You can't be in every room. You trust her and turn your attention elsewhere. The way toward The Quiet Warning opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Pull the fire alarm to clear the building",
-          "consequence": "Disruption now beats catastrophe later.",
+          "consequence": "Disruption now beats catastrophe later. You pull the fire alarm to clear the building. The way toward The Drive opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         },
         {
           "text": "Quietly tell your supervisor what you sense",
-          "consequence": "Authority lends courage to weird truths.",
+          "consequence": "Authority lends courage to weird truths. You choose to quietly tell your supervisor what you sense. By The Quiet Warning, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Pull over and breathe before continuing",
-          "consequence": "You can't save anyone from a wreck you caused.",
+          "consequence": "You can't save anyone from a wreck you caused. You pull over and breathe before continuing. The way toward 10:47 a.m. opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Keep going — the urgency is the message",
-          "consequence": "Hesitation has a body count too.",
+          "consequence": "Hesitation has a body count too. You keep going — the urgency is the message. The way toward Your Mother Calls opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your supervisor frowns and humors you — but she also calls maintenance and tells the floor to stay clear of the stairwell. Small actions ripple. Maybe that's all it takes.",
+      "text": "Your supervisor frowns and humors you — but she also calls maintenance and tells the floor to stay clear of the stairwell. Small actions ripple. Maybe that's all it takes. “Trust that small actions are enough” draws you toward 10:47 a.m.; “Push for a bigger response anyway” leaves Your Mother Calls waiting on the other side.",
       "sceneTitle": "The Quiet Warning",
       "choices": [
         {
           "text": "Trust that small actions are enough",
-          "consequence": "Big disasters often arrive on small hinges.",
+          "consequence": "Big disasters often arrive on small hinges. You commit to trust that small actions are enough. It carries you into 10:47 a.m. while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Push for a bigger response anyway",
-          "consequence": "Better foolish and safe than reasonable and sorry.",
+          "consequence": "Better foolish and safe than reasonable and sorry. You commit to push for a bigger response anyway. It carries you into Your Mother Calls while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "There is a sound — not big, not yet — somewhere across the city. A pop. A drop in air pressure. A siren two blocks over. The feeling now is a needle in your chest.",
+      "text": "There is a sound — not big, not yet — somewhere across the city. A pop. A drop in air pressure. A siren two blocks over. The feeling now is a needle in your chest. “Run toward the sound to help” draws you toward Hospital Hallway; “Find your people first” leaves Lockdown waiting on the other side.",
       "sceneTitle": "10:47 a.m.",
       "choices": [
         {
           "text": "Run toward the sound to help",
-          "consequence": "Compassion outruns dread, when it can.",
+          "consequence": "Compassion outruns dread, when it can. You run toward the sound to help. The way toward Hospital Hallway opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Find your people first",
-          "consequence": "You can't save the world without your own.",
+          "consequence": "You can't save the world without your own. You choose to find your people first. By Lockdown, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Tell her everything you've sensed",
-          "consequence": "Two witnesses make a fact.",
+          "consequence": "Two witnesses make a fact. You commit to tell her everything you've sensed. It carries you into Hospital Hallway while the safer possibility closes without making a sound.",
           "nextNodeId": "s12"
         },
         {
           "text": "Lie to keep her calm",
-          "consequence": "Love and lying share a border.",
+          "consequence": "Love and lying share a border. You commit to lie to keep her calm. It carries you into Lockdown while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Someone you love is here — your sister, your colleague, a stranger you couldn't reach — and the corridor smells like coffee and fear. The feeling has narrowed to one door and one held breath.",
+      "text": "Someone you love is here — your sister, your colleague, a stranger you couldn't reach — and the corridor smells like coffee and fear. The feeling has narrowed to one door and one held breath. Choose “Sit and wait for news” and The Small Good comes into view; choose “Demand information from someone in scrubs” and the road bends toward The News.",
       "sceneTitle": "Hospital Hallway",
       "choices": [
         {
           "text": "Sit and wait for news",
-          "consequence": "Some battles are about endurance.",
+          "consequence": "Some battles are about endurance. You sit and wait for news. The way toward The Small Good opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Demand information from someone in scrubs",
-          "consequence": "Polite has a cost; impolite has a different one.",
+          "consequence": "Polite has a cost; impolite has a different one. You commit to demand information from someone in scrubs. It carries you into The News while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Help organize the people around you",
-          "consequence": "Action is the antidote to dread.",
+          "consequence": "Action is the antidote to dread. You choose to help organize the people around you. By The Small Good, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Call everyone you love, in order",
-          "consequence": "Make sure they hear your voice today.",
+          "consequence": "Make sure they hear your voice today. You commit to call everyone you love, in order. It carries you into The News while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Notice the goodness and let it steady you",
-          "consequence": "Beauty doesn't cancel dread; it carries it.",
+          "consequence": "Beauty doesn't cancel dread; it carries it. You commit to notice the goodness and let it steady you. It carries you into Evening while the safer possibility closes without making a sound.",
           "nextNodeId": "s16"
         },
         {
           "text": "Keep scanning for the next danger",
-          "consequence": "Vigilance is hard to switch off.",
+          "consequence": "Vigilance is hard to switch off. You commit to keep scanning for the next danger. It carries you into Aftershock while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Sit with the true sentence",
-          "consequence": "Truth is a posture you have to settle into.",
+          "consequence": "Truth is a posture you have to settle into. You choose to sit with the true sentence. By Evening, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Try to make sense of why you felt it",
-          "consequence": "Meaning is a balm and sometimes a trap.",
+          "consequence": "Meaning is a balm and sometimes a trap. You choose to try to make sense of why you felt it. By Aftershock, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Decide the feeling was real and useful",
-          "consequence": "Believe your body next time, too.",
+          "consequence": "Believe your body next time, too. You commit to decide the feeling was real and useful. It carries you into 11:11 p.m. while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Decide it was coincidence with bad timing",
-          "consequence": "Skepticism is a kind of mercy on yourself.",
+          "consequence": "Skepticism is a kind of mercy on yourself. You commit to decide it was coincidence with bad timing. It carries you into What You'll Carry while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Make peace with the voice and listen carefully",
-          "consequence": "A reliable warning is a strange gift.",
+          "consequence": "A reliable warning is a strange gift. You choose to make peace with the voice and listen carefully. By 11:11 p.m., the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Decide to fight the voice with therapy and routine",
-          "consequence": "You don't have to inherit your own dread forever.",
+          "consequence": "You don't have to inherit your own dread forever. You commit to decide to fight the voice with therapy and routine. It carries you into What You'll Carry while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Call your mother before bed",
-          "consequence": "The bad things will or won't come. Love now.",
+          "consequence": "The bad things will or won't come. Love now. You choose to call your mother before bed. By The Calls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Write down what you learned today",
-          "consequence": "Memory is the only seatbelt against forgetting.",
+          "consequence": "Memory is the only seatbelt against forgetting. You commit to write down what you learned today. It carries you into Going to Bed while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Keep the stone and the lesson",
-          "consequence": "Some weights are also anchors.",
+          "consequence": "Some weights are also anchors. You choose to keep the stone and the lesson. By The Calls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Put the stone down and walk lighter",
-          "consequence": "You're allowed to forget on purpose.",
+          "consequence": "You're allowed to forget on purpose. You put the stone down and walk lighter. The way toward Going to Bed opens, and something on the other side seems to notice.",
           "nextNodeId": "s21"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Make this your new ordinary",
-          "consequence": "Call the people now, before the next 4:11.",
+          "consequence": "Call the people now, before the next 4:11. You commit to make this your new ordinary. It carries you into Until the Next 4:11 while the safer possibility closes without making a sound.",
           "nextNodeId": "end_grace"
         },
         {
           "text": "Drift back to your old habits in a week",
-          "consequence": "Even good lessons need re-learning.",
+          "consequence": "Even good lessons need re-learning. You choose to drift back to your old habits in a week. By Ordinary, Mostly, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_human"
         }
       ],
@@ -404,12 +404,12 @@
       "choices": [
         {
           "text": "Sleep with the knowledge as a comfort",
-          "consequence": "Mortality is also permission to love now.",
+          "consequence": "Mortality is also permission to love now. You choose to sleep with the knowledge as a comfort. By Until the Next 4:11, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_grace"
         },
         {
           "text": "Sleep with one eye open from now on",
-          "consequence": "Vigilance can be a vow, not a curse.",
+          "consequence": "Vigilance can be a vow, not a curse. You choose to sleep with one eye open from now on. By The Watchful Heart, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_watch"
         }
       ],
@@ -426,7 +426,7 @@
     },
     {
       "id": "end_human",
-      "text": "Time blunts the day. You forget some of the details and remember the rest wrong. That is okay. Most of being human is forgetting what almost killed you and showing up to dinner anyway.",
+      "text": "Time blunts the day. You forget some of the details and remember the rest wrong. That is okay. Most of being human is forgetting what almost killed you and showing up to dinner anyway. The road into Ordinary, Mostly began with “Drift back to your old habits in a week” in The Calls; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Ordinary, Mostly",
       "choices": [],
       "isEnding": true,

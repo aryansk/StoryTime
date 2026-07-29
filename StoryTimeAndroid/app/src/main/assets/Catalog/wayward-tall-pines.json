@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The 'Welcome to Wayward' sign is hand-painted and the smile of the diner waitress is hand-painted too. Your daughter pretends to sleep in the passenger seat. Tall Pines Academy is two miles uphill.",
+      "text": "The 'Welcome to Wayward' sign is hand-painted and the smile of the diner waitress is hand-painted too. Your daughter pretends to sleep in the passenger seat. Tall Pines Academy is two miles uphill. The paths divide here: “Stop at the diner first” leads into The Diner, while “Drive straight to the academy” makes The Gates the next reckoning.",
       "sceneTitle": "Welcome to Town",
       "choices": [
         {
           "text": "Stop at the diner first",
-          "consequence": "Eavesdrop before you enroll.",
+          "consequence": "Eavesdrop before you enroll. You commit to stop at the diner first. It carries you into The Diner while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         },
         {
           "text": "Drive straight to the academy",
-          "consequence": "Delay is doubt's open door.",
+          "consequence": "Delay is doubt's open door. You commit to drive straight to the academy. It carries you into The Gates while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Three locals stop talking when you walk in. The waitress is friendly in a way that feels rehearsed. A boy in his early twenties keeps glancing at your bumper sticker.",
+      "text": "Three locals stop talking when you walk in. The waitress is friendly in a way that feels rehearsed. A boy in his early twenties keeps glancing at your bumper sticker. “Try to make conversation about the academy” opens the route to The Tour. “Eat quickly and leave” changes the terms and carries you toward The Sheriff.",
       "sceneTitle": "The Diner",
       "choices": [
         {
           "text": "Try to make conversation about the academy",
-          "consequence": "Information lives in small talk.",
+          "consequence": "Information lives in small talk. You try to make conversation about the academy. The way toward The Tour opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         },
         {
           "text": "Eat quickly and leave",
-          "consequence": "Some rooms tighten if you stay.",
+          "consequence": "Some rooms tighten if you stay. You commit to eat quickly and leave. It carries you into The Sheriff while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Wrought iron, freshly painted. A counselor named Evelyn meets you with a clipboard and a hug she has practiced. Your daughter's hand is suddenly very cold in yours.",
+      "text": "Wrought iron, freshly painted. A counselor named Evelyn meets you with a clipboard and a hug she has practiced. Your daughter's hand is suddenly very cold in yours. The paths divide here: “Sign the intake forms quickly” leads into The Tour, while “Ask to see the dorm first” makes The Sheriff the next reckoning.",
       "sceneTitle": "The Gates",
       "choices": [
         {
           "text": "Sign the intake forms quickly",
-          "consequence": "You came here to do this.",
+          "consequence": "You came here to do this. You choose to sign the intake forms quickly. By The Tour, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask to see the dorm first",
-          "consequence": "Trust earned beats trust assumed.",
+          "consequence": "Trust earned beats trust assumed. You choose to ask to see the dorm first. By The Sheriff, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -81,12 +81,12 @@
       "choices": [
         {
           "text": "Stop and speak to one of the students",
-          "consequence": "A real face will tell you more than the tour.",
+          "consequence": "A real face will tell you more than the tour. You commit to stop and speak to one of the students. It carries you into The Girl in the Garden while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay on the script of the tour",
-          "consequence": "Don't tip your suspicion yet.",
+          "consequence": "Don't tip your suspicion yet. You commit to stay on the script of the tour. It carries you into Lights Out Tour while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The sheriff happens to be at the gate, friendly, broad. He compliments your car. He mentions that 'parents who second-guess' tend to make things harder for their kids.",
+      "text": "The sheriff happens to be at the gate, friendly, broad. He compliments your car. He mentions that 'parents who second-guess' tend to make things harder for their kids. The paths divide here: “Smile and play along for now” leads into The Girl in the Garden, while “Ask him bluntly what he meant” makes Lights Out Tour the next reckoning.",
       "sceneTitle": "The Sheriff",
       "choices": [
         {
           "text": "Smile and play along for now",
-          "consequence": "Don't show your hand to the law.",
+          "consequence": "Don't show your hand to the law. You smile and play along for now. The way toward The Girl in the Garden opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ask him bluntly what he meant",
-          "consequence": "Some bluffs collapse if you call them.",
+          "consequence": "Some bluffs collapse if you call them. You ask him bluntly what he meant. The way toward Lights Out Tour opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "She kneels by the tomatoes and whispers without looking at you: 'They listen at the dorms after lights out.' Then, louder: 'These are the cherry kind.'",
+      "text": "Choose “Take her warning seriously” and The Missing Kid comes into view; choose “Wonder if she's manipulating you” and the road bends toward Your Daughter Whispers. In The Girl in the Garden, even a sensible delay gives the threat another way in.",
       "sceneTitle": "The Girl in the Garden",
       "choices": [
         {
           "text": "Take her warning seriously",
-          "consequence": "Truth from a child here is gold.",
+          "consequence": "Truth from a child here is gold. You commit to take her warning seriously. It carries you into The Missing Kid while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Wonder if she's manipulating you",
-          "consequence": "Suspicion can also be useful here.",
+          "consequence": "Suspicion can also be useful here. You choose to wonder if she's manipulating you. By Your Daughter Whispers, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Evelyn explains the nightly schedule with a calm that does not match the words: 'Devices collected at 7:45. Personal items reviewed weekly. Privileges earned through Trust.' She capitalizes Trust audibly.",
+      "text": "Evelyn explains the nightly schedule with a calm that does not match the words: 'Devices collected at 7:45. Personal items reviewed weekly. Privileges earned through Trust.' She capitalizes Trust audibly. The paths divide here: “Refuse the device collection rule” leads into The Missing Kid, while “Accept it for tonight only” makes Your Daughter Whispers the next reckoning.",
       "sceneTitle": "Lights Out Tour",
       "choices": [
         {
           "text": "Refuse the device collection rule",
-          "consequence": "Set one boundary they can't dissolve.",
+          "consequence": "Set one boundary they can't dissolve. You commit to refuse the device collection rule. It carries you into The Missing Kid while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Accept it for tonight only",
-          "consequence": "Pick the hill another day.",
+          "consequence": "Pick the hill another day. You commit to accept it for tonight only. It carries you into Your Daughter Whispers while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Posters near the laundry room: a boy who 'graduated' six months ago, missing since the weekend. Evelyn whisks you past, talking too brightly about the dining hall.",
+      "text": "Posters near the laundry room: a boy who 'graduated' six months ago, missing since the weekend. Evelyn whisks you past, talking too brightly about the dining hall. “Take a photo of the poster” draws you toward The Headmistress; “Pretend not to notice and keep watching” leaves After Lights Out waiting on the other side.",
       "sceneTitle": "The Missing Kid",
       "choices": [
         {
           "text": "Take a photo of the poster",
-          "consequence": "Evidence is portable.",
+          "consequence": "You commit to take a photo of the poster. It carries you into The Headmistress while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Pretend not to notice and keep watching",
-          "consequence": "Cameras work both ways here.",
+          "consequence": "Cameras work both ways here. You pretend not to notice and keep watching. The way toward After Lights Out opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "She holds your sleeve at the dorm door and says, very quietly, 'Don't leave me here.' It is the first thing she has said to you with feeling in six months.",
+      "text": "She holds your sleeve at the dorm door and says, very quietly, 'Don't leave me here.' It is the first thing she has said to you with feeling in six months. “Walk her back to the car right now” draws you toward The Brochure; “Stay one night to see what they do” leaves The Headmistress waiting on the other side.",
       "sceneTitle": "Your Daughter Whispers",
       "choices": [
         {
           "text": "Walk her back to the car right now",
-          "consequence": "Trust the kid you came to save.",
+          "consequence": "Trust the kid you came to save. You choose to walk her back to the car right now. By The Brochure, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_leave_early"
         },
         {
           "text": "Stay one night to see what they do",
-          "consequence": "Knowledge is its own kind of rescue.",
+          "consequence": "Knowledge is its own kind of rescue. You commit to stay one night to see what they do. It carries you into The Headmistress while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Match her calm and listen",
-          "consequence": "Underestimate her and you lose your daughter.",
+          "consequence": "Underestimate her and you lose your daughter. You choose to match her calm and listen. By The Ally, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Push her for specifics about the missing kid",
-          "consequence": "Make her speak in particulars.",
+          "consequence": "Make her speak in particulars. You choose to push her for specifics about the missing kid. By The Office, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Follow them tomorrow night",
-          "consequence": "See it before you accuse it.",
+          "consequence": "See it before you accuse it. You follow them tomorrow night. The way toward The Ally opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Photograph what you can right now",
-          "consequence": "Document while it's strange to you.",
+          "consequence": "Document while it's strange to you. You choose to photograph what you can right now. By The Office, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Meet him at the bridge",
-          "consequence": "Risk is sometimes the rescue.",
+          "consequence": "Risk is sometimes the rescue. You commit to meet him at the bridge. It carries you into Bridge at Eleven while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Burn the napkin and stay alert",
-          "consequence": "Strangers in cults are rarely free agents.",
+          "consequence": "Strangers in cults are rarely free agents. You commit to burn the napkin and stay alert. It carries you into Across the Lawn while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Hide in the closet",
-          "consequence": "Buy time at the cost of nerve.",
+          "consequence": "Buy time at the cost of nerve. You hide in the closet. The way toward Bridge at Eleven opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Climb out the window onto the lawn",
-          "consequence": "Commit to escape before you're caught.",
+          "consequence": "Commit to escape before you're caught. You choose to climb out the window onto the lawn. By Across the Lawn, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Abel is younger than you thought, scared, and angry. He's been here since he was sixteen. 'They keep the ones who can't be sold back to families,' he says. 'Some of us are staff because there's nowhere else to go.'",
+      "text": "Abel is younger than you thought, scared, and angry. He's been here since he was sixteen. 'They keep the ones who can't be sold back to families,' he says. “Promise to get him out too” draws you toward Your Daughter's Door; “Take the information and run” leaves Helen, Awake waiting on the other side.",
       "sceneTitle": "Bridge at Eleven",
       "choices": [
         {
           "text": "Promise to get him out too",
-          "consequence": "Save who you can, when you can.",
+          "consequence": "Save who you can, when you can. You choose to promise to get him out too. By Your Daughter's Door, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take the information and run",
-          "consequence": "Heroics multiply risk.",
+          "consequence": "You commit to take the information and run. It carries you into Helen, Awake while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Upload the photos to the cloud now",
-          "consequence": "Get it off you before it can be erased.",
+          "consequence": "Get it off you before it can be erased. You choose to upload the photos to the cloud now. By Your Daughter's Door, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wipe the phone clean and rely on memory",
-          "consequence": "If they search you, find nothing.",
+          "consequence": "If they search you, find nothing. You commit to wipe the phone clean and rely on memory. It carries you into Helen, Awake while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You creep into the dorm and find her awake, alert, dressed. 'I knew you were coming back,' she says. She has been ready every night.",
+      "text": "You creep into the dorm and find her awake, alert, dressed. 'I knew you were coming back,' she says. She has been ready every night. To choose “Take her and as many girls as will come” means meeting The Run; “Take only her — keep this simple” sends you toward The Hostage Calm instead.",
       "sceneTitle": "Your Daughter's Door",
       "choices": [
         {
           "text": "Take her and as many girls as will come",
-          "consequence": "Rescue is contagious if you let it be.",
+          "consequence": "Rescue is contagious if you let it be. You choose to take her and as many girls as will come. By The Run, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take only her — keep this simple",
-          "consequence": "A clean escape is its own miracle.",
+          "consequence": "A clean escape is its own miracle. You commit to take only her — keep this simple. It carries you into The Hostage Calm while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Helen is in the foyer in a robe like she's been waiting for you. She offers tea. She tells you, gently, that there is no version of this story where you are the hero.",
+      "text": "Helen is in the foyer in a robe like she's been waiting for you. She offers tea. She tells you, gently, that there is no version of this story where you are the hero. The distance between The Run and The Hostage Calm begins with the choice between “Refuse the tea and walk through her” and “Sit and let her speak — buy minutes.”",
       "sceneTitle": "Helen, Awake",
       "choices": [
         {
           "text": "Refuse the tea and walk through her",
-          "consequence": "Confidence is a passport.",
+          "consequence": "Confidence is a passport. You commit to refuse the tea and walk through her. It carries you into The Run while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Sit and let her speak — buy minutes",
-          "consequence": "Sometimes the door opens behind you while she talks.",
+          "consequence": "Sometimes the door opens behind you while she talks. You sit and let her speak — buy minutes. The way toward The Hostage Calm opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Outrun the trucks to the county line",
-          "consequence": "Cross a border, change the law you're under.",
+          "consequence": "Cross a border, change the law you're under. You choose to outrun the trucks to the county line. By The County Line, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Cut off the road and use the back trails",
-          "consequence": "Wayward, weirdly, taught you these.",
+          "consequence": "Wayward, weirdly, taught you these. You cut off the road and use the back trails. The way toward The Press opens, and something on the other side seems to notice.",
           "nextNodeId": "s21"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Helen smiles. 'You can leave tonight,' she says, 'or your daughter can graduate next year. Choose.' The trick is that she means both versions.",
+      "text": "Helen smiles. 'You can leave tonight,' she says, 'or your daughter can graduate next year. Choose.' The trick is that she means both versions. “Pretend to choose 'leave' and improvise” opens the route to The County Line. “Refuse her terms loudly enough to be heard outside” changes the terms and carries you toward The Press.",
       "sceneTitle": "The Hostage Calm",
       "choices": [
         {
           "text": "Pretend to choose 'leave' and improvise",
-          "consequence": "Buy the exit you need.",
+          "consequence": "You pretend to choose 'leave' and improvise. The way toward The County Line opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Refuse her terms loudly enough to be heard outside",
-          "consequence": "Witnesses are the cult's only allergen.",
+          "consequence": "Witnesses are the cult's only allergen. You choose to refuse her terms loudly enough to be heard outside. By The Press, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Tell him everything, now",
-          "consequence": "Truth told fast is a fence Helen can't climb.",
+          "consequence": "Truth told fast is a fence Helen can't climb. You tell him everything, now. The way toward Quietly Free opens, and something on the other side seems to notice.",
           "nextNodeId": "end_safe"
         },
         {
           "text": "Drive on with a story and seek a journalist",
-          "consequence": "Court of public opinion is faster than court of law.",
+          "consequence": "Court of public opinion is faster than court of law. You choose to drive on with a story and seek a journalist. By The Headline, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_expose"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "A reporter you cold-called from a gas-station pay phone agrees to meet at noon. She has been trying to crack Wayward for three years. You have, by accident, given her the headline.",
+      "text": "A reporter you cold-called from a gas-station pay phone agrees to meet at noon. She has been trying to crack Wayward for three years. You have, by accident, given her the headline. To choose “Go on the record with everything” means meeting The Headline; “Stay anonymous and trade documents only” sends you toward Quietly Free instead.",
       "sceneTitle": "The Press",
       "choices": [
         {
           "text": "Go on the record with everything",
-          "consequence": "Burn it down with paper and ink.",
+          "consequence": "Burn it down with paper and ink. You go on the record with everything. The way toward The Headline opens, and something on the other side seems to notice.",
           "nextNodeId": "end_expose"
         },
         {
           "text": "Stay anonymous and trade documents only",
-          "consequence": "Some safety is a smaller name.",
+          "consequence": "Some safety is a smaller name. You choose to stay anonymous and trade documents only. By Quietly Free, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_safe"
         }
       ],

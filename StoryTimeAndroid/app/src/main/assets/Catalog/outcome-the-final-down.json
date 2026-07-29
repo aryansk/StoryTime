@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Tell her right away",
-          "consequence": "Honesty is the only shock-absorber.",
+          "consequence": "Honesty is the only shock-absorber. You commit to tell her right away. By Mira's Idea, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s2"
         },
         {
           "text": "Sit on the porch a while first",
-          "consequence": "Some news needs a quiet runway.",
+          "consequence": "Some news needs a quiet runway. You sit on the porch a while first. The decision moves you toward The Bar and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Mira mentions that the high school's head-coaching job is open. She says it like she's been thinking about it. She has.",
+      "text": "Mira mentions that the high school's head-coaching job is open. She says it like she's been thinking about it. She has. The distance between The First Practice and The Town begins with the choice between “Apply on Monday” and “Resist; you wanted ten more years.”",
       "sceneTitle": "Mira's Idea",
       "choices": [
         {
           "text": "Apply on Monday",
-          "consequence": "Coaching is the next room over.",
+          "consequence": "Coaching is the next room over. You apply on Monday. The decision moves you toward The First Practice and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Resist; you wanted ten more years",
-          "consequence": "Grief has a right to a few days.",
+          "consequence": "Grief has a right to a few days. You resist; you wanted ten more years. The decision moves you toward The Town and tells everyone present what you are willing to risk.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Down at Lou's the high-school coach has just announced his retirement. The booster club president buys you a drink and floats the idea like it's a joke. He is not joking.",
+      "text": "Down at Lou's the high-school coach has just announced his retirement. The booster club president buys you a drink and floats the idea like it's a joke. He is not joking. The distance between The First Practice and The Town begins with the choice between “Take the joke seriously” and “Laugh it off and order water.”",
       "sceneTitle": "The Bar",
       "choices": [
         {
           "text": "Take the joke seriously",
-          "consequence": "Some doors knock back.",
+          "consequence": "You choose to take the joke seriously. It opens the route to The First Practice, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s4"
         },
         {
           "text": "Laugh it off and order water",
-          "consequence": "Self-preservation is also a play.",
+          "consequence": "Self-preservation is also a play. You choose to laugh it off and order water. It opens the route to The Town, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Twenty-six boys in too-big jerseys stare at you like you're the league. You are, by their standards. By the standards of your old self, you are not yet anything new.",
+      "text": "Twenty-six boys in too-big jerseys stare at you like you're the league. You are, by their standards. By the standards of your old self, you are not yet anything new. “Start with conditioning” draws you toward The Kid; “Start with film” leaves The Scout waiting on the other side.",
       "sceneTitle": "The First Practice",
       "choices": [
         {
           "text": "Start with conditioning",
-          "consequence": "Build the body first.",
+          "consequence": "You start with conditioning. The decision moves you toward The Kid and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Start with film",
-          "consequence": "Build the brain first.",
+          "consequence": "You start with film. The decision moves you toward The Scout and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The town hasn't won district in twenty-one years and has, somehow, an extremely organized booster club. Their goals for the season are unreasonable. Their casseroles are excellent.",
+      "text": "The town hasn't won district in twenty-one years and has, somehow, an extremely organized booster club. Their goals for the season are unreasonable. Their casseroles are excellent. The distance between The Kid and The Scout begins with the choice between “Promise them realistic improvement” and “Promise them a winning season.”",
       "sceneTitle": "The Town",
       "choices": [
         {
           "text": "Promise them realistic improvement",
-          "consequence": "Honesty in the press box.",
+          "consequence": "Honesty in the press box. You choose to promise them realistic improvement. It opens the route to The Kid, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Promise them a winning season",
-          "consequence": "Sometimes belief is the play.",
+          "consequence": "Sometimes belief is the play. You promise them a winning season. The decision moves you toward The Scout and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Junior — seventeen, six-foot-three, the arm of a man five years older — is your quarterback. He's also raising two sisters because his mother works two jobs. He has not slept enough since 2019.",
+      "text": "Junior — seventeen, six-foot-three, the arm of a man five years older — is your quarterback. He's also raising two sisters because his mother works two jobs. He has not slept enough since 2019. “Build the offense around him” draws you toward Junior's House; “Take some weight off him” leaves The Offensive Coordinator waiting on the other side.",
       "sceneTitle": "The Kid",
       "choices": [
         {
           "text": "Build the offense around him",
-          "consequence": "Trust the kid's gift.",
+          "consequence": "You commit to build the offense around him. By Junior's House, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take some weight off him",
-          "consequence": "Don't burn him out before college.",
+          "consequence": "Don't burn him out before college. You commit to take some weight off him. By The Offensive Coordinator, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A college scout shows up to a Tuesday practice 'just to watch.' He is, distinctly, not just watching. He drinks coffee like a man on a clock.",
+      "text": "A college scout shows up to a Tuesday practice 'just to watch.' He is, distinctly, not just watching. He drinks coffee like a man on a clock. The distance between Junior's House and The Offensive Coordinator begins with the choice between “Have a conversation with him” and “Pretend you didn't notice him.”",
       "sceneTitle": "The Scout",
       "choices": [
         {
           "text": "Have a conversation with him",
-          "consequence": "Build the relationship for Junior.",
+          "consequence": "Build the relationship for Junior. You choose to have a conversation with him. It opens the route to Junior's House, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Pretend you didn't notice him",
-          "consequence": "Don't let the kid feel the pressure yet.",
+          "consequence": "Don't let the kid feel the pressure yet. You pretend you didn't notice him. The decision moves you toward The Offensive Coordinator and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You drive Junior home after practice. His mom invites you in for cornbread. His sisters do their homework on the floor. The roof leaks. The trophies on the shelf are his alone.",
+      "text": "You drive Junior home after practice. His mom invites you in for cornbread. His sisters do their homework on the floor. The roof leaks. The trophies on the shelf are his alone. The distance between Week 4 Loss and Your Wife, Honest begins with the choice between “Offer to help with college applications” and “Stay neutral — don't overpromise.”",
       "sceneTitle": "Junior's House",
       "choices": [
         {
           "text": "Offer to help with college applications",
-          "consequence": "Mentorship widens the playbook.",
+          "consequence": "Mentorship widens the playbook. You commit to offer to help with college applications. By Week 4 Loss, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay neutral — don't overpromise",
-          "consequence": "Keep the line professional.",
+          "consequence": "Keep the line professional. You stay neutral — don't overpromise. The decision moves you toward Your Wife, Honest and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Hire her",
-          "consequence": "Strong coordinators win seasons.",
+          "consequence": "Strong coordinators win seasons. You hire her. The decision moves you toward Week 4 Loss and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait until midseason to decide",
-          "consequence": "Trust your own eyes first.",
+          "consequence": "Trust your own eyes first. You commit to wait until midseason to decide. By Your Wife, Honest, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You lose to a team you should have beaten by ten. Junior throws two picks in the fourth. The booster club president writes a long email that says 'with respect' six times.",
+      "text": "You lose to a team you should have beaten by ten. Junior throws two picks in the fourth. The booster club president writes a long email that says 'with respect' six times. “Hold a film session, no chewing out” opens the route to Homecoming. “Air it out in the locker room” changes the terms and carries you toward Mom, Worried.",
       "sceneTitle": "Week 4 Loss",
       "choices": [
         {
           "text": "Hold a film session, no chewing out",
-          "consequence": "Teach over yell.",
+          "consequence": "You choose to hold a film session, no chewing out. It opens the route to Homecoming, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Air it out in the locker room",
-          "consequence": "Sometimes a season needs a thunder.",
+          "consequence": "Sometimes a season needs a thunder. You commit to air it out in the locker room. By Mom, Worried, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Talk to Junior's mom honestly",
-          "consequence": "Get her permission, not just consent.",
+          "consequence": "Get her permission, not just consent. You talk to Junior's mom honestly. The decision moves you toward Homecoming and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Talk to Junior first",
-          "consequence": "Ask the player.",
+          "consequence": "You choose to talk to Junior first. It opens the route to Mom, Worried, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You beat the third-best team in the district on Homecoming. Junior throws three touchdowns and runs in a fourth. The booster club sends three casseroles. The scout sends an email.",
+      "text": "You beat the third-best team in the district on Homecoming. Junior throws three touchdowns and runs in a fourth. The booster club sends three casseroles. The scout sends an email. The paths divide here: “Show Junior the email” leads into The Injury Scare, while “Sit on the email for a week” makes The Booster, Pressuring the next reckoning.",
       "sceneTitle": "Homecoming",
       "choices": [
         {
           "text": "Show Junior the email",
-          "consequence": "Knowledge is fuel.",
+          "consequence": "You commit to show Junior the email. By The Injury Scare, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Sit on the email for a week",
-          "consequence": "Don't change his head mid-season.",
+          "consequence": "Don't change his head mid-season. You sit on the email for a week. The decision moves you toward The Booster, Pressuring and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Promise her you'll find a school within driving distance",
-          "consequence": "Recruit colleges, not just for talent.",
+          "consequence": "Recruit colleges, not just for talent. You commit to promise her you'll find a school within driving distance. By The Injury Scare, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         },
         {
           "text": "Promise her you'll help her travel to wherever he goes",
-          "consequence": "Carry the cost yourself.",
+          "consequence": "Carry the cost yourself. You commit to promise her you'll help her travel to wherever he goes. By The Booster, Pressuring, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Junior takes a clean hit and goes down. The team holds its breath. The trainer's two words — 'he's fine' — are the loudest thing you've heard in your life.",
+      "text": "Junior takes a clean hit and goes down. The team holds its breath. The trainer's two words — 'he's fine' — are the loudest thing you've heard in your life. To choose “Pull him for the rest of the half” means meeting Playoffs; “Trust him back in after a series off” sends you toward The Scout, Again instead.",
       "sceneTitle": "The Injury Scare",
       "choices": [
         {
           "text": "Pull him for the rest of the half",
-          "consequence": "Cheap not to risk it.",
+          "consequence": "You commit to pull him for the rest of the half. By Playoffs, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         },
         {
           "text": "Trust him back in after a series off",
-          "consequence": "Players need to play.",
+          "consequence": "You commit to trust him back in after a series off. By The Scout, Again, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Refuse — politely, publicly",
-          "consequence": "Drawing the line is also coaching.",
+          "consequence": "Drawing the line is also coaching. You choose to refuse — politely, publicly. It opens the route to Playoffs, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Find that senior a real role on merit",
-          "consequence": "Compromise without selling out.",
+          "consequence": "Compromise without selling out. You commit to find that senior a real role on merit. By The Scout, Again, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Let the speech be the speech",
-          "consequence": "Don't add anything.",
+          "consequence": "You choose to let the speech be the speech. It opens the route to The Championship Game, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Add one sentence to the team",
-          "consequence": "Lead with him, not over him.",
+          "consequence": "Lead with him, not over him. You choose to add one sentence to the team. It opens the route to After the Buzzer, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The scout returns with two friends. Junior plays the game of his life and they walk over after, businesslike, and shake his hand. They want him at camp in June.",
+      "text": "The scout returns with two friends. Junior plays the game of his life and they walk over after, businesslike, and shake his hand. They want him at camp in June. The distance between The Championship Game and After the Buzzer begins with the choice between “Coach him through the offer” and “Get him a real adviser.”",
       "sceneTitle": "The Scout, Again",
       "choices": [
         {
           "text": "Coach him through the offer",
-          "consequence": "He's never had a contract before.",
+          "consequence": "He's never had a contract before. You choose to coach him through the offer. It opens the route to The Championship Game, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Get him a real adviser",
-          "consequence": "Refer up; protect him.",
+          "consequence": "You choose to get him a real adviser. It opens the route to After the Buzzer, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Final play. Down four. Fourth and long. Junior takes the snap and the season — the whole strange year, the leak in the roof, the casseroles, the diagnosis — narrows to one throw.",
+      "text": "Final play. Down four. Fourth and long. Junior takes the snap and the season — the whole strange year, the leak in the roof, the casseroles, the diagnosis — narrows to one throw. To choose “Trust Junior with the play he picked” means meeting The Catch; “Send in your call” sends you toward The Drop instead.",
       "sceneTitle": "The Championship Game",
       "choices": [
         {
           "text": "Trust Junior with the play he picked",
-          "consequence": "Coach the human, not just the call.",
+          "consequence": "Coach the human, not just the call. You choose to trust Junior with the play he picked. It opens the route to The Catch, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Send in your call",
-          "consequence": "Sometimes the coach has to coach.",
+          "consequence": "Sometimes the coach has to coach. You send in your call. The decision moves you toward The Drop and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Cry where the team can see",
-          "consequence": "Let them see what care looks like.",
+          "consequence": "Let them see what care looks like. You cry where the team can see. The decision moves you toward Coach and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_legacy"
         },
         {
           "text": "Save the cry for the truck ride home",
-          "consequence": "Keep one private piece.",
+          "consequence": "You commit to save the cry for the truck ride home. By Truck Ride, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Celebrate with the team first",
-          "consequence": "Let them have it before you have it.",
+          "consequence": "Let them have it before you have it. You choose to celebrate with the team first. It opens the route to Champions, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_win"
         },
         {
           "text": "Find Junior's mother in the stands first",
-          "consequence": "Honor the woman who made the player.",
+          "consequence": "Honor the woman who made the player. You commit to find Junior's mother in the stands first. By His Mother's Hug, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_family"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "The throw hangs in the air for a year. It is caught and then dropped. The game ends. The team kneels in a circle that looks, almost, like a prayer.",
+      "text": "For one impossible second, the throw seems to stop above the field. It is caught and then dropped. The game ends. The team kneels in a circle that looks, almost, like a prayer. “Tell them what they built was bigger than the score” draws you toward What They Built; “Be quiet and let them grieve” leaves The Bus Home waiting on the other side.",
       "sceneTitle": "The Drop",
       "choices": [
         {
           "text": "Tell them what they built was bigger than the score",
-          "consequence": "Coach for the rest of their lives.",
+          "consequence": "Coach for the rest of their lives. You choose to tell them what they built was bigger than the score. It opens the route to What They Built, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_lesson"
         },
         {
           "text": "Be quiet and let them grieve",
-          "consequence": "Give them the silence first.",
+          "consequence": "Give them the silence first. You commit to be quiet and let them grieve. By The Bus Home, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_lesson_quiet"
         }
       ],
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_lesson",
-      "text": "You lose the game and win the boys. Most of them graduate. Some go on to schools nobody in this town has been to. Junior, two years later, brings you a college playbook with a Post-it note that says 'thanks for the runway.'",
+      "text": "You lose the game and win the boys. Most of them graduate. Some go on to schools nobody in this town has been to. The road into What They Built began with “Tell them what they built was bigger than the score” in The Drop; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "What They Built",
       "choices": [],
       "isEnding": true,

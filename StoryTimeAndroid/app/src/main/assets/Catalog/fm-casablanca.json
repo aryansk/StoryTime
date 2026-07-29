@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Smoke, piano, refugees in the corners. You don't drink with customers.",
+      "text": "Half past midnight and the room is doing what it does: a Dutchman at table four selling his wife's ring to a man who will halve the price twice, roulette running honest enough, the fans pushing the smoke around. You sign chits. You don't sit down with anybody and you don't drink with anybody, and everyone in Casablanca knows it, which is exactly as much personality as you can afford.",
       "sceneTitle": "Rick's Cafe",
       "choices": [
         {
           "text": "Walk the room",
-          "consequence": "There is no taking “Walk the room” back. Owner shapes the silence before the next moment arrives.",
+          "consequence": "You do the circuit — a word at each table, nothing said twice. Six people try to catch your sleeve about visas. You give none of them a reason to hope.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay at the bar",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Distance.",
+          "consequence": "You hold the corner where the light doesn't reach and let Carl handle the pleading. It works until the door opens and the room's centre of gravity moves without asking you.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "He hands you the letters of transit. He is, by sunrise, dead.",
+      "text": "Ugarte comes in sweating through a good jacket, talking too fast about German couriers and how nobody would ever search a man like you. Two envelopes, signed, unquestionable, worth more than the building. He asks you to hold them one hour. He also wants, badly, for you to think well of him, and that is the part he cannot buy. The police take him in the corridor before the set ends.",
       "sceneTitle": "Ugarte",
       "choices": [
         {
           "text": "Hide them",
-          "consequence": "You commit to “Hide them.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You slide them under the piano lid, where Sam has been sitting on secrets for years. You are now the most valuable man in the city and the least free.",
           "nextNodeId": "s3"
         },
         {
           "text": "Refuse them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You tell him to find another sucker. He drops them on the desk and leaves fast, and now they're in your room, and refusing was only a sentence you got to say.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "He shrugs. He plays both sides. He is, mostly, a friend.",
+      "text": "Renault confiscates a bottle of your brandy every week and drinks it in front of you, which is his idea of transparency. He takes bribes in the currency of frightened women and doesn't pretend otherwise. He also tips you off before every raid. A corrupt man with excellent manners and no convictions of any kind, and in this town that makes him nearly the best company available.",
       "sceneTitle": "Captain Renault",
       "choices": [
         {
           "text": "Trust him partly",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You tell him about the arrest and nothing about the envelopes. He notices the shape of what you left out, enjoys it, and files it away.",
           "nextNodeId": "s4"
         },
         {
           "text": "Trust him fully",
-          "consequence": "There is no taking “Trust him fully” back. Naive shapes the silence before the next moment arrives.",
+          "consequence": "You let him see one card more than you meant to. Within the hour he pays you back with a warning about Strasser, and you don't yet know what it cost.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "German command. He has a list. Your name is, perhaps, on it.",
+      "text": "Strasser has a dossier with your movements in it and reads two lines aloud to show that he could read more. Paris, June 1940, departure in the last hour available. He asks what nationality you consider yourself. He is very polite. Behind him Renault smiles at the ceiling, and the band has switched to something with no words in it, and the room has quietly started listening.",
       "sceneTitle": "Major Strasser",
       "choices": [
         {
           "text": "Stay polite",
-          "consequence": "You commit to “Stay polite.” The story records the instinct as “Survive” and carries it forward.",
+          "consequence": "You give him nothing but courtesy and let him have the last word. Courtesy costs you nothing and keeps the cafe open another month.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay cold",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You answer his question about nationality with one about his. Renault steps in laughing, but the dossier gets thicker that night.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "He plays only what you say.",
+      "text": "Sam has been with you since Paris and there is one song he will not touch, and neither of you has ever said its name out loud. He has an arrangement of exactly what you can stand to hear at this hour and he never gets it wrong. Tonight he keeps glancing at the door between choruses, which he doesn't do, and you notice, and you don't ask.",
       "sceneTitle": "Sam at the Piano",
       "choices": [
         {
           "text": "Let him play whatever",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You wave him on and go do the books. He plays something soft and old with the melody hidden underneath it, testing you, and you let him.",
           "nextNodeId": "s6"
         },
         {
           "text": "Tell him no",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You put a hand flat on the piano lid and he stops mid-bar without complaint. He has protected you from that song for two years; tonight you protect yourself badly.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "She walks in. Sam sees her. He doesn't play it. She asks.",
+      "text": "She comes in on Laszlo's arm in a white dress, and Sam sees her before you do — you can tell because his left hand loses the beat for one bar and then recovers. She sits where she can watch him. She asks for the song by name, quietly, the way a person asks a doctor for a diagnosis they already have. Sam says he's out of practice.",
       "sceneTitle": "Ilsa",
       "choices": [
         {
           "text": "Stay in the back",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You stay in the office with the ledger open at the same page for a quarter of an hour. Avoidance is a skill and yours is worse than you thought.",
           "nextNodeId": "s7"
         },
         {
           "text": "Greet her",
-          "consequence": "“Greet her” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You come out onto the floor and get within four feet before your face does something you can't take back. Renault, watching, stops smiling for once.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Sam plays it. You walk out. She looks up.",
+      "text": "He plays it because she asks twice, and softly, and because he is fonder of her than he is supposed to be. You are across the room before the second line. Two years of arrangement undone in eight bars. You arrive at the table with a sentence ready about who plays what in your cafe, and then she looks up, and the sentence is gone, and Renault is already introducing everybody.",
       "sceneTitle": "As Time Goes By",
       "choices": [
         {
           "text": "Be cold",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You conduct the whole introduction as though she were a customer with a reservation. She matches you exactly, which hurts considerably more than weeping would have.",
           "nextNodeId": "s8"
         },
         {
           "text": "Be honest",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Truth.",
+          "consequence": "Your voice slips on one word and every person at that table hears it. Laszlo is too gracious to remark on it, which is its own kind of noticing.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Her husband. Czech resistance. Hunted.",
+      "text": "Laszlo has been in two camps and got out of both, and he orders a Cointreau like a man with an appointment. He doesn't posture. He asks sensible questions about the cafe, thanks the waiter by name, and never once mentions what he needs from you, which is the most effective pressure anybody has applied all year. It would all be a great deal simpler if he were a fraud.",
       "sceneTitle": "Victor Laszlo",
       "choices": [
         {
           "text": "Be civil",
-          "consequence": "There is no taking “Be civil” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You shake his hand and mean about half of it, and he takes the half without comment. Being decently treated by him is worse than being fought.",
           "nextNodeId": "s9"
         },
         {
           "text": "Be cold",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You give him the version of yourself that runs a business and nothing more. He thanks you sincerely for it, and you go back to the office and can't sit down.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You alone, in the world, have them. Two exits to Lisbon.",
+      "text": "Two names to be filled in, no questions permitted, signed by a man whose signature nobody in this town will argue with. Two seats. There are four people in this story who need them, and the arithmetic does not improve however long you sit with the safe open. You shut it, spin the dial, and go and count the register instead, twice, getting it wrong both times.",
       "sceneTitle": "Letters of Transit",
       "choices": [
         {
           "text": "Tell no one",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep it in your chest where it sits like a swallowed coin. Every conversation for three days is you not saying one particular sentence.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hint to Renault",
-          "consequence": "There is no taking “Hint to Renault” back. Strategic shapes the silence before the next moment arrives.",
+          "consequence": "You let one word land near him and watch him pick it up delicately, the way a man handles something hot. Now two people can ruin you.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A train station, a letter, rain on the platform.",
+      "text": "Paris in June, the guns getting louder, everybody drinking the good stuff because why leave it behind. You had a plan, a car, two tickets. Then the platform, and the rain, and Sam holding out an envelope with three lines in her handwriting that explained nothing at all. The ink ran while you read it. You got on the train. You have never described that morning to anybody, including yourself.",
       "sceneTitle": "Paris Flashback",
       "choices": [
         {
           "text": "Remember fully",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You let the whole hour run, including the part where you waited past the last call. It leaves you sitting in the dark with an empty glass.",
           "nextNodeId": "s11"
         },
         {
           "text": "Bury it",
-          "consequence": "There is no taking “Bury it” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You shut it down at the station steps, as usual. It surfaces anyway at four in the morning, edited, with her face slightly wrong.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Late, she comes to your office. She tells you her side.",
+      "text": "She comes up the back stairs at two in the morning and you're drunk in the dark with a glass you've stopped refilling. She starts to explain and you don't let her — you say the thing about how many women have walked into this place, and you watch it land, and then you keep going. She stands and leaves. You put your head on the desk in a room full of your own voice.",
       "sceneTitle": "Ilsa's Visit",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You shut up and let her get four sentences out. It's the first true thing anyone has told you in this town and you're too drunk to hold it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You out-talk her until she goes. Being right, alone, in an office at two in the morning, turns out to be worth precisely nothing.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Laszlo leads the band. The room rises. Strasser's face goes hard.",
+      "text": "The Germans are three tables deep into a marching song when Laszlo walks to the bandstand and names a different one. The players look at you. It's your cafe, your licence, your neck. The room is on its feet before the second bar — the Dutchman, the waiters, the woman who has been selling her jewellery all month — and it is louder than they are, and it goes on being louder.",
       "sceneTitle": "The Marseillaise",
       "choices": [
         {
           "text": "Nod to Sam to play",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "One nod, half an inch, and you have picked a side in front of a hundred witnesses. Renault closes the cafe by noon and you both know why.",
           "nextNodeId": "s13"
         },
         {
           "text": "Don't intervene",
-          "consequence": "There is no taking “Don't intervene” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You keep your hands in your pockets and the band plays regardless. Declining to decide is a decision, and every person in the room reads it correctly.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Late. A gun. Tears. She tells you she loves you.",
+      "text": "She comes back for the envelopes with a small pistol that she is holding like a purse. She tells you she will use it. Then her hand comes down and she says she was never able to leave and still isn't, and she puts the whole decision in your hands and walks away from it, and you can see what handing it over costs her. You have wanted this for two years.",
       "sceneTitle": "Ilsa Returns",
       "choices": [
         {
           "text": "Believe her",
-          "consequence": "“Believe her” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You take her at her word, which means the letters are effectively spent. You already know how you'll spend them, and you don't say so.",
           "nextNodeId": "s14"
         },
         {
           "text": "Doubt her",
-          "consequence": "“Doubt her” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You test her once with a question you had no business asking. She answers it honestly, and you are ashamed for the rest of the night.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You decide which two get the letters.",
+      "text": "You sit with the safe open until the light goes grey over the market. Two seats. Take one and she is free of all this and hates you inside a year. Don't, and you get to be the man who did something once, on a runway, and then run a bar for the rest of your life with that as the entire contents of your character.",
       "sceneTitle": "Decision Forming",
       "choices": [
         {
           "text": "You and Ilsa",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You let yourself have the whole daydream — the boat, the flat, her voice in the next room. It takes about four minutes, and then you put it down.",
           "nextNodeId": "s15"
         },
         {
           "text": "Ilsa and Laszlo",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You settle it alone at dawn and tell nobody, because if you say it out loud to her she will argue, and she will win.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You set up the captain. You set the plan.",
+      "text": "You bring Renault in and give him a version: he takes Laszlo at the airport with the letters actually in his hand, arrested clean, and you take the woman and the plane. He likes it enormously. He likes it because it is precisely what a man like you would do. You let him keep thinking that. You are also, at that moment, carrying a pistol he doesn't know about.",
       "sceneTitle": "Briefing Renault",
       "choices": [
         {
           "text": "Brief him false",
-          "consequence": "“Brief him false” closes one possibility and opens another. The moment leaves a clear note behind: Strategy.",
+          "consequence": "You lie to a friend in order to save a man you don't like, which is a strange shape for an evening to take. He'll forgive it; you're less certain you will.",
           "nextNodeId": "s16"
         },
         {
           "text": "Brief him true",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Naive.",
+          "consequence": "You tell him nearly everything and stake the rest on a corrupt man's taste. It's the largest bet you have ever placed and there is no way to hedge it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You tell Laszlo he must take Ilsa. You don't tell him you and she nearly stayed.",
+      "text": "You tell him the letters are his and hers and that he should stop asking why. He holds your eye a moment too long — he knows, he has known since the cafe, he is simply too well-mannered to make you say it. So you don't say it. You let him leave the room thinking better of you than the last three days deserve, and that is the whole gift.",
       "sceneTitle": "Laszlo, Talked To",
       "choices": [
         {
           "text": "Be plain",
-          "consequence": "“Be plain” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You use plain words and no apology, and he shakes your hand like a man accepting a debt he intends to pay. Neither of you mentions her name.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be careful",
-          "consequence": "There is no taking “Be careful” back. Tone shapes the silence before the next moment arrives.",
+          "consequence": "You choose each sentence so that it cannot be opened later. He notices the carefulness and lets it pass, which is how gentlemen decline to help you lie.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Fog. A plane. Strasser arriving.",
+      "text": "The fog comes in off the Atlantic and sits on the runway at chest height. The Lisbon plane has its props turning, two mechanics arguing under the wing, and Renault is filling in the names on the letters with a fountain pen that keeps skipping. Somewhere behind you a car door shuts. The flight leaves in twelve minutes and every one of them has to be spent on something.",
       "sceneTitle": "Airport",
       "choices": [
         {
           "text": "Move fast",
-          "consequence": "The decision settles the question for now. Its verdict—Action—follows you into whatever comes next.",
+          "consequence": "You start giving orders and everyone obeys, which buys you speed and costs you the last four minutes you would otherwise have had with her.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stall",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patience.",
+          "consequence": "You take your time deliberately, because time with her is the only thing left in this arrangement for you. It very nearly gets all four of you shot.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Ilsa, you say, the problems of three little people don't amount to a hill of beans.",
+      "text": "She is still arguing on the tarmac and it has to end, so you say the useful, cruel thing: that whatever the two of you are weighs nothing set beside what he does, and that if she stays, the regret will find her on some ordinary afternoon years from now and never leave again. You say it fast. Slowing down anywhere in the middle would finish you.",
       "sceneTitle": "Hill of Beans",
       "choices": [
         {
           "text": "Speak the speech",
-          "consequence": "You commit to “Speak the speech.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You give her every argued clause of it, because if you stop she will see your face. She listens with her chin up and lets you finish.",
           "nextNodeId": "s19"
         },
         {
           "text": "Speak only the gist",
-          "consequence": "You commit to “Speak only the gist.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "Six words and a hand on her elbow. It isn't enough for her and it's exactly as much as you can manage, and she goes anyway.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "He arrives. He calls headquarters. You raise the pistol.",
+      "text": "Strasser gets out of the car alone, which is either courage or arithmetic, and goes straight for the field telephone in the hut to have the plane held on the ground. You tell him to step away from it. He asks whether you would really shoot a German officer in front of a French police captain. It's a fair question. He lifts the receiver while you are deciding.",
       "sceneTitle": "Strasser",
       "choices": [
         {
           "text": "Shoot",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "One round, no ceremony, and the sound goes flat in the fog. Six years of being neutral, finished inside half a second.",
           "nextNodeId": "s20"
         },
         {
           "text": "Talk",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You keep him talking one beat too long and he gets three words into the call. Then you fire anyway, later than you should have, and the plane is already rolling.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "He says round up the usual suspects. He is, finally, choosing.",
+      "text": "The gendarmes arrive to find a dead major and a live American holding a pistol, and Renault looks at both for a long moment. Then he tells his men to go and find whoever is responsible — anyone, the usual names, the ones they collect every Thursday. He says it in the bored voice he keeps for paperwork. Not one man in the detail so much as glances at you.",
       "sceneTitle": "Renault",
       "choices": [
         {
           "text": "Welcome him",
-          "consequence": "You commit to “Welcome him.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You don't thank him, because thanking him would make it a favour, and favours can be revoked. You just hand him your gun and let him keep it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Suspect him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You wait for the other thing to happen right up until the trucks pull out. It doesn't. You have misjudged the only friend you had left.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You and Renault, in the fog, talk about a Free French garrison.",
+      "text": "The plane is a noise, and then it isn't. Renault mentions that there's a garrison at Brazzaville and that he could arrange things, and that he happens to be carrying ten thousand francs of your money out of the roulette wheel. The fog takes the runway lights one at a time. Neither of you has said a word about the woman, and neither of you is going to.",
       "sceneTitle": "Walk Off",
       "choices": [
         {
           "text": "Beautiful friendship",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You tell him you may as well stop pretending to be anything other than what tonight has made you, and he takes your arm, and you walk into the fog broke and enlisted.",
           "nextNodeId": "end_friendship"
         },
         {
           "text": "Quiet farewell",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You shake his hand and say you'll follow in a week, and you both know a week means whatever it needs to mean. You look back at the sky once.",
           "nextNodeId": "end_paris"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You don't answer him. You stand there until the fog closes and there's nothing left to look at, then go and find out what a man like you is for.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_friendship",
-      "text": "You and Renault join the resistance. The war ends, eventually. You return to Casablanca after, an older man. The cafe, somehow, is still there.",
+      "text": "Brazzaville, then a supply column, then four years of small dangerous errands that neither of you ever writes down. Renault turns out to be astonishingly good at it. The war ends the way wars do, later than promised. You come back to Casablanca with a bad knee and grey at the temples and find the cafe still open under another name, the piano still in its corner, out of tune by a quarter-tone. You order a drink and sit down among the customers.",
       "sceneTitle": "Beautiful Friendship",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_paris",
-      "text": "Years after the war, Ilsa, widowed, finds you in Paris. You sit at a cafe. The world has changed. You haven't, much.",
+      "text": "It takes nine years. She is widowed, in a grey coat, and she finds you on a terrace off the Rue de Buci because somebody told somebody. You sit for two hours. She has raised a daughter and buried a great man, and she says his name easily, the way you still can't say hers. The rain starts and neither of you moves for it. Nothing is decided. You order another round and let the afternoon run out.",
       "sceneTitle": "Paris, Again",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You die during the war, in a small action that doesn't make the papers. Sam, eventually, plays the song again, somewhere, to no one in particular. He smiles.",
+      "text": "You die outside Bir Hakeim in an action of no importance, moving fuel, and the dispatch spells your name wrong. Renault reads it twice. Years later Sam is playing a room in Lisbon where nobody is listening, and he goes into that song for no reason at all, the whole way through, at his own tempo. A waiter asks for something livelier. Sam finishes the last eight bars first, then smiles and obliges.",
       "sceneTitle": "Quiet",
       "choices": [],
       "isEnding": true,

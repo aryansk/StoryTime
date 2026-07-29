@@ -19,22 +19,22 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You find it by accident — a voice memo on the shared phone, recorded last Thursday, forty-three minutes long. Neither of you remembers making it. The waveform twitches like something breathing.",
+      "text": "A voice memo sits at the top of the shared phone's list. Thursday, 11:52 p.m. Forty-three minutes and seven seconds. No title on it, just the date, and neither of you owns a memory of making it. You were both home that night. You both went to bed early. Your thumb hovers over the waveform, which twitches in the preview like something with lungs.",
       "sceneTitle": "43:07",
       "choices": [
         {
           "text": "Play it from the beginning",
-          "consequence": "Some doors only open inward.",
+          "consequence": "You go to zero and let it run, which means you have agreed in advance to hear whatever is on it. There is no unhearing a first minute.",
           "nextNodeId": "s2"
         },
         {
           "text": "Delete it without listening",
-          "consequence": "Ignorance is a room you can never re-enter.",
+          "consequence": "Your thumb finds the trash icon before your brain finishes voting. Forty-three minutes of something gone in half a second, and the relief lasts about as long.",
           "nextNodeId": "s3"
         },
         {
           "text": "Copy it somewhere safe first",
-          "consequence": "Trust, but keep a key.",
+          "consequence": "You mail it to yourself at 6:04 a.m. and immediately feel like someone building a case. The subject line you type is a single period.",
           "nextNodeId": "s4"
         }
       ],
@@ -43,17 +43,17 @@
     },
     {
       "id": "s2",
-      "text": "It's her, in the kitchen, talking low to someone who isn't you. \"He can't know yet,\" she says. A man's laugh, familiar and wrong. Then a clatter, and the recording keeps going.",
+      "text": "Kitchen sounds first — the tap, the drawer that sticks. Then her, pitched low, the voice she keeps for calls she takes out in the hallway. \"He can't know yet.\" A man answers, and the laugh that comes back is one you have heard across your own dinner table. Something metal hits the floor. Nobody picks it up. The recording keeps going.",
       "sceneTitle": "Her Voice",
       "choices": [
         {
           "text": "Keep listening for the man's name",
-          "consequence": "A name is a wound you can't unfeel.",
+          "consequence": "You stay with it through the clatter and the long pause, because a laugh is not evidence and a name is. The tap runs four minutes with nobody near it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Confront her right now",
-          "consequence": "Some accusations can't wait for evidence.",
+          "consequence": "You carry the phone into the bedroom still playing, so she hears her own voice before she hears yours. Her face does something you will spend months trying to name.",
           "nextNodeId": "s6"
         }
       ],
@@ -62,17 +62,17 @@
     },
     {
       "id": "s3",
-      "text": "You delete it. For three days you are calm the way a held breath is calm. Then the cloud restores it automatically at 2 a.m., and the phone lights up the ceiling.",
+      "text": "Deleting takes one tap and a confirmation. For three days you are calm the way a held breath is calm — pleasant at dinner, generous about the dishwasher. Then the cloud does its patient nightly work. At 2:14 a.m. the phone brightens the whole ceiling: Recovered from Recently Deleted. Forty-three minutes. She sleeps straight through it, one arm off the edge of the bed.",
       "sceneTitle": "The Empty Space",
       "choices": [
         {
           "text": "Listen now, in the dark, beside her sleeping",
-          "consequence": "The dark makes liars of us and honest men too.",
+          "consequence": "One earbud in, volume at two, her breathing four inches from your shoulder. You have never in your life been so careful with anything.",
           "nextNodeId": "s5"
         },
         {
           "text": "Wake her and demand the truth",
-          "consequence": "Sleep is no place to hide from a marriage.",
+          "consequence": "You say her name twice before she surfaces, having decided somewhere around 2:20 that the version of tonight where you waited would be cowardice.",
           "nextNodeId": "s6"
         }
       ],
@@ -81,17 +81,17 @@
     },
     {
       "id": "s4",
-      "text": "You email the file to yourself and lock the phone. The act of saving it changes you — you are now a person who collects evidence against the person you love.",
+      "text": "You email the file to yourself, then to an address you made in college and never closed. Then you set the phone face-down and lock it, though nobody was reaching for it. The act rearranges something permanently. Yesterday you were a person married to her. Since 6:04 this morning you are a person maintaining an archive on the woman you married.",
       "sceneTitle": "The Backup",
       "choices": [
         {
           "text": "Listen to all forty-three minutes alone",
-          "consequence": "Solitude is where suspicion grows teeth.",
+          "consequence": "You take the long version, headphones on, door shut, timestamps written down the margin of a takeout menu. Nobody should have to hear their own kitchen this way.",
           "nextNodeId": "s5"
         },
         {
           "text": "Take it to a friend for a second ear",
-          "consequence": "Two listeners, one truth, three problems.",
+          "consequence": "Handing it over costs you something. The marriage becomes a thing two people know about now, and it will never shrink back down to one.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,17 +100,17 @@
     },
     {
       "id": "s5",
-      "text": "At minute nineteen the man says his own name, casually, and your stomach drops three floors. You know him. He was at your wedding. He gave a toast.",
+      "text": "Minute nineteen. He says it himself, easy as passing salt — first name, then the joke about the surname he has been making since law school. Your stomach goes down three floors without you. You know him. He sat four seats from your mother at the reception. He held a glass up and used the word lucky twice, and you both laughed.",
       "sceneTitle": "The Name",
       "choices": [
         {
           "text": "Call him and say nothing, just listen",
-          "consequence": "Silence on the line is its own interrogation.",
+          "consequence": "He picks up on the second ring, cheerful, mid-chew. You hold the line open and say nothing, and he says your name twice into the silence before hanging up, entirely unbothered.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell no one and watch them both",
-          "consequence": "Patience is the predator's only real weapon.",
+          "consequence": "You put the phone away and start keeping score instead: where he is on Thursdays, what she does with her hands when somebody says his name.",
           "nextNodeId": "s9"
         }
       ],
@@ -119,17 +119,17 @@
     },
     {
       "id": "s6",
-      "text": "She goes very still when you press play. \"That's not what it sounds like,\" she says — which is what everyone says, and sometimes, terribly, it's even true.",
+      "text": "You press play and her whole body stops working at once — the way a deer does, not the way a liar does, though you are not certain tonight that you can tell those apart. She listens to sixteen seconds of herself. Then: \"That isn't what it sounds like.\" The most exhausted sentence in the language. And sometimes, terribly, the true one.",
       "sceneTitle": "The Confrontation",
       "choices": [
         {
           "text": "Believe her and ask her to explain",
-          "consequence": "Faith offered is a bridge across a flood.",
+          "consequence": "You put the phone screen-down and say okay, tell me, and watch the relief in her face curdle into something closer to fear of disappointing you.",
           "nextNodeId": "s10"
         },
         {
           "text": "Refuse to believe and push harder",
-          "consequence": "Push hard enough and even the truth runs.",
+          "consequence": "You play it again. Then again. By the third pass she has stopped answering the question and started watching the door behind you.",
           "nextNodeId": "s11"
         }
       ],
@@ -138,17 +138,17 @@
     },
     {
       "id": "s7",
-      "text": "Your friend listens twice, frowning. \"That's weird,\" they say. \"There's a third voice. Real quiet. Around minute thirty.\" You hadn't heard it. You weren't meant to.",
+      "text": "Your friend takes both earbuds and listens with their eyes shut, twice, the whole way through — forty-three minutes at a kitchen table with cold tea going colder between you. \"That's weird,\" they say finally. \"There's a third voice. Really quiet. Around minute thirty, under the fridge hum.\" You have played this file six times. You never heard it. You were not supposed to.",
       "sceneTitle": "The Second Ear",
       "choices": [
         {
           "text": "Isolate the third voice",
-          "consequence": "The thing in the background is always the thing.",
+          "consequence": "You spend Saturday learning what a high-pass filter does. By evening the fridge hum is gone and something underneath the fridge hum is not.",
           "nextNodeId": "s8"
         },
         {
           "text": "Decide the friend is mistaken",
-          "consequence": "Doubt aimed outward is doubt you don't have to feel.",
+          "consequence": "Easier to doubt one tired friend than a recording. You thank them, take the phone back, and do not answer their next two texts.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,17 +157,17 @@
     },
     {
       "id": "s8",
-      "text": "Cleaned up, the third voice is unmistakable. It's yours. You are on the recording, in a conversation you have no memory of having. You sound calm. You sound like you knew.",
+      "text": "Filtered clean, the third voice sits right there in the room with the other two. It is yours. Not shouting, not confused — calm, agreeing to something, saying \"fine, but not until after\" in the flat tone you use when a thing has already been decided. You are on this recording. You were standing in that kitchen. You remember none of it.",
       "sceneTitle": "The Third Voice",
       "choices": [
         {
           "text": "Try to remember that night",
-          "consequence": "Memory is a witness that has been bribed.",
+          "consequence": "You go looking for Thursday and find a hole with soft edges. Something is down in there. It does not want to come out in one piece.",
           "nextNodeId": "s12"
         },
         {
           "text": "Assume the recording was faked",
-          "consequence": "Denial is a comfortable house with no exits.",
+          "consequence": "It is the kinder theory and you take it whole. Somebody built this. Somebody spent real money putting your voice in that room.",
           "nextNodeId": "s13"
         }
       ],
@@ -176,17 +176,17 @@
     },
     {
       "id": "s9",
-      "text": "For a week you become a scholar of her phone, her late returns, the new way she says your name. The apartment fills with a silence that has a shape, and the shape is a question.",
+      "text": "You become a scholar. Arrival times, logged. The new half-second pause before she says your name. Which pocket the phone lives in now, and which one it used to. You learn her week better than she does and understand none of it. The apartment fills with a silence that has a shape — you can feel its edges crossing a room — and the shape is a question you will not ask.",
       "sceneTitle": "Watching",
       "choices": [
         {
           "text": "Set a trap to catch them together",
-          "consequence": "Bait the room and wait for hunger.",
+          "consequence": "You start lying about your own calendar, which is the exact moment this stops being a thing done to you and becomes a thing you are doing.",
           "nextNodeId": "s14"
         },
         {
           "text": "Realize you can't live like this",
-          "consequence": "Surveillance is a cage you build around yourself.",
+          "consequence": "You catch yourself timing her shower, and something in you quietly sits down. Whatever the truth is, the version of you collecting it cannot survive the collecting.",
           "nextNodeId": "s15"
         }
       ],
@@ -195,17 +195,17 @@
     },
     {
       "id": "s10",
-      "text": "She tells you the man is helping her plan something — and the something involves you, and a date, and a word she won't say yet. \"You weren't supposed to find it like this,\" she whispers.",
+      "text": "She talks with both hands flat on the table. The man is helping her with something. The something involves you. There is a date. There is a word she keeps arriving at and steering around, and each time she does it she looks at you like she is spending money she does not have. \"You weren't meant to find it,\" she says. \"Not like this.\"",
       "sceneTitle": "Her Explanation",
       "choices": [
         {
           "text": "Let her finish the secret on her terms",
-          "consequence": "Some surprises are mercy, not betrayal.",
+          "consequence": "You say: when you're ready. Handing her back the timing is the first generous thing either of you has managed in nine days.",
           "nextNodeId": "s16"
         },
         {
           "text": "Demand the whole truth tonight",
-          "consequence": "Trust given conditionally isn't quite given.",
+          "consequence": "\"Tonight,\" you say, and hear exactly how it lands — not a request. Her hands come off the table and go into her lap.",
           "nextNodeId": "s11"
         }
       ],
@@ -214,17 +214,17 @@
     },
     {
       "id": "s11",
-      "text": "You push, and something breaks that won't unbreak. She stops defending herself and starts, quietly, defending the door — putting her body between you and the hallway, the bedroom, the truth.",
+      "text": "You push. Something gives that will not come back together the same way. She stops explaining herself mid-sentence and starts moving instead — small adjustments, a step here, a shoulder there — until you understand she is not defending her story anymore. She is defending the hallway. The bedroom door. Whatever is behind it. She got between you and something without deciding to.",
       "sceneTitle": "The Crack",
       "choices": [
         {
           "text": "Step back and apologize",
-          "consequence": "The hardest reverse is the one you owe.",
+          "consequence": "You put your hands down and say her name softly and watch her whole frame drop two inches. Neither of you mentions what she was standing in front of.",
           "nextNodeId": "s16"
         },
         {
           "text": "Step forward and open the door yourself",
-          "consequence": "Some men have to see the room to believe it's empty.",
+          "consequence": "You go past her. Her hand catches your sleeve and misses. Whatever is on the other side, you have chosen to meet it this way — by force.",
           "nextNodeId": "s17"
         }
       ],
@@ -233,17 +233,17 @@
     },
     {
       "id": "s12",
-      "text": "It comes back in fragments — wine, the man, a plan whispered in the kitchen, your own voice agreeing to something. You did know. Then you took something to forget, because forgetting was the kindest version.",
+      "text": "It comes back the way a bruise does: afterwards, and in colour. Wine on the counter. Him at the table with his jacket still on. Her saying the date out loud twice. Your own voice agreeing, saying yes, saying you would rather not carry the rest of it. And then the small white thing in your palm that made not carrying it possible. You asked to forget. Nobody did this to you.",
       "sceneTitle": "That Night",
       "choices": [
         {
           "text": "Choose to remember all of it",
-          "consequence": "Pain you choose is still yours to keep.",
+          "consequence": "You let the entire night back in, including the part where you were relieved. Remembering turns out to cost more than the secret ever did.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take the pill again and forget once more",
-          "consequence": "The cleanest loop is the one you can't see closing.",
+          "consequence": "Two left in the bottle. You swallow one dry at the sink and set your alarm like a person with an ordinary Thursday ahead of him.",
           "nextNodeId": "end_loop"
         }
       ],
@@ -252,17 +252,17 @@
     },
     {
       "id": "s13",
-      "text": "You pay a stranger to analyze the file. \"Nothing's spliced,\" he says, sliding it back. \"This is one continuous recording. Whatever happened, happened in one room, in one night, with all three of you in it.\"",
+      "text": "The shop sits above a phone repair place and smells of solder. He runs the file through four different tools and says nothing for an hour. Then: \"Nothing's spliced. No edits, no stitching, no room-tone mismatch. One continuous take.\" He slides the drive back across the bench. \"Whatever this was, it happened in one room, on one night, with all three of you standing in it.\"",
       "sceneTitle": "Forensics",
       "choices": [
         {
           "text": "Accept it really happened",
-          "consequence": "Acceptance is the first honest breath.",
+          "consequence": "You pay him in cash and walk eight blocks without choosing a direction. The theory you liked best just died on a workbench under a fluorescent tube.",
           "nextNodeId": "s18"
         },
         {
           "text": "Destroy the file and the analysis",
-          "consequence": "You can't un-know, but you can refuse to know louder.",
+          "consequence": "You put the drive under a boot heel in the parking garage and grind until the pieces are small. The pieces are small. The knowledge is not.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,17 +271,17 @@
     },
     {
       "id": "s14",
-      "text": "You tell her you'll be away overnight, then sit in your car across the street watching your own lit windows. At 9:14 the buzzer light flickers. Someone is coming up.",
+      "text": "You tell her the Cleveland thing got moved up, kiss her goodbye at six, then park two spaces down from your own building with a coffee going cold in the cupholder. Your windows are the lit ones on the fourth floor. She crosses them twice. At 9:14 the buzzer panel by the front door glows, and a moment later the lobby light comes on. Someone is going up.",
       "sceneTitle": "The Trap",
       "choices": [
         {
           "text": "Go up and face whoever it is",
-          "consequence": "The truth lives at the top of the stairs.",
+          "consequence": "You are out of the car before the lobby door swings shut, taking the stairs because the lift would hand them the time you deliberately did not.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait and photograph who leaves",
-          "consequence": "Evidence over confrontation — colder, surer.",
+          "consequence": "You stay put and raise the phone. Waiting feels like discipline for about four minutes, and then it starts feeling like something else.",
           "nextNodeId": "s19"
         }
       ],
@@ -290,17 +290,17 @@
     },
     {
       "id": "s15",
-      "text": "You pack a bag you don't zip. The decision to go and the decision to stay take turns wearing your face. She finds you sitting on the unmade bed at 3 a.m., the bag between you like a third person.",
+      "text": "The bag is packed and not zipped, which is the whole problem. You have been sitting with it two hours while the decision to go and the decision to stay take turns wearing your face. At 3 a.m. she appears in the doorway in your old shirt and does not turn the light on. The bag sits between you on the unmade bed like a third person.",
       "sceneTitle": "The Edge of Leaving",
       "choices": [
         {
           "text": "Tell her you're leaving",
-          "consequence": "Honesty about your own exit is still honesty.",
+          "consequence": "You say it to the bag rather than to her, which she notices, and which she will remember far longer than the sentence itself.",
           "nextNodeId": "s20"
         },
         {
           "text": "Tell her you want to understand first",
-          "consequence": "Curiosity can outlast even heartbreak.",
+          "consequence": "You ask for the whole thing, start to finish, no editing. She sits down on the floor with her back against the bed and begins.",
           "nextNodeId": "s16"
         }
       ],
@@ -309,17 +309,17 @@
     },
     {
       "id": "s16",
-      "text": "She finally says it: the man was helping her arrange a vow renewal, a second wedding, a do-over of the day you both quietly believe you failed the first time. The recording was a rehearsal she meant to delete.",
+      "text": "It comes out flat and small, the way real things do. He is a friend from her firm whose cousin books halls. She has been planning a vow renewal — a second version of a day you both privately believe you got wrong the first time. The recording was her rehearsing what she would say to you. She meant to delete it that night and fell asleep instead.",
       "sceneTitle": "The Real Secret",
       "choices": [
         {
           "text": "Believe the beautiful version",
-          "consequence": "Sometimes the kind story is also the true one.",
+          "consequence": "You take it whole, because you want it, and wanting a thing is not the same as being lied to. Real weight leaves the room.",
           "nextNodeId": "end_renewal"
         },
         {
           "text": "Notice the timeline doesn't add up",
-          "consequence": "Love is no excuse to stop counting.",
+          "consequence": "Thursday. She was rehearsing on a Thursday, the file runs past 12:35, and the hall she named locks its doors at nine. You keep your face exactly where it is.",
           "nextNodeId": "s18"
         }
       ],
@@ -328,17 +328,17 @@
     },
     {
       "id": "s17",
-      "text": "The door opens before you knock. The man from the wedding is there, and behind him, the apartment is full of half-hung banners and a cake box. He looks more frightened than guilty.",
+      "text": "The door opens before your hand lands on it. He is standing there in socks with a roll of tape around one wrist, and behind him the living room is half-covered in paper banners with the letters not yet straight. A white cake box on the counter. Your fists are still up. He looks at them, and what is on his face is not guilt. It is fright.",
       "sceneTitle": "Top of the Stairs",
       "choices": [
         {
           "text": "Lower your fists and ask what this is",
-          "consequence": "The bravest thing is to be wrong gently.",
+          "consequence": "Your hands come down and the whole hallway changes temperature. \"What is this,\" you say, and he answers with the word surprise like it is an apology.",
           "nextNodeId": "s16"
         },
         {
           "text": "Demand they both explain, now",
-          "consequence": "You've earned the whole story, even if it costs you.",
+          "consequence": "You stay in the doorway and call her name into her own apartment. Everything that happens after this happens with a stranger's tape roll on the floor between you.",
           "nextNodeId": "s18"
         }
       ],
@@ -347,22 +347,22 @@
     },
     {
       "id": "s18",
-      "text": "When every voice on the recording has been accounted for, what's left is uglier and smaller than betrayal: a misunderstanding three people fed until it grew teeth. The harm is real even if the affair was never.",
+      "text": "Every voice on the recording gets accounted for. Hers, his, yours. What is left when the affair evaporates is not relief — it is something smaller and worse: a misunderstanding three adults fed on purpose, because each of them found feeding it easier than one conversation. She hid. He helped. You took a pill rather than hold it. The betrayal never happened. The damage is entirely real.",
       "sceneTitle": "The Whole Truth",
       "choices": [
         {
           "text": "Forgive her, and yourself",
-          "consequence": "Grace is the only repair that holds.",
+          "consequence": "The second half of that sentence is the expensive one. You have spent nine days treating yourself as the only person in this flat who never lied.",
           "nextNodeId": "end_forgive"
         },
         {
           "text": "Decide the trust is gone regardless",
-          "consequence": "Some glass, once spidered, is just waiting to fall.",
+          "consequence": "No affair, and it still does not hold. Trust, you learn, is not broken by what people do. It breaks the day you find out you can be managed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Make a new recording — the truth, on the record",
-          "consequence": "End the loop by saying it out loud, forever.",
+          "consequence": "You set the phone on the table between you and press the red circle, because the two of you have proven you cannot be trusted to remember honestly.",
           "nextNodeId": "end_record"
         }
       ],
@@ -371,17 +371,17 @@
     },
     {
       "id": "s19",
-      "text": "At 11:02 the door opens and a figure leaves, face turned away, carrying a flat white box. Your camera captures everything except the one thing you need: certainty about who it is.",
+      "text": "11:02. The street door swings and someone comes out under the awning holding a flat white box level, the way you carry a thing that must not tip. Face turned away. Collar up. You fire off nine frames as they cross the streetlight, and every one of them is sharp, well-composed, useless. The box you could identify in a lineup. The person you could not.",
       "sceneTitle": "The Photograph",
       "choices": [
         {
           "text": "Chase them down the street",
-          "consequence": "Proof is worth a little dignity.",
+          "consequence": "You are running before you have picked a reason, and at the corner there is a taxi door closing and a white box going in flat across the seat.",
           "nextNodeId": "s17"
         },
         {
           "text": "Go up and see the apartment yourself",
-          "consequence": "The scene speaks louder than the suspect.",
+          "consequence": "You let them go. Whatever is upstairs has stopped being deniable, and you would rather meet it standing in your own kitchen.",
           "nextNodeId": "s17"
         }
       ],
@@ -390,17 +390,17 @@
     },
     {
       "id": "s20",
-      "text": "You go. Not in a storm but in a slow, terrible politeness — keys on the counter, the recording still saved, the apartment learning your absence room by room. She doesn't stop you. That, too, is an answer.",
+      "text": "It is not a storm. It is worse than a storm — it is manners. You stack the keys on the counter in a neat little pile, take the charger and leave the good pillow, and say something polite about the mail. She stands in the kitchen doorway with her arms crossed and does not ask you to stay. The apartment begins learning your absence one room at a time.",
       "sceneTitle": "The Leaving",
       "choices": [
         {
           "text": "Take the recording with you",
-          "consequence": "Carry the proof like a stone in a coat.",
+          "consequence": "You keep the file. It goes wherever you go now, forty-three minutes of luggage that weighs nothing at all and never once gets lighter.",
           "nextNodeId": "end_leave"
         },
         {
           "text": "Leave it behind, deleted at last",
-          "consequence": "Set the thing down and walk out lighter.",
+          "consequence": "You delete it standing in the hall, permanently, with her watching, and hand the phone back. She takes it the way you take something warm out of an oven.",
           "nextNodeId": "end_clean"
         }
       ],
@@ -409,7 +409,7 @@
     },
     {
       "id": "end_loop",
-      "text": "You take the pill. The recording restores itself next Thursday. You find it by accident, forty-three minutes long, and the waveform twitches like something breathing. You have done this before. You will do it again.",
+      "text": "You swallow it dry and the night folds shut behind you. Next Thursday the file restores itself from the cloud at 2:14 a.m. and lights the whole ceiling. Forty-three minutes and seven seconds. No title, just the date. Your thumb hovers over the waveform, which twitches in the preview like something with lungs, and you think: I have never seen this before. You have. You will again.",
       "sceneTitle": "Forty-Three Minutes, Forever",
       "choices": [],
       "isEnding": true,
@@ -417,7 +417,7 @@
     },
     {
       "id": "end_renewal",
-      "text": "Three weeks later you stand where the banners were, saying the words again and meaning them harder. The recording lives in a folder marked KEEP. Some evidence is of love.",
+      "text": "Three weeks later you stand under the same paper banners, straightened now, saying the words a second time and pressing harder on the ones you rushed. Her friend from the firm cries more than anyone in the room, which nobody expected. The recording lives in a folder you named KEEP, and once a year you play the first four minutes of it: the tap, the sticking drawer, a woman practising how to ask you to marry her again.",
       "sceneTitle": "Second Vows",
       "choices": [],
       "isEnding": true,
@@ -425,7 +425,7 @@
     },
     {
       "id": "end_forgive",
-      "text": "Forgiveness isn't a moment, it turns out — it's a chore you do every morning, like coffee. But the apartment stops being a crime scene and starts, slowly, being a home again. You leave the phone face-down. You sleep.",
+      "text": "Forgiveness turns out not to be a moment. It is a chore, like coffee — done badly some mornings, done anyway. You stop checking her arrival times around March. She stops flinching when your phone lights up. The apartment quits being a crime scene and goes back to being rooms with your things in them. In June you leave the phone face-down on the counter overnight and sleep the entire way through.",
       "sceneTitle": "The Repair",
       "choices": [],
       "isEnding": true,
@@ -433,7 +433,7 @@
     },
     {
       "id": "end_record",
-      "text": "You sit her down and press record yourselves. Forty-three minutes of the actual truth, ugly and ordinary, spoken aloud so neither of you can edit it later. When it ends, the silence is finally just silence.",
+      "text": "You sit her down at the kitchen table, set the phone between you, and press the red circle. Forty-three minutes, near enough — the ugly, ordinary, complete version, each of you saying the parts that make you look worst while the other one does not interrupt. Nobody edits it. Nobody takes anything afterwards to make it easier to hold. When it stops, the silence in that kitchen is only silence, which neither of you has heard in this room since spring.",
       "sceneTitle": "On the Record",
       "choices": [],
       "isEnding": true,
@@ -441,7 +441,7 @@
     },
     {
       "id": "end_leave",
-      "text": "You keep the recording for years, playing it on bad nights to remind yourself you were right to go — or to wonder if you were wrong. It never tells you. Proof, you learn, is not the same as peace.",
+      "text": "You keep it for years. Bad nights, hotel rooms, the long stretch that always follows your birthday — you put it on and wait for it to settle the question. Minute nineteen still lands like a floor giving way. It never tells you whether you were right to go, only that you went. Proof, you work out eventually, is a completely different substance from peace, and you traded everything you had for the wrong one.",
       "sceneTitle": "The Stone in the Coat",
       "choices": [],
       "isEnding": true,
@@ -449,7 +449,7 @@
     },
     {
       "id": "end_clean",
-      "text": "Deleted, finally and on purpose, the file takes its weight with it. You don't know the whole truth and you decide you can live without it. The street outside is cold and clear and entirely your own.",
+      "text": "You delete it on purpose, permanently, from every device and both accounts, and the weight goes out with it. You will never know what was said at minute thirty-one. Standing on the pavement with the door shut behind you, you decide you can carry not-knowing considerably further than you could carry the file. The street is cold. The air is clear all the way to the corner. Every bit of it is yours.",
       "sceneTitle": "Lighter",
       "choices": [],
       "isEnding": true,

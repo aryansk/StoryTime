@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Wheels up. You order tomato juice. The man in 18B is, you notice, sweating.",
+      "text": "Wheels up out of Changi at 23:40, seven hours to Heathrow, and you have the aisle in row 18 because you always take the aisle. Tomato juice, no ice. The man in 18B has not switched his phone off, has not taken his jacket off in a warm cabin, and has been sweating steadily since pushback. His belt is fastened over the jacket. He has not once glanced at the safety card.",
       "sceneTitle": "Hour One",
       "choices": [
         {
           "text": "Engage him",
-          "consequence": "“Engage him” closes one possibility and opens another. The moment leaves a clear note behind: Test.",
+          "consequence": "You ask about his connection at Heathrow, and he answers in four words with an accent that does not match the boarding pass in his pocket.",
           "nextNodeId": "s2"
         },
         {
           "text": "Watch him",
-          "consequence": "“Watch him” closes one possibility and opens another. The moment leaves a clear note behind: Read.",
+          "consequence": "You say nothing and start timing him. He checks his watch every ninety seconds — always the watch, never the screen in the seatback.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "A flight attendant goes pale at the galley curtain. You realize something has shifted at the front.",
+      "text": "01:20. Cabin lights down, two-thirds of the aircraft asleep under blue blankets. At the galley curtain the senior flight attendant is standing very still holding a tray she has already served, and her face has gone the colour of the bulkhead. She looks once down the aisle at nobody in particular and does not look forward again. The forward curtain is drawn. It was not drawn at 01:15.",
       "sceneTitle": "Hour Two",
       "choices": [
         {
           "text": "Move forward",
-          "consequence": "“Move forward” closes one possibility and opens another. The moment leaves a clear note behind: Act.",
+          "consequence": "You unbuckle and start up the aisle with a hand on every seatback, which puts you in the only part of this aircraft with no cover at all.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay seated",
-          "consequence": "“Stay seated” closes one possibility and opens another. The moment leaves a clear note behind: Wait.",
+          "consequence": "You stay in 18C and make yourself small and unremarkable, buying the thing that matters most tonight: nobody at the front knowing you exist.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The lead flight attendant is competent. She uses careful eye contact. You realize she is already negotiating.",
+      "text": "Her badge says Meera and she has been flying nineteen years. She comes down the aisle collecting nothing, stops at your row, and asks whether you would like water in a voice pitched exactly one notch too calm. Her eyes go front, to you, to the overwing exit, in that order, twice. She is already running this. She has been running it for six minutes and not one passenger has noticed.",
       "sceneTitle": "Cabin Crew",
       "choices": [
         {
           "text": "Join her quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Pair up—follows you into whatever comes next.",
+          "consequence": "You take the water and ask a question in the same flat register she used, and she understands within half a second that there are two of you now.",
           "nextNodeId": "s4"
         },
         {
           "text": "Support from your seat",
-          "consequence": "The decision settles the question for now. Its verdict—Don't crowd—follows you into whatever comes next.",
+          "consequence": "You let her run it and give her one small nod, then spend an hour being the passenger she can look at when she needs a face that isn't frightened.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "An announcement: 'Stay seated.' Two men in business class are armed. The demand is, unusually, specific. They want a name in Singapore released.",
+      "text": "The PA clicks and a voice that is not the captain's tells everyone to remain seated. Two men are standing in the business class aisle — one holding a ceramic blade, one touching something in a jacket pocket every few seconds. The demand is not money and not a country. It is one man in a Singapore remand facility, named in full, with his case number attached. They have brought paperwork onto an aircraft.",
       "sceneTitle": "The Demand",
       "choices": [
         {
           "text": "Note the name",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Information.",
+          "consequence": "You write the name and the number on your boarding pass with a golf pencil, and that is the first genuinely useful thing anyone has done tonight.",
           "nextNodeId": "s5"
         },
         {
           "text": "Note the men",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: People.",
+          "consequence": "You catalogue the two of them instead: the blade hand, the limp, the way the younger one keeps checking the older one's face for permission.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "An off-duty doctor in 18C catches your eye. She has, you can tell, training you don't.",
+      "text": "The woman across the aisle has not moved since the announcement, and that is what gives her away — everyone else is fidgeting. When the younger man passes she watches his hands, not his face. Later she leans into the gap and mentions, conversationally, that she is a doctor, that she did four years of emergency medicine in Nairobi, and that the older man's tremor is not fear.",
       "sceneTitle": "Row 18C",
       "choices": [
         {
           "text": "Coordinate with her",
-          "consequence": "You commit to “Coordinate with her.” The story records the instinct as “Allies” and carries it forward.",
+          "consequence": "You agree three signals — a cough, a hand flat on the tray table, water — in under a minute, and she repeats them back once and never misses one.",
           "nextNodeId": "s6"
         },
         {
           "text": "Don't expose her",
-          "consequence": "“Don't expose her” closes one possibility and opens another. The moment leaves a clear note behind: Protect.",
+          "consequence": "You decide the most valuable object on this aircraft is a doctor nobody has identified, and from that moment you stop looking at her entirely.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You have a satellite phone in your bag. You can, with one text, reach your firm's security desk.",
+      "text": "Your bag is in the overhead, and in the bag, under a folder, is the satellite unit the firm makes you carry into Port Harcourt and never into London. One message to the security desk in Zurich and a room full of people wakes up. Getting it down means standing, opening a bin and reaching, in a cabin where two men are counting every movement anyone makes.",
       "sceneTitle": "The Phone",
       "choices": [
         {
           "text": "Send one careful text",
-          "consequence": "The decision settles the question for now. Its verdict—Use it—follows you into whatever comes next.",
+          "consequence": "You get it down under a blanket and send nineteen words: flight number, souls, two hostiles, no shots fired. Zurich comes back inside ninety seconds.",
           "nextNodeId": "s7"
         },
         {
           "text": "Save the phone for later",
-          "consequence": "There is no taking “Save the phone for later” back. Hold shapes the silence before the next moment arrives.",
+          "consequence": "You leave it in the bin, because a phone discovered is worse than a phone unused, and every hour you do not spend it, it is worth more.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "The pilots are, by the schedule, still in there. The door is, by the schedule, still closed.",
+      "text": "Meera says the flight deck has been locked since the first announcement and the captain has not opened it, which means he is doing his job perfectly. She also says the interphone rang twice and nobody out here answered, and that the men have never once asked about the door. Two armed men who do not want the door are not trying to fly this aircraft. They are trying to land it somewhere.",
       "sceneTitle": "Cockpit",
       "choices": [
         {
           "text": "Talk to the FA about the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You walk the protocol with her line by line until she confirms the thing you needed: nothing that happens in this cabin can force that door open.",
           "nextNodeId": "s8"
         },
         {
           "text": "Trust the protocol",
-          "consequence": "The decision settles the question for now. Its verdict—Don't push—follows you into whatever comes next.",
+          "consequence": "You take the door out of your calculations entirely and put everything into the cabin, which is where the seventy-one people you can actually help are sitting.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The men in business class let you, eventually, speak with them. You are, in their words, 'the calm one.'",
+      "text": "The older man has noticed you — not for anything you did, but because on an aircraft full of held breath you are the one breathing normally. Two fingers, and you are summoned forward. Standing in the galley he says he wants somebody sensible to talk to, and calls you the calm one, and it arrives as a compliment and a warning at once. He has not eaten since Singapore.",
       "sceneTitle": "The Negotiator",
       "choices": [
         {
           "text": "Lower their adrenaline",
-          "consequence": "“Lower their adrenaline” closes one possibility and opens another. The moment leaves a clear note behind: Defuse.",
+          "consequence": "You slow your own speech until his has to come down to meet it, and you keep him talking about the man in the remand facility.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stall for the ground",
-          "consequence": "You commit to “Stall for the ground.” The story records the instinct as “Time” and carries it forward.",
+          "consequence": "You start manufacturing delays — verification, jurisdiction, a duty officer not yet at his desk — which buys hours and costs you every ounce of goodwill later.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "The name they want is, you realize, a man your firm has briefed you on. The story is, in places, more complicated than the demand suggests.",
+      "text": "You know the name. Two years ago your firm briefed a client on him across three afternoons in a Marina Bay boardroom. He is not a political prisoner and he is not innocent, and the case against him was built partly from documents your own side handed over. The man in the galley is describing his brother. You are looking at a file. Neither picture is a lie, and you cannot say so.",
       "sceneTitle": "The Singapore Name",
       "choices": [
         {
           "text": "Use that knowledge",
-          "consequence": "You commit to “Use that knowledge.” The story records the instinct as “Leverage” and carries it forward.",
+          "consequence": "You give him one true detail about his brother's case that nobody outside the prosecution should have, and watch him decide you are worth listening to.",
           "nextNodeId": "s10"
         },
         {
           "text": "Don't reveal what you know",
-          "consequence": "You commit to “Don't reveal what you know.” The story records the instinct as “Hide” and carries it forward.",
+          "consequence": "You keep the file inside your head and play the neutral stranger, which is safer, and which makes every sentence you say sound very slightly hollow.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "A child cries. The doctor calms him. A businessman across the aisle has, against your judgement, decided he can take the smaller man.",
+      "text": "03:05. A toddler four rows back has been crying for twenty minutes and his mother has run out of milk, songs and hands. The doctor takes him without being asked and he goes quiet on her shoulder inside a minute. And across the aisle from you, a man in a good shirt has begun measuring the younger hijacker with his eyes, and has moved his seatbelt buckle to the released position.",
       "sceneTitle": "Hour Three",
       "choices": [
         {
           "text": "Talk him down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Prevent.",
+          "consequence": "You lean over and ask him about his kids in a low voice until the buckle clicks shut again. It takes four minutes and everything you have.",
           "nextNodeId": "s11"
         },
         {
           "text": "Coordinate his timing",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Use.",
+          "consequence": "You tell him yes, but not yet, and give him a signal he will never receive — a promise you have no intention of keeping and cannot let him discover.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Ground control, finally, is on the line. The negotiator on the other end is in their forties and exhausted.",
+      "text": "03:40. They allow Meera a handset in the forward galley and the ground comes through with a hiss: a negotiator in a room in Singapore, fourth hour of her shift, her voice sanded flat by it. She asks for souls on board, injuries and fuel state, in that order, which tells you she is good at this. Then she asks who has been doing the talking up there. Meera says your name.",
       "sceneTitle": "The Ground",
       "choices": [
         {
           "text": "Build rapport with them too",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Two fronts.",
+          "consequence": "You spend ninety seconds establishing that the two of you speak the same language, because at some point tonight she will have to trust you against her own protocol.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay focused on the cabin",
-          "consequence": "“Stay focused on the cabin” closes one possibility and opens another. The moment leaves a clear note behind: One front.",
+          "consequence": "You hand the handset back and keep your attention where the blades are, and let the professionals on the ground do what the ground exists for.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "The men are tiring. They have, you notice, planned for this hour. They have not, you notice, planned for hour five.",
+      "text": "04:15. The younger one has stopped patrolling and is sitting on an armrest. The older one has started repeating himself — the same three sentences about his brother, in the same order, with the same pause. They packed for a four-hour operation: demand, timing, announcement. They have no plan whatsoever for what a man does in hour five with cramp, low blood sugar, and seventy strangers watching him.",
       "sceneTitle": "Hour Four",
       "choices": [
         {
           "text": "Wait them out",
-          "consequence": "The decision settles the question for now. Its verdict—Patience—follows you into whatever comes next.",
+          "consequence": "You do nothing at all for forty minutes, which is the hardest work of the night, and let fatigue accomplish what argument cannot.",
           "nextNodeId": "s13"
         },
         {
           "text": "Force a small concession",
-          "consequence": "There is no taking “Force a small concession” back. Pressure shapes the silence before the next moment arrives.",
+          "consequence": "You ask for something small enough to be granted — the cabin lights up two notches — and establish that they can say yes without losing anything.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "An older passenger needs the bathroom. The smaller man refuses. The older passenger, eventually, doesn't ask twice.",
+      "text": "An Australian man in his seventies, three rows behind the wing, needs the toilet and says so, politely, twice. The younger man refuses without looking at him. The old man says nothing further, sits back down, and stares at the seatback in front of him with the particular stillness of somebody working out what he is willing to lose. In eight minutes this stops being about a toilet.",
       "sceneTitle": "The Bathroom Run",
       "choices": [
         {
           "text": "Negotiate a compromise",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You propose one passenger at a time, escorted, door held ajar, and get it agreed in ninety seconds because it costs them nothing and gives them a rule to enforce.",
           "nextNodeId": "s14"
         },
         {
           "text": "Let the moment pass",
-          "consequence": "“Let the moment pass” closes one possibility and opens another. The moment leaves a clear note behind: Don't escalate.",
+          "consequence": "You judge it too small to spend capital on, and forty minutes later you are still watching a seventy-four-year-old man's jaw and regretting the arithmetic.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The doctor whispers: one of the men is, by her medical eye, in a hypoglycemic spiral. She suggests, casually, food.",
+      "text": "She returns the toddler to his mother, then stops at your row on the way back and says, to the middle distance, that the older man's hands shake at rest, that he has yawned twice inside a minute, and that she watched him wave away the crew meal at boarding. Then she says the word food, once, in the tone of a woman discussing the service, and goes and sits down.",
       "sceneTitle": "The Doctor's Read",
       "choices": [
         {
           "text": "Use the suggestion",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Soften him.",
+          "consequence": "You start talking to him about a hot meal, casually, the way you would to a colleague at midnight, and his eyes go to the galley before he can stop them.",
           "nextNodeId": "s15"
         },
         {
           "text": "Save it for later",
-          "consequence": "You commit to “Save it for later.” The story records the instinct as “Hold” and carries it forward.",
+          "consequence": "You bank it, because a hungry man is easier to move than a fed one, and you would rather pick the hour yourself than have it picked for you.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The plan, you realize, was always to land somewhere — not London. They need to know they can land. You realize you can offer that.",
+      "text": "05:00. It comes together while he is describing the remand hearing for the fourth time: they never expected the man released. They expected an aircraft nobody would let land, and a demand that kept it airborne, and cameras. What they actually want, underneath all of it, is to be on the ground and still breathing. You can offer them that. Nobody else on this aircraft is in a position to.",
       "sceneTitle": "Hour Five",
       "choices": [
         {
           "text": "Offer the landing",
-          "consequence": "The decision settles the question for now. Its verdict—Trade—follows you into whatever comes next.",
+          "consequence": "You put it on the table early and unconditionally — a runway, and nobody shot getting off — and watch the older man's shoulders come down two centimetres.",
           "nextNodeId": "s16"
         },
         {
           "text": "Don't trade until you have to",
-          "consequence": "You commit to “Don't trade until you have to.” The story records the instinct as “Hold” and carries it forward.",
+          "consequence": "You hold it back as the last card, which is correct in a classroom, and every minute you hold it the man in 18B unravels a little further.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The captain's voice, through the door, is steady. He asks, professionally, for guidance. You give it.",
+      "text": "The interphone, finally, with the men's grudging permission. The captain's voice is exactly as level as it was on the welcome announcement: fuel state, alternates, and one question about the cabin that is really four questions. He has done everything correctly for five hours behind a locked door with no idea whether anyone out here is alive. He asks what he should tell the passengers. He is asking you.",
       "sceneTitle": "The Pilots",
       "choices": [
         {
           "text": "Tell him the truth about the cabin",
-          "consequence": "“Tell him the truth about the cabin” closes one possibility and opens another. The moment leaves a clear note behind: Trust him.",
+          "consequence": "You give him the whole picture, the blade included, and there is a two-second pause on the line that will stay with you for years.",
           "nextNodeId": "s17"
         },
         {
           "text": "Keep it minimal",
-          "consequence": "The decision settles the question for now. Its verdict—Compartmentalize—follows you into whatever comes next.",
+          "consequence": "You give him the operational minimum and nothing that could put a tremor into the announcement, and let a man fly his aeroplane.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The plane diverts to a smaller airport. The men, on the ground, are no longer airborne — which is itself a kind of defeat.",
+      "text": "05:50. The aircraft banks and starts down toward a regional airport with one runway, a fire crew and a terminal built for forty thousand passengers a year. Wheels on tarmac at 06:14. The whole cabin exhales at once, and in the same second both men understand what they have just given away. On the ground an aircraft is only a room. They stopped being hijackers the moment the nosewheel touched.",
       "sceneTitle": "Diverted",
       "choices": [
         {
           "text": "Push for the door to open peacefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You start selling the last ten metres — a door, a set of stairs, no weapons in hand — while the relief of landing is still doing your work for you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Wait for tactical",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patience.",
+          "consequence": "You stop talking and let the men in the vehicles at the treeline decide, which is the safe choice and the one that puts other people's fingers on triggers.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The cockpit door opens, finally, with the men's permission. The pilots, professional, do not, in the cockpit, react.",
+      "text": "06:31. The flight deck door opens from the inside, slowly, with the older man's permission. The captain and first officer step out into a cabin they have only ever heard, over a spilled tray, into seventy-one faces and two exhausted men with weapons on the carpet. Neither pilot reacts to any of it. Twenty-eight years between them, and they simply nod at Meera and ask for the checklist.",
       "sceneTitle": "The Door",
       "choices": [
         {
           "text": "Help the pilots regain composure",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You give them thirty seconds and a hand on the captain's shoulder, and he says thank you in a voice that is not the announcement voice.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step back and let them work",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Trust.",
+          "consequence": "You clear the aisle and let two professionals be professional, and only later, on the tarmac, do you see the first officer's hands as he lights a cigarette.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The negotiator on the ground signals you. The men set down their weapons. Nobody fires.",
+      "text": "06:48. The negotiator's voice in the handset says a single agreed word. The older man lays the blade on the galley counter, handle toward the crew, and sits down on the floor. The younger one takes longer — twenty seconds of nothing at all, while a hundred people who cannot see him wait — and then puts the jacket down and both hands on his head. Nobody fires. Nobody fires.",
       "sceneTitle": "Tactical",
       "choices": [
         {
           "text": "Bring the cabin to its feet quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Order—follows you into whatever comes next.",
+          "consequence": "You stand and speak to the nearest rows in an ordinary voice, and calm travels backward down the aircraft faster than any announcement could.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stay in your seat as instructed",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Comply.",
+          "consequence": "You do exactly as you are told for the first time in seven hours, and let the people in body armour own the room they came for.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The doors open onto a tarmac that smells of jet fuel and rain. The passengers, in a long line, walk out. You and the doctor and the flight attendant are last.",
+      "text": "07:20. The doors open onto air that smells of jet fuel and wet grass, and the stairs are the wobbling kind. They go off in rows, the way they boarded, because people are astonishing. The toddler goes down asleep on a police officer's arm. You, the doctor and Meera come last, and at the bottom Meera stops on the concrete and takes her shoes off before she does anything else.",
       "sceneTitle": "Tarmac",
       "choices": [
         {
           "text": "Hug the FA",
-          "consequence": "Friendship of seven hours.",
+          "consequence": "You put your arms round a woman you met seven hours ago, and she holds on longer than either of you expected, in front of two hundred people.",
           "nextNodeId": "s21"
         },
         {
           "text": "Walk out alone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Process privately.",
+          "consequence": "You go down the stairs alone and stand at the edge of the apron with your back to all of it, and it takes about four minutes.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You stand in a small airport's corridor with foil blankets and bad coffee. You realize you can choose, right now, what kind of person this flight made you.",
+      "text": "A corridor in a small airport: vending machines, foil blankets, coffee that tastes of the cup. Somebody from the consulate is taking names off a clipboard. The doctor is asleep sitting upright. Meera is on the phone to her daughter in Chennai, saying she is fine, four times over. Seven hours ago you were a man who handles contract disputes for a living, and no part of that sentence is true now.",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Stay in the business",
-          "consequence": "Use the skill.",
+          "consequence": "You already know you will say yes to the next call, and you know it standing in a corridor, before anybody has even thought to ask you.",
           "nextNodeId": "end_negotiator"
         },
         {
           "text": "Take a different job",
-          "consequence": "Get off the road.",
+          "consequence": "You decide you never want to be the calm one in a room again, and you will spend two years finding out whether that is available.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You take the doctor's number and Meera's and save them under first names only, which is not how you have stored a contact in fifteen years.",
           "nextNodeId": "end_friend"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_negotiator",
-      "text": "You leave corporate and join an international crisis-response team. You log many more hours like flight 72. You sleep well in the after, but you never quite love a plane again.",
+      "text": "Inside a year you leave corporate work and join a team that flies toward things rather than away. Kidnappings in the Sahel, a siege in a Rotterdam warehouse, four hundred hours of other people's worst nights. You are good at it, and it does not hollow you out, which surprises everybody including you. But you never sleep on an aircraft again — not once, in nineteen years of them — and you have stopped pretending you might.",
       "sceneTitle": "Negotiator, Higher Stakes",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You take a quieter job. You write a memo about cabin tactics that gets distributed to every flight attendant in Europe. Nobody knows your name. Many people are alive because of you.",
+      "text": "You take a job with reasonable hours and a garden. Then you write nine pages about that cabin: the timing, the hunger, the hour they had not planned for, the old man and the seatbelt buckle. A safety board picks it up. It ends up in cabin-crew training in four countries under a file number and nobody's name. People are alive because of those pages who will never hear of you, and that is the arrangement.",
       "sceneTitle": "Quieter Work",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_friend",
-      "text": "You stay in touch with the doctor and the flight attendant for the rest of your life. You become, in a real sense, family. You have, you realize, met your people.",
+      "text": "Meera retires in Chennai and you fly out for the party. The doctor's daughter calls you uncle before anyone suggests it. Every year on the fourteenth the three of you get a line open, whatever the time zones do to it, and mostly discuss nothing — a knee replacement, a bad landlord, a Test match. Nobody outside that call has ever really understood what happened up there, and after a while you stop trying to explain.",
       "sceneTitle": "The Doctor and the FA",
       "choices": [],
       "isEnding": true,

@@ -18,17 +18,17 @@
   "nodes": [
     {
       "id": "m1",
-      "text": "An older woman locked out. She is on her front porch. It is freezing.",
+      "text": "An older woman locked out. She is on her front porch. It is freezing. Both choices lead to Driveway, but “Drive over” arrives there with a different cost than “Try to walk her through it.”",
       "sceneTitle": "Phone",
       "choices": [
         {
           "text": "Drive over",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You choose to drive over. It opens the route to Driveway, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m2"
         },
         {
           "text": "Try to walk her through it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You commit to try to walk her through it. By Driveway, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m2"
         }
       ],
@@ -37,17 +37,17 @@
     },
     {
       "id": "m2",
-      "text": "She is wearing slippers. Her cat is, somehow, in the bushes.",
+      "text": "She is wearing slippers. Her cat is, somehow, in the bushes. The Lock comes either way; its meaning changes with the difference between “Cat first” and “Door first.”",
       "sceneTitle": "Driveway",
       "choices": [
         {
           "text": "Cat first",
-          "consequence": "There is no taking “Cat first” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to cat first. By The Lock, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m3"
         },
         {
           "text": "Door first",
-          "consequence": "You commit to “Door first.” The story records the instinct as “Pragmatic” and carries it forward.",
+          "consequence": "You choose to door first. It opens the route to The Lock, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m3"
         }
       ],
@@ -56,17 +56,17 @@
     },
     {
       "id": "m3",
-      "text": "Old. Cantankerous. Two minutes of patience.",
+      "text": "Old. Cantankerous. Two minutes of patience. Inside will follow either decision, but it will meet a different version of you after “Take your time” than after “Force it.”",
       "sceneTitle": "The Lock",
       "choices": [
         {
           "text": "Take your time",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You take your time. The decision moves you toward Inside and tells everyone present what you are willing to risk.",
           "nextNodeId": "m4"
         },
         {
           "text": "Force it",
-          "consequence": "The decision settles the question for now. Its verdict—Foolish—follows you into whatever comes next.",
+          "consequence": "You commit to force it. By Inside, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m4"
         }
       ],
@@ -75,17 +75,17 @@
     },
     {
       "id": "m4",
-      "text": "She turns on a kettle. Apologizes ten times. You wave her off.",
+      "text": "She turns on a kettle. Apologizes ten times. You wave her off. Both choices lead to Photo, but “Stay for tea” arrives there with a different cost than “Decline, gentle.”",
       "sceneTitle": "Inside",
       "choices": [
         {
           "text": "Stay for tea",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You commit to stay for tea. By Photo, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m5"
         },
         {
           "text": "Decline, gentle",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You decline, gentle. The decision moves you toward Photo and tells everyone present what you are willing to risk.",
           "nextNodeId": "m5"
         }
       ],
@@ -94,17 +94,17 @@
     },
     {
       "id": "m5",
-      "text": "On the mantel, a young woman in uniform. She tells you about her daughter.",
+      "text": "On the mantel, a young woman in uniform. She tells you about her daughter. Both choices lead to Drive Home, but “Listen” arrives there with a different cost than “Note the time, leave.”",
       "sceneTitle": "Photo",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to listen. It opens the route to Drive Home, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m6"
         },
         {
           "text": "Note the time, leave",
-          "consequence": "There is no taking “Note the time, leave” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You note the time, leave. The decision moves you toward Drive Home and tells everyone present what you are willing to risk.",
           "nextNodeId": "m6"
         }
       ],
@@ -113,17 +113,17 @@
     },
     {
       "id": "m6",
-      "text": "Dawn over the highway. You decide what kind of next month you want.",
+      "text": "Dawn over the highway. You decide what kind of next month you want. “Bring more presence to it” draws you toward Your Route; “Take a different shift” leaves Morning, On waiting on the other side.",
       "sceneTitle": "Drive Home",
       "choices": [
         {
           "text": "Bring more presence to it",
-          "consequence": "There is no taking “Bring more presence to it” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You choose to bring more presence to it. It opens the route to Your Route, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_route"
         },
         {
           "text": "Take a different shift",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to take a different shift. By Morning, On, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_morning"
         }
       ],
@@ -132,7 +132,7 @@
     },
     {
       "id": "end_route",
-      "text": "You become her once-a-month phone friend. You change a lightbulb for her sometimes. She bakes.",
+      "text": "You become her once-a-month phone friend. You change a lightbulb for her sometimes. She bakes. The road into Your Route began with “Bring more presence to it” in Drive Home; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Your Route",
       "choices": [],
       "isEnding": true,
@@ -140,7 +140,7 @@
     },
     {
       "id": "end_morning",
-      "text": "You go home, sleep four hours, eat pancakes. You feel, for an unrelated reason, hopeful.",
+      "text": "You go home, sleep four hours, eat pancakes. You feel, for an unrelated reason, hopeful. The road into Morning, On began with “Take a different shift” in Drive Home; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Morning, On",
       "choices": [],
       "isEnding": true,

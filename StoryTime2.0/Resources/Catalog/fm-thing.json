@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A helicopter hunts a dog across white tundra with a rifle.",
+      "text": "A helicopter hunts a dog across white tundra with a rifle. You cannot avoid Camp Dog; you can only decide whether “Take cover” or “Shoot back” defines the person who reaches it. By Camp Dog, the danger will have learned what you protect first.",
       "sceneTitle": "Norwegian Pursuit",
       "choices": [
         {
           "text": "Take cover",
-          "consequence": "You commit to “Take cover.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You commit to take cover. It carries you into Camp Dog while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         },
         {
           "text": "Shoot back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to shoot back. By Camp Dog, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "The husky comes in calm, eyes too bright.",
+      "text": "The husky comes in calm, eyes too bright. Both choices lead to Norwegian Camp, but “Cage it” arrives there with a different cost than “Pet it.” By Norwegian Camp, the danger will have learned what you protect first.",
       "sceneTitle": "Camp Dog",
       "choices": [
         {
           "text": "Cage it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You cage it. The way toward Norwegian Camp opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         },
         {
           "text": "Pet it",
-          "consequence": "You commit to “Pet it.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You pet it. The way toward Norwegian Camp opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A burned man in a chair, a wall of melted instruments.",
+      "text": "A burned man in a chair, a wall of melted instruments. Block of Ice comes either way; its meaning changes with the difference between “Photograph” and “Search the labs.” In Norwegian Camp, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Norwegian Camp",
       "choices": [
         {
           "text": "Photograph",
-          "consequence": "You commit to “Photograph.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to photograph. It carries you into Block of Ice while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Search the labs",
-          "consequence": "“Search the labs” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to search the labs. By Block of Ice, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "A negative of a body cut from the floor.",
+      "text": "A negative of a body cut from the floor. The road still runs toward Kennel. Its next turn depends on the difference between choosing “Bring it back” and choosing “Leave it.” At Kennel, whatever is watching will know which fear moved you.",
       "sceneTitle": "Block of Ice",
       "choices": [
         {
           "text": "Bring it back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Curious.",
+          "consequence": "You commit to bring it back. It carries you into Kennel while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         },
         {
           "text": "Leave it",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You leave it. The way toward Kennel opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A dog splitting open in the middle of the night.",
+      "text": "A dog splitting open in the middle of the night. Blair's Computer is already waiting. What changes is whether “Burn it” or “Cage it” is the instinct you carry into it. At Blair's Computer, whatever is watching will know which fear moved you.",
       "sceneTitle": "Kennel",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "“Burn it” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You commit to burn it. It carries you into Blair's Computer while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Cage it",
-          "consequence": "“Cage it” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You commit to cage it. It carries you into Blair's Computer while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Probability of infection: high.",
+      "text": "Probability of infection: high. You cannot avoid Lockdown; you can only decide whether “Believe him” or “Doubt him” defines the person who reaches it. At Lockdown, whatever is watching will know which fear moved you.",
       "sceneTitle": "Blair's Computer",
       "choices": [
         {
           "text": "Believe him",
-          "consequence": "You commit to “Believe him.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You believe him. The way toward Lockdown opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         },
         {
           "text": "Doubt him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pride.",
+          "consequence": "You commit to doubt him. It carries you into Lockdown while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Garry hands over command to a thinking man.",
+      "text": "Garry hands over command to a thinking man. Bennings is already waiting. What changes is whether “Take it” or “Defer” is the instinct you carry into it. In Lockdown, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Lockdown",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to take it. By Bennings, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Defer",
-          "consequence": "There is no taking “Defer” back. Polite shapes the silence before the next moment arrives.",
+          "consequence": "You defer. The way toward Bennings opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A doppelganger caught mid-replication on a snowy slope.",
+      "text": "A doppelganger caught mid-replication on a snowy slope. Blair's Cabin comes either way; its meaning changes with the difference between “Burn him” and “Hesitate.” At Blair's Cabin, whatever is watching will know which fear moved you.",
       "sceneTitle": "Bennings",
       "choices": [
         {
           "text": "Burn him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hard.",
+          "consequence": "You commit to burn him. It carries you into Blair's Cabin while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Hesitate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to hesitate. It carries you into Blair's Cabin while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "He smashes the radio and the dogs.",
+      "text": "He smashes the radio and the dogs. The road still runs toward Blood Cabinet. Its next turn depends on the difference between choosing “Sedate him” and choosing “Lock him outside.” In Blair's Cabin, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Blair's Cabin",
       "choices": [
         {
           "text": "Sedate him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You sedate him. The way toward Blood Cabinet opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Lock him outside",
-          "consequence": "You commit to “Lock him outside.” The story records the instinct as “Cold” and carries it forward.",
+          "consequence": "You lock him outside. The way toward Blood Cabinet opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Vials in a fridge, all slashed open in the night.",
+      "text": "Vials in a fridge, all slashed open in the night. Norris's Heart is already waiting. What changes is whether “Trust no one” or “Trust someone” is the instinct you carry into it. At Norris's Heart, whatever is watching will know which fear moved you.",
       "sceneTitle": "Blood Cabinet",
       "choices": [
         {
           "text": "Trust no one",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to trust no one. It carries you into Norris's Heart while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         },
         {
           "text": "Trust someone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You commit to trust someone. It carries you into Norris's Heart while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A defibrillator and a chest that opens like a mouth.",
+      "text": "A defibrillator and a chest that opens like a mouth. Both choices lead to Head Walks, but “Drop the paddles” arrives there with a different cost than “Burn him.” By Head Walks, the danger will have learned what you protect first.",
       "sceneTitle": "Norris's Heart",
       "choices": [
         {
           "text": "Drop the paddles",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You drop the paddles. The way toward Head Walks opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Burn him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You choose to burn him. By Head Walks, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A severed head growing legs across the floor.",
+      "text": "A severed head growing legs across the floor. Both choices lead to MacReady on Tape, but “Burn it” arrives there with a different cost than “Stamp it.” In Head Walks, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Head Walks",
       "choices": [
         {
           "text": "Burn it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Final.",
+          "consequence": "You choose to burn it. By MacReady on Tape, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stamp it",
-          "consequence": "There is no taking “Stamp it” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You commit to stamp it. It carries you into MacReady on Tape while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "If I don't make it, nobody listen to anybody but the people you've seen with me in this room.",
+      "text": "If I don't make it, nobody listen to anybody but the people you've seen with me in this room. The road still runs toward Blood Test. Its next turn depends on the difference between choosing “Record it” and choosing “Skip the tape.”",
       "sceneTitle": "MacReady on Tape",
       "choices": [
         {
           "text": "Record it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You record it. The way toward Blood Test opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Skip the tape",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You commit to skip the tape. It carries you into Blood Test while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Hot wire from a flame in a Petri dish.",
+      "text": "Hot wire from a flame in a Petri dish. Palmer Jumps comes either way; its meaning changes with the difference between “Test everyone” and “Test only suspects.” In Blood Test, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Blood Test",
       "choices": [
         {
           "text": "Test everyone",
-          "consequence": "You commit to “Test everyone.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You choose to test everyone. By Palmer Jumps, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Test only suspects",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You test only suspects. The way toward Palmer Jumps opens, and something on the other side seems to notice.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A scream of skin, a flame burst, a window broken.",
+      "text": "A scream of skin, a flame burst, a window broken. The road still runs toward Generator Out. Its next turn depends on the difference between choosing “Cover the door” and choosing “Run.” By Generator Out, the danger will have learned what you protect first.",
       "sceneTitle": "Palmer Jumps",
       "choices": [
         {
           "text": "Cover the door",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You choose to cover the door. By Generator Out, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You choose to run. By Generator Out, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Heating units dropping, frostbite climbing.",
+      "text": "Heating units dropping, frostbite climbing. Underground Saucer will follow either decision, but it will meet a different version of you after “Restart it” than after “Burn the rest of the camp.” At Underground Saucer, whatever is watching will know which fear moved you.",
       "sceneTitle": "Generator Out",
       "choices": [
         {
           "text": "Restart it",
-          "consequence": "There is no taking “Restart it” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You restart it. The way toward Underground Saucer opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         },
         {
           "text": "Burn the rest of the camp",
-          "consequence": "The decision settles the question for now. Its verdict—Final—follows you into whatever comes next.",
+          "consequence": "You commit to burn the rest of the camp. It carries you into Underground Saucer while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "An excavation, ice melted, a craft beneath the snow.",
+      "text": "An excavation, ice melted, a craft beneath the snow. Blair Returns will follow either decision, but it will meet a different version of you after “Wire the explosives” than after “Climb in.” In Underground Saucer, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Underground Saucer",
       "choices": [
         {
           "text": "Wire the explosives",
-          "consequence": "There is no taking “Wire the explosives” back. Final shapes the silence before the next moment arrives.",
+          "consequence": "You commit to wire the explosives. It carries you into Blair Returns while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Climb in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You climb in. The way toward Blair Returns opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "He has been changing, has been digging, has been building.",
+      "text": "He has been changing, has been digging, has been building. Dynamite Down will follow either decision, but it will meet a different version of you after “Confront him” than after “Wait for him to come out.”",
       "sceneTitle": "Blair Returns",
       "choices": [
         {
           "text": "Confront him",
-          "consequence": "There is no taking “Confront him” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You confront him. The way toward Dynamite Down opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         },
         {
           "text": "Wait for him to come out",
-          "consequence": "There is no taking “Wait for him to come out” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You wait for him to come out. The way toward Dynamite Down opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "Charges in the ice over the saucer.",
+      "text": "Charges in the ice over the saucer. You cannot avoid Explosions; you can only decide whether “Set the timer” or “Run” defines the person who reaches it. By Explosions, the danger will have learned what you protect first.",
       "sceneTitle": "Dynamite Down",
       "choices": [
         {
           "text": "Set the timer",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Final.",
+          "consequence": "You set the timer. The way toward Explosions opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         },
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You choose to run. By Explosions, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Walls of snow and ice rising and falling.",
+      "text": "Walls of snow and ice rising and falling. Two Men in the Snow comes either way; its meaning changes with the difference between “Crawl out” and “Hold the line.” By Two Men in the Snow, the danger will have learned what you protect first.",
       "sceneTitle": "Explosions",
       "choices": [
         {
           "text": "Crawl out",
-          "consequence": "There is no taking “Crawl out” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to crawl out. It carries you into Two Men in the Snow while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hold the line",
-          "consequence": "You commit to “Hold the line.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to hold the line. It carries you into Two Men in the Snow while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A bottle of scotch, a fire, a long silence in the wind.",
+      "text": "A bottle of scotch, a fire, a long silence in the wind. “Drink” draws you toward Wait for the Cold; “Wait” leaves Test Passed waiting on the other side. A third choice, “Take the third path,” keeps The Thing Walks in play.",
       "sceneTitle": "Two Men in the Snow",
       "choices": [
         {
           "text": "Drink",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You drink. The way toward Wait for the Cold opens, and something on the other side seems to notice.",
           "nextNodeId": "end_fire"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You wait. The way toward Test Passed opens, and something on the other side seems to notice.",
           "nextNodeId": "end_blood"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The way toward The Thing Walks opens, and something on the other side seems to notice.",
           "nextNodeId": "end_chase"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_fire",
-      "text": "You sit across from Childs with a flask between you and you watch each other for tells while the fire dies, and you wait for the dawn or the end.",
+      "text": "You sit across from Childs with a flask between you and you watch each other for tells while the fire dies, and you wait for the dawn or the end. The road into Wait for the Cold began with “Drink” in Two Men in the Snow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Wait for the Cold",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_blood",
-      "text": "You both come up clean. The next research team finds you sleeping back-to-back in the wreckage.",
+      "text": "You both come up clean. The next research team finds you sleeping back-to-back in the wreckage. The road into Test Passed began with “Wait” in Two Men in the Snow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Test Passed",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_chase",
-      "text": "One of you is wrong. The other one doesn't know it yet. The wind takes the bottle. The story does not end.",
+      "text": "One of you is wrong. The other one doesn't know it yet. The wind takes the bottle. The story does not end. The road into The Thing Walks began with “Take the third path” in Two Men in the Snow; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Thing Walks",
       "choices": [],
       "isEnding": true,

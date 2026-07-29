@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You stand watching them set. You want to be anywhere else.",
+      "text": "You stand watching them set. You want to be anywhere else. Both choices lead to The Droids, but “Stay loyal to the farm” arrives there with a different cost than “Plan to leave.” By The Droids, the system will have recorded that choice as precedent.",
       "sceneTitle": "Two Suns",
       "choices": [
         {
           "text": "Stay loyal to the farm",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Family.",
+          "consequence": "You choose to stay loyal to the farm. By The Droids, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Plan to leave",
-          "consequence": "“Plan to leave” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You choose to plan to leave. By The Droids, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "R2 has a message for an Obi-Wan Kenobi. Uncle Owen says forget it.",
+      "text": "R2 has a message for an Obi-Wan Kenobi. Uncle Owen says forget it. The road still runs toward Sandcrawler Wreck. Its next turn depends on the difference between choosing “Chase R2 at dawn” and choosing “Tell Uncle.”",
       "sceneTitle": "The Droids",
       "choices": [
         {
           "text": "Chase R2 at dawn",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to chase R2 at dawn. By Sandcrawler Wreck, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Tell Uncle",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to tell Uncle. By Sandcrawler Wreck, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Stormtroopers killed the Jawas. The droids, you realize, are wanted.",
+      "text": "Stormtroopers killed the Jawas. The droids, you realize, are wanted. You cannot avoid Aunt and Uncle; you can only decide whether “Run home” or “Hide the droids” defines the person who reaches it. In Sandcrawler Wreck, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Sandcrawler Wreck",
       "choices": [
         {
           "text": "Run home",
-          "consequence": "There is no taking “Run home” back. Family shapes the silence before the next moment arrives.",
+          "consequence": "You choose to run home. By Aunt and Uncle, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Hide the droids",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You commit to hide the droids. It carries you toward Aunt and Uncle, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "They are dead, the homestead burning. You stand in the smoke.",
+      "text": "They are dead, the homestead burning. You stand in the smoke. Ben will follow either decision, but it will meet a different version of you after “Vow” than after “Mourn.” At Ben, the decision will matter as data as well as intent.",
       "sceneTitle": "Aunt and Uncle",
       "choices": [
         {
           "text": "Vow",
-          "consequence": "You commit to “Vow.” The story records the instinct as “Anger” and carries it forward.",
+          "consequence": "You vow. The path to Ben opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         },
         {
           "text": "Mourn",
-          "consequence": "You commit to “Mourn.” The story records the instinct as “Grief” and carries it forward.",
+          "consequence": "You mourn. The path to Ben opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Obi-Wan tells you the truth about your father. He hands you a lightsaber.",
+      "text": "Obi-Wan tells you the truth about your father. He hands you a lightsaber. Cantina will follow either decision, but it will meet a different version of you after “Take it” than after “Pause.” By Cantina, the system will have recorded that choice as precedent.",
       "sceneTitle": "Ben",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "There is no taking “Take it” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take it. It carries you toward Cantina, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Pause",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to pause. It carries you toward Cantina, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Mos Eisley. Aliens. A pilot with a Wookiee.",
+      "text": "Mos Eisley. Aliens. A pilot with a Wookiee. The Falcon is already waiting. What changes is whether “Hire Han” or “Look for another captain” is the instinct you carry into it. At The Falcon, the decision will matter as data as well as intent.",
       "sceneTitle": "Cantina",
       "choices": [
         {
           "text": "Hire Han",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Speed.",
+          "consequence": "You hire Han. The path to The Falcon opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         },
         {
           "text": "Look for another captain",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You look for another captain. The path to The Falcon opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Hyperspace. The galaxy stretches. You realize the universe is huge.",
+      "text": "Hyperspace. The galaxy stretches. You realize the universe is huge. The road still runs toward Tractor Beam. Its next turn depends on the difference between choosing “Practice with the saber” and choosing “Look out the window.”",
       "sceneTitle": "The Falcon",
       "choices": [
         {
           "text": "Practice with the saber",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You practice with the saber. The path to Tractor Beam opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s8"
         },
         {
           "text": "Look out the window",
-          "consequence": "The decision settles the question for now. Its verdict—Wonder—follows you into whatever comes next.",
+          "consequence": "You commit to look out the window. It carries you toward Tractor Beam, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Captured by the Death Star. You hide in smuggling holds.",
+      "text": "Captured by the Death Star. You hide in smuggling holds. The road still runs toward The Princess. Its next turn depends on the difference between choosing “Disguise as stormtroopers” and choosing “Wait it out.” By The Princess, the system will have recorded that choice as precedent.",
       "sceneTitle": "Tractor Beam",
       "choices": [
         {
           "text": "Disguise as stormtroopers",
-          "consequence": "You commit to “Disguise as stormtroopers.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You choose to disguise as stormtroopers. By The Princess, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Wait it out",
-          "consequence": "You commit to “Wait it out.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You wait it out. The path to The Princess opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Leia is in a cell. You rescue her in a trash compactor.",
+      "text": "Leia is in a cell. You rescue her in a trash compactor. The road still runs toward Garbage. Its next turn depends on the difference between choosing “Save her quickly” and choosing “Save her carefully.”",
       "sceneTitle": "The Princess",
       "choices": [
         {
           "text": "Save her quickly",
-          "consequence": "There is no taking “Save her quickly” back. Hero shapes the silence before the next moment arrives.",
+          "consequence": "You choose to save her quickly. By Garbage, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Save her carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Plan.",
+          "consequence": "You choose to save her carefully. By Garbage, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Eyes in the water. Walls closing in. The droids save you.",
+      "text": "Eyes in the water. Walls closing in. The droids save you. You cannot avoid Obi-Wan, Falling; you can only decide whether “Trust the droids” or “Push the walls” defines the person who reaches it. At Obi-Wan, Falling, the decision will matter as data as well as intent.",
       "sceneTitle": "Garbage",
       "choices": [
         {
           "text": "Trust the droids",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You commit to trust the droids. It carries you toward Obi-Wan, Falling, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         },
         {
           "text": "Push the walls",
-          "consequence": "You commit to “Push the walls.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to push the walls. It carries you toward Obi-Wan, Falling, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You watch Ben let Vader strike him down. You feel him afterward, in your head.",
+      "text": "You watch Ben let Vader strike him down. You feel him afterward, in your head. Yavin is already waiting. What changes is whether “Listen” or “Look away” is the instinct you carry into it. At Yavin, the decision will matter as data as well as intent.",
       "sceneTitle": "Obi-Wan, Falling",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You choose to listen. By Yavin, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Look away",
-          "consequence": "You commit to “Look away.” The story records the instinct as “Anger” and carries it forward.",
+          "consequence": "You look away. The path to Yavin opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "The Rebel base. Briefing. The Death Star approaches.",
+      "text": "The Rebel base. Briefing. The Death Star approaches. The road still runs toward Cockpit. Its next turn depends on the difference between choosing “Volunteer for X-wing” and choosing “Stay back.” By Cockpit, the system will have recorded that choice as precedent.",
       "sceneTitle": "Yavin",
       "choices": [
         {
           "text": "Volunteer for X-wing",
-          "consequence": "You commit to “Volunteer for X-wing.” The story records the instinct as “Hero” and carries it forward.",
+          "consequence": "You choose to volunteer for X-wing. By Cockpit, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You choose to stay back. By Cockpit, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You climb in. Biggs nods. R2 chirps.",
+      "text": "You climb in. Biggs nods. R2 chirps. Trench Run will follow either decision, but it will meet a different version of you after “Trust R2” than after “Trust your training.” In Cockpit, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Cockpit",
       "choices": [
         {
           "text": "Trust R2",
-          "consequence": "The decision settles the question for now. Its verdict—Friend—follows you into whatever comes next.",
+          "consequence": "You choose to trust R2. By Trench Run, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Trust your training",
-          "consequence": "You commit to “Trust your training.” The story records the instinct as “Solo” and carries it forward.",
+          "consequence": "You trust your training. The path to Trench Run opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Lasers. Towers. Wedge falls back. Biggs goes down.",
+      "text": "Lasers. Towers. Wedge falls back. Biggs goes down. Vader Behind comes either way; its meaning changes with the difference between “Stay on target” and “Veer to avoid.” In Trench Run, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Trench Run",
       "choices": [
         {
           "text": "Stay on target",
-          "consequence": "There is no taking “Stay on target” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay on target. By Vader Behind, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Veer to avoid",
-          "consequence": "There is no taking “Veer to avoid” back. Survival shapes the silence before the next moment arrives.",
+          "consequence": "You veer to avoid. The path to Vader Behind opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Vader is on your tail. Han, you'd swear, is not coming.",
+      "text": "Vader is on your tail. Han, you'd swear, is not coming. You cannot avoid Han, Arriving; you can only decide whether “Trust the Force” or “Trust the computer” defines the person who reaches it. At Han, Arriving, the decision will matter as data as well as intent.",
       "sceneTitle": "Vader Behind",
       "choices": [
         {
           "text": "Trust the Force",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Faith.",
+          "consequence": "You choose to trust the Force. By Han, Arriving, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Trust the computer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reason.",
+          "consequence": "You commit to trust the computer. It carries you toward Han, Arriving, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The Falcon comes screaming in. Vader spins off.",
+      "text": "The Falcon comes screaming in. Vader spins off. The Shot comes either way; its meaning changes with the difference between “Take the shot” and “Wait one beat.” By The Shot, the system will have recorded that choice as precedent.",
       "sceneTitle": "Han, Arriving",
       "choices": [
         {
           "text": "Take the shot",
-          "consequence": "There is no taking “Take the shot” back. Now shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the shot. It carries you toward The Shot, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         },
         {
           "text": "Wait one beat",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You commit to wait one beat. It carries you toward The Shot, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Two-meter exhaust port. You feel Ben's voice. You let go.",
+      "text": "Two-meter exhaust port. You feel Ben's voice. You let go. The Death Star Goes is already waiting. What changes is whether “Fire” or “Adjust” is the instinct you carry into it. By The Death Star Goes, the system will have recorded that choice as precedent.",
       "sceneTitle": "The Shot",
       "choices": [
         {
           "text": "Fire",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You commit to fire. It carries you toward The Death Star Goes, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         },
         {
           "text": "Adjust",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to adjust. By The Death Star Goes, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The whole moon-sized weapon comes apart. You fly out of the cloud.",
+      "text": "The whole moon-sized weapon comes apart. You fly out of the cloud. Medals comes either way; its meaning changes with the difference between “Whoop” and “Stay quiet, focused.” In The Death Star Goes, the rules change the moment you decide they can be tested.",
       "sceneTitle": "The Death Star Goes",
       "choices": [
         {
           "text": "Whoop",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Joy.",
+          "consequence": "You choose to whoop. By Medals, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay quiet, focused",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pilot.",
+          "consequence": "You stay quiet, focused. The path to Medals opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Leia gives you and Han medals. Chewie is, briefly, snubbed.",
+      "text": "Leia gives you and Han medals. Chewie is, briefly, snubbed. The road still runs toward After. Its next turn depends on the difference between choosing “Notice the Chewie thing publicly” and choosing “Be polite.” By After, the system will have recorded that choice as precedent.",
       "sceneTitle": "Medals",
       "choices": [
         {
           "text": "Notice the Chewie thing publicly",
-          "consequence": "“Notice the Chewie thing publicly” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to notice the Chewie thing publicly. By After, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Be polite",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You choose to be polite. By After, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The Rebellion has many fights ahead. The galaxy is still mostly the Empire.",
+      "text": "The Rebellion has many fights ahead. The galaxy is still mostly the Empire. The road still runs toward Your Father's Saber. Its next turn depends on the difference between choosing “Stay with the Rebellion” and choosing “Take a season off.”",
       "sceneTitle": "After",
       "choices": [
         {
           "text": "Stay with the Rebellion",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You stay with the Rebellion. The path to Your Father's Saber opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         },
         {
           "text": "Take a season off",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You take a season off. The path to Your Father's Saber opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You hold it in your hand. The weight is real. The path, you realize, is yours.",
+      "text": "You hold it in your hand. The weight is real. The path, you realize, is yours. “Train” draws you toward Becoming a Jedi; “Train slowly” leaves The Best Pilot waiting on the other side. A third choice, “Take the third path,” keeps Bringing Balance in play.",
       "sceneTitle": "Your Father's Saber",
       "choices": [
         {
           "text": "Train",
-          "consequence": "You commit to “Train.” The story records the instinct as “Jedi” and carries it forward.",
+          "consequence": "You choose to train. By Becoming a Jedi, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_jedi"
         },
         {
           "text": "Train slowly",
-          "consequence": "You commit to “Train slowly.” The story records the instinct as “Patient” and carries it forward.",
+          "consequence": "You choose to train slowly. By The Best Pilot, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_pilot"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Bringing Balance, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_balance"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_jedi",
-      "text": "You find Yoda. You train. You meet your father. You become, in time, the Jedi the galaxy needed. The Force, you decide, is family.",
+      "text": "You find Yoda. You train. You meet your father. You become, in time, the Jedi the galaxy needed. The Force, you decide, is family. The road into Becoming a Jedi began with “Train” in Your Father's Saber; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Becoming a Jedi",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_pilot",
-      "text": "You stay with Rogue Squadron. You fly forever. Han calls you kid for the rest of your life. You never quite mind it.",
+      "text": "You stay with Rogue Squadron. You fly forever. Han calls you kid for the rest of your life. You never quite mind it. The road into The Best Pilot began with “Train slowly” in Your Father's Saber; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Best Pilot",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_balance",
-      "text": "Years later you start a new Jedi Order. The first new students are not all young. The Force, you teach them, is older than any of them.",
+      "text": "Years later you start a new Jedi Order. The first new students are not all young. The Force, you teach them, is older than any of them. The road into Bringing Balance began with “Take the third path” in Your Father's Saber; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Bringing Balance",
       "choices": [],
       "isEnding": true,

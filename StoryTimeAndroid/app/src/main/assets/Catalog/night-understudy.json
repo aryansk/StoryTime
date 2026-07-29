@@ -26,12 +26,12 @@
       "choices": [
         {
           "text": "Say nothing and get into costume",
-          "consequence": "The decision settles the question for now. Its verdict—Cold—follows you into whatever comes next.",
+          "consequence": "You commit to say nothing and get into costume. It carries you into The Dresser's Hands while the safer possibility closes without making a sound.",
           "nextNodeId": "s_costume"
         },
         {
           "text": "Confess the door before it's too late",
-          "consequence": "“Confess the door before it's too late” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to confess the door before it's too late. It carries you into In the Wings while the safer possibility closes without making a sound.",
           "nextNodeId": "s_confess"
         }
       ],
@@ -45,12 +45,12 @@
       "choices": [
         {
           "text": "Go on when they call your name",
-          "consequence": "There is no taking “Go on when they call your name” back. Spirit shapes the silence before the next moment arrives.",
+          "consequence": "You commit to go on when they call your name. It carries you into Your Light while the safer possibility closes without making a sound.",
           "nextNodeId": "s_stage"
         },
         {
           "text": "Change your mind and free her",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You choose to change your mind and free her. By The Cellar Door, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s_free"
         }
       ],
@@ -64,12 +64,12 @@
       "choices": [
         {
           "text": "Run to free her yourself",
-          "consequence": "“Run to free her yourself” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to run to free her yourself. By The Cellar Door, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s_free"
         },
         {
           "text": "Let them handle it and quietly quit",
-          "consequence": "“Let them handle it and quietly quit” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to let them handle it and quietly quit. By Exit, Stage Left, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_walk"
         }
       ],
@@ -83,12 +83,12 @@
       "choices": [
         {
           "text": "Ride the ovation and never look back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You ride the ovation and never look back. The way toward One Perfect Night opens, and something on the other side seems to notice.",
           "nextNodeId": "end_star"
         },
         {
           "text": "Break character at the curtain call and tell the truth",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You break character at the curtain call and tell the truth. The way toward At the Bow opens, and something on the other side seems to notice.",
           "nextNodeId": "s_curtain"
         }
       ],
@@ -97,17 +97,17 @@
     },
     {
       "id": "s_free",
-      "text": "You take the stairs three at a time and turn the key. Vivian is unhurt, furious, and far too clever — she reads the whole thing off your face in a single second: the lock, the hour, the costume you are still wearing. \"Understudy,\" she says, almost admiring. \"You really wanted it.\"",
+      "text": "You take the stairs three at a time and turn the key. Vivian is unhurt, furious, and far too clever — she reads the whole thing off your face in a single second: the lock, the hour, the costume you are still wearing. \"Understudy,\" she says, almost admiring.",
       "sceneTitle": "The Cellar Door",
       "choices": [
         {
           "text": "Beg her to go on; take her place tomorrow",
-          "consequence": "“Beg her to go on; take her place tomorrow” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You commit to beg her to go on; take her place tomorrow. It carries you into The Pact while the safer possibility closes without making a sound.",
           "nextNodeId": "s_pact"
         },
         {
           "text": "Offer to take the fall, publicly, tonight",
-          "consequence": "“Offer to take the fall, publicly, tonight” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to offer to take the fall, publicly, tonight. By The Understudy Confesses, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_fall"
         }
       ],
@@ -121,12 +121,12 @@
       "choices": [
         {
           "text": "Let her decide your ending",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You let her decide your ending. The way toward The Pact opens, and something on the other side seems to notice.",
           "nextNodeId": "s_pact"
         },
         {
           "text": "Walk off into the dark",
-          "consequence": "“Walk off into the dark” closes one possibility and opens another. The moment leaves a clear note behind: Free.",
+          "consequence": "You commit to walk off into the dark. It carries you into Exit, Stage Left while the safer possibility closes without making a sound.",
           "nextNodeId": "end_walk"
         }
       ],
@@ -135,17 +135,17 @@
     },
     {
       "id": "s_pact",
-      "text": "Backstage, Vivian is unnervingly calm. \"Every understudy wants the part,\" she says, fixing her lipstick in your mirror. \"Almost none of them are willing to earn it. Split the run with me — alternate nights, top billing shared — and we never, ever speak of the door.\"",
+      "text": "Backstage, Vivian is unnervingly calm. \"Every understudy wants the part,\" she says, fixing her lipstick in your mirror. \"Almost none of them are willing to earn it.",
       "sceneTitle": "The Pact",
       "choices": [
         {
           "text": "Take the pact",
-          "consequence": "“Take the pact” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You take the pact. The way toward Two Names on the Marquee opens, and something on the other side seems to notice.",
           "nextNodeId": "end_pact"
         },
         {
           "text": "Refuse, and clear your conscience",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to refuse, and clear your conscience. By The Understudy Confesses, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_fall"
         }
       ],

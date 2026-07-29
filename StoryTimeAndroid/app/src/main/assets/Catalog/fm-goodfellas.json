@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Paulie's cabstand. Errands. The first time you watch a car burn.",
+      "text": "You're thirteen and the cabstand across the street is the whole world. Guys who park Cadillacs sideways. Guys who never wait in line at the bakery. Guys with nicknames instead of jobs. You start out sweeping, then you're running envelopes, and then Tuddy hands you a can of gasoline, points at a car sitting on the lot, and suggests you stand back a little further than that.",
       "sceneTitle": "Brooklyn",
       "choices": [
         {
           "text": "Be useful",
-          "consequence": "“Be useful” closes one possibility and opens another. The moment leaves a clear note behind: In.",
+          "consequence": "You learn to keep your mouth shut and your hands moving, and by Christmas there's more folded cash in your sock than your father clears in a month of work.",
           "nextNodeId": "s2"
         },
         {
           "text": "Walk home",
-          "consequence": "You commit to “Walk home.” The story records the instinct as “Out” and carries it forward.",
+          "consequence": "You go home for dinner like a kid and your father takes the belt to you over a letter from the school. You're back across the street by seven.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The men dress like the men. You imitate, you belong.",
+      "text": "The pointed shoes. The silk. The pinky ring with a stone on it the size of a molar. You buy a suit at fourteen and the tailor calls you sir and means it. Then you walk down your own block in it and the neighbours look at you a completely different way, and your mother stands in the kitchen crying, and you honestly cannot work out why.",
       "sceneTitle": "Pinky Ring",
       "choices": [
         {
           "text": "Imitate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You copy the walk, the tip, the way they hold a cigarette down by the knuckle. By sixteen nobody on the block can find the seam where the copy started.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stay yourself",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You hang on to your own haircut for about a month. Then Tuddy makes a joke about it in front of the whole stand, and that's the end of the haircut.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Tommy is funny. Tommy is dangerous.",
+      "text": "Tommy is the funniest person you will ever share a room with. Twenty-two, built like a coat hanger, does the voices, does the faces, keeps a snub-nose in his sock at a christening. He's doing the one about the mailman and you're crying into your drink, and then he stops laughing about four seconds before the rest of the table does and looks at somebody by the bar.",
       "sceneTitle": "Tommy",
       "choices": [
         {
           "text": "Laugh",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You laugh at every single thing he does, because that's the arrangement, and the laughing is completely real, which is the part you can never explain to anybody afterward.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't laugh",
-          "consequence": "You commit to “Don't laugh.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You sit one out when the joke turns on a waiter with a limp. Tommy clocks it, files it, puts an arm around your neck. You never sit one out again.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Jimmy hands out hundred-dollar bills like a god.",
+      "text": "Jimmy Conway gives the doorman a hundred just for opening a door. Gives the maitre d' a hundred. Gives you a hundred for holding his coat and doesn't even watch you take it. He's Irish, so he can never be made, and he doesn't appear to care, and he takes cigarettes and shrimp and razor blades off trucks like he's performing a public service for the neighbourhood.",
       "sceneTitle": "Jimmy",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "There is no taking “Take it” back. In shapes the silence before the next moment arrives.",
+          "consequence": "You put it in your pocket and say thanks, and something in your chest goes quiet and stays quiet, because now you know exactly what you are going to be.",
           "nextNodeId": "s5"
         },
         {
           "text": "Refuse it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Out.",
+          "consequence": "You try handing it back once and he folds your fingers shut over it and calls you a nice kid. Refusing money in front of Jimmy is something you do precisely one time.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "You meet her at a wedding. She is, briefly, terrified.",
+      "text": "It's a double date and you don't even want to go. She's from Five Towns, she's got opinions about everything, and when you stand her up on the second one she comes down to the cabstand and shouts at you in front of every man there. So you take her to the Copa, in through the kitchen, past the cooks, and a table comes up out of the floor by the stage.",
       "sceneTitle": "Karen",
       "choices": [
         {
           "text": "Be charming",
-          "consequence": "“Be charming” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You tip your way through a kitchen and a nightclub, and somewhere around the second bottle she quits asking what it is exactly that you do.",
           "nextNodeId": "s6"
         },
         {
           "text": "Be honest",
-          "consequence": "There is no taking “Be honest” back. Truth shapes the silence before the next moment arrives.",
+          "consequence": "You say construction. She looks at your hands, which have never held anything heavier than an envelope, and lets the answer stand, which is its own kind of yes.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You marry. Her mother does not know what to make of you.",
+      "text": "Her mother wants to know what sort of people don't have a job. Her father wants to know what sort of people hold a wedding in a hotel. It's enormous, and half the men there are called Peter or Paulie, and every one of them puts an envelope in your hand. At two in the morning you and Karen count sixty thousand dollars in cash out across a bed.",
       "sceneTitle": "Engagement",
       "choices": [
         {
           "text": "Win her mother",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Strategy.",
+          "consequence": "You turn up on Sundays with flowers and a story about a hardware concern in Queens. Her mother stays suspicious for thirty years and never once says it at the table.",
           "nextNodeId": "s7"
         },
         {
           "text": "Win Karen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Direct.",
+          "consequence": "You buy her things she cannot mention to anybody. She works out quickly that the wives don't ask questions, and that not asking is the entire job description.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Trucks at JFK. The first big score.",
+      "text": "The freight at Idlewild is money sitting unattended in a lot. You've got a guy who says which trailer, a guy with a truck, a guy who unloads, and a guy at the airport who calls when the paperwork clears. The first one is cigarettes, and you make more before lunch than your father made all year. Then televisions. Then shrimp. Then a load of pink cashmere nobody can shift.",
       "sceneTitle": "Hijacking",
       "choices": [
         {
           "text": "Plan small",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You stick to the sure ones, the trailers where the driver is already paid. Small and regular buys the house on the island and nobody ever comes down the driveway.",
           "nextNodeId": "s8"
         },
         {
           "text": "Plan big",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Greedy.",
+          "consequence": "You start chasing the loads with real numbers attached, which is how you eventually meet the sort of trouble that shows up with a federal seal on the envelope.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Tommy shoots Spider in the foot. Then in the chest.",
+      "text": "Spider is a kid who carries the drinks at the basement card game. He's slow bringing Tommy's, so Tommy shoots him in the foot for the joke of it. Two weeks later Spider comes down on a crutch and tells Tommy exactly where to go, and the whole table is howling and clapping, and Tommy stands up and puts three into his chest and asks who's got a shovel.",
       "sceneTitle": "Spider",
       "choices": [
         {
           "text": "Be silent",
-          "consequence": "There is no taking “Be silent” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You say nothing, you help with the tarp, and you eat a full dinner two hours later and it goes down fine. That is the detail that should have frightened you.",
           "nextNodeId": "s9"
         },
         {
           "text": "Vomit out back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You make it out to the alley before it comes up. Then you rinse your mouth under the tap and go back down the stairs, because leaving isn't an option anybody offered.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Six million in cash and gold. Jimmy gets paranoid.",
+      "text": "Six million out of a cargo building at Kennedy, cash and gold, the biggest score in the country, and for about a week everything is perfect. Then Stacks leaves the truck parked on a street with the keys in it. Then a guy's wife shows up in a mink. Then a guy buys a Coupe de Ville and parks it at the Christmas party, out front, where Jimmy can see it.",
       "sceneTitle": "Lufthansa",
       "choices": [
         {
           "text": "Take the smallest cut",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You take almost nothing and buy nothing and drive the same car you drove in March. It keeps you breathing, and it starts Jimmy looking at you like you're clever.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take the biggest",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Greedy.",
+          "consequence": "You push for a full share and you get it, and now your name sits beside a number that keeps Jimmy awake at night with a pen and a short list.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Florida. Pittsburgh. You start using.",
+      "text": "You've got a guy flying it up from Florida, a babysitter cutting it in the basement, and a wig shop that takes the deliveries. Paulie has told you to your face to stay away from it. The money is stupid. Twelve grand a week out of one phone call, and somewhere in the middle of all that you start taking it yourself and stop noticing what time it is.",
       "sceneTitle": "Cocaine",
       "choices": [
         {
           "text": "Stop",
-          "consequence": "There is no taking “Stop” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You get three days clean, and the clock starts working again, and it turns out your whole life is unbearably loud without it. You're re-upped by Thursday afternoon.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't stop",
-          "consequence": "“Don't stop” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You're awake two days straight running the phone, the sauce, the guns in the closet, and you feel like the most capable man in the state of New York.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "She finds your stash. She flushes it. She is furious.",
+      "text": "She finds it in the hollowed-out book and puts twenty thousand dollars down the toilet in about nine seconds while you're screaming at her from the hallway. Then she sits on the bathroom tile and tells you exactly what you have turned into, in the voice she normally saves for the kids. She isn't wrong. She's also the one who runs the deliveries when your sister can't.",
       "sceneTitle": "Karen, Loaded",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You say the words and you mean them while you're saying them, and you're re-supplied by Friday from a guy she's never heard of. She stops flushing anything.",
           "nextNodeId": "s12"
         },
         {
           "text": "Yell back",
-          "consequence": "You commit to “Yell back.” The story records the instinct as “Stress” and carries it forward.",
+          "consequence": "You put your hand through a wall and she goes very quiet, and that night there's a pistol under her pillow. You wake up with it against your cheek and neither of you mentions it at breakfast.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Tommy is told he'll be made. He goes to a basement.",
+      "text": "This is the biggest thing that can happen to any of you. Tommy gets the call, the good suit, the manicure, his mother weeping over the stove. You and Jimmy sit near a payphone waiting for word so you can start celebrating. The point of it is that a door is finally being opened for one of your own. Nobody has said the name Billy Batts out loud in six years.",
       "sceneTitle": "Tommy Made",
       "choices": [
         {
           "text": "Note the suspicion",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You note that they've set it for a Sunday morning with no ceremony and no crowd, and you think about that for maybe two seconds, and then you order another round.",
           "nextNodeId": "s13"
         },
         {
           "text": "Trust it",
-          "consequence": "The decision settles the question for now. Its verdict—Naive—follows you into whatever comes next.",
+          "consequence": "You believe every word of it because you want it that badly, and you're already calculating what a made guy in your corner is worth to you personally.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "It was for Billy Batts. The whole street goes quiet.",
+      "text": "The phone rings and it's Jimmy and Jimmy cannot get a full sentence out. Empty room. Folding chairs stacked against a wall. Nobody there at all. It was Batts the whole time and they waited six years to settle it, and they did it in the face so his mother couldn't have the lid up. Jimmy tears a payphone off a diner wall and stands there with his hand bleeding.",
       "sceneTitle": "Tommy Dead",
       "choices": [
         {
           "text": "Drink",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You go on a two-day drunk and cry in a parked car and then you're fine, and being fine that quickly is how you learn something in you has stopped working.",
           "nextNodeId": "s14"
         },
         {
           "text": "Don't drink",
-          "consequence": "“Don't drink” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You go home stone sober and sit with the kids and the television, doing the arithmetic on which men in this crew are going to be alive at Easter.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The helicopter. The sauce. The phone calls. Cocaine.",
+      "text": "Six in the morning: the guns to be moved, your brother home from the hospital, the sauce on the stove because sauce has to simmer, Sandy waiting to cut, the ziti, the string beans, the airport at four. And a helicopter. It picked you up out by Rockaway, it followed you to the strip mall, and now it's directly over the house. Everybody keeps telling you it's nothing.",
       "sceneTitle": "Helicopter Day",
       "choices": [
         {
           "text": "Stop and breathe",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Try.",
+          "consequence": "You pull onto the shoulder and sit for one minute, and the helicopter drifts off toward the water, and you decide you're being ridiculous and pull straight back out.",
           "nextNodeId": "s15"
         },
         {
           "text": "Push through",
-          "consequence": "“Push through” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You do the guns, the sauce, the pickup, the airport, all of it, on no sleep and no food, because dropping one item off the list feels worse than being followed does.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "DEA at the airport. The phone calls were tapped.",
+      "text": "They're already in the driveway when you get back with the pans on the passenger seat. State and federal both, narcotics, and one of them tells you pleasantly that they've had the phone since April and reads your own conversations back with the times pencilled in the margin. You're in a cell by four. The ziti is still in the trunk of a car in an impound lot.",
       "sceneTitle": "Arrested",
       "choices": [
         {
           "text": "Don't say anything",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You give them nothing all night, and it changes precisely nothing, because everything they require is already on a reel with a date written on the box.",
           "nextNodeId": "s16"
         },
         {
           "text": "Try to explain",
-          "consequence": "You commit to “Try to explain.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You start talking about a friend's business and you can hear yourself doing it. The agent writes down every single word and never once interrupts you.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Karen sells what she can. You're out.",
+      "text": "Karen goes to her mother, gets the deed to the house, hocks whatever's left, and pulls you out. Paulie meets you by a chain-link fence and hands you thirty-two hundred dollars for twenty-five years and tells you that's it, you're finished with him, and turns and walks to his car. That's the last time you see him. Thirty-two hundred. You count it twice on the drive home.",
       "sceneTitle": "Bail",
       "choices": [
         {
           "text": "Sit at home",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You stay in the house and watch the street through the blinds and count the cars going past twice. The phone doesn't ring for two days, which tells you everything.",
           "nextNodeId": "s17"
         },
         {
           "text": "See Jimmy",
-          "consequence": "There is no taking “See Jimmy” back. Familiar shapes the silence before the next moment arrives.",
+          "consequence": "You go find the one man who has always had money, and he's delighted to see you, and he's a good deal more delighted to see you than makes any sense.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Jimmy offers you a trip to Florida. You realize, late, it's a hit.",
+      "text": "He's calm, he's friendly, he's asking after the kids by name. Then he wants you down in Florida to handle a thing with a guy, and he wants you on the plane alone, and he doesn't look at you while he says the flight time. Karen's been telling you about a woman who tried to send her down an empty block for free dresses. You stand on the corner in the rain.",
       "sceneTitle": "Jimmy's Diner",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You tell him you can't leave the kids and watch his face go polite on you. Polite, from Jimmy, is the sound of a door being pulled shut somewhere behind your back.",
           "nextNodeId": "s18"
         },
         {
           "text": "Almost go",
-          "consequence": "There is no taking “Almost go” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You get as far as yes, and asking what to bring. Then you drive home and sit in your own driveway with the engine off for forty minutes.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Federal agents in a kitchen. A long list to sign.",
+      "text": "Two agents at the kitchen table drinking coffee your wife made them, laying it out flat: every man you have ever eaten a meal with, or twenty-five years, and by the way Jimmy already has somebody inside who'll do it for nothing. Karen's got her arms folded by the sink. The kids are upstairs with the television on. There's a stack of paper and a cheap ballpoint pen.",
       "sceneTitle": "Witness Protection",
       "choices": [
         {
           "text": "Sign",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You sign, then spend four days handing over names, and afterward you sleep better than you have since you were a kid, which tells you more than you want to know.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stall",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You ask for a night to think and spend it at the window with the lights off. There's nothing to think about. You knew before the agent finished the sentence.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You point at Jimmy. You point at Paulie. The room is, briefly, silent.",
+      "text": "A courtroom with cameras waiting outside it, and you in a grey suit somebody else chose, pointing across the room at the man who gave you your first hundred dollars and the man who ran your wedding. Paulie doesn't lift his head off his hands the whole morning. Jimmy looks straight at you the entire time with no expression at all, like a man memorizing an address.",
       "sceneTitle": "Testimony",
       "choices": [
         {
           "text": "Tell it all",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You give them the trucks, the fires, the union, the bodies, and the names of men who never did one thing to you. It takes weeks, and you turn out to be very good at it.",
           "nextNodeId": "s20"
         },
         {
           "text": "Tell it carefully",
-          "consequence": "There is no taking “Tell it carefully” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You hold three or four small things back for yourself, purely out of habit. That habit outlives the life it belonged to by roughly forty years.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A house. A driveway. A grocery store. Spaghetti with ketchup.",
+      "text": "A cul-de-sac somewhere with a mailbox on a post and a two-car garage. The neighbours barbecue on Saturdays and talk about a school bond. You get up at nine and there is nothing whatsoever to do until nine tomorrow. You order spaghetti with marinara at the only restaurant in town and it comes out with ketchup on it, and you eat it, and you tell the kid it was great.",
       "sceneTitle": "Nowhere, USA",
       "choices": [
         {
           "text": "Try to like it",
-          "consequence": "There is no taking “Try to like it” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You mow the lawn, learn every neighbour's name, and hold up your end of a conversation about drainage. You're excellent at pretending, and it does not help at all.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hate it openly",
-          "consequence": "“Hate it openly” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You complain about the bread, the coffee, the sauce and the people until Karen stops getting out of the car with you. Being ordinary turns out to be the sentence.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You order eggs in a bathrobe. You wave at the camera. You realize you're an average nobody.",
+      "text": "Bathrobe, driveway, newspaper, a car that starts every single time you turn the key. You get eggs at a place with a laminated menu and the waitress calls you hon and means nothing by it. Nobody in this town owes you a dollar and nobody is afraid of you, and there is no decent bread within a hundred miles, and you are going to live a long, long time.",
       "sceneTitle": "The End",
       "choices": [
         {
           "text": "Hate it",
-          "consequence": "“Hate it” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You spend the remainder of it eating badly and telling nobody who you used to be. It is the exact life you spent thirty years sprinting away from.",
           "nextNodeId": "end_anonymous"
         },
         {
           "text": "Make peace",
-          "consequence": "The decision settles the question for now. Its verdict—Survive—follows you into whatever comes next.",
+          "consequence": "Some Tuesday you decide to stop grading every morning against a table at the Copa. It's a decision you find you have to make again most mornings after that.",
           "nextNodeId": "end_relapse"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You take no position at all and simply keep going, one nothing day after another, which is how ordinary people have been managing the whole time you were laughing at them.",
           "nextNodeId": "end_amends"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_anonymous",
-      "text": "You spend the rest of your life as Henry Hill, by another name. You write a book in your fifties. You die in 2012 of a heart attack.",
+      "text": "You live the rest of it under a name that was assigned to you, in a town you never name, telling nobody anything. In your fifties you sell the story to a writer and become briefly famous for having been somebody else entirely. Nobody ever comes for you. You keep waiting at the window and nobody comes. You go in 2012, in a bed, with a bad heart, an average nobody, exactly as advertised.",
       "sceneTitle": "Schnook",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_relapse",
-      "text": "You break protection. You return to New York anyway. You die in a parking lot in a year. Karen survives. The children are okay.",
+      "text": "You break the terms inside a year, because there is nothing at all out here and everything back there, and New York remembers precisely what you did in that courtroom. They find you behind a place you used to like, in the afternoon, unhurried about it. Karen keeps going. The kids grow up fine and change their names and never discuss you. That is a great deal more than the arithmetic ever entitled you to.",
       "sceneTitle": "Out",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_amends",
-      "text": "You make amends with Karen, with the kids, with yourself. The amends do not pay back what you took. They pay forward, modestly, to children who were not yours.",
+      "text": "You do the long unglamorous version: phone calls, letters, apologies that get hung up on and a few that don't. Karen takes nine years to pick up. Nothing you say pays back the years or the men in the ground, and eventually you quit pretending it might. What you can do is coach somebody else's kids on a field on a Saturday morning, badly, sober, and then turn up again the following week.",
       "sceneTitle": "Amends, Eventually",
       "choices": [],
       "isEnding": true,

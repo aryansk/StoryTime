@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Speak up early to be noticed",
-          "consequence": "Visibility is half the game.",
+          "consequence": "Visibility is half the game. You choose to speak up early to be noticed. It opens the route to First Impression, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay quiet and observe everything",
-          "consequence": "Knowing the room beats announcing yourself.",
+          "consequence": "Knowing the room beats announcing yourself. You commit to stay quiet and observe everything. By The Cold Calls, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s3"
         }
       ],
@@ -43,12 +43,12 @@
       "choices": [
         {
           "text": "Lean into the bold version of yourself",
-          "consequence": "Brave is a strategy, not a feeling.",
+          "consequence": "Brave is a strategy, not a feeling. You commit to lean into the bold version of yourself. By The Eviction Notice, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         },
         {
           "text": "Dial it back and prove yourself in numbers",
-          "consequence": "Quiet excellence is harder to dismiss.",
+          "consequence": "Quiet excellence is harder to dismiss. You commit to dial it back and prove yourself in numbers. By A Lead, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "By afternoon you're on the phones, dialing strangers. Most hang up. One curses you out. You take notes on what worked. You realize you are very, very good at this.",
+      "text": "By afternoon you're on the phones, dialing strangers. Most hang up. One curses you out. You take notes on what worked. You realize you are very, very good at this. The distance between The Eviction Notice and A Lead begins with the choice between “Burn through the call list at speed” and “Pick fewer calls, go deeper with each.”",
       "sceneTitle": "The Cold Calls",
       "choices": [
         {
           "text": "Burn through the call list at speed",
-          "consequence": "Volume is its own kind of magic.",
+          "consequence": "Volume is its own kind of magic. You burn through the call list at speed. The decision moves you toward The Eviction Notice and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Pick fewer calls, go deeper with each",
-          "consequence": "Quality is a slow weapon.",
+          "consequence": "Quality is a slow weapon. You commit to pick fewer calls, go deeper with each. By A Lead, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         }
       ],
@@ -81,12 +81,12 @@
       "choices": [
         {
           "text": "Tell him the truth in kid-sized pieces",
-          "consequence": "Honesty he can carry is a gift.",
+          "consequence": "Honesty he can carry is a gift. You commit to tell him the truth in kid-sized pieces. By The Shelter Line, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s6"
         },
         {
           "text": "Protect him from it for one more night",
-          "consequence": "Some weights you carry alone, by choice.",
+          "consequence": "Some weights you carry alone, by choice. You protect him from it for one more night. The decision moves you toward The Big Meeting and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A name you cold-called actually calls back — a big one, distracted, but listening. He'll meet you in person if you can be at his office across the city tomorrow at 7 a.m.",
+      "text": "A name you cold-called actually calls back — a big one, distracted, but listening. He'll meet you in person if you can be at his office across the city tomorrow at 7 a.m. “Commit to the meeting at any cost” opens the route to The Shelter Line. “Try to reschedule to a day you can manage” changes the terms and carries you toward The Big Meeting.",
       "sceneTitle": "A Lead",
       "choices": [
         {
           "text": "Commit to the meeting at any cost",
-          "consequence": "Doors open once, and not by appointment.",
+          "consequence": "Doors open once, and not by appointment. You choose to commit to the meeting at any cost. It opens the route to The Shelter Line, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s6"
         },
         {
           "text": "Try to reschedule to a day you can manage",
-          "consequence": "Sometimes the door reopens; usually not.",
+          "consequence": "Sometimes the door reopens; usually not. You choose to try to reschedule to a day you can manage. It opens the route to The Big Meeting, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Make sure he sees you stay calm",
-          "consequence": "Calm in a parent is its own kind of meal.",
+          "consequence": "Calm in a parent is its own kind of meal. You choose to make sure he sees you stay calm. It opens the route to Subway Bathroom, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s8"
         },
         {
           "text": "Let him see you're scared, too",
-          "consequence": "Some lessons require an honest face.",
+          "consequence": "Some lessons require an honest face. You commit to let him see you're scared, too. By The Rolodex, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You make it across the city at 7 a.m. — somehow — and the prospect actually shakes your hand. Twenty minutes of his time. You can hear your own heartbeat. Begin.",
+      "text": "You make it across the city at 7 a.m. — somehow — and the prospect actually shakes your hand. Twenty minutes of his time. You can hear your own heartbeat. Begin. “Pitch hard with everything you know” draws you toward Subway Bathroom; “Listen first, then offer what fits him” leaves The Rolodex waiting on the other side.",
       "sceneTitle": "The Big Meeting",
       "choices": [
         {
           "text": "Pitch hard with everything you know",
-          "consequence": "When the door opens you do not knock politely.",
+          "consequence": "When the door opens you do not knock politely. You pitch hard with everything you know. The decision moves you toward Subway Bathroom and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         },
         {
           "text": "Listen first, then offer what fits him",
-          "consequence": "The best pitch is sometimes a question.",
+          "consequence": "The best pitch is sometimes a question. You commit to listen first, then offer what fits him. By The Rolodex, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Sing him through to sleep",
-          "consequence": "Voice is a kind of roof.",
+          "consequence": "Voice is a kind of roof. You sing him through to sleep. The decision moves you toward The Friend and tells everyone present what you are willing to risk.",
           "nextNodeId": "s10"
         },
         {
           "text": "Hold him in silence so he hears your heart",
-          "consequence": "Some lullabies don't have words.",
+          "consequence": "Some lullabies don't have words. You choose to hold him in silence so he hears your heart. It opens the route to The Bone Scanner Sale, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your manager hands you a rolodex of names and a target. The other interns are richer, better-educated, sharper-suited. You stare at the cards. You realize you have one advantage they don't — desperation.",
+      "text": "Your manager hands you a rolodex of names and a target. The other interns are richer, better-educated, sharper-suited. You stare at the cards. You realize you have one advantage they don't — desperation. Choose “Turn desperation into discipline” and The Friend comes into view; choose “Try to make a friend among the interns first” and the road bends toward The Bone Scanner Sale.",
       "sceneTitle": "The Rolodex",
       "choices": [
         {
           "text": "Turn desperation into discipline",
-          "consequence": "Hunger is a tool only if you sharpen it.",
+          "consequence": "Hunger is a tool only if you sharpen it. You choose to turn desperation into discipline. It opens the route to The Friend, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         },
         {
           "text": "Try to make a friend among the interns first",
-          "consequence": "Allies inside the wall are also currency.",
+          "consequence": "Allies inside the wall are also currency. You choose to try to make a friend among the interns first. It opens the route to The Bone Scanner Sale, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "One of the interns — Naomi, whose father is also her boss somewhere — surprises you. She doesn't pity you. She just sits beside you in the cafeteria like it's normal. You'd forgotten how that felt.",
+      "text": "One of the interns — Naomi, whose father is also her boss somewhere — surprises you. She doesn't pity you. She just sits beside you in the cafeteria like it's normal. You'd forgotten how that felt. The distance between Your Son's Birthday and Midterm Review begins with the choice between “Accept the friendship at face value” and “Stay polite but keep your distance.”",
       "sceneTitle": "The Friend",
       "choices": [
         {
           "text": "Accept the friendship at face value",
-          "consequence": "Not everyone with money is the enemy.",
+          "consequence": "Not everyone with money is the enemy. You choose to accept the friendship at face value. It opens the route to Your Son's Birthday, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Stay polite but keep your distance",
-          "consequence": "Friendship in a competition is a soft target.",
+          "consequence": "Friendship in a competition is a soft target. You commit to stay polite but keep your distance. By Midterm Review, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You're still trying to sell the medical scanners you bought before the internship. One left. If you sell it this week the rent is no longer a problem this week.",
+      "text": "You're still trying to sell the medical scanners you bought before the internship. One left. If you sell it this week the rent is no longer a problem this week. “Hustle the scanner with everything you've got” opens the route to Your Son's Birthday. “Drop it and focus only on the internship” changes the terms and carries you toward Midterm Review.",
       "sceneTitle": "The Bone Scanner Sale",
       "choices": [
         {
           "text": "Hustle the scanner with everything you've got",
-          "consequence": "Old debts don't care about new dreams.",
+          "consequence": "Old debts don't care about new dreams. You hustle the scanner with everything you've got. The decision moves you toward Your Son's Birthday and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         },
         {
           "text": "Drop it and focus only on the internship",
-          "consequence": "Bet on the bigger long game.",
+          "consequence": "Bet on the bigger long game. You commit to drop it and focus only on the internship. By Midterm Review, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Tell him about the dream you're chasing",
-          "consequence": "Children deserve to know the story they're inside.",
+          "consequence": "Children deserve to know the story they're inside. You tell him about the dream you're chasing. The decision moves you toward The Rival and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Just be present for the day",
-          "consequence": "Some birthdays don't need a speech.",
+          "consequence": "Some birthdays don't need a speech. You choose to just be present for the day. It opens the route to Sick Day, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Your supervisor pulls you aside and tells you you're in the top two. He pauses. 'You're also,' he says, 'a year behind everyone in the network.' He is, as senior brokers go, kind.",
+      "text": "Your supervisor pulls you aside and tells you you're in the top two. He pauses. 'You're also,' he says, 'a year behind everyone in the network.' He is, as senior brokers go, kind. “Ask him for one piece of honest advice” draws you toward The Rival; “Thank him and double your efforts” leaves Sick Day waiting on the other side.",
       "sceneTitle": "Midterm Review",
       "choices": [
         {
           "text": "Ask him for one piece of honest advice",
-          "consequence": "Mentorship is the only shortcut that's safe.",
+          "consequence": "Mentorship is the only shortcut that's safe. You ask him for one piece of honest advice. The decision moves you toward The Rival and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Thank him and double your efforts",
-          "consequence": "Recognition is fuel.",
+          "consequence": "You choose to thank him and double your efforts. It opens the route to Sick Day, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Another intern — sharper-suited, sharper-tongued — has started taking credit for your accounts. The senior partners can't quite tell. You can.",
+      "text": "Another intern — sharper-suited, sharper-tongued — has started taking credit for your accounts. The senior partners can't quite tell. You can. To choose “Call it out in the next meeting” means meeting Week Nineteen; “Beat him on results so loud nobody can mistake them” sends you toward The Final Call instead.",
       "sceneTitle": "The Rival",
       "choices": [
         {
           "text": "Call it out in the next meeting",
-          "consequence": "Truth aimed cleanly is allowed at work too.",
+          "consequence": "Truth aimed cleanly is allowed at work too. You choose to call it out in the next meeting. It opens the route to Week Nineteen, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s16"
         },
         {
           "text": "Beat him on results so loud nobody can mistake them",
-          "consequence": "Numbers don't lie in this building.",
+          "consequence": "Numbers don't lie in this building. You choose to beat him on results so loud nobody can mistake them. It opens the route to The Final Call, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your son spikes a fever and the daycare can't keep him. You have a 9 a.m. meeting that cannot be missed. The world has, again, asked you for two whole lives.",
+      "text": "Your son spikes a fever and the daycare can't keep him. You have a 9 a.m. meeting that cannot be missed. The world has, again, asked you for two whole lives. The distance between Week Nineteen and The Final Call begins with the choice between “Bring him to the office, hide him under your desk” and “Skip the meeting and explain truthfully later.”",
       "sceneTitle": "Sick Day",
       "choices": [
         {
           "text": "Bring him to the office, hide him under your desk",
-          "consequence": "Improvise; apologize; survive.",
+          "consequence": "Improvise; apologize; survive. You bring him to the office, hide him under your desk. The decision moves you toward Week Nineteen and tells everyone present what you are willing to risk.",
           "nextNodeId": "s16"
         },
         {
           "text": "Skip the meeting and explain truthfully later",
-          "consequence": "Honesty is also a strategy.",
+          "consequence": "Honesty is also a strategy. You commit to skip the meeting and explain truthfully later. By The Final Call, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You've been here long enough that the marble lobby looks ordinary. You look down at your hands and they're a little steadier. So is your son's. Your suit fits, finally.",
+      "text": "You've been here long enough that the marble lobby looks ordinary. You look down at your hands and they're a little steadier. So is your son's. Your suit fits, finally. The distance between Friday Morning and Whatever Friday Says begins with the choice between “Walk in tomorrow like you already work here” and “Stay humble; the decision isn't yours.”",
       "sceneTitle": "Week Nineteen",
       "choices": [
         {
           "text": "Walk in tomorrow like you already work here",
-          "consequence": "Belonging is a posture you adopt before they grant it.",
+          "consequence": "Belonging is a posture you adopt before they grant it. You choose to walk in tomorrow like you already work here. It opens the route to Friday Morning, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay humble; the decision isn't yours",
-          "consequence": "Pride is the last thing to lose, and the easiest.",
+          "consequence": "Pride is the last thing to lose, and the easiest. You commit to stay humble; the decision isn't yours. By Whatever Friday Says, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Be ready to take Friday's news either way",
-          "consequence": "A door, opened, is an option.",
+          "consequence": "A door, opened, is an option. You commit to be ready to take Friday's news either way. By Friday Morning, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s18"
         },
         {
           "text": "Resolve to take only the offered job, on principle",
-          "consequence": "Loyalty has its costs and its rewards.",
+          "consequence": "Loyalty has its costs and its rewards. You resolve to take only the offered job, on principle. The decision moves you toward Whatever Friday Says and tells everyone present what you are willing to risk.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Your supervisor calls you into his office. There is a single white envelope on the desk. He smiles, just slightly. You realize you have not breathed in approximately a minute.",
+      "text": "Your supervisor calls you into his office. There is a single white envelope on the desk. He smiles, just slightly. You realize you have not breathed in approximately a minute. “Open the envelope yourself” opens the route to The Offer. “Let him tell you out loud” changes the terms and carries you toward Whatever Comes Next.",
       "sceneTitle": "Friday Morning",
       "choices": [
         {
           "text": "Open the envelope yourself",
-          "consequence": "Take the news in your own hands.",
+          "consequence": "Take the news in your own hands. You open the envelope yourself. The decision moves you toward The Offer and tells everyone present what you are willing to risk.",
           "nextNodeId": "s20"
         },
         {
           "text": "Let him tell you out loud",
-          "consequence": "Some sentences are meant to be spoken.",
+          "consequence": "Some sentences are meant to be spoken. You choose to let him tell you out loud. It opens the route to Whatever Comes Next, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s21"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Believe him before the envelope speaks",
-          "consequence": "Some verdicts beat the official ones.",
+          "consequence": "Some verdicts beat the official ones. You commit to believe him before the envelope speaks. By The Offer, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         },
         {
           "text": "Wait for the room to call it official",
-          "consequence": "Hope and proof both have their seats.",
+          "consequence": "Hope and proof both have their seats. You commit to wait for the room to call it official. By Whatever Comes Next, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s21"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Take the job and build the life",
-          "consequence": "Doors open. Walk through.",
+          "consequence": "Doors open. Walk through. You commit to take the job and build the life. By Stockbroker, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_job"
         },
         {
           "text": "Take the job — and remember everyone who helped",
-          "consequence": "Success is not a solo act.",
+          "consequence": "Success is not a solo act. You choose to take the job — and remember everyone who helped. It opens the route to The People Who Carried You, giving up the protection of pretending you had not decided.",
           "nextNodeId": "end_grateful"
         }
       ],
@@ -404,12 +404,12 @@
       "choices": [
         {
           "text": "Call the senior partner Monday no matter what",
-          "consequence": "When the front door closes, knock on a window.",
+          "consequence": "When the front door closes, knock on a window. You commit to call the senior partner Monday no matter what. By The Other Door, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_door"
         },
         {
           "text": "Take your son out for something silly",
-          "consequence": "Today is for him. Tomorrow is for everything else.",
+          "consequence": "Today is for him. Tomorrow is for everything else. You take your son out for something silly. The decision moves you toward Your Son's Father and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_son"
         }
       ],
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_door",
-      "text": "You don't get the internship's job. You make the call. The other door opens — smaller, slower, but yours. Some pursuits are not a straight line. Yours is more interesting for the detour.",
+      "text": "You don't get the internship's job. You make the call. The other door opens — smaller, slower, but yours. Some pursuits are not a straight line. Yours is more interesting for the detour. The road into The Other Door began with “Call the senior partner Monday no matter what” in Whatever Comes Next; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Other Door",
       "choices": [],
       "isEnding": true,

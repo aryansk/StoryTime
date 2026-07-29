@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Open the Stark raven first",
-          "consequence": "The North remembers — and so do its enemies.",
+          "consequence": "The North remembers — and so do its enemies. You commit to open the Stark raven first. It buys momentum toward The Direwolf's Words and spends the last protection hesitation gave you.",
           "nextNodeId": "s2"
         },
         {
           "text": "Open the Lannister raven first",
-          "consequence": "Gold has a longer reach than honor.",
+          "consequence": "Gold has a longer reach than honor. You open the Lannister raven first. The route to The Lion's Coin opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The Stark letter is short and proud — sworn swords, no gold, a place at a council table when the wars are done. Honor like a cold draft through a great hall.",
+      "text": "The Stark letter is short and proud — sworn swords, no gold, a place at a council table when the wars are done. Honor like a cold draft through a great hall. “Trust the cold honor of the North” draws you toward The Maester's Counsel; “Find it pretty and impractical” leaves Your Wife's Strategy waiting on the other side.",
       "sceneTitle": "The Direwolf's Words",
       "choices": [
         {
           "text": "Trust the cold honor of the North",
-          "consequence": "Hard ground holds up the longest.",
+          "consequence": "Hard ground holds up the longest. You choose to trust the cold honor of the North. By The Maester's Counsel, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s4"
         },
         {
           "text": "Find it pretty and impractical",
-          "consequence": "Banners don't feed a garrison.",
+          "consequence": "Banners don't feed a garrison. You choose to find it pretty and impractical. By Your Wife's Strategy, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The Lannister letter rings — a chest of dragons in advance, more after the war, a marriage with a third cousin nobody will miss. Gold has good manners.",
+      "text": "The Lannister letter rings — a chest of dragons in advance, more after the war, a marriage with a third cousin nobody will miss. Gold has good manners. The distance between Your Wife's Strategy and The Maester's Counsel begins with the choice between “Take the coin and the comfortable side” and “Distrust gold that arrives so cheaply.”",
       "sceneTitle": "The Lion's Coin",
       "choices": [
         {
           "text": "Take the coin and the comfortable side",
-          "consequence": "Survival is also a virtue, however cynical.",
+          "consequence": "Survival is also a virtue, however cynical. You commit to take the coin and the comfortable side. It buys momentum toward Your Wife's Strategy and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         },
         {
           "text": "Distrust gold that arrives so cheaply",
-          "consequence": "A purse this open hides a knife.",
+          "consequence": "A purse this open hides a knife. You distrust gold that arrives so cheaply. The route to The Maester's Counsel opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Old Maester Edryn has served three lords and outlived two. 'There is no right answer,' he says. 'Only the answer you can live with after.' He coughs. He has, perhaps, a year.",
+      "text": "Old Maester Edryn has served three lords and outlived two. 'There is no right answer,' he says. 'Only the answer you can live with after.' He coughs. He has, perhaps, a year. You are unlikely to keep all three.",
       "sceneTitle": "The Maester's Counsel",
       "choices": [
         {
           "text": "Ask him what he would do",
-          "consequence": "The wise are best asked, not obeyed.",
+          "consequence": "The wise are best asked, not obeyed. You commit to ask him what he would do. It buys momentum toward The Bannermen and spends the last protection hesitation gave you.",
           "nextNodeId": "s6"
         },
         {
           "text": "Decide alone — the choice is yours",
-          "consequence": "A lord who borrows backbone has none.",
+          "consequence": "A lord who borrows backbone has none. You commit to decide alone — the choice is yours. It buys momentum toward Dragon Rumors and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Follow her plan to play both sides",
-          "consequence": "A bridge is the most expensive thing you own.",
+          "consequence": "A bridge is the most expensive thing you own. You follow her plan to play both sides. The route to Dragon Rumors opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         },
         {
           "text": "Refuse — call it dishonorable",
-          "consequence": "Honor is a kind of luxury too.",
+          "consequence": "Honor is a kind of luxury too. You commit to refuse — call it dishonorable. It buys momentum toward The Bannermen and spends the last protection hesitation gave you.",
           "nextNodeId": "s6"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Take a vote and abide by it",
-          "consequence": "Democracy in Westeros is a curiosity.",
+          "consequence": "Democracy in Westeros is a curiosity. You take a vote and abide by it. The route to First Skirmish opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         },
         {
           "text": "Speak first and tell them where you stand",
-          "consequence": "Lords lead. Bannermen follow or leave.",
+          "consequence": "Lords lead. Bannermen follow or leave. You choose to speak first and tell them where you stand. By Wildlings at the Walls, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "A merchant claims he saw a shadow with wings the size of a longship pass over the Narrow Sea. A child claims the same. The maester scoffs and does not sleep that night.",
+      "text": "A merchant claims he saw a shadow with wings the size of a longship pass over the Narrow Sea. A child claims the same. The maester scoffs and does not sleep that night. Choose “Send a man east to confirm” and First Skirmish comes into view; choose “Dismiss it as a rumor and a child” and the road bends toward Wildlings at the Walls.",
       "sceneTitle": "Dragon Rumors",
       "choices": [
         {
           "text": "Send a man east to confirm",
-          "consequence": "Knowledge is the only armor that fits everyone.",
+          "consequence": "Knowledge is the only armor that fits everyone. You choose to send a man east to confirm. By First Skirmish, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Dismiss it as a rumor and a child",
-          "consequence": "Dragons are stories. Until they aren't.",
+          "consequence": "Dragons are stories. Until they aren't. You dismiss it as a rumor and a child. The route to Wildlings at the Walls opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Hang the prisoners as a warning",
-          "consequence": "Cruelty travels fast and ugly.",
+          "consequence": "Cruelty travels fast and ugly. You choose to hang the prisoners as a warning. By Trial of a Traitor, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Send them home with bread and a message",
-          "consequence": "Mercy can be a kind of edge.",
+          "consequence": "Mercy can be a kind of edge. You commit to send them home with bread and a message. It buys momentum toward The Spy in the Kitchen and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A line of strangers from the North — gaunt, frostbitten, refugees from things worse than men — wait at your gates. The septon calls them savages. The cook offers them broth.",
+      "text": "A line of strangers from the North — gaunt, frostbitten, refugees from things worse than men — wait at your gates. The septon calls them savages. The cook offers them broth. “Take them in and use their strong backs” opens the route to Trial of a Traitor. “Turn them away to spare your stores” changes the terms and carries you toward The Spy in the Kitchen.",
       "sceneTitle": "Wildlings at the Walls",
       "choices": [
         {
           "text": "Take them in and use their strong backs",
-          "consequence": "Allies arrive in odd skins.",
+          "consequence": "Allies arrive in odd skins. You choose to take them in and use their strong backs. By Trial of a Traitor, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Turn them away to spare your stores",
-          "consequence": "A castle that feeds everyone feeds no one.",
+          "consequence": "A castle that feeds everyone feeds no one. You commit to turn them away to spare your stores. It buys momentum toward The Spy in the Kitchen and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Your steward is caught passing word to the Lannisters. He has six children. The law is clear; the law is also a heavy weight to carry. Maren wants him beheaded by sundown.",
+      "text": "Your steward is caught passing word to the Lannisters. He has six children. The law is clear; the law is also a heavy weight to carry. Maren wants him beheaded by sundown. To choose “Execute him publicly to keep order” means meeting The Red Feast Invitation; “Spare him and use him as a false-message conduit” sends you toward Sermon by the River instead.",
       "sceneTitle": "Trial of a Traitor",
       "choices": [
         {
           "text": "Execute him publicly to keep order",
-          "consequence": "Iron speaks plainly.",
+          "consequence": "You choose to execute him publicly to keep order. By The Red Feast Invitation, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         },
         {
           "text": "Spare him and use him as a false-message conduit",
-          "consequence": "A turned spy is sharper than any blade.",
+          "consequence": "A turned spy is sharper than any blade. You spare him and use him as a false-message conduit. The route to Sermon by the River opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Maren discovers a Lannister man in the scullery — leaving for two months, learning the tunnels. He kneels and begs and his accent is from a village two valleys over.",
+      "text": "Maren discovers a Lannister man in the scullery — leaving for two months, learning the tunnels. He kneels and begs and his accent is from a village two valleys over. “Quietly disappear the spy” opens the route to The Red Feast Invitation. “Feed him a beautiful lie and let him 'escape'” changes the terms and carries you toward Sermon by the River.",
       "sceneTitle": "The Spy in the Kitchen",
       "choices": [
         {
           "text": "Quietly disappear the spy",
-          "consequence": "Some problems vanish best at night.",
+          "consequence": "Some problems vanish best at night. You quietly disappear the spy. The route to The Red Feast Invitation opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s12"
         },
         {
           "text": "Feed him a beautiful lie and let him 'escape'",
-          "consequence": "Information aimed back is the cheapest weapon.",
+          "consequence": "Information aimed back is the cheapest weapon. You commit to feed him a beautiful lie and let him 'escape'. It buys momentum toward Sermon by the River and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "An invitation arrives, stamped with the Frey star and weighted with too much ceremony. A wedding. Both sides will be there. Maester Edryn has gone very still.",
+      "text": "An invitation arrives, stamped with the Frey star and weighted with too much ceremony. A wedding. Both sides will be there. Maester Edryn has gone very still. You are unlikely to keep all three. Choose “Attend — refusal is its own statement” and The Wedding Hall comes into view; choose “Send your regrets and an honest gift” and the road bends toward The Marriage Pact.",
       "sceneTitle": "The Red Feast Invitation",
       "choices": [
         {
           "text": "Attend — refusal is its own statement",
-          "consequence": "The most dangerous rooms are the most necessary.",
+          "consequence": "The most dangerous rooms are the most necessary. You choose to attend — refusal is its own statement. By The Wedding Hall, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         },
         {
           "text": "Send your regrets and an honest gift",
-          "consequence": "Some doors are closed for the body and opened for the soul.",
+          "consequence": "Some doors are closed for the body and opened for the soul. You choose to send your regrets and an honest gift. By The Marriage Pact, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The septon preaches that war is a punishment from the Seven for lords forgetting the small folk. Your peasants nod. So do, awkwardly, two of your bannermen. A sermon is sometimes the start of a politics.",
+      "text": "The septon preaches that war is a punishment from the Seven for lords forgetting the small folk. Your peasants nod. So do, awkwardly, two of your bannermen. A sermon is sometimes the start of a politics. You are unlikely to keep all three.",
       "sceneTitle": "Sermon by the River",
       "choices": [
         {
           "text": "Embrace him publicly to win the smallfolk",
-          "consequence": "A god on your side travels free.",
+          "consequence": "A god on your side travels free. You choose to embrace him publicly to win the smallfolk. By The Wedding Hall, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         },
         {
           "text": "Quietly muzzle him before he becomes a movement",
-          "consequence": "Sermons can outrun swords.",
+          "consequence": "Sermons can outrun swords. You choose to quietly muzzle him before he becomes a movement. By The Marriage Pact, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You ride in under your banner with a small honor guard. The hall is too full, the music is too loud, and the wine is too generous. You see Maren count exits three times.",
+      "text": "You ride in under your banner with a small honor guard. The hall is too full, the music is too loud, and the wine is too generous. You see Maren count exits three times. The distance between The Siege and Treaty Under Stars begins with the choice between “Leave before the toast” and “Stay and hold your position.”",
       "sceneTitle": "The Wedding Hall",
       "choices": [
         {
           "text": "Leave before the toast",
-          "consequence": "Trust her counting.",
+          "consequence": "You choose to leave before the toast. By The Siege, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay and hold your position",
-          "consequence": "A lord who flees a wedding becomes a story.",
+          "consequence": "A lord who flees a wedding becomes a story. You choose to stay and hold your position. By Treaty Under Stars, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Make the pact public and binding",
-          "consequence": "Allies welded in candle-wax.",
+          "consequence": "Allies welded in candle-wax. You make the pact public and binding. The route to The Siege opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s16"
         },
         {
           "text": "Keep it secret until the war declares a winner",
-          "consequence": "A card is sharpest when it is still face-down.",
+          "consequence": "A card is sharpest when it is still face-down. You choose to keep it secret until the war declares a winner. By Treaty Under Stars, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Hold the siege to the last grain",
-          "consequence": "Walls win wars patient men forget.",
+          "consequence": "Walls win wars patient men forget. You hold the siege to the last grain. The route to Dragon Shadow opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         },
         {
           "text": "Negotiate from strength while you still can",
-          "consequence": "Speak first, before hunger does.",
+          "consequence": "Speak first, before hunger does. You choose to negotiate from strength while you still can. By Northern Snows, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Swear the treaty and mean it",
-          "consequence": "Honor offered first is harder to refuse.",
+          "consequence": "Honor offered first is harder to refuse. You choose to swear the treaty and mean it. By Dragon Shadow, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         },
         {
           "text": "Swear it and plan to break it cleverly",
-          "consequence": "Cleverness comes due, eventually.",
+          "consequence": "Cleverness comes due, eventually. You choose to swear it and plan to break it cleverly. By Northern Snows, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "A shape passes over your towers, and the temperature drops, and your archers forget what their bows are for. The dragon is real. The dragon has noticed you. The world tilts.",
+      "text": "A shape passes over your towers, and the temperature drops, and your archers forget what their bows are for. The dragon is real. The dragon has noticed you. The world tilts. The distance between Summons to King's Landing and Hold the Castle begins with the choice between “Kneel to whoever rides the dragon” and “Hide your house from the dragon's gaze.”",
       "sceneTitle": "Dragon Shadow",
       "choices": [
         {
           "text": "Kneel to whoever rides the dragon",
-          "consequence": "Some powers you bow to without shame.",
+          "consequence": "Some powers you bow to without shame. You choose to kneel to whoever rides the dragon. By Summons to King's Landing, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hide your house from the dragon's gaze",
-          "consequence": "Be small enough to escape notice.",
+          "consequence": "Be small enough to escape notice. You choose to hide your house from the dragon's gaze. By Hold the Castle, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s21"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Ride north with all your spears",
-          "consequence": "Some causes outrank a throne.",
+          "consequence": "Some causes outrank a throne. You choose to ride north with all your spears. By Summons to King's Landing, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Fortify south and let the kingdoms cope",
-          "consequence": "Charity that ruins you helps no one.",
+          "consequence": "Charity that ruins you helps no one. You commit to fortify south and let the kingdoms cope. It buys momentum toward Hold the Castle and spends the last protection hesitation gave you.",
           "nextNodeId": "s21"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A new ruler — whoever survived the wedding, the siege, and the dragon — summons you to court. The summons is silk-wrapped. You know what silk-wrapped summons mean.",
+      "text": "A new ruler — whoever survived the wedding, the siege, and the dragon — summons you to court. The summons is silk-wrapped. You know what silk-wrapped summons mean. The paths divide here: “Attend court and play the long game” leads into The Game, Played, while “Refuse and rule your small corner well” makes A Small Lordship the next reckoning.",
       "sceneTitle": "Summons to King's Landing",
       "choices": [
         {
           "text": "Attend court and play the long game",
-          "consequence": "The game of thrones is for those who like rooms.",
+          "consequence": "The game of thrones is for those who like rooms. You choose to attend court and play the long game. By The Game, Played, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_throne"
         },
         {
           "text": "Refuse and rule your small corner well",
-          "consequence": "Wisdom is also a kind of crown.",
+          "consequence": "Wisdom is also a kind of crown. You refuse and rule your small corner well. The route to A Small Lordship opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -404,17 +404,17 @@
       "choices": [
         {
           "text": "Decide to ride out and build a kingdom of your own",
-          "consequence": "Small lords can become large ones, given time and luck.",
+          "consequence": "Small lords can become large ones, given time and luck. You decide to ride out and build a kingdom of your own. The route to The Game, Played opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_throne"
         },
         {
           "text": "Decide enough is enough and live",
-          "consequence": "Some victories taste like an ordinary morning.",
+          "consequence": "Some victories taste like an ordinary morning. You decide enough is enough and live. The route to A Small Lordship opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Burn what you cannot defend before the dragon comes",
-          "consequence": "There is dignity even in ash.",
+          "consequence": "There is dignity even in ash. You choose to burn what you cannot defend before the dragon comes. By Northern Snows, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_burn"
         }
       ],

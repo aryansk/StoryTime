@@ -18,17 +18,17 @@
   "nodes": [
     {
       "id": "m1",
-      "text": "Unknown number. 11:47 p.m.",
+      "text": "Unknown number. 11:47 p.m. Voice will follow either decision, but it will meet a different version of you after “Answer” than after “Decline.”",
       "sceneTitle": "Ring",
       "choices": [
         {
           "text": "Answer",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You answer. The way toward Voice opens, and something on the other side seems to notice.",
           "nextNodeId": "m2"
         },
         {
           "text": "Decline",
-          "consequence": "You commit to “Decline.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You decline. The way toward Voice opens, and something on the other side seems to notice.",
           "nextNodeId": "m2"
         }
       ],
@@ -37,17 +37,17 @@
     },
     {
       "id": "m2",
-      "text": "Calm, female, careful. She asks if you can keep a secret.",
+      "text": "Calm, female, careful. She asks if you can keep a secret. Both choices lead to Address, but “Yes” arrives there with a different cost than “Hang up.”",
       "sceneTitle": "Voice",
       "choices": [
         {
           "text": "Yes",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You choose to yes. By Address, the danger will know a little more about you than you know about it.",
           "nextNodeId": "m3"
         },
         {
           "text": "Hang up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You hang up. The way toward Address opens, and something on the other side seems to notice.",
           "nextNodeId": "m3"
         }
       ],
@@ -56,17 +56,17 @@
     },
     {
       "id": "m3",
-      "text": "She gives you an address. A bus station. Locker 47.",
+      "text": "She gives you an address. A bus station. Locker 47. You cannot avoid Locker; you can only decide whether “Write it down” or “Repeat it back skeptically” defines the person who reaches it.",
       "sceneTitle": "Address",
       "choices": [
         {
           "text": "Write it down",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You write it down. The way toward Locker opens, and something on the other side seems to notice.",
           "nextNodeId": "m4"
         },
         {
           "text": "Repeat it back skeptically",
-          "consequence": "You commit to “Repeat it back skeptically.” The story records the instinct as “Smart” and carries it forward.",
+          "consequence": "You repeat it back skeptically. The way toward Locker opens, and something on the other side seems to notice.",
           "nextNodeId": "m4"
         }
       ],
@@ -75,17 +75,17 @@
     },
     {
       "id": "m4",
-      "text": "You go in the morning. There's a phone in the locker. It rings.",
+      "text": "You go in the morning. There's a phone in the locker. It rings. She Explains will follow either decision, but it will meet a different version of you after “Pick up” than after “Walk away.”",
       "sceneTitle": "Locker",
       "choices": [
         {
           "text": "Pick up",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to pick up. It carries you into She Explains while the safer possibility closes without making a sound.",
           "nextNodeId": "m5"
         },
         {
           "text": "Walk away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to walk away. It carries you into She Explains while the safer possibility closes without making a sound.",
           "nextNodeId": "m5"
         }
       ],
@@ -94,17 +94,17 @@
     },
     {
       "id": "m5",
-      "text": "She is in danger. She needs you to mail an envelope.",
+      "text": "She is in danger. She needs you to mail an envelope. The road still runs toward Done. Its next turn depends on the difference between choosing “Mail it” and choosing “Open it first.”",
       "sceneTitle": "She Explains",
       "choices": [
         {
           "text": "Mail it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You mail it. The way toward Done opens, and something on the other side seems to notice.",
           "nextNodeId": "m6"
         },
         {
           "text": "Open it first",
-          "consequence": "“Open it first” closes one possibility and opens another. The moment leaves a clear note behind: Foolish.",
+          "consequence": "You open it first. The way toward Done opens, and something on the other side seems to notice.",
           "nextNodeId": "m6"
         }
       ],
@@ -113,17 +113,17 @@
     },
     {
       "id": "m6",
-      "text": "You drop it in the box. A week later, a news story. A man indicted.",
+      "text": "You drop it in the box. A week later, a news story. A man indicted. To choose “Note the story” means meeting Anonymous Donor; “Don't note” sends you toward Coffee, Months Later instead.",
       "sceneTitle": "Done",
       "choices": [
         {
           "text": "Note the story",
-          "consequence": "You commit to “Note the story.” The story records the instinct as “Witness” and carries it forward.",
+          "consequence": "You commit to note the story. It carries you into Anonymous Donor while the safer possibility closes without making a sound.",
           "nextNodeId": "end_safe"
         },
         {
           "text": "Don't note",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to don't note. By Coffee, Months Later, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_meeting"
         }
       ],
@@ -132,7 +132,7 @@
     },
     {
       "id": "end_safe",
-      "text": "Your envelope was, the story implies, the key piece. Nobody ever knows it was you.",
+      "text": "Your envelope was, the story implies, the key piece. Nobody ever knows it was you. The road into Anonymous Donor began with “Note the story” in Done; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Anonymous Donor",
       "choices": [],
       "isEnding": true,

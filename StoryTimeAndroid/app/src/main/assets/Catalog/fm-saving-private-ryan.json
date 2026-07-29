@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Spray, vomit, prayer. The ramp goes down.",
+      "text": "Spray, vomit, prayer. The ramp goes down. Beach is already waiting. What changes is whether “Lead off” or “Go side” is the instinct you carry into it. In The Boat, the safer route is disappearing faster than the danger.",
       "sceneTitle": "The Boat",
       "choices": [
         {
           "text": "Lead off",
-          "consequence": "“Lead off” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You lead off. The route to Beach opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         },
         {
           "text": "Go side",
-          "consequence": "There is no taking “Go side” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to go side. By Beach, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Water, blood, sand. The seawall ahead.",
+      "text": "Water, blood, sand. The seawall ahead. You are unlikely to keep all three. Both choices lead to Seawall, but “Crawl up” arrives there with a different cost than “Stand and run.” At Seawall, everyone involved will know which risk you accepted.",
       "sceneTitle": "Beach",
       "choices": [
         {
           "text": "Crawl up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You commit to crawl up. It buys momentum toward Seawall and spends the last protection hesitation gave you.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stand and run",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to stand and run. It buys momentum toward Seawall and spends the last protection hesitation gave you.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Captain Miller's hand shakes. Orders are quiet.",
+      "text": "Captain Miller's hand shakes. Orders are quiet. Pillbox is already waiting. What changes is whether “Steady the men” or “Wait” is the instinct you carry into it. In Seawall, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Seawall",
       "choices": [
         {
           "text": "Steady the men",
-          "consequence": "“Steady the men” closes one possibility and opens another. The moment leaves a clear note behind: Lead.",
+          "consequence": "You choose to steady the men. By Pillbox, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s4"
         },
         {
           "text": "Wait",
-          "consequence": "“Wait” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to wait. It buys momentum toward Pillbox and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Bangalore. The wall breaches. The pillbox falls.",
+      "text": "Bangalore. The wall breaches. The pillbox falls. You cannot avoid Orders; you can only decide whether “Take prisoners” or “Take none” defines the person who reaches it. By Orders, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Pillbox",
       "choices": [
         {
           "text": "Take prisoners",
-          "consequence": "You commit to “Take prisoners.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to take prisoners. By Orders, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         },
         {
           "text": "Take none",
-          "consequence": "“Take none” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You choose to take none. By Orders, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Find Ryan. One of four brothers. Three are dead.",
+      "text": "Find Ryan. One of four brothers. Three are dead. The road still runs toward Squad. Its next turn depends on the difference between choosing “Argue the order” and choosing “Take it.” By Squad, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Orders",
       "choices": [
         {
           "text": "Argue the order",
-          "consequence": "You commit to “Argue the order.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to argue the order. By Squad, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take it",
-          "consequence": "You commit to “Take it.” The story records the instinct as “Soldier” and carries it forward.",
+          "consequence": "You take it. The route to Squad opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Reiben, Mellish, Caparzo, Wade, Jackson, Upham, Horvath.",
+      "text": "Reiben, Mellish, Caparzo, Wade, Jackson, Upham, Horvath. French Town is already waiting. What changes is whether “Brief them” or “Let Miller” is the instinct you carry into it. By French Town, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Squad",
       "choices": [
         {
           "text": "Brief them",
-          "consequence": "“Brief them” closes one possibility and opens another. The moment leaves a clear note behind: Lead.",
+          "consequence": "You choose to brief them. By French Town, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         },
         {
           "text": "Let Miller",
-          "consequence": "You commit to “Let Miller.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to let Miller. By French Town, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Sniper. A child handed across rubble.",
+      "text": "Sniper. A child handed across rubble. You cannot avoid Caparzo; you can only decide whether “Save the child” or “Press on” defines the person who reaches it. In French Town, the safer route is disappearing faster than the danger.",
       "sceneTitle": "French Town",
       "choices": [
         {
           "text": "Save the child",
-          "consequence": "“Save the child” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You choose to save the child. By Caparzo, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Press on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mission.",
+          "consequence": "You press on. The route to Caparzo opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Sniper takes Caparzo. Jackson takes the sniper.",
+      "text": "Sniper takes Caparzo. Jackson takes the sniper. Radio Tower comes either way; its meaning changes with the difference between “Mourn briefly” and “Hate the sniper.” At Radio Tower, everyone involved will know which risk you accepted.",
       "sceneTitle": "Caparzo",
       "choices": [
         {
           "text": "Mourn briefly",
-          "consequence": "There is no taking “Mourn briefly” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to mourn briefly. By Radio Tower, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         },
         {
           "text": "Hate the sniper",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Anger.",
+          "consequence": "You choose to hate the sniper. By Radio Tower, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A pinned squadron. A choice to engage or skirt.",
+      "text": "A pinned squadron. A choice to engage or skirt. The road still runs toward Machine Gun Nest. Its next turn depends on the difference between choosing “Engage” and choosing “Skirt.” In Radio Tower, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Radio Tower",
       "choices": [
         {
           "text": "Engage",
-          "consequence": "You commit to “Engage.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to engage. By Machine Gun Nest, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Skirt",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mission.",
+          "consequence": "You choose to skirt. By Machine Gun Nest, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You take it. Wade is killed in the assault.",
+      "text": "You take it. Wade is killed in the assault. You cannot avoid Steamboat Willie; you can only decide whether “Spare the German” or “Don't” defines the person who reaches it. In Machine Gun Nest, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Machine Gun Nest",
       "choices": [
         {
           "text": "Spare the German",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You commit to spare the German. It buys momentum toward Steamboat Willie and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Anger.",
+          "consequence": "You don't. The route to Steamboat Willie opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Wade is dead. The German shovels. Reiben wants him shot.",
+      "text": "Wade is dead. The German shovels. Reiben wants him shot. Reiben comes either way; its meaning changes with the difference between “Release him” and “Shoot him.” By Reiben, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Steamboat Willie",
       "choices": [
         {
           "text": "Release him",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to release him. By Reiben, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         },
         {
           "text": "Shoot him",
-          "consequence": "You commit to “Shoot him.” The story records the instinct as “Anger” and carries it forward.",
+          "consequence": "You choose to shoot him. By Reiben, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Reiben refuses to march. The squad almost shatters.",
+      "text": "Reiben refuses to march. The squad almost shatters. You are unlikely to keep all three. You cannot avoid Captain's Hand; you can only decide whether “Hold them together” or “Let Reiben go” defines the person who reaches it.",
       "sceneTitle": "Reiben",
       "choices": [
         {
           "text": "Hold them together",
-          "consequence": "You commit to “Hold them together.” The story records the instinct as “Lead” and carries it forward.",
+          "consequence": "You commit to hold them together. It buys momentum toward Captain's Hand and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let Reiben go",
-          "consequence": "You commit to “Let Reiben go.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You commit to let Reiben go. It buys momentum toward Captain's Hand and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Miller's hand shakes. He cries. The squad doesn't see.",
+      "text": "Miller's hand shakes. He cries. The squad doesn't see. Ryan Found is already waiting. What changes is whether “See him” or “Look away” is the instinct you carry into it. By Ryan Found, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Captain's Hand",
       "choices": [
         {
           "text": "See him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You choose to see him. By Ryan Found, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         },
         {
           "text": "Look away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You look away. The route to Ryan Found opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Ryan, alive, won't leave his men. The bridge must be held.",
+      "text": "Ryan, alive, won't leave his men. The bridge must be held. Both choices lead to Plan, but “Help hold it” arrives there with a different cost than “Carry him out.” By Plan, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Ryan Found",
       "choices": [
         {
           "text": "Help hold it",
-          "consequence": "You commit to “Help hold it.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to help hold it. It buys momentum toward Plan and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         },
         {
           "text": "Carry him out",
-          "consequence": "“Carry him out” closes one possibility and opens another. The moment leaves a clear note behind: Mission.",
+          "consequence": "You choose to carry him out. By Plan, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Cover, sticky bombs, ambush, fallback to alamo.",
+      "text": "Cover, sticky bombs, ambush, fallback to alamo. The road still runs toward Tiger Tanks. Its next turn depends on the difference between choosing “Run the plan” and choosing “Improvise.” By Tiger Tanks, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Plan",
       "choices": [
         {
           "text": "Run the plan",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You choose to run the plan. By Tiger Tanks, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         },
         {
           "text": "Improvise",
-          "consequence": "You commit to “Improvise.” The story records the instinct as “Speed” and carries it forward.",
+          "consequence": "You choose to improvise. By Tiger Tanks, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "They arrive. The bombs work imperfectly.",
+      "text": "They arrive. The bombs work imperfectly. The road still runs toward Mellish. Its next turn depends on the difference between choosing “Hold” and choosing “Fall back.” By Mellish, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Tiger Tanks",
       "choices": [
         {
           "text": "Hold",
-          "consequence": "There is no taking “Hold” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to hold. It buys momentum toward Mellish and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Fall back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You choose to fall back. By Mellish, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "House by house. Mellish dies in a knife fight upstairs.",
+      "text": "House by house. Mellish dies in a knife fight upstairs. The road still runs toward Upham. Its next turn depends on the difference between choosing “Push to him” and choosing “Cover.” By Upham, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Mellish",
       "choices": [
         {
           "text": "Push to him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brother.",
+          "consequence": "You push to him. The route to Upham opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cover",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Mission.",
+          "consequence": "You choose to cover. By Upham, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Upham freezes on the stairs. He does nothing.",
+      "text": "Upham freezes on the stairs. He does nothing. You are unlikely to keep all three. The road still runs toward Miller. Its next turn depends on the difference between choosing “Forgive him later” and choosing “Hate him later.”",
       "sceneTitle": "Upham",
       "choices": [
         {
           "text": "Forgive him later",
-          "consequence": "You commit to “Forgive him later.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You commit to forgive him later. It buys momentum toward Miller and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Hate him later",
-          "consequence": "There is no taking “Hate him later” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hate him later. By Miller, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Captain Miller is hit at the bridge. He shoots a tank with a pistol. The P-51s arrive.",
+      "text": "Captain Miller is hit at the bridge. He shoots a tank with a pistol. The P-51s arrive. Both choices lead to Last Words, but “Hold his hand” arrives there with a different cost than “Press on.”",
       "sceneTitle": "Miller",
       "choices": [
         {
           "text": "Hold his hand",
-          "consequence": "“Hold his hand” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to hold his hand. By Last Words, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Press on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mission.",
+          "consequence": "You choose to press on. By Last Words, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Earn this, he says. He dies.",
+      "text": "Earn this, he says. He dies. Old Man at the Grave will follow either decision, but it will meet a different version of you after “Vow” than after “Be silent.” At Old Man at the Grave, everyone involved will know which risk you accepted.",
       "sceneTitle": "Last Words",
       "choices": [
         {
           "text": "Vow",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to vow. By Old Man at the Grave, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s21"
         },
         {
           "text": "Be silent",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to be silent. It buys momentum toward Old Man at the Grave and spends the last protection hesitation gave you.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Years later you stand at the cross. Your family behind you.",
+      "text": "Years later you stand at the cross. Your family behind you. To choose “Ask your wife if you've been a good man” means meeting Earn This; “Salute and walk” sends you toward Teaching instead. A third choice, “Take the third path,” keeps The Silence in play.",
       "sceneTitle": "Old Man at the Grave",
       "choices": [
         {
           "text": "Ask your wife if you've been a good man",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to ask your wife if you've been a good man. By Earn This, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_earned"
         },
         {
           "text": "Salute and walk",
-          "consequence": "The decision settles the question for now. Its verdict—Quiet—follows you into whatever comes next.",
+          "consequence": "You commit to salute and walk. It buys momentum toward Teaching and spends the last protection hesitation gave you.",
           "nextNodeId": "end_teacher"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By The Silence, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_silence"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_earned",
-      "text": "You live a life worth earning. You marry kindly, work hard, raise children who do good. You never say much about the war. They know anyway.",
+      "text": "You live a life worth earning. You marry kindly, work hard, raise children who do good. You never say much about the war. They know anyway. The road into Earn This began with “Ask your wife if you've been a good man” in Old Man at the Grave; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Earn This",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_teacher",
-      "text": "You teach high school history for decades. You don't bring up Normandy. The kids find it in books. They come to your desk after class. You answer carefully.",
+      "text": "You teach high school history for decades. You don't bring up Normandy. The kids find it in books. They come to your desk after class. You answer carefully. The road into Teaching began with “Salute and walk” in Old Man at the Grave; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Teaching",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_silence",
-      "text": "You don't talk about it. Your wife knows. Your children, eventually, know. Your grandchildren learn the soft version. The truth is, somehow, both.",
+      "text": "You don't talk about it. Your wife knows. Your children, eventually, know. Your grandchildren learn the soft version. The truth is, somehow, both. The road into The Silence began with “Take the third path” in Old Man at the Grave; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Silence",
       "choices": [],
       "isEnding": true,

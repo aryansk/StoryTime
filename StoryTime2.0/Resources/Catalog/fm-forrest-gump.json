@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Doctor says you'll wear it forever. Mama disagrees.",
+      "text": "The doctor says permanent. He says it to Mama, over your head, with a cold tape still looped around your spine. In the car she tells you doctors get paid whether they turn out right or not. The braces go on anyway. They squeak on the kitchen linoleum every morning at six, and Mama never once lets her face change at the sound.",
       "sceneTitle": "The Brace",
       "choices": [
         {
           "text": "Trust Mama",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You decide Mama knows more than a tape measure does. It will take a shattering out on a dirt road to prove her right.",
           "nextNodeId": "s2"
         },
         {
           "text": "Trust the doctor",
-          "consequence": "There is no taking “Trust the doctor” back. Reason shapes the silence before the next moment arrives.",
+          "consequence": "You accept the steel as a fact about yourself, the way you accept your own name. Nobody warns you that facts can come off in pieces.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "First day of school. Nobody will let you sit. A girl named Jenny does.",
+      "text": "The bus smells like hot rubber and somebody's egg sandwich. You go down the aisle and every seat has a hand flat on it and a face turned to the window. Then a girl with creek dirt on her knees moves her books and says the seat is free, and has to say it twice, because you don't move. Her name is Jenny.",
       "sceneTitle": "The Bus",
       "choices": [
         {
           "text": "Sit by Jenny",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You sit down, and you keep sitting there every morning after, and that settles who you are going to spend the rest of your life waiting on.",
           "nextNodeId": "s3"
         },
         {
           "text": "Sit alone",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You aim for the empty seat by the driver to save her the trouble. She pats the vinyl again, harder, and that small insistence decides forty years.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Bullies. Stones. Jenny yells run. The brace shatters off your legs.",
+      "text": "They come on bicycles with their pockets full of creek stones. One catches you behind the ear and your hearing goes hot and thin. Jenny is up on the fence screaming a single word at you over and over, and your legs go before you understand them. The braces buckle, shear, and come apart in the road behind you in bright pieces.",
       "sceneTitle": "Run, Forrest",
       "choices": [
         {
           "text": "Keep running",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Joy.",
+          "consequence": "You outrun bicycles. You do not stop at the county line. Something in you learns that away is a direction you happen to be good at.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stop and confront",
-          "consequence": "There is no taking “Stop and confront” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You slow, you turn, and the sight of your face makes them pedal harder. Standing your ground costs nothing today. Jenny is the one still shaking on the fence.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Alabama recruits you. Bear Bryant nods. You return kicks for touchdowns.",
+      "text": "A man in a houndstooth hat watches you cross a field faster than his stopwatch expects and offers your mother a scholarship in her own front room. On Saturdays they hand you the ball on kickoffs. You go. You keep going through the end zone, past the band, up the tunnel, because no one has explained where exactly the running is supposed to stop.",
       "sceneTitle": "College Football",
       "choices": [
         {
           "text": "Just keep running",
-          "consequence": "There is no taking “Just keep running” back. Forward shapes the silence before the next moment arrives.",
+          "consequence": "Sixty thousand people scream and you hear none of it. The tunnel is quieter than the field, and you find you prefer the tunnel.",
           "nextNodeId": "s5"
         },
         {
           "text": "Try a fake",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You try a shoulder feint you saw a teammate use. It works, barely, and it feels like telling a lie with your body. You never do it again.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Army drafts you. You meet Bubba. Bubba talks about shrimp.",
+      "text": "The Army hands you a uniform that fits, a bunk, a number, and a name to answer to, which is more instruction than anybody has ever given you at once. On the next bunk is Benjamin Buford Blue, who intends to discuss shrimp until one of you dies. He has a list. Boiled, skewered, pan-fried, in a stew. You listen to all of it.",
       "sceneTitle": "Vietnam",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You let him say the whole list, twice, without once telling him to quit. It is the kindest thing anybody does for Bubba in his entire life.",
           "nextNodeId": "s6"
         },
         {
           "text": "Plan together",
-          "consequence": "The decision settles the question for now. Its verdict—Plan—follows you into whatever comes next.",
+          "consequence": "You start talking boats and licences and a slip in Bayou La Batre. Neither of you notices you are making a promise that will outlive one of you.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Rain. Fire. Bubba is down. You carry him.",
+      "text": "Rain comes down so hard the radio is useless, and then the tree line opens up on you. You are carrying somebody out and going back and carrying somebody else out, four separate times, and each time the shooting has moved closer to where you started. The fourth time you find Bubba propped against a root, and he asks you why, and you have no answer short enough.",
       "sceneTitle": "Ambush",
       "choices": [
         {
           "text": "Go back for the others",
-          "consequence": "“Go back for the others” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You go into the smoke four times and come out four times with men who will name sons after you. Bubba is the trip you make last.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay with Bubba",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Loyal.",
+          "consequence": "You sit in the mud with his head on your knee and describe the boat to him. He is gone before the helicopter, and you keep describing it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You meet Lieutenant Dan. He is, angry, alive, missing legs.",
+      "text": "Lieutenant Dan is three beds down, propped up, furious at a ceiling tile. The sheet lies flat below his hips. He tells you that you stole a death arranged for him by four generations of his family, and he says it like a charge in a courtroom, and you say sorry, and neither of you knows what to do with that afterward.",
       "sceneTitle": "Hospital",
       "choices": [
         {
           "text": "Play ping-pong",
-          "consequence": "There is no taking “Play ping-pong” back. Therapy shapes the silence before the next moment arrives.",
+          "consequence": "You find a paddle in the rec room and hit the ball against the wall until your arm burns. Dan watches from the doorway and hates you for having a thing to do.",
           "nextNodeId": "s8"
         },
         {
           "text": "Sit with Dan",
-          "consequence": "There is no taking “Sit with Dan” back. Friend shapes the silence before the next moment arrives.",
+          "consequence": "You drag a chair over and stay through the shouting and the long nothing after it. He never thanks you. Twenty years later he turns up with titanium legs and a fiancee.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You meet a President. You show another your bullet wound.",
+      "text": "They pin a medal on you under hot lights in a room with gold curtains, and a President shakes your hand and asks how you're feeling, and you tell him the honest thing, which is that you need a bathroom. A different President later, a different room. Somebody asks about the wound and you show them where it is. The photographers hold very still.",
       "sceneTitle": "White House",
       "choices": [
         {
           "text": "Be polite",
-          "consequence": "“Be polite” closes one possibility and opens another. The moment leaves a clear note behind: Style.",
+          "consequence": "You say the correct words in the correct order and nobody in the room learns one true thing about you, which is what a ceremony is for.",
           "nextNodeId": "s9"
         },
         {
           "text": "Be honest",
-          "consequence": "The decision settles the question for now. Its verdict—Forrest—follows you into whatever comes next.",
+          "consequence": "You answer precisely what was asked. The room decides you are a joke, and a photograph of that moment outlives every man standing in it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You speak at a Vietnam protest. The mic cuts out. The crowd listens anyway.",
+      "text": "They put you on a stage in Army greens in front of a reflecting pool with a hundred thousand people around it. The microphone dies four words in, a man in a suit crouched at the cable, on purpose. You say the rest anyway, small and flat, about the war and about going home. Nobody hears a syllable and they roar. Then Jenny is running along the water.",
       "sceneTitle": "Lincoln Memorial",
       "choices": [
         {
           "text": "Just stand there",
-          "consequence": "You commit to “Just stand there.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stop talking and stay where you are, because nobody told you to stop standing. The silence becomes the loudest thing on the Mall that afternoon.",
           "nextNodeId": "s10"
         },
         {
           "text": "Walk down",
-          "consequence": "There is no taking “Walk down” back. Modest shapes the silence before the next moment arrives.",
+          "consequence": "You step off the platform mid-sentence and walk toward the water. A crowd the size of a city parts for you. You only ever see one person in it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Jenny is on a stage in San Francisco. The crowd is, you don't know what kind, the crowd.",
+      "text": "San Francisco, a club the size of a garage, and Jenny up on a stool with a guitar and not much else on, singing to men who did not come for the singing. You put your coat around her and carry her out over your shoulder while she hits your back with both fists. On the sidewalk she tells you that you cannot keep doing this.",
       "sceneTitle": "Jenny, Found",
       "choices": [
         {
           "text": "Run to her",
-          "consequence": "“Run to her” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You cross the room without thinking it through and take her out of it. She is grateful for about a minute and furious for the better part of a decade.",
           "nextNodeId": "s11"
         },
         {
           "text": "Wait",
-          "consequence": "The decision settles the question for now. Its verdict—Patient—follows you into whatever comes next.",
+          "consequence": "You wait at the back until the set finishes, because she once asked you not to embarrass her. She finds you there afterward and hates that you obeyed.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You play ping-pong in China. You meet a different President. He, also, gets a wound shown to him.",
+      "text": "They fly you to China with a team and a great many men in suits explaining what the trip means. What it means to you is that the tables are the same size everywhere. You beat whoever they put across from you. Back home you sit on a talk-show couch beside a man in round glasses who asks what the country was like, and goes quiet, and starts writing on a napkin.",
       "sceneTitle": "Ping-Pong Diplomacy",
       "choices": [
         {
           "text": "Win the cup",
-          "consequence": "There is no taking “Win the cup” back. Skill shapes the silence before the next moment arrives.",
+          "consequence": "You win because you never once look away from the ball, which is the entire secret, and nobody believes you when you tell them so.",
           "nextNodeId": "s12"
         },
         {
           "text": "Lose graciously",
-          "consequence": "“Lose graciously” closes one possibility and opens another. The moment leaves a clear note behind: Style.",
+          "consequence": "You drop one match on purpose to a boy who had been crying in the corridor. Nobody notices but the boy, and the boy notices for good.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Lieutenant Dan invests your shrimp boat money in some fruit company. The fruit company is, it turns out, fine.",
+      "text": "A letter arrives with a piece of fruit printed on it. Dan has put the shrimp money into something out in California and writes that you don't have to worry about money anymore, ever. You read it twice on the porch and then go cut the grass, because the grass needs cutting. People ask you later how being rich felt. It felt like a letter, and then a lawn.",
       "sceneTitle": "Apple Computer",
       "choices": [
         {
           "text": "Don't think about it much",
-          "consequence": "You commit to “Don't think about it much.” The story records the instinct as “Forrest” and carries it forward.",
+          "consequence": "You put the letter in the drawer with the medal and the photographs. That drawer is where you keep the things you can't think of a use for.",
           "nextNodeId": "s13"
         },
         {
           "text": "Be excited",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You telephone Dan and tell him you're proud of him, which is not a word anyone has ever aimed at him, and he stays on the line a long time not answering.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You and Dan start a shrimp company in Bubba's name. The hurricane spares your boat. You make a lot of money.",
+      "text": "You buy a boat, name it for Jenny, and catch essentially nothing for a year while Dan sits in a folding chair in the wheelhouse being right about how stupid this is. Then a hurricane takes every other hull in the bay and leaves yours tied to its piling. After that the shrimp will not stop coming. Bubba's name goes on the paperwork before yours does.",
       "sceneTitle": "Bubba Gump",
       "choices": [
         {
           "text": "Give half to Bubba's mama",
-          "consequence": "“Give half to Bubba's mama” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You drive to Bayou La Batre with a cheque and hand it through a screen door. She sits down hard on the step. She thinks it's a cruel joke until the bank calls her.",
           "nextNodeId": "s14"
         },
         {
           "text": "Save it all for Mama",
-          "consequence": "The decision settles the question for now. Its verdict—Family—follows you into whatever comes next.",
+          "consequence": "You bank it in Greenbow with Mama's name on the account and tell her it's for anything she wants. She spends none of it and dies with the passbook in her nightstand.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Mama is dying. You sit with her. She tells you life is a box of chocolates.",
+      "text": "The house smells like the medicine and the peaches the neighbours keep bringing. Mama is small in her own bed and still doing most of the talking. She says she was fated to be your mama and did the best she could with it. She says dying is a part of living. She says everybody gets a share and nobody gets to look inside first.",
       "sceneTitle": "Mama",
       "choices": [
         {
           "text": "Sit till the end",
-          "consequence": "“Sit till the end” closes one possibility and opens another. The moment leaves a clear note behind: Son.",
+          "consequence": "You stay in the chair three days and hardly eat. Casseroles pile up on a porch belonging to a door that nobody comes to answer.",
           "nextNodeId": "s15"
         },
         {
           "text": "Promise her you'll be okay",
-          "consequence": "The decision settles the question for now. Its verdict—Vow—follows you into whatever comes next.",
+          "consequence": "You tell her you're going to be fine so that she can finally stop working. It is the first untrue thing you have ever said to your mother.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You start running. You don't stop for years. People follow you. You start a movement by accident.",
+      "text": "You go out to the end of the driveway one afternoon and just keep going, because there is nothing inside the house you want to be inside of. Alabama, then an ocean, then the other ocean, then back. Your beard comes in grey. Men start running behind you with questions already written down. Three years and change, and then, on a road in Utah, you are finished.",
       "sceneTitle": "Running",
       "choices": [
         {
           "text": "Just keep running",
-          "consequence": "You commit to “Just keep running.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You give them nothing to follow but a pair of shoes, and they follow it anyway, and print your silence on T-shirts and sell it in parking lots.",
           "nextNodeId": "s16"
         },
         {
           "text": "Make a speech",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You turn around on a highway and tell them you're going home now. They stand in the road waiting for the rest of it. There isn't any rest of it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Jenny finds you. There is a child. The child is, in fact, yours.",
+      "text": "The letter is in her handwriting, older than you remember it. Her apartment has plants and a kitchen table and a photograph stuck to the refrigerator of a boy with your ears. She says his name is Forrest and looks at the linoleum while she says it. You have never been afraid of one thing in your life and you sit down because your legs quit.",
       "sceneTitle": "Jenny's Apartment",
       "choices": [
         {
           "text": "Be a father",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Forward.",
+          "consequence": "You ask whether he's smart and she says very. You are already redoing the arithmetic on the house in Greenbow before she finishes answering.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be scared",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You ask if he's like you. It's the only question in you, and it takes two attempts to get the whole of it out.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You marry Jenny. She is sick. You know she is sick. You marry her anyway.",
+      "text": "The wedding is in the yard at Greenbow, the preacher sweating, Dan standing straight on his new legs in a good suit. Jenny wears white. There is something wrong with her blood and every person in that yard knows it and not one of them says the word out loud. You get three seasons. Evenings, she sits on the porch and you keep the swing moving with your foot.",
       "sceneTitle": "Marriage",
       "choices": [
         {
           "text": "Love every day",
-          "consequence": "“Love every day” closes one possibility and opens another. The moment leaves a clear note behind: Now.",
+          "consequence": "You handle the dishes and the pills and her hair and never once mention what is coming. She notices the not mentioning, and the not mentioning is how she knows.",
           "nextNodeId": "s18"
         },
         {
           "text": "Don't think about tomorrow",
-          "consequence": "“Don't think about tomorrow” closes one possibility and opens another. The moment leaves a clear note behind: Present.",
+          "consequence": "You keep the calendar shut in a drawer and refuse to do the counting. Refusing takes more out of you than counting ever would have.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Jenny dies under the tree by the church. You sit with her grave a long time.",
+      "text": "They put her under the tree by the church, the one you both used to climb, and afterward you learn you have to pay a man to keep the grass right over her. You come Sundays and stand there and report on the boy: his spelling, his teeth, his backhand. You ask whether she's still angry with you. The tree does what a tree does.",
       "sceneTitle": "Jenny, Sick",
       "choices": [
         {
           "text": "Talk to her",
-          "consequence": "“Talk to her” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You carry his school reports out to the field and read them aloud at a headstone. Neighbours see you at it and agree among themselves not to mention it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stand quietly",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You take your hat off and say nothing at all for an hour. Everything you would have said stays exactly where it lives, which is somewhere behind your ribs.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Your son is small and smart. He asks if you're his dad. You tell him yes.",
+      "text": "He reads at a level the school will not fully explain to you, and he beats you at every game by the fourth try. One night at supper he asks whether you're his daddy, plainly, the way a person asks about weather. You say yes. He nods, says okay, and goes back to his homework, and you sit there holding the edge of the table.",
       "sceneTitle": "Little Forrest",
       "choices": [
         {
           "text": "Read to him every night",
-          "consequence": "“Read to him every night” closes one possibility and opens another. The moment leaves a clear note behind: Father.",
+          "consequence": "You do the voices badly and he corrects your pronunciation without looking up. By the third book he is reading and you are listening, and neither of you mentions the switch.",
           "nextNodeId": "s20"
         },
         {
           "text": "Drive him to school every morning",
-          "consequence": "You commit to “Drive him to school every morning.” The story records the instinct as “Father” and carries it forward.",
+          "consequence": "You stand at the end of the drive every morning until the bus is out of sight. You know better than most what a school bus can decide about a boy.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "On the bench, telling a stranger your story. The stranger leaves. The bus arrives.",
+      "text": "The bench outside the shoe shop, the box going soft in the heat, and whoever sits down next gets the whole thing whether or not they asked. A nurse. A woman with grocery bags. A man who checks his watch twice. They leave one after another and you keep your shoes clean. The last one mentions that your bus has been idling at the curb a while.",
       "sceneTitle": "The Bench, Now",
       "choices": [
         {
           "text": "Stand up",
-          "consequence": "The decision settles the question for now. Its verdict—Forward—follows you into whatever comes next.",
+          "consequence": "You get up, because the story is finished and there is nobody left on the bench to hear the end of it, and Greenbow is a long way off.",
           "nextNodeId": "s21"
         },
         {
           "text": "Sit a moment more",
-          "consequence": "You commit to “Sit a moment more.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You stay for exactly one more chocolate. There is nobody at all waiting on you, and that is precisely the trouble with the afternoon.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You walk him to the bus. You stand by the road. The feather drifts past your shoe.",
+      "text": "The bus is the same yellow it always was. He has a new bag and he kisses you at the mailbox without being told to. You tell him you love him, and he says it back, and gets on, and the door folds shut. He takes a window seat and does not look back at you, which is right, which is the whole point. A feather comes down past your shoe.",
       "sceneTitle": "Little Forrest's First Day",
       "choices": [
         {
           "text": "Pick up the feather",
-          "consequence": "“Pick up the feather” closes one possibility and opens another. The moment leaves a clear note behind: Sentiment.",
+          "consequence": "You bend down in the gravel and put it in your shirt pocket. It weighs nothing. You have been carrying it around for thirty years already.",
           "nextNodeId": "end_feather"
         },
         {
           "text": "Let it go",
-          "consequence": "The decision settles the question for now. Its verdict—Forward—follows you into whatever comes next.",
+          "consequence": "You watch it lift off the road and go over the fence toward the field, and you make yourself keep watching until there is nothing left to watch.",
           "nextNodeId": "end_father"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You do neither one. You stand at the mailbox until the bus is a yellow speck, then walk back up the drive to a house with one person in it.",
           "nextNodeId": "end_chocolates"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_feather",
-      "text": "You go home, put Jenny's feather in your old book, and start running again the next morning. Just because. Some things don't need a reason.",
+      "text": "You go home to the quiet house and slide the feather into the front of the old book on Jenny's shelf, between the cover and the first page, which is where it came from. The next morning you lace up and go out to the end of the road, and then past it. Not toward anywhere. Not away from anything either. Some things you do because your legs still work and the road is still there.",
       "sceneTitle": "The Feather",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_father",
-      "text": "You raise Little Forrest into a kind, smart man. He becomes a teacher. You watch him from a back row at his graduation and cry exactly once, in a Forrest way, big and honest.",
+      "text": "He grows up smart and gentle and doesn't have your legs, which is fine, because he has her hands. He teaches fourth grade over in Mobile and the children there fight to sit near him. At his graduation you take the back row in the good suit and cry once, all at once, the way you do everything, and the woman beside you passes you her napkins without a single word about it.",
       "sceneTitle": "Little Forrest's Years",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_chocolates",
-      "text": "Mama was right. You never know what you're going to get. You eat the chocolates as they come. The bench, in town, is still there. Some days you sit on it.",
+      "text": "Mama was right about the box, though not the way people repeat it back to you. You don't get to pick, and you eat what comes, and some years it's all the coconut ones in a row. The bench is still outside the shoe shop in town. Some mornings you sit on it with nothing to tell anybody at all, and the bus comes, and you let it go by, and that is a whole good day.",
       "sceneTitle": "Box of Chocolates",
       "choices": [],
       "isEnding": true,

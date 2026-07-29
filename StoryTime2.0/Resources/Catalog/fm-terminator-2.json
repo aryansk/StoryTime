@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "She is on the floor doing pull-ups while a doctor watches her on closed-circuit.",
+      "text": "She is on the floor doing pull-ups while a doctor watches her on closed-circuit. You cannot avoid Arcade; you can only decide whether “Keep training” or “Bide time” defines the person who reaches it. By Arcade, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Sarah in the Cell",
       "choices": [
         {
           "text": "Keep training",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hard.",
+          "consequence": "You commit to keep training. It buys momentum toward Arcade and spends the last protection hesitation gave you.",
           "nextNodeId": "s2"
         },
         {
           "text": "Bide time",
-          "consequence": "“Bide time” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You bide time. The route to Arcade opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "John, scamming an ATM with a card reader of his own making.",
+      "text": "John, scamming an ATM with a card reader of his own making. The road still runs toward First Encounter. Its next turn depends on the difference between choosing “Take the cash” and choosing “Walk away.”",
       "sceneTitle": "Arcade",
       "choices": [
         {
           "text": "Take the cash",
-          "consequence": "There is no taking “Take the cash” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You choose to take the cash. By First Encounter, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         },
         {
           "text": "Walk away",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You walk away. The route to First Encounter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A truck driver in a leather jacket and a cop with no expression.",
+      "text": "A truck driver in a leather jacket and a cop with no expression. The road still runs toward Mall Hallway. Its next turn depends on the difference between choosing “Run with the leather jacket” and choosing “Run with the cop.”",
       "sceneTitle": "First Encounter",
       "choices": [
         {
           "text": "Run with the leather jacket",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Trust.",
+          "consequence": "You run with the leather jacket. The route to Mall Hallway opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Run with the cop",
-          "consequence": "There is no taking “Run with the cop” back. Doomed shapes the silence before the next moment arrives.",
+          "consequence": "You commit to run with the cop. It buys momentum toward Mall Hallway and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Get down. A pump shotgun in slow motion under a fluorescent buzz.",
+      "text": "Get down. A pump shotgun in slow motion under a fluorescent buzz. Promise will follow either decision, but it will meet a different version of you after “Duck” than after “Stand.” At Promise, everyone involved will know which risk you accepted.",
       "sceneTitle": "Mall Hallway",
       "choices": [
         {
           "text": "Duck",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You duck. The route to Promise opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stand",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to stand. It buys momentum toward Promise and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Swear, says the boy, you will not kill anyone.",
+      "text": "Swear, says the boy, you will not kill anyone. The road still runs toward Pescadero. Its next turn depends on the difference between choosing “Swear it” and choosing “Refuse.” By Pescadero, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Promise",
       "choices": [
         {
           "text": "Swear it",
-          "consequence": "There is no taking “Swear it” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You swear it. The route to Pescadero opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Refuse",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You refuse. The route to Pescadero opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Sarah is calm in a way that scares the nurses more than the screaming did.",
+      "text": "Sarah is calm in a way that scares the nurses more than the screaming did. You cannot avoid Dyson; you can only decide whether “Break her out” or “Wait” defines the person who reaches it.",
       "sceneTitle": "Pescadero",
       "choices": [
         {
           "text": "Break her out",
-          "consequence": "There is no taking “Break her out” back. Loyal shapes the silence before the next moment arrives.",
+          "consequence": "You break her out. The route to Dyson opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         },
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You commit to wait. It buys momentum toward Dyson and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "An engineer at a kitchen table with a baby asleep upstairs.",
+      "text": "An engineer at a kitchen table with a baby asleep upstairs. You cannot avoid The Garage; you can only decide whether “Speak first” or “Aim first” defines the person who reaches it. At The Garage, everyone involved will know which risk you accepted.",
       "sceneTitle": "Dyson",
       "choices": [
         {
           "text": "Speak first",
-          "consequence": "There is no taking “Speak first” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You choose to speak first. By The Garage, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Aim first",
-          "consequence": "You commit to “Aim first.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You aim first. The route to The Garage opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Plans on the table for a chip that ends the world.",
+      "text": "Plans on the table for a chip that ends the world. You are unlikely to keep all three. Cyberdyne will follow either decision, but it will meet a different version of you after “Persuade him” than after “Demand he comply.”",
       "sceneTitle": "The Garage",
       "choices": [
         {
           "text": "Persuade him",
-          "consequence": "You commit to “Persuade him.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You persuade him. The route to Cyberdyne opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         },
         {
           "text": "Demand he comply",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You demand he comply. The route to Cyberdyne opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Lobby, security, helicopter inbound, the whole building one wrong shot from a fire.",
+      "text": "Lobby, security, helicopter inbound, the whole building one wrong shot from a fire. Both choices lead to Knee Cap Tactics, but “Go up the stairs” arrives there with a different cost than “Take the elevator.”",
       "sceneTitle": "Cyberdyne",
       "choices": [
         {
           "text": "Go up the stairs",
-          "consequence": "“Go up the stairs” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You go up the stairs. The route to Knee Cap Tactics opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take the elevator",
-          "consequence": "The decision settles the question for now. Its verdict—Direct—follows you into whatever comes next.",
+          "consequence": "You take the elevator. The route to Knee Cap Tactics opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Sarah on the radio: no killing.",
+      "text": "Sarah on the radio: no killing. Vault will follow either decision, but it will meet a different version of you after “Knees only” than after “Center mass.” At Vault, everyone involved will know which risk you accepted.",
       "sceneTitle": "Knee Cap Tactics",
       "choices": [
         {
           "text": "Knees only",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You choose to knees only. By Vault, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s11"
         },
         {
           "text": "Center mass",
-          "consequence": "“Center mass” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to center mass. It buys momentum toward Vault and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "The chips spread on a table like a confession.",
+      "text": "The chips spread on a table like a confession. On the Roof will follow either decision, but it will meet a different version of you after “Burn it all” than after “Salvage one.” In Vault, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Vault",
       "choices": [
         {
           "text": "Burn it all",
-          "consequence": "You commit to “Burn it all.” The story records the instinct as “Final” and carries it forward.",
+          "consequence": "You choose to burn it all. By On the Roof, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s12"
         },
         {
           "text": "Salvage one",
-          "consequence": "“Salvage one” closes one possibility and opens another. The moment leaves a clear note behind: Practical.",
+          "consequence": "You commit to salvage one. It buys momentum toward On the Roof and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Police helicopter, then a SWAT van, then a helicopter again.",
+      "text": "Police helicopter, then a SWAT van, then a helicopter again. Freeway Chase will follow either decision, but it will meet a different version of you after “Drop down the wall” than after “Stand still.” At Freeway Chase, everyone involved will know which risk you accepted.",
       "sceneTitle": "On the Roof",
       "choices": [
         {
           "text": "Drop down the wall",
-          "consequence": "“Drop down the wall” closes one possibility and opens another. The moment leaves a clear note behind: Wild.",
+          "consequence": "You commit to drop down the wall. It buys momentum toward Freeway Chase and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stand still",
-          "consequence": "You commit to “Stand still.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You choose to stand still. By Freeway Chase, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A tow truck, a liquid nitrogen tanker, an officer in mirrored shades.",
+      "text": "A tow truck, a liquid nitrogen tanker, an officer in mirrored shades. Steel Mill is already waiting. What changes is whether “Ram the tanker” or “Outrun” is the instinct you carry into it. By Steel Mill, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Freeway Chase",
       "choices": [
         {
           "text": "Ram the tanker",
-          "consequence": "There is no taking “Ram the tanker” back. Bold shapes the silence before the next moment arrives.",
+          "consequence": "You choose to ram the tanker. By Steel Mill, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         },
         {
           "text": "Outrun",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You commit to outrun. It buys momentum toward Steel Mill and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Catwalks and forging cradles and rivers of orange.",
+      "text": "Catwalks and forging cradles and rivers of orange. You cannot avoid Frozen; you can only decide whether “Set the trap” or “Run” defines the person who reaches it. By Frozen, hesitation will have spent time you cannot recover.",
       "sceneTitle": "Steel Mill",
       "choices": [
         {
           "text": "Set the trap",
-          "consequence": "“Set the trap” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You set the trap. The route to Frozen opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You commit to run. It buys momentum toward Frozen and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "The T-1000 in a hundred pieces of fog on the floor.",
+      "text": "The T-1000 in a hundred pieces of fog on the floor. Reassembly will follow either decision, but it will meet a different version of you after “Shatter it” than after “Run past.” At Reassembly, everyone involved will know which risk you accepted.",
       "sceneTitle": "Frozen",
       "choices": [
         {
           "text": "Shatter it",
-          "consequence": "“Shatter it” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You commit to shatter it. It buys momentum toward Reassembly and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Run past",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You choose to run past. By Reassembly, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "It walks back together from a puddle and laughs without lungs.",
+      "text": "It walks back together from a puddle and laughs without lungs. You cannot avoid Bayonet; you can only decide whether “Switch weapons” or “Stand ground” defines the person who reaches it. In Reassembly, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Reassembly",
       "choices": [
         {
           "text": "Switch weapons",
-          "consequence": "There is no taking “Switch weapons” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You commit to switch weapons. It buys momentum toward Bayonet and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stand ground",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You stand ground. The route to Bayonet opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "Arm pinned, gear wheel turning, the wrong man down for a beat.",
+      "text": "Arm pinned, gear wheel turning, the wrong man down for a beat. You cannot avoid Crucible; you can only decide whether “Pull free” or “Wait for him” defines the person who reaches it. At Crucible, everyone involved will know which risk you accepted.",
       "sceneTitle": "Bayonet",
       "choices": [
         {
           "text": "Pull free",
-          "consequence": "“Pull free” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to pull free. By Crucible, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         },
         {
           "text": "Wait for him",
-          "consequence": "You commit to “Wait for him.” The story records the instinct as “Calm” and carries it forward.",
+          "consequence": "You choose to wait for him. By Crucible, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Molten steel under your boots and a hand reaching out of the bath.",
+      "text": "Molten steel under your boots and a hand reaching out of the bath. You are unlikely to keep all three. The Last Chip is already waiting. What changes is whether “Push it in” or “Step back” is the instinct you carry into it.",
       "sceneTitle": "Crucible",
       "choices": [
         {
           "text": "Push it in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Final.",
+          "consequence": "You commit to push it in. It buys momentum toward The Last Chip and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step back",
-          "consequence": "“Step back” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You step back. The route to The Last Chip opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "The CPU still in his neck. He thinks Sarah cannot do it.",
+      "text": "The CPU still in his neck. He thinks Sarah cannot do it. Sarah's Thumb comes either way; its meaning changes with the difference between “Lower him” and “Hesitate.” In The Last Chip, the safer route is disappearing faster than the danger.",
       "sceneTitle": "The Last Chip",
       "choices": [
         {
           "text": "Lower him",
-          "consequence": "“Lower him” closes one possibility and opens another. The moment leaves a clear note behind: Final.",
+          "consequence": "You lower him. The route to Sarah's Thumb opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hesitate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You commit to hesitate. It buys momentum toward Sarah's Thumb and spends the last protection hesitation gave you.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "The pulley wheel. A salute the boy will remember for as long as a person can remember.",
+      "text": "The pulley wheel. A salute the boy will remember for as long as a person can remember. Highway, Night will follow either decision, but it will meet a different version of you after “Press it” than after “Pause.”",
       "sceneTitle": "Sarah's Thumb",
       "choices": [
         {
           "text": "Press it",
-          "consequence": "There is no taking “Press it” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You press it. The route to Highway, Night opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         },
         {
           "text": "Pause",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to pause. By Highway, Night, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Headlights, road stripes, and an unwritten road ahead.",
+      "text": "Headlights, road stripes, and an unwritten road ahead. You are unlikely to keep all three. Choose “Drive on” and No Fate But What We Make comes into view; choose “Pull over” and the road bends toward Judgment, Deferred. A third choice, “Take the third path,” keeps Thumbs Up in play.",
       "sceneTitle": "Highway, Night",
       "choices": [
         {
           "text": "Drive on",
-          "consequence": "“Drive on” closes one possibility and opens another. The moment leaves a clear note behind: Hope.",
+          "consequence": "You choose to drive on. By No Fate But What We Make, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_no_fate"
         },
         {
           "text": "Pull over",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to pull over. By Judgment, Deferred, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_judge"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Thumbs Up, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_thumbs"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_no_fate",
-      "text": "Skynet does not boot in 1997. You spend a long quiet decade waiting to see if it boots anyway.",
+      "text": "Skynet does not boot in 1997. You spend a long quiet decade waiting to see if it boots anyway. The road into No Fate But What We Make began with “Drive on” in Highway, Night; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "No Fate But What We Make",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_judge",
-      "text": "The chips are gone, the engineers persuaded, the date a rumor. A child sleeps. So do you, eventually.",
+      "text": "The chips are gone, the engineers persuaded, the date a rumor. A child sleeps. So do you, eventually. You are unlikely to keep all three. The road into Judgment, Deferred began with “Pull over” in Highway, Night; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Judgment, Deferred",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_thumbs",
-      "text": "You will hear the cradle in your dreams for the rest of your life. So will the boy. You will be grateful for both.",
+      "text": "You will hear the cradle in your dreams for the rest of your life. So will the boy. You will be grateful for both. You are unlikely to keep all three. The road into Thumbs Up began with “Take the third path” in Highway, Night; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Thumbs Up",
       "choices": [],
       "isEnding": true,

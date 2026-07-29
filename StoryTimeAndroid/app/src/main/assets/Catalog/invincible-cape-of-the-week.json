@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Your phone explodes — a literal explosion, in the next county; figuratively, your phone — and your professor reminds you the midterm is at nine. You're wearing flannel pants and have a black eye from yesterday.",
+      "text": "Your phone explodes — a literal explosion, in the next county; figuratively, your phone — and your professor reminds you the midterm is at nine. You're wearing flannel pants and have a black eye from yesterday. The distance between The Explosion and Mid-Air Studying begins with the choice between “Take the call and skip the test” and “Try to do both somehow.”",
       "sceneTitle": "Tuesday, 8:14 a.m.",
       "choices": [
         {
           "text": "Take the call and skip the test",
-          "consequence": "Earth first, GPA later.",
+          "consequence": "You choose to take the call and skip the test. By The Explosion, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s2"
         },
         {
           "text": "Try to do both somehow",
-          "consequence": "Optimism is a kind of strategy.",
+          "consequence": "Optimism is a kind of strategy. You choose to try to do both somehow. By Mid-Air Studying, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "It's a familiar villain — Titan, who hates his name — robbing a federal vault for what he insists are honest reasons. A man yells at him about labor rights. The vault yells back electronically.",
+      "text": "It's a familiar villain — Titan, who hates his name — robbing a federal vault for what he insists are honest reasons. A man yells at him about labor rights. The vault yells back electronically. You are unlikely to keep all three.",
       "sceneTitle": "The Explosion",
       "choices": [
         {
           "text": "Knock Titan out fast and clean",
-          "consequence": "Speed reduces collateral.",
+          "consequence": "Speed reduces collateral. You knock Titan out fast and clean. The route to Eve, Calling opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Talk to Titan first",
-          "consequence": "Some villains are also problems.",
+          "consequence": "Some villains are also problems. You choose to talk to Titan first. By Mom, Texting, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You're a hundred feet up reading econ notes off your phone. A pigeon hits you in the face. The notes get worse from here.",
+      "text": "You're a hundred feet up reading econ notes off your phone. A pigeon hits you in the face. The notes get worse from here. The distance between Eve, Calling and Mom, Texting begins with the choice between “Fly to campus first” and “Tutor yourself by saving someone who knows econ.”",
       "sceneTitle": "Mid-Air Studying",
       "choices": [
         {
           "text": "Fly to campus first",
-          "consequence": "Take the test, then save the city.",
+          "consequence": "Take the test, then save the city. You fly to campus first. The route to Eve, Calling opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tutor yourself by saving someone who knows econ",
-          "consequence": "The decision settles the question for now. Its verdict—Multi-task heroically—follows you into whatever comes next.",
+          "consequence": "You choose to tutor yourself by saving someone who knows econ. By Mom, Texting, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Your girlfriend Eve is on the line, in her own crisis — a refugee camp under threat from a warlord whose helicopters her energy fields can't politely stop forever. She wants backup, not advice.",
+      "text": "Your girlfriend Eve is on the line, in her own crisis — a refugee camp under threat from a warlord whose helicopters her energy fields can't politely stop forever. She wants backup, not advice. “Promise her you'll be there in twenty minutes” opens the route to The Refugee Camp. “Send the Guardians instead” changes the terms and carries you toward The Guardians.",
       "sceneTitle": "Eve, Calling",
       "choices": [
         {
           "text": "Promise her you'll be there in twenty minutes",
-          "consequence": "Honor the relationship first.",
+          "consequence": "Honor the relationship first. You choose to promise her you'll be there in twenty minutes. By The Refugee Camp, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         },
         {
           "text": "Send the Guardians instead",
-          "consequence": "Triage is a love language.",
+          "consequence": "Triage is a love language. You commit to send the Guardians instead. It buys momentum toward The Guardians and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Mom: 'Dinner Sunday. Please. Your sister is asking. PS your Dad emailed me again.' The Dad in question is Nolan, who once tried to kill you, who lives, when he lives, off-planet.",
+      "text": "Mom: 'Dinner Sunday. Please. Your sister is asking. PS your Dad emailed me again.' The Dad in question is Nolan, who once tried to kill you, who lives, when he lives, off-planet. Choose “Reply 'I'll be there'” and The Refugee Camp comes into view; choose “Delete the email-about-Dad screenshot before reading” and the road bends toward The Guardians.",
       "sceneTitle": "Mom, Texting",
       "choices": [
         {
           "text": "Reply 'I'll be there'",
-          "consequence": "Family first, family always.",
+          "consequence": "Family first, family always. You reply 'I'll be there'. The route to The Refugee Camp opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Delete the email-about-Dad screenshot before reading",
-          "consequence": "Some emotional triage is preemptive.",
+          "consequence": "Some emotional triage is preemptive. You delete the email-about-Dad screenshot before reading. The route to The Guardians opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You arrive with Eve as four helicopters lift off. She is exhausted and brilliant. The warlord is shouting demands; the camp's elder is, somehow, also shouting demands at the warlord. You have ninety seconds.",
+      "text": "You arrive with Eve as four helicopters lift off. She is exhausted and brilliant. The warlord is shouting demands; the camp's elder is, somehow, also shouting demands at the warlord. You have ninety seconds. The distance between Cecil's Call and Amber, Coffee begins with the choice between “Disable the helicopters non-lethally” and “Take the warlord directly and remove him.”",
       "sceneTitle": "The Refugee Camp",
       "choices": [
         {
           "text": "Disable the helicopters non-lethally",
-          "consequence": "Restraint is a discipline.",
+          "consequence": "Restraint is a discipline. You choose to disable the helicopters non-lethally. By Cecil's Call, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take the warlord directly and remove him",
-          "consequence": "Solve the problem, not the helicopters.",
+          "consequence": "Solve the problem, not the helicopters. You choose to take the warlord directly and remove him. By Amber, Coffee, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Robot, ever-tense, calls back. Two of the Guardians are out on Mars-related business. The team is thin. He suggests you 'prioritize ruthlessly.' He always says that. You always hate it.",
+      "text": "Robot, ever-tense, calls back. Two of the Guardians are out on Mars-related business. The team is thin. He suggests you 'prioritize ruthlessly.' He always says that. You always hate it. “Send Robot to Eve, you take the vault” opens the route to Cecil's Call. “Send Robot to the vault, you take Eve” changes the terms and carries you toward Amber, Coffee.",
       "sceneTitle": "The Guardians",
       "choices": [
         {
           "text": "Send Robot to Eve, you take the vault",
-          "consequence": "Trade routes that fit each strength.",
+          "consequence": "Trade routes that fit each strength. You choose to send Robot to Eve, you take the vault. By Cecil's Call, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         },
         {
           "text": "Send Robot to the vault, you take Eve",
-          "consequence": "Personal over professional.",
+          "consequence": "Personal over professional. You send Robot to the vault, you take Eve. The route to Amber, Coffee opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Cecil from the GDA grabs your comm. 'Viltrumite ship just blinked into orbit,' he says. 'It hasn't done anything yet.' He pauses, in the way Cecil pauses. 'Mark, your father may be on it.'",
+      "text": "Cecil from the GDA grabs your comm. 'Viltrumite ship just blinked into orbit,' he says. 'It hasn't done anything yet.' He pauses, in the way Cecil pauses. You are unlikely to keep all three. The distance between Orbit and Mom and the Sister begins with the choice between “Fly to orbit immediately” and “Stay grounded until you know more.”",
       "sceneTitle": "Cecil's Call",
       "choices": [
         {
           "text": "Fly to orbit immediately",
-          "consequence": "Find out who's coming.",
+          "consequence": "You commit to fly to orbit immediately. It buys momentum toward Orbit and spends the last protection hesitation gave you.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay grounded until you know more",
-          "consequence": "Don't pop the bubble until you have to.",
+          "consequence": "Don't pop the bubble until you have to. You stay grounded until you know more. The route to Mom and the Sister opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Take the coffee and be honest about everything",
-          "consequence": "Decency to your past selves.",
+          "consequence": "Decency to your past selves. You take the coffee and be honest about everything. The route to Orbit opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         },
         {
           "text": "Smile, thank her, and keep moving",
-          "consequence": "Boundaries are also love.",
+          "consequence": "Boundaries are also love. You choose to smile, thank her, and keep moving. By Mom and the Sister, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Pretend to negotiate",
-          "consequence": "“Pretend to negotiate” closes one possibility and opens another. The moment leaves a clear note behind: Buy minutes.",
+          "consequence": "You pretend to negotiate. The route to Nolan, Probably opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hit him first",
-          "consequence": "Speed is sometimes courtesy.",
+          "consequence": "Speed is sometimes courtesy. You commit to hit him first. It buys momentum toward Damien, Anvil-Brained and spends the last protection hesitation gave you.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You make it to Sunday dinner late, bruised, in time for dessert. Your little sister hugs your leg and refuses to let go. Mom, calmly, asks if you ate. Family is a planet with its own gravity.",
+      "text": "You make it to Sunday dinner late, bruised, in time for dessert. Your little sister hugs your leg and refuses to let go. Mom, calmly, asks if you ate. Family is a planet with its own gravity. You are unlikely to keep all three.",
       "sceneTitle": "Mom and the Sister",
       "choices": [
         {
           "text": "Tell Mom everything about Nolan",
-          "consequence": "Don't carry her in the dark.",
+          "consequence": "Don't carry her in the dark. You tell Mom everything about Nolan. The route to Nolan, Probably opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s12"
         },
         {
           "text": "Eat the pie and say nothing",
-          "consequence": "Some weeks, dinner is the win.",
+          "consequence": "Some weeks, dinner is the win. You eat the pie and say nothing. The route to Damien, Anvil-Brained opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Go fetch the device",
-          "consequence": "Risk one trip for a planet.",
+          "consequence": "Risk one trip for a planet. You commit to go fetch the device. It buys momentum toward Allen and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Refuse and force him to come to you",
-          "consequence": "Set your own terms.",
+          "consequence": "You refuse and force him to come to you. The route to Atom Eve, Tired opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "A villain you haven't seen in two seasons rampages through midtown for reasons he refuses to explain. He is, frankly, having a bad mental-health day. You can tell.",
+      "text": "A villain you haven't seen in two seasons rampages through midtown for reasons he refuses to explain. He is, frankly, having a bad mental-health day. You can tell. To choose “Talk him down” means meeting Allen; “Take him to Dr. Singh — the doctor, not the experiment” sends you toward Atom Eve, Tired instead.",
       "sceneTitle": "Damien, Anvil-Brained",
       "choices": [
         {
           "text": "Talk him down",
-          "consequence": "Even punching has limits.",
+          "consequence": "Even punching has limits. You choose to talk him down. By Allen, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         },
         {
           "text": "Take him to Dr. Singh — the doctor, not the experiment",
-          "consequence": "Better tools than fists.",
+          "consequence": "Better tools than fists. You commit to take him to Dr. Singh — the doctor, not the experiment. It buys momentum toward Atom Eve, Tired and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Say yes to the Coalition formally",
-          "consequence": "Pick a side before sides pick you.",
+          "consequence": "Pick a side before sides pick you. You commit to say yes to the Coalition formally. It buys momentum toward Lucan, Returning and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hold out for a better deal",
-          "consequence": "Diplomacy is also leverage.",
+          "consequence": "Diplomacy is also leverage. You commit to hold out for a better deal. It buys momentum toward Mark, Honest and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Tell her you'll take her shift",
-          "consequence": "Carry her for a beat.",
+          "consequence": "You commit to tell her you'll take her shift. It buys momentum toward Lucan, Returning and spends the last protection hesitation gave you.",
           "nextNodeId": "s16"
         },
         {
           "text": "Tell her she should rest as long as she needs",
-          "consequence": "Real care includes time off.",
+          "consequence": "Real care includes time off. You commit to tell her she should rest as long as she needs. It buys momentum toward Mark, Honest and spends the last protection hesitation gave you.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Take the fight to him in orbit",
-          "consequence": "Where his power is loudest, his ego is loudest too.",
+          "consequence": "Where his power is loudest, his ego is loudest too. You commit to take the fight to him in orbit. It buys momentum toward The Big Fight and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Trap him on the ground with friends",
-          "consequence": "Numbers level the strength gap.",
+          "consequence": "Numbers level the strength gap. You trap him on the ground with friends. The route to The Quiet Win opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Start with Eve in the morning",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Love first.",
+          "consequence": "You commit to start with Eve in the morning. It buys momentum toward The Big Fight and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Start with Amber in the morning",
-          "consequence": "Tie up the past gently.",
+          "consequence": "You start with Amber in the morning. The route to The Quiet Win opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "A skyscraper folds slowly under your back. Lucan smiles even as you punch him. He does not, you realize, want to win this fight. He wants to teach you what 'losing' costs.",
+      "text": "A skyscraper folds slowly under your back. Lucan smiles even as you punch him. He does not, you realize, want to win this fight. He wants to teach you what 'losing' costs. You are unlikely to keep all three.",
       "sceneTitle": "The Big Fight",
       "choices": [
         {
           "text": "Refuse to play that lesson",
-          "consequence": "Defy the curriculum.",
+          "consequence": "You choose to refuse to play that lesson. By Nolan, Showing Up, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take the hit so he overextends",
-          "consequence": "Old technique, new villain.",
+          "consequence": "Old technique, new villain. You take the hit so he overextends. The route to Graduation opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You and Robot and Eve and three reformed-ish villains pin Lucan in a containment field of Robot's design while Cecil's people negotiate. Nobody dies today. It is, almost, anticlimactic. It is, almost, a miracle.",
+      "text": "You and Robot and Eve and three reformed-ish villains pin Lucan in a containment field of Robot's design while Cecil's people negotiate. Nobody dies today. It is, almost, anticlimactic. It is, almost, a miracle. Choose “Bask in the quiet for a beat” and Nolan, Showing Up comes into view; choose “Pivot immediately to the next problem” and the road bends toward Graduation.",
       "sceneTitle": "The Quiet Win",
       "choices": [
         {
           "text": "Bask in the quiet for a beat",
-          "consequence": "Quiet is allowed.",
+          "consequence": "You choose to bask in the quiet for a beat. By Nolan, Showing Up, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s20"
         },
         {
           "text": "Pivot immediately to the next problem",
-          "consequence": "There is always a next problem.",
+          "consequence": "There is always a next problem. You commit to pivot immediately to the next problem. It buys momentum toward Graduation and spends the last protection hesitation gave you.",
           "nextNodeId": "s21"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Mid-fight or mid-quiet, depending, your father lands. He is older. He is, apparently, on your side this time. He doesn't apologize. He never does. He helps, and that, this time, is enough.",
+      "text": "Mid-fight or mid-quiet, depending, your father lands. He is older. He is, apparently, on your side this time. He doesn't apologize. He never does. He helps, and that, this time, is enough. Choose “Let him stay for dinner with Mom” and Sunday Dinner comes into view; choose “Tell him to go after the fight” and the road bends toward The Line You Draw.",
       "sceneTitle": "Nolan, Showing Up",
       "choices": [
         {
           "text": "Let him stay for dinner with Mom",
-          "consequence": "Healing happens at tables.",
+          "consequence": "Healing happens at tables. You let him stay for dinner with Mom. The route to Sunday Dinner opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Tell him to go after the fight",
-          "consequence": "Forgiveness is not amnesia.",
+          "consequence": "Forgiveness is not amnesia. You commit to tell him to go after the fight. It buys momentum toward The Line You Draw and spends the last protection hesitation gave you.",
           "nextNodeId": "end_boundary"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "Months later, somehow, you graduate college. Your mom cries. Eve is in the audience. Cecil is in the audience and pretending he isn't. Your name is read off a list. The list does not say Invincible.",
+      "text": "Months later, somehow, you graduate college. Your mom cries. Eve is in the audience. Cecil is in the audience and pretending he isn't. Your name is read off a list. The list does not say Invincible. You are unlikely to keep all three.",
       "sceneTitle": "Graduation",
       "choices": [
         {
           "text": "Take the photo as Mark",
-          "consequence": "Be a person for a day.",
+          "consequence": "You commit to take the photo as Mark. It buys momentum toward Mark and spends the last protection hesitation gave you.",
           "nextNodeId": "end_human"
         },
         {
           "text": "Skip the photo and patrol",
-          "consequence": "There's always something to do.",
+          "consequence": "There's always something to do. You commit to skip the photo and patrol. It buys momentum toward Invincible, Always and spends the last protection hesitation gave you.",
           "nextNodeId": "end_duty"
         }
       ],
@@ -418,7 +418,7 @@
     },
     {
       "id": "end_family",
-      "text": "Nolan, terribly, attends Sunday dinner. Your sister stares. Mom is courteous. You learn that 'family' is a verb you do under fluorescents with too many plates. It is messy. It is yours. You like it.",
+      "text": "Nolan, terribly, attends Sunday dinner. Your sister stares. Mom is courteous. You learn that 'family' is a verb you do under fluorescents with too many plates. It is messy. It is yours. You like it. You are unlikely to keep all three.",
       "sceneTitle": "Sunday Dinner",
       "choices": [],
       "isEnding": true,
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_human",
-      "text": "You become someone the news doesn't always know about. You take Eve to brunch on Saturdays. You teach your sister to ride a bike. You still save the world. You also live in it.",
+      "text": "You become someone the news doesn't always know about. You take Eve to brunch on Saturdays. You teach your sister to ride a bike. You still save the world. You also live in it. The road into Mark began with “Take the photo as Mark” in Graduation; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Mark",
       "choices": [],
       "isEnding": true,

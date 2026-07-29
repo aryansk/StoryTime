@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Meemaw makes pancakes. Mary makes coffee. Georgie eats his weight in bacon. Missy reminds everyone — twice — about her championship game. You are, as usual, calculating something at the table.",
+      "text": "Meemaw makes pancakes. Mary makes coffee. Georgie eats his weight in bacon. Missy reminds everyone — twice — about her championship game. You are, as usual, calculating something at the table. Choose “Announce your science fair project at breakfast” and The Project Idea comes into view; choose “Wait until Dad is in the room” and the road bends toward Dad's Practice.",
       "sceneTitle": "Monday Breakfast",
       "choices": [
         {
           "text": "Announce your science fair project at breakfast",
-          "consequence": "Set the room's stakes.",
+          "consequence": "You choose to announce your science fair project at breakfast. By The Project Idea, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait until Dad is in the room",
-          "consequence": "Strategy in audiences.",
+          "consequence": "You choose to wait until Dad is in the room. By Dad's Practice, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You propose a low-cost neutrino-detection experiment in the family garage. Mary blinks. Meemaw says, 'Oh, sweetie.' Georgie asks if it has anything to do with bowling.",
+      "text": "You propose a low-cost neutrino-detection experiment in the family garage. Mary blinks. Meemaw says, 'Oh, sweetie.' Georgie asks if it has anything to do with bowling. “Pivot to something doable in a garage” draws you toward Tam's Plan; “Insist on the original idea” leaves Missy's Suspicion waiting on the other side.",
       "sceneTitle": "The Project Idea",
       "choices": [
         {
           "text": "Pivot to something doable in a garage",
-          "consequence": "Constraints are also creativity.",
+          "consequence": "Constraints are also creativity. You choose to pivot to something doable in a garage. By Tam's Plan, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s4"
         },
         {
           "text": "Insist on the original idea",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vision.",
+          "consequence": "You insist on the original idea. It gets you to Missy's Suspicion, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Pitch the science fair project to him",
-          "consequence": "There is no taking “Pitch the science fair project to him” back. Dad first shapes the silence before the next moment arrives.",
+          "consequence": "You choose to pitch the science fair project to him. By Tam's Plan, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask him about the volleyball schedule first",
-          "consequence": "“Ask him about the volleyball schedule first” closes one possibility and opens another. The moment leaves a clear note behind: Sister first.",
+          "consequence": "You ask him about the volleyball schedule first. It gets you to Missy's Suspicion, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Tam, your best friend, sees your project sketch at lunch and immediately offers to help. He has, he claims, 'a guy at the radio shack.' He always has a guy.",
+      "text": "Tam, your best friend, sees your project sketch at lunch and immediately offers to help. He has, he claims, 'a guy at the radio shack.' He always has a guy. The distance between Mr. Lundy's Permission and Meemaw's Garage begins with the choice between “Form a two-person team” and “Keep it solo for purity.”",
       "sceneTitle": "Tam's Plan",
       "choices": [
         {
           "text": "Form a two-person team",
-          "consequence": "The decision settles the question for now. Its verdict—Allies—follows you into whatever comes next.",
+          "consequence": "You choose to form a two-person team. By Mr. Lundy's Permission, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s6"
         },
         {
           "text": "Keep it solo for purity",
-          "consequence": "The decision settles the question for now. Its verdict—Independent work—follows you into whatever comes next.",
+          "consequence": "You choose to keep it solo for purity. By Meemaw's Garage, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Missy, sharper than anyone gives her credit for, asks if you're scheduling your fair around her game. You consider lying. You consider not lying. You consider the third option, which is silence.",
+      "text": "Missy, sharper than anyone gives her credit for, asks if you're scheduling your fair around her game. You consider lying. You consider not lying. You consider the third option, which is silence. To choose “Tell her the truth” means meeting Mr. Lundy's Permission; “Promise to be at her game no matter what” sends you toward Meemaw's Garage instead.",
       "sceneTitle": "Missy's Suspicion",
       "choices": [
         {
           "text": "Tell her the truth",
-          "consequence": "The decision settles the question for now. Its verdict—Sister code—follows you into whatever comes next.",
+          "consequence": "You commit to tell her the truth. The road to Mr. Lundy's Permission is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s6"
         },
         {
           "text": "Promise to be at her game no matter what",
-          "consequence": "Promise first, plan after.",
+          "consequence": "Promise first, plan after. You promise to be at her game no matter what. It gets you to Meemaw's Garage, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Mr. Lundy — your physics teacher — needs to sign off on your project. He is, sweetly, intimidated by you. You realize you can either smooth this with kindness or steamroll him.",
+      "text": "Mr. Lundy — your physics teacher — needs to sign off on your project. He is, sweetly, intimidated by you. You realize you can either smooth this with kindness or steamroll him. Everyone in Mr. “Compliment a real strength of his” draws you toward The Wiring Problem; “Present the project as if you're the teacher” leaves The Family Schedule waiting on the other side.",
       "sceneTitle": "Mr. Lundy's Permission",
       "choices": [
         {
           "text": "Compliment a real strength of his",
-          "consequence": "Kindness as strategy.",
+          "consequence": "You commit to compliment a real strength of his. The road to The Wiring Problem is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s8"
         },
         {
           "text": "Present the project as if you're the teacher",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Authority.",
+          "consequence": "You commit to present the project as if you're the teacher. The road to The Family Schedule is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Negotiate longer work blocks",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Optimize.",
+          "consequence": "You negotiate longer work blocks. It gets you to The Wiring Problem, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s8"
         },
         {
           "text": "Accept her conditions exactly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Respect.",
+          "consequence": "You accept her conditions exactly. It gets you to The Family Schedule, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Saturday morning. The detector's preamp keeps oscillating. You consider the problem. The problem considers you. Georgie offers to 'hit it.'",
+      "text": "Saturday morning. The detector's preamp keeps oscillating. You consider the problem. The problem considers you. Choose “Methodically debug” and Pastor Jeff Visits comes into view; choose “Let Georgie hit it” and the road bends toward The Sleepless Tuesday.",
       "sceneTitle": "The Wiring Problem",
       "choices": [
         {
           "text": "Methodically debug",
-          "consequence": "There is no taking “Methodically debug” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You methodically debug. It gets you to Pastor Jeff Visits, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s10"
         },
         {
           "text": "Let Georgie hit it",
-          "consequence": "Sometimes pets are right.",
+          "consequence": "Sometimes pets are right. You commit to let Georgie hit it. The road to The Sleepless Tuesday is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Show Missy the chart with her name first",
-          "consequence": "There is no taking “Show Missy the chart with her name first” back. Respect her shapes the silence before the next moment arrives.",
+          "consequence": "You choose to show Missy the chart with her name first. By Pastor Jeff Visits, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s10"
         },
         {
           "text": "Show the chart to Dad for buy-in",
-          "consequence": "You commit to “Show the chart to Dad for buy-in.” The story records the instinct as “Build authority” and carries it forward.",
+          "consequence": "You show the chart to Dad for buy-in. It gets you to The Sleepless Tuesday, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s11"
         }
       ],
@@ -195,12 +195,12 @@
       "choices": [
         {
           "text": "Invite him as a judge",
-          "consequence": "You commit to “Invite him as a judge.” The story records the instinct as “Diplomacy” and carries it forward.",
+          "consequence": "You commit to invite him as a judge. The road to Missy's Game, Friday is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s12"
         },
         {
           "text": "Keep the church gently at arm's length",
-          "consequence": "You commit to “Keep the church gently at arm's length.” The story records the instinct as “Boundaries” and carries it forward.",
+          "consequence": "You choose to keep the church gently at arm's length. By Dad's Quiet Help, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You stay up too late three nights in a row. Meemaw catches you. She sits in the garage with you anyway and reads the newspaper while you solder. She says nothing, except, 'You're like your daddy when he had something to prove.'",
+      "text": "You stay up too late three nights in a row. Meemaw catches you. She sits in the garage with you anyway and reads the newspaper while you solder. Choose “Sleep at a reasonable hour from now on” and Missy's Game, Friday comes into view; choose “Keep pushing — fair is in three days” and the road bends toward Dad's Quiet Help.",
       "sceneTitle": "The Sleepless Tuesday",
       "choices": [
         {
           "text": "Sleep at a reasonable hour from now on",
-          "consequence": "Take the lesson.",
+          "consequence": "You commit to sleep at a reasonable hour from now on. The road to Missy's Game, Friday is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s12"
         },
         {
           "text": "Keep pushing — fair is in three days",
-          "consequence": "The decision settles the question for now. Its verdict—Sprint—follows you into whatever comes next.",
+          "consequence": "You choose to keep pushing — fair is in three days. By Dad's Quiet Help, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Close the notebook for the whole game",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Be present.",
+          "consequence": "You commit to close the notebook for the whole game. The road to Saturday Morning is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s14"
         },
         {
           "text": "Keep glancing at notes between sets",
-          "consequence": "“Keep glancing at notes between sets” closes one possibility and opens another. The moment leaves a clear note behind: Compromise.",
+          "consequence": "You commit to keep glancing at notes between sets. The road to The Awkward Question is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Thank him directly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tell him.",
+          "consequence": "You choose to thank him directly. By Saturday Morning, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s14"
         },
         {
           "text": "Nod and keep working",
-          "consequence": "Some thanks are silent.",
+          "consequence": "You nod and keep working. It gets you to The Awkward Question, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The fair. Folding tables. Other kids' baking-soda volcanoes. Your detector hums politely. The county judge, who has a Ph.D. in something else but knows physics when she sees it, leans in.",
+      "text": "The fair. Folding tables. Other kids' baking-soda volcanoes. Your detector hums politely. The county judge, who has a Ph.D. in something else but knows physics when she sees it, leans in. Choose “Demo the detector with no shortcuts” and The Ribbon comes into view; choose “Demo with the dramatic flourish you've practiced” and the road bends toward Tam's Speech.",
       "sceneTitle": "Saturday Morning",
       "choices": [
         {
           "text": "Demo the detector with no shortcuts",
-          "consequence": "Be honest about your data.",
+          "consequence": "Be honest about your data. You commit to demo the detector with no shortcuts. The road to The Ribbon is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s16"
         },
         {
           "text": "Demo with the dramatic flourish you've practiced",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Showmanship.",
+          "consequence": "You choose to demo with the dramatic flourish you've practiced. By Tam's Speech, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "A different judge — an older man — asks you a question you suspect is meant to trip you up. You realize, mid-answer, that he is testing for confidence as much as content.",
+      "text": "A different judge — an older man — asks you a question you suspect is meant to trip you up. You realize, mid-answer, that he is testing for confidence as much as content. The paths divide here: “Answer plainly and concisely” leads into The Ribbon, while “Answer with proof and humor” makes Tam's Speech the next reckoning.",
       "sceneTitle": "The Awkward Question",
       "choices": [
         {
           "text": "Answer plainly and concisely",
-          "consequence": "Don't show off.",
+          "consequence": "You choose to answer plainly and concisely. By The Ribbon, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s16"
         },
         {
           "text": "Answer with proof and humor",
-          "consequence": "Be your full self.",
+          "consequence": "You commit to answer with proof and humor. The road to Tam's Speech is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Aim for the state fair next month",
-          "consequence": "You commit to “Aim for the state fair next month.” The story records the instinct as “Keep going” and carries it forward.",
+          "consequence": "You choose to aim for the state fair next month. By The State Fair Letter, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take a week off before the next thing",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Rest.",
+          "consequence": "You choose to take a week off before the next thing. By Sunday Pancakes, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Tell him you'll always include him",
-          "consequence": "There is no taking “Tell him you'll always include him” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tell him you'll always include him. By The State Fair Letter, the plan will either look inspired or become a story told at your expense for years.",
           "nextNodeId": "s18"
         },
         {
           "text": "Promise to choose better, on purpose",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Specific vow.",
+          "consequence": "You commit to promise to choose better, on purpose. The road to Sunday Pancakes is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "An envelope arrives — the state fair, with a small stipend. Mary cries a little. Meemaw cries a lot. Dad pretends not to. Missy says, 'Cool,' which is, from her, the highest honor.",
+      "text": "An envelope arrives — the state fair, with a small stipend. Mary cries a little. Meemaw cries a lot. Dad pretends not to. Missy says, 'Cool,' which is, from her, the highest honor. The Hallway, Quiet comes either way; its meaning changes with the difference between “Take the family with you to state” and “Take just Tam.”",
       "sceneTitle": "The State Fair Letter",
       "choices": [
         {
           "text": "Take the family with you to state",
-          "consequence": "Bring them along.",
+          "consequence": "You commit to take the family with you to state. The road to The Hallway, Quiet is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take just Tam",
-          "consequence": "Honor the partner.",
+          "consequence": "You commit to take just Tam. The road to The Hallway, Quiet is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s20"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Stay at the table an extra hour",
-          "consequence": "The decision settles the question for now. Its verdict—Be present—follows you into whatever comes next.",
+          "consequence": "You commit to stay at the table an extra hour. The road to The Hallway, Quiet is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "s20"
         },
         {
           "text": "Go work on the next project before noon",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Curiosity, called.",
+          "consequence": "You go work on the next project before noon. It gets you to The Hallway, Quiet, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,17 +385,17 @@
       "choices": [
         {
           "text": "Pile in the station wagon together",
-          "consequence": "The decision settles the question for now. Its verdict—Family—follows you into whatever comes next.",
+          "consequence": "You pile in the station wagon together. It gets you to Cooper, the Family, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Just you and Tam, partners",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friendship.",
+          "consequence": "You commit to just you and Tam, partners. The road to Cooper & Tam is now open, and at least two people are already preparing to misunderstand why.",
           "nextNodeId": "end_tam"
         },
         {
           "text": "Already plan tomorrow's experiment",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Science calls.",
+          "consequence": "You already plan tomorrow's experiment. It gets you to The Long Road, though not with the dignity or plausible deniability you would have preferred.",
           "nextNodeId": "end_science"
         }
       ],

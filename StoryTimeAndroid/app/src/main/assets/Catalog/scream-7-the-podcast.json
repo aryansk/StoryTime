@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Episode 102 goes live. The new ghostface enters the chat. Your moderators ban them. They come back.",
+      "text": "Episode 102 goes live. The new ghostface enters the chat. Your moderators ban them. They come back. Both choices lead to Your Co-Host, but “Continue the show” arrives there with a different cost than “End the stream.”",
       "sceneTitle": "Live Stream Drop",
       "choices": [
         {
           "text": "Continue the show",
-          "consequence": "There is no taking “Continue the show” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You choose to continue the show. By Your Co-Host, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "End the stream",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You end the stream. The way toward Your Co-Host opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Your co-host Kira is, against your judgement, into it. She thinks it's an in-character troll.",
+      "text": "Your co-host Kira is, against your judgement, into it. She thinks it's an in-character troll. Both choices lead to Detective Bailey, but “Trust your gut” arrives there with a different cost than “Trust Kira.” In Your Co-Host, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Your Co-Host",
       "choices": [
         {
           "text": "Trust your gut",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Skeptical.",
+          "consequence": "You commit to trust your gut. It carries you into Detective Bailey while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         },
         {
           "text": "Trust Kira",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You choose to trust Kira. By Detective Bailey, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Detective Bailey, who appeared in three earlier Screams, is now a Lieutenant. She calls. She is, professionally, tired.",
+      "text": "Detective Bailey, who appeared in three earlier Screams, is now a Lieutenant. She calls. She is, professionally, tired. The Call is already waiting. What changes is whether “Cooperate” or “Get a lawyer first” is the instinct you carry into it.",
       "sceneTitle": "Detective Bailey",
       "choices": [
         {
           "text": "Cooperate",
-          "consequence": "“Cooperate” closes one possibility and opens another. The moment leaves a clear note behind: Right.",
+          "consequence": "You cooperate. The way toward The Call opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         },
         {
           "text": "Get a lawyer first",
-          "consequence": "There is no taking “Get a lawyer first” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You choose to get a lawyer first. By The Call, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "A landline rings at 11 p.m. The number is from your old neighborhood.",
+      "text": "A landline rings at 11 p.m. The number is from your old neighborhood. The road still runs toward Kira's Apartment. Its next turn depends on the difference between choosing “Pick up” and choosing “Let it ring.”",
       "sceneTitle": "The Call",
       "choices": [
         {
           "text": "Pick up",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to pick up. By Kira's Apartment, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Let it ring",
-          "consequence": "There is no taking “Let it ring” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You let it ring. The way toward Kira's Apartment opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Kira's apartment is, suddenly, the scene of a thing. She is okay. The thing happened just before she arrived.",
+      "text": "Kira's apartment is, suddenly, the scene of a thing. She is okay. The thing happened just before she arrived. Both choices lead to Sidney, but “Go to Kira” arrives there with a different cost than “Stay home.”",
       "sceneTitle": "Kira's Apartment",
       "choices": [
         {
           "text": "Go to Kira",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend.",
+          "consequence": "You go to Kira. The way toward Sidney opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay home",
-          "consequence": "You commit to “Stay home.” The story records the instinct as “Pragmatic” and carries it forward.",
+          "consequence": "You stay home. The way toward Sidney opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Sidney Prescott, retired, calls you. She has, she says, seen this pattern. She is, professionally, the expert.",
+      "text": "Sidney Prescott, retired, calls you. She has, she says, seen this pattern. She is, professionally, the expert. The Podcast Numbers comes either way; its meaning changes with the difference between “Take her advice” and “Politely thank her.”",
       "sceneTitle": "Sidney",
       "choices": [
         {
           "text": "Take her advice",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You take her advice. The way toward The Podcast Numbers opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         },
         {
           "text": "Politely thank her",
-          "consequence": "There is no taking “Politely thank her” back. Independence shapes the silence before the next moment arrives.",
+          "consequence": "You choose to politely thank her. By The Podcast Numbers, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Your podcast numbers triple. Your sponsor wants you to lean in. You realize you are, accidentally, fueling the killer's brand.",
+      "text": "Your podcast numbers triple. Your sponsor wants you to lean in. You realize you are, accidentally, fueling the killer's brand. Ghostface, Online is already waiting. What changes is whether “Tone it down” or “Lean in with a disclaimer” is the instinct you carry into it.",
       "sceneTitle": "The Podcast Numbers",
       "choices": [
         {
           "text": "Tone it down",
-          "consequence": "There is no taking “Tone it down” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tone it down. By Ghostface, Online, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Lean in with a disclaimer",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hybrid.",
+          "consequence": "You lean in with a disclaimer. The way toward Ghostface, Online opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Ghostface starts a Twitter account. The bio is a single emoji. Six hundred thousand followers in three hours.",
+      "text": "Ghostface starts a Twitter account. The bio is a single emoji. Six hundred thousand followers in three hours. Both choices lead to The Suspect, but “Don't engage online” arrives there with a different cost than “Engage carefully.”",
       "sceneTitle": "Ghostface, Online",
       "choices": [
         {
           "text": "Don't engage online",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to don't engage online. It carries you into The Suspect while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Engage carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategic.",
+          "consequence": "You engage carefully. The way toward The Suspect opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your ex-boyfriend's brother is in town. He hates you, for unrelated reasons. He is, in a way you don't want to be true, also charming.",
+      "text": "Your ex-boyfriend's brother is in town. He hates you, for unrelated reasons. He is, in a way you don't want to be true, also charming. Knife Pattern is already waiting. What changes is whether “Watch him” or “Confront him” is the instinct you carry into it.",
       "sceneTitle": "The Suspect",
       "choices": [
         {
           "text": "Watch him",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You watch him. The way toward Knife Pattern opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Confront him",
-          "consequence": "There is no taking “Confront him” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You choose to confront him. By Knife Pattern, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Bailey hands you a forensic report. The pattern of the killings matches not Ghostface 1 but Ghostface 3. Someone is, in fact, doing their homework.",
+      "text": "Bailey hands you a forensic report. The pattern of the killings matches not Ghostface 1 but Ghostface 3. Someone is, in fact, doing their homework. Both choices lead to The Live Show, but “Use that publicly” arrives there with a different cost than “Hold it back.”",
       "sceneTitle": "Knife Pattern",
       "choices": [
         {
           "text": "Use that publicly",
-          "consequence": "There is no taking “Use that publicly” back. Bait them shapes the silence before the next moment arrives.",
+          "consequence": "You use that publicly. The way toward The Live Show opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         },
         {
           "text": "Hold it back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Discipline.",
+          "consequence": "You choose to hold it back. By The Live Show, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Your studio has invited a live audience for tonight's special. Bailey wants to cancel. Your producer wants to scale it up.",
+      "text": "Your studio has invited a live audience for tonight's special. Bailey wants to cancel. Your producer wants to scale it up. Both choices lead to Backstage, but “Cancel” arrives there with a different cost than “Scale up with security.”",
       "sceneTitle": "The Live Show",
       "choices": [
         {
           "text": "Cancel",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You commit to cancel. It carries you into Backstage while the safer possibility closes without making a sound.",
           "nextNodeId": "s12"
         },
         {
           "text": "Scale up with security",
-          "consequence": "You commit to “Scale up with security.” The story records the instinct as “Strategic” and carries it forward.",
+          "consequence": "You scale up with security. The way toward Backstage opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Backstage you see, in the hallway, a glimpse of a face you recognize from the chat. You don't, at first, know from where.",
+      "text": "Backstage you see, in the hallway, a glimpse of a face you recognize from the chat. You don't, at first, know from where. Sidney, on Set comes either way; its meaning changes with the difference between “Investigate quietly” and “Tell security immediately.”",
       "sceneTitle": "Backstage",
       "choices": [
         {
           "text": "Investigate quietly",
-          "consequence": "“Investigate quietly” closes one possibility and opens another. The moment leaves a clear note behind: Tactical.",
+          "consequence": "You commit to investigate quietly. It carries you into Sidney, on Set while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         },
         {
           "text": "Tell security immediately",
-          "consequence": "“Tell security immediately” closes one possibility and opens another. The moment leaves a clear note behind: Right.",
+          "consequence": "You choose to tell security immediately. By Sidney, on Set, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Sidney shows up. The audience gasps. She is gracious. She is also armed.",
+      "text": "Sidney shows up. The audience gasps. She is gracious. She is also armed. The road still runs toward The Phone, on Air. Its next turn depends on the difference between choosing “Defer to her” and choosing “Co-host with her.”",
       "sceneTitle": "Sidney, on Set",
       "choices": [
         {
           "text": "Defer to her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Sense.",
+          "consequence": "You defer to her. The way toward The Phone, on Air opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Co-host with her",
-          "consequence": "You commit to “Co-host with her.” The story records the instinct as “Equal” and carries it forward.",
+          "consequence": "You commit to co-host with her. It carries you into The Phone, on Air while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The phone, on the live stream, rings. The producer, after a beat, puts it through. Ghostface, on the line, has questions.",
+      "text": "The phone, on the live stream, rings. The producer, after a beat, puts it through. Ghostface, on the line, has questions. The road still runs toward The Hostage. Its next turn depends on the difference between choosing “Answer carefully” and choosing “Refuse to engage.”",
       "sceneTitle": "The Phone, on Air",
       "choices": [
         {
           "text": "Answer carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You choose to answer carefully. By The Hostage, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Refuse to engage",
-          "consequence": "The decision settles the question for now. Its verdict—Power—follows you into whatever comes next.",
+          "consequence": "You choose to refuse to engage. By The Hostage, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The killer, on air, reveals they have your co-host's mother. The audience is in the studio. The clock is ticking.",
+      "text": "The killer, on air, reveals they have your co-host's mother. The audience is in the studio. The clock is ticking. Both choices lead to The Trap, but “Negotiate” arrives there with a different cost than “Have security move.”",
       "sceneTitle": "The Hostage",
       "choices": [
         {
           "text": "Negotiate",
-          "consequence": "The decision settles the question for now. Its verdict—Buy time—follows you into whatever comes next.",
+          "consequence": "You negotiate. The way toward The Trap opens, and something on the other side seems to notice.",
           "nextNodeId": "s16"
         },
         {
           "text": "Have security move",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Action.",
+          "consequence": "You have security move. The way toward The Trap opens, and something on the other side seems to notice.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Bailey has, mercifully, set a trap. The trap requires you to keep talking. The trap requires you to do exactly the thing you're terrified to do.",
+      "text": "Bailey has, mercifully, set a trap. The trap requires you to keep talking. The trap requires you to do exactly the thing you're terrified to do. You cannot avoid Studio Lights Out; you can only decide whether “Keep talking” or “Tap out” defines the person who reaches it.",
       "sceneTitle": "The Trap",
       "choices": [
         {
           "text": "Keep talking",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to keep talking. It carries you into Studio Lights Out while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         },
         {
           "text": "Tap out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to tap out. It carries you into Studio Lights Out while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Lights out. The room is, briefly, a maze. You learn that everyone you trust is alive. You learn that one person you didn't trust is, in fact, the killer.",
+      "text": "Lights out. The room is, briefly, a maze. You learn that everyone you trust is alive. You learn that one person you didn't trust is, in fact, the killer. You cannot avoid Final Reveal; you can only decide whether “Confront” or “Stay still” defines the person who reaches it.",
       "sceneTitle": "Studio Lights Out",
       "choices": [
         {
           "text": "Confront",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You confront. The way toward Final Reveal opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay still",
-          "consequence": "There is no taking “Stay still” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay still. By Final Reveal, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Two killers. The pattern, again. Ghostface motives are, this time, more banal than usual. The reveal is, by Sidney's calm voice, almost anti-climactic.",
+      "text": "Two killers. The pattern, again. Ghostface motives are, this time, more banal than usual. The reveal is, by Sidney's calm voice, almost anti-climactic. Both choices lead to After the Show, but “Confront calmly” arrives there with a different cost than “Improvise.”",
       "sceneTitle": "Final Reveal",
       "choices": [
         {
           "text": "Confront calmly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Trust Sidney.",
+          "consequence": "You choose to confront calmly. By After the Show, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Improvise",
-          "consequence": "You commit to “Improvise.” The story records the instinct as “Adrenaline” and carries it forward.",
+          "consequence": "You choose to improvise. By After the Show, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "The show is over. The bodies are off. The cameras are still rolling. You realize the entire night was, somehow, a podcast episode.",
+      "text": "The show is over. The bodies are off. The cameras are still rolling. You realize the entire night was, somehow, a podcast episode. Sidney's Hug will follow either decision, but it will meet a different version of you after “End the podcast forever” than after “Take a long break.”",
       "sceneTitle": "After the Show",
       "choices": [
         {
           "text": "End the podcast forever",
-          "consequence": "There is no taking “End the podcast forever” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to end the podcast forever. It carries you into Sidney's Hug while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take a long break",
-          "consequence": "The decision settles the question for now. Its verdict—Pace—follows you into whatever comes next.",
+          "consequence": "You commit to take a long break. It carries you into Sidney's Hug while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Sidney, on the way out, hugs you. She says, simply, 'Don't make a sequel.' You know what she means.",
+      "text": "Sidney, on the way out, hugs you. She says, simply, 'Don't make a sequel.' You know what she means. Both choices lead to Therapy, but “Listen to her” arrives there with a different cost than “Make something different.”",
       "sceneTitle": "Sidney's Hug",
       "choices": [
         {
           "text": "Listen to her",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You choose to listen to her. By Therapy, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Make something different",
-          "consequence": "“Make something different” closes one possibility and opens another. The moment leaves a clear note behind: Pivot.",
+          "consequence": "You choose to make something different. By Therapy, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You find a good therapist. The therapist has, mercifully, no idea who you are. You like that.",
+      "text": "You find a good therapist. The therapist has, mercifully, no idea who you are. You like that. To choose “Stay in therapy” means meeting Off the Mic; “Process privately” sends you toward A Different Show instead. A third choice, “Take the third path,” keeps Sidney, Mentor in play.",
       "sceneTitle": "Therapy",
       "choices": [
         {
           "text": "Stay in therapy",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You choose to stay in therapy. By Off the Mic, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_quit"
         },
         {
           "text": "Process privately",
-          "consequence": "“Process privately” closes one possibility and opens another. The moment leaves a clear note behind: Personal.",
+          "consequence": "You choose to process privately. By A Different Show, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_pivot"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Sidney, Mentor, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_sidney"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_quit",
-      "text": "You retire from podcasting. You move out of Woodsboro. You become, weirdly, a person who teaches yoga. Sidney, of all people, comes to a class. She is, somehow, terrible at it. You laugh.",
+      "text": "You retire from podcasting. You move out of Woodsboro. You become, weirdly, a person who teaches yoga. Sidney, of all people, comes to a class. She is, somehow, terrible at it. You laugh. The road into Off the Mic began with “Stay in therapy” in Therapy; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Off the Mic",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_pivot",
-      "text": "You start a new podcast about people who survived horrible things. The show is, in its quiet way, hopeful. It outperforms your old one. You are, mercifully, less of a brand.",
+      "text": "You start a new podcast about people who survived horrible things. The show is, in its quiet way, hopeful. It outperforms your old one. You are, mercifully, less of a brand. The road into A Different Show began with “Process privately” in Therapy; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "A Different Show",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_sidney",
-      "text": "Sidney becomes, in a strange way, your mentor. You meet for coffee twice a year. She gives you advice you do not, at the time, want to take but, in the end, always do.",
+      "text": "Sidney becomes, in a strange way, your mentor. You meet for coffee twice a year. She gives you advice you do not, at the time, want to take but, in the end, always do. The road into Sidney, Mentor began with “Take the third path” in Therapy; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Sidney, Mentor",
       "choices": [],
       "isEnding": true,

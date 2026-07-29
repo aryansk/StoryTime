@@ -24,12 +24,12 @@
       "choices": [
         {
           "text": "Watch the whole thing now, in the bathroom",
-          "consequence": "Privacy is the only currency here.",
+          "consequence": "Privacy is the only currency here. You choose to watch the whole thing now, in the bathroom. By The Stall, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s2"
         },
         {
           "text": "Forward it to your personal email immediately",
-          "consequence": "You commit to “Forward it to your personal email immediately.” The story records the instinct as “Lifeboats first” and carries it forward.",
+          "consequence": "You forward it to your personal email immediately. The route to Personal Email opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s3"
         }
       ],
@@ -43,12 +43,12 @@
       "choices": [
         {
           "text": "Show Mira; you need an ally",
-          "consequence": "Don't carry this alone.",
+          "consequence": "You show Mira; you need an ally. The route to Mira opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Lie about a stomach bug",
-          "consequence": "Trust no one yet.",
+          "consequence": "You choose to lie about a stomach bug. By Outside, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You forward it and immediately remember Vought monitors outbound traffic on 'Compliance Tuesdays,' which is, terrifyingly, every day. A box appears in the lower right: 'Routine compliance review scheduled.'",
+      "text": "You forward it and immediately remember Vought monitors outbound traffic on 'Compliance Tuesdays,' which is, terrifyingly, every day. You are unlikely to keep all three. “Delete and pretend nothing happened” opens the route to Mira. “Stand up and walk out of the building now” changes the terms and carries you toward Outside.",
       "sceneTitle": "Personal Email",
       "choices": [
         {
           "text": "Delete and pretend nothing happened",
-          "consequence": "Wipe the trail you accidentally made.",
+          "consequence": "Wipe the trail you accidentally made. You delete and pretend nothing happened. The route to Mira opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stand up and walk out of the building now",
-          "consequence": "Don't be in the room when they come for you.",
+          "consequence": "Don't be in the room when they come for you. You choose to stand up and walk out of the building now. By Outside, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Mira watches 10 seconds and goes pale. 'Whoever sent you this,' she whispers, 'is testing you. Vought does this. They're hunting a leaker.' She might be right. She might also be the test.",
+      "text": "Mira watches 10 seconds and goes pale. 'Whoever sent you this,' she whispers, 'is testing you. Vought does this. They're hunting a leaker.' She might be right. She might also be the test. You are unlikely to keep all three.",
       "sceneTitle": "Mira",
       "choices": [
         {
           "text": "Trust Mira and plan together",
-          "consequence": "Two heads are also two targets.",
+          "consequence": "Two heads are also two targets. You commit to trust Mira and plan together. It buys momentum toward The Boys' Safe House and spends the last protection hesitation gave you.",
           "nextNodeId": "s6"
         },
         {
           "text": "Smile and act like you don't believe her",
-          "consequence": "Stay alone, stay alive.",
+          "consequence": "You choose to smile and act like you don't believe her. By Vought Tower, Floor 47, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "On the street you walk three blocks before someone matches your stride. Tall, hoodie, soft voice. 'You watched it,' he says. 'I'm Hughie. We can keep you alive if you trust us.'",
+      "text": "On the street you walk three blocks before someone matches your stride. Tall, hoodie, soft voice. 'You watched it,' he says. 'I'm Hughie. To choose “Go with him, carefully” means meeting The Boys' Safe House; “Refuse — this could be Vought too” sends you toward Vought Tower, Floor 47 instead.",
       "sceneTitle": "Outside",
       "choices": [
         {
           "text": "Go with him, carefully",
-          "consequence": "Choose your strangers.",
+          "consequence": "You go with him, carefully. The route to The Boys' Safe House opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Refuse — this could be Vought too",
-          "consequence": "“Refuse — this could be Vought too” closes one possibility and opens another. The moment leaves a clear note behind: Stay independent.",
+          "consequence": "You commit to refuse — this could be Vought too. It buys momentum toward Vought Tower, Floor 47 and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -119,12 +119,12 @@
       "choices": [
         {
           "text": "Hand them the video",
-          "consequence": "Allies need leverage.",
+          "consequence": "You commit to hand them the video. It buys momentum toward The Source and spends the last protection hesitation gave you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Hold it until you have terms",
-          "consequence": "A copy is also a contract.",
+          "consequence": "A copy is also a contract. You choose to hold it until you have terms. By Starlight, Quietly, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Madelyn — sorry, your boss this season — calls you up. She compliments your shoes. She asks, conversationally, if you've seen anything 'unusual' today. Her eyes do not blink.",
+      "text": "Madelyn — sorry, your boss this season — calls you up. She compliments your shoes. She asks, conversationally, if you've seen anything 'unusual' today. Her eyes do not blink. You are unlikely to keep all three. Choose “Lie smoothly” and The Source comes into view; choose “Almost tell the truth, then redirect” and the road bends toward Starlight, Quietly.",
       "sceneTitle": "Vought Tower, Floor 47",
       "choices": [
         {
           "text": "Lie smoothly",
-          "consequence": "Practice as if she can hear your heart.",
+          "consequence": "Practice as if she can hear your heart. You commit to lie smoothly. It buys momentum toward The Source and spends the last protection hesitation gave you.",
           "nextNodeId": "s8"
         },
         {
           "text": "Almost tell the truth, then redirect",
-          "consequence": "Confessions can be camouflage.",
+          "consequence": "Confessions can be camouflage. You choose to almost tell the truth, then redirect. By Starlight, Quietly, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The original sender reveals themselves through a clue only Vought-internal could decode — a Sup named Echo, low-tier, mostly forgotten, who has been collecting incidents for two years and finally chose to mail one.",
+      "text": "The original sender reveals themselves through a clue only Vought-internal could decode — a Sup named Echo, low-tier, mostly forgotten, who has been collecting incidents for two years and finally chose to mail one. “Meet Echo in person” opens the route to Homelander's Smile. “Tell Echo to go to ground” changes the terms and carries you toward Frenchie, Useful.",
       "sceneTitle": "The Source",
       "choices": [
         {
           "text": "Meet Echo in person",
-          "consequence": "Source meetings change everything.",
+          "consequence": "Source meetings change everything. You choose to meet Echo in person. By Homelander's Smile, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         },
         {
           "text": "Tell Echo to go to ground",
-          "consequence": "Protect the source first.",
+          "consequence": "Protect the source first. You commit to tell Echo to go to ground. It buys momentum toward Frenchie, Useful and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -176,12 +176,12 @@
       "choices": [
         {
           "text": "Trust Starlight",
-          "consequence": "Bet on the believer.",
+          "consequence": "You commit to trust Starlight. It buys momentum toward Homelander's Smile and spends the last protection hesitation gave you.",
           "nextNodeId": "s10"
         },
         {
           "text": "Stay polite but distant",
-          "consequence": "Trust costs more this week.",
+          "consequence": "Trust costs more this week. You commit to stay polite but distant. It buys momentum toward Frenchie, Useful and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Across the cafe, Homelander stands at the window pretending to read the menu. He is six inches from your shoulder. He says, 'You have something of mine.' Smiles like a children's TV show.",
+      "text": "Across the cafe, Homelander stands at the window pretending to read the menu. He is six inches from your shoulder. He says, 'You have something of mine.' Smiles like a children's TV show. The distance between The Reporter and Butcher's Plan begins with the choice between “Bluff entirely” and “Tell him a half-truth and offer terms.”",
       "sceneTitle": "Homelander's Smile",
       "choices": [
         {
           "text": "Bluff entirely",
-          "consequence": "Lie like your nervous system depends on it.",
+          "consequence": "Lie like your nervous system depends on it. You commit to bluff entirely. It buys momentum toward The Reporter and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Tell him a half-truth and offer terms",
-          "consequence": "Negotiation with monsters is a skill.",
+          "consequence": "Negotiation with monsters is a skill. You choose to tell him a half-truth and offer terms. By Butcher's Plan, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Frenchie meets you in an alley with a small device that scrambles audio recording within a five-meter radius. 'For meetings,' he shrugs. 'Or for first dates if you are paranoid. Like me.'",
+      "text": "Frenchie meets you in an alley with a small device that scrambles audio recording within a five-meter radius. 'For meetings,' he shrugs. 'Or for first dates if you are paranoid. “Use the device for the next meeting” opens the route to The Reporter. “Use the device for your own apartment first” changes the terms and carries you toward Butcher's Plan.",
       "sceneTitle": "Frenchie, Useful",
       "choices": [
         {
           "text": "Use the device for the next meeting",
-          "consequence": "Privacy is power.",
+          "consequence": "You use the device for the next meeting. The route to The Reporter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s12"
         },
         {
           "text": "Use the device for your own apartment first",
-          "consequence": "Sweep your nest.",
+          "consequence": "You choose to use the device for your own apartment first. By Butcher's Plan, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "An investigative journalist — too brave, too underpaid — agrees to publish in 48 hours if you can verify the video's authenticity. Verification means more leaks. More leaks means more enemies.",
+      "text": "An investigative journalist — too brave, too underpaid — agrees to publish in 48 hours if you can verify the video's authenticity. Verification means more leaks. More leaks means more enemies. You are unlikely to keep all three.",
       "sceneTitle": "The Reporter",
       "choices": [
         {
           "text": "Get verification at any cost",
-          "consequence": "Truth's deadline is also a debt.",
+          "consequence": "Truth's deadline is also a debt. You get verification at any cost. The route to Mira, Wired opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s14"
         },
         {
           "text": "Get the journalist to publish without you named",
-          "consequence": "Stay invisible; the story does the work.",
+          "consequence": "Stay invisible; the story does the work. You choose to get the journalist to publish without you named. By Stan Edgar, Quietly, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s15"
         }
       ],
@@ -252,12 +252,12 @@
       "choices": [
         {
           "text": "Approve the plan",
-          "consequence": "Use their weapons against them.",
+          "consequence": "Use their weapons against them. You commit to approve the plan. It buys momentum toward Mira, Wired and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Argue for a cleaner play",
-          "consequence": "Stay ethical; you'll need to in a year.",
+          "consequence": "Stay ethical; you'll need to in a year. You argue for a cleaner play. The route to Stan Edgar, Quietly opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Mira admits she was, indeed, partly a test — but she's done now. She wants out. She gives you a folder of corroborating documents that turn the video from a clip into a case.",
+      "text": "Mira admits she was, indeed, partly a test — but she's done now. She wants out. She gives you a folder of corroborating documents that turn the video from a clip into a case. You are unlikely to keep all three.",
       "sceneTitle": "Mira, Wired",
       "choices": [
         {
           "text": "Get her out tonight",
-          "consequence": "Protect the people who flip.",
+          "consequence": "Protect the people who flip. You choose to get her out tonight. By The Drop, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take the folder and leave her to her own plan",
-          "consequence": "Carry only what you can.",
+          "consequence": "Carry only what you can. You take the folder and leave her to her own plan. The route to Homelander Live opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Stan Edgar — out of Vought, in a townhouse, with very expensive tea — invites you to talk. He wants the video. He says he wants Homelander out. He is the most dangerous ally on the board.",
+      "text": "Stan Edgar — out of Vought, in a townhouse, with very expensive tea — invites you to talk. He wants the video. He says he wants Homelander out. He is the most dangerous ally on the board. You are unlikely to keep all three.",
       "sceneTitle": "Stan Edgar, Quietly",
       "choices": [
         {
           "text": "Accept his help with conditions",
-          "consequence": "Use the king to depose the king.",
+          "consequence": "Use the king to depose the king. You accept his help with conditions. The route to The Drop opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s16"
         },
         {
           "text": "Decline; he'll just install another monster",
-          "consequence": "Some help is its own trap.",
+          "consequence": "Some help is its own trap. You decline; he'll just install another monster. The route to Homelander Live opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The leak goes live at 8:00 a.m. Eastern. Within four minutes Homelander is trending in 14 languages. Within seven, Vought stock is in freefall. Within twelve, helicopters are over your apartment.",
+      "text": "The leak goes live at 8:00 a.m. Eastern. Within four minutes Homelander is trending in 14 languages. Within seven, Vought stock is in freefall. Within twelve, helicopters are over your apartment. The paths divide here: “Run with The Boys” leads into The Hearing, while “Surrender to the FBI publicly” makes The Long Game the next reckoning.",
       "sceneTitle": "The Drop",
       "choices": [
         {
           "text": "Run with The Boys",
-          "consequence": "Allies you have, take.",
+          "consequence": "You commit to run with The Boys. It buys momentum toward The Hearing and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Surrender to the FBI publicly",
-          "consequence": "Daylight as protection.",
+          "consequence": "You surrender to the FBI publicly. The route to The Long Game opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Counter with a live response",
-          "consequence": "Defang the moment with truth.",
+          "consequence": "Defang the moment with truth. You counter with a live response. The route to The Hearing opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         },
         {
           "text": "Go silent for 24 hours",
-          "consequence": "Don't compete with him on his stage.",
+          "consequence": "Don't compete with him on his stage. You commit to go silent for 24 hours. It buys momentum toward The Long Game and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "A Senate hearing — convened on emergency grounds — wants you to testify. Vought's counsel sits behind a stack of NDAs the size of a phone book. Cameras everywhere. Your hands, weirdly, calm.",
+      "text": "A Senate hearing — convened on emergency grounds — wants you to testify. Vought's counsel sits behind a stack of NDAs the size of a phone book. Cameras everywhere. Your hands, weirdly, calm. The distance between Verdict and The Boys, After begins with the choice between “Testify with every detail” and “Testify only on what you witnessed.”",
       "sceneTitle": "The Hearing",
       "choices": [
         {
           "text": "Testify with every detail",
-          "consequence": "Truth, public, repeated.",
+          "consequence": "Truth, public, repeated. You testify with every detail. The route to Verdict opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         },
         {
           "text": "Testify only on what you witnessed",
-          "consequence": "Stay defensible; let evidence carry the rest.",
+          "consequence": "Stay defensible; let evidence carry the rest. You testify only on what you witnessed. The route to The Boys, After opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Stay anonymous forever",
-          "consequence": "Some heroes do not autograph.",
+          "consequence": "Some heroes do not autograph. You choose to stay anonymous forever. By Unsigned, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_anon"
         },
         {
           "text": "Eventually take credit when it's safe",
-          "consequence": "Let history know who turned the lights on.",
+          "consequence": "Let history know who turned the lights on. You eventually take credit when it's safe. The route to The Memoir opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_credit"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Take a quiet government job in oversight",
-          "consequence": "Build the fence so this can't happen again.",
+          "consequence": "Build the fence so this can't happen again. You choose to take a quiet government job in oversight. By Building the Fence, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_oversight"
         },
         {
           "text": "Walk away from supes forever",
-          "consequence": "Some weeks are enough.",
+          "consequence": "You commit to walk away from supes forever. It buys momentum toward Out and spends the last protection hesitation gave you.",
           "nextNodeId": "end_done"
         }
       ],
@@ -404,12 +404,12 @@
       "choices": [
         {
           "text": "Keep in touch with all of them",
-          "consequence": "Found-family is also work.",
+          "consequence": "Found-family is also work. You choose to keep in touch with all of them. By Sundays at Kimiko's, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Send postcards and otherwise vanish",
-          "consequence": "Closure can be a stamp.",
+          "consequence": "You commit to send postcards and otherwise vanish. It buys momentum toward Out and spends the last protection hesitation gave you.",
           "nextNodeId": "end_done"
         }
       ],
@@ -418,7 +418,7 @@
     },
     {
       "id": "end_anon",
-      "text": "Your name never appears. Vought collapses. A new, slightly better company rises in its place. You take a quiet job in pharma compliance and watch documentaries about yourself, anonymously, on a Tuesday.",
+      "text": "Your name never appears. Vought collapses. A new, slightly better company rises in its place. You take a quiet job in pharma compliance and watch documentaries about yourself, anonymously, on a Tuesday. The road into Unsigned began with “Stay anonymous forever” in The Long Game; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Unsigned",
       "choices": [],
       "isEnding": true,
@@ -434,7 +434,7 @@
     },
     {
       "id": "end_oversight",
-      "text": "You join the new Bureau of Superhuman Affairs. The work is paperwork; the work is hard; the work is necessary. Some weeks you miss adrenaline. Most weeks you don't.",
+      "text": "You join the new Bureau of Superhuman Affairs. The work is paperwork; the work is hard; the work is necessary. Some weeks you miss adrenaline. Most weeks you don't. The road into Building the Fence began with “Take a quiet government job in oversight” in Verdict; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Building the Fence",
       "choices": [],
       "isEnding": true,
@@ -442,7 +442,7 @@
     },
     {
       "id": "end_done",
-      "text": "You leave. You take a job you do not list on LinkedIn. You take a long, ordinary walk every evening and feel, finally, like a person, not a leak.",
+      "text": "You leave. You take a job you do not list on LinkedIn. You take a long, ordinary walk every evening and feel, finally, like a person, not a leak. You are unlikely to keep all three.",
       "sceneTitle": "Out",
       "choices": [],
       "isEnding": true,

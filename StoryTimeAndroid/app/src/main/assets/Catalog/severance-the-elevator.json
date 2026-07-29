@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Lumon's hush. Milchick's smile. The elevator opens.",
+      "text": "Lumon's hush. Milchick's smile. The elevator opens. Floor 4 comes either way; its meaning changes with the difference between “Step in” and “Slip a note into your own pocket.” In Lobby, 8:47, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Lobby, 8:47",
       "choices": [
         {
           "text": "Step in",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You choose to step in. By Floor 4, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Slip a note into your own pocket",
-          "consequence": "“Slip a note into your own pocket” closes one possibility and opens another. The moment leaves a clear note behind: Cunning.",
+          "consequence": "You commit to slip a note into your own pocket. It carries you into Floor 4 while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Threshold flickers. You are at your desk, refining numbers you don't remember asking for.",
+      "text": "Threshold flickers. You are at your desk, refining numbers you don't remember asking for. Mark will follow either decision, but it will meet a different version of you after “Refine the scary cluster” than after “Hide them in a folder.”",
       "sceneTitle": "Floor 4",
       "choices": [
         {
           "text": "Refine the scary cluster",
-          "consequence": "“Refine the scary cluster” closes one possibility and opens another. The moment leaves a clear note behind: Compliant.",
+          "consequence": "You commit to refine the scary cluster. It carries you into Mark while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         },
         {
           "text": "Hide them in a folder",
-          "consequence": "You commit to “Hide them in a folder.” The story records the instinct as “Spirit” and carries it forward.",
+          "consequence": "You hide them in a folder. The way toward Mark opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your colleague Mark says hello like he doesn't remember either.",
+      "text": "Your colleague Mark says hello like he doesn't remember either. Both choices lead to Helly, but “Whisper a question” arrives there with a different cost than “Pretend everything is fine.” At Helly, whatever is watching will know which fear moved you.",
       "sceneTitle": "Mark",
       "choices": [
         {
           "text": "Whisper a question",
-          "consequence": "You commit to “Whisper a question.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to whisper a question. It carries you into Helly while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Pretend everything is fine",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You pretend everything is fine. The way toward Helly opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "New severed. She tries the door.",
+      "text": "New severed. She tries the door. The road still runs toward Music Dance Experience. Its next turn depends on the difference between choosing “Tell her the rules” and choosing “Help her test the door.” By Music Dance Experience, the danger will have learned what you protect first.",
       "sceneTitle": "Helly",
       "choices": [
         {
           "text": "Tell her the rules",
-          "consequence": "You commit to “Tell her the rules.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You tell her the rules. The way toward Music Dance Experience opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         },
         {
           "text": "Help her test the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You help her test the door. The way toward Music Dance Experience opens, and something on the other side seems to notice.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Milchick brings the cart. The song is the same as last time.",
+      "text": "Milchick brings the cart. The song is the same as last time. Both choices lead to Perpetuity Wing, but “Dance” arrives there with a different cost than “Sit it out.” At Perpetuity Wing, whatever is watching will know which fear moved you.",
       "sceneTitle": "Music Dance Experience",
       "choices": [
         {
           "text": "Dance",
-          "consequence": "There is no taking “Dance” back. Survive shapes the silence before the next moment arrives.",
+          "consequence": "You choose to dance. By Perpetuity Wing, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit it out",
-          "consequence": "There is no taking “Sit it out” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to sit it out. By Perpetuity Wing, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Wax Eagan looms. The exhibit smells of new carpet.",
+      "text": "Wax Eagan looms. The exhibit smells of new carpet. Irving comes either way; its meaning changes with the difference between “Walk it slowly” and “Skip the rest.” By Irving, the danger will have learned what you protect first.",
       "sceneTitle": "Perpetuity Wing",
       "choices": [
         {
           "text": "Walk it slowly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You walk it slowly. The way toward Irving opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         },
         {
           "text": "Skip the rest",
-          "consequence": "“Skip the rest” closes one possibility and opens another. The moment leaves a clear note behind: Spirit.",
+          "consequence": "You choose to skip the rest. By Irving, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "He paints corridors he can't access.",
+      "text": "He paints corridors he can't access. The road still runs toward Burt. Its next turn depends on the difference between choosing “Ask why” and choosing “Don't ask.” In Irving, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Irving",
       "choices": [
         {
           "text": "Ask why",
-          "consequence": "There is no taking “Ask why” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You ask why. The way toward Burt opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         },
         {
           "text": "Don't ask",
-          "consequence": "There is no taking “Don't ask” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You don't ask. The way toward Burt opens, and something on the other side seems to notice.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Optics & Design. He hands Irving a cup of tea.",
+      "text": "Optics & Design. He hands Irving a cup of tea. Conference Room comes either way; its meaning changes with the difference between “Visit O&D with Irving” and “Talk Irving out of it.” By Conference Room, the danger will have learned what you protect first.",
       "sceneTitle": "Burt",
       "choices": [
         {
           "text": "Visit O&D with Irving",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You commit to visit O&D with Irving. It carries you into Conference Room while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Talk Irving out of it",
-          "consequence": "You commit to “Talk Irving out of it.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You talk Irving out of it. The way toward Conference Room opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Cobel watches through the one-way. You feel her watching.",
+      "text": "Cobel watches through the one-way. You feel her watching. Outie Glimpse comes either way; its meaning changes with the difference between “Behave” and “Look up at the mirror.” In Conference Room, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Conference Room",
       "choices": [
         {
           "text": "Behave",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You commit to behave. It carries you into Outie Glimpse while the safer possibility closes without making a sound.",
           "nextNodeId": "s10"
         },
         {
           "text": "Look up at the mirror",
-          "consequence": "You commit to “Look up at the mirror.” The story records the instinct as “Spirit” and carries it forward.",
+          "consequence": "You choose to look up at the mirror. By Outie Glimpse, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Mark, in a flicker, sees his outie's living room. Empty bottles.",
+      "text": "Mark, in a flicker, sees his outie's living room. Empty bottles. Defiant Jazz is already waiting. What changes is whether “Tell Helly” or “Keep it inside” is the instinct you carry into it. At Defiant Jazz, whatever is watching will know which fear moved you.",
       "sceneTitle": "Outie Glimpse",
       "choices": [
         {
           "text": "Tell Helly",
-          "consequence": "There is no taking “Tell Helly” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to tell Helly. By Defiant Jazz, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Keep it inside",
-          "consequence": "There is no taking “Keep it inside” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to keep it inside. By Defiant Jazz, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Milchick announces a Defiant Jazz break. The song plays on a Casio.",
+      "text": "Milchick announces a Defiant Jazz break. The song plays on a Casio. Both choices lead to Helly's Tape, but “Roll with it” arrives there with a different cost than “Plant your feet.” By Helly's Tape, the danger will have learned what you protect first.",
       "sceneTitle": "Defiant Jazz",
       "choices": [
         {
           "text": "Roll with it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You choose to roll with it. By Helly's Tape, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Plant your feet",
-          "consequence": "You commit to “Plant your feet.” The story records the instinct as “Spirit” and carries it forward.",
+          "consequence": "You choose to plant your feet. By Helly's Tape, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A resignation video. The outie refuses.",
+      "text": "A resignation video. The outie refuses. Map of the Floor will follow either decision, but it will meet a different version of you after “Comfort Helly” than after “Plan harder.” By Map of the Floor, the danger will have learned what you protect first.",
       "sceneTitle": "Helly's Tape",
       "choices": [
         {
           "text": "Comfort Helly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Care.",
+          "consequence": "You comfort Helly. The way toward Map of the Floor opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         },
         {
           "text": "Plan harder",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You plan harder. The way toward Map of the Floor opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Irving's careful drawings, taped together.",
+      "text": "Irving's careful drawings, taped together. The road still runs toward Lumon Handbook. Its next turn depends on the difference between choosing “Memorize it” and choosing “Burn it after.” At Lumon Handbook, whatever is watching will know which fear moved you.",
       "sceneTitle": "Map of the Floor",
       "choices": [
         {
           "text": "Memorize it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You choose to memorize it. By Lumon Handbook, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Burn it after",
-          "consequence": "You commit to “Burn it after.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You commit to burn it after. It carries you into Lumon Handbook while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "You find an annotated copy in the records corridor.",
+      "text": "You find an annotated copy in the records corridor. The road still runs toward Cobel's Pin. Its next turn depends on the difference between choosing “Read passages aloud” and choosing “Photograph it via Burt.” In Lumon Handbook, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Lumon Handbook",
       "choices": [
         {
           "text": "Read passages aloud",
-          "consequence": "“Read passages aloud” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You commit to read passages aloud. It carries you into Cobel's Pin while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         },
         {
           "text": "Photograph it via Burt",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cunning.",
+          "consequence": "You commit to photograph it via Burt. It carries you into Cobel's Pin while the safer possibility closes without making a sound.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "A small pin in her lapel — your old mother's, you almost remember.",
+      "text": "A small pin in her lapel — your old mother's, you almost remember. The road still runs toward The Plan. Its next turn depends on the difference between choosing “Notice it” and choosing “Stop noticing.” In Cobel's Pin, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Cobel's Pin",
       "choices": [
         {
           "text": "Notice it",
-          "consequence": "You commit to “Notice it.” The story records the instinct as “Witness” and carries it forward.",
+          "consequence": "You choose to notice it. By The Plan, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stop noticing",
-          "consequence": "You commit to “Stop noticing.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to stop noticing. It carries you into The Plan while the safer possibility closes without making a sound.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Overtime Contingency: brief activation of inside selves outside.",
+      "text": "Overtime Contingency: brief activation of inside selves outside. Wake on the Outside comes either way; its meaning changes with the difference between “Approve the plan” and “Refuse.” By Wake on the Outside, the danger will have learned what you protect first.",
       "sceneTitle": "The Plan",
       "choices": [
         {
           "text": "Approve the plan",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to approve the plan. By Wake on the Outside, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You refuse. The way toward Wake on the Outside opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "A child's birthday party. A husband you don't know. Your own face in a mirror.",
+      "text": "A child's birthday party. A husband you don't know. Your own face in a mirror. Phone Booth is already waiting. What changes is whether “Announce who you are” or “Find a phone first” is the instinct you carry into it.",
       "sceneTitle": "Wake on the Outside",
       "choices": [
         {
           "text": "Announce who you are",
-          "consequence": "There is no taking “Announce who you are” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to announce who you are. It carries you into Phone Booth while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Find a phone first",
-          "consequence": "There is no taking “Find a phone first” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You find a phone first. The way toward Phone Booth opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You call an enemy of Lumon's. The line clicks.",
+      "text": "You call an enemy of Lumon's. The line clicks. The road still runs toward Cobel at the Party. Its next turn depends on the difference between choosing “Speak fast” and choosing “Stay vague.” At Cobel at the Party, whatever is watching will know which fear moved you.",
       "sceneTitle": "Phone Booth",
       "choices": [
         {
           "text": "Speak fast",
-          "consequence": "“Speak fast” closes one possibility and opens another. The moment leaves a clear note behind: Path.",
+          "consequence": "You speak fast. The way toward Cobel at the Party opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay vague",
-          "consequence": "You commit to “Stay vague.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You stay vague. The way toward Cobel at the Party opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Across the room, smiling. She knows.",
+      "text": "Across the room, smiling. She knows. They Switch You Back comes either way; its meaning changes with the difference between “Run” and “Walk evenly.” By They Switch You Back, the danger will have learned what you protect first.",
       "sceneTitle": "Cobel at the Party",
       "choices": [
         {
           "text": "Run",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Save.",
+          "consequence": "You commit to run. It carries you into They Switch You Back while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Walk evenly",
-          "consequence": "You commit to “Walk evenly.” The story records the instinct as “Discipline” and carries it forward.",
+          "consequence": "You choose to walk evenly. By They Switch You Back, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The chip flips. You return to Floor 4 mid-sentence.",
+      "text": "The chip flips. You return to Floor 4 mid-sentence. Elevator Down is already waiting. What changes is whether “Tell Mark immediately” or “Write it down for next time” is the instinct you carry into it.",
       "sceneTitle": "They Switch You Back",
       "choices": [
         {
           "text": "Tell Mark immediately",
-          "consequence": "“Tell Mark immediately” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You commit to tell Mark immediately. It carries you into Elevator Down while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         },
         {
           "text": "Write it down for next time",
-          "consequence": "The decision settles the question for now. Its verdict—Discipline—follows you into whatever comes next.",
+          "consequence": "You commit to write it down for next time. It carries you into Elevator Down while the safer possibility closes without making a sound.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "End of shift. The doors close. Whoever you've been today, dissolves.",
+      "text": "End of shift. The doors close. Whoever you've been today, dissolves. The paths divide here: “Believe you'll come back” leads into Break the Floor, while “Hope your other self does too” makes Pay Day, Forever the next reckoning. A third choice, “Take the third path,” keeps Above Ground in play.",
       "sceneTitle": "Elevator Down",
       "choices": [
         {
           "text": "Believe you'll come back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Hope.",
+          "consequence": "You commit to believe you'll come back. It carries you into Break the Floor while the safer possibility closes without making a sound.",
           "nextNodeId": "end_break"
         },
         {
           "text": "Hope your other self does too",
-          "consequence": "There is no taking “Hope your other self does too” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to hope your other self does too. It carries you into Pay Day, Forever while the safer possibility closes without making a sound.",
           "nextNodeId": "end_quiet"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you into Above Ground while the safer possibility closes without making a sound.",
           "nextNodeId": "end_run"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_break",
-      "text": "The recording leaks. The hearings begin. Floor 4 is dismantled, gently, over months. You meet your outie in a coffee shop and don't know what to say.",
+      "text": "The recording leaks. The hearings begin. Floor 4 is dismantled, gently, over months. You meet your outie in a coffee shop and don't know what to say. The road into Break the Floor began with “Believe you'll come back” in Elevator Down; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Break the Floor",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You step into the lobby with no memory of the day. Soup on the way home. The soup is good. The soup is, you tell yourself, good.",
+      "text": "You step into the lobby with no memory of the day. Soup on the way home. The soup is good. The soup is, you tell yourself, good. The road into Pay Day, Forever began with “Hope your other self does too” in Elevator Down; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Pay Day, Forever",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_run",
-      "text": "You make it out before Lumon catches up. A man on a loading dock says, simply, 'You're early.' He does not, you realize, mean today.",
+      "text": "You make it out before Lumon catches up. A man on a loading dock says, simply, 'You're early.' He does not, you realize, mean today. The road into Above Ground began with “Take the third path” in Elevator Down; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Above Ground",
       "choices": [],
       "isEnding": true,

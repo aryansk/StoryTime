@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Your brother is dead. You are in his body's contract.",
+      "text": "Six years in the pod, and you come out of it weightless and nauseous with your legs still refusing to answer. A plastic bag of your brother's effects rides in your lap down the corridor. They did not thaw you for you; they thawed you for a genome. The avatar upstairs was grown to his measurements and cost more than a small town. A tech says the chair is the least of your problems here.",
       "sceneTitle": "Cryosleep",
       "choices": [
         {
           "text": "Take the job",
-          "consequence": "There is no taking “Take the job” back. Brother shapes the silence before the next moment arrives.",
+          "consequence": "You sign the contract in a corridor, on a screen held by a stranger, because nobody else on this ship has ever offered you a body that works.",
           "nextNodeId": "s2"
         },
         {
           "text": "Negotiate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Smart.",
+          "consequence": "You ask what happens if you walk away, and the company man laughs and quotes you the freight cost of your own return trip.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Mining base, mechs, AMP suits. Selfridge wants ore.",
+      "text": "Behind the wire it is all extraction: haul trucks with wheels taller than a house, AMP suits racked in a hangar getting hosed down. Selfridge balances a lump of grey rock over a putting green and tells you what it fetches per kilo, unrefined. Outside the fence the air kills a human in about four minutes. Grace calls the site a wound. Selfridge calls it a quarter.",
       "sceneTitle": "Hell's Gate",
       "choices": [
         {
           "text": "Listen to Selfridge",
-          "consequence": "“Listen to Selfridge” closes one possibility and opens another. The moment leaves a clear note behind: Job.",
+          "consequence": "You nod along with the man holding the budget, and file the number he quoted you somewhere you can reach it later.",
           "nextNodeId": "s3"
         },
         {
           "text": "Listen to Grace",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Science.",
+          "consequence": "You spend the afternoon in Grace's lab instead, being told you are unqualified, which is true, by a woman who keeps talking anyway.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You wake in a Na'vi body. You run on grass.",
+      "text": "They fold you into a coffin of gel with a hood of sensors over your face, and then you are somewhere else entirely, with a tail. Three metres of new body. Four fingers. Feet that grip. Techs shout about restraints and calibration and blood pressure. You are already off the gurney and out the door, hitting grass at a dead sprint on legs that work, six years late.",
       "sceneTitle": "First Link",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Joy.",
+          "consequence": "You run until your chest burns and you fall over laughing in a bed of tubers, and two doctors in scrubs chase you across a compound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Stand still",
-          "consequence": "“Stand still” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You stand very still on the lawn with your eyes shut, feeling wet earth under both feet, and you make them wait for it.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Things glow. Things growl. Then a creature attacks.",
+      "text": "After dark, Pandora turns into circuitry: the moss lights up where you step, seed pods pulse, whole fern beds run blue and then go out behind you. Your comms are dead. You are lost. Something armoured with six legs comes through the brush at a flat run, and Grace's rule is do not run — while every muscle you own puts in a vote for the opposite.",
       "sceneTitle": "Lost in the Forest",
       "choices": [
         {
           "text": "Climb",
-          "consequence": "There is no taking “Climb” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You get into the branches with your heart going like a hammer, and something below you rams the trunk hard enough to shake fruit loose.",
           "nextNodeId": "s5"
         },
         {
           "text": "Fight",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You swing a burning branch at a hundred and forty kilos of armour, which does exactly as much good as you would expect.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "She saves you. She is, briefly, angry.",
+      "text": "She puts an arrow through it from six metres and stands over the carcass, furious — not with you, with herself, for having wasted an animal on your account. She calls you something that means infant, at volume, in a language you have three weeks of. Then seeds drift down out of the dark, soft as jellyfish, and settle all over your arms and shoulders, and her face changes.",
       "sceneTitle": "Neytiri",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You commit to “Listen.” The story records the instinct as “Humble” and carries it forward.",
+          "consequence": "You shut up and follow her at the distance she sets, and by dawn she has stopped checking whether you are still behind her.",
           "nextNodeId": "s6"
         },
         {
           "text": "Apologize fast",
-          "consequence": "There is no taking “Apologize fast” back. Civil shapes the silence before the next moment arrives.",
+          "consequence": "You start apologising in bad Na'vi about the animal, and she cuts you off, but she slows her pace afterwards.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Branches the size of streets. Eytukan. Mo'at.",
+      "text": "The trunk is wider than a runway and the lower branches are streets you could walk four abreast. Some three hundred people live inside it. Eytukan looks at you the way a man looks at a crack in his roof. Mo'at draws a knife across your arm, tastes the blood off her thumb, and announces that your insanity may be curable. It is the warmest thing anybody says all night.",
       "sceneTitle": "Hometree",
       "choices": [
         {
           "text": "Be respectful",
-          "consequence": "You commit to “Be respectful.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You keep your eyes low and your hands open and say almost nothing, and the clan reads it, correctly, as someone trying not to break anything.",
           "nextNodeId": "s7"
         },
         {
           "text": "Ask many questions",
-          "consequence": "“Ask many questions” closes one possibility and opens another. The moment leaves a clear note behind: Curious.",
+          "consequence": "You ask about the tree, the roots, the bond, the dead — too many questions too fast, and Mo'at decides you are at least genuinely curious.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Neytiri teaches. You ride a banshee. You make a bond.",
+      "text": "You learn to draw a bow that outweighs your old rifle, to ride, to fall properly. Then they walk you up a rock face to the banshee rookery and explain the procedure: it has to try to kill you, you have to not allow it, and then queue to antennae, and the two nervous systems agree or you die on the stones. Neytiri will not pick one for you. She says it picks.",
       "sceneTitle": "Initiation",
       "choices": [
         {
           "text": "Trust the bond",
-          "consequence": "You commit to “Trust the bond.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You get a hand on the antennae with its jaws a foot from your face, and the bond takes, and your two bodies stop arguing.",
           "nextNodeId": "s8"
         },
         {
           "text": "Hesitate",
-          "consequence": "“Hesitate” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You hesitate on the ledge for three seconds and it nearly puts you over the edge, and the hunters below say nothing about it afterwards.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Quaritch wants intel on the tree. He wants a way in.",
+      "text": "Out of the link you are a small man in a chair again, in a shack, with cold food and a video log camera. Quaritch wants load-bearing branches, tunnel access, how they behave when frightened. He offers legs in exchange — real ones, surgery on the company's account, more money than your life has ever been priced at. You have been keeping two sets of notes for weeks now.",
       "sceneTitle": "Reporting In",
       "choices": [
         {
           "text": "Stall",
-          "consequence": "There is no taking “Stall” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You give him fifteen minutes of ethnography and no structural detail whatsoever, and he thanks you warmly, which is not a good sign.",
           "nextNodeId": "s9"
         },
         {
           "text": "Cooperate",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Job.",
+          "consequence": "You hand over the branch loads and the evacuation routes, and sleep badly, and tell yourself the survey was always the job.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "You see the tree of voices. The wind speaks ancestors.",
+      "text": "The willow at the centre of the grove hangs down threads of light, and each one carries a voice. Bind in and you hear people who died before the first human ship arrived — faint, layered, still talking. Grace insists this is not religion. She has the data: the root network runs signal denser than a human brain, across a whole moon. She says it like someone losing an argument with an accountant.",
       "sceneTitle": "Eywa",
       "choices": [
         {
           "text": "Believe",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You let the threads take hold of your queue and sit there for an hour hearing strangers, and you come out of it unable to explain anything.",
           "nextNodeId": "s10"
         },
         {
           "text": "Doubt",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You call it electrochemistry and pattern-matching, and Grace agrees with every word, and neither of you can account for the part where it answered.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You take a mate. Neytiri chooses you.",
+      "text": "You take the bow, and the bond, and a place at the fire, and the clan stops watching your hands. Then Neytiri stands with you under the lanterns and says the words that mean chosen — once, permanently, no revisions. Meanwhile, across the valley, a wasted body lies in a metal coffin on a drip with a monitor counting for it. You have stopped calling that one home.",
       "sceneTitle": "Becoming",
       "choices": [
         {
           "text": "Choose her back",
-          "consequence": "“Choose her back” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You choose her back, out loud, in her language, knowing exactly which promise you are already breaking on the other side of the valley.",
           "nextNodeId": "s11"
         },
         {
           "text": "Stay torn",
-          "consequence": "You commit to “Stay torn.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You stay half in the link and half in the shack, and she feels the gap in you without having a word for what causes it.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Earthmovers tear up sacred ground.",
+      "text": "The dozer comes through the grove at walking speed, pushing a bow wave of splintered light, grinding the luminous threads flat under a steel track. You get up on the hull and put your fist through a camera housing. The machine stops. Then it starts again. Somewhere in a control room a man with a headset tells the driver to keep going, and behind you the singing has stopped.",
       "sceneTitle": "Bulldozers",
       "choices": [
         {
           "text": "Stop them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You smash three cameras and stand in front of the blade, and a hundred and eighty tonnes of machinery decides, briefly, that you exist.",
           "nextNodeId": "s12"
         },
         {
           "text": "Report it",
-          "consequence": "There is no taking “Report it” back. Process shapes the silence before the next moment arrives.",
+          "consequence": "You link back to the shack and shout at Selfridge about a sacred site, and he asks you which line of the contract covers it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Quaritch shows your video log. The Na'vi see you for the spy you were.",
+      "text": "Quaritch puts your own video log up on a screen in front of the clan: three months of you, cheerful, in a wheelchair, describing these people as an obstacle with a schedule attached. Neytiri hears her own language coming out of your mouth as reconnaissance. Grace attempts the word anthropologist. Nobody standing in that room requires a translation of anything.",
       "sceneTitle": "Exposure",
       "choices": [
         {
           "text": "Confess",
-          "consequence": "There is no taking “Confess” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You say plainly that you were sent to map their home for a mining company, and the silence after it is the loudest thing on the moon.",
           "nextNodeId": "s13"
         },
         {
           "text": "Defend",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You explain that it changed, that you changed, and every sentence you use to prove it was learned from the people you were surveying.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "The tree, ancient, comes down.",
+      "text": "The gunships stand off and lay incendiary rounds into the trunk in a low ring, methodically, so that it falls where they want it. Four minutes, start to finish. Eight hundred years of tree comes down through its own canopy, and underneath the noise of it there is another noise, which is people. Ash falls afterwards like grey snow and sticks to wet skin.",
       "sceneTitle": "Hometree Falls",
       "choices": [
         {
           "text": "Carry survivors",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Save.",
+          "consequence": "You carry two children and an old woman out through burning root buttresses, and go back in, and come out with nobody the third time.",
           "nextNodeId": "s14"
         },
         {
           "text": "Fight back now",
-          "consequence": "There is no taking “Fight back now” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You go for a gunship with a bow, alone, in the smoke, and hit nothing, and it does not make you feel any less useless.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Neytiri turns away. Eytukan dies. You stand in the smoke.",
+      "text": "Eytukan dies with a splinter of his own house through his chest. Neytiri looks at you across her father's body, and it is worse than hate — she has stopped recognising anything she knows. Grace takes a round in the stomach getting people out. The clan scatters into the smoke carrying whatever they could lift, and you stand where a doorway was, holding nothing whatsoever.",
       "sceneTitle": "Disowned",
       "choices": [
         {
           "text": "Vow",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Path.",
+          "consequence": "You promise the ground and the smoke something you have no means of delivering, and start working out, immediately, how to deliver it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Mourn",
-          "consequence": "You commit to “Mourn.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You sit down in the ash beside a woman who will not look at you and stay there until she goes, which takes hours.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You climb. You bond with the biggest banshee. You return as legend.",
+      "text": "The great one hunts by sight, so nothing it can see ever gets above it. You climb, and jump, and land on leather at speed with wind tearing your grip loose. Then queue meets antennae and the two of you settle it, violently, in about four seconds. When that shadow comes down over the refugee camp at the Tree of Souls, five thousand people lower their weapons and look up.",
       "sceneTitle": "Toruk",
       "choices": [
         {
           "text": "Use the legend",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You use the legend hard and fast, because there is no time to earn anything, and you can feel exactly how much of it is theatre.",
           "nextNodeId": "s16"
         },
         {
           "text": "Earn it slowly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Humble.",
+          "consequence": "You climb down, put the bow aside and sit at the fire with the clan elders for two days, letting them decide what you are.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "You ride to all the clans. They come.",
+      "text": "You fly out to the plains riders, the horse clans, the ones nesting in the eastern cliffs, and you make the argument badly, in a second language, with a borrowed legend breathing under you. The argument itself is simple: they will not stop at one tree. Clans that have feuded for four generations begin arriving in numbers that nobody here has ever had reason to count.",
       "sceneTitle": "Tribes Unite",
       "choices": [
         {
           "text": "Lead",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You take the front, because the shadow they are following is the one you are sitting on, and there is no honest way to hand that off.",
           "nextNodeId": "s17"
         },
         {
           "text": "Follow Neytiri",
-          "consequence": "You commit to “Follow Neytiri.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You put Neytiri where the riders can see her, and let the daughter of Eytukan say the part about her father, which lands harder than anything you have.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Sky people, missiles, mechs. Animals you didn't know about charge.",
+      "text": "They arrive with a cargo lifter packed with pallets of explosive and a wall of gunships behind it. You arrive with bows, banshees and the shape of the mountains. Arrows skate off armoured glass. Riders drop out of the sky trailing smoke and do not pull up. Then the forest floor itself turns and comes at the line — hammerheads, thanators, six-legged things nobody wrote into any plan.",
       "sceneTitle": "Battle",
       "choices": [
         {
           "text": "Trust Eywa",
-          "consequence": "You commit to “Trust Eywa.” The story records the instinct as “Faith” and carries it forward.",
+          "consequence": "You bet the whole battle on a network you cannot see and cannot instruct, and the ground answers, and you will never be able to prove why.",
           "nextNodeId": "s18"
         },
         {
           "text": "Trust strategy",
-          "consequence": "The decision settles the question for now. Its verdict—Brain—follows you into whatever comes next.",
+          "consequence": "You keep flying the plan — draw them into the flux vortex, kill the instruments, fight where the machines are blind — and it works exactly as far as it goes.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Mech vs. avatar. Neytiri saves you.",
+      "text": "He steps out of the burning shuttle into an AMP suit with a blade the length of your arm and a mask over his face, and he is not remotely frightened of you. The suit moves faster than that much steel should. You end up flat on your back under one hydraulic foot, ribs going, and then two arrows punch through the cockpit glass and the machine stops.",
       "sceneTitle": "Quaritch",
       "choices": [
         {
           "text": "Save her back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You turn back for her while the suit is still standing, which costs you the shot and probably saves the only person who came for you.",
           "nextNodeId": "s19"
         },
         {
           "text": "Pursue Quaritch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Vow.",
+          "consequence": "You go after the man in the machine instead, and the gap you leave behind you is one Neytiri has to close herself.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Your human body is starving in the chamber. You have minutes.",
+      "text": "The link shack is on its side with the hull split open and your human body still strapped inside it, mask shattered, Pandoran air pouring in. Four minutes to convulsions, less if you panic. Neytiri gets to the wreck and finds a small, pale, gasping man on the deck — the first time she has ever laid eyes on him — and holds a spare mask over his face.",
       "sceneTitle": "Your Body",
       "choices": [
         {
           "text": "Make the transfer",
-          "consequence": "There is no taking “Make the transfer” back. Path shapes the silence before the next moment arrives.",
+          "consequence": "You get the mask on and one hand up and let her see the whole of what you actually are, and she does not put you down.",
           "nextNodeId": "s20"
         },
         {
           "text": "Wait",
-          "consequence": "You commit to “Wait.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You lie in the ash counting breaths while a woman three times your size decides, with her hand on your chest, what you are to her.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Mo'at and the tribe gather. You pass through the eye of Eywa.",
+      "text": "They lay both bodies down in the root threads beneath the Tree of Souls: the tall blue one and the wasted human one, side by side in the dirt. The clan sits around them and sings through the night without stopping. Mo'at works the ritual. The threads take. The network has been doing this with its own dead for a very long time, and has never once tried it with an outsider.",
       "sceneTitle": "Ceremony",
       "choices": [
         {
           "text": "Open your eyes Na'vi",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: New.",
+          "consequence": "You let go of the small burnt-out body on the ground the way you let go of the wheelchair, without ceremony and without looking back.",
           "nextNodeId": "s21"
         },
         {
           "text": "Hold on to the old self",
-          "consequence": "There is no taking “Hold on to the old self” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You hold on to the man in the ash — the brother's contract, the chair, the six wasted years — and carry all of it through with you.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You wake as Na'vi for good. Neytiri's hand finds yours.",
+      "text": "You wake on cold ground with light coming down through the branches and a breathing mask lying beside your face, no longer required. The lungs are right. The hands are right. Neytiri is sitting exactly where she has sat for a night and a day, and her fingers find yours. Out past the ridge, the last shuttle carrying the last of the human staff is climbing out of the valley.",
       "sceneTitle": "New Life",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You stay, and the first thing you do with the rest of your life is help carry water to a camp of people with no home left.",
           "nextNodeId": "end_navi"
         },
         {
           "text": "Build the bridge to humans",
-          "consequence": "You commit to “Build the bridge to humans.” The story records the instinct as “Hope” and carries it forward.",
+          "consequence": "You keep the radio Grace left behind, because somewhere out there are scientists worth talking to and a company that will come back better armed.",
           "nextNodeId": "end_bridge"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You give yourself to the network instead of to a role, and start listening for the voices in the threads more than to the living.",
           "nextNodeId": "end_eywa"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_navi",
-      "text": "You and Neytiri lead a generation. You hold the sky people back. You teach your children both languages. They prefer the older one.",
+      "text": "You and Neytiri lead for a generation, and the sky people stay behind the fence you draw for them. There are bad years: a poisoned river, a mine that reopens, funerals in the rain. Your children grow up switching between two languages at the dinner fire, and they prefer the older one — not out of loyalty, but because the newer one has no decent word for the sound the forest makes at dusk.",
       "sceneTitle": "Olo'eyktan",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_bridge",
-      "text": "You broker, slowly, a peace between Pandora and a chastened RDA. The mining shrinks. The science stays. Grace, before she died, would have laughed.",
+      "text": "It takes eleven years of arguing across a table with an interpreter and a chastened board of directors, but the mining shrinks to three sites and the science stays. Botanists arrive who ask permission before cutting anything. You sit in on their seminars in a body no institution can explain and correct their pronunciation. Grace, who died of a gut wound with her hand in the roots, would have laughed at every single meeting.",
       "sceneTitle": "Bridge Between Worlds",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_eywa",
-      "text": "Eventually you die. Your consciousness joins the network of the tree. Children, walking the forest, hear your voice in the wind. They take it for granted, the way you would have, once.",
+      "text": "You die old, in the ordinary way, on a mat under a tree with people singing badly around you. The threads take what you were and file it somewhere in a network that never deletes. Children walking the forest a century later hear an accent in the wind that none of the elders can place, and they take it for granted, and go on with their afternoon, exactly as you once would have.",
       "sceneTitle": "Inside Eywa",
       "choices": [],
       "isEnding": true,

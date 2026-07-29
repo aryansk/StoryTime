@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "An assistant's email — 'Miranda would like to see you Tuesday.' Two sentences. No subject. You read it three times in your kitchen with a child's lunchbox in your other hand.",
+      "text": "The email comes from an assistant whose name you don't know. 'Miranda would like to see you Tuesday.' No subject line. No greeting. No indication of which Tuesday, or what Tuesday means, or whether declining is a category of behavior that exists. You read it three times in your kitchen, holding a lunchbox with a dinosaur on it.",
       "sceneTitle": "The Summons",
       "choices": [
         {
           "text": "Reply immediately to confirm",
-          "consequence": "Don't hesitate; she'll notice.",
+          "consequence": "You reply in four minutes, one line, ending in a period and no exclamation point. Fifteen years off and your thumbs still know the drill.",
           "nextNodeId": "s2"
         },
         {
           "text": "Wait a day; you have a life now",
-          "consequence": "Set the tone.",
+          "consequence": "You leave it sitting for twenty-two hours, which feels enormous to you and registers at Runway as absolutely nothing at all.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The lobby smells the same. Your heart, embarrassingly, knows the elevator buttons. Miranda's office is unchanged except for an iPad where the magazines used to be.",
+      "text": "The lobby smells the same — cold stone, lilies, somebody's third espresso. Your heart, humiliatingly, knows which elevator button before your hand does. Miranda's office is unchanged except that the wall of stacked magazines is gone, and in its place stands one iPad on one stand, lit from below, like something in a chapel.",
       "sceneTitle": "Tuesday at Runway",
       "choices": [
         {
           "text": "Compliment the iPad",
-          "consequence": "Disarm with charm.",
+          "consequence": "You say something admiring about the screen. Miranda looks at you the way you'd look at a man complimenting the weather during a robbery.",
           "nextNodeId": "s4"
         },
         {
           "text": "Wait until she speaks",
-          "consequence": "The decision settles the question for now. Its verdict—Old skill—follows you into whatever comes next.",
+          "consequence": "You stand there in silence for forty seconds. You win. Nobody outlasts Miranda Priestly, but today, on one narrow technicality, you do.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "School drop-off Wednesday. Your daughter Beatrix asks, casually, if you're going back to that 'shouty job.' You realize she has been listening more carefully than you thought.",
+      "text": "Wednesday, school drop-off, second in the car line. Beatrix is unbuckling and eating a granola bar and asks, with no particular weight, whether you're going back to 'the shouty job.' You have never once called it that in front of her. She waves, gets out, and leaves you holding a wrapper and a small crisis.",
       "sceneTitle": "Your Daughter's Drop-Off",
       "choices": [
         {
           "text": "Tell her about the meeting",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You tell her the truth through the passenger window while the car behind you leans on the horn. She says 'cool' and is gone.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her it's just lunch",
-          "consequence": "“Tell her it's just lunch” closes one possibility and opens another. The moment leaves a clear note behind: Soften.",
+          "consequence": "You tell her it's only lunch. She accepts this instantly, which is somehow worse than if she had pushed back on it.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Miranda offers you Editor at Large for the relaunch — print plus, a quarterly object that is also a digital ecosystem. The salary is, embarrassingly, real. She does not, of course, mention the work-life balance.",
+      "text": "Editor at Large. A quarterly print object that is also, per the deck, 'a digital ecosystem.' A hundred dollars a copy. The salary is real in a way that makes you sit back an inch, and Miranda notices the inch. She does not mention hours. She does not mention weekends. She mentions the paper stock, at length.",
       "sceneTitle": "The Offer",
       "choices": [
         {
           "text": "Negotiate for hours that fit your life",
-          "consequence": "Set the terms.",
+          "consequence": "You say the words 'I leave at five on Tuesdays and Thursdays' out loud in that office. The ceiling declines to collapse.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take the job and figure it out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Old instinct.",
+          "consequence": "You say yes before she has finished describing the cover stock. Fifteen years of hard-won perspective, undone by a font.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "An old colleague at a serious magazine offers you a steadier, less prestigious gig at half the salary. The two offers arrive in the same week, which is funny because life is funny.",
+      "text": "An old colleague calls from a serious magazine with a serious offer: steady, respected, half the money, and an editor who says thank you in complete sentences. Both offers land in the same week, because that is how weeks work. You write the two salaries on the back of a school permission slip and then stare at the permission slip.",
       "sceneTitle": "Andy's Newsroom Friend Calls",
       "choices": [
         {
           "text": "Take the steadier job",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Family-shaped career.",
+          "consequence": "You take the quiet one, and for roughly six hours you feel like a grown adult, and then you feel something else entirely.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take Miranda's job; you can survive her now",
-          "consequence": "The decision settles the question for now. Its verdict—Risk—follows you into whatever comes next.",
+          "consequence": "You take the loud one. You are forty-one, you have survived worse things than her, and the honest truth is you missed it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Emily Charlton — now a major brand executive — walks into Miranda's office to consult on the relaunch. She sees you. She, unusually, smiles for a second before correcting.",
+      "text": "Emily Charlton arrives as a consultant now, running partnerships for a house whose name people pronounce slowly. Two phones, no notebook. She spots you across the floor and for one unguarded second she smiles — then corrects it into something more expensive and sits down. Neither of you mentions Paris. Neither of you ever will.",
       "sceneTitle": "Emily, Returning",
       "choices": [
         {
           "text": "Approach Emily like an old friend",
-          "consequence": "“Approach Emily like an old friend” closes one possibility and opens another. The moment leaves a clear note behind: Try.",
+          "consequence": "You hug her. She endures it like a customs search, and then at the door asks about your daughter, by name, correctly.",
           "nextNodeId": "s8"
         },
         {
           "text": "Approach Emily as a future colleague",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Professional.",
+          "consequence": "You shake her hand and open with margins. She visibly relaxes. Emily has always preferred a spreadsheet to a feeling.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Beatrix, ten, asks, 'Did you have a fun day at work?' You realize she has been told that adults should have fun at work. You think about how to answer. You think for too long.",
+      "text": "'Did you have a fun day at work?' Beatrix is ten and asks it the way she has been taught to ask it, at a school where adults apparently have fun at work. You open your mouth. Nothing arrives. The pause runs long enough that she stops chewing and looks up, genuinely curious now.",
       "sceneTitle": "Beatrix's Question",
       "choices": [
         {
           "text": "Tell her some days are fun and some aren't",
-          "consequence": "“Tell her some days are fun and some aren't” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You give her the true version, with the boring parts left in. She nods slowly, files it, and asks whether that's also true about school.",
           "nextNodeId": "s8"
         },
         {
           "text": "Tell her you'll have more fun days now",
-          "consequence": "There is no taking “Tell her you'll have more fun days now” back. Reassure shapes the silence before the next moment arrives.",
+          "consequence": "You promise her more fun days. She believes you completely, which means you are now contractually obligated to arrange some.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The plan is ambitious, expensive, and unlikely. Miranda wants a quarterly print object that costs a hundred dollars and sells out. She wants you to make the lead feature feel like a manifesto and a fashion shoot at once.",
+      "text": "The plan is ambitious, expensive, and statistically doomed: a quarterly object that costs a hundred dollars and sells out anyway. Miranda wants the lead feature to read as a manifesto and photograph as a fashion story, at once, with no visible seam. She says this in a single sentence, then waits, as if she has described something reasonable.",
       "sceneTitle": "The Relaunch Plan",
       "choices": [
         {
           "text": "Pitch a story about the daughters of fashion editors",
-          "consequence": "Make it personal.",
+          "consequence": "You pitch the daughters of fashion editors. Miranda goes still for three seconds — the good still — and says 'possibly,' which is a standing ovation.",
           "nextNodeId": "s10"
         },
         {
           "text": "Pitch a story about climate-positive supply chains",
-          "consequence": "Make it political.",
+          "consequence": "You pitch supply chains at a magazine that sells handbags. Emily's eyebrows go up. Miranda's do not, which is the entire answer.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your husband — who has, mercifully, stayed kind — looks at the calendar with you. The math is tight. The math is, with adjustments, possible.",
+      "text": "Your husband spreads the calendar across the table like a man defusing something. Pickups, his deadlines, the Tuesday swim thing, the six weeks each spring when fashion eats the world. The math is tight. The math is, with two adjustments and one paid sitter, genuinely possible. He circles April and says nothing about April.",
       "sceneTitle": "Your Husband",
       "choices": [
         {
           "text": "Adjust the math together",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Co-build.",
+          "consequence": "You move two of his deadlines and one of your dinners and it works perfectly on paper. Paper has never been the problem.",
           "nextNodeId": "s10"
         },
         {
           "text": "Take a month to test the new schedule before committing",
-          "consequence": "The decision settles the question for now. Its verdict—Trial—follows you into whatever comes next.",
+          "consequence": "You run a trial month. It breaks in week three, in a pediatrician's waiting room, and now you know exactly which part breaks.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You hire a photographer Miranda hates. The photographer is brilliant. The shoot goes long. Miranda comes onto set in the last hour and is, for thirty seconds, silent. Then she says, 'Continue.' That is, in her language, applause.",
+      "text": "You hire a photographer Miranda has publicly disliked since 2011. He is brilliant and slow and the shoot runs four hours past the call sheet. She walks onto set in the last hour, studies the monitor, says nothing for thirty seconds, then: 'Continue.' Everyone exhales. In her language, that was a parade with horses.",
       "sceneTitle": "The Photographer",
       "choices": [
         {
           "text": "Send the photographer a handwritten note",
-          "consequence": "“Send the photographer a handwritten note” closes one possibility and opens another. The moment leaves a clear note behind: Mentor up.",
+          "consequence": "You write him four lines on Runway letterhead. He photographs the note and posts it. Miranda sees the post and says nothing, twice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Move on to the next shoot with confidence",
-          "consequence": "You commit to “Move on to the next shoot with confidence.” The story records the instinct as “Compound” and carries it forward.",
+          "consequence": "You book the next three shoots by dinner. Confidence is mostly calendar entries made before the fear has time to catch up.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The supply-chain feature is going to be the first piece many of your old fashion friends actually read. It will also, you realize, anger several advertisers. You decide that's okay.",
+      "text": "The supply-chain piece will be the first thing several of your old fashion friends actually read rather than merely hold. It will also annoy two advertisers, one of whom buys a full page every issue and sends a Christmas hamper the size of a toddler. You consider the hamper problem for a while and decide you can live without it.",
       "sceneTitle": "The Climate Feature",
       "choices": [
         {
           "text": "Run it on the cover",
-          "consequence": "The decision settles the question for now. Its verdict—Bold—follows you into whatever comes next.",
+          "consequence": "You put it on the cover. The advertiser calls, furious. Miranda takes the call, says nine words, and the advertiser renews.",
           "nextNodeId": "s12"
         },
         {
           "text": "Run it as the lead of the inside well",
-          "consequence": "The decision settles the question for now. Its verdict—Strategic—follows you into whatever comes next.",
+          "consequence": "You run it two spreads back, where it goes unbothered and gets read anyway. Cowardice and strategy share a great deal of DNA.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "On a school holiday Beatrix comes to the office. Miranda meets her. They shake hands gravely. Miranda compliments Beatrix's shoes. Beatrix asks Miranda, with terrifying calm, what the office is for.",
+      "text": "School holiday, so Beatrix comes in. Miranda meets her by the elevators. They shake hands with matching gravity. Miranda compliments the shoes — out loud, sincerely, in front of witnesses. Then Beatrix looks around a floor holding a hundred working adults and asks, with total calm, what the office is actually for.",
       "sceneTitle": "Beatrix at the Office",
       "choices": [
         {
           "text": "Let Miranda answer",
-          "consequence": "Let it land.",
+          "consequence": "Miranda answers in one sentence about beauty being a form of argument. Beatrix says 'okay' and asks where the snacks live.",
           "nextNodeId": "s14"
         },
         {
           "text": "Answer for both of you",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Bridge.",
+          "consequence": "You answer it yourself. It takes ninety seconds and it is the clearest you have ever been about your own job. Miranda listens to all of it.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Nigel — now in a corner office somewhere else — has started a chat with Emily and you. It is, weirdly, the place you tell your worst day to people who already understand. You realize this support network is part of what makes the work survivable now.",
+      "text": "Nigel starts a thread with you and Emily and gives it a name you would not read aloud. It becomes the place the worst forty minutes of any given day goes to die. Emily sends screenshots with no comment. Nigel sends voice notes from a corner office two time zones away. Nobody explains context, because nobody needs it.",
       "sceneTitle": "The Old Assistants Group Chat",
       "choices": [
         {
           "text": "Use the chat as a daily lifeline",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Lean.",
+          "consequence": "You post everything, daily, at volume, and they absorb all of it. Nigel starts replying with one emoji that means 'I know.'",
           "nextNodeId": "s14"
         },
         {
           "text": "Use it sparingly; don't drain it",
-          "consequence": "The decision settles the question for now. Its verdict—Steward it—follows you into whatever comes next.",
+          "consequence": "You ration yourself to twice a week. Emily notices the rationing and texts you privately, which is as close as Emily gets to a hug.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The relaunch sells out in eleven days. Three of the climate features get picked up by serious newspapers. Miranda smiles, once, on the way to the elevator. It is, for you, the proof.",
+      "text": "The relaunch sells out in twelve days. Three newspapers that have never covered fashion pick up the supply-chain feature. Resale copies go for triple online, a fact Miranda pretends not to know and mentions twice in one meeting. On her way to the elevator she smiles at you. Once. Briefly. It counts, and you will take it.",
       "sceneTitle": "The Issue Lands",
       "choices": [
         {
           "text": "Stay on for the next issue",
-          "consequence": "The decision settles the question for now. Its verdict—Continue—follows you into whatever comes next.",
+          "consequence": "You commit to one more issue. 'One more issue' is what people say roughly six years before they finally leave.",
           "nextNodeId": "s16"
         },
         {
           "text": "Make a longer-term commitment",
-          "consequence": "You commit to “Make a longer-term commitment.” The story records the instinct as “Lock in” and carries it forward.",
+          "consequence": "You sign three years with the Tuesday-and-Thursday clause written into the contract. Legal calls it 'unusual.' It stays in anyway.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "You leave the launch party at 11. Your husband and Beatrix are still up — they ordered pizza. You sit on the floor with them and eat cold slices in your dress. It is the best thirty minutes of the month.",
+      "text": "You leave the launch before the speeches, which nobody notices, because nobody at a launch has ever noticed anything. At home the two of them are still up and there is pizza going cold on the coffee table. You sit on the floor in the dress and eat two slices with your shoes off. Best half hour of the month.",
       "sceneTitle": "The After Party",
       "choices": [
         {
           "text": "Make this the routine — leave early on purpose",
-          "consequence": "The decision settles the question for now. Its verdict—Build—follows you into whatever comes next.",
+          "consequence": "You start ducking out before the speeches at every event. Your reputation takes zero damage. Nobody was listening to the speeches.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take Beatrix to the next launch",
-          "consequence": "Bring her in.",
+          "consequence": "You bring her to the next one. She eats nine canapés, corners a designer about fabric dye, and critiques the lighting on the ride home.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Year two of the new Runway is harder. The novelty fades. The advertisers ebb and return. You and Emily and Nigel form, accidentally, a kind of cabinet around Miranda. She does not, of course, acknowledge it. She also doesn't fire any of you.",
+      "text": "Year two is harder, because year two always is. The novelty burns off, two advertisers leave and come back, and the print run has to be defended in a room full of people who say the word 'attention' as a noun. You and Emily and Nigel have become, without ever discussing it, a cabinet. Miranda never acknowledges this. She also never fires any of you.",
       "sceneTitle": "Year Two",
       "choices": [
         {
           "text": "Take the editor-in-chief role when offered",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Step up.",
+          "consequence": "You start behaving like the person who runs the place months before anybody offers it to you. Nobody stops you. Nobody ever does.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay as Editor at Large and write more",
-          "consequence": "Stay in the work you love.",
+          "consequence": "You decline the bigger title and file four thousand words instead. Emily calls you an idiot, affectionately, in writing, twice.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Beatrix, at twelve, decides she wants to write — not for fashion, for science. You help her get an internship at a nature magazine. You realize, gratefully, that the magazine industry has, for the next generation, gotten a little more interesting because of people like Beatrix.",
+      "text": "Beatrix, twelve, announces she wants to write. Not fashion — science, and specifically things that live in cold water. She has a list of magazines and has already emailed two of them without mentioning it to you. You arrange an internship at one, then have to sit quietly with the fact that she'd have landed it herself.",
       "sceneTitle": "Beatrix at Twelve",
       "choices": [
         {
           "text": "Mentor a new generation through her",
-          "consequence": "There is no taking “Mentor a new generation through her” back. Pay forward shapes the silence before the next moment arrives.",
+          "consequence": "You start taking her friends' emails seriously. Six of them over four years. Two end up with bylines you had nothing to do with.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay focused on your own work",
-          "consequence": "There is no taking “Stay focused on your own work” back. Your lane shapes the silence before the next moment arrives.",
+          "consequence": "You let her run her own campaign and go back to yours. She never needed the ladder. She needed one phone number and got it.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Miranda announces her retirement at a private lunch. She looks at you when she says it. Emily looks at you when she says it. Nigel looks, sweetly, at his salad.",
+      "text": "Miranda announces it over lunch for eight at a restaurant with no sign on the door. She says the word 'retiring' the way other people say 'Tuesday.' Then she looks directly at you while saying the next part. Emily looks at you. Nigel looks, with enormous concentration, at a salad that has nothing on it.",
       "sceneTitle": "Miranda's Retirement Lunch",
       "choices": [
         {
           "text": "Volunteer for the role",
-          "consequence": "There is no taking “Volunteer for the role” back. Take it shapes the silence before the next moment arrives.",
+          "consequence": "You say 'I'd like it' in a level voice at a table of eight. Miranda cuts a piece of fish and does not look up from the fish.",
           "nextNodeId": "s20"
         },
         {
           "text": "Volunteer Emily",
-          "consequence": "The decision settles the question for now. Its verdict—Generous—follows you into whatever comes next.",
+          "consequence": "You put Emily's name forward instead. She kicks you under the table hard enough to bruise, then takes the meeting on Monday.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "You drop Beatrix at the nature magazine. She is, somehow, less nervous than you. The editor shakes her hand and yours and says, 'We've heard.' You realize, on the walk back, that you have raised a person.",
+      "text": "You drop her at a building with a whale skeleton hanging in the lobby. She is less nervous than you are by an embarrassing margin. The editor shakes her hand, then yours, and says 'we've heard,' which could mean six different things. Walking back to the subway you understand that you did not raise a child. You raised a person.",
       "sceneTitle": "Beatrix's Internship Day One",
       "choices": [
         {
           "text": "Take the afternoon off to mark it",
-          "consequence": "You commit to “Take the afternoon off to mark it.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You take the afternoon, sit in a park, and answer nothing. Runway survives four unsupervised hours, which is useful information.",
           "nextNodeId": "s20"
         },
         {
           "text": "Go back to work changed",
-          "consequence": "“Go back to work changed” closes one possibility and opens another. The moment leaves a clear note behind: Carry it.",
+          "consequence": "You go straight in and rewrite the whole cover line on the train. It's better. She did that, indirectly, from a lobby.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "The next September cover is being built. The decisions about it sit on your desk. You realize the cover is, in effect, a vote about who you want to be for the next decade.",
+      "text": "September again. Nine cover options are laid across your desk and the decision belongs to you now, which is new. You stand over them holding cold coffee, and somewhere around the third version you understand that this is not a cover decision at all. It is a decision about who you intend to be until you're sixty.",
       "sceneTitle": "The Next Cover",
       "choices": [
         {
           "text": "Take the EIC role and build the next decade",
-          "consequence": "There is no taking “Take the EIC role and build the next decade” back. Lead shapes the silence before the next moment arrives.",
+          "consequence": "You choose the loud cover and the big chair. Ten minutes later somebody asks you to approve a font, and it has begun.",
           "nextNodeId": "end_eic"
         },
         {
           "text": "Stay Editor at Large and write the better book",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Write.",
+          "consequence": "You choose the quiet cover and keep the title that lets you leave at five. Emily calls it a waste. Emily is wrong, mostly.",
           "nextNodeId": "end_writer"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_eic",
-      "text": "You become the next editor-in-chief. Miranda, in retirement, sends you a single handwritten note: 'Don't be me. Be better.' You frame it. You try.",
+      "text": "You take the chair. The first thing you change is the meeting culture, the second is what the interns get paid, and neither makes the trade press. Miranda, from a house in the south of France she claims to hate, sends one card in that handwriting: 'Don't be me. Be better.' You frame it and hang it where you'll see it during arguments. Some days you manage it. On the other days you know the note is there.",
       "sceneTitle": "Editor-in-Chief",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_writer",
-      "text": "You stay in the role that lets you write and live. You publish, in your fifties, a collection of essays about fashion and labor that gets a quiet, deserved prize. Beatrix sits in the front row at the ceremony.",
+      "text": "You keep the title that lets you write and still make the pool by five-forty. In your fifties you publish a collection about clothes and the people who actually make them, and it wins a small prize nobody in fashion has heard of and every editor privately wants. Beatrix sits in the front row in a borrowed blazer, filing copy on her phone for a magazine about cold water, and doesn't clap until the very end.",
       "sceneTitle": "Editor at Large, Forever",
       "choices": [],
       "isEnding": true,

@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Mr. Ullman across a desk and a story about a previous caretaker.",
+      "text": "Mr. Ullman across a desk and a story about a previous caretaker. Both choices lead to Tour, but “Accept” arrives there with a different cost than “Refuse.” By Tour, the danger will have learned what you protect first.",
       "sceneTitle": "The Interview",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You commit to accept. It carries you into Tour while the safer possibility closes without making a sound.",
           "nextNodeId": "s2"
         },
         {
           "text": "Refuse",
-          "consequence": "There is no taking “Refuse” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You refuse. The way toward Tour opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Long carpets, a maze made of hedges, twin girls watching from a hallway.",
+      "text": "Long carpets, a maze made of hedges, twin girls watching from a hallway. Hallorann is already waiting. What changes is whether “Smile politely” or “Stare back” is the instinct you carry into it. At Hallorann, whatever is watching will know which fear moved you.",
       "sceneTitle": "Tour",
       "choices": [
         {
           "text": "Smile politely",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Polite.",
+          "consequence": "You smile politely. The way toward Hallorann opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         },
         {
           "text": "Stare back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stare back. The way toward Hallorann opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "A cook with a kind grin and a word for a boy who shines.",
+      "text": "A cook with a kind grin and a word for a boy who shines. You cannot avoid Tricycle; you can only decide whether “Listen” or “Brush past” defines the person who reaches it. In Hallorann, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Hallorann",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You listen. The way toward Tricycle opens, and something on the other side seems to notice.",
           "nextNodeId": "s4"
         },
         {
           "text": "Brush past",
-          "consequence": "The decision settles the question for now. Its verdict—Polite—follows you into whatever comes next.",
+          "consequence": "You choose to brush past. By Tricycle, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Danny on plastic wheels over carpet and linoleum.",
+      "text": "Danny on plastic wheels over carpet and linoleum. The road still runs toward Bathroom Mirror. Its next turn depends on the difference between choosing “Let him ride” and choosing “Send him to bed.” At Bathroom Mirror, whatever is watching will know which fear moved you.",
       "sceneTitle": "Tricycle",
       "choices": [
         {
           "text": "Let him ride",
-          "consequence": "There is no taking “Let him ride” back. Mercy shapes the silence before the next moment arrives.",
+          "consequence": "You choose to let him ride. By Bathroom Mirror, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Send him to bed",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You choose to send him to bed. By Bathroom Mirror, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Danny's lips form the word that lives in mirrors.",
+      "text": "Danny's lips form the word that lives in mirrors. Wendy in the Kitchen comes either way; its meaning changes with the difference between “Hold him” and “Look away.” By Wendy in the Kitchen, the danger will have learned what you protect first.",
       "sceneTitle": "Bathroom Mirror",
       "choices": [
         {
           "text": "Hold him",
-          "consequence": "“Hold him” closes one possibility and opens another. The moment leaves a clear note behind: Heart.",
+          "consequence": "You commit to hold him. It carries you into Wendy in the Kitchen while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Look away",
-          "consequence": "There is no taking “Look away” back. Cowardly shapes the silence before the next moment arrives.",
+          "consequence": "You choose to look away. By Wendy in the Kitchen, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "Soup, a quiet smile, a husband upstairs typing nothing for hours.",
+      "text": "Soup, a quiet smile, a husband upstairs typing nothing for hours. You cannot avoid Lounge Bar; you can only decide whether “Talk to her” or “Stay quiet” defines the person who reaches it. By Lounge Bar, the danger will have learned what you protect first.",
       "sceneTitle": "Wendy in the Kitchen",
       "choices": [
         {
           "text": "Talk to her",
-          "consequence": "“Talk to her” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You choose to talk to her. By Lounge Bar, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay quiet",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cold.",
+          "consequence": "You commit to stay quiet. It carries you into Lounge Bar while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A bartender named Lloyd at an empty bar.",
+      "text": "A bartender named Lloyd at an empty bar. Room 237 comes either way; its meaning changes with the difference between “Order” and “Walk out.” In Lounge Bar, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Lounge Bar",
       "choices": [
         {
           "text": "Order",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tempted.",
+          "consequence": "You commit to order. It carries you into Room 237 while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Walk out",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "You commit to walk out. It carries you into Room 237 while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "A door at the end of a hall and a hand on the knob.",
+      "text": "A door at the end of a hall and a hand on the knob. Twin Girls comes either way; its meaning changes with the difference between “Open it” and “Walk away.” At Twin Girls, whatever is watching will know which fear moved you.",
       "sceneTitle": "Room 237",
       "choices": [
         {
           "text": "Open it",
-          "consequence": "There is no taking “Open it” back. Reckless shapes the silence before the next moment arrives.",
+          "consequence": "You commit to open it. It carries you into Twin Girls while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         },
         {
           "text": "Walk away",
-          "consequence": "There is no taking “Walk away” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You choose to walk away. By Twin Girls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "End of a corridor, hand in hand, a quiet invitation.",
+      "text": "End of a corridor, hand in hand, a quiet invitation. Both choices lead to Typewriter Page, but “Run” arrives there with a different cost than “Approach.” In Twin Girls, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Twin Girls",
       "choices": [
         {
           "text": "Run",
-          "consequence": "There is no taking “Run” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You choose to run. By Typewriter Page, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Approach",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reckless.",
+          "consequence": "You approach. The way toward Typewriter Page opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A novel of one sentence repeated to the bottom of every page.",
+      "text": "A novel of one sentence repeated to the bottom of every page. Wendy's Bat comes either way; its meaning changes with the difference between “Hide the manuscript” and “Read it aloud.” By Wendy's Bat, the danger will have learned what you protect first.",
       "sceneTitle": "Typewriter Page",
       "choices": [
         {
           "text": "Hide the manuscript",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to hide the manuscript. By Wendy's Bat, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Read it aloud",
-          "consequence": "“Read it aloud” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You read it aloud. The way toward Wendy's Bat opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "A wife on a staircase with a Louisville and a tear.",
+      "text": "A wife on a staircase with a Louisville and a tear. Storage Room will follow either decision, but it will meet a different version of you after “Step back” than after “Step forward.” At Storage Room, whatever is watching will know which fear moved you.",
       "sceneTitle": "Wendy's Bat",
       "choices": [
         {
           "text": "Step back",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You choose to step back. By Storage Room, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Step forward",
-          "consequence": "There is no taking “Step forward” back. Hard shapes the silence before the next moment arrives.",
+          "consequence": "You choose to step forward. By Storage Room, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A latch, a dark room, the smell of canned peaches.",
+      "text": "A latch, a dark room, the smell of canned peaches. You cannot avoid Hallorann Drives; you can only decide whether “Plead through the door” or “Curse her” defines the person who reaches it. By Hallorann Drives, the danger will have learned what you protect first.",
       "sceneTitle": "Storage Room",
       "choices": [
         {
           "text": "Plead through the door",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You plead through the door. The way toward Hallorann Drives opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         },
         {
           "text": "Curse her",
-          "consequence": "“Curse her” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You commit to curse her. It carries you into Hallorann Drives while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A snowcat from Florida headed for trouble.",
+      "text": "A snowcat from Florida headed for trouble. Both choices lead to Danny's REDRUM, but “Wait for him” arrives there with a different cost than “Pre-empt.” In Hallorann Drives, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Hallorann Drives",
       "choices": [
         {
           "text": "Wait for him",
-          "consequence": "The decision settles the question for now. Its verdict—Hope—follows you into whatever comes next.",
+          "consequence": "You choose to wait for him. By Danny's REDRUM, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Pre-empt",
-          "consequence": "“Pre-empt” closes one possibility and opens another. The moment leaves a clear note behind: Hard.",
+          "consequence": "You commit to pre-empt. It carries you into Danny's REDRUM while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A word on a door in lipstick.",
+      "text": "A word on a door in lipstick. Hallorann at the Lobby is already waiting. What changes is whether “Read it in the mirror” or “Wipe it off” is the instinct you carry into it. In Danny's REDRUM, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Danny's REDRUM",
       "choices": [
         {
           "text": "Read it in the mirror",
-          "consequence": "“Read it in the mirror” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You read it in the mirror. The way toward Hallorann at the Lobby opens, and something on the other side seems to notice.",
           "nextNodeId": "s15"
         },
         {
           "text": "Wipe it off",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cowardly.",
+          "consequence": "You choose to wipe it off. By Hallorann at the Lobby, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "He calls Danny's name and a fire axe answers.",
+      "text": "He calls Danny's name and a fire axe answers. The road still runs toward Hedge Maze. Its next turn depends on the difference between choosing “Help him” and choosing “Hide.” At Hedge Maze, whatever is watching will know which fear moved you.",
       "sceneTitle": "Hallorann at the Lobby",
       "choices": [
         {
           "text": "Help him",
-          "consequence": "“Help him” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to help him. By Hedge Maze, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Hide",
-          "consequence": "There is no taking “Hide” back. Cowardly shapes the silence before the next moment arrives.",
+          "consequence": "You choose to hide. By Hedge Maze, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "Snow up to your knees, prints in front of you that are your own.",
+      "text": "Snow up to your knees, prints in front of you that are your own. You cannot avoid Wendy on the Snowcat; you can only decide whether “Backtrack” or “Press on” defines the person who reaches it.",
       "sceneTitle": "Hedge Maze",
       "choices": [
         {
           "text": "Backtrack",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You choose to backtrack. By Wendy on the Snowcat, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Press on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Stubborn.",
+          "consequence": "You commit to press on. It carries you into Wendy on the Snowcat while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A keyhole, a stalling engine, a son in her arms.",
+      "text": "A keyhole, a stalling engine, a son in her arms. Ghost Ball will follow either decision, but it will meet a different version of you after “Help her start it” than after “Smash a window.”",
       "sceneTitle": "Wendy on the Snowcat",
       "choices": [
         {
           "text": "Help her start it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You commit to help her start it. It carries you into Ghost Ball while the safer possibility closes without making a sound.",
           "nextNodeId": "s18"
         },
         {
           "text": "Smash a window",
-          "consequence": "You commit to “Smash a window.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You choose to smash a window. By Ghost Ball, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A grand staircase, music, a waiter who has been here longer than the carpet.",
+      "text": "A grand staircase, music, a waiter who has been here longer than the carpet. The road still runs toward Photograph in the Lobby. Its next turn depends on the difference between choosing “Dance” and choosing “Decline.”",
       "sceneTitle": "Ghost Ball",
       "choices": [
         {
           "text": "Dance",
-          "consequence": "“Dance” closes one possibility and opens another. The moment leaves a clear note behind: Tempted.",
+          "consequence": "You dance. The way toward Photograph in the Lobby opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         },
         {
           "text": "Decline",
-          "consequence": "There is no taking “Decline” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to decline. It carries you into Photograph in the Lobby while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "1921, a man at the front of a New Year's crowd, your own face.",
+      "text": "1921, a man at the front of a New Year's crowd, your own face. You cannot avoid Lock-In; you can only decide whether “Walk past” or “Stand and stare” defines the person who reaches it.",
       "sceneTitle": "Photograph in the Lobby",
       "choices": [
         {
           "text": "Walk past",
-          "consequence": "“Walk past” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to walk past. It carries you into Lock-In while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Stand and stare",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to stand and stare. By Lock-In, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A snow-shut window, a wife banging at a door, a small voice calling Daddy.",
+      "text": "A snow-shut window, a wife banging at a door, a small voice calling Daddy. You cannot avoid Maze, Center; you can only decide whether “Open the door” or “Wait” defines the person who reaches it.",
       "sceneTitle": "Lock-In",
       "choices": [
         {
           "text": "Open the door",
-          "consequence": "“Open the door” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You choose to open the door. By Maze, Center, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You choose to wait. By Maze, Center, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Two sets of footprints in, one set out, a heartbeat slowing in the dark.",
+      "text": "Two sets of footprints in, one set out, a heartbeat slowing in the dark. “Sit down” opens the route to Spring at the Overlook. “Get up” changes the terms and carries you toward Snowcat South. A third choice, “Take the third path,” keeps Hallorann Hires a Cook in play.",
       "sceneTitle": "Maze, Center",
       "choices": [
         {
           "text": "Sit down",
-          "consequence": "You commit to “Sit down.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You sit down. The way toward Spring at the Overlook opens, and something on the other side seems to notice.",
           "nextNodeId": "end_thaw"
         },
         {
           "text": "Get up",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to get up. It carries you into Snowcat South while the safer possibility closes without making a sound.",
           "nextNodeId": "end_drive"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The way toward Hallorann Hires a Cook opens, and something on the other side seems to notice.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_thaw",
-      "text": "Tradesmen find an axe by the boiler and a manuscript in a typewriter and a photograph in the lobby that nobody can quite explain.",
+      "text": "Tradesmen find an axe by the boiler and a manuscript in a typewriter and a photograph in the lobby that nobody can quite explain. The road into Spring at the Overlook began with “Sit down” in Maze, Center; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Spring at the Overlook",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_drive",
-      "text": "Wendy at the wheel and Danny in the passenger seat. They roll out of the gates and never come back, not even for the manuscript.",
+      "text": "Wendy at the wheel and Danny in the passenger seat. They roll out of the gates and never come back, not even for the manuscript. The road into Snowcat South began with “Get up” in Maze, Center; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Snowcat South",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "He drives away from the Overlook with a small boy and a half-broken wife and he teaches the boy to read recipes, and the shine, slowly, becomes a small private gift.",
+      "text": "He drives away from the Overlook with a small boy and a half-broken wife and he teaches the boy to read recipes, and the shine, slowly, becomes a small private gift. The road into Hallorann Hires a Cook began with “Take the third path” in Maze, Center; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Hallorann Hires a Cook",
       "choices": [],
       "isEnding": true,

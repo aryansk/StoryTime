@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A morning that doesn't make sense, a train you take instead of the office.",
+      "text": "You wake up sad in a way that has no cause you can point at, like a bruise you do not remember earning. On the platform your legs carry you across to the other track, the Montauk one, in February, in office shoes. In your bag is a journal with two years of pages torn out of it, close to the spine, and you have no memory of tearing them.",
       "sceneTitle": "Skip Work",
       "choices": [
         {
           "text": "Go to Montauk",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You get on the wrong train deliberately, which you have never done in your life, and spend the ride writing a note about how unlike you this is.",
           "nextNodeId": "s2"
         },
         {
           "text": "Go home",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You sit down on the bench and let it pull out, and let the next one go too, and get on the third one anyway.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "A blue coat, a stranger who feels like a memory.",
+      "text": "The beach in February is the colour of an old nickel and there is exactly one other person on it, hood up, hair a shade of blue nobody arrives at by accident. She talks to you on the train back without any encouragement at all. She gives you her name, and something in your chest goes off like a car alarm two streets over, muffled, in a car you cannot see.",
       "sceneTitle": "Beach in Winter",
       "choices": [
         {
           "text": "Talk to her",
-          "consequence": "You commit to “Talk to her.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You answer her badly, in three-word sentences, and she carries on regardless, and by Babylon you are laughing at something you would not repeat to anyone.",
           "nextNodeId": "s3"
         },
         {
           "text": "Walk past",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Shy.",
+          "consequence": "You give her the nod strangers give and turn back to the window, and she waits four stops and starts again, and you are glad she did.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Snow on a windshield wiper, a hum that's almost a song.",
+      "text": "You end up driving, because she has been drinking, and your car smells of nothing at all, which she mentions twice. The heater works on one side only. The wiper drags a curl of slush across the glass on exactly the beat of the thing she is humming without knowing she is humming it. You have heard it before. You are certain you have heard it before.",
       "sceneTitle": "Car Ride",
       "choices": [
         {
           "text": "Drive her home",
-          "consequence": "You commit to “Drive her home.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You take the long way to her building and let the drive run twenty minutes over, which is the boldest thing you have done in two years.",
           "nextNodeId": "s4"
         },
         {
           "text": "Drop her off downtown",
-          "consequence": "“Drop her off downtown” closes one possibility and opens another. The moment leaves a clear note behind: Polite.",
+          "consequence": "You pull over early where she asks and she writes a number on a receipt, and you sit in the cold car afterwards deciding whether to keep it.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Footprints across the river ice.",
+      "text": "She takes you out onto the frozen Charles at two in the morning, over ice that ticks under your weight, and lies down flat on her back in the middle of the river and pats the space beside her. Under the frost there are cracks like the veins in a leaf. Above, the sky is that orange the city makes. She asks you something and does not wait for the answer.",
       "sceneTitle": "Frozen Charles",
       "choices": [
         {
           "text": "Lie down on the ice",
-          "consequence": "You commit to “Lie down on the ice.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You put your back down on a river and let it hold you, and for four minutes there is nothing wrong with you at all.",
           "nextNodeId": "s5"
         },
         {
           "text": "Stay upright",
-          "consequence": "There is no taking “Stay upright” back. Cautious shapes the silence before the next moment arrives.",
+          "consequence": "You stay standing with your hands in your pockets explaining thin ice to her, and she lies there anyway, and you love her from a metre above.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "A friend hands you a do-not-discuss card from a clinic.",
+      "text": "You go to her door with a present and a stranger opens it, and she looks at you the way you look at a coat on a hook. Two days later your friends will not meet your eye and Carrie puts a card in your hand, printed, the kind a dentist's office sends. It says she has had you removed. It asks that you not bring yourself up in front of her.",
       "sceneTitle": "Lacuna Card",
       "choices": [
         {
           "text": "Investigate",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Curious.",
+          "consequence": "You call the number on the card at nine in the morning and a receptionist answers as though this were an ordinary business, because to her it is.",
           "nextNodeId": "s6"
         },
         {
           "text": "Ignore",
-          "consequence": "“Ignore” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You put the card in the kitchen drawer with the batteries and the takeout menus, and take it out four times before you finish your coffee.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A small doctor, a couch, a hard offer.",
+      "text": "The office has a couch, a diploma, and a tank with two fish in it. He explains the procedure as a mapping. You bring in everything that carries her, they wire your scalp, you handle each object and name it until the machine locates where it lives in you. Then, overnight, they burn out those addresses. Technically brain damage, he says, on the order of a heavy night.",
       "sceneTitle": "Mierzwiak's Office",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Hard.",
+          "consequence": "You sign the consent with your hands shaking and the receptionist offers you a mint, and it is the least dramatic room you have ever ruined your life in.",
           "nextNodeId": "s7"
         },
         {
           "text": "Walk out",
-          "consequence": "You commit to “Walk out.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You get as far as the elevator twice, and both times you come back and sit down, and he does not look remotely surprised.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "A shoebox of objects to be wiped from your head.",
+      "text": "They want all of it: the mug, the mixtape, the drawings on napkins, the hairbrush with the blue still in it, the receipt from the diner in Rockville Centre. Two boxes. You bring both. The receptionist itemises them onto a list, out loud, with no expression whatever, and it takes twenty minutes, and you look at the fish tank for most of it.",
       "sceneTitle": "Box of Things",
       "choices": [
         {
           "text": "Hand it over",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Final.",
+          "consequence": "You push both boxes across the desk and take your hands off them, and she writes a number on the lid and puts them somewhere out of sight.",
           "nextNodeId": "s8"
         },
         {
           "text": "Keep one",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You palm the hairbrush into your coat before the count, and tomorrow morning it will be in your pocket and it will mean absolutely nothing to you.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Stan and Patrick at your apartment with a machine and pizza.",
+      "text": "Two men in their twenties let themselves in with a keycode, move your furniture against the walls, and fit a mesh cap of contacts to your scalp with cold gel. One of them eats pizza off your ottoman. They tell you to lie still and think about her in order, most recent first, and that when you wake it will be an ordinary day. Then the pill.",
       "sceneTitle": "Sleep",
       "choices": [
         {
           "text": "Surrender",
-          "consequence": "The decision settles the question for now. Its verdict—Tired—follows you into whatever comes next.",
+          "consequence": "You count backwards from a hundred with the gel going cold on your scalp, and you get to eighty-two, and the ceiling goes soft.",
           "nextNodeId": "s9"
         },
         {
           "text": "Open your eyes",
-          "consequence": "There is no taking “Open your eyes” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You fight the pill for a full minute, watching two strangers eat in your kitchen, and it wins the way sleep always wins.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Clementine in orange hair laughing at a dust jacket.",
+      "text": "It runs backwards, so you begin at the end: her in the bookstore with orange hair, laughing at a jacket blurb, you standing four feet off being unpleasant about it. While you watch, the spines go blank. The blurb goes blank. Her face is still fine, but the shelf behind her is turning into a grey nothing with the texture of wet newspaper.",
       "sceneTitle": "Memory: Bookstore",
       "choices": [
         {
           "text": "Hold the memory",
-          "consequence": "There is no taking “Hold the memory” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You try to hold the shelf solid by naming the titles aloud, and the machine takes each one anyway, in exactly the order you name them.",
           "nextNodeId": "s10"
         },
         {
           "text": "Erase it",
-          "consequence": "You commit to “Erase it.” The story records the instinct as “Tired” and carries it forward.",
+          "consequence": "You let the bookstore go, because it was a bad night and you were the one who ruined it, and the room folds up like a paper cup.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "A pasta she ruined and a sentence you regret.",
+      "text": "The chicken is dry and she knows it, and you say so with your eyebrows, which is your particular specialty. She says you are a person who watches. You say she drinks. Neither of you eats anything. A technician somewhere above this room is bored, and the plates are already losing their pattern, and you would trade a year of your life to be allowed to answer differently.",
       "sceneTitle": "Memory: Dinner Argument",
       "choices": [
         {
           "text": "Apologize inside the memory",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You say the sentence you should have said at that table, and she cannot hear it, and it is still the best thing you do all night.",
           "nextNodeId": "s11"
         },
         {
           "text": "Let it go",
-          "consequence": "“Let it go” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You let the argument dissolve unrepaired, which is honest, and which means the final version of it is the one where you were right and alone.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "She tells you to hide her inside a memory she does not own.",
+      "text": "Halfway through, she stops being a recording and starts looking directly at you. She has worked out what is happening to her and she does not want to end. Hide me, she says. Somewhere in your head she was never in, somewhere they will not think to search. The men upstairs are following a map of the places she belongs. So take her where she does not belong.",
       "sceneTitle": "Memory: Hide Me",
       "choices": [
         {
           "text": "Hide her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You start hauling her sideways out of the map, into rooms she has never once been in, and the machine upstairs begins to lose its place.",
           "nextNodeId": "s12"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You tell her the plan cannot work, and she gives you the exact face she uses when you disappoint her, which the machine has not deleted yet.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "A small boy under a kitchen table with Clementine grown beside him.",
+      "text": "You are four years old under a kitchen table with a saucepan on your head and a wooden spoon, and everything is scaled for a four-year-old, which is to say enormous. She is grown and crouched in there with you, far too big for the room, delighted. Your mother's ankles go past. Upstairs, a cursor sweeps this sector and finds nothing it recognises.",
       "sceneTitle": "Childhood Kitchen",
       "choices": [
         {
           "text": "Hold her hand",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You keep hold of her in a room she has no business being in, and the erasure walks straight past both of you for another forty seconds.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let her be erased",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You let go of her hand under the table, on the grounds that this was always going to end, and being tired is a reason and not a good one.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A receptionist at the clinic who has been erased herself.",
+      "text": "The receptionist has been in love with the doctor since her first week and is currently on your living-room floor with a bottle of wine and his hand on her knee. She quotes Pope at him, slightly wrong. She has no idea she has done all of this before, twice, signed the forms herself, and been driven home afterwards in his car with the radio on.",
       "sceneTitle": "Mary's Confession",
       "choices": [
         {
           "text": "Tell her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "Somebody plays her the tape of her own voice consenting, and she listens to a stranger with her name asking to be spared, and then she quits.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The decision settles the question for now. Its verdict—Cowardly—follows you into whatever comes next.",
+          "consequence": "The secret stays in the drawer where it was filed, and she goes on being kind to the doctor, and nobody's evening is spoiled at all.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "A technician who has been using your old love letters on his new girlfriend.",
+      "text": "The technician has your things. Your handwriting, your jokes, the necklace you bought off a flea-market table. He took them out of the evidence boxes and he is using them on her tonight, out on the ice, working your best material in a borrowed voice. He explains this to his colleague over pizza with the pride of a man who has discovered a shortcut.",
       "sceneTitle": "Patrick at the Door",
       "choices": [
         {
           "text": "Confront him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "Somebody at some point puts a fist through his composure, and none of it un-happens, and it is still the correct thing to have done.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay still",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You lie under the electrodes hearing your own words used badly by a man with better hair, unable to move so much as a finger about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A woman in a doorway who knows exactly what he does to women.",
+      "text": "She is in the doorway in her coat at three in the morning, having driven across town to look at her husband on a client's floor beside a girl young enough to be a student. She is not surprised. She says one name, then another name, then a third, and the receptionist's face changes as she understands that she is on a list.",
       "sceneTitle": "Mierzwiak's Wife",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "She stands there and lets the woman finish, and it costs her the only version of her life she liked, and she does not interrupt once.",
           "nextNodeId": "s16"
         },
         {
           "text": "Walk past",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "The doctor gets his coat and steers everyone out into the hallway, and the conversation is deferred, the way it has been deferred for years.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "He drinks while you sleep and the machine hiccups.",
+      "text": "Downstairs a machine is chasing you through a childhood you did not know you still had. Up here the man minding it has had four beers, gone out for a cigarette, and left the map running unattended. That is why there is a gap in the sweep. That is why any of tonight's small rescues are possible at all. Competence would have finished you by two.",
       "sceneTitle": "Stan's Beer",
       "choices": [
         {
           "text": "Forgive him later",
-          "consequence": "“Forgive him later” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You decide the man was tired and underpaid and twenty-four, and that his negligence bought you the only good hour of the entire procedure.",
           "nextNodeId": "s17"
         },
         {
           "text": "Don't",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You keep the grudge, because sloppiness is not generosity, and because a man with a beer in his hand was holding the eraser to your head.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A beach, a house, a long goodbye.",
+      "text": "It is the first night, the one you keep. The condemned house at Montauk, sand across the floorboards, her holding a candle stuck in a Coke bottle, you turning back at the door because you are a coward. This is the last place she exists. The walls are already going soft at the corners. She tells you where to meet her, and you both know you will not remember it.",
       "sceneTitle": "Last Memory",
       "choices": [
         {
           "text": "Cling to her",
-          "consequence": "There is no taking “Cling to her” back. Heart shapes the silence before the next moment arrives.",
+          "consequence": "You hold onto her in a house coming apart in a dark coming in, and it lasts as long as it lasts, and then it does not.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let her fade",
-          "consequence": "“Let her fade” closes one possibility and opens another. The moment leaves a clear note behind: Tired.",
+          "consequence": "You stand in the doorway and let the last room go quietly, which is the one dignified thing available and is not the same as wanting it.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "Sun on a ceiling, a phone with a Montauk recording playing.",
+      "text": "You wake at a strange angle with a headache behind one eye and the sheets on the floor and no idea why. Your car is parked on a street you did not park it on. Weeks later a padded envelope arrives from a clinic you have never heard of, and inside is a cassette, and on the cassette is your own voice, tired, listing everything you cannot stand about a woman.",
       "sceneTitle": "Wake Up",
       "choices": [
         {
           "text": "Listen all the way through",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You play the whole tape standing in the stairwell, and by the end you are listening to a man describe somebody he plainly could not leave.",
           "nextNodeId": "s19"
         },
         {
           "text": "Turn it off",
-          "consequence": "The decision settles the question for now. Its verdict—Cowardly—follows you into whatever comes next.",
+          "consequence": "You stop it forty seconds in with your thumb, because you can hear where it is going, and you already know how it feels to be that.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A tape of her saying things about you in detail.",
+      "text": "She is on the landing when you come out, and she has her own tape, and hers is worse: your teeth, your silences, the way you hold a fork like a specimen. Somebody has posted her a recording of herself taking you apart in detail. She stands there in a green coat listening to it and cannot make it any further down the stairs.",
       "sceneTitle": "Clementine on the Stairs",
       "choices": [
         {
           "text": "Wait for her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You stay on the step while she plays the cruellest part twice, because leaving now would prove the tape correct in every particular.",
           "nextNodeId": "s20"
         },
         {
           "text": "Run",
-          "consequence": "You commit to “Run.” The story records the instinct as “Cowardly” and carries it forward.",
+          "consequence": "You go down two flights fast and stand outside with your keys out, and you do not start the car, and you do not go back in either.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "Both tapes played, both of you out on a porch with a frozen pond.",
+      "text": "Both tapes are played out. You are standing outside a house on a frozen pond in Montauk with your hands pulled up into your sleeves and a complete inventory of each other's worst behaviour, delivered in your own voices. There is nothing left to find out. She points out, accurately, that you will get bored of her, and that she will get frightened and go.",
       "sceneTitle": "Snow on the Porch",
       "choices": [
         {
           "text": "Try anyway",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You say fine, out loud, to all of it, and that word costs you more than any promise you have ever made and buys considerably less.",
           "nextNodeId": "s21"
         },
         {
           "text": "Walk away",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You start down the path with the pond ticking behind you, and the arithmetic is entirely on your side, and it does not help one bit.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "A small word, a smaller laugh, a do-over with eyes open.",
+      "text": "She says it will fall apart, that inside three months she will start cataloguing what is wrong with you. You do not tell her she is mistaken. You say okay, meaning: noted, accepted, still standing here. She laughs, the short surprised one, not the party one. Then she says the word back to you, and it does something entirely different in her mouth.",
       "sceneTitle": "Okay",
       "choices": [
         {
           "text": "Say it back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You give her the same small word, and it lands like a door being unlocked rather than opened, which is all either of you is offering today.",
           "nextNodeId": "end_okay"
         },
         {
           "text": "Be silent",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You let the silence run past the point where it could still be answered, and she watches you not say it, and puts her hands back in her pockets.",
           "nextNodeId": "end_walk"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "You ask her instead whether she wants to see that house on the beach in July, when the doors are on their hinges and nobody else is out there.",
           "nextNodeId": "end_beach"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_okay",
-      "text": "You take her hand on the porch and you both go inside and you do not promise to do better, only to keep going at all.",
+      "text": "You go inside where the heating does not work and sit on the floor in your coats. Neither of you promises anything. Neither of you says it will be different this time, since you have both just listened to the evidence. What you agree, roughly, without putting it in words, is to keep the tapes and to stop pretending either of you was ever going to be easy. In March she dyes her hair red without warning you. You mind considerably less than you expected to.",
       "sceneTitle": "Okay, Okay",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_walk",
-      "text": "You take the train back to the city and you do not call her, and on the way home you write everything down and you save it, this time, on paper.",
+      "text": "You take the westbound platform and then the city, and you do not call her, and she does not call you. On the train you start writing it into the journal with the missing pages: the bookstore, the ice, the way she hummed without knowing she was humming. Not to keep her. To get the record out of your head, where things can be reached and removed, and onto paper, where anyone wanting it gone would need a court order and a match.",
       "sceneTitle": "Long Sidewalk",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_beach",
-      "text": "A summer at Montauk a year later, both of you tan, both of you forgetting in better ways, both of you remembering, finally, who you are.",
+      "text": "A year on, the same house, July this time, the boards dry and the doors hanging properly. You are both brown from the beach and both older in the way that only registers internally. She still cannot be relied upon. You are still a man who watches. But you have each learned to say the difficult sentence within a day of thinking it, and neither of you has been back to the clinic, and the shoebox is under the bed with everything still in it.",
       "sceneTitle": "Beach Again",
       "choices": [],
       "isEnding": true,

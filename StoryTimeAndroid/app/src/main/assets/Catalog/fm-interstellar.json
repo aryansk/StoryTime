@@ -20,17 +20,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A harvest is failing and a bookshelf is dropping books in patterns.",
+      "text": "A harvest is failing and a bookshelf is dropping books in patterns. The road still runs toward Coordinates. Its next turn depends on the difference between choosing “Investigate” and choosing “Brush it off.” At Coordinates, the decision will matter as data as well as intent.",
       "sceneTitle": "Dust",
       "choices": [
         {
           "text": "Investigate",
-          "consequence": "There is no taking “Investigate” back. Curious shapes the silence before the next moment arrives.",
+          "consequence": "You choose to investigate. By Coordinates, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Brush it off",
-          "consequence": "There is no taking “Brush it off” back. Practical shapes the silence before the next moment arrives.",
+          "consequence": "You choose to brush it off. By Coordinates, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         }
       ],
@@ -39,17 +39,17 @@
     },
     {
       "id": "s2",
-      "text": "Murph's pattern points to a base nobody knew existed.",
+      "text": "Murph's pattern points to a base nobody knew existed. NASA Underground comes either way; its meaning changes with the difference between “Drive there” and “Wait.” By NASA Underground, the system will have recorded that choice as precedent.",
       "sceneTitle": "Coordinates",
       "choices": [
         {
           "text": "Drive there",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to drive there. It carries you toward NASA Underground, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Wait",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cautious.",
+          "consequence": "You choose to wait. By NASA Underground, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s3"
         }
       ],
@@ -58,17 +58,17 @@
     },
     {
       "id": "s3",
-      "text": "Brand offers a seat on a mission to find humanity a home.",
+      "text": "Brand offers a seat on a mission to find humanity a home. Saying Goodbye is already waiting. What changes is whether “Take it” or “Refuse” is the instinct you carry into it. In NASA Underground, the rules change the moment you decide they can be tested.",
       "sceneTitle": "NASA Underground",
       "choices": [
         {
           "text": "Take it",
-          "consequence": "“Take it” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You commit to take it. It carries you toward Saying Goodbye, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Father.",
+          "consequence": "You commit to refuse. It carries you toward Saying Goodbye, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         }
       ],
@@ -77,17 +77,17 @@
     },
     {
       "id": "s4",
-      "text": "Murph throws a watch and screams from a doorway.",
+      "text": "Murph throws a watch and screams from a doorway. Both choices lead to Endurance, but “Promise to come back” arrives there with a different cost than “Lie a little.” By Endurance, the system will have recorded that choice as precedent.",
       "sceneTitle": "Saying Goodbye",
       "choices": [
         {
           "text": "Promise to come back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to promise to come back. It carries you toward Endurance, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         },
         {
           "text": "Lie a little",
-          "consequence": "The decision settles the question for now. Its verdict—Mercy—follows you into whatever comes next.",
+          "consequence": "You commit to lie a little. It carries you toward Endurance, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         }
       ],
@@ -96,17 +96,17 @@
     },
     {
       "id": "s5",
-      "text": "Spin gravity, a long sleep, a comet of saturn outside.",
+      "text": "Spin gravity, a long sleep, a comet of saturn outside. You cannot avoid Wormhole; you can only decide whether “Wake first” or “Sleep through” defines the person who reaches it. In Endurance, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Endurance",
       "choices": [
         {
           "text": "Wake first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Soldier.",
+          "consequence": "You commit to wake first. It carries you toward Wormhole, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sleep through",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tired.",
+          "consequence": "You commit to sleep through. It carries you toward Wormhole, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         }
       ],
@@ -115,17 +115,17 @@
     },
     {
       "id": "s6",
-      "text": "A globe of marbled light, a hand on yours from the other side.",
+      "text": "A globe of marbled light, a hand on yours from the other side. The road still runs toward Miller's Planet. Its next turn depends on the difference between choosing “Push through” and choosing “Hesitate.” At Miller's Planet, the decision will matter as data as well as intent.",
       "sceneTitle": "Wormhole",
       "choices": [
         {
           "text": "Push through",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You push through. The path to Miller's Planet opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         },
         {
           "text": "Hesitate",
-          "consequence": "“Hesitate” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You hesitate. The path to Miller's Planet opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         }
       ],
@@ -134,17 +134,17 @@
     },
     {
       "id": "s7",
-      "text": "Ocean, knee-deep, a wave like a moving mountain.",
+      "text": "Ocean, knee-deep, a wave like a moving mountain. Years Lost is already waiting. What changes is whether “Save Doyle first” or “Take the data” is the instinct you carry into it. In Miller's Planet, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Miller's Planet",
       "choices": [
         {
           "text": "Save Doyle first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to save Doyle first. It carries you toward Years Lost, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take the data",
-          "consequence": "You commit to “Take the data.” The story records the instinct as “Hard” and carries it forward.",
+          "consequence": "You commit to take the data. It carries you toward Years Lost, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -153,17 +153,17 @@
     },
     {
       "id": "s8",
-      "text": "Romilly aged twenty-three years in orbit.",
+      "text": "Romilly aged twenty-three years in orbit. Mann's Planet comes either way; its meaning changes with the difference between “Apologize” and “Move on.” At Mann's Planet, the decision will matter as data as well as intent.",
       "sceneTitle": "Years Lost",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You apologize. The path to Mann's Planet opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         },
         {
           "text": "Move on",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Cold.",
+          "consequence": "You commit to move on. It carries you toward Mann's Planet, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s9"
         }
       ],
@@ -172,17 +172,17 @@
     },
     {
       "id": "s9",
-      "text": "Ice, a beacon, a man who has been alone too long.",
+      "text": "Ice, a beacon, a man who has been alone too long. Both choices lead to Betrayal, but “Trust him” arrives there with a different cost than “Doubt.” In Mann's Planet, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Mann's Planet",
       "choices": [
         {
           "text": "Trust him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to trust him. It carries you toward Betrayal, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Doubt",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You commit to doubt. It carries you toward Betrayal, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         }
       ],
@@ -191,17 +191,17 @@
     },
     {
       "id": "s10",
-      "text": "Mann smashes your helmet against a rock and runs for the Endurance.",
+      "text": "Mann smashes your helmet against a rock and runs for the Endurance. Docking Spin will follow either decision, but it will meet a different version of you after “Fight him” than after “Crawl back.” At Docking Spin, the decision will matter as data as well as intent.",
       "sceneTitle": "Betrayal",
       "choices": [
         {
           "text": "Fight him",
-          "consequence": "“Fight him” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to fight him. By Docking Spin, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         },
         {
           "text": "Crawl back",
-          "consequence": "“Crawl back” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You commit to crawl back. It carries you toward Docking Spin, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         }
       ],
@@ -210,17 +210,17 @@
     },
     {
       "id": "s11",
-      "text": "Endurance is tumbling and the airlock is on fire.",
+      "text": "Endurance is tumbling and the airlock is on fire. The road still runs toward Plan A vs Plan B. Its next turn depends on the difference between choosing “Match the spin” and choosing “Eject and chase.”",
       "sceneTitle": "Docking Spin",
       "choices": [
         {
           "text": "Match the spin",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You match the spin. The path to Plan A vs Plan B opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         },
         {
           "text": "Eject and chase",
-          "consequence": "You commit to “Eject and chase.” The story records the instinct as “Reckless” and carries it forward.",
+          "consequence": "You commit to eject and chase. It carries you toward Plan A vs Plan B, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         }
       ],
@@ -229,17 +229,17 @@
     },
     {
       "id": "s12",
-      "text": "Earth or fresh embryos, both impossible.",
+      "text": "Earth or fresh embryos, both impossible. Gargantua is already waiting. What changes is whether “Choose A for Murph” or “Choose B for humanity” is the instinct you carry into it. By Gargantua, the system will have recorded that choice as precedent.",
       "sceneTitle": "Plan A vs Plan B",
       "choices": [
         {
           "text": "Choose A for Murph",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You commit to choose A for Murph. It carries you toward Gargantua, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         },
         {
           "text": "Choose B for humanity",
-          "consequence": "The decision settles the question for now. Its verdict—Hard—follows you into whatever comes next.",
+          "consequence": "You commit to choose B for humanity. It carries you toward Gargantua, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         }
       ],
@@ -248,17 +248,17 @@
     },
     {
       "id": "s13",
-      "text": "A black hole the size of a memory.",
+      "text": "A black hole the size of a memory. You cannot avoid Detach; you can only decide whether “Slingshot the Endurance” or “Abort” defines the person who reaches it. By Detach, the system will have recorded that choice as precedent.",
       "sceneTitle": "Gargantua",
       "choices": [
         {
           "text": "Slingshot the Endurance",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You commit to slingshot the Endurance. It carries you toward Detach, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s14"
         },
         {
           "text": "Abort",
-          "consequence": "There is no taking “Abort” back. Tired shapes the silence before the next moment arrives.",
+          "consequence": "You abort. The path to Detach opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -267,17 +267,17 @@
     },
     {
       "id": "s14",
-      "text": "Ranger and Lander uncouple to lose mass.",
+      "text": "Ranger and Lander uncouple to lose mass. The road still runs toward Event Horizon. Its next turn depends on the difference between choosing “Push Brand forward” and choosing “Stay close.” By Event Horizon, the system will have recorded that choice as precedent.",
       "sceneTitle": "Detach",
       "choices": [
         {
           "text": "Push Brand forward",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You commit to push Brand forward. It carries you toward Event Horizon, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay close",
-          "consequence": "You commit to “Stay close.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You stay close. The path to Event Horizon opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -286,17 +286,17 @@
     },
     {
       "id": "s15",
-      "text": "A long stretch of every clock you have ever owned.",
+      "text": "A long stretch of every clock you have ever owned. Tesseract comes either way; its meaning changes with the difference between “Fall through” and “Brace.” In Event Horizon, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Event Horizon",
       "choices": [
         {
           "text": "Fall through",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to fall through. By Tesseract, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Brace",
-          "consequence": "There is no taking “Brace” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to brace. By Tesseract, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         }
       ],
@@ -305,17 +305,17 @@
     },
     {
       "id": "s16",
-      "text": "A library on every face of a cube, Murph's room, every minute of it.",
+      "text": "A library on every face of a cube, Murph's room, every minute of it. You cannot avoid Morse on the Watch; you can only decide whether “Push the books” or “Sit” defines the person who reaches it.",
       "sceneTitle": "Tesseract",
       "choices": [
         {
           "text": "Push the books",
-          "consequence": "You commit to “Push the books.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to push the books. By Morse on the Watch, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         },
         {
           "text": "Sit",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You sit. The path to Morse on the Watch opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         }
       ],
@@ -324,17 +324,17 @@
     },
     {
       "id": "s17",
-      "text": "A second hand ticking quantum data into a child's bedroom.",
+      "text": "A second hand ticking quantum data into a child's bedroom. Murph at the Window comes either way; its meaning changes with the difference between “Tap it” and “Tap a goodbye.” At Murph at the Window, the decision will matter as data as well as intent.",
       "sceneTitle": "Morse on the Watch",
       "choices": [
         {
           "text": "Tap it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You commit to tap it. It carries you toward Murph at the Window, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         },
         {
           "text": "Tap a goodbye",
-          "consequence": "You commit to “Tap a goodbye.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You commit to tap a goodbye. It carries you toward Murph at the Window, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         }
       ],
@@ -343,17 +343,17 @@
     },
     {
       "id": "s18",
-      "text": "A grown woman saying his name through a window of dust.",
+      "text": "A grown woman saying his name through a window of dust. Cooper Station is already waiting. What changes is whether “Believe it” or “Step away” is the instinct you carry into it. By Cooper Station, the system will have recorded that choice as precedent.",
       "sceneTitle": "Murph at the Window",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Heart.",
+          "consequence": "You commit to believe it. It carries you toward Cooper Station, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         },
         {
           "text": "Step away",
-          "consequence": "There is no taking “Step away” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to step away. It carries you toward Cooper Station, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -362,17 +362,17 @@
     },
     {
       "id": "s19",
-      "text": "A wheel in orbit and a chairlift to a hospital wing.",
+      "text": "A wheel in orbit and a chairlift to a hospital wing. You cannot avoid Old Murph; you can only decide whether “Visit her” or “Sit a moment” defines the person who reaches it. By Old Murph, the system will have recorded that choice as precedent.",
       "sceneTitle": "Cooper Station",
       "choices": [
         {
           "text": "Visit her",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You commit to visit her. It carries you toward Old Murph, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         },
         {
           "text": "Sit a moment",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Tired.",
+          "consequence": "You choose to sit a moment. By Old Murph, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -381,17 +381,17 @@
     },
     {
       "id": "s20",
-      "text": "A small old hand in yours and an entire life lived without you.",
+      "text": "A small old hand in yours and an entire life lived without you. Steal a Ranger will follow either decision, but it will meet a different version of you after “Listen” than after “Apologize.” At Steal a Ranger, the decision will matter as data as well as intent.",
       "sceneTitle": "Old Murph",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You commit to listen. It carries you toward Steal a Ranger, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         },
         {
           "text": "Apologize",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to apologize. It carries you toward Steal a Ranger, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s21"
         }
       ],
@@ -400,22 +400,22 @@
     },
     {
       "id": "s21",
-      "text": "Brand is alone on Edmunds' planet and nobody else is coming.",
+      "text": "Brand is alone on Edmunds' planet and nobody else is coming. The paths divide here: “Go” leads into Edmunds' Planet, while “Stay” makes By Her Bed the next reckoning. A third choice, “Take the third path,” keeps Stars in the Dorm in play.",
       "sceneTitle": "Steal a Ranger",
       "choices": [
         {
           "text": "Go",
-          "consequence": "You commit to “Go.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You go. The path to Edmunds' Planet opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_brand"
         },
         {
           "text": "Stay",
-          "consequence": "You commit to “Stay.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You stay. The path to By Her Bed opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_murph"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The path to Stars in the Dorm opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -424,7 +424,7 @@
     },
     {
       "id": "end_brand",
-      "text": "You land beside a small camp at the edge of a quiet sea. Brand walks out of the airlock with the dirt of a new world on her boots.",
+      "text": "You land beside a small camp at the edge of a quiet sea. Brand walks out of the airlock with the dirt of a new world on her boots. The road into Edmunds' Planet began with “Go” in Steal a Ranger; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Edmunds' Planet",
       "choices": [],
       "isEnding": true,
@@ -432,7 +432,7 @@
     },
     {
       "id": "end_murph",
-      "text": "You sit with Murph until she sleeps and you hold her grandchild on your knee and you do not get up for a long time.",
+      "text": "You sit with Murph until she sleeps and you hold her grandchild on your knee and you do not get up for a long time. The road into By Her Bed began with “Stay” in Steal a Ranger; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "By Her Bed",
       "choices": [],
       "isEnding": true,
@@ -440,7 +440,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You take a janitor's job on Cooper Station and look up at the slow rotation of the wheel at night and you call yourself, finally, retired.",
+      "text": "You take a janitor's job on Cooper Station and look up at the slow rotation of the wheel at night and you call yourself, finally, retired. The road into Stars in the Dorm began with “Take the third path” in Steal a Ranger; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Stars in the Dorm",
       "choices": [],
       "isEnding": true,

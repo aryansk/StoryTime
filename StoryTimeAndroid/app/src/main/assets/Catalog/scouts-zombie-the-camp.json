@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Saturday morning. Troop leader is missing. Cocoa is cold. You and Carter and Augie find a zombie behind the storage shed.",
+      "text": "Saturday morning. Troop leader is missing. Cocoa is cold. You and Carter and Augie find a zombie behind the storage shed. Carter's Plan is already waiting. What changes is whether “Scream” or “Stay quiet” is the instinct you carry into it.",
       "sceneTitle": "Pancakes, Optional",
       "choices": [
         {
           "text": "Scream",
-          "consequence": "You commit to “Scream.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You scream. The way toward Carter's Plan opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Tactical.",
+          "consequence": "You stay quiet. The way toward Carter's Plan opens, and something on the other side seems to notice.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Carter wants to drive to the police station. The police station is, by Augie's count, two miles.",
+      "text": "Carter wants to drive to the police station. The police station is, by Augie's count, two miles. Both choices lead to Augie's Sash, but “Walk” arrives there with a different cost than “Bike.” In Carter's Plan, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Carter's Plan",
       "choices": [
         {
           "text": "Walk",
-          "consequence": "Slow but safe.",
+          "consequence": "You choose to walk. By Augie's Sash, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s3"
         },
         {
           "text": "Bike",
-          "consequence": "You commit to “Bike.” The story records the instinct as “Faster” and carries it forward.",
+          "consequence": "You commit to bike. It carries you into Augie's Sash while the safer possibility closes without making a sound.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Augie has, on his sash, a 'fire-making' badge, a 'first aid' badge, and a 'parade marshal' badge. The last one is, in fact, weirdly useful.",
+      "text": "Augie has, on his sash, a 'fire-making' badge, a 'first aid' badge, and a 'parade marshal' badge. The last one is, in fact, weirdly useful. Both choices lead to Denise from the Strip Club, but “Use the sash organizationally” arrives there with a different cost than “Mock the sash gently.”",
       "sceneTitle": "Augie's Sash",
       "choices": [
         {
           "text": "Use the sash organizationally",
-          "consequence": "Be the leader.",
+          "consequence": "You commit to use the sash organizationally. It carries you into Denise from the Strip Club while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         },
         {
           "text": "Mock the sash gently",
-          "consequence": "There is no taking “Mock the sash gently” back. Tone shapes the silence before the next moment arrives.",
+          "consequence": "You commit to mock the sash gently. It carries you into Denise from the Strip Club while the safer possibility closes without making a sound.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "A woman named Denise appears with a baseball bat and saves you from a small mob. She is, immediately, in charge.",
+      "text": "A woman named Denise appears with a baseball bat and saves you from a small mob. She is, immediately, in charge. Both choices lead to Hardware Store, but “Defer to Denise” arrives there with a different cost than “Earn her respect.”",
       "sceneTitle": "Denise from the Strip Club",
       "choices": [
         {
           "text": "Defer to Denise",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You commit to defer to Denise. It carries you into Hardware Store while the safer possibility closes without making a sound.",
           "nextNodeId": "s5"
         },
         {
           "text": "Earn her respect",
-          "consequence": "The decision settles the question for now. Its verdict—Slow—follows you into whatever comes next.",
+          "consequence": "You choose to earn her respect. By Hardware Store, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The hardware store has nails, baseball bats, and a single guy named Ron behind the counter who has, apparently, been waiting for this.",
+      "text": "The hardware store has nails, baseball bats, and a single guy named Ron behind the counter who has, apparently, been waiting for this. The road still runs toward The Mall. Its next turn depends on the difference between choosing “Recruit Ron” and choosing “Take supplies and go.”",
       "sceneTitle": "Hardware Store",
       "choices": [
         {
           "text": "Recruit Ron",
-          "consequence": "There is no taking “Recruit Ron” back. More hands shapes the silence before the next moment arrives.",
+          "consequence": "You commit to recruit Ron. It carries you into The Mall while the safer possibility closes without making a sound.",
           "nextNodeId": "s6"
         },
         {
           "text": "Take supplies and go",
-          "consequence": "You commit to “Take supplies and go.” The story records the instinct as “Speed” and carries it forward.",
+          "consequence": "You choose to take supplies and go. By The Mall, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "The mall, of course. Inside is a stage being set up for the high school party tonight. The party may still be on. Half the senior class doesn't know yet.",
+      "text": "The mall, of course. Inside is a stage being set up for the high school party tonight. The party may still be on. Half the senior class doesn't know yet. Old People's Home is already waiting. What changes is whether “Warn the party” or “Use the mall to fortify” is the instinct you carry into it.",
       "sceneTitle": "The Mall",
       "choices": [
         {
           "text": "Warn the party",
-          "consequence": "There is no taking “Warn the party” back. Save lives shapes the silence before the next moment arrives.",
+          "consequence": "You warn the party. The way toward Old People's Home opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         },
         {
           "text": "Use the mall to fortify",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Defend.",
+          "consequence": "You use the mall to fortify. The way toward Old People's Home opens, and something on the other side seems to notice.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "The retirement home is, surprisingly, mostly fine. The residents have, for various reasons, mistaken the apocalypse for a fire drill.",
+      "text": "The retirement home is, surprisingly, mostly fine. The residents have, for various reasons, mistaken the apocalypse for a fire drill. Carter's Crush comes either way; its meaning changes with the difference between “Brief them carefully” and “Leave them; they're safe.”",
       "sceneTitle": "Old People's Home",
       "choices": [
         {
           "text": "Brief them carefully",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You commit to brief them carefully. It carries you into Carter's Crush while the safer possibility closes without making a sound.",
           "nextNodeId": "s8"
         },
         {
           "text": "Leave them; they're safe",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Move on.",
+          "consequence": "You choose to leave them; they're safe. By Carter's Crush, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Kendall, Carter's crush, calls his phone. She is at the party. She is, somehow, alive. She is, also, smarter than Carter has ever realized.",
+      "text": "Kendall, Carter's crush, calls his phone. She is at the party. She is, somehow, alive. She is, also, smarter than Carter has ever realized. Zombie Cat will follow either decision, but it will meet a different version of you after “Pivot to the party” than after “Stay on plan.”",
       "sceneTitle": "Carter's Crush",
       "choices": [
         {
           "text": "Pivot to the party",
-          "consequence": "Crush as motive.",
+          "consequence": "You choose to pivot to the party. By Zombie Cat, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Stay on plan",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You choose to stay on plan. By Zombie Cat, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A zombie cat. You both want to laugh and don't.",
+      "text": "A zombie cat. You both want to laugh and don't. Both choices lead to The High School, but “Distract it” arrives there with a different cost than “Slingshot it.” In Zombie Cat, even a sensible delay gives the threat another way in.",
       "sceneTitle": "Zombie Cat",
       "choices": [
         {
           "text": "Distract it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Soft.",
+          "consequence": "You distract it. The way toward The High School opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         },
         {
           "text": "Slingshot it",
-          "consequence": "The decision settles the question for now. Its verdict—Pragmatic—follows you into whatever comes next.",
+          "consequence": "You slingshot it. The way toward The High School opens, and something on the other side seems to notice.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "The school is locked. The football coach is, weirdly, leading a militia inside. He is, weirdly, doing it well.",
+      "text": "The school is locked. The football coach is, weirdly, leading a militia inside. He is, weirdly, doing it well. Slingshot Range will follow either decision, but it will meet a different version of you after “Join the militia” than after “Avoid the militia.”",
       "sceneTitle": "The High School",
       "choices": [
         {
           "text": "Join the militia",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Numbers.",
+          "consequence": "You join the militia. The way toward Slingshot Range opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         },
         {
           "text": "Avoid the militia",
-          "consequence": "You commit to “Avoid the militia.” The story records the instinct as “Loner” and carries it forward.",
+          "consequence": "You commit to avoid the militia. It carries you into Slingshot Range while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You have, the badge book says, eighteen inches at minimum for accuracy. You discover, in practice, more like twelve.",
+      "text": "You have, the badge book says, eighteen inches at minimum for accuracy. You discover, in practice, more like twelve. Augie's Brave Moment will follow either decision, but it will meet a different version of you after “Practice on something static” than after “Use it live.”",
       "sceneTitle": "Slingshot Range",
       "choices": [
         {
           "text": "Practice on something static",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You commit to practice on something static. It carries you into Augie's Brave Moment while the safer possibility closes without making a sound.",
           "nextNodeId": "s12"
         },
         {
           "text": "Use it live",
-          "consequence": "The decision settles the question for now. Its verdict—Battle test—follows you into whatever comes next.",
+          "consequence": "You choose to use it live. By Augie's Brave Moment, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Augie, who has been the dorkiest of you for nine years, makes a move that saves Denise. The moment is small. The moment is huge.",
+      "text": "Augie, who has been the dorkiest of you for nine years, makes a move that saves Denise. The moment is small. The moment is huge. The Trampoline is already waiting. What changes is whether “Make sure he knows” or “Let it be” is the instinct you carry into it.",
       "sceneTitle": "Augie's Brave Moment",
       "choices": [
         {
           "text": "Make sure he knows",
-          "consequence": "You commit to “Make sure he knows.” The story records the instinct as “Tell him” and carries it forward.",
+          "consequence": "You choose to make sure he knows. By The Trampoline, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         },
         {
           "text": "Let it be",
-          "consequence": "Some bravery is private.",
+          "consequence": "Some bravery is private. You choose to let it be. By The Trampoline, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "An above-ground pool, a trampoline, two suburban kids' inheritance. You and Carter use them to clear a fence.",
+      "text": "An above-ground pool, a trampoline, two suburban kids' inheritance. You and Carter use them to clear a fence. Mall, Round Two is already waiting. What changes is whether “Catch up to Denise” or “Find Augie first” is the instinct you carry into it.",
       "sceneTitle": "The Trampoline",
       "choices": [
         {
           "text": "Catch up to Denise",
-          "consequence": "You commit to “Catch up to Denise.” The story records the instinct as “Reconvene” and carries it forward.",
+          "consequence": "You catch up to Denise. The way toward Mall, Round Two opens, and something on the other side seems to notice.",
           "nextNodeId": "s14"
         },
         {
           "text": "Find Augie first",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Friend first.",
+          "consequence": "You choose to find Augie first. By Mall, Round Two, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The mall stage is up. Half the high school is there. Music is loud. Nobody has noticed the zombies in the food court yet.",
+      "text": "The mall stage is up. Half the high school is there. Music is loud. Nobody has noticed the zombies in the food court yet. You cannot avoid Kendall's Smarter; you can only decide whether “Cut the music” or “Lock the doors first” defines the person who reaches it.",
       "sceneTitle": "Mall, Round Two",
       "choices": [
         {
           "text": "Cut the music",
-          "consequence": "There is no taking “Cut the music” back. Get attention shapes the silence before the next moment arrives.",
+          "consequence": "You choose to cut the music. By Kendall's Smarter, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         },
         {
           "text": "Lock the doors first",
-          "consequence": "There is no taking “Lock the doors first” back. Contain shapes the silence before the next moment arrives.",
+          "consequence": "You lock the doors first. The way toward Kendall's Smarter opens, and something on the other side seems to notice.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Kendall, faced with the situation, organizes the party into a defense in under two minutes. You realize you have wildly underestimated her.",
+      "text": "Kendall, faced with the situation, organizes the party into a defense in under two minutes. You realize you have wildly underestimated her. Coach's Militia will follow either decision, but it will meet a different version of you after “Follow her lead” than after “Coordinate as equals.”",
       "sceneTitle": "Kendall's Smarter",
       "choices": [
         {
           "text": "Follow her lead",
-          "consequence": "“Follow her lead” closes one possibility and opens another. The moment leaves a clear note behind: Smart.",
+          "consequence": "You choose to follow her lead. By Coach's Militia, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Coordinate as equals",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pair up.",
+          "consequence": "You choose to coordinate as equals. By Coach's Militia, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The coach's militia arrives, late, but timely. Their plan is bad. Your plan is also bad. Together the plans become acceptable.",
+      "text": "The coach's militia arrives, late, but timely. Their plan is bad. Your plan is also bad. Together the plans become acceptable. Trampoline Charge will follow either decision, but it will meet a different version of you after “Merge the plans” than after “Stay separate.”",
       "sceneTitle": "Coach's Militia",
       "choices": [
         {
           "text": "Merge the plans",
-          "consequence": "There is no taking “Merge the plans” back. Pragmatic shapes the silence before the next moment arrives.",
+          "consequence": "You merge the plans. The way toward Trampoline Charge opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         },
         {
           "text": "Stay separate",
-          "consequence": "“Stay separate” closes one possibility and opens another. The moment leaves a clear note behind: Discipline.",
+          "consequence": "You stay separate. The way toward Trampoline Charge opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You orchestrate, against all reason, a trampoline-based charge that picks off the perimeter zombies in a way that, in a different timeline, would have been a YouTube video.",
+      "text": "You orchestrate, against all reason, a trampoline-based charge that picks off the perimeter zombies in a way that, in a different timeline, would have been a YouTube video. Augie's Sash, Again is already waiting. What changes is whether “Commit to it” or “Cover for it tactically” is the instinct you carry into it.",
       "sceneTitle": "Trampoline Charge",
       "choices": [
         {
           "text": "Commit to it",
-          "consequence": "Funny is fine.",
+          "consequence": "You commit to it. The way toward Augie's Sash, Again opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Cover for it tactically",
-          "consequence": "There is no taking “Cover for it tactically” back. Discipline shapes the silence before the next moment arrives.",
+          "consequence": "You choose to cover for it tactically. By Augie's Sash, Again, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Augie's parade marshal badge actually saves the entire defensive arrangement by organizing them in a pattern only he knows. Augie, you realize, is the hero of this movie.",
+      "text": "Augie's parade marshal badge actually saves the entire defensive arrangement by organizing them in a pattern only he knows. Augie, you realize, is the hero of this movie. The Last Wave comes either way; its meaning changes with the difference between “Promote Augie publicly” and “Let him have it quietly.”",
       "sceneTitle": "Augie's Sash, Again",
       "choices": [
         {
           "text": "Promote Augie publicly",
-          "consequence": "“Promote Augie publicly” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to promote Augie publicly. By The Last Wave, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s19"
         },
         {
           "text": "Let him have it quietly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Style.",
+          "consequence": "You let him have it quietly. The way toward The Last Wave opens, and something on the other side seems to notice.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Final wave. The football field. The stadium lights are on. You and Carter and Augie and Denise hold the south corner. Kendall holds the north.",
+      "text": "Final wave. The football field. The stadium lights are on. You and Carter and Augie and Denise hold the south corner. Kendall holds the north. Both choices lead to Daylight, but “Charge” arrives there with a different cost than “Hold the line.”",
       "sceneTitle": "The Last Wave",
       "choices": [
         {
           "text": "Charge",
-          "consequence": "There is no taking “Charge” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You commit to charge. It carries you into Daylight while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Hold the line",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You hold the line. The way toward Daylight opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Sunrise. The town is, mostly, scoured. The bus carrying the surviving teenagers pulls away. You and Augie sit on the bleachers eating, somehow, leftover pancakes.",
+      "text": "Sunrise. The town is, mostly, scoured. The bus carrying the surviving teenagers pulls away. You and Augie sit on the bleachers eating, somehow, leftover pancakes. After School will follow either decision, but it will meet a different version of you after “Celebrate” than after “Sit quietly.”",
       "sceneTitle": "Daylight",
       "choices": [
         {
           "text": "Celebrate",
-          "consequence": "The decision settles the question for now. Its verdict—You won—follows you into whatever comes next.",
+          "consequence": "You choose to celebrate. By After School, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         },
         {
           "text": "Sit quietly",
-          "consequence": "“Sit quietly” closes one possibility and opens another. The moment leaves a clear note behind: Decompress.",
+          "consequence": "You choose to sit quietly. By After School, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Monday morning. School is, weirdly, in session. The town has decided to call this a 'fire' for insurance reasons.",
+      "text": "Monday morning. School is, weirdly, in session. The town has decided to call this a 'fire' for insurance reasons. The distance between Eagle Scout, Eventually and Kendall and the World begins with the choice between “Stay scouts” and “Quit scouts to be normal.” A third choice, “Take the third path,” keeps Quiet Senior Year in play.",
       "sceneTitle": "After School",
       "choices": [
         {
           "text": "Stay scouts",
-          "consequence": "“Stay scouts” closes one possibility and opens another. The moment leaves a clear note behind: Sash on.",
+          "consequence": "You choose to stay scouts. By Eagle Scout, Eventually, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_sash"
         },
         {
           "text": "Quit scouts to be normal",
-          "consequence": "There is no taking “Quit scouts to be normal” back. Sash off shapes the silence before the next moment arrives.",
+          "consequence": "You commit to quit scouts to be normal. It carries you into Kendall and the World while the safer possibility closes without making a sound.",
           "nextNodeId": "end_kendall"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You choose to take the third path. By Quiet Senior Year, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_kendall",
-      "text": "Carter and Kendall become a couple. Augie, somehow, becomes the most popular kid at school. You become the friend who knows. You go on to a normal life that, every Halloween, gets weirder.",
+      "text": "Carter and Kendall become a couple. Augie, somehow, becomes the most popular kid at school. You become the friend who knows. You go on to a normal life that, every Halloween, gets weirder. The road into Kendall and the World began with “Quit scouts to be normal” in After School; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Kendall and the World",
       "choices": [],
       "isEnding": true,

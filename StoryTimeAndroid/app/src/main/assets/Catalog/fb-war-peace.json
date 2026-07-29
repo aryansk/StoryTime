@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Glittering nonsense. You speak Napoleon's name too warmly.",
+      "text": "You are the largest man in the room and the only one who has not learned how to be in it. The hostess arranges her guests like dishes and keeps steering you away from the aunt you were meant to greet. Then an abbe says something about executions, and you hear your own voice defending Bonaparte at length and with warmth, while a general's wife folds her fan and the room goes quiet around you.",
       "sceneTitle": "Anna Pavlovna's Salon",
       "choices": [
         {
           "text": "Be honest",
-          "consequence": "“Be honest” closes one possibility and opens another. The moment leaves a clear note behind: Spirit.",
+          "consequence": "You finish the argument you started, badly and sincerely. By morning three houses have decided you are dangerous and one man has decided you are worth knowing.",
           "nextNodeId": "s2"
         },
         {
           "text": "Apologize",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Civil.",
+          "consequence": "You back out of it with a laugh and despise the laugh immediately. Andrei watches you do it and says nothing at all in the carriage home.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You inherit everything. Strangers smile at you now.",
+      "text": "Your father cannot speak by the end, and there is a quiet war in the next room over a document in a mosaic portfolio. You are illegitimate, clumsy, overweight and qualified for nothing, and by Thursday you own forty thousand souls and half a province. People who cut you at the salon last month now find your opinions penetrating. Prince Vasili has begun calling you my dear boy.",
       "sceneTitle": "Father's Death",
       "choices": [
         {
           "text": "Take stock",
-          "consequence": "“Take stock” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You sit down with the stewards and discover you cannot read a balance sheet, and that at least eight men at the table are counting on that continuing.",
           "nextNodeId": "s3"
         },
         {
           "text": "Throw a party",
-          "consequence": "You commit to “Throw a party.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You put a policeman on the back of a bear and let the evening get entirely away from you. Socially, you are still paying for that bear fifteen years later.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Helene's family arranges. You drift into it.",
+      "text": "Vasili installs you in his own house and the campaign takes six weeks. She is beautiful in a way that stops conversation, and she has never once, in your hearing, said an interesting thing. You are seated beside her at every meal. On her name-day you fail to propose, so her father comes in, embraces you, declares it settled with tears in his eyes, and the room applauds a decision you never made.",
       "sceneTitle": "Marriage",
       "choices": [
         {
           "text": "Refuse",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Wise.",
+          "consequence": "Refusing would mean saying one sentence out loud in front of her father, and you cannot make a scene, and that inability costs you nine years.",
           "nextNodeId": "s4"
         },
         {
           "text": "Marry her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You go through with it and know at the altar rail exactly what you have done, and keep your face perfectly pleasant. That is the marriage in miniature.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Your friend leaves for war. He is, in salons, suffocating.",
+      "text": "He is the cleverest man you know and he is bored to the bone by his own life: a pregnant wife who cries prettily, a career of ante-rooms, an evening indistinguishable from the last three hundred. He says he is going to the army because there, at least, a man is measured against something that does not care who his father was. Then he tells you, twice, not to marry.",
       "sceneTitle": "Andrei",
       "choices": [
         {
           "text": "Toast him",
-          "consequence": "You commit to “Toast him.” The story records the instinct as “Friend” and carries it forward.",
+          "consequence": "You drink to glory and he lets you, and the pair of you talk until four in the morning, and you never manage a conversation like it with anyone again.",
           "nextNodeId": "s5"
         },
         {
           "text": "Argue with him",
-          "consequence": "There is no taking “Argue with him” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You tell him he is running away from a woman and calling it a war. He goes cold. You are right, and being right accomplishes nothing whatever.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Andrei watches the sky above the field. The campaign collapses.",
+      "text": "He picks up a fallen standard and runs forward with it, which is precisely the picture he has been carrying in his head for a year, and something strikes him. Then he is flat on his back looking upward. The sky over the field is high and grey and moving very slowly, and everything he has built a life around — the great man, the great deed — is measured against it and comes up small.",
       "sceneTitle": "Austerlitz",
       "choices": [
         {
           "text": "Receive his letter",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "His letter is three lines and arrives months late. One of the three lines is about the sky, and you will not understand that line until Borodino.",
           "nextNodeId": "s6"
         },
         {
           "text": "Wait for him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You are told he is dead and you go on waiting, because the world will not hold its shape without him. He comes back. His wife does not survive the week.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "A lodge. A teacher. You begin to read.",
+      "text": "An old man at a posting station in Torzhok studies you a while, then observes that a man who believes in nothing has merely not yet been shown anything. They initiate you in a room with a blindfold and a sword point at your breast, and it is absurd, and you weep anyway. You go home with a programme: hospitals, schools, freed serfs, and a notebook of resolutions in a locked drawer.",
       "sceneTitle": "Freemasons",
       "choices": [
         {
           "text": "Take it seriously",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Path.",
+          "consequence": "You mean every syllable of the vows for eight months. Your stewards nod gravely at each reform, agree to all of it, and quietly implement none of it.",
           "nextNodeId": "s7"
         },
         {
           "text": "Take it lightly",
-          "consequence": "“Take it lightly” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You enjoy the aprons and the secrecy and the long dinners, and the enjoyment is honest, and it leaves you standing exactly where it found you.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "She, sixteen, dances with Andrei. The world tilts for him.",
+      "text": "She has been beside a pillar for twenty minutes, certain nobody will ask, thin and shining and close to tears. You put a hand on Andrei's arm and point. He crosses the floor mostly to oblige you — and something in his face resets inside eight bars, because she is delighted by the music and the room and the entire idea of an evening, and he has not been delighted by anything since the field.",
       "sceneTitle": "Natasha at the Ball",
       "choices": [
         {
           "text": "Be glad for them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You were the one who pointed, and you go on being glad about it in public for two full years, which costs you more than anybody in the room could guess.",
           "nextNodeId": "s8"
         },
         {
           "text": "Be quiet",
-          "consequence": "There is no taking “Be quiet” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You say nothing about how she looked at him, or about how you felt watching, and the silence gets a considerable head start on the rest of your life.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Helene's brother schemes for Natasha. He is, plainly, a cad.",
+      "text": "He is beautiful and stupid and already married to a Polish girl nobody mentions. Your wife lends him her drawing room. Natasha, engaged to a man who has been abroad a year and dying of the waiting, agrees to a carriage at midnight and a country priest. You learn all of it the day after the plan collapses, from her mother, standing in a hallway with your hat still in your hand.",
       "sceneTitle": "Anatole",
       "choices": [
         {
           "text": "Warn her",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You arrive far too late for a warning to be a warning, so you say the other thing instead: that if you had any right you would be on your knees. Then you go.",
           "nextNodeId": "s9"
         },
         {
           "text": "Intervene with Anatole directly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You find him at your own wife's table, take him by the collar, and buy the letters back with money and a threat you did not know you had in you.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "A field of cannon and smoke. You wander into it as an observer.",
+      "text": "You ride out in a white hat and a green tailcoat to watch a battle the way a man attends a review. By ten the battery you have wandered into is a place where soldiers carry shells in canvas slings and make jokes about your coat. By two it has been taken and retaken, the boy who offered you tobacco is a shape under a greatcoat, and you are hauling ammunition because your hands decided without you.",
       "sceneTitle": "Borodino",
       "choices": [
         {
           "text": "Stay calm",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You stay because leaving means walking away from men who shared their bread with you. It is not courage exactly. It functions the same way courage does.",
           "nextNodeId": "s10"
         },
         {
           "text": "Run",
-          "consequence": "“Run” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You get out down the slope with your ears ringing and no coat, and you will never manage to decide, in fifty years, whether that was cowardice or sense.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Fires across the city. The French enter. You stay.",
+      "text": "Everyone with a cart is on the Ryazan road. You send the household off and stay behind in a borrowed coachman's coat with a pistol and an intention so large you have not said it aloud even alone. The city burns three days. In the smoke you carry a child out of a courtyard and argue with a French officer about a woman being robbed, and it is the second of those that gets you arrested.",
       "sceneTitle": "Moscow",
       "choices": [
         {
           "text": "Try to assassinate Napoleon",
-          "consequence": "You commit to “Try to assassinate Napoleon.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You have a pistol, a date fixed by numerology, and no route, no hour and no plan. The arrest spares you from discovering how little of it was ever real.",
           "nextNodeId": "s11"
         },
         {
           "text": "Help the wounded",
-          "consequence": "The decision settles the question for now. Its verdict—Care—follows you into whatever comes next.",
+          "consequence": "You pull a girl out of a burning outbuilding and hand her to the wrong family in the confusion, and you never learn where she ended up, and it stays with you.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "You are taken. Platon Karataev becomes, oddly, your teacher.",
+      "text": "They march you into a shed with twenty others, and a French court decides without hearing you that you are an incendiary. In the corner a small round peasant sits sewing a shirt, smelling of bread, talking steadily to a dog, to himself, to nobody in particular. He offers you a baked potato broken in two with salt on it. He holds no opinions at all and is the least frightened man you have ever met.",
       "sceneTitle": "Captured",
       "choices": [
         {
           "text": "Listen to Platon",
-          "consequence": "There is no taking “Listen to Platon” back. Wise shapes the silence before the next moment arrives.",
+          "consequence": "You listen to a man who cannot read tell the same four stories in a different order each night, and you begin sleeping through them, and then you begin sleeping.",
           "nextNodeId": "s12"
         },
         {
           "text": "Plan escape",
-          "consequence": "“Plan escape” closes one possibility and opens another. The moment leaves a clear note behind: Spirit.",
+          "consequence": "You count sentries and pace out the yard for a fortnight and go nowhere at all. The counting keeps you upright, which was probably its only purpose.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Platon dies on the road. The French retreat is slow.",
+      "text": "The column makes thirteen miles a day through wet snow, and the guards shoot whoever sits down. The fever takes Platon's legs on the fourth morning. He settles against a birch, still talking, still perfectly pleasant, and looks at you exactly once. You keep walking, because that is the arrangement, and behind you there is one shot and then a dog that will not stop barking.",
       "sceneTitle": "March",
       "choices": [
         {
           "text": "Bury his memory",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You carry him the rest of the way in your head, sentence by sentence. He is the only property from that year you never manage to lose.",
           "nextNodeId": "s13"
         },
         {
           "text": "Walk on",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Survive.",
+          "consequence": "You do not look back, and you tell yourself the not-looking was a mercy to him rather than to you, and you go on telling yourself that for decades.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Russian cossacks. Soup. Sleep on straw.",
+      "text": "They come out of the trees and it is finished in four minutes, and you are sitting in the snow laughing with your beard frozen solid. Somebody puts a bowl in your hands. You have lost eighty pounds, three teeth, and a wife you have not thought about since October. The soup is millet and mutton fat. You have never tasted anything like it and you never will again.",
       "sceneTitle": "Freed",
       "choices": [
         {
           "text": "Eat slowly",
-          "consequence": "You commit to “Eat slowly.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You make the bowl last half an hour, because a peasant in a shed taught you what food is, and the officers watching decide you are extremely strange.",
           "nextNodeId": "s14"
         },
         {
           "text": "Sleep",
-          "consequence": "You commit to “Sleep.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You go down on the straw mid-sentence and sleep eighteen hours, and wake in a body that has decided, without consulting you, to want things again.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "He is found. He is, dying, kinder than he was.",
+      "text": "They found him at Borodino, and the Rostovs carried him out of Moscow in their own carts without knowing whose son he was. When you sit down beside him he is calm in a way there is nothing left to argue with. He has forgiven Natasha and Anatole and his father and the war, and the forgiveness is not warm — it is the composure of a man already on the far side of the glass.",
       "sceneTitle": "Andrei, Wounded",
       "choices": [
         {
           "text": "Sit with him",
-          "consequence": "The decision settles the question for now. Its verdict—Honor—follows you into whatever comes next.",
+          "consequence": "You sit through two nights while he talks about love like a country he has recently moved to. You follow perhaps a third of it and remember every word.",
           "nextNodeId": "s15"
         },
         {
           "text": "Stay back",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You leave the hours to his sister and to Natasha, which is correct, and you stand in the doorway being correct, and the doorway is very cold.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "She dies, probably by her own carelessness with medicine.",
+      "text": "She was managing two suitors and a conversion at the same time, and there was a foreign doctor, and a prescription taken twice over. The announcement says angina. Nobody in Petersburg believes the announcement and nobody says so. You are in captivity when it happens and hear a month late, standing in a yard, and the first thing that arrives is a lightness you have to keep off your own face.",
       "sceneTitle": "Helene Dies",
       "choices": [
         {
           "text": "Mourn correctly",
-          "consequence": "You commit to “Mourn correctly.” The story records the instinct as “Society” and carries it forward.",
+          "consequence": "You wear black, say the correct sentence some forty times, and pay for the memorial service. You mean almost none of it, and it is still the decent thing to do.",
           "nextNodeId": "s16"
         },
         {
           "text": "Be honest with yourself",
-          "consequence": "There is no taking “Be honest with yourself” back. Truth shapes the silence before the next moment arrives.",
+          "consequence": "You admit in that yard that you are relieved, and having admitted it you find you can also be sorry for her, which you could never manage while she lived.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "She nursed Andrei. She is older. You speak as adults.",
+      "text": "You call on the princess, and there is a thin woman in black beside the samovar whom you do not recognise for six or seven seconds. She nursed him three weeks and was there at the end, and then her youngest brother was killed at Vyazma, and she has been mostly silent since. Then she says one small true badly-phrased thing about him, and her whole face works, and you have to look at the tea.",
       "sceneTitle": "Natasha, Quiet",
       "choices": [
         {
           "text": "Be honest",
-          "consequence": "The decision settles the question for now. Its verdict—Path—follows you into whatever comes next.",
+          "consequence": "You tell her about the shed, the potato, the thirteen-mile days. You have told nobody, and she is the first person who does not immediately offer comfort.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be careful",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Patient.",
+          "consequence": "You keep to safe ground and leave early and walk home through wet streets composing at length everything you failed to say.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You write her a letter. The answer comes quickly.",
+      "text": "You are thirty-two, twice her weight, lately a prisoner, and known across Moscow as a man who has handled his life poorly. The letter takes four drafts and finishes shorter than any of them. The answer comes back inside a day, relayed through her mother, who is by then not entirely well and has to be told twice which gentleman is being discussed.",
       "sceneTitle": "Proposal",
       "choices": [
         {
           "text": "Take her seriously",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You proceed on the assumption that she is a grown woman who has buried people, rather than the girl at the ball. It is the first correct assumption of your adult life.",
           "nextNodeId": "s18"
         },
         {
           "text": "Be flippant",
-          "consequence": "You commit to “Be flippant.” The story records the instinct as “Foolish” and carries it forward.",
+          "consequence": "You make a joke on the doorstep in order to survive the doorstep. She waits. The joke dies where it stands, and then you say it properly.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Nikolai marries Marya. The two estates merge.",
+      "text": "He is a hussar with debts and no head for figures. She has an estate, a religion, and eyes that make people uncomfortable in a way they later identify as having been seen. It should not work. He turns out to be a superb farmer who rides out at first light and shouts at everyone and is adored, and she keeps a diary cataloguing her failures of temper, and the two households run as one.",
       "sceneTitle": "Marya",
       "choices": [
         {
           "text": "Be a good brother-in-law",
-          "consequence": "The decision settles the question for now. Its verdict—Family—follows you into whatever comes next.",
+          "consequence": "You lend money badly, argue politics after dinner, and let your nephew ride on your back across the drawing room. Nikolai calls you a fool and means it fondly.",
           "nextNodeId": "s19"
         },
         {
           "text": "Stay distant",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You hold the visits to twice a year and the accounts clean. Marya notices the distance, forgives it, and prays about it, which would appal you if you knew.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Children. Quiet rooms. A book in your hand at dinner.",
+      "text": "Natasha has stopped singing and stopped minding how she looks, which everybody remarks on and which she regards as beside the point. She reads your letters over your shoulder, runs the nursery like a garrison, and is jealous of nothing except your attention. Four children. Wet napkins on the drying rack by the stove. You are halfway through a sentence at dinner when the youngest is sick down your shirt.",
       "sceneTitle": "Family Life",
       "choices": [
         {
           "text": "Be a present father",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You take the night feeds and learn which cry means which thing and put the book face down, and nobody outside this house will ever count that as work.",
           "nextNodeId": "s20"
         },
         {
           "text": "Be a distracted one",
-          "consequence": "You commit to “Be a distracted one.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You keep reading with a child on your knee and answer questions two beats late, and they grow up able to tell precisely how far down the page you are.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "You decide, slowly, that history is the work of millions and not Napoleons.",
+      "text": "You have seen the great man's army from underneath, from inside a shed, and it looked nothing whatever like the version in the dispatches. Nobody in that shed decided anything. A hundred thousand small refusals and a bad road did what no general ordered. You try to explain this to Nikolai after dinner, and he calls it nonsense and asks whether you have looked at the price of oats.",
       "sceneTitle": "Pierre's Thought",
       "choices": [
         {
           "text": "Write it down",
-          "consequence": "You commit to “Write it down.” The story records the instinct as “Path” and carries it forward.",
+          "consequence": "You fill a notebook across four winters and never publish a line of it. The sentences are better than you think and considerably worse than you hope.",
           "nextNodeId": "s21"
         },
         {
           "text": "Live it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You stop arguing and start paying the village schoolmaster out of your own pocket. It is a much smaller idea, and it outlives you.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "You stop trying to find one big answer. You find many small ones, with Natasha.",
+      "text": "You come back from a fortnight in Petersburg, on business you do not describe fully to your wife, and walk into a house where a child has a fever and the roof over the east wing is going. No single answer is waiting anywhere in it. There is this room, this argument about the roof, this hand. It is not remotely what you were looking for at twenty. It is a great deal better.",
       "sceneTitle": "A Smaller Life",
       "choices": [
         {
           "text": "Sit on the porch",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You sit out with her after the children are down and say almost nothing for an hour, and that hour is what the whole long business was for.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Plan more reforms",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Spirit.",
+          "consequence": "You start drafting again — a society, a programme, honest men in Petersburg — and she watches you draft and says nothing at all about the previous four attempts.",
           "nextNodeId": "end_philosopher"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "There is another room further on in this house, a chair by a window, a war happening out of sight. It has been furnished and waiting for some time.",
           "nextNodeId": "end_war"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_family",
-      "text": "You live forty quiet years with Natasha. The estate is, by your death, generous to its people. Your children write a small book about you. The book is, mostly, recipes.",
+      "text": "Forty years. The estate school takes ninety children and the hospital gets a real surgeon. You grow slower and heavier and better tempered, and she shouts at you about your boots until the last winter. Afterwards your children assemble a small book about you: two pages of anecdotes, one notebook copied out with the hard parts wrong, and thirty pages of her recipes, because the recipes were the part they could all agree on. It is read aloud at that table for a hundred years.",
       "sceneTitle": "Family Life",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_philosopher",
-      "text": "You write a long, kind essay on the way history actually happens. It is, by your grandchildren's time, a textbook in one Russian university.",
+      "text": "You write the long essay after all: that no man in a hat directs anything, that history is only the sum of every ordinary person doing the next necessary thing. Two journals refuse it for being neither history nor philosophy. A grandson finally sees it printed. By the time his own children are at university it is set reading in one provincial faculty, taught by a man who calls it charmingly naive and cannot stop quoting from it.",
       "sceneTitle": "A Quiet Philosopher",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_war",
-      "text": "You live to see another war from a chair by a window. You have, by then, learned not to be surprised. You take Natasha's hand and ask her, again, to read to you.",
+      "text": "You watch the next one from a chair by a window with a blanket across your knees, and no part of it surprises you, which is the entire return on fifty years. The guns are somewhere south. Your grandson has gone with his regiment and writes cheerfully. You can no longer follow a newspaper past one paragraph, so you put out your hand, and she takes it, and you ask her to start reading again from the beginning.",
       "sceneTitle": "Another War",
       "choices": [],
       "isEnding": true,

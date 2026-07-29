@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The house is bigger than the brochure suggested. Mrs. Winchester smiles from the doorway like a woman who has practiced. Her husband Andrew loads your duffel into the foyer himself.",
+      "text": "The photos undersold it. Gravel somebody rakes, a lawn with stripes in it, and a door that opens before you knock. Nina Winchester smiles the way people smile in the second take. Andrew carries your duffel in himself, and the bag looks wrong in that foyer — a nylon thing under a chandelier. Nobody asks about the four-year gap in your resume. That's the part that worries you.",
       "sceneTitle": "The Driveway",
       "choices": [
         {
           "text": "Be cheerful and grateful",
-          "consequence": "First impressions are the wages.",
+          "consequence": "You give them the version of yourself that got the interview: bright, harmless, easy to forget. Nina relaxes. Andrew doesn't, quite.",
           "nextNodeId": "s2"
         },
         {
           "text": "Be polite and observant",
-          "consequence": "Watch before you smile.",
+          "consequence": "You keep your answers short and count exits instead. Four years in a place with locked doors teaches you to read a house before you unpack in it.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Nina Winchester guides you through twelve rooms she does not appear to know. Andrew lingers a step behind. The attic stairs are at the end of the upstairs hall. She does not turn that light on.",
+      "text": "Nina walks you through twelve rooms she seems to be seeing for the first time — she calls the study 'the, um, the office one' and laughs at herself. Andrew stays a step behind, always a step, like a man checking your work. At the end of the upstairs hall a narrow door opens onto stairs. She doesn't touch the switch beside it. She keeps talking, faster, all the way back down.",
       "sceneTitle": "The Tour",
       "choices": [
         {
           "text": "Ask about the attic directly",
-          "consequence": "Curiosity gets you fired or hired.",
+          "consequence": "You ask what's up there and watch two faces do two different things. Nina says 'storage.' Andrew says 'your room.' They say it at the same time.",
           "nextNodeId": "s4"
         },
         {
           "text": "Note it silently and move on",
-          "consequence": "Some doors open later.",
+          "consequence": "You let the door go unmentioned and file away the switch she wouldn't touch. Some questions are worth more unasked, and you have been here twenty minutes.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Nina hands you a typed list of rules. Twenty-three of them. Rule eleven: 'Do not enter the attic for any reason.' Rule twelve: 'You will sleep in the attic.'",
+      "text": "She hands you a typed list — actual typewriter, the letters bitten into the paper. Twenty-three rules. Number nine specifies which cloth for the marble. Number fourteen forbids using Andrew's mug. Number six reads: Do not enter the attic for any reason. Number seven reads: You will sleep in the attic. Nina watches you read them in order and waits to see which one you'll mention.",
       "sceneTitle": "House Rules",
       "choices": [
         {
           "text": "Sign and ask no questions",
-          "consequence": "Money first; sense later.",
+          "consequence": "You sign under twenty-three rules that contradict each other twice and hand the pen back smiling. She takes it like you passed something.",
           "nextNodeId": "s4"
         },
         {
           "text": "Ask gentle, clarifying questions",
-          "consequence": "There is no taking “Ask gentle, clarifying questions” back. Probe softly shapes the silence before the next moment arrives.",
+          "consequence": "You ask which rule wins when two disagree. Nina says 'whichever one Andrew remembers,' then checks the doorway to make sure it's empty.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The attic is hot and small and the door locks from the outside. The lock looks new. You hear, downstairs, a marriage that is not whispered enough.",
+      "text": "The attic holds heat like a closed car. One window, painted shut in a previous decade. A mattress, a lamp, a hook where a mirror used to hang. The door has a deadbolt on the outside and the brass is bright — installed recently, by someone who measured twice. Below you, a marriage argues in the register people use when they think the house absorbs it. It doesn't. Not up here.",
       "sceneTitle": "The First Night",
       "choices": [
         {
           "text": "Try the door to see if it really locks",
-          "consequence": "Test the trap before it tests you.",
+          "consequence": "You try the handle at one in the morning and it opens, which should be a relief. You lie awake anyway, listening for the sound of somebody deciding.",
           "nextNodeId": "s6"
         },
         {
           "text": "Sit very still and listen",
-          "consequence": "Eavesdrop is also reconnaissance.",
+          "consequence": "You don't touch the door. You sit on the mattress in the dark and learn the argument by heart — three voices, and one of them is nine years old.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Cecelia, nine, is the only person in this house who acts like she sees you. She is, you sense immediately, both clever and afraid. She slides you a folded paper at breakfast.",
+      "text": "Cecelia is nine and the only person in this house who looks directly at you. She has her mother's face and her father's stillness, and she eats her cereal in exactly nine spoonfuls, counting under her breath. At breakfast she slides a square of folded paper across the marble with two fingers, keeps eating, and never glances up. She has done this before. That's the part that stops you.",
       "sceneTitle": "Cecelia, the Daughter",
       "choices": [
         {
           "text": "Read the note when alone",
-          "consequence": "Children's warnings deserve respect.",
+          "consequence": "In the pantry you unfold four words in careful pencil: DON'T BE ALONE WITH HIM. No name. A nine-year-old chose not to write the name.",
           "nextNodeId": "s6"
         },
         {
           "text": "Burn the note and never speak of it",
-          "consequence": "Some kindnesses must be turned down for safety.",
+          "consequence": "You burn it over the sink without reading past the first line, because knowing makes you a witness. The ash goes down the drain. It stays with you anyway.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Andrew finds reasons to be in your kitchen. He compliments your coffee, your hair, your record. He has read your file. He makes 'I know what you did' sound like a love note.",
+      "text": "Andrew develops reasons to be in the kitchen at ten in the morning. He praises your coffee, then your hands, then — casually, reaching past you for a glass — the eighteen months you spent in a facility outside Bedford Hills. He read the file. He wants you to know he read the file. He says 'I don't judge' the way other men say 'I own this.'",
       "sceneTitle": "Andrew's Charm",
       "choices": [
         {
           "text": "Hold a hard line on professional distance",
-          "consequence": "Distance is a vow you keep with both hands.",
+          "consequence": "You answer in job titles and step-lengths, never less than a meter, never after seven. He finds it funny for four days. On the fifth he stops finding it funny.",
           "nextNodeId": "s8"
         },
         {
           "text": "Pretend to laugh along while building a plan",
-          "consequence": "Camouflage is also strategy.",
+          "consequence": "You laugh at the right beats and hate the sound of it. Being underestimated is a tool. You have used it before and it worked.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Nina cries in the pantry over a broken jar. It is not about the jar. She wants to tell you something and then visibly decides not to. The decision costs her.",
+      "text": "A jar of apricot preserve goes off the pantry shelf and Nina goes down after it, kneeling in sugar and glass, apologizing to the floor. It isn't about the jar. She looks up at you with something whole and terrible loading behind her eyes — and then you watch her put it away, piece by piece, stand, and ask whether you'd mind collecting the dry cleaning. It costs her everything to say.",
       "sceneTitle": "Nina, Cracking",
       "choices": [
         {
           "text": "Gently invite her to talk",
-          "consequence": "Allies arrive odd.",
+          "consequence": "You say her name once, the way you'd say it to someone on a ledge. She almost answers. Then the front door goes, and she is smiling before the sound finishes.",
           "nextNodeId": "s8"
         },
         {
           "text": "Bring her tea and listen",
-          "consequence": "Silence can be more useful than questions.",
+          "consequence": "You make tea nobody drinks and sit through a long silence on the pantry floor beside her. She never says a word. Standing up, she squeezes your wrist — once, hard.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "You find an old payroll stub jammed behind a drawer — the name of the maid before you. You search her online. She, you discover, has been missing for fourteen months.",
+      "text": "A payroll stub is jammed in the runner of the desk drawer, folded twice, dated fourteen months back. Elena Cruz. Nina told you there had never been anyone before you. Six minutes on your phone in the garage: Elena Cruz, twenty-six, reported missing by a cousin in Yonkers, last known employer withheld. The photo is a driver's licence, and she is smiling like someone who just got a good job.",
       "sceneTitle": "The Last Maid",
       "choices": [
         {
           "text": "Photograph the stub and hide the photo",
-          "consequence": "Document before they realize.",
+          "consequence": "You shoot it, mail it to an account you haven't opened since Bedford Hills, and put the paper back exactly as jammed. Evidence you can't be caught holding.",
           "nextNodeId": "s10"
         },
         {
           "text": "Reach out to the missing maid's family",
-          "consequence": "Bridge two wounds.",
+          "consequence": "You message the cousin from a burner app at midnight. She replies in ninety seconds, which tells you she has spent fourteen months waiting for her phone to do that.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "There is a room on the second floor neither Winchester ever enters. The door is locked, but not securely. A key hangs in plain sight on a hook in the kitchen.",
+      "text": "There is a room on the second floor neither of them enters. Nina walks the long way round to avoid its door. The lock is a 1970s privacy latch, the kind a butter knife defeats, and the key hangs in the kitchen on the third hook from the left, between the gate remote and a spare for the shed. A key left that visible is either carelessness or bait.",
       "sceneTitle": "The Locked Room",
       "choices": [
         {
           "text": "Take the key and look inside",
-          "consequence": "Information is freedom.",
+          "consequence": "You lift it on a Tuesday while the dryer covers the sound of the stairs. Whatever is in there, you'd rather know than keep sleeping above it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Wait until you understand the house better",
-          "consequence": "Patience is its own key.",
+          "consequence": "You leave the key on its hook and spend nine more days learning schedules instead. Patience is a skill you acquired somewhere you don't mention in interviews.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Nina pulls you into the laundry room and whispers: 'He's done it before. He's done it to me. I need you to help me. I need you not to think I'm crazy.' Her wrist has finger marks shaped like a man's hand.",
+      "text": "She pulls you into the laundry room and starts the machine before she speaks, which tells you she has done this before, and where. 'He's done it before. He did it to me for six years. I need you to help me and I need you not to decide I'm crazy — he is very good at that part.' Her sleeve rides up. Four ovals on the inside of her wrist, spaced like fingers.",
       "sceneTitle": "Nina's Confession",
       "choices": [
         {
           "text": "Trust her and plan together",
-          "consequence": "The decision settles the question for now. Its verdict—Believe women—follows you into whatever comes next.",
+          "consequence": "You believe her in the first two seconds and spend the next two deciding not to hide that. Two women in a laundry room, and now there is a plan.",
           "nextNodeId": "s12"
         },
         {
           "text": "Trust her and contact a lawyer for her first",
-          "consequence": "Help her professionalize the escape.",
+          "consequence": "You believe her and immediately do the unromantic thing: find someone with a bar number. Rescue without paperwork is only a head start.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "The locked room turns out to be ordinary. The interesting room is the cellar. Boxes labeled with women's names. The dates on them are spread over a decade.",
+      "text": "The locked room turns out to be a nursery — cot, mobile, a decade of dust, a story nobody in this house tells. The cellar is the interesting one. Under the stairs, seven banker's boxes, each with a woman's name in the same neat marker. Elena. Dominika. Rosa. Two you can't read. The dates on the lids run from 2014 to last spring, and none of the writing is Nina's.",
       "sceneTitle": "The Cellar",
       "choices": [
         {
           "text": "Photograph everything quickly",
-          "consequence": "Build a case without being seen.",
+          "consequence": "Forty-one photos in six minutes, lids replaced, dust undisturbed, upstairs before the kettle finishes. Your hands shake so badly the last eight come out blurred.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take one box upstairs and confront",
-          "consequence": "Some confrontations are also evidence.",
+          "consequence": "You carry Elena's box up into the light because you are done being careful. It weighs almost nothing, which is somehow the worst detail in it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You go to the local sheriff at lunch. He listens. He nods. He calls Andrew Winchester 'Andy' and tells you 'we'll handle it.' You realize you may have just announced yourself to the wrong room.",
+      "text": "You drive into town at lunch and tell a sheriff with a good handshake everything you can prove. He listens well. He writes nothing down. Then he says, 'Andy's a good guy — coached my kid since she was six. Let us handle it,' and walks you to the door with a hand on your back. You are already on the road home before you understand what you filed, and where.",
       "sceneTitle": "The Police Officer",
       "choices": [
         {
           "text": "Skip town with Nina tonight",
-          "consequence": "Some plans accelerate.",
+          "consequence": "You start counting in hours instead of days. Whatever the sheriff says over dinner tonight, you would rather be past the county line when he says it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Find a different jurisdiction",
-          "consequence": "Go higher and farther.",
+          "consequence": "You open a map and pick a county where nobody coaches anybody's daughter. It costs you four days you may not have.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Cecelia's room has a nanny cam pointed at the door. You realize the cam is wired through Andrew's office. You also realize the cam can be turned around.",
+      "text": "The camera in Cecelia's room is aimed at her door, not her bed, and the cable runs through the wall into Andrew's office rather than to any app on Nina's phone. He's been watching who goes in. Standing on the chair to check the angle, you notice the mount is a ball joint. It swivels. It could just as easily be watching something else in this house.",
       "sceneTitle": "The Babysitter Cam",
       "choices": [
         {
           "text": "Turn it on the master bedroom",
-          "consequence": "Use his own weapons.",
+          "consequence": "Nine degrees of swivel and a strip of black tape over the indicator light. Whatever he does in that room from Thursday on, he does into a lens.",
           "nextNodeId": "s14"
         },
         {
           "text": "Smash it and pretend it broke",
-          "consequence": "Eliminate his window.",
+          "consequence": "You kill it with the heel of your shoe and blame the cleaner's ladder. Cecelia sleeps unobserved for the first time in a year, and you lose your best evidence for it.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The power goes out in a thunderstorm. Andrew, on the stairs, voice changed, says, 'You have nowhere to go.' He is wrong but you have minutes to prove it.",
+      "text": "The power goes at 9:40 and the house becomes a different building — no hum, no fridge, only rain and a generator failing to catch. Andrew is on the stairs with the flashlight held low, and his voice has dropped into a register you have heard exactly once before, at Bedford Hills, from a woman who meant it. 'There's nowhere for you to go.' He's wrong. You have about four minutes to prove it.",
       "sceneTitle": "Night of the Storm",
       "choices": [
         {
           "text": "Get Nina and Cecelia to the car",
-          "consequence": "Save who you can.",
+          "consequence": "You take the child first, coat over her head, and let Nina follow with the cash tin. Three doors, gravel, headlights off until the road.",
           "nextNodeId": "s16"
         },
         {
           "text": "Lure Andrew to the attic and lock him in",
-          "consequence": "Use his own trap.",
+          "consequence": "You go up the narrow stairs so he'll follow, because he always follows. The stairs are the trap and you are the bait, and you know exactly which step creaks.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Nina's college friend — a divorce attorney with a particular reputation — meets you both in a hotel lobby. She has, she says, been waiting six years for Nina to call. She has been ready for six years.",
+      "text": "Nina's college roommate is a divorce attorney in the city with a reputation people lower their voices around. She meets you both in a hotel lobby at eight in the morning and does not order coffee. 'Six years,' she says. 'I have kept a folder for six years, Nina.' Then she opens a bag and takes out a file with Nina's married name already printed on the tab.",
       "sceneTitle": "Lawyer",
       "choices": [
         {
           "text": "Sign the paperwork; start the protective orders",
-          "consequence": "Paper wins long wars.",
+          "consequence": "Nina signs nine pages in a hotel lobby with a borrowed pen, and her hand only stops shaking on the last one.",
           "nextNodeId": "s16"
         },
         {
           "text": "Push for criminal charges immediately",
-          "consequence": "Use both fronts.",
+          "consequence": "You push for handcuffs instead of paperwork. The lawyer warns you that charges are slower and louder — and louder is the one thing a man like Andrew cannot survive.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Three of you in a car at 2 a.m. Cecelia asleep in the back. Nina holding a list of motels with cash. You driving like a person who has been preparing to leave somewhere her entire life.",
+      "text": "Two in the morning on I-84, three of you and a cash tin. Cecelia asleep across the back seat with her belt over a stuffed rabbit. Nina reading motel names off a paper list because phones can be followed, saying each one twice like a prayer. You drive four over the limit, mirrors every nine seconds, and understand that you have been rehearsing this exact drive since you were nineteen.",
       "sceneTitle": "Highway",
       "choices": [
         {
           "text": "Drive across state lines tonight",
-          "consequence": "Distance buys days.",
+          "consequence": "You cross at 3:12 and something in your chest unlocks at the sign. New jurisdiction, new sheriff, new set of people who don't coach anybody's kid.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stop at a women's shelter you trust",
-          "consequence": "Allies are also armor.",
+          "consequence": "You take the exit for a building with no sign on it, because you know the intake nurse there by name. Some addresses you never manage to forget.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Andrew, in the attic, banging on the door he installed for someone else. You stand in the hall with Cecelia's hand in yours. You realize the lock has, in fact, always been on his side. He just hadn't tested it.",
+      "text": "He is on the wrong side of a door he paid a man four hundred dollars to install. The banging is arrhythmic and getting worse. You stand in the hall with Cecelia's hand in yours, and she isn't crying — she is listening the way a child listens to weather. The bolt he chose is rated for exterior use. He never once considered which side of it he would be on.",
       "sceneTitle": "The Attic, Reversed",
       "choices": [
         {
           "text": "Call 911 from the bottom of the stairs",
-          "consequence": "Document the moment.",
+          "consequence": "You dial with the banging audible behind you, so the recording exists whatever anyone claims later. The dispatcher asks you to stay on the line. You stay.",
           "nextNodeId": "s18"
         },
         {
           "text": "Walk out the front door with the women",
-          "consequence": "The trap is now his alone.",
+          "consequence": "You leave him up there with a bolt and a phone within reach, and none of you look back at the house. Nina closes the front door gently. Habit.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The county prosecutor in the next state takes your file and your photos seriously. She has been looking for a Winchester case for years. The boxes in the cellar matter. So does your testimony.",
+      "text": "The prosecutor two counties over is forty, underslept, and has been building a Winchester file out of nothing for three years. She goes through your photographs twice, stops at the cellar, and says one word: 'Seven.' Then she explains what a box with a name on it becomes in a courtroom, and what your testimony becomes, and what your record becomes when the defense gets to read it aloud.",
       "sceneTitle": "The Witness",
       "choices": [
         {
           "text": "Agree to testify fully",
-          "consequence": "Truth is its own resume.",
+          "consequence": "You agree to a cross-examination that will put Bedford Hills on a screen for twelve jurors. Elena Cruz doesn't get to testify. That's the arithmetic.",
           "nextNodeId": "s20"
         },
         {
           "text": "Negotiate witness protection first",
-          "consequence": "Stay safe to tell it.",
+          "consequence": "You ask for a new county and a name that isn't yours before handing over a single page. She respects it. It costs eight weeks.",
           "nextNodeId": "s21"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "By morning Cecelia has her own bed, Nina has her own door, and you are sitting at a table with bad coffee and three other women who have, in different houses, been you. Nobody has to explain anything.",
+      "text": "By seven Cecelia has a bed with a cartoon duvet, Nina has a door that locks from her side, and you are at a laminate table with coffee that tastes like the pot. Three other women sit with you. Nobody asks what happened; everyone already knows the shape of it. One of them slides the sugar over without being asked. That is the entire conversation, and it is enough.",
       "sceneTitle": "Shelter, Sunrise",
       "choices": [
         {
           "text": "Help Nina start over",
-          "consequence": "Be the friend the last maid didn't have.",
+          "consequence": "You spend four months on her paperwork, her bank account, her daughter's school transfer. Someone has to be the steady one, and you have had practice at being nobody's priority.",
           "nextNodeId": "s20"
         },
         {
           "text": "Decide you need to start over too",
-          "consequence": "Survivors are allowed their own road.",
+          "consequence": "On the third morning you realize you have been running someone else's escape to avoid planning your own. That is a hard thing to admit over bad coffee.",
           "nextNodeId": "s21"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "It takes a year. Andrew is convicted. Nina sells the house. Cecelia gets a therapist she likes. The boxes in the cellar each become a charge.",
+      "text": "It takes fourteen months. Andrew wears a grey suit and looks like a man being wrongly inconvenienced, right up until the cellar photographs go on the screen. Seven boxes, seven names, seven counts. Nina sells the house to a developer who tears out the attic stairs. Cecelia gets a therapist she likes, a woman with a dog in the office. The jury takes a day and a half.",
       "sceneTitle": "The Trial",
       "choices": [
         {
           "text": "Stay close to the family",
-          "consequence": "Family is sometimes the people who carried each other.",
+          "consequence": "You keep answering the phone when Nina calls at odd hours, and you keep showing up to school concerts you have no legal reason to attend.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Move on with what you learned",
-          "consequence": "Survivor as profession.",
+          "consequence": "You take what the trial taught you about how a house like that recruits, and decide the useful thing isn't staying. It's warning.",
           "nextNodeId": "end_advocate"
         }
       ],
@@ -399,17 +399,17 @@
     },
     {
       "id": "s21",
-      "text": "Cecelia, eighteen, finds you at a college fair. She is okay. She wants to study law. She has, in her hand, a small framed photo of the three of you on that morning at the shelter. She wanted you to have it.",
+      "text": "She is eighteen at a college fair in a hotel ballroom, holding a lanyard and a stack of pamphlets, and she says your name before you place her face. She's okay. Better than okay — she wants to read law. Out of her bag comes a small framed photograph: three of you at a laminate table, sunrise, terrible coffee. She has carried it for nine years so she could hand it over.",
       "sceneTitle": "Years Later",
       "choices": [
         {
           "text": "Take the photo and the goodbye",
-          "consequence": "Some children's gifts are also closure.",
+          "consequence": "You take the frame, say something inadequate, and let her go back to her pamphlets. Some people you love best by needing nothing from them.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Take her to dinner and stay in her life",
-          "consequence": "Some endings don't end.",
+          "consequence": "You buy her bad ballroom pasta and talk for three hours about admissions essays and restraining orders. She asks more of the second kind of question.",
           "nextNodeId": "end_advocate"
         }
       ],
@@ -418,7 +418,7 @@
     },
     {
       "id": "end_family",
-      "text": "You don't become her mother. You become something close to an aunt, a witness, a steady person on speed dial. Nina remarries kindly. Cecelia grows up. The attic door is on the wrong side of the country and you sleep, finally, with both ears.",
+      "text": "You don't become her mother; Nina is right there, and she is good at it now. You become the other thing — the aunt with no blood in it, the number saved as EMERGENCY-2, the person who drove. Nina remarries a mild man who fixes bicycles. Cecelia grows up loud. The attic door is two thousand miles away in a house that has no attic anymore, and you sleep with both ears, finally.",
       "sceneTitle": "The Three of You",
       "choices": [],
       "isEnding": true,
@@ -426,7 +426,7 @@
     },
     {
       "id": "end_advocate",
-      "text": "You start a small nonprofit — domestic workers' rights, an emergency line, a network. The next time a house like that hires someone like you, that someone has somewhere to call. The Winchesters became, accidentally, the seed of a much better thing.",
+      "text": "You start something small out of a rented room: a phone line, four volunteers, a laminated card in three languages that fits in an apron pocket. Rule one on the card — no job requires a door that locks from the outside. In the sixth year a woman calls from a driveway in Connecticut before she has even unpacked, and somebody answers on the second ring. The Winchesters seeded a much better thing without meaning to.",
       "sceneTitle": "The Next Maid",
       "choices": [],
       "isEnding": true,

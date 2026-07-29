@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "You and Ellie arrive. Hammond grins. A brachiosaurus stands beyond the trees.",
+      "text": "You and Ellie arrive. Hammond grins. A brachiosaurus stands beyond the trees. The Lab is already waiting. What changes is whether “Marvel” or “Ask how” is the instinct you carry into it. By The Lab, the system will have recorded that choice as precedent.",
       "sceneTitle": "Helicopter",
       "choices": [
         {
           "text": "Marvel",
-          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "consequence": "You marvel. The path to The Lab opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         },
         {
           "text": "Ask how",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Scientist.",
+          "consequence": "You commit to ask how. It carries you toward The Lab, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Vials, amber, frogs filling gaps in DNA.",
+      "text": "Vials, amber, frogs filling gaps in DNA. Tour Cars comes either way; its meaning changes with the difference between “Object on principle” and “Reserve judgement.” By Tour Cars, the system will have recorded that choice as precedent.",
       "sceneTitle": "The Lab",
       "choices": [
         {
           "text": "Object on principle",
-          "consequence": "“Object on principle” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to object on principle. It carries you toward Tour Cars, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         },
         {
           "text": "Reserve judgement",
-          "consequence": "“Reserve judgement” closes one possibility and opens another. The moment leaves a clear note behind: Civil.",
+          "consequence": "You commit to reserve judgement. It carries you toward Tour Cars, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Self-driving Jeeps. Lex and Tim in the back.",
+      "text": "Self-driving Jeeps. Lex and Tim in the back. You cannot avoid Rain; you can only decide whether “Make conversation” or “Watch the road” defines the person who reaches it. By Rain, the system will have recorded that choice as precedent.",
       "sceneTitle": "Tour Cars",
       "choices": [
         {
           "text": "Make conversation",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Care.",
+          "consequence": "You choose to make conversation. By Rain, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Watch the road",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cautious.",
+          "consequence": "You watch the road. The path to Rain opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The sky opens. A goat is offered. The T. rex does not appear.",
+      "text": "The sky opens. A goat is offered. The T. rex does not appear. Both choices lead to Power Off, but “Wait” arrives there with a different cost than “Volunteer to look.” In Rain, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Rain",
       "choices": [
         {
           "text": "Wait",
-          "consequence": "There is no taking “Wait” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to wait. By Power Off, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         },
         {
           "text": "Volunteer to look",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You choose to volunteer to look. By Power Off, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "The fences go dark. The T. rex notices. The car splits in half.",
+      "text": "The fences go dark. The T. rex notices. The car splits in half. Tree comes either way; its meaning changes with the difference between “Run” and “Stand still.” By Tree, the system will have recorded that choice as precedent.",
       "sceneTitle": "Power Off",
       "choices": [
         {
           "text": "Run",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You commit to run. It carries you toward Tree, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stand still",
-          "consequence": "There is no taking “Stand still” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You stand still. The path to Tree opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Up a tree, with Tim, with the broken car above you.",
+      "text": "Up a tree, with Tim, with the broken car above you. You cannot avoid Ellie and Muldoon; you can only decide whether “Climb down” or “Stay up” defines the person who reaches it. At Ellie and Muldoon, the decision will matter as data as well as intent.",
       "sceneTitle": "Tree",
       "choices": [
         {
           "text": "Climb down",
-          "consequence": "There is no taking “Climb down” back. Brave shapes the silence before the next moment arrives.",
+          "consequence": "You climb down. The path to Ellie and Muldoon opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         },
         {
           "text": "Stay up",
-          "consequence": "“Stay up” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to stay up. It carries you toward Ellie and Muldoon, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Search and rescue. Muldoon has a gun. Ellie has a flashlight.",
+      "text": "Search and rescue. Muldoon has a gun. Ellie has a flashlight. The road still runs toward Sick Triceratops. Its next turn depends on the difference between choosing “Help them search” and choosing “Find the kids.”",
       "sceneTitle": "Ellie and Muldoon",
       "choices": [
         {
           "text": "Help them search",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Right.",
+          "consequence": "You choose to help them search. By Sick Triceratops, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Find the kids",
-          "consequence": "The decision settles the question for now. Its verdict—Heart—follows you into whatever comes next.",
+          "consequence": "You commit to find the kids. It carries you toward Sick Triceratops, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Ellie crouches by it, hand on the hide.",
+      "text": "Ellie crouches by it, hand on the hide. Visitor Center is already waiting. What changes is whether “Help her diagnose” or “Watch the trees” is the instinct you carry into it. By Visitor Center, the system will have recorded that choice as precedent.",
       "sceneTitle": "Sick Triceratops",
       "choices": [
         {
           "text": "Help her diagnose",
-          "consequence": "The decision settles the question for now. Its verdict—Science—follows you into whatever comes next.",
+          "consequence": "You choose to help her diagnose. By Visitor Center, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         },
         {
           "text": "Watch the trees",
-          "consequence": "You commit to “Watch the trees.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You choose to watch the trees. By Visitor Center, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Ice cream melts on the table. Hammond, smaller.",
+      "text": "Ice cream melts on the table. Hammond, smaller. You cannot avoid Kitchen; you can only decide whether “Comfort him briefly” or “Find the kids” defines the person who reaches it. In Visitor Center, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Visitor Center",
       "choices": [
         {
           "text": "Comfort him briefly",
-          "consequence": "“Comfort him briefly” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You comfort him briefly. The path to Kitchen opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Find the kids",
-          "consequence": "There is no taking “Find the kids” back. Mission shapes the silence before the next moment arrives.",
+          "consequence": "You commit to find the kids. It carries you toward Kitchen, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Velociraptors. Lex hides in cabinets. Tim freezes.",
+      "text": "Velociraptors. Lex hides in cabinets. Tim freezes. Hammond's Confession will follow either decision, but it will meet a different version of you after “Distract them” than after “Trap them in the freezer.” In Kitchen, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Kitchen",
       "choices": [
         {
           "text": "Distract them",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You commit to distract them. It carries you toward Hammond's Confession, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         },
         {
           "text": "Trap them in the freezer",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Smart.",
+          "consequence": "You trap them in the freezer. The path to Hammond's Confession opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "He says he should have been there for them. He sounds, briefly, like a grandfather and not a CEO.",
+      "text": "He says he should have been there for them. He sounds, briefly, like a grandfather and not a CEO. Power Restoration will follow either decision, but it will meet a different version of you after “Forgive him later” than after “Hold the line now.”",
       "sceneTitle": "Hammond's Confession",
       "choices": [
         {
           "text": "Forgive him later",
-          "consequence": "“Forgive him later” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You commit to forgive him later. It carries you toward Power Restoration, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         },
         {
           "text": "Hold the line now",
-          "consequence": "There is no taking “Hold the line now” back. Mission shapes the silence before the next moment arrives.",
+          "consequence": "You commit to hold the line now. It carries you toward Power Restoration, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Lex types on the Unix system. The lights come on.",
+      "text": "Lex types on the Unix system. The lights come on. You cannot avoid Raptors Outside; you can only decide whether “Praise her” or “Stay alert” defines the person who reaches it. In Power Restoration, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Power Restoration",
       "choices": [
         {
           "text": "Praise her",
-          "consequence": "There is no taking “Praise her” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You praise her. The path to Raptors Outside opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stay alert",
-          "consequence": "“Stay alert” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You commit to stay alert. It carries you toward Raptors Outside, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "They are at the door. The door is glass.",
+      "text": "They are at the door. The door is glass. The road still runs toward Climb the Bones. Its next turn depends on the difference between choosing “Move the kids up” and choosing “Distract the raptors.”",
       "sceneTitle": "Raptors Outside",
       "choices": [
         {
           "text": "Move the kids up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Save.",
+          "consequence": "You move the kids up. The path to Climb the Bones opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Distract the raptors",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Brave.",
+          "consequence": "You distract the raptors. The path to Climb the Bones opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The big skeleton in the rotunda. You climb. The raptors follow.",
+      "text": "The big skeleton in the rotunda. You climb. The raptors follow. You cannot avoid T. Rex Returns; you can only decide whether “Climb fast” or “Climb carefully” defines the person who reaches it. In Climb the Bones, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Climb the Bones",
       "choices": [
         {
           "text": "Climb fast",
-          "consequence": "The decision settles the question for now. Its verdict—Speed—follows you into whatever comes next.",
+          "consequence": "You climb fast. The path to T. Rex Returns opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         },
         {
           "text": "Climb carefully",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You climb carefully. The path to T. Rex Returns opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The T. rex bursts in, takes one raptor, then another. The banner falls.",
+      "text": "The T. rex bursts in, takes one raptor, then another. The banner falls. For one suspended beat, T. Both choices lead to Helicopter Pad, but “Run for the helicopter” arrives there with a different cost than “Stay till the dust settles.”",
       "sceneTitle": "T. Rex Returns",
       "choices": [
         {
           "text": "Run for the helicopter",
-          "consequence": "There is no taking “Run for the helicopter” back. Speed shapes the silence before the next moment arrives.",
+          "consequence": "You run for the helicopter. The path to Helicopter Pad opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Stay till the dust settles",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Witness.",
+          "consequence": "You stay till the dust settles. The path to Helicopter Pad opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Hammond, mute. Ellie. The kids in your arms.",
+      "text": "Hammond, mute. Ellie. The kids in your arms. Hammond is already waiting. What changes is whether “Hold them” or “Look at the island a last time” is the instinct you carry into it. At Hammond, the decision will matter as data as well as intent.",
       "sceneTitle": "Helicopter Pad",
       "choices": [
         {
           "text": "Hold them",
-          "consequence": "“Hold them” closes one possibility and opens another. The moment leaves a clear note behind: Care.",
+          "consequence": "You hold them. The path to Hammond opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s17"
         },
         {
           "text": "Look at the island a last time",
-          "consequence": "There is no taking “Look at the island a last time” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You commit to look at the island a last time. It carries you toward Hammond, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "He, finally, agrees not to endorse the park. He looks small. He looks human.",
+      "text": "He, finally, agrees not to endorse the park. He looks small. He looks human. Flight Out comes either way; its meaning changes with the difference between “Be kind” and “Be honest.” In Hammond, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Hammond",
       "choices": [
         {
           "text": "Be kind",
-          "consequence": "“Be kind” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to be kind. By Flight Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Be honest",
-          "consequence": "The decision settles the question for now. Its verdict—Truth—follows you into whatever comes next.",
+          "consequence": "You choose to be honest. By Flight Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The birds, you realize, are dinosaurs. The window is full of pelicans.",
+      "text": "The birds, you realize, are dinosaurs. The window is full of pelicans. The road still runs toward Mainland. Its next turn depends on the difference between choosing “Notice it” and choosing “Sleep.” In Flight Out, the rules change the moment you decide they can be tested.",
       "sceneTitle": "Flight Out",
       "choices": [
         {
           "text": "Notice it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Joy.",
+          "consequence": "You commit to notice it. It carries you toward Mainland, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         },
         {
           "text": "Sleep",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honest.",
+          "consequence": "You commit to sleep. It carries you toward Mainland, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Press, cameras, no statement.",
+      "text": "Press, cameras, no statement. Both choices lead to The Lab Visit, but “No statement” arrives there with a different cost than “A short statement.” At The Lab Visit, the decision will matter as data as well as intent.",
       "sceneTitle": "Mainland",
       "choices": [
         {
           "text": "No statement",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You commit to no statement. It carries you toward The Lab Visit, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         },
         {
           "text": "A short statement",
-          "consequence": "The decision settles the question for now. Its verdict—Public—follows you into whatever comes next.",
+          "consequence": "You choose to a short statement. By The Lab Visit, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Years later you visit a different lab. The science is, again, ahead of the ethics. You decide what to do.",
+      "text": "Years later you visit a different lab. The science is, again, ahead of the ethics. You decide what to do. Coffee with Ellie is already waiting. What changes is whether “Speak publicly” or “Step away” is the instinct you carry into it.",
       "sceneTitle": "The Lab Visit",
       "choices": [
         {
           "text": "Speak publicly",
-          "consequence": "You commit to “Speak publicly.” The story records the instinct as “Voice” and carries it forward.",
+          "consequence": "You speak publicly. The path to Coffee with Ellie opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s21"
         },
         {
           "text": "Step away",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to step away. By Coffee with Ellie, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Years on, coffee with Ellie. You both still wake at 4 a.m. sometimes.",
+      "text": "Years on, coffee with Ellie. You both still wake at 4 a.m. sometimes. “Plan an article” draws you toward The Paper; “Just enjoy the coffee” leaves Back to the Field waiting on the other side. A third choice, “Take the third path,” keeps The Kids Grew Up in play.",
       "sceneTitle": "Coffee with Ellie",
       "choices": [
         {
           "text": "Plan an article",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Action.",
+          "consequence": "You commit to plan an article. It carries you toward The Paper, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_paper"
         },
         {
           "text": "Just enjoy the coffee",
-          "consequence": "The decision settles the question for now. Its verdict—Heal—follows you into whatever comes next.",
+          "consequence": "You commit to just enjoy the coffee. It carries you toward Back to the Field, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_field"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. It carries you toward The Kids Grew Up, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_kids"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_paper",
-      "text": "You and Ellie publish a long paper on de-extinction ethics. It becomes the standard syllabus. You don't, you decide, need to be the regulator. You just need to be the alarm.",
+      "text": "You and Ellie publish a long paper on de-extinction ethics. It becomes the standard syllabus. You don't, you decide, need to be the regulator. You just need to be the alarm. The road into The Paper began with “Plan an article” in Coffee with Ellie; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Paper",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_field",
-      "text": "You return to paleontology. You discover, in a Montana dig, a fossil that, briefly, shakes the field. You realize the living dinosaurs were, for you, a detour.",
+      "text": "You return to paleontology. You discover, in a Montana dig, a fossil that, briefly, shakes the field. You realize the living dinosaurs were, for you, a detour. The road into Back to the Field began with “Just enjoy the coffee” in Coffee with Ellie; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Back to the Field",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_kids",
-      "text": "Lex becomes a programmer. Tim becomes a paleontologist. They both, separately, send you Christmas cards. The cards are, always, slightly nicer than yours.",
+      "text": "Lex becomes a programmer. Tim becomes a paleontologist. They both, separately, send you Christmas cards. The cards are, always, slightly nicer than yours. The road into The Kids Grew Up began with “Take the third path” in Coffee with Ellie; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Kids Grew Up",
       "choices": [],
       "isEnding": true,

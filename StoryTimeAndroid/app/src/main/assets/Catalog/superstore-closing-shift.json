@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Glenn announces over the PA that the store will close in seventeen minutes. He then thanks the customers for their patience by name, which slows everyone down. Amy gives you the closer's look — equal parts faith and warning.",
+      "text": "Glenn announces over the PA that the store will close in seventeen minutes. He then thanks the customers for their patience by name, which slows everyone down. Amy gives you the closer's look — equal parts faith and warning. reports normal conditions.",
       "sceneTitle": "9:43 p.m.",
       "choices": [
         {
           "text": "Start the closing checklist top-down",
-          "consequence": "Order is a kind of prayer.",
+          "consequence": "Order is a kind of prayer. You start the closing checklist top-down. The path to The Checklist opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s2"
         },
         {
           "text": "Just start chasing customers out, gently",
-          "consequence": "Aim at the exits, not the aisles.",
+          "consequence": "Aim at the exits, not the aisles. You commit to just start chasing customers out, gently. It carries you toward The Stragglers, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "You grab the laminated checklist. Step one: cash counts. Step two: zone the front. Step three: locate Marcus, who is somewhere in the store, possibly asleep in outdoor furnishings.",
+      "text": "You grab the laminated checklist. Step one: cash counts. Step two: zone the front. Step three: locate Marcus, who is somewhere in the store, possibly asleep in outdoor furnishings. “Cash count first, by the book” draws you toward Cash Drawer Trouble; “Locate Marcus first, by the smell” leaves Marcus Found waiting on the other side.",
       "sceneTitle": "The Checklist",
       "choices": [
         {
           "text": "Cash count first, by the book",
-          "consequence": "Cash trouble is the worst trouble.",
+          "consequence": "Cash trouble is the worst trouble. You commit to cash count first, by the book. It carries you toward Cash Drawer Trouble, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         },
         {
           "text": "Locate Marcus first, by the smell",
-          "consequence": "Lose a coworker, lose your night.",
+          "consequence": "Lose a coworker, lose your night. You choose to locate Marcus first, by the smell. By Marcus Found, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s5"
         }
       ],
@@ -62,12 +62,12 @@
       "choices": [
         {
           "text": "Use polite-voice on the kayak guy",
-          "consequence": "He looks the most receptive — and the most tired.",
+          "consequence": "He looks the most receptive — and the most tired. You choose to use polite-voice on the kayak guy. By Cash Drawer Trouble, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Use polite-voice on the pickle lady",
-          "consequence": "Engaging the indecisive is a customer-service skill.",
+          "consequence": "Engaging the indecisive is a customer-service skill. You use polite-voice on the pickle lady. The path to Marcus Found opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Sandra's drawer is short eleven dollars. Sandra is approximately one held breath away from a kind, sincere meltdown. Garrett, on the floor, is pretending to be busy in the most Garrett way possible.",
+      "text": "Sandra's drawer is short eleven dollars. Sandra is approximately one held breath away from a kind, sincere meltdown. Garrett, on the floor, is pretending to be busy in the most Garrett way possible. The paths divide here: “Cover the eleven dollars yourself” leads into Corporate, Hiding, while “Help Sandra recount calmly” makes Jonah, Existential the next reckoning.",
       "sceneTitle": "Cash Drawer Trouble",
       "choices": [
         {
           "text": "Cover the eleven dollars yourself",
-          "consequence": "Some kindnesses cost less than they're worth.",
+          "consequence": "Some kindnesses cost less than they're worth. You choose to cover the eleven dollars yourself. By Corporate, Hiding, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Help Sandra recount calmly",
-          "consequence": "Numbers solve themselves with company.",
+          "consequence": "Numbers solve themselves with company. You help Sandra recount calmly. The path to Jonah, Existential opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Send Marcus to break room jail",
-          "consequence": "Containment is also management.",
+          "consequence": "Containment is also management. You choose to send Marcus to break room jail. By Corporate, Hiding, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Put Marcus on a small, safe task",
-          "consequence": "Idle hands plus Marcus equals fire department.",
+          "consequence": "Idle hands plus Marcus equals fire department. You choose to put Marcus on a small, safe task. By Jonah, Existential, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Aisle 7. Crouching behind the bulk paper towels with a clipboard. You make eye contact with the corporate inspector. He pretends to be a customer. You both know.",
+      "text": "Aisle 7. Crouching behind the bulk paper towels with a clipboard. You make eye contact with the corporate inspector. He pretends to be a customer. You both know. “Greet him cheerfully like he isn't a threat” draws you toward The Sprinkler Incident; “Ignore him and run a clean close on principle” leaves Glenn, Crying waiting on the other side.",
       "sceneTitle": "Corporate, Hiding",
       "choices": [
         {
           "text": "Greet him cheerfully like he isn't a threat",
-          "consequence": "Sunlight is the best defense.",
+          "consequence": "Sunlight is the best defense. You commit to greet him cheerfully like he isn't a threat. It carries you toward The Sprinkler Incident, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Ignore him and run a clean close on principle",
-          "consequence": "Don't audition. Just be good.",
+          "consequence": "Don't audition. Just be good. You ignore him and run a clean close on principle. The path to Glenn, Crying opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Jonah is leaning on the customer service counter mid-monologue — something about late-stage capitalism and shrink rates. Amy is nodding politely while clearly thinking about three other problems.",
+      "text": "Jonah is leaning on the customer service counter mid-monologue — something about late-stage capitalism and shrink rates. Amy is nodding politely while clearly thinking about three other problems. “Cut him off kindly so Amy can breathe” draws you toward The Sprinkler Incident; “Let him finish — he has a point and a clipboard” leaves Glenn, Crying waiting on the other side.",
       "sceneTitle": "Jonah, Existential",
       "choices": [
         {
           "text": "Cut him off kindly so Amy can breathe",
-          "consequence": "Friendship is sometimes interruption.",
+          "consequence": "Friendship is sometimes interruption. You cut him off kindly so Amy can breathe. The path to The Sprinkler Incident opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s8"
         },
         {
           "text": "Let him finish — he has a point and a clipboard",
-          "consequence": "Half his ideas are good. The hard part is which.",
+          "consequence": "Half his ideas are good. The hard part is which. You choose to let him finish — he has a point and a clipboard. By Glenn, Crying, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The sprinklers go off in Pets. There is a hamster trying to swim. Dina, somewhere far away, is already running this way at top speed.",
+      "text": "The sprinklers go off in Pets. There is a hamster trying to swim. Dina, somewhere far away, is already running this way at top speed. The paths divide here: “Save the hamster first” leads into Dina Takes Command, while “Cut the sprinklers at the panel” makes Mateo's Schemes the next reckoning.",
       "sceneTitle": "The Sprinkler Incident",
       "choices": [
         {
           "text": "Save the hamster first",
-          "consequence": "Some priorities transcend hierarchy.",
+          "consequence": "Some priorities transcend hierarchy. You commit to save the hamster first. It carries you toward Dina Takes Command, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s10"
         },
         {
           "text": "Cut the sprinklers at the panel",
-          "consequence": "Stopping the cause beats handling the effects.",
+          "consequence": "Stopping the cause beats handling the effects. You commit to cut the sprinklers at the panel. It carries you toward Mateo's Schemes, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Glenn is in the break room, gently crying about a viral video of a dog rescuing a duck. He apologizes, twice. He offers you a Werther's. You can hear, faintly, distant sprinklers.",
+      "text": "Glenn is in the break room, gently crying about a viral video of a dog rescuing a duck. He apologizes, twice. He offers you a Werther's. You can hear, faintly, distant sprinklers. To choose “Sit with Glenn for thirty seconds” means meeting Dina Takes Command; “Get him back on the floor — gently” sends you toward Mateo's Schemes instead.",
       "sceneTitle": "Glenn, Crying",
       "choices": [
         {
           "text": "Sit with Glenn for thirty seconds",
-          "consequence": "Management means moments like this.",
+          "consequence": "Management means moments like this. You choose to sit with Glenn for thirty seconds. By Dina Takes Command, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Get him back on the floor — gently",
-          "consequence": "Even Glenn has a closing shift to finish.",
+          "consequence": "Even Glenn has a closing shift to finish. You choose to get him back on the floor — gently. By Mateo's Schemes, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Dina has appeared with a clipboard, a whistle, and her unstoppable certainty that she should be running things. Half the team obeys her on reflex. The other half disappears into shelving.",
+      "text": "Dina has appeared with a clipboard, a whistle, and her unstoppable certainty that she should be running things. Half the team obeys her on reflex. The other half disappears into shelving. The distance between Cheyenne's Baby Stroller Emergency and The Customer Who Won't Leave begins with the choice between “Let Dina run the rescue effort” and “Politely take command back.”",
       "sceneTitle": "Dina Takes Command",
       "choices": [
         {
           "text": "Let Dina run the rescue effort",
-          "consequence": "Dina + crisis = strange efficiency.",
+          "consequence": "Dina + crisis = strange efficiency. You let Dina run the rescue effort. The path to Cheyenne's Baby Stroller Emergency opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         },
         {
           "text": "Politely take command back",
-          "consequence": "Leadership is sometimes a quiet veto.",
+          "consequence": "Leadership is sometimes a quiet veto. You politely take command back. The path to The Customer Who Won't Leave opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Refuse and tell him to fix it properly",
-          "consequence": "Friends don't let friends commit retail fraud.",
+          "consequence": "Friends don't let friends commit retail fraud. You refuse and tell him to fix it properly. The path to Cheyenne's Baby Stroller Emergency opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s12"
         },
         {
           "text": "Listen for one minute, then decide",
-          "consequence": "Curiosity costs nothing. Yet.",
+          "consequence": "Curiosity costs nothing. Yet. You listen for one minute, then decide. The path to The Customer Who Won't Leave opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Cheyenne's stroller wheel just broke in the parking lot. She's holding the baby and a forty-pack of paper towels and 'fine, I'm fine.' Bo is twenty minutes away.",
+      "text": "Cheyenne's stroller wheel just broke in the parking lot. She's holding the baby and a forty-pack of paper towels and 'fine, I'm fine.' Bo is twenty minutes away. “Send Garrett out to help with the stroller” opens the route to Amy's Quiet Apology. “Go yourself; the floor can wait three minutes” changes the terms and carries you toward Glenn's Speech.",
       "sceneTitle": "Cheyenne's Baby Stroller Emergency",
       "choices": [
         {
           "text": "Send Garrett out to help with the stroller",
-          "consequence": "Garrett is secretly the most useful person in this store.",
+          "consequence": "Garrett is secretly the most useful person in this store. You send Garrett out to help with the stroller. The path to Amy's Quiet Apology opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Go yourself; the floor can wait three minutes",
-          "consequence": "Closing the store starts with closing on your people.",
+          "consequence": "Closing the store starts with closing on your people. You commit to go yourself; the floor can wait three minutes. It carries you toward Glenn's Speech, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "An older man in Electronics says he's waiting for his nephew. He has been waiting for ninety minutes. He has, you suspect, no nephew.",
+      "text": "An older man in Electronics says he's waiting for his nephew. He has been waiting for ninety minutes. He has, you suspect, no nephew. To choose “Sit with him and ask about his day” means meeting Amy's Quiet Apology; “Call him a cab and walk him to the door” sends you toward Glenn's Speech instead.",
       "sceneTitle": "The Customer Who Won't Leave",
       "choices": [
         {
           "text": "Sit with him and ask about his day",
-          "consequence": "Loneliness is the slowest checkout line.",
+          "consequence": "Loneliness is the slowest checkout line. You sit with him and ask about his day. The path to Amy's Quiet Apology opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s14"
         },
         {
           "text": "Call him a cab and walk him to the door",
-          "consequence": "Kindness can be efficient.",
+          "consequence": "Kindness can be efficient. You call him a cab and walk him to the door. The path to Glenn's Speech opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -271,12 +271,12 @@
       "choices": [
         {
           "text": "Tell her it's fine; sit on the bench a minute",
-          "consequence": "Friendship is also a closing-shift task.",
+          "consequence": "Friendship is also a closing-shift task. You choose to tell her it's fine; sit on the bench a minute. By The Corporate Verdict, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s16"
         },
         {
           "text": "Offer to handle the last items so she can go",
-          "consequence": "Cover someone tonight; be covered next week.",
+          "consequence": "Cover someone tonight; be covered next week. You choose to offer to handle the last items so she can go. By Last Customer Out, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Let him finish; nod along",
-          "consequence": "Earnestness is the secret religion of this place.",
+          "consequence": "Earnestness is the secret religion of this place. You let him finish; nod along. The path to The Corporate Verdict opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Wrap him up — there's a corporate man watching",
-          "consequence": "Mercy on the schedule.",
+          "consequence": "You commit to wrap him up — there's a corporate man watching. It carries you toward Last Customer Out, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Bask in the win, quietly",
-          "consequence": "Compliments at Cloud 9 are like rain — rare and remembered.",
+          "consequence": "Compliments at Cloud 9 are like rain — rare and remembered. You commit to bask in the win, quietly. It carries you toward The Parking Lot, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s18"
         },
         {
           "text": "Pretend you knew it was fine all along",
-          "consequence": "Confidence is a uniform too.",
+          "consequence": "Confidence is a uniform too. You commit to pretend you knew it was fine all along. It carries you toward Tomorrow, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "The pickle lady, finally, walks out — with both jars. The kayak guy waves like he just had a really good time. Marcus, miraculously, is in uniform and roughly conscious.",
+      "text": "The pickle lady, finally, walks out — with both jars. The kayak guy waves like he just had a really good time. Marcus, miraculously, is in uniform and roughly conscious. “Lock the front doors with ceremony” opens the route to The Parking Lot. “Lock them mid-sentence so nobody comes back” changes the terms and carries you toward Tomorrow.",
       "sceneTitle": "Last Customer Out",
       "choices": [
         {
           "text": "Lock the front doors with ceremony",
-          "consequence": "Endings deserve a tiny ritual.",
+          "consequence": "Endings deserve a tiny ritual. You choose to lock the front doors with ceremony. By The Parking Lot, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s18"
         },
         {
           "text": "Lock them mid-sentence so nobody comes back",
-          "consequence": "Speed has its own dignity.",
+          "consequence": "Speed has its own dignity. You lock them mid-sentence so nobody comes back. The path to Tomorrow opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Eleven of you spill out into the parking lot under the buzzing Cloud 9 sign. Somebody suggests the diner. Somebody else suggests sleeping. Jonah has Opinions about both options.",
+      "text": "Eleven of you spill out into the parking lot under the buzzing Cloud 9 sign. Somebody suggests the diner. Somebody else suggests sleeping. Jonah has Opinions about both options. “Go to the diner — these people are your people” opens the route to Booth in the Back. “Go home — you've earned a quiet hour” changes the terms and carries you toward Quiet Hour.",
       "sceneTitle": "The Parking Lot",
       "choices": [
         {
           "text": "Go to the diner — these people are your people",
-          "consequence": "Workplace family is real family with name tags.",
+          "consequence": "Workplace family is real family with name tags. You commit to go to the diner — these people are your people. It carries you toward Booth in the Back, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_diner"
         },
         {
           "text": "Go home — you've earned a quiet hour",
-          "consequence": "Some nights you cash in solitude.",
+          "consequence": "Some nights you cash in solitude. You commit to go home — you've earned a quiet hour. It carries you toward Quiet Hour, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_home"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Embrace the chaos — this is your life",
-          "consequence": "There are worse places to be loved.",
+          "consequence": "There are worse places to be loved. You commit to embrace the chaos — this is your life. It carries you toward The Apron, Hung Up, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         },
         {
           "text": "Promise yourself you'll leave by Christmas",
-          "consequence": "Plans are how you survive the unplanned.",
+          "consequence": "Plans are how you survive the unplanned. You commit to promise yourself you'll leave by Christmas. It carries you toward The Apron, Hung Up, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Commit to the lifer's pride in the work",
-          "consequence": "There is dignity in keeping the lights on for someone's dad.",
+          "consequence": "There is dignity in keeping the lights on for someone's dad. You choose to commit to the lifer's pride in the work. By Cloud 9 Lifer, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_career"
         },
         {
           "text": "Commit to the leaver's plan, gently",
-          "consequence": "Saying goodbye well is its own kind of love.",
+          "consequence": "Saying goodbye well is its own kind of love. You commit to the leaver's plan, gently. The path to By Christmas opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_plans"
         }
       ],

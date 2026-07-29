@@ -26,12 +26,12 @@
       "choices": [
         {
           "text": "Push open the door",
-          "consequence": "You commit to “Push open the door.” The story records the instinct as “Curious” and carries it forward.",
+          "consequence": "You choose to push open the door. By What the Baker Trades, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s_counter"
         },
         {
           "text": "Watch from the cold window first",
-          "consequence": "You commit to “Watch from the cold window first.” The story records the instinct as “Cautious” and carries it forward.",
+          "consequence": "You watch from the cold window first. The path to Through the Glass opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_window"
         }
       ],
@@ -40,22 +40,22 @@
     },
     {
       "id": "s_counter",
-      "text": "The baker is old in the way of lighthouses — weathered, patient, still burning. \"We don't take money here,\" she says, sliding a proofing loaf toward you. \"A loaf costs one memory. Any one you like. I keep it warm so it never goes stale.\"",
+      "text": "The baker is old in the way of lighthouses — weathered, patient, still burning. \"We don't take money here,\" she says, sliding a proofing loaf toward you. \"A loaf costs one memory. Any one you like.",
       "sceneTitle": "What the Baker Trades",
       "choices": [
         {
           "text": "Offer a bright, easy memory",
-          "consequence": "The decision settles the question for now. Its verdict—Kind—follows you into whatever comes next.",
+          "consequence": "You choose to offer a bright, easy memory. By A Loaf Like Summer, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s_bright"
         },
         {
           "text": "Offer the memory that keeps you up",
-          "consequence": "The decision settles the question for now. Its verdict—Brave—follows you into whatever comes next.",
+          "consequence": "You choose to offer the memory that keeps you up. By The Loaf That Weighs Nothing, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s_heavy"
         },
         {
           "text": "Ask where the memories go",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You ask where the memories go. The path to Behind the Ovens opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_ovens"
         }
       ],
@@ -69,12 +69,12 @@
       "choices": [
         {
           "text": "Knock on the glass",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You knock on the glass. The path to The Corner Table opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_reunion"
         },
         {
           "text": "Turn quietly toward home",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You turn quietly toward home. The path to The Long Way Home opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_walk"
         }
       ],
@@ -88,12 +88,12 @@
       "choices": [
         {
           "text": "Eat, and stay in the warmth a while",
-          "consequence": "The decision settles the question for now. Its verdict—Joy—follows you into whatever comes next.",
+          "consequence": "You commit to eat, and stay in the warmth a while. It carries you toward Behind the Ovens, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s_ovens"
         },
         {
           "text": "Take the loaf and go",
-          "consequence": "There is no taking “Take the loaf and go” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the loaf and go. It carries you toward A Warm Thing to Hold, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_fed"
         }
       ],
@@ -107,12 +107,12 @@
       "choices": [
         {
           "text": "Ask for it back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You ask for it back. The path to The Corner Table opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s_reunion"
         },
         {
           "text": "Let it stay gone",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Free.",
+          "consequence": "You commit to let it stay gone. It carries you toward Lighter by One, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_lighter"
         }
       ],
@@ -126,12 +126,12 @@
       "choices": [
         {
           "text": "Offer to keep the ovens",
-          "consequence": "The decision settles the question for now. Its verdict—Devoted—follows you into whatever comes next.",
+          "consequence": "You offer to keep the ovens. The path to Keeper of the Night Ovens opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_keeper"
         },
         {
           "text": "Just buy a roll and leave grateful",
-          "consequence": "The decision settles the question for now. Its verdict—Kind—follows you into whatever comes next.",
+          "consequence": "You just buy a roll and leave grateful. The path to A Warm Thing to Hold opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_fed"
         }
       ],
@@ -140,17 +140,17 @@
     },
     {
       "id": "s_reunion",
-      "text": "You sit across from the person you lost. They pour you tea and do not ask where the years went, because here the years have not gone anywhere. \"Dawn is a kind of tide,\" they say softly. \"I can't stay past it. But I can stay until it.\"",
+      "text": "You sit across from the person you lost. They pour you tea and do not ask where the years went, because here the years have not gone anywhere. \"Dawn is a kind of tide,\" they say softly. \"I can't stay past it.",
       "sceneTitle": "The Corner Table",
       "choices": [
         {
           "text": "Say the thing you never got to say",
-          "consequence": "You commit to “Say the thing you never got to say.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You say the thing you never got to say. The path to One More Quiet Hour opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_goodbye"
         },
         {
           "text": "Sit in silence and simply be near them",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "You choose to sit in silence and simply be near them. By One More Quiet Hour, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_goodbye"
         }
       ],

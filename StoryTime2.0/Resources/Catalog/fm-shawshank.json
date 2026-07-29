@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Two life terms. The judge does not look at you. Your wife is dead. You did not kill her.",
+      "text": "Two life terms. The judge does not look at you. Your wife is dead. You did not kill her. First Night will follow either decision, but it will meet a different version of you after “Plead innocent” than after “Stay silent.”",
       "sceneTitle": "The Sentence",
       "choices": [
         {
           "text": "Plead innocent",
-          "consequence": "“Plead innocent” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to plead innocent. It opens the route to First Night, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s2"
         },
         {
           "text": "Stay silent",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You stay silent. The decision moves you toward First Night and tells everyone present what you are willing to risk.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "The lights go out. Someone is sobbing. The fat man does not survive.",
+      "text": "The lights go out. Someone is sobbing. The fat man does not survive. Both choices lead to Red, but “Don't sob” arrives there with a different cost than “Sob inside.” By Red, the decision will already have changed who trusts you.",
       "sceneTitle": "First Night",
       "choices": [
         {
           "text": "Don't sob",
-          "consequence": "“Don't sob” closes one possibility and opens another. The moment leaves a clear note behind: Survive.",
+          "consequence": "You don't sob. The decision moves you toward Red and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         },
         {
           "text": "Sob inside",
-          "consequence": "You commit to “Sob inside.” The story records the instinct as “Honest” and carries it forward.",
+          "consequence": "You sob inside. The decision moves you toward Red and tells everyone present what you are willing to risk.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "A man named Red runs the contraband. He sells you a rock hammer.",
+      "text": "A man named Red runs the contraband. He sells you a rock hammer. The Sisters will follow either decision, but it will meet a different version of you after “Trust him quietly” than after “Test him first.”",
       "sceneTitle": "Red",
       "choices": [
         {
           "text": "Trust him quietly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Read.",
+          "consequence": "You trust him quietly. The decision moves you toward The Sisters and tells everyone present what you are willing to risk.",
           "nextNodeId": "s4"
         },
         {
           "text": "Test him first",
-          "consequence": "The decision settles the question for now. Its verdict—Wise—follows you into whatever comes next.",
+          "consequence": "You commit to test him first. By The Sisters, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Bogs and his crew corner you. You learn what the showers cost.",
+      "text": "Bogs and his crew corner you. You learn what the showers cost. The Roof comes either way; its meaning changes with the difference between “Fight every time” and “Survive the first attack.” At The Roof, the people waiting will read the choice before the explanation.",
       "sceneTitle": "The Sisters",
       "choices": [
         {
           "text": "Fight every time",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Refuse.",
+          "consequence": "You commit to fight every time. By The Roof, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s5"
         },
         {
           "text": "Survive the first attack",
-          "consequence": "You commit to “Survive the first attack.” The story records the instinct as “Endure” and carries it forward.",
+          "consequence": "You choose to survive the first attack. It opens the route to The Roof, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "A tar-roof detail. You overhear the head guard fretting about an inheritance tax.",
+      "text": "A tar-roof detail. You overhear the head guard fretting about an inheritance tax. You cannot avoid Beers on the Roof; you can only decide whether “Offer help” or “Stay quiet” defines the person who reaches it.",
       "sceneTitle": "The Roof",
       "choices": [
         {
           "text": "Offer help",
-          "consequence": "“Offer help” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You offer help. The decision moves you toward Beers on the Roof and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         },
         {
           "text": "Stay quiet",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You stay quiet. The decision moves you toward Beers on the Roof and tells everyone present what you are willing to risk.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "You get the men three beers each. You don't drink. You watch them remember what it is to be men.",
+      "text": "You get the men three beers each. You don't drink. You watch them remember what it is to be men. Both choices lead to The Library, but “Sip nothing” arrives there with a different cost than “Sip one.”",
       "sceneTitle": "Beers on the Roof",
       "choices": [
         {
           "text": "Sip nothing",
-          "consequence": "You commit to “Sip nothing.” The story records the instinct as “Detached” and carries it forward.",
+          "consequence": "You choose to sip nothing. It opens the route to The Library, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s7"
         },
         {
           "text": "Sip one",
-          "consequence": "The decision settles the question for now. Its verdict—Indulge—follows you into whatever comes next.",
+          "consequence": "You sip one. The decision moves you toward The Library and tells everyone present what you are willing to risk.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "You ask the warden for funding for the library. He says no. You write letters anyway. Once a week, for years.",
+      "text": "You ask the warden for funding for the library. He says no. You write letters anyway. Once a week, for years. Tommy comes either way; its meaning changes with the difference between “Keep writing” and “Write twice a week.”",
       "sceneTitle": "The Library",
       "choices": [
         {
           "text": "Keep writing",
-          "consequence": "“Keep writing” closes one possibility and opens another. The moment leaves a clear note behind: Patient.",
+          "consequence": "You commit to keep writing. By Tommy, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s8"
         },
         {
           "text": "Write twice a week",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Pressure.",
+          "consequence": "You write twice a week. The decision moves you toward Tommy and tells everyone present what you are willing to risk.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "A new young inmate named Tommy says he knew the man who really killed your wife.",
+      "text": "A new young inmate named Tommy says he knew the man who really killed your wife. You cannot avoid The Warden; you can only decide whether “Tell the warden” or “Tell Red first” defines the person who reaches it.",
       "sceneTitle": "Tommy",
       "choices": [
         {
           "text": "Tell the warden",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Naive.",
+          "consequence": "You tell the warden. The decision moves you toward The Warden and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         },
         {
           "text": "Tell Red first",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You tell Red first. The decision moves you toward The Warden and tells everyone present what you are willing to risk.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "The warden listens. He does not believe you. He does not, you realize, want to believe you.",
+      "text": "The warden listens. He does not believe you. He does not, you realize, want to believe you. Tommy, Gone is already waiting. What changes is whether “Push” or “Step back” is the instinct you carry into it.",
       "sceneTitle": "The Warden",
       "choices": [
         {
           "text": "Push",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Brave.",
+          "consequence": "You choose to push. It opens the route to Tommy, Gone, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         },
         {
           "text": "Step back",
-          "consequence": "You commit to “Step back.” The story records the instinct as “Safe” and carries it forward.",
+          "consequence": "You choose to step back. It opens the route to Tommy, Gone, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Tommy is killed by the guards in the yard. The official story is escape.",
+      "text": "Tommy is killed by the guards in the yard. The official story is escape. Solitary is already waiting. What changes is whether “Mourn him quietly” or “Vow” is the instinct you carry into it. At Solitary, the people waiting will read the choice before the explanation.",
       "sceneTitle": "Tommy, Gone",
       "choices": [
         {
           "text": "Mourn him quietly",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Survive.",
+          "consequence": "You commit to mourn him quietly. By Solitary, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s11"
         },
         {
           "text": "Vow",
-          "consequence": "There is no taking “Vow” back. Plan shapes the silence before the next moment arrives.",
+          "consequence": "You vow. The decision moves you toward Solitary and tells everyone present what you are willing to risk.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Two months in solitary. You leave with a plan.",
+      "text": "Two months in solitary. You leave with a plan. The road still runs toward Mozart. Its next turn depends on the difference between choosing “Make peace with the plan” and choosing “Make peace with the cell.”",
       "sceneTitle": "Solitary",
       "choices": [
         {
           "text": "Make peace with the plan",
-          "consequence": "“Make peace with the plan” closes one possibility and opens another. The moment leaves a clear note behind: Cold.",
+          "consequence": "You choose to make peace with the plan. It opens the route to Mozart, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s12"
         },
         {
           "text": "Make peace with the cell",
-          "consequence": "“Make peace with the cell” closes one possibility and opens another. The moment leaves a clear note behind: Calm.",
+          "consequence": "You make peace with the cell. The decision moves you toward Mozart and tells everyone present what you are willing to risk.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "You play Mozart over the prison loudspeakers. For two minutes the yard goes silent.",
+      "text": "You play Mozart over the prison loudspeakers. For two minutes the yard goes silent. Hope comes either way; its meaning changes with the difference between “Take the punishment” and “Stop early.” By Hope, the decision will already have changed who trusts you.",
       "sceneTitle": "Mozart",
       "choices": [
         {
           "text": "Take the punishment",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Worth it.",
+          "consequence": "You take the punishment. The decision moves you toward Hope and tells everyone present what you are willing to risk.",
           "nextNodeId": "s13"
         },
         {
           "text": "Stop early",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Strategic.",
+          "consequence": "You commit to stop early. By Hope, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Red tells you hope is dangerous. You tell him hope is everything.",
+      "text": "Red tells you hope is dangerous. You tell him hope is everything. The road still runs toward The Letters Pay. Its next turn depends on the difference between choosing “Disagree gently” and choosing “Agree out loud and not inside.”",
       "sceneTitle": "Hope",
       "choices": [
         {
           "text": "Disagree gently",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mean it.",
+          "consequence": "You disagree gently. The decision moves you toward The Letters Pay and tells everyone present what you are willing to risk.",
           "nextNodeId": "s14"
         },
         {
           "text": "Agree out loud and not inside",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Strategy.",
+          "consequence": "You commit to agree out loud and not inside. By The Letters Pay, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The library funding arrives, larger than asked. You build a small empire of books.",
+      "text": "The library funding arrives, larger than asked. You build a small empire of books. Money Laundering will follow either decision, but it will meet a different version of you after “Use it” than after “Hide nothing.”",
       "sceneTitle": "The Letters Pay",
       "choices": [
         {
           "text": "Use it",
-          "consequence": "You commit to “Use it.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You use it. The decision moves you toward Money Laundering and tells everyone present what you are willing to risk.",
           "nextNodeId": "s15"
         },
         {
           "text": "Hide nothing",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Open.",
+          "consequence": "You choose to hide nothing. It opens the route to Money Laundering, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "The warden has, by now, made you his accountant. You launder money for him. You also, slowly, build a man named Stevens.",
+      "text": "The warden has, by now, made you his accountant. You launder money for him. You also, slowly, build a man named Stevens. The Tunnel comes either way; its meaning changes with the difference between “Build Stevens carefully” and “Build him fast.”",
       "sceneTitle": "Money Laundering",
       "choices": [
         {
           "text": "Build Stevens carefully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You build Stevens carefully. The decision moves you toward The Tunnel and tells everyone present what you are willing to risk.",
           "nextNodeId": "s16"
         },
         {
           "text": "Build him fast",
-          "consequence": "You commit to “Build him fast.” The story records the instinct as “Brave” and carries it forward.",
+          "consequence": "You commit to build him fast. By The Tunnel, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Each night, after lockdown, you scrape. The hole is, by year nineteen, a tunnel.",
+      "text": "Each night, after lockdown, you scrape. The hole is, by year nineteen, a tunnel. You cannot avoid The Storm; you can only decide whether “Be patient” or “Be precise” defines the person who reaches it.",
       "sceneTitle": "The Tunnel",
       "choices": [
         {
           "text": "Be patient",
-          "consequence": "You commit to “Be patient.” The story records the instinct as “Years” and carries it forward.",
+          "consequence": "You be patient. The decision moves you toward The Storm and tells everyone present what you are willing to risk.",
           "nextNodeId": "s17"
         },
         {
           "text": "Be precise",
-          "consequence": "The decision settles the question for now. Its verdict—Years—follows you into whatever comes next.",
+          "consequence": "You commit to be precise. By The Storm, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "A thunderstorm. The night. You crawl through five hundred yards of pipe. You come out on the far side of the wall, on your knees, in the rain.",
+      "text": "A thunderstorm. The night. You crawl through five hundred yards of pipe. You come out on the far side of the wall, on your knees, in the rain. You cannot avoid The Bank; you can only decide whether “Stand up” or “Stay on knees a moment” defines the person who reaches it.",
       "sceneTitle": "The Storm",
       "choices": [
         {
           "text": "Stand up",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Free.",
+          "consequence": "You choose to stand up. It opens the route to The Bank, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay on knees a moment",
-          "consequence": "There is no taking “Stay on knees a moment” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay on knees a moment. It opens the route to The Bank, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You walk into a bank as Stevens and walk out with thirty-seven thousand dollars and a folder of evidence on the warden.",
+      "text": "You walk into a bank as Stevens and walk out with thirty-seven thousand dollars and a folder of evidence on the warden. Both choices lead to Buxton, but “Mail the evidence” arrives there with a different cost than “Burn it.”",
       "sceneTitle": "The Bank",
       "choices": [
         {
           "text": "Mail the evidence",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Right.",
+          "consequence": "You choose to mail the evidence. It opens the route to Buxton, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s19"
         },
         {
           "text": "Burn it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Petty.",
+          "consequence": "You commit to burn it. By Buxton, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "A field in Buxton, Maine. Under a stone wall. A tin box. A note for Red.",
+      "text": "A field in Buxton, Maine. Under a stone wall. A tin box. A note for Red. The road still runs toward Zihuatanejo. Its next turn depends on the difference between choosing “Leave it where you said you would” and choosing “Take the tin and run.”",
       "sceneTitle": "Buxton",
       "choices": [
         {
           "text": "Leave it where you said you would",
-          "consequence": "There is no taking “Leave it where you said you would” back. Vow shapes the silence before the next moment arrives.",
+          "consequence": "You choose to leave it where you said you would. It opens the route to Zihuatanejo, giving up the protection of pretending you had not decided.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take the tin and run",
-          "consequence": "There is no taking “Take the tin and run” back. Survival shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the tin and run. By Zihuatanejo, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "Pacific. Mexico. A boat to fix. You wait.",
+      "text": "Pacific. Mexico. A boat to fix. You wait. Red's Bus comes either way; its meaning changes with the difference between “Wait honestly” and “Plan a small business.” In Zihuatanejo, waiting would only let someone else define what your silence meant.",
       "sceneTitle": "Zihuatanejo",
       "choices": [
         {
           "text": "Wait honestly",
-          "consequence": "There is no taking “Wait honestly” back. Patient shapes the silence before the next moment arrives.",
+          "consequence": "You commit to wait honestly. By Red's Bus, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "s21"
         },
         {
           "text": "Plan a small business",
-          "consequence": "“Plan a small business” closes one possibility and opens another. The moment leaves a clear note behind: Forward.",
+          "consequence": "You plan a small business. The decision moves you toward Red's Bus and tells everyone present what you are willing to risk.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "Years later, Red arrives on a bus. He walks the beach. He sees you. You raise a hand.",
+      "text": "Years later, Red arrives on a bus. He walks the beach. He sees you. You raise a hand. “Walk to him” opens the route to Pacific Forever. “Wait for him to come to you” changes the terms and carries you toward The Letters Continue. A third choice, “Take the third path,” keeps Quiet Life in play.",
       "sceneTitle": "Red's Bus",
       "choices": [
         {
           "text": "Walk to him",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Friend.",
+          "consequence": "You walk to him. The decision moves you toward Pacific Forever and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_pacific"
         },
         {
           "text": "Wait for him to come to you",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You wait for him to come to you. The decision moves you toward The Letters Continue and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_letter"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You commit to take the third path. By Quiet Life, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_quiet"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_pacific",
-      "text": "You and Red fix the boat. You take tourists out. The Pacific is impossibly blue. You don't think about Shawshank often. When you do, you smile.",
+      "text": "You and Red fix the boat. You take tourists out. The Pacific is impossibly blue. You don't think about Shawshank often. When you do, you smile. The road into Pacific Forever began with “Walk to him” in Red's Bus; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Pacific Forever",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_letter",
-      "text": "You write letters back to a literacy program at Shawshank. Books, in your name, fill that library for decades. Hope, you decide, is contagious.",
+      "text": "You write letters back to a literacy program at Shawshank. Books, in your name, fill that library for decades. Hope, you decide, is contagious. The road into The Letters Continue began with “Wait for him to come to you” in Red's Bus; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Letters Continue",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_quiet",
-      "text": "You live small, on purpose. You and Red die old men by the sea. The tomato garden behind the cottage is, you tell tourists, the most important room in the house.",
+      "text": "You live small, on purpose. You and Red die old men by the sea. The tomato garden behind the cottage is, you tell tourists, the most important room in the house. The road into Quiet Life began with “Take the third path” in Red's Bus; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Quiet Life",
       "choices": [],
       "isEnding": true,

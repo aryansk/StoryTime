@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "A poster on every wall: 'Bring her in, alive or otherwise.' Elphaba's face is on it. So is your old roommate's. Glinda's broadcast plays softly from a megaphone — kind voice, terrible message.",
+      "text": "A poster on every wall: 'Bring her in, alive or otherwise.' Elphaba's face is on it. So is your old roommate's. Glinda's broadcast plays softly from a megaphone — kind voice, terrible message. “Go to Glinda first” opens the route to The Emerald Palace. “Go to Elphaba first” changes the terms and carries you toward The Forest.",
       "sceneTitle": "The Decree",
       "choices": [
         {
           "text": "Go to Glinda first",
-          "consequence": "Begin where you can still walk in.",
+          "consequence": "Begin where you can still walk in. You choose to go to Glinda first. By The Emerald Palace, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Go to Elphaba first",
-          "consequence": "Begin where it's dangerous.",
+          "consequence": "Begin where it's dangerous. You go to Elphaba first. The path to The Forest opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Glinda is, somehow, both glittering and tired. She lights up at you the way she always did. 'You're here,' she says. 'Don't tell me I shouldn't be doing this. Please don't.'",
+      "text": "Glinda is, somehow, both glittering and tired. She lights up at you the way she always did. 'You're here,' she says. 'Don't tell me I shouldn't be doing this. The paths divide here: “Listen first before you advise” leads into The Animal Rebellion, while “Tell her this is wrong” makes The Wizard, Old the next reckoning.",
       "sceneTitle": "The Emerald Palace",
       "choices": [
         {
           "text": "Listen first before you advise",
-          "consequence": "Hear her version of why.",
+          "consequence": "Hear her version of why. You commit to listen first before you advise. It carries you toward The Animal Rebellion, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her this is wrong",
-          "consequence": "There is no taking “Tell her this is wrong” back. Honest friendship shapes the silence before the next moment arrives.",
+          "consequence": "You commit to tell her this is wrong. It carries you toward The Wizard, Old, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "You find Elphaba by following a trail no map shows — a kindness her broom leaves for those who knew her. She is thinner. The broom hovers beside her, mildly protective.",
+      "text": "You find Elphaba by following a trail no map shows — a kindness her broom leaves for those who knew her. She is thinner. The broom hovers beside her, mildly protective. The paths divide here: “Ask if she still trusts Glinda” leads into The Animal Rebellion, while “Tell her you came to help” makes The Wizard, Old the next reckoning.",
       "sceneTitle": "The Forest",
       "choices": [
         {
           "text": "Ask if she still trusts Glinda",
-          "consequence": "Test the seam.",
+          "consequence": "You ask if she still trusts Glinda. The path to The Animal Rebellion opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s4"
         },
         {
           "text": "Tell her you came to help",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Be plain.",
+          "consequence": "You tell her you came to help. The path to The Wizard, Old opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s5"
         }
       ],
@@ -81,12 +81,12 @@
       "choices": [
         {
           "text": "Carry the message to Glinda",
-          "consequence": "Be the bridge.",
+          "consequence": "You commit to carry the message to Glinda. It carries you toward Madame Morrible, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s6"
         },
         {
           "text": "Press Elphaba to lead them publicly herself",
-          "consequence": "Stop hiding her name.",
+          "consequence": "You commit to press Elphaba to lead them publicly herself. It carries you toward Fiyero, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s7"
         }
       ],
@@ -100,12 +100,12 @@
       "choices": [
         {
           "text": "Press him on the Animal cages",
-          "consequence": "Truth from the throne first.",
+          "consequence": "Truth from the throne first. You press him on the Animal cages. The path to Madame Morrible opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s6"
         },
         {
           "text": "Get him to confess on a phonograph",
-          "consequence": "Evidence is the new sword.",
+          "consequence": "Evidence is the new sword. You choose to get him to confess on a phonograph. By Fiyero, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Glinda's chief adviser was your favorite teacher and is, you now see, the actual villain. She compliments your hair. She drops, casually, that she knows where your parents live.",
+      "text": "Glinda's chief adviser was your favorite teacher and is, you now see, the actual villain. She compliments your hair. She drops, casually, that she knows where your parents live. “Refuse to be intimidated” opens the route to The Trial in the Square. “Play dumb and gather information” changes the terms and carries you toward Glinda's Private Doubt.",
       "sceneTitle": "Madame Morrible",
       "choices": [
         {
           "text": "Refuse to be intimidated",
-          "consequence": "Stand even if your knees shake.",
+          "consequence": "Stand even if your knees shake. You choose to refuse to be intimidated. By The Trial in the Square, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Play dumb and gather information",
-          "consequence": "Survive to fight later.",
+          "consequence": "You choose to play dumb and gather information. By Glinda's Private Doubt, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -138,12 +138,12 @@
       "choices": [
         {
           "text": "Ask after Elphaba's plan",
-          "consequence": "Get the strategy.",
+          "consequence": "You choose to ask after Elphaba's plan. By The Trial in the Square, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Ask after Fiyero's heart",
-          "consequence": "Ask the human first.",
+          "consequence": "You choose to ask after Fiyero's heart. By Glinda's Private Doubt, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s9"
         }
       ],
@@ -157,12 +157,12 @@
       "choices": [
         {
           "text": "Move first to disrupt",
-          "consequence": "Be the spark.",
+          "consequence": "You choose to move first to disrupt. By The Plan, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Document and leak it broadly instead",
-          "consequence": "Make the silent crowd reachable.",
+          "consequence": "Make the silent crowd reachable. You document and leak it broadly instead. The path to The Spell Book opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Glinda, alone, lets the act drop in front of you. She knows what she's enabled. She does not know how to undo it without dismantling herself.",
+      "text": "Glinda, alone, lets the act drop in front of you. She knows what she's enabled. She does not know how to undo it without dismantling herself. “Help her plan a public reversal” opens the route to The Plan. “Help her plan a quiet abdication” changes the terms and carries you toward The Spell Book.",
       "sceneTitle": "Glinda's Private Doubt",
       "choices": [
         {
           "text": "Help her plan a public reversal",
-          "consequence": "Strategy beats grand gesture.",
+          "consequence": "Strategy beats grand gesture. You help her plan a public reversal. The path to The Plan opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s10"
         },
         {
           "text": "Help her plan a quiet abdication",
-          "consequence": "Sometimes the right exit is small.",
+          "consequence": "Sometimes the right exit is small. You choose to help her plan a quiet abdication. By The Spell Book, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Three nights: an Animals' march, a Glinda statement, a Wizard ambush. You and Fiyero and Elphaba and (terrifyingly) Glinda map it out on a stolen schoolroom blackboard. The chalk feels like Shiz.",
+      "text": "Three nights: an Animals' march, a Glinda statement, a Wizard ambush. You and Fiyero and Elphaba and (terrifyingly) Glinda map it out on a stolen schoolroom blackboard. The chalk feels like Shiz. To choose “Run the plan as drafted” means meeting The March; “Insert a contingency for Glinda's safety” sends you toward The Bucket instead.",
       "sceneTitle": "The Plan",
       "choices": [
         {
           "text": "Run the plan as drafted",
-          "consequence": "Trust the room.",
+          "consequence": "You choose to run the plan as drafted. By The March, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Insert a contingency for Glinda's safety",
-          "consequence": "Plan for the worst person you love.",
+          "consequence": "Plan for the worst person you love. You insert a contingency for Glinda's safety. The path to The Bucket opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s13"
         }
       ],
@@ -214,12 +214,12 @@
       "choices": [
         {
           "text": "Refuse to let her pay",
-          "consequence": "Find another way.",
+          "consequence": "You choose to refuse to let her pay. By The March, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Ask the Grimmerie if you can pay instead",
-          "consequence": "Carry it for her.",
+          "consequence": "You commit to ask the Grimmerie if you can pay instead. It carries you toward The Bucket, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Stand visibly beside Glinda",
-          "consequence": "Witness is a weapon.",
+          "consequence": "You commit to stand visibly beside Glinda. It carries you toward Madame Morrible's Storm, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s14"
         },
         {
           "text": "Stay close to Elphaba and her broom",
-          "consequence": "Protect the most hunted.",
+          "consequence": "Protect the most hunted. You commit to stay close to Elphaba and her broom. It carries you toward The Wizard's Surrender, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "An assassin's water bucket — actually a clever propagandist's prop — is meant to look like Elphaba melted. The plan: faked death, real escape. Elphaba, exhausted, considers it.",
+      "text": "An assassin's water bucket — actually a clever propagandist's prop — is meant to look like Elphaba melted. The plan: faked death, real escape. Elphaba, exhausted, considers it. Choose “Run the bucket plan” and Madame Morrible's Storm comes into view; choose “Convince her to stay and fight publicly” and the road bends toward The Wizard's Surrender.",
       "sceneTitle": "The Bucket",
       "choices": [
         {
           "text": "Run the bucket plan",
-          "consequence": "Let her die to her enemies and live to her friends.",
+          "consequence": "Let her die to her enemies and live to her friends. You choose to run the bucket plan. By Madame Morrible's Storm, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s14"
         },
         {
           "text": "Convince her to stay and fight publicly",
-          "consequence": "No more hiding.",
+          "consequence": "You convince her to stay and fight publicly. The path to The Wizard's Surrender opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "Morrible calls a hurricane. You realize she has always been the one driving the weather. The sky goes the wrong color. The plan begins to come apart in front of you.",
+      "text": "Morrible calls a hurricane. You realize she has always been the one driving the weather. The sky goes the wrong color. The plan begins to come apart in front of you. “Use the Grimmerie to break her hold on the sky” opens the route to Elphaba, Public. “Get Glinda to publicly fire her in the storm” changes the terms and carries you toward The Forest Wedding.",
       "sceneTitle": "Madame Morrible's Storm",
       "choices": [
         {
           "text": "Use the Grimmerie to break her hold on the sky",
-          "consequence": "“Use the Grimmerie to break her hold on the sky” closes one possibility and opens another. The moment leaves a clear note behind: Cost-paid magic.",
+          "consequence": "You use the Grimmerie to break her hold on the sky. The path to Elphaba, Public opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Get Glinda to publicly fire her in the storm",
-          "consequence": "Snap her authority in real time.",
+          "consequence": "Snap her authority in real time. You choose to get Glinda to publicly fire her in the storm. By The Forest Wedding, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         }
       ],
@@ -290,12 +290,12 @@
       "choices": [
         {
           "text": "Replace him with a council, not a queen",
-          "consequence": "Distribute the power.",
+          "consequence": "You replace him with a council, not a queen. The path to Elphaba, Public opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s16"
         },
         {
           "text": "Crown Glinda formally, with limits",
-          "consequence": "Build the constitutional kind.",
+          "consequence": "Build the constitutional kind. You choose to crown Glinda formally, with limits. By The Forest Wedding, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Let Elphaba speak first",
-          "consequence": "Honor the woman who carried the hate.",
+          "consequence": "Honor the woman who carried the hate. You let Elphaba speak first. The path to Two Friends opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let Glinda speak first",
-          "consequence": "Honor the woman who carried the deception.",
+          "consequence": "Honor the woman who carried the deception. You commit to let Glinda speak first. It carries you toward The Future of Oz, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "s19"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Elphaba and Fiyero marry under a tree in the woods, the Animals as witnesses, Glinda in pink she's clearly made herself. You catch the bouquet by accident. Everyone laughs.",
+      "text": "Elphaba and Fiyero marry under a tree in the woods, the Animals as witnesses, Glinda in pink she's clearly made herself. You catch the bouquet by accident. Everyone laughs. The distance between Defying Gravity, Together and Schoolroom begins with the choice between “Stay for a long, quiet year” and “Go home to your village to teach.”",
       "sceneTitle": "The Forest Wedding",
       "choices": [
         {
           "text": "Stay for a long, quiet year",
-          "consequence": "Some weddings deserve a celebration that lasts.",
+          "consequence": "Some weddings deserve a celebration that lasts. You choose to stay for a long, quiet year. By Defying Gravity, Together, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_friends"
         },
         {
           "text": "Go home to your village to teach",
-          "consequence": "Be the future, in small.",
+          "consequence": "Be the future, in small. You choose to go home to your village to teach. By Schoolroom, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_teach"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "Glinda and Elphaba, you realize, never stopped being who they were at Shiz. The world bent them in opposite directions and yet — somehow — they still finish each other's harmonies. You smile from the wings.",
+      "text": "Glinda and Elphaba, you realize, never stopped being who they were at Shiz. The world bent them in opposite directions and yet — somehow — they still finish each other's harmonies. You smile from the wings. “Take the post they offer you in the new council” draws you toward The New Oz; “Take the smaller post in a province they trust to you” leaves Munchkin County waiting on the other side.",
       "sceneTitle": "Two Friends",
       "choices": [
         {
           "text": "Take the post they offer you in the new council",
-          "consequence": "Put your shoulder to the work.",
+          "consequence": "Put your shoulder to the work. You choose to take the post they offer you in the new council. By The New Oz, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_council"
         },
         {
           "text": "Take the smaller post in a province they trust to you",
-          "consequence": "Govern a corner well.",
+          "consequence": "You choose to take the smaller post in a province they trust to you. By Munchkin County, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "end_province"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "A council forms — Animals and humans, witches and ordinary citizens. It is imperfect. It is real. Glinda holds the gavel. Elphaba flies between provinces, an emissary nobody calls a fugitive anymore.",
+      "text": "A council forms — Animals and humans, witches and ordinary citizens. It is imperfect. It is real. Glinda holds the gavel. Elphaba flies between provinces, an emissary nobody calls a fugitive anymore. The road still runs toward Yellow Brick, Repaved. Its next turn depends on the difference between choosing “Help draft Oz's first constitution” and choosing “Take a long, quiet sabbatical.”",
       "sceneTitle": "The Future of Oz",
       "choices": [
         {
           "text": "Help draft Oz's first constitution",
-          "consequence": "Words can also save countries.",
+          "consequence": "Words can also save countries. You help draft Oz's first constitution. The path to Yellow Brick, Repaved opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "s20"
         },
         {
           "text": "Take a long, quiet sabbatical",
-          "consequence": "You earned it.",
+          "consequence": "You choose to take a long, quiet sabbatical. By Yellow Brick, Repaved, the decision has become data, precedent, and a problem larger than the person who made it.",
           "nextNodeId": "s20"
         }
       ],
@@ -385,12 +385,12 @@
       "choices": [
         {
           "text": "Take the desk and write the words",
-          "consequence": "The pen, the long way.",
+          "consequence": "You commit to take the desk and write the words. It carries you toward The New Oz, exchanging a familiar uncertainty for a consequence nobody has modeled.",
           "nextNodeId": "end_council"
         },
         {
           "text": "Take the walk and let others write",
-          "consequence": "The road, the longer way.",
+          "consequence": "The road, the longer way. You take the walk and let others write. The path to Sabbatical opens, and the system registers the move before anyone admits the rules have changed.",
           "nextNodeId": "end_self"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_friends",
-      "text": "Years later you watch Elphaba and Glinda fly between provinces on the same broom, both laughing, both lecturing each other about leadership. Some friendships outlast the worst chapters of a country.",
+      "text": "Years later you watch Elphaba and Glinda fly between provinces on the same broom, both laughing, both lecturing each other about leadership. Some friendships outlast the worst chapters of a country. The road into Defying Gravity, Together began with “Stay for a long, quiet year” in The Forest Wedding; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "Defying Gravity, Together",
       "choices": [],
       "isEnding": true,

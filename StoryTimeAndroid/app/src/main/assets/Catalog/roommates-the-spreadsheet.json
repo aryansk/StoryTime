@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Sunday, 7 p.m. The agenda has been emailed. Item one: dishwasher. Item two: 'something we need to discuss as a group.' Item three: snacks. Marcus has brought, at his own expense, snacks.",
+      "text": "Sunday, 7 p.m. The agenda arrived by email on Thursday, which is itself a statement. Item one: dishwasher. Item two: 'something we need to discuss as a group,' unattributed, terrifying. Item three: snacks. Marcus paid for the snacks himself and has not said so, but the receipt is face-up on the counter where a person might happen to see it.",
       "sceneTitle": "The Meeting",
       "choices": [
         {
           "text": "Open with item three",
-          "consequence": "Defuse with snacks.",
+          "consequence": "You lead with snacks, which everyone present understands to be a stalling tactic, and everyone present agrees to be stalled.",
           "nextNodeId": "s2"
         },
         {
           "text": "Open with item one",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Discipline.",
+          "consequence": "You go straight at the dishwasher. Lola sets the cheese knife down very gently, which is Lola for 'here we go, then.'",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Lola lays out two bags of chips and a cheese plate. The cheese plate has, you realize, four different cheeses for four different roommates. Lola, as always, is the heart of the apartment.",
+      "text": "Two bags of chips and a cheese plate. Four cheeses, and you do the math: Marcus avoids dairy except for that one Manchego, Bento only eats the orange kind, you brought the fig jam home in July, and one wedge is plainly for Priya, who does not live here. Lola builds a snack plate the way other people write letters.",
       "sceneTitle": "Item Three First",
       "choices": [
         {
           "text": "Compliment Lola publicly",
-          "consequence": "“Compliment Lola publicly” closes one possibility and opens another. The moment leaves a clear note behind: Lift.",
+          "consequence": "You say it out loud with everyone watching. Lola turns pink and immediately begins explaining where she got the crackers.",
           "nextNodeId": "s4"
         },
         {
           "text": "Eat cheese; save the gratitude",
-          "consequence": "There is no taking “Eat cheese; save the gratitude” back. Implicit shapes the silence before the next moment arrives.",
+          "consequence": "You eat the Manchego and say nothing, intending to thank her later, privately, at a moment that is never going to arrive.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "The dishwasher has been stacked badly, every day, for three weeks. Specifically, Bento (who is normally great) has been doing the abominable thing with the small plates.",
+      "text": "Three weeks of bad stacking. Not vaguely bad — specifically bad: small plates laid flat across the bottom rack like roof tiles, blocking the spray arm, so everything comes out wearing a film. Bento does this. Bento, who alphabetized the spice shelf unprompted. You have photographed the rack twice without deciding what the photographs are for.",
       "sceneTitle": "The Dishwasher",
       "choices": [
         {
           "text": "Call Bento out kindly",
-          "consequence": "There is no taking “Call Bento out kindly” back. Direct shapes the silence before the next moment arrives.",
+          "consequence": "You use his name and the word 'hey' and your softest voice. He looks up too fast, like a man braced for a much larger sentence.",
           "nextNodeId": "s4"
         },
         {
           "text": "Show the group a five-minute YouTube video",
-          "consequence": "The decision settles the question for now. Its verdict—Outsourced—follows you into whatever comes next.",
+          "consequence": "You play a tutorial narrated by a calm man in a polo shirt. Four adults watch it in complete silence. Worst five minutes of the year.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Bento admits, looking at the floor, that his dad has been sick and he has been distracted. The room rearranges. The dishwasher, suddenly, is the smallest item on the night's true agenda.",
+      "text": "Bento says his dad has been sick since August. He says it to the floor, in one sentence, with a chip still in his hand. None of you knew. Marcus puts down the agenda. Lola stops slicing. The dishwasher, which has been the largest object in this room for three weeks, shrinks back into a small appliance.",
       "sceneTitle": "Bento's Reveal",
       "choices": [
         {
           "text": "Reorganize the agenda for Bento",
-          "consequence": "The decision settles the question for now. Its verdict—Pivot—follows you into whatever comes next.",
+          "consequence": "You throw the agenda out in front of him. He says you don't have to, twice, and then talks without stopping for forty minutes.",
           "nextNodeId": "s6"
         },
         {
           "text": "Keep the agenda; offer Bento support after",
-          "consequence": "“Keep the agenda; offer Bento support after” closes one possibility and opens another. The moment leaves a clear note behind: Hybrid.",
+          "consequence": "You finish the meeting, because he obviously wants it finished, and then knock on his door at midnight holding two mugs of tea.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Lola announces, with rehearsed calm, that her girlfriend Priya might move in. The lease is up in March. The math, suddenly, is different.",
+      "text": "Lola has rehearsed this somewhere, probably the shower. Priya might move in when the lease turns over in March. Not 'stay over more' — move in, with a bed frame and a rice cooker and firm opinions about the couch. Rent divides differently by five. So does the bathroom. So does everything, and Lola knows it, which is why she rehearsed.",
       "sceneTitle": "Lola's Item",
       "choices": [
         {
           "text": "Engage with the math honestly",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Cost.",
+          "consequence": "You have the rent split on your phone within nine seconds. Accurate, useful, and precisely the wrong thing to reach for first.",
           "nextNodeId": "s6"
         },
         {
           "text": "Engage with Priya as a person first",
-          "consequence": "Person before lease.",
+          "consequence": "You ask what Priya actually wants out of it. Lola's shoulders drop two full inches and she answers for eight straight minutes.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Marcus, who has been quietly considering a move to Berlin, says — out loud, for the first time — 'I might leave in May.' The room, again, shifts. Three big things on the agenda. None of them is, anymore, the dishwasher.",
+      "text": "Marcus says he might leave in May. Berlin. He has apparently been thinking about it since February, and he told a coworker before he told any of you, which lands harder than the leaving does. Three enormous things now sit on the table and the dishwasher is not one of them. Nobody has touched the chips.",
       "sceneTitle": "Marcus's Pivot",
       "choices": [
         {
           "text": "Address all three at once",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Comprehensive.",
+          "consequence": "You try to hold all three in the air at once. It goes roughly the way juggling goes for people who have never juggled.",
           "nextNodeId": "s8"
         },
         {
           "text": "Take them one by one",
-          "consequence": "The decision settles the question for now. Its verdict—Sequential—follows you into whatever comes next.",
+          "consequence": "You put them in order and take them one at a time. It runs three hours, it works, and nobody in the room gets skipped.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Bento brings up, gently, that the apartment cat (Phyllis) is going to need new accommodations if anyone moves. Phyllis is, technically, all of yours. Phyllis is, emotionally, Bento's.",
+      "text": "Bento raises Phyllis. Gently, framed as logistics: if people start leaving, where does the cat live? Phyllis is legally all four of yours — the shelter form has four names on it. Phyllis is emotionally Bento's, completely, and has been since the week she arrived and chose his radiator. Everyone knows. Nobody has ever said it out loud.",
       "sceneTitle": "The Cat",
       "choices": [
         {
           "text": "Promise Bento that Phyllis stays with him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Easy.",
+          "consequence": "You say it flatly, first, before anyone can start negotiating. Bento nods at the table and doesn't look up for a while.",
           "nextNodeId": "s8"
         },
         {
           "text": "Set up shared visitation if anyone moves",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Custody.",
+          "consequence": "You propose custody terms for a cat. It is deeply absurd and everyone takes it entirely seriously, including, apparently, Phyllis.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "The shared chore spreadsheet has, over six months, mutated into a mood tracker, a snack inventory, and a grudge log. You all look at it together for the first time in a year. It is, terrifyingly, accurate.",
+      "text": "The chore spreadsheet has grown organs. Six months of drift and it now has a mood column, a snack inventory, a tab labeled 'Notes' that is unambiguously a grudge log, and conditional formatting that turns a cell red after nine days. You put it on the TV. The four of you read it in silence. It's accurate. That's the problem.",
       "sceneTitle": "The Spreadsheet Wars",
       "choices": [
         {
           "text": "Archive it and start fresh",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Reset.",
+          "consequence": "You duplicate it, rename the copy ARCHIVE, and never open it again. Nobody deletes anything. Nobody in this house has ever deleted anything.",
           "nextNodeId": "s10"
         },
         {
           "text": "Audit it column by column",
-          "consequence": "“Audit it column by column” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You go through it cell by cell for ninety minutes. Two apologies come out of it. One of them is yours and it's overdue.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Lola proposes Tuesday dinners — a guaranteed time you're all in the same room weekly. Marcus, who has a yoga class, hesitates. Bento, who needs this, says 'please.'",
+      "text": "Lola proposes Tuesday dinners. Everyone in this apartment, in this room, weekly, phones face down, cooking optional. Marcus hesitates, because Tuesday is yoga, and the whole room watches a man weigh a yoga class against his own household. Then Bento says 'please' — one word — and Marcus cancels the class before anybody has voted.",
       "sceneTitle": "Tuesday Dinners",
       "choices": [
         {
           "text": "Make Tuesday a permanent rule",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Routine.",
+          "consequence": "You write it on the whiteboard in permanent marker, which is either a commitment or vandalism. The rule holds for four years.",
           "nextNodeId": "s10"
         },
         {
           "text": "Try it for a month first",
-          "consequence": "You commit to “Try it for a month first.” The story records the instinct as “Trial” and carries it forward.",
+          "consequence": "You call it a trial so that nobody has to be brave about it. It is a trial in the sense that a puppy is a trial.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Priya arrives with a roast chicken she has, somehow, cooked at her own apartment and transported. She is, immediately, the fifth member of the room in a way nobody quite predicted.",
+      "text": "Priya arrives with a roast chicken she cooked in her own apartment in Bed-Stuy and carried on the G train wrapped in two towels, still warm. She doesn't ask where anything is. She finds the good knife on her second try. By dessert she's arguing with Marcus about a movie, and nobody remembers she isn't technically a roommate.",
       "sceneTitle": "Priya's First Dinner",
       "choices": [
         {
           "text": "Vote her in early",
-          "consequence": "There is no taking “Vote her in early” back. Welcome shapes the silence before the next moment arrives.",
+          "consequence": "You call the vote that night, over pie. Four to zero, and afterward Lola has to go stand in the hallway for a minute.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take six months to vote",
-          "consequence": "The decision settles the question for now. Its verdict—Pace—follows you into whatever comes next.",
+          "consequence": "You suggest waiting until spring, which is reasonable, careful, and visibly disappointing to exactly one person at this table.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Bento's dad gets a better doctor. The treatment plan is, slowly, working. The room celebrates one Friday with a takeout dinner that costs more than any of you should spend. Nobody minds.",
+      "text": "A new oncologist, a better plan, numbers moving the right direction for the first time since August. Bento tells you in the kitchen at seven in the morning and then has to sit down on the floor to finish telling you. On Friday you order from the expensive Thai place nobody can justify and spend eighty-four dollars on dumplings. Nobody mentions the total.",
       "sceneTitle": "Bento's Dad",
       "choices": [
         {
           "text": "Make a tradition of small celebrations",
-          "consequence": "There is no taking “Make a tradition of small celebrations” back. Mark joy shapes the silence before the next moment arrives.",
+          "consequence": "You start marking every small good thing with takeout. It becomes expensive. It also gets used constantly, which is the justification.",
           "nextNodeId": "s12"
         },
         {
           "text": "Keep it casual; don't formalize joy",
-          "consequence": "The decision settles the question for now. Its verdict—Light—follows you into whatever comes next.",
+          "consequence": "You leave it unscheduled. Certain things curdle the instant you put them into a shared calendar, and all four of you know it.",
           "nextNodeId": "s13"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "Marcus's Berlin plan firms up. He cries at a Tuesday dinner. The cry is, in its own way, the whole apartment saying 'we are about to change.'",
+      "text": "Berlin firms up: a start date, a sublet in Neukölln, a visa appointment on a Wednesday. At a Tuesday dinner, halfway through describing that apartment's terrible kitchen, Marcus stops talking and cries into a bowl of pasta he cooked himself. Nobody speaks for a bit. The crying is the apartment announcing it's about to change shape.",
       "sceneTitle": "Marcus and Berlin",
       "choices": [
         {
           "text": "Plan the goodbye thoughtfully",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor it.",
+          "consequence": "You open a shared doc for his last night and hide it from him. It fills in two days with things none of you would say aloud.",
           "nextNodeId": "s14"
         },
         {
           "text": "Plan a visit to Berlin together for the fall",
-          "consequence": "You commit to “Plan a visit to Berlin together for the fall.” The story records the instinct as “Future-focused” and carries it forward.",
+          "consequence": "You book October flights at the table, badly, across three phones. It costs too much and it makes the goodbye survivable.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Phyllis, ten years old, has a small scare at the vet. She turns out to be fine. The fact that all four of you went to the vet together makes the receptionist laugh.",
+      "text": "Phyllis is ten and stops eating for two days, so all four of you go to the vet together on a Saturday in one car service. She turns out to have a bad tooth and an attitude. The receptionist looks at four adults crowded around one carrier and asks, with total sincerity, whether this is a support group.",
       "sceneTitle": "Phyllis at the Vet",
       "choices": [
         {
           "text": "Confirm Phyllis's primary parent is Bento",
-          "consequence": "“Confirm Phyllis's primary parent is Bento” closes one possibility and opens another. The moment leaves a clear note behind: Clarify.",
+          "consequence": "You have the vet list Bento's number first. He calls it a formality and then changes his phone background that same night.",
           "nextNodeId": "s14"
         },
         {
           "text": "Decide Phyllis is, in the end, a shared family member",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Shared.",
+          "consequence": "You put all four numbers on the form. The vet tech sighs and writes very small. Phyllis, unaware of any of this, bites her.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "On Marcus's last night you cook the meals he loves and bring out the bottle of wine he saved. Lola makes him a small album of photos. Bento writes him a letter. You hand him a small box.",
+      "text": "His last night in the apartment. You cook the three things he always asks for and open the wine he's been saving since 2019 for no stated reason. Lola made an album. Bento wrote a letter and physically cannot be in the room while Marcus reads it. You hand him a small box and immediately want it back.",
       "sceneTitle": "Marcus's Goodbye",
       "choices": [
         {
           "text": "Tell Marcus what he meant to you",
-          "consequence": "The decision settles the question for now. Its verdict—Out loud—follows you into whatever comes next.",
+          "consequence": "You say it out loud, badly, while your hands do something strange. He hugs you before you finish, which is a genuine mercy.",
           "nextNodeId": "s16"
         },
         {
           "text": "Let the small box speak",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Quiet.",
+          "consequence": "You say nothing at all. Inside is the original chore wheel, laminated. He looks at it a long time and puts it in his carry-on.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Five months later, three of you visit Marcus in Berlin. He shows you his bakery, his park, his new dumb mustache. You realize the apartment was never just walls. It was the people.",
+      "text": "Five months on, three of you land in Berlin with one suitcase too many. Marcus shows you his bakery, his park, his U-Bahn stop, and a mustache that was never approved by committee. On the fourth day, eating in his kitchen off two plates and a saucepan lid, you understand that the apartment was never the apartment.",
       "sceneTitle": "Berlin Trip",
       "choices": [
         {
           "text": "Make annual trips a thing",
-          "consequence": "You commit to “Make annual trips a thing.” The story records the instinct as “Tradition” and carries it forward.",
+          "consequence": "You make a rule on the flight home: once a year, wherever anybody happens to live. The rule survives nine consecutive years.",
           "nextNodeId": "s16"
         },
         {
           "text": "Take this trip and let the future be the future",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Present-only.",
+          "consequence": "You promise nothing at the gate. It's the honest move, and it makes the entire trip lighter to carry back through customs.",
           "nextNodeId": "s17"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "Priya's stuff arrives in a U-Haul Lola has, somehow, driven in Brooklyn without weeping. The apartment fits her quickly. The new chore wheel includes her in handwriting that is, finally, less aggressive.",
+      "text": "The U-Haul arrives and Lola has driven it across Brooklyn without weeping, a fact she mentions six separate times. Priya's things absorb into the apartment inside a day — her lamp looks like it has always stood there. The new chore wheel has her name on it, in handwriting noticeably calmer than the handwriting on the old one.",
       "sceneTitle": "Priya Officially Moves In",
       "choices": [
         {
           "text": "Move in together permanently as a chosen family",
-          "consequence": "The decision settles the question for now. Its verdict—Build—follows you into whatever comes next.",
+          "consequence": "You use the word 'permanent' at dinner and nobody flinches. Five people quietly decide something without anyone calling a vote.",
           "nextNodeId": "s18"
         },
         {
           "text": "Stay flexible; let people come and go",
-          "consequence": "There is no taking “Stay flexible; let people come and go” back. Open shapes the silence before the next moment arrives.",
+          "consequence": "You leave the door unlocked, metaphorically, and once literally. People leave regardless. Better that they leave still welcome.",
           "nextNodeId": "s18"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "You and Bento, late one night, redesign the spreadsheet with a single sheet titled 'Joy' that just tracks small good moments. The sheet has, by year's end, several hundred entries. You realize the apartment has gotten richer in the kind of math that counts.",
+      "text": "One in the morning, you and Bento rebuild the spreadsheet from scratch. Chores stay. The grudge log goes. And you add one tab, titled Joy, which logs small good things: date, who, what. The first entry is Priya's chicken on the G train. By December it holds six hundred and forty entries, and neither of you has told anyone.",
       "sceneTitle": "The Spreadsheet, Reborn",
       "choices": [
         {
           "text": "Show the sheet at New Year's",
-          "consequence": "There is no taking “Show the sheet at New Year's” back. Share shapes the silence before the next moment arrives.",
+          "consequence": "You put it on the TV at 11:40 on the thirty-first. Priya reads three entries out loud and then cannot manage the fourth.",
           "nextNodeId": "s19"
         },
         {
           "text": "Keep the sheet private to the two of you",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Quiet.",
+          "consequence": "The two of you keep it. It stays a small private religion with a congregation of two and outstanding attendance records.",
           "nextNodeId": "s19"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "You float the idea of an annual roommate trip — three nights, somewhere small. The chat blows up with location ideas. Marcus, in Berlin, requests Sicily. Nobody can afford Sicily. Everyone agrees to a cabin in the Catskills.",
+      "text": "Somebody floats an annual trip — three nights, somewhere small. The chat detonates. Marcus, from Berlin, votes Sicily. Nobody can afford Sicily; Lola sends a screenshot of what Sicily costs in July with no caption attached. Inside forty minutes the group has unanimously agreed on a Catskills cabin with a wood stove and deeply questionable reviews.",
       "sceneTitle": "The Annual Trip",
       "choices": [
         {
           "text": "Plan it now",
-          "consequence": "Build the tradition.",
+          "consequence": "You book it that night with a non-refundable deposit, because deposits are how adults force themselves to see each other again.",
           "nextNodeId": "s20"
         },
         {
           "text": "Plan it when energy is higher",
-          "consequence": "You commit to “Plan it when energy is higher.” The story records the instinct as “Later” and carries it forward.",
+          "consequence": "You agree to sort it in spring. It does get sorted in spring, four days before that cabin books out for the entire season.",
           "nextNodeId": "s20"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Phyllis, sixteen, slows down. You take turns sleeping on the couch with her. The apartment becomes a hospice and a celebration at once. You realize the joy sheet has, in this last year, never been more full.",
+      "text": "Phyllis is sixteen and has stopped doing stairs. You take shifts on the couch — unspoken, sorted out by whoever gets home first. She sleeps on whichever chest is available. The apartment becomes a hospice and a party at the same time, and in five years the Joy tab has never had a month like this one.",
       "sceneTitle": "Phyllis's Last Year",
       "choices": [
         {
           "text": "Stay in this apartment through the loss",
-          "consequence": "“Stay in this apartment through the loss” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You renew a lease you had planned to break. The apartment is a hard place to be right now and the only correct one.",
           "nextNodeId": "s20"
         },
         {
           "text": "Let it be the place that held her, then move",
-          "consequence": "“Let it be the place that held her, then move” closes one possibility and opens another. The moment leaves a clear note behind: Move on.",
+          "consequence": "You decide to leave after. Some rooms have finished the job they were built for, and asking more of them isn't fair.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "December 31. You and Bento, Lola, Priya, and a FaceTime'd Marcus stand on the roof at 11:58. You decide together what kind of family you'll be next year — the long-haul chosen kind, or the open-door kind that lets people grow.",
+      "text": "December 31, 11:58, tar roof, borrowed folding chairs. Lola and Priya are sharing one coat. Bento holds a phone at arm's length with Marcus on it, six hours ahead and already drunk in a different year. Somebody asks what next year is supposed to be. It's a real question, and everybody waits for the answer.",
       "sceneTitle": "New Year's, on the Roof",
       "choices": [
         {
           "text": "Chosen family, locked in",
-          "consequence": "The decision settles the question for now. Its verdict—Family—follows you into whatever comes next.",
+          "consequence": "You say the loud version — these people, on purpose, for the long haul — out loud on a roof at midnight, and you mean it.",
           "nextNodeId": "end_family"
         },
         {
           "text": "Open door, evolving family",
-          "consequence": "You commit to “Open door, evolving family.” The story records the instinct as “Open” and carries it forward.",
+          "consequence": "You say the softer version: whoever's here is here, whoever goes is still ours. Marcus, over the phone, agrees at volume.",
           "nextNodeId": "end_open"
         }
       ],
@@ -399,7 +399,7 @@
     },
     {
       "id": "end_family",
-      "text": "Years later, two of you are at the others' weddings. Three of you co-own a small bakery in Brooklyn. Phyllis lives a long, full cat life. The apartment, when the lease finally ends, is replaced — by all of you, deliberately — with a series of apartments that, in the end, become a network of homes.",
+      "text": "Two of you give speeches at the others' weddings and both speeches run long. Three of you go in on a bakery on Nostrand that survives its first winter and then does better than any of you deserve. Phyllis lives to seventeen in a sunbeam. When the lease finally ends you don't replace the apartment with an apartment — you replace it with four addresses and a group chat that has never once gone quiet for a full day.",
       "sceneTitle": "Chosen Family",
       "choices": [],
       "isEnding": true,
@@ -407,7 +407,7 @@
     },
     {
       "id": "end_open",
-      "text": "Some of you move. Some of you stay. Some of you, years later, drift apart in the ordinary way friends drift. You realize the apartment was a kind of beginning, not a permanent address. You are okay with that. You are, in fact, grateful for it.",
+      "text": "People move. Priya and Lola get a place with a dishwasher that actually works. Marcus stays in Berlin and becomes alarmingly German about recycling. You and Bento drift the ordinary way — three texts a month, then one, then a birthday. It isn't a failure. The apartment was a beginning rather than an address, and years later, in a kitchen in another borough, you still stack the small plates upright without once wondering why.",
       "sceneTitle": "Open House",
       "choices": [],
       "isEnding": true,

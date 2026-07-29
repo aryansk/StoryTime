@@ -18,17 +18,17 @@
   "nodes": [
     {
       "id": "m1",
-      "text": "She is sleeping. A tiny hat. No tags.",
+      "text": "She is sleeping. A tiny hat. No tags. You cannot avoid Crib; you can only decide whether “Bring her in” or “Call police” defines the person who reaches it.",
       "sceneTitle": "Step",
       "choices": [
         {
           "text": "Bring her in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Heart.",
+          "consequence": "You commit to bring her in. By Crib, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m2"
         },
         {
           "text": "Call police",
-          "consequence": "You commit to “Call police.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to call police. By Crib, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m2"
         }
       ],
@@ -37,17 +37,17 @@
     },
     {
       "id": "m2",
-      "text": "You don't own a crib. The laundry basket has just been emptied.",
+      "text": "You don't own a crib. The laundry basket has just been emptied. The Note is already waiting. What changes is whether “Improvise” or “Drive to the 24-hour store” is the instinct you carry into it.",
       "sceneTitle": "Crib",
       "choices": [
         {
           "text": "Improvise",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Practical.",
+          "consequence": "You commit to improvise. By The Note, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m3"
         },
         {
           "text": "Drive to the 24-hour store",
-          "consequence": "You commit to “Drive to the 24-hour store.” The story records the instinct as “Forward” and carries it forward.",
+          "consequence": "You choose to drive to the 24-hour store. It opens the route to The Note, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m3"
         }
       ],
@@ -56,17 +56,17 @@
     },
     {
       "id": "m3",
-      "text": "Handwritten. 'I trust you. I'll come back. Be kind.'",
+      "text": "Handwritten. 'I trust you. I'll come back. Hours comes either way; its meaning changes with the difference between “Believe it” and “Doubt it.”",
       "sceneTitle": "The Note",
       "choices": [
         {
           "text": "Believe it",
-          "consequence": "You commit to “Believe it.” The story records the instinct as “Heart” and carries it forward.",
+          "consequence": "You choose to believe it. It opens the route to Hours, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m4"
         },
         {
           "text": "Doubt it",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Wise.",
+          "consequence": "You commit to doubt it. By Hours, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m4"
         }
       ],
@@ -75,17 +75,17 @@
     },
     {
       "id": "m4",
-      "text": "She fusses, then sleeps, then fusses. You learn fast.",
+      "text": "She fusses, then sleeps, then fusses. You learn fast. You cannot avoid Knock; you can only decide whether “Stay calm” or “Cry quietly” defines the person who reaches it.",
       "sceneTitle": "Hours",
       "choices": [
         {
           "text": "Stay calm",
-          "consequence": "There is no taking “Stay calm” back. Care shapes the silence before the next moment arrives.",
+          "consequence": "You choose to stay calm. It opens the route to Knock, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m5"
         },
         {
           "text": "Cry quietly",
-          "consequence": "“Cry quietly” closes one possibility and opens another. The moment leaves a clear note behind: Honest.",
+          "consequence": "You commit to cry quietly. By Knock, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "m5"
         }
       ],
@@ -94,17 +94,17 @@
     },
     {
       "id": "m5",
-      "text": "A woman, exhausted, at the door at sunrise. She is, you understand instantly, the mother.",
+      "text": "A woman, exhausted, at the door at sunrise. She is, you understand instantly, the mother. Coffee will follow either decision, but it will meet a different version of you after “Welcome her in” than after “Stand at the door.”",
       "sceneTitle": "Knock",
       "choices": [
         {
           "text": "Welcome her in",
-          "consequence": "There is no taking “Welcome her in” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You welcome her in. The decision moves you toward Coffee and tells everyone present what you are willing to risk.",
           "nextNodeId": "m6"
         },
         {
           "text": "Stand at the door",
-          "consequence": "You commit to “Stand at the door.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You choose to stand at the door. It opens the route to Coffee, giving up the protection of pretending you had not decided.",
           "nextNodeId": "m6"
         }
       ],
@@ -113,17 +113,17 @@
     },
     {
       "id": "m6",
-      "text": "She drinks two cups. She tells you, slowly, the year she has had.",
+      "text": "She drinks two cups. She tells you, slowly, the year she has had. The distance between Aunt, Unofficially and Quietly Yours begins with the choice between “Listen” and “Offer help.”",
       "sceneTitle": "Coffee",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honor.",
+          "consequence": "You commit to listen. By Aunt, Unofficially, the choice has already shifted who trusts you and who begins to watch.",
           "nextNodeId": "end_aunt"
         },
         {
           "text": "Offer help",
-          "consequence": "You commit to “Offer help.” The story records the instinct as “Care” and carries it forward.",
+          "consequence": "You offer help. The decision moves you toward Quietly Yours and tells everyone present what you are willing to risk.",
           "nextNodeId": "end_self"
         }
       ],

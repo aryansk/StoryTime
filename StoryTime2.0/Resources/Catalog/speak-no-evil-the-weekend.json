@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "Paddy and Ciara wave from the porch with the warmth you remember. Their house is bigger than they implied. Your wife squeezes your hand once — a code that means 'I am being polite for both of us already.'",
+      "text": "Paddy and Ciara wave from the porch with the warmth you remember. Their house is bigger than they implied. “Be open and grateful” draws you toward The Welcome Drink; “Be polite and observant” leaves The Cottage waiting on the other side.",
       "sceneTitle": "The Driveway",
       "choices": [
         {
           "text": "Be open and grateful",
-          "consequence": "Trust the invitation.",
+          "consequence": "You choose to be open and grateful. By The Welcome Drink, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s2"
         },
         {
           "text": "Be polite and observant",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Watch first.",
+          "consequence": "You be polite and observant. The way toward The Cottage opens, and something on the other side seems to notice.",
           "nextNodeId": "s3"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "Paddy pours something amber. The toast is too long. Your daughter Agnes, nine, drinks her juice carefully and watches their boy Ant, who sits very still on a couch.",
+      "text": "Paddy pours something amber. The toast is too long. Your daughter Agnes, nine, drinks her juice carefully and watches their boy Ant, who sits very still on a couch. The distance between Dinner, Course One and Ant's Quiet begins with the choice between “Ask kindly about Ant” and “Move past the silence with a joke.”",
       "sceneTitle": "The Welcome Drink",
       "choices": [
         {
           "text": "Ask kindly about Ant",
-          "consequence": "Curiosity is care.",
+          "consequence": "You choose to ask kindly about Ant. By Dinner, Course One, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Move past the silence with a joke",
-          "consequence": "Smooth the room.",
+          "consequence": "You choose to move past the silence with a joke. By Ant's Quiet, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Your guest cottage is across a courtyard. It locks from the outside. Paddy laughs. 'Old farmhouse,' he says. 'Lots of weird quirks.' He shows you a tiny knob to override the latch from inside.",
+      "text": "Your guest cottage is across a courtyard. It locks from the outside. Paddy laughs. 'Old farmhouse,' he says. 'Lots of weird quirks.' He shows you a tiny knob to override the latch from inside. The distance between Dinner, Course One and Ant's Quiet begins with the choice between “Use the knob; reset the lock” and “Don't show you noticed.”",
       "sceneTitle": "The Cottage",
       "choices": [
         {
           "text": "Use the knob; reset the lock",
-          "consequence": "Test the trap.",
+          "consequence": "You choose to use the knob; reset the lock. By Dinner, Course One, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s4"
         },
         {
           "text": "Don't show you noticed",
-          "consequence": "Hide your noticing.",
+          "consequence": "You choose to don't show you noticed. By Ant's Quiet, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s5"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "Ciara serves rabbit. Your wife is vegetarian. Ciara has been told — twice. Ciara, smiling, says, 'You'll try a little, won't you.'",
+      "text": "Ciara serves rabbit. Your wife is vegetarian. Ciara has been told — twice. “Let your wife refuse politely” draws you toward Dance Floor; “Cover for her with a joke” leaves The Bedroom Walls waiting on the other side.",
       "sceneTitle": "Dinner, Course One",
       "choices": [
         {
           "text": "Let your wife refuse politely",
-          "consequence": "Boundaries are also love.",
+          "consequence": "Boundaries are also love. You choose to let your wife refuse politely. By Dance Floor, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s6"
         },
         {
           "text": "Cover for her with a joke",
-          "consequence": "Smooth, but smaller.",
+          "consequence": "You commit to cover for her with a joke. It carries you into The Bedroom Walls while the safer possibility closes without making a sound.",
           "nextNodeId": "s7"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Ant doesn't speak. Paddy says he was born without a tongue. He says it like he's offering tea. You notice Ant's mouth opens. You notice the cut is too clean to be congenital.",
+      "text": "Ant doesn't speak. Paddy says he was born without a tongue. He says it like he's offering tea. You notice Ant's mouth opens. You notice the cut is too clean to be congenital. “Quietly text your friend who's a pediatrician” opens the route to Dance Floor. “Try to communicate with Ant directly” changes the terms and carries you toward The Bedroom Walls.",
       "sceneTitle": "Ant's Quiet",
       "choices": [
         {
           "text": "Quietly text your friend who's a pediatrician",
-          "consequence": "You commit to “Quietly text your friend who's a pediatrician.” The story records the instinct as “Verify medically” and carries it forward.",
+          "consequence": "You quietly text your friend who's a pediatrician. The way toward Dance Floor opens, and something on the other side seems to notice.",
           "nextNodeId": "s6"
         },
         {
           "text": "Try to communicate with Ant directly",
-          "consequence": "Person before protocol.",
+          "consequence": "You choose to try to communicate with Ant directly. By The Bedroom Walls, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s7"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "After dinner Paddy puts on music too loud. He wants your wife to dance. He grabs her hand. She glances at you. The whole room has, suddenly, the wrong temperature.",
+      "text": "After dinner Paddy puts on music too loud. He wants your wife to dance. He grabs her hand. She glances at you. The whole room has, suddenly, the wrong temperature. To choose “Cut in and dance with your wife” means meeting Agnes, Awake; “Politely end the night with a yawn” sends you toward Ciara, Pleading instead.",
       "sceneTitle": "Dance Floor",
       "choices": [
         {
           "text": "Cut in and dance with your wife",
-          "consequence": "Intervene physically without escalating.",
+          "consequence": "Intervene physically without escalating. You choose to cut in and dance with your wife. By Agnes, Awake, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Politely end the night with a yawn",
-          "consequence": "End the social event.",
+          "consequence": "You politely end the night with a yawn. The way toward Ciara, Pleading opens, and something on the other side seems to notice.",
           "nextNodeId": "s9"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "From the guest cottage you hear, distinctly, Ant crying in the main house. The crying is not normal nine-year-old crying. The crying is muffled because there is a hand over a mouth.",
+      "text": "From the guest cottage you hear, distinctly, Ant crying in the main house. The crying is not normal nine-year-old crying. The crying is muffled because there is a hand over a mouth. Choose “Go to the main house immediately” and Agnes, Awake comes into view; choose “Call the local police first” and the road bends toward Ciara, Pleading.",
       "sceneTitle": "The Bedroom Walls",
       "choices": [
         {
           "text": "Go to the main house immediately",
-          "consequence": "Act on what you hear.",
+          "consequence": "You choose to go to the main house immediately. By Agnes, Awake, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s8"
         },
         {
           "text": "Call the local police first",
-          "consequence": "Authority before action.",
+          "consequence": "Authority before action. You commit to call the local police first. It carries you into Ciara, Pleading while the safer possibility closes without making a sound.",
           "nextNodeId": "s9"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Agnes, in the guest cottage, is awake and afraid. She says, in the calm voice children sometimes use when they're trying to help adults focus, 'I want to go home.'",
+      "text": "Agnes, in the guest cottage, is awake and afraid. The distance between Back Roads and First Light begins with the choice between “Get the keys and leave tonight” and “Promise her you'll all leave at first light.”",
       "sceneTitle": "Agnes, Awake",
       "choices": [
         {
           "text": "Get the keys and leave tonight",
-          "consequence": "Trust your child.",
+          "consequence": "You choose to get the keys and leave tonight. By Back Roads, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Promise her you'll all leave at first light",
-          "consequence": "Don't drive a back road in the dark.",
+          "consequence": "Don't drive a back road in the dark. You commit to promise her you'll all leave at first light. It carries you into First Light while the safer possibility closes without making a sound.",
           "nextNodeId": "s11"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Ciara catches you in the hallway. She is trembling. 'You don't understand,' she whispers. 'We need to leave too. Tonight. Take us with you.' She is, you realize, a victim in this house.",
+      "text": "Ciara catches you in the hallway. She is trembling. 'You don't understand,' she whispers. 'We need to leave too. Tonight. Take us with you.' She is, you realize, a victim in this house. The distance between Back Roads and First Light begins with the choice between “Believe Ciara and plan a joint exit” and “Trust nothing yet — get your family out first.”",
       "sceneTitle": "Ciara, Pleading",
       "choices": [
         {
           "text": "Believe Ciara and plan a joint exit",
-          "consequence": "Save who you can.",
+          "consequence": "You choose to believe Ciara and plan a joint exit. By Back Roads, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s10"
         },
         {
           "text": "Trust nothing yet — get your family out first",
-          "consequence": "There is no taking “Trust nothing yet — get your family out first” back. Family first shapes the silence before the next moment arrives.",
+          "consequence": "You trust nothing yet — get your family out first. The way toward First Light opens, and something on the other side seems to notice.",
           "nextNodeId": "s11"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "Three a.m. The car is loaded. Paddy is at the gate, in the headlights, holding a clipboard like a friendly farmer. He smiles. 'Just a quick question,' he says.",
+      "text": "Three a.m. The car is loaded. Paddy is at the gate, in the headlights, holding a clipboard like a friendly farmer. He smiles. 'Just a quick question,' he says. The paths divide here: “Drive past him” leads into The Police Station, while “Roll the window an inch and stall” makes The Drive Home the next reckoning.",
       "sceneTitle": "Back Roads",
       "choices": [
         {
           "text": "Drive past him",
-          "consequence": "Don't roll the window down.",
+          "consequence": "Don't roll the window down. You choose to drive past him. By The Police Station, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s12"
         },
         {
           "text": "Roll the window an inch and stall",
-          "consequence": "Buy a second.",
+          "consequence": "You commit to roll the window an inch and stall. It carries you into The Drive Home while the safer possibility closes without making a sound.",
           "nextNodeId": "s13"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Six a.m. The car packed casually. You make it to the gate. Paddy is, somehow, already there, brewing coffee from a thermos. He hands you one through the window. The smell is wrong.",
+      "text": "Six a.m. The car packed casually. You make it to the gate. Paddy is, somehow, already there, brewing coffee from a thermos. He hands you one through the window. The smell is wrong. The distance between The Police Station and The Drive Home begins with the choice between “Refuse the coffee” and “Take it, pour it out of sight later.”",
       "sceneTitle": "First Light",
       "choices": [
         {
           "text": "Refuse the coffee",
-          "consequence": "Don't drink at the line.",
+          "consequence": "Don't drink at the line. You refuse the coffee. The way toward The Police Station opens, and something on the other side seems to notice.",
           "nextNodeId": "s12"
         },
         {
           "text": "Take it, pour it out of sight later",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Performative gratitude.",
+          "consequence": "You take it, pour it out of sight later. The way toward The Drive Home opens, and something on the other side seems to notice.",
           "nextNodeId": "s13"
         }
       ],
@@ -233,12 +233,12 @@
       "choices": [
         {
           "text": "Stay to give a full statement",
-          "consequence": "Be the witness.",
+          "consequence": "You commit to stay to give a full statement. It carries you into The Investigation while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Get on the ferry home with your family",
-          "consequence": "You commit to “Get on the ferry home with your family.” The story records the instinct as “Survival first” and carries it forward.",
+          "consequence": "You choose to get on the ferry home with your family. By Therapy, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "You drive home with your wife and daughter and, if you took her, Ciara and Ant in the backseat. The morning is, against all odds, blue. Your daughter falls asleep on Ant's shoulder.",
+      "text": "You drive home with your wife and daughter and, if you took her, Ciara and Ant in the backseat. The morning is, against all odds, blue. Your daughter falls asleep on Ant's shoulder. To choose “Stop at every petrol station to put miles between” means meeting The Investigation; “Drive home in one long stretch” sends you toward Therapy instead.",
       "sceneTitle": "The Drive Home",
       "choices": [
         {
           "text": "Stop at every petrol station to put miles between",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Buy distance.",
+          "consequence": "You commit to stop at every petrol station to put miles between. It carries you into The Investigation while the safer possibility closes without making a sound.",
           "nextNodeId": "s14"
         },
         {
           "text": "Drive home in one long stretch",
-          "consequence": "Get there fast.",
+          "consequence": "You choose to drive home in one long stretch. By Therapy, the danger will know a little more about you than you know about it.",
           "nextNodeId": "s15"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The local police call colleagues in other countries. Paddy and Ciara have used this trick four times. There are missing families. There are partial confessions. There is finally, finally, a case.",
+      "text": "The local police call colleagues in other countries. Paddy and Ciara have used this trick four times. There are missing families. There are partial confessions. There is finally, finally, a case. “Cooperate fully through the trial” opens the route to Ant's Life. “Give a statement and protect your family's privacy after” changes the terms and carries you toward Five Years Later.",
       "sceneTitle": "The Investigation",
       "choices": [
         {
           "text": "Cooperate fully through the trial",
-          "consequence": "See it through.",
+          "consequence": "You cooperate fully through the trial. The way toward Ant's Life opens, and something on the other side seems to notice.",
           "nextNodeId": "s16"
         },
         {
           "text": "Give a statement and protect your family's privacy after",
-          "consequence": "Witness, then withdraw.",
+          "consequence": "You commit to give a statement and protect your family's privacy after. It carries you into Five Years Later while the safer possibility closes without making a sound.",
           "nextNodeId": "s17"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Your daughter starts seeing a therapist who is good with kids. Your wife starts seeing one too. You start, after some resistance, going yourself. The trip becomes, in time, a thing you survived together.",
+      "text": "Your daughter starts seeing a therapist who is good with kids. Your wife starts seeing one too. You start, after some resistance, going yourself. The trip becomes, in time, a thing you survived together. Choose “Tell the story when she asks” and Ant's Life comes into view; choose “Don't volunteer until she's older” and the road bends toward Five Years Later.",
       "sceneTitle": "Therapy",
       "choices": [
         {
           "text": "Tell the story when she asks",
-          "consequence": "Honesty in doses.",
+          "consequence": "You commit to tell the story when she asks. It carries you into Ant's Life while the safer possibility closes without making a sound.",
           "nextNodeId": "s16"
         },
         {
           "text": "Don't volunteer until she's older",
-          "consequence": "Protect her now.",
+          "consequence": "You don't volunteer until she's older. The way toward Five Years Later opens, and something on the other side seems to notice.",
           "nextNodeId": "s17"
         }
       ],
@@ -309,12 +309,12 @@
       "choices": [
         {
           "text": "Stay in touch as a friend of the family",
-          "consequence": "Adopt a small role.",
+          "consequence": "You stay in touch as a friend of the family. The way toward The First Visit opens, and something on the other side seems to notice.",
           "nextNodeId": "s18"
         },
         {
           "text": "Let him have his new life without yours in it",
-          "consequence": "You commit to “Let him have his new life without yours in it.” The story records the instinct as “Step back” and carries it forward.",
+          "consequence": "You commit to let him have his new life without yours in it. It carries you into The Quiet Decision while the safer possibility closes without making a sound.",
           "nextNodeId": "s19"
         }
       ],
@@ -328,12 +328,12 @@
       "choices": [
         {
           "text": "Make 'listen to her' a household rule",
-          "consequence": "The lesson, on the wall.",
+          "consequence": "The lesson, on the wall. You commit to make 'listen to her' a household rule. It carries you into The Whiteboard while the safer possibility closes without making a sound.",
           "nextNodeId": "s20"
         },
         {
           "text": "Just keep doing what you've been doing",
-          "consequence": "Habits are also vows.",
+          "consequence": "You just keep doing what you've been doing. The way toward The Whiteboard opens, and something on the other side seems to notice.",
           "nextNodeId": "s20"
         }
       ],
@@ -347,12 +347,12 @@
       "choices": [
         {
           "text": "Make this a regular part of your year",
-          "consequence": "Become the slow yes.",
+          "consequence": "You make this a regular part of your year. The way toward Ant's Aunt opens, and something on the other side seems to notice.",
           "nextNodeId": "end_friend"
         },
         {
           "text": "Send a card next month and see what feels right",
-          "consequence": "Let the relationship grow at its pace.",
+          "consequence": "Let the relationship grow at its pace. You choose to send a card next month and see what feels right. By Stepping Back, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_step"
         }
       ],
@@ -366,12 +366,12 @@
       "choices": [
         {
           "text": "Hold to the quiet plan",
-          "consequence": "Restraint as care.",
+          "consequence": "You choose to hold to the quiet plan. By Stepping Back, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_step"
         },
         {
           "text": "Make one visit, then decide again",
-          "consequence": "Try the door once.",
+          "consequence": "You make one visit, then decide again. The way toward Ant's Aunt opens, and something on the other side seems to notice.",
           "nextNodeId": "end_friend"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "On the kitchen whiteboard you write, half a joke, 'LISTEN TO HER.' Your daughter laughs. Your wife laughs. Then nobody erases it. Six months later it is still there, faded.",
+      "text": "On the kitchen whiteboard you write, half a joke, 'LISTEN TO HER.' Your daughter laughs. Your wife laughs. Then nobody erases it. Six months later it is still there, faded. “Make it the official family rule” opens the route to Listen To Her. “Let it stay faded — habits, not posters” changes the terms and carries you toward Quiet Habits.",
       "sceneTitle": "The Whiteboard",
       "choices": [
         {
           "text": "Make it the official family rule",
-          "consequence": "Some jokes are also laws.",
+          "consequence": "Some jokes are also laws. You choose to make it the official family rule. By Listen To Her, the danger will know a little more about you than you know about it.",
           "nextNodeId": "end_rule"
         },
         {
           "text": "Let it stay faded — habits, not posters",
-          "consequence": "Some rules are kept by living them.",
+          "consequence": "Some rules are kept by living them. You commit to let it stay faded — habits, not posters. It carries you into Quiet Habits while the safer possibility closes without making a sound.",
           "nextNodeId": "end_habit"
         }
       ],

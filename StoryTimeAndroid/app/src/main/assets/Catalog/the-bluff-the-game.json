@@ -19,17 +19,17 @@
   "nodes": [
     {
       "id": "s1",
-      "text": "The cove is quiet. You sit on a porch with a leg up. The harbor, on the horizon, has more sails than it had yesterday.",
+      "text": "The cove is quiet. You sit on a porch with a leg up. The harbor, on the horizon, has more sails than it had yesterday. The Daughter is already waiting. What changes is whether “Watch them” or “Get the gun” is the instinct you carry into it.",
       "sceneTitle": "The Cove",
       "choices": [
         {
           "text": "Watch them",
-          "consequence": "You commit to “Watch them.” The story records the instinct as “Wise” and carries it forward.",
+          "consequence": "You commit to watch them. It buys momentum toward The Daughter and spends the last protection hesitation gave you.",
           "nextNodeId": "s2"
         },
         {
           "text": "Get the gun",
-          "consequence": "The decision settles the question for now. Its verdict—Cautious—follows you into whatever comes next.",
+          "consequence": "You get the gun. The route to The Daughter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s2"
         }
       ],
@@ -38,17 +38,17 @@
     },
     {
       "id": "s2",
-      "text": "She walks up your beach in trousers and a cutlass. She is taller. She is also, you can tell, angry.",
+      "text": "She walks up your beach in trousers and a cutlass. She is taller. She is also, you can tell, angry. Both choices lead to The Navy, but “Welcome her” arrives there with a different cost than “Brace yourself.”",
       "sceneTitle": "The Daughter",
       "choices": [
         {
           "text": "Welcome her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You choose to welcome her. By The Navy, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         },
         {
           "text": "Brace yourself",
-          "consequence": "The decision settles the question for now. Its verdict—Smart—follows you into whatever comes next.",
+          "consequence": "You choose to brace yourself. By The Navy, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s3"
         }
       ],
@@ -57,17 +57,17 @@
     },
     {
       "id": "s3",
-      "text": "Captain Hayes of the British Navy has, with his crew, taken your old port. He has a writ in his pocket and a small smile.",
+      "text": "Captain Hayes of the British Navy has, with his crew, taken your old port. He has a writ in his pocket and a small smile. The Bar will follow either decision, but it will meet a different version of you after “Read the writ” than after “Refuse to read it.”",
       "sceneTitle": "The Navy",
       "choices": [
         {
           "text": "Read the writ",
-          "consequence": "There is no taking “Read the writ” back. Honor shapes the silence before the next moment arrives.",
+          "consequence": "You choose to read the writ. By The Bar, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s4"
         },
         {
           "text": "Refuse to read it",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Pride.",
+          "consequence": "You commit to refuse to read it. It buys momentum toward The Bar and spends the last protection hesitation gave you.",
           "nextNodeId": "s4"
         }
       ],
@@ -76,17 +76,17 @@
     },
     {
       "id": "s4",
-      "text": "The town bar is owned by an old shipmate of yours, Maria. She is, in this scene, the only honest person you know.",
+      "text": "The town bar is owned by an old shipmate of yours, Maria. She is, in this scene, the only honest person you know. You cannot avoid The Daughter, Honest; you can only decide whether “Tell Maria everything” or “Tell her half” defines the person who reaches it.",
       "sceneTitle": "The Bar",
       "choices": [
         {
           "text": "Tell Maria everything",
-          "consequence": "“Tell Maria everything” closes one possibility and opens another. The moment leaves a clear note behind: Trust.",
+          "consequence": "You choose to tell Maria everything. By The Daughter, Honest, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s5"
         },
         {
           "text": "Tell her half",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Save half.",
+          "consequence": "You commit to tell her half. It buys momentum toward The Daughter, Honest and spends the last protection hesitation gave you.",
           "nextNodeId": "s5"
         }
       ],
@@ -95,17 +95,17 @@
     },
     {
       "id": "s5",
-      "text": "Your daughter, drunk, finally tells you why she came. The reason is a ship, a mission, and a name from your past.",
+      "text": "Your daughter, drunk, finally tells you why she came. The reason is a ship, a mission, and a name from your past. Old Crew comes either way; its meaning changes with the difference between “Listen” and “Push back.”",
       "sceneTitle": "The Daughter, Honest",
       "choices": [
         {
           "text": "Listen",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Patient.",
+          "consequence": "You listen. The route to Old Crew opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s6"
         },
         {
           "text": "Push back",
-          "consequence": "The decision settles the question for now. Its verdict—Pride—follows you into whatever comes next.",
+          "consequence": "You choose to push back. By Old Crew, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s6"
         }
       ],
@@ -114,17 +114,17 @@
     },
     {
       "id": "s6",
-      "text": "Five of your old crew are alive. Two are in Havana. Two are in Tortuga. One is, embarrassingly, also retired three coves down.",
+      "text": "Five of your old crew are alive. Two are in Havana. Two are in Tortuga. One is, embarrassingly, also retired three coves down. Hayes' Move is already waiting. What changes is whether “Call them” or “Plan without them” is the instinct you carry into it.",
       "sceneTitle": "Old Crew",
       "choices": [
         {
           "text": "Call them",
-          "consequence": "“Call them” closes one possibility and opens another. The moment leaves a clear note behind: Reunion.",
+          "consequence": "You call them. The route to Hayes' Move opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s7"
         },
         {
           "text": "Plan without them",
-          "consequence": "You commit to “Plan without them.” The story records the instinct as “Solo” and carries it forward.",
+          "consequence": "You commit to plan without them. It buys momentum toward Hayes' Move and spends the last protection hesitation gave you.",
           "nextNodeId": "s7"
         }
       ],
@@ -133,17 +133,17 @@
     },
     {
       "id": "s7",
-      "text": "Hayes offers you a deal. The deal is, by the standards of the navy, generous. The deal is, by the standards of your daughter, an insult.",
+      "text": "Hayes offers you a deal. The deal is, by the standards of the navy, generous. The deal is, by the standards of your daughter, an insult. The road still runs toward Maria's Schooner. Its next turn depends on the difference between choosing “Take the deal” and choosing “Refuse.”",
       "sceneTitle": "Hayes' Move",
       "choices": [
         {
           "text": "Take the deal",
-          "consequence": "You commit to “Take the deal.” The story records the instinct as “Pragmatic” and carries it forward.",
+          "consequence": "You take the deal. The route to Maria's Schooner opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s8"
         },
         {
           "text": "Refuse",
-          "consequence": "“Refuse” closes one possibility and opens another. The moment leaves a clear note behind: Honor.",
+          "consequence": "You choose to refuse. By Maria's Schooner, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s8"
         }
       ],
@@ -152,17 +152,17 @@
     },
     {
       "id": "s8",
-      "text": "Maria has, in her back-room, a schooner you didn't know she had. She has, you realize, been retired in the loud sense — actively.",
+      "text": "Maria has, in her back-room, a schooner you didn't know she had. She has, you realize, been retired in the loud sense — actively. The road still runs toward The Mission. Its next turn depends on the difference between choosing “Use the schooner” and choosing “Decline the schooner.”",
       "sceneTitle": "Maria's Schooner",
       "choices": [
         {
           "text": "Use the schooner",
-          "consequence": "You commit to “Use the schooner.” The story records the instinct as “Asset” and carries it forward.",
+          "consequence": "You choose to use the schooner. By The Mission, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s9"
         },
         {
           "text": "Decline the schooner",
-          "consequence": "Don't drag her in.",
+          "consequence": "You decline the schooner. The route to The Mission opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s9"
         }
       ],
@@ -171,17 +171,17 @@
     },
     {
       "id": "s9",
-      "text": "Your daughter's mission, finally explained: a stolen something, a hostage, a ledger that, if released, would end Hayes' career.",
+      "text": "Your daughter's mission, finally explained: a stolen something, a hostage, a ledger that, if released, would end Hayes' career. Sail will follow either decision, but it will meet a different version of you after “Help her” than after “Negotiate first.”",
       "sceneTitle": "The Mission",
       "choices": [
         {
           "text": "Help her",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Family.",
+          "consequence": "You help her. The route to Sail opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s10"
         },
         {
           "text": "Negotiate first",
-          "consequence": "The decision settles the question for now. Its verdict—Practical—follows you into whatever comes next.",
+          "consequence": "You choose to negotiate first. By Sail, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s10"
         }
       ],
@@ -190,17 +190,17 @@
     },
     {
       "id": "s10",
-      "text": "You sail. The first hours feel old. By the second day you are, weirdly, twenty again, in a body that is fifty.",
+      "text": "You sail. The first hours feel old. By the second day you are, weirdly, twenty again, in a body that is fifty. Both choices lead to Hayes' Pursuit, but “Push hard” arrives there with a different cost than “Pace yourself.”",
       "sceneTitle": "Sail",
       "choices": [
         {
           "text": "Push hard",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Memory.",
+          "consequence": "You commit to push hard. It buys momentum toward Hayes' Pursuit and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         },
         {
           "text": "Pace yourself",
-          "consequence": "You commit to “Pace yourself.” The story records the instinct as “Wisdom” and carries it forward.",
+          "consequence": "You commit to pace yourself. It buys momentum toward Hayes' Pursuit and spends the last protection hesitation gave you.",
           "nextNodeId": "s11"
         }
       ],
@@ -209,17 +209,17 @@
     },
     {
       "id": "s11",
-      "text": "Hayes, on a larger ship, follows. He is faster on open water. You know smaller channels.",
+      "text": "Hayes, on a larger ship, follows. He is faster on open water. You know smaller channels. Storm is already waiting. What changes is whether “Take the channels” or “Outrun on open water” is the instinct you carry into it.",
       "sceneTitle": "Hayes' Pursuit",
       "choices": [
         {
           "text": "Take the channels",
-          "consequence": "There is no taking “Take the channels” back. Local shapes the silence before the next moment arrives.",
+          "consequence": "You commit to take the channels. It buys momentum toward Storm and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         },
         {
           "text": "Outrun on open water",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Confidence.",
+          "consequence": "You commit to outrun on open water. It buys momentum toward Storm and spends the last protection hesitation gave you.",
           "nextNodeId": "s12"
         }
       ],
@@ -228,17 +228,17 @@
     },
     {
       "id": "s12",
-      "text": "A storm finds you. The schooner, by Maria's calm, survives. So do you.",
+      "text": "A storm finds you. The schooner, by Maria's calm, survives. So do you. Tortuga Friends is already waiting. What changes is whether “Push through” or “Wait it out” is the instinct you carry into it.",
       "sceneTitle": "Storm",
       "choices": [
         {
           "text": "Push through",
-          "consequence": "“Push through” closes one possibility and opens another. The moment leaves a clear note behind: Brave.",
+          "consequence": "You choose to push through. By Tortuga Friends, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         },
         {
           "text": "Wait it out",
-          "consequence": "“Wait it out” closes one possibility and opens another. The moment leaves a clear note behind: Wise.",
+          "consequence": "You choose to wait it out. By Tortuga Friends, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s13"
         }
       ],
@@ -247,17 +247,17 @@
     },
     {
       "id": "s13",
-      "text": "Your old crew in Tortuga joins. They are older, slower, more dangerous. The reunion is, briefly, the best night of your decade.",
+      "text": "Your old crew in Tortuga joins. They are older, slower, more dangerous. The reunion is, briefly, the best night of your decade. The Ledger Hide comes either way; its meaning changes with the difference between “Tell them the plan” and “Let them think it's bigger.”",
       "sceneTitle": "Tortuga Friends",
       "choices": [
         {
           "text": "Tell them the plan",
-          "consequence": "There is no taking “Tell them the plan” back. Honest shapes the silence before the next moment arrives.",
+          "consequence": "You commit to tell them the plan. It buys momentum toward The Ledger Hide and spends the last protection hesitation gave you.",
           "nextNodeId": "s14"
         },
         {
           "text": "Let them think it's bigger",
-          "consequence": "You commit to “Let them think it's bigger.” The story records the instinct as “Recruit” and carries it forward.",
+          "consequence": "You choose to let them think it's bigger. By The Ledger Hide, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s14"
         }
       ],
@@ -266,17 +266,17 @@
     },
     {
       "id": "s14",
-      "text": "The ledger is hidden, by your daughter's intelligence, in a chapel. The chapel is also, you realize, where you were married.",
+      "text": "The ledger is hidden, by your daughter's intelligence, in a chapel. The chapel is also, you realize, where you were married. Confrontation, Mid-Sea will follow either decision, but it will meet a different version of you after “Go in” than after “Have her go in.”",
       "sceneTitle": "The Ledger Hide",
       "choices": [
         {
           "text": "Go in",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Memory.",
+          "consequence": "You commit to go in. It buys momentum toward Confrontation, Mid-Sea and spends the last protection hesitation gave you.",
           "nextNodeId": "s15"
         },
         {
           "text": "Have her go in",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Strategy.",
+          "consequence": "You have her go in. The route to Confrontation, Mid-Sea opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s15"
         }
       ],
@@ -285,17 +285,17 @@
     },
     {
       "id": "s15",
-      "text": "Hayes finds you mid-sea. The two ships, briefly, are within hailing distance.",
+      "text": "Hayes finds you mid-sea. The two ships, briefly, are within hailing distance. The Hostage is already waiting. What changes is whether “Hail him” or “Maneuver away” is the instinct you carry into it. In Confrontation, Mid-Sea, the safer route is disappearing faster than the danger.",
       "sceneTitle": "Confrontation, Mid-Sea",
       "choices": [
         {
           "text": "Hail him",
-          "consequence": "You commit to “Hail him.” The story records the instinct as “Words” and carries it forward.",
+          "consequence": "You hail him. The route to The Hostage opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s16"
         },
         {
           "text": "Maneuver away",
-          "consequence": "The decision settles the question for now. Its verdict—Action—follows you into whatever comes next.",
+          "consequence": "You choose to maneuver away. By The Hostage, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s16"
         }
       ],
@@ -304,17 +304,17 @@
     },
     {
       "id": "s16",
-      "text": "The hostage, recovered, turns out to be the wife of a man you once wronged. She forgives you immediately. You realize forgiveness travels strangely.",
+      "text": "The hostage, recovered, turns out to be the wife of a man you once wronged. She forgives you immediately. You realize forgiveness travels strangely. You are unlikely to keep all three. Hayes, Cornered comes either way; its meaning changes with the difference between “Apologize” and “Just nod.”",
       "sceneTitle": "The Hostage",
       "choices": [
         {
           "text": "Apologize",
-          "consequence": "You commit to “Apologize.” The story records the instinct as “Honor” and carries it forward.",
+          "consequence": "You choose to apologize. By Hayes, Cornered, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s17"
         },
         {
           "text": "Just nod",
-          "consequence": "The decision settles the question for now. Its verdict—Quiet—follows you into whatever comes next.",
+          "consequence": "You choose to just nod. By Hayes, Cornered, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s17"
         }
       ],
@@ -323,17 +323,17 @@
     },
     {
       "id": "s17",
-      "text": "Hayes' ship runs aground in your channels. He is alive. He is also, in this corner of the world, not safe.",
+      "text": "Hayes' ship runs aground in your channels. He is alive. He is also, in this corner of the world, not safe. The Town, Looking comes either way; its meaning changes with the difference between “Spare him” and “Take him prisoner.”",
       "sceneTitle": "Hayes, Cornered",
       "choices": [
         {
           "text": "Spare him",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Mercy.",
+          "consequence": "You commit to spare him. It buys momentum toward The Town, Looking and spends the last protection hesitation gave you.",
           "nextNodeId": "s18"
         },
         {
           "text": "Take him prisoner",
-          "consequence": "There is no taking “Take him prisoner” back. Pragmatic shapes the silence before the next moment arrives.",
+          "consequence": "You take him prisoner. The route to The Town, Looking opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s18"
         }
       ],
@@ -342,17 +342,17 @@
     },
     {
       "id": "s18",
-      "text": "The town watches from the dock as you sail back in. The crowd is, somehow, applauding.",
+      "text": "The town watches from the dock as you sail back in. The crowd is, somehow, applauding. Maria's Bar comes either way; its meaning changes with the difference between “Bow” and “Pretend not to notice.” In The Town, Looking, the safer route is disappearing faster than the danger.",
       "sceneTitle": "The Town, Looking",
       "choices": [
         {
           "text": "Bow",
-          "consequence": "You commit to “Bow.” The story records the instinct as “Style” and carries it forward.",
+          "consequence": "You choose to bow. By Maria's Bar, everyone watching will understand exactly which risk you accepted.",
           "nextNodeId": "s19"
         },
         {
           "text": "Pretend not to notice",
-          "consequence": "The decision settles the question for now. Its verdict—Style—follows you into whatever comes next.",
+          "consequence": "You commit to pretend not to notice. It buys momentum toward Maria's Bar and spends the last protection hesitation gave you.",
           "nextNodeId": "s19"
         }
       ],
@@ -361,17 +361,17 @@
     },
     {
       "id": "s19",
-      "text": "Maria pours rum. The crew, your daughter, and you sit at the long table. You realize you have a family you did not, last week, know you had.",
+      "text": "Maria pours rum. The crew, your daughter, and you sit at the long table. You realize you have a family you did not, last week, know you had. Hayes' Letter comes either way; its meaning changes with the difference between “Stay” and “Promise to come back.”",
       "sceneTitle": "Maria's Bar",
       "choices": [
         {
           "text": "Stay",
-          "consequence": "“Stay” closes one possibility and opens another. The moment leaves a clear note behind: Family.",
+          "consequence": "You stay. The route to Hayes' Letter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s20"
         },
         {
           "text": "Promise to come back",
-          "consequence": "You let the choice stand. The path shifts almost imperceptibly, marked by one lasting impulse: Honest.",
+          "consequence": "You commit to promise to come back. It buys momentum toward Hayes' Letter and spends the last protection hesitation gave you.",
           "nextNodeId": "s20"
         }
       ],
@@ -380,17 +380,17 @@
     },
     {
       "id": "s20",
-      "text": "A formal letter from the Navy. It is, against expectation, a pardon. You realize Hayes wrote it himself.",
+      "text": "A formal letter from the Navy. It is, against expectation, a pardon. You realize Hayes wrote it himself. Your Daughter is already waiting. What changes is whether “Accept” or “Frame it but stay private” is the instinct you carry into it.",
       "sceneTitle": "Hayes' Letter",
       "choices": [
         {
           "text": "Accept",
-          "consequence": "The choice lands, and the scene changes around it. If it has a name, that name is Honor.",
+          "consequence": "You accept. The route to Your Daughter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         },
         {
           "text": "Frame it but stay private",
-          "consequence": "There is no taking “Frame it but stay private” back. Smart shapes the silence before the next moment arrives.",
+          "consequence": "You frame it but stay private. The route to Your Daughter opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "s21"
         }
       ],
@@ -399,22 +399,22 @@
     },
     {
       "id": "s21",
-      "text": "She tells you, on the porch, that she will visit again. You tell her you will let her go without making a scene about it. You make a small scene anyway.",
+      "text": "She tells you, on the porch, that she will visit again. You tell her you will let her go without making a scene about it. You make a small scene anyway. You are unlikely to keep all three.",
       "sceneTitle": "Your Daughter",
       "choices": [
         {
           "text": "Make the scene short",
-          "consequence": "“Make the scene short” closes one possibility and opens another. The moment leaves a clear note behind: Mercy.",
+          "consequence": "You commit to make the scene short. It buys momentum toward Truly Retired and spends the last protection hesitation gave you.",
           "nextNodeId": "end_retired"
         },
         {
           "text": "Make the scene plain",
-          "consequence": "The decision settles the question for now. Its verdict—Honest—follows you into whatever comes next.",
+          "consequence": "You commit to make the scene plain. It buys momentum toward The Old Crew and spends the last protection hesitation gave you.",
           "nextNodeId": "end_crew"
         },
         {
           "text": "Take the third path",
-          "consequence": "Some endings reveal themselves last.",
+          "consequence": "Some endings reveal themselves last. You take the third path. The route to The Chapel, Again opens fast, while the margin for a second attempt disappears.",
           "nextNodeId": "end_chapel"
         }
       ],
@@ -423,7 +423,7 @@
     },
     {
       "id": "end_retired",
-      "text": "You stay in your cove. The bar keeps you in rum. Maria keeps you in stories. Your daughter visits twice a year. The waves do, in fact, ignore you mostly. You like that.",
+      "text": "You stay in your cove. The bar keeps you in rum. Maria keeps you in stories. Your daughter visits twice a year. The waves do, in fact, ignore you mostly. You like that. You are unlikely to keep all three.",
       "sceneTitle": "Truly Retired",
       "choices": [],
       "isEnding": true,
@@ -431,7 +431,7 @@
     },
     {
       "id": "end_crew",
-      "text": "You sail occasionally — small jobs, smaller crews — and become, in time, a kind of grandfather to a new generation of sailors. The Navy, by treaty and convenience, leaves you alone.",
+      "text": "You sail occasionally — small jobs, smaller crews — and become, in time, a kind of grandfather to a new generation of sailors. The Navy, by treaty and convenience, leaves you alone. The road into The Old Crew began with “Make the scene plain” in Your Daughter; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Old Crew",
       "choices": [],
       "isEnding": true,
@@ -439,7 +439,7 @@
     },
     {
       "id": "end_chapel",
-      "text": "You marry, late, a woman you should have married decades earlier. Maria officiates because nobody else is left. The chapel — same one — laughs at you, kindly, when the kiss takes too long.",
+      "text": "You marry, late, a woman you should have married decades earlier. Maria officiates because nobody else is left. The chapel — same one — laughs at you, kindly, when the kiss takes too long. The road into The Chapel, Again began with “Take the third path” in Your Daughter; here, that decision stops being a moment and becomes a life.",
       "sceneTitle": "The Chapel, Again",
       "choices": [],
       "isEnding": true,
